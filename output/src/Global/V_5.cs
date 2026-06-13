@@ -5,6 +5,8 @@
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÎÍÎÌÍÍÎÌÏÍÏÌÍÍÍÌÍÍÏÍÏÍÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -24,6 +26,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -43,6 +47,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -62,6 +68,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÎÌÏÎÏÎÎÎÍÎÎÌÎÎÍÏÎÌÏÌÌÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -81,6 +89,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,ÍÏÎÎÎÎÎÏÍÌÎÌÌÍÏÎÌÏÏÌÏÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -100,6 +110,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,VRC.SDKBase.VRCDroneApi> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -119,6 +131,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Tuple`2<...,...>,UnityEngine.Object> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -138,6 +152,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.Sprite> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -157,6 +173,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<ÍÏÎÌÏÍÍÌÍÏÍÍÌÌÌÏÎÌÍÌÍÍÌ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -176,6 +194,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÌÎÍÌÍÎÍÏÏÌÏÌÍÎÎÍÍÍÍÍÎÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -195,6 +215,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.DateTime> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -214,6 +236,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.FavoriteModel> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -233,6 +257,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -252,6 +278,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.List`1<ÏÌÍÍÍÏÌÌÎÍÏÎÌÏÏÌÍÌÍÍÏÏÍ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -271,6 +299,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÍÎÏÏÏÎÎÎÏÎÏÍÌÌÍÏÎÏÏÏÍÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -290,6 +320,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÌÌÌÏÌÏÍÎÍÎÍÍÌÏÍÌÍÍÎÍÌÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -309,6 +341,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -328,6 +362,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,System.ValueTuple`3<int,UnityEngine.Vector3,float>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x4602570
@@ -347,6 +383,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Behaviour,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3797120
@@ -366,6 +404,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -385,6 +425,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.BoxCollider,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3797120
@@ -404,6 +446,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -423,6 +467,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,float> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -442,6 +488,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Collections.Generic.List`1<ÌÍÏÏÏÏÎÏÏÏÍÌÏÍÎÎÌÎÌÎÌÏÏ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -461,6 +509,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÏÌÍÌÏÏÏÌÎÍÍÏÎÍÎÍÎÏÏÏÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -480,6 +530,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -499,6 +551,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -518,6 +572,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,ÏÍÍÍÏÏÎÏÏÌÎÌÌÍÍÌÌÌÍÍÏÏÏ[]> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -537,6 +593,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,System.Collections.Generic.List`1<ÎÌÎÌÏÍÎÌÌÏÎÌÏÍÌÌÎÎÎÌÎÏÎ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -556,6 +614,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.UI.Toggle> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -575,6 +635,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x657860F8,VRC.Localization.LocalizableString> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x4600A50
@@ -594,6 +656,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÏÎÎÎÎÍÌÎÎÌÏÌÎÏÏÏÌÌÏÍÍÌ,ÎÏÌÎÎÌÎÏÏÏÏÌÏÎÎÏÌÏÍÏÎÎÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -613,6 +677,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÎÌÌÍÌÏÎÍÏÍÍÏÏÌÍÏÍÏÌÏÏÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -632,6 +698,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -651,6 +719,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÍÎÌÍÌÍÌÍÎÎÏÎÍÌÎÎÌÌÎÍÌÌ,UnityEngine.RectTransform> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -670,6 +740,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ,ÌÏÌÏÏÌÎÌÏÏÌÌÏÌÎÌÏÌÍÏÎÌÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -689,6 +761,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ,ÌÏÌÏÏÌÎÌÏÏÌÌÏÌÎÌÏÌÍÏÎÌÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -708,6 +782,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65888FD8,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3797120
@@ -727,6 +803,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÏÍÍÌÏÍÎÏÏÍÏÏÎÍÌÏÍÏÍÍÍÎ,ÎÏÍÌÌÏÏÎÍÏÍÍÏÌÏÍÍÍÏÍÏÏÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -746,6 +824,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÍÎÌÍÎÏÏÏÌÍÍÏÏÏÌÌÎÌÏÍÍÌ,ÍÌÍÎÏÏÎÎÏÍÎÌÌÍÌÌÏÎÌÍÌÎÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -765,6 +845,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÌÍÍÎÎÌÏÌÍÏÌÌÏÌÌÏÌÍÎÏÍÌÏ,ÍÍÎÌÍÎÏÏÏÌÍÍÏÏÏÌÌÎÌÏÍÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -784,6 +866,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÎÍÍÍÏÍÌÍÏÏÍÍÌÍÎÏÌÌÍÏÍÏÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -803,6 +887,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÎÌÍÎÌÏÏÏÍÎÍÍÏÏÍÌÍÍÏÍÍÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -822,6 +908,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÍÏÏÎÎÎÎÎÌÎÍÍÏÌÎÍÎÌÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -841,6 +929,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.StyleComplexSelector> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -860,10 +950,13 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<string,...<...>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Text.Character> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -883,6 +976,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,System.Collections.Generic.List`1<UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -902,6 +997,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x462B940
@@ -921,6 +1018,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -940,6 +1039,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -959,6 +1060,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Text.SpriteCharacter> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -978,6 +1081,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Text.SpriteGlyph> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -997,6 +1102,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,UnityEngine.TextCore.Text.TextStyle> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1016,6 +1123,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,UnityEngine.TextCore.Text.FontAsset> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1035,10 +1144,13 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÏÍÌÎÍÎÏÎÌÏÏÏÍÍÍÍÌÎÌÏÎÎ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.StyleSheets.StylePropertyValue> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -1058,18 +1170,23 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÏÎÏÏÎÏÌÏÎÍÏÍÎÏÎÌÌÌÎÎÎÍ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiContainer> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<DG.Tweening.Tween,DG.Tweening.Core.TweenLink> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÍÎÍÏÌÍÎÏÏÌÌÍÎÏÎÌÍÎÌÏÏÍ,UnityEngine.Texture2D> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1089,6 +1206,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÍÎÍÏÌÍÎÏÏÌÌÍÎÏÎÌÍÎÌÏÏÍ,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1108,6 +1227,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,PassthroughMeshInstance> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x4604240
@@ -1127,6 +1248,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Guid,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1146,6 +1269,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<OVRSpace,SpaceQueryResult> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -1165,6 +1290,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<OVRGrabbable,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1184,10 +1311,13 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65703490,byte[]> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x658BF8A0,OVRGLTFAnimatinonNode> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1207,6 +1337,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,UnityEngine.EventSystems.OVRPointerEventData> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1226,6 +1358,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Camera,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3797120
@@ -1245,6 +1379,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1264,10 +1400,13 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_Input_BindingFile_Source_Input_StringDictionary> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,TrackingReferenceObject> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1287,6 +1426,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<Valve.VR.ISteamVR_Action_In_Source,ActionHintInfo> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1306,6 +1447,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<Cinemachine.CinemachineVirtualCameraBase,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1325,6 +1468,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.AnimationClip,System.Collections.Generic.List`1<HashPair>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1344,6 +1489,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<Cinemachine.ICinemachineCamera,object> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1363,6 +1510,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.ValueTuple`2<UnityEngine.Transform,UnityEngine.Transform>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -1382,6 +1531,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,TweenData> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1401,6 +1552,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65994DB8,UnityEngine.Rendering.PostProcessing.Monitor> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1420,6 +1573,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x659956A8,System.Collections.Generic.List`1<SerializedBundleRef>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1439,6 +1594,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Rendering.PostProcessing.PostProcessBundle> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1458,6 +1615,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Shader,UnityEngine.Rendering.PostProcessing.PropertySheet> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1477,6 +1636,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.GUIStyle> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1496,6 +1657,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÍÍÍÌÍÎÌÌÏÍÍÎÏÎÍÎÍÍÍÎÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1515,6 +1678,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<UnityEngine.Vector2>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1534,6 +1699,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1553,6 +1720,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.UI.Core.Styles.StyleElement,string[]> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1572,6 +1741,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Action`1<object>,object> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1591,6 +1762,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Func`3<object,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask>,System.ValueTuple`2<object,System.Threading.CancellationTokenSource>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -1610,6 +1783,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.IList> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1629,6 +1804,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.IDictionary> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1648,6 +1825,8 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Renderer,UnityEngine.MeshFilter> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1667,6 +1846,9 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Dynamic.ExpandoObject _expando; // 0x10
+    public int _expandoVersion; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6669D30
     public void CheckVersion(){} // RVA: 0x666A900
@@ -1683,24 +1865,30 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.UriParser> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Tuple`2<System.Guid,string>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Guid,Mono.Net.Security.MobileTlsProvider> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÏÏÍÍÌÍÎÍÏÎÎÏÏÎÍÍÌÌÌÍÌÌÏ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.UI.Core.Styles.StyleResource,ÍÎÏÍÌÏÍÏÌÏÍÏÍÌÏÌÍÎÎÌÌÎÎ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.ValueTuple`2<UnityEngine.Material,int>> _dictionary; // 0x10
 }

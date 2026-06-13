@@ -23,9 +23,8 @@ namespace ThirdParty.Unity.UnityEngine.Jobs
 
     public class TransformAccess
     {
-        public object Header;
-        public object IntermediateScriptingStructName;
-        public object CodegenOptions;
+        public UIntPtr Header; // 0x10
+        public int IntermediateScriptingStructName; // 0x18
 
         // ── Methods ──
         public void get_position(){} // RVA: 0x7143090
@@ -53,6 +52,8 @@ namespace ThirdParty.Unity.UnityEngine.Jobs
 
     public class TransformAccessArray
     {
+        public UIntPtr m_TransformArray; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x71439D0 | overloaded x2
         public void Allocate(){} // RVA: 0x71439F0

@@ -7,6 +7,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 {
     public class CheckSumAndSizeWriteStream
     {
+        public System.IO.Stream _baseStream; // 0x28
+        public System.IO.Stream _baseBaseStream; // 0x30
+        public long _position; // 0x38
+        public uint _checksum; // 0x40
+        public bool _leaveOpenOnClose; // 0x44
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67F6FF0
         public void get_Length(){} // RVA: 0x67F7210
@@ -41,6 +47,10 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class DeflateInput
     {
+        public byte[] <Buffer>k__BackingField; // 0x10
+        public int <Count>k__BackingField; // 0x18
+        public int <StartIndex>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0x2F8380
         public void set_Buffer(){} // RVA: 0x2DEE30
@@ -56,6 +66,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class DeflateManagedStream
     {
+        public System.IO.Stream _stream; // 0x28
+        public 0x65854760 _mode; // 0x30
+        public bool _leaveOpen; // 0x34
+        public System.IO.Compression.InflaterManaged _inflater; // 0x38
+        public System.IO.Compression.DeflaterManaged _deflater; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67E3CD0
         public void InitializeInflater(){} // RVA: 0x67E3E30
@@ -95,6 +111,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class DeflateStream
     {
+        public System.IO.Stream base_stream; // 0x28
+        public 0x65854760 mode; // 0x30
+        public bool leaveOpen; // 0x34
+        public bool disposed; // 0x35
+        public System.IO.Compression.DeflateStreamNative native; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CC6410 | overloaded x7
         public void Finalize(){} // RVA: 0x5CB2900
@@ -154,6 +176,10 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class FastEncoder
     {
+        public System.IO.Compression.FastEncoderWindow _inputWindow; // 0x10
+        public System.IO.Compression.Match _currentMatch; // 0x18
+        public double _lastCompressionRatio; // 0x20
+
         // ── Methods ──
         public void get_BytesInHistory(){} // RVA: 0x1A34510
         public void get_UnprocessedInput(){} // RVA: 0x67E6F60
@@ -183,6 +209,10 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class FastEncoderWindow
     {
+        public byte[] _window; // 0x10
+        public int _bufPos; // 0x18
+        public int _bufEnd; // 0x1C
+
         // ── Methods ──
         public void get_BytesAvailable(){} // RVA: 0x1A35AF0
         public void get_UnprocessedInput(){} // RVA: 0x67E8340
@@ -200,6 +230,8 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class GZipStream
     {
+        public System.IO.Compression.DeflateStream _deflateStream; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CC53A0 | overloaded x3
         public void get_CanRead(){} // RVA: 0x6CC54A0
@@ -230,6 +262,9 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class HuffmanTree
     {
+        public int _tableBits; // 0x10
+        public short[] _table; // 0x18
+
         // ── Methods ──
         public void get_StaticLiteralLengthTree(){} // RVA: 0x67E8590
         public void get_StaticDistanceTree(){} // RVA: 0x67E85F0
@@ -277,8 +312,8 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class InputBuffer
     {
-        public object State;
-        public object Position;
+        public byte[] State; // 0x10
+        public int Position; // 0x18
 
         // ── Methods ──
         public void get_AvailableBits(){} // RVA: 0xCEF5B0
@@ -297,6 +332,11 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class Match
     {
+        public 0x659C9738 <State>k__BackingField; // 0x10
+        public int <Position>k__BackingField; // 0x14
+        public int <Length>k__BackingField; // 0x18
+        public byte <Symbol>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_State(){} // RVA: 0x32A5C0
         public void set_State(){} // RVA: 0x2E00C0
@@ -310,8 +350,9 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class OutputBuffer
     {
-        public object FreeBytes;
-        public object AvailableBytes;
+        public byte[] FreeBytes; // 0x10
+        public int AvailableBytes; // 0x18
+        public uint _bitBuf; // 0x1C
 
         // ── Methods ──
         public void UpdateBuffer(){} // RVA: 0x1A3E640
@@ -330,8 +371,8 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class OutputWindow
     {
-        public object CanRead;
-        public object CanSeek;
+        public byte[] CanRead; // 0x10
+        public int CanSeek; // 0x18
 
         // ── Methods ──
         public void Write(){} // RVA: 0x67EAF10
@@ -345,6 +386,9 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class PositionPreservingWriteOnlyStreamWrapper
     {
+        public System.IO.Stream _stream; // 0x28
+        public long _position; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67EB470
         public void get_CanRead(){} // RVA: 0x2DD320
@@ -374,6 +418,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class SubReadStream
     {
+        public long _startInSuperStream; // 0x28
+        public long _positionInSuperStream; // 0x30
+        public long _endInSuperStream; // 0x38
+        public System.IO.Stream _superStream; // 0x40
+        public bool _canRead; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67F6A50
         public void get_Length(){} // RVA: 0x67F6B20
@@ -394,6 +444,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class WrappedStream
     {
+        public System.IO.Stream _baseStream; // 0x28
+        public bool _closeBaseStream; // 0x30
+        public System.Action`1<System.IO.Compression.ZipArchiveEntry> _onClosed; // 0x38
+        public System.IO.Compression.ZipArchiveEntry _zipArchiveEntry; // 0x40
+        public bool _isDisposed; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67F63A0 | overloaded x3
         public void get_Length(){} // RVA: 0x67F63D0
@@ -430,6 +486,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class Zip64ExtraField
     {
+        public ushort _size; // 0x10
+        public System.Nullable`1<long> _uncompressedSize; // 0x18
+        public System.Nullable`1<long> _compressedSize; // 0x28
+        public System.Nullable`1<long> _localHeaderOffset; // 0x38
+        public System.Nullable`1<int> _startDiskNumber; // 0x48
+
         // ── Methods ──
         public void get_TotalSize(){} // RVA: 0x67F3820
         public void get_UncompressedSize(){} // RVA: 0x1F6F090
@@ -449,6 +511,12 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class ZipArchive
     {
+        public System.IO.Stream _archiveStream; // 0x10
+        public System.IO.Compression.ZipArchiveEntry _archiveStreamOwner; // 0x18
+        public System.IO.BinaryReader _archiveReader; // 0x20
+        public 0x659C9B00 _mode; // 0x28
+        public System.Collections.Generic.List`1<System.IO.Compression.ZipArchiveEntry> _entries; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67EB930 | overloaded x2
         public void get_Mode(){} // RVA: 0x791DC0
@@ -476,6 +544,13 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class ZipArchiveEntry
     {
+        public System.IO.Compression.ZipArchive _archive; // 0x10
+        public bool _originallyInArchive; // 0x18
+        public int _diskNumberStart; // 0x1C
+        public 0x659C9F78 _versionMadeByPlatform; // 0x20
+        public 0x659C9F20 _versionMadeBySpecification; // 0x22
+        public 0x659C9F20 _versionToExtract; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67EE6B0 | overloaded x3
         public void get_FullName(){} // RVA: 0xA1C8C0
@@ -538,9 +613,9 @@ namespace ThirdParty.DotNet.System.IO.Compression
 
     public class ZipGenericExtraField
     {
-        public object TotalSize;
-        public object UncompressedSize;
-        public object CompressedSize;
+        public ushort TotalSize; // 0x10
+        public ushort UncompressedSize; // 0x12
+        public byte[] CompressedSize; // 0x18
 
         // ── Methods ──
         public void get_Tag(){} // RVA: 0x1FA63F0

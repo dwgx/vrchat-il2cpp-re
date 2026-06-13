@@ -193,6 +193,12 @@ namespace ThirdParty.DotNet.System.Reflection.Emit
 
     public class OpCode
     {
+        public byte op1; // 0x10
+        public byte op2; // 0x11
+        public byte push; // 0x12
+        public byte pop; // 0x13
+        public byte size; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DA6060
         public void GetHashCode(){} // RVA: 0x5DA60A0
@@ -247,6 +253,8 @@ namespace ThirdParty.DotNet.System.Reflection.Emit
 
     public class TypeBuilder
     {
+        public int UnspecifiedTypeSize;
+
         // ── Methods ──
         public void get_Assembly(){} // RVA: 0x5DAAAC0
         public void get_AssemblyQualifiedName(){} // RVA: 0x5DAAB00

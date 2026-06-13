@@ -22,6 +22,8 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÏÍÍÍÌÌÍÍÎÍÌÏÌÏÏÏÍÏÍÎÎÌÍ</summary>
     public class BaseClass3Impl_3164_0D48
     {
+        public int ÍÎÌÌÍÍÌÌÎÎÏÎÍÍÎÌÌÎÏÌÏÏÍ;
+
         // ── Methods ──
         public void set_Options(){} // RVA: 0x30B890
         public void Cleanup(){} // RVA: 0x30B0C0
@@ -51,6 +53,10 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÏÌÌÎÍÏÏÏÎÎÎÏÏÌÏÌÏÌÎÌÍÌÎ</summary>
     public class BaseClass4ImplSiblingSiblingSibling_5BA0
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public ÏÎÎÏÍÍÍÌÌÏÎÎÏÎÍÍÍÎÌÏÏÍÌ <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x18
+        public ÎÌÌÎÌÌÌÍÏÌÍÍÎÌÎÎÍÎÌÎÎÍÏ <ÍÏÍÏÌÏÍÎÏÍÏÎÍÌÍÎÌÌÎÏÎÎÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x343E80
         public void MoveNext(){} // RVA: 0x1B505D0
@@ -89,6 +95,9 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÎÎÎÍÎÍÎÎÍÏÎÏÍÍÎÏÎÎÎÌÎÍÎ</summary>
     public class BaseClass4ImplSiblingSibling_742D
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public object <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xEB3740
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -98,19 +107,25 @@ namespace VRC.Core.Base
         public void Remove(){} // RVA: 0xDE40
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void Initialize(){} // RVA: 0x343E80
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        // ── 15 unresolved (hash) ──
+        // ── 16 unresolved (hash) ──
         public void m_FBE(){} // RVA: 0xEB3980
         public void m_D2C(){} // RVA: 0x2DEE30
         public void m_A2E(){} // RVA: 0xEB3A20
         public void m_C8B(){} // RVA: 0xEB3C60
         public void m_C1F(){} // RVA: 0xEB3D60
-        // ... 10 more unresolved methods
+        // ... 11 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÏÎÎÎÌÌÎÍÌÌÌÌÍÍÍÎÎÏÎÌÌ</summary>
     public class BaseClass4ImplSiblingSibling_BABF
     {
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x20
+        public 0x65888848 <ÏÎÏÏÎÍÌÍÏÌÏÍÏÍÍÎÏÍÍÎÏÏÎ>k__BackingField; // 0x48
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x50
+        public System.Collections.IList <ÌÏÌÎÍÏÏÌÏÍÌÎÍÍÌÎÌÏÏÌÏÏÏ>k__BackingField; // 0x58
+        public ÍÏÌÌÎÏÏÏÍÎÌÌÎÏÏÎÌÏÏÎÌÏÎ <ÏÏÏÍÎÌÍÏÏÍÏÌÎÌÌÎÍÌÎÍÎÎÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÌÎÎÏÎÍÍÎÌÍÎÏÍÌÍÏÌÏÎÌÏÍ>k__BackingField; // 0x68
+
         // ── Methods ──
         public void Constructor(){} // RVA: 0x37B380
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
@@ -146,6 +161,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
     public class BaseClass4ImplSibling_13EA
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField;
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField;
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField;
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0xC770
         public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0xCD60
@@ -176,6 +196,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
     public class BaseClass4ImplSibling_13EA
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x5037970
@@ -206,6 +231,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
     public class BaseClass4ImplSibling_13EA
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380
@@ -236,6 +266,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
     public class BaseClass4ImplSibling_13EA
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380
@@ -266,6 +301,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
     public class BaseClass4ImplSibling_13EA
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380

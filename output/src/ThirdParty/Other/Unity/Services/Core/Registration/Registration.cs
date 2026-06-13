@@ -7,6 +7,16 @@ namespace ThirdParty.Other.Unity.Services.Core.Registration
 {
     public class CorePackageInitializer
     {
+        public Unity.Services.Core.Scheduler.Internal.ActionScheduler <ActionScheduler>k__BackingField; // 0x10
+        public Unity.Services.Core.Device.InstallationId <InstallationId>k__BackingField; // 0x18
+        public Unity.Services.Core.Configuration.ProjectConfiguration <ProjectConfig>k__BackingField; // 0x20
+        public Unity.Services.Core.Environments.Internal.Environments <Environments>k__BackingField; // 0x28
+        public Unity.Services.Core.Configuration.ExternalUserId <ExternalUserId>k__BackingField; // 0x30
+        public Unity.Services.Core.Configuration.Internal.ICloudProjectId <CloudProjectId>k__BackingField; // 0x38
+        public Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory <DiagnosticsFactory>k__BackingField; // 0x40
+        public Unity.Services.Core.Telemetry.Internal.IMetricsFactory <MetricsFactory>k__BackingField; // 0x48
+        public Unity.Services.Core.Threading.Internal.UnityThreadUtilsInternal <UnityThreadUtils>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_ActionScheduler(){} // RVA: 0x2F8380
         public void set_ActionScheduler(){} // RVA: 0x2DEE30

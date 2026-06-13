@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
-// Classes: 20
+// Classes: 22
 // Methods: 632
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
@@ -26,8 +26,18 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
         public void get_Item(){} // RVA: 0xCE10
     }
 
+    public class IJEnumerable`1
+    {
+    }
+
+    public class IJEnumerable`1
+    {
+    }
+
     public class JArray
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JToken> _values; // 0x58
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x6023E30
         public void LoadAsync(){} // RVA: 0x6024120 | overloaded x2
@@ -59,6 +69,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JConstructor
     {
+        public string _name; // 0x58
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JToken> _values; // 0x60
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x60266E0
         public void LoadAsync(){} // RVA: 0x60269D0 | overloaded x2
@@ -80,6 +93,12 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JContainer
     {
+        public System.ComponentModel.ListChangedEventHandler _listChanged; // 0x30
+        public System.ComponentModel.AddingNewEventHandler _addingNew; // 0x38
+        public System.Collections.Specialized.NotifyCollectionChangedEventHandler _collectionChanged; // 0x40
+        public object _syncRoot; // 0x48
+        public bool _busy; // 0x50
+
         // ── Methods ──
         public void ReadTokenFromAsync(){} // RVA: 0x6028D30
         public void ReadContentFromAsync(){} // RVA: 0x6029000
@@ -184,6 +203,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JEnumerable`1
     {
+        public Newtonsoft.Json.Linq.JEnumerable`1<T> Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void GetEnumerator(){} // RVA: 0xCD60
@@ -196,6 +217,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JObject : System.Collections.Generic
     {
+        public Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties; // 0x58
+        public System.ComponentModel.PropertyChangedEventHandler PropertyChanged; // 0x60
+        public System.ComponentModel.PropertyChangingEventHandler PropertyChanging; // 0x68
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x60303F0
         public void LoadAsync(){} // RVA: 0x6030650 | overloaded x2
@@ -257,6 +282,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JProperty
     {
+        public JPropertyList _content; // 0x58
+        public string _name; // 0x60
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x6036270 | overloaded x2
         public void WriteValueAsync(){} // RVA: 0x6036590
@@ -301,6 +329,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JPropertyKeyedCollection
     {
+        public System.Collections.Generic.IEqualityComparer`1<string> Comparer;
+        public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Linq.JToken> _dictionary; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x60393F0
         public void AddKey(){} // RVA: 0x60394D0
@@ -335,6 +366,21 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JToken
     {
+        public Newtonsoft.Json.Linq.JTokenEqualityComparer _equalityComparer;
+        public Newtonsoft.Json.Linq.JContainer _parent; // 0x10
+        public Newtonsoft.Json.Linq.JToken _previous; // 0x18
+        public Newtonsoft.Json.Linq.JToken _next; // 0x20
+        public object _annotations; // 0x28
+        public 0x658E7490[] BooleanTypes; // 0x8
+        public 0x658E7490[] NumberTypes; // 0x10
+        public 0x658E7490[] BigIntegerTypes; // 0x18
+        public 0x658E7490[] StringTypes; // 0x20
+        public 0x658E7490[] GuidTypes; // 0x28
+        public 0x658E7490[] TimeSpanTypes; // 0x30
+        public 0x658E7490[] UriTypes; // 0x38
+        public 0x658E7490[] CharTypes; // 0x40
+        public 0x658E7490[] DateTimeTypes; // 0x48
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x603BC80 | overloaded x2
         public void ReadFromAsync(){} // RVA: 0x603BD10 | overloaded x2
@@ -417,6 +463,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JTokenReader
     {
+        public Newtonsoft.Json.Linq.JToken _root; // 0x78
+        public string _initialPath; // 0x80
+        public Newtonsoft.Json.Linq.JToken _parent; // 0x88
+        public Newtonsoft.Json.Linq.JToken _current; // 0x90
+
         // ── Methods ──
         public void get_CurrentToken(){} // RVA: 0x796DE0
         public void .ctor(){} // RVA: 0x604AD40 | overloaded x2
@@ -436,6 +487,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JTokenWriter
     {
+        public Newtonsoft.Json.Linq.JContainer _token; // 0x60
+        public Newtonsoft.Json.Linq.JContainer _parent; // 0x68
+
         // ── Methods ──
         public void WriteTokenAsync(){} // RVA: 0x604C600
         public void get_CurrentToken(){} // RVA: 0x4C7C50
@@ -462,6 +516,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JValue
     {
+        public 0x658E7490 _valueType; // 0x30
+        public object _value; // 0x38
+
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x604E7D0
         public void .ctor(){} // RVA: 0x604F960 | overloaded x17
@@ -510,7 +567,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JsonCloneSettings
     {
-        public object CommentHandling;
+        public Newtonsoft.Json.Linq.JsonCloneSettings CommentHandling;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BD7E0
@@ -521,9 +578,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JsonLoadSettings
     {
-        public object MergeArrayHandling;
-        public object MergeNullValueHandling;
-        public object PropertyNameComparison;
+        public 0x658E6258 MergeArrayHandling; // 0x10
+        public 0x658E75F0 MergeNullValueHandling; // 0x14
+        public 0x658E62B0 PropertyNameComparison; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x603B980
@@ -537,8 +594,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JsonMergeSettings
     {
-        public object RegexMatchTimeout;
-        public object ErrorWhenNoMatch;
+        public 0x658E7648 RegexMatchTimeout; // 0x10
+        public 0x658E76A0 ErrorWhenNoMatch; // 0x14
+        public 0x657DC208 _propertyNameComparison; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x603BAE0
@@ -552,6 +610,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JsonSelectSettings
     {
+        public System.Nullable`1<System.TimeSpan> <RegexMatchTimeout>k__BackingField; // 0x10
+        public bool <ErrorWhenNoMatch>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_RegexMatchTimeout(){} // RVA: 0x196ABE0
         public void set_RegexMatchTimeout(){} // RVA: 0x196ABF0

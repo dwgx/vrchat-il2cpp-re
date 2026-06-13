@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 {
     public class OnScreenButton
     {
+        public string m_ControlPath; // 0x38
+
         // ── Methods ──
         public void OnPointerUp(){} // RVA: 0x6EC07D0
         public void OnPointerDown(){} // RVA: 0x6EC0820
@@ -17,6 +19,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 
     public class OnScreenControl
     {
+        public UnityEngine.InputSystem.InputControl m_Control; // 0x20
+        public UnityEngine.InputSystem.OnScreen.OnScreenControl m_NextControlOnDevice; // 0x28
+        public UnityEngine.InputSystem.LowLevel.InputEventPtr m_InputEventPtr; // 0x30
+        public int s_nbActiveInstances;
+
         // ── Methods ──
         public void get_controlPath(){} // RVA: 0x391BC0
         public void set_controlPath(){} // RVA: 0x6EC0870
@@ -35,6 +42,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 
     public class OnScreenStick
     {
+        public string kDynamicOriginClickable;
+        public float m_MovementRange; // 0x38
+        public float m_DynamicOriginRange; // 0x3C
+        public string m_ControlPath; // 0x40
+        public 0x6586C700 m_Behaviour; // 0x48
+
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x6EC3820 | overloaded x2
         public void OnDrag(){} // RVA: 0x6EC23E0

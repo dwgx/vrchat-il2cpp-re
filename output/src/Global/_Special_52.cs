@@ -278,6 +278,9 @@ public class <SumAwaitWithCancellationAsync>d__7`1 : <>t__builder
 
 public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerator>d__25
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x78B0AC0
@@ -290,6 +293,9 @@ public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerato
 
 public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerator>d__40
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9809FF0
@@ -302,6 +308,9 @@ public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerato
 
 public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerator>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9805040
@@ -314,6 +323,9 @@ public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerato
 
 public class <System-Collections-IEnumerable-GetEnumerator>d__6
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -326,6 +338,9 @@ public class <System-Collections-IEnumerable-GetEnumerator>d__6
 
 public class <System-Collections-IEnumerable-GetEnumerator>d__6
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -338,6 +353,9 @@ public class <System-Collections-IEnumerable-GetEnumerator>d__6
 
 public class <System-Collections-IEnumerable-GetEnumerator>d__9
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -350,6 +368,9 @@ public class <System-Collections-IEnumerable-GetEnumerator>d__9
 
 public class <System-Collections-IEnumerable-GetEnumerator>d__9
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -362,6 +383,9 @@ public class <System-Collections-IEnumerable-GetEnumerator>d__9
 
 public class <TakeIterator>d__25`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -376,6 +400,9 @@ public class <TakeIterator>d__25`1
 
 public class <TakeIterator>d__25`1
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.IReadOnlyDictionary`2<string,object> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x3489B20
@@ -390,6 +417,9 @@ public class <TakeIterator>d__25`1
 
 public class <TeleportHintCoroutine>d__106
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -401,6 +431,9 @@ public class <TeleportHintCoroutine>d__106
 
 public class <TestButtonHints>d__44
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -412,6 +445,9 @@ public class <TestButtonHints>d__44
 
 public class <TestButtonHints>d__5
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -423,6 +459,9 @@ public class <TestButtonHints>d__5
 
 public class <TestTextHints>d__45
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -434,6 +473,9 @@ public class <TestTextHints>d__45
 
 public class <TestTextHints>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -495,6 +537,9 @@ public class <TimeoutWithoutException>d__15`1 : [I
 
 public class <TimerCoroutine>d__11
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -513,6 +558,9 @@ public class <ToArrayAsync>d__0`1 : <>t__builder
 
 public class <ToBytes>d__30
 {
+    public int <>1__state; // 0x10
+    public byte <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x5AD0910
@@ -576,6 +624,9 @@ public class <ToDictionaryAwaitWithCancellationAsync>d__5`3 : <>t__builder
 
 public class <ToEnumerable>d__14`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -645,6 +696,9 @@ public class <ToLookupAwaitWithCancellationAsync>d__5`3 : <>t__builder
 
 public class <Tokenize>d__8
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.InputSystem.Utilities.Substring <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -672,6 +726,9 @@ public class <TryPrepareNextCacheFileAsync>d__29 : [I
 
 public class <TurnToTarget>d__33
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -683,6 +740,9 @@ public class <TurnToTarget>d__33
 
 public class <UnionIterator>d__71`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -698,6 +758,9 @@ public class <UnionIterator>d__71`1
 
 public class <UnionIterator>d__71`1
 {
+    public int <>1__state; // 0x10
+    public char <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x35CA160
@@ -713,6 +776,9 @@ public class <UnionIterator>d__71`1
 
 public class <UnionIterator>d__71`1
 {
+    public int <>1__state; // 0x10
+    public byte <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x35C96A0
@@ -798,6 +864,9 @@ public class <Unwrap>d__39 : [I
 
 public class <UnwrapWaitAsyncOperation>d__22
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -809,6 +878,9 @@ public class <UnwrapWaitAsyncOperation>d__22
 
 public class <UnwrapWaitForSeconds>d__21
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -820,6 +892,9 @@ public class <UnwrapWaitForSeconds>d__21
 
 public class <UpdateBounds>d__14
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

@@ -8,6 +8,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÍÎÌÌÏÍÍÎÎÏÌÍÏÏÏÎÎÏ</summary>
     public class IEnumerableImpl_0799
     {
+        public ÍÌÎÍÌÍÍÍÏÎÌÍÌÍÌÏÎÎÎÌÍÍÍ<T>[] ÍÏÏÏÍÍÎÍÎÎÏÍÍÏÏÌÏÍÌÏÏÌÎ;
+        public int ÎÏÌÌÏÏÏÎÌÌÌÍÍÎÏÎÌÌÏÌÏÍÎ;
+        public int ÎÌÍÎÌÎÏÌÌÏÍÌÏÌÌÌÏÎÏÏÎÎÌ;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xD840
         public void get_Count_A7979636A751(){} // RVA: 0xD840
@@ -28,6 +32,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÎÎÎÍÏÏÏÌÏÌÌÎÎÏÍÌÍÌÎÏ</summary>
     public class IdStringStaticMethods_7AF8
     {
+        public UIntPtr <ÎÌÍÌÌÌÍÍÏÍÍÌÎÌÍÏÌÌÍÌÍÏÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2F8380
         public void Equals_89A22447DBA6(){} // RVA: 0x1967700

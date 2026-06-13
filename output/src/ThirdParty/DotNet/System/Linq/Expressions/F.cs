@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class FieldExpression
     {
+        public System.Reflection.FieldInfo _field; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FC840
         public void GetMember(){} // RVA: 0x2E07C0
@@ -22,6 +24,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class FullConditionalExpressionWithType
     {
+        public System.Type <Type>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E0160
         public void get_Type(){} // RVA: 0x30B130
@@ -29,6 +33,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class FullExpression`1
     {
+        public string <NameCore>k__BackingField;
+        public bool <TailCallCore>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){}
         public void get_NameCore(){} // RVA: 0xCD60

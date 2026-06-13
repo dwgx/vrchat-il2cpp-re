@@ -44,6 +44,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LayerMask
     {
+        public int m_Mask; // 0x10
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x275CDE0 | overloaded x2
         public void get_value(){} // RVA: 0x67FD0D0
@@ -80,9 +82,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Light
     {
-        public object probePositions;
-        public object get_lastLODBillboard;
-        public object get_enabled;
+        public int probePositions; // 0x18
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x70F0FE0
@@ -266,6 +266,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LightmapData
     {
+        public UnityEngine.Texture2D m_Light; // 0x10
+        public UnityEngine.Texture2D m_Dir; // 0x18
+        public UnityEngine.Texture2D m_ShadowMask; // 0x20
+
         // ── Methods ──
         public void get_lightmapColor(){} // RVA: 0x33B6D40
         public void set_lightmapColor(){} // RVA: 0x2DEE30
@@ -367,6 +371,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Logger
     {
+        public UnityEngine.ILogHandler <logHandler>k__BackingField; // 0x10
+        public bool <logEnabled>k__BackingField; // 0x18
+        public 0x65895580 <filterLogType>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x710F110
         public void get_logHandler(){} // RVA: 0x2F8380

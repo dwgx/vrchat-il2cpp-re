@@ -7,6 +7,9 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class GlobalSessionManager
     {
+        public string PersistedSessionFileName;
+        public Sentry.Infrastructure.ISystemClock _clock; // 0x10
+
         // ── Methods ──
         public void get_CurrentSession(){} // RVA: 0x6374D0
         public void get_IsSessionActive(){} // RVA: 0x62A2B20
@@ -39,6 +42,13 @@ namespace ThirdParty.Sentry.Sentry
 
     public class GraphQLRequestContent
     {
+        public System.Text.RegularExpressions.Regex Expression;
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,object> <Items>k__BackingField; // 0x10
+        public string <RequestContent>k__BackingField; // 0x18
+        public string <Query>k__BackingField; // 0x20
+        public string <OperationName>k__BackingField; // 0x28
+        public string <OperationType>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_SerializerOptions(){} // RVA: 0x62A7150
         public void get_Items(){} // RVA: 0x2F8380

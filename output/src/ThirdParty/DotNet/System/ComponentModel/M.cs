@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class MarshalByValueComponent
     {
+        public object s_eventDisposed;
+        public System.ComponentModel.ISite _site; // 0x10
+        public System.ComponentModel.EventHandlerList _events; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Finalize(){} // RVA: 0x5C76FE0
@@ -25,6 +29,30 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class MaskedTextProvider
     {
+        public char SPACE_CHAR;
+        public char DEFAULT_PROMPT_CHAR;
+        public char NULL_PASSWORD_CHAR;
+        public bool DEFAULT_ALLOW_PROMPT;
+        public int INVALID_INDEX;
+        public byte EDIT_ANY;
+        public byte EDIT_UNASSIGNED;
+        public byte EDIT_ASSIGNED;
+        public bool FORWARD;
+        public bool BACKWARD;
+        public int s_ASCII_ONLY;
+        public int s_ALLOW_PROMPT_AS_INPUT; // 0x4
+        public int s_INCLUDE_PROMPT; // 0x8
+        public int s_INCLUDE_LITERALS; // 0xC
+        public int s_RESET_ON_PROMPT; // 0x10
+        public int s_RESET_ON_LITERALS; // 0x14
+        public int s_SKIP_SPACE; // 0x18
+        public System.Type s_maskTextProviderType; // 0x20
+        public System.Collections.Specialized.BitVector32 _flagState; // 0x10
+        public System.Text.StringBuilder _testString; // 0x18
+        public int _requiredCharCount; // 0x20
+        public int _requiredEditChars; // 0x24
+        public int _optionalEditChars; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C6ACB0 | overloaded x7
         public void Initialize(){} // RVA: 0x6C6B110
@@ -110,6 +138,16 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class MemberDescriptor
     {
+        public string name; // 0x10
+        public string displayName; // 0x18
+        public int nameHash; // 0x20
+        public System.ComponentModel.AttributeCollection attributeCollection; // 0x28
+        public System.Attribute[] attributes; // 0x30
+        public System.Attribute[] originalAttributes; // 0x38
+        public bool attributesFiltered; // 0x40
+        public bool attributesFilled; // 0x41
+        public int metadataVersion; // 0x44
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C885C0 | overloaded x4
         public void get_AttributeArray(){} // RVA: 0x6C88B80
@@ -136,6 +174,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class MergablePropertyAttribute
     {
+        public System.ComponentModel.MergablePropertyAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_AllowMerge(){} // RVA: 0x3A75E0

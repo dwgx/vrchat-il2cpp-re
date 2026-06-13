@@ -19,6 +19,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 
     public class CipherUtilities
     {
+        public System.Collections.IDictionary algorithms;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9955A90
         public void .ctor(){} // RVA: 0x2DD310
@@ -32,6 +34,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 
     public class DigestUtilities
     {
+        public System.Collections.IDictionary algorithms;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void .cctor(){} // RVA: 0x995A7E0
@@ -149,6 +153,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 
     public class PbeUtilities
     {
+        public string Pkcs5S1;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void .cctor(){} // RVA: 0x996B900
@@ -189,6 +195,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 
     public class SecureRandom
     {
+        public long counter;
+
         // ── Methods ──
         public void NextCounterValue(){} // RVA: 0x99763E0
         public void get_Master(){} // RVA: 0x9976440
@@ -221,6 +229,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 
     public class SignerUtilities
     {
+        public System.Collections.IDictionary algorithms;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void .cctor(){} // RVA: 0x9977510

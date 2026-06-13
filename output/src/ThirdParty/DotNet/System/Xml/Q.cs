@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class QueryOutputWriter
     {
+        public System.Xml.XmlRawWriter wrapped; // 0x28
+        public bool inCDataSection; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A137F0
         public void set_NamespaceResolver(){} // RVA: 0x6A13CE0

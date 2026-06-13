@@ -7,6 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 {
     public class Acceleration
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.Acceleration> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public object delegate_; // 0x18
+        public 0x65933E60 delegateCase_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B7CCF0
         public void get_Descriptor(){} // RVA: 0x5B7CD50
@@ -36,6 +41,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class AccelerationReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B7C550
         public void .cctor(){} // RVA: 0x5B7C5B0
@@ -43,6 +50,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class BaseOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.BaseOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.ExternalFile modelAsset_; // 0x20
+        public bool UseStreamModeDefaultValue; // 0x8
+        public bool useStreamMode_; // 0x28
+        public Mediapipe.Tasks.Core.Proto.Acceleration acceleration_; // 0x30
+        public 0x6592FA50 GpuOriginDefaultValue; // 0xC
+        public 0x6592FA50 gpuOrigin_; // 0x38
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B7F000
         public void get_Descriptor(){} // RVA: 0x5B7F060
@@ -74,6 +91,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class BaseOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B7E7A0
         public void .cctor(){} // RVA: 0x5B7E800
@@ -81,6 +100,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class ExternalFile
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.ExternalFile> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ByteString FileContentDefaultValue; // 0x8
+        public Google.Protobuf.ByteString fileContent_; // 0x18
+        public string FileNameDefaultValue; // 0x10
+        public string fileName_; // 0x20
+        public Mediapipe.Tasks.Core.Proto.FileDescriptorMeta fileDescriptorMeta_; // 0x28
+        public Mediapipe.Tasks.Core.Proto.FilePointerMeta filePointerMeta_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B80BD0
         public void get_Descriptor(){} // RVA: 0x5B80C30
@@ -112,6 +140,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class ExternalFileReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B801F0
         public void .cctor(){} // RVA: 0x5B80250
@@ -119,6 +149,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class FileDescriptorMeta
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.FileDescriptorMeta> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int FdDefaultValue; // 0x8
+        public int fd_; // 0x1C
+        public long LengthDefaultValue; // 0x10
+        public long length_; // 0x20
+        public long OffsetDefaultValue; // 0x18
+        public long offset_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B82590
         public void get_Descriptor(){} // RVA: 0x5B825F0
@@ -150,6 +190,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class FilePointerMeta
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.FilePointerMeta> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public ulong PointerDefaultValue; // 0x8
+        public ulong pointer_; // 0x20
+        public long LengthDefaultValue; // 0x10
+        public long length_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B834E0
         public void get_Descriptor(){} // RVA: 0x5B83540

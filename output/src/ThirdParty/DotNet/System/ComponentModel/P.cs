@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class ParenthesizePropertyNameAttribute
     {
+        public System.ComponentModel.ParenthesizePropertyNameAttribute Default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0 | overloaded x2
         public void get_NeedParenthesis(){} // RVA: 0x3A75E0
@@ -18,6 +20,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PasswordPropertyTextAttribute
     {
+        public System.ComponentModel.PasswordPropertyTextAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0 | overloaded x2
         public void get_Password(){} // RVA: 0x3A75E0
@@ -29,6 +33,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ProgressChangedEventArgs
     {
+        public int progressPercentage; // 0x10
+        public object userState; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C8A6F0
         public void get_ProgressPercentage(){} // RVA: 0x32A5C0
@@ -46,6 +53,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PropertyChangedEventArgs
     {
+        public string _propertyName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7F0C0
         public void get_PropertyName(){} // RVA: 0x2F8380
@@ -62,6 +71,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PropertyChangingEventArgs
     {
+        public string _propertyName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7F160
         public void get_PropertyName(){} // RVA: 0x2F8380
@@ -78,6 +89,12 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PropertyDescriptor
     {
+        public System.ComponentModel.TypeConverter _converter; // 0x60
+        public System.Collections.Hashtable _valueChangedHandlers; // 0x68
+        public object[] _editors; // 0x70
+        public System.Type[] _editorTypes; // 0x78
+        public int _editorCount; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C627A0 | overloaded x3
         public void get_ComponentType(){} // RVA: 0xCD60
@@ -108,6 +125,18 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PropertyDescriptorCollection
     {
+        public System.ComponentModel.PropertyDescriptorCollection Empty;
+        public System.Collections.IDictionary _cachedFoundProperties; // 0x10
+        public bool _cachedIgnoreCase; // 0x18
+        public System.ComponentModel.PropertyDescriptor[] _properties; // 0x20
+        public string[] _namedSort; // 0x28
+        public System.Collections.IComparer _comparer; // 0x30
+        public bool _propsOwned; // 0x38
+        public bool _needSort; // 0x39
+        public bool _readOnly; // 0x3A
+        public object _internalSyncObject; // 0x40
+        public int <Count>k__BackingField; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C74D70 | overloaded x3
         public void get_Count(){} // RVA: 0x37E0C0
@@ -158,6 +187,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class PropertyTabAttribute
     {
+        public System.Type[] _tabClasses; // 0x10
+        public string[] _tabClassNames; // 0x18
+        public 0x6584EB98[] <TabScopes>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C60110 | overloaded x5
         public void get_TabClasses(){} // RVA: 0x6C60310
@@ -171,6 +204,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ProvidePropertyAttribute
     {
+        public string <PropertyName>k__BackingField; // 0x10
+        public string <ReceiverTypeName>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
         public void get_PropertyName(){} // RVA: 0x2F8380

@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 {
     public class BaseInputStream
     {
+        public bool closed; // 0x28
+
         // ── Methods ──
         public void get_CanRead(){} // RVA: 0x3C85330
         public void get_CanSeek(){} // RVA: 0x2DD320
@@ -25,6 +27,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class BaseOutputStream
     {
+        public bool closed; // 0x28
+
         // ── Methods ──
         public void get_CanRead(){} // RVA: 0x2DD320
         public void get_CanSeek(){} // RVA: 0x2DD320
@@ -44,6 +48,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class FilterStream
     {
+        public System.IO.Stream s; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E0DE0
         public void get_CanRead(){} // RVA: 0x6415140

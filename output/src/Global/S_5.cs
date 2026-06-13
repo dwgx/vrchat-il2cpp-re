@@ -281,7 +281,7 @@ public class SlotUsageEntry
 
 public class SmallXmlNodeList
 {
-    public object Action;
+    public object Action; // 0x10
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x6A61A00
@@ -294,6 +294,9 @@ public class SmallXmlNodeList
 
 public class Snapshot
 {
+    public string avatarName; // 0x10
+    public System.Nullable`1<int> polyCount; // 0x18
+
     // ── Methods ──
     public void get_downloadSize(){} // RVA: 0x9AB2B70
     public void get_uncompressedSize(){} // RVA: 0x9AB2C10
@@ -313,6 +316,11 @@ public class SortedListDebugView
 
 public class SortedListEnumerator
 {
+    public System.Collections.SortedList _sortedList; // 0x10
+    public object _key; // 0x18
+    public object _value; // 0x20
+    public int _index; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E01740
     public void Clone(){} // RVA: 0x5D7B480
@@ -326,6 +334,9 @@ public class SortedListEnumerator
 
 public class SortedListKeyEnumerator
 {
+    public System.Collections.Generic.SortedList`2<U,T> _sortedList;
+    public int _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void Dispose(){} // RVA: 0x24A50
@@ -337,14 +348,21 @@ public class SortedListKeyEnumerator
 
 public class SortedListKeyEnumerator
 {
+    public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> _sortedList; // 0x10
+    public int _index; // 0x18
 }
 
 public class SortedListKeyEnumerator
 {
+    public System.Collections.Generic.SortedList`2<float,ÎÏÌÏÍÏÏÏÌÌÍÍÎÌÏÍÌÌÎÏÍÎÏ> _sortedList; // 0x10
+    public int _index; // 0x18
 }
 
 public class SortedListValueEnumerator
 {
+    public System.Collections.Generic.SortedList`2<U,T> _sortedList;
+    public int _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void Dispose(){} // RVA: 0x24A50
@@ -356,10 +374,14 @@ public class SortedListValueEnumerator
 
 public class SortedListValueEnumerator
 {
+    public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> _sortedList; // 0x10
+    public int _index; // 0x18
 }
 
 public class SortedListValueEnumerator
 {
+    public System.Collections.Generic.SortedList`2<float,ÎÏÌÏÍÏÏÏÌÌÍÍÎÌÏÍÌÌÎÏÍÎÏ> _sortedList; // 0x10
+    public int _index; // 0x18
 }
 
 public class SorterGenericArray

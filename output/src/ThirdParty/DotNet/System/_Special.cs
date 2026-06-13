@@ -13,6 +13,9 @@ namespace ThirdParty.DotNet.System
 
     public class __DTString
     {
+        public System.ReadOnlySpan`1<char> Value; // 0x10
+        public int Index; // 0x20
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x5E904E0
         public void .ctor(){} // RVA: 0x5E905B0 | overloaded x2

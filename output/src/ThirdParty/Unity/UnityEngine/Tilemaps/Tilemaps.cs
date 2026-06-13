@@ -17,6 +17,13 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tile
     {
+        public UnityEngine.Sprite m_Sprite; // 0x18
+        public UnityEngine.Color m_Color; // 0x20
+        public UnityEngine.Matrix4x4 m_Transform; // 0x30
+        public UnityEngine.GameObject m_InstancedGameObject; // 0x70
+        public 0x659F1ED8 m_Flags; // 0x78
+        public 0x659F1C70 m_ColliderType; // 0x7C
+
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x2F0F420
         public void set_sprite(){} // RVA: 0x343E80
@@ -58,6 +65,13 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileData
     {
+        public int m_Sprite; // 0x10
+        public UnityEngine.Color m_Color; // 0x14
+        public UnityEngine.Matrix4x4 m_Transform; // 0x24
+        public int m_GameObject; // 0x64
+        public 0x659F1ED8 m_Flags; // 0x68
+        public 0x659F1C70 m_ColliderType; // 0x6C
+
         // ── Methods ──
         public void set_sprite(){} // RVA: 0x72BA140
         public void set_color(){} // RVA: 0x6FBAB40
@@ -75,11 +89,9 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tilemap
     {
-        public object cellSize;
-        public object cellGap;
-        public object cellLayout;
-        public object cellSwizzle;
-        public object System.Collections.Generic;
+        public System.Action`2<UnityEngine.Tilemaps.Tilemap,SyncTile[]> cellSize;
+        public System.Action`2<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray`1<UnityEngine.Vector3Int>> cellGap; // 0x8
+        public bool cellLayout; // 0x18
 
         // ── Methods ──
         public void add_tilemapTileChanged(){} // RVA: 0x72B5110

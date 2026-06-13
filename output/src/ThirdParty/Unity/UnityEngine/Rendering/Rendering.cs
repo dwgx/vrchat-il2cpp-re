@@ -23,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class AsyncGPUReadbackRequest
     {
+        public UIntPtr m_Ptr; // 0x10
+        public int m_Version; // 0x18
+
         // ── Methods ──
         public void GetData(){} // RVA: 0x283FA0
         public void get_done(){} // RVA: 0x714E660
@@ -140,6 +143,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CommandBuffer
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void WaitAllAsyncReadbackRequests(){} // RVA: 0x7150E70
         public void RequestAsyncReadback(){} // RVA: 0x71511F0 | overloaded x5
@@ -286,7 +291,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ObjectIdRequest
     {
-        public object renderingLayerMaskNames;
+        public UnityEngine.RenderTexture renderingLayerMaskNames; // 0x10
 
         // ── Methods ──
         public void get_destination(){} // RVA: 0x2F8380
@@ -294,6 +299,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class OnDemandRendering
     {
+        public int m_RenderFrameInterval;
+
         // ── Methods ──
         public void get_renderFrameInterval(){} // RVA: 0x7150D40
         public void GetRenderFrameInterval(){} // RVA: 0x7150DA0
@@ -306,6 +313,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class RenderPipeline
     {
+        public bool <disposed>k__BackingField; // 0x10
+
         // ── Methods ──
         public void Render(){} // RVA: 0x715BF80 | overloaded x2
         public void ProcessRenderRequests(){} // RVA: 0x283FA0
@@ -350,7 +359,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class RenderPipelineManager
     {
-        public object cullingPlaneCount;
+        public UnityEngine.Rendering.RenderPipelineAsset cullingPlaneCount;
 
         // ── Methods ──
         public void get_currentPipeline(){} // RVA: 0x715C4E0
@@ -382,6 +391,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ScriptableCullingParameters
     {
+        public int m_IsOrthographic; // 0x10
+
         // ── Methods ──
         public void get_cullingPlaneCount(){} // RVA: 0x715B050
         public void GetLayerCullingDistance(){} // RVA: 0x715B060
@@ -442,6 +453,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SphericalHarmonicsL2
     {
+        public float shr0; // 0x10
+
         // ── Methods ──
         public void Clear(){} // RVA: 0x71566F0
         public void SetZero(){} // RVA: 0x71566F0
@@ -465,6 +478,18 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class StencilState
     {
+        public byte m_Enabled; // 0x10
+        public byte m_ReadMask; // 0x11
+        public byte m_WriteMask; // 0x12
+        public byte m_Padding; // 0x13
+        public byte m_CompareFunctionFront; // 0x14
+        public byte m_PassOperationFront; // 0x15
+        public byte m_FailOperationFront; // 0x16
+        public byte m_ZFailOperationFront; // 0x17
+        public byte m_CompareFunctionBack; // 0x18
+        public byte m_PassOperationBack; // 0x19
+        public byte m_FailOperationBack; // 0x1A
+
         // ── Methods ──
         public void set_enabled(){} // RVA: 0x715E190
         public void set_readMask(){} // RVA: 0x10EEB00
@@ -483,6 +508,14 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SubMeshDescriptor
     {
+        public UnityEngine.Bounds <bounds>k__BackingField; // 0x10
+        public 0x65897DB8 <topology>k__BackingField; // 0x28
+        public int <indexStart>k__BackingField; // 0x2C
+        public int <indexCount>k__BackingField; // 0x30
+        public int <baseVertex>k__BackingField; // 0x34
+        public int <firstVertex>k__BackingField; // 0x38
+        public int <vertexCount>k__BackingField; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x714F7D0
         public void get_bounds(){} // RVA: 0x1F4D780
@@ -504,10 +537,17 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SupportedRenderingFeatures
     {
-        public object attribute;
-        public object format;
-        public object dimension;
-        public object stream;
+        public UnityEngine.Rendering.SupportedRenderingFeatures attribute;
+        public 0x658A4150 format; // 0x10
+        public 0x658A41A8 dimension; // 0x14
+        public 0x658A41A8 stream; // 0x18
+        public 0x65897BA8 <lightmapBakeTypes>k__BackingField; // 0x1C
+        public 0x65898338 <lightmapsModes>k__BackingField; // 0x20
+        public bool <enlightenLightmapper>k__BackingField; // 0x24
+        public bool <enlighten>k__BackingField; // 0x25
+        public bool <lightProbeProxyVolumes>k__BackingField; // 0x26
+        public bool <motionVectors>k__BackingField; // 0x27
+        public bool <receiveShadows>k__BackingField; // 0x28
 
         // ── Methods ──
         public void get_active(){} // RVA: 0x715E480
@@ -540,6 +580,11 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class VertexAttributeDescriptor
     {
+        public 0x658A24C8 <attribute>k__BackingField; // 0x10
+        public 0x658A2470 <format>k__BackingField; // 0x14
+        public int <dimension>k__BackingField; // 0x18
+        public int <stream>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_attribute(){} // RVA: 0x19689B0
         public void set_attribute(){} // RVA: 0x833580

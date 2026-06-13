@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 {
     public class XRConfigurationDataAttribute
     {
+        public string <displayName>k__BackingField; // 0x10
+        public string <buildSettingsKey>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_displayName(){} // RVA: 0x2F8380
         public void set_displayName(){} // RVA: 0x2DEE30
@@ -17,6 +20,11 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRGeneralSettings
     {
+        public string k_SettingsKey;
+        public UnityEngine.XR.Management.XRGeneralSettings s_RuntimeSettingsInstance; // 0x8
+        public UnityEngine.XR.Management.XRManagerSettings m_LoaderManagerInstance; // 0x18
+        public bool m_InitManagerOnStart; // 0x20
+
         // ── Methods ──
         public void get_Manager(){} // RVA: 0x2E07C0
         public void set_Manager(){} // RVA: 0x343E80
@@ -71,6 +79,14 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRManagerSettings
     {
+        public bool m_InitializationComplete; // 0x18
+        public bool m_RequiresSettingsUpdate; // 0x19
+        public bool m_AutomaticLoading; // 0x1A
+        public bool m_AutomaticRunning; // 0x1B
+        public System.Collections.Generic.List`1<UnityEngine.XR.Management.XRLoader> m_Loaders; // 0x20
+        public System.Collections.Generic.HashSet`1<UnityEngine.XR.Management.XRLoader> m_RegisteredLoaders; // 0x28
+        public UnityEngine.XR.Management.XRLoader <activeLoader>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_automaticLoading(){} // RVA: 0x1B98340
         public void set_automaticLoading(){} // RVA: 0x1B98210

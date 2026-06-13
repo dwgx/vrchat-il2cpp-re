@@ -7,6 +7,14 @@ namespace ThirdParty.Other.Transmtn.DTO
 {
     public class Location
     {
+        public string <WorldId>k__BackingField; // 0x10
+        public string <Instance>k__BackingField; // 0x18
+        public bool <isOffline>k__BackingField; // 0x20
+        public bool <isPrivate>k__BackingField; // 0x21
+        public bool <isWeb>k__BackingField; // 0x22
+        public bool <isUnauthorized>k__BackingField; // 0x23
+        public bool <isTraveling>k__BackingField; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B03660
         public void get_WorldId(){} // RVA: 0x2F8380
@@ -28,6 +36,37 @@ namespace ThirdParty.Other.Transmtn.DTO
 
     public class User
     {
+        public string <id>k__BackingField; // 0x10
+        public string <username>k__BackingField; // 0x18
+        public string <displayName>k__BackingField; // 0x20
+        public string <bio>k__BackingField; // 0x28
+        public System.Collections.Immutable.ImmutableHashSet`1<string> <bioLinks>k__BackingField; // 0x30
+        public string <currentAvatar>k__BackingField; // 0x38
+        public string <currentAvatarImageUrl>k__BackingField; // 0x40
+        public string <currentAvatarThumbnailImageUrl>k__BackingField; // 0x48
+        public System.Collections.Immutable.ImmutableHashSet`1<string> <currentAvatarTags>k__BackingField; // 0x50
+        public System.Collections.Immutable.ImmutableHashSet`1<string> <tags>k__BackingField; // 0x58
+        public string <developerType>k__BackingField; // 0x60
+        public string <last_login>k__BackingField; // 0x68
+        public string <last_activity>k__BackingField; // 0x70
+        public string <last_platform>k__BackingField; // 0x78
+        public string <last_mobile>k__BackingField; // 0x80
+        public string <platform>k__BackingField; // 0x88
+        public string <status>k__BackingField; // 0x90
+        public string <statusDescription>k__BackingField; // 0x98
+        public bool <ageVerified>k__BackingField; // 0xA0
+        public string <ageVerificationStatus>k__BackingField; // 0xA8
+        public string <state>k__BackingField; // 0xB0
+        public string <friendKey>k__BackingField; // 0xB8
+        public bool <allowAvatarCopying>k__BackingField; // 0xC0
+        public bool <isFriend>k__BackingField; // 0xC1
+        public string <friendRequestStatus>k__BackingField; // 0xC8
+        public Transmtn.DTO.Location <location>k__BackingField; // 0xD0
+        public string <profilePicOverride>k__BackingField; // 0xD8
+        public string <userIcon>k__BackingField; // 0xE0
+        public string <fallbackAvatar>k__BackingField; // 0xE8
+        public string <pronouns>k__BackingField; // 0xF0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B03A60
         public void get_id(){} // RVA: 0x2F8380

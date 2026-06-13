@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Dynamic
 {
     public class BinaryOperationBinder
     {
+        public 0x65908648 <Operation>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Operation(){} // RVA: 0x5BED50
         public void FallbackBinaryOperation(){} // RVA: 0x1EE30 | overloaded x2
@@ -27,6 +29,8 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class ConvertBinder
     {
+        public System.Type <Type>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2E07C0
         public void FallbackConvert(){} // RVA: 0x1E6A0 | overloaded x2
@@ -49,6 +53,9 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class DeleteMemberBinder
     {
+        public string <Name>k__BackingField; // 0x18
+        public bool <IgnoreCase>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0
@@ -58,6 +65,12 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class DynamicMetaObject
     {
+        public System.Dynamic.DynamicMetaObject[] EmptyMetaObjects;
+        public object s_noValueSentinel; // 0x8
+        public object _value; // 0x10
+        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x18
+        public System.Dynamic.BindingRestrictions <Restrictions>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6661630 | overloaded x2
         public void get_Expression(){} // RVA: 0x2E07C0
@@ -117,6 +130,8 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class ExpandoClass
     {
+        public string[] _keys; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66663B0 | overloaded x2
         public void FindNewClass(){} // RVA: 0x6666410
@@ -130,6 +145,13 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class ExpandoObject
     {
+        public System.Reflection.MethodInfo s_expandoTryGetValue;
+        public System.Reflection.MethodInfo s_expandoTrySetValue; // 0x8
+        public System.Reflection.MethodInfo s_expandoTryDeleteValue; // 0x10
+        public System.Reflection.MethodInfo s_expandoPromoteClass; // 0x18
+        public System.Reflection.MethodInfo s_expandoCheckVersion; // 0x20
+        public object LockObject; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6667160
         public void TryGetValue(){} // RVA: 0x6667290
@@ -175,6 +197,9 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class GetMemberBinder
     {
+        public string <Name>k__BackingField; // 0x18
+        public bool <IgnoreCase>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x666E210
         public void get_ReturnType(){} // RVA: 0x666E340
@@ -200,6 +225,9 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class InvokeMemberBinder
     {
+        public string <Name>k__BackingField; // 0x18
+        public bool <IgnoreCase>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0
@@ -217,6 +245,9 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class SetMemberBinder
     {
+        public string <Name>k__BackingField; // 0x18
+        public bool <IgnoreCase>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x666E910
         public void get_ReturnType(){} // RVA: 0x666EA40

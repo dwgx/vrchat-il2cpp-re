@@ -13,6 +13,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class IncrementInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -46,6 +50,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class Instruction
     {
+        public int UnknownInstrIndex;
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x519240
         public void get_ProducedStack(){} // RVA: 0x519240
@@ -70,6 +76,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class InstructionList
     {
+        public System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.Instruction> _instructions; // 0x10
+        public System.Collections.Generic.List`1<object> _objects; // 0x18
+        public int _currentStackDepth; // 0x20
+        public int _maxStackDepth; // 0x24
+
         // ── Methods ──
         public void Emit(){} // RVA: 0x661DC40
         public void UpdateStackDepth(){} // RVA: 0x661DD70
@@ -186,6 +197,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class IntSwitchInstruction`1
     {
+        public System.Collections.Generic.Dictionary`2<T,int> _cases;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void get_InstructionName(){} // RVA: 0xCD60
@@ -195,8 +208,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class InterpretedFrame
     {
-        public object Name;
-        public object LocalCount;
+        public System.Linq.Expressions.Interpreter.InterpretedFrame Name; // 0xFFFFFFFF
+        public System.Linq.Expressions.Interpreter.Interpreter LocalCount; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6624360
@@ -233,6 +246,12 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class Interpreter
     {
+        public object NoValue;
+        public int RethrowOnReturn;
+        public System.Linq.Expressions.Interpreter.InstructionArray _instructions; // 0x10
+        public object[] _objects; // 0x38
+        public System.Linq.Expressions.Interpreter.RuntimeLabel[] _labels; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66262D0
         public void get_Name(){} // RVA: 0x37E0E0

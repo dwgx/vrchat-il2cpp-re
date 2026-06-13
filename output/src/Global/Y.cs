@@ -33,6 +33,8 @@ public class YProperty
 
 public class YieldAwaiter
 {
+    public System.Threading.WaitCallback s_waitCallbackRunAction;
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x2DD320
     public void OnCompleted(){} // RVA: 0x5D481C0
@@ -45,6 +47,8 @@ public class YieldAwaiter
 
 public class YieldPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<YieldPromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF3950

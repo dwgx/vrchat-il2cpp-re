@@ -16,6 +16,16 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class DtdParser
     {
+        public System.Xml.IDtdParserAdapter readerAdapter; // 0x10
+        public System.Xml.IDtdParserAdapterWithValidation readerAdapterWithValidation; // 0x18
+        public System.Xml.XmlNameTable nameTable; // 0x20
+        public System.Xml.Schema.SchemaInfo schemaInfo; // 0x28
+        public System.Xml.XmlCharType xmlCharType; // 0x30
+        public string systemId; // 0x38
+        public string publicId; // 0x40
+        public bool normalize; // 0x48
+        public bool validate; // 0x49
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6F360
         public void Create(){} // RVA: 0x6A6F5A0

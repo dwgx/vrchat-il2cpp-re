@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class LabelExpression
     {
+        public System.Linq.Expressions.LabelTarget <Target>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <DefaultValue>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FB990 | overloaded x2
         public void get_Type(){} // RVA: 0xB2EEA0
@@ -19,8 +22,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LabelTarget
     {
-        public object NodeType;
-        public object Type;
+        public string NodeType; // 0x10
+        public System.Type Type; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FBA10 | overloaded x2
@@ -31,6 +34,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LambdaExpression
     {
+        public System.Linq.Expressions.Expression _body; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FBC90 | overloaded x2
         public void get_Type(){} // RVA: 0xBEE7B0
@@ -55,6 +60,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ListInitExpression
     {
+        public System.Linq.Expressions.NewExpression <NewExpression>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> <Initializers>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FBF50 | overloaded x2
         public void get_NodeType(){} // RVA: 0x5D5200
@@ -69,6 +77,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LogicalBinaryExpression
     {
+        public 0x65908648 <NodeType>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65B0E30
         public void get_Type(){} // RVA: 0x65B0E70
@@ -77,6 +87,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LoopExpression
     {
+        public System.Linq.Expressions.Expression <Body>k__BackingField; // 0x10
+        public System.Linq.Expressions.LabelTarget <BreakLabel>k__BackingField; // 0x18
+        public System.Linq.Expressions.LabelTarget <ContinueLabel>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FC240 | overloaded x2
         public void get_Type(){} // RVA: 0x65FC0E0

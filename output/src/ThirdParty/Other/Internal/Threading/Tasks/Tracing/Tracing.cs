@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Internal.Threading.Tasks.Tracing
 {
     public class TaskTrace
     {
+        public Internal.Runtime.Augments.TaskTraceCallbacks s_callbacks;
+
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x5C23250
         public void TaskWaitBegin_Asynchronous(){} // RVA: 0x5C232B0

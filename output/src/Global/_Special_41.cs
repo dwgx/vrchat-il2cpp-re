@@ -152,6 +152,9 @@ public class <DisposePendingDisposablesOnExceptionAsync>d__32 : [I
 
 public class <DistinctIterator>d__68`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -166,6 +169,9 @@ public class <DistinctIterator>d__68`1
 
 public class <DistinctIterator>d__68`1
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.GameObject <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2CA6D60
@@ -180,6 +186,9 @@ public class <DistinctIterator>d__68`1
 
 public class <DistinctIterator>d__68`1
 {
+    public int <>1__state; // 0x10
+    public VRC.SDKBase.Network.NetworkIDPair <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2CA6D60
@@ -194,6 +203,9 @@ public class <DistinctIterator>d__68`1
 
 public class <DistinctIterator>d__68`1
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2CA6D60
@@ -208,6 +220,9 @@ public class <DistinctIterator>d__68`1
 
 public class <DoBlendRoutine>d__152
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -219,6 +234,9 @@ public class <DoBlendRoutine>d__152
 
 public class <DoBobCycle>d__4
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -230,6 +248,9 @@ public class <DoBobCycle>d__4
 
 public class <DoBuzz>d__28
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -255,6 +276,9 @@ public class <DoFlushAsync>d__22 : [I
 
 public class <DoInitialize>d__37
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -266,6 +290,9 @@ public class <DoInitialize>d__37
 
 public class <DoInitializeSteamVR>d__15
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -277,6 +304,9 @@ public class <DoInitializeSteamVR>d__15
 
 public class <DoPlant>d__2
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -288,6 +318,9 @@ public class <DoPlant>d__2
 
 public class <DoPlant>d__4
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -299,6 +332,9 @@ public class <DoPlant>d__4
 
 public class <DoPlant>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -310,6 +346,9 @@ public class <DoPlant>d__7
 
 public class <DoRangeOfMotionBlend>d__156
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -384,6 +423,9 @@ public class <DoReadAsync>d__3 : [I
 
 public class <DoReset>d__26
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -395,6 +437,9 @@ public class <DoReset>d__26
 
 public class <DoRotatePlayer>d__21
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -406,6 +451,9 @@ public class <DoRotatePlayer>d__21
 
 public class <DoSpriteAnimationInternal>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -526,6 +574,9 @@ public class <DownloadImage>d__52 : [I
 
 public class <DragObject>d__8
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -537,6 +588,9 @@ public class <DragObject>d__8
 
 public class <DrainEventQueue>d__9
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.UdonAnalytics.UdonAnalyticsEvent <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -592,10 +646,15 @@ public class <EnsureBufferContainsAsync>d__71 : [I
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAllPromise`1<...>,Awaiter<...>,int> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -607,66 +666,99 @@ public class <Enumerate>d__28
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public ÎÎÌÎÎÏÎÏÏÎÏÍÍÌÍÏÌÍÍÌÎÏÎ <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public DebugMessage <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Photon.Client.NCommand <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Replica <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public System.ValueTuple`2<...<...>,...<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAllPromise,Awaiter> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAllPromise`1<...>,Awaiter<...>,int> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public System.IDisposable <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyLRPromise`1<...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyLRPromise`1<...>,Awaiter> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public ÎÍÎÍÍÏÍÏÍÍÌÌÌÏÍÎÍÏÌÏÍÎÍ <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -678,30 +770,45 @@ public class <Enumerate>d__28
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public ÏÏÌÌÌÎÍÏÍÎÍÎÏÏÏÎÌÎÏÌÌÍÎ <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public System.Threading.Tasks.TaskCompletionSource`1<bool> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <Enumerate>d__28
 {
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>> <>2__current; // 0x18
 }
 
 public class <EnumerateChainedExceptions>d__9
 {
+    public int <>1__state; // 0x10
+    public System.Exception <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x636F220
@@ -717,6 +824,9 @@ public class <EnumerateChainedExceptions>d__9
 
 public class <EstimateVelocityCoroutine>d__13
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -728,6 +838,9 @@ public class <EstimateVelocityCoroutine>d__13
 
 public class <EveryNth>d__1`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -742,6 +855,9 @@ public class <EveryNth>d__1`1
 
 public class <ExceptIterator>d__77`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50

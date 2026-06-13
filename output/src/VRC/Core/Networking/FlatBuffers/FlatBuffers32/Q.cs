@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class Quaternion
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -23,6 +25,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionArray
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -43,6 +47,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.QuaternionT> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -57,6 +63,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionHalf
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -70,7 +78,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionHalfT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
@@ -80,6 +88,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionT
     {
+        public float <X>k__BackingField; // 0x10
+        public float <Y>k__BackingField; // 0x14
+        public float <Z>k__BackingField; // 0x18
+        public float <W>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75DF4A0 | overloaded x2
         public void CopyFrom(){} // RVA: 0x75DEEC0 | overloaded x2
@@ -104,6 +117,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionTenBit
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -117,7 +132,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionTenBitT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380

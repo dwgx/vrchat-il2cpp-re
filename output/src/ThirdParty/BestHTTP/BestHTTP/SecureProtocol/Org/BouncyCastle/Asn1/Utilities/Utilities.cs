@@ -19,6 +19,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Util
 
     public class FilterStream
     {
+        public System.IO.Stream s; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9758F30
         public void get_CanRead(){} // RVA: 0x6415140

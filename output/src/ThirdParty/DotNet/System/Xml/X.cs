@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class XmlAsyncCheckReader
     {
+        public System.Xml.XmlReader coreReader; // 0x10
+        public System.Threading.Tasks.Task lastTask; // 0x18
+
         // ── Methods ──
         public void get_CoreReader(){} // RVA: 0x2F8380
         public void CreateAsyncCheckWrapper(){} // RVA: 0x6A15C90
@@ -61,6 +64,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlAsyncCheckReaderWithLineInfo
     {
+        public System.Xml.IXmlLineInfo readerAsIXmlLineInfo; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A171B0
         public void HasLineInfo(){} // RVA: 0x6A172B0
@@ -79,6 +84,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlAsyncCheckReaderWithLineInfoNSSchema
     {
+        public System.Xml.Schema.IXmlSchemaInfo readerAsIXmlSchemaInfo; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A175C0
         public void System.Xml.Schema.IXmlSchemaInfo.get_Validity(){} // RVA: 0x6A176C0
@@ -101,6 +108,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlAsyncCheckWriter
     {
+        public System.Xml.XmlWriter coreWriter; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A178F0
         public void CheckAsync(){} // RVA: 0x6A17A10
@@ -136,6 +145,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlAttribute
     {
+        public System.Xml.XmlName name; // 0x18
+        public System.Xml.XmlLinkedNode lastChild; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4C2C0 | overloaded x2
         public void get_LocalNameHash(){} // RVA: 0x6A4C2A0
@@ -206,6 +218,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlAutoDetectWriter
     {
+        public System.Xml.XmlRawWriter wrapped; // 0x28
+        public System.Xml.OnRemoveWriter onRemove; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A18810 | overloaded x3
         public void WriteDocType(){} // RVA: 0x6A18890
@@ -264,6 +279,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlCharType
     {
+        public object s_Lock;
+        public byte[] s_CharProperties; // 0x8
+
         // ── Methods ──
         public void get_StaticLock(){} // RVA: 0x6A7D2B0
         public void InitInstance(){} // RVA: 0x6A7D380
@@ -297,6 +315,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlCharacterData
     {
+        public string data; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4F0A0
         public void get_Value(){} // RVA: 0x5EBCC20
@@ -310,6 +330,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlChildEnumerator : .ctor
     {
+        public System.Xml.XmlNode container; // 0x10
+        public System.Xml.XmlNode child; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4F330
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x6A4F420
@@ -321,6 +344,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlChildNodes
     {
+        public System.Xml.XmlNode container; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Item(){} // RVA: 0x6A4F660
@@ -349,6 +374,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlConvert
     {
+        public System.Xml.XmlCharType xmlCharType;
+
         // ── Methods ──
         public void EncodeName(){} // RVA: 0x6A7F1A0 | overloaded x2
         public void EncodeLocalName(){} // RVA: 0x6A7E860
@@ -426,6 +453,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlDeclaration
     {
+        public string version; // 0x20
+        public string encoding; // 0x28
+        public string standalone; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4F8F0
         public void get_Version(){} // RVA: 0x30B0C0
@@ -449,6 +480,35 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlDocument
     {
+        public System.Xml.XmlImplementation implementation; // 0x18
+        public System.Xml.DomNameTable domNameTable; // 0x20
+        public System.Xml.XmlLinkedNode lastChild; // 0x28
+        public System.Xml.XmlNamedNodeMap entities; // 0x30
+        public System.Collections.Hashtable htElementIdMap; // 0x38
+        public System.Collections.Hashtable htElementIDAttrDecl; // 0x40
+        public System.Xml.Schema.SchemaInfo schemaInfo; // 0x48
+        public System.Xml.Schema.XmlSchemaSet schemas; // 0x50
+        public bool reportValidity; // 0x58
+        public bool actualLoadingStatus; // 0x59
+        public System.Xml.XmlNodeChangedEventHandler onNodeInsertingDelegate; // 0x60
+        public System.Xml.XmlNodeChangedEventHandler onNodeInsertedDelegate; // 0x68
+        public System.Xml.XmlNodeChangedEventHandler onNodeRemovingDelegate; // 0x70
+        public System.Xml.XmlNodeChangedEventHandler onNodeRemovedDelegate; // 0x78
+        public System.Xml.XmlNodeChangedEventHandler onNodeChangingDelegate; // 0x80
+        public System.Xml.XmlNodeChangedEventHandler onNodeChangedDelegate; // 0x88
+        public bool fEntRefNodesPresent; // 0x90
+        public bool fCDataNodesPresent; // 0x91
+        public bool preserveWhitespace; // 0x92
+        public bool isLoading; // 0x93
+        public string strDocumentName; // 0x98
+        public string strDocumentFragmentName; // 0xA0
+        public string strCommentName; // 0xA8
+        public string strTextName; // 0xB0
+        public string strCDataSectionName; // 0xB8
+        public string strEntityName; // 0xC0
+        public string strID; // 0xC8
+        public string strXmlns; // 0xD0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A506A0 | overloaded x3
         public void get_DtdSchemaInfo(){} // RVA: 0x358730
@@ -540,6 +600,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlDocumentFragment
     {
+        public System.Xml.XmlLinkedNode lastChild; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A562C0
         public void get_Name(){} // RVA: 0x6A56390
@@ -561,6 +623,15 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlDocumentType
     {
+        public string name; // 0x20
+        public string publicId; // 0x28
+        public string systemId; // 0x30
+        public string internalSubset; // 0x38
+        public bool namespaces; // 0x40
+        public System.Xml.XmlNamedNodeMap entities; // 0x48
+        public System.Xml.XmlNamedNodeMap notations; // 0x50
+        public System.Xml.Schema.SchemaInfo schemaInfo; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A56990
         public void get_Name(){} // RVA: 0x30B0C0
@@ -593,6 +664,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlElement
     {
+        public System.Xml.XmlName name; // 0x20
+        public System.Xml.XmlAttributeCollection attributes; // 0x28
+        public System.Xml.XmlLinkedNode lastChild; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A570C0 | overloaded x2
         public void get_XmlName(){} // RVA: 0x30B0C0
@@ -637,6 +712,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlEncodedRawTextWriter
     {
+        public bool useAsync; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A19A40 | overloaded x3
         public void WriteXmlDeclaration(){} // RVA: 0x6A1A200 | overloaded x2
@@ -719,6 +796,15 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlEntity
     {
+        public string publicId; // 0x18
+        public string systemId; // 0x20
+        public string notationName; // 0x28
+        public string name; // 0x30
+        public string unparsedReplacementStr; // 0x38
+        public string baseURI; // 0x40
+        public System.Xml.XmlLinkedNode lastChild; // 0x48
+        public bool childrenFoliating; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A58EC0
         public void CloneNode(){} // RVA: 0x6A591D0
@@ -742,6 +828,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlEntityReference
     {
+        public string name; // 0x20
+        public System.Xml.XmlLinkedNode lastChild; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A59420
         public void get_Name(){} // RVA: 0x30B0C0
@@ -803,6 +892,11 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlException
     {
+        public string res; // 0x90
+        public string[] args; // 0x98
+        public int lineNumber; // 0xA0
+        public int linePosition; // 0xA4
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A8DA60 | overloaded x18
         public void GetObjectData(){} // RVA: 0x6A8C8C0
@@ -817,6 +911,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlImplementation
     {
+        public System.Xml.XmlNameTable nameTable; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void CreateDocument(){} // RVA: 0x6A59E70
@@ -825,6 +921,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlLinkedNode
     {
+        public System.Xml.XmlLinkedNode next; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A59ED0
         public void get_PreviousSibling(){} // RVA: 0x6A5A000
@@ -864,6 +962,14 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlName
     {
+        public string prefix; // 0x10
+        public string localName; // 0x18
+        public string ns; // 0x20
+        public string name; // 0x28
+        public int hashCode; // 0x30
+        public System.Xml.XmlDocument ownerDoc; // 0x38
+        public System.Xml.XmlName next; // 0x40
+
         // ── Methods ──
         public void Create(){} // RVA: 0x6A601F0
         public void .ctor(){} // RVA: 0x6A60310
@@ -886,6 +992,11 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNameEx
     {
+        public byte flags; // 0x48
+        public System.Xml.Schema.XmlSchemaSimpleType memberType; // 0x50
+        public System.Xml.Schema.XmlSchemaType schemaType; // 0x58
+        public object decl; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A60850
         public void get_Validity(){} // RVA: 0x6A60AB0
@@ -911,6 +1022,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNamedNodeMap
     {
+        public System.Xml.XmlNode parent; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void GetNamedItem(){} // RVA: 0x6A60E70
@@ -927,6 +1040,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNamespaceManager
     {
+        public NamespaceDeclaration[] nsdecls; // 0x10
+        public int lastDecl; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A8E2A0 | overloaded x2
         public void get_NameTable(){} // RVA: 0x30B0C0
@@ -944,6 +1060,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNode
     {
+        public System.Xml.XmlNode parentNode; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A623A0 | overloaded x2
         public void get_Name(){} // RVA: 0xCD60
@@ -1011,6 +1129,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNodeChangedEventArgs
     {
+        public 0x65877078 action; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A664E0
         public void get_Action(){} // RVA: 0x32A5C0
@@ -1037,6 +1157,16 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNodeReader
     {
+        public System.Xml.XmlNodeReaderNavigator readerNav; // 0x10
+        public 0x658787D8 nodeType; // 0x18
+        public int curDepth; // 0x1C
+        public 0x65874F78 readState; // 0x20
+        public bool fEOF; // 0x24
+        public bool bResolveEntity; // 0x25
+        public bool bStartFromDocument; // 0x26
+        public bool bInReadBinary; // 0x27
+        public System.Xml.ReadContentAsBinaryHelper readBinaryHelper; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6B340
         public void IsInReadingStates(){} // RVA: 0x6170FE0
@@ -1085,23 +1215,23 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNodeReaderNavigator
     {
-        public object NodeType;
-        public object Name;
-        public object LocalName;
-        public object NamespaceURI;
-        public object Prefix;
-        public object Value;
-        public object Depth;
-        public object BaseURI;
-        public object CanResolveEntity;
-        public object IsEmptyElement;
-        public object IsDefault;
-        public object XmlSpace;
-        public object XmlLang;
-        public object SchemaInfo;
-        public object AttributeCount;
-        public object EOF;
-        public object ReadState;
+        public System.Xml.XmlNode NodeType; // 0x10
+        public System.Xml.XmlNode Name; // 0x18
+        public System.Xml.XmlNode LocalName; // 0x20
+        public int NamespaceURI; // 0x28
+        public int Prefix; // 0x2C
+        public System.Xml.XmlNameTable Value; // 0x30
+        public System.Xml.XmlDocument Depth; // 0x38
+        public int BaseURI; // 0x40
+        public int CanResolveEntity; // 0x44
+        public int IsEmptyElement; // 0x48
+        public int IsDefault; // 0x4C
+        public int XmlSpace; // 0x50
+        public bool XmlLang; // 0x54
+        public bool SchemaInfo; // 0x55
+        public VirtualAttribute[] AttributeCount; // 0x58
+        public VirtualAttribute[] EOF; // 0x60
+        public bool ReadState; // 0x68
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A666F0
@@ -1153,6 +1283,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlNotation
     {
+        public string publicId; // 0x18
+        public string systemId; // 0x20
+        public string name; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6CCE0
         public void get_Name(){} // RVA: 0x30B130
@@ -1167,17 +1301,16 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlParserContext
     {
-        public object Async;
-        public object NameTable;
-        public object IsXmlResolverSet;
-        public object XmlResolver;
-        public object LineNumberOffset;
-        public object LinePositionOffset;
-        public object ConformanceLevel;
-        public object CheckCharacters;
-        public object MaxCharactersInDocument;
-        public object MaxCharactersFromEntities;
-        public object IgnoreWhitespace;
+        public System.Xml.XmlNameTable Async; // 0x10
+        public System.Xml.XmlNamespaceManager NameTable; // 0x18
+        public string IsXmlResolverSet; // 0x20
+        public string XmlResolver; // 0x28
+        public string LineNumberOffset; // 0x30
+        public string LinePositionOffset; // 0x38
+        public string ConformanceLevel; // 0x40
+        public 0x658757B8 CheckCharacters; // 0x48
+        public string MaxCharactersInDocument; // 0x50
+        public System.Text.Encoding MaxCharactersFromEntities; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A20BD0 | overloaded x3
@@ -1196,6 +1329,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlProcessingInstruction
     {
+        public string target; // 0x20
+        public string data; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6CFF0
         public void get_Name(){} // RVA: 0x6A6D0D0
@@ -1213,6 +1349,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlQualifiedName
     {
+        public HashCodeOfStringDelegate hashCodeDelegate;
+        public string name; // 0x10
+        public string ns; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A8F940 | overloaded x3
         public void get_Namespace(){} // RVA: 0x2E07C0
@@ -1237,6 +1377,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlRawWriter
     {
+        public System.Xml.XmlRawWriterBase64Encoder base64Encoder; // 0x18
+        public System.Xml.IXmlNamespaceResolver resolver; // 0x20
+
         // ── Methods ──
         public void WriteStartDocument(){} // RVA: 0x6A21480 | overloaded x2
         public void WriteEndDocument(){} // RVA: 0x6A214E0
@@ -1277,6 +1420,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlReader
     {
+        public uint IsTextualNodeBitmap;
+        public uint CanReadContentAsBitmap; // 0x4
+        public uint HasValueBitmap; // 0x8
+
         // ── Methods ──
         public void get_Settings(){} // RVA: 0x519240
         public void get_NodeType(){} // RVA: 0xD840
@@ -1340,6 +1487,26 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlReaderSettings
     {
+        public bool useAsync; // 0x10
+        public System.Xml.XmlNameTable nameTable; // 0x18
+        public System.Xml.XmlResolver xmlResolver; // 0x20
+        public int lineNumberOffset; // 0x28
+        public int linePositionOffset; // 0x2C
+        public 0x65874580 conformanceLevel; // 0x30
+        public bool checkCharacters; // 0x34
+        public long maxCharactersInDocument; // 0x38
+        public long maxCharactersFromEntities; // 0x40
+        public bool ignoreWhitespace; // 0x48
+        public bool ignorePIs; // 0x49
+        public bool ignoreComments; // 0x4A
+        public 0x658745D8 dtdProcessing; // 0x4C
+        public 0x65875188 validationType; // 0x50
+        public 0x658805A8 validationFlags; // 0x54
+        public System.Xml.Schema.XmlSchemaSet schemas; // 0x58
+        public System.Xml.Schema.ValidationEventHandler valEventHandler; // 0x60
+        public bool closeInput; // 0x68
+        public bool isReadOnly; // 0x69
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A241D0
         public void get_Async(){} // RVA: 0x3A75E0
@@ -1393,6 +1560,10 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlRegisteredNonCachedStream
     {
+        public System.IO.Stream stream; // 0x28
+        public System.Xml.XmlDownloadManager downloadManager; // 0x30
+        public string host; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A89910
         public void Finalize(){} // RVA: 0x6A89A70
@@ -1444,6 +1615,23 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlSqlBinaryReader
     {
+        public System.Type TypeOfObject;
+        public System.Type TypeOfString; // 0x8
+        public System.Type[] TokenTypeMap; // 0x10
+        public byte[] XsdKatmaiTimeScaleToValueLengthMap; // 0x18
+        public 0x65874F78[] ScanState2ReadState; // 0x20
+        public System.IO.Stream inStrm; // 0x10
+        public byte[] data; // 0x18
+        public int pos; // 0x20
+        public int mark; // 0x24
+        public int end; // 0x28
+        public long offset; // 0x30
+        public bool eof; // 0x38
+        public bool sniffed; // 0x39
+        public bool isEmpty; // 0x3A
+        public int docState; // 0x3C
+        public SymbolTables symbolTables; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68EEC70
         public void get_Settings(){} // RVA: 0x68EF730
@@ -1579,8 +1767,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlTextEncoder
     {
-        public object NodeType;
-        public object Name;
+        public System.IO.TextWriter NodeType; // 0x10
+        public bool Name; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A253E0
@@ -1602,6 +1790,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlTextReader
     {
+        public System.Xml.XmlTextReaderImpl impl; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A27260 | overloaded x4
         public void get_NodeType(){} // RVA: 0x7F02E0
@@ -1655,6 +1845,67 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlTextReaderImpl
     {
+        public bool useAsync; // 0x10
+        public LaterInitParam laterInitParam; // 0x18
+        public System.Xml.XmlCharType xmlCharType; // 0x20
+        public ParsingState ps; // 0x28
+        public 0x658758C0 parsingFunction; // 0xA0
+        public 0x658758C0 nextParsingFunction; // 0xA4
+        public 0x658758C0 nextNextParsingFunction; // 0xA8
+        public NodeData[] nodes; // 0xB0
+        public NodeData curNode; // 0xB8
+        public int index; // 0xC0
+        public int curAttrIndex; // 0xC4
+        public int attrCount; // 0xC8
+        public int attrHashtable; // 0xCC
+        public int attrDuplWalkCount; // 0xD0
+        public bool attrNeedNamespaceLookup; // 0xD4
+        public bool fullAttrCleanup; // 0xD5
+        public NodeData[] attrDuplSortingArray; // 0xD8
+        public System.Xml.XmlNameTable nameTable; // 0xE0
+        public bool nameTableFromSettings; // 0xE8
+        public System.Xml.XmlResolver xmlResolver; // 0xF0
+        public string url; // 0xF8
+        public bool normalize; // 0x100
+        public bool supportNamespaces; // 0x101
+        public 0x658751E0 whitespaceHandling; // 0x104
+        public 0x658745D8 dtdProcessing; // 0x108
+        public 0x65874630 entityHandling; // 0x10C
+        public bool ignorePIs; // 0x110
+        public bool ignoreComments; // 0x111
+        public bool checkCharacters; // 0x112
+        public int lineNumberOffset; // 0x114
+        public int linePositionOffset; // 0x118
+        public bool closeInput; // 0x11C
+        public long maxCharactersInDocument; // 0x120
+        public long maxCharactersFromEntities; // 0x128
+        public bool v1Compat; // 0x130
+        public System.Xml.XmlNamespaceManager namespaceManager; // 0x138
+        public string lastPrefix; // 0x140
+        public XmlContext xmlContext; // 0x148
+        public ParsingState[] parsingStatesStack; // 0x150
+        public int parsingStatesStackTop; // 0x158
+        public string reportedBaseUri; // 0x160
+        public System.Text.Encoding reportedEncoding; // 0x168
+        public System.Xml.IDtdInfo dtdInfo; // 0x170
+        public 0x658787D8 fragmentType; // 0x178
+        public System.Xml.XmlParserContext fragmentParserContext; // 0x180
+        public bool fragment; // 0x188
+        public System.Xml.IncrementalReadDecoder incReadDecoder; // 0x190
+        public 0x65875A20 incReadState; // 0x198
+        public System.Xml.LineInfo incReadLineInfo; // 0x19C
+        public int incReadDepth; // 0x1A4
+        public int incReadLeftStartPos; // 0x1A8
+        public int incReadLeftEndPos; // 0x1AC
+        public int attributeValueBaseEntityId; // 0x1B0
+        public bool emptyEntityInAttributeResolved; // 0x1B4
+        public System.Xml.IValidationEventHandling validationEventHandling; // 0x1B8
+        public OnDefaultAttributeUseDelegate onDefaultAttributeUse; // 0x1C0
+        public bool validatingReaderCompatFlag; // 0x1C8
+        public bool addDefaultAttributesAndNormalize; // 0x1C9
+        public System.Text.StringBuilder stringBuilder; // 0x1D0
+        public bool rootElementParsed; // 0x1D8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6914330 | overloaded x12
         public void FinishInitUriString(){} // RVA: 0x69134F0
@@ -1886,6 +2137,12 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlTextWriter
     {
+        public System.IO.TextWriter textWriter; // 0x18
+        public System.Xml.XmlTextEncoder xmlEncoder; // 0x20
+        public System.Text.Encoding encoding; // 0x28
+        public 0x65875DE8 formatting; // 0x30
+        public bool indented; // 0x34
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A2A4C0 | overloaded x4
         public void get_BaseStream(){} // RVA: 0x6A2A680
@@ -1949,6 +2206,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlUnspecifiedAttribute
     {
+        public bool fSpecified; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4C2C0
         public void get_Specified(){} // RVA: 0x6E8A80
@@ -1964,6 +2223,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlUrlResolver
     {
+        public object s_DownloadManager;
+
         // ── Methods ──
         public void get_DownloadManager(){} // RVA: 0x6A90CE0
         public void .ctor(){} // RVA: 0x2DD310
@@ -1974,6 +2235,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlUtf8RawTextWriter
     {
+        public bool useAsync; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A309A0 | overloaded x2
         public void WriteXmlDeclaration(){} // RVA: 0x6A30F80 | overloaded x2
@@ -2056,6 +2319,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlValidatingReader
     {
+        public System.Xml.XmlValidatingReaderImpl impl; // 0x10
+
         // ── Methods ──
         public void get_NodeType(){} // RVA: 0x7F02E0
         public void get_LocalName(){} // RVA: 0x7AC2C0
@@ -2083,6 +2348,20 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlValidatingReaderImpl
     {
+        public System.Xml.XmlReader coreReader; // 0x10
+        public System.Xml.XmlTextReaderImpl coreReaderImpl; // 0x18
+        public System.Xml.IXmlNamespaceResolver coreReaderNSResolver; // 0x20
+        public 0x65875188 validationType; // 0x28
+        public System.Xml.Schema.BaseValidator validator; // 0x30
+        public System.Xml.Schema.XmlSchemaCollection schemaCollection; // 0x38
+        public bool processIdentityConstraints; // 0x40
+        public 0x658761B0 parsingFunction; // 0x44
+        public ValidationEventHandling eventHandling; // 0x48
+        public System.Xml.XmlParserContext parserContext; // 0x50
+        public System.Xml.ReadContentAsBinaryHelper readBinaryHelper; // 0x58
+        public System.Xml.XmlReader outerReader; // 0x60
+        public System.Xml.XmlResolver s_tempResolver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A350A0
         public void get_Settings(){} // RVA: 0x6A35870
@@ -2147,6 +2426,12 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlWellFormedWriter
     {
+        public System.Xml.XmlWriter writer; // 0x18
+        public System.Xml.XmlRawWriter rawWriter; // 0x20
+        public System.Xml.IXmlNamespaceResolver predefinedNamespaces; // 0x28
+        public Namespace[] nsStack; // 0x30
+        public int nsTop; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A37020
         public void get_WriteState(){} // RVA: 0x6A37800
@@ -2220,6 +2505,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlWriter
     {
+        public char[] writeNodeBuffer; // 0x10
+
         // ── Methods ──
         public void WriteStartDocument(){} // RVA: 0x25130 | overloaded x2
         public void WriteEndDocument(){} // RVA: 0x24A50
@@ -2257,6 +2544,30 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XmlWriterSettings
     {
+        public bool useAsync; // 0x10
+        public System.Text.Encoding encoding; // 0x18
+        public bool omitXmlDecl; // 0x20
+        public 0x65874D10 newLineHandling; // 0x24
+        public string newLineChars; // 0x28
+        public 0x65876838 indent; // 0x30
+        public string indentChars; // 0x38
+        public bool newLineOnAttributes; // 0x40
+        public bool closeOutput; // 0x41
+        public 0x65874CB8 namespaceHandling; // 0x44
+        public 0x65874580 conformanceLevel; // 0x48
+        public bool checkCharacters; // 0x4C
+        public bool writeEndDocumentOnClose; // 0x4D
+        public 0x658767E0 outputMethod; // 0x50
+        public System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> cdataSections; // 0x58
+        public bool doNotEscapeUriAttributes; // 0x60
+        public bool mergeCDataSections; // 0x61
+        public string mediaType; // 0x68
+        public string docTypeSystem; // 0x70
+        public string docTypePublic; // 0x78
+        public 0x65876890 standalone; // 0x80
+        public bool autoXmlDecl; // 0x84
+        public bool isReadOnly; // 0x85
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A42430
         public void get_Async(){} // RVA: 0x3A75E0
@@ -2297,6 +2608,22 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XsdCachingReader
     {
+        public System.Xml.XmlReader coreReader; // 0x10
+        public System.Xml.XmlNameTable coreReaderNameTable; // 0x18
+        public System.Xml.ValidatingReaderNodeData[] contentEvents; // 0x20
+        public System.Xml.ValidatingReaderNodeData[] attributeEvents; // 0x28
+        public System.Xml.ValidatingReaderNodeData cachedNode; // 0x30
+        public 0x65876940 cacheState; // 0x38
+        public int contentIndex; // 0x3C
+        public int attributeCount; // 0x40
+        public bool returnOriginalStringValues; // 0x44
+        public System.Xml.CachingEventHandler cacheHandler; // 0x48
+        public int currentAttrIndex; // 0x50
+        public int currentContentIndex; // 0x54
+        public bool readAhead; // 0x58
+        public System.Xml.IXmlLineInfo lineInfo; // 0x60
+        public System.Xml.ValidatingReaderNodeData textNode; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A43610
         public void Init(){} // RVA: 0x6A43850
@@ -2350,6 +2677,37 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class XsdValidatingReader
     {
+        public System.Xml.XmlReader coreReader; // 0x10
+        public System.Xml.IXmlNamespaceResolver coreReaderNSResolver; // 0x18
+        public System.Xml.IXmlNamespaceResolver thisNSResolver; // 0x20
+        public System.Xml.Schema.XmlSchemaValidator validator; // 0x28
+        public System.Xml.XmlResolver xmlResolver; // 0x30
+        public System.Xml.Schema.ValidationEventHandler validationEvent; // 0x38
+        public 0x65876AA0 validationState; // 0x40
+        public System.Xml.Schema.XmlValueGetter valueGetter; // 0x48
+        public System.Xml.XmlNamespaceManager nsManager; // 0x50
+        public bool manageNamespaces; // 0x58
+        public bool processInlineSchema; // 0x59
+        public bool replayCache; // 0x5A
+        public System.Xml.ValidatingReaderNodeData cachedNode; // 0x60
+        public System.Xml.AttributePSVIInfo attributePSVI; // 0x68
+        public int attributeCount; // 0x70
+        public int coreReaderAttributeCount; // 0x74
+        public int currentAttrIndex; // 0x78
+        public System.Xml.AttributePSVIInfo[] attributePSVINodes; // 0x80
+        public System.Collections.ArrayList defaultAttributes; // 0x88
+        public System.Xml.Schema.Parser inlineSchemaParser; // 0x90
+        public object atomicValue; // 0x98
+        public System.Xml.Schema.XmlSchemaInfo xmlSchemaInfo; // 0xA0
+        public string originalAtomicValueString; // 0xA8
+        public System.Xml.XmlNameTable coreReaderNameTable; // 0xB0
+        public System.Xml.XsdCachingReader cachingReader; // 0xB8
+        public System.Xml.ValidatingReaderNodeData textNode; // 0xC0
+        public string NsXmlNs; // 0xC8
+        public string NsXs; // 0xD0
+        public string NsXsi; // 0xD8
+        public string XsiType; // 0xE0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A45D40 | overloaded x2
         public void Init(){} // RVA: 0x6A45D60

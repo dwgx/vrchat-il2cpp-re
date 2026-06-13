@@ -15,6 +15,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LegacyAnalyticsWrapper
     {
+        public bool m_Enabled; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7213200
         public void SendTransactionEvent(){} // RVA: 0x72133E0
@@ -47,6 +49,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LocalizedProductDescription
     {
+        public 0x6599EFF8 googleLocale; // 0x10
+        public string title; // 0x18
+
         // ── Methods ──
         public void get_Title(){} // RVA: 0x7242970
         public void get_Description(){} // RVA: 0x7242980

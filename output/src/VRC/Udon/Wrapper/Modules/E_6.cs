@@ -7,6 +7,8 @@ namespace VRC.Udon.Wrapper.Modules
 {
     public class ExternUnityEngineSpritePackingModeArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8841450
         public void .ctor(){} // RVA: 0x8841490
@@ -56,6 +58,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSpritePackingRotation
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8846210
         public void .ctor(){} // RVA: 0x8846250
@@ -78,6 +82,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSpritePackingRotationArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8847BD0
         public void .ctor(){} // RVA: 0x8847C10
@@ -127,6 +133,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSpriteRenderer
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x884C990
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x884C9D0
@@ -278,6 +287,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSpriteRendererArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x885F1C0
         public void .ctor(){} // RVA: 0x885F200
@@ -327,6 +338,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSurfaceEffector2D
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8863FD0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8864010
@@ -409,6 +423,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineSurfaceEffector2DArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x886E190
         public void .ctor(){} // RVA: 0x886E1D0
@@ -458,6 +474,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTargetJoint2D
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8872FD0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8873010
@@ -551,6 +570,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTargetJoint2DArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x887E6F0
         public void .ctor(){} // RVA: 0x887E730
@@ -600,6 +621,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTextAsset
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8883500
         public void .ctor(){} // RVA: 0x8883540
@@ -623,6 +646,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTextAssetArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8885AE0
         public void .ctor(){} // RVA: 0x8885B20
@@ -672,6 +697,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTextGenerationSettings
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x888AAB0
         public void .ctor(){} // RVA: 0x888AAF0
@@ -723,6 +750,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTextGenerationSettingsArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8890EC0
         public void .ctor(){} // RVA: 0x8890F00
@@ -772,6 +801,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTexture
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8895D40
         public void .ctor(){} // RVA: 0x8895D80
@@ -819,6 +850,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTexture2D
     {
+        public long MAXIMUM_TEXTURE_CTOR_BYTES;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x889AF20
         public void ValidateTextureConstructor(){} // RVA: 0x889AF60
@@ -927,6 +960,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTexture2DArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88A8470
         public void .ctor(){} // RVA: 0x88A84B0
@@ -976,6 +1011,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTexture3D
     {
+        public long MAXIMUM_TEXTURE_CTOR_BYTES;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88AD2F0
         public void ValidateTextureConstructor(){} // RVA: 0x88AD330
@@ -1046,6 +1083,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTexture3DArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88B5D30
         public void .ctor(){} // RVA: 0x88B5D70
@@ -1095,6 +1134,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTextureArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88BAC00
         public void .ctor(){} // RVA: 0x88BAC40
@@ -1144,6 +1185,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTime
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88BFAB0
         public void .ctor(){} // RVA: 0x88BFAF0
@@ -1179,6 +1222,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTrailRenderer
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88C27F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x88C2830
@@ -1359,6 +1405,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTrailRendererArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88D88F0
         public void .ctor(){} // RVA: 0x88D8930
@@ -1408,6 +1456,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTransform
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88DD700
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x88DD740
@@ -1547,6 +1598,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineTransformArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88EF2A0
         public void .ctor(){} // RVA: 0x88EF2E0
@@ -1596,6 +1649,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIAnimationTriggers
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88F4090
         public void .ctor(){} // RVA: 0x88F40D0
@@ -1621,6 +1676,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIAnimationTriggersArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88F6050
         public void .ctor(){} // RVA: 0x88F6090
@@ -1670,6 +1727,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIAspectRatioFitter
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x88FAEA0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x88FAEE0
@@ -1746,6 +1806,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIAspectRatioFitterArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89042A0
         public void .ctor(){} // RVA: 0x89042E0
@@ -1795,6 +1857,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIBaseMeshEffect
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89090E0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8909120
@@ -1865,6 +1930,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIBaseMeshEffectArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8911AE0
         public void .ctor(){} // RVA: 0x8911B20
@@ -1914,6 +1981,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIButton
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8916920
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8916960
@@ -2015,6 +2085,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIButtonArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8922940
         public void .ctor(){} // RVA: 0x8922980
@@ -2064,6 +2136,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIButtonButtonClickedEvent
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8927730
         public void .ctor(){} // RVA: 0x8927770
@@ -2079,6 +2153,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUICanvasScaler
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89288B0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89288F0
@@ -2167,6 +2244,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUICanvasScalerArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8933050
         public void .ctor(){} // RVA: 0x8933090
@@ -2216,6 +2295,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIClipping
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8937E90
         public void .ctor(){} // RVA: 0x8937ED0
@@ -2231,6 +2312,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIColorBlock
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8939000
         public void .ctor(){} // RVA: 0x8939040
@@ -2262,6 +2345,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIColorBlockArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x893C610
         public void .ctor(){} // RVA: 0x893C650
@@ -2311,6 +2396,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIContentSizeFitter
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8941480
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89414C0
@@ -2385,6 +2473,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIContentSizeFitterArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x896E7D0
         public void .ctor(){} // RVA: 0x896E810
@@ -2434,6 +2524,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDefaultControls
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8973610
         public void .ctor(){} // RVA: 0x8973650
@@ -2459,6 +2551,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDefaultControlsResources
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8975FE0
         public void .ctor(){} // RVA: 0x8976020
@@ -2487,6 +2581,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDefaultControlsResourcesArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8978E30
         public void .ctor(){} // RVA: 0x8978E70
@@ -2536,6 +2632,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdown
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x897DCB0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x897DCF0
@@ -2660,6 +2759,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x898C600
         public void .ctor(){} // RVA: 0x898C640
@@ -2709,6 +2810,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownDropdownEvent
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8991440
         public void .ctor(){} // RVA: 0x8991480
@@ -2725,6 +2828,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownOptionData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8992740
         public void .ctor(){} // RVA: 0x8992780
@@ -2747,6 +2852,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownOptionDataArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89944B0
         public void .ctor(){} // RVA: 0x89944F0
@@ -2796,6 +2903,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownOptionDataList
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8999300
         public void .ctor(){} // RVA: 0x8999340
@@ -2813,6 +2922,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIDropdownOptionDataListArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x899A6C0
         public void .ctor(){} // RVA: 0x899A700
@@ -2862,6 +2973,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIFontData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x899F510
         public void .ctor(){} // RVA: 0x899F550
@@ -2902,6 +3015,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIFontDataArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89A2940
         public void .ctor(){} // RVA: 0x89A2980
@@ -2951,6 +3066,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGraphic
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89A7790
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89A77D0
@@ -3049,6 +3167,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGraphicArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89B32F0
         public void .ctor(){} // RVA: 0x89B3330
@@ -3098,6 +3218,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGraphicRaycaster
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89B8130
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89B8170
@@ -3177,6 +3300,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGraphicRaycasterArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89C1B50
         public void .ctor(){} // RVA: 0x89C1B90
@@ -3226,6 +3351,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGridLayoutGroup
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89C6990
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89C69D0
@@ -3321,6 +3449,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIGridLayoutGroupArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89D1D00
         public void .ctor(){} // RVA: 0x89D1D40
@@ -3370,6 +3500,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIHorizontalLayoutGroup
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89D6B40
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89D6B80
@@ -3469,6 +3602,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIHorizontalLayoutGroupArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89E25A0
         public void .ctor(){} // RVA: 0x89E25E0
@@ -3518,6 +3653,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIHorizontalOrVerticalLayoutGroup
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89E73E0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89E7420
@@ -3617,6 +3755,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIHorizontalOrVerticalLayoutGroupArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89F2E40
         public void .ctor(){} // RVA: 0x89F2E80
@@ -3666,6 +3806,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIImage
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x89F7C80
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x89F7CC0
@@ -3813,6 +3956,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIImageArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A08B30
         public void .ctor(){} // RVA: 0x8A08B70
@@ -3862,6 +4007,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIInputField
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A0D920
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A0D960
@@ -4028,6 +4176,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIInputFieldArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A208F0
         public void .ctor(){} // RVA: 0x8A20930
@@ -4077,6 +4227,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutElement
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A25730
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A25770
@@ -4163,6 +4316,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutElementArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A2FBC0
         public void .ctor(){} // RVA: 0x8A2FC00
@@ -4212,6 +4367,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutGroup
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A34A00
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A34A40
@@ -4295,6 +4453,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutGroupArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A3E910
         public void .ctor(){} // RVA: 0x8A3E950
@@ -4344,6 +4504,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutRebuilder
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A43750
         public void .ctor(){} // RVA: 0x8A43790
@@ -4366,6 +4528,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutRebuilderArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A45270
         public void .ctor(){} // RVA: 0x8A452B0
@@ -4415,6 +4579,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUILayoutUtility
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A4A0C0
         public void .ctor(){} // RVA: 0x8A4A100
@@ -4438,6 +4604,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMask
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A4BF70
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A4BFB0
@@ -4513,6 +4682,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMaskArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A66E00
         public void .ctor(){} // RVA: 0x8A66E40
@@ -4562,6 +4733,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMaskUtilities
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A6BC40
         public void .ctor(){} // RVA: 0x8A6BC80
@@ -4584,6 +4757,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMaskUtilitiesArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A6D890
         public void .ctor(){} // RVA: 0x8A6D8D0
@@ -4633,6 +4808,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMaskableGraphic
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A552F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A55330
@@ -4741,6 +4919,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIMaskableGraphicArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A61FC0
         public void .ctor(){} // RVA: 0x8A62000
@@ -4790,6 +4970,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUINavigation
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A727A0
         public void .ctor(){} // RVA: 0x8A727E0
@@ -4818,6 +5000,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUINavigationArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A75040
         public void .ctor(){} // RVA: 0x8A75080
@@ -4867,6 +5051,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIOutline
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A79EB0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A79EF0
@@ -4943,6 +5130,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIOutlineArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A83290
         public void .ctor(){} // RVA: 0x8A832D0
@@ -4992,6 +5181,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIPositionAsUV1
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A880D0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A88110
@@ -5062,6 +5254,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIPositionAsUV1Array
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A90AD0
         public void .ctor(){} // RVA: 0x8A90B10
@@ -5111,6 +5305,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIRawImage
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8A95910
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8A95950
@@ -5223,6 +5420,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIRawImageArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8AA2D20
         public void .ctor(){} // RVA: 0x8AA2D60
@@ -5272,6 +5471,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIRectMask2D
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8AA7B60
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8AA7BA0
@@ -5351,6 +5553,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIRectMask2DArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8AB14B0
         public void .ctor(){} // RVA: 0x8AB14F0
@@ -5400,6 +5604,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollRect
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BD15A0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7BD15E0
@@ -5526,6 +5733,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollRectArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BDFC70
         public void .ctor(){} // RVA: 0x7BDFCB0
@@ -5575,6 +5784,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollRectScrollRectEvent
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BE4AB0
         public void .ctor(){} // RVA: 0x7BE4AF0
@@ -5591,6 +5802,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollbar
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8AB62F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8AB6330
@@ -5708,6 +5922,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollbarArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8AC3EA0
         public void .ctor(){} // RVA: 0x8AC3EE0
@@ -5757,6 +5973,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIScrollbarScrollEvent
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BD02C0
         public void .ctor(){} // RVA: 0x7BD0300
@@ -5773,6 +5991,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUISelectable
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BE5D90
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7BE5DD0
@@ -5875,6 +6096,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUISelectableArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BF20F0
         public void .ctor(){} // RVA: 0x7BF2130
@@ -5924,6 +6147,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIShadow
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BF6EE0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7BF6F20
@@ -6000,6 +6226,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUIShadowArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7C002C0
         public void .ctor(){} // RVA: 0x7C00300
@@ -6049,6 +6277,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineUISlider
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7C05100
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7C05140

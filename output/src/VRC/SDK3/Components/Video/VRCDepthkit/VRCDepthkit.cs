@@ -13,6 +13,15 @@ namespace VRC.SDK3.Components.Video.VRCDepthkit
 
     public class VRCDepthkitVideo
     {
+        public VRC.SDKBase.VRCUrl videoURL; // 0x38
+        public bool autoPlay; // 0x40
+        public bool loop; // 0x41
+        public Depthkit.StudioLook studioLook; // 0x48
+        public Depthkit.StudioLiteLook studioLiteLook; // 0x50
+        public Depthkit.StudioMeshSource studioMeshSource; // 0x58
+        public Depthkit.StudioLiteMeshSource studioLiteMeshSource; // 0x60
+        public Depthkit.Clip depthkitClip; // 0x68
+
         // ── Methods ──
         public void get_url(){} // RVA: 0x719BE30
         public void LogInfo(){} // RVA: 0x76E7F00

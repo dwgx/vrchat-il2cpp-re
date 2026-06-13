@@ -13,6 +13,10 @@ namespace ThirdParty.DotNet.System.Net.Cache
 
     public class RequestCacheBinding
     {
+        public System.Net.Cache.RequestCache m_RequestCache; // 0x10
+        public System.Net.Cache.RequestCacheValidator m_CacheValidator; // 0x18
+        public System.Net.Cache.RequestCachePolicy m_Policy; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00
         public void get_Cache(){} // RVA: 0x2F8380
@@ -30,6 +34,8 @@ namespace ThirdParty.DotNet.System.Net.Cache
 
     public class RequestCachePolicy
     {
+        public 0x6585B038 m_Level; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B96D20
         public void get_Level(){} // RVA: 0x32A5C0

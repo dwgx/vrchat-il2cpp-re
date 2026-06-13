@@ -242,6 +242,8 @@ public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 
 public class UnityWebRequestAsyncOperationAwaiter : .ctor
 {
+    public UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void get_IsCompleted(){} // RVA: 0x6D365A0
@@ -252,6 +254,8 @@ public class UnityWebRequestAsyncOperationAwaiter : .ctor
 
 public class UnityWebRequestAsyncOperationConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<UnityWebRequestAsyncOperationConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D3D6D0
@@ -280,6 +284,9 @@ public class Unmanaged
 
 public class UnmanagedMemory : get_isAllocated
 {
+    public void* basePtr; // 0x10
+    public int mapCount; // 0x18
+
     // ── Methods ──
     public void get_isAllocated(){} // RVA: 0x34C1790
     public void get_sizeInBytes(){} // RVA: 0x6DB4870
@@ -651,12 +658,16 @@ public class UpdateShapesJob
 
 public class UpdateStatus
 {
+    public int kWindowSize;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class UpdateStatus
 {
+    public int kWindowSize;
+
     // ── Methods ──
     public void get_PreferredUpdate(){} // RVA: 0x59C4F0
     public void set_PreferredUpdate(){} // RVA: 0x1C5A610
@@ -666,6 +677,8 @@ public class UpdateStatus
 
 public class UpdateStepCount
 {
+    public bool m_WasUpdated; // 0x10
+
     // ── Methods ──
     public void get_value(){} // RVA: 0x19689E0
     public void set_value(){} // RVA: 0x19689D0

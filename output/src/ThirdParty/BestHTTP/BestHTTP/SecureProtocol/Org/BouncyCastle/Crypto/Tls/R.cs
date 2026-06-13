@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class RecordStream
     {
+        public int DEFAULT_PLAINTEXT_LIMIT;
+        public int TLS_HEADER_SIZE;
+        public int TLS_HEADER_TYPE_OFFSET;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95313B0
         public void Init(){} // RVA: 0x9531810

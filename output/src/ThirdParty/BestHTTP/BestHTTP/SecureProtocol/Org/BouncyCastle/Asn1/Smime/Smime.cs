@@ -32,6 +32,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Smim
 
     public class SmimeCapability
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PreferSignedData;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier CannotDecryptAny; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9764860 | overloaded x2
         public void GetInstance(){} // RVA: 0x9764990

@@ -7,6 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 {
     public class FaceGeometry
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometry> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Mediapipe.Tasks.Vision.FaceGeometry.Proto.Mesh3d mesh_; // 0x18
+        public Mediapipe.MatrixData poseTransformMatrix_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B73490
         public void get_Descriptor(){} // RVA: 0x5B734F0
@@ -30,6 +35,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class FaceGeometryGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometryGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Mediapipe.Tasks.Vision.FaceGeometry.FaceGeometryPipelineCalculatorOptions geometryPipelineOptions_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B74BF0
         public void get_Descriptor(){} // RVA: 0x5B74C50
@@ -51,6 +60,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class FaceGeometryGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B74340
         public void .cctor(){} // RVA: 0x5B743A0
@@ -58,7 +69,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class FaceGeometryReflection
     {
-        public object Descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B72D40
@@ -67,6 +78,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class Mesh3DReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B75AA0
         public void .cctor(){} // RVA: 0x5B75B00
@@ -74,6 +87,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class Mesh3d
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceGeometry.Proto.Mesh3d> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public 0x659336D0 VertexTypeDefaultValue; // 0x8
+        public 0x659336D0 vertexType_; // 0x1C
+        public 0x65933728 PrimitiveTypeDefaultValue; // 0xC
+        public 0x65933728 primitiveType_; // 0x20
+        public Google.Protobuf.FieldCodec`1<float> _repeated_vertexBuffer_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<float> vertexBuffer_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B762D0
         public void get_Descriptor(){} // RVA: 0x5B76330

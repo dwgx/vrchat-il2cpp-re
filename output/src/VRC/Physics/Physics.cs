@@ -87,6 +87,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÌÎÎÌÎÏÌÌÏÌÍÍÍÍÏÌÏÌÌÏÌÎ</summary>
     public class PhysicsAnchoredJoint2DHandler_F2DB
     {
+        public ÍÌÎÎÌÎÏÌÌÏÌÍÍÍÍÏÌÏÌÌÏÌÎ ÌÎÏÎÏÏÎÎÏÍÍÎÍÍÌÍÍÏÏÍÍÎÌ;
+
         // ── Methods ──
         public void GetReferenceAngle(){} // RVA: 0x8AD1250
         public void GetReferenceAngle_C76983A4B38D(){} // RVA: 0x8AD1250
@@ -163,6 +165,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÍÍÏÎÍÏÎÏÏÍÌÍÏÌÌÌÎÌÍÍÏÌ</summary>
     public class PhysicsCollider2DHandler_F819
     {
+        public System.Collections.Generic.HashSet`1<object> <ÎÎÎÎÍÏÌÍÏÍÎÍÌÍÌÏÌÏÍÌÍÎÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void GetTotalPointCount(){} // RVA: 0x8F06A70
         public void IsTouchingLayers(){} // RVA: 0x8F06E10
@@ -336,6 +340,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÏÌÍÌÏÍÏÎÍÌÎÎÌÎÏÍÍÍÏÍÍÌÌ</summary>
     public class PhysicsDescriptionPurchase_F17Sibling_2CE3
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ> <ÏÎÎÏÍÎÎÌÏÎÍÌÎÌÎÌÍÎÎÍÍÍÏ>k__BackingField; // 0x20
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
         public void get_EffectBundleID(){} // RVA: 0x9B7650
@@ -391,6 +398,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÎÏÍÏÎÌÎÎÏÏÌÌÌÍÍÎÍÍÎÎÌÏ</summary>
     public class PhysicsEffector2DHandler_6ECC
     {
+        public VRC.UI.Elements.Menus.KeyboardInputModalComponents _components; // 0x138
+        public ÍÌÍÏÍÏÌÌÍÎÏÏÍÍÏÌÎÌÍÏÌÌÎ ÎÍÍÎÎÎÌÎÍÌÎÌÍÌÍÏÏÎÍÌÌÌÎ; // 0x140
+
         // ── Methods ──
         public void InitializeAnimationCurves_6439409C6119(){} // RVA: 0x90C1F80
         public void InitializeAnimationCurves(){} // RVA: 0x90C2000
@@ -449,6 +459,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÍÎÎÎÎÏÎÍÌÍÎÎÍÌÍÎÍÎÎÎÏÌ</summary>
     public class PhysicsHandler_213A
     {
+        public ÍÍÎÎÎÍÎÎÍÍÎÏÎÎÌÍÍÎÎÍÎÌÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F4F920
         public void Process(){} // RVA: 0x1F4FAF0
@@ -484,6 +496,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÏÎÌÍÍÍÏÎÍÎÎÌÌÏÌÌÍÌÏÏÏÎ</summary>
     public class PhysicsHandler_3333
     {
+        public bool _selectDefaultButtonOnStart; // 0x20
+
         // ── Methods ──
         public void GetIgnoreLayerCollision(){} // RVA: 0x8E3FCF0
         public void ThrowCannotMarshalPageField(){} // RVA: 0x8E3FED0
@@ -507,6 +521,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÎÍÎÏÎÎÍÏÌÏÎÍÎÍÎÍÍÎÎÏÌÎ</summary>
     public class PhysicsHandler_577C
     {
+        public ulong ÏÎÍÎÎÍÏÍÍÌÎÏÍÏÌÏÎÏÍÌÏÎÍ;
+        public ulong ÍÎÌÎÏÍÏÍÎÍÍÍÍÌÌÍÍÍÎÍÎÍÌ;
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x4976A0
         public void ToString(){} // RVA: 0x1D95250
@@ -562,6 +579,15 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÌÍÏÏÌÏÌÏÍÎÎÍÎÌÍÏÍÌÎÎÍÎ</summary>
     public class PhysicsHandler_7024
     {
+        public 0x65933B48 <ÌÏÏÎÏÏÎÏÌÎÎÎÏÎÎÍÏÌÎÏÌÍÏ>k__BackingField; // 0x10
+        public 0x65725250 <ÌÍÏÍÌÎÏÌÏÍÏÎÌÎÍÌÍÎÏÌÏÏÏ>k__BackingField; // 0x14
+        public 0x65932078 <ÌÏÎÏÍÍÎÍÌÏÎÎÍÏÍÎÌÎÍÏÍÍÏ>k__BackingField; // 0x18
+        public int <ÌÍÎÏÏÌÏÎÎÌÏÏÏÎÏÍÌÍÍÍÎÏÏ>k__BackingField; // 0x1C
+        public float <ÍÎÌÌÎÏÏÍÎÎÌÏÌÎÎÎÍÏÏÎÍÌÎ>k__BackingField; // 0x20
+        public float <ÍÏÏÎÍÎÍÎÏÏÌÌÍÏÏÌÏÍÌÏÏÍÌ>k__BackingField; // 0x24
+        public float <ÎÌÌÎÏÎÏÌÍÏÏÍÎÍÌÏÍÎÏÎÌÏÎ>k__BackingField; // 0x28
+        public bool <ÎÍÎÌÍÌÏÎÏÌÌÏÌÌÍÎÏÎÏÍÏÌÏ>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x197C3B0
         public void set_Priority(){} // RVA: 0x6374E0
@@ -703,7 +729,7 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÏÌÍÍÎÌÍÎÏÌÎÍÎÎÎÎÌÍÌÍÏÌ</summary>
     public class PhysicsJoint2DHandler_220E
     {
-        public object _220E;
+        public System.Collections.Generic.Dictionary`2<ÎÌÍÎÌÌÏÏÏÏÌÏÌÍÍÍÎÌÍÌÌÎÎ,ÌÎÏÎÍÌÌÌÎÏÎÌÏÎÍÎÌÏÍÏÏÍÍ> _220E; // 0x10
 
         // ── Methods ──
         public void SetConnectedBody(){} // RVA: 0x8AD2310
@@ -750,8 +776,10 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÏÎÌÌÎÌÏÏÏÍÏÎÍÍÏÍÌÍÍÌÏÎ</summary>
     public class PhysicsJoint2DHandler_6D0E
     {
-        public object simulatedTouchscreen;
-        public object instance;
+        public VRC.Localization.LocalizableString simulatedTouchscreen;
+        public VRC.Localization.LocalizableString instance; // 0x28
+        public VRC.Localization.LocalizableString ÏÏÏÍÎÌÏÍÍÎÎÌÌÌÏÌÍÍÎÌÍÎÌ; // 0x50
+        public VRC.Localization.LocalizableString ÏÏÌÏÎÍÌÏÌÍÏÏÍÏÏÌÌÎÎÏÌÍÏ; // 0x78
 
         // ── Methods ──
         public void GetBreakTorque(){} // RVA: 0x9055AD0
@@ -801,6 +829,10 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÎÎÍÏÎÍÍÎÍÏÌÏÏÌÏÏÎÏÌÍÏÎ</summary>
     public class PhysicsJoint2DHandler_98C5
     {
+        public 0x65986818 ÏÍÍÌÍÍÌÎÌÎÌÍÎÍÌÎÏÍÍÎÎÌÏ; // 0x10
+        public string ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x18
+        public 0x65986870 ÏÏÌÍÍÍÍÍÏÏÏÌÍÏÍÎÌÍÌÏÍÍÍ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AE4CB0
         public void Initialize(){} // RVA: 0x8AE4D60
@@ -822,8 +854,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÏÎÏÌÎÏÎÌÌÍÎÍÍÎÏÍÍÍÏÎÌÍÎ</summary>
     public class PhysicsNavigationHandler_F1C0
     {
-        public object f_A59;
-        public object f_7F0;
+        public UnityEngine.Transform f_A59; // 0x20
+        public ÍÏÎÏÍÌÏÍÏÌÎÌÍÍÍÍÍÍÌÍÌÍÏ f_7F0; // 0x28
 
         // ── Methods ──
         public void get_AccelInput(){} // RVA: 0x2FE6B0
@@ -1020,6 +1052,10 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÌÎÎÏÍÍÎÍÏÍÎÌÎÍÏÍÌÎÎÎÎÏ</summary>
     public class PhysicsTransformHandler_E46F
     {
+        public VRC.Localization.LocalizableString <ÍÍÏÌÏÍÏÏÍÎÍÏÎÍÏÍÏÌÌÏÍÌÏ>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<ÏÏÎÌÎÌÍÎÎÍÎÏÏÌÌÎÏÍÎÌÏÎÍ> <ÍÌÏÏÌÏÎÍÌÍÌÏÏÎÎÌÌÏÍÍÎÏÌ>k__BackingField; // 0x38
+        public float <ÍÏÌÌÌÏÍÌÏÏÎÎÎÏÌÎÏÌÏÌÎÌÌ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x4976A0
         public void get_preferredPeakBitRate(){} // RVA: 0x7D0490
@@ -1041,6 +1077,19 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÌÎÎÎÍÌÌÌÏÌÏÏÌÎÍÏÍÏÎÏÍÌ</summary>
     public class PhysicsTransformSystem_DCE8
     {
+        public UnityEngine.Texture2D ÎÏÏÎÍÎÏÌÏÏÎÎÏÍÌÎÌÏÍÏÎÌÍ; // 0x20
+        public UnityEngine.Shader ÏÎÍÏÎÌÎÌÌÏÎÏÎÏÌÍÎÍÍÎÎÏÌ; // 0x28
+        public UnityEngine.Shader ÎÎÎÎÏÌÏÎÌÌÌÏÎÍÍÎÌÎÎÌÎÏÍ; // 0x30
+        public UnityEngine.Shader ÌÍÏÏÌÏÍÍÌÌÌÍÎÎÍÍÎÏÌÎÎÌÍ; // 0x38
+        public UnityEngine.Texture2D ÏÏÌÌÏÎÏÌÏÎÎÌÎÌÌÌÎÍÎÌÏÏÍ; // 0x40
+        public UnityEngine.Shader ÏÎÍÌÎÎÎÍÍÌÌÏÎÏÌÍÎÏÌÌÌÏÍ; // 0x48
+        public UnityEngine.Shader ÏÏÎÎÌÍÏÎÎÌÎÍÏÌÎÏÌÏÌÎÌÌÎ; // 0x50
+        public UnityEngine.Shader ÎÌÌÎÎÌÌÍÌÍÏÎÏÏÌÌÏÍÏÎÏÎÌ; // 0x58
+        public UnityEngine.Shader ÎÎÌÏÍÍÎÎÌÌÎÎÏÎÌÏÏÌÏÌÍÍÌ; // 0x60
+        public UnityEngine.Material ÌÌÌÌÌÏÎÎÎÎÎÏÎÌÍÍÎÍÏÎÎÏÌ; // 0x68
+        public UnityEngine.GameObject _filteredAvatarPrefab; // 0x70
+        public UnityEngine.GameObject _errorAvatarPrefab; // 0x78
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0xC960
         public void ProcessPhysics(){} // RVA: 0xD59430 | overloaded x4
@@ -1091,6 +1140,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÏÏÏÌÏÏÍÌÎÍÍÏÏÌÍÎÎÍÌÌÍÏÏ</summary>
     public class PhysicsTryConsumeOnTriggerEnterTryConsumeOnTrig_0827_FAAF
     {
+        public ÍÍÌÌÏÎÌÏÎÍÌÍÏÏÌÌÏÍÎÍÌÎÌ ÏÎÌÎÎÌÏÍÌÍÌÎÌÎÌÍÌÏÎÍÌÎÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x3C2850
         public void TryConsumeOnTriggerStay(){} // RVA: 0x2DD320
@@ -1140,6 +1191,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÌÎÍÌÎÏÎÌÏÏÍÎÌÍÌÏÌÍÎÍÏÏ</summary>
     public class TransformPhysicsHandler_15FE
     {
+        public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.List`1<ÏÌÍÍÍÏÌÌÎÍÏÎÌÏÏÌÍÌÍÍÏÏÍ>> ÏÎÍÍÎÎÎÍÎÏÏÍÍÎÎÎÏÎÍÍÍÎÍ; // 0x10
+        public bool ÍÍÍÏÏÌÌÌÏÎÌÏÌÏÍÍÎÏÎÍÌÎÏ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBA5DB0
         public void Initialize(){} // RVA: 0xBA61C0
@@ -1182,6 +1236,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÎÏÍÍÍÎÍÎÍÎÍÌÎÎÏÎÌÍÌÏÌÍ</summary>
     public class TransformPhysicsHandler_AF00
     {
+        public VRC.Localization.LocalizableString <ÏÎÍÍÌÎÏÍÎÏÌÍÎÎÎÌÍÎÏÎÎÌÌ>k__BackingField; // 0x10
+        public 0x65885148 <ÎÍÍÎÌÍÌÌÍÍÎÏÏÌÎÌÏÎÍÏÌÎÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1DE63B0
         public void Initialize(){} // RVA: 0xBDB960
@@ -1198,6 +1255,14 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÌÌÍÌÍÍÎÎÏÏÎÎÌÍÌÌÏÍÍÍÌÍ</summary>
     public class TransformPhysicsHandler_B93F
     {
+        public float _paletteTransitionDuration; // 0x20
+        public ÍÌÌÍÌÍÍÎÎÏÏÎÎÌÍÌÌÏÍÍÍÌÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ> <ÍÏÌÏÌÌÌÎÌÌÏÏÎÏÌÏÎÍÌÏÌÌÌ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ> <ÌÍÎÌÍÌÌÍÍÌÍÍÎÌÌÌÌÍÌÎÎÌÏ>k__BackingField; // 0x30
+        public System.Action ÏÍÍÌÎÎÎÏÎÌÍÍÌÎÎÏÎÎÌÍÎÍÍ; // 0x38
+        public ÎÌÌÏÍÍÎÍÌÌÏÎÍÌÏÍÌÎÍÌÏÎÏ ÍÏÎÍÎÍÍÌÌÌÏÏÍÏÏÍÏÏÏÌÍÎÍ; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ>> ÌÎÏÏÌÍÌÌÌÏÎÍÎÌÌÎÍÎÎÍÍÍÌ; // 0x48
+
         // ── Methods ──
         public void SetResult(){} // RVA: 0x1C5A6E0
         public void SetResult_2E0676F19157(){} // RVA: 0x1C5A780
@@ -1244,6 +1309,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÎÏÌÏÏÌÏÌÍÌÏÎÏÏÏÏÍÍÌÌÌÍ</summary>
     public class TransformPhysicsHandler_C73B
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IDictionary`2<string,ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<...>>> <ÎÎÎÍÎÍÎÎÍÎÌÌÎÎÏÏÌÍÌÍÌÏÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void GetIsKinematic_231DA9B25645(){} // RVA: 0xC88B90
         public void GetIsKinematic(){} // RVA: 0xC88BA0
@@ -1268,6 +1335,9 @@ namespace VRC.Physics
     /// <summary>Originally: ÏÏÍÎÍÏÎÏÎÌÌÍÍÏÎÎÍÏÌÎÏÎÎ</summary>
     public class TransformPhysicsHandler_DEDA
     {
+        public VRC.Localization.LocalizableString <ÍÍÏÍÏÎÎÎÎÍÍÏÏÍÎÎÎÏÌÎÍÌÍ>k__BackingField; // 0x10
+        public System.Action <ÍÍÍÌÎÍÌÌÌÍÎÍÌÎÍÎÏÍÌÏÏÎÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x4976A0
         public void SetCenter(){} // RVA: 0xBDB960
@@ -1282,6 +1352,13 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÎÌÌÏÍÎÎÌÎÌÏÏÍÏÍÏÎÎÎÎÎÎ</summary>
     public class TransformPhysicsHandler_EF99
     {
+        public System.Type ÎÏÏÎÏÍÍÌÍÎÏÏÏÎÌÌÍÎÏÌÌÍÌ;
+        public System.Collections.Generic.List`1<ÍÌÌÎÌÎÎÍÌÌÍÏÌÌÌÏÌÎÌÍÍÌÌ> <ÌÌÍÍÍÍÍÌÌÍÌÎÍÎÍÌÍÎÎÌÎÏÏ>k__BackingField; // 0x10
+        public string <ÍÎÎÏÏÎÎÍÏÍÎÍÌÎÌÌÍÏÌÎÌÏÌ>k__BackingField; // 0x18
+        public ÍÌÌÎÌÎÎÍÌÌÍÏÌÌÌÏÌÎÌÍÍÌÌ ÌÍÏÍÌÌÍÎÏÍÌÍÏÏÌÎÎÎÌÎÍÍÍ; // 0x20
+        public System.Collections.Generic.List`1<ÌÏÏÏÎÌÌÌÌÍÌÏÌÏÌÍÏÍÏÌÎÌÎ> ÏÍÏÍÎÎÏÏÎÍÎÍÌÌÍÌÍÌÌÌÎÎÌ; // 0x28
+        public System.Action`1<ÌÎÌÌÏÍÎÎÌÎÌÏÏÍÏÍÏÎÎÎÎÎÎ> ÌÍÎÏÍÏÏÏÍÏÎÎÍÍÌÌÌÏÌÌÏÌÏ; // 0x30
+
         // ── Methods ──
         public void StartWithHighestBandwidth(){} // RVA: 0x1AEED00
         public void MoveNext(){} // RVA: 0x1AEF0C0
@@ -1308,6 +1385,8 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÏÍÌÏÌÏÍÌÏÎÎÎÎÏÏÌÏÎÍÌÎÏ</summary>
     public class TransformPhysicsHandler_FD38
     {
+        public bool hideSelf; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x337060
         public void Initialize(){} // RVA: 0xBAA120
@@ -1988,7 +2067,7 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÍÎÎÏÏÎÎÏÌÎÌÌÎÌÌÌÎÌÎÌÏÏ</summary>
     public class animatePhysics_7253
     {
-        public object animatePhysics;
+        public UnityEngine.LineRenderer animatePhysics; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x92F81E0

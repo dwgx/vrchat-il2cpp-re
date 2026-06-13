@@ -51,6 +51,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphAdjustmentRecord
     {
+        public uint m_GlyphIndex; // 0x10
+        public UnityEngine.TextCore.LowLevel.GlyphValueRecord m_GlyphValueRecord; // 0x14
+
         // ── Methods ──
         public void get_glyphIndex(){} // RVA: 0x67FD0D0
         public void get_glyphValueRecord(){} // RVA: 0x7265AD0
@@ -60,6 +63,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphAnchorPoint
     {
+        public float m_XCoordinate; // 0x10
+        public float m_YCoordinate; // 0x14
+
         // ── Methods ──
         public void get_xCoordinate(){} // RVA: 0x300D20
         public void get_yCoordinate(){} // RVA: 0x300D30
@@ -71,6 +77,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphPairAdjustmentRecord
     {
+        public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord; // 0x10
+        public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_SecondAdjustmentRecord; // 0x24
+        public 0x659F5688 m_FeatureLookupFlags; // 0x38
+
         // ── Methods ──
         public void get_firstAdjustmentRecord(){} // RVA: 0x7265C40
         public void get_secondAdjustmentRecord(){} // RVA: 0x7262CE0
@@ -81,6 +91,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphValueRecord
     {
+        public float m_XPlacement; // 0x10
+        public float m_YPlacement; // 0x14
+        public float m_XAdvance; // 0x18
+        public float m_YAdvance; // 0x1C
+
         // ── Methods ──
         public void get_xPlacement(){} // RVA: 0x300D20
         public void set_xPlacement(){} // RVA: 0x1F78330
@@ -95,6 +110,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class LigatureSubstitutionRecord
     {
+        public uint[] m_ComponentGlyphIDs; // 0x10
+        public uint m_LigatureGlyphID; // 0x18
+
         // ── Methods ──
         public void get_componentGlyphIDs(){} // RVA: 0x2738C50
         public void get_ligatureGlyphID(){} // RVA: 0x3C4E030
@@ -102,6 +120,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkPositionAdjustment
     {
+        public float m_XPositionAdjustment; // 0x10
+        public float m_YPositionAdjustment; // 0x14
+
         // ── Methods ──
         public void get_xPositionAdjustment(){} // RVA: 0x300D20
         public void get_yPositionAdjustment(){} // RVA: 0x300D30
@@ -109,6 +130,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkToBaseAdjustmentRecord
     {
+        public uint m_BaseGlyphID; // 0x10
+        public UnityEngine.TextCore.LowLevel.GlyphAnchorPoint m_BaseGlyphAnchorPoint; // 0x14
+        public uint m_MarkGlyphID; // 0x1C
+        public UnityEngine.TextCore.LowLevel.MarkPositionAdjustment m_MarkPositionAdjustment; // 0x20
+
         // ── Methods ──
         public void get_baseGlyphID(){} // RVA: 0x67FD0D0
         public void get_baseGlyphAnchorPoint(){} // RVA: 0x71A81C0
@@ -118,6 +144,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkToMarkAdjustmentRecord
     {
+        public uint m_BaseMarkGlyphID; // 0x10
+        public UnityEngine.TextCore.LowLevel.GlyphAnchorPoint m_BaseMarkGlyphAnchorPoint; // 0x14
+        public uint m_CombiningMarkGlyphID; // 0x1C
+        public UnityEngine.TextCore.LowLevel.MarkPositionAdjustment m_CombiningMarkPositionAdjustment; // 0x20
+
         // ── Methods ──
         public void get_baseMarkGlyphID(){} // RVA: 0x67FD0D0
         public void get_baseMarkGlyphAnchorPoint(){} // RVA: 0x71A81C0

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class GetArrayItemInstruction
     {
+        public System.Linq.Expressions.Interpreter.GetArrayItemInstruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
@@ -18,6 +20,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class GotoInstruction
     {
+        public int Variants;
+        public System.Linq.Expressions.Interpreter.GotoInstruction[] s_cache;
+        public bool _hasResult; // 0x18
+
         // ── Methods ──
         public void get_InstructionName(){} // RVA: 0x6611270
         public void get_ConsumedStack(){} // RVA: 0x6611010
@@ -30,6 +36,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class GreaterThanInstruction
     {
+        public object _nullValue; // 0x10
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -40,6 +50,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class GreaterThanOrEqualInstruction
     {
+        public object _nullValue; // 0x10
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

@@ -13,6 +13,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class PemHeader
     {
+        public string name; // 0x10
+        public string val; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_Name(){} // RVA: 0x2F8380
@@ -23,6 +26,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class PemObject : .ctor
     {
+        public string type; // 0x10
+        public System.Collections.IList headers; // 0x18
+        public byte[] content; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E2020 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380
@@ -45,7 +52,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class PemReader
     {
-        public object Writer;
+        public string Writer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E21C0
@@ -56,6 +63,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class PemWriter
     {
+        public int LineLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E2870
         public void get_Writer(){} // RVA: 0x2F8380

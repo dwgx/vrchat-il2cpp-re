@@ -12,6 +12,9 @@ public class GCCDelegate
 
 public class GPUBuffer`1
 {
+    public UIntPtr buffer;
+    public int elemCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x26EE0
     public void Dispose(){} // RVA: 0x24A50
@@ -22,6 +25,9 @@ public class GPUBuffer`1
 
 public class GPUBuffer`1
 {
+    public UIntPtr buffer; // 0x10
+    public int elemCount; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x33B6D50
     public void Dispose(){} // RVA: 0x33B6E10
@@ -32,6 +38,9 @@ public class GPUBuffer`1
 
 public class GPUBuffer`1
 {
+    public UIntPtr buffer; // 0x10
+    public int elemCount; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x33B6B20
     public void Dispose(){} // RVA: 0x33B6BE0
@@ -42,14 +51,17 @@ public class GPUBuffer`1
 
 public class GPlay
 {
-    public object sku;
-    public object user_id;
-    public object subscription_start_time;
-    public object subscription_end_time;
-    public object subscription_type;
-    public object status;
-    public object free_trial;
-    public object next_period;
+    public int sku; // 0x10
+    public bool user_id; // 0x14
+    public string subscription_start_time; // 0x18
+    public string subscription_end_time; // 0x20
+    public string subscription_type; // 0x28
+    public string status; // 0x30
+    public int free_trial; // 0x38
+    public string next_period; // 0x40
+    public string <priceCurrencyCode>k__BackingField; // 0x48
+    public int <purchaseType>k__BackingField; // 0x50
+    public string <startTimeMillis>k__BackingField; // 0x58
 
     // ── Methods ──
     public void get_acknowledgementState(){} // RVA: 0x32A5C0
@@ -97,6 +109,16 @@ public class GUIGlobals
 
 public class GalleryObject
 {
+    public string <name>k__BackingField; // 0x68
+    public string <description>k__BackingField; // 0x70
+    public bool <membersOnly>k__BackingField; // 0x78
+    public System.Collections.Generic.List`1<string> <roleIdsToView>k__BackingField; // 0x80
+    public System.Collections.Generic.List`1<string> <roleIdsToSubmit>k__BackingField; // 0x88
+    public System.Collections.Generic.List`1<string> <roleIdsToAutoApprove>k__BackingField; // 0x90
+    public System.Collections.Generic.List`1<string> <roleIdsToManage>k__BackingField; // 0x98
+    public System.DateTime <createdAt>k__BackingField; // 0xA0
+    public System.DateTime <updatedAt>k__BackingField; // 0xA8
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x358D50
     public void set_name(){} // RVA: 0x358D60
@@ -133,6 +155,9 @@ public class GameObjectSurrogate
 
 public class GateFitParameters
 {
+    public 0x65895840 <mode>k__BackingField; // 0x10
+    public float <aspect>k__BackingField; // 0x14
+
     // ── Methods ──
     public void get_mode(){} // RVA: 0x19689B0
     public void set_mode(){} // RVA: 0x833580
@@ -456,6 +481,9 @@ public class GiftDisplayReference
 
 public class GiftInfo
 {
+    public int <bulkSize>k__BackingField; // 0x80
+    public bool <isBulkGift>k__BackingField; // 0x84
+
     // ── Methods ──
     public void get_bulkSize(){} // RVA: 0xFC4570
     public void set_bulkSize(){} // RVA: 0xFC4560
@@ -484,13 +512,7 @@ public class GlobalState
 
 public class GotoExpressionProxy
 {
-    public object Arguments;
-    public object CanReduce;
-    public object DebugView;
-    public object Indexer;
-    public object NodeType;
-    public object Object;
-    public object Type;
+    public System.Linq.Expressions.GotoExpression Arguments; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAD00
@@ -505,6 +527,26 @@ public class GotoExpressionProxy
 
 public class Gpu
 {
+    public Google.Protobuf.MessageParser`1<Gpu> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public bool UseAdvancedGpuApiDefaultValue; // 0x8
+    public bool useAdvancedGpuApi_; // 0x1C
+    public 0x6592CA88 ApiDefaultValue; // 0xC
+    public 0x6592CA88 api_; // 0x20
+    public bool AllowPrecisionLossDefaultValue; // 0x10
+    public bool allowPrecisionLoss_; // 0x24
+    public string CachedKernelPathDefaultValue; // 0x18
+    public string cachedKernelPath_; // 0x28
+    public string SerializedModelDirDefaultValue; // 0x20
+    public string serializedModelDir_; // 0x30
+    public 0x6592CAE0 CacheWritingBehaviorDefaultValue; // 0x28
+    public 0x6592CAE0 cacheWritingBehavior_; // 0x38
+    public string ModelTokenDefaultValue; // 0x30
+    public string modelToken_; // 0x40
+    public 0x6592CB38 UsageDefaultValue; // 0x38
+    public 0x6592CB38 usage_; // 0x48
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AE6570
     public void get_Descriptor(){} // RVA: 0x5AE65D0
@@ -560,6 +602,9 @@ public class GpuTimestamp
 
 public class Grab
 {
+    public int playerId; // 0x10
+    public VRC.Dynamics.ChainId chainId; // 0x18
+
     // ── Methods ──
     public void get_GlobalPosition(){} // RVA: 0x76C22A0
     public void set_GlobalPosition(){} // RVA: 0x76C22D0
@@ -758,6 +803,11 @@ public class GroupState
 
 public class Grouping
 {
+    public U key;
+    public int hashCode;
+    public T[] elements;
+    public int count;
+
     // ── Methods ──
     public void Add(){} // RVA: 0x283FA0
     public void GetEnumerator(){} // RVA: 0xCD60
@@ -780,6 +830,11 @@ public class Grouping
 
 public class Grouping : System.Linq
 {
+    public string key; // 0x10
+    public int hashCode; // 0x18
+    public System.Reflection.MemberInfo[] elements; // 0x20
+    public int count; // 0x28
+
     // ── Methods ──
     public void Add(){} // RVA: 0x34AF6C0
     public void GetEnumerator(){} // RVA: 0x34AF430
@@ -802,6 +857,11 @@ public class Grouping : System.Linq
 
 public class Grouping
 {
+    public string key; // 0x10
+    public int hashCode; // 0x18
+    public VRC.Core.APICalendarEntry[] elements; // 0x20
+    public int count; // 0x28
+
     // ── Methods ──
     public void Add(){} // RVA: 0x34AF6C0
     public void GetEnumerator(){} // RVA: 0x34AF430
@@ -824,6 +884,11 @@ public class Grouping
 
 public class Grouping
 {
+    public uint key; // 0x10
+    public int hashCode; // 0x14
+    public VRC.Udon.Common.Interfaces.IUdonSymbol[] elements; // 0x18
+    public int count; // 0x20
+
     // ── Methods ──
     public void Add(){} // RVA: 0x34AF380
     public void GetEnumerator(){} // RVA: 0x34AF430
@@ -846,6 +911,8 @@ public class Grouping
 
 public class Grouping`2
 {
+    public System.Collections.Generic.List`1<T> elements;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x283FA0
     public void set_Key(){} // RVA: 0x283FA0
@@ -859,6 +926,9 @@ public class Grouping`2
 
 public class GrowableArrayEnumerator
 {
+    public int cur;
+    public int end;
+
     // ── Methods ──
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
     public void get_Current(){} // RVA: 0x283FA0
@@ -870,4 +940,6 @@ public class GrowableArrayEnumerator
 
 public class GrowableArrayEnumerator
 {
+    public int cur; // 0x10
+    public int end; // 0x14
 }

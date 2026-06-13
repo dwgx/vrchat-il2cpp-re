@@ -235,6 +235,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ImmutableObjectAttribute
     {
+        public System.ComponentModel.ImmutableObjectAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_Immutable(){} // RVA: 0x3A75E0
@@ -246,6 +248,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class InheritanceAttribute
     {
+        public System.ComponentModel.InheritanceAttribute Inherited;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0 | overloaded x2
         public void get_InheritanceLevel(){} // RVA: 0x32A5C0
@@ -258,6 +262,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class InitializationEventAttribute
     {
+        public string <EventName>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_EventName(){} // RVA: 0x2F8380
@@ -265,6 +271,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class InstallerTypeAttribute
     {
+        public string _typeName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_InstallerType(){} // RVA: 0x6C65DF0

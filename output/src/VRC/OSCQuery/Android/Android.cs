@@ -7,6 +7,8 @@ namespace VRC.OSCQuery.Android
 {
     public class AndroidDiscovery
     {
+        public float multicastDelay; // 0x10
+
         // ── Methods ──
         public void getMulticastLock(){} // RVA: 0x598C60
         public void get_MulticastLockStatus(){} // RVA: 0x5992B0

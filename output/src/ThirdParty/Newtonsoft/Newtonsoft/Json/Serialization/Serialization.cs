@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
-// Classes: 49
-// Methods: 641
+// Classes: 54
+// Methods: 653
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 {
@@ -10,6 +10,34 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x283FA0
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class CachedAttributeGetter`1
+    {
+        // ── Methods ──
+        public void GetAttribute(){} // RVA: 0x574D550
+        public void .cctor(){} // RVA: 0x574D640
+    }
+
+    public class CachedAttributeGetter`1
+    {
+        // ── Methods ──
+        public void GetAttribute(){} // RVA: 0x574D550
+        public void .cctor(){} // RVA: 0x574D640
+    }
+
+    public class CachedAttributeGetter`1
+    {
+        // ── Methods ──
+        public void GetAttribute(){} // RVA: 0x574D550
+        public void .cctor(){} // RVA: 0x574D640
+    }
+
+    public class CachedAttributeGetter`1
+    {
+        // ── Methods ──
+        public void GetAttribute(){} // RVA: 0x574D550
+        public void .cctor(){} // RVA: 0x574D640
     }
 
     public class CamelCaseNamingStrategy
@@ -30,6 +58,16 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver
     {
+        public Newtonsoft.Json.Serialization.IContractResolver _instance;
+        public string[] BlacklistedTypeNames; // 0x8
+        public Newtonsoft.Json.JsonConverter[] BuiltInConverters; // 0x10
+        public Newtonsoft.Json.DefaultJsonNameTable _nameTable; // 0x10
+        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Newtonsoft.Json.Serialization.JsonContract> _contractCache; // 0x18
+        public 0x657F3700 <DefaultMembersSearchFlags>k__BackingField; // 0x20
+        public bool <SerializeCompilerGeneratedMembers>k__BackingField; // 0x24
+        public bool <IgnoreSerializableInterface>k__BackingField; // 0x25
+        public bool <IgnoreSerializableAttribute>k__BackingField; // 0x26
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5FE17A0
         public void get_DynamicCodeGeneration(){} // RVA: 0x5FE1800
@@ -130,6 +168,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DiagnosticsTraceWriter
     {
+        public 0x6584B9C0 <LevelFilter>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_LevelFilter(){} // RVA: 0x32A5C0
         public void set_LevelFilter(){} // RVA: 0x2E00C0
@@ -140,8 +180,12 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ErrorContext
     {
-        public object CurrentObject;
-        public object ErrorContext;
+        public bool CurrentObject; // 0x10
+        public System.Exception ErrorContext; // 0x18
+        public object <OriginalObject>k__BackingField; // 0x20
+        public object <Member>k__BackingField; // 0x28
+        public string <Path>k__BackingField; // 0x30
+        public bool <Handled>k__BackingField; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5FEDAE0
@@ -157,6 +201,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ErrorEventArgs
     {
+        public object <CurrentObject>k__BackingField; // 0x10
+        public Newtonsoft.Json.Serialization.ErrorContext <ErrorContext>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_CurrentObject(){} // RVA: 0x2F8380
         public void get_ErrorContext(){} // RVA: 0x2E07C0
@@ -225,12 +272,15 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonArrayContract
     {
-        public object ItemContract;
-        public object FinalItemContract;
-        public object ItemConverter;
-        public object ItemIsReference;
-        public object ItemReferenceLoopHandling;
-        public object ItemTypeNameHandling;
+        public System.Type ItemContract; // 0xC0
+        public bool FinalItemContract; // 0xC8
+        public System.Type ItemConverter; // 0xD0
+        public System.Type ItemIsReference; // 0xD8
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> ItemReferenceLoopHandling; // 0xE0
+        public System.Func`1<object> ItemTypeNameHandling; // 0xE8
+        public bool <IsArray>k__BackingField; // 0xF0
+        public bool <ShouldCreateWrapper>k__BackingField; // 0xF1
+        public bool <CanDeserialize>k__BackingField; // 0xF2
 
         // ── Methods ──
         public void get_CollectionItemType(){} // RVA: 0x348120
@@ -253,6 +303,13 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonContainerContract
     {
+        public Newtonsoft.Json.Serialization.JsonContract _itemContract; // 0x90
+        public Newtonsoft.Json.Serialization.JsonContract _finalItemContract; // 0x98
+        public Newtonsoft.Json.JsonConverter <ItemConverter>k__BackingField; // 0xA0
+        public System.Nullable`1<bool> <ItemIsReference>k__BackingField; // 0xA8
+        public System.Nullable`1<0x658E1C38> <ItemReferenceLoopHandling>k__BackingField; // 0xAC
+        public System.Nullable`1<0x658E1D98> <ItemTypeNameHandling>k__BackingField; // 0xB4
+
         // ── Methods ──
         public void get_ItemContract(){} // RVA: 0x796DE0
         public void set_ItemContract(){} // RVA: 0x5FF0300
@@ -270,6 +327,19 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonContract
     {
+        public bool IsNullable; // 0x10
+        public bool IsConvertable; // 0x11
+        public bool IsEnum; // 0x12
+        public System.Type NonNullableUnderlyingType; // 0x18
+        public 0x658E0CC0 InternalReadType; // 0x20
+        public 0x658E4C00 ContractType; // 0x24
+        public bool IsReadOnlyOrFixedSize; // 0x28
+        public bool IsSealed; // 0x29
+        public bool IsInstantiable; // 0x2A
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializedCallbacks; // 0x30
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializingCallbacks; // 0x38
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onSerializedCallbacks; // 0x40
+
         // ── Methods ──
         public void get_UnderlyingType(){} // RVA: 0x37B370
         public void get_CreatedType(){} // RVA: 0x3A5500
@@ -301,9 +371,15 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonDictionaryContract
     {
-        public object Properties;
-        public object PropertyNameResolver;
-        public object _member;
+        public System.Func`2<string,string> Properties; // 0xC0
+        public System.Type PropertyNameResolver; // 0xC8
+        public System.Type _member; // 0xD0
+        public Newtonsoft.Json.Serialization.JsonContract <KeyContract>k__BackingField; // 0xD8
+        public System.Type _genericCollectionDefinitionType; // 0xE0
+        public System.Type _genericWrapperType; // 0xE8
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> _genericWrapperCreator; // 0xF0
+        public System.Func`1<object> _genericTemporaryDictionaryCreator; // 0xF8
+        public bool <ShouldCreateWrapper>k__BackingField; // 0x100
 
         // ── Methods ──
         public void get_DictionaryKeyResolver(){} // RVA: 0x348120
@@ -326,7 +402,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonDynamicContract
     {
-        public object ISerializableCreator;
+        public Newtonsoft.Json.Serialization.JsonPropertyCollection ISerializableCreator; // 0xC0
+        public System.Func`2<string,string> <PropertyNameResolver>k__BackingField; // 0xC8
 
         // ── Methods ──
         public void get_Properties(){} // RVA: 0x348120
@@ -364,6 +441,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonISerializableContract
     {
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> <ISerializableCreator>k__BackingField; // 0xC0
+
         // ── Methods ──
         public void get_ISerializableCreator(){} // RVA: 0x348120
         public void set_ISerializableCreator(){} // RVA: 0x348130
@@ -378,7 +457,19 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonObjectContract
     {
-        public object TypeCode;
+        public 0x658E1A28 TypeCode; // 0xC0
+        public System.Nullable`1<0x658E1AD8> <MissingMemberHandling>k__BackingField; // 0xC4
+        public System.Nullable`1<0x658E1C90> <ItemRequired>k__BackingField; // 0xCC
+        public System.Nullable`1<0x658E1B30> <ItemNullValueHandling>k__BackingField; // 0xD4
+        public Newtonsoft.Json.Serialization.JsonPropertyCollection <Properties>k__BackingField; // 0xE0
+        public Newtonsoft.Json.Serialization.ExtensionDataSetter <ExtensionDataSetter>k__BackingField; // 0xE8
+        public Newtonsoft.Json.Serialization.ExtensionDataGetter <ExtensionDataGetter>k__BackingField; // 0xF0
+        public System.Func`2<string,string> <ExtensionDataNameResolver>k__BackingField; // 0xF8
+        public bool ExtensionDataIsJToken; // 0x100
+        public System.Nullable`1<bool> _hasRequiredOrDefaultValueProperties; // 0x101
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> _overrideCreator; // 0x108
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> _parameterizedCreator; // 0x110
+        public Newtonsoft.Json.Serialization.JsonPropertyCollection _creatorParameters; // 0x118
 
         // ── Methods ──
         public void get_MemberSerialization(){} // RVA: 0x59E510
@@ -410,7 +501,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonPrimitiveContract
     {
-        public object PropertyContract;
+        public 0x658E2370 PropertyContract; // 0x90
 
         // ── Methods ──
         public void get_TypeCode(){} // RVA: 0x6AFD40
@@ -421,6 +512,38 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonProperty
     {
+        public System.Nullable`1<0x658E1C90> _required; // 0x10
+        public bool _hasExplicitDefaultValue; // 0x18
+        public object _defaultValue; // 0x20
+        public bool _hasGeneratedDefaultValue; // 0x28
+        public string _propertyName; // 0x30
+        public bool _skipPropertyNameEscape; // 0x38
+        public System.Type _propertyType; // 0x40
+        public Newtonsoft.Json.Serialization.JsonContract <PropertyContract>k__BackingField; // 0x48
+        public System.Type <DeclaringType>k__BackingField; // 0x50
+        public System.Nullable`1<int> <Order>k__BackingField; // 0x58
+        public string <UnderlyingName>k__BackingField; // 0x60
+        public Newtonsoft.Json.Serialization.IValueProvider <ValueProvider>k__BackingField; // 0x68
+        public Newtonsoft.Json.Serialization.IAttributeProvider <AttributeProvider>k__BackingField; // 0x70
+        public Newtonsoft.Json.JsonConverter <Converter>k__BackingField; // 0x78
+        public bool <Ignored>k__BackingField; // 0x80
+        public bool <Readable>k__BackingField; // 0x81
+        public bool <Writable>k__BackingField; // 0x82
+        public bool <HasMemberAttribute>k__BackingField; // 0x83
+        public System.Nullable`1<bool> <IsReference>k__BackingField; // 0x84
+        public System.Nullable`1<0x658E1B30> <NullValueHandling>k__BackingField; // 0x88
+        public System.Nullable`1<0x658DF2F8> <DefaultValueHandling>k__BackingField; // 0x90
+        public System.Nullable`1<0x658E1C38> <ReferenceLoopHandling>k__BackingField; // 0x98
+        public System.Nullable`1<0x658E1B88> <ObjectCreationHandling>k__BackingField; // 0xA0
+        public System.Nullable`1<0x658E1D98> <TypeNameHandling>k__BackingField; // 0xA8
+        public System.Predicate`1<object> <ShouldSerialize>k__BackingField; // 0xB0
+        public System.Predicate`1<object> <ShouldDeserialize>k__BackingField; // 0xB8
+        public System.Predicate`1<object> <GetIsSpecified>k__BackingField; // 0xC0
+        public System.Action`2<object,object> <SetIsSpecified>k__BackingField; // 0xC8
+        public Newtonsoft.Json.JsonConverter <ItemConverter>k__BackingField; // 0xD0
+        public System.Nullable`1<bool> <ItemIsReference>k__BackingField; // 0xD8
+        public System.Nullable`1<0x658E1D98> <ItemTypeNameHandling>k__BackingField; // 0xDC
+
         // ── Methods ──
         public void get_PropertyContract(){} // RVA: 0x358730
         public void set_PropertyContract(){} // RVA: 0x358740
@@ -502,6 +625,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonSerializerInternalBase
     {
+        public Newtonsoft.Json.Serialization.ErrorContext _currentErrorContext; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5FF6D80
         public void get_DefaultReferenceMappings(){} // RVA: 0x5FF6ED0
@@ -608,6 +733,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonSerializerProxy
     {
+        public Newtonsoft.Json.Serialization.JsonSerializerInternalReader _serializerReader; // 0xE0
+        public Newtonsoft.Json.Serialization.JsonSerializerInternalWriter _serializerWriter; // 0xE8
+        public Newtonsoft.Json.JsonSerializer _serializer; // 0xF0
+
         // ── Methods ──
         public void add_Error(){} // RVA: 0x600E8A0
         public void remove_Error(){} // RVA: 0x600E8D0
@@ -685,8 +814,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector
     {
-        public object FullyTrusted;
-        public object ReflectionDelegateFactory;
+        public System.Nullable`1<bool> FullyTrusted;
+        public System.Nullable`1<bool> ReflectionDelegateFactory; // 0x2
+        public string IdPropertyName;
 
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0x283FA0
@@ -719,6 +849,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class MemoryTraceWriter : get_LevelFilter
     {
+        public System.Collections.Generic.Queue`1<string> _traceMessages; // 0x10
+
         // ── Methods ──
         public void get_LevelFilter(){} // RVA: 0x760030
         public void set_LevelFilter(){} // RVA: 0x99E0D0
@@ -730,6 +862,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class NamingStrategy
     {
+        public bool <ProcessDictionaryKeys>k__BackingField; // 0x10
+        public bool <ProcessExtensionDataNames>k__BackingField; // 0x11
+        public bool <OverrideSpecifiedNames>k__BackingField; // 0x12
+
         // ── Methods ──
         public void get_ProcessDictionaryKeys(){} // RVA: 0x3A75E0
         public void set_ProcessDictionaryKeys(){} // RVA: 0x3A75F0
@@ -753,6 +889,15 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
         public void Invoke(){} // RVA: 0xCE10
         public void BeginInvoke(){} // RVA: 0x1EE30
         public void EndInvoke(){} // RVA: 0xCE10
+    }
+
+    public class ObjectConstructor`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B07170
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x338C70
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     public class OnErrorAttribute
@@ -811,6 +956,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class TraceJsonReader
     {
+        public Newtonsoft.Json.JsonReader _innerReader; // 0x78
+        public Newtonsoft.Json.JsonTextWriter _textWriter; // 0x80
+        public System.IO.StringWriter _sw; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6012920
         public void GetDeserializedJsonMessage(){} // RVA: 0x6012C10

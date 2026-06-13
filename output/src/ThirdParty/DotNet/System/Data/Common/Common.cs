@@ -106,6 +106,9 @@ namespace ThirdParty.DotNet.System.Data.Common
 
     public class DataStorage
     {
+        public System.Type[] s_storageClassType;
+        public System.Data.DataColumn _column; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67A19C0 | overloaded x3
         public void get_DateTimeMode(){} // RVA: 0x67A1CA0

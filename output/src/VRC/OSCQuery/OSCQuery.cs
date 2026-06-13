@@ -66,6 +66,8 @@ namespace VRC.OSCQuery
 
     public class OSCQueryHttpServer
     {
+        public System.Net.HttpListener _listener; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7589460
         public void AddMiddleware(){} // RVA: 0x7589A20
@@ -80,6 +82,9 @@ namespace VRC.OSCQuery
 
     public class OSCQueryNode
     {
+        public string Description; // 0x10
+        public string FullPath; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x343E80 | overloaded x2
         public void get_ParentPath(){} // RVA: 0x758EC30
@@ -103,6 +108,17 @@ namespace VRC.OSCQuery
 
     public class OSCQueryService
     {
+        public int <TcpPort>k__BackingField; // 0x10
+        public System.Net.IPAddress <HostIP>k__BackingField; // 0x18
+        public System.Net.IPAddress <OscIP>k__BackingField; // 0x20
+        public Microsoft.Extensions.Logging.ILogger`1<VRC.OSCQuery.OSCQueryService> <Logger>k__BackingField;
+        public System.Net.IPAddress _localIp; // 0x28
+        public int DefaultPortHttp;
+        public int DefaultPortOsc;
+        public string DefaultServerName;
+        public string _localOscUdpServiceName; // 0x8
+        public string _localOscJsonServiceName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7590F00 | overloaded x2
         public void get_TcpPort(){} // RVA: 0x32A5C0

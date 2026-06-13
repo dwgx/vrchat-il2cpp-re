@@ -31,7 +31,7 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class CrossPlatformInputManager
     {
-        public object inProgress;
+        public UnityStandardAssets.CrossPlatformInput.VirtualInput inProgress;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x2F7290
@@ -117,6 +117,8 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class VirtualInput
     {
+        public UnityEngine.Vector3 <virtualMousePosition>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_virtualMousePosition(){} // RVA: 0x2FA8D0
         public void set_virtualMousePosition(){} // RVA: 0x2FA8F0

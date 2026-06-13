@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.Mono.Http
 {
     public class NtlmClient
     {
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache;
+
         // ── Methods ──
         public void Authenticate(){} // RVA: 0x66966A0
         public void PreAuthenticate(){} // RVA: 0x519240

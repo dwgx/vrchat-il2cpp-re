@@ -28,6 +28,21 @@ namespace VRC.Player
     /// <summary>Originally: ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ</summary>
     public class RoomPlayerTransformComponent_C49E
     {
+        public ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÍÎÏÎÍÎÍÏÌÏÍÍÌÎÍÎÍÌÍÍÍ>> <ÌÏÎÎÌÏÏÏÌÌÌÍÍÎÎÌÍÏÌÎÍÍÍ>k__BackingField; // 0x28
+        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÎÍÏÎÎÎÎÏÏÏÏÎÎÍÎÏÌÎÎÎÌÍÎ>k__BackingField; // 0x30
+        public ÏÍÍÍÏÎÌÍÏÌÍÎÍÍÏÏÌÏÍÌÎÍÍ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> <ÍÌÏÍÏÍÌÎÏÏÌÌÎÍÏÍÍÌÎÏÎÎÌ>k__BackingField; // 0x38
+        public System.Action ÍÍÎÏÏÌÌÎÏÏÎÎÍÎÌÍÌÏÌÎÎÍÌ; // 0x40
+        public ÍÍÍÏÏÎÏÎÌÎÍÌÍÌÌÎÎÌÍÎÍÍÍ ÌÍÍÌÌÏÍÌÍÎÍÍÌÍÎÎÍÍÌÎÏÍÌ; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÏÎÌÎÍÎÎÌÌÌÌÍÏÍÍÌÎÎÌÏÌÌ; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÎÎÌÏÏÌÌÎÏÍÏÍÌÎÌÎÍÏÏ>k__BackingField; // 0x58
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÏÏÍÌÎÍÏÍÎÌÏÏÎÎÍÏÍÍÍÎÍÌ>k__BackingField; // 0x60
+        public VRC.UI.Client.Groups.GroupsStorage <ÎÏÏÍÍÏÎÍÌÎÌÍÏÍÏÌÎÍÌÎÎÎÎ>k__BackingField; // 0x68
+        public VRC.UI.Client.Groups.GroupCache <ÎÍÏÏÎÌÏÏÏÏÏÍÎÌÏÍÎÏÎÌÏÌÏ>k__BackingField; // 0x70
+        public ÎÎÏÌÏÏÌÏÌÍÌÏÎÏÏÏÏÍÍÌÌÌÍ ÍÍÍÏÍÎÏÌÌÍÍÌÍÌÏÌÏÍÎÎÏÌÌ; // 0x78
+        public ÍÎÎÍÏÌÍÌÍÏÍÏÏÎÎÍÎÏÍÏÍÌÍ ÌÎÎÏÏÌÎÍÍÍÍÍÏÎÌÏÍÏÌÎÎÌÍ; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ>> <ÌÎÏÏÎÎÍÍÍÏÏÍÌÍÎÏÍÍÎÏÌÏÎ>k__BackingField; // 0x88
+
         // ── Methods ──
         public void OrthoNormalize2(){} // RVA: 0xC96010
         public void get_SameFunc(){} // RVA: 0x31C010

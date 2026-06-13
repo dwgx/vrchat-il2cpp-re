@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class WorldMetadata
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x760A150
         public void ComputeHash(){} // RVA: 0x760A2C0
@@ -57,6 +59,16 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadataT
     {
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.SHA256T <Hash>k__BackingField; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.GuidT <PlayerPersistenceGuid>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT> <PlayerPersistenceMetadatas>k__BackingField; // 0x20
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT> <ObjectMetadatas>k__BackingField; // 0x28
+        public int <MaximumViewIDs>k__BackingField; // 0x30
+        public int <MinimumViewID>k__BackingField; // 0x34
+        public int <FirstPlayerPersistenceID>k__BackingField; // 0x38
+        public int <MaxPlayerPersistenceID>k__BackingField; // 0x3C
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingViewT> <NetworkCallingViews>k__BackingField; // 0x40
+
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x760D070
         public void ComputeHash(){} // RVA: 0x760D260
@@ -92,6 +104,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBool
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -105,7 +119,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBoolT
     {
-        public object ByteBuffer;
+        public bool ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_B(){} // RVA: 0x3A75E0
@@ -115,6 +129,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedByte
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -128,7 +144,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedByteT
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_B(){} // RVA: 0x3A75E0
@@ -138,6 +154,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBytes
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -162,6 +180,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBytesT
     {
+        public System.Collections.Generic.List`1<byte> <B>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_B(){} // RVA: 0x2F8380
         public void set_B(){} // RVA: 0x2DEE30
@@ -176,6 +196,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedDouble
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -189,7 +211,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedDoubleT
     {
-        public object ByteBuffer;
+        public double ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_D(){} // RVA: 0x2EE1B30
@@ -199,6 +221,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedFloat
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -212,6 +236,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedFloatT
     {
+        public float <F>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_F(){} // RVA: 0x407320
         public void set_F(){} // RVA: 0x407330
@@ -220,6 +246,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedInt
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -233,7 +261,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedIntT
     {
-        public object ByteBuffer;
+        public int ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_I(){} // RVA: 0x32A5C0
@@ -243,6 +271,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLong
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -261,6 +291,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLongT
     {
+        public long <L>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_L(){} // RVA: 0x2F8380
         public void set_L(){} // RVA: 0x1967700
@@ -275,6 +307,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedShort
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -288,7 +322,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedShortT
     {
-        public object ByteBuffer;
+        public short ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_S(){} // RVA: 0x1C0F720
@@ -298,6 +332,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedString
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -318,6 +354,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedStringT
     {
+        public string <S>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_S(){} // RVA: 0x2F8380
         public void set_S(){} // RVA: 0x2DEE30
@@ -332,6 +370,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUByte
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -345,7 +385,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUByteT
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_U(){} // RVA: 0x3A75E0
@@ -355,6 +395,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUInt
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -368,7 +410,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUIntT
     {
-        public object ByteBuffer;
+        public uint ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_U(){} // RVA: 0x32A5C0
@@ -378,6 +420,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedULong
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -396,6 +440,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedULongT
     {
+        public ulong <U>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_U(){} // RVA: 0x2F8380
         public void set_U(){} // RVA: 0x1967700
@@ -410,6 +456,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUShort
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -423,7 +471,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUShortT
     {
-        public object ByteBuffer;
+        public ushort ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_U(){} // RVA: 0x1C0F720

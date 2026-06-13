@@ -8,6 +8,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÍÍÍÌÏÍÌÏÌÍÍÏÌÌÎÎÏÏÎÎÍ</summary>
     public class AnimationUIHandler_BE53
     {
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÌÏÍÌÏÌÎÏÏÍÏÎÌÎÏÌÍÎÎÍÍÍ; // 0x20
+
         // ── Methods ──
         public void ToArray(){} // RVA: 0x950140
         public void Awake(){} // RVA: 0x950270
@@ -31,6 +33,19 @@ namespace VRC.UI
 
     public class AvatarProxySettings
     {
+        public bool ÍÍÍÌÍÎÎÍÌÎÎÌÏÌÌÌÎÏÏÏÎÎÌ;
+        public bool ÎÎÌÍÎÎÌÎÍÎÍÍÏÏÍÌÎÌÍÏÎÌÌ;
+        public float ÍÏÌÎÏÌÎÍÏÎÍÌÍÏÏÎÎÍÌÌÌÍÍ;
+        public float ÍÌÌÎÏÍÎÌÍÍÌÌÏÍÎÎÌÌÎÌÏÏÌ;
+        public float ÌÌÏÍÍÍÍÏÌÌÌÏÏÏÍÌÌÏÌÏÌÌÏ;
+        public float ÎÍÏÏÌÎÌÌÌÏÍÎÍÎÏÍÎÍÎÎÏÎÍ;
+        public float ÌÌÏÌÏÏÏÎÌÎÌÏÌÌÌÌÍÏÍÍÌÎÌ;
+        public int ÏÌÎÍÏÎÍÏÏÏÏÎÎÎÍÎÎÌÌÍÎÍÌ;
+        public int ÍÎÌÌÏÏÍÌÍÌÏÍÎÎÌÎÌÍÏÍÏÌÏ;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÌÏÎÏÎÎÌÏÎÏÌÍÎÏÎÎÏÏÏÏ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÎÌÍÎÎÏÏÌÏÎÍÎÌÌÏÎÍÍÏÎÎ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÏÏÎÎÏÌÏÌÌÏÏÍÎÍÎÍÏÍÎÎÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xAFDCC0
         public void .ctor(){} // RVA: 0xAFDCD0

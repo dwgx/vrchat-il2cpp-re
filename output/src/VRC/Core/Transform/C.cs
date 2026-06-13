@@ -8,6 +8,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÌÏÍÌÌÏÎÌÏÍÌÏÌÎÎÌÍÌÌÎÎÏ</summary>
     public class ComponentGameObjectHandler_1A44
     {
+        public ÏÏÍÌÎÏÎÏÎÎÎÏÌÍÏÏÌÍÏÏÍÏÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x20722B0
         public void Process(){} // RVA: 0x2072480
@@ -55,6 +57,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÏÎÏÎÌÍÌÍÏÎÌÍÍÍÍÍÍÍÏÌÏ</summary>
     public class ComponentGameObjectHandler_3344
     {
+        public ÏÍÍÏÎÍÌÏÏÌÏÌÍÎÏÍÍÎÍÌÏÍÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2007B70
         public void Process(){} // RVA: 0x2007D40
@@ -63,6 +67,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÏÍÌÏÌÏÍÎÍÏÌÎÎÍÍÌÎÏÍÍÍÎ</summary>
     public class ComponentGameObjectHandler_33B9
     {
+        public ÏÏÏÌÏÎÌÏÎÏÎÍÏÏÌÍÎÌÎÍÏÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FADE90
         public void Process(){} // RVA: 0x1FAE060
@@ -71,6 +77,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÌÏÎÏÏÎÍÎÏÏÎÏÏÌÎÎÍÌÍÏÍÏ</summary>
     public class ComponentGameObjectHandler_34EC
     {
+        public ÏÌÌÏÎÌÎÌÍÍÎÍÎÏÏÏÍÌÌÍÌÍÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x20767B0
         public void Process(){} // RVA: 0x2076980
@@ -126,6 +134,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÎÌÍÌÍÏÎÏÎÌÌÌÌÌÍÌÎÌÌÌÍÍ</summary>
     public class ComponentGameObjectHandler_6987
     {
+        public float ÍÎÎÍÌÎÏÏÌÍÏÎÎÌÌÍÍÌÌÍÍÏÎ; // 0x10
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void GetActiveInHierarchy(){} // RVA: 0x1319380
@@ -144,6 +154,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÌÎÌÌÍÍÍÍÎÏÍÌÌÎÎÍÏÎÌÏÌÏ</summary>
     public class ComponentGameObjectHandler_6A15
     {
+        public ÎÌÏÍÎÏÎÎÍÎÏÍÏÏÍÎÌÏÌÌÎÏÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x20746F0
         public void Process(){} // RVA: 0x20748C0
@@ -162,6 +174,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÌÏÎÏÌÏÏÏÌÌÏÍÎÌÎÎÍÌÌÎÎÎ</summary>
     public class ComponentGameObjectHandler_A152
     {
+        public ÎÏÎÍÌÍÎÍÍÌÎÍÏÍÍÏÎÏÍÎÏÎÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x20734D0
         public void Process(){} // RVA: 0x20736A0
@@ -170,6 +184,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÏÌÏÌÏÎÌÌÏÎÍÎÎÏÏÎÌÎÏÌÍÍ</summary>
     public class ComponentGameObjectHandler_B5EC
     {
+        public ÏÏÏÌÍÎÎÎÍÏÌÏÏÍÎÌÎÌÎÍÏÏÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2075590
         public void Process(){} // RVA: 0x2075760
@@ -210,6 +226,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÍÌÌÍÌÏÏÎÍÏÎÎÏÌÎÏÎÍÎÏÎÎ</summary>
     public class ComponentGameObjectHandler_C69C
     {
+        public ÏÎÏÍÏÎÏÍÍÎÎÏÎÏÌÏÌÏÍÏÍÍÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2012740
         public void Process(){} // RVA: 0x2012910
@@ -218,6 +236,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÏÍÌÍÌÎÎÏÍÍÏÍÏÍÏÏÍÏÍÍÍÌ</summary>
     public class ComponentGameObjectHandler_CE01
     {
+        public ÌÌÏÍÎÍÏÎÍÌÎÎÏÌÎÎÌÌÎÎÍÏÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2073130
         public void Process(){} // RVA: 0x2073300
@@ -226,6 +246,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÌÌÎÍÏÍÍÎÌÍÎÌÎÍÏÏÌÌÏÍÌ</summary>
     public class ComponentGameObjectHandler_D471
     {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1BCA620
         public void GetStructuralHashCode(){} // RVA: 0x1BCC310
@@ -246,7 +268,7 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÎÏÎÍÏÍÌÍÎÎÌÍÍÎÎÎÏÏÌÌÎÌ</summary>
     public class ComponentGameObjectHandler_E2B3
     {
-        public object _e2B3;
+        public ÌÍÎÎÎÎÎÍÍÎÌÏÌÍÍÏÏÎÍÎÎÏÌ _e2B3;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x206FEB0

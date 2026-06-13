@@ -71,7 +71,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class ProductDescription
     {
-        public object _storeSpecificId;
+        public string _storeSpecificId; // 0x10
+        public 0x659E5A38 type; // 0x18
+        public UnityEngine.Purchasing.ProductMetadata <metadata>k__BackingField; // 0x20
+        public string <receipt>k__BackingField; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x721D870 | overloaded x3
@@ -87,8 +90,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class PurchaseFailureDescription
     {
-        public object _productId;
-        public object _reason;
+        public string _productId; // 0x10
+        public 0x659E5AE8 _reason; // 0x18
+        public string <message>k__BackingField; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F528E0
@@ -102,6 +106,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class UnityUtil
     {
+        public System.Collections.Generic.List`1<System.Action> s_Callbacks;
+        public bool s_CallbacksPending; // 0x8
+        public System.Collections.Generic.List`1<0x658954D0> s_PcControlledPlatforms; // 0x10
+        public System.Collections.Generic.List`1<System.Action`1<bool>> pauseListeners; // 0x20
+
         // ── Methods ──
         public void GetAnyComponentsOfType(){} // RVA: 0xCD60
         public void get_currentTime(){} // RVA: 0x724D0A0

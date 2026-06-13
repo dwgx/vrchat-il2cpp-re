@@ -16,6 +16,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Operators
 
     public class CmsKeyTransRecipientInfoGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IKeyWrapper keyWrapper; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9508EA0 | overloaded x2
         public void get_AlgorithmDetails(){} // RVA: 0x9509080

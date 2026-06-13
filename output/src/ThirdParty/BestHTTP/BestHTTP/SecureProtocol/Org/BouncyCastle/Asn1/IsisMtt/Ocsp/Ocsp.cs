@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 {
     public class CertHash
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
+        public byte[] certificateHash; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979C7B0
         public void .ctor(){} // RVA: 0x979CB60 | overloaded x2
@@ -17,6 +20,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class RequestedCertificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure cert; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979D240 | overloaded x2
         public void .ctor(){} // RVA: 0x979D550 | overloaded x3

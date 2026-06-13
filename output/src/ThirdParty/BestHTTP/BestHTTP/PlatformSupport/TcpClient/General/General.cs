@@ -7,6 +7,19 @@ namespace ThirdParty.BestHTTP.BestHTTP.PlatformSupport.TcpClient.General
 {
     public class TcpClient
     {
+        public System.Net.Sockets.NetworkStream stream; // 0x10
+        public bool active; // 0x18
+        public System.Net.Sockets.Socket client; // 0x20
+        public bool disposed; // 0x28
+        public 0x657C2F28 values; // 0x2C
+        public int recv_timeout; // 0x30
+        public int send_timeout; // 0x34
+        public int recv_buffer_size; // 0x38
+        public int send_buffer_size; // 0x3C
+        public System.Net.Sockets.LingerOption linger_state; // 0x40
+        public bool no_delay; // 0x48
+        public System.TimeSpan <ConnectTimeout>k__BackingField; // 0x50
+
         // ── Methods ──
         public void Init(){} // RVA: 0x97FB9D0
         public void .ctor(){} // RVA: 0x97FBDD0 | overloaded x4

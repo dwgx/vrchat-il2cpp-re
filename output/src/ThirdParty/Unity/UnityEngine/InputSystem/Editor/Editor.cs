@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Editor
 {
     public class SampleFrequencyCalculator
     {
-        public object defaultImageSource;
-        public object preferableInferenceMode;
+        public double defaultImageSource; // 0x10
+        public int preferableInferenceMode; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EDA530

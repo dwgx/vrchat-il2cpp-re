@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 {
     public class BaseOptions
     {
+        public 0x65933B48 <delegateCase>k__BackingField; // 0x10
+        public string <modelAssetPath>k__BackingField; // 0x18
+        public byte[] <modelAssetBuffer>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_delegateCase(){} // RVA: 0x32A5C0
         public void get_modelAssetPath(){} // RVA: 0x2E07C0
@@ -34,7 +38,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 
     public class TaskInfo`1
     {
-        public object Size;
+        public string Size;
+        public System.Collections.Generic.List`1<string> <inputStreams>k__BackingField;
+        public System.Collections.Generic.List`1<string> <outputStreams>k__BackingField;
+        public T <taskOptions>k__BackingField;
 
         // ── Methods ──
         public void get_taskGraph(){} // RVA: 0xCD60

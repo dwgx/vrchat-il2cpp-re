@@ -7,6 +7,16 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class LazyAsyncResult
     {
+        public ThreadContext t_ThreadContext; // 0xFFFFFFFF
+        public object m_AsyncObject; // 0x10
+        public object m_AsyncState; // 0x18
+        public System.AsyncCallback m_AsyncCallback; // 0x20
+        public object m_Result; // 0x28
+        public int m_IntCompleted; // 0x30
+        public bool m_EndCalled; // 0x34
+        public bool m_UserEvent; // 0x35
+        public object m_Event; // 0x38
+
         // ── Methods ──
         public void get_CurrentThreadContext(){} // RVA: 0x6B2CE70
         public void .ctor(){} // RVA: 0x6B2CF80
@@ -31,6 +41,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ListenerAsyncResult
     {
+        public System.Threading.ManualResetEvent handle; // 0x10
+        public bool synch; // 0x18
+        public bool completed; // 0x19
+        public System.AsyncCallback cb; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B69980
         public void Complete(){} // RVA: 0x6B69E80 | overloaded x3
@@ -45,6 +60,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ListenerPrefix
     {
+        public string original; // 0x10
+        public string host; // 0x18
+        public ushort port; // 0x20
+        public string path; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6AB40
         public void ToString(){} // RVA: 0x2F8380

@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry.Internal.ScopeStack
 {
     public class AsyncLocalScopeStackContainer
     {
+        public System.Threading.AsyncLocal`1<System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[]> _asyncLocalScope; // 0x10
+
         // ── Methods ──
         public void get_Stack(){} // RVA: 0x641F130
         public void set_Stack(){} // RVA: 0x641F180
@@ -15,6 +17,8 @@ namespace ThirdParty.Sentry.Sentry.Internal.ScopeStack
 
     public class GlobalScopeStackContainer
     {
+        public System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[] <Stack>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Stack(){} // RVA: 0x2F8380
         public void set_Stack(){} // RVA: 0x2DEE30

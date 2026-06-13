@@ -19,6 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.Assertions
 
     public class AssertionException
     {
+        public string m_UserMessage; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7169CF0
         public void get_Message(){} // RVA: 0x7169DC0

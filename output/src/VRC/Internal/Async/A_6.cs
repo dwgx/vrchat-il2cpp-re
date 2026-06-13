@@ -25,7 +25,7 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÍÎÎÏÏÌÎÍÎÎÍÌÎÏÌÍÎÌÏÎ</summary>
     public class AsyncHandler_CD4A
     {
-        public object _cD4A;
+        public UnityEngine.AudioSource _cD4A; // 0x20
 
         // ── Methods ──
         public void Update(){} // RVA: 0x1A7ACE0

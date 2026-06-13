@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Dynamic.Utils
-// Classes: 11
-// Methods: 112
+// Classes: 13
+// Methods: 148
 
 namespace ThirdParty.DotNet.System.Dynamic.Utils
 {
     public class CacheDict`2
     {
+        public int _mask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void AlignSize(){} // RVA: 0x13FF0
@@ -70,6 +72,9 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
 
     public class ListArgumentProvider
     {
+        public System.Linq.Expressions.IArgumentProvider _provider; // 0x10
+        public System.Linq.Expressions.Expression _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6670890
         public void get_First(){} // RVA: 0x2E07C0
@@ -79,6 +84,9 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
 
     public class ListParameterProvider
     {
+        public System.Linq.Expressions.IParameterProvider _provider; // 0x10
+        public System.Linq.Expressions.ParameterExpression _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6670A40
         public void get_First(){} // RVA: 0x2E07C0
@@ -107,6 +115,52 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
         public void GetEnumerator(){} // RVA: 0xCD60
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class ListProvider`1
+    {
+        // ── Methods ──
+        public void get_First(){} // RVA: 0xCD60
+        public void get_ElementCount(){} // RVA: 0xD840
+        public void GetElement(){} // RVA: 0x1BCC0
+        public void IndexOf(){} // RVA: 0x386F1B0
+        public void Insert(){} // RVA: 0x331D330
+        public void RemoveAt(){} // RVA: 0x331D310
+        public void get_Item(){} // RVA: 0x386F260
+        public void set_Item(){} // RVA: 0x331D330
+        public void Add(){} // RVA: 0x331D310
+        public void Clear(){} // RVA: 0x386F290
+        public void Contains(){} // RVA: 0x386F2B0
+        public void CopyTo(){} // RVA: 0x386F360
+        public void get_Count(){} // RVA: 0x386F560
+        public void get_IsReadOnly(){} // RVA: 0x3C2850
+        public void Remove(){} // RVA: 0x331D310
+        public void GetEnumerator(){} // RVA: 0x386F580
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x386F610
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class ListProvider`1
+    {
+        // ── Methods ──
+        public void get_First(){} // RVA: 0xCD60
+        public void get_ElementCount(){} // RVA: 0xD840
+        public void GetElement(){} // RVA: 0x1BCC0
+        public void IndexOf(){} // RVA: 0x386F1B0
+        public void Insert(){} // RVA: 0x331D330
+        public void RemoveAt(){} // RVA: 0x331D310
+        public void get_Item(){} // RVA: 0x386F260
+        public void set_Item(){} // RVA: 0x331D330
+        public void Add(){} // RVA: 0x331D310
+        public void Clear(){} // RVA: 0x386F290
+        public void Contains(){} // RVA: 0x386F2B0
+        public void CopyTo(){} // RVA: 0x386F360
+        public void get_Count(){} // RVA: 0x386F560
+        public void get_IsReadOnly(){} // RVA: 0x3C2850
+        public void Remove(){} // RVA: 0x331D310
+        public void GetEnumerator(){} // RVA: 0x386F580
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x386F610
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class TypeExtensions

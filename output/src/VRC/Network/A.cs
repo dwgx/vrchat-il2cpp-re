@@ -8,6 +8,21 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÌÎÍÏÍÎÍÎÎÎÍÎÏÌÍÍÏÍÏÍÎ</summary>
     public class AudioPhotonRoomComponent_638E
     {
+        public ÏÏÌÎÍÏÍÎÍÎÎÎÍÎÏÌÍÍÏÍÏÍÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public UnityEngine.Audio.AudioMixer _mixer; // 0x20
+        public UnityEngine.AudioSource _referenceONSPConversionVoiceSource; // 0x28
+        public UnityEngine.AudioSource _referenceONSPConversionWorldSource; // 0x30
+        public bool _allowOverrideFromRemoteConfig; // 0x38
+        public float _nearFieldILDNudgeEarRadius; // 0x3C
+        public float _nearFieldILDNudgeEarTranslate; // 0x40
+        public float _nearFieldILDNudgeDistance; // 0x44
+        public float _nearFieldILDNudge; // 0x48
+        public UnityEngine.AnimationCurve _nearFieldILDNudgeOnEarBoost; // 0x50
+        public UnityEngine.AnimationCurve _nearFieldILDNudgeOffEarDuck; // 0x58
+        public UnityEngine.AnimationCurve _nearFieldGlobalBoostGain; // 0x60
+        public float _perEarDirectionalityFadeDistance; // 0x68
+        public float _perEarDirectionalityEarRadius; // 0x6C
+
         // ── Methods ──
         public void PauseInjected(){} // RVA: 0x759E020
         public void PauseInjected_9027A0499247(){} // RVA: 0x759E140

@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 6
-// Methods: 38
+// Classes: 9
+// Methods: 71
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class NavigateFocusRing
     {
+        public ChangeDirection Left;
+
         // ── Methods ──
         public void get_focusController(){} // RVA: 0x7F0180
         public void .ctor(){} // RVA: 0x73FDE40
@@ -27,6 +29,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationEventBase`1
     {
+        public 0x659A0EE8 <modifiers>k__BackingField;
+        public 0x65838618 <deviceType>k__BackingField;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0xD840
         public void set_modifiers(){} // RVA: 0x24FA0
@@ -40,6 +45,60 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void GetPooled(){} // RVA: 0x283FA0 | overloaded x2
     }
 
+    public class NavigationEventBase`1
+    {
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+        public 0x65838618 <deviceType>k__BackingField; // 0x8C
+
+        // ── Methods ──
+        public void get_modifiers(){} // RVA: 0xBB90C0
+        public void set_modifiers(){} // RVA: 0xBB9E60
+        public void get_shiftKey(){} // RVA: 0x37CDA10
+        public void get_altKey(){} // RVA: 0x37CDA40
+        public void get_deviceType(){} // RVA: 0x363A7C0
+        public void set_deviceType(){} // RVA: 0x3C7AFE0
+        public void .ctor(){} // RVA: 0x3C7AFF0
+        public void Init(){} // RVA: 0x3C7B080
+        public void LocalInit(){} // RVA: 0x3C7B130
+        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+    }
+
+    public class NavigationEventBase`1
+    {
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+        public 0x65838618 <deviceType>k__BackingField; // 0x8C
+
+        // ── Methods ──
+        public void get_modifiers(){} // RVA: 0xBB90C0
+        public void set_modifiers(){} // RVA: 0xBB9E60
+        public void get_shiftKey(){} // RVA: 0x37CDA10
+        public void get_altKey(){} // RVA: 0x37CDA40
+        public void get_deviceType(){} // RVA: 0x363A7C0
+        public void set_deviceType(){} // RVA: 0x3C7AFE0
+        public void .ctor(){} // RVA: 0x3C7AFF0
+        public void Init(){} // RVA: 0x3C7B080
+        public void LocalInit(){} // RVA: 0x3C7B130
+        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+    }
+
+    public class NavigationEventBase`1
+    {
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+        public 0x65838618 <deviceType>k__BackingField; // 0x8C
+
+        // ── Methods ──
+        public void get_modifiers(){} // RVA: 0xBB90C0
+        public void set_modifiers(){} // RVA: 0xBB9E60
+        public void get_shiftKey(){} // RVA: 0x37CDA10
+        public void get_altKey(){} // RVA: 0x37CDA40
+        public void get_deviceType(){} // RVA: 0x363A7C0
+        public void set_deviceType(){} // RVA: 0x3C7AFE0
+        public void .ctor(){} // RVA: 0x3C7AFF0
+        public void Init(){} // RVA: 0x3C7B080
+        public void LocalInit(){} // RVA: 0x3C7B130
+        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+    }
+
     public class NavigationEventDispatchingStrategy
     {
         // ── Methods ──
@@ -50,6 +109,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationMoveEvent
     {
+        public 0x658386C8 <direction>k__BackingField; // 0x90
+        public UnityEngine.Vector2 <move>k__BackingField; // 0x94
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73F3740
         public void DetermineMoveDirection(){} // RVA: 0x73F3830

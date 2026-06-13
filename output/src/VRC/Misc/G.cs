@@ -28,7 +28,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÎÍÍÏÏÍÏÎÍÍÎÌÎÎÏÎÏÍÎÎ</summary>
     public class GenericTypeArguments_F2F5
     {
-        public object GenericTypeArguments;
+        public UnityEngine.UI.Slider GenericTypeArguments; // 0x20
+        public RenderHeads.Media.AVProVideo.MediaPlayer target; // 0x28
 
         // ── Methods ──
         public void ConfigureBehaviour(){} // RVA: 0x8F3C050
@@ -86,6 +87,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÏÏÍÎÏÏÌÏÍÎÎÍÏÍÌÎÏÌÌ</summary>
     public class GetterPropertyVirtualComponent_B54D
     {
+        public ÌÎÎÎÎÍÏÏÍÏÌÏÌÏÍÌÏÌÌÌÏÏÎ[] ÌÏÍÌÌÍÏÏÎÍÎÏÏÏÎÎÍÏÌÏÏÌÍ; // 0x20
+        public System.Action`2<bool,ÌÎÎÎÎÍÏÏÍÏÌÏÌÏÍÌÏÌÌÌÏÏÎ> ÌÏÍÍÏÍÏÏÍÌÏÍÍÍÌÏÏÎÏÌÏÌÍ; // 0x28
+
         // ── Methods ──
         public void OnTriggerEnter(){} // RVA: 0x9325E50
         public void OnTriggerStay(){} // RVA: 0x9325FB0
@@ -162,6 +166,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÌÏÎÎÎÌÎÍÌÌÏÎÍÎÏÎÎÏÎÎ</summary>
     public class gameObjectSiblingSibling_2A45
     {
+        public bool _allowRenaming; // 0x20
+        public bool _showSortingDropddown; // 0x21
+        public bool _showCellSizeToggle; // 0x22
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<int> <ÍÌÍÎÏÏÍÌÏÏÎÌÏÍÍÍÎÎÌÌÏÌÌ>k__BackingField; // 0x28
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÌÌÎÎÍÍÎÍÏÏÍÏÏÍÍÍÌÍÌÍÏÎ>k__BackingField; // 0x30
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<VRC.Localization.LocalizableString> <ÎÍÌÏÏÎÌÍÎÍÍÎÌÎÍÌÍÏÏÎÌÍÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void get_Comparer(){} // RVA: 0x6374D0
@@ -184,6 +195,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÌÏÌÎÍÎÌÍÍÌÌÍÌÏÍÌÏÎÎÍ</summary>
     public class gameObjectSiblingSibling_6F8C
     {
+        public VRC.Localization.LocalizableString ÎÌÎÏÎÌÍÎÌÌÍÍÎÎÍÏÍÌÎÎÎÌÌ; // 0x20
+        public UnityEngine.GameObject _topBanner; // 0x48
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ _list; // 0x50
+        public UnityEngine.UI.GridLayoutGroup _gridLayoutGroup; // 0x58
+        public UnityEngine.GameObject _worldCellPrefab; // 0x60
+        public UnityEngine.UI.Button _randomizeButton; // 0x68
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÏÎÏÏÎÎÏÏÎÍÍÎÍÌÎÎÌÎÍÍÍÍÌ>> ÎÌÏÍÎÌÎÎÍÍÍÎÎÎÌÏÍÏÎÍÌÌÌ; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÍÍÏÎÎÏÌÎÌÌÎÍÎÏÍÎÌÌÌÍÎÌÍ; // 0x78
+
         // ── Methods ──
         public void set_description(){} // RVA: 0xB54600
         public void set_description_F9FF595185B3(){} // RVA: 0xB54600
@@ -214,6 +234,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÌÍÎÌÍÍÍÌÎÌÍÌÎÍÍÏÎÍÏÏ</summary>
     public class gameObjectSiblingSibling_85E7
     {
+        public int ÏÌÎÎÌÌÍÌÌÎÏÌÌÎÎÍÍÌÎÍÏÏÍ;
+        public float ÌÎÏÏÌÎÍÌÏÍÌÏÍÍÌÍÎÍÌÎÍÌÏ;
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ _groupsListBinding; // 0x20
+        public UnityEngine.GameObject _groupCell; // 0x28
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _searchButton; // 0x30
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<int> <ÍÌÍÎÏÏÍÌÏÏÎÌÏÍÍÍÎÎÌÌÏÌÌ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8D50D10
         public void Initialize(){} // RVA: 0x8D50DF0
@@ -237,6 +264,20 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÌÌÌÍÏÌÌÌÌÍÌÍÌÌÌÌÎÏÏ</summary>
     public class gameObjectSiblingSibling_E669
     {
+        public UnityEngine.UI.GridLayoutGroup _gridLayoutGroup; // 0x20
+        public UnityEngine.GameObject _bannerCarousel; // 0x28
+        public ÌÌÏÎÎÏÎÌÍÏÌÏÌÌÍÏÌÌÌÎÏÌÎ _ipsBannerCarousel; // 0x30
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _descriptionText; // 0x38
+        public UnityEngine.GameObject _descriptionBG; // 0x40
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ _list; // 0x48
+        public UnityEngine.GameObject _worldCellPrefab; // 0x50
+        public UnityEngine.GameObject _worldCellCompactPrefab; // 0x58
+        public ÌÎÎÌÎÍÍÌÍÌÏÌÎÌÍÍÌÏÌÍÍÎÎ _filter; // 0x60
+        public UnityEngine.UI.Button _randomizeButton; // 0x68
+        public UnityEngine.GameObject _optInPanel; // 0x70
+        public UnityEngine.GameObject _contentGridPanel; // 0x78
+        public UnityEngine.UI.Button _optInButton; // 0x80
+
         // ── Methods ──
         public void ConstructDelegate(){} // RVA: 0x8F63E00
         public void get_platform(){} // RVA: 0x3FA100
@@ -290,6 +331,21 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÏÌÏÎÏÎÏÏÍÏÍÌÏÎÎÎÎÌÎ</summary>
     public class gameObjectSibling_68CA
     {
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _content; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _secondaryContent; // 0x28
+        public UnityEngine.GameObject _worldCellPrefab; // 0x30
+        public UnityEngine.GameObject _worldCellCompactPrefab; // 0x38
+        public UnityEngine.GameObject _worldInstanceCellPrefab; // 0x40
+        public UnityEngine.GameObject _worldInstanceCellPrefabCompact; // 0x48
+        public UnityEngine.UI.GridLayoutGroup _gridLayoutGroup; // 0x50
+        public UnityEngine.UI.GridLayoutGroup _secondaryGridLayoutGroup; // 0x58
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _noResultsText; // 0x60
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _browseWorldsButton; // 0x68
+        public ÌÏÎÌÍÍÍÏÎÍÎÎÌÌÏÌÌÍÌÏÏÏÎ _dataContextSelectorGroup; // 0x70
+        public ÍÌÍÌÎÍÎÎÏÌÏÏÏÍÍÌÎÎÌÏÍÌÏ _scrollRect; // 0x78
+        public UnityEngine.GameObject _homeLabel; // 0x80
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _vrcPlusLockedListContent; // 0x88
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x8E3B410
         public void .cctor_27AACCBF055D(){} // RVA: 0xD93D70
@@ -337,7 +393,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÌÍÍÍÎÎÎÎÎÏÍÏÎÎÍÌÌÏÎÎ</summary>
     public class gameObject_772D
     {
-        public object gameObject;
+        public float gameObject;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
@@ -355,6 +411,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÍÎÎÍÎÍÍÏÎÏÎÌÌÏÍÌÎÍÎÍ</summary>
     public class gameObject_877BSibling_3C58
     {
+        public float ÍÏÏÍÎÏÌÌÏÌÌÏÌÏÍÌÍÎÍÌÏÎÌ;
+        public float ÍÎÏÌÎÏÍÍÏÍÌÌÎÍÎÎÍÌÎÏÎÏÌ;
+        public float ÍÍÍÌÍÌÍÎÌÏÏÎÌÍÍÏÏÎÌÍÍÏÍ;
+        public float ÏÏÌÎÌÏÏÌÌÍÍÏÌÏÍÏÌÍÌÎÎÍÌ;
+        public float ÌÎÍÌÎÎÍÌÎÍÍÎÏÌÍÎÍÌÎÎÏÎÍ;
+        public float ÎÍÏÌÏÍÌÎÎÍÌÌÎÎÎÍÎÎÏÌÏÎÎ;
+        public float ÍÎÍÍÌÎÍÍÌÏÎÍÍÏÍÍÏÍÎÌÌÎÏ;
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0xA13BB0
         public void GetScreenHeight(){} // RVA: 0xA145C0
@@ -377,6 +441,30 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÏÍÌÎÏÌÌÌÍÏÍÎÍÍÏÍÎÎÏÌ</summary>
     public class gameObject_877BSibling_3D72
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÍÎÌÌÍÍÏÌÏÏÎÌÍÌÍÍÎÎÍÎÎ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÍÏÍÎÌÎÏÍÌÏÎÍÎÌÍÍÍÍÏÍÏ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885E00> <ÎÌÍÍÍÍÏÎÏÌÌÌÎÍÌÌÌÍÎÎÌÎÌ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÌÌÎÌÌÍÍÌÌÌÌÍÏÎÌÎÍÌÍÏÍÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÍÌÌÎÍÏÎÌÍÎÎÏÍÍÎÍÏÏÌÏÌ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÎÍÏÌÌÏÏÎÎÌÍÍÏÎÏÍÎÏÍÎÌÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÍÏÎÏÏÍÎÍÌÌÌÎÍÎÏÏÎÍÎÏÎÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÎÎÏÎÍÎÏÏÍÍÍÍÎÎÏÎÎÏÏÌÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÌÌÍÌÍÍÍÎÎÏÍÏÌÍÍÌÏÎÎÏÎÏ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÌÍÎÍÍÌÍÎÎÍÏÍÌÎÌÏÎÌÏÌÏÏ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÌÍÍÎÌÍÍÌÌÌÎÏÍÍÏÏÌÌÏÎÎÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÏÌÎÏÌÎÍÏÏÍÏÌÏÍÎÎÌÌÌÍÏ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÍÎÏÎÎÏÍÌÎÏÎÎÍÏÎÍÌÌÌÏÏ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÏÏÏÏÌÌÏÏÌÌÏÍÌÌÏÌÎÎÎÏÎÌ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÍÏÌÏÎÎÍÎÌÌÌÌÍÎÍÌÍÏÍÎÌ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÎÍÎÎÎÏÌÎÏÌÍÍÏÌÍÎÌÎÍÌÎÍ>k__BackingField; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÎÏÌÏÎÌÎÌÎÍÌÎÍÎÌÍÏÌÍÎÌ>k__BackingField; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÍÏÏÎÎÍÌÏÍÎÍÎÎÍÎÍÍÏÌÏÍ>k__BackingField; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÏÍÎÏÏÍÌÍÍÎÌÍÎÍÍÍÏÌÏÍÌÍ>k__BackingField; // 0xA0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÍÍÎÍÏÍÌÏÌÍÎÍÍÏÏÍÌÏÍÏ>k__BackingField; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÌÏÌÍÌÎÍÍÌÍÍÍÌÏÍÏÍÌÎÍÌÍ>k__BackingField; // 0xB0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÌÏÏÎÌÌÍÎÎÎÏÎÏÎÍÍÌÏÌÌÌÏ>k__BackingField; // 0xB8
+        public 0x65885E00 ÎÎÏÌÎÌÏÍÎÎÎÌÏÎÌÍÏÎÌÍÍÍÏ; // 0xC0
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xA1AA00
         public void Cleanup(){} // RVA: 0x30B0C0
@@ -419,6 +507,24 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÍÏÏÍÎÎÏÏÎÏÌÌÏÏÎÎÌÏÎÌ</summary>
     public class gameObject_877BSibling_E8CA
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885E58> <ÌÍÏÎÍÌÏÍÎÌÍÏÌÎÏÎÌÍÏÏÌÍÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885E58> <ÌÍÏÎÏÍÎÍÎÎÍÍÌÏÍÏÌÍÎÎÎÍÎ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885EB0> <ÏÍÏÏÎÎÏÏÏÏÏÎÏÎÎÎÌÎÌÌÏÍÌ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÌÌÎÎÌÏÍÌÍÏÍÏÏÏÎÏÏÏÍÏÌ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÌÍÎÎÏÍÏÎÍÍÏÍÌÏÏÎÍÏÍÍÏÌ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885F08> <ÏÏÍÌÍÌÏÌÏÏÏÍÎÌÏÍÌÎÌÎÏÏÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885F08> <ÍÌÍÏÏÌÏÏÏÎÎÏÏÌÎÎÎÎÌÌÍÏÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÌÍÏÌÏÎÏÌÍÏÌÍÌÎÎÎÌÍÍÌÎ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÎÌÎÏÍÌÎÍÏÌÍÍÎÎÏÏÎÏÎÌÌ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÌÏÎÏÍÌÏÌÍÌÎÌÎÍÌÎÍÏÏÍÎ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÌÌÏÍÍÍÌÏÏÌÌÎÌÎÌÎÏÍÏÎÎÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÌÌÎÎÏÍÎÍÏÍÎÏÍÏÏÎÌÏÌÌÍ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÎÌÏÍÏÌÏÏÏÏÏÏÎÍÌÏÎÌÎÍÍ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÌÎÍÎÍÏÍÍÍÌÌÌÍÎÌÍÏÍÌÎÏÏ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÌÏÌÌÍÍÏÎÌÏÎÏÏÌÌÌÎÍÎÎÌÏ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÌÎÏÎÍÍÏÍÏÍÌÍÎÍÏÎÏÍÎÎÎÍ>k__BackingField; // 0x88
+        public ÏÌÏÎÍÎÎÌÏÎÏÌÎÎÎÍÎÎÎÎÍÍÌ ÎÌÍÌÎÌÏÎÍÌÍÍÌÏÍÏÎÏÏÎÏÌÎ; // 0x90
+
         // ── Methods ──
         public void Where(){} // RVA: 0xA055D0
         public void StringType(){} // RVA: 0x37E0E0
@@ -569,6 +675,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ</summary>
     public class gameObject_F4BASiblingSibling_1369
     {
+        public System.Action`1<bool> ÎÌÏÌÍÏÏÏÌÌÏÌÌÎÍÍÎÏÍÌÏÌÍ; // 0x10
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void .ctor(){} // RVA: 0x2F84F0
@@ -604,6 +712,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÎÏÌÌÎÏÏÎÎÎÍÌÌÌÏÌÌÌÎ</summary>
     public class gameObject_F4BASibling_4BBA
     {
+        public System.Action`1<VRC.Localization.LocalizableString> ÎÍÎÎÏÍÎÏÏÍÏÎÍÎÍÏÏÌÎÏÍÎÏ; // 0x20
+        public ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ <ÍÏÌÏÌÏÍÌÏÌÎÏÎÎÍÏÏÌÎÍÌÌÍ>k__BackingField; // 0x28
+        public ÏÏÎÌÌÏÍÍÎÎÎÍÎÏÏÌÏÍÌÌÎÌÍ <ÏÍÍÎÎÎÏÍÎÌÎÎÏÌÍÍÎÍÏÏÌÎÎ>k__BackingField; // 0x30
+        public UnityEngine.RectTransform <ÍÍÌÌÍÏÏÍÌÎÌÌÌÏÏÏÏÌÍÏÍÎÍ>k__BackingField; // 0x38
+        public UnityEngine.CanvasGroup <ÎÎÏÏÌÏÌÎÏÌÎÏÍÌÏÍÌÎÌÍÌÌÌ>k__BackingField; // 0x40
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ ÎÏÎÏÎÎÍÎÍÌÏÎÍÍÌÍÍÍÎÏÏÍÏ; // 0x48
+        public ÏÌÏÎÌÎÏÍÏÏÏÎÌÎÏÎÌÏÏÍÌÍÌ ÌÏÏÌÏÏÌÎÌÍÍÎÍÌÍÏÍÌÎÎÎÎÍ; // 0x50
+        public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÏÍÏÏÌÏÎÌÍÍÍÍÌÍÍÎÌÍÏÍÎÏÏ; // 0x58
+        public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÏÌÍÌÎÍÏÎÎÌÎÏÍÌÎÏÌÎÏÍÍÌÍ; // 0x60
+        public System.Collections.Generic.List`1<ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ> ÍÍÎÌÏÎÏÎÏÌÏÍÌÏÎÏÎÌÎÍÎÎÍ; // 0x68
+
         // ── Methods ──
         public void GetStructuralHashCode_4A74031FC095(){} // RVA: 0x8BF9640
         public void set_completePromotionOnPress(){} // RVA: 0x5A6190

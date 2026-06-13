@@ -5,6 +5,9 @@
 
 public class <ConcatIterator>d__59`1
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A6C870
@@ -20,6 +23,9 @@ public class <ConcatIterator>d__59`1
 
 public class <ConcatIterator>d__59`1
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.LowLevel.PlayerLoopSystem <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A6D1E0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A6D200
@@ -77,6 +83,9 @@ public class <ConsumeAll>d__10 : <>t__builder
 
 public class <ConsumeEnumerator>d__19
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -193,6 +202,9 @@ public class <ContinueWith>d__29`1 : <>t__builder
 
 public class <Convert>d__14`2
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -221,6 +233,9 @@ public class <CopyToAsyncInternal>d__28 : [I
 
 public class <Core>d__4
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -302,6 +317,9 @@ public class <CreateAsync>d__9`1 : <>t__builder
 
 public class <CreateCacheFile>d__10
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -327,6 +345,9 @@ public class <CreateContentReadStreamAsync>d__12 : [I
 
 public class <CreateFrames>d__15
 {
+    public int <>1__state; // 0x10
+    public Sentry.SentryStackFrame <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6405BE0
@@ -501,6 +522,9 @@ public class <DaylightName>e__FixedBuffer
 
 public class <Deactivate>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -512,6 +536,9 @@ public class <Deactivate>d__6
 
 public class <DelayedCoroutine>d__48
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -523,6 +550,9 @@ public class <DelayedCoroutine>d__48
 
 public class <DelayedDestroyDropdownList>d__75
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -534,6 +564,9 @@ public class <DelayedDestroyDropdownList>d__75
 
 public class <DelayedDestroyDropdownList>d__81
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -545,6 +578,9 @@ public class <DelayedDestroyDropdownList>d__81
 
 public class <DelayedGraphicRebuild>d__18
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -556,6 +592,9 @@ public class <DelayedGraphicRebuild>d__18
 
 public class <DelayedMaterialRebuild>d__19
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -567,6 +606,9 @@ public class <DelayedMaterialRebuild>d__19
 
 public class <DelayedSetDirty>d__56
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -648,6 +690,9 @@ public class <DeserializePayloadAsync>d__46 : [I
 
 public class <DisableRagdollSmooth>d__21
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -659,6 +704,9 @@ public class <DisableRagdollSmooth>d__21
 
 public class <DisabledToActive>d__173
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

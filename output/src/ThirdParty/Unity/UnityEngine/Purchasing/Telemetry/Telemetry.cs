@@ -69,6 +69,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryMetricDefinition
     {
+        public 0x659E65E8 <MetricType>k__BackingField; // 0x10
+        public string <MetricName>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_MetricType(){} // RVA: 0x19689B0
         public void get_MetricName(){} // RVA: 0x19689C0

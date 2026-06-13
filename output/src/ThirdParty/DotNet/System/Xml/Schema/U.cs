@@ -15,6 +15,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class UpaException
     {
+        public object particle1; // 0x90
+        public object particle2; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD8DA0
         public void get_Particle1(){} // RVA: 0x796DE0

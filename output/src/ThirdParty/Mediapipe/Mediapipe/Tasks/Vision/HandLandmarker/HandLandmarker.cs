@@ -21,6 +21,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 
     public class HandLandmarkerOptions
     {
+        public Mediapipe.Tasks.Core.BaseOptions <baseOptions>k__BackingField; // 0x10
+        public 0x65932078 <runningMode>k__BackingField; // 0x18
+        public int <numHands>k__BackingField; // 0x1C
+        public float <minHandDetectionConfidence>k__BackingField; // 0x20
+        public float <minHandPresenceConfidence>k__BackingField; // 0x24
+        public float <minTrackingConfidence>k__BackingField; // 0x28
+        public ResultCallback <resultCallback>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x2F8380
         public void get_runningMode(){} // RVA: 0x5BED50

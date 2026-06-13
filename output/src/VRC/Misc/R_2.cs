@@ -60,6 +60,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÌÎÍÌÎÏÎÎÏÌÎÎÌÏÎÎÍÍÍ</summary>
     public class RequiresStoringSiblingSibRelated_2426
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x20
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x1968950
@@ -83,6 +88,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÏÍÌÍÎÌÍÏÌÌÌÍÎÏÌÏÎÍÏÌ</summary>
     public class RequiresStoringSiblingSibRelated_2FD4
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void MoveNext(){} // RVA: 0x1968950
@@ -107,6 +117,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÎÌÎÍÌÎÎÏÎÎÎÏÍÎÍÍÍÍÎÎ</summary>
     public class RequiresStoringSiblingSibRelated_316A
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void SetLocalScale(){} // RVA: 0x205AB80
         public void get_Current(){} // RVA: 0x2F8380
@@ -127,6 +141,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÏÌÍÌÌÎÌÌÍÌÍÌÌÏÍÎÏÍÎÎ</summary>
     public class RequiresStoringSiblingSibRelated_317A
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x20
+        public bool <ÌÍÍÏÌÎÏÌÌÌÍÌÌÎÎÌÍÍÍÍÌÏÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
@@ -149,6 +168,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÎÏÏÍÍÍÌÎÎÎÏÏÏÍÎÌÎÎÌÌ</summary>
     public class RequiresStoringSiblingSibRelated_3908
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÍÏÍÌÎÎÍÏÎÎÌÏÌÍÌÏÏÎÏÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -163,6 +184,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÍÌÎÌÏÏÏÌÏÍÎÏÌÏÌÎÌÏÍÏ</summary>
     public class RequiresStoringSiblingSibRelated_5260
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÏÏÌÏÎÎÎÎÌÎÏÏÏÌÏÍÍÌÍÎÍÌ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÏÌÏÍÏÏÍÍÍÌÌÏÏÍÍÌÎÍÎÍÏÍ>k__BackingField; // 0x18
+        public uint <ÍÍÏÍÏÍÍÎÏÎÏÌÍÌÎÎÎÌÌÏÌÌÍ>k__BackingField; // 0x20
+        public System.Nullable`1<ÍÌÎÏÍÍÎÍÌÏÎÌÌÏÌÌÌÍÌÌÍÎÏ> <ÍÎÍÎÌÎÎÌÏÍÏÏÌÍÍÏÏÎÏÎÌÌÎ>k__BackingField; // 0x28
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÎÎÌÎÌÏÍÍÍÏÏÎÎÏÎÏÍÎÍÌÎÎ>k__BackingField; // 0x50
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÍÏÌÏÎÍÍÌÎÎÏÌÌÍÎÎÍÍÍÎÏ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
@@ -189,6 +217,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÍÌÎÍÌÍÏÌÏÏÎÏÎÌÏÏÏÎÏÌ</summary>
     public class RequiresStoringSiblingSibRelated_5E92
     {
+        public 0x65818538 <ÎÍÏÏÍÏÎÍÏÎÏÍÌÏÍÏÏÎÍÍÌÎÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -204,6 +234,20 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÏÌÍÍÍÍÌÍÌÏÏÏÍÏÍÍÎÎÍÍ</summary>
     public class RequiresStoringSiblingSibRelated_69E5
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÍÎÎÌÏÍÌÌÍÏÍÏÍÌÎÎÏÏÎÍÎÏÌ>k__BackingField; // 0x18
+        public 0x65818538 <ÎÍÏÏÍÏÎÍÏÎÏÍÌÏÍÏÏÎÍÍÌÎÎ>k__BackingField; // 0x20
+        public uint <ÏÎÎÌÍÌÏÎÍÏÏÌÏÏÍÍÍÎÍÎÌÏÎ>k__BackingField; // 0x24
+        public uint <ÍÌÌÌÎÎÎÎÌÎÏÍÎÎÎÎÌÍÍÏÏÍÌ>k__BackingField; // 0x28
+        public bool <ÎÏÍÌÎÌÎÎÎÌÏÎÍÏÎÏÍÍÌÎÍÍÎ>k__BackingField; // 0x2C
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÍÏÍÌÎÎÍÏÎÎÌÏÌÍÌÏÏÎÏÌÏ>k__BackingField; // 0x30
+        public bool <ÍÌÍÍÎÏÏÎÏÎÎÎÏÏÏÍÏÏÍÌÎÌÏ>k__BackingField; // 0x38
+        public bool <ÎÏÏÌÎÎÏÌÎÍÌÍÌÎÏÎÌÍÎÍÌÍÎ>k__BackingField; // 0x39
+        public bool <ÎÎÎÏÍÌÎÌÌÏÏÏÌÎÌÏÎÍÍÍÍÎÍ>k__BackingField; // 0x3A
+        public bool <ÎÏÎÍÏÍÏÍÌÍÌÎÎÍÎÍÏÎÎÏÎÏÏ>k__BackingField; // 0x3B
+        public bool <ÌÍÎÍÌÎÎÏÍÍÎÏÌÌÎÌÏÎÌÌÍÍÍ>k__BackingField; // 0x3C
+        public uint[] <ÌÍÏÌÍÎÏÏÍÎÎÏÌÎÎÌÌÌÎÎÎÌÎ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_isRigid(){} // RVA: 0x3BC230
         public void get_Key(){} // RVA: 0x1AD4690
@@ -244,6 +288,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÎÍÏÏÎÌÎÍÌÍÍÏÍÎÎÌÍÍÏÌ</summary>
     public class RequiresStoringSiblingSibRelated_7D4F
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÍÍÌÌÎÎÏÌÍÎÍÌÏÎÌÎÌÎÍÍÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void SKIP(){} // RVA: 0x100A2F0
         public void set_Key(){} // RVA: 0x1AD4690
@@ -260,6 +306,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÎÎÍÌÎÎÌÎÌÎÌÌÍÍÏÏÌÏÏÏ</summary>
     public class RequiresStoringSiblingSibRelated_7E44
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -283,6 +334,18 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÌÏÌÏÌÏÌÏÍÍÍÏÎÍÎÏÎÌÌÌ</summary>
     public class RequiresStoringSiblingSibRelated_81A8
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÌÏÎÏÍÌÏÎÏÏÎÎÎÍÌÍÍÍÌ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÎÏÌÎÌÎÎÌÌÎÍÍÍÎÍÌÏÎ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÌÍÍÎÎÍÍÍÍÎÎÍÍÍÌÎÎÎÌÌÏ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÎÏÍÎÌÌÍÌÍÍÌÍÎÌÏÏÏÎÏÏÌ>k__BackingField; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÌÌÎÏÌÎÎÏÏÏÎÌÎÏÍÌÌÌÌÏÍ>k__BackingField; // 0x38
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÏÌÌÎÍÏÌÌÌÎÌÏÌÍÍÌÏÌÏÎÎ>k__BackingField; // 0x40
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÏÎÏÍÎÏÌÍÍÌÌÌÍÏÌÎÎÍÍÍÍÌ>k__BackingField; // 0x48
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÏÎÎÍÍÍÍÎÍÍÎÏÌÌÏÏÌÏÏÎÍÏ>k__BackingField; // 0x50
+        public bool <ÍÍÌÌÌÎÎÏÌÍÏÎÎÍÍÏÍÏÎÌÌÍÎ>k__BackingField; // 0x58
+        public ÍÎÎÍÍÏÌÍÌÌÎÎÏÍÎÌÎÍÍÏÏÎÌ[] <ÎÌÍÏÍÍÍÍÎÍÍÍÎÍÌÌÏÌÌÎÍÎÎ>k__BackingField; // 0x60
+
         // ── Methods ──
         public void set_displayName(){} // RVA: 0x49B830
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -318,6 +381,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÌÍÌÌÎÏÏÍÏÎÌÎÍÎÌÏÏÏÏÍ</summary>
     public class RequiresStoringSiblingSibRelated_999C
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÎÎÌÍÏÎÌÎÍÏÎÌÌÌÌÌÎÏÏÌÌÌ>k__BackingField; // 0x28
+        public 0x65800BC8 <ÍÍÍÏÏÎÌÍÏÍÏÌÎÌÌÍÍÍÍÎÌÎÍ>k__BackingField; // 0x30
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
         public void get_Current(){} // RVA: 0x2DEE30
@@ -345,6 +415,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÏÎÎÌÍÏÍÎÌÍÏÎÍÍÍÏÍÏÌÍ</summary>
     public class RequiresStoringSiblingSibRelated_B633
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x519240
         public void get_ElementType_152552E49D3A(){} // RVA: 0x519240
@@ -365,6 +438,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÎÌÎÌÏÏÍÍÎÎÌÎÏÌÏÏÏÌÏ</summary>
     public class RequiresStoringSiblingSibRelated_D16F
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2F8380
@@ -388,6 +466,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÌÏÌÏÌÏÍÏÍÎÍÎÏÌÎÍÌÍÎÍ</summary>
     public class RequiresStoringSiblingSibRelated_DE06
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÍÏÍÌÎÎÍÏÎÎÌÏÌÍÌÏÏÎÏÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -403,6 +483,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÍÎÍÌÍÌÏÎÎÎÌÍÎÏÍÍÏÏÏÎ</summary>
     public class RequiresStoringSiblingSibRelated_E43B
     {
+        public 0x65806DC0 <ÎÍÏÏÍÏÎÍÏÎÏÍÌÏÍÏÏÎÍÍÌÎÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
         public void set_mode(){} // RVA: 0x833580
@@ -416,6 +498,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÎÎÍÌÍÍÍÌÍÏÏÎÏÎÏÍÎÎÎÍ</summary>
     public class RequiresStoringSiblingSibRelated_ECEC
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÌÏÍÏÌÌÎÎÏÍÌÌÏÏÎÌÎÌÍÏÍ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x28
+        public ulong <ÏÌÏÎÌÎÏÌÌÎÎÌÌÏÌÍÏÎÌÎÌÏÌ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x343E80
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -441,6 +529,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÎÌÏÎÍÏÍÏÍÍÏÎÏÌÏÎÏÌÌÌ</summary>
     public class RequiresStoringSiblingSibRelated_F5DD
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x20
+        public 0x65817CF8 <ÌÍÌÎÎÍÏÍÍÎÏÌÎÌÍÍÌÎÎÍÏÌÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_Priority(){} // RVA: 0x6374E0
         public void MoveNext(){} // RVA: 0x1968950
@@ -464,6 +557,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÍÌÏÌÍÎÍÍÍÌÍÏÍÍÏÌÏÌÎÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_0159
     {
+        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x28
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void set_Options(){} // RVA: 0x30B890
         public void set_Options_9CB40F40449B(){} // RVA: 0x30B890
@@ -481,6 +578,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÍÎÍÌÏÏÌÏÎÏÏÎÌÍÎÍÍÎÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_0A07
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+        public 0x65800BC8 <ÍÍÍÏÏÎÌÍÏÍÏÌÎÌÌÍÍÍÍÎÌÎÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -500,6 +601,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÌÌÍÌÏÏÏÍÌÏÏÍÎÎÎÌÏÏÌ</summary>
     public class RequiresStoringSiblingSiblingSSibling_1183
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public uint <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Length_C6C7D759F48E(){} // RVA: 0x1EA9890
@@ -518,6 +622,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÎÏÍÍÎÌÍÎÎÏÍÍÏÏÍÌÍÏÍÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_15A8
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -537,6 +644,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÎÌÌÌÏÎÌÏÌÌÏÌÎÍÏÎÌÎÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_1D98
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public int <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Length_C6C7D759F48E(){} // RVA: 0x1EA9890
@@ -554,6 +664,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÏÏÎÎÌÍÏÌÏÎÍÎÎÏÏÏÎÏÎÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_2B4C
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -572,6 +685,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÌÌÍÎÍÎÌÌÏÌÌÎÍÏÎÍÍÏÏÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_3C6A
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -588,6 +703,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÍÎÍÏÌÌÎÌÏÌÏÎÏÏÎÎÍÎÌÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_4AD5
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -604,9 +721,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÍÍÍÌÍÌÎÏÍÏÌÍÍÏÎÏÏÏÍÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_4AE2
     {
-        public object f_B73;
-        public object f_991;
-        public object f_9D2;
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ f_B73; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ f_991; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ f_9D2; // 0x20
 
         // ── Methods ──
         public void set_Value(){} // RVA: 0x2DEE30
@@ -629,6 +746,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÍÎÏÍÎÏÌÎÎÍÏÍÍÎÏÎÍÍÎÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_507C
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void Dispose(){} // RVA: 0x1AD4690
@@ -647,6 +767,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÎÍÌÎÌÎÎÏÌÎÏÌÎÌÍÏÎÏÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_53FE
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÌÏÎÏÍÌÏÎÏÏÎÎÎÍÌÍÍÍÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -662,6 +784,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÌÎÎÏÍÎÌÍÏÎÏÍÏÌÏÏÏÏÎÌ</summary>
     public class RequiresStoringSiblingSiblingSSibling_5771
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -678,6 +803,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÎÍÍÏÏÏÍÎÌÏÎÏÍÌÍÎÏÍÌÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_5B2D
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -692,6 +819,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÌÌÏÌÍÎÏÏÌÎÌÌÍÎÌÎÌÎÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_612C
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x100A2F0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x100A2F0
@@ -709,6 +838,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÏÌÌÏÎÏÏÏÍÎÌÎÏÏÌÎÏÎÏÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_7D68
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x20
+        public bool <ÌÏÎÌÏÎÏÏÌÌÏÏÏÍÎÍÏÌÌÌÌÎÏ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
@@ -729,6 +863,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÍÍÏÎÎÍÌÍÏÍÍÍÌÎÏÍÏÏÌÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_8148
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÏÌÌÍÏÎÎÎÍÎÎÌÍÏÏÎÎÎÌÎÍÏ[] <ÍÏÏÍÌÍÏÏÍÍÌÍÏÍÏÏÌÎÌÎÎÏÎ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -748,6 +886,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÏÍÍÎÎÌÏÏÏÏÏÌÏÌÎÌÍÍÎÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_8893
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -765,6 +905,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÌÏÎÏÍÏÎÎÎÌÍÌÏÎÌÎÎÏÎÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_8B85
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÌÏÎÏÍÌÏÎÏÏÎÎÎÍÌÍÍÍÌ>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÎÏÌÍÏÌÌÌÍÍÌÎÌÎÍÌÌÏÎÍÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void GetSource(){} // RVA: 0x1F02A60
@@ -783,6 +926,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÍÏÏÌÏÌÌÏÏÎÎÌÍÎÎÍÎÎÏÌ</summary>
     public class RequiresStoringSiblingSiblingSSibling_B5E5
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] <ÍÌÌÏÍÎÏÌÍÎÌÍÎÍÏÎÌÏÏÌÌÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -800,6 +946,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÏÏÍÏÍÏÍÍÏÌÌÎÏÏÏÏÎÌÌÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_B757
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] <ÎÏÌÍÏÌÌÎÎÌÍÎÌÍÌÍÏÎÏÍÏÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x1968950
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
@@ -817,6 +966,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÍÌÎÍÎÌÏÏÎÏÌÎÎÏÏÏÎÏÌÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_C7A4
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÏÌÌÌÏÏÎÏÌÏÌÎÎÎÎÍÎÏÌÌÌÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -832,6 +983,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÌÎÍÏÏÌÍÏÌÍÏÏÌÏÌÎÏÌÎÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_CDF9
     {
+        public uint <ÌÏÏÌÎÍÎÌÏÍÌÍÌÍÏÍÏÍÍÌÍÌÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -845,6 +998,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÏÏÏÏÏÍÌÏÍÍÌÏÏÌÎÏÏÎÏÍÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_CF45
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public uint <ÍÏÏÏÌÍÌÌÏÎÎÍÍÎÌÌÍÌÎÏÌÎÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void set_Count_19BC58124977(){} // RVA: 0x1EA98A0
@@ -861,6 +1017,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÏÎÏÍÌÎÎÏÌÏÌÌÌÏÌÎÎÍÍÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_DB5F
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public uint <ÎÍÍÎÌÍÌÌÍÍÎÏÏÌÎÌÏÎÍÏÌÎÍ>k__BackingField; // 0x18
+        public bool <ÍÏÎÏÏÍÎÎÍÏÎÍÌÏÌÍÌÏÎÎÎÏÍ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -879,6 +1039,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÌÌÏÌÎÎÏÎÎÎÍÏÌÌÍÌÏÍÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_E038
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÏÎÎÏÏÎÌÍÎÎÏÏÌÍÌÏÍÍÎÎÍÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -893,6 +1055,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÏÏÎÎÎÌÌÏÌÍÌÍÌÍÍÎÏÏÎÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_E174
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
@@ -910,6 +1075,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÏÍÏÎÎÍÍÏÎÏÏÍÍÏÏÍÍÏÌÎÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_E3F7
     {
+        public uint <ÌÏÍÏÏÏÏÏÍÌÌÌÌÌÏÏÏÌÏÏÏÍÏ>k__BackingField; // 0x10
+        public uint <ÌÏÌÏÏÌÎÌÌÏÎÍÌÏÎÎÎÍÏÎÎÌÎ>k__BackingField; // 0x14
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
         public void set_mode(){} // RVA: 0x833580
@@ -925,6 +1093,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÎÏÎÌÍÏÎÏÍÌÌÏÏÎÌÌÍÎÍÍÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_E863
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -941,6 +1111,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÎÍÌÎÍÌÌÌÏÍÍÎÎÎÎÌÍÎÎÏ</summary>
     public class RequiresStoringSiblingSiblingSSibling_E95E
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÍÏÍÎÎÎÌÎÏÍÍÌÎÏÌÏÏÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -959,6 +1132,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÎÎÌÏÏÏÎÍÌÌÌÌÌÍÌÎÍÍÎÍ</summary>
     public class RequiresStoringSiblingSiblingSSibling_EF01
     {
+        public uint <ÍÍÏÏÏÎÍÍÏÌÎÏÏÏÎÏÎÎÏÌÏÍÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
         public void GetHashCode_B46A092BC6CA(){} // RVA: 0x19689B0
@@ -972,6 +1147,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÍÌÏÍÌÍÍÌÍÎÍÎÍÏÍÎÏÎÌÎ</summary>
     public class RequiresStoringSiblingSiblingSSibling_F7E2
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public uint <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void set_Count(){} // RVA: 0x1EA98A0
@@ -988,6 +1166,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÌÎÏÌÍÎÍÏÎÍÌÏÍÏÎÌÏÍÍÎ</summary>
     public class RequiresStoringSiblingSiblingSibling_6257
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÍÎÎÏÍÌÍÎÍÍÏÌÌÌÏÏÏÏ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x19689C0
         public void System.IDisposable.Dispose(){} // RVA: 0x100A2F0
@@ -1004,6 +1185,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÎÎÌÌÏÏÏÎÍÌÏÎÎÌÎÍÌÎÎ</summary>
     public class RequiresStoringSiblingSiblingSibling_67A8
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public uint <ÌÏÌÏÏÌÎÌÌÏÎÍÌÏÎÎÎÍÏÎÎÌÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Length_7C45C1284A6D(){} // RVA: 0x1EA9890
@@ -1020,6 +1204,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÎÌÎÌÌÏÏÍÎÌÍÌÍÍÌÎÎÌÍ</summary>
     public class RequiresStoringSiblingSiblingSibling_C1E8
     {
+        public uint <ÍÍÏÏÏÎÍÍÏÌÎÏÏÏÎÏÎÎÏÌÏÍÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -1034,6 +1220,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÏÌÍÍÎÍÎÎÌÎÎÌÎÏÎÍÎÍÏÍ</summary>
     public class RequiresStoringSiblingSiblingSibling_D326
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] <ÏÎÎÏÏÏÏÏÎÍÌÏÏÌÏÍÌÍÍÌÌÎÎ>k__BackingField; // 0x48
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void get_MoveNext(){} // RVA: 0x4976A0
@@ -1057,6 +1249,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÎÏÏÌÍÎÏÍÍÌÍÎÌÎÏÌÍÏÍÎÌ</summary>
     public class RequiresStoringSiblingSiblingSibling_DA2D
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -1074,6 +1269,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÏÏÍÎÌÎÏÍÍÎÌÏÎÎÏÏÌÎÏÌ</summary>
     public class RequiresStoringSiblingSibling_041E
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public uint <ÍÍÏÏÏÎÍÍÏÌÎÏÏÏÎÏÎÎÏÌÏÍÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Length_FFDED6876D00(){} // RVA: 0x1EA9890
@@ -1092,6 +1290,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÏÍÌÎÌÏÍÏÍÎÎÌÍÏÌÏÎ</summary>
     public class RequiresStoringSiblingSibling_586F
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public uint <ÏÎÍÎÏÏÍÍÎÏÍÍÏÎÏÏÏÏÍÍÌÍÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void get_Length(){} // RVA: 0x1EA9890
@@ -1108,6 +1309,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÍÎÌÌÏÏÏÎÎÌÍÎÌÏÍÍÎÌÌÍ</summary>
     public class RequiresStoringSiblingSibling_69BC
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÍÎÎÏÍÌÍÎÍÍÏÌÌÌÏÏÏÏ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+        public bool <ÏÍÎÍÍÌÌÍÎÏÌÍÌÏÍÏÏÎÌÍÏÎÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void set_Type(){} // RVA: 0x3A75F0
@@ -1127,6 +1332,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÍÍÌÌÎÏÌÍÏÌÌÏÎÍÎÍÌÌÌÏ</summary>
     public class RequiresStoringSiblingSibling_B43D
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÎÏÏÍÍÌÌÍÌÍÍÎÍÌÍÎÌÍÍÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -1145,6 +1353,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÏÏÏÍÌÍÎÏÌÏÍÏÌÎÍÍÏÌÎÍ</summary>
     public class RequiresStoringSiblingSibling_C4B1
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -1160,6 +1370,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÏÎÍÌÍÏÏÍÍÍÍÌÌÎÌÎÏÏÎÎ</summary>
     public class RequiresStoringSibling_D921
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x10
+        public 0x65800BC8 <ÌÍÏÎÌÏÎÎÏÍÍÎÍÌÌÌÏÍÏÏÌÏÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void set_Count(){} // RVA: 0x1EA98A0
@@ -1179,6 +1392,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÍÏÍÍÍÍÎÎÎÌÎÎÌÍÍÌÌÎÎÍ</summary>
     public class RequiresStoring_5E04
     {
+        public string <ÏÌÏÎÍÎÎÍÏÌÎÌÍÏÍÏÎÎÌÏÏÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0x1E0D660 | overloaded x2
@@ -1240,7 +1455,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÍÏÌÍÎÌÎÍÏÌÎÏÌÌÌÍÏÌÌÍ</summary>
     public class rawActiveActionSetArray_9A99
     {
-        public object rawActiveActionSetArray;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ rawActiveActionSetArray; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xCF1350

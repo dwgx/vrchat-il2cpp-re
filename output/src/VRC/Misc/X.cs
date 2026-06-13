@@ -8,6 +8,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ</summary>
     public class x00Derived_5203 : x00
     {
+        public System.Func`1<string> ÍÍÏÌÏÏÌÍÎÎÎÏÎÍÍÎÏÏÏÌÏÍÌ; // 0x30
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<string>> ÏÏÎÍÎÌÏÍÌÍÎÎÏÏÌÌÍÎÍÍÌÏÏ; // 0x38
+        public int ÎÍÎÍÎÌÍÍÏÏÍÍÍÎÎÏÌÏÌÌÏÏÏ; // 0x40
+        public System.Collections.Generic.Dictionary`2<System.Action,System.ValueTuple`2<ÌÌÏÎÌÌÍÎÎÎÍÏÍÌÎÏÎÏÏÏÏÌÌ,System.Threading.CancellationTokenSource>> ÌÎÌÍÌÏÏÎÏÌÍÌÎÍÎÍÏÏÏÌÏÏÌ; // 0x48
+
         // ── Methods ──
         public void ValueTextEquals_233E27EFDD19(){} // RVA: 0x1E1C6A0 | overloaded x2
         public void TryGetGuid_11908D2C8430(){} // RVA: 0x1E1D390 | overloaded x2

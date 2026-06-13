@@ -87,6 +87,8 @@ namespace ThirdParty.Other.OVR.OpenVR
 
     public class InputOriginInfo_t
     {
+        public ulong devicePath; // 0x10
+
         // ── Methods ──
         public void get_rchRenderModelComponentName(){} // RVA: 0x61EE760
     }

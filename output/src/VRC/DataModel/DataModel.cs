@@ -30,6 +30,27 @@ namespace VRC.DataModel
 
     public class KeyboardData
     {
+        public VRC.Localization.LocalizableString _title; // 0x10
+        public VRC.Localization.LocalizableString _placeholderText; // 0x38
+        public 0x659855E0 _keyboardType; // 0x60
+        public 0x65985638 _keyboardRadioButtonGroup; // 0x64
+        public int _defaultRadioButtonGroupValue; // 0x68
+        public 0x65936640 _inputType; // 0x6C
+        public 0x659365E8 _contentType; // 0x70
+        public int _characterLimit; // 0x74
+        public bool _multiline; // 0x78
+        public bool _readOnly; // 0x79
+        public VRC.Localization.LocalizableString _submitLabel; // 0x80
+        public VRC.Localization.LocalizableString _cancelLabel; // 0xA8
+        public bool _isWorldKeyboard; // 0xD0
+        public ÌÌÍÎÏÌÎÎÌÍÌÎÌÏÏÍÎÍÍÎÌÍÎ <ÏÎÎÌÏÎÌÌÎÌÏÏÎÎÌÎÏÎÏÌÍÏÍ>k__BackingField; // 0xD8
+        public string <ÏÎÏÍÎÌÏÍÎÎÍÌÎÏÍÎÌÎÌÏÏÍÏ>k__BackingField; // 0xE0
+        public System.Action`1<string> <ÍÌÍÍÍÎÍÍÏÎÏÎÍÎÌÎÍÎÍÍÎÎÏ>k__BackingField; // 0xE8
+        public System.Action`1<string> <ÏÏÌÏÎÍÏÌÎÍÌÏÍÌÏÍÍÏÌÌÎÌÍ>k__BackingField; // 0xF0
+        public System.Action <ÍÎÍÎÏÍÏÏÍÎÎÍÌÍÎÌÍÍÎÎÌÍÌ>k__BackingField; // 0xF8
+        public System.Action`1<int> <ÍÎÌÌÎÍÌÎÎÎÍÌÌÍÎÌÎÏÎÍÍÎÏ>k__BackingField; // 0x100
+        public bool <StayOpenAfterSubmit>k__BackingField; // 0x108
+
         // ── Methods ──
         public void set_OnInputChanged(){} // RVA: 0x35E980
         public void set_CancelButtonText(){} // RVA: 0x1D8CE00
@@ -70,8 +91,8 @@ namespace VRC.DataModel
         public void get_Multiline_7D7DC4DC168A(){} // RVA: 0x1D8D510
         public void get_OnRadioOptionSet(){} // RVA: 0xA94E10
         public void set_CharacterLimit(){} // RVA: 0x1D8D640
-        public void set_ReadOnly(){} // RVA: 0x1D8D650
-        public void set_IsWorldKeyboard(){} // RVA: 0x1D8D9F0
+        public void set_IsWorldKeyboard(){} // RVA: 0x1D8D650
+        public void set_ReadOnly(){} // RVA: 0x1D8D9F0
         public void get_IsWorldKeyboard(){} // RVA: 0x8A9980
         public void get_ReadOnly(){} // RVA: 0x8A7360
         public void .ctor(){} // RVA: 0x1D8DA10
@@ -79,6 +100,8 @@ namespace VRC.DataModel
 
     public class QuitHandler
     {
+        public VRC.DataModel.QuitHandler ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xF52EB0
         public void .ctor(){} // RVA: 0xF533E0
@@ -97,7 +120,7 @@ namespace VRC.DataModel
 
     public class SearchInFieldsUser
     {
-        public object System.Collections.Generic.IEnumerator<System.String>.Current;
+        public bool System.Collections.Generic.IEnumerator<System.String>.Current; // 0x10
 
         // ── Methods ──
         public void get_IsUndefined(){} // RVA: 0xB84FE0
@@ -120,6 +143,8 @@ namespace VRC.DataModel
 
     public class SearchInFieldsWorld
     {
+        public bool Title; // 0x10
+
         // ── Methods ──
         public void get_FieldDescriptions(){} // RVA: 0x1D82360
         public void ToString(){} // RVA: 0x1D82410
@@ -140,6 +165,10 @@ namespace VRC.DataModel
 
     public class SearchParameters
     {
+        public string SEARCH_TITLE_OVERFLOW_SUFFIX;
+        public 0x6588A9F8 SearchContentType; // 0x10
+        public 0x6588AB58 SearchInvokedFrom; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D83CD0
         public void Initialize(){} // RVA: 0x1D83F40
@@ -170,6 +199,8 @@ namespace VRC.DataModel
 
     public class VRCData
     {
+        public ÌÏÏÎÌÌÎÎÏÏÍÌÎÏÏÌÍÍÎÌÌÌÎ ÌÍÍÏÌÏÌÌÍÍÌÏÎÌÏÏÌÎÏÌÌÎÍ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1D8DC80
         public void Initialize(){} // RVA: 0x1D8DCE0

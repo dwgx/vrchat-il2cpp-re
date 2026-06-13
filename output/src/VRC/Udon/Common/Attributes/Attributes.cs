@@ -13,6 +13,8 @@ namespace VRC.Udon.Common.Attributes
 
     public class UdonWrapperModuleAttribute
     {
+        public System.Type <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30

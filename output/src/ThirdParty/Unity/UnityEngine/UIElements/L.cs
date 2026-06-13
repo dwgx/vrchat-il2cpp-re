@@ -24,6 +24,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Length
     {
+        public float k_MaxValue;
+        public float m_Value; // 0x10
+
         // ── Methods ──
         public void Percent(){} // RVA: 0x7465070
         public void Auto(){} // RVA: 0x74650B0
@@ -44,6 +47,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListView
     {
+        public System.Func`1<UnityEngine.UIElements.VisualElement> m_MakeItem; // 0x540
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> m_BindItem; // 0x548
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> <unbindItem>k__BackingField; // 0x550
+        public System.Action`1<UnityEngine.UIElements.VisualElement> <destroyItem>k__BackingField; // 0x558
+
         // ── Methods ──
         public void get_makeItem(){} // RVA: 0xDA11E0
         public void get_bindItem(){} // RVA: 0xDA2E80
@@ -67,6 +75,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListViewDragger
     {
+        public DragPosition m_LastDragPosition; // 0x30
+        public UnityEngine.UIElements.VisualElement m_DragHoverBar; // 0x50
+        public UnityEngine.UIElements.VisualElement m_DragHoverItemMarker; // 0x58
+
         // ── Methods ──
         public void get_targetView(){} // RVA: 0x73DA730
         public void get_targetScrollView(){} // RVA: 0x73DA7C0
@@ -96,6 +108,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListViewDraggerAnimated
     {
+        public int m_DragStartIndex; // 0x78
+        public int m_CurrentIndex; // 0x7C
+        public float m_SelectionHeight; // 0x80
+
         // ── Methods ──
         public void get_isDragging(){} // RVA: 0x5A6180
         public void set_isDragging(){} // RVA: 0x59E530
@@ -134,6 +150,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class LongField
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_longInput(){} // RVA: 0x73A7190
         public void ValueToString(){} // RVA: 0x73A7220

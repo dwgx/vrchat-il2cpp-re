@@ -44,6 +44,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
 
     public class RigidbodyFirstPersonController
     {
+        public UnityEngine.Camera cam; // 0x20
+        public MovementSettings movementSettings; // 0x28
+        public UnityStandardAssets.Characters.FirstPerson.MouseLook mouseLook; // 0x30
+        public AdvancedSettings advancedSettings; // 0x38
+
         // ── Methods ──
         public void get_Velocity(){} // RVA: 0x311DB0
         public void get_Grounded(){} // RVA: 0x311E40

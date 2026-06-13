@@ -943,6 +943,13 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÌÎÍÏÍÌÎÎÎÍÏÌÏÎÌÏÍÎÏÏÏÌ</summary>
     public class CameraPosition_DAF2_2BC6
     {
+        public int ÏÏÏÎÎÍÌÎÏÍÎÍÍÏÎÍÎÍÎÏÏÏÏ;
+        public System.IO.Stream ÎÍÏÍÍÌÏÍÍÍÌÍÏÍÍÎÎÎÌÏÎÏÎ; // 0x28
+        public 0x65728530 ÎÏÍÏÌÍÌÌÍÌÎÎÌÌÏÌÍÌÎÍÏÌÎ; // 0x30
+        public bool ÌÌÍÍÏÏÎÌÎÏÎÏÌÍÎÍÏÌÏÌÍÏÎ; // 0x34
+        public ÎÌÎÎÏÌÎÎÏÍÌÎÏÏÌÏÎÍÎÎÌÍÌ ÌÍÎÍÌÌÌÏÍÏÌÍÌÎÎÌÌÍÎÎÍÍÏ; // 0x38
+        public ÍÌÌÍÍÌÌÏÍÏÎÌÎÏÏÍÎÍÏÏÏÏÌ ÍÎÏÍÍÍÏÍÍÍÎÎÎÏÌÎÏÌÌÏÌÎÍ; // 0x40
+
         // ── Methods ──
         public void set_Length(){} // RVA: 0x1A30F80
         public void get_Length(){} // RVA: 0x1A30FD0
@@ -1037,6 +1044,16 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÍÌÏÎÍÏÌÎÎÎÏÌÌÍÎÎÎÍÎÏÏÍ</summary>
     public class CamerarenderModelNameSibling_6C15
     {
+        public UnityEngine.GameObject twinStickTooltip1; // 0x20
+        public UnityEngine.GameObject twinStickTooltip2; // 0x28
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ leftStickTextY; // 0x30
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ leftStickTextX; // 0x38
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ rightStickTextY; // 0x40
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ rightStickTextX; // 0x48
+        public UnityEngine.GameObject mouseAndKeyboardTooltip1; // 0x50
+        public UnityEngine.GameObject mouseAndKeyboardTooltip2; // 0x58
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ wsText; // 0x60
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA34700
         public void .ctor(){} // RVA: 0xA34CC0
@@ -1054,7 +1071,7 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÍÍÌÌÏÍÎÏÌÏÌÎÌÍÍÍÎÌÌÎÌÌ</summary>
     public class CamerarenderModelName_CBCC
     {
-        public object renderModelName;
+        public 0x65888FD8 renderModelName; // 0x20
 
         // ── Methods ──
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0

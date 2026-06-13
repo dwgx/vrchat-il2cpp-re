@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class MACTripleDES
     {
+        public System.Security.Cryptography.ICryptoTransform m_encryptor; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C80180 | overloaded x3
         public void Initialize(){} // RVA: 0x5A68150

@@ -8,10 +8,10 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÏÎÍÌÍÌÍÍÏÏÎÍÌÎÌÍÍÍÍÍÏ</summary>
     public class ScanHiddenCamerasScanFrequency_1D05
     {
-        public object Camera;
-        public object SelectBy;
-        public object ScanFrequency;
-        public object ScanHiddenCameras;
+        public float Camera;
+        public float SelectBy;
+        public System.Action ScanFrequency;
+        public int ScanHiddenCameras;
 
         // ── Methods ──
         public void SettingsConstructor(){} // RVA: 0x345470

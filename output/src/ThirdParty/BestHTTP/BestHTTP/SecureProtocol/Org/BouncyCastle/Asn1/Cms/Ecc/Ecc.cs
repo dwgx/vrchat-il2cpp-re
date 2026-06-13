@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.
 {
     public class MQVuserKeyingMaterial
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.OriginatorPublicKey ephemeralPublicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString addedukm; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E3C00 | overloaded x2
         public void GetInstance(){} // RVA: 0x97E3E30 | overloaded x2

@@ -26,8 +26,11 @@ namespace ThirdParty.Other.MeaMod.DNS.BaseEncoding
 
     public class Base32Alphabet
     {
-        public object Length;
-        public object Value;
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.CrockfordBase32Alphabet> Length;
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> Value; // 0x8
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> extendedHexAlphabet; // 0x10
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> zBase32Alphabet; // 0x18
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> geohashAlphabet; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AD1EC0
@@ -49,6 +52,9 @@ namespace ThirdParty.Other.MeaMod.DNS.BaseEncoding
 
     public class EncodingAlphabet
     {
+        public int <Length>k__BackingField; // 0x10
+        public string <Value>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x32A5C0
         public void set_Length(){} // RVA: 0x2E00C0

@@ -16,6 +16,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class EndPointListener
     {
+        public System.Net.HttpListener listener; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B4CA70
         public void get_Listener(){} // RVA: 0x2F8380

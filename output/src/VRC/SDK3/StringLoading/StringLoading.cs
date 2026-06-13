@@ -20,6 +20,8 @@ namespace VRC.SDK3.StringLoading
 
     public class MaxBufferDownloadHandler
     {
+        public int _max; // 0x18
+
         // ── Methods ──
         public void get_downloadedBytes(){} // RVA: 0x9A09D80
         public void .ctor(){} // RVA: 0x9A09EE0 | overloaded x2
@@ -29,6 +31,13 @@ namespace VRC.SDK3.StringLoading
 
     public class VRCStringDownload
     {
+        public float MINIMUM_DELAY_BETWEEN_REQUESTS;
+        public int MAXIMUM_DOWNLOAD_SIZE_MB;
+        public float _lastStringRequest;
+        public string _result; // 0x10
+        public byte[] <ResultBytes>k__BackingField; // 0x18
+        public string <Error>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Result(){} // RVA: 0x9A0A1D0
         public void get_ResultBytes(){} // RVA: 0x2E07C0
@@ -52,6 +61,8 @@ namespace VRC.SDK3.StringLoading
 
     public class VRCStringDownloader
     {
+        public System.Collections.Generic.List`1<VRC.SDK3.StringLoading.IVRCStringDownload> _stringDownloads;
+
         // ── Methods ──
         public void get_StartDownload(){} // RVA: 0x9A0BAE0
         public void set_StartDownload(){} // RVA: 0x9A0BB40

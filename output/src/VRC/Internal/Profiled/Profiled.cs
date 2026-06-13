@@ -63,6 +63,10 @@ namespace VRC.Internal.Profiled
     /// <summary>Originally: ÍÎÎÍÍÏÌÎÌÍÏÌÍÏÏÍÎÏÍÎÌÏÍ</summary>
     public class ProfiledHandler_72CC
     {
+        public int ÎÌÎÎÎÎÌÍÎÍÌÌÌÍÌÍÎÌÏÍÎÌÏ;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65973DB8> <ÏÍÏÎÍÏÏÌÎÌÌÏÍÎÌÍÎÏÌÎÏÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<UnityEngine.Vector2> <ÌÏÎÏÏÍÍÌÎÎÌÎÌÌÍÍÏÍÎÏÏÎÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xEC7A60
         public void Contains(){} // RVA: 0xEC7A70

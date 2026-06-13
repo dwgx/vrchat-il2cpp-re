@@ -8,6 +8,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÏÌÌÌÏÌÎÌÏÌÌÎÌÏÌÎÏÍÎÎÌÎ</summary>
     public class ProfiledTransformHandler_BF03
     {
+        public uint ÍÌÍÏÎÏÌÏÌÍÏÌÍÏÍÏÌÍÎÌÌÌÌ; // 0x10
+
         // ── Methods ──
         public void ConstructProfiledTransformHandler(){} // RVA: 0x1AC7270
         public void .ctor(){} // RVA: 0x1AC73B0

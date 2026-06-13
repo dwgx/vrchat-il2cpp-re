@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe
-// Classes: 15
-// Methods: 224
+// Classes: 26
+// Methods: 301
 
 namespace ThirdParty.Mediapipe.Mediapipe
 {
@@ -21,6 +21,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.PacketFactoryConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string PacketFactoryDefaultValue; // 0x8
+        public string packetFactory_; // 0x18
+        public string OutputSidePacketDefaultValue; // 0x10
+        public string outputSidePacket_; // 0x20
+        public string ExternalOutputDefaultValue; // 0x18
+        public string externalOutput_; // 0x28
+        public Mediapipe.PacketFactoryOptions options_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B23ED0
         public void get_Descriptor(){} // RVA: 0x5B23F30
@@ -54,6 +64,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.PacketFactoryOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Mediapipe.PacketFactoryOptions> _extensions; // 0x18
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5B23340
@@ -79,6 +93,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B22A40
         public void .cctor(){} // RVA: 0x5B22AA0
@@ -86,6 +102,17 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.PacketGeneratorConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string PacketGeneratorDefaultValue; // 0x8
+        public string packetGenerator_; // 0x18
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x20
+        public Google.Protobuf.FieldCodec`1<string> _repeated_externalInput_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<string> externalInput_; // 0x28
+        public Google.Protobuf.FieldCodec`1<string> _repeated_outputSidePacket_codec; // 0x20
+        public Google.Protobuf.Collections.RepeatedField`1<string> outputSidePacket_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B27D20
         public void get_Descriptor(){} // RVA: 0x5B27D80
@@ -115,6 +142,13 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.PacketGeneratorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Mediapipe.PacketGeneratorOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool MergeFieldsDefaultValue; // 0x8
+        public bool mergeFields_; // 0x24
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5B26ED0
@@ -144,6 +178,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B266B0
         public void .cctor(){} // RVA: 0x5B26710
@@ -158,6 +194,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketManagerConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.PacketManagerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.PacketFactoryConfig> _repeated_packet_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.PacketFactoryConfig> packet_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B25740
         public void get_Descriptor(){} // RVA: 0x5B257A0
@@ -196,6 +237,127 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void CreateForReference(){} // RVA: 0x1BDB0
     }
 
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
+    public class Packet`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DDB3A0 | overloaded x2
+        public void DeleteMpPtr(){} // RVA: 0x3DDBB00
+        public void TimestampMicroseconds(){} // RVA: 0x3DDBB60
+        public void IsEmpty(){} // RVA: 0x3DDB480
+        public void SwitchNativePtr(){} // RVA: 0x3DDB4B0
+        public void CreateForReference(){} // RVA: 0x3DDB520
+    }
+
     public class PixelWriteLock
     {
         // ── Methods ──
@@ -206,6 +368,28 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ProfilerConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ProfilerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public long histogramIntervalSizeUsec_; // 0x18
+        public long numHistogramIntervals_; // 0x20
+        public bool enableInputOutputLatency_; // 0x28
+        public bool enableProfiler_; // 0x29
+        public bool enableStreamLatency_; // 0x2A
+        public bool usePacketTimestampForAddedPacket_; // 0x2B
+        public long traceLogCapacity_; // 0x30
+        public Google.Protobuf.FieldCodec`1<int> _repeated_traceEventTypesDisabled_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<int> traceEventTypesDisabled_; // 0x38
+        public string traceLogPath_; // 0x40
+        public int traceLogCount_; // 0x48
+        public long traceLogIntervalUsec_; // 0x50
+        public long traceLogMarginUsec_; // 0x58
+        public bool traceLogDurationEvents_; // 0x60
+        public int traceLogIntervalCount_; // 0x64
+        public bool traceLogDisabled_; // 0x68
+        public bool traceEnabled_; // 0x69
+        public bool traceLogInstantEvents_; // 0x6A
+        public string calculatorFilter_; // 0x70
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF8FA0
         public void get_Descriptor(){} // RVA: 0x5AF9000

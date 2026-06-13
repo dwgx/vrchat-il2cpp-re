@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class OcspStatusRequest
     {
+        public System.Collections.IList mResponderIDList; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions mRequestExtensions; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_ResponderIDList(){} // RVA: 0x2F8380

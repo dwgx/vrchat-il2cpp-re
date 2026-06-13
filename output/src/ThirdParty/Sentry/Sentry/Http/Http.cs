@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry.Http
 {
     public class HttpTransportBase
     {
+        public string DefaultErrorMessage;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x643D130
         public void get_CategoryLimitResets(){} // RVA: 0x4976A0

@@ -7,6 +7,15 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 {
     public class FrameData
     {
+        public ulong m_FrameID; // 0x10
+        public double m_DeltaTime; // 0x18
+        public float m_Weight; // 0x20
+        public float m_EffectiveWeight; // 0x24
+        public double m_EffectiveParentDelay; // 0x28
+        public float m_EffectiveParentSpeed; // 0x30
+        public float m_EffectiveSpeed; // 0x34
+        public 0x658A4410 m_Flags; // 0x38
+
         // ── Methods ──
         public void HasFlags(){} // RVA: 0x715F800
         public void get_deltaTime(){} // RVA: 0x715F810
@@ -21,6 +30,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class FrameRate
     {
+        public UnityEngine.Playables.FrameRate k_24Fps;
+        public UnityEngine.Playables.FrameRate k_23_976Fps; // 0x4
+
         // ── Methods ──
         public void get_dropFrame(){} // RVA: 0x5E97530
         public void get_rate(){} // RVA: 0x715F890
@@ -80,6 +92,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class Playable
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x715FED0
         public void Create(){} // RVA: 0x715FF40
@@ -119,6 +133,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableBinding
     {
+        public string m_StreamName; // 0x10
+
         // ── Methods ──
         public void get_sourceObject(){} // RVA: 0x5F1D510
         public void CreateOutput(){} // RVA: 0x7160570
@@ -128,6 +144,10 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableDirector
     {
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> played; // 0x18
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> paused; // 0x20
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> stopped; // 0x28
+
         // ── Methods ──
         public void get_state(){} // RVA: 0x716A730
         public void set_extrapolationMode(){} // RVA: 0x716A780
@@ -274,6 +294,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableHandle
     {
+        public UIntPtr m_Handle; // 0x10
+
         // ── Methods ──
         public void GetObject(){} // RVA: 0x283FA0
         public void IsPlayableOfType(){} // RVA: 0xDBE0
@@ -351,6 +373,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutput
     {
+        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7163C00
         public void .ctor(){} // RVA: 0x1A53740
@@ -376,6 +400,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutputHandle
     {
+        public UIntPtr m_Handle; // 0x10
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7163E10
         public void IsPlayableOutputOfType(){} // RVA: 0xDBE0
@@ -415,6 +441,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayableOutput
     {
+        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7164D40
         public void .ctor(){} // RVA: 0x7164E90
@@ -425,6 +453,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayable`1
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x283FA0
         public void Create(){} // RVA: 0x283FA0 | overloaded x2

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 28
-// Methods: 485
+// Classes: 59
+// Methods: 499
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
@@ -34,6 +34,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ChangeEvent`1
     {
+        public T <previousValue>k__BackingField;
+        public T <newValue>k__BackingField;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x24A80
         public void get_previousValue(){} // RVA: 0x283FA0
@@ -46,8 +49,127 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class ChangeEvent`1
+    {
+        public bool <previousValue>k__BackingField; // 0x88
+        public bool <newValue>k__BackingField; // 0x89
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Bounds <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Bounds <newValue>k__BackingField; // 0xA0
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.BoundsInt <previousValue>k__BackingField; // 0x88
+        public UnityEngine.BoundsInt <newValue>k__BackingField; // 0xA0
+    }
+
+    public class ChangeEvent`1
+    {
+        public int <previousValue>k__BackingField; // 0x88
+        public int <newValue>k__BackingField; // 0x8C
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Rect <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Rect <newValue>k__BackingField; // 0x98
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.RectInt <previousValue>k__BackingField; // 0x88
+        public UnityEngine.RectInt <newValue>k__BackingField; // 0x98
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Vector2 <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Vector2 <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Vector3 <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Vector3 <newValue>k__BackingField; // 0x94
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Vector4 <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Vector4 <newValue>k__BackingField; // 0x98
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Vector2Int <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Vector2Int <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Vector3Int <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Vector3Int <newValue>k__BackingField; // 0x94
+    }
+
+    public class ChangeEvent`1
+    {
+        public double <previousValue>k__BackingField; // 0x88
+        public double <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public string <previousValue>k__BackingField; // 0x88
+        public string <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public System.Enum <previousValue>k__BackingField; // 0x88
+        public System.Enum <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public float <previousValue>k__BackingField; // 0x88
+        public float <newValue>k__BackingField; // 0x8C
+    }
+
+    public class ChangeEvent`1
+    {
+        public UnityEngine.Hash128 <previousValue>k__BackingField; // 0x88
+        public UnityEngine.Hash128 <newValue>k__BackingField; // 0x98
+    }
+
+    public class ChangeEvent`1
+    {
+        public long <previousValue>k__BackingField; // 0x88
+        public long <newValue>k__BackingField; // 0x90
+    }
+
+    public class ChangeEvent`1
+    {
+        public uint <previousValue>k__BackingField; // 0x88
+        public uint <newValue>k__BackingField; // 0x8C
+    }
+
+    public class ChangeEvent`1
+    {
+        public ulong <previousValue>k__BackingField; // 0x88
+        public ulong <newValue>k__BackingField; // 0x90
+    }
+
     public class ClampedDragger`1
     {
+        public System.Action dragging;
+        public System.Action draggingEnded;
+        public 0x6582F458<T> <dragDirection>k__BackingField;
+        public UnityEngine.UIElements.BaseSlider`1<T> <slider>k__BackingField;
+
         // ── Methods ──
         public void add_dragging(){} // RVA: 0x24B10
         public void remove_dragging(){} // RVA: 0x24B10
@@ -65,9 +187,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void ProcessMoveEvent(){}
     }
 
+    public class ClampedDragger`1
+    {
+        public System.Action dragging; // 0x78
+        public System.Action draggingEnded; // 0x80
+        public 0x6582F458<float> <dragDirection>k__BackingField; // 0x88
+        public UnityEngine.UIElements.BaseSlider`1<float> <slider>k__BackingField; // 0x90
+    }
+
+    public class ClampedDragger`1
+    {
+        public System.Action dragging; // 0x78
+        public System.Action draggingEnded; // 0x80
+        public 0x6582F458<int> <dragDirection>k__BackingField; // 0x88
+        public UnityEngine.UIElements.BaseSlider`1<int> <slider>k__BackingField; // 0x90
+    }
+
     public class ClickDetector
     {
-        public object baseListView;
+        public System.Collections.Generic.List`1<ButtonClickStatus> baseListView; // 0x10
 
         // ── Methods ──
         public void get_s_DoubleClickTime(){} // RVA: 0x72EAD10
@@ -94,6 +232,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Clickable
     {
+        public System.Action`1<UnityEngine.UIElements.EventBase> clickedWithEventInfo; // 0x38
+        public System.Action clicked; // 0x40
+        public long m_Delay; // 0x48
+        public long m_Interval; // 0x50
+
         // ── Methods ──
         public void add_clickedWithEventInfo(){} // RVA: 0x72E8620
         public void remove_clickedWithEventInfo(){} // RVA: 0x72E8720
@@ -133,6 +276,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionViewController
     {
+        public UnityEngine.UIElements.BaseVerticalCollectionView m_View; // 0x10
+        public System.Collections.IList m_ItemsSource; // 0x18
+
         // ── Methods ──
         public void add_itemsSourceChanged(){} // RVA: 0x72F22D0
         public void remove_itemsSourceChanged(){} // RVA: 0x72F23C0
@@ -165,6 +311,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionVirtualizationController
     {
+        public UnityEngine.UIElements.ScrollView m_ScrollView; // 0x10
+
         // ── Methods ──
         public void get_firstVisibleIndex(){} // RVA: 0xD840
         public void set_firstVisibleIndex(){} // RVA: 0x24FA0
@@ -194,6 +342,31 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Column
     {
+        public string k_InvalidTemplateError;
+        public string m_Name; // 0x10
+        public string m_Title; // 0x18
+        public UnityEngine.UIElements.Background m_Icon; // 0x20
+        public bool m_Visible; // 0x40
+        public UnityEngine.UIElements.Length m_Width; // 0x44
+        public UnityEngine.UIElements.Length m_MinWidth; // 0x4C
+        public UnityEngine.UIElements.Length m_MaxWidth; // 0x54
+        public float m_DesiredWidth; // 0x5C
+        public bool m_Stretchable; // 0x60
+        public bool m_Sortable; // 0x61
+        public bool m_Optional; // 0x62
+        public bool m_Resizable; // 0x63
+        public System.Func`1<UnityEngine.UIElements.VisualElement> m_MakeHeader; // 0x68
+        public System.Action`1<UnityEngine.UIElements.VisualElement> m_BindHeader; // 0x70
+        public System.Action`1<UnityEngine.UIElements.VisualElement> m_UnbindHeader; // 0x78
+        public System.Action`1<UnityEngine.UIElements.VisualElement> m_DestroyHeader; // 0x80
+        public System.Func`1<UnityEngine.UIElements.VisualElement> m_MakeCell; // 0x88
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> m_BindCell; // 0x90
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> m_UnbindCellItem; // 0x98
+        public System.Action`1<UnityEngine.UIElements.VisualElement> <destroyCell>k__BackingField; // 0xA0
+        public UnityEngine.UIElements.Columns <collection>k__BackingField; // 0xA8
+        public System.Action`2<UnityEngine.UIElements.Column,0x65832F78> changed; // 0xB0
+        public System.Action`1<UnityEngine.UIElements.Column> resized; // 0xB8
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x2F8380
         public void set_name(){} // RVA: 0x73AB5B0
@@ -244,6 +417,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ColumnLayout
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> m_StretchableColumns; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> m_FixedColumns; // 0x18
+        public UnityEngine.UIElements.Columns m_Columns; // 0x20
+        public float m_ColumnsWidth; // 0x28
+        public bool m_ColumnsWidthDirty; // 0x2C
+
         // ── Methods ──
         public void get_columns(){} // RVA: 0x30B0C0
         public void get_columnsWidth(){} // RVA: 0x73AC370
@@ -276,6 +455,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Columns
     {
+        public System.Collections.Generic.IList`1<UnityEngine.UIElements.Column> m_Columns; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> m_DisplayColumns; // 0x18
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> m_VisibleColumns; // 0x20
+        public bool m_VisibleColumnsDirty; // 0x28
+        public 0x658333F0 m_StretchMode; // 0x2C
+        public bool m_Reorderable; // 0x30
+        public bool m_Resizable; // 0x31
+        public bool m_ResizePreview; // 0x32
+        public string m_PrimaryColumnName; // 0x38
+        public System.Action`1<0x65833398> changed; // 0x40
+        public System.Action`2<UnityEngine.UIElements.Column,int> columnAdded; // 0x48
+
         // ── Methods ──
         public void get_primaryColumnName(){} // RVA: 0x4976A0
         public void set_primaryColumnName(){} // RVA: 0x73B0180
@@ -326,6 +517,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1
     {
+        public string m_CommandName;
+
         // ── Methods ──
         public void get_commandName(){} // RVA: 0xCD60
         public void set_commandName(){} // RVA: 0x24B10
@@ -333,6 +526,32 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void LocalInit(){} // RVA: 0x24A50
         public void GetPooled(){} // RVA: 0x283FA0 | overloaded x2
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class CommandEventBase`1
+    {
+        public string m_CommandName; // 0x88
+
+        // ── Methods ──
+        public void get_commandName(){} // RVA: 0x5783DC0
+        public void set_commandName(){} // RVA: 0x463060
+        public void Init(){} // RVA: 0x5783E50
+        public void LocalInit(){} // RVA: 0x5783F40
+        public void GetPooled(){} // RVA: 0x5784060 | overloaded x2
+        public void .ctor(){} // RVA: 0x5784160
+    }
+
+    public class CommandEventBase`1
+    {
+        public string m_CommandName; // 0x88
+
+        // ── Methods ──
+        public void get_commandName(){} // RVA: 0x5783DC0
+        public void set_commandName(){} // RVA: 0x463060
+        public void Init(){} // RVA: 0x5783E50
+        public void LocalInit(){} // RVA: 0x5783F40
+        public void GetPooled(){} // RVA: 0x5784060 | overloaded x2
+        public void .ctor(){} // RVA: 0x5784160
     }
 
     public class CommandEventDispatchingStrategy
@@ -345,6 +564,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedStyle
     {
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData> inheritedData; // 0x10
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData> layoutData; // 0x18
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData> rareData; // 0x20
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData> transformData; // 0x28
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData> transitionData; // 0x30
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData> visualData; // 0x38
+        public UnityEngine.Yoga.YogaNode yogaNode; // 0x40
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.StyleSheets.StylePropertyValue> customProperties; // 0x48
+        public long matchingRulesHash; // 0x50
+        public float dpiScaling; // 0x58
+        public UnityEngine.UIElements.ComputedTransitionProperty[] computedTransitions; // 0x60
+
         // ── Methods ──
         public void get_customPropertiesCount(){} // RVA: 0x7417600
         public void get_hasTransition(){} // RVA: 0x7417650
@@ -491,6 +722,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ContextualMenuManager
     {
+        public bool <displayMenuHandledOSX>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_displayMenuHandledOSX(){} // RVA: 0x3A75E0
         public void set_displayMenuHandledOSX(){} // RVA: 0x3A75F0
@@ -515,6 +748,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ContextualMenuPopulateEvent
     {
+        public UnityEngine.UIElements.DropdownMenu <menu>k__BackingField; // 0xC0
+        public UnityEngine.UIElements.EventBase <triggerEvent>k__BackingField; // 0xC8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73F1ED0
         public void get_menu(){} // RVA: 0x348120
@@ -542,6 +778,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CreationContext
     {
+        public UnityEngine.UIElements.CreationContext Default;
+        public UnityEngine.UIElements.VisualElement <target>k__BackingField; // 0x10
+        public UnityEngine.UIElements.VisualTreeAsset <visualTreeAsset>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.VisualElement> <slotInsertionPoints>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_target(){} // RVA: 0x1AD4690
         public void set_target(){} // RVA: 0x100A2F0
@@ -559,6 +800,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Cursor
     {
+        public UnityEngine.Texture2D <texture>k__BackingField; // 0x10
+        public UnityEngine.Vector2 <hotspot>k__BackingField; // 0x18
+        public int <defaultCursorId>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_texture(){} // RVA: 0x1AD4690
         public void set_texture(){} // RVA: 0x100A2F0
@@ -574,6 +819,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CursorManager
     {
+        public bool <isCursorOverriden>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_isCursorOverriden(){} // RVA: 0x3A75E0
         public void set_isCursorOverriden(){} // RVA: 0x3A75F0
@@ -584,12 +831,54 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CustomStyleProperty`1
     {
+        public string <name>k__BackingField;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xCD60
         public void set_name(){} // RVA: 0x24B10
         public void .ctor(){} // RVA: 0x24B10
         public void Equals(){} // RVA: 0x283FA0 | overloaded x2
         public void GetHashCode(){} // RVA: 0xD840
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class CustomStyleProperty`1
+    {
+        public string <name>k__BackingField; // 0x10
     }
 
     public class CustomStyleResolvedEvent

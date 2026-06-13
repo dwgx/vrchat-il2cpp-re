@@ -8,6 +8,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÎÎÌÎÍÍÏÎÎÍÌÌÏÌÏÎÎÌÍÎÎ</summary>
     public class Static10m_0058
     {
+        public ÌÌÎÎÏÏÌÎÌÏÍÌÍÍÏÍÍÏÏÏÏÌÌ <ÌÌÍÎÎÌÎÎÏÍÎÏÎÌÏÌÏÏÏÍÍÍÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0xC38550
@@ -59,6 +61,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÎÍÍÍÏÍÍÍÍÌÎÍÎÌÍÌÍÎÌÍÏ</summary>
     public class Static10m_4D0F
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÍÌÎÎÌÌÍÎÌÍÎÌÏÍÎÍÍÎÎÎÌÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -110,6 +114,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÏÌÌÎÎÌÏÌÍÎÍÍÌÌÎÏÏÎÏÌÎ</summary>
     public class Static11m_5EC8
     {
+        public 0x659F7A48 <ÍÎÍÎÎÌÏÎÍÏÎÌÍÌÌÎÌÎÍÎÎÌÍ>k__BackingField; // 0x90
+        public 0x6573C220 <ÏÌÍÏÎÏÏÌÏÏÍÎÏÏÍÎÍÏÌÏÏÍÏ>k__BackingField; // 0x94
+
         // ── Methods ──
         public void get_LinePosition(){} // RVA: 0x6AFD30
         public void get_pointerId(){} // RVA: 0x6AFD40
@@ -164,6 +171,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÎÎÎÌÏÌÏÌÍÌÍÌÍÌÏÎÏÏÎÎÍ</summary>
     public class Static12m_A7CA
     {
+        public ÎÎÎÎÎÌÏÌÏÌÍÌÍÌÍÌÏÎÏÏÎÎÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x1432BB0
         public void OnDestroy(){} // RVA: 0x1432E20
@@ -360,6 +369,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÍÏÌÏÎÌÎÏÍÌÎÎÏÏÎÍÏÍÏÎÏ</summary>
     public class Static21m_FB8F
     {
+        public 0x65933B48 <ÌÏÏÎÏÏÎÏÌÎÎÎÏÎÎÍÏÌÎÏÌÍÏ>k__BackingField; // 0x10
+        public 0x65932078 <ÌÏÎÏÍÍÎÍÌÏÎÎÍÏÍÎÌÎÍÏÍÍÏ>k__BackingField; // 0x14
+        public int <ÏÌÍÌÍÍÌÌÌÎÌÏÏÎÌÏÎÎÍÌÏÎÎ>k__BackingField; // 0x18
+        public float <ÎÌÏÏÌÌÌÌÌÌÍÍÍÌÍÍÎÎÏÍÌÍÌ>k__BackingField; // 0x1C
+        public float <ÏÍÍÍÎÍÎÏÎÍÌÎÌÎÌÎÎÏÎÎÌÏÏ>k__BackingField; // 0x20
+        public float <ÎÌÌÎÏÎÏÌÍÏÏÍÎÍÌÏÍÎÏÎÌÏÎ>k__BackingField; // 0x24
+
         // ── Methods ──
         public void set_W(){} // RVA: 0x3AA580
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
@@ -434,6 +450,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÏÌÍÎÍÍÎÏÍÏÏÌÏÎÎÍÏÍÍÎÍ</summary>
     public class Static2m_0206
     {
+        public ÍÍÍÏÎÏÎÍÏÎÌÍÏÏÏÍÍÏÌÏÍÌÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FD3900
         public void m_FA2(){} // RVA: 0x1FD3AD0
@@ -983,6 +1001,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÎÏÌÎÎÏÌÎÍÌÎÌÏÏÍÌÍÌÎÎÍ</summary>
     public class Static8m_C549
     {
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÎÍÎÌÌÎÌÍÎÍÍÏÌÍÌÍÎÍÍÏÏÍ; // 0x38
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÍÍÍÏÌÏÌÎÎÎÏÌÍÏÌÏÎÍÌÎÏÌ; // 0x40
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÌÌÎÍÎÍÍÌÏÍÎÎÎÏÎÏÏÍÍÌÌÎ; // 0x48
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÌÏÏÏÎÏÌÍÍÎÍÍÏÎÍÎÍÎÎÏÎÍ; // 0x50
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÌÌÏÍÌÎÍÍÎÎÌÍÏÎÍÌÌÏÍÌÌÌ; // 0x58
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x150FB30
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
@@ -1043,6 +1067,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÏÌÍÏÍÌÍÎÍÌÎÌÌÍÍÍÎÌÍÏÍ</summary>
     public class Static9m_0541
     {
+        public System.Nullable`1<ÌÍÌÌÌÌÌÍÎÍÍÏÍÎÍÏÏÍÌÏÎÏÌ> <ÏÍÌÎÎÌÌÍÏÎÏÍÏÏÍÌÍÌÌÍÌÏÎ>k__BackingField; // 0x10
+        public 0x65800AC0 <ÏÍÎÍÏÎÎÏÏÎÎÏÌÎÍÏÏÍÏÎÎÎÏ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void GetStatus(){} // RVA: 0x37E0C0
         public void GetEnumerator(){} // RVA: 0x1FB6C50
@@ -1123,6 +1150,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÎÏÍÍÎÎÍÏÏÍÍÌÌÍÎÍÌÎÍÍÏ</summary>
     public class Static9m_8CE2
     {
+        public ÌÎÌÏÎÎÍÍÍÏÌÌÌÌÍÎÍÌÍÏÏÍÎ ÎÌÍÎÎÍÏÍÏÌÏÌÎÏÎÌÍÌÏÍÎÏÍ; // 0x20
+        public ÍÏÎÏÎÍÏÏÍÎÏÎÏÍÍÍÏÍÎÏÎÌÎ ÍÌÌÏÏÍÍÎÏÌÎÌÎÌÏÏÌÌÎÏÎÌÎ; // 0x28
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void get_Data_7B8446D83078(){} // RVA: 0x30B130

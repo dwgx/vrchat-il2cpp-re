@@ -8,6 +8,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÍÍÌÏÍÏÎÌÌÍÌÌÎÎÍÌÌÌÍÎ</summary>
     public class ChallengeUpdateEventSiblingSibSibling_0703
     {
+        public ÍÏÎÏÍÍÏÎÏÎÏÍÌÏÏÌÍÌÏÌÌÏÌ _online; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x91F81E0
         public void OnDestroy(){} // RVA: 0x91F8570
@@ -29,6 +31,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÏÎÏÍÍÌÌÌÍÏÍÍÌÌÌÌÏÍÎÎ</summary>
     public class CleanupDisposeComponent_16E6
     {
+        public System.Action ÌÎÏÎÍÎÍÏÏÍÌÍÌÏÎÎÌÍÏÎÌÎÎ; // 0x10
+        public System.Action ÍÌÌÎÎÎÍÌÏÍÎÌÍÎÏÎÍÏÍÌÏÎÎ; // 0x18
+        public System.Action ÌÌÍÏÎÌÏÏÌÌÎÌÍÍÌÌÏÎÌÍÏÎÍ; // 0x20
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<float> <ÏÍÍÏÍÌÏÏÏÏÏÎÏÍÍÌÌÌÍÎÏÌÍ>k__BackingField; // 0x28
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÎÏÏÌÎÎÎÍÍÍÏÏÎÎÏÎÎÍÎÍÏÏ>k__BackingField; // 0x30
+        public System.Action ÌÌÌÎÎÌÍÍÍÎÌÏÌÎÌÎÏÍÌÎÏÎÏ;
+        public float ÏÎÎÏÍÏÏÎÍÌÍÍÌÏÏÎÍÍÍÍÍÎÏ; // 0x8
+
         // ── Methods ──
         public void Contains(){} // RVA: 0xFEA070
         public void CopyTo(){} // RVA: 0xFEA0D0
@@ -219,6 +229,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÌÌÏÏÌÍÏÎÎÍÌÍÍÏÎÏÎÎÍÎ</summary>
     public class ComponentHandler_31C0
     {
+        public bool ÌÍÌÏÍÍÎÏÌÍÎÎÏÍÏÌÏÎÎÌÎÏÍ; // 0x10
+        public bool ÏÎÎÏÍÎÍÌÌÏÎÌÎÍÍÎÌÏÎÎÍÌÏ; // 0x11
+        public bool ÏÌÌÏÏÌÏÏÎÌÎÎÎÌÍÍÌÎÎÌÎÍÌ; // 0x12
+        public bool ÎÏÏÎÎÎÌÏÏÎÌÍÏÎÍÍÍÌÏÌÎÏÏ; // 0x13
+        public bool ÍÏÌÌÏÍÌÏÎÏÎÎÎÏÎÍÏÌÏÏÏÏÏ; // 0x14
+        public bool ÍÌÌÌÍÎÍÍÎÍÌÌÎÎÌÍÌÏÏÏÏÎÎ; // 0x15
+
         // ── Methods ──
         public void set_IsDataHighConfidence(){} // RVA: 0x10EEB00
         public void set_phase(){} // RVA: 0x10EEB20
@@ -238,6 +255,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÌÏÏÏÍÎÍÌÎÎÌÎÌÏÏÌÌÌÎÏ</summary>
     public class ComponentHandler_73C5
     {
+        public ÍÎÌÏÏÍÏÍÍÍÌÌÎÎÏÌÏÌÍÏÌÏÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2075930
         public void Process(){} // RVA: 0x2075B00
@@ -281,6 +300,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÏÎÍÍÌÍÍÍÏÎÍÎÍÏÍÌÎÏÎÍ</summary>
     public class ComponentHandler_F62C
     {
+        public System.DateTime ÎÎÍÎÏÎÌÎÌÍÍÍÏÌÍÎÏÏÏÎÍÎÍ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1BD2A20
         public void Initialize(){} // RVA: 0x1BD2B40

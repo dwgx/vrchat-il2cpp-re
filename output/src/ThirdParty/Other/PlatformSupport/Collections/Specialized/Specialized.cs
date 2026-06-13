@@ -14,11 +14,11 @@ namespace ThirdParty.Other.PlatformSupport.Collections.Specialized
 
     public class NotifyCollectionChangedEventArgs
     {
-        public object Count;
-        public object IsReadOnly;
-        public object IsFixedSize;
-        public object IsSynchronized;
-        public object Item;
+        public 0x6579D2D8 Count; // 0x10
+        public System.Collections.IList IsReadOnly; // 0x18
+        public System.Collections.IList IsFixedSize; // 0x20
+        public int IsSynchronized; // 0x28
+        public int Item; // 0x2C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x942AD50 | overloaded x12
@@ -44,6 +44,8 @@ namespace ThirdParty.Other.PlatformSupport.Collections.Specialized
 
     public class ReadOnlyList
     {
+        public System.Collections.IList _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Count(){} // RVA: 0x942B240

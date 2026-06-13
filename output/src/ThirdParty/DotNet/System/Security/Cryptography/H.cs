@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class HMAC
     {
+        public int blockSizeValue; // 0x30
+        public string m_hashName; // 0x38
+        public System.Security.Cryptography.HashAlgorithm m_hash1; // 0x40
+
         // ── Methods ──
         public void get_BlockSizeValue(){} // RVA: 0x338CD0
         public void set_BlockSizeValue(){} // RVA: 0x338CE0
@@ -51,6 +55,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class HMACSHA384
     {
+        public bool m_useLegacyBlockSize; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C7F610 | overloaded x2
         public void get_BlockSize(){} // RVA: 0x5C7F800
@@ -60,6 +66,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class HMACSHA512
     {
+        public bool m_useLegacyBlockSize; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C7F8A0 | overloaded x2
         public void get_BlockSize(){} // RVA: 0x5C7F800
@@ -69,6 +77,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class HashAlgorithm
     {
+        public bool _disposed; // 0x10
+        public int HashSizeValue; // 0x14
+        public byte[] HashValue; // 0x18
+        public int State; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Create(){} // RVA: 0x5C73600 | overloaded x2
@@ -94,6 +107,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class HashAlgorithmName
     {
+        public string _name; // 0x10
+
         // ── Methods ──
         public void get_MD5(){} // RVA: 0x5C74850
         public void get_SHA1(){} // RVA: 0x5C748E0

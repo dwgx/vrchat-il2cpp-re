@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Internal
-// Classes: 73
-// Methods: 531
+// Classes: 97
+// Methods: 629
 
 namespace ThirdParty.Sentry.Sentry.Internal
 {
     public class AotHelper
     {
+        public string SuppressionJustification;
+
         // ── Methods ──
         public void get_IsTrimmed(){} // RVA: 0x63F85D0
         public void .cctor(){} // RVA: 0x63F8630
@@ -14,6 +16,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class AppDomainAdapter
     {
+        public Sentry.Internal.AppDomainAdapter <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x63F86E0
         public void .ctor(){} // RVA: 0x63F8740
@@ -37,6 +41,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class AutoClearingList`1
     {
+        public System.Collections.Generic.IList`1<T> _list;
+        public bool _clearOnNextAdd;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A620
         public void Add(){} // RVA: 0x283FA0
@@ -55,8 +62,34 @@ namespace ThirdParty.Sentry.Sentry.Internal
         public void set_Item(){} // RVA: 0x283FA0
     }
 
+    public class AutoClearingList`1
+    {
+        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> _list; // 0x10
+        public bool _clearOnNextAdd; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x557B770
+        public void Add(){} // RVA: 0x557B880
+        public void GetEnumerator(){} // RVA: 0x3326E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x557B950
+        public void Clear(){} // RVA: 0x557B9A0
+        public void Contains(){} // RVA: 0x557B9F0
+        public void CopyTo(){} // RVA: 0x557BA50
+        public void Remove(){} // RVA: 0x557BAC0
+        public void get_Count(){} // RVA: 0x379A400
+        public void get_IsReadOnly(){} // RVA: 0x557BB20
+        public void IndexOf(){} // RVA: 0x557BB70
+        public void Insert(){} // RVA: 0x557BBD0
+        public void RemoveAt(){} // RVA: 0x557BCB0
+        public void get_Item(){} // RVA: 0x557BD10
+        public void set_Item(){} // RVA: 0x557BD70
+    }
+
     public class BackgroundWorker
     {
+        public Sentry.Extensibility.ITransport _transport; // 0x10
+        public Sentry.SentryOptions _options; // 0x18
+
         // ── Methods ──
         public void add_OnFlushObjectReceived(){} // RVA: 0x63F9100
         public void remove_OnFlushObjectReceived(){} // RVA: 0x63F91F0
@@ -74,6 +107,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ClientReport
     {
+        public System.DateTimeOffset <Timestamp>k__BackingField; // 0x10
+        public System.Collections.Generic.IReadOnlyDictionary`2<Sentry.Internal.DiscardReasonWithCategory,int> <DiscardedEvents>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Timestamp(){} // RVA: 0x196ABE0
         public void get_DiscardedEvents(){} // RVA: 0x30B0C0
@@ -84,6 +120,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ClientReportRecorder
     {
+        public Sentry.SentryOptions _options; // 0x10
+
         // ── Methods ──
         public void get_DiscardedEvents(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x64005A0
@@ -94,6 +132,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ConcurrentQueueLite`1
     {
+        public System.Collections.Generic.List`1<T> _queue;
+
         // ── Methods ──
         public void Enqueue(){} // RVA: 0x283FA0
         public void TryDequeue(){} // RVA: 0xDE40
@@ -119,6 +159,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class DataCategory
     {
+        public Sentry.Internal.DataCategory Attachment;
+
         // ── Methods ──
         public void Sentry.Internal.IEnumeration.get_Value(){} // RVA: 0x1AD4690
         public void .ctor(){} // RVA: 0x100A2F0
@@ -131,6 +173,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class DebugStackTrace
     {
+        public Sentry.SentryOptions _options; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6402990
         public void get_DebugImages(){} // RVA: 0x4976A0
@@ -172,6 +216,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class DiscardReason
     {
+        public Sentry.Internal.DiscardReason BeforeSend;
+
         // ── Methods ──
         public void Sentry.Internal.IEnumeration.get_Value(){} // RVA: 0x1AD4690
         public void .ctor(){} // RVA: 0x100A2F0
@@ -185,6 +231,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class DiscardReasonWithCategory
     {
+        public Sentry.Internal.DiscardReason <Reason>k__BackingField; // 0x10
+        public Sentry.Internal.DataCategory <Category>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Reason(){} // RVA: 0x1AD4690
         public void get_Category(){} // RVA: 0x19689C0
@@ -252,6 +301,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class GrowableArray`1
     {
+        public T[] array;
+        public int arrayLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void get_Item(){} // RVA: 0x283FA0
@@ -275,8 +327,123 @@ namespace ThirdParty.Sentry.Sentry.Internal
         public void GetEnumerator(){} // RVA: 0xCD60
     }
 
+    public class GrowableArray`1
+    {
+        public Sample[] array; // 0x10
+        public int arrayLength; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B2BE0
+        public void get_Item(){} // RVA: 0x34B4360
+        public void set_Item(){} // RVA: 0x34B4390
+        public void get_Count(){} // RVA: 0x1EA9890
+        public void Reserve(){} // RVA: 0x34B2D60
+        public void Clear(){} // RVA: 0x34B2DB0
+        public void Add(){} // RVA: 0x34B43B0
+        public void AddRange(){} // RVA: 0x34B4430
+        public void Insert(){} // RVA: 0x34B46C0
+        public void RemoveRange(){} // RVA: 0x34B4820
+        public void get_Empty(){} // RVA: 0x34B3520
+        public void Trim(){} // RVA: 0x34B3530
+        public void get_EmptyCapacity(){} // RVA: 0x1D26810
+        public void ToString(){} // RVA: 0x34B4980
+        public void Foreach(){} // RVA: 0x283FA0
+        public void Search(){} // RVA: 0x283FA0
+        public void get_UnderlyingArray(){} // RVA: 0x1AD4690
+        public void Realloc(){} // RVA: 0x34B3A00
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34B3AD0
+        public void GetEnumerator(){} // RVA: 0x34B3AD0
+    }
+
+    public class GrowableArray`1
+    {
+        public Sentry.SentryStackFrame[] array; // 0x10
+        public int arrayLength; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B2BE0
+        public void get_Item(){} // RVA: 0x34B4360
+        public void set_Item(){} // RVA: 0x34B4390
+        public void get_Count(){} // RVA: 0x1EA9890
+        public void Reserve(){} // RVA: 0x34B2D60
+        public void Clear(){} // RVA: 0x34B2DB0
+        public void Add(){} // RVA: 0x34B43B0
+        public void AddRange(){} // RVA: 0x34B4430
+        public void Insert(){} // RVA: 0x34B46C0
+        public void RemoveRange(){} // RVA: 0x34B4820
+        public void get_Empty(){} // RVA: 0x34B3520
+        public void Trim(){} // RVA: 0x34B3530
+        public void get_EmptyCapacity(){} // RVA: 0x1D26810
+        public void ToString(){} // RVA: 0x34B4980
+        public void Foreach(){} // RVA: 0x283FA0
+        public void Search(){} // RVA: 0x283FA0
+        public void get_UnderlyingArray(){} // RVA: 0x1AD4690
+        public void Realloc(){} // RVA: 0x34B3A00
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34B3AD0
+        public void GetEnumerator(){} // RVA: 0x34B3AD0
+    }
+
+    public class GrowableArray`1
+    {
+        public Sentry.Internal.GrowableArray`1<int>[] array; // 0x10
+        public int arrayLength; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B2BE0
+        public void get_Item(){} // RVA: 0x34B2C90
+        public void set_Item(){} // RVA: 0x34B2CD0
+        public void get_Count(){} // RVA: 0x1EA9890
+        public void Reserve(){} // RVA: 0x34B2D60
+        public void Clear(){} // RVA: 0x34B2DB0
+        public void Add(){} // RVA: 0x34B2DC0
+        public void AddRange(){} // RVA: 0x34B2EA0
+        public void Insert(){} // RVA: 0x34B31C0
+        public void RemoveRange(){} // RVA: 0x34B33B0
+        public void get_Empty(){} // RVA: 0x34B3520
+        public void Trim(){} // RVA: 0x34B3530
+        public void get_EmptyCapacity(){} // RVA: 0x1D26810
+        public void ToString(){} // RVA: 0x34B37C0
+        public void Foreach(){} // RVA: 0x283FA0
+        public void Search(){} // RVA: 0x283FA0
+        public void get_UnderlyingArray(){} // RVA: 0x1AD4690
+        public void Realloc(){} // RVA: 0x34B3A00
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34B3AD0
+        public void GetEnumerator(){} // RVA: 0x34B3AD0
+    }
+
+    public class GrowableArray`1
+    {
+        public int[] array; // 0x10
+        public int arrayLength; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B2BE0
+        public void get_Item(){} // RVA: 0x34B3BB0
+        public void set_Item(){} // RVA: 0x34B3BE0
+        public void get_Count(){} // RVA: 0x1EA9890
+        public void Reserve(){} // RVA: 0x34B2D60
+        public void Clear(){} // RVA: 0x34B2DB0
+        public void Add(){} // RVA: 0x34B3C10
+        public void AddRange(){} // RVA: 0x34B3C90
+        public void Insert(){} // RVA: 0x34B3F30
+        public void RemoveRange(){} // RVA: 0x34B4040
+        public void get_Empty(){} // RVA: 0x34B3520
+        public void Trim(){} // RVA: 0x34B3530
+        public void get_EmptyCapacity(){} // RVA: 0x1D26810
+        public void ToString(){} // RVA: 0x34B4130
+        public void Foreach(){} // RVA: 0x283FA0
+        public void Search(){} // RVA: 0x283FA0
+        public void get_UnderlyingArray(){} // RVA: 0x1AD4690
+        public void Realloc(){} // RVA: 0x34B3A00
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34B3AD0
+        public void GetEnumerator(){} // RVA: 0x34B3AD0
+    }
+
     public class HashableGrowableArray`1
     {
+        public Sentry.Internal.GrowableArray`1<T> _items;
+        public int _hashCode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void get_Item(){} // RVA: 0x283FA0
@@ -293,6 +460,15 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class Hub
     {
+        public object _sessionPauseLock; // 0x10
+        public Sentry.Infrastructure.ISystemClock _clock; // 0x18
+        public Sentry.ISessionManager _sessionManager; // 0x20
+        public Sentry.SentryOptions _options; // 0x28
+        public Sentry.Internal.RandomValuesFactory _randomValuesFactory; // 0x30
+        public int _isPersistedSessionRecovered; // 0x38
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Exception,Sentry.ISpan> <ExceptionToSpanMap>k__BackingField; // 0x40
+        public Sentry.Internal.IInternalScopeManager <ScopeManager>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_ExceptionToSpanMap(){} // RVA: 0x35A740
         public void get_ScopeManager(){} // RVA: 0x358730
@@ -359,10 +535,50 @@ namespace ThirdParty.Sentry.Sentry.Internal
         public void Clone(){} // RVA: 0x283FA0
     }
 
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
+    public class ICloneable`1
+    {
+    }
+
     public class IEnumeration
     {
         // ── Methods ──
         public void get_Value(){} // RVA: 0xCD60
+    }
+
+    public class IEnumeration`1
+    {
+    }
+
+    public class IEnumeration`1
+    {
     }
 
     public class IEnumeration`1
@@ -446,6 +662,38 @@ namespace ThirdParty.Sentry.Sentry.Internal
         public void UpdateFrom(){} // RVA: 0x283FA0
     }
 
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
+    public class IUpdatable`1
+    {
+    }
+
     public class InstallationIdHelper
     {
         // ── Methods ──
@@ -473,6 +721,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class MainExceptionProcessor
     {
+        public string ExceptionDataKeyPrefix;
+
         // ── Methods ──
         public void get_SentryStackTraceFactoryAccessor(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0xF19AE0
@@ -486,6 +736,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class MainSentryEventProcessor
     {
+        public string CultureInfoKey;
+        public string CurrentUiCultureKey;
+        public string MemoryInfoKey;
+
         // ── Methods ──
         public void get_SentryStackTraceFactoryAccessor(){} // RVA: 0x30B0C0
         public void get_Release(){} // RVA: 0x6412840
@@ -505,6 +759,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class NoOpSpan
     {
+        public Sentry.ISpan <Instance>k__BackingField;
+        public string <Origin>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6414010
         public void .ctor(){} // RVA: 0x2DD310
@@ -538,6 +795,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class NoOpTransaction
     {
+        public Sentry.ITransactionTracer <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6414410
         public void .ctor(){} // RVA: 0x6414470
@@ -576,7 +835,7 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ObjectExtensions
     {
-        public object controlPath;
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<object,System.Collections.Generic.Dictionary`2<string,object>> controlPath;
 
         // ── Methods ──
         public void get_Map(){} // RVA: 0x6414860
@@ -597,6 +856,11 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class PartialStream
     {
+        public System.IO.Stream _innerStream; // 0x28
+        public long _offset; // 0x30
+        public System.Nullable`1<long> _length; // 0x38
+        public long _position; // 0x48
+
         // ── Methods ──
         public void get_CanRead(){} // RVA: 0x6415140
         public void get_CanSeek(){} // RVA: 0x6415170
@@ -623,6 +887,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class PollingNetworkStatusListener
     {
+        public Sentry.SentryOptions _options; // 0x10
+        public Sentry.Internal.IPing _testPing; // 0x18
+        public int _delayInMilliseconds; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x64168B0 | overloaded x2
         public void get_LazyPing(){} // RVA: 0x6416AD0
@@ -635,10 +903,22 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class PooledBuffer`1
     {
+        public T[] <Array>k__BackingField;
+
         // ── Methods ──
         public void get_Array(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x24FA0
         public void Dispose(){} // RVA: 0x24A50
+    }
+
+    public class PooledBuffer`1
+    {
+        public byte[] <Array>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Array(){} // RVA: 0x1AD4690
+        public void .ctor(){} // RVA: 0x3DF6720
+        public void Dispose(){} // RVA: 0x3DF67D0
     }
 
     public class PrefixOrPatternMatcher : `
@@ -650,6 +930,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ProcessInfo
     {
+        public Sentry.Internal.ProcessInfo Instance;
+        public System.Nullable`1<System.DateTimeOffset> <StartupTime>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <BootTime>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_StartupTime(){} // RVA: 0x1F90220
         public void set_StartupTime(){} // RVA: 0x1F90200
@@ -701,6 +985,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class RealStackFrame
     {
+        public System.Diagnostics.StackFrame _frame; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Frame(){} // RVA: 0x2F8380
@@ -743,6 +1029,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SentryScopeManager
     {
+        public Sentry.Internal.ScopeStack.IScopeStackContainer <ScopeStackContainer>k__BackingField; // 0x10
+        public Sentry.SentryOptions _options; // 0x18
+        public System.Func`1<System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[]> <NewStack>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x2F8380
         public void get_ScopeAndClientStack(){} // RVA: 0x641A890
@@ -761,6 +1051,11 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SentryStopwatch
     {
+        public double StopwatchTicksPerTimeSpanTick;
+        public double StopwatchTicksPerNs; // 0x8
+        public long _startTimestamp; // 0x10
+        public System.DateTimeOffset _startDateTimeOffset; // 0x18
+
         // ── Methods ──
         public void StartNew(){} // RVA: 0x641BC10
         public void get_StartDateTimeOffset(){} // RVA: 0x1F6F090
@@ -780,6 +1075,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SettingLocator
     {
+        public Sentry.SentryOptions _options; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x641D1F0
         public void get_AssemblyForAttributes(){} // RVA: 0x2E07C0
@@ -817,6 +1114,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SynchronizedRandomValuesFactory
     {
+        public System.Threading.AsyncLocal`1<System.Random> LocalRandom;
+
         // ── Methods ──
         public void get_Random(){} // RVA: 0x641DF10
         public void NextInt(){} // RVA: 0x641E0B0 | overloaded x2
@@ -835,6 +1134,13 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ThreadPoolInfo
     {
+        public int <MinWorkerThreads>k__BackingField; // 0x10
+        public int <MinCompletionPortThreads>k__BackingField; // 0x14
+        public int <MaxWorkerThreads>k__BackingField; // 0x18
+        public int <MaxCompletionPortThreads>k__BackingField; // 0x1C
+        public int <AvailableWorkerThreads>k__BackingField; // 0x20
+        public int <AvailableCompletionPortThreads>k__BackingField; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x641EB90
         public void get_MinWorkerThreads(){} // RVA: 0x32A5C0
@@ -848,6 +1154,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ThreadsafeCounterDictionary`1
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<T,CounterItem<T>> _items;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x283FA0
         public void Increment(){} // RVA: 0x283FA0

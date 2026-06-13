@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Xml.Xsl.Runtime
 {
     public class StringConcat
     {
-        public object CurNode;
+        public string CurNode; // 0x10
 
         // ── Methods ──
         public void Clear(){} // RVA: 0x6ACE930

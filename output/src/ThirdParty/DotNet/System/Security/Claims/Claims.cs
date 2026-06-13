@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Security.Claims
 {
     public class Claim
     {
+        public string m_issuer; // 0x10
+        public string m_originalIssuer; // 0x18
+        public string m_type; // 0x20
+        public string m_value; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CBA960 | overloaded x3
         public void OnDeserializedMethod(){} // RVA: 0x5CBB030
@@ -21,6 +26,12 @@ namespace ThirdParty.DotNet.System.Security.Claims
 
     public class ClaimsIdentity
     {
+        public byte[] m_userSerializationData; // 0x10
+        public System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims; // 0x18
+        public System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim>> m_externalClaims; // 0x20
+        public string m_nameType; // 0x28
+        public string m_roleType; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CBC510 | overloaded x6
         public void get_AuthenticationType(){} // RVA: 0x358730
@@ -46,6 +57,8 @@ namespace ThirdParty.DotNet.System.Security.Claims
 
     public class ClaimsPrincipal
     {
+        public string m_version; // 0x10
+
         // ── Methods ──
         public void SelectPrimaryIdentity(){} // RVA: 0x5CBF2B0
         public void get_ClaimsPrincipalSelector(){} // RVA: 0x5CBF530

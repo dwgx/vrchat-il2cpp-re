@@ -23,6 +23,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ByteQueue
     {
+        public int DefaultCapacity;
+
         // ── Methods ──
         public void NextTwoPow(){} // RVA: 0x9515770
         public void .ctor(){} // RVA: 0x9515940 | overloaded x3
@@ -37,6 +39,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ByteQueueStream
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ByteQueue buffer; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95162D0
         public void get_Available(){} // RVA: 0x95163A0

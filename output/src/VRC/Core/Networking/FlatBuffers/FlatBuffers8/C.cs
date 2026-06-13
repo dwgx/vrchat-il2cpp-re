@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Color
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -23,6 +25,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -39,6 +43,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32Array
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -59,6 +65,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32ArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.Color32T> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -73,7 +81,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32T
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
+        public byte <G>k__BackingField; // 0x11
+        public byte <B>k__BackingField; // 0x12
+        public byte <A>k__BackingField; // 0x13
 
         // ── Methods ──
         public void get_R(){} // RVA: 0x3A75E0
@@ -89,6 +100,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -109,6 +122,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.ColorT> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -123,10 +138,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorT
     {
-        public object ByteBuffer;
-        public object R;
-        public object G;
-        public object B;
+        public float ByteBuffer; // 0x10
+        public float R; // 0x14
+        public float G; // 0x18
+        public float B; // 0x1C
 
         // ── Methods ──
         public void get_R(){} // RVA: 0x407320

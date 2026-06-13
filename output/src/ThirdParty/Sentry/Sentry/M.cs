@@ -22,6 +22,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class MetricAggregator
     {
+        public string DisposingMessage;
+
         // ── Methods ──
         public void get_Buckets(){} // RVA: 0x62AC5F0
         public void .ctor(){} // RVA: 0x62AC640
@@ -46,6 +48,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class MetricHelper
     {
+        public Sentry.Internal.RandomValuesFactory Random;
+
         // ── Methods ──
         public void GetDayBucketKey(){} // RVA: 0x62B3B80
         public void GetTimeBucketKey(){} // RVA: 0x62B3D70
@@ -63,8 +67,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class MetricsSummaryAggregator
     {
-        public object Update;
-        public object PauseTimestamp;
+        public System.Lazy`1<System.Collections.Concurrent.ConcurrentDictionary`2<string,Sentry.Protocol.Metrics.SpanMetric>> Update; // 0x10
 
         // ── Methods ──
         public void get_LazyMeasurements(){} // RVA: 0x2F8380

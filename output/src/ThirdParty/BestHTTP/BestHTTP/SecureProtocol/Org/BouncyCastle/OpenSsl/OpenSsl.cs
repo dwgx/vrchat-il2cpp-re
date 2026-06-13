@@ -62,6 +62,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.OpenSsl
 
     public class Pkcs8Generator
     {
+        public string PbeSha1_RC4_128;
+        public string PbeSha1_RC4_40; // 0x8
+        public string PbeSha1_3DES; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9954300 | overloaded x2
         public void set_SecureRandom(){} // RVA: 0x30B890

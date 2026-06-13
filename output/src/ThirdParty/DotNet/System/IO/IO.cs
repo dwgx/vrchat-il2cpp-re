@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.IO
-// Classes: 60
-// Methods: 889
+// Classes: 62
+// Methods: 898
 
 namespace ThirdParty.DotNet.System.IO
 {
     public class BinaryReader
     {
+        public System.IO.Stream m_stream; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E56130 | overloaded x3
         public void get_BaseStream(){} // RVA: 0x2F8380
@@ -37,6 +39,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class BinaryWriter
     {
+        public System.IO.BinaryWriter Null;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E58450 | overloaded x4
         public void Close(){} // RVA: 0x1D1E0E0
@@ -51,6 +55,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class BufferedStream
     {
+        public System.IO.Stream _stream; // 0x28
+        public byte[] _buffer; // 0x30
+        public int _bufferSize; // 0x38
+        public int _readPos; // 0x3C
+        public int _readLen; // 0x40
+
         // ── Methods ──
         public void LazyEnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x5E45930
         public void .ctor(){} // RVA: 0x5E45AA0 | overloaded x2
@@ -199,6 +209,17 @@ namespace ThirdParty.DotNet.System.IO
 
     public class EnumerationOptions
     {
+        public System.IO.EnumerationOptions <Compatible>k__BackingField;
+        public System.IO.EnumerationOptions <CompatibleRecursive>k__BackingField; // 0x8
+        public System.IO.EnumerationOptions <Default>k__BackingField; // 0x10
+        public bool <RecurseSubdirectories>k__BackingField; // 0x10
+        public bool <IgnoreInaccessible>k__BackingField; // 0x11
+        public int <BufferSize>k__BackingField; // 0x14
+        public 0x657FDAF8 <AttributesToSkip>k__BackingField; // 0x18
+        public 0x657FD730 <MatchType>k__BackingField; // 0x1C
+        public 0x657FD6D8 <MatchCasing>k__BackingField; // 0x20
+        public bool <ReturnSpecialDirectories>k__BackingField; // 0x24
+
         // ── Methods ──
         public void get_Compatible(){} // RVA: 0x5E415C0
         public void get_CompatibleRecursive(){} // RVA: 0x5E41620
@@ -226,6 +247,17 @@ namespace ThirdParty.DotNet.System.IO
         public void GetEndOfFile(){} // RVA: 0x5E240A0
         public void GetReadNotSupported(){} // RVA: 0x5E24110
         public void GetWriteNotSupported(){} // RVA: 0x5E24180
+    }
+
+    public class Error
+    {
+        // ── Methods ──
+        public void GetEndOfFile(){} // RVA: 0x6675890
+        public void GetPipeNotOpen(){} // RVA: 0x6675900
+        public void GetReadNotSupported(){} // RVA: 0x6675970
+        public void GetSeekNotSupported(){} // RVA: 0x66759E0
+        public void GetWriteNotSupported(){} // RVA: 0x6675A50
+        public void GetOperationAborted(){} // RVA: 0x6675AC0
     }
 
     public class ErrorEventArgs
@@ -292,6 +324,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileLoadException
     {
+        public string <FileName>k__BackingField; // 0x90
+        public string <FusionLog>k__BackingField; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E24550 | overloaded x3
         public void get_Message(){} // RVA: 0x5E24260
@@ -304,6 +339,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileNotFoundException
     {
+        public string <FileName>k__BackingField; // 0x90
+        public string <FusionLog>k__BackingField; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E24FB0 | overloaded x4
         public void get_Message(){} // RVA: 0x5E24B60
@@ -316,6 +354,14 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStream
     {
+        public int DefaultBufferSize;
+        public byte[] buf_recycle;
+        public object buf_recycle_lock; // 0x8
+        public byte[] buf; // 0x28
+        public string name; // 0x30
+        public Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle; // 0x38
+        public bool isExposed; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E5B130 | overloaded x12
         public void Init(){} // RVA: 0x5E5BB90
@@ -359,6 +405,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStreamAsyncResult : .ctor
     {
+        public object state; // 0x10
+        public bool completed; // 0x18
+        public System.Threading.ManualResetEvent wh; // 0x20
+        public System.AsyncCallback cb; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E5F6A0
         public void CBWrapper(){} // RVA: 0x5E5F8D0
@@ -415,6 +466,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemEventArgs
     {
+        public 0x658546B0 _changeType; // 0x10
+        public string _name; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CBE430
         public void Combine(){} // RVA: 0x6CBE5B0
@@ -431,6 +485,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemInfo
     {
+        public WIN32_FILE_ATTRIBUTE_DATA _data; // 0x18
+        public int _dataInitialized; // 0x3C
+        public string FullPath; // 0x40
+        public string OriginalPath; // 0x48
+        public string _name; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E44D50 | overloaded x2
         public void Create(){} // RVA: 0x5E44710
@@ -461,6 +521,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemWatcher
     {
+        public bool inited; // 0x28
+        public bool start_requested; // 0x29
+        public bool enableRaisingEvents; // 0x2A
+        public string filter; // 0x30
+        public bool includeSubdirectories; // 0x38
+        public int internalBufferSize; // 0x3C
+        public 0x658544F8 notifyFilter; // 0x40
+        public string path; // 0x48
+        public string fullpath; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CC21A0 | overloaded x2
         public void InitWatcher(){} // RVA: 0x6CC2490
@@ -526,6 +596,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MemoryStream
     {
+        public byte[] _buffer; // 0x28
+        public int _origin; // 0x30
+        public int _position; // 0x34
+        public int _length; // 0x38
+        public int _capacity; // 0x3C
+        public bool _expandable; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E258B0 | overloaded x7
         public void get_CanRead(){} // RVA: 0x1514560
@@ -563,7 +640,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MonoIO
     {
-        public object IsCaseSensitive;
+        public UIntPtr IsCaseSensitive;
+        public bool dump_handles; // 0x8
 
         // ── Methods ──
         public void GetException(){} // RVA: 0x5E5FAA0 | overloaded x2
@@ -615,6 +693,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Path
     {
+        public char[] InvalidPathChars;
+        public char AltDirectorySeparatorChar; // 0x8
+        public char DirectorySeparatorChar; // 0xA
+
         // ── Methods ──
         public void ChangeExtension(){} // RVA: 0x5E616B0
         public void Combine(){} // RVA: 0x5E65DD0 | overloaded x4
@@ -651,7 +733,7 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PathInternal
     {
-        public object CanRead;
+        public bool CanRead;
 
         // ── Methods ──
         public void IsValidDriveChar(){} // RVA: 0x5E28750
@@ -675,6 +757,16 @@ namespace ThirdParty.DotNet.System.IO
         public void GetIsCaseSensitive(){} // RVA: 0x5E29D60
         public void IsPartiallyQualified(){} // RVA: 0x2DD320
         public void .cctor(){} // RVA: 0x5E29F80
+    }
+
+    public class PathInternal
+    {
+        public bool AllowNew;
+
+        // ── Methods ──
+        public void get_StringComparison(){} // RVA: 0x6CBE710
+        public void GetIsCaseSensitive(){} // RVA: 0x6CBE770
+        public void .cctor(){} // RVA: 0x6CBE990
     }
 
     public class PathTooLongException
@@ -708,6 +800,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class SearchPattern2
     {
+        public Op ops; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CC4B30 | overloaded x2
         public void get_HasWildcard(){} // RVA: 0x6B93D0
@@ -717,6 +811,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Stream
     {
+        public System.IO.Stream Null;
+        public int DefaultCopyBufferSize;
+        public ReadWriteTask _activeReadWriteTask; // 0x18
+        public System.Threading.SemaphoreSlim _asyncActiveSemaphore; // 0x20
+
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x5E4E6A0
         public void get_CanRead(){} // RVA: 0xDBE0
@@ -778,6 +877,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamReader
     {
+        public System.IO.StreamReader Null;
+        public System.IO.Stream _stream; // 0x18
+        public System.Text.Encoding _encoding; // 0x20
+        public System.Text.Decoder _decoder; // 0x28
+
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x5E2A530
         public void ThrowAsyncIOInProgress(){} // RVA: 0x5E2A5D0
@@ -809,6 +913,14 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamWriter
     {
+        public System.IO.StreamWriter Null;
+        public System.IO.Stream _stream; // 0x30
+        public System.Text.Encoding _encoding; // 0x38
+        public System.Text.Encoder _encoder; // 0x40
+        public byte[] _byteBuffer; // 0x48
+        public char[] _charBuffer; // 0x50
+        public int _charPos; // 0x58
+
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x5E31770
         public void ThrowAsyncIOInProgress(){} // RVA: 0x5E31810
@@ -854,6 +966,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StringWriter
     {
+        public System.Text.UnicodeEncoding m_encoding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E5A220 | overloaded x4
         public void Close(){} // RVA: 0x5E5A340
@@ -886,6 +1000,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextWriter
     {
+        public System.IO.TextWriter Null;
+        public char[] s_coreNewLine; // 0x8
+        public char[] CoreNewLine; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E396C0 | overloaded x2
         public void get_FormatProvider(){} // RVA: 0x5E39840
@@ -926,6 +1044,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryAccessor : .ctor
     {
+        public System.Runtime.InteropServices.SafeBuffer _buffer; // 0x10
+        public long _offset; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x187B6D0
         public void Initialize(){} // RVA: 0x5E3BF20
@@ -936,6 +1057,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryStream
     {
+        public System.Runtime.InteropServices.SafeBuffer _buffer; // 0x28
+        public byte* _mem; // 0x30
+        public long _length; // 0x38
+        public long _capacity; // 0x40
+        public long _position; // 0x48
+        public long _offset; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E3C4B0 | overloaded x3
         public void Initialize(){} // RVA: 0x5E3C540
@@ -966,6 +1094,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class WaitForChangedResult
     {
+        public System.IO.WaitForChangedResult TimedOutResult;
+        public 0x658546B0 <ChangeType>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x18
+        public string <OldName>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CBEAD0
         public void set_ChangeType(){} // RVA: 0x833580

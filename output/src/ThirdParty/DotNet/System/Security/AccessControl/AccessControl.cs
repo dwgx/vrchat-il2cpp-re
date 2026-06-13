@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 {
     public class AccessRule
     {
-        public object IdentityReference;
+        public 0x657E9678 IdentityReference; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC0EF0
@@ -16,6 +16,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class AceEnumerator
     {
+        public System.Security.AccessControl.GenericAcl owner; // 0x10
+        public int current; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2F93A00
         public void get_Current(){} // RVA: 0x5CC0F90
@@ -26,6 +29,11 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class AuthorizationRule
     {
+        public System.Security.Principal.IdentityReference identity; // 0x10
+        public int accessMask; // 0x18
+        public bool isInherited; // 0x1C
+        public 0x657E9E08 inheritanceFlags; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC1030
         public void get_IdentityReference(){} // RVA: 0x2F8380
@@ -45,6 +53,12 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class CommonAcl
     {
+        public bool is_aefa; // 0x10
+        public bool is_canonical; // 0x11
+        public bool is_container; // 0x12
+        public bool is_ds; // 0x13
+        public System.Security.AccessControl.RawAcl raw_acl; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC1C90 | overloaded x3
         public void Init(){} // RVA: 0x5CC1E10
@@ -90,6 +104,14 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class CommonSecurityDescriptor
     {
+        public bool is_container; // 0x10
+        public bool is_ds; // 0x11
+        public 0x657E9BF8 flags; // 0x14
+        public System.Security.Principal.SecurityIdentifier owner; // 0x18
+        public System.Security.Principal.SecurityIdentifier group; // 0x20
+        public System.Security.AccessControl.SystemAcl system_acl; // 0x28
+        public System.Security.AccessControl.DiscretionaryAcl discretionary_acl; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC4AE0 | overloaded x2
         public void Init(){} // RVA: 0x5CC4CC0 | overloaded x2
@@ -131,6 +153,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class GenericAce
     {
+        public 0x657E9780 ace_flags; // 0x10
+        public 0x657E9830 ace_type; // 0x11
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC5970 | overloaded x2
         public void get_AceFlags(){} // RVA: 0x3A75E0
@@ -155,6 +180,10 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class GenericAcl
     {
+        public byte AclRevision;
+        public byte AclRevisionDS; // 0x1
+        public int MaxBinaryLength; // 0x4
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x5CC6280
         public void .ctor(){} // RVA: 0x2DD310
@@ -196,6 +225,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class KnownAce
     {
+        public int access_mask; // 0x18
+        public System.Security.Principal.SecurityIdentifier identifier; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC7030 | overloaded x2
         public void get_AccessMask(){} // RVA: 0x5BED50
@@ -206,6 +238,8 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class NativeObjectSecurity
     {
+        public ExceptionFromErrorCode exception_from_error_code; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC7310 | overloaded x4
         public void ClearAccessControlSectionsModified(){} // RVA: 0x5CC7400
@@ -222,6 +256,10 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class ObjectAce
     {
+        public System.Guid object_ace_type; // 0x30
+        public System.Guid inherited_object_type; // 0x40
+        public 0x657EA070 object_ace_flags; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC84E0 | overloaded x2
         public void get_BinaryLength(){} // RVA: 0x5CC88D0
@@ -241,6 +279,10 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class ObjectSecurity
     {
+        public System.Security.AccessControl.CommonSecurityDescriptor descriptor; // 0x10
+        public 0x657E9620 sections_modified; // 0x18
+        public System.Threading.ReaderWriterLock rw_lock; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC8FE0 | overloaded x2
         public void get_AccessControlSectionsModified(){} // RVA: 0x5CC9220
@@ -275,6 +317,8 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class QualifiedAce
     {
+        public byte[] opaque; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CC7030 | overloaded x2
         public void get_AceQualifier(){} // RVA: 0x5CCA0E0
@@ -286,6 +330,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class RawAcl
     {
+        public byte revision; // 0x10
+        public System.Collections.Generic.List`1<System.Security.AccessControl.GenericAce> list; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCA570 | overloaded x2
         public void get_BinaryLength(){} // RVA: 0x5CCA960
@@ -302,6 +349,13 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class RawSecurityDescriptor
     {
+        public 0x657E9BF8 control_flags; // 0x10
+        public System.Security.Principal.SecurityIdentifier owner_sid; // 0x18
+        public System.Security.Principal.SecurityIdentifier group_sid; // 0x20
+        public System.Security.AccessControl.RawAcl system_acl; // 0x28
+        public System.Security.AccessControl.RawAcl discretionary_acl; // 0x30
+        public byte resourcemgr_control; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCB120
         public void get_ControlFlags(){} // RVA: 0x32A5C0

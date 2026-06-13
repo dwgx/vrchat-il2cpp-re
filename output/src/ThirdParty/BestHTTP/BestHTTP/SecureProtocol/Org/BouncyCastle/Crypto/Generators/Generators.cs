@@ -23,6 +23,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class BaseKdfBytesGenerator
     {
+        public int counterStart; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CC5AF0
         public void Init(){} // RVA: 0x95CF410
@@ -183,6 +185,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class HkdfBytesGenerator : .ctor
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Macs.HMac hMacHash; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95DA780
         public void Init(){} // RVA: 0x95DA870
@@ -206,6 +210,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class KdfCounterBytesGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95DAFE0
         public void Init(){} // RVA: 0x95DB110
@@ -218,6 +224,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class KdfDoublePipelineIterationBytesGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95DBBE0
         public void Init(){} // RVA: 0x95DBD70
@@ -230,6 +238,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class KdfFeedbackBytesGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95DC8D0
         public void Init(){} // RVA: 0x95DCA00
@@ -242,6 +252,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 
     public class Mgf1BytesGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest digest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95DD590
         public void Init(){} // RVA: 0x95DD640

@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 {
     public class Curve25519
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int Curve25519_DEFAULT_COORDS;
+        public int CURVE25519_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94FE460
         public void CloneCurve(){} // RVA: 0x94FE890
@@ -48,6 +52,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class Curve25519FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] PRECOMP_POW2; // 0x8
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94A29B0

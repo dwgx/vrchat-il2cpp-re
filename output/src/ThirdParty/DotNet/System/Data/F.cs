@@ -7,6 +7,17 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class ForeignKeyConstraint
     {
+        public 0x658EC5B0 _deleteRule; // 0x38
+        public 0x658EC5B0 _updateRule; // 0x3C
+        public 0x658EA3A8 _acceptRejectRule; // 0x40
+        public System.Data.DataKey _childKey; // 0x48
+        public System.Data.DataKey _parentKey; // 0x50
+        public string _constraintName; // 0x58
+        public string[] _parentColumnNames; // 0x60
+        public string[] _childColumnNames; // 0x68
+        public string _parentTableName; // 0x70
+        public string _parentTableNamespace; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6725DF0 | overloaded x3
         public void get_ChildKey(){} // RVA: 0x6725FA0
@@ -64,6 +75,9 @@ namespace ThirdParty.DotNet.System.Data
 
     public class FunctionNode
     {
+        public string _name; // 0x18
+        public int _info; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66E2220
         public void AddArgument(){} // RVA: 0x66E2580

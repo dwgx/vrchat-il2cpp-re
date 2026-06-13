@@ -26,6 +26,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÏÍÎÏÌÌÏÍÎÌÌÍÎÎÍÌÌÏÏÎ</summary>
     public class NetworkByteBufferSibling_70C4
     {
+        public ÎÍÏÎÍÍÏÌÏÎÏÏÎÍÎÎÏÌÏÍÎÍÏ controller; // 0x20
+        public UnityEngine.GameObject visualsParent; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA07AB0
         public void Initialize(){} // RVA: 0xA07BE0
@@ -49,8 +52,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÌÎÏÏÏÍÎÍÎÏÎÎÍÌÏÌÏÎÏÏ</summary>
     public class NetworkByteBufferThrottle_7DB4
     {
-        public object ByteBuffer;
-        public object Throttle;
+        public UnityEngine.UI.Toggle ByteBuffer; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> Throttle; // 0x28
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x8F20460
@@ -73,6 +76,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÎÎÌÏÍÎÍÏÍÍÏÎÎÎÌÎÎÌÎÎ</summary>
     public class NetworkCancelRPCSibling_0C32
     {
+        public VRC.SDKBase.VRCTriggerRelay ÎÎÍÌÎÌÎÎÌÌÍÍÏÍÏÌÎÏÍÎÍÌÌ; // 0x20
+        public System.Collections.Generic.List`1<UnityEngine.Collider> ÏÏÏÏÎÌÌÌÏÏÌÌÏÏÌÏÍÌÏÎÍÎÍ; // 0x28
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x174C5E0
         public void Contains(){} // RVA: 0x174C950
@@ -160,6 +166,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÌÎÎÏÎÍÍÌÎÌÍÌÌÍÏÏÎÏÍÍ</summary>
     public class NetworkItemSibling_FEF9SiRelated_0AA2
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÎÏÌÎÌÎÎÌÌÎÍÍÍÎÍÌÏÎ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÌÌÌÏÎÏÌÏÎÍÌÎÏÍÎÎÏÏÏÎÍ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÎÏÌÌÎÌÏÎÏÎÌÎÍÎÎÌÍÏÍÎÍ>k__BackingField; // 0x28
+        public uint <ÎÌÏÌÌÍÍÍÏÍÌÏÎÍÌÌÍÎÌÌÏÎÍ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void ProcessGameObject(){} // RVA: 0x760030
@@ -183,6 +195,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÌÎÏÎÎÌÌÍÎÎÌÍÎÏÎÎÎÍÎÌÌ</summary>
     public class NetworkItemSibling_FEF9SiRelated_74F4
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x20
+        public uint <ÏÏÎÌÍÍÎÌÌÌÌÌÍÎÎÌÎÍÍÍÍÍÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x5BED50
         public void get_Value(){} // RVA: 0x2DEE30
@@ -207,6 +224,16 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÌÌÌÍÎÍÌÌÌÍÍÎÌÎÌÍÍÎÌÎ</summary>
     public class NetworkItemSibling_FEF9SiRelated_74F5
     {
+        public 0x65811CB8 <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÌÌÏÏÏÏÌÍÍÎÎÏÎÍÎÍÍÏÏÎÌÎ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÍÍÏÏÍÏÏÌÌÎÌÎÌÍÌÏÍÌÏÌÏ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÍÎÌÍÌÌÍÍÎÏÏÌÎÌÏÎÍÏÌÎÍ>k__BackingField; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÏÎÍÌÏÏÏÍÌÏÎÎÌÌÏÍÌÎÍÍÍÎ>k__BackingField; // 0x38
+        public ÌÌÍÌÌÎÎÌÏÍÏÎÌÏÌÏÍÎÌÍÏÌÌ[] <ÏÍÌÌÏÏÏÏÍÌÍÎÍÏÏÍÏÎÎÏÎÍÌ>k__BackingField; // 0x40
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÎÎÎÎÌÎÏÎÎÌÍÌÌÌÏÎÌÍÍÌÍÏ>k__BackingField; // 0x48
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÍÎÎÌÏÍÌÍÎÍÍÌÍÍÍÍÍÍÏÎÌ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
         public void MoveNext(){} // RVA: 0x1968950
@@ -239,6 +266,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÌÌÍÏÎÎÎÍÎÎÌÍÏÏÎÎÎÌÎÍÏ</summary>
     public class NetworkItemSibling_FEF9SiRelated_7B10
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÌÏÎÏÌÏÏÏÌÎÎÏÍÍÎÏÍÎÏÌÍ>k__BackingField; // 0x10
+        public int <ÍÏÌÎÎÏÏÏÏÍÏÌÍÎÎÏÍÏÍÎÎÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void set_Count_0D2DF3628E00(){} // RVA: 0x1EA98A0
@@ -256,6 +286,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÌÌÍÌÏÏÍÍÎÎÍÏÏÏÏÍÍÎÎÏÏ</summary>
     public class NetworkItemSibling_FEF9SiRelated_8F10
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÌÏÎÏÍÌÏÎÏÏÎÎÎÍÌÍÍÍÌ>k__BackingField; // 0x20
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÎÏÌÍÏÌÌÌÍÍÌÎÌÎÍÌÌÏÎÍÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x519240
         public void get_Current(){} // RVA: 0x2F8380
@@ -281,6 +316,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÌÍÎÏÍÎÏÌÏÎÍÏÏÍÏÍÏÎÌÏÎ</summary>
     public class NetworkItemSibling_FEF9SiRelated_90F3
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÌÏÎÏÌÏÏÏÌÎÎÏÍÍÎÏÍÎÏÌÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x100A2F0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
@@ -295,6 +332,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÏÏÎÏÏÌÌÍÍÌÌÌÏÎÌÌÎÏÏÌÌ</summary>
     public class NetworkItemSibling_FEF9SiblingSibling_2BA1
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public int <ÌÍÍÏÎÎÎÍÌÌÎÍÌÍÌÏÎÌÏÏÌÌÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Key(){} // RVA: 0x1AD4690
@@ -312,6 +352,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÎÎÍÍÌÎÌÏÎÎÎÏÍÎÌÌÎÏÍ</summary>
     public class NetworkItemSibling_FEF9SiblingSibling_353C
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -329,6 +371,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÏÍÏÎÍÏÍÍÏÎÎÍÌÏÌÍÌÌÏÏÏ</summary>
     public class NetworkItemSibling_FEF9SiblingSibling_E096
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -345,6 +389,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÌÍÍÏÌÎÌÎÍÏÎÌÏÏÎÍÎÎÍÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_197C
     {
+        public T ÌÌÎÎÌÎÌÌÏÏÎÍÍÌÌÌÏÌÎÏÍÏÏ;
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<U> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ;
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x24B10
         public void CopyTo(){} // RVA: 0x24A50
@@ -373,6 +420,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÌÍÍÏÌÎÌÎÍÏÎÌÏÏÎÍÎÎÍÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_197C
     {
+        public bool ÌÌÎÎÌÎÌÌÏÏÎÍÍÌÌÌÏÌÎÏÍÏÏ; // 0x10
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x502B200
         public void CopyTo(){} // RVA: 0x4EC9C60
@@ -401,6 +451,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÌÍÍÏÌÎÌÎÍÏÎÌÏÏÎÍÎÎÍÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_197C
     {
+        public System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ> ÌÌÎÎÌÎÌÌÏÏÎÍÍÌÌÌÏÌÎÏÍÏÏ; // 0x10
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<ÎÏÏÏÏÍÌÍÌÏÎÍÎÏÌÌÌÏÌÌÎÎÎ> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x502D930
         public void CopyTo(){} // RVA: 0x4EC9C60
@@ -429,6 +482,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public T ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ;
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ;
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x24B10
         public void Highlight(){} // RVA: 0x24B10
@@ -449,6 +505,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public T ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5025560
         public void Highlight(){} // RVA: 0x50256B0
@@ -469,6 +528,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public T ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5025560
         public void Highlight(){} // RVA: 0x50256B0
@@ -489,6 +551,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public T ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5025560
         public void Highlight(){} // RVA: 0x50256B0
@@ -509,6 +574,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public T ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5025560
         public void Highlight(){} // RVA: 0x50256B0
@@ -529,6 +597,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public System.Collections.Generic.IList`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ> ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5024E10
         public void Highlight(){} // RVA: 0x5024F00
@@ -549,6 +620,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public float ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5025300
         public void Highlight(){} // RVA: 0x50253F0
@@ -569,6 +643,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÍÍÌÌÍÎÏÍÏÎÍÏÍÍÏÎÎÎÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_3AA6
     {
+        public ÎÏÏÏÏÍÌÍÌÏÎÍÎÏÌÌÌÏÌÌÎÎÎ ÎÏÎÍÏÎÏÍÎÌÏÌÍÏÏÌÏÏÌÏÎÎÌ; // 0x10
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5026010
         public void Highlight(){} // RVA: 0x5026100
@@ -589,6 +666,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÎÌÍÍÌÌÍÌÏÎÏÍÌÌÏÌÎÏÎÍ</summary>
     public class NetworkItem_722FSiblingSiRelated_993B
     {
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.Generic.IList`1<T>> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ;
+        public System.Predicate`1<T> ÎÍÌÍÏÏÎÏÌÏÍÍÍÎÌÎÍÍÌÎÌÏÌ;
+
         // ── Methods ──
         public void set_Item(){} // RVA: 0x24B10
         public void get_Item(){} // RVA: 0x24B10
@@ -619,6 +699,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ;
+        public T ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ;
+        public System.Func`2<T,T> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ;
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x283FA0
         public void SwapInstances(){} // RVA: 0x283FA0
@@ -635,6 +719,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public bool ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<bool,bool> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x398C00
         public void SwapInstances(){} // RVA: 0x5006030
@@ -651,6 +739,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B5A8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B5A8,0x6588B5A8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -667,6 +759,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B2E8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B2E8,0x6588B2E8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -683,6 +779,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588BA78 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588BA78,0x6588BA78> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -699,6 +799,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public int ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<int,int> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5007450
@@ -715,6 +819,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B810 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B810,0x6588B810> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -731,6 +839,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B6B0 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B6B0,0x6588B6B0> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -747,6 +859,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588DB20 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588DB20,0x6588DB20> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -763,6 +879,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x65970298 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x65970298,0x65970298> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -779,6 +899,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x65972C88 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x65972C88,0x65972C88> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -795,6 +919,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x65884D28 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x65884D28,0x65884D28> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -811,6 +939,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B760 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B760,0x6588B760> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -827,6 +959,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B658 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B658,0x6588B658> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -843,6 +979,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B3F0 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B3F0,0x6588B3F0> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -859,6 +999,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B080 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B080,0x6588B080> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -875,6 +1019,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B600 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B600,0x6588B600> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -891,6 +1039,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B918 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B918,0x6588B918> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -907,6 +1059,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588AF20 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588AF20,0x6588AF20> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -923,6 +1079,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B868 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B868,0x6588B868> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -939,6 +1099,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B188 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B188,0x6588B188> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -955,6 +1119,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x657CFEC8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x657CFEC8,0x657CFEC8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -971,6 +1139,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588DC28 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588DC28,0x6588DC28> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -987,6 +1159,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public float ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<float,float> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x7D0490
         public void SwapInstances(){} // RVA: 0x500AF70
@@ -1003,6 +1179,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B0D8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B0D8,0x6588B0D8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1019,6 +1199,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B028 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B028,0x6588B028> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1035,6 +1219,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588BAD0 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588BAD0,0x6588BAD0> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1051,6 +1239,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B970 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B970,0x6588B970> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1067,6 +1259,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B340 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B340,0x6588B340> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1083,6 +1279,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B4F8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B4F8,0x6588B4F8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1099,6 +1299,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B9C8 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B9C8,0x6588B9C8> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1115,6 +1319,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B448 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B448,0x6588B448> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1131,6 +1339,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588E360 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588E360,0x6588E360> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1147,6 +1359,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ,ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x35A740
         public void SwapInstances(){} // RVA: 0x5009BC0
@@ -1163,6 +1379,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B398 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B398,0x6588B398> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1179,6 +1399,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public string ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<string,string> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x35A740
         public void SwapInstances(){} // RVA: 0x5009BC0
@@ -1195,6 +1419,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588BB28 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588BB28,0x6588BB28> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1211,6 +1439,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B8C0 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B8C0,0x6588B8C0> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1227,6 +1459,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x65714058 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x65714058,0x65714058> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1243,6 +1479,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588AF78 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588AF78,0x6588AF78> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1259,6 +1499,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588B550 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588B550,0x6588B550> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1275,6 +1519,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x659F5E70 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x659F5E70,0x659F5E70> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1291,6 +1539,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_D642
     {
+        public string ÌÍÎÏÏÍÌÎÌÎÎÌÌÎÍÍÍÌÌÍÍÏÌ; // 0x38
+        public 0x6588BA20 ÍÌÌÎÍÏÏÍÍÏÍÎÌÏÌÎÌÏÏÎÎÍÌ; // 0x40
+        public System.Func`2<0x6588BA20,0x6588BA20> ÎÏÌÌÏÎÎÎÌÎÌÌÏÎÏÍÏÏÌÌÍÎÌ; // 0x48
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x37E080
         public void SwapInstances(){} // RVA: 0x5008800
@@ -1307,6 +1559,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÎÎÌÎÏÎÎÍÌÎÏÌÏÎÍÌÏÎÎÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_E24A
     {
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.Generic.IList`1<U>> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ;
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<T> ÏÌÌÎÏÎÍÌÌÎÏÏÎÌÏÏÏÎÍÎÍÌÏ;
+
         // ── Methods ──
         public void ResizeSparseHashForDelta(){} // RVA: 0x24B10
         public void Contains(){} // RVA: 0x24B10
@@ -1338,6 +1593,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÎÎÌÎÏÎÎÍÌÎÏÌÏÎÍÌÏÎÎÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_E24A
     {
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.Generic.IList`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ>> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ; // 0x10
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<ÌÌÎÍÍÎÎÏÌÎÎÌÌÍÌÏÎÍÎÌÎÌÏ> ÏÌÌÎÏÎÍÌÌÎÏÏÎÌÏÏÏÎÍÎÍÌÏ; // 0x18
+
         // ── Methods ──
         public void ResizeSparseHashForDelta(){} // RVA: 0x5033F20
         public void Contains(){} // RVA: 0x5017620
@@ -1369,6 +1627,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÌÎÌÎÎÍÌÌÍÏÌÌÌÏÌÎÌÍÍÌÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_1B78
     {
+        public string <ÎÏÏÌÎÌÎÎÏÎÎÎÏÎÌÎÍÍÍÎÍÌÎ>k__BackingField; // 0x10
+        public string <ÎÌÌÎÎÍÍÌÏÎÎÍÎÏÍÌÏÌÍÌÎÍÌ>k__BackingField; // 0x18
+        public string <ÌÍÎÎÌÏÏÍÏÎÎÌÎÌÍÏÎÎÌÏÍÏÎ>k__BackingField; // 0x20
+        public int <ÏÌÎÏÏÎÎÍÏÏÍÌÍÏÎÍÌÏÍÏÍÎÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x343E80
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -1394,6 +1657,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÌÎÎÌÎÏÌÎÌÏÎÏÍÏÏÎÍÎÍÍÎ</summary>
     public class NetworkItem_722FSiblingSibling_12FB
     {
+        public UnityEngine.UI.Slider ÍÏÎÎÏÍÍÍÏÌÏÌÎÎÎÏÌÍÎÌÏÌÍ; // 0x20
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x92CE2D0
         public void OnDestroy(){} // RVA: 0x92CE4A0
@@ -1414,6 +1679,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÏÏÌÌÌÌÌÎÌÌÌÏÌÌÏÍÏÍÌÍ</summary>
     public class NetworkItem_722FSibling_2F80
     {
+        public object ÎÌÍÏÌÎÎÌÏÌÍÏÎÍÍÏÏÏÏÌÎÍÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD770D0 | overloaded x2
         public void Initialize(){} // RVA: 0xD77040
@@ -1437,6 +1704,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ</summary>
     public class NetworkItem_722FSibling_351D
     {
+        public string ÍÎÎÌÌÏÌÍÏÏÍÏÍÏÎÏÌÎÏÎÎÏÏ;
+        public ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ ÍÍÌÍÎÌÎÎÌÌÍÏÌÏÏÎÏÏÌÌÏÎÍ;
+        public string <ÏÎÍÍÏÎÏÌÍÍÏÍÎÍÍÍÍÌÏÍÎÌÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void op_Implicit(){} // RVA: 0x1D86C70
@@ -1454,6 +1725,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÍÌÌÌÍÍÎÌÍÏÏÍÏÎÎÌÍÍÏÌÎ</summary>
     public class NetworkItem_722FSibling_47DA
     {
+        public System.Nullable`1<long> ÍÎÌÎÏÏÍÏÎÎÏÎÎÏÎÎÎÎÎÌÏÌÎ; // 0x10
+        public System.Nullable`1<double> ÌÏÏÍÌÌÎÏÏÎÏÌÍÎÏÎÍÎÌÏÏÌÌ; // 0x20
+        public System.Nullable`1<bool> ÌÍÍÎÍÍÌÎÌÎÎÍÎÍÏÍÌÎÏÏÎÏÏ; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ ÎÍÍÎÎÏÎÌÍÎÌÌÏÏÌÏÍÏÏÍÍÏÌ; // 0x38
+        public 0x65800A10 ÎÍÏÍÍÍÏÍÌÌÎÌÎÎÏÍÌÎÌÏÎÌÍ; // 0x40
+
         // ── Methods ──
         public void SetSiblingIndex(){} // RVA: 0x338CD0
         // ── 14 unresolved (hash) ──
@@ -1486,6 +1763,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÌÏÎÎÎÍÍÏÏÏÏÏÌÌÎÌÌÎÍ</summary>
     public class NetworkItem_722FSibling_8C09
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ ÍÍÎÌÎÏÎÎÍÎÎÏÏÎÍÎÍÎÌÏÎÍÍ; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ ÍÌÎÍÏÍÍÍÌÍÎÏÌÍÍÏÌÎÌÌÏÍÌ; // 0x18
+        public 0x65815048 ÍÎÎÎÍÎÍÎÏÏÌÎÌÌÏÌÏÏÌÌÎÍÎ; // 0x20
+
         // ── Methods ──
         public void DllMainDispatch_3DADCABEE27D(){} // RVA: 0x2046CE0
         public void DllMainDispatch_89D788078B67(){} // RVA: 0x2046CF0
@@ -1525,6 +1806,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÌÏÏÍÎÌÏÍÎÍÎÏÏÌÏÍÌÍÏÍÌ</summary>
     public class NetworkReadyHandler_3F9B
     {
+        public System.Collections.Generic.List`1<string> ÍÎÍÏÎÍÍÍÎÏÌÏÌÏÎÏÍÏÍÍÏÍÍ; // 0x20
+        public System.Collections.Generic.HashSet`1<VRC.SDKBase.VRC_Trigger> ÎÎÎÎÍÍÎÌÎÏÎÌÌÌÏÌÌÌÏÎÌÎÌ;
+        public VRC.SDKBase.VRC_Trigger target; // 0x28
+        public VRC.SDKBase.VRC_DataStorage dataStorage; // 0x30
+        public UnityEngine.Collider _collider; // 0x38
+
         // ── Methods ──
         public void ConstructWithCapacityAndComparer(){} // RVA: 0x1752E90
         public void InitializeBucketsAndEntries(){} // RVA: 0x17532C0
@@ -1570,6 +1857,15 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÏÍÍÌÎÏÎÎÎÌÌÍÌÏÌÍÌÍÌÏÌ</summary>
     public class NetworkReadyHandler_68D0_5FEA : <ÏÏÏÎÏÏÍÍÌÎÏÍÏÍÏÏÏÎÌÍÍÏÍ>k__BackingField
     {
+        public bool <ÏÌÍÏÍÍÎÏÍÍÏÎÏÎÌÍÍÎÏÌÏÌÌ>k__BackingField; // 0x20
+        public ÍÏÍÌÍÏÏÌÏÍÍÍÍÎÏÍÏÏÎÎÎÏÌ <ÏÏÏÎÏÏÍÍÌÎÏÍÏÍÏÏÏÎÌÍÍÏÍ>k__BackingField; // 0x28
+        public float ÎÍÎÏÎÌÏÎÎÍÎÎÎÎÍÍÌÎÎÌÏÌÏ; // 0x30
+        public VRC.SDKBase.VRC_EventHandler ÌÎÌÍÎÎÌÍÎÏÌÎÎÏÍÌÎÏÌÍÌÌÏ; // 0x38
+        public ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ <ÌÌÏÏÎÏÏÏÎÎÌÏÌÌÏÎÌÍÌÍÍÍÍ>k__BackingField; // 0x40
+        public bool <ÎÌÎÎÍÍÏÎÍÍÍÎÌÏÏÏÍÏÍÎÏÌÍ>k__BackingField; // 0x48
+        public bool <ÎÌÏÍÎÌÍÍÏÎÏÍÍÍÍÎÏÍÌÍÌÌÌ>k__BackingField; // 0x49
+        public ÍÌÏÎÌÏÌÏÌÏÌÌÌÌÌÏÏÏÎÍÎÏÍ pvCache; // 0x50
+
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x1375820
         public void set_ValidExpressions(){} // RVA: 0x3CB9D0
@@ -1607,6 +1903,15 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ</summary>
     public class NetworkReadyHandler_BC67
     {
+        public System.Lazy`1<System.Collections.Immutable.ImmutableArray`1<0x659C0BA8>> ÏÎÎÍÏÌÏÌÏÍÍÍÍÌÏÌÎÏÏÍÍÍÏ;
+        public bool ÍÍÏÌÎÍÏÌÍÌÏÏÍÍÎÌÍÍÍÎÍÌÎ; // 0x58
+        public ÏÌÍÏÍÍÎÏÎÌÏÌÌÎÎÍÏÎÌÌÍÌÏ ÍÍÏÎÌÌÏÍÌÌÍÎÍÌÍÏÌÍÌÍÌÎÎ; // 0x60
+        public UnityEngine.GameObject ÌÎÍÏÎÍÌÍÎÌÏÎÏÍÎÍÌÍÎÏÌÌÌ; // 0x68
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÏÎÏÏÏÏÍÏÍÏÌÎÎÏÍÏÏÍÎÏÌÌ; // 0x70
+        public UnityEngine.Animator ÏÍÎÌÎÎÏÍÏÏÎÍÏÌÏÎÏÏÏÌÎÎÌ; // 0x78
+        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ ÎÎÏÏÌÌÍÍÎÎÌÏÏÎÎÍÎÎÌÌÏÏÎ; // 0x80
+        public ÌÏÍÎÏÌÌÎÏÌÍÏÏÎÎÎÏÍÏÎÌÌÏ ÎÎÎÎÎÌÌÍÌÍÍÏÍÍÎÌÍÍÌÎÎÎÌ; // 0x88
+
         // ── Methods ──
         public void ApplyCachedLocalRotations(){} // RVA: 0x1167BC0
         public void ApplyCachedLocalRotations_FC8D5DE239C6(){} // RVA: 0x1167BD0
@@ -1654,6 +1959,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÏÌÌÍÏÎÏÌÍÍÎÏÎÌÎÌÌÎÍÌ</summary>
     public class NetworkReadyHandler_F15E
     {
+        public UnityEngine.CanvasGroup ÌÏÌÍÏÍÌÏÌÎÌÏÌÍÍÍÎÍÏÎÌÌÎ; // 0x20
+
         // ── Methods ──
         public void IListContains(){} // RVA: 0x16D0110
         public void ContainsAvatarUseEntry(){} // RVA: 0x16D06F0
@@ -1687,6 +1994,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÍÏÍÍÎÍÍÍÌÍÍÎÎÎÌÍÍÍÌÍÌ</summary>
     public class NetworkShouldBroadcastInsRelated_3B2C
     {
+        public UnityEngine.Vector2 <ÍÍÏÌÌÏÏÌÎÌÏÎÌÌÎÏÍÍÍÏÍÍÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x2EE22E0
         public void HasNoCurrentCoroutine(){} // RVA: 0x93F2F30
@@ -1705,8 +2014,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÎÍÏÍÍÌÍÌÎÍÏÎÍÏÎÌÏÍÍÎÏ</summary>
     public class NetworkShouldBroadcastInsRelated_7A85
     {
-        public object f_32D;
-        public object f_DA7;
+        public int f_32D; // 0x10
+        public object f_DA7; // 0x18
+        public System.Nullable`1<bool> <ÏÍÏÎÎÌÍÌÌÍÌÎÎÍÎÏÌÎÎÍÍÌÍ>k__BackingField; // 0x20
 
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -1746,6 +2056,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÌÎÍÎÌÏÏÌÍÏÎÎÏÏÍÌÏÍÏÏÍ</summary>
     public class NetworkSyncableSiblingSibRelated_8F3A
     {
+        public bool ÍÍÍÌÏÏÌÌÏÍÌÌÌÌÌÍÎÏÌÌÍÎÎ; // 0x68
+        public 0x657267F8 ÏÍÏÏÍÍÍÍÏÌÍÌÏÎÍÌÌÏÎÏÌÏÍ; // 0x6C
+
         // ── Methods ──
         public void ReadApplicationState(){} // RVA: 0x3060E0
         public void OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange(){} // RVA: 0x3060C0
@@ -1805,6 +2118,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÎÎÌÍÌÏÏÎÌÎÌÏÎÏÎÎÍÌÌÍ</summary>
     public class NetworkSyncableSiblingSiblingSibling_B8FA
     {
+        public UnityEngine.GameObject ÌÏÏÌÍÌÍÏÌÌÎÏÏÍÏÍÍÍÏÏÌÍÏ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x146AAD0
         public void CopyTo(){} // RVA: 0x146AC80
@@ -1826,6 +2141,13 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÍÎÏÎÏÌÌÏÍÏÏÏÏÍÏÏÎÍÎÍ</summary>
     public class NetworkSyncableSiblingSiblingSibling_C45D
     {
+        public UnityEngine.RectTransform _worldAnnotationArea; // 0x60
+        public Mediapipe.Unity.DetectionAnnotationController _poseDetectionAnnotationController; // 0x68
+        public Mediapipe.Unity.PoseLandmarkListAnnotationController _poseLandmarksAnnotationController; // 0x70
+        public Mediapipe.Unity.PoseWorldLandmarkListAnnotationController _poseWorldLandmarksAnnotationController; // 0x78
+        public Mediapipe.Unity.MaskAnnotationController _segmentationMaskAnnotationController; // 0x80
+        public Mediapipe.Unity.NormalizedRectAnnotationController _roiFromLandmarksAnnotationController; // 0x88
+
         // ── Methods ──
         public void GetItem_2333E0A7111B(){} // RVA: 0x19A70B0
         public void GetItem(){} // RVA: 0x19A7120
@@ -1861,6 +2183,15 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÌÍÎÍÍÏÌÎÎÌÎÎÍÌÏÍÍÍÍÏÏ</summary>
     public class NetworkSyncableSiblingSibling_2395
     {
+        public int ÎÏÌÎÎÌÏÍÌÍÏÎÏÎÏÍÏÎÍÏÍÌÎ; // 0x30
+        public string ÏÎÎÏÏÏÍÏÎÏÏÍÌÎÍÏÏÌÌÎÌÍÌ;
+        public ResolutionStruct[] ÍÏÏÏÍÎÎÏÏÏÌÏÍÏÍÎÎÏÌÍÍÍÍ; // 0x38
+        public object ÏÌÎÌÌÌÏÎÎÎÎÏÎÌÍÍÎÌÍÌÎÍÍ;
+        public bool ÏÍÎÎÍÌÌÌÎÎÍÏÍÎÌÏÌÌÏÎÏÎÍ; // 0x8
+        public UnityEngine.WebCamTexture ÎÍÌÍÍÌÏÍÏÏÍÍÍÌÏÏÎÍÍÌÌÏÌ; // 0x40
+        public System.Nullable`1<UnityEngine.WebCamDevice> ÏÎÍÌÌÍÍÌÍÎÍÏÍÍÎÏÎÏÎÎÎÍÏ; // 0x48
+        public UnityEngine.WebCamDevice[] ÏÌÍÍÏÍÍÍÏÌÎÌÏÍÎÎÌÍÌÏÏÎÏ; // 0x70
+
         // ── Methods ──
         public void ComputeHashCode(){} // RVA: 0x1973DE0
         public void .ctor(){} // RVA: 0x19744A0
@@ -1888,6 +2219,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1909,6 +2242,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1930,6 +2265,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1951,6 +2288,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ</summary>
     public class NetworkSyncableSibling_2D86
     {
+        public string <ÎÍÍÌÎÎÎÌÍÍÏÌÎÏÍÍÌÏÎÍÏÍÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x92D1AA0
         public void .ctor(){} // RVA: 0x92D1B80
@@ -1972,6 +2311,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÏÍÏÎÎÍÌÎÍÌÍÏÍÏÏÌÌÍÏÎÍ</summary>
     public class NetworkSyncable_2FB8
     {
+        public UnityEngine.Animator ÎÌÌÌÍÍÌÌÎÌÎÍÏÎÌÎÍÍÍÌÎÎÎ; // 0x58
+        public UnityEngine.Animation ÍÏÎÍÌÌÌÏÎÍÎÍÏÎÏÌÌÍÌÎÎÍÏ; // 0x60
+        public bool ÎÎÍÌÎÎÏÍÍÏÌÎÎÍÏÏÏÍÍÌÎÎÏ; // 0x68
+
         // ── Methods ──
         public void OnDestroy_97E061972639(){} // RVA: 0x1729960
         public void OnDestroy(){} // RVA: 0x1729960
@@ -2007,6 +2350,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ</summary>
     public class NetworkSyncable_D48C
     {
+        public System.Collections.Generic.List`1<VRC.Dynamics.VRCPhysBoneBase> ÌÏÎÎÎÍÍÍÍÌÏÎÌÎÎÌÍÎÌÎÌÍÌ; // 0x58
+
         // ── Methods ──
         public void IntersectRay(){} // RVA: 0xE85A90
         public void ContainsPoint(){} // RVA: 0xE85B60

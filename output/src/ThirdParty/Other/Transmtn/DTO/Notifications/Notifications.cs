@@ -7,6 +7,36 @@ namespace ThirdParty.Other.Transmtn.DTO.Notifications
 {
     public class Notification
     {
+        public string <id>k__BackingField; // 0x10
+        public int <version>k__BackingField; // 0x18
+        public string <fullType>k__BackingField; // 0x20
+        public string <type>k__BackingField; // 0x28
+        public string <descriptor>k__BackingField; // 0x30
+        public string <category>k__BackingField; // 0x38
+        public bool <isSystem>k__BackingField; // 0x40
+        public string <senderUserId>k__BackingField; // 0x48
+        public string <senderUsername>k__BackingField; // 0x50
+        public string <receiverUserId>k__BackingField; // 0x58
+        public string <relatedNotificationsId>k__BackingField; // 0x60
+        public VRC.Localization.LocalizableString <title>k__BackingField; // 0x68
+        public VRC.Localization.LocalizableString <message>k__BackingField; // 0x90
+        public string <imageUrl>k__BackingField; // 0xB8
+        public string <link>k__BackingField; // 0xC0
+        public VRC.Localization.LocalizableString <linkText>k__BackingField; // 0xC8
+        public System.Collections.Generic.Dictionary`2<string,string> <data>k__BackingField; // 0xF0
+        public System.Collections.Generic.Dictionary`2<string,object>[] <responses>k__BackingField; // 0xF8
+        public System.DateTime <expiresAt>k__BackingField; // 0x100
+        public System.Nullable`1<int> <expiryAfterSeen>k__BackingField; // 0x108
+        public bool <requireSeen>k__BackingField; // 0x110
+        public bool <seen>k__BackingField; // 0x111
+        public bool <ignoreDND>k__BackingField; // 0x112
+        public bool <canDelete>k__BackingField; // 0x113
+        public System.DateTime <createdAt>k__BackingField; // 0x118
+        public System.DateTime <updatedAt>k__BackingField; // 0x120
+        public System.DateTime _created_at; // 0x128
+        public Transmtn.DTO.Notifications.NotificationDetails details; // 0x130
+        public object <payload>k__BackingField; // 0x138
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B05000 | overloaded x2
         public void Create(){} // RVA: 0x9B057B0

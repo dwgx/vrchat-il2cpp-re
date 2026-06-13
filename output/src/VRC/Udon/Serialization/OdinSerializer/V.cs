@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 13
-// Methods: 55
+// Classes: 16
+// Methods: 65
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
@@ -9,6 +9,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xFED110
+    }
+
+    public class VRCUrlFormatter
+    {
     }
 
     public class ValueTupleFormatter`1
@@ -39,6 +43,26 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public void GetUninitializedObject(){} // RVA: 0x283FA0
         public void DeserializeImplementation(){} // RVA: 0x2DC60
         public void SerializeImplementation(){} // RVA: 0x2DC60
+    }
+
+    public class ValueTupleFormatter`3
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x4827330
+        public void .ctor(){} // RVA: 0x2E5ED40
+        public void GetUninitializedObject(){} // RVA: 0x3F3ED10
+        public void DeserializeImplementation(){} // RVA: 0x48276C0
+        public void SerializeImplementation(){} // RVA: 0x48278A0
+    }
+
+    public class ValueTupleFormatter`3
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x4826CC0
+        public void .ctor(){} // RVA: 0x2E5ED40
+        public void GetUninitializedObject(){} // RVA: 0x4827050
+        public void DeserializeImplementation(){} // RVA: 0x4827060
+        public void SerializeImplementation(){} // RVA: 0x48271D0
     }
 
     public class Vector2DictionaryKeyPathProvider

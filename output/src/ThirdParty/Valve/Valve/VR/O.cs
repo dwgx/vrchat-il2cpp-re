@@ -7,6 +7,27 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class OpenVR
     {
+        public uint k_nDriverNone;
+        public uint k_unMaxDriverDebugResponseSize;
+        public uint k_unTrackedDeviceIndex_Hmd;
+        public uint k_unMaxTrackedDeviceCount;
+        public uint k_unTrackedDeviceIndexOther;
+        public uint k_unTrackedDeviceIndexInvalid;
+        public ulong k_ulInvalidPropertyContainer;
+        public uint k_unInvalidPropertyTag;
+        public ulong k_ulInvalidDriverHandle;
+        public uint k_unFloatPropertyTag;
+        public uint k_unInt32PropertyTag;
+        public uint k_unUint64PropertyTag;
+        public uint k_unBoolPropertyTag;
+        public uint k_unStringPropertyTag;
+        public uint k_unErrorPropertyTag;
+        public uint k_unDoublePropertyTag;
+        public uint k_unHmdMatrix34PropertyTag;
+        public uint k_unHmdMatrix44PropertyTag;
+        public uint k_unHmdVector3PropertyTag;
+        public uint k_unHmdVector4PropertyTag;
+
         // ── Methods ──
         public void InitInternal(){} // RVA: 0x7067170
         public void InitInternal2(){} // RVA: 0x70671B0

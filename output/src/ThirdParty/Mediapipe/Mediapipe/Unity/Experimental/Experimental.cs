@@ -7,6 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
 {
     public class TextureFrame
     {
+        public string _TAG;
+
         // ── Methods ──
         public void get_imageFormat(){} // RVA: 0x5B53060
         public void .ctor(){} // RVA: 0x5B533F0 | overloaded x2
@@ -28,6 +30,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
 
     public class TextureFramePool
     {
+        public string _TAG;
+        public int textureWidth; // 0x10
+
         // ── Methods ──
         public void get_poolSize(){} // RVA: 0x197C3B0
         public void set_poolSize(){} // RVA: 0x1989FD0

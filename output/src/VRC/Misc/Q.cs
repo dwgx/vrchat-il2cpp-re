@@ -87,6 +87,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÍÏÎÎÌÎÍÍÎÍÏÌÏÌÎÎÎÌÏ</summary>
     public class QuaternionHandler_2EFD
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -162,7 +166,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÏÏÍÍÏÎÏÎÏÎÍÏÏÎÍÍÍÍÌ</summary>
     public class QuaternionHandler_5FB9
     {
-        public object _5FB9;
+        public ÎÌÍÎÎÍÍÌÍÏÏÏÍÍÏÎÍÍÍÎÏÏÏ _5FB9;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1EEA890
@@ -272,6 +276,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÌÏÍÌÍÎÎÎÍÍÎÏÍÎÏÏÎÎÏÍÏ</summary>
     public class QuaternionHandler_A7EA
     {
+        public ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ ÎÏÎÌÌÎÎÌÏÍÌÏÌÍÏÍÌÏÌÏÎÍÍ; // 0x158
+        public string _controlTabName; // 0x160
+        public string _controlChildTabName; // 0x168
+        public string _source; // 0x170
+
         // ── Methods ──
         public void OnCollisionStay(){} // RVA: 0x881BC0
         public void GetTransform_7A1(){} // RVA: 0xD8E320

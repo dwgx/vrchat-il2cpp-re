@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 {
     public class Bone
     {
-        public object leftEyePosition;
-        public object leftEyeRotation;
-        public object rightEyePosition;
+        public uint leftEyePosition; // 0x10
+        public UnityEngine.Vector3 leftEyeRotation; // 0x14
+        public UnityEngine.Quaternion rightEyePosition; // 0x20
 
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x19689B0
@@ -22,6 +22,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class BoneControl
     {
+        public UnityEngine.InputSystem.Controls.IntegerControl <parentBoneIndex>k__BackingField; // 0x140
+        public UnityEngine.InputSystem.Controls.Vector3Control <position>k__BackingField; // 0x148
+        public UnityEngine.InputSystem.Controls.QuaternionControl <rotation>k__BackingField; // 0x150
+
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x3485F0
         public void set_parentBoneIndex(){} // RVA: 0x348600
@@ -37,8 +41,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class Eyes
     {
-        public object leftHand;
-        public object rightHand;
+        public UnityEngine.Vector3 leftHand; // 0x10
+        public UnityEngine.Quaternion rightHand; // 0x1C
+        public UnityEngine.Vector3 m_RightEyePosition; // 0x2C
+        public UnityEngine.Quaternion m_RightEyeRotation; // 0x38
+        public UnityEngine.Vector3 m_FixationPoint; // 0x48
+        public float m_LeftEyeOpenAmount; // 0x54
+        public float m_RightEyeOpenAmount; // 0x58
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x210E270
@@ -59,6 +68,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class EyesControl
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyePosition>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.QuaternionControl <leftEyeRotation>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyePosition>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Controls.QuaternionControl <rightEyeRotation>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector3Control <fixationPoint>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl <leftEyeOpenAmount>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.AxisControl <rightEyeOpenAmount>k__BackingField; // 0x1C8
+
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0xA974D0
         public void set_leftEyePosition(){} // RVA: 0xD9C360
@@ -82,6 +99,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseControl
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <isTracked>k__BackingField; // 0x178
+        public UnityEngine.InputSystem.Controls.IntegerControl <trackingState>k__BackingField; // 0x180
+        public UnityEngine.InputSystem.Controls.Vector3Control <position>k__BackingField; // 0x188
+        public UnityEngine.InputSystem.Controls.QuaternionControl <rotation>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.Vector3Control <velocity>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector3Control <angularVelocity>k__BackingField; // 0x1A0
+
         // ── Methods ──
         public void get_isTracked(){} // RVA: 0x82F060
         public void set_isTracked(){} // RVA: 0xD870D0
@@ -104,6 +128,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseState
     {
+        public int kSizeInBytes;
+
         // ── Methods ──
         public void get_format(){} // RVA: 0x6E99E10
         public void .ctor(){} // RVA: 0x6E99E70
@@ -112,6 +138,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class TrackedPoseDriver
     {
+        public 0x6586AA78 m_TrackingType; // 0x20
+        public 0x6586AB28 m_UpdateType; // 0x24
+        public bool m_IgnoreTrackingState; // 0x28
+        public UnityEngine.InputSystem.InputActionProperty m_PositionInput; // 0x30
+        public UnityEngine.InputSystem.InputActionProperty m_RotationInput; // 0x48
+        public UnityEngine.InputSystem.InputActionProperty m_TrackingStateInput; // 0x60
+        public UnityEngine.Vector3 m_CurrentPosition; // 0x78
+        public UnityEngine.Quaternion m_CurrentRotation; // 0x84
+
         // ── Methods ──
         public void get_trackingType(){} // RVA: 0x760030
         public void set_trackingType(){} // RVA: 0x99E0D0
@@ -196,6 +231,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRHMD
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyePosition>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.QuaternionControl <leftEyeRotation>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyePosition>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.QuaternionControl <rightEyeRotation>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyePosition>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.QuaternionControl <centerEyeRotation>k__BackingField; // 0x1D8
+
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0xDA5040
         public void set_leftEyePosition(){} // RVA: 0xD8AAB0

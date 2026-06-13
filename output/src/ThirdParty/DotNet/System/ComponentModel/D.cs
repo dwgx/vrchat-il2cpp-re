@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class DataErrorsChangedEventArgs
     {
+        public string _propertyName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7F020
         public void get_PropertyName(){} // RVA: 0x2F8380
@@ -14,6 +16,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DataObjectAttribute
     {
+        public System.ComponentModel.DataObjectAttribute DataObject;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0 | overloaded x2
         public void get_IsDataObject(){} // RVA: 0x3A75E0
@@ -25,6 +29,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DataObjectFieldAttribute
     {
+        public bool <IsIdentity>k__BackingField; // 0x10
+        public bool <IsNullable>k__BackingField; // 0x11
+        public int <Length>k__BackingField; // 0x14
+        public bool <PrimaryKey>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C5DB60 | overloaded x4
         public void get_IsIdentity(){} // RVA: 0x3A75E0
@@ -37,6 +46,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DataObjectMethodAttribute
     {
+        public bool <IsDefault>k__BackingField; // 0x10
+        public 0x6584E828 <MethodType>k__BackingField; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C5DC30 | overloaded x2
         public void get_IsDefault(){} // RVA: 0x3A75E0
@@ -80,6 +92,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DefaultBindingPropertyAttribute
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_Name(){} // RVA: 0x2F8380
@@ -90,6 +104,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DefaultEventAttribute
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Name(){} // RVA: 0x2F8380
@@ -100,6 +116,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DefaultPropertyAttribute
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Name(){} // RVA: 0x2F8380
@@ -110,6 +128,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DefaultValueAttribute
     {
+        public object _value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C4AE80 | overloaded x15
         public void get_Value(){} // RVA: 0x2F8380
@@ -121,6 +141,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DelegatingTypeDescriptionProvider
     {
+        public System.Type _type; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x30B0D0
         public void get_Provider(){} // RVA: 0x6C5F5D0
@@ -137,6 +159,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DescriptionAttribute
     {
+        public System.ComponentModel.DescriptionAttribute Default;
+        public string <DescriptionValue>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_Description(){} // RVA: 0x2F8380
@@ -150,6 +175,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DesignOnlyAttribute
     {
+        public bool <IsDesignOnly>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_IsDesignOnly(){} // RVA: 0x3A75E0
@@ -161,6 +188,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DesignTimeVisibleAttribute
     {
+        public bool <Visible>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void get_Visible(){} // RVA: 0x3A75E0
@@ -172,6 +201,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DesignerAttribute
     {
+        public string designerTypeName; // 0x10
+        public string designerBaseTypeName; // 0x18
+        public string typeId; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C855B0 | overloaded x5
         public void get_DesignerBaseTypeName(){} // RVA: 0x2E07C0
@@ -183,6 +216,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DesignerCategoryAttribute
     {
+        public System.ComponentModel.DesignerCategoryAttribute Component;
+        public System.ComponentModel.DesignerCategoryAttribute Default; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_Category(){} // RVA: 0x2F8380
@@ -195,6 +231,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DesignerSerializationVisibilityAttribute
     {
+        public System.ComponentModel.DesignerSerializationVisibilityAttribute Content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_Visibility(){} // RVA: 0x32A5C0
@@ -206,6 +244,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DisplayNameAttribute
     {
+        public System.ComponentModel.DisplayNameAttribute Default;
+        public string <DisplayNameValue>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_DisplayName(){} // RVA: 0x2F8380
@@ -219,6 +260,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class DoWorkEventArgs
     {
+        public object result; // 0x18
+        public object argument; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C858D0
         public void get_Argument(){} // RVA: 0x30B0C0

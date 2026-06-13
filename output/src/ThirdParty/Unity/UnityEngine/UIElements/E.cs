@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 25
-// Methods: 205
+// Classes: 100
+// Methods: 872
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class EasingFunction
     {
+        public 0x6583C298 m_Mode; // 0x10
+
         // ── Methods ──
         public void get_mode(){} // RVA: 0x19689B0
         public void .ctor(){} // RVA: 0x833580
@@ -30,6 +32,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EnumField
     {
+        public System.Type m_EnumType; // 0x440
+
         // ── Methods ──
         public void get_includeObsoleteValues(){} // RVA: 0x7316220
         public void Initialize(){} // RVA: 0x7316230
@@ -59,6 +63,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase
     {
+        public long s_LastTypeId;
+        public 0x65841990 <eventCategory>k__BackingField; // 0x10
+        public ulong s_NextEventId; // 0x8
+        public long <timestamp>k__BackingField; // 0x18
+        public ulong <eventId>k__BackingField; // 0x20
+        public ulong <triggerEventId>k__BackingField; // 0x28
+        public 0x65836A40 <propagation>k__BackingField; // 0x30
+        public UnityEngine.UIElements.PropagationPaths <path>k__BackingField; // 0x38
+        public 0x65836A98 <lifeCycleStatus>k__BackingField; // 0x40
+        public UnityEngine.UIElements.IEventHandler <leafTarget>k__BackingField; // 0x48
+        public UnityEngine.UIElements.IEventHandler m_Target; // 0x50
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.IEventHandler> <skipElements>k__BackingField; // 0x58
+        public 0x658374E8 <propagationPhase>k__BackingField; // 0x60
+        public UnityEngine.UIElements.IEventHandler m_CurrentTarget; // 0x68
+        public UnityEngine.Event m_ImguiEvent; // 0x70
+        public UnityEngine.Vector2 <originalMousePosition>k__BackingField; // 0x78
+
         // ── Methods ──
         public void RegisterEventType(){} // RVA: 0x73E8010
         public void get_eventTypeId(){} // RVA: 0x1CA3200
@@ -133,6 +154,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1
     {
+        public long s_TypeId;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3305D00
         public void .ctor(){} // RVA: 0x3305E00
@@ -146,8 +169,1199 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .cctor(){} // RVA: 0x33065E0
     }
 
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x24AE0
+        public void .ctor(){} // RVA: 0x24A50
+        public void TypeId(){} // RVA: 0xC960
+        public void Init(){} // RVA: 0x24A50
+        public void GetPooled(){} // RVA: 0x283FA0 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x283FA0
+        public void Acquire(){} // RVA: 0x24A50
+        public void Dispose(){} // RVA: 0x24A50
+        public void get_eventTypeId(){} // RVA: 0xCD60
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+
+        // ── Methods ──
+        public void SetCreateFunction(){} // RVA: 0x3305D00
+        public void .ctor(){} // RVA: 0x3305E00
+        public void TypeId(){} // RVA: 0x3305F90
+        public void Init(){} // RVA: 0x3306030
+        public void GetPooled(){} // RVA: 0x3306210 | overloaded x2
+        public void ReleasePooled(){} // RVA: 0x33062B0
+        public void Acquire(){} // RVA: 0x33063C0
+        public void Dispose(){} // RVA: 0x33063D0
+        public void get_eventTypeId(){} // RVA: 0x3306560
+        public void .cctor(){} // RVA: 0x33065E0
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
+    public class EventBase`1
+    {
+        public long s_TypeId;
+    }
+
     public class EventCallbackFunctorBase
     {
+        public 0x65836E08 <phase>k__BackingField; // 0x10
+        public 0x65836E60 <invokePolicy>k__BackingField; // 0x14
+
         // ── Methods ──
         public void get_phase(){} // RVA: 0x32A5C0
         public void get_invokePolicy(){} // RVA: 0x8ABED0
@@ -167,6 +1381,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`2
     {
+        public UnityEngine.UIElements.EventCallback`2<U,T> m_Callback;
+
         // ── Methods ──
         public void get_userArgs(){} // RVA: 0x283FA0
         public void set_userArgs(){} // RVA: 0x283FA0
@@ -177,6 +1393,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackList
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.EventCallbackFunctorBase> m_List; // 0x10
+        public int <trickleDownCallbackCount>k__BackingField; // 0x18
+        public int <bubbleUpCallbackCount>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_trickleDownCallbackCount(){} // RVA: 0x5BED50
         public void set_trickleDownCallbackCount(){} // RVA: 0x6374E0
@@ -224,101 +1444,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void Invoke(){} // RVA: 0x283FA0
     }
 
+    public class EventCallback`1
+    {
+    }
+
+    public class EventCallback`1
+    {
+    }
+
     public class EventCallback`2
     {
         // ── Methods ──
         public void .ctor(){}
         public void Invoke(){} // RVA: 0x283FA0
-    }
-
-    public class EventCategoryAttribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-    }
-
-    public class EventDebugger
-    {
-        // ── Methods ──
-        public void LogPropagationPaths(){} // RVA: 0x2DD310
-    }
-
-    public class EventDebuggerLogCall : `
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
-    }
-
-    public class EventDebuggerLogExecuteDefaultAction : `
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
-    }
-
-    public class EventDebuggerLogIMGUICall : `
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
-    }
-
-    public class EventDispatchUtilities
-    {
-        // ── Methods ──
-        public void PropagateEvent(){} // RVA: 0x73EB290
-        public void HandleEventAcrossPropagationPath(){} // RVA: 0x73EB400
-        public void PropagateToIMGUIContainer(){} // RVA: 0x73EBCD0
-        public void ExecuteDefaultAction(){} // RVA: 0x73EC190
-    }
-
-    public class EventDispatcher
-    {
-        // ── Methods ──
-        public void get_pointerState(){} // RVA: 0x30B130
-        public void CreateForRuntime(){} // RVA: 0x73E3930
-        public void .ctor(){} // RVA: 0x73E3990
-        public void get_dispatchImmediately(){} // RVA: 0x73E3DA0
-        public void set_processingEvents(){} // RVA: 0x65EEB0
-        public void Dispatch(){} // RVA: 0x73E3DC0
-        public void CloseGate(){} // RVA: 0x73E4070
-        public void OpenGate(){} // RVA: 0x73E4080
-        public void ProcessEventQueue(){} // RVA: 0x73E4100
-        public void ProcessEvent(){} // RVA: 0x73E4540
-        public void ApplyDispatchingStrategies(){} // RVA: 0x73E4C00
-        public void .cctor(){} // RVA: 0x73E4EE0
-    }
-
-    public class EventDispatcherGate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x73E3700
-        public void Dispose(){} // RVA: 0x73E37C0
-        public void Equals(){} // RVA: 0x73E3850 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x732A800
-    }
-
-    public class EventInterestAttribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6374E0 | overloaded x2
-    }
-
-    public class EventInterestReflectionUtils
-    {
-        // ── Methods ──
-        public void GetDefaultEventInterests(){} // RVA: 0x7326E60
-        public void ComputeDefaultEventInterests(){} // RVA: 0x7327100
-        public void GetEventCategory(){} // RVA: 0x7327390
-        public void .cctor(){} // RVA: 0x7327620
-    }
-
-    public class ExecuteCommandEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73E6340
-        public void .ctor(){} // RVA: 0x73E6430
     }
 
 }

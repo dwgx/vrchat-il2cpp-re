@@ -14,6 +14,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class Certificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.Certificate EmptyChain;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure[] mCertificateList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9516860
         public void GetCertificateList(){} // RVA: 0x43E1C0
@@ -28,6 +31,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class CertificateRequest
     {
+        public byte[] mCertificateTypes; // 0x10
+        public System.Collections.IList mSupportedSignatureAlgorithms; // 0x18
+        public System.Collections.IList mCertificateAuthorities; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00
         public void get_CertificateTypes(){} // RVA: 0x2F8380
@@ -39,6 +46,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class CertificateStatus
     {
+        public byte mStatusType; // 0x10
+        public object mResponse; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9518560
         public void get_StatusType(){} // RVA: 0x3A75E0
@@ -51,6 +61,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class CertificateStatusRequest
     {
+        public byte mStatusType; // 0x10
+        public object mRequest; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9518C30
         public void get_StatusType(){} // RVA: 0x3A75E0
@@ -75,6 +88,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class CertificateUrl
     {
+        public byte mType; // 0x10
+        public System.Collections.IList mUrlAndHashList; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9519250
         public void get_Type(){} // RVA: 0x3A75E0
@@ -133,6 +149,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class CombinedHash
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsContext mContext; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x951B1E0 | overloaded x2
         public void Init(){} // RVA: 0x2DEE30

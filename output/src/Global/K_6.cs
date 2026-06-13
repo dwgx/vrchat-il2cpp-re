@@ -5,102 +5,127 @@
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.HashSet`1<System.Type>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<byte[]>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonHeap>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbolTable>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Runtime.CompilerServices.IStrongBox>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Type>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.SDKBase.VRCPlayerApi>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbol>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<object>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Collections.Generic.List`1<string>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.RuntimeType>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadata>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonSyncMetadata> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Action`2<VRC.Udon.Serialization.OdinSerializer.BinaryDataWriter,object>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,int> _dictionary; // 0x10
 }
 
 public class KeyCollectionDebugView
@@ -117,6 +142,8 @@ public class KeyComparer`1
 
 public class KeyEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<T,byte>> _kvpEnumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Current(){} // RVA: 0x283FA0
@@ -126,7 +153,7 @@ public class KeyEnumerator
 
 public class KeyEnumerator
 {
-    public object Current;
+    public Enumerator Current; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1FB6BD0 | overloaded x3
@@ -158,6 +185,9 @@ public class KeyGeneratedEventHandler
 
 public class KeyIterator
 {
+    public int _index;
+    public Photon.Client.NonAllocDictionary`2<U,T> _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -170,14 +200,20 @@ public class KeyIterator
 
 public class KeyIterator
 {
+    public int _index; // 0x10
+    public Photon.Client.NonAllocDictionary`2<byte,object> _dict; // 0x18
 }
 
 public class KeyIterator
 {
+    public int _index; // 0x10
+    public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> _dict; // 0x18
 }
 
 public class KeyList
 {
+    public System.Collections.Generic.SortedList`2<U,T> _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Count(){} // RVA: 0xD840
@@ -201,6 +237,8 @@ public class KeyList
 
 public class KeyList
 {
+    public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> _dict; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -224,6 +262,8 @@ public class KeyList
 
 public class KeyList
 {
+    public System.Collections.Generic.SortedList`2<float,ÎÏÌÏÍÏÏÏÌÌÍÍÎÌÏÍÌÌÎÏÍÎÏ> _dict; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -247,6 +287,8 @@ public class KeyList
 
 public class KeyList
 {
+    public System.Collections.SortedList sortedList; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -297,6 +339,8 @@ public class KeyValuePairComparer
 
 public class KeyValuePairProperty
 {
+    public V <Key>k__BackingField;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xCD60
     public void get_Key(){} // RVA: 0x283FA0
@@ -305,10 +349,14 @@ public class KeyValuePairProperty
 
 public class KeyValuePairProperty
 {
+    public V <Key>k__BackingField;
 }
 
 public class KeyableListEnumerator
 {
+    public VRC.Dynamics.VRCConstraintSourceKeyableList _keyableList; // 0x10
+    public int _index; // 0x2A8
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x768FCB0
     public void MoveNext(){} // RVA: 0x768FE10
@@ -328,6 +376,9 @@ public class KeyboardState
 
 public class Keypair
 {
+    public SigningKey <SigningKey>k__BackingField; // 0x10
+    public VerifyKey <VerifyKey>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_SigningKey(){} // RVA: 0x1AD4690
     public void get_VerifyKey(){} // RVA: 0x19689C0
@@ -336,6 +387,9 @@ public class Keypair
 
 public class Keypair
 {
+    public SigningKey <SigningKey>k__BackingField; // 0x10
+    public VerifyKey <VerifyKey>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_SigningKey(){} // RVA: 0x1AD4690
     public void get_VerifyKey(){} // RVA: 0x19689C0
@@ -350,6 +404,8 @@ public class Keys
 
 public class KeysCollection
 {
+    public System.Collections.Specialized.NameObjectCollectionBase _coll; // 0x10
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x6CBD920
     public void get_Count(){} // RVA: 0x7F0280

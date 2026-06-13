@@ -8,6 +8,9 @@ namespace VRC.Avatar
     /// <summary>Originally: ÎÎÏÏÌÌÏÌÎÍÌÍÌÏÎÍÌÌÏÍÏÌÌ</summary>
     public class AvatarActiveServiceComponent_F46C
     {
+        public string[] sectionNames; // 0x20
+        public string categoryName; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x1916630
         public void CopyTo(){} // RVA: 0x1916AE0
@@ -68,6 +71,14 @@ namespace VRC.Avatar
     /// <summary>Originally: ÌÎÌÍÌÎÌÎÎÌÎÏÏÎÌÎÏÎÏÌÌÏÍ</summary>
     public class AvatarPickupUseDownPickup_640ASibling_74B7
     {
+        public float ÌÏÍÌÍÎÌÏÎÎÍÌÏÎÌÏÍÍÎÏÍÏÍ;
+        public float ÏÏÎÏÍÏÌÎÌÏÎÍÏÌÎÍÍÍÎÌÌÏÍ;
+        public float ÍÌÍÌÏÏÏÎÍÍÎÌÌÏÎÎÏÎÎÌÏÌÎ;
+        public float ÏÍÏÎÌÎÌÌÎÎÌÌÌÎÌÌÏÎÏÎÎÍÎ;
+        public float ÎÌÎÏÍÏÎÏÏÌÌÎÎÍÍÏÎÌÍÎÌÎÎ;
+        public float ÍÌÏÍÎÍÏÏÌÍÍÌÎÎÍÏÌÏÏÌÎÌÍ;
+        public float ÍÍÍÌÍÍÎÎÎÎÌÍÌÍÍÏÏÏÏÎÎÌÏ;
+
         // ── Methods ──
         public void BinarySearch(){} // RVA: 0x8C00D0
         public void BinarySearch_434159857BF5(){} // RVA: 0x8C0210
@@ -162,6 +173,25 @@ namespace VRC.Avatar
     /// <summary>Originally: ÎÎÌÎÎÍÏÏÏÎÎÏÏÍÍÏÎÌÏÎÏÎÎ</summary>
     public class AvatarPickupUseDownPickup_640A_FC41
     {
+        public float ÌÌÌÍÎÏÍÏÎÍÎÏÍÍÏÍÌÍÏÍÌÍÎ;
+        public bool <ÏÏÎÏÎÍÏÎÌÎÎÏÌÍÎÎÍÍÏÌÏÌÍ>k__BackingField; // 0x40
+        public int <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x44
+        public int <ÍÏÎÌÌÎÏÎÍÍÍÏÏÌÌÏÏÎÍÌÏÏÎ>k__BackingField; // 0x48
+        public float <ÍÏÎÎÎÍÎÌÎÌÏÍÏÏÏÏÎÌÌÌÏÍÎ>k__BackingField; // 0x4C
+        public float <ÍÏÏÌÌÌÎÍÎÎÌÏÎÌÍÌÌÎÌÎÍÌÎ>k__BackingField; // 0x50
+        public float <ÏÍÎÏÎÍÌÍÍÎÎÍÌÏÎÍÏÍÎÏÍÏÏ>k__BackingField; // 0x54
+        public float <ÍÍÍÌÏÍÌÌÍÏÌÎÌÎÍÏÌÌÌÌÎÍÎ>k__BackingField; // 0x58
+        public float <ÌÍÍÍÎÍÌÌÍÍÍÎÌÎÌÍÍÌÍÌÍÎÌ>k__BackingField; // 0x5C
+        public float <ÏÌÍÏÏÍÍÍÌÏÏÎÎÏÌÍÌÎÏÍÍÏÏ>k__BackingField; // 0x60
+        public float <ÏÍÍÌÎÎÎÏÍÍÏÎÍÏÎÏÎÎÎÍÎÏÌ>k__BackingField; // 0x64
+        public float <ÏÎÏÏÏÍÏÌÌÎÏÌÎÎÎÏÏÌÌÌÌÍÎ>k__BackingField; // 0x68
+        public float <ÎÏÌÌÏÍÎÎÏÌÌÏÏÎÎÏÎÎÏÏÌÏÎ>k__BackingField; // 0x6C
+        public float <ÍÎÏÍÎÌÌÌÏÍÎÍÎÏÎÍÌÍÌÎÎÍÌ>k__BackingField; // 0x70
+        public float <ÍÎÍÎÎÏÌÌÎÎÌÌÏÍÌÎÏÎÏÌÌÏÎ>k__BackingField; // 0x74
+        public ÎÌÌÎÎÎÍÏÌÌÎÌÎÍÏÌÏÎÍÌÏÍÎ ÌÏÍÎÌÌÍÏÌÌÌÎÌÌÏÌÍÎÎÍÌÍÎ; // 0x78
+        public UnityEngine.Transform pointModel; // 0x80
+        public UnityEngine.Transform anchorModel; // 0x88
+
         // ── Methods ──
         public void set_captureMethod(){} // RVA: 0xFBC290
         public void OnPickup_EBF13AD0674E(){} // RVA: 0xFBC2D0
@@ -240,6 +270,10 @@ namespace VRC.Avatar
     /// <summary>Originally: ÌÎÎÌÍÎÍÏÏÎÏÏÍÏÍÌÌÏÌÌÎÏÍ</summary>
     public class AvatarPlayerAnimatorComponent_D5F6
     {
+        public ÏÌÎÎÎÏÎÍÌÌÌÍÍÎÍÎÍÌÌÎÎÍÍ _exploreAvatarsPanel; // 0x20
+        public ÍÎÏÏÍÌÍÎÏÍÏÏÍÍÍÎÍÍÌÎÌÌÍ _selectedAvatarPanel; // 0x28
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _avatarName; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9069B80
         public void Initialize(){} // RVA: 0x37B370
@@ -338,6 +372,13 @@ namespace VRC.Avatar
     /// <summary>Originally: ÍÏÌÌÌÌÎÍÎÍÌÍÌÎÍÏÌÏÌÍÏÏÌ</summary>
     public class IKTransformChildImpl_D8A8
     {
+        public string ÏÌÏÍÎÍÏÍÎÍÎÏÍÎÍÏÍÌÍÌÎÌÎ; // 0x10
+        public string ÌÍÌÏÌÌÍÍÏÏÍÍÏÍÌÌÍÌÏÌÌÍÍ; // 0x18
+        public string ÏÌÍÏÎÌÍÍÏÎÍÎÌÎÎÏÌÏÍÌÏÎÍ; // 0x20
+        public bool ÍÎÍÍÎÎÎÌÌÏÎÏÌÌÌÌÌÌÏÎÍÌÏ; // 0x28
+        public bool ÎÎÌÎÎÎÍÎÍÎÏÍÏÏÍÎÌÎÎÎÏÌÎ; // 0x29
+        public bool ÏÍÌÎÏÍÎÍÎÏÌÌÌÌÎÌÎÌÌÏÎÎÎ; // 0x2A
+
         // ── Methods ──
         public void .ctor_40E73D0B0A44(){} // RVA: 0x1BD3080
         public void Dispose_5EBB6D2908F7(){} // RVA: 0x1BD3360
@@ -427,6 +468,10 @@ namespace VRC.Avatar
     /// <summary>Originally: ÍÍÎÍÍÍÏÏÍÏÏÏÌÏÏÎÍÎÎÍÏÌÏ</summary>
     public class RefreshAvatar_183A
     {
+        public ÎÍÌÌÍÎÌÎÍÌÏÌÏÍÍÌÏÌÎÌÎÏÎ _avatarPanel; // 0x20
+        public ÎÌÏÍÏÍÏÎÌÌÍÎÏÍÏÏÌÍÏÏÏÍÎ _contentPanel; // 0x28
+        public ÍÌÍÌÎÍÎÎÏÌÏÏÏÍÍÌÎÎÌÏÍÌÏ _scrollRect; // 0x30
+
         // ── Methods ──
         public void OnEnable_F23F16001D6E(){} // RVA: 0x9010E30
         public void Awake(){} // RVA: 0x9010F10
@@ -479,6 +524,25 @@ namespace VRC.Avatar
     /// <summary>Originally: ÌÍÌÍÌÏÌÌÏÎÎÏÎÏÌÌÏÌÌÎÎÍÏ</summary>
     public class TransformIKMovementComponent_9CB4
     {
+        public string ÌÍÌÎÌÍÏÎÍÍÎÍÏÏÏÏÏÏÌÎÌÌÌ;
+        public ÌÍÌÍÌÏÌÌÏÎÎÏÎÏÌÌÏÌÌÎÎÍÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÌÍÌÌÎÏÏÌÍÏÎÎÍÌÏÌÎÍÏÌÌÎÍ <ÌÍÎÏÍÍÎÌÍÎÎÎÍÌÎÎÎÌÎÍÍÌÎ>k__BackingField; // 0x20
+        public ÍÌÎÏÏÍÎÍÍÍÌÌÌÍÌÎÍÏÌÏÌÍÌ <ÏÏÏÌÍÌÏÌÍÍÌÍÏÌÌÎÏÌÏÏÏÌÌ>k__BackingField; // 0x28
+        public bool ÏÌÎÎÍÏÍÏÏÌÏÏÍÎÌÎÌÌÍÎÍÌÍ; // 0x30
+        public VRC.Localization.LocalizableString ÍÍÌÌÏÍÎÏÍÍÎÎÍÎÍÌÏÎÎÎÌÎÎ; // 0x38
+        public VRC.Localization.LocalizableString ÏÌÎÍÌÎÌÎÎÌÍÌÎÎÍÏÍÌÍÌÎÌÎ; // 0x60
+        public int ÌÏÍÎÎÎÏÌÎÎÏÍÏÍÏÌÌÍÍÏÎÌÎ; // 0x88
+        public System.Action ÌÎÏÎÌÍÎÍÌÏÍÍÎÍÎÏÌÌÍÍÍÌÎ; // 0x90
+        public System.Action ÎÍÌÍÏÌÍÎÌÎÌÌÏÌÏÎÍÌÎÎÌÎÍ; // 0x98
+        public System.Action ÏÏÌÌÍÌÍÎÎÍÍÎÌÌÏÎÎÎÏÌÌÎÍ; // 0xA0
+        public System.Action ÎÏÌÎÌÏÏÌÍÍÎÎÏÏÌÍÍÍÎÎÎÏÏ; // 0x8
+        public ÏÍÏÍÍÏÌÎÌÎÍÎÌÌÌÍÏÍÏÍÏÎÎ ÏÍÍÎÍÍÎÎÎÎÌÎÏÏÌÎÌÏÍÏÍÏÏ; // 0x10
+        public UnityEngine.GameObject ÎÌÏÎÍÏÎÎÍÍÏÎÎÌÌÍÍÎÍÏÍÏÎ; // 0xA8
+        public float ÏÌÌÏÌÌÎÏÌÍÌÌÍÍÎÍÎÏÍÎÌÏÌ; // 0xB0
+        public UnityEngine.GameObject ÏÏÎÏÏÏÎÌÎÎÏÌÏÌÎÍÍÌÎÏÍÌÏ; // 0xB8
+        public 0x6570C180 ÎÏÍÎÎÎÎÏÏÌÏÌÌÎÎÏÍÍÏÎÍÍÍ; // 0xC0
+        public bool ÏÏÍÎÎÌÏÍÍÌÍÎÏÍÍÏÌÍÏÌÍÍÌ; // 0xC4
+
         // ── Methods ──
         public void Start(){} // RVA: 0x126ADE0
         public void RaiseCancellation(){} // RVA: 0x126AE80
@@ -628,36 +692,38 @@ namespace VRC.Avatar
     /// <summary>Originally: ÍÎÌÍÏÎÎÎÍÏÌÎÍÏÌÎÎÏÎÍÍÏÏ</summary>
     public class currentAvatarThumbnailImacurrentAvatarIm_EC02
     {
-        public object id;
-        public object username;
-        public object displayName;
-        public object bio;
-        public object bioLinks;
-        public object currentAvatar;
-        public object currentAvatarImageUrl;
-        public object currentAvatarThumbnailImageUrl;
-        public object currentAvatarTags;
-        public object tags;
-        public object developerType;
-        public object last_login;
-        public object last_activity;
-        public object last_platform;
-        public object last_mobile;
-        public object platform;
-        public object status;
-        public object statusDescription;
-        public object ageVerified;
-        public object ageVerificationStatus;
-        public object state;
-        public object friendKey;
-        public object allowAvatarCopying;
-        public object isFriend;
-        public object friendRequestStatus;
-        public object location;
-        public object profilePicOverride;
-        public object userIcon;
-        public object fallbackAvatar;
-        public object pronouns;
+        public ÍÎÌÍÏÎÎÎÍÏÌÎÍÏÌÎÎÏÎÍÍÏÏ id;
+        public ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ username; // 0x20
+        public ÏÏÌÎÍÍÍÍÏÌÍÌÍÌÏÌÏÌÍÎÌÏÍ displayName; // 0x28
+        public ÏÏÌÎÎÎÍÍÌÍÌÎÏÌÌÍÎÌÌÌÏÎÎ bio; // 0x30
+        public ÌÍÌÏÌÌÌÌÌÏÎÎÌÎÎÏÏÎÌÎÎÍÍ bioLinks; // 0x38
+        public ÌÏÌÌÎÍÌÍÏÍÌÏÏÏÎÌÎÎÍÍÌÍÎ currentAvatar; // 0x40
+        public ÏÌÍÎÍÏÎÏÍÌÎÎÍÍÌÌÌÌÍÍÎÌÏ currentAvatarImageUrl; // 0x48
+        public ÎÌÍÏÌÏÌÌÌÏÏÎÏÍÍÏÏÍÎÍÍÍÎ currentAvatarThumbnailImageUrl; // 0x50
+        public ÌÏÌÍÌÏÍÏÎÏÏÎÎÌÍÎÎÏÍÌÎÌÏ currentAvatarTags; // 0x58
+        public VRC.Core.UdonAnalytics.UdonAnalyticsCache tags; // 0x60
+        public ÍÏÎÎÍÌÏÌÌÎÏÍÏÌÎÌÎÍÌÎÌÌÏ developerType; // 0x68
+        public ÏÎÎÌÏÎÏÏÎÏÏÏÍÎÎÏÎÎÏÌÏÌÎ last_login; // 0x70
+        public ÌÎÎÎÎÏÏÍÎÏÎÏÌÏÏÎÎÍÎÎÏÍÌ last_activity; // 0x78
+        public ÏÏÍÏÏÌÍÏÏÎÌÍÍÎÎÌÍÎÌÌÎÌÌ last_platform; // 0x80
+        public ÏÌÏÎÍÏÍÍÏÎÍÎÎÎÌÏÍÍÏÍÌÍÎ last_mobile; // 0x88
+        public ÌÍÎÏÍÏÏÍÏÎÌÏÍÌÎÍÌÍÌÏÌÍÌ platform; // 0x90
+        public ÌÍÎÎÎÎÎÌÎÏÌÍÏÌÍÍÏÏÌÌÏÍÎ status; // 0x98
+        public ÍÏÎÎÎÌÎÌÌÏÌÏÌÏÌÏÏÍÌÎÌÍÎ statusDescription; // 0xA0
+        public ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ ageVerified; // 0xA8
+        public ÎÏÎÍÎÌÏÌÍÍÍÎÎÍÏÌÌÏÍÏÍÎÍ ageVerificationStatus; // 0xB0
+        public ÎÎÏÍÌÎÏÏÍÎÎÍÌÎÌÌÏÌÎÍÎÏÌ state; // 0xB8
+        public ÌÌÎÌÎÎÎÏÌÎÍÍÏÍÎÌÏÍÌÍÎÏÎ friendKey; // 0xC0
+        public ÏÌÏÎÍÌÏÎÎÏÎÌÍÌÌÍÎÍÏÌÍÍÎ allowAvatarCopying; // 0xC8
+        public ÌÏÏÌÏÍÍÍÍÎÏÍÌÌÏÏÏÍÎÎÍÎÍ isFriend; // 0xD0
+        public ÌÌÌÍÏÏÎÍÎÏÌÏÍÎÎÎÎÍÏÍÏÍÌ friendRequestStatus; // 0xD8
+        public ÎÎÌÎÎÎÏÌÎÌÎÌÎÍÎÌÎÌÏÌÍÏÌ location; // 0xE0
+        public ÍÎÏÌÎÎÏÎÍÍÎÎÌÌÏÎÏÌÍÏÎÍÌ profilePicOverride; // 0xE8
+        public ÍÌÏÌÌÏÎÎÌÎÎÍÎÏÏÌÌÍÎÎÏÌÏ userIcon; // 0xF0
+        public string fallbackAvatar; // 0x8
+        public string pronouns; // 0x10
+        public float ÎÏÍÍÍÍÏÍÌÌÌÌÎÏÏÎÍÎÏÌÏÏÏ; // 0x18
+        public string ÏÎÏÍÏÎÎÏÏÎÍÎÏÏÏÍÏÍÏÍÍÎÌ;
 
         // ── Methods ──
         public void get_Username(){} // RVA: 0x15C59E0

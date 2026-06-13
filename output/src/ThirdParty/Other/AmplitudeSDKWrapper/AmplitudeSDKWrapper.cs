@@ -7,6 +7,10 @@ namespace ThirdParty.Other.AmplitudeSDKWrapper
 {
     public class AmplitudeWrapper
     {
+        public string EVENT_LOG_URL;
+        public int EVENT_UPLOAD_THRESHOLD;
+        public int EVENT_UPLOAD_MAX_BATCH_SIZE;
+
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x983BD60
         public void set_Logger(){} // RVA: 0x983BDC0

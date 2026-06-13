@@ -108,6 +108,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pr
 
     public class X931Rng
     {
+        public long BLOCK64_RESEED_MAX;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x957E200
         public void Generate(){} // RVA: 0x957E4B0

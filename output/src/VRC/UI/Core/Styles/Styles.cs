@@ -22,6 +22,12 @@ namespace VRC.UI.Core.Styles
 
     public class StyleElement
     {
+        public System.Collections.Generic.Dictionary`2<int,0x65986A28> ÌÏÎÍÌÌÍÎÍÏÍÏÍÎÍÍÎÎÎÍÎÌÌ;
+        public System.Collections.Generic.Dictionary`2<int,long> ÌÎÍÍÍÌÏÏÌÎÍÏÌÎÌÎÏÍÍÏÏÎÍ; // 0x8
+        public bool ÍÍÏÍÌÍÌÍÌÎÎÍÏÍÌÍÍÌÎÎÌÏÌ; // 0x20
+        public bool ÏÌÎÍÍÏÏÌÏÏÏÎÏÌÎÎÏÏÎÎÍÌÌ; // 0x21
+        public string ÌÍÌÍÎÎÏÌÏÍÎÎÍÏÏÎÌÍÌÌÏÏÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x8AE4FD0
         public void .cctor_94AE3FB4F04B(){} // RVA: 0x4C7C50
@@ -103,7 +109,7 @@ namespace VRC.UI.Core.Styles
 
     public class StyleEngine
     {
-        public object importedWithErrors;
+        public VRC.UI.Core.Styles.StyleResource importedWithErrors; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x398C10

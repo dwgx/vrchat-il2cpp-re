@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 {
     public class AxisDeadzoneProcessor
     {
+        public float min; // 0x10
+        public float max; // 0x14
+
         // ── Methods ──
         public void get_minOrDefault(){} // RVA: 0x6EEE6F0
         public void get_maxOrDefault(){} // RVA: 0x6EEE770
@@ -117,6 +120,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class StickDeadzoneProcessor
     {
+        public float min; // 0x10
+        public float max; // 0x14
+
         // ── Methods ──
         public void get_minOrDefault(){} // RVA: 0x6EEFE60
         public void get_maxOrDefault(){} // RVA: 0x6EEFEE0

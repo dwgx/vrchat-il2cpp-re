@@ -5,6 +5,17 @@
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -44,6 +55,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -83,6 +105,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -122,6 +155,16 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
 }
 
 public class TextSelectionEvent
@@ -132,6 +175,8 @@ public class TextSelectionEvent
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0xCD60
     public void .ctor(){} // RVA: 0x24A50
@@ -148,6 +193,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E8B20
@@ -164,6 +211,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E9620
@@ -180,6 +229,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E8F00
@@ -196,6 +247,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E9290
@@ -212,6 +265,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E99B0
@@ -228,6 +283,8 @@ public class TextValueInput
 
 public class TextValueInput
 {
+    public string <formatString>k__BackingField; // 0x400
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x43E8A90
     public void .ctor(){} // RVA: 0x43E9D40
@@ -271,22 +328,7 @@ public class TextureRectMatrixf
 
 public class TextureSheetAnimationModule
 {
-    public object lifetime;
-    public object position;
-    public object velocity;
-    public object animatedVelocity;
-    public object totalVelocity;
-    public object remainingLifetime;
-    public object startLifetime;
-    public object startColor;
-    public object randomSeed;
-    public object axisOfRotation;
-    public object startSize;
-    public object startSize3D;
-    public object rotation;
-    public object rotation3D;
-    public object angularVelocity;
-    public object angularVelocity3D;
+    public UnityEngine.ParticleSystem lifetime; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -368,6 +410,9 @@ public class TextureSheetAnimationModule
 
 public class TfLite
 {
+    public Google.Protobuf.MessageParser`1<TfLite> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AE5F90
     public void get_Descriptor(){} // RVA: 0x5AE5FF0
@@ -471,6 +516,9 @@ public class TimeEventHandler
 
 public class TimeRange
 {
+    public float Start; // 0x10
+    public float End; // 0x14
+
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0x1D2BA30
     public void Contains(){} // RVA: 0x1A817E0
@@ -480,6 +528,11 @@ public class TimeRange
 
 public class TimeSpanRawInfo
 {
+    public 0x657F68D8 _lastSeenTTT; // 0x10
+    public int _tokenCount; // 0x14
+    public int _sepCount; // 0x18
+    public int _numCount; // 0x1C
+
     // ── Methods ──
     public void get_PositiveInvariant(){} // RVA: 0x5DC5C10
     public void get_NegativeInvariant(){} // RVA: 0x5DC5C90
@@ -536,8 +589,8 @@ public class TimeSpanToken
 
 public class TimeSpanTokenizer
 {
-    public object PositiveInvariant;
-    public object NegativeInvariant;
+    public System.ReadOnlySpan`1<char> PositiveInvariant; // 0x10
+    public int NegativeInvariant; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37C5C40 | overloaded x2
@@ -568,6 +621,9 @@ public class TimelineInstance
 
 public class TimeoutTracker
 {
+    public int m_total; // 0x10
+    public int m_start; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66806A0
     public void get_RemainingMilliseconds(){} // RVA: 0x6680720
@@ -576,6 +632,9 @@ public class TimeoutTracker
 
 public class Timer
 {
+    public int m_StartTimeMilliseconds; // 0x10
+    public int m_DurationMilliseconds; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6B30020
     public void get_StartTime(){} // RVA: 0x32A5C0
@@ -594,6 +653,10 @@ public class TimerComparer
 
 public class TimerNode
 {
+    public 0x65856B78 m_TimerState; // 0x18
+    public Callback m_Callback; // 0x20
+    public object m_Context; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6B30B30 | overloaded x2
     public void get_HasExpired(){} // RVA: 0x6B30B60
@@ -702,6 +765,8 @@ public class Title
 
 public class ToCoroutineEnumerator
 {
+    public bool completed; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D09D00
     public void RunTask(){} // RVA: 0x6D09DC0
@@ -712,6 +777,8 @@ public class ToCoroutineEnumerator
 
 public class ToCoroutineEnumerator`1
 {
+    public bool completed;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void RunTask(){} // RVA: 0x283FA0
@@ -760,6 +827,16 @@ public class ToggleEvent
 
 public class Token
 {
+    public object BoxedTrue;
+    public object BoxedFalse; // 0x8
+    public System.Collections.ICollection m_ArrayOrObject; // 0x10
+    public System.ReadOnlyMemory`1<char> m_StringMemory; // 0x10
+    public string m_StringInstance; // 0x10
+    public double m_Number; // 0x18
+    public bool m_Boolean; // 0x18
+    public 0x657C3710 m_Type; // 0x20
+    public 0x657C3768 m_Flags; // 0x21
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0x3A75E0
     public void get_IsNull(){} // RVA: 0xB84FF0
@@ -794,6 +871,16 @@ public class Token
 
 public class Token
 {
+    public object BoxedTrue;
+    public object BoxedFalse; // 0x8
+    public System.Collections.ICollection m_ArrayOrObject; // 0x10
+    public System.ReadOnlyMemory`1<char> m_StringMemory; // 0x10
+    public string m_StringInstance; // 0x10
+    public double m_Number; // 0x18
+    public bool m_Boolean; // 0x18
+    public 0x657C3710 m_Type; // 0x20
+    public 0x657C3768 m_Flags; // 0x21
+
     // ── Methods ──
     public void Check(){} // RVA: 0x6819790
     public void TryCheck(){} // RVA: 0x68198B0
@@ -807,6 +894,10 @@ public class TokenHashValue
 
 public class TokenInfo
 {
+    public int <tokens>k__BackingField; // 0x80
+    public int <amount>k__BackingField; // 0x84
+    public string <imageUrl>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_tokens(){} // RVA: 0xFC4570
     public void set_tokens(){} // RVA: 0xFC4560
@@ -858,7 +949,7 @@ public class TrackedCachingContexts
 
 public class TrackedOptionsInstances
 {
-    public object Converters;
+    public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Text.Json.JsonSerializerOptions,object> Converters;
 
     // ── Methods ──
     public void get_All(){} // RVA: 0x632CC30
@@ -867,7 +958,7 @@ public class TrackedOptionsInstances
 
 public class TrackedOptionsInstances
 {
-    public object IsReadOnly;
+    public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Text.Json.JsonSerializerOptions,object> IsReadOnly;
 
     // ── Methods ──
     public void get_All(){} // RVA: 0x68AEC30
@@ -932,13 +1023,7 @@ public class Trail
 
 public class TrailModule
 {
-    public object enabled;
-    public object Billboard;
-    public object VerticalBillboard;
-    public object NonUniformRandom;
-    public object None;
-    public object YoungestInFront;
-    public object value__;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -1040,6 +1125,8 @@ public class Trails
 
 public class TransformData
 {
+    public Unity.Mathematics.float3 Float3One;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76B66D0
     public void UpdateFromUnityTransform(){} // RVA: 0x76B6B90

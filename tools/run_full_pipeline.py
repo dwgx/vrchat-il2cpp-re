@@ -1608,6 +1608,23 @@ Stages:
             if results[2]:
                 record_stage_cache(cache, 2)
 
+    # ── Stage 2b: Merge runtime field types (offline, if available) ────
+    # field_types.json is produced by the runtime framework (vrc-runtime-re)
+    # walking FieldInfo->Il2CppType from the same dump. When present, fold the
+    # types/offsets into the dump BEFORE source generation so src/ and the
+    # coverage stats reflect them. Pure offline merge (no live Frida needed).
+    if 3 in stages and (OUTPUT_DIR / 'field_types.json').exists():
+        print('\n  [2b] Merging runtime field types (field_types.json found) ...')
+        try:
+            sys.path.insert(0, str(TOOLS_DIR))
+            import merge_field_types
+            ft_by_va, ft_by_name = merge_field_types.load_field_types()
+            _, ft_stats = merge_field_types.merge_into_dump(ft_by_va, ft_by_name)
+            print(f"    Typed fields: {ft_stats['fields_typed'] + ft_stats['fields_added']:,} "
+                  f"(by VA: {ft_stats['matched_by_va']:,} classes)")
+        except Exception as e:
+            print(f'    WARN: field-type merge skipped: {e}')
+
     # ── Stage 3 ───────────────────────────────────────────────────────
     if 3 in stages:
         if check_stage_cache(3, cache, force=args.force):

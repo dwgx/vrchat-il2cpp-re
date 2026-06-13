@@ -5,6 +5,9 @@
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.FontDefinition> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -34,6 +37,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.Font> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -63,6 +69,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.TextShadow> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -92,6 +101,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.Scale> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -121,6 +133,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.Rotate> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -150,6 +165,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.Translate> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -179,6 +197,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.TransformOrigin> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -208,6 +229,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.BackgroundPosition> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -237,6 +261,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.BackgroundRepeat> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -266,6 +293,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.BackgroundSize> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -295,6 +325,12 @@ public class Values`1
 
 public class Variable
 {
+    public string <variableId>k__BackingField; // 0x68
+    public System.Nullable`1<bool> <boolValue>k__BackingField; // 0x70
+    public System.Nullable`1<float> <floatValue>k__BackingField; // 0x74
+    public string <stringValue>k__BackingField; // 0x80
+    public System.Collections.Generic.List`1<float> <vectorValue>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_variableId(){} // RVA: 0x358D50
     public void set_variableId(){} // RVA: 0x358D60
@@ -483,23 +519,7 @@ public class VectorSizeHelper
 
 public class VelocityOverLifetimeModule
 {
-    public object enabled;
-    public object limitX;
-    public object limitXMultiplier;
-    public object limitY;
-    public object limitYMultiplier;
-    public object limitZ;
-    public object limitZMultiplier;
-    public object limit;
-    public object limitMultiplier;
-    public object dampen;
-    public object separateAxes;
-    public object space;
-    public object drag;
-    public object dragMultiplier;
-    public object multiplyDragByParticleSize;
-    public object multiplyDragByParticleVelocity;
-    public object get_enabled;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -603,6 +623,8 @@ public class VelocityOverLifetimeModule
 
 public class VendorData
 {
+    public string <purchaseToken>k__BackingField; // 0x68
+
     // ── Methods ──
     public void get_purchaseToken(){} // RVA: 0x358D50
     public void set_purchaseToken(){} // RVA: 0x358D60
@@ -611,6 +633,8 @@ public class VendorData
 
 public class VerifyKey
 {
+    public byte[] <Key>k__BackingField; // 0x10
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x1AD4690
     public void .ctor(){} // RVA: 0x76FEE50
@@ -618,7 +642,7 @@ public class VerifyKey
 
 public class VerifyKey
 {
-    public object Key;
+    public byte[] Key; // 0x10
 
     // ── Methods ──
     public void get_Key(){} // RVA: 0x1AD4690
@@ -627,6 +651,14 @@ public class VerifyKey
 
 public class Version
 {
+    public int <version>k__BackingField; // 0x68
+    public 0x657C82B0 <status>k__BackingField; // 0x6C
+    public System.DateTime <created_at>k__BackingField; // 0x70
+    public FileDescriptor <file>k__BackingField; // 0x78
+    public FileDescriptor <signature>k__BackingField; // 0x80
+    public FileDescriptor <delta>k__BackingField; // 0x88
+    public bool <deleted>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_version(){} // RVA: 0x1C91440
     public void set_version(){} // RVA: 0x1C91450
@@ -680,6 +712,10 @@ public class VideoPlayerInstance
 
 public class VideoStream
 {
+    public uint <deviceIndex>k__BackingField; // 0x10
+    public ulong _handle; // 0x18
+    public bool _hasCamera; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65232B0
     public void get_deviceIndex(){} // RVA: 0x32A5C0
@@ -692,6 +728,14 @@ public class VideoStream
 
 public class VideoStreamTexture
 {
+    public bool <undistorted>k__BackingField; // 0x10
+    public Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField; // 0x14
+    public UnityEngine.Texture2D _texture; // 0x28
+    public int prevFrameCount; // 0x30
+    public uint glTextureId; // 0x34
+    public VideoStream videostream; // 0x38
+    public Valve.VR.CameraVideoStreamFrameHeader_t header; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6522850
     public void get_undistorted(){} // RVA: 0x3A75E0
@@ -739,10 +783,9 @@ public class VirtualAttribute
 
 public class VirtualAxis
 {
-    public object name;
-    public object matchWithInputManager;
-    public object GetButton;
-    public object GetButtonDown;
+    public string name; // 0x10
+    public float matchWithInputManager; // 0x18
+    public bool GetButton; // 0x1C
 
     // ── Methods ──
     public void get_name(){} // RVA: 0x2F8380
@@ -790,6 +833,12 @@ public class VirtualBone
 
 public class VirtualButton
 {
+    public string <name>k__BackingField; // 0x10
+    public bool <matchWithInputManager>k__BackingField; // 0x18
+    public int m_LastPressedFrame; // 0x1C
+    public int m_ReleasedFrame; // 0x20
+    public bool m_Pressed; // 0x24
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x2F8380
     public void set_name(){} // RVA: 0x2DEE30

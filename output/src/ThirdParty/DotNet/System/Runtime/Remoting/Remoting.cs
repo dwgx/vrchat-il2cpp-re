@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 {
     public class ActivatedClientTypeEntry
     {
-        public object AssemblyName;
-        public object TypeName;
+        public string AssemblyName; // 0x20
+        public System.Type TypeName; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCBBA0
@@ -20,6 +20,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ActivatedServiceTypeEntry
     {
+        public System.Type obj_type; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCBE60
         public void get_ObjectType(){} // RVA: 0x30B0C0
@@ -28,6 +30,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ChannelData
     {
+        public string Ref; // 0x10
+        public string Type; // 0x18
+        public string Id; // 0x20
+
         // ── Methods ──
         public void get_ServerProviders(){} // RVA: 0x5CD5C30
         public void get_ClientProviders(){} // RVA: 0x5CD5CE0
@@ -38,6 +44,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ChannelInfo
     {
+        public object[] channelData; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCBAB0 | overloaded x2
         public void get_ChannelData(){} // RVA: 0x2F8380
@@ -56,6 +64,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ClientIdentity
     {
+        public System.WeakReference _proxyReference; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCC300
         public void get_ClientProxy(){} // RVA: 0x5CCC4B0
@@ -103,6 +113,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class EnvoyInfo : `
     {
+        public System.Runtime.Remoting.Messaging.IMessageSink envoySinks; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_EnvoySinks(){} // RVA: 0x2F8380
@@ -135,6 +147,14 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class Identity
     {
+        public string _objectUri; // 0x10
+        public System.Runtime.Remoting.Messaging.IMessageSink _channelSink; // 0x18
+        public System.Runtime.Remoting.Messaging.IMessageSink _envoySink; // 0x20
+        public System.Runtime.Remoting.Contexts.DynamicPropertyCollection _clientDynamicProperties; // 0x28
+        public System.Runtime.Remoting.Contexts.DynamicPropertyCollection _serverDynamicProperties; // 0x30
+        public System.Runtime.Remoting.ObjRef _objRef; // 0x38
+        public bool _disposed; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void CreateObjRef(){} // RVA: 0xCE10
@@ -161,6 +181,13 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ObjRef
     {
+        public System.Runtime.Remoting.IChannelInfo channel_info; // 0x10
+        public string uri; // 0x18
+        public System.Runtime.Remoting.IRemotingTypeInfo typeInfo; // 0x20
+        public System.Runtime.Remoting.IEnvoyInfo envoyInfo; // 0x28
+        public int flags; // 0x30
+        public System.Type _serverType; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCD2D0 | overloaded x4
         public void DeserializeInTheCurrentDomain(){} // RVA: 0x5CCCDB0
@@ -189,6 +216,9 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class RemotingConfiguration
     {
+        public string applicationID;
+        public string applicationName; // 0x8
+
         // ── Methods ──
         public void get_ApplicationName(){} // RVA: 0x5CCE650
         public void set_ApplicationName(){} // RVA: 0x5CCE6B0
@@ -261,6 +291,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class ServerIdentity
     {
+        public System.Type _objectType; // 0x48
+        public System.MarshalByRefObject _serverObject; // 0x50
+        public System.Runtime.Remoting.Messaging.IMessageSink _serverSink; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CDC6E0
         public void get_ObjectType(){} // RVA: 0x358730
@@ -295,7 +329,9 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class SoapServices
     {
-        public object TypeName;
+        public System.Collections.Hashtable TypeName;
+        public System.Collections.Hashtable _xmlElements; // 0x8
+        public System.Collections.Hashtable _soapActions; // 0x10
 
         // ── Methods ──
         public void get_XmlNsForClrTypeWithAssembly(){} // RVA: 0x5CDD880
@@ -317,7 +353,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class TypeEntry
     {
-        public object ObjectType;
+        public string ObjectType; // 0x10
+        public string type_name; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
@@ -329,6 +366,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class TypeInfo
     {
+        public string serverType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CDF2B0
         public void get_TypeName(){} // RVA: 0x2F8380
@@ -337,6 +376,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class WellKnownClientTypeEntry
     {
+        public System.Type obj_type; // 0x20
+        public string obj_url; // 0x28
+        public string app_url; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CDFC60
         public void get_ApplicationUrl(){} // RVA: 0x6374D0
@@ -347,6 +390,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting
 
     public class WellKnownServiceTypeEntry
     {
+        public System.Type obj_type; // 0x20
+        public string obj_uri; // 0x28
+        public 0x657EAF38 obj_mode; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CDFF40
         public void get_Mode(){} // RVA: 0x338CD0

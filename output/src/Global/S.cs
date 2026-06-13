@@ -40,6 +40,8 @@ public class SM2P256V1Holder
 
 public class SM2P256V1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -54,7 +56,7 @@ public class SMAALuts
 
 public class SPKey
 {
-    public object Key;
+    public System.Uri Key; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D298A0
@@ -111,6 +113,10 @@ public class SR
 
 public class STOutput
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mPrime; // 0x10
+    public byte[] mPrimeSeed; // 0x18
+    public int mPrimeGenCounter; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Prime(){} // RVA: 0x2F8380
@@ -220,6 +226,8 @@ public class ScheduledTimeEventComparer
 
 public class Scheduler
 {
+    public Scheduler instance;
+
     // ── Methods ──
     public void InitScheduler(){} // RVA: 0x5F408E0
     public void WakeupScheduler(){} // RVA: 0x5F40A90
@@ -238,6 +246,9 @@ public class Scheduler
 
 public class SchemaDatatypeMap : .ctor
 {
+    public string name; // 0x10
+    public System.Xml.Schema.DatatypeImplementation type; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0 | overloaded x2
     public void op_Explicit(){} // RVA: 0x100A1F0
@@ -248,14 +259,14 @@ public class SchemaDatatypeMap : .ctor
 
 public class SchemaScope
 {
-    public object Value;
-    public object Depth;
-    public object Path;
-    public object QuoteChar;
-    public object TokenType;
-    public object ValueType;
-    public object CurrentSchemas;
-    public object CurrentMemberSchemas;
+    public 0x658E7490 Value; // 0x10
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> Depth; // 0x18
+    public System.Collections.Generic.Dictionary`2<string,bool> Path; // 0x20
+    public string QuoteChar; // 0x28
+    public int TokenType; // 0x30
+    public bool ValueType; // 0x34
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> CurrentSchemas; // 0x38
+    public Newtonsoft.Json.Linq.JTokenWriter CurrentMemberSchemas; // 0x40
 
     // ── Methods ──
     public void get_CurrentPropertyName(){} // RVA: 0x30B130
@@ -283,6 +294,9 @@ public class SchemeJson
 
 public class Scope
 {
+    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider _provider; // 0x10
+    public bool _isDisposed; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BAAEA0
     public void get_Parent(){} // RVA: 0x30B0C0
@@ -293,6 +307,9 @@ public class Scope
 
 public class Scope
 {
+    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
+    public bool _isDisposed; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BAF9F0
     public void SetDisposable(){} // RVA: 0x5BAFA90
@@ -301,6 +318,9 @@ public class Scope
 
 public class Scope
 {
+    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
+    public bool _isDisposed; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BAAEA0
     public void get_Parent(){} // RVA: 0x30B0C0
@@ -311,6 +331,9 @@ public class Scope
 
 public class Scope
 {
+    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
+    public bool _isDisposed; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66E8CA0
     public void Dispose(){} // RVA: 0x66E8F30
@@ -398,6 +421,12 @@ public class SealedPrefabAllowSerializeAttribute
 
 public class SearchParams
 {
+    public string <searchQuery>k__BackingField; // 0x68
+    public string <searchTags>k__BackingField; // 0x70
+    public string <searchContent>k__BackingField; // 0x78
+    public string <searchInFields>k__BackingField; // 0x80
+    public string <sortBy>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_searchQuery(){} // RVA: 0x358D50
     public void set_searchQuery(){} // RVA: 0x358D60
@@ -422,6 +451,8 @@ public class SecP128R1Holder
 
 public class SecP128R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -438,6 +469,8 @@ public class SecP160K1Holder
 
 public class SecP160K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -454,6 +487,8 @@ public class SecP160R1Holder
 
 public class SecP160R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -470,6 +505,8 @@ public class SecP160R2Holder
 
 public class SecP160R2LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -486,6 +523,8 @@ public class SecP192K1Holder
 
 public class SecP192K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -502,6 +541,8 @@ public class SecP192R1Holder
 
 public class SecP192R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -518,6 +559,8 @@ public class SecP224K1Holder
 
 public class SecP224K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -534,6 +577,8 @@ public class SecP224R1Holder
 
 public class SecP224R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -550,6 +595,8 @@ public class SecP256K1Holder
 
 public class SecP256K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -566,6 +613,8 @@ public class SecP256R1Holder
 
 public class SecP256R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -582,6 +631,8 @@ public class SecP384R1Holder
 
 public class SecP384R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -598,6 +649,8 @@ public class SecP521R1Holder
 
 public class SecP521R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -614,6 +667,8 @@ public class SecT113R1Holder
 
 public class SecT113R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -630,6 +685,8 @@ public class SecT113R2Holder
 
 public class SecT113R2LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -646,6 +703,8 @@ public class SecT131R1Holder
 
 public class SecT131R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -662,6 +721,8 @@ public class SecT131R2Holder
 
 public class SecT131R2LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -678,6 +739,8 @@ public class SecT163K1Holder
 
 public class SecT163K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -694,6 +757,8 @@ public class SecT163R1Holder
 
 public class SecT163R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -710,6 +775,8 @@ public class SecT163R2Holder
 
 public class SecT163R2LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -726,6 +793,8 @@ public class SecT193R1Holder
 
 public class SecT193R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030

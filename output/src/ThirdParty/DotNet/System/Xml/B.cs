@@ -16,6 +16,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class BinHexDecoder
     {
+        public byte[] buffer; // 0x10
+
         // ── Methods ──
         public void get_IsFull(){} // RVA: 0x1A3DB40
         public void Decode(){} // RVA: 0x68E96F0 | overloaded x3
@@ -68,6 +70,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class BinXmlSqlDecimal
     {
+        public byte m_bLen; // 0x10
+
         // ── Methods ──
         public void get_IsPositive(){} // RVA: 0x68E9DD0
         public void .ctor(){} // RVA: 0x68E9DE0

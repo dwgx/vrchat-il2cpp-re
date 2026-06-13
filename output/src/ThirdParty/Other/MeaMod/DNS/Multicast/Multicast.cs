@@ -7,6 +7,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 {
     public class MessageEventArgs
     {
+        public MeaMod.DNS.Model.Message <Message>k__BackingField; // 0x10
+        public System.Net.IPEndPoint <RemoteEndPoint>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Message(){} // RVA: 0x2F8380
         public void set_Message(){} // RVA: 0x2DEE30
@@ -32,6 +35,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class MulticastService
     {
+        public int packetOverhead;
+        public int maxDatagramSize;
+        public System.TimeSpan maxLegacyUnicastTTL;
+        public System.Collections.Generic.List`1<System.Net.NetworkInformation.NetworkInterface> knownNics; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x5AAE1D0
         public void add_QueryReceived(){} // RVA: 0x5AAE370
@@ -70,6 +78,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class NetworkInterfaceEventArgs
     {
+        public System.Collections.Generic.IEnumerable`1<System.Net.NetworkInformation.NetworkInterface> <NetworkInterfaces>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_NetworkInterfaces(){} // RVA: 0x2F8380
         public void set_NetworkInterfaces(){} // RVA: 0x2DEE30
@@ -78,6 +88,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class RecentMessages
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,System.DateTime> Messages; // 0x10
+
         // ── Methods ──
         public void get_Interval(){} // RVA: 0x2E07C0
         public void set_Interval(){} // RVA: 0xC5BE60
@@ -89,6 +101,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceDiscovery
     {
+        public MeaMod.DNS.Model.DomainName LocalDomain;
+        public MeaMod.DNS.Model.DomainName SubName; // 0x8
+        public MeaMod.DNS.Model.DomainName ServiceName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AB30A0 | overloaded x2
         public void get_Mdns(){} // RVA: 0x30B0C0
@@ -118,7 +134,7 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceInstanceDiscoveryEventArgs
     {
-        public object ServiceInstanceName;
+        public MeaMod.DNS.Model.DomainName ServiceInstanceName; // 0x20
 
         // ── Methods ──
         public void get_ServiceInstanceName(){} // RVA: 0x30B0C0
@@ -128,7 +144,7 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceInstanceShutdownEventArgs
     {
-        public object Domain;
+        public MeaMod.DNS.Model.DomainName Domain; // 0x20
 
         // ── Methods ──
         public void get_ServiceInstanceName(){} // RVA: 0x30B0C0
@@ -138,6 +154,13 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceProfile
     {
+        public MeaMod.DNS.Model.DomainName <Domain>k__BackingField; // 0x10
+        public MeaMod.DNS.Model.DomainName <ServiceName>k__BackingField; // 0x18
+        public MeaMod.DNS.Model.DomainName <InstanceName>k__BackingField; // 0x20
+        public MeaMod.DNS.Model.DomainName <HostName>k__BackingField; // 0x28
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <Resources>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<string> <Subtypes>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x2DD310
         public void .ctor(){} // RVA: 0x5AB68D0 | overloaded x2

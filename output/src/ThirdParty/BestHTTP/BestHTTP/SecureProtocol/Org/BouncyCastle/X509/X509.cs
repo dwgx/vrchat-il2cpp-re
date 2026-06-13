@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 {
     public class AttributeCertificateHolder
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Holder holder; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9447B10 | overloaded x5
         public void get_DigestedObjectType(){} // RVA: 0x9447DD0
@@ -104,6 +106,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509Attribute
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AttributeX509 attr; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x944C9A0 | overloaded x3
         public void get_Oid(){} // RVA: 0x944CB80
@@ -122,6 +126,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509Certificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure c; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.BasicConstraints basicConstraints; // 0x18
+        public bool[] keyUsage; // 0x20
+        public object cacheLock; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKeyValue; // 0x30
+        public bool hashValueSet; // 0x38
+        public int hashValue; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x944CDC0 | overloaded x2
         public void get_CertificateStructure(){} // RVA: 0x2F8380
@@ -160,6 +172,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509CertificatePair
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate forward; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate reverse; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94500A0 | overloaded x2
         public void GetEncoded(){} // RVA: 0x9450210
@@ -184,6 +199,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509Crl
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.CertificateList c; // 0x10
+        public string sigAlgName; // 0x18
+        public byte[] sigAlgParams; // 0x20
+        public bool isIndirect; // 0x28
+        public bool hashValueSet; // 0x29
+        public int hashValue; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9451B00
         public void GetX509Extensions(){} // RVA: 0x9451DF0
@@ -211,6 +233,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509CrlEntry
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.CrlEntry c; // 0x10
+        public bool isIndirect; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94543A0 | overloaded x2
         public void loadCertificateIssuer(){} // RVA: 0x94544D0
@@ -280,7 +306,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509V1CertificateGenerator
     {
-        public object Version;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.V1TbsCertificateGenerator Version; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9458E60
@@ -299,6 +325,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509V2AttributeCertificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AttributeCertificate cert; // 0x10
+        public System.DateTime notBefore; // 0x18
+        public System.DateTime notAfter; // 0x20
+
         // ── Methods ──
         public void GetObject(){} // RVA: 0x9459D00
         public void .ctor(){} // RVA: 0x9459E60 | overloaded x3
@@ -325,7 +355,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509V2AttributeCertificateGenerator
     {
-        public object SignatureAlgNames;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509ExtensionsGenerator SignatureAlgNames; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x945B450
@@ -345,7 +375,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509V2CrlGenerator
     {
-        public object SignatureAlgNames;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509ExtensionsGenerator SignatureAlgNames; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x945C5A0
@@ -365,6 +395,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509
 
     public class X509V3CertificateGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509ExtensionsGenerator extGenerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x945DE60
         public void Reset(){} // RVA: 0x945DFA0

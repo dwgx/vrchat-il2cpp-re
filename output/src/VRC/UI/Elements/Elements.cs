@@ -7,14 +7,15 @@ namespace VRC.UI.Elements
 {
     public class MainMenuPlacementData
     {
-        public object screen;
-        public object index;
-        public object isActive;
-        public object screenPosition;
-        public object lastTouch;
-        public object currentTouch;
-        public object touchHistory;
-        public object historyLengthPerFinger;
+        public UnityEngine.Transform screen; // 0x10
+        public float index;
+        public float isActive;
+        public float screenPosition;
+        public float lastTouch; // 0x18
+        public UnityEngine.Quaternion currentTouch; // 0x1C
+        public System.Nullable`1<UnityEngine.Quaternion> touchHistory; // 0x2C
+        public UnityEngine.Vector2 historyLengthPerFinger; // 0x40
+        public UnityEngine.Vector3 <ÎÌÍÍÌÎÎÎÎÏÎÎÌÎÍÎÏÏÏÏÎÎÍ>k__BackingField; // 0x48
 
         // ── Methods ──
         public void set_ZDepthMovementSpeedMultiplier(){} // RVA: 0x345480
@@ -25,9 +26,9 @@ namespace VRC.UI.Elements
         public void get_LastLocalRotation(){} // RVA: 0x8BB0FA0
         public void get_ScaleContainer(){} // RVA: 0x2F8380
         public void get_MenuPlacementZDepthVR(){} // RVA: 0x2E1CF0
-        public void set_ScaleContainer(){} // RVA: 0x612F570
+        public void set_DesktopPosition(){} // RVA: 0x612F570
         public void get_LastLocalLookRotation(){} // RVA: 0x8BB0FB0
-        public void set_DesktopPosition(){} // RVA: 0x8BB0FD0
+        public void set_ScaleContainer(){} // RVA: 0x8BB0FD0
         public void set_LastLocalRotation(){} // RVA: 0x8BB1070
         public void get_DesktopPosition(){} // RVA: 0x345480
         public void set_VrPosition(){} // RVA: 0x8BB0FA0
@@ -44,6 +45,10 @@ namespace VRC.UI.Elements
 
     public class QuickMenuPlacer
     {
+        public UnityEngine.Transform _root; // 0x10
+        public UnityEngine.Transform _container; // 0x18
+        public UnityEngine.Vector3 _desktopMenuPos; // 0x20
+
         // ── Methods ──
         public void set_DesktopScale(){} // RVA: 0x134A9E0
         public void set_MotionSmoothingEnabled_B1A423FEE40C(){} // RVA: 0x8C11A90

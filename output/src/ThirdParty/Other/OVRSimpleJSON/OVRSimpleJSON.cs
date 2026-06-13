@@ -13,6 +13,9 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONArray
     {
+        public System.Collections.Generic.List`1<OVRSimpleJSON.JSONNode> m_List; // 0x10
+        public bool inline; // 0x18
+
         // ── Methods ──
         public void get_Inline(){} // RVA: 0x2F84E0
         public void set_Inline(){} // RVA: 0x2F84F0
@@ -31,6 +34,8 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONBool
     {
+        public bool m_Data; // 0x10
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xA850E0
         public void get_IsBoolean(){} // RVA: 0x3C2850
@@ -47,6 +52,9 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONLazyCreator
     {
+        public OVRSimpleJSON.JSONNode m_Node; // 0x10
+        public string m_Key; // 0x18
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xA67BB0
         public void GetEnumerator(){} // RVA: 0x534B5F0
@@ -76,6 +84,13 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONNode
     {
+        public bool forceASCII;
+        public bool longAsString; // 0x1
+        public System.Text.StringBuilder m_EscapeBuilder; // 0xFFFFFFFF
+        public 0x658C9FB0 VectorContainerType; // 0x4
+        public 0x658C9FB0 QuaternionContainerType; // 0x8
+        public 0x658C9FB0 RectContainerType; // 0xC
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xD840
         public void get_Item(){} // RVA: 0x519240 | overloaded x2
@@ -142,6 +157,9 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONNull
     {
+        public OVRSimpleJSON.JSONNull m_StaticInstance;
+        public bool reuseSameInstance; // 0x8
+
         // ── Methods ──
         public void CreateOrGet(){} // RVA: 0x61D6600
         public void .ctor(){} // RVA: 0x2DD310
@@ -160,6 +178,8 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONNumber
     {
+        public double m_Data; // 0x10
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xA7E130
         public void get_IsNumber(){} // RVA: 0x3C2850
@@ -179,6 +199,9 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONObject
     {
+        public System.Collections.Generic.Dictionary`2<string,OVRSimpleJSON.JSONNode> m_Dict; // 0x10
+        public bool inline; // 0x18
+
         // ── Methods ──
         public void get_Inline(){} // RVA: 0x2F84E0
         public void set_Inline(){} // RVA: 0x2F84F0
@@ -197,6 +220,8 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONString
     {
+        public string m_Data; // 0x10
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xA308B0
         public void get_IsString(){} // RVA: 0x3C2850

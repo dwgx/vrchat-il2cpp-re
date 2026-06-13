@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class AddingNewEventArgs
     {
+        public object <NewObject>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C4FE30 | overloaded x2
         public void get_NewObject(){} // RVA: 0x2F8380
@@ -24,6 +26,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class AmbientValueAttribute
     {
+        public object <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x11
         public void get_Value(){} // RVA: 0x2F8380
@@ -42,6 +46,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ArraySubsetEnumerator
     {
+        public System.Array array; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C64610
         public void MoveNext(){} // RVA: 0x6C64680
@@ -51,6 +57,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class AsyncCompletedEventArgs
     {
+        public System.Exception error; // 0x10
+        public bool cancelled; // 0x18
+        public object userState; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7F2C0 | overloaded x2
         public void get_Cancelled(){} // RVA: 0x2F84E0
@@ -70,7 +80,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class AsyncOperation
     {
-        public object SynchronizationContext;
+        public System.Threading.SynchronizationContext SynchronizationContext; // 0x10
+        public object _userSuppliedState; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C4BB80 | overloaded x2
@@ -99,6 +110,14 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class AttributeCollection
     {
+        public System.ComponentModel.AttributeCollection Empty;
+        public System.Collections.Hashtable s_defaultAttributes; // 0x8
+        public System.Attribute[] _attributes; // 0x10
+        public object s_internalSyncObject; // 0x10
+        public int FOUND_TYPES_LIMIT;
+        public AttributeEntry[] _foundAttributeTypes; // 0x18
+        public int _index; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void FromExisting(){} // RVA: 0x6C50F10
@@ -119,6 +138,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class AttributeProviderAttribute
     {
+        public string <TypeName>k__BackingField; // 0x10
+        public string <PropertyName>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C52770 | overloaded x3
         public void get_TypeName(){} // RVA: 0x2F8380

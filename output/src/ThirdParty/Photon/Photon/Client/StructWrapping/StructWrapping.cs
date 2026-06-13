@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Photon.Photon.Client.StructWrapping
-// Classes: 6
-// Methods: 27
+// Classes: 15
+// Methods: 71
 
 namespace ThirdParty.Photon.Photon.Client.StructWrapping
 {
@@ -28,6 +28,30 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
         public void Release(){} // RVA: 0x24B10
     }
 
+    public class StructWrapperPool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40AE9C0
+        public void Acquire(){} // RVA: 0x40AE940 | overloaded x2
+        public void Release(){} // RVA: 0x40AE980
+    }
+
+    public class StructWrapperPool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40AE540
+        public void Acquire(){} // RVA: 0x40AE940 | overloaded x2
+        public void Release(){} // RVA: 0x40AE980
+    }
+
+    public class StructWrapperPool`1
+    {
+    }
+
+    public class StructWrapperPool`1
+    {
+    }
+
     public class StructWrapperPools
     {
         // ── Methods ──
@@ -47,6 +71,8 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1
     {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<T> <ReturnPool>k__BackingField;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0xCD60
         public void set_ReturnPool(){} // RVA: 0x24B10
@@ -55,6 +81,67 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
         public void Dispose(){} // RVA: 0x24A50
         public void ToString(){} // RVA: 0xCD60 | overloaded x2
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class StructWrapper`1
+    {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<byte> <ReturnPool>k__BackingField; // 0x20
+
+        // ── Methods ──
+        public void get_ReturnPool(){} // RVA: 0x30B0C0
+        public void set_ReturnPool(){} // RVA: 0x30B0D0
+        public void .ctor(){} // RVA: 0x40B0380 | overloaded x2
+        public void Unwrap(){} // RVA: 0x40B03F0
+        public void Dispose(){} // RVA: 0x40B0450
+        public void ToString(){} // RVA: 0x40B0AE0 | overloaded x2
+        public void .cctor(){} // RVA: 0x40B0C30
+    }
+
+    public class StructWrapper`1
+    {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<bool> <ReturnPool>k__BackingField; // 0x20
+
+        // ── Methods ──
+        public void get_ReturnPool(){} // RVA: 0x30B0C0
+        public void set_ReturnPool(){} // RVA: 0x30B0D0
+        public void .ctor(){} // RVA: 0x40B0380 | overloaded x2
+        public void Unwrap(){} // RVA: 0x40B03F0
+        public void Dispose(){} // RVA: 0x40B0450
+        public void ToString(){} // RVA: 0x40B0560 | overloaded x2
+        public void .cctor(){} // RVA: 0x40B0740
+    }
+
+    public class StructWrapper`1
+    {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<int> <ReturnPool>k__BackingField; // 0x20
+    }
+
+    public class StructWrapper`1
+    {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<byte[]> <ReturnPool>k__BackingField; // 0x20
+
+        // ── Methods ──
+        public void get_ReturnPool(){} // RVA: 0x30B0C0
+        public void set_ReturnPool(){} // RVA: 0x30B0D0
+        public void .ctor(){} // RVA: 0x40B0380 | overloaded x2
+        public void Unwrap(){} // RVA: 0x40B2070
+        public void Dispose(){} // RVA: 0x40B0450
+        public void ToString(){} // RVA: 0x40B2610 | overloaded x2
+        public void .cctor(){} // RVA: 0x40B2760
+    }
+
+    public class StructWrapper`1
+    {
+        public Photon.Client.StructWrapping.StructWrapperPool`1<object> <ReturnPool>k__BackingField; // 0x20
+
+        // ── Methods ──
+        public void get_ReturnPool(){} // RVA: 0x30B0C0
+        public void set_ReturnPool(){} // RVA: 0x30B0D0
+        public void .ctor(){} // RVA: 0x40B0380 | overloaded x2
+        public void Unwrap(){} // RVA: 0x40B2070
+        public void Dispose(){} // RVA: 0x40B0450
+        public void ToString(){} // RVA: 0x40B2610 | overloaded x2
+        public void .cctor(){} // RVA: 0x40B2760
     }
 
 }

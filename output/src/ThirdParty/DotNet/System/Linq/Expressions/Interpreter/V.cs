@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class ValueTypeCopyInstruction
     {
+        public System.Linq.Expressions.Interpreter.ValueTypeCopyInstruction Instruction;
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

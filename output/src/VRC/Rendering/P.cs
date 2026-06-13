@@ -51,6 +51,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÌÏÎÍÏÌÌÏÏÌÎÌÌÌÎÎÍÎÌÏÍÏ</summary>
     public class ParticleParticleSystemRendererHandler_8DCE
     {
+        public UnityEngine.UI.Toggle toggle; // 0x20
+        public TMPro.TMP_Text label; // 0x28
+
         // ── Methods ──
         public void GetEnabled(){} // RVA: 0x8DBB8A0
         public void GetEnabled_85BBCCB28EA0(){} // RVA: 0x8DBB8C0

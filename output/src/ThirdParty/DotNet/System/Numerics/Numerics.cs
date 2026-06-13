@@ -1,12 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Numerics
-// Classes: 13
-// Methods: 194
+// Classes: 22
+// Methods: 283
 
 namespace ThirdParty.DotNet.System.Numerics
 {
     public class BigInteger
     {
+        public int _sign; // 0x10
+        public uint[] _bits; // 0x18
+        public System.Numerics.BigInteger s_bnMinInt;
+        public System.Numerics.BigInteger s_bnOneInt; // 0x10
+        public System.Numerics.BigInteger s_bnZeroInt; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68242A0 | overloaded x11
         public void get_Zero(){} // RVA: 0x68245D0
@@ -92,6 +98,27 @@ namespace ThirdParty.DotNet.System.Numerics
         public void Log2SoftwareFallback(){} // RVA: 0x9B07880
     }
 
+    public class BitOperations
+    {
+        // ── Methods ──
+        public void RotateLeft(){} // RVA: 0x67F9B10
+    }
+
+    public class ConstantHelper
+    {
+        // ── Methods ──
+        public void GetByteWithAllBitsSet(){} // RVA: 0x5DAB380
+        public void GetSByteWithAllBitsSet(){} // RVA: 0x5DAB380
+        public void GetUInt16WithAllBitsSet(){} // RVA: 0x5DAB390
+        public void GetInt16WithAllBitsSet(){} // RVA: 0x75BB20
+        public void GetUInt32WithAllBitsSet(){} // RVA: 0x75BB20
+        public void GetInt32WithAllBitsSet(){} // RVA: 0x75BB20
+        public void GetUInt64WithAllBitsSet(){} // RVA: 0x1CA3200
+        public void GetInt64WithAllBitsSet(){} // RVA: 0x1CA3200
+        public void GetSingleWithAllBitsSet(){} // RVA: 0x219EC90
+        public void GetDoubleWithAllBitsSet(){} // RVA: 0x219ECA0
+    }
+
     public class ConstantHelper
     {
         // ── Methods ──
@@ -139,6 +166,10 @@ namespace ThirdParty.DotNet.System.Numerics
     {
     }
 
+    public class Register
+    {
+    }
+
     public class Vector
     {
         public object IsHardwareAccelerated;
@@ -152,8 +183,22 @@ namespace ThirdParty.DotNet.System.Numerics
         public void AsVectorUInt64(){} // RVA: 0x283FA0
     }
 
+    public class Vector
+    {
+        public object importedWithErrors;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x283FA0
+        public void LessThan(){} // RVA: 0x283FA0
+        public void get_IsHardwareAccelerated(){} // RVA: 0x2DD320
+        public void BitwiseOr(){} // RVA: 0x283FA0
+        public void AsVectorUInt64(){} // RVA: 0x283FA0
+    }
+
     public class Vector2
     {
+        public float X; // 0x10
+
         // ── Methods ──
         public void get_Zero(){} // RVA: 0x6821A70
         public void GetHashCode(){} // RVA: 0x6821A80
@@ -168,6 +213,8 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector3
     {
+        public float X; // 0x10
+
         // ── Methods ──
         public void get_Zero(){} // RVA: 0x4827050
         public void GetHashCode(){} // RVA: 0x6821FC0
@@ -183,6 +230,104 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector`1
     {
+        public System.Numerics.Register register; // 0x10
+        public int s_count;
+        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
+    }
+
+    public class Vector`1
+    {
+        public System.Numerics.Register `/; // 0x10
+        public int s_count;
+        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
+    }
+
+    public class Vector`1
+    {
+        public System.Numerics.Register register; // 0x10
+        public int s_count;
+        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
+    }
+
+    public class Vector`1
+    {
+        public System.Numerics.Register register;
+        public int s_count;
+        public System.Numerics.Vector`1<T> s_zero;
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0xD870
+        public void get_Zero(){} // RVA: 0x283FA0
+        public void InitializeCount(){} // RVA: 0xD870
+        public void .ctor(){} // RVA: 0x24B10 | overloaded x4
+        public void get_Item(){} // RVA: 0x283FA0
+        public void Equals(){} // RVA: 0x283FA0 | overloaded x3
+        public void GetHashCode(){} // RVA: 0xD840
+        public void ToString(){} // RVA: 0x1E6A0 | overloaded x2
+        public void op_BitwiseOr(){} // RVA: 0x283FA0
+        public void op_Equality(){} // RVA: 0x283FA0
+        public void op_Inequality(){} // RVA: 0x283FA0
+        public void op_Explicit(){} // RVA: 0x283FA0 | overloaded x2
+        public void LessThan(){} // RVA: 0x283FA0
+        public void ScalarEquals(){} // RVA: 0x283FA0
+        public void ScalarLessThan(){} // RVA: 0x283FA0
+        public void GetOneValue(){} // RVA: 0x283FA0
+        public void GetAllBitsSetValue(){} // RVA: 0x283FA0
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class Vector`1
+    {
+        public System.Numerics.Register register;
+        public int s_count;
+        public System.Numerics.Vector`1<T> s_zero;
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0xD870
+        public void get_Zero(){} // RVA: 0x283FA0
+        public void InitializeCount(){} // RVA: 0xD870
+        public void .ctor(){} // RVA: 0x24B10 | overloaded x4
+        public void get_Item(){} // RVA: 0x283FA0
+        public void Equals(){} // RVA: 0x283FA0 | overloaded x3
+        public void GetHashCode(){} // RVA: 0xD840
+        public void ToString(){} // RVA: 0x1E6A0 | overloaded x2
+        public void op_BitwiseOr(){} // RVA: 0x283FA0
+        public void op_Equality(){} // RVA: 0x283FA0
+        public void op_Inequality(){} // RVA: 0x283FA0
+        public void op_Explicit(){} // RVA: 0x283FA0
+        public void LessThan(){} // RVA: 0x283FA0
+        public void ScalarEquals(){} // RVA: 0x283FA0
+        public void ScalarLessThan(){} // RVA: 0x283FA0
+        public void GetOneValue(){} // RVA: 0x283FA0
+        public void GetAllBitsSetValue(){} // RVA: 0x283FA0
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class Vector`1
+    {
+        public System.Numerics.Register register; // 0x10
+        public int s_count;
+        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x4ABCBA0
+        public void get_Zero(){} // RVA: 0x4ABCC40
+        public void InitializeCount(){} // RVA: 0x4AF4610
+        public void .ctor(){} // RVA: 0x1A53740 | overloaded x4
+        public void get_Item(){} // RVA: 0x4AF7670
+        public void Equals(){} // RVA: 0x4AF9E40 | overloaded x3
+        public void GetHashCode(){} // RVA: 0x4AF8970
+        public void ToString(){} // RVA: 0x4AF96E0 | overloaded x2
+        public void op_BitwiseOr(){} // RVA: 0x4AF9BC0
+        public void op_Equality(){} // RVA: 0x4AF9C40
+        public void op_Inequality(){} // RVA: 0x4AF9CE0
+        public void op_Explicit(){} // RVA: 0x4AF9DF0
+        public void LessThan(){} // RVA: 0x4AFA610
+        public void ScalarEquals(){} // RVA: 0x4AFAF60
+        public void ScalarLessThan(){} // RVA: 0x4AFBCD0
+        public void GetOneValue(){} // RVA: 0x4AFCA50
+        public void GetAllBitsSetValue(){} // RVA: 0x4AFD500
+        public void .cctor(){} // RVA: 0x4AFDFC0
     }
 
 }

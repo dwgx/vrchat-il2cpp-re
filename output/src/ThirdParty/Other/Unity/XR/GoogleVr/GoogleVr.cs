@@ -7,6 +7,18 @@ namespace ThirdParty.Other.Unity.XR.GoogleVr
 {
     public class DaydreamController
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <volumeUp>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl <recentered>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <volumeDown>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <recentering>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <app>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <home>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClicked>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouched>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAcceleration>k__BackingField; // 0x200
+
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0xDA5040
         public void set_touchpad(){} // RVA: 0xD8AAB0

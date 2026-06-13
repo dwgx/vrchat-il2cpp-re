@@ -14,6 +14,15 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class AsyncResult
     {
+        public object async_state; // 0x10
+        public System.Threading.WaitHandle handle; // 0x18
+        public object async_delegate; // 0x20
+        public UIntPtr data; // 0x28
+        public object object_data; // 0x30
+        public bool sync_completed; // 0x38
+        public bool completed; // 0x39
+        public bool endinvoke_called; // 0x3A
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_AsyncState(){} // RVA: 0x2F8380
@@ -62,7 +71,7 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class CADMethodCallMessage
     {
-        public object PropertiesCount;
+        public string PropertiesCount; // 0x38
 
         // ── Methods ──
         public void get_Uri(){} // RVA: 0x4976A0
@@ -83,6 +92,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class CADMethodReturnMessage
     {
+        public object _returnValue; // 0x38
+
         // ── Methods ──
         public void Create(){} // RVA: 0x5CF84C0
         public void .ctor(){} // RVA: 0x5CF8550
@@ -111,6 +122,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class CallContextRemotingData : ؄}e
     {
+        public string _logicalCallID; // 0x10
+
         // ── Methods ──
         public void get_LogicalCallID(){} // RVA: 0x2F8380
         public void set_LogicalCallID(){} // RVA: 0x2DEE30
@@ -121,6 +134,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class CallContextSecurityData
     {
+        public System.Security.Principal.IPrincipal _principal; // 0x10
+
         // ── Methods ──
         public void get_HasInfo(){} // RVA: 0xF01170
         public void Clone(){} // RVA: 0x5CF4400
@@ -145,6 +160,14 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class ConstructionCall
     {
+        public System.Runtime.Remoting.Activation.IActivator _activator; // 0x68
+        public object[] _activationAttributes; // 0x70
+        public System.Collections.IList _contextProperties; // 0x78
+        public System.Type _activationType; // 0x80
+        public string _activationTypeName; // 0x88
+        public bool _isContextOk; // 0x90
+        public System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CF9460 | overloaded x2
         public void InitDictionary(){} // RVA: 0x5CF9520
@@ -191,6 +214,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class ErrorMessage
     {
+        public string _uri; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CFB550
         public void get_ArgCount(){} // RVA: 0x519240
@@ -270,6 +295,9 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class IllogicalCallContext
     {
+        public System.Collections.Hashtable m_Datastore; // 0x10
+        public object m_HostContext; // 0x18
+
         // ── Methods ──
         public void get_Datastore(){} // RVA: 0x5CF2200
         public void get_HostContext(){} // RVA: 0x2E07C0
@@ -282,6 +310,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class LogicalCallContext
     {
+        public System.Type s_callContextType;
+        public string s_CorrelationMgrSlotName;
+        public System.Collections.Hashtable m_Datastore; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CF2670 | overloaded x2
         public void GetObjectData(){} // RVA: 0x5CF2E20
@@ -304,6 +336,11 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class MessageDictionary
     {
+        public System.Collections.IDictionary _internalProperties; // 0x10
+        public System.Runtime.Remoting.Messaging.IMethodMessage _message; // 0x18
+        public string[] _methodKeys; // 0x20
+        public bool _ownProperties; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x343E80
         public void HasUserData(){} // RVA: 0x5CFE9E0
@@ -334,6 +371,18 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class MethodCall
     {
+        public string _uri; // 0x10
+        public string _typeName; // 0x18
+        public string _methodName; // 0x20
+        public object[] _args; // 0x28
+        public System.Type[] _methodSignature; // 0x30
+        public System.Reflection.MethodBase _methodBase; // 0x38
+        public System.Runtime.Remoting.Messaging.LogicalCallContext _callContext; // 0x40
+        public System.Runtime.Remoting.Identity _targetIdentity; // 0x48
+        public System.Type[] _genericArguments; // 0x50
+        public System.Collections.IDictionary ExternalProperties; // 0x58
+        public System.Collections.IDictionary InternalProperties; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
         public void CopyFrom(){} // RVA: 0x5CFBA20
@@ -364,6 +413,21 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class MethodResponse
     {
+        public string _methodName; // 0x10
+        public string _uri; // 0x18
+        public string _typeName; // 0x20
+        public System.Reflection.MethodBase _methodBase; // 0x28
+        public object _returnValue; // 0x30
+        public System.Exception _exception; // 0x38
+        public System.Type[] _methodSignature; // 0x40
+        public System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo; // 0x48
+        public object[] _args; // 0x50
+        public object[] _outArgs; // 0x58
+        public System.Runtime.Remoting.Messaging.IMethodCallMessage _callMsg; // 0x60
+        public System.Runtime.Remoting.Messaging.LogicalCallContext _callContext; // 0x68
+        public System.Runtime.Remoting.Identity _targetIdentity; // 0x70
+        public System.Collections.IDictionary ExternalProperties; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CFB1B0 | overloaded x4
         public void InitMethodProperty(){} // RVA: 0x5D01510
@@ -397,6 +461,20 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class MonoMethodMessage
     {
+        public System.Reflection.RuntimeMethodInfo method; // 0x10
+        public object[] args; // 0x18
+        public string[] names; // 0x20
+        public byte[] arg_types; // 0x28
+        public System.Runtime.Remoting.Messaging.LogicalCallContext ctx; // 0x30
+        public object rval; // 0x38
+        public System.Exception exc; // 0x40
+        public System.Runtime.Remoting.Messaging.AsyncResult asyncResult; // 0x48
+        public 0x657ED140 call_type; // 0x50
+        public string uri; // 0x58
+        public System.Runtime.Remoting.Messaging.MCMDictionary properties; // 0x60
+        public System.Runtime.Remoting.Identity identity; // 0x68
+        public System.Type[] methodSignature; // 0x70
+
         // ── Methods ──
         public void InitMessage(){} // RVA: 0x5D02FC0
         public void .ctor(){} // RVA: 0x5D03810 | overloaded x3
@@ -455,6 +533,20 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class ReturnMessage
     {
+        public object[] _outArgs; // 0x10
+        public object[] _args; // 0x18
+        public System.Runtime.Remoting.Messaging.LogicalCallContext _callCtx; // 0x20
+        public object _returnValue; // 0x28
+        public string _uri; // 0x30
+        public System.Exception _exception; // 0x38
+        public System.Reflection.MethodBase _methodBase; // 0x40
+        public string _methodName; // 0x48
+        public System.Type[] _methodSignature; // 0x50
+        public string _typeName; // 0x58
+        public System.Runtime.Remoting.Messaging.MethodReturnDictionary _properties; // 0x60
+        public System.Runtime.Remoting.Identity _targetIdentity; // 0x68
+        public System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D04B10 | overloaded x2
         public void get_ArgCount(){} // RVA: 0x33B7190

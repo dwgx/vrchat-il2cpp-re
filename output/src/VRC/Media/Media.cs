@@ -8,7 +8,7 @@ namespace VRC.Media
     /// <summary>Originally: ÌÍÎÏÌÍÌÌÌÎÌÌÍÌÎÍÌÌÌÍÏÏÌ</summary>
     public class VideoCapture_CB34
     {
-        public object Capture;
+        public bool Capture;
 
         // ── Methods ──
         public void CreateSpanFromArrayRange(){} // RVA: 0x18A0A00

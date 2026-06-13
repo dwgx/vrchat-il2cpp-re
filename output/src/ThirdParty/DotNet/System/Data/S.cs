@@ -7,6 +7,15 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class SimpleType
     {
+        public string _baseType; // 0x10
+        public System.Data.SimpleType _baseSimpleType; // 0x18
+        public System.Xml.XmlQualifiedName _xmlBaseType; // 0x20
+        public string _name; // 0x28
+        public int _length; // 0x30
+        public int _minLength; // 0x34
+        public int _maxLength; // 0x38
+        public string _pattern; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6734690 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6734BE0

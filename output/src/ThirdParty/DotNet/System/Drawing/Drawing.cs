@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Drawing
 {
     public class Color
     {
+        public string name; // 0x10
+        public long value; // 0x18
+        public short knownColor; // 0x20
+        public short state; // 0x22
+
         // ── Methods ──
         public void get_R(){} // RVA: 0x67E1D20
         public void get_G(){} // RVA: 0x67E1D40
@@ -35,6 +40,9 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class Point
     {
+        public int x; // 0x10
+        public int y; // 0x14
+
         // ── Methods ──
         public void get_X(){} // RVA: 0x19689B0
         public void get_Y(){} // RVA: 0x19689E0
@@ -46,6 +54,9 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class PointF
     {
+        public float x; // 0x10
+        public float y; // 0x14
+
         // ── Methods ──
         public void get_X(){} // RVA: 0x1D26670
         public void get_Y(){} // RVA: 0x1F78370
@@ -57,6 +68,11 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class Rectangle
     {
+        public int x; // 0x10
+        public int y; // 0x14
+        public int width; // 0x18
+        public int height; // 0x1C
+
         // ── Methods ──
         public void get_X(){} // RVA: 0x19689B0
         public void get_Y(){} // RVA: 0x19689E0
@@ -70,6 +86,11 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class RectangleF
     {
+        public float x; // 0x10
+        public float y; // 0x14
+        public float width; // 0x18
+        public float height; // 0x1C
+
         // ── Methods ──
         public void get_X(){} // RVA: 0x1D26670
         public void get_Y(){} // RVA: 0x1F78370
@@ -83,6 +104,9 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class Size
     {
+        public int width; // 0x10
+        public int height; // 0x14
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x67E24D0
         public void get_Width(){} // RVA: 0x19689B0
@@ -94,6 +118,9 @@ namespace ThirdParty.DotNet.System.Drawing
 
     public class SizeF
     {
+        public float width; // 0x10
+        public float height; // 0x14
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x67E2820
         public void get_Width(){} // RVA: 0x1D26670

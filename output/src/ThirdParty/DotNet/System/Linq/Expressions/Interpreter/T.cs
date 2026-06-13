@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class ThrowInstruction
     {
+        public System.Linq.Expressions.Interpreter.ThrowInstruction Throw;
+        public System.Linq.Expressions.Interpreter.ThrowInstruction VoidThrow; // 0x8
+        public System.Linq.Expressions.Interpreter.ThrowInstruction Rethrow; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BFA520
         public void get_InstructionName(){} // RVA: 0x6613010
@@ -19,6 +23,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class TryCatchFinallyHandler
     {
+        public int TryStartIndex; // 0x10
+        public int TryEndIndex; // 0x14
+        public int FinallyStartIndex; // 0x18
+
         // ── Methods ──
         public void get_IsFinallyBlockExist(){} // RVA: 0x662C780
         public void get_Handlers(){} // RVA: 0x30B130
@@ -36,6 +44,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class TypeAsInstruction
     {
+        public System.Type _type; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
@@ -47,6 +57,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class TypeEqualsInstruction
     {
+        public System.Linq.Expressions.Interpreter.TypeEqualsInstruction Instance;
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -58,6 +70,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class TypeIsInstruction
     {
+        public System.Type _type; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0

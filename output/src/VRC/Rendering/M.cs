@@ -122,6 +122,13 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÏÏÌÌÏÎÍÎÍÏÌÍÎÎÍÍÌÎÏÍÍÍ</summary>
     public class MaterialPhysicMaterialHandler_8839
     {
+        public float ÌÍÍÏÏÍÍÏÎÍÍÌÏÌÏÏÌÎÏÌÌÍÍ;
+        public float ÌÎÍÍÎÎÌÎÍÍÍÍÌÌÎÍÏÏÍÏÎÍÏ;
+        public UnityEngine.UI.Toggle toggle; // 0x20
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ checkboxText; // 0x28
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ checkboxSubtext; // 0x30
+        public ÏÏÌÍÏÌÏÎÏÎÏÌÌÌÌÏÌÏÌÏÏÌÎ toolTip; // 0x38
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetFrictionCombine(){} // RVA: 0x8E2FCD0
@@ -205,6 +212,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÏÎÍÍÍÏÍÌÏÎÏÌÏÌÍÌÏÌÏÎÌÍ</summary>
     public class MaterialRendererHandler_6542
     {
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x658842D8>[] ÎÍÌÏÌÏÌÌÏÍÎÌÍÎÌÏÍÍÎÏÌÍÍ;
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x658842D8>[] ÌÌÏÏÍÏÌÍÍÍÌÍÍÎÎÍÎÌÏÎÏÎÍ; // 0x8
+
         // ── Methods ──
         public void GetConverter(){} // RVA: 0xCE50
         public void Internal_GetPropertyBlock(){} // RVA: 0x8CB6E10
@@ -273,6 +283,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÍÍÍÍÏÎÍÍÌÎÍÌÎÎÍÎÎÍÎÍÏÎ</summary>
     public class MaterialRendererHandler_B45A
     {
+        public ÏÎÏÏÏÍÍÏÎÏÏÏÍÍÌÌÌÎÎÍÍÍÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F31180
         public void Process(){} // RVA: 0x1F31350
@@ -318,6 +330,16 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÎÏÎÏÌÎÏÎÌÏÌÎÍÏÏÏÍÍÍÏÍÌ</summary>
     public class MaterialTransformHandler_31A9
     {
+        public ÎÎÏÎÏÌÎÏÎÌÏÌÎÍÏÏÏÍÍÍÏÍÌ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public UnityEngine.Vector2 ÍÌÎÎÏÍÎÌÎÏÍÎÎÏÌÍÌÎÍÎÏÎÏ; // 0x38
+        public float ÌÏÍÎÎÏÏÏÏÎÏÎÏÎÌÏÌÍÏÏÎÎÌ;
+        public float ÎÎÏÎÌÍÎÎÍÎÎÏÌÏÏÌÍÏÌÍÏÌÏ;
+        public float ÍÎÍÏÎÏÎÍÌÍÏÏÌÏÏÏÍÌÏÌÌÎÍ;
+        public float ÍÏÌÍÌÎÌÎÍÎÌÏÎÏÏÎÍÎÍÏÏÏÌ;
+        public bool ÍÌÏÌÍÎÌÍÎÏÌÍÌÎÌÍÍÎÍÏÍÎÏ; // 0x40
+        public bool ÏÍÌÌÍÍÏÍÏÎÌÌÍÍÍÌÏÎÎÎÎÏÏ; // 0x41
+        public bool ÍÎÌÎÌÍÌÎÎÍÍÏÌÏÎÏÎÍÎÌÏÎÎ; // 0x42
+
         // ── Methods ──
         public void Constructor(){} // RVA: 0x65F560
         public void GetRect(){} // RVA: 0x1514540
@@ -343,6 +365,26 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÌÏÍÏÎÏÎÍÎÏÍÎÏÏÏÏÏÍÎÏÍÍ</summary>
     public class MaterialTransformHandler_95D0
     {
+        public UIntPtr <ÌÍÏÏÏÌÎÍÌÏÌÍÎÌÍÎÍÌÌÏÍÍÏ>k__BackingField; // 0x10
+        public System.Nullable`1<ÍÍÌÍÍÌÍÎÌÍÏÎÏÌÏÎÎÎÌÎÌÎÌ> <ÎÏÏÎÏÎÎÍÎÍÌÌÏÌÎÎÎÎÍÏÍÎÎ>k__BackingField; // 0x18
+        public System.Nullable`1<ÏÍÍÎÍÌÌÌÏÌÌÌÌÎÌÌÎÍÏÏÌÍÎ> <ÍÌÎÍÏÍÍÏÍÍÏÌÌÎÏÌÏÏÌÎÍÎÏ>k__BackingField; // 0x28
+        public UIntPtr <ÎÌÌÌÎÏÌÌÎÏÏÍÎÌÏÍÌÍÌÎÌÍÌ>k__BackingField; // 0x40
+        public System.Nullable`1<ÍÍÌÍÍÌÍÎÌÍÏÎÏÌÏÎÎÎÌÎÌÎÌ> <ÍÏÏÎÍÌÏÎÌÌÍÍÎÍÍÌÍÌÍÌÏÍÌ>k__BackingField; // 0x48
+        public System.Nullable`1<ÏÍÍÎÍÌÌÌÏÌÌÌÌÎÌÌÎÍÏÏÌÍÎ> <ÏÎÎÍÍÏÏÎÍÎÏÏÎÍÎÌÍÍÎÍÍÌÍ>k__BackingField; // 0x58
+        public bool <ÏÎÌÍÎÎÏÎÏÍÌÏÏÏÏÎÏÌÏÍÏÎÏ>k__BackingField; // 0x6C
+        public bool <ÎÌÏÌÎÎÌÏÏÏÎÌÌÍÍÌÎÎÎÎÍÌÍ>k__BackingField; // 0x6D
+        public bool <ÌÍÍÌÏÏÌÌÏÌÏÌÏÎÍÏÏÍÎÏÏÍÏ>k__BackingField; // 0x6E
+        public uint <ÍÎÎÍÌÍÌÏÌÎÍÏÌÎÎÌÏÎÍÎÎÏÎ>k__BackingField; // 0x70
+        public float <ÍÏÍÍÍÍÎÍÍÌÎÌÏÎÏÌÏÌÎÏÏÎÏ>k__BackingField; // 0x74
+        public float <ÏÎÏÍÌÌÏÍÎÌÏÍÍÍÌÌÏÎÏÌÏÏÏ>k__BackingField; // 0x78
+        public 0x65828EF0 <ÎÎÎÌÌÎÏÎÌÏÏÏÎÌÌÏÏÏÏÍÏÎÌ>k__BackingField; // 0x7C
+        public 0x65828F48 <ÍÍÏÎÍÏÏÍÏÍÌÌÎÏÌÌÌÏÍÏÌÍÏ>k__BackingField; // 0x80
+        public 0x65828E98 <ÌÎÌÍÍÏÏÏÌÎÍÎÎÍÏÍÍÎÎÎÎÌÏ>k__BackingField; // 0x84
+        public System.Nullable`1<ÍÏÎÍÌÎÍÎÌÌÎÎÌÎÏÍÌÎÏÌÍÍÍ> <ÍÏÎÍÍÍÍÌÍÍÍÎÍÏÏÍÏÎÎÏÎÎÎ>k__BackingField; // 0x88
+        public uint <ÎÎÍÏÎÌÍÍÌÎÌÌÍÎÍÌÎÎÏÎÎÌÏ>k__BackingField; // 0xC8
+        public System.Nullable`1<ÍÍÌÍÍÌÍÎÌÍÏÎÏÌÏÎÎÎÌÎÌÎÌ> <ÏÍÎÌÌÏÌÍÌÎÎÎÏÌÍÍÍÌÏÎÎÌÍ>k__BackingField; // 0xCC
+        public System.Nullable`1<ÍÍÌÍÍÌÍÎÌÍÏÎÏÌÏÎÎÎÌÎÌÎÌ> <ÎÏÌÏÎÏÌÎÎÌÏÏÌÎÍÍÌÏÎÌÎÍÏ>k__BackingField; // 0xDC
+
         // ── Methods ──
         public void OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers(){} // RVA: 0x59CEC0
         public void set_penStatus(){} // RVA: 0x1D8D640
@@ -429,6 +471,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ</summary>
     public class MeshHandler_37B4
     {
+        public int ÍÏÍÌÍÌÍÍÏÌÌÏÌÎÏÍÎÎÌÍÏÏÍ;
+
         // ── Methods ──
         public void get_deviceAngularVelocity(){} // RVA: 0xDB4D60
         public void get_lastActiveBinding(){} // RVA: 0x64D2A80
@@ -455,6 +499,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÏÎÌÍÏÏÍÍÏÏÏÏÌÍÎÌÎÎÌÌÍÏ</summary>
     public class MeshHandler_7491
     {
+        public VRC.Localization.LocalizableString ÍÏÍÏÍÍÌÍÌÌÏÏÏÌÌÎÏÎÌÎÎÍÏ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8C76530
         public void Initialize(){} // RVA: 0x8C771C0
@@ -483,6 +529,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÍÍÏÎÏÍÌÍÍÏÍÏÏÏÎÌÍÌÏÌÌÎ</summary>
     public class mainTexturePopulateMesh_0B6F
     {
+        public UnityEngine.Sprite ÏÏÎÍÎÌÍÏÎÏÍÏÎÏÎÏÍÏÎÏÌÌÌ; // 0xE0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D1560
         public void OnPopulateMesh(){} // RVA: 0x8E6E490
@@ -498,6 +546,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ</summary>
     public class mainTexturePopulateMesh_1388_064A
     {
+        public float ÎÎÏÏÌÌÌÌÎÍÎÌÎÍÎÍÌÎÍÎÏÌÌ; // 0xE0
+        public float ÍÌÏÎÏÎÌÏÏÏÍÌÌÏÏÎÍÏÍÍÎÏÏ; // 0xE4
+
         // ── Methods ──
         public void OnPopulateMesh(){} // RVA: 0x92D0AE0
         public void .ctor(){} // RVA: 0x92D13C0
@@ -516,6 +567,10 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÍÎÌÌÏÌÍÎÏÎÏÎÍÍÏÍÎÏÏÌÌÏ</summary>
     public class mainTexturePopulateMesh_800B
     {
+        public UnityEngine.Sprite _sprite; // 0xE0
+        public 0x65702678 ÏÌÏÎÌÏÍÎÏÏÏÏÍÏÎÍÏÎÍÎÌÌÍ; // 0xE8
+        public bool ShaderFeatureStripes; // 0xEC
+
         // ── Methods ──
         public void get_ContractResolver(){} // RVA: 0x35E900
         public void BinarySearch(){} // RVA: 0x942D40

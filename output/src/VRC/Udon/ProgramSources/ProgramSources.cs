@@ -7,6 +7,11 @@ namespace VRC.Udon.ProgramSources
 {
     public class SerializedUdonProgramAsset
     {
+        public System.Lazy`1<string> _debugCategory;
+        public 0x6593FD28 DEFAULT_SERIALIZATION_DATA_FORMAT;
+        public int MAXIMUM_CACHED_PROGRAM_SIZE;
+        public byte[] serializedProgramCompressedBytes; // 0x18
+
         // ── Methods ──
         public void get_DebugCategoryName(){} // RVA: 0x77166A0
         public void GetNetworkCallingMetadata(){} // RVA: 0x7716720 | overloaded x2

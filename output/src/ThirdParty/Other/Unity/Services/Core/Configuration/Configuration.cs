@@ -21,6 +21,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationEntry
     {
+        public string m_Value; // 0x10
+        public bool m_IsReadOnly; // 0x18
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void get_IsReadOnly(){} // RVA: 0x2F84E0
@@ -31,6 +34,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationUtils
     {
+        public Unity.Services.Core.Configuration.IConfigurationLoader <ConfigurationLoader>k__BackingField;
+
         // ── Methods ──
         public void get_ConfigurationLoader(){} // RVA: 0x6F56FC0
         public void .cctor(){} // RVA: 0x6F57020
@@ -57,7 +62,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class SerializableProjectConfiguration
     {
-        public object MetricType;
+        public string[] MetricType; // 0x10
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x6F57270

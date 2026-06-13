@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 {
     public class ColumnMover
     {
+        public float m_StartPos; // 0x38
+        public float m_LastPos; // 0x3C
+        public bool m_Active; // 0x40
+
         // ── Methods ──
         public void get_columnLayout(){} // RVA: 0x462D00
         public void set_columnLayout(){} // RVA: 0x464450
@@ -45,6 +49,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class ColumnResizer
     {
+        public UnityEngine.Vector2 m_Start; // 0x38
+        public bool m_Active; // 0x40
+
         // ── Methods ──
         public void get_columnLayout(){} // RVA: 0x37B370
         public void set_columnLayout(){} // RVA: 0x37B380
@@ -65,6 +72,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnCollectionHeader
     {
+        public string ussClassName;
+        public string columnContainerUssClassName; // 0x8
+        public string handleContainerUssClassName; // 0x10
+        public string reorderableUssClassName; // 0x18
+        public bool m_SortingEnabled; // 0x3C8
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.SortColumnDescription> m_SortedColumns; // 0x3D0
+        public UnityEngine.UIElements.SortColumnDescriptions m_SortDescriptions; // 0x3D8
+        public System.Collections.Generic.List`1<SortedColumnState> m_OldSortedColumnStates; // 0x3E0
+        public bool m_SortingUpdatesTemporarilyDisabled; // 0x3E8
+
         // ── Methods ──
         public void get_isApplyingViewState(){} // RVA: 0x73967C0
         public void get_columnDataMap(){} // RVA: 0xD8BD40
@@ -116,6 +133,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumn
     {
+        public string ussClassName;
+        public string sortableUssClassName; // 0x8
+        public string sortedAscendingUssClassName; // 0x10
+        public string sortedDescendingUssClassName; // 0x18
+        public string movingUssClassName; // 0x20
+        public string contentContainerUssClassName; // 0x28
+
         // ── Methods ──
         public void get_clickable(){} // RVA: 0xD82EC0
         public void set_clickable(){} // RVA: 0xD8AC30
@@ -146,6 +170,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnIcon
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_isImageInline(){} // RVA: 0x55CB6E0
         public void set_isImageInline(){} // RVA: 0x739DF60
@@ -171,6 +197,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnResizeHandle
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_dragArea(){} // RVA: 0xD96B00
         public void .ctor(){} // RVA: 0x73A17B0
@@ -186,6 +214,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnSortIndicator
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void set_sortOrderLabel(){} // RVA: 0x739DA60
         public void .ctor(){} // RVA: 0x739DA90

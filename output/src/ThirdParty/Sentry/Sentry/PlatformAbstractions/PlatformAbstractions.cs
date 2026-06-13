@@ -11,7 +11,7 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 
     public class FrameworkInfo
     {
-        public object ShortName;
+        public System.Collections.Generic.IReadOnlyDictionary`2<int,string> ShortName;
 
         // ── Methods ──
         public void get_NetFxReleaseVersionMap(){} // RVA: 0x63F62A0
@@ -22,6 +22,12 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 
     public class FrameworkInstallation
     {
+        public string <ShortName>k__BackingField; // 0x10
+        public System.Version <Version>k__BackingField; // 0x18
+        public System.Nullable`1<int> <ServicePack>k__BackingField; // 0x20
+        public System.Nullable`1<0x658B7EF0> <Profile>k__BackingField; // 0x28
+        public System.Nullable`1<int> <Release>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_ShortName(){} // RVA: 0x2F8380
         public void set_ShortName(){} // RVA: 0x2DEE30
@@ -59,6 +65,12 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 
     public class SentryRuntime
     {
+        public System.Lazy`1<Sentry.PlatformAbstractions.SentryRuntime> _currentRuntime;
+        public string <Name>k__BackingField; // 0x10
+        public string <Version>k__BackingField; // 0x18
+        public string <Raw>k__BackingField; // 0x20
+        public string <Identifier>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x63F7AF0
         public void get_Name(){} // RVA: 0x2F8380

@@ -22,7 +22,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÍÌÍÎÍÏÍÌÌÏÌÌÏÎÎÎÏÎÎÍ</summary>
     public class TimeHandler_14B4
     {
-        public object _14B4;
+        public UnityEngine.GameObject _14B4; // 0x10
 
         // ── Methods ──
         public void GetUnscaledTime(){} // RVA: 0x1E11860
@@ -93,6 +93,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÏÍÏÎÌÏÌÍÏÌÎÌÏÌÌÍÍÌÌÍ</summary>
     public class TimeHandler_27E6
     {
+        public ÍÏÏÎÏÌÌÎÎÎÍÎÏÎÌÌÍÌÌÏÎÍÍ <ÎÎÌÎÌÍÏÎÌÌÍÍÌÏÍÌÎÌÍÎÎÏÌ>k__BackingField; // 0x10
+        public ÌÎÏÎÎÏÎÍÍÍÌÌÌÍÍÎÎÎÌÎÌÎÏ <ÌÍÍÏÏÏÎÍÎÎÏÏÏÌÌÍÎÎÏÏÌÏÍ>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<ÎÏÍÎÎÎÏÌÍÌÎÏÎÎÌÌÏÍÏÎÌÍÍ> <ÌÏÌÌÌÎÌÍÏÍÎÍÏÌÎÎÍÎÏÌÏÌÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void GetUnscaledTime(){} // RVA: 0x1B15960
         public void MoveNext(){} // RVA: 0x2F8380
@@ -165,6 +169,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÌÌÏÎÍÎÏÌÌÍÎÎÏÏÍÎÌÎÏ</summary>
     public class TimeHandler_5955
     {
+        public ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ <ÏÏÍÎÌÍÌÏÌÏÏÌÍÎÍÌÎÏÎÎÎÍÍ>k__BackingField; // 0x10
+        public bool <ÍÎÌÎÍÍÎÍÍÌÏÍÏÌÏÍÍÎÎÍÍÎÍ>k__BackingField; // 0x18
+        public bool <ÍÌÍÌÍÌÌÍÌÏÏÍÌÍÍÎÎÏÍÍÏÎÏ>k__BackingField; // 0x19
+        public bool <ÏÎÎÌÌÏÌÍÌÎÎÌÏÎÌÍÍÏÍÍÍÍÍ>k__BackingField; // 0x1A
+        public string <ÏÌÍÏÍÎÎÍÎÍÍÌÏÌÌÌÎÍÏÌÌÏÏ>k__BackingField; // 0x20
+        public bool <ÌÌÏÎÍÌÏÌÏÎÎÍÎÌÌÍÌÎÍÎÏÌÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_HandleNullOnRead(){} // RVA: 0x6E8A80
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
@@ -415,7 +426,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÍÌÌÍÍÌÎÎÏÌÌÏÌÌÏÎÍÍÏÎ</summary>
     public class Type14m1f_2B2B
     {
-        public object _2B2B;
+        public bool _2B2B; // 0x20
 
         // ── Methods ──
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0
@@ -438,9 +449,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÏÎÍÍÍÍÍÎÎÎÎÍÏÏÍÌÏÌÍ</summary>
     public class Type14m3f_D6B2
     {
-        public object f_DE8;
-        public object f_67C;
-        public object f_AFE;
+        public System.Func`1<ÍÍÏÍÍÏÏÌÌÎÏÏÎÍÎÍÎÏÎÍÏÌÎ> f_DE8; // 0x10
+        public string[] f_67C; // 0x18
+        public bool f_AFE; // 0x20
 
         // ── Methods ──
         public void WithDisplayName(){} // RVA: 0x1C5A060
@@ -463,7 +474,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÎÍÌÍÍÎÎÏÎÌÌÎÎÏÏÌÎÍÏ</summary>
     public class Type17m1f_3676
     {
-        public object _3676;
+        public string _3676; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75969C0
@@ -482,7 +493,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÌÎÏÍÎÎÍÎÎÏÏÌÏÌÎÍÎÌÏÌ</summary>
     public class Type17m1f_B10A
     {
-        public object _b10A;
+        public UnityEngine.Rigidbody _b10A; // 0x20
 
         // ── Methods ──
         public void set_AccelInput(){} // RVA: 0x2FE6C0
@@ -503,8 +514,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÎÍÏÌÎÍÌÍÌÏÎÎÍÏÌÌÎÌÏÌ</summary>
     public class Type20m2f_2EB6
     {
-        public object f_5E4;
-        public object f_407;
+        public byte[] f_5E4; // 0x10
+        public int f_407; // 0x18
+        public uint ÎÎÌÏÌÏÏÏÍÌÌÍÍÌÏÎÍÎÎÏÌÏÌ; // 0x1C
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x5BED50
@@ -533,7 +545,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÌÍÌÌÌÍÏÎÍÌÏÎÏÎÏÏÌÍÏÏ</summary>
     public class Type2m1f_02B9
     {
-        public object _02B9;
+        public ÍÍÏÏÍÌÏÍÍÍÎÍÌÎÍÍÎÎÍÌÌÏÏ _02B9;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F524A0
@@ -543,7 +555,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÌÏÎÎÎÎÎÎÎÌÏÍÌÍÌÍÍÎÍÌ</summary>
     public class Type2m1f_3DC5
     {
-        public object _3DC5;
+        public ÎÌÍÏÌÍÍÍÏÎÍÍÏÏÎÎÌÍÌÍÎÏÌ _3DC5;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FA0750
@@ -553,7 +565,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÎÌÌÌÎÍÎÍÏÍÍÏÎÏÌÍÍÎÎÎ</summary>
     public class Type2m1f_403A
     {
-        public object _403A;
+        public ÌÍÍÏÍÏÏÏÍÌÎÌÌÏÏÌÎÎÌÏÏÍÍ _403A;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x201AFA0
@@ -563,7 +575,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÍÎÌÌÌÎÌÏÏÌÌÍÎÍÎÏÌÎÏÌ</summary>
     public class Type2m1f_40B9
     {
-        public object _40B9;
+        public ÎÌÏÌÍÏÏÎÍÍÍÍÌÌÌÏÌÏÏÏÏÍÌ _40B9;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FFB500
@@ -573,7 +585,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÎÍÏÍÌÌÌÏÌÏÍÍÌÌÏÍÍÎÏ</summary>
     public class Type2m1f_445B
     {
-        public object _445B;
+        public ÎÌÏÏÎÏÎÎÍÎÎÎÏÍÍÏÌÏÍÍÌÍÌ _445B;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1EE9270
@@ -583,7 +595,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÍÏÎÍÍÏÌÎÏÏÏÌÌÎÌÎÎÎÌÎ</summary>
     public class Type2m1f_55D9
     {
-        public object _55D9;
+        public ÏÏÏÌÎÌÌÍÎÌÍÎÍÌÏÎÍÎÏÏÏÏÌ _55D9;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20430E0
@@ -593,7 +605,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÌÌÍÏÌÌÏÏÍÍÎÎÏÎÌÍÏÏÎÏ</summary>
     public class Type2m1f_63E4
     {
-        public object _63E4;
+        public ÍÍÌÌÍÍÏÎÍÌÏÌÎÎÍÍÍÍÍÎÍÍÎ _63E4;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F8CD90
@@ -603,7 +615,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÏÍÎÏÌÏÏÎÏÌÌÌÍÍÍÍÍÍÏÏ</summary>
     public class Type2m1f_66E2
     {
-        public object _66E2;
+        public ÍÌÎÎÌÏÍÍÎÍÌÍÎÍÏÏÍÌÎÌÍÌÌ _66E2;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F8D7C0
@@ -613,7 +625,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÌÌÌÍÏÌÎÍÎÏÏÎÏÍÏÏÌÍÎ</summary>
     public class Type2m1f_699E
     {
-        public object _699E;
+        public ÏÎÎÌÎÌÎÎÌÏÏÍÎÏÌÏÏÎÎÌÌÎÍ _699E;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20A3C70
@@ -623,7 +635,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÍÌÏÎÍÏÎÌÏÌÍÍÌÌÍÎÍÎÎÍ</summary>
     public class Type2m1f_9428
     {
-        public object _9428;
+        public ÏÎÍÌÎÎÍÏÏÍÏÍÌÏÍÎÏÌÌÍÏÎÏ _9428;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x208D720
@@ -633,7 +645,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÌÎÍÏÍÎÌÌÏÍÎÏÌÌÌÍÍÍÌÍ</summary>
     public class Type2m1f_9590
     {
-        public object _9590;
+        public ÎÍÍÎÌÎÍÏÌÌÍÌÌÎÍÎÌÌÍÎÏÌÎ _9590;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F63190
@@ -643,7 +655,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÍÍÎÌÌÍÍÎÌÎÍÎÏÏÏÏÍÌÌÌ</summary>
     public class Type2m1f_9D11
     {
-        public object _9D11;
+        public ÏÏÏÍÍÌÎÌÏÍÌÎÎÌÎÍÌÌÍÎÎÌÏ _9D11;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FA4AA0
@@ -653,7 +665,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÎÍÌÏÏÍÎÌÏÏÌÏÏÍÎÍÌÏÎÌ</summary>
     public class Type2m1f_9D74
     {
-        public object _9D74;
+        public ÍÍÌÌÏÍÏÌÍÏÌÏÍÌÌÏÌÌÎÏÎÏÍ _9D74;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F7D840
@@ -663,7 +675,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÎÌÏÌÏÎÏÎÍÏÏÏÎÏÎÌÏÎÍÎÎ</summary>
     public class Type2m1f_B72C
     {
-        public object _b72C;
+        public ÎÍÌÌÍÍÍÏÍÍÌÌÏÍÎÏÌÍÏÎÏÍÏ _b72C;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FE96C0
@@ -673,7 +685,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÌÎÍÎÍÌÎÍÍÍÍÌÏÌÍÍÍÍÎÌ</summary>
     public class Type2m1f_C0A8
     {
-        public object _c0A8;
+        public ÏÌÍÌÎÏÌÎÍÌÎÎÎÏÌÍÏÏÌÌÌÏÌ _c0A8;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20968C0
@@ -683,7 +695,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÏÌÏÎÏÎÍÏÌÍÌÏÎÌÍÎÏÎÏ</summary>
     public class Type2m1f_C7EA
     {
-        public object _c7EA;
+        public ÌÎÏÌÎÏÍÎÎÎÏÌÌÌÏÏÍÌÌÌÌÌÏ _c7EA;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20A2380
@@ -693,7 +705,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÏÎÏÌÌÌÎÍÌÌÍÍÌÎÏÌÍÍÏÏ</summary>
     public class Type2m1f_EAD7
     {
-        public object _eAD7;
+        public ÍÌÌÏÏÎÏÍÍÏÍÏÏÍÎÌÌÎÌÍÍÌÌ _eAD7;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1EEC000
@@ -703,7 +715,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÌÍÌÌÍÏÏÎÍÎÍÌÍÏÏÎÎÍÍÎ</summary>
     public class Type2m1f_EC23
     {
-        public object _eC23;
+        public ÎÌÍÎÌÏÍÎÏÌÎÎÏÎÍÏÍÌÏÏÍÍÌ _eC23;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FA1880
@@ -713,7 +725,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÍÍÍÌÎÎÎÏÏÏÏÎÏÏÍÌÎÏÌÎ</summary>
     public class Type2m1f_ED5D
     {
-        public object _eD5D;
+        public ÏÌÏÍÏÎÍÍÍÍÍÌÍÌÏÏÍÏÍÎÎÏÎ _eD5D;
 
         // ── Methods ──
         public void LobbyUpdateLobbyModification(){} // RVA: 0x1FC3F00
@@ -738,7 +750,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÌÏÌÌÌÌÌÎÏÍÏÌÏÎÍÏÍÎÏÎ</summary>
     public class Type9m1f_923F
     {
-        public object NextResolver;
+        public 0x65A01F48 NextResolver; // 0x20
 
         // ── Methods ──
         public void set_ElapsedTimeSinceBase(){} // RVA: 0x7D04A0
@@ -755,8 +767,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÌÏÍÏÎÍÏÌÍÎÌÏÎÍÍÍÍÏÌÏ</summary>
     public class Type9m2f_F747
     {
-        public object f_6FB;
-        public object f_460;
+        public UIntPtr f_6FB; // 0x10
+        public UIntPtr f_460; // 0x18
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0

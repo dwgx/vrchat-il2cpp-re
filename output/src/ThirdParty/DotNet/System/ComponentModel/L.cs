@@ -34,6 +34,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class LicenseException
     {
+        public System.Type type; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C87C60 | overloaded x5
         public void get_LicensedType(){} // RVA: 0x796DE0
@@ -43,7 +45,7 @@ namespace ThirdParty.DotNet.System.ComponentModel
     public class LicenseManager
     {
         public object LicenseProvider;
-        public object TypeId;
+        public System.ComponentModel.LicenseContext TypeId; // 0x8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
@@ -74,6 +76,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class LicenseProviderAttribute
     {
+        public System.ComponentModel.LicenseProviderAttribute Default;
+        public System.Type _licenseProviderType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_LicenseProvider(){} // RVA: 0x6C690A0
@@ -85,6 +90,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ListBindableAttribute
     {
+        public System.ComponentModel.ListBindableAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C69490 | overloaded x2
         public void get_ListBindable(){} // RVA: 0x543460
@@ -96,6 +103,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ListChangedEventArgs
     {
+        public 0x6584FB68 <ListChangedType>k__BackingField; // 0x10
+        public int <NewIndex>k__BackingField; // 0x14
+        public int <OldIndex>k__BackingField; // 0x18
+        public System.ComponentModel.PropertyDescriptor <PropertyDescriptor>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C69950 | overloaded x4
         public void get_ListChangedType(){} // RVA: 0x32A5C0
@@ -115,8 +127,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ListSortDescription
     {
-        public object Item;
-        public object System.Collections.IList.IsFixedSize;
+        public System.ComponentModel.PropertyDescriptor Item; // 0x10
+        public 0x6584FC70 System.Collections.IList.IsFixedSize; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50
@@ -128,6 +140,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ListSortDescriptionCollection
     {
+        public System.Collections.ArrayList _sorts; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C69A70 | overloaded x2
         public void get_Item(){} // RVA: 0x6C69B70
@@ -152,6 +166,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class LocalizableAttribute
     {
+        public bool <IsLocalizable>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_IsLocalizable(){} // RVA: 0x3A75E0
@@ -163,6 +179,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class LookupBindingPropertiesAttribute
     {
+        public string <DataSource>k__BackingField; // 0x10
+        public string <DisplayMember>k__BackingField; // 0x18
+        public string <ValueMember>k__BackingField; // 0x20
+        public string <LookupMember>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x325A50 | overloaded x2
         public void get_DataSource(){} // RVA: 0x2F8380

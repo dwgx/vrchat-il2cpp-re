@@ -22,6 +22,29 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorGraphConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.CalculatorGraphConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Node> _repeated_node_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Node> node_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Mediapipe.PacketFactoryConfig> _repeated_packetFactory_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.PacketFactoryConfig> packetFactory_; // 0x20
+        public Google.Protobuf.FieldCodec`1<Mediapipe.PacketGeneratorConfig> _repeated_packetGenerator_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.PacketGeneratorConfig> packetGenerator_; // 0x28
+        public int numThreads_; // 0x30
+        public Google.Protobuf.FieldCodec`1<Mediapipe.StatusHandlerConfig> _repeated_statusHandler_codec; // 0x20
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.StatusHandlerConfig> statusHandler_; // 0x38
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputStream_codec; // 0x28
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputStream_; // 0x40
+        public Google.Protobuf.FieldCodec`1<string> _repeated_outputStream_codec; // 0x30
+        public Google.Protobuf.Collections.RepeatedField`1<string> outputStream_; // 0x48
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x38
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x50
+        public Google.Protobuf.FieldCodec`1<string> _repeated_outputSidePacket_codec; // 0x40
+        public Google.Protobuf.Collections.RepeatedField`1<string> outputSidePacket_; // 0x58
+        public int maxQueueSize_; // 0x60
+        public bool reportDeadlock_; // 0x64
+        public Mediapipe.InputStreamHandlerConfig inputStreamHandler_; // 0x68
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AFAD80
         public void get_Descriptor(){} // RVA: 0x5AFADE0
@@ -75,6 +98,13 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.CalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Mediapipe.CalculatorOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool MergeFieldsDefaultValue; // 0x8
+        public bool mergeFields_; // 0x24
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5B02910
@@ -104,6 +134,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B02420
         public void .cctor(){} // RVA: 0x5B02480
@@ -111,6 +143,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5AF2520
         public void .cctor(){} // RVA: 0x5AF2580
@@ -118,6 +152,18 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Classification
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Classification> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int IndexFieldNumber;
+        public int IndexDefaultValue; // 0x8
+        public int index_; // 0x1C
+        public int ScoreFieldNumber;
+        public float ScoreDefaultValue; // 0xC
+        public float score_; // 0x20
+        public int LabelFieldNumber;
+        public string LabelDefaultValue; // 0x10
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B064F0
         public void get_Descriptor(){} // RVA: 0x5B06550
@@ -153,6 +199,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationList
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ClassificationList> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int ClassificationFieldNumber;
+        public Google.Protobuf.FieldCodec`1<Mediapipe.Classification> _repeated_classification_codec; // 0x8
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B07A00
         public void get_Descriptor(){} // RVA: 0x5B07A60
@@ -173,6 +224,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationListCollection
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ClassificationListCollection> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.ClassificationList> _repeated_classificationList_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.ClassificationList> classificationList_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B08970
         public void get_Descriptor(){} // RVA: 0x5B089D0
@@ -193,6 +249,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B05BB0
         public void .cctor(){} // RVA: 0x5B05C10

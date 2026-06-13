@@ -41,6 +41,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GoogleBillingResult
     {
+        public 0x659A0D30 <responseCode>k__BackingField; // 0x10
+        public string <debugMessage>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_responseCode(){} // RVA: 0x32A5C0
         public void get_debugMessage(){} // RVA: 0x2E07C0
@@ -62,6 +65,15 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GooglePurchase
     {
+        public bool <isAcknowledged>k__BackingField; // 0x10
+        public int <purchaseState>k__BackingField; // 0x14
+        public System.Collections.Generic.List`1<string> <skus>k__BackingField; // 0x18
+        public string <orderId>k__BackingField; // 0x20
+        public string <receipt>k__BackingField; // 0x28
+        public string <signature>k__BackingField; // 0x30
+        public string <originalJson>k__BackingField; // 0x38
+        public string <purchaseToken>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_isAcknowledged(){} // RVA: 0x3A75E0
         public void get_purchaseState(){} // RVA: 0x8ABED0

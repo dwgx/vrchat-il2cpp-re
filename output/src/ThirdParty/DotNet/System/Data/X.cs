@@ -51,7 +51,7 @@ namespace ThirdParty.DotNet.System.Data
 
     public class XSDSchema
     {
-        public object FromInference;
+        public System.Xml.Schema.XmlSchemaSet FromInference; // 0x10
 
         // ── Methods ──
         public void get_FromInference(){} // RVA: 0x1B6CD50
@@ -110,6 +110,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class XmlDataLoader
     {
+        public System.Data.DataSet _dataSet; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67554A0 | overloaded x4
         public void get_FromInference(){} // RVA: 0x4FE4B90

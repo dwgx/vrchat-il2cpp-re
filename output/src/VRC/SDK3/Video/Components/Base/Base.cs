@@ -7,6 +7,12 @@ namespace VRC.SDK3.Video.Components.Base
 {
     public class BaseVRCVideoPlayer
     {
+        public System.Action`1<VRC.SDK3.Video.Components.Base.BaseVRCVideoPlayer> <InitializeBase>k__BackingField;
+        public float <SyncIndexTimeSet>k__BackingField; // 0x20
+        public float <SyncIndexPosition>k__BackingField; // 0x24
+        public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonBehaviour> _udonBehaviours; // 0x28
+        public bool EnableAutomaticResync; // 0x30
+
         // ── Methods ──
         public void get_InitializeBase(){} // RVA: 0x9A01DA0
         public void set_InitializeBase(){} // RVA: 0x9A01DE0

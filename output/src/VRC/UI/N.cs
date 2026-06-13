@@ -8,6 +8,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÏÎÌÏÍÌÌÎÏÍÍÏÎÍÎÍÏÌÎÍÍ</summary>
     public class NameScreenUIComponent_C0D9
     {
+        public UnityEngine.RectTransform[] _panelContainers; // 0x60
+
         // ── Methods ──
         public void LastIndexOf(){} // RVA: 0x18C95A0
         public void FindIndex(){} // RVA: 0x18C9780

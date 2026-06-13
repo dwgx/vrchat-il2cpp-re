@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class TailStream
     {
+        public byte[] _Buffer; // 0x28
+        public int _BufferSize; // 0x30
+        public int _BufferIndex; // 0x34
+        public bool _BufferFull; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C80D30
         public void Clear(){} // RVA: 0x5C6F500
@@ -42,6 +47,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class TripleDES
     {
+        public System.Security.Cryptography.KeySizes[] s_legalBlockSizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C9E360
         public void get_Key(){} // RVA: 0x5C9E490

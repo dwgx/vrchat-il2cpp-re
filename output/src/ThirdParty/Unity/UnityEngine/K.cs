@@ -7,7 +7,13 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Keyframe
     {
-        public object value;
+        public float value; // 0x10
+        public float m_Value; // 0x14
+        public float m_InTangent; // 0x18
+        public float m_OutTangent; // 0x1C
+        public int m_WeightedMode; // 0x20
+        public float m_InWeight; // 0x24
+        public float m_OutWeight; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70B9270 | overloaded x2

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 19
-// Methods: 613
+// Classes: 20
+// Methods: 620
 
 namespace ThirdParty.DotNet.System
 {
@@ -32,12 +32,33 @@ namespace ThirdParty.DotNet.System
 
     public class DTSubString
     {
+        public System.ReadOnlySpan`1<char> s; // 0x10
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x5E92750
     }
 
     public class DateTime : System
     {
+        public long TicksPerMillisecond;
+        public long TicksPerSecond;
+        public long TicksPerMinute;
+        public long TicksPerHour;
+        public long TicksPerDay;
+        public int MillisPerSecond;
+        public int MillisPerMinute;
+        public int MillisPerHour;
+        public int MillisPerDay;
+        public int DaysPerYear;
+        public int DaysPer4Years;
+        public int DaysPer100Years;
+        public int DaysPer400Years;
+        public int DaysTo1601;
+        public int DaysTo1899;
+        public int DaysTo1970;
+        public int DaysTo10000;
+        public long MinTicks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E6F440 | overloaded x14
         public void get_InternalTicks(){} // RVA: 0x5E6F8A0
@@ -168,6 +189,18 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeOffset : System
     {
+        public long MaxOffset;
+        public long MinOffset;
+        public long UnixEpochSeconds;
+        public long UnixEpochMilliseconds;
+        public long UnixMinSeconds;
+        public long UnixMaxSeconds;
+        public System.DateTimeOffset MinValue;
+        public System.DateTimeOffset MaxValue; // 0x10
+        public System.DateTimeOffset UnixEpoch; // 0x20
+        public System.DateTime _dateTime; // 0x10
+        public short _offsetMinutes; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E789B0 | overloaded x7
         public void get_Now(){} // RVA: 0x5E75CD0
@@ -341,6 +374,13 @@ namespace ThirdParty.DotNet.System
 
     public class Decimal : System
     {
+        public int SignMask;
+        public int ScaleMask;
+        public int ScaleShift;
+        public System.Decimal Zero;
+        public System.Decimal One; // 0x10
+        public System.Decimal MinusOne; // 0x20
+
         // ── Methods ──
         public void get_High(){} // RVA: 0x19689E0
         public void get_Low(){} // RVA: 0x1EA9890
@@ -435,6 +475,18 @@ namespace ThirdParty.DotNet.System
         public void DecAdd(){} // RVA: 0x5EC6110
     }
 
+    public class DecimalDecCalc
+    {
+        // ── Methods ──
+        public void D32DivMod1E9(){} // RVA: 0x5EC5E60
+        public void DecDivMod1E9(){} // RVA: 0x5EC5EC0
+        public void DecAddInt32(){} // RVA: 0x5EC5FA0
+        public void D32AddCarry(){} // RVA: 0x5EC5FD0
+        public void DecMul10(){} // RVA: 0x5EC5FF0
+        public void DecShiftLeft(){} // RVA: 0x5EC60E0
+        public void DecAdd(){} // RVA: 0x5EC6110
+    }
+
     public class DefaultBinder
     {
         // ── Methods ──
@@ -467,6 +519,9 @@ namespace ThirdParty.DotNet.System
 
     public class Delegate
     {
+        public UIntPtr method_ptr; // 0x10
+        public UIntPtr invoke_impl; // 0x18
+
         // ── Methods ──
         public void get_Method(){} // RVA: 0x950560
         public void GetVirtualMethod_internal(){} // RVA: 0x5F02130

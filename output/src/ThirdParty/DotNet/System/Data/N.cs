@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class NameNode
     {
+        public string _name; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
         public void get_IsSqlColumn(){} // RVA: 0x6723760

@@ -21,6 +21,10 @@ namespace ThirdParty.DotNet.System.Data
 
     public class AutoIncrementBigInteger
     {
+        public System.Numerics.BigInteger _current; // 0x18
+        public long _seed; // 0x28
+        public System.Numerics.BigInteger _step; // 0x30
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x66CB670
         public void set_Current(){} // RVA: 0x66CB6C0
@@ -38,6 +42,10 @@ namespace ThirdParty.DotNet.System.Data
 
     public class AutoIncrementInt64
     {
+        public long _current; // 0x18
+        public long _seed; // 0x20
+        public long _step; // 0x28
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x66CAF10
         public void set_Current(){} // RVA: 0x66CAF60
@@ -55,6 +63,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class AutoIncrementValue
     {
+        public bool <Auto>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Auto(){} // RVA: 0x3A75E0
         public void set_Auto(){} // RVA: 0x3A75F0

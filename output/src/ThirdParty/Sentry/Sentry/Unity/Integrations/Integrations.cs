@@ -7,6 +7,10 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 {
     public class ApplicationAdapter
     {
+        public Sentry.Unity.Integrations.ApplicationAdapter Instance;
+        public LogCallback LogMessageReceived; // 0x10
+        public System.Action Quitting; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x63885F0
         public void add_LogMessageReceived(){} // RVA: 0x6388840

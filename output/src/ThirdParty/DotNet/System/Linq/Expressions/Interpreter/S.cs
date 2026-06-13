@@ -14,6 +14,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class SetArrayItemInstruction
     {
+        public System.Linq.Expressions.Interpreter.SetArrayItemInstruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0xA308B0
@@ -61,6 +63,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class StringSwitchInstruction
     {
+        public System.Collections.Generic.Dictionary`2<string,int> _cases; // 0x10
+        public System.Runtime.CompilerServices.StrongBox`1<int> _nullCase; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_InstructionName(){} // RVA: 0x66135D0
@@ -70,6 +75,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class SubInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -80,6 +89,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class SubOvfInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

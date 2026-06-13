@@ -49,6 +49,8 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class Receiver
     {
+        public UIntPtr _plugin; // 0x10
+
         // ── Methods ──
         public void get_Texture(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x5A92C00
@@ -78,6 +80,12 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutReceiver
     {
+        public Klak.Spout.Receiver _receiver; // 0x20
+        public UnityEngine.RenderTexture _buffer; // 0x28
+        public string _sourceName; // 0x30
+        public UnityEngine.RenderTexture _targetTexture; // 0x38
+        public UnityEngine.Renderer _targetRenderer; // 0x40
+
         // ── Methods ──
         public void ReleaseReceiver(){} // RVA: 0x5A93EE0
         public void PrepareBuffer(){} // RVA: 0x5A94020
@@ -106,6 +114,12 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutSender
     {
+        public Klak.Spout.Sender _sender; // 0x20
+        public UnityEngine.RenderTexture _buffer; // 0x28
+        public UnityEngine.Camera _attachedCamera; // 0x30
+        public string _spoutName; // 0x38
+        public bool _keepAlpha; // 0x40
+
         // ── Methods ──
         public void ReleaseSender(){} // RVA: 0x5A94C60
         public void PrepareBuffer(){} // RVA: 0x5A94D20

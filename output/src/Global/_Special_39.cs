@@ -5,6 +5,9 @@
 
 public class <Annotations>d__185`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -18,6 +21,9 @@ public class <Annotations>d__185`1
 
 public class <Annotations>d__186
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -59,6 +65,9 @@ public class <AnyAwaitWithCancellationAsync>d__3`1 : <>t__builder
 
 public class <Append>d__2`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -74,6 +83,9 @@ public class <Append>d__2`1
 
 public class <AppendIterator>d__61`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -88,6 +100,9 @@ public class <AppendIterator>d__61`1
 
 public class <ApplyPerformanceFilters>d__1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AAA2D0
@@ -99,6 +114,9 @@ public class <ApplyPerformanceFilters>d__1
 
 public class <ApplyPerformanceFiltersEnumerator>d__11
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AA8C80
@@ -110,6 +128,9 @@ public class <ApplyPerformanceFiltersEnumerator>d__11
 
 public class <ApplyResultSelector>d__13`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -123,6 +144,9 @@ public class <ApplyResultSelector>d__13`1
 
 public class <ArrowReleaseHaptics>d__25
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -198,6 +222,9 @@ public class <AsyncWaitForStart>d__15 : [I
 
 public class <AttemptToLoadSceneModel>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -496,6 +523,9 @@ public class <AverageAwaitWithCancellationAsync>d__7`1 : <>t__builder
 
 public class <BeforeSelf>d__50
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -585,6 +615,9 @@ public class <CachedTransportBackgroundTaskAsync>d__21 : [I
 
 public class <CalculatePerformanceStatsEnumerator>d__10
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -596,6 +629,9 @@ public class <CalculatePerformanceStatsEnumerator>d__10
 
 public class <Capture>d__23
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -607,6 +643,9 @@ public class <Capture>d__23
 
 public class <CaretBlink>d__172
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -618,6 +657,9 @@ public class <CaretBlink>d__172
 
 public class <CaretBlink>d__175
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -629,6 +671,9 @@ public class <CaretBlink>d__175
 
 public class <CaretBlink>d__276
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -640,6 +685,9 @@ public class <CaretBlink>d__276
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -654,6 +702,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public System.Attribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -668,6 +719,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.JsonContainerAttribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -682,6 +736,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public System.Runtime.Serialization.DataContractAttribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -696,6 +753,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.JsonConverterAttribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -710,6 +770,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.JsonObjectAttribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -724,6 +787,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public System.Reflection.FieldInfo <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -738,6 +804,9 @@ public class <CastIterator>d__99`1
 
 public class <CastIterator>d__99`1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2A68540
@@ -752,6 +821,9 @@ public class <CastIterator>d__99`1
 
 public class <CleanupTask>d__13
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -763,6 +835,9 @@ public class <CleanupTask>d__13
 
 public class <ClickRepeat>d__58
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -816,6 +891,9 @@ public class <ComputeKeysAsync>d__7 : <>t__builder
 
 public class <ConcatIterator>d__59`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50

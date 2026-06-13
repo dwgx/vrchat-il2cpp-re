@@ -7,6 +7,8 @@ namespace VRC.UI.Client.IPS
 {
     public class IpsProvidedContentLoader`2
     {
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ <ÍÎÎÍÎÍÍÏÎÍÍÎÌÍÏÌÍÌÍÏÌÎÏ>k__BackingField;
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x2DC60

@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class Parser
     {
+        public 0x6587E138 schemaType; // 0x10
+        public System.Xml.XmlNameTable nameTable; // 0x18
+        public System.Xml.Schema.SchemaNames schemaNames; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693CDF0
         public void Parse(){} // RVA: 0x693D090
@@ -69,8 +73,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Positions
     {
-        public object IsNullable;
-        public object IsRangeNode;
+        public System.Collections.ArrayList IsNullable; // 0x10
 
         // ── Methods ──
         public void Add(){} // RVA: 0x6ADA2D0
@@ -81,6 +84,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Preprocessor
     {
+        public string Xmlns; // 0x40
+        public string NsXsi; // 0x48
+        public string targetNamespace; // 0x50
+        public System.Xml.Schema.XmlSchema rootSchema; // 0x58
+        public System.Xml.Schema.XmlSchema currentSchema; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693F200
         public void Execute(){} // RVA: 0x693F400

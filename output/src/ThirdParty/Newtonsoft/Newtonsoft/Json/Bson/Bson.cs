@@ -7,6 +7,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 {
     public class BsonArray
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonToken> _children; // 0x20
+
         // ── Methods ──
         public void Add(){} // RVA: 0x607DCD0
         public void get_Type(){} // RVA: 0x607DDD0
@@ -17,6 +19,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonBinary
     {
+        public 0x658E8E00 <BinaryType>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_BinaryType(){} // RVA: 0x303450
         public void set_BinaryType(){} // RVA: 0x303460
@@ -25,7 +29,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonBinaryWriter
     {
-        public object Value;
+        public System.Text.Encoding Value;
 
         // ── Methods ──
         public void get_DateTimeKindHandling(){} // RVA: 0x760030
@@ -51,6 +55,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonEmpty
     {
+        public Newtonsoft.Json.Bson.BsonToken Null;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3CB9E0
         public void get_Type(){} // RVA: 0x3CB9D0
@@ -59,6 +65,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonObject
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonProperty> _children; // 0x20
+
         // ── Methods ──
         public void Add(){} // RVA: 0x607D880
         public void get_Type(){} // RVA: 0x607DB00
@@ -69,6 +77,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonObjectId
     {
+        public byte[] <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x607A2E0
@@ -76,6 +86,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonProperty
     {
+        public Newtonsoft.Json.Bson.BsonString <Name>k__BackingField; // 0x10
+        public Newtonsoft.Json.Bson.BsonToken <Value>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -86,6 +99,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonReader
     {
+        public int MaxCharBytesSize;
+        public byte[] SeqRange1;
+        public byte[] SeqRange2; // 0x8
+
         // ── Methods ──
         public void get_JsonNet35BinaryCompatibility(){} // RVA: 0x1CA9AF0
         public void set_JsonNet35BinaryCompatibility(){} // RVA: 0x607A420
@@ -121,6 +138,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonRegex
     {
+        public Newtonsoft.Json.Bson.BsonString <Pattern>k__BackingField; // 0x20
+        public Newtonsoft.Json.Bson.BsonString <Options>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Pattern(){} // RVA: 0x30B0C0
         public void set_Pattern(){} // RVA: 0x30B0D0
@@ -132,6 +152,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonString
     {
+        public int <ByteCount>k__BackingField; // 0x30
+        public bool <IncludeLength>k__BackingField; // 0x34
+
         // ── Methods ──
         public void get_ByteCount(){} // RVA: 0x338CD0
         public void set_ByteCount(){} // RVA: 0x338CE0
@@ -141,6 +164,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonToken
     {
+        public Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField; // 0x10
+        public int <CalculatedSize>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xDBE0
         public void get_Parent(){} // RVA: 0x2F8380
@@ -152,6 +178,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonValue
     {
+        public object _value; // 0x20
+        public 0x658E9380 _type; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x607E0D0
         public void get_Value(){} // RVA: 0x30B0C0
@@ -160,6 +189,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 
     public class BsonWriter
     {
+        public Newtonsoft.Json.Bson.BsonBinaryWriter _writer; // 0x60
+
         // ── Methods ──
         public void get_DateTimeKindHandling(){} // RVA: 0x607E5E0
         public void set_DateTimeKindHandling(){} // RVA: 0x607E600

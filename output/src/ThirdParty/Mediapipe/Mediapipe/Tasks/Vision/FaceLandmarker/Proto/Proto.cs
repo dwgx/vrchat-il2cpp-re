@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 {
     public class FaceBlendshapesGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceBlendshapesGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B6C630
         public void get_Descriptor(){} // RVA: 0x5B6C690
@@ -28,6 +32,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceBlendshapesGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B6BD30
         public void .cctor(){} // RVA: 0x5B6BD90
@@ -35,6 +41,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarkerGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarkerGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public Mediapipe.Tasks.Vision.FaceDetector.Proto.FaceDetectorGraphOptions faceDetectorGraphOptions_; // 0x28
+        public Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarksDetectorGraphOptions faceLandmarksDetectorGraphOptions_; // 0x30
+        public float MinTrackingConfidenceDefaultValue; // 0x8
+        public float minTrackingConfidence_; // 0x38
+        public Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometryGraphOptions faceGeometryGraphOptions_; // 0x40
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B6E170
         public void get_Descriptor(){} // RVA: 0x5B6E1D0
@@ -66,6 +82,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarkerGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B6D460
         public void .cctor(){} // RVA: 0x5B6D4C0
@@ -73,6 +91,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarksDetectorGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarksDetectorGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public float MinDetectionConfidenceDefaultValue; // 0x8
+        public float minDetectionConfidence_; // 0x28
+        public bool SmoothLandmarksDefaultValue; // 0xC
+        public bool smoothLandmarks_; // 0x2C
+        public Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceBlendshapesGraphOptions faceBlendshapesGraphOptions_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B70330
         public void get_Descriptor(){} // RVA: 0x5B70390
@@ -104,6 +132,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarksDetectorGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B6F840
         public void .cctor(){} // RVA: 0x5B6F8A0

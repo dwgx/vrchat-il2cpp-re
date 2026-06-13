@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class ZLoggerHandlerLogger
     {
+        public System.Action`3<string,object[],0x65895580> _onMessageLogged; // 0x10
+
         // ── Methods ──
         public void get_UnityHandler(){} // RVA: 0x76E0600
         public void EnsureCapturedUnityHandler(){} // RVA: 0x76E0660

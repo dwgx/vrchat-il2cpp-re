@@ -7,6 +7,11 @@ namespace VRC.Economy.Internal
 {
     public class EconomyStoresManager
     {
+        public string ÏÎÏÏÏÏÎÌÍÏÌÏÌÏÍÍÏÌÎÍÏÎÌ;
+        public string ÏÌÎÎÍÍÍÏÏÌÍÍÌÏÌÌÍÍÎÏÎÎÏ;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÍÌÎÏÌÏÍÍÎÍÎÌÍÎÏÏÏÌÍÍÌ>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTime> <ÌÏÎÌÎÎÏÍÌÏÏÌÎÎÎÌÍÎÏÌÏÌÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x993DF0
         public void Equals(){} // RVA: 0x993E70

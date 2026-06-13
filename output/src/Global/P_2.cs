@@ -92,6 +92,15 @@ public class PhysicsUpdate
 
 public class Pico
 {
+    public string <sku>k__BackingField; // 0x68
+    public string <user_id>k__BackingField; // 0x70
+    public string <subscription_start_time>k__BackingField; // 0x78
+    public int <subscription_end_time>k__BackingField; // 0x80
+    public int <subscription_type>k__BackingField; // 0x84
+    public int <status>k__BackingField; // 0x88
+    public bool <free_trial>k__BackingField; // 0x8C
+    public string <next_period>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_sku(){} // RVA: 0x358D50
     public void set_sku(){} // RVA: 0x358D60
@@ -197,10 +206,7 @@ public class PlaybackState
 
 public class PlayerActions
 {
-    public object Navigate;
-    public object Submit;
-    public object Cancel;
-    public object Point;
+    public UnityEngine.InputSystem.DefaultInputActions Navigate; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -252,6 +258,10 @@ public class PlayerLeftEvent
 
 public class PlayerModComponentHealth
 {
+    public float ÌÎÏÌÎÍÌÎÎÍÍÏÍÏÏÌÌÍÎÌÍÏÏ; // 0x58
+    public float ÌÍÎÍÍÎÍÎÎÎÍÌÌÌÌÍÍÏÎÌÏÍÎ; // 0x5C
+    public ÍÏÍÍÍÏÎÍÏÍÎÎÎÎÍÏÍÏÌÎÎÏÌ ÍÍÌÌÍÌÏÌÍÍÍÍÏÎÍÌÎÎÏÏÌÍÎ; // 0x60
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DDD50
     public void Initialize(){} // RVA: 0x1420F40
@@ -404,6 +414,27 @@ public class PointPrecomp
 
 public class PointerEvent
 {
+    public int <pointerId>k__BackingField; // 0x10
+    public string <pointerType>k__BackingField; // 0x18
+    public bool <isPrimary>k__BackingField; // 0x20
+    public int <button>k__BackingField; // 0x24
+    public int <pressedButtons>k__BackingField; // 0x28
+    public UnityEngine.Vector3 <position>k__BackingField; // 0x2C
+    public UnityEngine.Vector3 <localPosition>k__BackingField; // 0x38
+    public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0x44
+    public float <deltaTime>k__BackingField; // 0x50
+    public int <clickCount>k__BackingField; // 0x54
+    public float <pressure>k__BackingField; // 0x58
+    public float <tangentialPressure>k__BackingField; // 0x5C
+    public float <altitudeAngle>k__BackingField; // 0x60
+    public float <azimuthAngle>k__BackingField; // 0x64
+    public float <twist>k__BackingField; // 0x68
+    public UnityEngine.Vector2 <tilt>k__BackingField; // 0x6C
+    public 0x659FBB98 <penStatus>k__BackingField; // 0x74
+    public UnityEngine.Vector2 <radius>k__BackingField; // 0x78
+    public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x80
+    public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_pointerId(){} // RVA: 0x32A5C0
     public void set_pointerId(){} // RVA: 0x2E00C0
@@ -458,6 +489,10 @@ public class PointerEvent
 
 public class PointerLocation
 {
+    public UnityEngine.Vector2 <Position>k__BackingField; // 0x10
+    public UnityEngine.UIElements.IPanel <Panel>k__BackingField; // 0x18
+    public 0x65838B40 <Flags>k__BackingField; // 0x20
+
     // ── Methods ──
     public void get_Position(){} // RVA: 0x1AD4690
     public void set_Position(){} // RVA: 0x1B12320
@@ -500,6 +535,13 @@ public class PollPlayerConnection
 
 public class PolyNode
 {
+    public PolyNode m_Parent; // 0x10
+    public System.Collections.Generic.List`1<IntPoint> m_polygon; // 0x18
+    public int m_Index; // 0x20
+    public 0x65948700 m_jointype; // 0x24
+    public 0x65948758 m_endtype; // 0x28
+    public System.Collections.Generic.List`1<PolyNode> m_Childs; // 0x30
+
     // ── Methods ──
     public void IsHoleNode(){} // RVA: 0x1D36630
     public void get_ChildCount(){} // RVA: 0x1D36650
@@ -517,7 +559,7 @@ public class PolyNode
 
 public class PolyTree
 {
-    public object ChildCount;
+    public System.Collections.Generic.List`1<PolyNode> ChildCount; // 0x40
 
     // ── Methods ──
     public void Clear(){} // RVA: 0x1D362F0
@@ -583,6 +625,8 @@ public class PolyfillExtensions
 
 public class PolygonSolution
 {
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> polygons; // 0x10
+
     // ── Methods ──
     public void StateChanged(){} // RVA: 0x1D26700
     public void get_IsNull(){} // RVA: 0x1D26810
@@ -594,6 +638,13 @@ public class PolygonalBoundary2DInternal
 
 public class PopupButtonData
 {
+    public VRC.Core.ApiLocalizableString <text>k__BackingField; // 0x68
+    public System.Collections.Generic.Dictionary`2<string,string> <capture>k__BackingField; // 0x70
+    public System.Collections.Generic.List`1<RequiredValue> <requiredCaptures>k__BackingField; // 0x78
+    public bool <completePromotionOnPress>k__BackingField; // 0x80
+    public string <analyticsEventTag>k__BackingField; // 0x88
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_text(){} // RVA: 0x358D50
     public void set_text(){} // RVA: 0x358D60

@@ -5,6 +5,8 @@
 
 public class Item
 {
+    public UnityEngine.Vector3 Pos; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
     public void Set(){} // RVA: 0x1CC5AF0
@@ -12,6 +14,9 @@ public class Item
 
 public class ItemAttribute
 {
+    public object <defaultValue>k__BackingField; // 0x68
+    public ItemAttributeValidation <validator>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_defaultValue(){} // RVA: 0x358D50
     public void set_defaultValue(){} // RVA: 0x358D60
@@ -22,6 +27,8 @@ public class ItemAttribute
 
 public class ItemAttributeValidation
 {
+    public string <type>k__BackingField; // 0x68
+
     // ── Methods ──
     public void get_type(){} // RVA: 0x358D50
     public void set_type(){} // RVA: 0x358D60
@@ -39,6 +46,9 @@ public class IterationDelegate
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -55,6 +65,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId;
+    public int state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24A50
     public void get_Current(){} // RVA: 0x283FA0
@@ -71,6 +84,9 @@ public class Iterator`1
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -87,6 +103,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -103,6 +122,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -119,6 +141,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -135,6 +160,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -151,6 +179,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1 : System.Collections.Generic
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3617620
     public void get_Current(){} // RVA: 0x263BC0
@@ -167,6 +198,9 @@ public class Iterator`1 : System.Collections.Generic
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x7D0800
@@ -183,6 +217,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x5BED50
@@ -199,6 +236,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -215,6 +255,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -231,6 +274,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -247,6 +293,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -263,6 +312,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -279,6 +331,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x1F4D690
@@ -295,6 +350,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -311,6 +369,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x5BED50
@@ -327,6 +388,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x1F4D690
@@ -343,6 +407,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -359,6 +426,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -375,6 +445,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -391,6 +464,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -407,6 +483,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -423,6 +502,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -439,6 +521,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -455,6 +540,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x1F4D690
@@ -471,6 +559,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -487,6 +578,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -503,6 +597,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -519,6 +616,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -535,6 +635,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2EDD9C0
@@ -551,6 +654,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -567,6 +673,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -583,6 +692,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -599,6 +711,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -615,6 +730,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -631,6 +749,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -647,6 +768,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -663,6 +787,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E1CF0
@@ -679,6 +806,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -695,6 +825,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -711,6 +844,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x5BED50
@@ -727,6 +863,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -743,6 +882,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -759,6 +901,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -775,6 +920,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -791,6 +939,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x2E07C0
@@ -807,6 +958,9 @@ public class Iterator`1
 
 public class Iterator`1
 {
+    public int threadId; // 0x10
+    public int state; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616F60
     public void get_Current(){} // RVA: 0x994EE0
@@ -823,6 +977,9 @@ public class Iterator`1
 
 public class iOSInfo
 {
+    public bool _hasFetchedInfo;
+    public long LowMemoryThreshold;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x5A91060
     public void FetchInfo(){} // RVA: 0x5A91070

@@ -18,6 +18,11 @@ namespace VRC.Texture
     /// <summary>Originally: ÍÎÎÎÌÏÎÎÌÏÍÌÏÌÎÎÌÏÎÍÍÌÎ</summary>
     public class SpriteHandler_620E
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _label; // 0x20
+        public UnityEngine.UI.Button _button; // 0x28
+        public ÌÏÍÎÏÏÎÌÍÎÍÌÍÏÏÍÏÌÎÍÎÌÎ _radioButtonSelector; // 0x30
+        public UnityEngine.GameObject _newIndicator; // 0x38
+
         // ── Methods ──
         public void set_DefaultCreatorNonPublic(){} // RVA: 0x10F2C40
         public void get_Comparer(){} // RVA: 0x6374D0
@@ -41,6 +46,9 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ</summary>
     public class SpriteHandler_87B5
     {
+        public ÏÏÏÍÎÎÌÎÏÌÌÌÎÌÌÎÌÏÌÎÎÍÎ groupActivityCellPrefab; // 0x40
+        public UnityEngine.Transform groupActivityCellParent; // 0x48
+
         // ── Methods ──
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
         public void Awake(){} // RVA: 0x8D93940
@@ -81,13 +89,13 @@ namespace VRC.Texture
     /// <summary>Originally: ÍÏÏÍÎÍÌÎÍÌÌÍÏÍÌÌÏÌÎÏÎÏÌ</summary>
     public class TextureCalculateLayoutInpRelated_7E3D
     {
-        public object f_7B5;
-        public object f_0E9;
-        public object f_8C7;
-        public object f_D02;
-        public object f_C71;
-        public object f_7E7;
-        public object f_523;
+        public string f_7B5; // 0x10
+        public VRC.Localization.LocalizableString f_0E9; // 0x18
+        public float f_8C7; // 0x40
+        public float f_D02; // 0x44
+        public System.Func`2<float,bool> f_C71; // 0x48
+        public System.Func`2<float,bool> f_7E7; // 0x50
+        public float f_523; // 0x58
 
         // ── Methods ──
         public void ObjectType(){} // RVA: 0x4354D0
@@ -122,6 +130,10 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ</summary>
     public class TextureCalculateLayoutInpRelated_81F6
     {
+        public TMPro.TextMeshProUGUI _placeholder; // 0x40
+        public TMPro.TextMeshProUGUI _displayText; // 0x48
+        public UnityEngine.GameObject _clearDisplay; // 0x50
+
         // ── Methods ──
         public void SetListForChannel_0D753C0DA7E4(){} // RVA: 0x8E873C0
         public void SetListForChannel(){} // RVA: 0x8E873D0
@@ -162,6 +174,9 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÌÎÏÏÌÌÏÏÍÎÍÍÌÏÎÎÎÎÌÍÌÍ</summary>
     public class TextureCalculateLayoutInpRelated_ABA7
     {
+        public System.Action ÌÏÍÏÍÌÍÎÏÍÌÏÍÍÏÏÏÎÏÌÏÎÏ; // 0x20
+        public System.Action`1<string> ÎÍÍÎÍÍÌÍÍÏÏÌÎÍÌÎÎÌÏÎÍÍÍ; // 0x28
+
         // ── Methods ──
         public void GetMatrixElement(){} // RVA: 0x8E88750
         public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x8E875F0
@@ -187,6 +202,11 @@ namespace VRC.Texture
     /// <summary>Originally: ÎÌÏÏÌÍÏÍÏÏÏÏÎÍÏÌÍÎÌÎÌÏÏ</summary>
     public class TextureCalculateLayoutInpRelated_B3BC
     {
+        public UnityEngine.Texture2D <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x30
+        public UnityEngine.Sprite <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x38
+        public VRC.Localization.LocalizableString <ÏÎÎÍÌÎÏÍÍÏÎÍÌÌÏÌÎÌÎÍÍÍÏ>k__BackingField; // 0x40
+        public VRC.Localization.LocalizableString <ÍÍÏÍÏÎÎÎÎÍÍÏÏÍÎÎÎÏÌÎÍÌÍ>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void set_Options(){} // RVA: 0x30B890
@@ -204,6 +224,9 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÏÎÍÏÍÌÌÎÎÍÏÍÍÏÍÏÏÍÌÎÍÌ</summary>
     public class TextureCalculateLayoutInputHorSibling_94C8
     {
+        public UnityEngine.UI.Text ÎÌÌÏÎÌÏÍÏÎÏÏÏÎÎÍÎÌÍÏÌÌÌ; // 0x20
+        public UnityEngine.UI.Text ÍÎÌÌÏÏÏÌÌÎÏÏÍÍÍÎÌÏÌÌÎÏÏ; // 0x28
+
         // ── Methods ──
         public void IndexOf_3FBAAAC528DA(){} // RVA: 0x18AD0B0
         public void OnDisable(){} // RVA: 0x18ACCD0
@@ -252,6 +275,8 @@ namespace VRC.Texture
     /// <summary>Originally: ÎÏÌÎÎÍÏÍÏÎÎÌÏÌÎÏÌÏÍÌÏÎÍ</summary>
     public class TextureCalculateLayoutInputHorSibling_B992
     {
+        public float ÍÏÏÌÌÏÏÌÎÌÎÍÍÏÎÏÏÍÍÍÌÍÌ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12470
         public void Initialize(){} // RVA: 0x1B124D0
@@ -276,7 +301,8 @@ namespace VRC.Texture
     /// <summary>Originally: ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ</summary>
     public class TextureCalculateLayoutInputHorSibling_D16A
     {
-        public object _d16A;
+        public TMPro.TextMeshProUGUI _d16A; // 0x20
+        public TMPro.TextMeshProUGUI ÍÎÌÌÏÏÏÌÌÎÏÏÍÍÍÎÌÏÌÌÎÏÏ; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x18AC5E0
@@ -300,6 +326,13 @@ namespace VRC.Texture
     /// <summary>Originally: ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ</summary>
     public class TextureCalculateLayoutInputHorSibling_F9FE
     {
+        public ÍÏÎÏÏÏÌÍÏÏÍÏÌÎÌÌÏÏÍÌÎÌÌ ÌÍÎÍÎÏÌÎÏÍÎÌÏÏÌÎÍÍÎÍÍÏÏ; // 0xD0
+        public VRC.Localization.LocalizableString ÍÍÎÎÏÌÍÌÍÎÍÏÍÏÍÍÌÌÍÌÏÌÏ; // 0xD8
+        public UnityEngine.Color ÌÏÌÍÍÍÏÌÍÍÌÌÌÎÎÌÍÏÍÏÏÌÎ; // 0x100
+        public float ÏÏÍÍÏÏÎÏÏÏÎÎÎÍÌÍÎÌÌÍÍÎÌ; // 0x110
+        public 0x659891B0 ÏÌÌÍÎÌÍÏÏÎÍÏÎÏÌÏÎÎÏÌÎÎÌ; // 0x114
+        public 0x65989208 ÎÏÍÍÏÎÎÎÎÌÎÍÎÍÏÏÎÎÏÍÏÌÎ; // 0x118
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Awake(){} // RVA: 0x9414F80
@@ -344,6 +377,14 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ</summary>
     public class TextureCalculateLayoutInputHoriztext_B04C
     {
+        public VRC.Localization.LocalizableString _localizableString; // 0x7A8
+        public UnityEngine.UI.LayoutElement _copyPrefHeightTo; // 0x7D0
+        public bool _copyPrefWidth; // 0x7D8
+        public 0x6594ACD0 _prefSizeMode; // 0x7DC
+        public bool _forceMinWidthToMatchPreferredWidth; // 0x7E0
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<VRC.Localization.LocalizableString> ÌÍÏÌÍÍÌÌÍÍÌÌÍÍÍÏÍÎÌÎÏÏÎ; // 0x7E8
+        public bool ÎÎÏÍÎÍÏÏÎÎÏÎÎÌÌÎÌÎÏÏÍÎÍ; // 0x7F0
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x92FC530
         public void set_text(){} // RVA: 0x92FC940
@@ -380,6 +421,8 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÏÌÌÎÎÎÏÎÎÍÌÌÍÏÎÌÌÌÏÏÎÌ</summary>
     public class TextureIntoReferenceImpl_3656
     {
+        public 0x6588AF20 ÌÌÏÍÍÎÏÌÏÌÏÍÍÎÍÏÌÍÌÎÎÏÎ; // 0x28
+
         // ── Methods ──
         public void CopyReferenceIntoArray(){} // RVA: 0x14E8A60
         public void .ctor(){} // RVA: 0x2DDD50
@@ -400,6 +443,33 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ</summary>
     public class TextureRefreshCleanupComponent_F63A
     {
+        public UnityEngine.Sprite _favoriteIcon; // 0x20
+        public UnityEngine.Sprite _authoredIcon; // 0x28
+        public UnityEngine.Sprite _licensedIcon; // 0x30
+        public UnityEngine.Sprite _recentIcon; // 0x38
+        public UnityEngine.Sprite _vrcPlusFavoriteIcon; // 0x40
+        public ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public string ÍÌÎÌÏÌÎÍÍÏÎÏÏÏÌÎÏÍÎÍÌÏÌ;
+        public string ÎÌÌÌÌÎÏÍÌÎÎÏÎÌÎÍÏÏÎÎÍÎÍ;
+        public int ÌÏÌÏÏÍÍÏÍÏÌÎÏÏÍÌÏÎÍÍÏÍÏ;
+        public ÏÍÍÏÏÏÎÎÌÎÌÏÌÌÎÎÏÏÌÏÏÍÌ ÎÌÌÏÏÏÌÏÌÏÌÎÎÍÎÌÍÍÍÍÏÏÎ; // 0x48
+        public System.Collections.Generic.HashSet`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> ÍÍÌÏÎÏÏÍÌÌÌÍÌÏÏÌÎÌÍÎÍÎÌ; // 0x50
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÎÍÎÌÎÌÎÎÍÍÏÏÌÏÎÌÌÏÏÏÍÌ>k__BackingField; // 0x58
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÎÍÍÏÎÍÍÌÎÎÌÌÌÎÏÏÌÌÌÌÌÎ>k__BackingField; // 0x60
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÏÎÏÏÏÍÍÍÍÏÏÎÏÌÏÍÏÍÏÎÌÍ>k__BackingField; // 0x68
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÎÌÏÌÌÏÍÏÎÌÌÏÌÎÌÎÌÍÌÌÎÌÌ>k__BackingField; // 0x70
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÍÌÎÍÌÏÏÌÏÎÏÌÎÍÍÎÎÎÎÍÍÏ>k__BackingField; // 0x78
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÍÌÏÍÎÎÍÏÌÏÎÌÍÎÎÏÏÌÌÍÏÏ>k__BackingField; // 0x80
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÏÌÏÌÌÏÏÌÍÌÎÍÍÎÎÏÌÍÏÎÎÎ>k__BackingField; // 0x88
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÎÎÎÍÏÏÎÌÌÍÏÎÏÌÍÏÌÏÌÍÍÏ>k__BackingField; // 0x90
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÌÌÍÍÍÎÌÍÍÏÍÍÎÏÌÌÎÍÍÍÎÎ>k__BackingField; // 0x98
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÍÎÎÌÍÏÎÏÍÏÌÏÌÏÎÌÍÌÏÏÍÎ>k__BackingField; // 0xA0
+        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÎÏÌÌÎÍÍÍÌÌÍÏÏÌÌÍÎÌÏÌÌÏÎ>k__BackingField; // 0xA8
+        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÍÌÍÏÎÎÍÍÍÎÏÍÎÌÌÌÎÍÍÏÏÏÍ>k__BackingField; // 0xB0
+        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÌÍÍÏÍÏÎÏÌÎÎÎÏÏÎÌÎÌÎÎÏÌÏ>k__BackingField; // 0xB8
+        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÎÎÏÏÌÎÍÏÍÎÌÎÌÎÍÌÏÌÎÏÎÏÏ>k__BackingField; // 0xC0
+        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÌÎÍÎÍÌÌÎÍÎÍÍÎÎÌÏÌÍÌÍÌÍÏ>k__BackingField; // 0xC8
+
         // ── Methods ──
         public void GetComponentTransform(){} // RVA: 0x4C7C50
         public void .ctor(){} // RVA: 0xCF24D0
@@ -474,6 +544,8 @@ namespace VRC.Texture
     /// <summary>Originally: ÍÌÍÎÌÌÏÏÌÏÏÌÏÎÏÌÏÎÍÌÏÎÎ</summary>
     public class TransformTextureHandler_8F3C
     {
+        public 0x65713D40 ÌÌÍÍÌÏÏÏÍÎÌÌÌÎÎÎÌÏÏÎÍÏÍ; // 0x10
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void BuildTransformTexture_9E79223A106D(){} // RVA: 0x149DF80
@@ -503,7 +575,7 @@ namespace VRC.Texture
     /// <summary>Originally: ÏÏÎÌÍÏÏÍÌÏÏÎÎÌÍÎÍÏÏÍÎÍÍ</summary>
     public class hasTexture_5536
     {
-        public object hasTexture;
+        public UnityEngine.UI.Button hasTexture; // 0x20
 
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x912AEB0

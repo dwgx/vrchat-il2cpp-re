@@ -7,6 +7,53 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class TensorsToDetectionsCalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.TensorsToDetectionsCalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int NumClassesDefaultValue; // 0x8
+        public int numClasses_; // 0x1C
+        public int NumBoxesDefaultValue; // 0xC
+        public int numBoxes_; // 0x20
+        public int NumCoordsDefaultValue; // 0x10
+        public int numCoords_; // 0x24
+        public int KeypointCoordOffsetDefaultValue; // 0x14
+        public int keypointCoordOffset_; // 0x28
+        public int NumKeypointsDefaultValue; // 0x18
+        public int numKeypoints_; // 0x2C
+        public int NumValuesPerKeypointDefaultValue; // 0x1C
+        public int numValuesPerKeypoint_; // 0x30
+        public int BoxCoordOffsetDefaultValue; // 0x20
+        public int boxCoordOffset_; // 0x34
+        public float XScaleDefaultValue; // 0x24
+        public float xScale_; // 0x38
+        public float YScaleDefaultValue; // 0x28
+        public float yScale_; // 0x3C
+        public float WScaleDefaultValue; // 0x2C
+        public float wScale_; // 0x40
+        public float HScaleDefaultValue; // 0x30
+        public float hScale_; // 0x44
+        public bool ApplyExponentialOnBoxSizeDefaultValue; // 0x34
+        public bool applyExponentialOnBoxSize_; // 0x48
+        public bool ReverseOutputOrderDefaultValue; // 0x35
+        public bool reverseOutputOrder_; // 0x49
+        public Google.Protobuf.FieldCodec`1<int> _repeated_ignoreClasses_codec; // 0x38
+        public Google.Protobuf.Collections.RepeatedField`1<int> ignoreClasses_; // 0x50
+        public Google.Protobuf.FieldCodec`1<int> _repeated_allowClasses_codec; // 0x40
+        public Google.Protobuf.Collections.RepeatedField`1<int> allowClasses_; // 0x58
+        public bool SigmoidScoreDefaultValue; // 0x48
+        public bool sigmoidScore_; // 0x60
+        public float ScoreClippingThreshDefaultValue; // 0x4C
+        public float scoreClippingThresh_; // 0x64
+        public bool FlipVerticallyDefaultValue; // 0x50
+        public bool flipVertically_; // 0x68
+        public float MinScoreThreshDefaultValue; // 0x54
+        public float minScoreThresh_; // 0x6C
+        public int MaxResultsDefaultValue; // 0x58
+        public int maxResults_; // 0x70
+        public TensorMapping tensorMapping_; // 0x78
+        public 0x6592D110 BoxFormatDefaultValue; // 0x5C
+        public 0x6592D110 boxFormat_; // 0x80
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AEB5C0
         public void get_Descriptor(){} // RVA: 0x5AEB620
@@ -110,6 +157,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class TensorsToDetectionsCalculatorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5AEA280
         public void .cctor(){} // RVA: 0x5AEA2E0
@@ -123,6 +172,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ThresholdingCalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ThresholdingCalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public double ThresholdDefaultValue; // 0x8
+        public double threshold_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF16E0
         public void get_Descriptor(){} // RVA: 0x5AF1740
@@ -146,7 +201,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ThresholdingCalculatorReflection
     {
-        public object _descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor _descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5AF0FD0

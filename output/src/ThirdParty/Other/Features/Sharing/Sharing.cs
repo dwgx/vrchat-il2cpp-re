@@ -7,6 +7,11 @@ namespace ThirdParty.Other.Features.Sharing
 {
     public class SharableContentData
     {
+        public bool _pendingSave; // 0x10
+        public ÌÏÏÎÏÏÎÍÎÌÌÌÏÍÎÌÍÏÍÏÏÌÏ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x18
+        public object <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x20
+        public string <ÌÌÎÎÏÏÍÍÎÎÌÏÍÎÌÍÏÏÍÍÏÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_OwnerID(){} // RVA: 0x30B130
         public void Equals(){} // RVA: 0x1A14860

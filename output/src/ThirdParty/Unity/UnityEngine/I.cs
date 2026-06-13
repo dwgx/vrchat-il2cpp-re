@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 21
-// Methods: 107
+// Classes: 27
+// Methods: 119
 
 namespace ThirdParty.Unity.UnityEngine
 {
@@ -158,6 +158,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class InspectorOrderAttribute
     {
+        public 0x6589B040 <m_inspectorSort>k__BackingField; // 0x10
+        public 0x6589B098 <m_sortDirection>k__BackingField; // 0x14
+
         // ── Methods ──
         public void get_m_inspectorSort(){} // RVA: 0x32A5C0
         public void get_m_sortDirection(){} // RVA: 0x8ABED0
@@ -165,6 +168,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystem
     {
+        public UIntPtr m_Ptr; // 0x10
+        public UnityEngine.ISubsystemDescriptor m_SubsystemDescriptor; // 0x18
+
         // ── Methods ──
         public void SetHandle(){} // RVA: 0x7259890
         public void Start(){} // RVA: 0x72598F0
@@ -178,6 +184,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystemDescriptor
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x7259CE0
         public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x671BFB0
@@ -193,10 +201,52 @@ namespace ThirdParty.Unity.UnityEngine
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class IntegratedSubsystemDescriptor`1
+    {
+        // ── Methods ──
+        public void CreateImpl(){} // RVA: 0x35C12E0
+        public void Create(){} // RVA: 0x35C1440
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class IntegratedSubsystemDescriptor`1
+    {
+        // ── Methods ──
+        public void CreateImpl(){} // RVA: 0x35C12E0
+        public void Create(){} // RVA: 0x35C1440
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class IntegratedSubsystemDescriptor`1
+    {
+        // ── Methods ──
+        public void CreateImpl(){} // RVA: 0x35C12E0
+        public void Create(){} // RVA: 0x35C1440
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class IntegratedSubsystem`1
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class IntegratedSubsystem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class IntegratedSubsystem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class IntegratedSubsystem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class Internal_DrawTextureArguments

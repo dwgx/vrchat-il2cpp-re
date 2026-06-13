@@ -7,6 +7,8 @@ namespace VRC.SDK3.Internal.EventPortals
 {
     public class VRCEventPortalManager
     {
+        public VRC.SDK3.Internal.EventPortals.Interfaces.IEventPortalManager _eventPortalManager; // 0x20
+
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x76E7280
         public void set_Initialize(){} // RVA: 0x76E72C0

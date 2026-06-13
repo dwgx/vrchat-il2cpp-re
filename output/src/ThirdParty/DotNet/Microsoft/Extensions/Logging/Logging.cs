@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Microsoft.Extensions.Logging
-// Classes: 37
-// Methods: 219
+// Classes: 41
+// Methods: 223
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 {
@@ -28,6 +28,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class EventId
     {
+        public int <Id>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x18
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x5BA8870
         public void op_Equality(){} // RVA: 0x5BA88D0
@@ -50,6 +53,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class FormattedLogValues
     {
+        public int MaxCachedFormatters;
+        public string NullFormat;
+        public int s_count;
+
         // ── Methods ──
         public void get_Formatter(){} // RVA: 0x1AD4690
         public void .ctor(){} // RVA: 0x5BA8A30
@@ -93,6 +100,18 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     {
     }
 
+    public class ILogger`1
+    {
+    }
+
+    public class ILogger`1
+    {
+    }
+
+    public class ILogger`1
+    {
+    }
+
     public class ILoggingBuilder
     {
         // ── Methods ──
@@ -107,6 +126,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LogDefineOptions
     {
+        public bool <SkipEnabledCheck>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_SkipEnabledCheck(){} // RVA: 0x3A75E0
         public void set_SkipEnabledCheck(){} // RVA: 0x3A75F0
@@ -115,8 +136,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LogValuesFormatter
     {
-        public object Loggers;
-        public object MessageLoggers;
+        public string Loggers;
+        public char[] MessageLoggers;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BAC390
@@ -136,6 +157,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class Logger
     {
+        public string _categoryName; // 0x10
+        public Microsoft.Extensions.Logging.LoggerInformation[] <Loggers>k__BackingField; // 0x18
+        public Microsoft.Extensions.Logging.MessageLogger[] <MessageLoggers>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_Loggers(){} // RVA: 0x2E07C0
@@ -199,6 +224,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactoryOptions
     {
+        public 0x659F3AB0 <ActivityTrackingOptions>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ActivityTrackingOptions(){} // RVA: 0x32A5C0
@@ -217,6 +244,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFilterOptions
     {
+        public bool <CaptureScopes>k__BackingField; // 0x10
+        public 0x659DBCC8 <MinLevel>k__BackingField; // 0x14
+        public System.Collections.Generic.List`1<Microsoft.Extensions.Logging.LoggerFilterRule> <RulesInternal>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB46E0
         public void get_CaptureScopes(){} // RVA: 0x3A75E0
@@ -228,6 +259,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFilterRule
     {
+        public string <ProviderName>k__BackingField; // 0x10
+        public string <CategoryName>k__BackingField; // 0x18
+        public System.Nullable`1<0x659DBCC8> <LogLevel>k__BackingField; // 0x20
+        public System.Func`4<string,string,0x659DBCC8,bool> <Filter>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB47A0
         public void get_ProviderName(){} // RVA: 0x2F8380
@@ -239,6 +275,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerInformation
     {
+        public Microsoft.Extensions.Logging.ILogger <Logger>k__BackingField; // 0x10
+        public string <Category>k__BackingField; // 0x18
+        public System.Type <ProviderType>k__BackingField; // 0x20
+        public bool <ExternalScope>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB4E20
         public void get_Logger(){} // RVA: 0x1AD4690
@@ -257,6 +298,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerMessageAttribute
     {
+        public int <EventId>k__BackingField; // 0x10
+        public string <EventName>k__BackingField; // 0x18
+        public 0x659DBCC8 <Level>k__BackingField; // 0x20
+        public string <Message>k__BackingField; // 0x28
+        public bool <SkipEnabledCheck>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BAC290 | overloaded x5
         public void get_EventId(){} // RVA: 0x32A5C0
@@ -291,6 +338,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggingBuilder : `
     {
+        public Microsoft.Extensions.DependencyInjection.IServiceCollection <Services>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Services(){} // RVA: 0x2F8380
@@ -298,6 +347,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class MessageLogger
     {
+        public Microsoft.Extensions.Logging.ILogger <Logger>k__BackingField; // 0x10
+        public string <Category>k__BackingField; // 0x18
+        public string <ProviderTypeFullName>k__BackingField; // 0x20
+        public System.Nullable`1<0x659DBCC8> <MinLevel>k__BackingField; // 0x28
+        public System.Func`4<string,string,0x659DBCC8,bool> <Filter>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB4C10
         public void get_Logger(){} // RVA: 0x1AD4690
@@ -310,6 +365,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class NullExternalScopeProvider : Instance
     {
+        public Microsoft.Extensions.Logging.IExternalScopeProvider <Instance>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Instance(){} // RVA: 0x5BADA30
@@ -320,6 +377,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class NullScope
     {
+        public Microsoft.Extensions.Logging.NullScope <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5BADBD0
         public void .ctor(){} // RVA: 0x2DD310
@@ -327,8 +386,22 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
         public void .cctor(){} // RVA: 0x5BADC30
     }
 
+    public class NullScope : 
+00
+    {
+        public Microsoft.Extensions.Logging.NullScope <Instance>k__BackingField;
+
+        // ── Methods ──
+        public void get_Instance(){} // RVA: 0x5BB5A10
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x5BB5A70
+    }
+
     public class ProfilerMarkerDataType
     {
+        public Microsoft.Extensions.Logging.LoggerFilterOptions <CurrentValue>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB5750
         public void OnChange(){} // RVA: 0x519240
@@ -349,8 +422,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class ScopeLogger
     {
-        public object ScopeStackContainer;
-        public object ScopeAndClientStack;
+        public Microsoft.Extensions.Logging.ILogger ScopeStackContainer; // 0x10
+        public Microsoft.Extensions.Logging.IExternalScopeProvider ScopeAndClientStack; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x19B3510

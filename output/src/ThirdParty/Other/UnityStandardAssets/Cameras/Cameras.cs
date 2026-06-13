@@ -7,6 +7,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
 {
     public class AbstractTargetFollower
     {
+        public UnityEngine.Transform m_Target; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x313E20
         public void FixedUpdate(){} // RVA: 0x3141E0
@@ -61,7 +63,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
 
     public class ProtectCameraFromWallClip
     {
-        public object _protecting;
+        public float _protecting; // 0x20
 
         // ── Methods ──
         public void get_protecting(){} // RVA: 0x313C20

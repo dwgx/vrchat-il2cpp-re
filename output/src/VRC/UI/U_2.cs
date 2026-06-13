@@ -8,6 +8,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÏÎÎÎÎÏÏÏÌÍÎÌÍÏÎÏÌÍÏÏÎ</summary>
     public class UIAnimationHandler_7F87
     {
+        public int ÍÎÎÌÏÌÎÏÌÎÍÍÌÍÍÎÎÍÏÎÌÌÎ;
+        public int ÏÌÍÍÌÏÎÏÍÍÍÍÍÎÍÏÎÏÎÌÍÎÏ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1A39880
         public void Initialize(){} // RVA: 0x1A39920
@@ -134,6 +137,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ</summary>
     public class UICompareTo_4BAB
     {
+        public ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ ÎÎÌÌÎÍÏÌÍÍÌÏÍÍÎÏÍÏÌÍÍÏÍ; // 0x10
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0xFE9840
         public void .ctor(){} // RVA: 0xFE9990
@@ -158,7 +163,7 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÎÌÏÍÏÌÎÍÌÎÎÍÍÍÎÍÍÌÏÍÌ</summary>
     public class UIHandler_ABB7
     {
-        public object _aBB7;
+        public ÏÍÏÍÏÏÌÏÍÏÏÎÏÎÎÌÍÌÍÎÎÏÏ _aBB7;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x2084870
@@ -168,6 +173,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÌÏÌÍÌÏÌÌÌÍÍÌÌÎÏÏÏÎÍÍÎ</summary>
     public class UILogOnceEveryFormatLogWarningFormat_ABCD_472E
     {
+        public UnityEngine.Object ÎÌÍÌÍÌÍÎÌÎÎÍÎÌÏÏÏÌÌÍÎÌÍ; // 0x10
+
         // ── Methods ──
         public void LogOnceEvery(){} // RVA: 0x11A05C0
         public void LogWarningFormat(){} // RVA: 0x11A0680
@@ -213,6 +220,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÌÍÍÏÍÍÍÍÎÏÍÌÏÎÍÍÎÎÎÌÎ</summary>
     public class UIObservableList_113E
     {
+        public UnityEngine.UI.GridLayoutGroup _layoutGroup; // 0x60
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x9064C10
         public void .ctor(){} // RVA: 0x9065220
@@ -354,6 +363,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÍÌÏÍÍÏÍÍÎÏÌÏÍÏÍÍÍÍÎÏÏÍ</summary>
     public class UIReceiveAnalyticsSessionIdLaunchClientToT_6CF3
     {
+        public System.Lazy`1<ÏÍÏÎÍÎÌÍÍÎÏÌÎÎÎÌÎÏÎÎÍÌÎ> ÏÍÌÎÌÏÏÏÎÍÎÏÏÏÌÎÎÏÎÍÍÏÌ;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x1930760
         public void Awake(){} // RVA: 0x19308D0
@@ -437,6 +448,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÏÎÎÎÍÌÍÎÍÌÏÌÏÏÏÍÎÏÍÍÎÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_11C7
     {
+        public ÌÎÍÌÍÏÏÍÎÌÎÎÎÌÎÎÏÏÎÎÎÏÍ ÍÌÏÍÍÌÌÎÏÎÌÍÎÏÌÎÍÍÏÏÏÎÍ; // 0x128
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x935F5D0
         public void Initialize(){} // RVA: 0x935F610
@@ -460,6 +473,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÎÍÎÌÏÎÌÍÏÍÍÌÍÌÍÌÎÎÍÌÌ</summary>
     public class UIRectTransformDimensionsChBefSibling_1960
     {
+        public ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ ÏÌÎÍÎÍÏÎÏÌÌÏÎÎÎÏÏÌÎÍÏÌÌ; // 0x128
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x2DD310
         public void .ctor(){} // RVA: 0x9344010
@@ -491,6 +506,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÍÏÍÌÏÏÍÌÍÍÍÎÍÌÏÎÍÎÎÌÏ</summary>
     public class UIRectTransformDimensionsChBefSibling_2C65
     {
+        public System.Action ÏÏÏÎÍÎÎÎÌÎÎÍÏÎÍÎÏÏÏÍÍÍÎ; // 0x128
+
         // ── Methods ──
         public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x4F4FDC0
         public void ConfigureRectTransform(){} // RVA: 0x935E150
@@ -528,6 +545,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÌÌÌÎÍÍÎÎÏÎÍÍÌÎÎÌÎÍÏÍÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_32B5
     {
+        public UnityEngine.RectTransform ÌÌÏÎÍÎÌÎÍÌÍÌÎÍÍÎÏÍÍÎÏÏÏ; // 0x128
+
         // ── Methods ──
         public void DropImmediate(){} // RVA: 0x935D320
         public void DropImmediate_BFE2F870FCF3(){} // RVA: 0x935D9A0
@@ -555,6 +574,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÎÌÌÏÌÌÏÍÍÍÍÎÎÎÎÏÏÌÏÌÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_377E
     {
+        public System.Action`1<bool> ÏÎÍÏÏÏÎÍÏÎÌÎÌÎÍÌÍÌÏÏÍÎÌ; // 0x128
+
         // ── Methods ──
         public void set_AllowOfflineVSyncDisable(){} // RVA: 0x627A610
         public void GetEnumerator(){} // RVA: 0x934C0C0
@@ -683,6 +704,8 @@ namespace VRC.UI
     /// <summary>Originally: ÍÍÎÎÌÏÎÍÍÏÌÍÎÏÎÎÎÎÌÎÌÏÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_6435
     {
+        public int ÏÍÏÍÎÌÌÏÎÏÏÌÍÏÏÌÏÎÎÏÎÎÍ;
+
         // ── Methods ──
         public void UseFABRIK(){} // RVA: 0x93CA5A0
         public void UseFABRIK_F28D6BE73C04(){} // RVA: 0x93CA620
@@ -739,6 +762,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÏÌÍÎÎÍÍÌÎÏÎÌÌÌÎÍÌÍÍÎÌ</summary>
     public class UIRectTransformDimensionsChBefSibling_68B7
     {
+        public ÍÎÌÎÏÎÌÍÏÍÍÍÌÎÌÎÎÏÍÏÎÎÍ ÎÍÌÏÍÎÎÌÎÌÎÎÍÍÏÌÍÌÍÌÎÌÎ; // 0x128
+
         // ── Methods ──
         public void GetLocalPosition(){} // RVA: 0x93569A0
         public void ScaleByInertia(){} // RVA: 0x9356AD0
@@ -795,6 +820,10 @@ namespace VRC.UI
     /// <summary>Originally: ÎÍÌÍÏÏÎÎÎÎÌÍÏÍÎÍÌÍÌÍÏÎÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_7584
     {
+        public ÎÎÍÏÌÎÎÌÍÎÏÌÌÍÎÏÏÎÌÎÌÍÎ ÍÎÌÎÍÎÍÏÏÍÎÎÍÍÏÌÏÏÌÏÌÍÌ; // 0x90
+        public UnityEngine.GameObject ÏÌÎÎÌÌÍÍÍÍÎÏÏÌÌÍÌÍÍÏÌÍÏ; // 0x98
+        public bool ÍÍÎÍÍÌÏÍÏÌÌÍÏÍÎÏÌÏÎÎÌÍÌ; // 0xA0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9394FC0
         public void Initialize(){} // RVA: 0x9395000
@@ -909,6 +938,9 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÏÎÌÍÏÌÌÍÌÏÏÌÎÏÌÏÌÎÏÌÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_A60D
     {
+        public ÏÏÍÎÌÏÎÏÏÍÎÎÍÍÌÍÏÌÏÎÎÌÎ ÎÍÏÎÍÏÏÌÌÌÏÍÎÎÌÍÏÎÎÍÌÏÍ; // 0x10
+        public ÏÍÌÌÎÌÍÌÎÌÍÎÍÍÏÎÏÎÏÎÎÌÎ ÏÌÌÌÌÌÌÎÌÏÌÏÌÍÎÍÏÌÏÌÍÌÏ; // 0x18
+
         // ── Methods ──
         public void InitialEntropyCodes(){} // RVA: 0x8FF8E70
         public void get_EffectBundleID(){} // RVA: 0x9B7650
@@ -922,6 +954,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÏÍÏÎÏÎÍÏÌÏÏÎÍÌÍÌÏÏÏÏÍÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_B1C1
     {
+        public ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ ÎÎÌÏÏÌÏÍÎÏÎÍÍÌÏÍÏÏÎÎÍÌÍ; // 0x128
+
         // ── Methods ──
         public void IsActive(){} // RVA: 0x9344E60
         public void .ctor(){} // RVA: 0x9344F00
@@ -945,6 +979,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÍÏÌÍÍÎÏÍÍÍÏÍÌÍÎÍÌÌÍÎÌ</summary>
     public class UIRectTransformDimensionsChBefSibling_BB68
     {
+        public ÍÎÌÎÏÎÌÍÏÍÍÍÌÎÌÎÎÏÍÏÎÎÍ ÎÍÌÏÍÎÎÌÎÌÎÎÍÍÏÌÍÌÍÌÎÌÎ; // 0x128
+
         // ── Methods ──
         public void get_MainCamera_1922BC71A742(){} // RVA: 0x9352360
         public void get_MainCamera(){} // RVA: 0x9352370
@@ -1030,6 +1066,8 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÏÌÌÏÏÍÌÎÍÌÍÏÌÌÏÎÏÍÌÍÌ</summary>
     public class UIRectTransformDimensionsChBefSibling_F0AE
     {
+        public System.Action`1<0x65988B80> ÎÌÏÏÎÏÍÍÏÎÏÏÌÏÎÎÍÌÎÌÏÌÎ; // 0x128
+
         // ── Methods ──
         public void set_element(){} // RVA: 0xD18B70
         public void .ctor(){} // RVA: 0x934FA90
@@ -1067,6 +1105,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÏÎÏÎÍÍÎÎÏÍÌÍÍÎÍÎÍÌÏÍÏÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_F6DB
     {
+        public ÌÏÏÏÍÍÌÍÍÏÌÏÎÎÏÌÏÎÏÍÎÏÏ ÍÎÍÍÍÏÍÏÌÎÏÍÌÎÏÏÎÎÍÌÌÎÍ; // 0x128
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9354320
         public void StringToHash(){} // RVA: 0x93544D0
@@ -1088,6 +1128,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÍÍÍÍÍÎÍÌÏÏÎÎÏÏÌÌÎÍÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_FB5E
     {
+        public System.Action ÌÌÌÍÎÌÎÎÍÍÍÌÍÌÎÍÎÎÏÍÏÏÏ; // 0x128
+
         // ── Methods ──
         public void OnDidApplyAnimationProperties(){} // RVA: 0x9331050
         public void set_element(){} // RVA: 0xD18B70
@@ -1119,6 +1161,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FC4BC0
         public void MemSet(){} // RVA: 0x4FC5740
@@ -1152,6 +1202,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F8DBB0
         public void MemSet(){} // RVA: 0x4F8E730
@@ -1185,6 +1243,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F52800
         public void MemSet(){} // RVA: 0x4F53760
@@ -1218,6 +1284,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FD9C20
         public void MemSet(){} // RVA: 0x4FDA720
@@ -1251,6 +1325,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FCF080
         public void MemSet(){} // RVA: 0x4FCFC40
@@ -1284,6 +1366,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F57DF0
         public void MemSet(){} // RVA: 0x4F58950
@@ -1317,6 +1407,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F4AA20
         public void MemSet(){} // RVA: 0x4F4B420
@@ -1350,6 +1448,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F9DBA0
         public void MemSet(){} // RVA: 0x4F9EA70
@@ -1383,6 +1489,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F4FCB0
         public void MemSet(){} // RVA: 0x4F508F0
@@ -1416,6 +1530,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FC7580
         public void MemSet(){} // RVA: 0x4FC8130
@@ -1449,6 +1571,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FD43B0
         public void MemSet(){} // RVA: 0x4FD56A0
@@ -1560,6 +1690,12 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÍÍÎÎÏÎÍÎÏÎÍÎÎÍÍÍÎÎÏÎÌ</summary>
     public class UIScroll_0704
     {
+        public UnityEngine.UI.RawImage avatarImage; // 0x20
+        public ÎÏÌÍÌÎÌÌÏÌÎÍÍÌÌÌÎÎÏÎÍÏÍ dragHandler; // 0x28
+        public UnityEngine.UI.Button cameraButton; // 0x30
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ cameraButtonText; // 0x38
+        public VRC.IMDraw imDraw; // 0x40
+
         // ── Methods ──
         public void DecodeLiteralBlockSwitch(){} // RVA: 0x8FD0810
         public void SafeDecodeLiteralBlockSwitch(){} // RVA: 0x8FD0950
@@ -1722,6 +1858,10 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÌÍÍÌÎÍÎÍÏÍÎÍÌÏÎÎÌÍÌÏÎ</summary>
     public class UIShowScreenButtonHideScreenSibling_8113
     {
+        public ÎÌÌÍÍÌÎÍÎÍÏÍÎÍÌÏÎÎÌÍÌÏÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÎÎÎÎÎÌÍÎÏÎÌÏÍÌÏÍÌÏÏÎÏÍÎ debugUIHolder; // 0x20
+        public UnityEngine.RectTransform debugUIRootTransform; // 0x28
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0xA3F0C0
         public void OnPointerExit(){} // RVA: 0x4354D0
@@ -1748,6 +1888,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÎÏÎÌÌÏÌÌÌÏÌÏÌÏÌÌÌÎÌÎÌ</summary>
     public class UIShowTabContentSiblingSibling_258A
     {
+        public System.Action`1<ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ> ÏÏÏÏÍÎÏÎÏÍÎÌÌÏÏÌÎÍÌÎÌÏÏ; // 0x10
+        public System.Collections.Generic.List`1<ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ> ÌÌÏÌÎÎÍÌÍÌÏÌÍÎÌÏÍÏÏÍÍÏÏ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BFE000
         public void Initialize(){} // RVA: 0x8BFE130
@@ -1767,6 +1910,10 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ</summary>
     public class UIShowTabContent_E50A
     {
+        public System.Action`1<ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ> ÍÌÌÎÏÎÌÌÏÏÌÏÍÎÎÎÍÌÏÌÍÌÍ; // 0x20
+        public System.Action`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> ÎÏÍÍÎÌÎÌÎÍÍÏÌÍÌÌÍÌÏÎÌÎÍ; // 0x28
+        public ÎÏÍÏÍÎÌÏÍÎÍÌÏÎÎÌÎÍÌÍÎÌÏ[] ÌÎÌÍÏÏÎÌÌÎÏÏÎÌÎÎÏÎÌÍÏÌÍ; // 0x30
+
         // ── Methods ──
         public void ObjectType(){} // RVA: 0x4354D0
         public void EqualsObject(){} // RVA: 0x8BEB790
@@ -1855,6 +2002,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÎÍÏÎÍÌÌÎÌÌÍÎÍÌÏÍÎÌÍÏÏ</summary>
     public class UIToggleExtendSibling_234D
     {
+        public ÏÍÎÎÎÍÌÌÍÎÎÌÍÎÏÎÎÌÎÏÌÏÍ ÍÍÍÎÏÎÏÏÎÏÌÌÎÎÏÎÎÍÍÌÎÌÍ; // 0x118
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x185D630
         public void OnDisable(){} // RVA: 0x185D760
@@ -1885,6 +2034,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÏÏÎÌÏÏÍÎÍÌÌÌÏÍÎÏÎÎÏÏÌÏ</summary>
     public class UIToggleExtend_0567
     {
+        public UnityEngine.Canvas canvas; // 0x20
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x10E5CF0
         public void OnPointerExit(){} // RVA: 0x1876910
@@ -1946,6 +2097,11 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÌÎÎÎÍÏÌÌÌÏÌÏÌÎÍÍÍÏÏÌÏ</summary>
     public class UITransformTransformHandler_3291
     {
+        public ÍÏÌÎÎÎÍÏÌÌÌÏÌÏÌÎÍÍÍÏÏÌÏ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public string ÎÍÏÍÎÍÎÎÌÎÌÌÌÏÌÌÌÏÍÍÍÍÏ;
+        public string ÌÎÌÏÌÎÎÍÏÏÏÌÏÏÏÌÏÍÎÏÍÎÎ;
+        public 0x656FF238 ÍÏÍÎÏÎÍÎÎÌÎÌÏÍÎÌÎÌÎÏÎÌÏ; // 0x8
+
         // ── Methods ──
         public void NotifyTransformChanged(){} // RVA: 0x1846FE0
         public void InvokeTransformChangedHandlers(){} // RVA: 0x1847250
@@ -1993,6 +2149,11 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÎÎÍÌÏÌÌÎÏÍÏÌÎÌÎÍÌÎÌÌÏ</summary>
     public class UIUITransformHandler_A3D5
     {
+        public string ÎÏÎÏÍÎÏÎÎÌÏÍÍÎÍÎÏÌÌÍÏÍÍ;
+        public string ÏÍÎÏÎÎÌÎÏÌÏÏÍÍÎÏÎÌÏÌÏÎÎ;
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ ÎÏÏÍÎÎÎÏÏÌÌÌÏÏÍÏÌÏÎÏÎÌÎ; // 0x10
+
         // ── Methods ──
         public void GetRect(){} // RVA: 0x11AF130
         public void AddPositionOffset(){} // RVA: 0x11AF2E0

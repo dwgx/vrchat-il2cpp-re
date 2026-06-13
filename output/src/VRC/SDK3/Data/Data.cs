@@ -7,6 +7,10 @@ namespace VRC.SDK3.Data
 {
     public class DataDictionary
     {
+        public System.Collections.Generic.Dictionary`2<VRC.SDK3.Data.DataToken,VRC.SDK3.Data.DataToken> _values; // 0x10
+        public bool <IsReadOnly>k__BackingField; // 0x18
+        public VRC.SDK3.Data.DataList keyCache; // 0x20
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x9A1C8C0
         public void get_IsReadOnly(){} // RVA: 0x2F84E0
@@ -37,6 +41,9 @@ namespace VRC.SDK3.Data
 
     public class DataList
     {
+        public System.Collections.Generic.List`1<VRC.SDK3.Data.DataToken> _values; // 0x10
+        public bool <IsReadOnly>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x5
         public void get_Count(){} // RVA: 0x9A27F20
@@ -79,6 +86,22 @@ namespace VRC.SDK3.Data
 
     public class DataToken
     {
+        public string _string; // 0x10
+        public object _reference; // 0x10
+        public bool _boolean; // 0x18
+        public sbyte _sbyte; // 0x18
+        public byte _byte; // 0x18
+        public short _short; // 0x18
+        public ushort _ushort; // 0x18
+        public int _int; // 0x18
+        public uint _uint; // 0x18
+        public long _long; // 0x18
+        public ulong _ulong; // 0x18
+        public float _float; // 0x18
+        public double _double; // 0x18
+        public 0x6597D9C8 _error; // 0x18
+        public 0x6597DA20 _tokenType; // 0x20
+
         // ── Methods ──
         public void get_TokenType(){} // RVA: 0x3A75E0
         public void get_IsEmpty(){} // RVA: 0xB84FF0
@@ -116,6 +139,8 @@ namespace VRC.SDK3.Data
 
     public class JsonDictionary
     {
+        public string _source; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A30FF0
         public void get_Count(){} // RVA: 0x9A311A0

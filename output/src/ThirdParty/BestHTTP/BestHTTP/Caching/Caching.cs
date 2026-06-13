@@ -7,6 +7,20 @@ namespace ThirdParty.BestHTTP.BestHTTP.Caching
 {
     public class HTTPCacheFileInfo
     {
+        public System.Uri <Uri>k__BackingField; // 0x10
+        public System.DateTime <LastAccess>k__BackingField; // 0x18
+        public int <BodyLength>k__BackingField; // 0x20
+        public string <ETag>k__BackingField; // 0x28
+        public string <LastModified>k__BackingField; // 0x30
+        public System.DateTime <Expires>k__BackingField; // 0x38
+        public long <Age>k__BackingField; // 0x40
+        public long <MaxAge>k__BackingField; // 0x48
+        public System.DateTime <Date>k__BackingField; // 0x50
+        public bool <MustRevalidate>k__BackingField; // 0x58
+        public System.DateTime <Received>k__BackingField; // 0x60
+        public string <ConstructedPath>k__BackingField; // 0x68
+        public ulong <MappedNameIDX>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_Uri(){} // RVA: 0x2F8380
         public void set_Uri(){} // RVA: 0x2DEE30
@@ -53,6 +67,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Caching
 
     public class HTTPCacheMaintananceParams
     {
+        public System.TimeSpan <DeleteOlder>k__BackingField; // 0x10
+        public ulong <MaxCacheSize>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_DeleteOlder(){} // RVA: 0x2F8380
         public void set_DeleteOlder(){} // RVA: 0x1967700
@@ -63,6 +80,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.Caching
 
     public class HTTPCacheService
     {
+        public int LibraryVersion;
+        public bool isSupported;
+        public bool IsSupportCheckDone; // 0x1
+        public System.Collections.Generic.Dictionary`2<System.Uri,BestHTTP.Caching.HTTPCacheFileInfo> library; // 0x8
+
         // ── Methods ──
         public void get_IsSupported(){} // RVA: 0x98339D0
         public void get_CacheFolder(){} // RVA: 0x9833C80

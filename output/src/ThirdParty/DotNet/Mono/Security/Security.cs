@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Mono.Security
-// Classes: 4
-// Methods: 32
+// Classes: 6
+// Methods: 51
 
 namespace ThirdParty.DotNet.Mono.Security
 {
     public class ASN1
     {
+        public byte m_nTag; // 0x10
+        public byte[] m_aValue; // 0x18
+        public System.Collections.ArrayList elist; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BB6B40 | overloaded x3
         public void get_Count(){} // RVA: 0x5BB6D10
@@ -23,6 +27,22 @@ namespace ThirdParty.DotNet.Mono.Security
         public void get_Item(){} // RVA: 0x5BB7D40
         public void Element(){} // RVA: 0x5BB7E10
         public void ToString(){} // RVA: 0x5BB7F00
+    }
+
+    public class ASN1
+    {
+        public byte m_nTag; // 0x10
+        public byte[] m_aValue; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5C051B0 | overloaded x3
+        public void get_Count(){} // RVA: 0x5BB6D10
+        public void get_Value(){} // RVA: 0x5C05380
+        public void Add(){} // RVA: 0x5C05420
+        public void GetBytes(){} // RVA: 0x5C05510
+        public void Decode(){} // RVA: 0x5C05BB0
+        public void DecodeTLV(){} // RVA: 0x5C05FF0
+        public void ToString(){} // RVA: 0x5C06140
     }
 
     public class ASN1Convert
@@ -47,6 +67,18 @@ namespace ThirdParty.DotNet.Mono.Security
         public void ToInt32(){} // RVA: 0x5BB94E0
         public void ToUInt16(){} // RVA: 0x5BB9550
         public void ToUInt32(){} // RVA: 0x5BB94E0
+    }
+
+    public class BitConverterLE
+    {
+        // ── Methods ──
+        public void GetUIntBytes(){} // RVA: 0x5C06540
+        public void GetULongBytes(){} // RVA: 0x5C065D0
+        public void GetBytes(){} // RVA: 0x5C067B0 | overloaded x3
+        public void UIntFromBytes(){} // RVA: 0x5BB9470
+        public void ULongFromBytes(){} // RVA: 0x5C06880
+        public void ToSingle(){} // RVA: 0x5C068C0
+        public void ToDouble(){} // RVA: 0x5C06940
     }
 
     public class PKCS7

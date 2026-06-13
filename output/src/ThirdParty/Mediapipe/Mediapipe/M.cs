@@ -7,6 +7,17 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class MatrixData
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.MatrixData> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int RowsDefaultValue; // 0x8
+        public int rows_; // 0x1C
+        public int ColsDefaultValue; // 0xC
+        public int cols_; // 0x20
+        public Google.Protobuf.FieldCodec`1<float> _repeated_packedData_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<float> packedData_; // 0x28
+        public 0x6592EEF8 LayoutDefaultValue; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B1D6F0
         public void get_Descriptor(){} // RVA: 0x5B1D750
@@ -39,6 +50,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MatrixDataReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B1D000
         public void .cctor(){} // RVA: 0x5B1D060
@@ -52,6 +65,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediaPipeOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.MediaPipeOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Mediapipe.MediaPipeOptions> _extensions; // 0x18
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5B21DA0
@@ -83,6 +100,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediapipeOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B21910
         public void .cctor(){} // RVA: 0x5B21970
@@ -90,6 +109,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MpResourceHandle
     {
+        public UIntPtr _ptr; // 0x18
+
         // ── Methods ──
         public void get_ptr(){} // RVA: 0x2E07C0
         public void set_ptr(){} // RVA: 0x5AD35D0

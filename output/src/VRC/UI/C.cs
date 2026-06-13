@@ -85,6 +85,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÎÏÌÌÍÍÍÌÎÎÍÎÍÏÏÏÏÎÌÏÎ</summary>
     public class ConditionElementUIComponent_3620
     {
+        public VRC.Localization.LocalizableString ÍÎÎÏÎÍÏÌÍÌÌÍÏÎÌÎÌÍÍÍÏÌÌ;
+
         // ── Methods ──
         public void UnregisterMainCallback(){} // RVA: 0xDA8A90
         public void NormalizeConditionElementPositions(){} // RVA: 0x91736F0

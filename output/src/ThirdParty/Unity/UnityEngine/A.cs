@@ -252,6 +252,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaException
     {
+        public string mJavaStackTrace; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x707C6A0
         public void get_StackTrace(){} // RVA: 0x707C770
@@ -415,6 +417,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationCurve
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void Internal_Destroy(){} // RVA: 0x70B92B0
         public void Internal_Create(){} // RVA: 0x70B9300
@@ -453,6 +457,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationEvent
     {
+        public float m_Time; // 0x10
+        public string m_FunctionName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x708F4E0
         public void get_stringParameter(){} // RVA: 0x6A24380
@@ -731,8 +738,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorClipInfo
     {
-        public object weight;
-        public object constraintActive;
+        public int weight; // 0x10
+        public float constraintActive; // 0x14
 
         // ── Methods ──
         public void get_clip(){} // RVA: 0x7090150
@@ -742,6 +749,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorControllerParameter
     {
+        public string m_Name; // 0x10
+        public 0x659C0628 m_Type; // 0x18
+        public float m_DefaultFloat; // 0x1C
+        public int m_DefaultInt; // 0x20
+        public bool m_DefaultBool; // 0x24
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x33B6D40
         public void get_nameHash(){} // RVA: 0x7096F60
@@ -760,6 +773,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorOverrideController
     {
+        public OnOverrideControllerDirtyCallback OnOverrideControllerDirty; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7097240 | overloaded x2
         public void Internal_Create(){} // RVA: 0x7097330
@@ -782,8 +797,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorStateInfo
     {
-        public object clip;
-        public object weight;
+        public int clip; // 0x10
+        public int weight; // 0x14
+        public int m_FullPath; // 0x18
+        public float m_NormalizedTime; // 0x1C
+        public float m_Length; // 0x20
+        public float m_Speed; // 0x24
+        public float m_SpeedMultiplier; // 0x28
+        public int m_Tag; // 0x2C
 
         // ── Methods ──
         public void IsName(){} // RVA: 0x7090200
@@ -800,6 +821,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorTransitionInfo
     {
+        public int m_FullPath; // 0x10
+        public int m_UserName; // 0x14
+        public int m_Name; // 0x18
+        public bool m_HasFixedDuration; // 0x1C
+        public float m_Duration; // 0x20
+        public float m_NormalizedTime; // 0x24
+        public bool m_AnyState; // 0x28
+
         // ── Methods ──
         public void IsName(){} // RVA: 0x70902F0
         public void IsUserName(){} // RVA: 0x70903B0
@@ -822,6 +851,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Application
     {
+        public LowMemoryCallback lowMemory;
+        public MemoryUsageChangedCallback memoryUsageChanged; // 0x8
+        public LogCallback s_LogCallbackHandler; // 0x10
+        public LogCallback s_LogCallbackHandlerThreaded; // 0x18
+        public System.Action`1<bool> focusChanged; // 0x20
+        public System.Action`1<string> deepLinkActivated; // 0x28
+        public System.Func`1<bool> wantsToQuit; // 0x30
+        public System.Action quitting; // 0x38
+        public System.Action unloading; // 0x40
+        public System.Threading.CancellationTokenSource s_currentCancellationTokenSource; // 0x48
+
         // ── Methods ──
         public void Quit(){} // RVA: 0x70BA4B0 | overloaded x2
         public void get_isPlaying(){} // RVA: 0x70BA530
@@ -878,6 +918,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ApplicationMemoryUsageChange
     {
+        public 0x658951B8 <memoryUsage>k__BackingField; // 0x10
+
         // ── Methods ──
         public void set_memoryUsage(){} // RVA: 0x833580
         public void .ctor(){} // RVA: 0x833580
@@ -986,7 +1028,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncInstantiateOperation
     {
-        public object isDone;
+        public UnityEngine.Object[] isDone; // 0x20
 
         // ── Methods ──
         public void get_Result(){} // RVA: 0x6A24380
@@ -1000,6 +1042,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncInstantiateOperation`1
     {
+        public UnityEngine.AsyncInstantiateOperation m_op;
+
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0xDBE0
         public void add_completed(){} // RVA: 0x24B10
@@ -1011,6 +1055,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncOperation
     {
+        public UIntPtr m_Ptr; // 0x10
+        public System.Action`1<UnityEngine.AsyncOperation> m_completeCallback; // 0x18
+
         // ── Methods ──
         public void InternalDestroy(){} // RVA: 0x7120E90
         public void get_isDone(){} // RVA: 0x7120EE0
@@ -1068,6 +1115,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioClip
     {
+        public PCMReaderCallback m_PCMReaderCallback; // 0x18
+        public PCMSetPositionCallback m_PCMSetPositionCallback; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70AB490
         public void GetData(){} // RVA: 0x70ABB30 | overloaded x2
@@ -1284,6 +1334,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioSettings
     {
+        public AudioConfigurationChangeHandler OnAudioConfigurationChanged;
+        public System.Action OnAudioSystemShuttingDown; // 0x8
+        public System.Action OnAudioSystemStartedUp; // 0x10
+
         // ── Methods ──
         public void GetSpeakerMode(){} // RVA: 0x70AAE50
         public void SetConfiguration(){} // RVA: 0x70AAEA0

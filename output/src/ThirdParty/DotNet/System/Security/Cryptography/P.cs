@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class PKCS1MaskGenerationMethod
     {
+        public string HashNameValue; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C833D0
         public void get_HashName(){} // RVA: 0x2F8380
@@ -16,6 +18,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class PasswordDeriveBytes
     {
+        public int _extraCount; // 0x10
+        public int _prefix; // 0x14
+        public int _iterations; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C81BD0 | overloaded x8
         public void get_HashName(){} // RVA: 0x4976A0
@@ -35,6 +41,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class PbeParameters
     {
+        public 0x657E8CD8 <EncryptionAlgorithm>k__BackingField; // 0x10
+        public System.Security.Cryptography.HashAlgorithmName <HashAlgorithm>k__BackingField; // 0x18
+        public int <IterationCount>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_EncryptionAlgorithm(){} // RVA: 0x32A5C0
         public void get_HashAlgorithm(){} // RVA: 0x2E07C0

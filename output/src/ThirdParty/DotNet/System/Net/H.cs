@@ -13,6 +13,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HeaderInfoTable
     {
+        public System.Collections.Hashtable HeaderHashTable;
+
         // ── Methods ──
         public void ParseSingleValue(){} // RVA: 0x6B2A860
         public void ParseMultiValue(){} // RVA: 0x6B2A8D0
@@ -30,6 +32,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HeaderVariantInfo
     {
+        public string m_name; // 0x10
+        public 0x65856CD8 m_variant; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x820840
         public void get_Name(){} // RVA: 0x1AD4690
@@ -38,6 +43,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpConnection
     {
+        public System.AsyncCallback onread_cb;
+        public int BufferSize;
+        public System.Net.Sockets.Socket sock; // 0x10
+        public System.IO.Stream stream; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B514A0
         public void Init(){} // RVA: 0x6B51950
@@ -71,6 +81,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpListener
     {
+        public Mono.Security.Interface.MonoTlsProvider tlsProvider; // 0x10
+        public Mono.Security.Interface.MonoTlsSettings tlsSettings; // 0x18
+        public System.Security.Cryptography.X509Certificates.X509Certificate certificate; // 0x20
+        public 0x65855730 auth_schemes; // 0x28
+        public System.Net.HttpListenerPrefixCollection prefixes; // 0x30
+        public System.Net.AuthenticationSchemeSelector auth_selector; // 0x38
+
         // ── Methods ──
         public void LoadCertificateAndKey(){} // RVA: 0x6B53D40
         public void CreateSslStream(){} // RVA: 0x6B542B0
@@ -105,6 +122,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpListenerContext
     {
+        public System.Net.HttpListenerRequest request; // 0x10
+        public System.Net.HttpListenerResponse response; // 0x18
+        public System.Security.Principal.IPrincipal user; // 0x20
+        public System.Net.HttpConnection cnc; // 0x28
+        public string error; // 0x30
+        public int err_status; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B56F50
         public void get_ErrorStatus(){} // RVA: 0xFDC9F0
@@ -128,6 +152,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpListenerPrefixCollection
     {
+        public System.Collections.Generic.List`1<string> prefixes; // 0x10
+        public System.Net.HttpListener listener; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B57690
         public void get_Count(){} // RVA: 0x6B577B0
@@ -143,14 +170,17 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpListenerRequest
     {
-        public object ForceCloseChunked;
-        public object ContentEncoding;
-        public object ContentLength64;
-        public object ContentType;
-        public object Headers;
-        public object OutputStream;
-        public object SendChunked;
-        public object StatusCode;
+        public string[] ForceCloseChunked; // 0x10
+        public System.Text.Encoding ContentEncoding; // 0x18
+        public long ContentLength64; // 0x20
+        public bool ContentType; // 0x28
+        public System.Net.CookieCollection Headers; // 0x30
+        public System.Net.WebHeaderCollection OutputStream; // 0x38
+        public string SendChunked; // 0x40
+        public System.IO.Stream StatusCode; // 0x48
+        public System.Version version; // 0x50
+        public System.Collections.Specialized.NameValueCollection query_string; // 0x58
+        public string raw_url; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B57E00
@@ -199,6 +229,15 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpListenerResponse
     {
+        public bool disposed; // 0x10
+        public System.Text.Encoding content_encoding; // 0x18
+        public long content_length; // 0x20
+        public bool cl_set; // 0x28
+        public string content_type; // 0x30
+        public System.Net.CookieCollection cookies; // 0x38
+        public System.Net.WebHeaderCollection headers; // 0x40
+        public bool keep_alive; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B5B0A0
         public void get_ForceCloseChunked(){} // RVA: 0x86DB40
@@ -235,6 +274,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpStreamAsyncResult
     {
+        public object locker; // 0x10
+        public System.Threading.ManualResetEvent handle; // 0x18
+        public bool completed; // 0x20
+        public byte[] Buffer; // 0x28
+
         // ── Methods ──
         public void Complete(){} // RVA: 0x6B5D160 | overloaded x2
         public void get_AsyncState(){} // RVA: 0x35A740
@@ -259,6 +303,48 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpWebRequest
     {
+        public System.Uri requestUri; // 0x38
+        public System.Uri actualUri; // 0x40
+        public bool hostChanged; // 0x48
+        public bool allowAutoRedirect; // 0x49
+        public bool allowBuffering; // 0x4A
+        public bool allowReadStreamBuffering; // 0x4B
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates; // 0x50
+        public string connectionGroup; // 0x58
+        public bool haveContentLength; // 0x60
+        public long contentLength; // 0x68
+        public System.Net.HttpContinueDelegate continueDelegate; // 0x70
+        public System.Net.CookieContainer cookieContainer; // 0x78
+        public System.Net.ICredentials credentials; // 0x80
+        public bool haveResponse; // 0x88
+        public bool requestSent; // 0x89
+        public System.Net.WebHeaderCollection webHeaders; // 0x90
+        public bool keepAlive; // 0x98
+        public int maxAutoRedirect; // 0x9C
+        public string mediaType; // 0xA0
+        public string method; // 0xA8
+        public string initialMethod; // 0xB0
+        public bool pipelined; // 0xB8
+        public bool preAuthenticate; // 0xB9
+        public bool usedPreAuth; // 0xBA
+        public System.Version version; // 0xC0
+        public bool force_version; // 0xC8
+        public System.Version actualVersion; // 0xD0
+        public System.Net.IWebProxy proxy; // 0xD8
+        public bool sendChunked; // 0xE0
+        public System.Net.ServicePoint servicePoint; // 0xE8
+        public int timeout; // 0xF0
+        public int continueTimeout; // 0xF4
+        public System.Net.WebRequestStream writeStream; // 0xF8
+        public System.Net.HttpWebResponse webResponse; // 0x100
+        public System.Net.WebCompletionSource responseTask; // 0x108
+        public System.Net.WebOperation currentOperation; // 0x110
+        public int aborted; // 0x118
+        public bool gotRequestStream; // 0x11C
+        public int redirects; // 0x120
+        public bool expectContinue; // 0x124
+        public bool getResponseCalled; // 0x125
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6B5D700
         public void .ctor(){} // RVA: 0x6B64040 | overloaded x4
@@ -355,6 +441,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class HttpWebResponse
     {
+        public System.Uri uri; // 0x20
+        public System.Net.WebHeaderCollection webHeaders; // 0x28
+        public System.Net.CookieCollection cookieCollection; // 0x30
+        public string method; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B68000 | overloaded x4
         public void get_Headers(){} // RVA: 0x30B130

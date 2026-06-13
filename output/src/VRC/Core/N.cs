@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class NativeTextureSafeHandle
     {
+        public System.Collections.Concurrent.ConcurrentQueue`1<UIntPtr> _destructionQueue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BE7ED0 | overloaded x2
         public void ReleaseHandle(){} // RVA: 0x9A67730

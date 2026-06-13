@@ -24,6 +24,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÏÎÍÏÎÏÏÏÌÍÍÍÏÏÍÏÌÌÎÍÍÍ</summary>
     public class EffectBundleIDIsSpecialFXRelated_266D
     {
+        public ÏÌÍÎÏÍÏÌÌÌÎÍÏÏÌÎÍÎÏÌÏÍÍ ÎÍÎÍÏÌÍÏÍÎÍÎÎÎÌÎÍÍÍÌÍÏÎ; // 0x148
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF4C440
         public void Initialize(){} // RVA: 0xF4C600
@@ -36,6 +38,9 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÍÍÍÌÏÎÏÎÌÌÍÌÍÌÏÌÎÌÎÌÌÍ</summary>
     public class EffectBundleIDIsSpecialFXRelated_8BE5
     {
+        public string ÍÏÎÏÍÍÎÎÎÏÌÍÌÏÌÌÎÏÏÎÏÏÎ;
+        public ÎÏÍÌÎÎÍÏÍÏÌÎÍÌÌÏÎÍÌÍÍÌÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
         public void Contains(){} // RVA: 0xF26C80
@@ -62,6 +67,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÎÍÌÎÏÍÌÍÍÏÌÍÎÍÍÌÌÏÏÍÏÌ</summary>
     public class EffectBundleIDIsSpecialFXRelated_9139
     {
+        public ÏÍÏÍÎÌÏÌÎÏÌÎÎÏÌÏÌÏÏÍÍÎÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void CreateArrayInstance(){} // RVA: 0xFC2E00
         public void .ctor(){} // RVA: 0xEB5C10
@@ -87,6 +94,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÌÏÌÍÏÍÌÏÎÎÏÍÏÌÏÍÏÎÎÎÏÎ</summary>
     public class EffectBundleIDIsSpecialFXRelated_B80B
     {
+        public ÍÏÌÌÍÍÌÏÎÍÏÍÍÎÏÏÍÌÏÏÌÍÌ ÍÎÍÎÏÎÌÎÎÎÍÎÍÌÌÍÎÎÎÎÎÌÎ; // 0x148
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF27830
         public void Initialize(){} // RVA: 0xF279F0
@@ -99,6 +108,10 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÏÍÎÏÍÏÎÌÎÍÏÍÎÍÍÍÌÏÏÌÏÍ</summary>
     public class EffectBundleIDIsSpecialFXRelated_E243
     {
+        public string ÍÏÍÍÏÏÏÎÎÎÌÏÎÍÍÌÎÏÍÏÌÌÍ;
+        public ÎÏÍÌÍÍÍÍÏÎÍÍÏÏÏÌÌÏÏÍÍÏÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+        public System.DateTime <ÏÌÎÏÌÍÍÍÎÎÍÍÎÎÏÎÏÏÎÌÎÍÍ>k__BackingField; // 0xC0
+
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0xEB5BA0
         public void .ctor(){} // RVA: 0xEB5C20 | overloaded x2
@@ -131,6 +144,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÏÎÏÎÍÌÍÎÏÏÌÏÌÎÏÌÍÌÏÎÍÌ</summary>
     public class EffectBundleIDIsSpecialFXSibliSibling_0FD8
     {
+        public ÏÌÎÍÏÏÌÏÎÎÌÏÌÎÎÌÍÎÎÍÏÎÎ ÍÍÍÌÌÎÍÌÌÏÌÏÍÏÏÌÍÍÍÎÏÍÍ; // 0xB8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xEB5C10
         public void Initialize(){} // RVA: 0x3480B0
@@ -148,6 +163,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÌÍÍÏÍÎÌÏÎÎÍÌÎÎÌÎÍÍÎÌÍÏ</summary>
     public class EffectBundleIDIsSpecialFXSibliSibling_86A7
     {
+        public VRC.Core.ApiProp ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x140
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7AB330
         public void get_Current_2D7539DB71C7(){} // RVA: 0x7AB380
@@ -179,6 +196,9 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÎÍÌÎÎÎÎÍÎÍÎÌÌÏÌÌÌÌÎÌÏÏ</summary>
     public class EffectBundleIDIsSpecialFXSibliSibling_D14E
     {
+        public string ÍÍÎÌÏÎÏÍÍÌÌÏÎÏÏÏÍÎÍÎÌÌÍ;
+        public string ÎÍÌÍÌÏÌÍÍÎÎÎÎÏÌÎÎÎÍÎÎÏÌ; // 0x148
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xEF4A40
         public void Initialize(){} // RVA: 0xEF4D90
@@ -194,6 +214,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÍÍÏÌÌÎÍÎÎÍÍÍÏÍÍÎÏÏÌÏÌÍ</summary>
     public class EffectBundleIDIsSpecialFXSibling_02C3
     {
+        public ÌÍÍÏÎÏÏÎÍÍÍÏÍÍÌÍÍÍÌÏÍÎÎ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent_CA8FB71474BC(){} // RVA: 0x3480B0
@@ -214,6 +236,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÎÍÎÌÏÍÏÎÎÍÍÌÎÌÏÏÎÍÎÎÎÏ</summary>
     public class EffectBundleIDIsSpecialFX_5D40
     {
+        public ÌÎÌÌÌÏÏÌÍÏÍÎÌÍÏÎÍÍÏÎÌÌÎ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void get_IsSpecialFX_A776A06E3930(){} // RVA: 0x1B8D900
         public void .ctor(){} // RVA: 0xEB5C10
@@ -235,6 +259,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÍÏÎÏÌÍÌÏÎÍÎÍÎÍÍÏÌÍÍÍÍÍ</summary>
     public class EffectBundleIDIsSpecialFX_89FA
     {
+        public ÎÎÌÎÏÏÌÎÏÎÎÍÍÍÌÏÏÍÌÍÌÎÌ ÌÍÏÍÏÌÍÏÏÍÎÍÎÌÌÌÌÏÏÍÎÎÌ; // 0xB8
+
         // ── Methods ──
         public void set_IsSpecialFX(){} // RVA: 0x2DD320
         public void get_EffectBundleID_8E01FDDE064B(){} // RVA: 0x1C39F90
@@ -255,6 +281,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÏÎÏÌÏÎÎÎÏÏÏÌÍÍÌÍÎÏÍÏÎÏ</summary>
     public class EffectBundleIDIsSpecialFX_A663
     {
+        public ÌÎÌÌÌÏÏÌÍÏÍÎÌÍÏÎÍÍÏÎÌÌÎ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void set_EffectBundleID(){} // RVA: 0x1B8E490
         public void set_IsSpecialFX(){} // RVA: 0x348600
@@ -310,6 +338,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÎÏÍÎÌÍÌÏÎÏÍÌÏÎÏÌÎÎÏÏÏÎÌ</summary>
     public class ParticleHandler_1815
     {
+        public UnityEngine.UI.Button reportGroupButton; // 0x40
+
         // ── Methods ──
         public void Update(){} // RVA: 0x8D98DA0
         public void Update_2B4F45D701AE(){} // RVA: 0x11D95B0
@@ -621,6 +651,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÎÍÎÎÎÍÍÏÎÎÌÎÏÏÏÍÎÍÍÌÎÍ</summary>
     public class ParticleRectTransformComponent_12D7
     {
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ statusListBinding; // 0x138
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8D535B0
         public void Initialize(){} // RVA: 0x8D537E0
@@ -653,6 +685,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÌÍÏÎÍÍÌÎÏÎÌÎÍÌÏÍÍÏÌÌÎÌÌ</summary>
     public class VFXBundleInfo
     {
+        public ÏÎÎÏÎÏÎÎÌÎÌÎÍÌÎÍÏÍÍÍÎÏÌ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void get_EffectBundleID_4D52D745230E(){} // RVA: 0x1C3AB40
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x348600

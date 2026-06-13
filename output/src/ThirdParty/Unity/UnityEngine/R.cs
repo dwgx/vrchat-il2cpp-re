@@ -33,6 +33,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RangeInt
     {
+        public int start; // 0x10
+
         // ── Methods ──
         public void get_end(){} // RVA: 0x712AD00
         public void .ctor(){} // RVA: 0x8AE010
@@ -40,6 +42,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Ray
     {
+        public UnityEngine.Vector3 m_Origin; // 0x10
+        public UnityEngine.Vector3 m_Direction; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70CD9D0
         public void get_origin(){} // RVA: 0x7079450
@@ -52,6 +57,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastCommand
     {
+        public UnityEngine.Vector3 <from>k__BackingField; // 0x10
+        public UnityEngine.Vector3 <direction>k__BackingField; // 0x1C
+        public UnityEngine.PhysicsScene <physicsScene>k__BackingField; // 0x28
+        public float <distance>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void set_from(){} // RVA: 0x210E450
         public void set_direction(){} // RVA: 0x7079490
@@ -64,6 +74,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit
     {
+        public UnityEngine.Vector3 m_Point; // 0x10
+        public UnityEngine.Vector3 m_Normal; // 0x1C
+        public uint m_FaceID; // 0x28
+        public float m_Distance; // 0x2C
+        public UnityEngine.Vector2 m_UV; // 0x30
+        public int m_Collider; // 0x38
+
         // ── Methods ──
         public void get_collider(){} // RVA: 0x71FC440
         public void get_colliderInstanceID(){} // RVA: 0x43DB8C0
@@ -88,6 +105,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit2D
     {
+        public UnityEngine.Vector2 m_Centroid; // 0x10
+        public UnityEngine.Vector2 m_Point; // 0x18
+        public UnityEngine.Vector2 m_Normal; // 0x20
+        public float m_Distance; // 0x28
+        public float m_Fraction; // 0x2C
+        public int m_Collider; // 0x30
+
         // ── Methods ──
         public void get_centroid(){} // RVA: 0x2738C50
         public void set_centroid(){} // RVA: 0x1B12320
@@ -108,6 +132,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Rect
     {
+        public float m_XMin; // 0x10
+        public float m_YMin; // 0x14
+        public float m_Width; // 0x18
+        public float m_Height; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1F783A0 | overloaded x3
         public void get_zero(){} // RVA: 0x70CDCA0
@@ -153,6 +182,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectInt
     {
+        public int m_XMin; // 0x10
+        public int m_YMin; // 0x14
+        public int m_Width; // 0x18
+        public int m_Height; // 0x1C
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x67FD0D0
         public void set_x(){} // RVA: 0x833580
@@ -174,6 +208,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectOffset
     {
+        public UIntPtr m_Ptr; // 0x10
+        public object m_SourceStyle; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70CF180 | overloaded x3
         public void Finalize(){} // RVA: 0x70CF0E0
@@ -197,6 +234,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectTransform
     {
+        public ReapplyDrivenProperties reapplyDrivenProperties;
+
         // ── Methods ──
         public void add_reapplyDrivenProperties(){} // RVA: 0x7135E50
         public void remove_reapplyDrivenProperties(){} // RVA: 0x7135F60
@@ -265,6 +304,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ReflectionProbe
     {
+        public System.Action`2<UnityEngine.ReflectionProbe,0x65895D68> reflectionProbeChanged;
+        public System.Collections.Generic.Dictionary`2<int,System.Action`1<UnityEngine.Texture>> registeredDefaultReflectionSetActions; // 0x8
+        public System.Collections.Generic.List`1<System.Action`1<UnityEngine.Texture>> registeredDefaultReflectionTextureActions; // 0x10
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x70C4240
         public void set_type(){} // RVA: 0x70C4290
@@ -346,6 +389,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RefreshRate
     {
+        public uint numerator; // 0x10
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x70D3620
         public void Equals(){} // RVA: 0x70D3640
@@ -416,6 +461,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RenderParams
     {
+        public int <layer>k__BackingField; // 0x10
+        public uint <renderingLayerMask>k__BackingField; // 0x14
+        public int <rendererPriority>k__BackingField; // 0x18
+        public UnityEngine.Bounds <worldBounds>k__BackingField; // 0x1C
+        public UnityEngine.Camera <camera>k__BackingField; // 0x38
+        public 0x65898758 <motionVectorMode>k__BackingField; // 0x40
+        public 0x658A2C00 <reflectionProbeUsage>k__BackingField; // 0x44
+        public UnityEngine.Material <material>k__BackingField; // 0x48
+        public UnityEngine.MaterialPropertyBlock <matProps>k__BackingField; // 0x50
+        public 0x658A2998 <shadowCastingMode>k__BackingField; // 0x58
+        public bool <receiveShadows>k__BackingField; // 0x5C
+        public 0x658A2EC0 <lightProbeUsage>k__BackingField; // 0x60
+        public UnityEngine.LightProbeProxyVolume <lightProbeProxyVolume>k__BackingField; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70D9BE0
         public void set_layer(){} // RVA: 0x833580
@@ -613,6 +672,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RenderTextureDescriptor
     {
+        public int <width>k__BackingField; // 0x10
+        public int <height>k__BackingField; // 0x14
+        public int <msaaSamples>k__BackingField; // 0x18
+        public int <volumeDepth>k__BackingField; // 0x1C
+        public int <mipCount>k__BackingField; // 0x20
+        public 0x658A5800 _graphicsFormat; // 0x24
+        public 0x658A5800 <stencilFormat>k__BackingField; // 0x28
+        public 0x658A5800 <depthStencilFormat>k__BackingField; // 0x2C
+        public 0x658A2FC8 <dimension>k__BackingField; // 0x30
+        public 0x658A2E68 <shadowSamplingMode>k__BackingField; // 0x34
+        public 0x658981D8 <vrUsage>k__BackingField; // 0x38
+        public 0x65898230 _flags; // 0x3C
+        public 0x658982E0 <memoryless>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x19689B0
         public void set_width(){} // RVA: 0x833580
@@ -796,8 +869,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Resolution
     {
-        public object asset;
-        public object GetResult;
+        public int asset; // 0x10
+        public int GetResult; // 0x14
+        public UnityEngine.RefreshRate m_RefreshRate; // 0x18
 
         // ── Methods ──
         public void get_width(){} // RVA: 0x67FD0D0
@@ -812,6 +886,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ResourceRequest
     {
+        public string m_Path; // 0x20
+
         // ── Methods ──
         public void GetResult(){} // RVA: 0x71203F0
         public void get_asset(){} // RVA: 0x391BC0
@@ -832,6 +908,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ResourcesAPI
     {
+        public UnityEngine.ResourcesAPI s_DefaultAPI;
+        public UnityEngine.ResourcesAPI <overrideAPI>k__BackingField; // 0x8
+
         // ── Methods ──
         public void get_ActiveAPI(){} // RVA: 0x71205C0
         public void get_overrideAPI(){} // RVA: 0x7120680
@@ -1173,6 +1252,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RuntimeInitializeOnLoadMethodAttribute
     {
+        public 0x6589B300 m_LoadType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0 | overloaded x2
         public void set_loadType(){} // RVA: 0x2E00C0

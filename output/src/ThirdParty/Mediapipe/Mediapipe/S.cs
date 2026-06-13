@@ -78,6 +78,15 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusHandlerConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.StatusHandlerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string StatusHandlerDefaultValue; // 0x8
+        public string statusHandler_; // 0x18
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x20
+        public Google.Protobuf.FieldCodec`1<string> _repeated_externalInput_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<string> externalInput_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B2A210
         public void get_Descriptor(){} // RVA: 0x5B2A270
@@ -105,6 +114,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusHandlerReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B29B60
         public void .cctor(){} // RVA: 0x5B29BC0
@@ -120,6 +131,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StreamHandlerReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B2B830
         public void .cctor(){} // RVA: 0x5B2B890

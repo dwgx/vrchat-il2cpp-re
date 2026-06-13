@@ -20,6 +20,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÎÌÍÏÌÎÌÏÍÎÌÍÌÌÍÏÏÏÎÎÏ</summary>
     public class UICompareDispose_241DSibling_AD04
     {
+        public 0x657C6C58 <ÏÍÎÌÏÎÎÎÏÌÎÍÏÍÍÎÍÌÌÎÌÏÏ>k__BackingField; // 0x28
+        public System.Nullable`1<System.ValueTuple`2<string,0x6571ACF8>> ÍÍÍÏÌÎÌÍÍÌÍÌÌÏÎÍÍÍÎÌÍÎÎ; // 0x30
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x1BBF9C0
         public void CompareTo_E40ADDE2FB63(){} // RVA: 0x1BBFB00
@@ -86,6 +89,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÏÎÍÎÎÌÌÎÏÌÌÎÌÍÍÍÎÍÎÌÌ</summary>
     public class UIMaxContentCountObservableList_D870
     {
+        public ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ ÎÏÎÌÌÎÎÌÏÍÌÏÌÍÏÍÌÏÌÏÎÍÍ; // 0x68
+        public UnityEngine.GameObject increaseYourLimitText; // 0x70
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x9091330
         public void OnDestroy(){} // RVA: 0x9091780
@@ -115,6 +121,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÌÌÍÍÏÏÍÌÎÍÌÍÌÍÍÏÍÍÍÎÌÌ</summary>
     public class UIObservableList_5B1E_1CDF
     {
+        public UnityEngine.GameObject noGalleryPanel; // 0x70
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x8D969B0
         public void set_ObservableList(){} // RVA: 0x8D96B30
@@ -137,6 +145,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÌÎÎÍÌÌÎÎÍÌÍÏÍÌÏÎÎÏÏÍÍ</summary>
     public class UIQuaternionHandler_9EA8
     {
+        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStats ÌÌÏÌÏÏÎÌÌÏÌÎÌÌÍÌÌÌÌÍÌÎÍ; // 0x10
+
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x9B7650
         public void get_Expression(){} // RVA: 0xB2EEA0
@@ -166,6 +176,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ;
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField;
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField;
+        public T <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField;
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ;
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField;
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField;
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ;
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField;
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ;
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x25130
@@ -194,6 +216,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÍÏÌÍÎÌÎÌÌÎÎÏÌÍÍÎÍÌÎÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -222,6 +256,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public string <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -250,6 +296,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÍÌÍÌÍÏÏÏÍÏÍÏÍÌÍÎÌÏÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -278,6 +336,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public bool <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -306,6 +376,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÏÏÎÏÌÌÎÎÎÍÎÏÎÌÌÍÌÌÏÎÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -334,6 +416,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÎÏÎÎÏÎÍÍÍÌÌÌÍÍÎÎÎÌÎÌÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -362,6 +456,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -390,6 +496,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÏÍÎÎÎÏÌÍÌÎÏÎÎÌÌÏÍÏÎÌÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -418,6 +536,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÍÌÎÌÍÍÍÎÏÎÍÌÌÎÎÍÎÎÌÏÌÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -446,6 +576,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÏÌÌÎÌÏÍÍÎÌÌÍÍÌÎÎÎÍÌÌÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -474,6 +616,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÍÌÏÍÍÎÍÌÍÏÏÍÍÏÍÎÌÎÎÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -502,6 +656,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÍÎÍÎÏÎÌÍÎÍÏÎÌÍÍÏÍÌÏÎÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -530,6 +696,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÌÎÎÍÎÏÍÎÍÌÎÏÎÎÌÎÏÌÌÎÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -558,6 +736,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÍÎÏÍÍÍÌÍÍÎÍÏÏÌÎÏÌÎÌÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -586,6 +776,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÌÎÎÍÎÎÎÍÏÏÏÌÏÍÍÍÌÍÍÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -614,6 +816,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÏÏÌÎÍÏÌÏÍÏÌÎÎÌÌÏÌÎÏÌÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -642,6 +856,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÍÏÌÌÍÍÍÍÏÍÌÌÎÍÎÏÌÏÍÎÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x50
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x58
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x60
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x68
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x70
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x78
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -670,6 +896,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÎÍÏÌÎÎÎÏÍÌÌÌÍÌÎÍÍÍÏÌÍÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -698,6 +936,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÎÏÌÍÎÌÏÎÏÎÏÏÌÎÏÍÎÌÏÌÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -726,6 +976,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÏÌÎÌÎÍÏÌÌÌÌÍÍÍÍÍÍÌÌÎÏÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x60
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x68
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x70
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x78
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x80
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x88
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -754,6 +1016,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÌÎÍÍÎÎÌÍÎÌÏÏÌÌÏÎÎÌÍÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -782,6 +1056,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÎÎÏÎÏÌÌÎÌÏÎÎÌÏÌÍÍÍÏÏÏÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -810,6 +1096,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÎÍÎÌÍÏÍÏÍÏÌÏÌÍÎÏÌÏÏÌÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -838,6 +1136,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÌÌÌÏÍÍÍÎÌÌÍÌÎÎÍÏÌÏÎÍÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x80
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x88
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x90
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x98
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0xA0
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0xA8
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -866,6 +1176,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÏÍÍÏÍÌÍÌÏÌÎÍÍÎÎÌÌÎÌÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x58
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x60
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x68
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x70
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x78
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x80
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -894,6 +1216,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÌÌÎÍÌÎÌÎÏÍÎÏÍÏÏÌÍÌÏÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -922,6 +1256,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÎÎÍÍÏÍÌÌÏÎÏÍÎÏÏÎÏÏÏÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -950,6 +1296,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÍÏÎÎÌÍÍÍÏÍÎÌÌÎÌÌÏÍÎÏÌÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -978,6 +1336,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÏÏÎÍÌÍÎÌÌÏÌÍÏÍÍÍÏÍÏÍÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1006,6 +1376,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÏÏÏÏÏÌÎÍÌÍÌÎÌÎÏÎÍÎÏÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1034,6 +1416,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÏÍÌÌÌÍÍÍÏÌÍÏÍÏÍÌÌÎÍÏÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1062,6 +1456,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÏÎÍÏÎÎÌÌÎÌÏÍÍÎÏÏÏÎÌÏÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1090,6 +1496,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÏÌÎÌÏÌÎÌÌÍÎÍÌÌÎÎÌÏÍÎÍÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1118,6 +1536,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÎÌÏÎÎÍÍÍÏÌÌÌÌÍÎÍÌÍÏÏÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1146,6 +1576,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public 0x65963458 <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1174,6 +1616,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÌÌÍÍÎÌÍÌÍÏÏÍÌÎÏÍÏÍÍÎÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1202,6 +1656,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public System.Collections.Generic.IEnumerable`1<ÎÌÎÎÌÎÏÌÌÎÏÎÌÏÌÌÏÍÌÎÍÏÎ> <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1230,6 +1696,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÏÌÌÍÌÏÏÎÏÏÏÏÍÍÌÌÍÎÍÎÍÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1258,6 +1736,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÌÏÌÏÏÎÍÍÌÏÏÎÏÎÍÍÍÌÎÏÍÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1286,6 +1776,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÍÌÌÍÌÌÏÌÎÏÌÏÏÌÎÍÏÍÍÌÏÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1314,6 +1816,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÌÍÏÍÎÏÌÍÍÌÍÍÌÏÏÎÌÎÌÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x90
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x98
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0xA0
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0xA8
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0xB0
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0xB8
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1342,6 +1856,18 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_1299
     {
+        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
+        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÍÏÌÍÎÍÌÍÏÍÌÍÍÏÏÏÏÌÍÍÍÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
+        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
@@ -1513,6 +2039,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÌÍÍÏÌÌÏÌÎÍÍÌÎÌÏÏÎÏÍÍÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_FD4B
     {
+        public ÍÎÌÎÏÎÌÍÏÍÍÍÌÎÌÎÎÏÍÏÎÎÍ ÎÍÌÏÍÎÎÌÎÌÎÎÍÍÏÌÍÌÍÌÎÌÎ; // 0x128
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93556F0
         public void Initialize(){} // RVA: 0x2DD310
@@ -1532,6 +2060,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<T> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ;
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ;
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ;
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField;
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ;
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ;
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ;
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void MemSet(){} // RVA: 0x24A50
@@ -1565,6 +2101,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F55590
         public void MemSet(){} // RVA: 0x4F56040
@@ -1598,6 +2142,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F8AF20
         public void MemSet(){} // RVA: 0x4F8BD70
@@ -1631,6 +2183,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FD1A30
         public void MemSet(){} // RVA: 0x4FD2490
@@ -1664,6 +2224,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F4D200
         public void MemSet(){} // RVA: 0x4F4DE50
@@ -1697,6 +2265,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FBF580
         public void MemSet(){} // RVA: 0x4FC0110
@@ -1730,6 +2306,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FBCCF0
         public void MemSet(){} // RVA: 0x4FBD7D0
@@ -1763,6 +2347,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FC9F40
         public void MemSet(){} // RVA: 0x4FCAA40
@@ -1796,6 +2388,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F44EF0
         public void MemSet(){} // RVA: 0x4F45B00
@@ -1829,6 +2429,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FBA530
         public void MemSet(){} // RVA: 0x4FBAF90
@@ -1862,6 +2470,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FCC7C0
         public void MemSet(){} // RVA: 0x4FCD2A0
@@ -1895,6 +2511,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FA0960
         public void MemSet(){} // RVA: 0x4FA16F0
@@ -1928,6 +2552,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FB5700
         public void MemSet(){} // RVA: 0x4FB60C0
@@ -1961,6 +2593,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F47AD0
         public void MemSet(){} // RVA: 0x4F48C10
@@ -1994,6 +2634,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F85850
         public void MemSet(){} // RVA: 0x4F863B0
@@ -2027,6 +2675,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FB2E90
         public void MemSet(){} // RVA: 0x4FB3980
@@ -2060,6 +2716,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F88230
         public void MemSet(){} // RVA: 0x4F89040
@@ -2093,6 +2757,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FC1F90
         public void MemSet(){} // RVA: 0x4FC2D60
@@ -2126,6 +2798,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FD74D0
         public void MemSet(){} // RVA: 0x4FD7E90
@@ -2159,6 +2839,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F957E0
         public void MemSet(){} // RVA: 0x4F96A50
@@ -2192,6 +2880,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F988A0
         public void MemSet(){} // RVA: 0x4F99300
@@ -2225,6 +2921,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F90540
         public void MemSet(){} // RVA: 0x4F910C0
@@ -2258,6 +2962,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FAB420
         public void MemSet(){} // RVA: 0x4FAC010
@@ -2291,6 +3003,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FB7E00
         public void MemSet(){} // RVA: 0x4FB87C0
@@ -2324,6 +3044,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FADDB0
         public void MemSet(){} // RVA: 0x4FAE770
@@ -2357,6 +3085,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FA5D90
         public void MemSet(){} // RVA: 0x4FA6910
@@ -2390,6 +3126,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÌÎÍÏÌÍÌÎÍÏÎÌÍÍÎÏÍÎÍÌÍÏ> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F9B100
         public void MemSet(){} // RVA: 0x4F9BCC0
@@ -2423,6 +3167,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FA34C0
         public void MemSet(){} // RVA: 0x4FA3FE0
@@ -2456,6 +3208,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FB0520
         public void MemSet(){} // RVA: 0x4FB10A0
@@ -2489,6 +3249,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FA87D0
         public void MemSet(){} // RVA: 0x4FA95D0
@@ -2522,6 +3290,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4FDC4D0
         public void MemSet(){} // RVA: 0x4FDD080
@@ -2555,6 +3331,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
+        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
+        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
+        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
+        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4F92E90
         public void MemSet(){} // RVA: 0x4F938F0

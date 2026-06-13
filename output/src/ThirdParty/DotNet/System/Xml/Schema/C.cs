@@ -25,7 +25,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class CompiledIdentityConstraint
     {
-        public object TableDim;
+        public System.Xml.XmlQualifiedName TableDim; // 0x10
+        public 0x6587B010 role; // 0x18
+        public System.Xml.Schema.Asttree selector; // 0x20
 
         // ── Methods ──
         public void get_Role(){} // RVA: 0x5BED50
@@ -114,7 +116,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class ConstraintStruct
     {
-        public object Column;
+        public System.Xml.Schema.CompiledIdentityConstraint Column; // 0x10
 
         // ── Methods ──
         public void get_TableDim(){} // RVA: 0xFDC9F0
@@ -123,6 +125,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class ContentValidator
     {
+        public 0x6587EFA8 contentType; // 0x10
+        public bool isOpen; // 0x14
+        public bool isEmptiable; // 0x15
+        public System.Xml.Schema.ContentValidator Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6ADC190 | overloaded x2
         public void get_ContentType(){} // RVA: 0x32A5C0

@@ -14,6 +14,10 @@ namespace VRC.Core
 
     public class ConfigManager
     {
+        public string KEY_DISABLE_UPGRADE_ACCOUNT;
+        public VRC.Core.Config.Interfaces.IReadWriteConfig <LocalConfig>k__BackingField;
+        public VRC.Core.Config.Interfaces.IReadWriteConfig <WorldConfig>k__BackingField; // 0x8
+
         // ── Methods ──
         public void get_LocalConfig(){} // RVA: 0x992D480
         public void set_LocalConfig(){} // RVA: 0x992D4C0

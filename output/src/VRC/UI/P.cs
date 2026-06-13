@@ -8,6 +8,10 @@ namespace VRC.UI
     /// <summary>Originally: ÍÍÍÍÏÎÍÏÌÏÌÎÌÌÌÌÌÍÏÏÌÍÌ</summary>
     public class PlayerDefaultRadioButtonGroupVa_4F90
     {
+        public ÎÍÏÍÍÏÏÎÎÍÌÏÌÏÎÏÌÎÏÏÍÎÎ ÍÏÏÍÎÍÏÎÍÏÌÍÏÍÌÏÏÌÌÎÏÏÎ; // 0x10
+        public ÌÌÍÎÏÌÎÎÌÍÌÎÌÏÏÍÎÍÍÎÌÍÎ <ÏÎÎÌÏÎÌÌÎÌÏÏÎÎÌÎÏÎÏÌÍÏÍ>k__BackingField; // 0x18
+        public int <ÎÌÎÏÍÎÍÏÏÍÌÍÎÎÏÎÍÍÎÏÎÏÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_CancelButtonText(){} // RVA: 0x9414CA0
         public void get_ContentType(){} // RVA: 0x9414CE0
@@ -24,11 +28,11 @@ namespace VRC.UI
         public void get_DefaultRadioButtonGroupValue(){} // RVA: 0x760030
         public void .ctor(){} // RVA: 0x2DEE30
         public void Initialize(){} // RVA: 0x3C2850
-        public void set_PlaceholderText(){} // RVA: 0x519240
+        public void set_KeyboardType(){} // RVA: 0x519240
         public void set_ActiveRequest(){} // RVA: 0x343E80
         public void get_PlaceholderText(){} // RVA: 0x9414DA0
+        public void set_PlaceholderText(){} // RVA: 0x760030
         public void set_OnInputCanceled(){} // RVA: 0x760030
-        public void set_OnRadioOptionSet(){} // RVA: 0x760030
         public void get_ActiveRequest(){} // RVA: 0x2E07C0
         public void get_OnInputCanceled(){} // RVA: 0x519240
         public void get_Title(){} // RVA: 0x9414DE0
@@ -88,6 +92,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÍÏÏÎÏÏÏÏÌÏÏÌÎÌÍÍÏÎÎÌÌ</summary>
     public class PointerBackPressedSibling_2351Sibling_9274
     {
+        public string ÍÎÍÍÍÌÎÎÌÍÎÌÍÍÎÏÎÏÏÏÌÎÍ;
+        public UnityEngine.UI.Toggle _firstCheckBox; // 0x98
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x18C8480
         public void InitializeArraySegment(){} // RVA: 0x18C8640
@@ -111,6 +118,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÌÏÌÏÍÍÌÎÎÌÎÎÎÏÎÎÎÍÍÎÏÎ</summary>
     public class PointerBackPressedSibling_2351_49F4
     {
+        public float ÌÎÌÏÎÌÌÍÏÏÏÎÌÎÎÏÌÌÎÏÏÎÍ;
+        public float ÎÎÏÌÏÏÍÍÏÏÌÏÌÍÍÍÎÏÏÌÍÎÎ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xCD60
         public void RaiseCancellation(){} // RVA: 0xC770
@@ -165,6 +175,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÏÎÎÏÎÍÍÍÌÌÌÍÍÎÎÎÌÎÌÎÏ</summary>
     public class PointerClickPointerEnterSRelated_3AC3
     {
+        public UnityEngine.Color[] <ÏÎÏÏÌÏÏÌÎÎÌÏÍÌÍÎÍÌÍÍÎÍÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D5C200
         public void Initialize(){} // RVA: 0x30B0D0
@@ -184,6 +196,10 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÌÌÍÍÍÏÍÌÎÏÎÍÌÏÎÎÎÍÍÌÎ</summary>
     public class PointerClickPointerEnterSRelated_C381
     {
+        public UnityEngine.GameObject labelPrefab; // 0x20
+        public UnityEngine.GameObject spacePrefab; // 0x28
+        public UnityEngine.GameObject buttonPrefab; // 0x30
+
         // ── Methods ──
         public void get_BytePositionInLine(){} // RVA: 0xA4F4E0
         public void set_BytePositionInLine(){} // RVA: 0xA4F4F0
@@ -202,8 +218,10 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÏÏÌÏÍÏÎÎÎÏÌÌÌÍÏÍÌÏÎÎÎ</summary>
     public class PointerClickPointerEnterSRelated_DEA5
     {
-        public object f_1B3;
-        public object f_32E;
+        public string f_1B3; // 0x10
+        public UnityEngine.Color f_32E; // 0x18
+        public 0x65989260 <ÏÏÏÌÏÎÍÎÏÏÏÌÎÏÍÌÎÍÎÍÎÏÌ>k__BackingField; // 0x28
+        public UnityEngine.Vector2 <ÍÍÏÌÌÏÏÌÎÌÏÎÌÌÎÏÍÍÍÏÍÍÎ>k__BackingField; // 0x2C
 
         // ── Methods ──
         public void set_OpCode(){} // RVA: 0x6457070
@@ -229,6 +247,10 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÌÏÏÌÍÍÌÌÍÎÌÍÍÌÎÍÌÎÏÏÏ</summary>
     public class PointerClickPointerEnterSRelated_EA6A
     {
+        public bool ÌÍÏÍÏÌÌÏÎÎÍÎÌÌÌÌÌÎÎÎÏÎÏ; // 0xB8
+        public bool ÎÎÎÌÎÌÏÌÏÌÌÍÌÍÍÏÎÎÎÎÏÌÎ; // 0xB9
+        public UnityEngine.Color ÏÏÏÌÏÎÌÍÍÏÎÏÏÍÎÍÍÎÎÏÌÎÏ; // 0xBC
+
         // ── Methods ──
         public void get_featured(){} // RVA: 0x173F990
         public void Dispose(){} // RVA: 0x2DD310
@@ -251,6 +273,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÏÌÏÏÏÏÌÌÎÌÎÍÏÍÍÍÍÏÍÌÌ</summary>
     public class PointerClickPointerEnterSRelated_FC40
     {
+        public ÌÏÏÎÎÌÍÍÌÍÏÏÏÎÏÎÍÌÎÏÍÍÏ ÏÏÏÍÌÎÌÌÎÍÏÎÎÎÎÏÍÌÎÏÏÌÏ; // 0x20
+        public ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ ÍÎÎÏÏÌÏÏÎÏÍÍÏÍÍÌÌÎÏÎÍÎÎ; // 0x28
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void ReadCameraState(){} // RVA: 0x7AC2C0
@@ -291,6 +316,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÌÌÍÍÌÏÎÍÏÍÍÎÏÏÍÌÏÏÌÍÌ</summary>
     public class PointerClickPointerEnterSibling_282D
     {
+        public ÌÏÏÎÎÌÍÍÌÍÏÏÏÎÏÎÍÌÎÏÍÍÏ ÏÏÏÍÌÎÌÌÎÍÏÎÎÎÎÏÍÌÎÏÏÌÏ; // 0x20
+        public ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ ÍÎÎÏÏÌÏÏÎÏÍÍÏÍÍÌÌÎÏÎÍÎÎ; // 0x28
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void get_FileId(){} // RVA: 0x9770D0
@@ -465,6 +493,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÏÎÌÎÏÏÎÌÍÌÏÏÎÌÍÎÎÍÏÏÍ</summary>
     public class PointerDeselectCancel_D29E
     {
+        public UnityEngine.GameObject ÏÏÌÍÎÏÎÌÍÎÌÌÍÍÌÎÌÏÏÍÎÍÎ;
+
         // ── Methods ──
         public void OnCancel(){} // RVA: 0x17C93B0
         public void InvokeDeselectHandlers(){} // RVA: 0x17C9450
@@ -485,6 +515,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÎÌÎÍÍÌÍÌÏÌÎÌÍÍÌÏÌÍÍÎÎ</summary>
     public class PointerDestroyDropdownListCreateDropdownList_883D
     {
+        public string _controlName; // 0x180
+        public VRC.UI.Core.Styles.StyleElement ÍÎÌÍÌÌÎÍÎÎÍÌÎÏÎÌÎÍÏÏÏÌÎ; // 0x188
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x8F45210
         public void OnPointerEnter(){} // RVA: 0x6FA6740
@@ -523,6 +556,8 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÍÎÎÍÎÏÎÍÏÌÎÌÌÍÏÏÍÏÌÌÎ</summary>
     public class PointerDownBeginDrag_B651
     {
+        public UnityEngine.Events.UnityEvent <ÌÏÎÏÎÎÎÍÎÌÌÏÍÍÍÎÎÌÍÍÌÍÌ>k__BackingField; // 0x1A0
+
         // ── Methods ──
         public void OnEndDrag_5E316D14922C(){} // RVA: 0x8CB3E00
         public void get_radius(){} // RVA: 0xDB1150
@@ -553,6 +588,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÍÏÍÏÍÍÌÌÏÌÎÎÍÎÌÌÌÍÏÎÌÍ</summary>
     public class PointerDownPointerUpSiblingSibling_5193
     {
+        public ÌÎÌÎÍÏÏÎÍÏÎÍÌÍÍÏÌÌÏÌÌÌÌ image; // 0x20
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ text; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8B449C0
@@ -573,6 +611,14 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÏÏÎÌÍÏÎÏÌÏÎÍÏÍÍÌÏÍÌÎÏ</summary>
     public class PointerDownPointerUpSiblingSibling_9FBC
     {
+        public VRC.Core.ApiAvatar ÏÎÏÎÌÎÍÍÎÏÎÍÌÌÍÍÍÌÎÏÌÍÍ; // 0x70
+        public 0x657C6C58 ÍÏÍÍÌÏÏÍÎÏÍÎÎÏÎÏÎÌÌÌÌÍÏ; // 0x78
+        public UnityEngine.GameObject ÌÍÌÌÎÎÎÏÍÏÏÍÌÏÌÏÏÍÍÏÏÍÌ; // 0x80
+        public UnityEngine.GameObject ÍÏÏÏÎÏÌÍÍÎÎÍÎÌÎÍÏÎÍÏÏÎÎ; // 0x88
+        public UnityEngine.RuntimeAnimatorController ÏÏÍÎÍÎÏÍÎÎÎÌÎÍÎÎÍÎÏÎÌÌÍ; // 0x90
+        public UnityEngine.RuntimeAnimatorController ÌÍÌÏÍÌÌÌÎÌÌÎÍÏÌÌÌÌÏÎÎÏÍ; // 0x98
+        public UnityEngine.GameObject ÌÌÏÌÌÏÍÏÎÏÎÌÌÎÍÍÏÌÏÌÏÌÌ; // 0xA0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x509430 | overloaded x2
         public void Initialize(){} // RVA: 0x506FB0
@@ -599,6 +645,12 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÌÏÏÏÌÎÎÎÍÌÏÌÏÎÎÏÍÌÏÎÍ</summary>
     public class PointerDownPointerUpSibling_2E33
     {
+        public UnityEngine.Vector3 _internalAvatarOffset; // 0x20
+        public ÌÍÏÌÌÏÏÏÍÎÌÏÏÍÍÎÌÎÎÏÎÎÌ ÏÏÍÏÏÎÏÎÎÏÏÍÍÌÍÍÎÌÌÎÏÎÎ; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÍÌÎÏÏÌÏÍÌÏÍÌÏÌÏÏÏÍÎÌÌÎ> <ÍÏÏÍÌÍÏÏÍÍÌÍÏÍÏÏÌÎÌÎÎÏÎ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÍÍÎÎÏÏÎÍÎÎÍÌÎÎÏÌÍÍÍÌÍÌ> <ÏÌÌÍÎÏÎÍÏÎÌÎÌÎÎÍÍÎÏÍÍÌÍ>k__BackingField; // 0x40
+        public bool ÏÏÌÏÏÎÏÌÍÌÌÌÍÎÍÎÎÍÏÎÍÎÌ; // 0x48
+
         // ── Methods ──
         public void SetLocalScale(){} // RVA: 0xD0C380
         public void Awake(){} // RVA: 0xD0C8B0
@@ -621,6 +673,12 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÏÎÌÌÏÎÎÎÎÍÌÏÎÍÎÎÏÎÎÍ</summary>
     public class PointerDownPointerUpSibling_5F73
     {
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÍÌÌÏÍÌÏÎÎÌÎÍÏÏÌÌÌÏÏÌÍÍÏ; // 0x20
+        public ÎÍÌÎÏÎÎÎÌÍÌÍÌÌÌÏÌÍÌÏÏÌÌ ÏÏÍÎÎÌÌÍÍÏÍÌÎÎÎÌÍÌÎÍÌÍÎ; // 0x28
+        public ÌÍÍÌÌÎÎÏÎÏÍÍÍÍÏÌÍÌÍÍÎÎÌ ÏÏÌÏÌÏÏÎÎÎÎÍÍÎÌÎÌÏÌÎÎÌÍ; // 0x30
+        public ÍÎÏÏÏÌÎÍÍÍÍÍÍÍÌÍÎÎÍÌÎÏÍ animationPlayer; // 0x38
+        public ÎÏÍÎÏÏÍÎÏÏÌÏÍÎÎÍÏÍÌÎÏÌÌ ÍÌÏÏÎÍÌÎÍÏÎÌÏÏÏÌÌÍÍÌÌÌÎ; // 0x40
+
         // ── Methods ──
         public void set_thumbnailImageUrl(){} // RVA: 0x9AA5F0
         public void NeedsSync(){} // RVA: 0x359320
@@ -642,6 +700,11 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÏÌÌÏÏÏÍÎÌÏÏÍÍÎÌÎÎÏÎÎÌ</summary>
     public class PointerDownPointerUpSibling_6D85
     {
+        public UnityEngine.GameObject ÌÌÎÎÏÏÍÌÏÏÌÏÌÍÍÌÍÌÏÍÏÍÎ; // 0x20
+        public UnityEngine.GameObject ÎÌÌÌÍÎÏÏÍÎÌÎÌÏÌÌÏÌÎÎÍÍÏ; // 0x28
+        public UnityEngine.GameObject ÏÏÍÌÍÏÎÏÎÎÌÍÎÏÍÏÍÎÍÎÍÍÎ; // 0x30
+        public UnityEngine.GameObject ÏÍÍÎÍÏÍÏÍÌÏÏÎÍÎÌÍÌÍÎÎÍÏ; // 0x38
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x1BF5B10
         public void get_ResponseModels(){} // RVA: 0x358D50
@@ -665,6 +728,15 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÏÏÍÌÍÎÏÍÏÏÍÍÍÎÍÍÌÎÌÌÍ</summary>
     public class PointerDownPointerUp_8C0B
     {
+        public UnityEngine.RectTransform _layout; // 0x20
+        public UnityEngine.GameObject _avatarPedestalObj; // 0x28
+        public UnityEngine.GameObject _light; // 0x30
+        public 0x65790AC8 _spinDirection; // 0x38
+        public float _startYawOffset; // 0x3C
+        public UnityEngine.BoxCollider _avatarBounds; // 0x40
+        public UnityEngine.BoxCollider _avatarPartBounds; // 0x48
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _avatarName; // 0x50
+
         // ── Methods ──
         public void SetPath_Internal(){} // RVA: 0x8F08C10
         public void OnPointerDown(){} // RVA: 0x8F08E50
@@ -749,6 +821,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÏÍÎÏÍÌÎÍÏÍÍÎÏÌÏÎÎÌÌÎÌÎ</summary>
     public class PointerDown_B6C3
     {
+        public string _controlName; // 0x168
+        public bool _sendAnalytics; // 0x170
+
         // ── Methods ──
         public void GetGameObject_3C1(){} // RVA: 0xD93DD0
         public void GetGameObject_3C1_328827AD29E5(){} // RVA: 0xD93DD0
@@ -828,6 +903,11 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÏÌÎÎÏÎÍÍÎÎÌÌÏÎÏÌÍÏÎÍÌ</summary>
     public class PointerEnterPointerExitHandlerSibling_2E74
     {
+        public ÍÎÏÌÎÎÏÎÍÍÎÎÌÌÏÎÏÌÍÏÎÍÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÌÎÎÏÍÎÏÌÌÏÍÎÌÌÍÎÎÍÌÌÏÏÎ ÍÏÌÏÏÏÏÎÎÏÏÌÎÏÍÍÌÍÍÎÏÍÏ; // 0x60
+        public ÌÎÎÏÍÎÏÌÌÏÍÎÌÌÍÎÎÍÌÌÏÏÎ ÏÏÎÏÏÌÍÎÏÏÏÌÌÎÌÌÏÌÌÏÎÏÍ; // 0x68
+        public string ÌÎÏÎÌÌÎÏÌÏÏÏÍÍÎÏÎÌÍÏÍÏÌ; // 0x8
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void .ctor(){} // RVA: 0xA32D50
@@ -848,6 +928,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÎÌÌÌÎÎÌÎÎÍÍÍÍÌÏÍÏÏÌÏÏ</summary>
     public class PointerEnterPointerExitHandlerSibling_94C9
     {
+        public UnityEngine.CanvasGroup ÏÌÎÏÍÏÍÍÎÌÌÏÏÌÎÍÍÎÏÎÏÌÍ; // 0x20
+        public UnityEngine.UI.ScrollRect mainGroupScroll; // 0x28
+
         // ── Methods ──
         public void ReadRectTransformState(){} // RVA: 0x8B3910
         public void IndexOf(){} // RVA: 0x8B3A90
@@ -917,6 +1000,10 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÏÌÌÏÎÎÌÎÎÍÎÏÏÌÌÍÎÎÏÌÏ</summary>
     public class PointerEnterPointerExitHandlerSibling_C7E0
     {
+        public ÍÌÏÌÌÏÎÎÌÎÎÍÎÏÏÌÌÍÎÎÏÌÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public string ÌÌÌÌÍÍÏÎÍÏÎÎÍÌÏÌÍÍÎÍÌÌÍ; // 0x8
+        public UnityEngine.Shader ÌÍÎÍÎÏÏÌÍÎÌÍÏÎÏÏÎÍÍÌÏÌÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x775360
         public void Initialize(){} // RVA: 0x775570
@@ -1001,6 +1088,10 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÌÍÎÏÏÎÍÎÏÌÏÌÎÎÏÏÌÌÎÌÏ</summary>
     public class PointerEnterPointerExitImplImpSibling_4532
     {
+        public System.Action`1<UnityEngine.Sprite> ÍÍÏÍÎÌÌÌÍÌÌÍÏÌÏÎÌÍÌÎÍÌÌ; // 0x10
+        public VRC.UI.ImageEx ÎÎÌÌÌÏÎÌÍÍÎÎÏÍÎÏÌÍÌÎÎÍÌ; // 0x18
+        public VRC.UI.Core.Styles.StyleElement ÌÌÌÌÏÎÍÏÌÏÌÏÏÌÏÌÎÏÏÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void HasRealtimeTimeoutRemaining(){} // RVA: 0x93F7D80
         public void HasRealtimeTimeoutRemaining_6A835509F5C9(){} // RVA: 0x93F7D90
@@ -1030,6 +1121,12 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÍÌÍÏÏÍÎÌÎÎÎÌÎÎÏÏÎÎÎÏÍ</summary>
     public class PointerEnterPointerExitImplImpSibling_D741
     {
+        public System.Action`1<UnityEngine.Sprite> ÍÍÏÍÎÌÌÌÍÌÌÍÏÌÏÎÌÍÌÎÍÌÌ; // 0xD0
+        public VRC.UI.ImageEx ÎÎÌÌÌÏÎÌÍÍÎÎÏÍÎÏÌÍÌÎÎÍÌ; // 0xD8
+        public ÌÎÌÍÎÏÏÎÍÎÏÌÏÌÎÎÏÏÌÌÎÌÏ ÎÌÎÏÌÎÏÌÏÍÏÏÎÏÏÎÎÌÏÎÍÏÏ; // 0xE0
+        public UnityEngine.Color ÎÌÌÌÍÌÌÌÎÌÏÏÍÎÏÌÏÎÏÎÏÏÎ; // 0xE8
+        public bool ÎÍÌÍÎÏÍÌÏÍÌÌÎÌÍÌÎÍÎÎÏÎÌ; // 0xF8
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x93FAC90
         public void GetMaterial(){} // RVA: 0x1AED810
@@ -1129,6 +1226,8 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÎÍÏÍÌÍÎÏÏÍÏÏÌÍÎÎÌÎÏÎÏ</summary>
     public class PointerEnterPointerExitSiRelated_AD27
     {
+        public string ÌÍÌÌÏÍÎÍÎÏÍÍÌÌÍÏÌÌÌÏÍÏÎ; // 0x20
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void get_Data_5DF511A9EC1C(){} // RVA: 0x30B130
@@ -1195,6 +1294,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÌÌÎÌÌÏÌÎÍÌÍÌÎÍÏÌÍÍÏÍÎÎ</summary>
     public class PointerEnterPointerExitSibling_09E6
     {
+        public 0x6577F9D8 _targetUserType; // 0x20
+
         // ── Methods ──
         public void set_depth(){} // RVA: 0x99E0D0
         public void ProcessGameObject(){} // RVA: 0x760030
@@ -1418,6 +1519,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÏÏÌÎÏÍÏÍÏÌÏÎÏÏÍÏÍÌÌÍÏ</summary>
     public class PointerEnterPointerExit_E0F3
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _label; // 0x20
+
         // ── Methods ──
         public void get_IsInvariantCulture(){} // RVA: 0x5DDDF90
         public void OnEnable(){} // RVA: 0x9293C10
@@ -1463,6 +1566,8 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÎÍÏÍÍÎÏÏÏÎÌÏÍÍÏÏÌÍÍÌÎ</summary>
     public class PointerEnterPointerExit_F7AF
     {
+        public UnityEngine.UI.ScrollRect _scrollRect; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8D2DD30
         public void Awake(){} // RVA: 0x8D2DE30
@@ -1613,6 +1718,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÎÍÍÎÌÎÎÍÎÎÎÌÌÏÌÌÍÌÎÏÏ</summary>
     public class PointerEnterSibling_D138
     {
+        public 0x65888F28 ÎÍÏÍÍÏÌÍÎÏÍÎÌÎÍÌÎÎÎÍÍÎÌ; // 0x20
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x8D1CCC0
         public void Start(){} // RVA: 0x8D1CEF0
@@ -1699,6 +1806,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÌÌÍÏÎÍÎÌÏÎÎÏÍÏÍÎÏÏÎÏÎÍ</summary>
     public class PointerHoverCoroutineComponent_1849
     {
+        public ÎÍÍÍÎÎÎÏÌÌÍÍÍÌÌÎÎÏÎÍÏÎÍ ÌÏÍÌÎÏÎÍÍÌÌÎÎÏÏÌÌÌÏÍÍÌÍ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1350E40
         public void RaiseCancellation(){} // RVA: 0x1350EC0
@@ -1797,6 +1906,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÍÌÎÍÎÎÏÌÏÏÏÍÍÌÎÎÌÏÍÌÏ</summary>
     public class PointerInitializePotentialDragBeginDrag_3B21_2F2F
     {
+        public float ÌÏÏÏÎÎÏÏÏÎÍÌÏÏÏÏÏÏÎÍÎÌÍ;
+        public string _controlName; // 0x130
+
         // ── Methods ──
         public void get_gameObject(){} // RVA: 0x74C93E0
         public void Start(){} // RVA: 0x8F01CF0
@@ -1961,6 +2073,9 @@ namespace VRC.UI
     /// <summary>Originally: ÍÌÍÌÍÎÍÎÏÍÌÎÏÌÏÌÏÏÌÏÏÎÎ</summary>
     public class PointerPreCullSiblingSibling_46C7
     {
+        public ÎÍÌÏÌÏÏÏÍÍÏÍÌÍÏÎÏÏÏÏÏÏÍ vrcPointer; // 0xC0
+        public UnityEngine.LayerMask _ignoredLayers; // 0xC8
+
         // ── Methods ──
         public void LastIndexOf(){} // RVA: 0x1884220
         public void Fill(){} // RVA: 0x1884450
@@ -2008,6 +2123,8 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÏÎÍÏÏÎÌÎÎÍÍÍÌÏÎÏÏÏÎÎÌ</summary>
     public class PointerPreCullSibling_AF10
     {
+        public bool ÌÎÏÏÌÏÍÌÍÌÏÍÍÌÎÏÌÍÌÏÎÎÍ; // 0x20
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x1B22750
         public void OnDisable_F23F16001D6E(){} // RVA: 0x1B22750
@@ -2144,6 +2261,12 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÎÌÎÎÎÏÍÏÍÍÌÏÌÌÎÎÏÌÌÎÏ</summary>
     public class PointerRefreshImmediateComponent_C174
     {
+        public bool <ÍÍÍÌÍÌÎÍÌÌÍÌÌÎÏÍÌÍÌÏÍÍÌ>k__BackingField; // 0x170
+        public bool <ÏÎÎÏÎÎÌÌÏÍÎÎÎÎÌÍÍÏÌÌÌÌÌ>k__BackingField; // 0x171
+        public System.Action`1<bool> ÎÎÌÏÎÌÎÏÌÏÌÌÍÏÍÌÎÏÏÎÌÌÍ;
+        public bool ÏÎÌÏÎÏÏÌÎÎÏÏÏÍÌÍÌÌÍÌÌÏÌ; // 0x172
+        public float ÎÏÏÌÌÏÏÎÌÍÎÌÍÍÎÍÍÍÍÍÎÍÏ; // 0x174
+
         // ── Methods ──
         public void SetLocalScale(){} // RVA: 0x12A44B0
         public void DestroyPointerInstances(){} // RVA: 0x12A5C80
@@ -2239,7 +2362,7 @@ namespace VRC.UI
     /// <summary>Originally: ÌÌÍÎÍÏÍÏÎÌÎÍÏÍÏÎÎÌÏÍÍÎÌ</summary>
     public class PointerdeselectOnBackgroundClick_E505
     {
-        public object deselectOnBackgroundClick;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ deselectOnBackgroundClick; // 0x20
 
         // ── Methods ──
         public void OnEnable_B8E25FAD904C(){} // RVA: 0x8D3BBD0

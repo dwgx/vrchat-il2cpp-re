@@ -5,6 +5,8 @@
 
 public class AsyncGPUReadbackRequestAwaiterConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AsyncGPUReadbackRequestAwaiterConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D379D0
@@ -21,6 +23,8 @@ public class AsyncGPUReadbackRequestAwaiterConfiguredSource
 
 public class AsyncInstantiateOperationConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D3F0B0
@@ -38,6 +42,8 @@ public class AsyncInstantiateOperationConfiguredSource
 
 public class AsyncInstantiateOperationConfiguredSource`1
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource`1<T>> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -64,6 +70,8 @@ public class AsyncManualResetEvent
 
 public class AsyncOperationAwaiter : .ctor
 {
+    public UnityEngine.AsyncOperation asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void get_IsCompleted(){} // RVA: 0x6D365A0
@@ -74,6 +82,8 @@ public class AsyncOperationAwaiter : .ctor
 
 public class AsyncOperationConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AsyncOperationConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D38960
@@ -90,6 +100,10 @@ public class AsyncOperationConfiguredSource
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> parent;
+    public System.Threading.CancellationToken cancellationToken;
+
     // ── Methods ──
     public void .ctor(){}
     public void OnCanceled(){} // RVA: 0x24CC0
@@ -110,70 +124,121 @@ public class AsyncTriggerEnumerator
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<Cysharp.Threading.Tasks.AsyncUnit> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<int> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<bool> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<System.ValueTuple`2<float[],int>> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collision> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collision2D> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.ControllerColliderHit> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<float> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Joint2D> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.GameObject> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.ParticleSystemJobs.ParticleSystemJobData> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<System.ValueTuple`2<UnityEngine.RenderTexture,UnityEngine.RenderTexture>> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collider> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collider2D> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.PointerEventData> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.BaseEventData> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncTriggerEnumerator
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.AxisEventData> parent; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
 }
 
 public class AsyncUnitSource
@@ -295,6 +360,14 @@ public class AttachedObject
 
 public class Attachment
 {
+    public string <partId>k__BackingField; // 0x68
+    public bool <isEnabled>k__BackingField; // 0x70
+    public string <path>k__BackingField; // 0x78
+    public System.Collections.Generic.List`1<float> <position>k__BackingField; // 0x80
+    public System.Collections.Generic.List`1<float> <rotation>k__BackingField; // 0x88
+    public System.Collections.Generic.List`1<float> <scale>k__BackingField; // 0x90
+    public System.Collections.Generic.List`1<Variable> <variables>k__BackingField; // 0x98
+
     // ── Methods ──
     public void get_partId(){} // RVA: 0x358D50
     public void set_partId(){} // RVA: 0x358D60
@@ -326,6 +399,9 @@ public class AttrInfo
 
 public class AttrListImpl
 {
+    public System.Collections.Generic.List`1<string> attrNames; // 0x10
+    public System.Collections.Generic.List`1<string> attrValues; // 0x18
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x5BF98D0
     public void GetName(){} // RVA: 0x5BF9920
@@ -363,6 +439,9 @@ public class AttributeFilterCacheItem
 
 public class AttributeInfo
 {
+    public System.AttributeUsageAttribute _usage; // 0x10
+    public int _inheritanceLevel; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1D66A50
     public void get_Usage(){} // RVA: 0x2F8380
@@ -382,6 +461,8 @@ public class AttributeProvider
 
 public class AttributeTypeAndValue
 {
+    public string oid; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BD0D60 | overloaded x2
     public void set_Value(){} // RVA: 0x5BD0DD0
@@ -398,6 +479,8 @@ public class AttributeTypeDescriptor
 
 public class AttributeValueCache
 {
+    public System.Text.StringBuilder stringValue; // 0x10
+
     // ── Methods ──
     public void get_StringValue(){} // RVA: 0x6A3FF60
     public void WriteEntityRef(){} // RVA: 0x6A3FFA0
@@ -437,6 +520,8 @@ public class AuthData
 
 public class AuthEnvelopedSecureReadable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.CmsAuthEnvelopedData parent; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Algorithm(){} // RVA: 0xB2E750
@@ -469,6 +554,10 @@ public class AuthorizationCallback
 
 public class AuthorizationState
 {
+    public System.Net.HttpWebRequest request; // 0x10
+    public bool isProxy; // 0x18
+    public bool isCompleted; // 0x19
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x1B06E00
     public void get_NtlmAuthState(){} // RVA: 0x1EA98B0
@@ -481,6 +570,8 @@ public class AuthorizationState
 
 public class AutoDetectParams
 {
+    public bool legsParentInSpine; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3312A0
     public void get_Default(){} // RVA: 0x3312B0
@@ -505,6 +596,10 @@ public class AvailableDevice
 
 public class AvatarCullingMonitor
 {
+    public float _avatarScreenSizeThresholdLower; // 0x10
+    public float _avatarScreenSizeThresholdUpper; // 0x14
+    public 0x65716998[] _validAvatarKinds; // 0x18
+
     // ── Methods ──
     public void get_AvatarCullableShouldRun_C3ED81CFFC4B(){} // RVA: 0x10CABE0
     public void set_AvatarCullableShouldRun(){} // RVA: 0x10CAD20
@@ -567,6 +662,8 @@ public class Avx2
 
 public class AwaitableSocketAsyncEventArgs
 {
+    public AwaitableSocketAsyncEventArgs Reserved;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6BAA860
     public void get_WrapExceptionsInIOExceptions(){} // RVA: 0x6BAA920
@@ -589,6 +686,8 @@ public class AwaitableSocketAsyncEventArgs
 
 public class Awaiter : IsCompleted
 {
+    public Cysharp.Threading.Tasks.UniTask`1<T> task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_IsCompleted(){} // RVA: 0xDBE0
@@ -600,6 +699,8 @@ public class Awaiter : IsCompleted
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<bool> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x6D2410
@@ -611,6 +712,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x6CF3610
@@ -622,6 +725,8 @@ public class Awaiter
 
 public class Awaiter : .ctor
 {
+    public 0x658F9AD0 playerLoopTiming; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37C6C70
     public void get_IsCompleted(){} // RVA: 0x6CFE100
@@ -632,6 +737,8 @@ public class Awaiter : .ctor
 
 public class Awaiter
 {
+    public System.Threading.WaitCallback switchToCallback;
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x2DD320
     public void GetResult(){} // RVA: 0x2DD310
@@ -643,6 +750,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -654,6 +763,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÎÌÌÍÍÏÍÌÌÌÍÎÏÌÌÍÎÏÍÍÍ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -665,6 +776,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Texture2D> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -676,6 +789,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<string> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -687,6 +802,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -698,6 +815,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -709,6 +828,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiInventoryItem> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -720,6 +841,8 @@ public class Awaiter
 
 public class Awaiter : .ctor
 {
+    public 0x658F9AD0 timing; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x833580
     public void get_IsCompleted(){} // RVA: 0x2DD320
@@ -730,6 +853,8 @@ public class Awaiter : .ctor
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -741,6 +866,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -752,6 +879,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Vector3> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x5580B20
@@ -763,6 +892,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<UnityEngine.Vector3,float>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F0D0
     public void get_IsCompleted(){} // RVA: 0x557F130
@@ -774,6 +905,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÌÍÍÌÌÏÏÌÎÏÎÏÎÍÍÌÌÍÎÌÎ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -785,6 +918,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÏÌÍÎÍÏÎÌÏÏÍÏÏÎÏÎÏÌÎÏÌ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -796,6 +931,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiHypeTrainInstanceInfo> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -807,6 +944,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -818,6 +957,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -829,6 +970,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiInventoryItem[]> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -840,6 +983,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.GameObject> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -851,6 +996,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,System.Collections.Generic.List`1<ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ>>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F0D0
     public void get_IsCompleted(){} // RVA: 0x557F130
@@ -862,6 +1009,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -873,6 +1022,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -884,6 +1035,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -895,6 +1048,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<0x65705CC8,uint>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x557F490
@@ -906,6 +1061,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<0x657CFEC8> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x5593BC0
@@ -917,6 +1074,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiWorldInstance> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -928,6 +1087,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiWorld> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -939,6 +1100,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÌÌÎÎÎÌÏÌÌÌÍÎÍÎÎÌÎÏÌÌÎÍÍ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -950,6 +1113,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F0D0
     public void get_IsCompleted(){} // RVA: 0x557F130

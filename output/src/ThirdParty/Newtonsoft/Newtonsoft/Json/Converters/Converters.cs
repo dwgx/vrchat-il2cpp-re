@@ -160,6 +160,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class IsoDateTimeConverter
     {
+        public string DefaultDateTimeFormat;
+        public 0x657F6358 _dateTimeStyles; // 0x10
+        public string _dateTimeFormat; // 0x18
+
         // ── Methods ──
         public void get_DateTimeStyles(){} // RVA: 0x32A5C0
         public void set_DateTimeStyles(){} // RVA: 0x2E00C0
@@ -207,6 +211,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class StringEnumConverter
     {
+        public Newtonsoft.Json.Serialization.NamingStrategy <NamingStrategy>k__BackingField; // 0x10
+        public bool <AllowIntegerValues>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_CamelCaseText(){} // RVA: 0x6069770
         public void set_CamelCaseText(){} // RVA: 0x60697E0
@@ -222,6 +229,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class UnixDateTimeConverter
     {
+        public System.DateTime UnixEpoch;
+
         // ── Methods ──
         public void get_AllowPreEpoch(){} // RVA: 0x3A75E0
         public void set_AllowPreEpoch(){} // RVA: 0x3A75F0
@@ -264,6 +273,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XContainerWrapper
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes; // 0x18
+
         // ── Methods ──
         public void get_Container(){} // RVA: 0x606EE40
         public void .ctor(){} // RVA: 0x2DEE30
@@ -276,6 +287,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XDeclarationWrapper
     {
+        public System.Xml.Linq.XDeclaration <Declaration>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Declaration(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0x606D0E0
@@ -289,6 +302,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XDocumentTypeWrapper
     {
+        public System.Xml.Linq.XDocumentType _documentType; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F43ED0
         public void get_Name(){} // RVA: 0x606D2B0
@@ -321,6 +336,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XElementWrapper
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes; // 0x20
+
         // ── Methods ──
         public void get_Element(){} // RVA: 0x606FE90
         public void .ctor(){} // RVA: 0x2DEE30
@@ -338,6 +355,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XObjectWrapper
     {
+        public System.Xml.Linq.XObject _xmlObject; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_WrappedNode(){} // RVA: 0x2F8380
@@ -374,6 +393,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlDeclarationWrapper
     {
+        public System.Xml.XmlDeclaration _declaration; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x606B270
         public void get_Version(){} // RVA: 0x408F310
@@ -385,6 +406,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlDocumentTypeWrapper
     {
+        public System.Xml.XmlDocumentType _documentType; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x606B270
         public void get_Name(){} // RVA: 0x606C060
@@ -396,6 +419,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlDocumentWrapper
     {
+        public System.Xml.XmlDocument _document; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x606B270
         public void CreateComment(){} // RVA: 0x606B320
@@ -413,6 +438,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlElementWrapper
     {
+        public System.Xml.XmlElement _element; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x606B270
         public void SetAttributeNode(){} // RVA: 0x606BDF0
@@ -422,6 +449,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlNodeConverter
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> EmptyChildNodes;
+        public string TextName;
+        public string CommentName;
+        public string CDataName;
+
         // ── Methods ──
         public void get_DeserializeRootElementName(){} // RVA: 0x2F8380
         public void set_DeserializeRootElementName(){} // RVA: 0x2DEE30
@@ -465,6 +497,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlNodeWrapper
     {
+        public System.Xml.XmlNode _node; // 0x10
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes; // 0x18
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_WrappedNode(){} // RVA: 0x2F8380

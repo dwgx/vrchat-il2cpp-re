@@ -7,6 +7,8 @@ namespace VRC
 {
     public class AssetCache
     {
+        public System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ> ÎÌÌÌÍÌÎÍÏÎÍÏÏÍÎÍÎÎÏÍÌÌÌ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1BBE8E0
         public void Init(){} // RVA: 0x1BBE940
@@ -30,6 +32,11 @@ namespace VRC
 
     public class BackgroundOption
     {
+        public VRC.Localization.LocalizableString _backgroundName; // 0x10
+        public string _materialName; // 0x38
+        public UnityEngine.Sprite _preview; // 0x40
+        public bool _isVRCPlus; // 0x48
+
         // ── Methods ──
         public void set_Preview(){} // RVA: 0x1B61EE0
         public void get_IsLoaded_35EBE0473145(){} // RVA: 0x35A740
@@ -50,6 +57,8 @@ namespace VRC
 
     public class BackgroundOptions
     {
+        public VRC.BackgroundOption[] _options; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x53BFB0
         public void Initialize(){} // RVA: 0x2E07C0
@@ -123,6 +132,8 @@ namespace VRC
 
     public class InputLatencyTracker
     {
+        public System.Diagnostics.Stopwatch ÌÍÌÍÍÏÌÍÌÏÎÏÏÍÍÎÏÎÏÏÍÎÏ;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x1B97300
         public void Equals(){} // RVA: 0x1B974D0
@@ -150,6 +161,16 @@ namespace VRC
 
     public class StickerPrefab
     {
+        public UnityEngine.Texture2D texture; // 0x18
+        public bool isAnimated; // 0x20
+        public int frames; // 0x24
+        public int fps; // 0x28
+        public string loopStyle; // 0x30
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x38
+        public string <ÎÏÎÌÎÌÏÎÏÌÎÌÏÍÍÎÍÏÎÌÏÏÍ>k__BackingField; // 0x40
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x48
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x1B90FC0
         public void set_CollectionID(){} // RVA: 0x305200
@@ -200,12 +221,12 @@ namespace VRC
 
     public class Tools
     {
-        public object start;
-        public object end;
-        public object duration;
-        public object muted;
-        public object mutedInHierarchy;
-        public object timelineAsset;
+        public System.Lazy`1<bool> start;
+        public string end; // 0x8
+        public string duration; // 0x10
+        public string muted; // 0x18
+        public VRC.Core.UnityVersion mutedInHierarchy; // 0x20
+        public string timelineAsset; // 0x38
 
         // ── Methods ──
         public void get_isClient(){} // RVA: 0x98497D0

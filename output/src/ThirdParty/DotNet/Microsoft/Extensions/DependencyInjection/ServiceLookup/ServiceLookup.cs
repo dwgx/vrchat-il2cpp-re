@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLookup
-// Classes: 26
-// Methods: 190
+// Classes: 30
+// Methods: 238
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLookup
 {
@@ -18,6 +18,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteFactory
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceDescriptor[] _descriptors; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5B930D0
         public void get_Descriptors(){} // RVA: 0x2F8380
@@ -41,6 +43,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteRuntimeResolver
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5B981F0
         public void .ctor(){} // RVA: 0x5B98250
@@ -90,8 +94,78 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
         public void VisitFactory(){} // RVA: 0x283FA0
     }
 
+    public class CallSiteVisitor`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x574F610
+        public void VisitCallSite(){} // RVA: 0x574DFC0
+        public void VisitCallSiteMain(){} // RVA: 0x574F6A0
+        public void VisitNoCache(){} // RVA: 0x574E330
+        public void VisitDisposeCache(){} // RVA: 0x574E330
+        public void VisitRootCache(){} // RVA: 0x574E330
+        public void VisitScopeCache(){} // RVA: 0x574E330
+        public void VisitConstructor(){}
+        public void VisitConstant(){}
+        public void VisitServiceProvider(){}
+        public void VisitIEnumerable(){}
+        public void VisitFactory(){}
+    }
+
+    public class CallSiteVisitor`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x574E350
+        public void VisitCallSite(){} // RVA: 0x574E3E0
+        public void VisitCallSiteMain(){} // RVA: 0x574E510
+        public void VisitNoCache(){} // RVA: 0x574E7C0
+        public void VisitDisposeCache(){} // RVA: 0x574E7C0
+        public void VisitRootCache(){} // RVA: 0x574E7C0
+        public void VisitScopeCache(){} // RVA: 0x574E7C0
+        public void VisitConstructor(){}
+        public void VisitConstant(){}
+        public void VisitServiceProvider(){}
+        public void VisitIEnumerable(){}
+        public void VisitFactory(){}
+    }
+
+    public class CallSiteVisitor`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x574F0F0
+        public void VisitCallSite(){} // RVA: 0x574F180
+        public void VisitCallSiteMain(){} // RVA: 0x574F2E0
+        public void VisitNoCache(){} // RVA: 0x574F5D0
+        public void VisitDisposeCache(){} // RVA: 0x574F5D0
+        public void VisitRootCache(){} // RVA: 0x574F5D0
+        public void VisitScopeCache(){} // RVA: 0x574F5D0
+        public void VisitConstructor(){}
+        public void VisitConstant(){}
+        public void VisitServiceProvider(){}
+        public void VisitIEnumerable(){}
+        public void VisitFactory(){}
+    }
+
+    public class CallSiteVisitor`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x574DF30
+        public void VisitCallSite(){} // RVA: 0x574DFC0
+        public void VisitCallSiteMain(){} // RVA: 0x574E0B0
+        public void VisitNoCache(){} // RVA: 0x574E330
+        public void VisitDisposeCache(){} // RVA: 0x574E330
+        public void VisitRootCache(){} // RVA: 0x574E330
+        public void VisitScopeCache(){} // RVA: 0x574E330
+        public void VisitConstructor(){} // RVA: 0x1E6A0
+        public void VisitConstant(){} // RVA: 0x1E6A0
+        public void VisitServiceProvider(){} // RVA: 0x1E6A0
+        public void VisitIEnumerable(){} // RVA: 0x1E6A0
+        public void VisitFactory(){} // RVA: 0x1E6A0
+    }
+
     public class CompiledServiceProviderEngine
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ILEmitResolverBuilder <ResolverBuilder>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_ResolverBuilder(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x5B998B0
@@ -100,6 +174,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstantCallSite
     {
+        public System.Type _serviceType; // 0x40
+        public 0x659D33A0 <Kind>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_DefaultValue(){} // RVA: 0x6374D0
         public void .ctor(){} // RVA: 0x5B999A0
@@ -110,6 +187,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstructorCallSite
     {
+        public System.Reflection.ConstructorInfo <ConstructorInfo>k__BackingField; // 0x40
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite[] <ParameterCallSites>k__BackingField; // 0x48
+        public System.Type <ServiceType>k__BackingField; // 0x50
+        public 0x659D33A0 <Kind>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_ConstructorInfo(){} // RVA: 0x35A740
         public void get_ParameterCallSites(){} // RVA: 0x358730
@@ -129,6 +211,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class FactoryCallSite
     {
+        public System.Func`2<System.IServiceProvider,object> <Factory>k__BackingField; // 0x40
+        public System.Type <ServiceType>k__BackingField; // 0x48
+        public 0x659D33A0 <Kind>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_Factory(){} // RVA: 0x35A740
         public void .ctor(){} // RVA: 0x5B9A5E0 | overloaded x2
@@ -139,6 +225,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class IEnumerableCallSite
     {
+        public System.Type <ItemType>k__BackingField; // 0x40
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite[] <ServiceCallSites>k__BackingField; // 0x48
+        public 0x659D33A0 <Kind>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_ItemType(){} // RVA: 0x35A740
         public void get_ServiceCallSites(){} // RVA: 0x358730
@@ -174,6 +264,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ILEmitResolverBuilderContext
     {
+        public System.Reflection.Emit.ILGenerator <Generator>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<object> <Constants>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<System.Func`2<System.IServiceProvider,object>> <Factories>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Generator(){} // RVA: 0x2F8380
@@ -185,6 +279,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ResultCache
     {
+        public 0x659D33F8 <Location>k__BackingField; // 0x10
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey <Key>k__BackingField; // 0x18
+
         // ── Methods ──
         public void None(){} // RVA: 0x5B9AB20
         public void .ctor(){} // RVA: 0x5B9ACF0 | overloaded x2
@@ -196,6 +293,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeResolverContext
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope <Scope>k__BackingField; // 0x10
+        public 0x659D3500 <AcquiredLocks>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Scope(){} // RVA: 0x1AD4690
         public void set_Scope(){} // RVA: 0x100A2F0
@@ -205,6 +305,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeServiceProviderEngine
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.RuntimeServiceProviderEngine <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5B9AE60
         public void .ctor(){} // RVA: 0x2DD310
@@ -214,6 +316,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCacheKey
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier <ServiceIdentifier>k__BackingField; // 0x10
+        public int <Slot>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_ServiceIdentifier(){} // RVA: 0x75E7E0
         public void get_Slot(){} // RVA: 0x32A5C0
@@ -224,6 +329,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCallSite
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ResultCache <Cache>k__BackingField; // 0x10
+        public object <Value>k__BackingField; // 0x30
+        public object <Key>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x40ACEF0
         public void get_ServiceType(){} // RVA: 0xCD60
@@ -249,6 +358,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceIdentifier
     {
+        public object <ServiceKey>k__BackingField; // 0x10
+        public System.Type <ServiceType>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ServiceKey(){} // RVA: 0x1AD4690
         public void get_ServiceType(){} // RVA: 0x19689C0
@@ -271,6 +383,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderCallSite
     {
+        public System.Type <ServiceType>k__BackingField; // 0x40
+        public System.Type <ImplementationType>k__BackingField; // 0x48
+        public 0x659D33A0 <Kind>k__BackingField; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5B9CA90
         public void get_ServiceType(){} // RVA: 0x35A740
@@ -287,6 +403,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderEngineScope
     {
+        public bool _disposed; // 0x10
+        public System.Collections.Generic.List`1<object> _disposables; // 0x18
+        public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,object> <ResolvedServices>k__BackingField; // 0x20
+        public bool <IsRootScope>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5B9CD50
         public void get_ResolvedServices(){} // RVA: 0x30B0C0

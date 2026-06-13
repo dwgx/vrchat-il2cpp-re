@@ -26,6 +26,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class EmptyEnumerator
     {
+        public System.Collections.IEnumerator Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void MoveNext(){} // RVA: 0x2DD320
@@ -43,6 +45,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class HashSet
     {
+        public System.Collections.IDictionary impl; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E8490 | overloaded x2
         public void Add(){} // RVA: 0x96E8740
@@ -77,6 +81,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class LinkedDictionary
     {
+        public System.Collections.IDictionary hash; // 0x10
+        public System.Collections.IList keys; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E8FA0
         public void Add(){} // RVA: 0x96E9130
@@ -99,6 +106,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class LinkedDictionaryEnumerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.LinkedDictionary parent; // 0x10
+        public int pos; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2F93A00
         public void get_Current(){} // RVA: 0x96E9D80
@@ -135,6 +145,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class UnmodifiableDictionaryProxy
     {
+        public System.Collections.IDictionary d; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Contains(){} // RVA: 0x96EA1B0
@@ -174,6 +186,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class UnmodifiableListProxy
     {
+        public System.Collections.IList l; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Contains(){} // RVA: 0x96EA6B0
@@ -209,6 +223,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class UnmodifiableSetProxy
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet s; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Contains(){} // RVA: 0x96EAB10

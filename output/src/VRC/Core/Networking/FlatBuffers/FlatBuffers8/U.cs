@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Udon
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBool
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -53,6 +57,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -77,6 +83,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolArrayT
     {
+        public System.Collections.Generic.List`1<bool> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -91,7 +99,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolT
     {
-        public object ByteBuffer;
+        public bool ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x3A75E0
@@ -101,6 +109,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByte
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -114,6 +124,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -138,6 +150,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteArrayT
     {
+        public System.Collections.Generic.List`1<byte> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -152,7 +166,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteT
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x3A75E0
@@ -162,6 +176,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonChar
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -175,6 +191,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -199,6 +217,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharArrayT
     {
+        public System.Collections.Generic.List`1<ushort> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -213,7 +233,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharT
     {
-        public object ByteBuffer;
+        public ushort ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x1C0F720
@@ -223,6 +243,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDouble
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -236,6 +258,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -260,6 +284,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleArrayT
     {
+        public System.Collections.Generic.List`1<double> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -274,7 +300,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleT
     {
-        public object ByteBuffer;
+        public double ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2EE1B30
@@ -284,6 +310,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloat
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -297,6 +325,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -321,6 +351,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatArrayT
     {
+        public System.Collections.Generic.List`1<float> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -335,7 +367,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatT
     {
-        public object ByteBuffer;
+        public float ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x407320
@@ -345,6 +377,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonInt
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -358,6 +392,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -382,6 +418,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntArrayT
     {
+        public System.Collections.Generic.List`1<int> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -396,7 +434,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntT
     {
-        public object ByteBuffer;
+        public int ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x32A5C0
@@ -406,6 +444,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLong
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -419,6 +459,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -443,6 +485,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongArrayT
     {
+        public System.Collections.Generic.List`1<long> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -457,7 +501,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongT
     {
-        public object ByteBuffer;
+        public long ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
@@ -467,6 +511,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShort
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -480,6 +526,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -504,6 +552,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortArrayT
     {
+        public System.Collections.Generic.List`1<short> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -518,7 +568,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortT
     {
-        public object ByteBuffer;
+        public short ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x1C0F720
@@ -528,6 +578,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonString
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -548,6 +600,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonStringT
     {
+        public string <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -562,6 +616,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.UdonValueUnion> <Data>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
         public void set_Data(){} // RVA: 0x2DEE30
@@ -572,6 +628,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByte
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -585,6 +643,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -609,6 +669,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteArrayT
     {
+        public System.Collections.Generic.List`1<byte> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -623,7 +685,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteT
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x3A75E0
@@ -633,6 +695,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUInt
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -646,6 +710,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -670,6 +736,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntArrayT
     {
+        public System.Collections.Generic.List`1<uint> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -684,7 +752,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntT
     {
-        public object ByteBuffer;
+        public uint ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x32A5C0
@@ -694,6 +762,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULong
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -707,6 +777,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -731,6 +803,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongArrayT
     {
+        public System.Collections.Generic.List`1<ulong> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -745,7 +819,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongT
     {
-        public object ByteBuffer;
+        public ulong ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
@@ -755,6 +829,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShort
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -768,6 +844,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortArray
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -792,6 +870,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortArrayT
     {
+        public System.Collections.Generic.List`1<ushort> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -806,7 +886,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortT
     {
-        public object ByteBuffer;
+        public ushort ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x1C0F720
@@ -816,7 +896,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonValueUnion
     {
-        public object VariableSymbols;
+        public 0x659199F8 VariableSymbols; // 0x10
+        public object <Value>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0

@@ -7,6 +7,9 @@ namespace ThirdParty.Other.ZLogger.Providers
 {
     public class SharedFileStream
     {
+        public System.IO.FileStream innerStream; // 0x28
+        public System.Threading.Mutex mutex; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B14270
         public void get_CanRead(){} // RVA: 0x6415140
@@ -36,6 +39,8 @@ namespace ThirdParty.Other.ZLogger.Providers
 
     public class ZLoggerFileOptions
     {
+        public bool <FileShared>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_FileShared(){} // RVA: 0x4A6500
         public void .ctor(){} // RVA: 0x9B149A0

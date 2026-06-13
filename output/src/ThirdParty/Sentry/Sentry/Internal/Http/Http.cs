@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry.Internal.Http
 {
     public class CachingTransport
     {
+        public string EnvelopeFileExt;
+
         // ── Methods ──
         public void get_InnerTransport(){} // RVA: 0x2F8380
         public void Create(){} // RVA: 0x641F8B0
@@ -79,6 +81,10 @@ namespace ThirdParty.Sentry.Sentry.Internal.Http
 
     public class RateLimit
     {
+        public System.Collections.Generic.IReadOnlyList`1<Sentry.Internal.Http.RateLimitCategory> <Categories>k__BackingField; // 0x10
+        public System.Collections.Generic.IReadOnlyList`1<string> <Namespaces>k__BackingField; // 0x18
+        public System.TimeSpan <RetryAfter>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Categories(){} // RVA: 0x2F8380
         public void get_Namespaces(){} // RVA: 0x2E07C0
@@ -91,6 +97,8 @@ namespace ThirdParty.Sentry.Sentry.Internal.Http
 
     public class RateLimitCategory
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_IsMatchAll(){} // RVA: 0x642C4A0
@@ -102,6 +110,8 @@ namespace ThirdParty.Sentry.Sentry.Internal.Http
 
     public class RetryAfterHandler
     {
+        public Sentry.Infrastructure.ISystemClock _clock; // 0x20
+
         // ── Methods ──
         public void get_RetryAfterUtcTicks(){} // RVA: 0x30B130
         public void .ctor(){} // RVA: 0x642CC00 | overloaded x2

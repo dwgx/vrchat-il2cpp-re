@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 {
     public class InputUser
     {
+        public uint InvalidId;
+        public Unity.Profiling.ProfilerMarker k_InputUserOnChangeMarker;
+        public Unity.Profiling.ProfilerMarker k_InputCheckForUnpairMarker; // 0x8
+        public uint m_Id; // 0x10
+        public GlobalState s_GlobalState; // 0x10
+
         // ── Methods ──
         public void get_valid(){} // RVA: 0x6EA3340
         public void get_index(){} // RVA: 0x6EA3410
@@ -77,6 +83,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserAccountHandle
     {
+        public string m_ApiName; // 0x10
+        public ulong m_Handle; // 0x18
+
         // ── Methods ──
         public void get_apiName(){} // RVA: 0x1AD4690
         public void get_handle(){} // RVA: 0x19689C0
@@ -90,6 +99,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserSettings
     {
+        public string <customBindings>k__BackingField; // 0x10
+        public bool <invertMouseX>k__BackingField; // 0x18
+        public bool <invertMouseY>k__BackingField; // 0x19
+        public System.Nullable`1<float> <mouseSmoothing>k__BackingField; // 0x1C
+        public System.Nullable`1<float> <mouseSensitivity>k__BackingField; // 0x24
+        public bool <invertStickX>k__BackingField; // 0x2C
+        public bool <invertStickY>k__BackingField; // 0x2D
+        public bool <swapSticks>k__BackingField; // 0x2E
+        public bool <swapBumpers>k__BackingField; // 0x2F
+        public bool <swapTriggers>k__BackingField; // 0x30
+        public bool <swapDpadAndLeftStick>k__BackingField; // 0x31
+        public float <vibrationStrength>k__BackingField; // 0x34
+
         // ── Methods ──
         public void get_customBindings(){} // RVA: 0x2F8380
         public void set_customBindings(){} // RVA: 0x2DEE30

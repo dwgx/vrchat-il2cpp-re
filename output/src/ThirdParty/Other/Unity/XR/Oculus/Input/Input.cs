@@ -7,6 +7,16 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 {
     public class GearVRTrackedController
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl <back>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClicked>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouched>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAcceleration>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularAcceleration>k__BackingField; // 0x1F0
+
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0xDA5040
         public void set_touchpad(){} // RVA: 0xD8AAB0
@@ -32,6 +42,20 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMD
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <userPresence>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAcceleration>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularAcceleration>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeAngularVelocity>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeAcceleration>k__BackingField; // 0x208
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeAngularAcceleration>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeAngularVelocity>k__BackingField; // 0x218
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeAcceleration>k__BackingField; // 0x220
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeAngularAcceleration>k__BackingField; // 0x228
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeAngularVelocity>k__BackingField; // 0x230
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeAcceleration>k__BackingField; // 0x238
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeAngularAcceleration>k__BackingField; // 0x240
+
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x8CBA20
         public void set_userPresence(){} // RVA: 0xDB44F0
@@ -65,6 +89,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMDExtended
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <back>k__BackingField; // 0x248
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x250
+
         // ── Methods ──
         public void get_back(){} // RVA: 0xD83050
         public void set_back(){} // RVA: 0xD88A80
@@ -76,6 +103,10 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusRemote
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <back>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.ButtonControl <start>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1A0
+
         // ── Methods ──
         public void get_back(){} // RVA: 0xA90180
         public void set_back(){} // RVA: 0xD96D90
@@ -89,6 +120,24 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTouchController
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <thumbstick>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <primaryButton>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <secondaryButton>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <start>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickClicked>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl <primaryTouched>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.ButtonControl <secondaryTouched>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.AxisControl <triggerTouched>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x208
+        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickTouched>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x218
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x220
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAcceleration>k__BackingField; // 0x228
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularAcceleration>k__BackingField; // 0x230
+
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0xDA5040
         public void set_thumbstick(){} // RVA: 0xD8AAB0
@@ -130,6 +179,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTrackingReference
     {
+        public UnityEngine.InputSystem.Controls.IntegerControl <trackingState>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <isTracked>k__BackingField; // 0x1B8
+
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0xDA5040
         public void set_trackingState(){} // RVA: 0xD8AAB0

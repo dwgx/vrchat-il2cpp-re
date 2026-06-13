@@ -7,6 +7,8 @@ namespace ThirdParty.Other.ProfanityFilter
 {
     public class AllowList
     {
+        public System.Collections.Generic.List`1<string> _allowList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45D900
         public void get_ToList(){} // RVA: 0x45D9C0
@@ -19,6 +21,8 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityBase
     {
+        public System.Collections.Generic.List`1<string> _profanities; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45E390 | overloaded x3
         public void AddProfanity(){} // RVA: 0x45E690 | overloaded x3
@@ -29,6 +33,8 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityFilter
     {
+        public ProfanityFilter.Interfaces.IAllowList <AllowList>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45F020 | overloaded x3
         public void get_AllowList(){} // RVA: 0x30B0C0

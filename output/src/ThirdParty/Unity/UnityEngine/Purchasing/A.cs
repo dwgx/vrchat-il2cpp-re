@@ -43,6 +43,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AppleStoreImpl
     {
+        public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredCallback; // 0x48
+        public System.Action`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Product>> m_RevokedCallback; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7238900
         public void SetNativeStore(){} // RVA: 0x7238B00

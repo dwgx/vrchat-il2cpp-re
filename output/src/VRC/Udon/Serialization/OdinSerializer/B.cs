@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 12
-// Methods: 254
+// Classes: 61
+// Methods: 963
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class BaseDataReader
     {
+        public VRC.Udon.Serialization.OdinSerializer.DeserializationContext context; // 0x20
+        public System.IO.Stream stream; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78347D0
         public void get_CurrentNodeId(){} // RVA: 0x7834870
@@ -49,6 +52,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataReaderWriter
     {
+        public VRC.Udon.Serialization.OdinSerializer.NodeInfo[] nodes; // 0x10
+        public int nodesLength; // 0x18
+
         // ── Methods ──
         public void get_Binder(){} // RVA: 0x78350D0
         public void set_Binder(){} // RVA: 0x7835210
@@ -67,6 +73,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataWriter : stream
     {
+        public VRC.Udon.Serialization.OdinSerializer.SerializationContext context; // 0x20
+        public System.IO.Stream stream; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7835D50
         public void get_Stream(){} // RVA: 0x30B130
@@ -116,8 +125,49 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class BaseDictionaryKeyPathProvider`1
+    {
+        // ── Methods ──
+        public void get_ProviderID(){} // RVA: 0xCD60
+        public void GetKeyFromPathString(){} // RVA: 0xCE10
+        public void GetPathStringFromKey(){}
+        public void Compare(){}
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.Compare(){} // RVA: 0x55BABB0
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetKeyFromPathString(){} // RVA: 0x55BACC0
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetPathStringFromKey(){} // RVA: 0x55BAD00
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseDictionaryKeyPathProvider`1
+    {
+        // ── Methods ──
+        public void get_ProviderID(){} // RVA: 0xCD60
+        public void GetKeyFromPathString(){} // RVA: 0xCF00
+        public void GetPathStringFromKey(){}
+        public void Compare(){}
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.Compare(){} // RVA: 0x55BAD90
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetKeyFromPathString(){} // RVA: 0x55BAEA0
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetPathStringFromKey(){} // RVA: 0x55BAF00
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseDictionaryKeyPathProvider`1
+    {
+        // ── Methods ──
+        public void get_ProviderID(){} // RVA: 0xCD60
+        public void GetKeyFromPathString(){} // RVA: 0xCF00
+        public void GetPathStringFromKey(){}
+        public void Compare(){}
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.Compare(){} // RVA: 0x55BAF90
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetKeyFromPathString(){} // RVA: 0x55BB090
+        public void VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider.GetPathStringFromKey(){} // RVA: 0x55BB0E0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class BaseFormatter`1
     {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x56BBD20
         public void GetCallbacks(){} // RVA: 0x56BCC30
@@ -130,6 +180,951 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public void GetUninitializedObject(){} // RVA: 0x263BC0
         public void RegisterReferenceID(){} // RVA: 0x56BED30
         public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x24A80
+        public void GetCallbacks(){} // RVA: 0x1D550
+        public void CreateCallback(){} // RVA: 0xCE50
+        public void get_SerializedType(){} // RVA: 0xCD60
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x2DC60
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0xCE10
+        public void Deserialize(){} // RVA: 0x283FA0
+        public void Serialize(){} // RVA: 0x283FA0
+        public void GetUninitializedObject(){} // RVA: 0x283FA0
+        public void RegisterReferenceID(){} // RVA: 0x283FA0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x2DC60 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T[]>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.Dictionary`2<U,T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<U,V,T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.HashSet`1<T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.KeyValuePair`2<U,T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x263BC0
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x263BC0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.List`1<T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Nullable`1<T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x263BC0
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x263BC0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<T>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<U>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x56BE280
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x56BED30
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.ValueTuple`1<T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x263BC0
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x263BC0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.ValueTuple`2<U,T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x263BC0
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x263BC0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.ValueTuple`3<U,V,T>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x56BBD20
+        public void GetCallbacks(){} // RVA: 0x56BCC30
+        public void CreateCallback(){} // RVA: 0x56BCE90
+        public void get_SerializedType(){} // RVA: 0x56BD300
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x56BD3B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x56BD580
+        public void Deserialize(){} // RVA: 0x263BC0
+        public void Serialize(){} // RVA: 0x263BC0
+        public void GetUninitializedObject(){} // RVA: 0x263BC0
+        public void RegisterReferenceID(){} // RVA: 0x263BC0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x56BEF70 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.ArrayList>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonGameObjectComponentHeapReference>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.SDK3.Data.DataToken>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5621070
+        public void GetCallbacks(){} // RVA: 0x5621F00
+        public void CreateCallback(){} // RVA: 0x56220D0
+        public void get_SerializedType(){} // RVA: 0x56224A0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5622550
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5622600
+        public void Deserialize(){} // RVA: 0x5622670
+        public void Serialize(){} // RVA: 0x5622D40
+        public void GetUninitializedObject(){} // RVA: 0x56232E0
+        public void RegisterReferenceID(){} // RVA: 0x5623470
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonProgram>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.SDKBase.VRCUrl>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonHeap>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<...<...>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.List`1<int>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x55FFF70
+        public void GetCallbacks(){} // RVA: 0x5600E00
+        public void CreateCallback(){} // RVA: 0x5600FD0
+        public void get_SerializedType(){} // RVA: 0x56013A0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5601450
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5601500
+        public void Deserialize(){} // RVA: 0x5601570
+        public void Serialize(){} // RVA: 0x5601C40
+        public void GetUninitializedObject(){} // RVA: 0x56021E0
+        public void RegisterReferenceID(){} // RVA: 0x5602370
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.ValueTuple`3<int,int,int>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x55FD9E0
+        public void GetCallbacks(){} // RVA: 0x55FE870
+        public void CreateCallback(){} // RVA: 0x55FEA40
+        public void get_SerializedType(){} // RVA: 0x55FEE10
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x55FEEC0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x55FEF70
+        public void Deserialize(){} // RVA: 0x55FEFE0
+        public void Serialize(){} // RVA: 0x55FF6C0
+        public void GetUninitializedObject(){} // RVA: 0x55FFC60
+        public void RegisterReferenceID(){} // RVA: 0x55FFDF0
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<VRC.SDKBase.VRCPlayerApi>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<int>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<string>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonSymbolTable>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<...<...>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonSymbol>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<System.Collections.Generic.List`1<string>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<VRC.Udon.Common.UdonSyncMetadataTable>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
+        public void DeserializeImplementation(){} // RVA: 0x2DC60
+        public void SerializeImplementation(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BaseFormatter`1
+    {
+        public SerializationCallback<...<...>>[] OnSerializingCallbacks;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x5672D80
+        public void GetCallbacks(){} // RVA: 0x5673C10
+        public void CreateCallback(){} // RVA: 0x5673DE0
+        public void get_SerializedType(){} // RVA: 0x56741B0
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Serialize(){} // RVA: 0x5674260
+        public void VRC.Udon.Serialization.OdinSerializer.IFormatter.Deserialize(){} // RVA: 0x5674300
+        public void Deserialize(){} // RVA: 0x5674320
+        public void Serialize(){} // RVA: 0x5674B40
+        public void GetUninitializedObject(){} // RVA: 0x5675120
+        public void RegisterReferenceID(){} // RVA: 0x5675280
+        public void InvokeOnDeserializingCallbacks(){} // RVA: 0x55FAE90 | overloaded x2
         public void DeserializeImplementation(){} // RVA: 0x2DC60
         public void SerializeImplementation(){} // RVA: 0x2DC60
         public void .ctor(){} // RVA: 0x2DD310
@@ -284,6 +1279,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Buffer`1
     {
+        public object LOCK;
+        public System.Collections.Generic.List`1<VRC.Udon.Serialization.OdinSerializer.Buffer`1<T>> FreeBuffers;
+        public int count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void get_Count(){} // RVA: 0xD840
@@ -294,6 +1293,24 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public void Dispose(){} // RVA: 0x24A50
         public void NextPowerOfTwo(){} // RVA: 0x13FF0
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class Buffer`1
+    {
+        public object LOCK;
+        public System.Collections.Generic.List`1<VRC.Udon.Serialization.OdinSerializer.Buffer`1<byte>> FreeBuffers; // 0x8
+        public int count; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5744B60
+        public void get_Count(){} // RVA: 0x5744C00
+        public void get_Array(){} // RVA: 0x5744C70
+        public void get_IsFree(){} // RVA: 0x5744CE0
+        public void Claim(){} // RVA: 0x5744CF0
+        public void Free(){} // RVA: 0x57458D0 | overloaded x2
+        public void Dispose(){} // RVA: 0x57458D0
+        public void NextPowerOfTwo(){} // RVA: 0x5745940
+        public void .cctor(){} // RVA: 0x5745970
     }
 
     public class ByteSerializer

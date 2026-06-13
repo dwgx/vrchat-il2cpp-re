@@ -7,9 +7,9 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 {
     public class CodeViewDebugDirectoryData
     {
-        public object Stamp;
-        public object MinorVersion;
-        public object Type;
+        public System.Guid Stamp; // 0x10
+        public int MinorVersion; // 0x20
+        public string Type; // 0x28
 
         // ── Methods ──
         public void get_Guid(){} // RVA: 0x75E7E0
@@ -20,6 +20,9 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class CoffHeader
     {
+        public 0x659B8960 <Machine>k__BackingField; // 0x10
+        public short <NumberOfSections>k__BackingField; // 0x12
+
         // ── Methods ──
         public void get_NumberOfSections(){} // RVA: 0x629CA20
         public void get_TimeDateStamp(){} // RVA: 0x8ABED0
@@ -28,7 +31,7 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class CorHeader
     {
-        public object Guid;
+        public ushort Guid; // 0x10
 
         // ── Methods ──
         public void get_MetadataDirectory(){} // RVA: 0x544FD0
@@ -37,6 +40,14 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class DebugDirectoryEntry
     {
+        public uint <Stamp>k__BackingField; // 0x10
+        public ushort <MajorVersion>k__BackingField; // 0x14
+        public ushort <MinorVersion>k__BackingField; // 0x16
+        public 0x659B88B0 <Type>k__BackingField; // 0x18
+        public int <DataSize>k__BackingField; // 0x1C
+        public int <DataRelativeVirtualAddress>k__BackingField; // 0x20
+        public int <DataPointer>k__BackingField; // 0x24
+
         // ── Methods ──
         public void get_Stamp(){} // RVA: 0x19689B0
         public void get_MinorVersion(){} // RVA: 0x62D4F60
@@ -56,6 +67,8 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class PEBinaryReader
     {
+        public long _startOffset; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62D4FF0
         public void get_CurrentOffset(){} // RVA: 0x62D50F0
@@ -73,9 +86,9 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class PEHeader
     {
-        public object MetadataStartOffset;
-        public object MetadataSize;
-        public object CoffHeader;
+        public 0x659B8A68 MetadataStartOffset; // 0x10
+        public byte MetadataSize; // 0x12
+        public byte CoffHeader; // 0x13
 
         // ── Methods ──
         public void get_SizeOfImage(){} // RVA: 0x1479960
@@ -86,8 +99,12 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class PEHeaders
     {
-        public object IsLoadedImage;
-        public object PEHeaders;
+        public System.Reflection.PortableExecutable.CoffHeader IsLoadedImage; // 0x10
+        public System.Reflection.PortableExecutable.PEHeader PEHeaders; // 0x18
+        public System.Collections.Immutable.ImmutableArray`1<System.Reflection.PortableExecutable.SectionHeader> _sectionHeaders; // 0x20
+        public System.Reflection.PortableExecutable.CorHeader _corHeader; // 0x28
+        public bool _isLoadedImage; // 0x30
+        public int _metadataStartOffset; // 0x34
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62D5BB0 | overloaded x3
@@ -108,6 +125,9 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class PEReader
     {
+        public bool <IsLoadedImage>k__BackingField; // 0x10
+        public System.Reflection.Internal.MemoryBlockProvider _peImage; // 0x18
+
         // ── Methods ──
         public void get_IsLoadedImage(){} // RVA: 0x3A75E0
         public void .ctor(){} // RVA: 0x62D7250 | overloaded x3
@@ -133,8 +153,8 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class PdbChecksumDebugDirectoryData
     {
-        public object NumberOfSections;
-        public object TimeDateStamp;
+        public string NumberOfSections; // 0x10
+        public System.Collections.Immutable.ImmutableArray`1<byte> TimeDateStamp; // 0x18
 
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x1AD4690
@@ -144,6 +164,12 @@ namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 
     public class SectionHeader
     {
+        public string <Name>k__BackingField; // 0x10
+        public int <VirtualSize>k__BackingField; // 0x18
+        public int <VirtualAddress>k__BackingField; // 0x1C
+        public int <SizeOfRawData>k__BackingField; // 0x20
+        public int <PointerToRawData>k__BackingField; // 0x24
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x1AD4690
         public void get_VirtualSize(){} // RVA: 0x1EA9890

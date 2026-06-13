@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class ParameterExpression
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6601C60 | overloaded x2
         public void Make(){} // RVA: 0x6601610
@@ -27,6 +29,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class PropertyExpression
     {
+        public System.Reflection.PropertyInfo _property; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FC840
         public void GetMember(){} // RVA: 0x2E07C0

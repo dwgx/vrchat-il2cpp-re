@@ -93,8 +93,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÏÏÍÍÌÍÍÌÌÎÏÌÍÌÎÏÍÏÍ</summary>
     public class SearchInFieldsUserSibling_386C
     {
-        public object f_C2E;
-        public object f_785;
+        public UnityEngine.GameObject f_C2E; // 0x10
+        public ÎÍÏÏÏÏÍÍÌÍÍÌÌÎÏÌÍÌÎÏÍÏÍ f_785;
 
         // ── Methods ──
         public void SetupInterfaceOffsets_B46F8FBB3CEE(){} // RVA: 0x10028D0 | overloaded x2
@@ -115,6 +115,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÎÏÏÎÎÌÍÎÎÏÏÏÍÍÍÌÏÎÌÏ</summary>
     public class SearchInFieldsUserSibling_595C
     {
+        public string <ÌÍÌÎÌÍÍÎÍÌÌÍÏÎÌÌÍÍÎÎÏÎÍ>k__BackingField; // 0x10
+        public string <ÌÏÌÌÎÌÎÏÌÏÏÍÏÍÎÎÎÌÏÎÌÍÍ>k__BackingField; // 0x18
+        public string <ÎÍÎÏÍÏÍÌÍÌÏÌÏÍÏÏÌÌÍÎÏÌÍ>k__BackingField; // 0x20
+        public VRC.DataModel.SearchParameters <ÍÎÎÏÏÍÏÎÎÏÏÌÍÌÍÎÏÎÏÌÌÎÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
@@ -154,6 +159,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÎÌÏÏÍÎÎÎÎÌÌÎÏÎÍÍÏÎÍÎ</summary>
     public class SearchInFieldsUserSibling_C21C
     {
+        public ÏÎÍÎÎÏÌÎÌÏÍÎÏÏÍÎÍÍÌÎÌÌÌ ÍÌÏÏÎÌÏÎÍÌÎÌÍÏÍÌÏÍÎÎÍÎÏ; // 0x10
+
         // ── Methods ──
         public void DisposeNativeBuffer_0164A2042C3F(){} // RVA: 0xAC5150
         public void DisposeNativeBuffer(){} // RVA: 0xAC51C0
@@ -207,6 +214,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÍÏÍÏÌÏÍÏÎÎÌÏÎÍÍÎÌÍÏÌ</summary>
     public class SecurityaspectModeRelatedRelated_1EA8
     {
+        public UnityEngine.UI.Button _sidePanelToggleButton; // 0x20
+
         // ── Methods ──
         public void get_ResultOnSuccess(){} // RVA: 0x3978E0
         public void .ctor(){} // RVA: 0x2DDD50
@@ -283,7 +292,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÏÏÌÏÏÏÎÎÌÎÍÍÌÎÏÏÎÎÌÏ</summary>
     public class SecurityaspectMode_F112
     {
-        public object aspectMode;
+        public UnityEngine.UI.Button aspectMode; // 0x20
 
         // ── Methods ──
         public void SyncTransforms(){} // RVA: 0x8E4D300
@@ -331,6 +340,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ;
+        public System.Action`1<T> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ;
+        public System.Func`1<T> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ;
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x24A50
         public void MemCpy(){} // RVA: 0x24B10
@@ -358,6 +371,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ; // 0x10
+        public System.Action`1<int> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ; // 0x18
+        public System.Func`1<int> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ; // 0x20
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x5077FA0
         public void MemCpy(){} // RVA: 0x5078180
@@ -385,6 +402,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ; // 0x10
+        public System.Action`1<float> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ; // 0x18
+        public System.Func`1<float> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ; // 0x20
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x5078FD0
         public void MemCpy(){} // RVA: 0x50791B0
@@ -412,6 +433,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ; // 0x10
+        public System.Action`1<string> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ; // 0x18
+        public System.Func`1<string> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ; // 0x20
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x5078770
         public void MemCpy(){} // RVA: 0x5078950
@@ -439,6 +464,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ; // 0x10
+        public System.Action`1<bool> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ; // 0x18
+        public System.Func`1<bool> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ; // 0x20
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x5077630
         public void MemCpy(){} // RVA: 0x5077810
@@ -466,6 +495,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ</summary>
     public class SerializableVector3SiblinRelated_78F4
     {
+        public string ÎÏÎÏÏÍÏÏÏÍÎÌÏÏÍÏÌÎÌÍÏÏÎ; // 0x10
+        public System.Action`1<ÏÏÏÌÌÏÍÏÍÎÎÏÌÌÌÌÎÌÌÌÏÎÏ> ÌÍÎÌÎÍÎÎÍÌÌÌÎÍÌÌÎÎÏÏÎÎÏ; // 0x18
+        public System.Func`1<ÏÏÏÌÌÏÍÏÍÎÎÏÌÌÌÌÎÌÌÌÏÎÏ> ÏÍÎÏÍÍÎÏÍÎÏÌÍÎÎÎÍÏÏÌÍÌÏ; // 0x20
+
         // ── Methods ──
         public void MemCmp(){} // RVA: 0x507A8F0
         public void MemCpy(){} // RVA: 0x507AAD0
@@ -493,6 +526,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÌÏÏÍÏÌÏÍÍÌÏÍÍÏÎÍÍÌÌÍ</summary>
     public class SerializableVector3SiblingSiblSibling_0FBC
     {
+        public int _min; // 0x228
+        public int _max; // 0x22C
+        public int _step; // 0x230
+        public int _value; // 0x234
+        public float HoldStartDelay; // 0x238
+        public float HoldChangeDelay; // 0x23C
+
         // ── Methods ──
         public void AtomicallyUpdateComponentValue(){} // RVA: 0x1A3FA30
         public void Initialize_D74F9E3B7B27(){} // RVA: 0x1A3FF90
@@ -546,6 +586,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÌÍÌÌÌÍÏÎÍÌÎÎÏÎÎÌÌÌÍÎ</summary>
     public class SerializableVector3SiblingSiblSibling_6489
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void Initialize_D74F9E3B7B27(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -560,6 +602,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÎÍÌÍÍÏÏÌÌÏÎÌÌÍÏÍÌÍÏÎ</summary>
     public class SerializableVector3SiblingSiblSibling_8CE1
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Key(){} // RVA: 0x1AD4690
         public void Initialize_D74F9E3B7B27(){} // RVA: 0x100A2F0
@@ -576,6 +621,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÏÎÍÍÍÎÏÎÍÏÌÏÎÏÍÌÌÏÍÌ</summary>
     public class SerializableVector3SiblingSiblSibling_E335
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x10
+        public 0x65800AC0 <ÏÍÎÍÏÎÎÏÏÎÎÏÌÎÍÏÏÍÏÎÎÎÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void ToVector3(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -593,6 +641,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÌÌÌÌÍÎÍÍÏÍÎÍÏÏÍÌÏÎÏÌ</summary>
     public class SerializableVector3SiblingSibling_0A4F
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x10
+        public ÍÏÍÌÌÌÍÍÎÌÍÏÏÍÏÎÎÌÍÍÏÌÎ <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void InitializeD74F9E3B7B27(){} // RVA: 0x1F07460
         public void Initialize_D74F9E3B7B27(){} // RVA: 0x1AD4690
@@ -612,6 +663,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÍÏÌÌÎÍÎÎÍÌÏÎÏÏÎÍÎÏÍÍ</summary>
     public class SerializableVector3SiblingSibling_86E5
     {
+        public float <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x48
+        public float <ÏÎÍÏÌÏÏÌÏÏÌÍÍÌÎÌÎÎÌÌÏÏÍ>k__BackingField; // 0x4C
+        public float <ÌÍÍÌÏÏÍÏÏÍÏÏÎÏÍÏÍÏÏÍÌÎÎ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xEBB7B0
@@ -635,8 +690,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÌÍÍÌÎÍÌÎÍÍÎÏÎÎÎÍÍÎÌÍ</summary>
     public class SerializableVector3SiblingSibling_FA8F
     {
-        public object Goal;
-        public object CurrentProgress;
+        public string Goal; // 0x10
+        public string CurrentProgress; // 0x18
 
         // ── Methods ──
         public void GetValue(){} // RVA: 0x343E80
@@ -657,6 +712,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÌÌÎÎÌÏÍÏÎÌÏÌÏÍÎÌÍÏÌÌ</summary>
     public class SerializableVector3Sibling_7D10
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÎÌÌÎÍÎÍÌÏÌÎÏÌÌÎÌÌÎÏÌ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void SetValueF501E422C7A0(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
@@ -674,6 +732,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÎÌÎÎÍÏÎÍÎÌÌÍÌÍÏÌÍÏÎ</summary>
     public class SerializableVector3Sibling_A9E6
     {
+        public int ÏÍÏÏÌÍÌÏÌÏÎÏÌÏÏÍÌÍÏÍÏÌÏ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1969390 | overloaded x2
         public void Initialize(){} // RVA: 0x19689B0
@@ -687,6 +747,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÎÍÌÍÎÍÌÍÌÎÏÏÏÏÌÎÎÏÎ</summary>
     public class SerializableVector3Sibling_C20B
     {
+        public bool <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void set_disposed(){} // RVA: 0x394D40
         public void Initialize_D74F9E3B7B27(){} // RVA: 0xEBB680
@@ -708,6 +770,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÏÏÌÎÏÌÎÏÍÌÌÏÍÎÏÎÌÏÎÎ</summary>
     public class SerializationRecoveryHandlerSiSibling_3273
     {
+        public string ÎÌÌÍÏÏÍÏÌÎÍÌÎÍÌÎÏÌÎÍÎÌÎ; // 0x10
+        public string <ÎÌÎÎÏÍÎÏÏÏÍÏÍÎÏÎÍÏÌÍÍÌÏ>k__BackingField; // 0x18
+        public string <ÎÏÏÏÏÏÌÌÌÎÏÌÎÎÍÍÎÎÎÌÌÍÌ>k__BackingField; // 0x20
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void InsertionSort(){} // RVA: 0xBD4220
         public void .ctor(){} // RVA: 0xBD44B0
@@ -736,6 +803,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÍÍÏÎÍÎÏÎÏÎÌÎÎÌÏÌÎÏÎÏ</summary>
     public class SerializationRecoveryHandlerSibling_29CC
     {
+        public ÌÎÏÍÍÏÎÍÎÏÎÏÎÌÎÎÌÏÌÎÏÎÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public bool ÎÏÌÎÏÍÎÍÏÏÏÍÍÌÌÍÌÎÍÌÏÎÏ; // 0x10
+        public string ÌÎÌÌÏÍÎÌÏÏÍÍÏÎÌÌÎÎÌÍÌÏÌ; // 0x18
+        public string ÏÎÌÏÎÏÍÎÍÍÌÍÌÏÎÌÌÎÏÏÎÏÎ; // 0x20
+
         // ── Methods ──
         public void TrySetResult(){} // RVA: 0x723230
         public void TrySetResult_01868FB1F825(){} // RVA: 0x7234B0
@@ -760,6 +832,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÏÌÎÎÎÎÎÌÍÍÍÌÌÍÍÏÍÍÍÌ</summary>
     public class SerializationRecoveryHandlerSibling_E255
     {
+        public ÌÎÎÏÌÎÎÎÎÎÌÍÍÍÌÌÍÍÏÍÍÍÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void GetBorder(){} // RVA: 0x130CB00
         public void GetBorder_CCDF7746B76C(){} // RVA: 0x130CB40
@@ -783,6 +857,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÍÎÎÎÌÎÏÎÏÏÏÏÏÏÍÍÌÎÍÍ</summary>
     public class SerializationRecoveryHandlerSibling_F82B
     {
+        public UnityEngine.Rect ÏÏÎÎÍÏÍÌÎÏÎÏÍÍÎÍÍÌÏÌÏÌÏ; // 0x20
+        public int ÏÍÍÌÏÍÌÍÌÏÎÎÎÌÍÏÌÍÎÏÍÌÌ; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1A8A010
         public void Initialize(){} // RVA: 0x1A8A070
@@ -819,6 +896,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÎÏÌÎÍÌÌÍÌÎÍÌÌÌÌÌÌÌÎ</summary>
     public class SetLayoutHorizontalSetLayoutVertical_680A_C760 : m_Spacing
     {
+        public UnityEngine.RectOffset m_Padding; // 0x20
+
         // ── Methods ──
         public void SetLayoutHorizontal(){} // RVA: 0x8F1C6C0
         public void SetLayoutVertical(){} // RVA: 0x8F1C6F0
@@ -903,6 +982,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÌÍÌÎÎÌÍÌÏÍÍÏÏÌÌÎÌÌÏÍ</summary>
     public class ShouldActivateModuleIsModuleSupported_8A61_DA85
     {
+        public bool ÍÌÎÍÍÌÏÎÌÎÌÏÍÌÎÎÎÎÎÎÌÍÎ; // 0x58
+
         // ── Methods ──
         public void get_sendPointerHoverToParent(){} // RVA: 0x306120
         public void ShouldActivateModule(){} // RVA: 0x1858420
@@ -928,8 +1009,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÏÏÌÍÎÏÌÏÌÌÏÏÍÏÌÏÌÎÎÎ</summary>
     public class SingletonContext_4F00
     {
-        public object Singleton;
-        public object Context;
+        public UnityEngine.Animator Singleton; // 0x20
+        public ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ Context; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1141C90
@@ -951,6 +1032,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÌÌÏÎÎÎÎÎÍÎÌÍÏÎÎÏÌÏÍÌ</summary>
     public class StyleElementSiblingSiblinRelated_0E44
     {
+        public VRC.UI.Core.Styles.StyleElement ÎÍÎÍÏÌÍÍÌÏÏÎÎÎÏÏÏÍÌÎÍÍÎ; // 0x10
+
         // ── Methods ──
         public void Contains(){} // RVA: 0xCD60
         public void CopyTo(){} // RVA: 0x721D610
@@ -966,6 +1049,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÌÌÌÌÍÏÎÍÌÌÏÎÏÎÏÎÏÌÍÏ</summary>
     public class StyleElementSiblingSiblinRelated_15FF
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B104E0
         public void .ctor(){} // RVA: 0x8B106A0
@@ -983,6 +1068,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÌÍÌÍÍÏÍÍÏÎÎÌÏÎÎÎÍÏÍ</summary>
     public class StyleElementSiblingSiblinRelated_160C
     {
+        public UnityEngine.GameObject ÎÌÍÌÌÍÎÍÍÎÍÍÍÌÍÎÏÎÍÎÎÏÌ; // 0x18
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8AFAB30
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
@@ -1001,6 +1088,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÎÍÍÏÏÌÎÍÌÎÎÏÎÍÎÍÏÏÎÍ</summary>
     public class StyleElementSiblingSiblinRelated_177A
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x8B099C0
         public void GetColorKeys(){} // RVA: 0x8B09B40
@@ -1024,6 +1113,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÍÏÍÍÎÏÎÏÌÌÏÏÍÏÍÏÌÌÌÏ</summary>
     public class StyleElementSiblingSiblinRelated_1CEB
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0xB1AF10
         public void .cctor(){} // RVA: 0xB1B1C0
@@ -1041,6 +1132,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÏÍÌÎÌÍÏÏÍÏÎÌÌÏÍÎÍÍÏÎÎ</summary>
     public class StyleElementSiblingSiblinRelated_2274
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void ProcessGizmos(){} // RVA: 0x8B06260
         public void ProcessGizmos_FFCF2FFC7377(){} // RVA: 0x8B063F0
@@ -1063,6 +1156,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÏÌÍÍÎÍÌÏÍÌÏÎÏÍÎÎÍÏÍÏ</summary>
     public class StyleElementSiblingSiblinRelated_3F75
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8B0F700
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
@@ -1084,6 +1179,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÎÍÎÍÏÎÍÌÍÌÍÏÍÍÌÏÍÍÍ</summary>
     public class StyleElementSiblingSiblinRelated_3FA2
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB0F3F0
         public void Initialize(){} // RVA: 0xB0F420
@@ -1102,6 +1199,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÌÏÌÎÎÌÌÌÏÏÍÌÌÌÎÍÌÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_4808
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void SetActiveGameObject(){} // RVA: 0x8B15280
         public void IsStyleSelectorPartEqual(){} // RVA: 0x8B15410
@@ -1123,6 +1222,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÏÍÏÎÌÎÏÎÌÌÍÍÍÎÍÏÏÎÌ</summary>
     public class StyleElementSiblingSiblinRelated_4CB4
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B0CC50
         public void AddElement(){} // RVA: 0x8ACC800
@@ -1144,6 +1245,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÌÌÏÌÌÏÌÏÌÏÎÏÌÍÎÍÌÌÏÏ</summary>
     public class StyleElementSiblingSiblinRelated_67BF
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8B0F100
         public void .cctor(){} // RVA: 0x8B0F220
@@ -1164,6 +1267,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÍÏÌÌÍÎÎÏÍÏÎÌÍÌÏÌÎÍÏÍ</summary>
     public class StyleElementSiblingSiblinRelated_708F
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8AFF3C0
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
@@ -1186,6 +1291,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÌÎÏÎÌÎÍÏÌÏÌÏÌÎÌÎÌÎÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_7266
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B0E8B0
         public void GetHashCode(){} // RVA: 0x8B0EB80
@@ -1207,6 +1314,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÏÏÌÍÌÏÏÎÎÌÏÏÌÌÎÎÏÎÍÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_76FE
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8B13940
         public void .cctor(){} // RVA: 0x8B13C70
@@ -1228,6 +1337,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÏÍÎÍÎÏÌÎÏÎÍÏÍÎÌÍÍÍÌÍÎ</summary>
     public class StyleElementSiblingSiblinRelated_78DF
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8AFC6A0
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
@@ -1246,6 +1357,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÏÍÌÎÌÍÍÍÎÌÍÍÍÎÎÎÎÏÌÍ</summary>
     public class StyleElementSiblingSiblinRelated_7AC4
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB11240
         public void Initialize(){} // RVA: 0xB11270
@@ -1270,6 +1383,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÏÌÍÏÌÍÍÏÌÏÌÌÍÎÍÎÌÎÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_7DAB
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void CreateContext(){} // RVA: 0x8B0DF40
         public void CreateContext_B847BC9821CB(){} // RVA: 0x8B0DF80
@@ -1292,6 +1407,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÎÍÌÌÏÍÌÍÍÏÌÏÏÎÍÎÎÌÍÌ</summary>
     public class StyleElementSiblingSiblinRelated_7E1C
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AFFF70
         public void Initialize(){} // RVA: 0x8AFFFA0
@@ -1309,6 +1426,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÌÌÌÎÍÏÍÍÌÏÍÍÌÍÍÏÎÎÏÌ</summary>
     public class StyleElementSiblingSiblinRelated_8AE0
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB13890
         public void GetHashCode(){} // RVA: 0xB13950
@@ -1326,6 +1445,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÏÍÍÏÍÌÏÌÎÎÌÍÎÏÎÌÌÎÏÍ</summary>
     public class StyleElementSiblingSiblinRelated_94A6
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B11660
         public void GetHashCode(){} // RVA: 0x8B12100
@@ -1342,6 +1463,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÏÎÎÍÍÌÍÏÌÍÏÏÎÎÏÏÏÏÏÌ</summary>
     public class StyleElementSiblingSiblinRelated_A137
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8ACD340
         public void TryGetValue(){} // RVA: 0x8ACD400
@@ -1362,6 +1485,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÎÌÏÎÌÏÍÍÎÌÌÏÍÎÏÍÏÍÌ</summary>
     public class StyleElementSiblingSiblinRelated_AC45
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetTypedStyleValueOrDefault(){} // RVA: 0xB1BCB0
         public void GetTypedStyleValueOrDefault_AFD86FF3F3CE(){} // RVA: 0xB1BFD0
@@ -1385,6 +1510,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÌÍÌÏÎÌÏÍÎÏÎÌÏÏÌÌÌÎÍÎ</summary>
     public class StyleElementSiblingSiblinRelated_AF36
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void GetHashCode(){} // RVA: 0x8AFDA50
@@ -1403,6 +1530,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÌÎÍÍÎÌÍÌÌÎÎÍÌÎÍÎÌÎÏÎ</summary>
     public class StyleElementSiblingSiblinRelated_B76E
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8ACAAF0
         public void Initialize(){} // RVA: 0x8ACAB20
@@ -1426,6 +1555,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÌÏÌÎÏÍÌÍÌÎÍÎÎÏÏÎÏÌÌ</summary>
     public class StyleElementSiblingSiblinRelated_BE4F
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB14D20
         public void Initialize(){} // RVA: 0xB14D50
@@ -1447,6 +1578,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÏÍÎÏÌÏÌÍÌÏÌÏÎÌÌÌÏÌÍÌ</summary>
     public class StyleElementSiblingSiblinRelated_C4A9
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB1CDE0
         public void .ctor(){} // RVA: 0xB1CEA0
@@ -1467,6 +1600,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÎÎÏÌÎÌÏÌÍÌÏÍÍÍÍÏÌÌÌ</summary>
     public class StyleElementSiblingSiblinRelated_C861
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B10F40
         public void Initialize(){} // RVA: 0x8B10F70
@@ -1487,6 +1622,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÍÎÍÍÍÌÌÌÎÌÏÏÎÌÌÏÎÏÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_D2E5
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB10840
         public void GetHashCode(){} // RVA: 0xB10AB0
@@ -1504,6 +1641,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÎÌÏÍÎÎÌÌÍÏÏÏÏÍÌÍÎÏÏ</summary>
     public class StyleElementSiblingSiblinRelated_D4FB
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B07BB0
         public void ContainsBoxedStyleSelector(){} // RVA: 0x8B08540
@@ -1527,6 +1666,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÏÏÎÎÏÏÎÎÎÍÏÌÌÎÏÍÎÎÍÏ</summary>
     public class StyleElementSiblingSiblinRelated_D922
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void AddElement(){} // RVA: 0x8ACC800
         public void .ctor(){} // RVA: 0x8B146D0
@@ -1549,6 +1690,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÍÌÍÏÍÎÌÍÏÎÌÌÍÏÎÏÌÌÌÏÌ</summary>
     public class StyleElementSiblingSiblinRelated_D95F
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void CreateContext(){} // RVA: 0xB11D50
         public void .ctor(){} // RVA: 0xB12080
@@ -1571,6 +1714,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÍÍÌÏÌÌÍÍÍÏÏÌÍÍÏÎÌÏÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_DD01
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8AFBAE0
         public void .ctor(){} // RVA: 0x8AFBE70
@@ -1593,6 +1738,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÌÌÍÏÌÎÌÎÎÏÏÏÌÏÌÍÌÌÍÎ</summary>
     public class StyleElementSiblingSiblinRelated_E1A0
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetConnectedBody(){} // RVA: 0xB3B3D0
         public void .cctor(){} // RVA: 0xB3B770
@@ -1618,6 +1765,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÏÏÏÍÌÎÎÌÌÎÌÏÎÌÌÏÍÍÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_E62A
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void TrySetStyleValue(){} // RVA: 0x8B00CC0
         public void .ctor(){} // RVA: 0x8B00DD0
@@ -1640,6 +1789,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÍÌÍÎÎÌÏÎÎÍÏÍÌÌÏÏÍÎÌ</summary>
     public class StyleElementSiblingSiblinRelated_E94F
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void ProcessGizmos(){} // RVA: 0x8B03A50
         public void ProcessGizmos_C891049DECAF(){} // RVA: 0x8B03AB0
@@ -1664,6 +1815,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÍÍÍÍÏÍÌÏÎÎÎÎÎÌÍÌÏÌÏ</summary>
     public class StyleElementSiblingSiblinRelated_EE81
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void EqualsObject(){} // RVA: 0x8B06F10
         public void GetMatrix(){} // RVA: 0x8B06F50
@@ -1688,6 +1841,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÌÍÏÍÎÍÌÏÍÏÏÍÍÎÍÌÏÌÏÌ</summary>
     public class StyleElementSiblingSiblinRelated_EFEB
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCodeCore(){} // RVA: 0x8B01B20
         public void GetHashCode(){} // RVA: 0x8B01B50
@@ -1712,6 +1867,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÌÏÎÌÏÎÍÎÏÎÎÎÍÎÍÏÍÌÌÎ</summary>
     public class StyleElementSiblingSiblinRelated_F2CC
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB0DB30
         public void Initialize(){} // RVA: 0xB0DB60
@@ -1734,6 +1891,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÏÎÍÎÎÎÏÌÏÌÎÍÏÎÎÏÏÎÏÍ</summary>
     public class StyleElementSiblingSiblinRelated_F2EF
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B05420
         public void ProcessGizmos(){} // RVA: 0x8B054E0
@@ -1757,6 +1916,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÏÍÍÌÌÍÏÎÌÌÌÏÍÌÏÏÌÎÏ</summary>
     public class StyleElementSiblingSiblinRelated_F372
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8B046B0
         public void ProcessGizmos(){} // RVA: 0x8B04770
@@ -1780,6 +1941,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÏÎÍÎÎÎÍÌÌÍÏÍÍÏÍÌÏÌÎÍ</summary>
     public class StyleElementSiblingSiblinRelated_F6AB
     {
+        public string ÌÏÌÏÎÏÍÍÏÎÏÌÏÍÌÎÌÍÌÌÍÎÎ;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8B0BE30
         public void .cctor(){} // RVA: 0x8B0BE90
@@ -1874,6 +2037,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÌÌÍÎÌÍÏÌÏÍÍÌÍÏÎÏÏÏÌÎ</summary>
     public class SystemInfoHandler_272A
     {
+        public float ÎÍÌÍÌÌÎÌÍÎÍÎÍÏÏÍÎÏÍÎÌÌÌ;
+        public VRC.Localization.LocalizableString ÏÏÏÏÎÏÎÏÌÌÌÍÌÏÌÌÍÏÎÍÌÍÏ;
+        public VRC.Localization.LocalizableString ÏÏÍÍÌÏÎÍÏÌÌÏÏÍÎÎÏÎÎÌÌÍÍ; // 0x28
+        public VRC.Localization.LocalizableString ÎÌÍÏÏÎÎÎÍÎÌÌÏÏÎÏÏÏÌÏÏÍÏ; // 0x50
+        public VRC.Localization.LocalizableString ÎÌÍÎÎÏÍÍÎÎÌÏÎÏÎÏÎÏÎÏÏÎÎ; // 0x78
+        public ÍÍÌÎÏÏÌÏÍÌÏÍÌÏÌÏÏÏÍÎÌÌÎ ÌÏÎÏÌÏÏÌÍÏÎÌÌÌÎÌÎÏÌÏÌÍÏ; // 0xA0
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x190B230
         public void Awake(){} // RVA: 0x190B6E0
@@ -1980,6 +2150,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÍÎÍÍÏÎÍÍÌÍÍÌÌÌÎÌÎÌÌÏ</summary>
     public class skiddingSibling_A393
     {
+        public 0x65728378 <ÍÎÍÍÏÏÎÌÎÌÎÌÍÎÎÍÌÍÌÎÍÌÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_InstantiationKind(){} // RVA: 0x32A5C0
         public void get_InstantiationKind_4133EEC9156D(){} // RVA: 0x32A5C0
@@ -2026,7 +2198,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÏÌÌÌÏÍÏÍÌÎÍÌÎÏÎÎÎÎÌÌ</summary>
     public class skidding_703E
     {
-        public object skidding;
+        public System.Collections.ArrayList skidding; // 0x20
 
         // ── Methods ──
         public void Update(){} // RVA: 0x101D4F0

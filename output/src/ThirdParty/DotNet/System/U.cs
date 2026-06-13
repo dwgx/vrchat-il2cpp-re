@@ -91,6 +91,8 @@ namespace ThirdParty.DotNet.System
 
     public class UIntPtr
     {
+        public object Zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320 | overloaded x3
         public void Equals(){} // RVA: 0x5F184B0
@@ -124,7 +126,8 @@ namespace ThirdParty.DotNet.System
 
     public class UnhandledExceptionEventArgs
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public object System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public bool _isTerminating; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EC30D0
@@ -153,6 +156,43 @@ namespace ThirdParty.DotNet.System
 
     public class Uri
     {
+        public string UriSchemeFile;
+        public string UriSchemeFtp; // 0x8
+        public string UriSchemeGopher; // 0x10
+        public string UriSchemeHttp; // 0x18
+        public string UriSchemeHttps; // 0x20
+        public string UriSchemeWs; // 0x28
+        public string UriSchemeWss; // 0x30
+        public string UriSchemeMailto; // 0x38
+        public string UriSchemeNews; // 0x40
+        public string UriSchemeNntp; // 0x48
+        public string UriSchemeNetTcp; // 0x50
+        public string UriSchemeNetPipe; // 0x58
+        public string SchemeDelimiter; // 0x60
+        public int c_Max16BitUtf8SequenceLength;
+        public int c_MaxUriBufferSize;
+        public int c_MaxUriSchemeName;
+        public string m_String; // 0x10
+        public string m_originalUnicodeString; // 0x18
+        public System.UriParser m_Syntax; // 0x20
+        public string m_DnsSafeHost; // 0x28
+        public 0x65849E40 m_Flags; // 0x30
+        public UriInfo m_Info; // 0x38
+        public bool m_iriParsing; // 0x40
+        public bool s_ConfigInitialized; // 0x68
+        public bool s_ConfigInitializing; // 0x69
+        public 0x6584A208 s_IdnScope; // 0x6C
+        public bool s_IriParsing; // 0x70
+        public bool useDotNetRelativeOrAbsolute; // 0x71
+        public 0x6584A100 DotNetRelativeOrAbsolute;
+        public bool IsWindowsFileSystem; // 0x72
+        public object s_initLock; // 0x78
+        public 0x6584A1B0 V1ToStringUnescape;
+        public char c_DummyChar;
+        public char c_EOL;
+        public char[] HexLowerChars; // 0x80
+        public char[] _WSchars; // 0x88
+
         // ── Methods ──
         public void get_IsImplicitFile(){} // RVA: 0x6B08F70
         public void get_IsUncOrDosPath(){} // RVA: 0x6B08F80
@@ -280,6 +320,13 @@ namespace ThirdParty.DotNet.System
 
     public class UriBuilder
     {
+        public bool _changed; // 0x10
+        public string _fragment; // 0x18
+        public string _host; // 0x20
+        public string _password; // 0x28
+        public string _path; // 0x30
+        public int _port; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BF15F0 | overloaded x6
         public void Init(){} // RVA: 0x6BF0D40
@@ -323,6 +370,12 @@ namespace ThirdParty.DotNet.System
 
     public class UriParser
     {
+        public 0x6584A578 SchemeOnlyFlags;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> m_Table;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> m_TempTable; // 0x8
+        public 0x6584A578 m_Flags; // 0x10
+        public 0x6584A578 m_UpdatableFlags; // 0x14
+
         // ── Methods ──
         public void get_SchemeName(){} // RVA: 0x30B0C0
         public void get_DefaultPort(){} // RVA: 0x197C3B0

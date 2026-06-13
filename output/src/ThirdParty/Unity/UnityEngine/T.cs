@@ -179,6 +179,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainData
     {
+        public string k_ScriptingInterfaceName;
+        public string k_ScriptingInterfacePrefix;
+        public string k_HeightmapPrefix;
+        public string k_DetailDatabasePrefix;
+        public string k_TreeDatabasePrefix;
+        public string k_SplatDatabasePrefix;
+        public int k_MaximumResolution;
+        public int k_MinimumDetailResolutionPerPatch; // 0x4
+        public int k_MaximumDetailResolutionPerPatch; // 0x8
+        public int k_MaximumDetailPatchCount; // 0xC
+        public int k_MinimumAlphamapResolution; // 0x10
+
         // ── Methods ──
         public void GetBoundaryValue(){} // RVA: 0x725EB70
         public void .ctor(){} // RVA: 0x725EBC0
@@ -231,6 +243,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditingUtilities
     {
+        public UnityEngine.TextSelectingUtilities m_TextSelectingUtility; // 0x10
+        public UnityEngine.TextCore.Text.TextHandle m_TextHandle; // 0x18
+        public int m_CursorIndexSavedState; // 0x20
+        public bool isCompositionActive; // 0x24
+        public bool m_UpdateImeWindowPosition; // 0x25
+
         // ── Methods ──
         public void get_hasSelection(){} // RVA: 0x7198FB0
         public void set_revealCursor(){} // RVA: 0x7199000
@@ -269,6 +287,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditor
     {
+        public UnityEngine.TouchScreenKeyboard keyboardOnScreen; // 0x10
+        public int controlID; // 0x18
+        public UnityEngine.GUIStyle style; // 0x20
+        public bool multiline; // 0x28
+        public bool hasHorizontalCursorPos; // 0x29
+        public bool isPasswordField; // 0x2A
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x719BE30
         public void set_text(){} // RVA: 0x719BE50
@@ -376,6 +401,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerator
     {
+        public UIntPtr m_Ptr; // 0x10
+        public string m_LastString; // 0x18
+        public UnityEngine.TextGenerationSettings m_LastSettings; // 0x20
+        public bool m_HasGenerated; // 0x80
+        public 0x659FB568 m_LastValid; // 0x84
+        public System.Collections.Generic.List`1<UnityEngine.UIVertex> m_Verts; // 0x88
+        public System.Collections.Generic.List`1<UnityEngine.UICharInfo> m_Characters; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72B16A0 | overloaded x2
         public void Finalize(){} // RVA: 0x72B1990
@@ -445,6 +478,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextSelectingUtilities
     {
+        public 0x659A1C50 dblClickSnap; // 0x10
+        public int iAltCursorPos; // 0x14
+        public bool hasHorizontalCursorPos; // 0x18
+        public bool m_bJustSelected; // 0x19
+        public bool m_MouseDragSelectsWholeWords; // 0x1A
+        public int m_DblClickInitPos; // 0x1C
+        public UnityEngine.TextCore.Text.TextHandle m_TextHandle; // 0x20
+        public int kMoveDownHeight;
+
         // ── Methods ──
         public void get_hasSelection(){} // RVA: 0x71A3CE0
         public void get_revealCursor(){} // RVA: 0x6E8A80
@@ -523,6 +565,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture
     {
+        public int GenerateAllMips;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70FF550
         public void get_mipmapCount(){} // RVA: 0x70FF5A0
@@ -573,6 +617,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture2D
     {
+        public int streamingMipmapsPriorityMin;
+        public int streamingMipmapsPriorityMax;
+
         // ── Methods ──
         public void get_format(){} // RVA: 0x71008E0
         public void get_ignoreMipmapLimit(){} // RVA: 0x7100930
@@ -736,6 +783,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Touch
     {
+        public int m_FingerId; // 0x10
+        public UnityEngine.Vector2 m_Position; // 0x14
+        public UnityEngine.Vector2 m_RawPosition; // 0x1C
+        public UnityEngine.Vector2 m_PositionDelta; // 0x24
+        public float m_TimeDelta; // 0x2C
+        public int m_TapCount; // 0x30
+        public 0x659FBA38 m_Phase; // 0x34
+        public 0x659FBAE8 m_Type; // 0x38
+        public float m_Pressure; // 0x3C
+        public float m_maximumPossiblePressure; // 0x40
+        public float m_Radius; // 0x44
+        public float m_RadiusVariance; // 0x48
+        public float m_AltitudeAngle; // 0x4C
+        public float m_AzimuthAngle; // 0x50
+
         // ── Methods ──
         public void get_fingerId(){} // RVA: 0x67FD0D0
         public void get_position(){} // RVA: 0x71A81C0
@@ -758,6 +820,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TouchScreenKeyboard
     {
+        public UIntPtr m_Ptr; // 0x10
+        public bool <disableInPlaceEditing>k__BackingField;
+
         // ── Methods ──
         public void Internal_Destroy(){} // RVA: 0x7133BA0
         public void Destroy(){} // RVA: 0x7133BF0
@@ -1038,6 +1103,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TreePrototype
     {
+        public UnityEngine.GameObject m_Prefab; // 0x10
+        public float m_BendFactor; // 0x18
+        public int m_NavMeshLod; // 0x1C
+
         // ── Methods ──
         public void get_prefab(){} // RVA: 0x33B6D40
         public void get_bendFactor(){} // RVA: 0x70794A0

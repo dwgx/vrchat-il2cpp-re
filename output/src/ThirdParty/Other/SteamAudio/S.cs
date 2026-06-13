@@ -197,7 +197,16 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioManager
     {
-        public object _singleton;
+        public int _singleton; // 0x20
+        public string[] hrtfNames; // 0x28
+        public int mNumCPUCores; // 0x30
+        public SteamAudio.AudioSettings mAudioSettings; // 0x34
+        public SteamAudio.Context mContext; // 0x40
+        public SteamAudio.HRTF[] mHRTFs; // 0x48
+        public SteamAudio.EmbreeDevice mEmbreeDevice; // 0x50
+        public bool mEmbreeInitFailed; // 0x58
+        public SteamAudio.OpenCLDevice mOpenCLDevice; // 0x60
+        public bool mOpenCLInitFailed; // 0x68
 
         // ── Methods ──
         public void get_Singleton(){} // RVA: 0x64858D0
@@ -338,7 +347,7 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioSettings
     {
-        public object CameraSelector;
+        public 0x659BE580 CameraSelector; // 0x18
 
         // ── Methods ──
         public void get_Singleton(){} // RVA: 0x6496A00
@@ -347,6 +356,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioSource
     {
+        public bool directBinaural; // 0x20
+
         // ── Methods ──
         public void get_interpolation(){} // RVA: 0x3CFAF0
         public void Awake(){} // RVA: 0x6496E20

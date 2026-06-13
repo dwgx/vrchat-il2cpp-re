@@ -21,6 +21,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ScreenshotReady_t
     {
+        public uint Local; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CEDE0
         public void .cctor(){} // RVA: 0x20CEDF0
@@ -28,6 +30,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ScreenshotRequested_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CEEF0
         public void .cctor(){} // RVA: 0x20CEF00
@@ -35,6 +39,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SearchForGameProgressCallback_t
     {
+        public ulong LSearchID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CAE20
         public void .cctor(){} // RVA: 0x20CAE30
@@ -42,6 +48,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SearchForGameResultCallback_t
     {
+        public ulong LSearchID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CAF30
         public void .cctor(){} // RVA: 0x20CAF40
@@ -49,6 +57,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SetPersonaNameResponse_t
     {
+        public bool Success; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C94B0
         public void .cctor(){} // RVA: 0x20C94C0
@@ -56,6 +66,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SetUserItemVoteResult_t
     {
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0ED0
         public void .cctor(){} // RVA: 0x20D0EE0
@@ -69,6 +81,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class StartPlaytimeTrackingResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D10F0
         public void .cctor(){} // RVA: 0x20D1100
@@ -76,6 +90,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamAPICallCompleted_t
     {
+        public ulong AsyncCall; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C9B10
         public void .cctor(){} // RVA: 0x20C9B20
@@ -83,6 +99,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamAppInstalled_t
     {
+        public Steamworks.AppId AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1B90
         public void .cctor(){} // RVA: 0x20D1BA0
@@ -90,6 +108,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamAppUninstalled_t
     {
+        public Steamworks.AppId AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1CA0
         public void .cctor(){} // RVA: 0x20D1CB0
@@ -97,6 +117,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInputConfigurationLoaded_t
     {
+        public Steamworks.AppId AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0650
         public void .cctor(){} // RVA: 0x20D0660
@@ -104,6 +126,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInputDeviceConnected_t
     {
+        public ulong ConnectedDeviceHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0430
         public void .cctor(){} // RVA: 0x20D0440
@@ -111,6 +135,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInputDeviceDisconnected_t
     {
+        public ulong DisconnectedDeviceHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0540
         public void .cctor(){} // RVA: 0x20D0550
@@ -118,6 +144,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryDefinitionUpdate_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3840
         public void .cctor(){} // RVA: 0x20D3850
@@ -125,6 +153,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryEligiblePromoItemDefIDs_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3950
         public void .cctor(){} // RVA: 0x20D3960
@@ -132,6 +162,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryFullUpdate_t
     {
+        public int Handle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3730
         public void .cctor(){} // RVA: 0x20D3740
@@ -139,6 +171,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryRequestPricesResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3B70
         public void .cctor(){} // RVA: 0x20D3B80
@@ -146,6 +180,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryResultReady_t
     {
+        public int Handle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3620
         public void .cctor(){} // RVA: 0x20D3630
@@ -163,6 +199,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryStartPurchaseResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3A60
         public void .cctor(){} // RVA: 0x20D3A70
@@ -174,6 +212,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetAuthenticationStatus_t
     {
+        public 0x659B1B60 Avail; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D4500
         public void .cctor(){} // RVA: 0x20D4510
@@ -181,6 +221,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetConnectionStatusChangedCallback_t
     {
+        public Steamworks.Data.Connection Conn; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D43F0
         public void .cctor(){} // RVA: 0x20D4400
@@ -188,6 +230,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetworkingFakeIPResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D53E0
         public void .cctor(){} // RVA: 0x20D53F0
@@ -195,6 +239,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetworkingMessagesSessionFailed_t
     {
+        public Steamworks.Data.ConnectionInfo Nfo; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D42E0
         public void .cctor(){} // RVA: 0x20D42F0
@@ -202,6 +248,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetworkingMessagesSessionRequest_t
     {
+        public Steamworks.Data.NetIdentity DentityRemote; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D41D0
         public void .cctor(){} // RVA: 0x20D41E0
@@ -218,6 +266,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamParentalSettingsChanged_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3EA0
         public void .cctor(){} // RVA: 0x20D3EB0
@@ -225,6 +275,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRelayNetworkStatus_t
     {
+        public 0x659B1B60 Avail; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D4610
         public void .cctor(){} // RVA: 0x20D4620
@@ -232,6 +284,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRemotePlaySessionConnected_t
     {
+        public uint SessionID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3FB0
         public void .cctor(){} // RVA: 0x20D3FC0
@@ -239,6 +293,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRemotePlaySessionDisconnected_t
     {
+        public uint SessionID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D40C0
         public void .cctor(){} // RVA: 0x20D40D0
@@ -246,6 +302,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServerConnectFailure_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C7090
         public void .cctor(){} // RVA: 0x20C70A0
@@ -253,6 +311,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServersConnected_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C6F80
         public void .cctor(){} // RVA: 0x20C6F90
@@ -260,6 +320,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServersDisconnected_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C71A0
         public void .cctor(){} // RVA: 0x20C71B0
@@ -267,6 +329,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamShutdown_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C9C20
         public void .cctor(){} // RVA: 0x20C9C30
@@ -278,6 +342,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamUGCQueryCompleted_t
     {
+        public ulong Handle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0760
         public void .cctor(){} // RVA: 0x20D0770
@@ -285,6 +351,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamUGCRequestUGCDetailsResult_t
     {
+        public Steamworks.Data.SteamUGCDetails_t Details; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0870
         public void .cctor(){} // RVA: 0x20D0880
@@ -292,6 +360,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class StopPlaytimeTrackingResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1200
         public void .cctor(){} // RVA: 0x20D1210
@@ -299,6 +369,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class StoreAuthURLResponse_t
     {
+        public byte[] URL; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C7C40
         public void .cctor(){} // RVA: 0x20C7C50
@@ -306,6 +378,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SubmitItemUpdateResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0A90
         public void .cctor(){} // RVA: 0x20D0AA0
@@ -313,6 +387,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SubmitPlayerResultResultCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB370
         public void .cctor(){} // RVA: 0x20CB380

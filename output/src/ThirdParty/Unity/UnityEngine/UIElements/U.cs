@@ -1,12 +1,19 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 52
-// Methods: 334
+// Classes: 100
+// Methods: 420
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class UIDocument
     {
+        public string k_RootStyleClassName;
+        public string k_VisualElementNameSuffix;
+        public int k_DefaultSortingOrder;
+        public int s_CurrentUIDocumentCounter;
+        public int m_UIDocumentCreationIndex; // 0x20
+        public UnityEngine.UIElements.PanelSettings m_PanelSettings; // 0x28
+
         // ── Methods ──
         public void get_panelSettings(){} // RVA: 0x7145590
         public void set_panelSettings(){} // RVA: 0x7403970
@@ -54,6 +61,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsPackageUtility
     {
+        public bool <IsUIEPackageLoaded>k__BackingField;
+        public string <EditorResourcesBasePath>k__BackingField; // 0x8
+
         // ── Methods ──
         public void get_IsUIEPackageLoaded(){} // RVA: 0x7484570
         public void set_IsUIEPackageLoaded(){} // RVA: 0x74845D0
@@ -65,6 +75,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsRuntimeUtility
     {
+        public System.Action`1<UnityEngine.UIElements.BaseRuntimePanel> onCreatePanel;
+        public bool s_RegisteredPlayerloopCallback; // 0x8
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Panel> s_SortedRuntimePanels; // 0x10
+
         // ── Methods ──
         public void add_onCreatePanel(){} // RVA: 0x74848A0
         public void remove_onCreatePanel(){} // RVA: 0x7484A00
@@ -157,6 +171,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRAtlasAllocator
     {
+        public int <maxAtlasSize>k__BackingField; // 0x10
+        public int <maxImageWidth>k__BackingField; // 0x14
+        public int <maxImageHeight>k__BackingField; // 0x18
+        public int <virtualWidth>k__BackingField; // 0x1C
+        public int <virtualHeight>k__BackingField; // 0x20
+        public int <physicalWidth>k__BackingField; // 0x24
+        public int <physicalHeight>k__BackingField; // 0x28
+        public AreaNode m_FirstUnpartitionedArea; // 0x30
+
         // ── Methods ──
         public void get_maxAtlasSize(){} // RVA: 0x32A5C0
         public void get_maxImageWidth(){} // RVA: 0x8ABED0
@@ -182,6 +205,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRLayoutUpdater
     {
+        public string s_Description;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x74315C0
         public void OnVersionChanged(){} // RVA: 0x7431620
@@ -194,6 +219,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRRepaintUpdater
     {
+        public UnityEngine.UIElements.BaseVisualElementPanel attachedPanel; // 0x20
+        public UnityEngine.UIElements.UIR.RenderChain renderChain; // 0x28
+        public string s_Description;
+        public Unity.Profiling.ProfilerMarker s_ProfilerMarker; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74367D0
         public void get_profilerMarker(){} // RVA: 0x7436920
@@ -235,8 +265,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UITKTextHandle
     {
-        public object textInfo;
-        public object layoutTextInfo;
+        public UnityEngine.Vector2 textInfo; // 0x38
+        public UnityEngine.Vector2 layoutTextInfo; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x747AB10
@@ -270,6 +300,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryBuilder`1
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSelector> m_StyleSelectors;
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSelectorPart> m_Parts;
+
         // ── Methods ──
         public void get_styleSelectors(){} // RVA: 0xCD60
         public void get_parts(){} // RVA: 0xCD60
@@ -310,8 +343,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .cctor(){} // RVA: 0x24A80
     }
 
+    public class UQueryState`1
+    {
+    }
+
     public class UnsignedIntegerField
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_integerInput(){} // RVA: 0x73D0240
         public void ValueToString(){} // RVA: 0x73D02D0
@@ -324,6 +363,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UnsignedLongField
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_unsignedLongInput(){} // RVA: 0x73D1420
         public void ValueToString(){} // RVA: 0x73D14B0
@@ -336,6 +377,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAsset
     {
+        public string m_FullTypeName; // 0x10
+        public int m_Id; // 0x18
+        public int m_OrderInDocument; // 0x1C
+        public int m_ParentId; // 0x20
+
         // ── Methods ──
         public void get_fullTypeName(){} // RVA: 0x2F8380
         public void get_id(){} // RVA: 0x5BED50
@@ -348,6 +394,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAttributeDescription
     {
+        public string <name>k__BackingField; // 0x10
+        public string[] m_ObsoleteNames; // 0x18
+        public string <type>k__BackingField; // 0x20
+        public string <typeNamespace>k__BackingField; // 0x28
+        public 0x658400D0 <use>k__BackingField; // 0x30
+        public UnityEngine.UIElements.UxmlTypeRestriction <restriction>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4469AC0
         public void get_name(){} // RVA: 0x2F8380
@@ -406,6 +459,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlEnumeration
     {
+        public System.Collections.Generic.List`1<string> m_Values; // 0x10
+
         // ── Methods ──
         public void get_values(){} // RVA: 0x33B6D40
         public void set_values(){} // RVA: 0x7494860
@@ -417,6 +472,383 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class UxmlFactory`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x45E3990
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){}
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
+    }
+
+    public class UxmlFactory`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x45E39C0
+        public void .ctor(){} // RVA: 0x45E3A50
     }
 
     public class UxmlFactory`2
@@ -464,20 +896,62 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectAttributeDescription`1
     {
+        public T <defaultValue>k__BackingField;
+
         // ── Methods ──
         public void get_defaultValue(){} // RVA: 0x283FA0
         public void GetValueFromBag(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class UxmlObjectAttributeDescription`1
+    {
+        public System.Collections.Generic.List`1<T> <defaultValue>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_defaultValue(){} // RVA: 0x2F8380
+        public void GetValueFromBag(){} // RVA: 0x45E3A70
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class UxmlObjectFactoryRegistry
     {
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<UnityEngine.UIElements.IBaseUxmlObjectFactory>> s_Factories;
+
         // ── Methods ──
         public void get_factories(){} // RVA: 0x7493C30
         public void RegisterFactory(){} // RVA: 0x7493D50
         public void TryGetFactories(){} // RVA: 0x7494100
         public void RegisterEngineFactories(){} // RVA: 0x7494170
         public void RegisterUserFactories(){} // RVA: 0x7494460
+    }
+
+    public class UxmlObjectFactory`2
+    {
+        // ── Methods ──
+        public void CreateObject(){} // RVA: 0x263BC0
+        public void .ctor(){} // RVA: 0x3313940
+    }
+
+    public class UxmlObjectFactory`2
+    {
+        // ── Methods ──
+        public void CreateObject(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class UxmlObjectFactory`2
+    {
+        // ── Methods ──
+        public void CreateObject(){} // RVA: 0x263BC0
+        public void .ctor(){} // RVA: 0x3313940
+    }
+
+    public class UxmlObjectFactory`2
+    {
+        // ── Methods ──
+        public void CreateObject(){} // RVA: 0x263BC0
+        public void .ctor(){} // RVA: 0x3313940
     }
 
     public class UxmlObjectFactory`2
@@ -499,98 +973,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         // ── Methods ──
         public void Init(){} // RVA: 0x2DD310
         public void .ctor(){} // RVA: 0x6BD7E0
-    }
-
-    public class UxmlRootElementFactory
-    {
-        // ── Methods ──
-        public void get_uxmlName(){} // RVA: 0x748E790
-        public void get_uxmlQualifiedName(){} // RVA: 0x748E7D0
-        public void Create(){} // RVA: 0x3E0F620
-        public void .ctor(){} // RVA: 0x748E850
-    }
-
-    public class UxmlRootElementTraits
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x748E8A0
-    }
-
-    public class UxmlStringAttributeDescription
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x748FE50
-        public void GetValueFromBag(){} // RVA: 0x7490040
-        public void TryGetValueFromBag(){} // RVA: 0x7490270
-    }
-
-    public class UxmlStyleFactory
-    {
-        // ── Methods ──
-        public void get_uxmlName(){} // RVA: 0x748EAC0
-        public void get_uxmlQualifiedName(){} // RVA: 0x748EB00
-        public void Create(){} // RVA: 0x3E0F620
-        public void .ctor(){} // RVA: 0x748EB80
-    }
-
-    public class UxmlStyleTraits
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x748EBD0
-    }
-
-    public class UxmlTemplateFactory
-    {
-        // ── Methods ──
-        public void get_uxmlName(){} // RVA: 0x748EED0
-        public void get_uxmlQualifiedName(){} // RVA: 0x748EF10
-        public void Create(){} // RVA: 0x3E0F620
-        public void .ctor(){} // RVA: 0x748EF90
-    }
-
-    public class UxmlTemplateTraits
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x748EFE0
-    }
-
-    public class UxmlTraits
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x6BD7E0
-    }
-
-    public class UxmlTypeAttributeDescription`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x24A50
-        public void GetValueFromBag(){}
-        public void ConvertValueToType(){} // RVA: 0x1E6A0
-        public void <GetValueFromBag>b__3_0(){} // RVA: 0x1E6A0
-    }
-
-    public class UxmlTypeRestriction
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x715F300
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class UxmlUnsignedIntAttributeDescription
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x74919D0
-        public void GetValueFromBag(){} // RVA: 0x7491B60
-        public void ConvertValueToUInt(){} // RVA: 0x7491D90
-    }
-
-    public class UxmlUnsignedLongAttributeDescription
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7491FF0
-        public void GetValueFromBag(){} // RVA: 0x7492180
-        public void ConvertValueToUlong(){} // RVA: 0x74923B0
     }
 
 }

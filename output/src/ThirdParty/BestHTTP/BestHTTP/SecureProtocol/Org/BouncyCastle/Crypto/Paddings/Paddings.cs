@@ -16,6 +16,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ISO10126d2Padding
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x9597A40
         public void get_PaddingName(){} // RVA: 0x9597B00
@@ -68,6 +70,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class X923Padding
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x2DEE30
         public void get_PaddingName(){} // RVA: 0x9598BD0

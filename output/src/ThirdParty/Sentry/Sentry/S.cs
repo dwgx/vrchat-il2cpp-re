@@ -7,6 +7,33 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class Scope
     {
+        public Sentry.SentryOptions <Options>k__BackingField; // 0x10
+        public bool <Locked>k__BackingField; // 0x18
+        public object _lastEventIdSync; // 0x20
+        public Sentry.SentryId _lastEventId; // 0x28
+        public object _evaluationSync; // 0x38
+        public bool _hasEvaluated; // 0x40
+        public System.Lazy`1<System.Collections.Concurrent.ConcurrentBag`1<Sentry.Extensibility.ISentryEventExceptionProcessor>> _lazyExceptionProcessors; // 0x48
+        public System.Lazy`1<System.Collections.Concurrent.ConcurrentBag`1<Sentry.Extensibility.ISentryEventProcessor>> _lazyEventProcessors; // 0x50
+        public System.Lazy`1<System.Collections.Concurrent.ConcurrentBag`1<Sentry.Extensibility.ISentryTransactionProcessor>> _lazyTransactionProcessors; // 0x58
+        public System.EventHandler`1<Sentry.Scope> OnEvaluating; // 0x60
+        public System.Nullable`1<0x658B4E20> <Level>k__BackingField; // 0x68
+        public Sentry.SentryRequest _request; // 0x70
+        public Sentry.SentryContexts _contexts; // 0x78
+        public Sentry.SentryUser _user; // 0x80
+        public string <Release>k__BackingField; // 0x88
+        public string <Distribution>k__BackingField; // 0x90
+        public string <Environment>k__BackingField; // 0x98
+        public string _fallbackTransactionName; // 0xA0
+        public Sentry.ITransactionTracer _transaction; // 0xA8
+        public Sentry.SentryPropagationContext <PropagationContext>k__BackingField; // 0xB0
+        public Sentry.SessionUpdate <SessionUpdate>k__BackingField; // 0xB8
+        public Sentry.SdkVersion <Sdk>k__BackingField; // 0xC0
+        public System.Collections.Generic.IReadOnlyList`1<string> <Fingerprint>k__BackingField; // 0xC8
+        public System.Collections.Concurrent.ConcurrentQueue`1<Sentry.Breadcrumb> _breadcrumbs; // 0xD0
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,object> _extra; // 0xD8
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,string> _tags; // 0xE0
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x2F8380
         public void get_Locked(){} // RVA: 0x2F84E0
@@ -78,6 +105,12 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SdkVersion
     {
+        public System.Lazy`1<Sentry.SdkVersion> InstanceLazy;
+        public System.Collections.Concurrent.ConcurrentBag`1<Sentry.SentryPackage> <InternalPackages>k__BackingField; // 0x10
+        public System.Collections.Concurrent.ConcurrentBag`1<string> <Integrations>k__BackingField; // 0x18
+        public string <Name>k__BackingField; // 0x20
+        public string <Version>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6391B00
         public void get_InternalPackages(){} // RVA: 0x2F8380
@@ -99,6 +132,11 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryAttachment
     {
+        public 0x658B4638 <Type>k__BackingField; // 0x10
+        public Sentry.IAttachmentContent <Content>k__BackingField; // 0x18
+        public string <FileName>k__BackingField; // 0x20
+        public string <ContentType>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x32A5C0
         public void get_Content(){} // RVA: 0x2E07C0
@@ -109,6 +147,15 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryCheckIn
     {
+        public Sentry.SentryId <Id>k__BackingField; // 0x10
+        public string <MonitorSlug>k__BackingField; // 0x20
+        public 0x658B46E8 <Status>k__BackingField; // 0x28
+        public System.Nullable`1<System.TimeSpan> <Duration>k__BackingField; // 0x30
+        public string <Release>k__BackingField; // 0x40
+        public string <Environment>k__BackingField; // 0x48
+        public System.Nullable`1<Sentry.SentryId> <TraceId>k__BackingField; // 0x50
+        public Sentry.SentryMonitorOptions <MonitorOptions>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x196ABE0
         public void get_MonitorSlug(){} // RVA: 0x30B0C0
@@ -130,6 +177,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryClient
     {
+        public Sentry.SentryOptions _options; // 0x10
+        public Sentry.ISessionManager _sessionManager; // 0x18
+        public Sentry.Internal.RandomValuesFactory _randomValuesFactory; // 0x20
+
         // ── Methods ──
         public void get_Worker(){} // RVA: 0x6374D0
         public void get_Options(){} // RVA: 0x2F8380
@@ -151,6 +202,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryClientExtensions
     {
+        public Sentry.SentryOptions <SentryOptionsForTestingOnly>k__BackingField;
+
         // ── Methods ──
         public void CaptureException(){} // RVA: 0x63979A0
         public void CaptureMessage(){} // RVA: 0x6397B10
@@ -168,6 +221,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryContexts
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,object> _innerDictionary; // 0x10
+
         // ── Methods ──
         public void get_App(){} // RVA: 0x6398230
         public void get_Browser(){} // RVA: 0x6398290
@@ -202,6 +257,32 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryEvent
     {
+        public System.Collections.Generic.IDictionary`2<string,string> _modules; // 0x10
+        public System.Exception <Exception>k__BackingField; // 0x18
+        public Sentry.SentryId <EventId>k__BackingField; // 0x20
+        public System.DateTimeOffset <Timestamp>k__BackingField; // 0x30
+        public Sentry.SentryMessage <Message>k__BackingField; // 0x40
+        public string <Logger>k__BackingField; // 0x48
+        public string <Platform>k__BackingField; // 0x50
+        public string <ServerName>k__BackingField; // 0x58
+        public string <Release>k__BackingField; // 0x60
+        public string <Distribution>k__BackingField; // 0x68
+        public Sentry.SentryValues`1<Sentry.Protocol.SentryException> <SentryExceptionValues>k__BackingField; // 0x70
+        public Sentry.SentryValues`1<Sentry.SentryThread> <SentryThreadValues>k__BackingField; // 0x78
+        public Sentry.Protocol.DebugMeta _debugMeta; // 0x80
+        public System.Nullable`1<0x658B4E20> <Level>k__BackingField; // 0x88
+        public string <TransactionName>k__BackingField; // 0x90
+        public Sentry.SentryRequest _request; // 0x98
+        public Sentry.SentryContexts _contexts; // 0xA0
+        public Sentry.SentryUser _user; // 0xA8
+        public string <Environment>k__BackingField; // 0xB0
+        public Sentry.SdkVersion <Sdk>k__BackingField; // 0xB8
+        public System.Collections.Generic.IReadOnlyList`1<string> _fingerprint; // 0xC0
+        public System.Collections.Generic.List`1<Sentry.Breadcrumb> _breadcrumbs; // 0xC8
+        public System.Collections.Generic.Dictionary`2<string,object> _extra; // 0xD0
+        public System.Collections.Generic.Dictionary`2<string,string> _tags; // 0xD8
+        public Sentry.DynamicSamplingContext <DynamicSamplingContext>k__BackingField; // 0xE0
+
         // ── Methods ──
         public void get_Exception(){} // RVA: 0x2E07C0
         public void get_EventId(){} // RVA: 0x1EFB630
@@ -264,6 +345,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryFailedRequestHandler
     {
+        public Sentry.IHub <Hub>k__BackingField; // 0x10
+        public Sentry.SentryOptions <Options>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Hub(){} // RVA: 0x2F8380
         public void get_Options(){} // RVA: 0x2E07C0
@@ -291,6 +375,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryHint
     {
+        public Sentry.SentryOptions _options; // 0x10
+        public System.Collections.Generic.List`1<Sentry.SentryAttachment> _attachments; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x63A1310 | overloaded x3
         public void get_Attachments(){} // RVA: 0x2E07C0
@@ -334,6 +421,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryMessage
     {
+        public string <Message>k__BackingField; // 0x10
+        public System.Collections.Generic.IEnumerable`1<object> <Params>k__BackingField; // 0x18
+        public string <Formatted>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Message(){} // RVA: 0x2F8380
         public void set_Message(){} // RVA: 0x2DEE30
@@ -362,6 +453,13 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryMonitorOptions
     {
+        public 0x658B5030 _type; // 0x10
+        public string _crontab; // 0x18
+        public System.Nullable`1<int> _interval; // 0x20
+        public System.Nullable`1<0x658B5088> _unit; // 0x28
+        public System.Text.RegularExpressions.Regex CrontabValidationInstance;
+        public System.Nullable`1<System.TimeSpan> <CheckInMargin>k__BackingField; // 0x30
+
         // ── Methods ──
         public void CrontabValidation(){} // RVA: 0x63A53E0
         public void Interval(){} // RVA: 0x63A57A0 | overloaded x2
@@ -384,6 +482,93 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryOptions
     {
+        public System.Collections.Generic.Dictionary`2<string,string> _defaultTags; // 0x10
+        public 0x6584B390 DefaultRegexOptions;
+        public Sentry.Internal.ScopeStack.IScopeStackContainer <ScopeStackContainer>k__BackingField; // 0x18
+        public System.Lazy`1<string> _lazyInstallationId; // 0x20
+        public System.Nullable`1<bool> _isGlobalModeEnabled; // 0x28
+        public Sentry.IScopeObserver <ScopeObserver>k__BackingField; // 0x30
+        public bool <EnableScopeSync>k__BackingField; // 0x38
+        public Sentry.Extensibility.ITransport <Transport>k__BackingField; // 0x40
+        public System.Lazy`1<Sentry.Internal.IClientReportRecorder> _clientReportRecorder; // 0x48
+        public System.Lazy`1<Sentry.Extensibility.ISentryStackTraceFactory> _sentryStackTraceFactory; // 0x50
+        public int <SentryVersion>k__BackingField; // 0x58
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<...>>> <ExceptionProcessors>k__BackingField; // 0x60
+        public System.Collections.Generic.List`1<Sentry.Extensibility.ISentryTransactionProcessor> <TransactionProcessors>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<...>>> <EventProcessors>k__BackingField; // 0x70
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<...>>> <EventProcessorsProviders>k__BackingField; // 0x78
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<...>>> <TransactionProcessorsProviders>k__BackingField; // 0x80
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<...>>> <ExceptionProcessorsProviders>k__BackingField; // 0x88
+        public 0x658B5138 _defaultIntegrations; // 0x90
+        public System.Collections.Generic.List`1<Sentry.Extensibility.IExceptionFilter> <ExceptionFilters>k__BackingField; // 0x98
+        public System.Collections.Generic.ICollection`1<Sentry.SubstringOrRegexPattern> <TagFilters>k__BackingField; // 0xA0
+        public Sentry.Extensibility.IBackgroundWorker <BackgroundWorker>k__BackingField; // 0xA8
+        public Sentry.Http.ISentryHttpClientFactory <SentryHttpClientFactory>k__BackingField; // 0xB0
+        public Sentry.ISentryScopeStateProcessor <SentryScopeStateProcessor>k__BackingField; // 0xB8
+        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> <InAppExclude>k__BackingField; // 0xC0
+        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> <InAppInclude>k__BackingField; // 0xC8
+        public bool <SendDefaultPii>k__BackingField; // 0xD0
+        public bool <IsEnvironmentUser>k__BackingField; // 0xD1
+        public string <ServerName>k__BackingField; // 0xD8
+        public bool <AttachStacktrace>k__BackingField; // 0xE0
+        public int <MaxBreadcrumbs>k__BackingField; // 0xE4
+        public System.Nullable`1<float> _sampleRate; // 0xE8
+        public string <Release>k__BackingField; // 0xF0
+        public string <Distribution>k__BackingField; // 0xF8
+        public string <Environment>k__BackingField; // 0x100
+        public string _dsn; // 0x108
+        public Sentry.Dsn _parsedDsn; // 0x110
+        public System.Lazy`1<string> _sentryBaseUrl; // 0x118
+        public System.Func`3<Sentry.SentryEvent,Sentry.SentryHint,Sentry.SentryEvent> _beforeSend; // 0x120
+        public System.Func`3<Sentry.SentryTransaction,Sentry.SentryHint,Sentry.SentryTransaction> _beforeSendTransaction; // 0x128
+        public System.Func`3<Sentry.Breadcrumb,Sentry.SentryHint,Sentry.Breadcrumb> _beforeBreadcrumb; // 0x130
+        public int _maxQueueItems; // 0x138
+        public int _maxCacheItems; // 0x13C
+        public System.TimeSpan <ShutdownTimeout>k__BackingField; // 0x140
+        public System.TimeSpan <FlushTimeout>k__BackingField; // 0x148
+        public 0x658579E8 <DecompressionMethods>k__BackingField; // 0x150
+        public 0x65854708 <RequestBodyCompressionLevel>k__BackingField; // 0x154
+        public bool <RequestBodyCompressionBuffered>k__BackingField; // 0x158
+        public bool <SendClientReports>k__BackingField; // 0x159
+        public System.Net.IWebProxy <HttpProxy>k__BackingField; // 0x160
+        public System.Func`1<System.Net.Http.HttpMessageHandler> <CreateHttpMessageHandler>k__BackingField; // 0x168
+        public System.Action`1<System.Net.Http.HttpClient> <ConfigureClient>k__BackingField; // 0x170
+        public bool _debug; // 0x178
+        public 0x658B4E20 <DiagnosticLevel>k__BackingField; // 0x17A
+        public Sentry.Extensibility.IDiagnosticLogger _diagnosticLogger; // 0x180
+        public 0x658B4320 <ReportAssembliesMode>k__BackingField; // 0x188
+        public 0x658B2A08 <DeduplicateMode>k__BackingField; // 0x18C
+        public string <CacheDirectoryPath>k__BackingField; // 0x190
+        public bool <CaptureFailedRequests>k__BackingField; // 0x198
+        public System.Collections.Generic.IList`1<Sentry.HttpStatusCodeRange> <FailedRequestStatusCodes>k__BackingField; // 0x1A0
+        public System.Lazy`1<System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern>> _failedRequestTargets; // 0x1A8
+        public Sentry.Internal.IFileSystem _fileSystem; // 0x1B0
+        public bool <DisableFileWrite>k__BackingField; // 0x1B8
+        public System.TimeSpan <InitCacheFlushTimeout>k__BackingField; // 0x1C0
+        public System.Nullable`1<bool> <EnableTracing>k__BackingField; // 0x1C8
+        public System.Nullable`1<double> _tracesSampleRate; // 0x1D0
+        public System.Nullable`1<double> _profilesSampleRate; // 0x1E0
+        public System.Func`2<Sentry.TransactionSamplingContext,System.Nullable`1<double>> <TracesSampler>k__BackingField; // 0x1F0
+        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> _tracePropagationTargets; // 0x1F8
+        public Sentry.Internal.ITransactionProfilerFactory <TransactionProfilerFactory>k__BackingField; // 0x200
+        public System.Nullable`1<0x658B6210> _stackTraceMode; // 0x208
+        public System.Collections.Generic.List`1<Sentry.Integrations.ISdkIntegration> _integrations; // 0x210
+        public long <MaxAttachmentSize>k__BackingField; // 0x218
+        public 0x658B6268 <DetectStartupTime>k__BackingField; // 0x220
+        public System.TimeSpan <AutoSessionTrackingInterval>k__BackingField; // 0x228
+        public bool <AutoSessionTracking>k__BackingField; // 0x230
+        public bool <UseAsyncFileIO>k__BackingField; // 0x231
+        public System.Func`1<bool> <CrashedLastRun>k__BackingField; // 0x238
+        public 0x658B3718 <Instrumenter>k__BackingField; // 0x240
+        public Sentry.Extensibility.INetworkStatusListener <NetworkStatusListener>k__BackingField; // 0x248
+        public System.Func`2<string,System.Reflection.PortableExecutable.PEReader> <AssemblyReader>k__BackingField; // 0x250
+        public Sentry.ExperimentalMetricsOptions <ExperimentalMetrics>k__BackingField; // 0x258
+        public string <SpotlightUrl>k__BackingField; // 0x260
+        public bool <EnableSpotlight>k__BackingField; // 0x268
+        public Sentry.Internal.SettingLocator <SettingLocator>k__BackingField; // 0x270
+        public bool <InitNativeSdks>k__BackingField; // 0x278
+        public System.Collections.Generic.List`1<System.Action`1<Sentry.IHub>> <PostInitCallbacks>k__BackingField; // 0x280
+
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x2E07C0
         public void set_ScopeStackContainer(){} // RVA: 0x343E80
@@ -605,6 +790,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryPackage
     {
+        public string <Name>k__BackingField; // 0x10
+        public string <Version>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_Version(){} // RVA: 0x2E07C0
@@ -617,9 +805,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryPropagationContext
     {
-        public object InternalEnv;
-        public object InternalOther;
-        public object InternalHeaders;
+        public Sentry.SentryId InternalEnv; // 0x10
+        public Sentry.SpanId InternalOther; // 0x20
+        public System.Nullable`1<Sentry.SpanId> InternalHeaders; // 0x28
 
         // ── Methods ──
         public void get_TraceId(){} // RVA: 0x196ABE0
@@ -632,6 +820,16 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryRequest
     {
+        public System.Collections.Generic.Dictionary`2<string,string> <InternalEnv>k__BackingField; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,string> <InternalOther>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,string> <InternalHeaders>k__BackingField; // 0x20
+        public string <Url>k__BackingField; // 0x28
+        public string <Method>k__BackingField; // 0x30
+        public string <ApiTarget>k__BackingField; // 0x38
+        public object <Data>k__BackingField; // 0x40
+        public string <QueryString>k__BackingField; // 0x48
+        public string <Cookies>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_InternalEnv(){} // RVA: 0x2F8380
         public void set_InternalEnv(){} // RVA: 0x2DEE30
@@ -664,9 +862,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySdk
     {
-        public object IndexIsValid;
-        public object Nodes;
-        public object Stream;
+        public Sentry.IHub IndexIsValid;
 
         // ── Methods ──
         public void get_CurrentOptions(){} // RVA: 0x63B06C0
@@ -709,6 +905,15 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySession
     {
+        public Sentry.SentryId <Id>k__BackingField; // 0x10
+        public string <DistinctId>k__BackingField; // 0x20
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x28
+        public string <Release>k__BackingField; // 0x38
+        public string <Environment>k__BackingField; // 0x40
+        public string <IpAddress>k__BackingField; // 0x48
+        public string <UserAgent>k__BackingField; // 0x50
+        public int _errorCount; // 0x58
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x196ABE0
         public void get_DistinctId(){} // RVA: 0x30B0C0
@@ -725,6 +930,21 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySpan
     {
+        public Sentry.SpanId <SpanId>k__BackingField; // 0x10
+        public System.Nullable`1<Sentry.SpanId> <ParentSpanId>k__BackingField; // 0x18
+        public Sentry.SentryId <TraceId>k__BackingField; // 0x28
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x38
+        public System.Nullable`1<System.DateTimeOffset> <EndTimestamp>k__BackingField; // 0x48
+        public System.Collections.Generic.Dictionary`2<string,Sentry.Protocol.Measurement> _measurements; // 0x60
+        public string <Operation>k__BackingField; // 0x68
+        public string <Description>k__BackingField; // 0x70
+        public System.Nullable`1<0x658B6108> <Status>k__BackingField; // 0x78
+        public System.Nullable`1<bool> <IsSampled>k__BackingField; // 0x80
+        public System.Collections.Generic.Dictionary`2<string,string> _tags; // 0x88
+        public System.Collections.Generic.Dictionary`2<string,object> _extra; // 0x90
+        public Sentry.Protocol.Metrics.MetricsSummary _metricsSummary; // 0x98
+        public string _origin; // 0xA0
+
         // ── Methods ──
         public void get_SpanId(){} // RVA: 0x2F8380
         public void set_SpanId(){} // RVA: 0x1967700
@@ -763,6 +983,29 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryStackFrame
     {
+        public System.Lazy`1<Sentry.Internal.PrefixOrPatternMatcher> LazyModuleMatcher;
+        public System.Lazy`1<Sentry.Internal.DelimitedPrefixOrPatternMatcher> LazyFunctionMatcher; // 0x8
+        public System.Collections.Generic.List`1<string> <InternalPreContext>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<string> <InternalPostContext>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,string> <InternalVars>k__BackingField; // 0x20
+        public System.Collections.Generic.List`1<int> <InternalFramesOmitted>k__BackingField; // 0x28
+        public bool <IsCodeLocation>k__BackingField; // 0x30
+        public string <FileName>k__BackingField; // 0x38
+        public string <Function>k__BackingField; // 0x40
+        public string <Module>k__BackingField; // 0x48
+        public System.Nullable`1<int> <LineNumber>k__BackingField; // 0x50
+        public System.Nullable`1<int> <ColumnNumber>k__BackingField; // 0x58
+        public string <AbsolutePath>k__BackingField; // 0x60
+        public string <ContextLine>k__BackingField; // 0x68
+        public System.Nullable`1<bool> <InApp>k__BackingField; // 0x70
+        public string <Package>k__BackingField; // 0x78
+        public string <Platform>k__BackingField; // 0x80
+        public System.Nullable`1<long> <ImageAddress>k__BackingField; // 0x88
+        public System.Nullable`1<long> <SymbolAddress>k__BackingField; // 0x98
+        public System.Nullable`1<long> <InstructionAddress>k__BackingField; // 0xA8
+        public string <AddressMode>k__BackingField; // 0xB8
+        public System.Nullable`1<long> <FunctionId>k__BackingField; // 0xC0
+
         // ── Methods ──
         public void get_InternalPreContext(){} // RVA: 0x2F8380
         public void set_InternalPreContext(){} // RVA: 0x2DEE30
@@ -817,6 +1060,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryStackTrace
     {
+        public System.Collections.Generic.IList`1<Sentry.SentryStackFrame> <InternalFrames>k__BackingField; // 0x10
+        public System.Nullable`1<0x658B5B30> <AddressAdjustment>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_InternalFrames(){} // RVA: 0x2F8380
         public void set_InternalFrames(){} // RVA: 0x2DEE30
@@ -831,6 +1077,12 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryThread
     {
+        public System.Nullable`1<int> <Id>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x18
+        public System.Nullable`1<bool> <Crashed>k__BackingField; // 0x20
+        public System.Nullable`1<bool> <Current>k__BackingField; // 0x22
+        public Sentry.SentryStackTrace <Stacktrace>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x2F8380
         public void set_Id(){} // RVA: 0x1967700
@@ -849,6 +1101,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryTraceHeader
     {
+        public string HttpHeaderName;
+        public Sentry.SentryTraceHeader Empty;
+        public Sentry.SentryId <TraceId>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_TraceId(){} // RVA: 0x196ABE0
         public void get_SpanId(){} // RVA: 0x30B0C0
@@ -861,6 +1117,32 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryTransaction
     {
+        public Sentry.SentryId <EventId>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x20
+        public 0x658B6580 <NameSource>k__BackingField; // 0x28
+        public System.Nullable`1<bool> <IsParentSampled>k__BackingField; // 0x2C
+        public string <Platform>k__BackingField; // 0x30
+        public string <Release>k__BackingField; // 0x38
+        public string <Distribution>k__BackingField; // 0x40
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x48
+        public System.Nullable`1<System.DateTimeOffset> <EndTimestamp>k__BackingField; // 0x58
+        public System.Collections.Generic.Dictionary`2<string,Sentry.Protocol.Measurement> _measurements; // 0x70
+        public System.Nullable`1<double> <SampleRate>k__BackingField; // 0x78
+        public System.Nullable`1<0x658B4E20> <Level>k__BackingField; // 0x88
+        public Sentry.SentryRequest _request; // 0x90
+        public Sentry.SentryContexts _contexts; // 0x98
+        public Sentry.SentryUser _user; // 0xA0
+        public string <Environment>k__BackingField; // 0xA8
+        public Sentry.SdkVersion <Sdk>k__BackingField; // 0xB0
+        public System.Collections.Generic.IReadOnlyList`1<string> _fingerprint; // 0xB8
+        public System.Collections.Generic.List`1<Sentry.Breadcrumb> _breadcrumbs; // 0xC0
+        public System.Collections.Generic.Dictionary`2<string,object> _extra; // 0xC8
+        public System.Collections.Generic.Dictionary`2<string,string> _tags; // 0xD0
+        public Sentry.SentrySpan[] _spans; // 0xD8
+        public Sentry.Protocol.Metrics.MetricsSummary _metricsSummary; // 0xE0
+        public Sentry.DynamicSamplingContext <DynamicSamplingContext>k__BackingField; // 0xE8
+        public Sentry.Internal.ITransactionProfiler <TransactionProfiler>k__BackingField; // 0xF0
+
         // ── Methods ──
         public void get_EventId(){} // RVA: 0x196ABE0
         public void set_EventId(){} // RVA: 0x196ABF0
@@ -938,6 +1220,14 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryUser
     {
+        public System.Action`1<Sentry.SentryUser> <PropertyChanged>k__BackingField; // 0x10
+        public string _id; // 0x18
+        public string _username; // 0x20
+        public string _email; // 0x28
+        public string _ipAddress; // 0x30
+        public string _segment; // 0x38
+        public System.Collections.Generic.IDictionary`2<string,string> _other; // 0x40
+
         // ── Methods ──
         public void get_PropertyChanged(){} // RVA: 0x2F8380
         public void set_PropertyChanged(){} // RVA: 0x2DEE30
@@ -963,6 +1253,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryValues`1 : Values
     {
+        public System.Collections.Generic.IEnumerable`1<T> <Values>k__BackingField;
+
         // ── Methods ──
         public void get_Values(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x24B10
@@ -971,6 +1263,19 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SessionUpdate
     {
+        public Sentry.SentryId <Id>k__BackingField; // 0x10
+        public string <DistinctId>k__BackingField; // 0x20
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x28
+        public string <Release>k__BackingField; // 0x38
+        public string <Environment>k__BackingField; // 0x40
+        public string <IpAddress>k__BackingField; // 0x48
+        public string <UserAgent>k__BackingField; // 0x50
+        public int <ErrorCount>k__BackingField; // 0x58
+        public bool <IsInitial>k__BackingField; // 0x5C
+        public System.DateTimeOffset <Timestamp>k__BackingField; // 0x60
+        public int <SequenceNumber>k__BackingField; // 0x70
+        public System.Nullable`1<0x658B5F50> <EndStatus>k__BackingField; // 0x74
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x196ABE0
         public void get_DistinctId(){} // RVA: 0x30B0C0
@@ -992,6 +1297,16 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SpanContext
     {
+        public Sentry.SpanId <SpanId>k__BackingField; // 0x10
+        public System.Nullable`1<Sentry.SpanId> <ParentSpanId>k__BackingField; // 0x18
+        public Sentry.SentryId <TraceId>k__BackingField; // 0x28
+        public string <Operation>k__BackingField; // 0x38
+        public string <Description>k__BackingField; // 0x40
+        public System.Nullable`1<0x658B6108> <Status>k__BackingField; // 0x48
+        public System.Nullable`1<bool> <IsSampled>k__BackingField; // 0x50
+        public 0x658B3718 <Instrumenter>k__BackingField; // 0x54
+        public string _origin; // 0x58
+
         // ── Methods ──
         public void get_SpanId(){} // RVA: 0x2F8380
         public void get_ParentSpanId(){} // RVA: 0x994EE0
@@ -1050,6 +1365,27 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SpanTracer
     {
+        public Sentry.IHub _hub; // 0x10
+        public Sentry.Internal.SentryStopwatch _stopwatch; // 0x18
+        public 0x658B3718 _instrumenter; // 0x30
+        public Sentry.TransactionTracer <Transaction>k__BackingField; // 0x38
+        public System.Lazy`1<Sentry.MetricsSummaryAggregator> _metricsSummary; // 0x40
+        public Sentry.SpanId <SpanId>k__BackingField; // 0x48
+        public System.Nullable`1<Sentry.SpanId> <ParentSpanId>k__BackingField; // 0x50
+        public Sentry.SentryId <TraceId>k__BackingField; // 0x60
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x70
+        public System.Nullable`1<System.DateTimeOffset> <EndTimestamp>k__BackingField; // 0x80
+        public System.Collections.Generic.Dictionary`2<string,Sentry.Protocol.Measurement> <InternalMeasurements>k__BackingField; // 0x98
+        public string <Operation>k__BackingField; // 0xA0
+        public string <Description>k__BackingField; // 0xA8
+        public System.Nullable`1<0x658B6108> <Status>k__BackingField; // 0xB0
+        public bool <IsSentryRequest>k__BackingField; // 0xB8
+        public System.Nullable`1<bool> <IsSampled>k__BackingField; // 0xB9
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,string> <InternalTags>k__BackingField; // 0xC0
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,object> _data; // 0xC8
+        public System.Func`1<bool> <IsFiltered>k__BackingField; // 0xD0
+        public string _origin; // 0xD8
+
         // ── Methods ──
         public void Sentry.IBaseTracer.get_IsOtelInstrumenter(){} // RVA: 0x63C59A0
         public void get_Transaction(){} // RVA: 0x4976A0
@@ -1106,6 +1442,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SubstringOrRegexPattern
     {
+        public System.Text.RegularExpressions.Regex _regex; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void op_Implicit(){} // RVA: 0x63C7050 | overloaded x2

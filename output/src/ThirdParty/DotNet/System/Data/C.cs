@@ -43,6 +43,12 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Constraint
     {
+        public string _schemaName; // 0x10
+        public bool _inCollection; // 0x18
+        public System.Data.DataSet _dataSet; // 0x20
+        public string _name; // 0x28
+        public System.Data.PropertyCollection _extendedProperties; // 0x30
+
         // ── Methods ──
         public void get_ConstraintName(){} // RVA: 0x30B130
         public void set_ConstraintName(){} // RVA: 0x66ED8A0
@@ -68,6 +74,11 @@ namespace ThirdParty.DotNet.System.Data
 
     public class ConstraintCollection
     {
+        public System.Data.DataTable _table; // 0x10
+        public System.Collections.ArrayList _list; // 0x18
+        public int _defaultNameIndex; // 0x20
+        public System.ComponentModel.CollectionChangeEventHandler _onCollectionChanged; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66EE0D0
         public void get_List(){} // RVA: 0x2E07C0
@@ -109,6 +120,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class ConstraintEnumerator
     {
+        public System.Collections.IEnumerator _tables; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F2060
         public void GetNext(){} // RVA: 0x66F2160

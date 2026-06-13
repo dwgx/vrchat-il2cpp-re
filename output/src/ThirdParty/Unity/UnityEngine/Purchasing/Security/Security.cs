@@ -7,6 +7,16 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Security
 {
     public class AppleInAppPurchaseReceipt
     {
+        public string <productID>k__BackingField; // 0x10
+        public string <transactionID>k__BackingField; // 0x18
+        public string <originalTransactionIdentifier>k__BackingField; // 0x20
+        public System.DateTime <purchaseDate>k__BackingField; // 0x28
+        public System.DateTime <subscriptionExpirationDate>k__BackingField; // 0x30
+        public System.DateTime <cancellationDate>k__BackingField; // 0x38
+        public int <isFreeTrial>k__BackingField; // 0x40
+        public int <productType>k__BackingField; // 0x44
+        public int <isIntroductoryPricePeriod>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_productID(){} // RVA: 0x2F8380
         public void get_transactionID(){} // RVA: 0x2E07C0

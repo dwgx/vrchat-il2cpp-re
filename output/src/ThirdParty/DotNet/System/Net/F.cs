@@ -7,6 +7,18 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class FileWebRequest
     {
+        public System.Threading.WaitCallback s_GetRequestStreamCallback;
+        public System.Threading.WaitCallback s_GetResponseCallback; // 0x8
+        public string m_connectionGroupName; // 0x38
+        public long m_contentLength; // 0x40
+        public System.Net.ICredentials m_credentials; // 0x48
+        public 0x657FC810 m_fileAccess; // 0x50
+        public System.Net.WebHeaderCollection m_headers; // 0x58
+        public string m_method; // 0x60
+        public bool m_preauthenticate; // 0x68
+        public System.Net.IWebProxy m_proxy; // 0x70
+        public System.Threading.ManualResetEvent m_readerEvent; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3D7B0 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B274B0
@@ -49,6 +61,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FileWebResponse
     {
+        public bool m_closed; // 0x20
+        public long m_contentLength; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B41310 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B28CC0
@@ -78,6 +93,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FixedSizeReadStream
     {
+        public long <ContentLength>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_ContentLength(){} // RVA: 0x35A740
         public void .ctor(){} // RVA: 0x6B50E10
@@ -86,6 +103,14 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FtpControlStream
     {
+        public System.Net.Sockets.Socket _dataSocket; // 0x88
+        public System.Net.IPEndPoint _passiveEndPoint; // 0x90
+        public System.Net.TlsStream _tlsStream; // 0x98
+        public System.Text.StringBuilder _bannerMessage; // 0xA0
+        public System.Text.StringBuilder _welcomeMessage; // 0xA8
+        public System.Text.StringBuilder _exitMessage; // 0xB0
+        public System.WeakReference _credentials; // 0xB8
+
         // ── Methods ──
         public void get_Credentials(){} // RVA: 0x6CD31A0
         public void set_Credentials(){} // RVA: 0x6CD3260
@@ -126,6 +151,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FtpDataStream
     {
+        public System.Net.FtpWebRequest _request; // 0x28
+        public System.Net.Sockets.NetworkStream _networkStream; // 0x30
+        public bool _writeable; // 0x38
+        public bool _readable; // 0x39
+        public bool _isFullyRead; // 0x3A
+        public bool _closing; // 0x3B
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CD9AA0
         public void Dispose(){} // RVA: 0x6CD9C40
@@ -157,6 +189,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FtpMethodInfo
     {
+        public string Method; // 0x10
+        public 0x65855310 Operation; // 0x18
+        public 0x65855368 Flags; // 0x1C
+        public string HttpCommand; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CDAAD0
         public void HasFlag(){} // RVA: 0x6CDABA0
@@ -170,6 +207,30 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FtpWebRequest
     {
+        public object _syncObject; // 0x38
+        public System.Net.ICredentials _authInfo; // 0x40
+        public System.Uri _uri; // 0x48
+        public System.Net.FtpMethodInfo _methodInfo; // 0x50
+        public string _renameTo; // 0x58
+        public bool _getRequestStreamStarted; // 0x60
+        public bool _getResponseStarted; // 0x61
+        public System.DateTime _startTime; // 0x68
+        public int _timeout; // 0x70
+        public int _remainingTimeout; // 0x74
+        public long _contentLength; // 0x78
+        public long _contentOffset; // 0x80
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _clientCertificates; // 0x88
+        public bool _passive; // 0x90
+        public bool _binary; // 0x91
+        public string _connectionGroupName; // 0x98
+        public bool _async; // 0xA0
+        public bool _aborted; // 0xA1
+        public bool _timedOut; // 0xA2
+        public System.Exception _exception; // 0xA8
+        public Queue _timerQueue; // 0xB0
+        public Callback _timerCallback; // 0xB8
+        public bool _enableSsl; // 0xC0
+
         // ── Methods ──
         public void get_MethodInfo(){} // RVA: 0x37E0E0
         public void get_Method(){} // RVA: 0x6CDB5D0
@@ -233,6 +294,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class FtpWebResponse
     {
+        public System.IO.Stream _responseStream; // 0x20
+        public long _contentLength; // 0x28
+        public System.Uri _responseUri; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B1B620
         public void UpdateStatus(){} // RVA: 0x6B1B920

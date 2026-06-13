@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 {
     public class PKCS12
     {
+        public byte[] _password; // 0x10
+        public System.Collections.ArrayList _keyBags; // 0x18
+        public System.Collections.ArrayList _secretBags; // 0x20
+        public Mono.Security.X509.X509CertificateCollection _certs; // 0x28
+        public bool _keyBagsChanged; // 0x30
+        public bool _secretBagsChanged; // 0x31
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BBB570 | overloaded x3
         public void Decode(){} // RVA: 0x5BBB5C0
@@ -40,8 +47,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class SafeBag
     {
-        public object HashName;
-        public object IterationCount;
+        public string HashName; // 0x10
+        public Mono.Security.ASN1 IterationCount; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
@@ -68,6 +75,24 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Certificate
     {
+        public Mono.Security.ASN1 decoder; // 0x10
+        public byte[] m_encodedcert; // 0x18
+        public System.DateTime m_from; // 0x20
+        public System.DateTime m_until; // 0x28
+        public Mono.Security.ASN1 issuer; // 0x30
+        public string m_issuername; // 0x38
+        public string m_keyalgo; // 0x40
+        public byte[] m_keyalgoparams; // 0x48
+        public Mono.Security.ASN1 subject; // 0x50
+        public string m_subject; // 0x58
+        public byte[] m_publickey; // 0x60
+        public byte[] signature; // 0x68
+        public string m_signaturealgo; // 0x70
+        public byte[] m_signaturealgoparams; // 0x78
+        public byte[] certhash; // 0x80
+        public System.Security.Cryptography.RSA _rsa; // 0x88
+        public System.Security.Cryptography.DSA _dsa; // 0x90
+
         // ── Methods ──
         public void Parse(){} // RVA: 0x5BCA1F0
         public void .ctor(){} // RVA: 0x5BCAB90
@@ -116,6 +141,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Chain
     {
+        public Mono.Security.X509.X509CertificateCollection roots; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BCD4A0
         public void get_TrustAnchors(){} // RVA: 0x5BCD540
@@ -131,10 +158,10 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Crl
     {
-        public object DSA;
-        public object Extensions;
-        public object Hash;
-        public object IssuerName;
+        public string DSA; // 0x10
+        public byte Extensions; // 0x18
+        public System.DateTime Hash; // 0x20
+        public System.DateTime IssuerName; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BC8AA0
@@ -150,6 +177,10 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Extension
     {
+        public string extnOid; // 0x10
+        public bool extnCritical; // 0x18
+        public Mono.Security.ASN1 extnValue; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BCE740 | overloaded x2
         public void Decode(){} // RVA: 0x2DD310
@@ -165,6 +196,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509ExtensionCollection
     {
+        public bool readOnly; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BCEDF0 | overloaded x2
         public void IndexOf(){} // RVA: 0x5BCEF40
@@ -174,8 +207,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Store
     {
-        public object CurrentUserPath;
-        public object LocalMachinePath;
+        public string CurrentUserPath; // 0x10
+        public Mono.Security.X509.X509CertificateCollection LocalMachinePath; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BCF300
@@ -191,9 +224,12 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509StoreManager
     {
-        public object TrustedRoot;
-        public object `;
-        public object set_Value;
+        public string TrustedRoot;
+        public string `; // 0x8
+        public string set_Value; // 0x10
+        public string _newLocalMachinePath; // 0x18
+        public Mono.Security.X509.X509Stores _userStore; // 0x20
+        public Mono.Security.X509.X509Stores _machineStore; // 0x28
 
         // ── Methods ──
         public void get_CurrentUserPath(){} // RVA: 0x5BCFC30
@@ -207,7 +243,7 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 
     public class X509Stores
     {
-        public object Value;
+        public string Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1AB41A0

@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class RC2
     {
+        public int EffectiveKeySizeValue; // 0x48
+        public System.Security.Cryptography.KeySizes[] s_legalBlockSizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C841A0
         public void get_EffectiveKeySize(){} // RVA: 0x5C842D0
@@ -19,6 +22,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RC2CryptoServiceProvider
     {
+        public bool m_use40bitSalt; // 0x50
+        public System.Security.Cryptography.KeySizes[] s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C84860
         public void get_EffectiveKeySize(){} // RVA: 0xFDC9F0
@@ -118,6 +124,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSACryptoServiceProvider
     {
+        public 0x657E7260 s_UseMachineKeyStore;
+        public int PROV_RSA_FULL;
+        public int AT_KEYEXCHANGE;
+        public int AT_SIGNATURE;
+        public Mono.Security.Cryptography.KeyPairPersistence store; // 0x20
+        public bool persistKey; // 0x28
+        public bool persisted; // 0x29
+
         // ── Methods ──
         public void get_SignatureAlgorithm(){} // RVA: 0x5C90CC0
         public void get_UseMachineKeyStore(){} // RVA: 0x5C90D00
@@ -156,6 +170,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAEncryptionPadding
     {
+        public System.Security.Cryptography.RSAEncryptionPadding s_pkcs1;
+        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA1; // 0x8
+        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA256; // 0x10
+        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA384; // 0x18
+        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA512; // 0x20
+        public 0x657E6C88 _mode; // 0x10
+        public System.Security.Cryptography.HashAlgorithmName _oaepHashAlgorithm; // 0x18
+
         // ── Methods ──
         public void get_Pkcs1(){} // RVA: 0x5C74C90
         public void get_OaepSHA1(){} // RVA: 0x5C74CF0
@@ -177,6 +199,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAOAEPKeyExchangeDeformatter
     {
+        public System.Security.Cryptography.RSA _rsaKey; // 0x10
+        public System.Nullable`1<bool> _rsaOverridesDecrypt; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C94610 | overloaded x2
         public void get_Parameters(){} // RVA: 0x519240
@@ -188,6 +213,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAOAEPKeyExchangeFormatter
     {
+        public byte[] ParameterValue; // 0x10
+        public System.Security.Cryptography.RSA _rsaKey; // 0x18
+        public System.Nullable`1<bool> _rsaOverridesEncrypt; // 0x20
+        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C94D20 | overloaded x2
         public void get_Parameter(){} // RVA: 0x5C94E80
@@ -202,6 +232,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1KeyExchangeDeformatter
     {
+        public System.Security.Cryptography.RSA _rsaKey; // 0x10
+        public System.Nullable`1<bool> _rsaOverridesDecrypt; // 0x18
+        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C955D0 | overloaded x2
         public void get_RNG(){} // RVA: 0x30B0C0
@@ -215,6 +249,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1KeyExchangeFormatter
     {
+        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x10
+        public System.Security.Cryptography.RSA _rsaKey; // 0x18
+        public System.Nullable`1<bool> _rsaOverridesEncrypt; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C95D00 | overloaded x2
         public void get_Parameters(){} // RVA: 0x5C95E60
@@ -281,6 +319,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSASignaturePadding
     {
+        public System.Security.Cryptography.RSASignaturePadding s_pkcs1;
+        public System.Security.Cryptography.RSASignaturePadding s_pss; // 0x8
+        public 0x657E6D38 _mode; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C759B0 | overloaded x2
         public void get_Pkcs1(){} // RVA: 0x5C755A0
@@ -309,6 +351,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class Rfc2898DeriveBytes
     {
+        public int MinimumSaltSize;
+        public byte[] _password; // 0x10
+        public byte[] _salt; // 0x18
+
         // ── Methods ──
         public void get_HashAlgorithm(){} // RVA: 0x37E0E0
         public void .ctor(){} // RVA: 0x5C6C4B0 | overloaded x8
@@ -346,6 +392,12 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RijndaelManagedTransform
     {
+        public 0x657E70A8 m_cipherMode; // 0x10
+        public 0x657E7100 m_paddingValue; // 0x14
+        public 0x657E7C58 m_transformMode; // 0x18
+        public int m_blockSizeBits; // 0x1C
+        public int m_blockSizeBytes; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C89F10 | overloaded x2
         public void Dispose(){} // RVA: 0x5C86470 | overloaded x2

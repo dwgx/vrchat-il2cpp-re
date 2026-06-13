@@ -13,6 +13,8 @@ namespace VRC.Udon.VM
 
     public class UdonVM
     {
+        public int ALIGNMENT_BYTES;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78B34F0
         public void get_DebugLogging(){} // RVA: 0x3978E0

@@ -5,22 +5,28 @@
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÍÍÍÎÎÏÌÍÌÍÌÎÎÍÌÎÌÏÌÏÏÌ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Func`1<string>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65728168,byte[]> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65704358,byte[]> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÎÏÏÏÎÍÎÏÎÏÍÌÍÍÌÌÍÌÎÎÌÎÍ,ÏÎÌÎÏÍÌÏÏÌÏÎÏÎÏÌÍÌÍÌÎÎÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -40,14 +46,18 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÏÍÌÎÌÍÏÍÏÎÎÏÍÎÍÏÎÌÌÌÎÌ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÏÎÌÎÏÍÌÏÏÌÏÎÏÎÏÌÍÌÍÌÎÎÏ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÍÍÎÍÏÏÏÎÌÏÌÎÍÎÏÎÏÌÌÍÎÍÎ,ÍÏÍÌÎÌÍÏÍÏÎÎÏÍÎÍÏÎÌÌÌÎÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -67,182 +77,227 @@ public class ValueCollection
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<float,ÏÎÌÎÏÍÌÏÏÌÏÎÏÎÏÌÍÌÍÌÎÎÏ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x6573FB30,byte[]> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.HashSet`1<System.Type>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÍÎÎÌÍÌÏÏÏÏÎÏÏÏÏÏÏÏÎÍÌÌ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UIntPtr,object> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<ulong,ÏÎÍÏÍÎÍÏÎÌÌÍÏÍÌÏÌÏÌÍÍÎÏ> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<byte,object> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Linq.JToken> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiAvatar> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Collections.Generic.List`1<VRC.Dynamics.VRCConstraintBase>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonVariable> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Type> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Object,int> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Type> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.Serializer> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,...<...,...>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonProgram>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Reflection.Assembly> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.HashSet`1<System.Type>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<byte[]>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonHeap>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbolTable>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Runtime.CompilerServices.IStrongBox>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Type>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.SDKBase.VRCPlayerApi>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbol>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<object>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Collections.Generic.List`1<string>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.RuntimeType>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadata>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonSyncMetadata> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Action`2<VRC.Udon.Serialization.OdinSerializer.BinaryDataWriter,object>> _dictionary; // 0x10
 }
 
 public class ValueCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,int> _dictionary; // 0x10
 }
 
 public class ValueCollectionDebugView
@@ -251,7 +306,7 @@ public class ValueCollectionDebugView
 
 public class ValueEnumerator
 {
-    public object Current;
+    public Enumerator Current; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1FB6BD0 | overloaded x3
@@ -271,6 +326,8 @@ public class ValueFoundDelegate
 
 public class ValueList
 {
+    public System.Collections.Generic.SortedList`2<U,T> _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Count(){} // RVA: 0xD840
@@ -294,6 +351,8 @@ public class ValueList
 
 public class ValueList
 {
+    public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> _dict; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -317,6 +376,8 @@ public class ValueList
 
 public class ValueList
 {
+    public System.Collections.Generic.SortedList`2<float,ÎÏÌÏÍÏÏÏÌÌÍÍÎÌÏÍÌÌÎÏÍÎÏ> _dict; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -340,6 +401,8 @@ public class ValueList
 
 public class ValueList
 {
+    public System.Collections.SortedList sortedList; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Count(){} // RVA: 0x37C07B0
@@ -449,6 +512,8 @@ public class ValuesBackgroundRepeat
 
 public class ValuesBackgroundSize
 {
+    public System.Func`3<UnityEngine.UIElements.BackgroundSize,UnityEngine.UIElements.BackgroundSize,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x7470900
@@ -461,6 +526,9 @@ public class ValuesBackgroundSize
 
 public class ValuesCollection
 {
+    public System.Collections.Generic.List`1<XmlSchemaObjectEntry> entries; // 0x10
+    public int size; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1D66A50
     public void get_Count(){} // RVA: 0x5BED50
@@ -472,6 +540,8 @@ public class ValuesCollection
 
 public class ValuesColor
 {
+    public System.Func`3<UnityEngine.Color,UnityEngine.Color,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746D170
@@ -483,6 +553,8 @@ public class ValuesColor
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<T,T,bool> <SameFunc>k__BackingField;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xCD60
     public void IsSame(){} // RVA: 0x283FA0
@@ -493,6 +565,8 @@ public class ValuesDiscrete`1
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<UnityEngine.UIElements.Background,UnityEngine.UIElements.Background,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x4A84600
@@ -503,6 +577,8 @@ public class ValuesDiscrete`1
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<UnityEngine.UIElements.FontDefinition,UnityEngine.UIElements.FontDefinition,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x4A84F40
@@ -513,6 +589,8 @@ public class ValuesDiscrete`1
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<UnityEngine.Font,UnityEngine.Font,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x4A85270
@@ -523,6 +601,8 @@ public class ValuesDiscrete`1
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<UnityEngine.UIElements.BackgroundPosition,UnityEngine.UIElements.BackgroundPosition,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x4A84970
@@ -533,6 +613,8 @@ public class ValuesDiscrete`1
 
 public class ValuesDiscrete`1
 {
+    public System.Func`3<UnityEngine.UIElements.BackgroundRepeat,UnityEngine.UIElements.BackgroundRepeat,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x4A84C90
@@ -543,6 +625,8 @@ public class ValuesDiscrete`1
 
 public class ValuesFloat
 {
+    public System.Func`3<float,float,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746C740
@@ -568,6 +652,8 @@ public class ValuesFontDefinition
 
 public class ValuesInt
 {
+    public System.Func`3<int,int,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x2110AC0
@@ -579,6 +665,8 @@ public class ValuesInt
 
 public class ValuesLength
 {
+    public System.Func`3<UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746CCC0
@@ -598,6 +686,8 @@ public class ValuesMerger
 
 public class ValuesRotate
 {
+    public System.Func`3<UnityEngine.UIElements.Rotate,UnityEngine.UIElements.Rotate,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746ECB0
@@ -609,6 +699,8 @@ public class ValuesRotate
 
 public class ValuesScale
 {
+    public System.Func`3<UnityEngine.UIElements.Scale,UnityEngine.UIElements.Scale,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746E670
@@ -620,6 +712,8 @@ public class ValuesScale
 
 public class ValuesTextShadow
 {
+    public System.Func`3<UnityEngine.UIElements.TextShadow,UnityEngine.UIElements.TextShadow,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746DF70
@@ -631,6 +725,8 @@ public class ValuesTextShadow
 
 public class ValuesTransformOrigin
 {
+    public System.Func`3<UnityEngine.UIElements.TransformOrigin,UnityEngine.UIElements.TransformOrigin,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x7469730
@@ -643,6 +739,8 @@ public class ValuesTransformOrigin
 
 public class ValuesTranslate
 {
+    public System.Func`3<UnityEngine.UIElements.Translate,UnityEngine.UIElements.Translate,bool> <SameFunc>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x31C010
     public void IsSame(){} // RVA: 0x746F430
@@ -655,6 +753,9 @@ public class ValuesTranslate
 
 public class Values`1
 {
+    public long m_CurrentTimeMs;
+    public TransitionEventsFrameState<T> m_CurrentFrameEventsState;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0xDBE0
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -684,6 +785,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<T> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -713,6 +817,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<float> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -742,6 +849,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<int> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -771,6 +881,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.Length> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -800,6 +913,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.Color> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60
@@ -829,6 +945,9 @@ public class Values`1
 
 public class Values`1
 {
+    public long m_CurrentTimeMs; // 0x10
+    public TransitionEventsFrameState<UnityEngine.UIElements.Background> m_CurrentFrameEventsState; // 0x18
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x4A85E10
     public void get_SameFunc(){} // RVA: 0xCD60

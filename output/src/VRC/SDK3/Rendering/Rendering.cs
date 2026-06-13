@@ -13,8 +13,8 @@ namespace VRC.SDK3.Rendering
 
     public class VRCAsyncGPUReadbackRequest
     {
-        public object IsInitialized;
-        public object CanExecuteConstraintJobsInEditMode;
+        public UnityEngine.Rendering.AsyncGPUReadbackRequest IsInitialized; // 0x10
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver CanExecuteConstraintJobsInEditMode; // 0x20
 
         // ── Methods ──
         public void get_done(){} // RVA: 0x849F30
@@ -31,6 +31,18 @@ namespace VRC.SDK3.Rendering
 
     public class VRCCameraSettings
     {
+        public System.Action`1<UnityEngine.Camera> OnCameraSettingsChanged;
+        public System.Func`1<0x6597D550> GetCameraMode; // 0x10
+        public VRC.SDK3.Rendering.VRCCameraSettings <ScreenCamera>k__BackingField; // 0x8
+        public VRC.SDK3.Rendering.VRCCameraSettings <PhotoCamera>k__BackingField; // 0x10
+        public UnityEngine.Camera _targetCamera; // 0x18
+        public System.Func`1<UnityEngine.Transform> TransformGetter; // 0x20
+        public bool HasChangedFarClipPlane; // 0x28
+        public bool _layerCullSphericalFake; // 0x29
+        public bool _layerCullSphericalWarningDisplayed; // 0x18
+        public float[] _defaultLayerCullDistances; // 0x20
+        public int[] _excludedLayers; // 0x28
+
         // ── Methods ──
         public void get_ScreenCamera(){} // RVA: 0x9A13E10
         public void set_ScreenCamera(){} // RVA: 0x9A13E70
@@ -90,6 +102,10 @@ namespace VRC.SDK3.Rendering
 
     public class VRCQualitySettings
     {
+        public System.Action`4<float,float,float,float> SetShadowDistanceInternal;
+        public System.Action`1<float> SetShadowDistanceInternalAll; // 0x8
+        public System.Action ResetShadowDistanceInternal; // 0x10
+
         // ── Methods ──
         public void get_AntiAliasing(){} // RVA: 0x70DA9A0
         public void get_PixelLightCount(){} // RVA: 0x70DA370

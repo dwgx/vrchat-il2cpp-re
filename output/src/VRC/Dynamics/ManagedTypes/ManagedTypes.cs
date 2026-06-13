@@ -7,6 +7,11 @@ namespace VRC.Dynamics.ManagedTypes
 {
     public class VRCAimConstraintBase
     {
+        public bool AffectsRotationX; // 0x3A0
+        public bool AffectsRotationY; // 0x3A1
+        public bool AffectsRotationZ; // 0x3A2
+        public UnityEngine.Vector3 AimAxis; // 0x3A4
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x519240
         public void get_RotationMode(){} // RVA: 0x3E2CB0
@@ -25,6 +30,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCLookAtConstraintBase
     {
+        public float Roll; // 0x3A0
+        public bool UseUpTransform; // 0x3A4
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x519240
         public void get_RotationMode(){} // RVA: 0xA308B0
@@ -41,6 +49,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCParentConstraintBase
     {
+        public UnityEngine.Vector3 PositionAtRest; // 0x380
+        public bool AffectsPositionX; // 0x38C
+        public bool AffectsPositionY; // 0x38D
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x3E2CB0
         public void get_RotationMode(){} // RVA: 0x3CFAF0
@@ -55,6 +67,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCPositionConstraintBase
     {
+        public UnityEngine.Vector3 PositionAtRest; // 0x380
+        public UnityEngine.Vector3 PositionOffset; // 0x38C
+        public bool AffectsPositionX; // 0x398
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x3CFAF0
         public void get_RotationMode(){} // RVA: 0x519240
@@ -68,6 +84,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCRotationConstraintBase
     {
+        public UnityEngine.Vector3 RotationAtRest; // 0x380
+        public UnityEngine.Vector3 RotationOffset; // 0x38C
+        public bool AffectsRotationX; // 0x398
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x519240
         public void get_RotationMode(){} // RVA: 0x3CFAF0
@@ -81,6 +101,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCScaleConstraintBase
     {
+        public UnityEngine.Vector3 ScaleAtRest; // 0x380
+        public UnityEngine.Vector3 ScaleOffset; // 0x38C
+        public bool AffectsScaleX; // 0x398
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x519240
         public void get_RotationMode(){} // RVA: 0x519240
@@ -94,6 +118,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCWorldUpConstraintBase
     {
+        public UnityEngine.Vector3 RotationAtRest; // 0x380
+        public UnityEngine.Vector3 RotationOffset; // 0x38C
+        public UnityEngine.Transform WorldUpTransform; // 0x398
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x519240
         public void get_ScaleMode(){} // RVA: 0x519240

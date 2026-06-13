@@ -15,6 +15,11 @@ namespace ThirdParty.Unity.UnityEngineInternal.Input
 
     public class NativeInputSystem
     {
+        public UnityEngineInternal.Input.NativeUpdateCallback onUpdate;
+        public System.Action`1<0x65A04AF0> onBeforeUpdate; // 0x8
+        public System.Func`2<0x65A04AF0,bool> onShouldRunUpdate; // 0x10
+        public System.Action`2<int,string> s_OnDeviceDiscoveredCallback; // 0x18
+
         // ── Methods ──
         public void get_onDeviceDiscovered(){} // RVA: 0x71AB370
         public void set_onDeviceDiscovered(){} // RVA: 0x71AB3D0

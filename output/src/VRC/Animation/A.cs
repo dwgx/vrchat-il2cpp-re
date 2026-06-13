@@ -8,6 +8,13 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÌÍÌÏÍÍÍÎÏÎÍÌÎÏÎÍÌÌÌÎÍ</summary>
     public class AnimatedTexture
     {
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x20
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x28
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÍÍÍÌÎÏÎÍÌÍÍÎÌÍÌÎÎÎÍÎÎÌÌ; // 0x30
+        public int ÏÌÌÌÌÎÌÍÍÌÏÏÌÎÌÏÌÍÎÌÍÌÍ;
+        public VRC.Profiling.ProfilerMarker ÏÌÍÏÎÌÌÌÌÎÏÎÍÏÍÍÌÍÌÎÏÌÍ; // 0x38
+        public VRC.Profiling.ProfilerMarker ÏÎÏÏÌÌÌÎÏÏÏÍÍÌÏÍÌÎÏÌÏÏÍ; // 0x48
+
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x99E580
         public void get_LoopStyle(){} // RVA: 0x1B8E640
@@ -41,6 +48,14 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÎÌÍÌÏÏÌÎÌÎÎÏÍÌÌÌÏÌÌÌÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_0CF6
     {
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ <ÌÍÎÏÌÎÌÌÏÍÍÌÏÍÌÍÏÏÎÌÍÏÍ>k__BackingField; // 0x38
+        public ÌÌÏÏÏÏÌÎÎÌÏÎÌÍÎÌÍÍÏÏÌÍÌ <ÎÎÏÏÎÍÎÏÏÍÍÎÍÎÏÎÌÌÍÎÍÌÌ>k__BackingField; // 0x40
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÍÏÍÍÌÌÌÏÍÌÍÎÍÏÍÍÍÏÎÏÎÏÏ>> <ÍÏÌÎÍÌÎÍÍÍÍÍÍÌÍÍÎÍÍÌÏÎÎ>k__BackingField; // 0x48
+        public int <ÌÏÎÎÍÏÏÏÏÏÎÏÎÍÍÍÌÌÏÌÏÏÌ>k__BackingField; // 0x50
+        public bool <ÍÏÎÏÍÍÌÍÌÏÏÏÎÏÎÌÎÏÏÌÏÌÍ>k__BackingField; // 0x54
+        public string ÎÎÏÍÏÎÌÎÌÌÏÎÍÏÏÍÎÌÍÍÍÏÏ; // 0x58
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void get_CountActive(){} // RVA: 0x59C540
@@ -69,6 +84,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÌÎÌÎÎÍÌÎÎÌÏÎÎÍÏÏÏÏÎÌÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_1171
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x20
+        public System.Threading.CancellationTokenSource ÏÍÍÌÍÍÍÌÍÎÏÎÎÍÎÏÍÌÏÏÎÌÌ; // 0x28
+        public int ÍÌÎÎÍÌÍÌÏÎÏÍÌÎÏÍÌÍÍÎÏÌÌ;
+
         // ── Methods ──
         public void SetItem_51059F80870B(){} // RVA: 0x977030
         public void Cleanup(){} // RVA: 0x30B0C0
@@ -112,6 +131,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÌÍÏÏÌÍÍÎÍÏÌÍÏÌÌÏÎÍÎÍÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_1C18
     {
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÎÌÌÍÏÌÎÌÏÍÍÏÏÏÌÎÎÍÍÌÏÎÎ>k__BackingField; // 0x20
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÏÍÏÍÏÎÍÌÌÌÎÍÏÌÌÏÍÎÎÏÍÌÌ>k__BackingField; // 0x28
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÌÍÎÌÌÏÏÏÌÎÍÎÏÍÏÌÌÏÌÌÌÌÌ>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x38
+        public ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ <ÎÍÏÎÌÍÌÌÏÏÏÌÍÍÍÎÏÏÌÌÍÍÌ>k__BackingField; // 0x40
+        public bool ÏÍÏÌÌÏÏÎÎÏÎÏÌÍÏÌÏÌÍÎÎÎÍ; // 0x48
+        public string ÏÌÏÍÌÌÎÎÌÍÏÌÍÎÌÎÎÌÏÍÏÍÎ; // 0x50
+        public VRC.SDK3.Data.DataDictionary ÏÎÏÎÍÎÌÎÍÌÍÍÌÌÍÏÏÍÏÎÏÏÎ; // 0x58
+
         // ── Methods ──
         public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
         public void get_Data(){} // RVA: 0x30B130
@@ -201,6 +229,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÏÍÎÍÍÏÌÍÌÍÏÏÏÏÍÌÍÌÏÌÏ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_20D0
     {
+        public VRC.Core.ApiTokenBundle <ÌÌÍÍÍÍÏÍÌÎÎÌÏÏÎÎÌÍÎÍÏÌÍ>k__BackingField; // 0x10
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÎÏÍÍÏÌÌÌÏÌÍÏÏÏÍÏÎÍÎÏÍÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void Equals(){} // RVA: 0x343E80
@@ -282,6 +313,47 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÎÎÏÏÎÍÌÌÍÎÎÏÌÌÏÍÌÍÌÏÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_2B9B
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public VRC.Localization.LocalizableString <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x40
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÍÌÏÏÎÎÎÍÍÎÎÎÌÍÌÎÎÏÍÍÌÌ>k__BackingField; // 0x68
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x70
+        public string <ÍÍÍÌÏÍÌÏÎÏÍÎÍÌÎÌÎÎÎÌÍÌÌ>k__BackingField; // 0x78
+        public string <ÍÎÍÍÌÍÌÍÏÌÎÎÌÎÍÌÍÎÌÎÎÌÍ>k__BackingField; // 0x80
+        public string <ÌÍÍÏÏÎÍÍÍÍÎÌÍÍÌÎÎÌÍÌÏÍÎ>k__BackingField; // 0x88
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÏÎÏÏÍÌÍÎÍÎÎÎÌÏÍÎÎÌÏÍÍÍ>k__BackingField; // 0x90
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÏÌÏÌÏÌÏÍÏÍÏÌÎÍÏÎÏÏÎÎÎÎÍ>k__BackingField; // 0x98
+        public bool <ÏÎÌÌÌÍÏÏÏÍÎÎÏÏÏÌÌÏÎÏÍÍÍ>k__BackingField; // 0xA0
+        public System.DateTime <ÎÍÎÌÍÌÎÍÏÎÏÎÏÍÎÏÍÎÏÏÏÎÎ>k__BackingField; // 0xA8
+        public System.DateTime <ÌÌÌÌÎÏÏÎÎÎÌÏÌÏÏÍÏÎÌÍÌÏÏ>k__BackingField; // 0xB0
+        public System.DateTime <ÌÍÏÎÌÏÏÏÍÏÏÎÏÌÍÌÏÌÍÎÏÎÎ>k__BackingField; // 0xB8
+        public System.DateTime <ÌÌÌÌÌÍÍÌÍÏÎÏÏÏÏÌÏÎÍÎÌÎÏ>k__BackingField; // 0xC0
+        public string <ÏÍÍÎÎÎÌÏÍÏÌÎÍÌÍÌÌÍÍÏÍÍÌ>k__BackingField; // 0xC8
+        public bool <ÎÎÌÎÎÏÍÍÏÏÏÎÏÍÍÌÏÎÎÎÏÍÎ>k__BackingField; // 0xD0
+        public string <ÏÌÎÌÍÌÏÌÍÎÎÎÍÍÍÏÍÌÏÏÌÌÏ>k__BackingField; // 0xD8
+        public string <ÎÏÎÎÌÍÌÏÍÎÌÏÎÏÍÍÌÌÏÍÌÎÌ>k__BackingField; // 0xE0
+        public string <ÎÎÌÍÏÏÎÏÏÌÍÏÏÏÏÌÌÍÍÎÌÍÏ>k__BackingField; // 0xE8
+        public string <ÌÎÌÎÍÍÍÌÍÌÏÍÎÏÏÌÍÎÌÏÎÎÎ>k__BackingField; // 0xF0
+        public string <ÎÌÍÏÍÏÎÏÎÌÏÎÍÍÏÎÌÍÍÌÍÍÎ>k__BackingField; // 0xF8
+        public bool <ÎÍÌÎÍÏÏÎÎÎÌÍÌÎÍÏÍÍÎÎÏÌÌ>k__BackingField; // 0x100
+        public bool <ÍÏÍÌÌÍÏÌÎÌÍÌÍÏÍÍÏÎÌÏÍÍÌ>k__BackingField; // 0x101
+        public bool <ÎÏÍÎÎÍÏÍÏÍÌÌÎÌÏÏÌÍÏÎÌÏÍ>k__BackingField; // 0x102
+        public bool <ÌÌÍÎÎÍÏÏÌÎÌÎÎÏÏÍÏÍÍÏÍÍÍ>k__BackingField; // 0x103
+        public bool <ÏÏÎÍÎÏÏÏÎÌÏÏÏÏÌÏÍÌÏÌÍÎÎ>k__BackingField; // 0x104
+        public bool <ÎÎÌÍÌÏÍÌÌÌÎÍÎÌÍÎÏÏÎÌÎÏÍ>k__BackingField; // 0x105
+        public bool <ÍÍÎÎÎÎÏÍÍÏÍÎÌÎÏÌÌÍÏÍÏÎÎ>k__BackingField; // 0x106
+        public bool <ÍÌÎÍÎÏÎÏÏÏÎÌÌÎÏÎÎÎÍÌÏÏÏ>k__BackingField; // 0x107
+        public bool <ÏÏÍÎÎÌÍÎÏÌÏÌÎÌÏÌÏÍÏÍÎÎÎ>k__BackingField; // 0x108
+        public bool <ÎÎÌÍÏÍÍÎÍÎÏÌÎÍÍÍÎÏÏÌÍÎÎ>k__BackingField; // 0x109
+        public bool <ÍÏÏÌÌÌÏÎÌÌÌÎÌÍÍÌÎÎÌÏÏÍÏ>k__BackingField; // 0x10A
+        public bool <ÍÌÌÍÏÌÍÏÏÏÍÎÏÏÌÌÍÍÌÎÍÏÏ>k__BackingField; // 0x10B
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0x110
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÏÎÏÌÏÌÍÌÌÏÌÍÍÍÏÏÎÎÌÎÍÌ>k__BackingField; // 0x118
+        public System.Collections.Generic.List`1<string> <ÌÎÍÍÎÍÏÍÍÍÍÍÏÎÌÏÌÌÌÍÍÏÍ>k__BackingField; // 0x120
+        public System.Collections.Generic.List`1<string> <ÏÎÍÍÎÍÌÍÏÎÍÍÎÌÍÌÏÎÍÏÎÍÍ>k__BackingField; // 0x128
+        public System.Collections.Generic.List`1<string> <ÍÎÍÌÎÏÍÍÎÏÌÏÎÎÍÍÌÌÌÌÎÏÍ>k__BackingField; // 0x130
+        public System.Action ÌÏÏÏÌÌÍÏÍÌÍÏÍÍÏÏÍÎÍÌÌÌÏ; // 0x138
+
         // ── Methods ──
         public void get_pointerType(){} // RVA: 0xA1C130
         public void get_up(){} // RVA: 0x59E660
@@ -418,6 +490,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÏÍÏÌÌÍÎÎÏÎÍÌÌÎÏÎÍÎÎÌÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_3EAC
     {
+        public string <ÏÎÍÍÏÎÏÌÍÍÏÍÎÍÍÍÍÌÏÍÎÌÎ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ <ÎÍÌÎÍÌÏÍÎÌÎÏÏÏÎÍÌÏÏÏÍÎÎ>k__BackingField; // 0x40
+        public ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ <ÌÍÎÏÌÎÌÌÏÍÍÌÏÍÌÍÏÏÎÌÍÏÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
@@ -443,6 +520,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÏÏÏÌÍÌÏÍÍÌÏÏÎÌÌÏÎÎÏÌÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_401B
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÌÎÍÎÍÍÏÌÌÌÎÌÍÍÌÎÎÍÍÏÎÏÌ; // 0x20
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
@@ -503,6 +582,24 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÏÍÏÎÌÌÏÏÎÎÏÎÎÌÏÎÏÍÌÌÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_5F27
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÏÎÍÌÎÎÍÎÍÎÏÏÍÏÍÏÍÎÏÎ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÏÏÎÌÎÎÌÍÏÌÏÍÍÎÎÍÏÎÍÎ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÌÏÎÌÍÍÌÌÍÌÏÍÍÎÍÌÎÎÌÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÍÌÎÌÌÍÏÏÌÍÍÎÍÍÏÌÍÌÎÌÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÍÌÍÏÍÍÍÏÏÌÌÎÎÎÍÏÏÌÍÎÏ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÎÎÎÎÍÍÌÎÎÍÏÎÎÌÍÏÎÍÍÌÎ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÍÌÌÏÏÎÍÌÏÎÌÍÏÍÌÌÍÍÍÏÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÌÏÍÌÌÏÍÎÌÍÍÏÏÏÏÌÏÏÍÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÌÌÌÌÏÏÌÎÌÌÌÏÎÌÏÏÏÎÏÌÏ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÌÌÌÌÍÌÌÏÌÏÏÏÎÍÏÏÌÍÏÌÏ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÏÌÌÍÌÎÌÍÍÌÎÌÎÍÎÎÍÌÍÌÌ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÎÎÌÍÍÌÍÍÌÏÎÎÎÍÌÎÏÌÏÎÏ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÍÌÌÎÍÍÏÌÍÌÌÍÎÎÎÏÍÎÍÎ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÎÏÍÌÌÌÌÌÏÌÌÍÍÎÎÍÎÌÍÏ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÎÎÌÏÏÌÌÎÏÍÏÍÌÎÌÎÍÏÏ>k__BackingField; // 0x80
+        public string ÎÌÎÏÍÌÍÍÍÌÏÍÌÏÏÌÏÌÏÍÌÍÌ; // 0x88
+        public System.Collections.Generic.List`1<string> ÍÎÌÍÎÌÍÍÎÍÎÍÌÍÏÌÏÎÍÏÎÏÌ; // 0x90
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x35A740
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
@@ -527,12 +624,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_662F
     {
-        public object [I;
-        public object <>1__state;
-        public object buffer;
-        public object <readToUserBuffer>5__3;
-        public object <count>5__6;
-        public object <>u__2;
+        public System.Action`1<System.Collections.Generic.Dictionary`2<0x65888FD8,bool>> [I;
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
@@ -579,6 +671,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÏÌÌÎÏÏÍÌÎÌÍÌÎÍÎÌÌÍÎÏÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_66DD
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void Contains(){} // RVA: 0xF27A30
@@ -639,6 +734,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÌÎÌÏÎÏÍÏÍÌÍÌÍÌÎÎÎÌÎÏÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_82CA
     {
+        public ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ <ÌÍÌÎÎÏÍÌÏÍÏÎÍÍÎÌÏÎÎÍÍÌÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void SetItem_51059F80870B(){} // RVA: 0x977030
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
@@ -664,6 +761,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÎÎÏÌÏÏÍÍÌÏÏÎÍÍÏÏÍÌÌÍÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_8BED
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ[] <ÌÏÎÎÏÍÌÎÍÍÏÎÎÎÌÎÏÌÏÏÏÌÌ>k__BackingField; // 0x10
+        public ÎÌÎÎÌÍÏÎÏÍÎÏÌÍÌÌÌÏÌÏÎÎÍ[] <ÍÎÌÎÌÌÏÎÎÏÌÏÎÎÏÏÏÎÎÌÎÎÎ>k__BackingField; // 0x18
+        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x20
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x38
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void OnDidApplyAnimationProperties(){} // RVA: 0x204E840
         public void get_Current(){} // RVA: 0x1968950
@@ -712,6 +815,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÍÌÎÌÎÌÌÌÍÏÏÎÎÌÏÏÍÍÍÎÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_9C43
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÍÏÎÏÏÍÌÎÏÏÌÍÍÌÌÍÎÌÌÌ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void Contains(){} // RVA: 0xF3DF90
         public void IndexOf(){} // RVA: 0xF3E030
@@ -829,6 +937,18 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÍÏÏÏÌÎÎÎÎÏÎÌÍÌÎÍÎÎÎÍÏÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_AA22
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public string <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x18
+        public int <ÏÌÌÍÎÏÏÎÎÌÏÎÏÌÍÌÌÍÏÌÍÏÍ>k__BackingField; // 0x20
+        public System.DateTime <ÏÍÌÍÎÌÏÌÍÍÏÌÎÏÎÎÏÍÍÍÏÎÎ>k__BackingField; // 0x28
+        public int <ÍÏÏÏÌÍÎÍÍÎÍÏÏÍÍÏÎÌÎÌÌÍÏ>k__BackingField; // 0x30
+        public VRC.Localization.LocalizableString <ÌÌÌÎÏÏÎÌÎÏÌÎÏÏÏÏÍÍÌÎÎÌÍ>k__BackingField; // 0x38
+        public int <ÍÎÍÏÌÏÏÏÎÏÏÍÎÎÌÍÌÏÎÎÌÌÎ>k__BackingField; // 0x60
+        public string <ÍÌÏÏÌÌÎÏÌÎÍÍÌÍÍÍÎÎÏÏÍÌÎ>k__BackingField; // 0x68
+        public string <ÏÍÍÌÎÏÍÏÎÌÍÏÍÌÏÍÍÌÎÎÎÌÍ>k__BackingField; // 0x70
+        public string <ÎÌÎÎÏÌÎÏÍÌÌÏÌÌÌÏÍÏÎÌÎÏÌ>k__BackingField; // 0x78
+        public string <ÌÌÌÌÎÌÏÍÍÏÍÎÎÌÎÎÎÎÌÏÍÎÏ>k__BackingField; // 0x80
+
         // ── Methods ──
         public void get_imageUrl(){} // RVA: 0x3A5590
         public void get_MoveNext(){} // RVA: 0x462D00
@@ -866,6 +986,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÍÎÍÏÎÍÎÏÌÌÏÎÍÍÎÎÍÍÌÌÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_ACD8
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void Find(){} // RVA: 0x9E99B0
         public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
@@ -896,6 +1019,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÍÎÎÎÏÌÍÌÎÏÎÎÌÌÏÍÏÎÌÍÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_AF0E
     {
+        public UnityEngine.Color[] <ÏÎÏÏÌÏÏÌÎÎÌÏÍÌÍÎÍÌÍÍÎÍÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void RegisterPointerHandlers(){} // RVA: 0x1D5BE90
         public void OnPointerClick(){} // RVA: 0x1D5BF70
@@ -920,6 +1045,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÌÌÏÍÍÏÏÏÏÍÍÍÎÏÍÌÍÌÍÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_B1DC
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public 0x6581C688 <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void get_Length(){} // RVA: 0x1EA9890
@@ -953,6 +1081,16 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÎÎÌÌÌÍÍÌÌÍÏÏÍÎÎÏÍÌÌÏÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_B5C2
     {
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<object> <ÏÎÏÍÏÌÍÎÍÏÌÎÌÏÎÏÎÍÌÎÎÎÍ>k__BackingField; // 0x20
+        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ <ÌÌÏÍÌÌÎÌÌÍÏÏÌÍÎÍÌÌÎÌÌÍÌ>k__BackingField; // 0x28
+        public int <ÏÌÌÏÏÍÌÏÌÏÍÌÏÏÏÏÌÏÌÎÏÎÏ>k__BackingField; // 0x30
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÎÍÍÏÏÏÌÌÏÎÌÌÌÏÏÍÌÍÎÌÏ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÎÏÌÏÏÌÌÌÎÍÍÏÏÌÏÏÏÏÍÏÎÌÍ;
+        public bool <ÌÍÍÌÎÏÌÎÏÍÎÌÏÌÌÏÌÎÏÏÌÌÍ>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<object> ÏÏÏÎÌÌÌÍÎÍÏÏÍÎÍÎÍÌÏÌÎÎÎ; // 0x48
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x50
+        public bool ÎÏÏÏÎÌÏÏÌÍÌÎÍÍÎÍÍÎÏÎÎÎÏ; // 0x58
+
         // ── Methods ──
         public void Contains(){} // RVA: 0xFCCFD0
         public void IndexOf(){} // RVA: 0xFCD060
@@ -1116,6 +1254,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÌÌÏÍÌÏÍÎÏÍÍÌÍÍÌÍÌÌÍÏÏ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_C80F
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÎÍÍÏÏÏÌÌÏÎÌÌÌÏÏÍÌÍÎÌÏ>k__BackingField; // 0x28
+        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ <ÎÌÌÏÎÌÍÌÌÌÏÌÏÎÎÍÏÌÌÌÍÏÍ>k__BackingField; // 0x30
+        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ <ÌÌÏÍÌÌÎÌÌÍÏÏÌÍÎÍÌÌÎÌÌÍÌ>k__BackingField; // 0x38
+        public bool ÌÏÏÏÍÌÌÌÍÌÏÍÍÍÍÏÏÍÌÎÎÏÎ; // 0x40
+
         // ── Methods ──
         public void SetItem(){} // RVA: 0xF4C7B0
         public void get_Comparer(){} // RVA: 0x6374D0
@@ -1182,6 +1326,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÏÏÎÏÍÍÎÎÏÏÏÏÍÏÎÏÏÎÍÎÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_CF70
     {
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x48
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Sprite> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x50
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÌÏÍÍÏÌÌÏÎÏÌÍÏÌÌÍÍÌÍÏÏÍÍ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void Constructor(){} // RVA: 0x3A5510
@@ -1204,6 +1353,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_D158
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÌÎÍÎÍÍÏÌÌÌÎÌÍÍÌÎÎÍÍÏÎÏÌ; // 0x20
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÌÏÍÏÌÏÏÏÍÌÌÏÎÌÎÍÌÏÌÍÌÏÎ; // 0x28
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÏÌÎÏÍÏÌÎÌÌÌÏÌÌÏÌÌÍÍÎÏÏÏ; // 0x30
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> ÎÏÌÎÌÏÌÍÌÍÍÍÎÏÍÏÎÌÍÍÎÎÎ; // 0x38
+        public System.Threading.CancellationTokenSource ÌÌÎÏÍÌÍÏÍÏÌÍÌÍÌÏÎÏÏÎÎÎÏ; // 0x40
+        public ÏÎÍÍÎÏÏÌÎÏÌÍÍÍÌÌÎÏÍÌÎÍÍ <ÎÎÎÍÍÏÌÍÍÏÍÌÎÏÌÍÌÎÏÎÏÎÍ>k__BackingField; // 0x48
+        public ÏÎÍÍÎÏÏÌÎÏÌÍÍÍÌÌÎÏÍÌÎÍÍ <ÌÏÍÏÌÏÌÏÌÏÏÍÎÌÌÎÎÏÌÎÍÏÍ>k__BackingField; // 0x98
+        public System.Nullable`1<int> ÌÍÌÍÎÏÏÎÌÏÍÍÏÏÍÎÎÍÏÏÏÏÏ; // 0xE8
+        public System.Nullable`1<int> ÌÏÌÎÎÌÏÏÍÍÍÍÍÏÌÍÌÌÎÏÏÍÍ; // 0xF0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÎÎÍÏÍÏÎÏÌÍÍÏÏÌÏÎÌÎÎÍÏ>k__BackingField; // 0xF8
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void Contains(){} // RVA: 0xECE0C0
@@ -1276,6 +1436,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÍÍÍÌÌÍÍÎÏÍÎÌÎÌÍÍÌÍÍÍÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_D167
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
+        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x30
+        public int <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void GetLocalScale(){} // RVA: 0xFDC9F0
         public void GetLocalScale_5BA8B09FF060(){} // RVA: 0xFDC9F0
@@ -1292,6 +1457,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÏÏÍÍÌÏÍÏÏÏÎÌÏÍÌÏÎÏÏÏÏ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_D369
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
         public void Cleanup(){} // RVA: 0x30B0C0
@@ -1311,6 +1479,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÍÏÍÎÎÍÍÏÌÎÍÎÍÏÍÌÍÏÍÏÏ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_D830
     {
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÌÎÎÎÎÌÌÎÍÍÏÏÎÎÎÎÎÎÎÌÎÍÌ>> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x38
+        public string <ÌÏÌÌÎÌÎÏÌÏÏÍÏÍÎÎÎÌÏÎÌÍÍ>k__BackingField; // 0x40
+        public string <ÎÍÎÏÍÏÍÌÍÌÏÌÏÍÏÏÌÌÍÎÏÌÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void .ctor(){} // RVA: 0x14F7E30
@@ -1333,6 +1506,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÌÎÎÌÌÎÌÌÏÎÌÍÏÍÌÍÎÍÍÏÍ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_E2B4
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> <ÌÌÌÌÌÌÎÍÏÏÏÍÌÏÎÎÍÍÎÎÍÌÏ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÎÌÏÌÎÍÍÍÏÌÌÍÎÏÌÍÎÎÍÏÏÌÎ>k__BackingField; // 0x28
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÎÎÏÎÌÏÌÍÏÎÌÎÌÎÌÌÎÎÌÏÌÍ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
         public void .ctor(){} // RVA: 0x1DE2AE0
@@ -1426,7 +1603,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
     {
-        public object _fD0A;
+        public T _fD0A;
+        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField;
+        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField;
 
         // ── Methods ──
         public void set_Space(){} // RVA: 0x24CC0
@@ -1449,6 +1628,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
     {
+        public 0x658952C0 <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x10
+        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
+        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_Space(){} // RVA: 0xAE83A0
         public void ProcessPlayableHandle(){} // RVA: 0x2A310
@@ -1470,6 +1653,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
     {
+        public 0x65973DB8 <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x10
+        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
+        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_Space(){} // RVA: 0xAE83A0
         public void ProcessPlayableHandle(){} // RVA: 0x2A310
@@ -1538,6 +1725,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÎÍÍÌÏÎÍÌÍÍÏÎÏÍÎÍÌÌÏÍÏ</summary>
     public class AnimatedTextureBaseImpl_0682Sibling_07C7
     {
+        public string ÎÎÎÌÌÌÌÍÏÍÏÎÏÌÍÎÍÎÎÍÎÏÍ;
+        public Discord.Sdk.UserHandle ÎÍÏÏÎÏÏÏÌÌÎÎÎÎÌÍÌÎÌÎÎÌÎ; // 0x10
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÏÌÏÍÌÎÎÏÏÏÌÎÏÌÏÍÍÏÍÏ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÌÏÎÍÌÍÎÎÎÌÍÎÎÏÌÏÏÎÍÌÌÍÎ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÌÎÌÌÌÏÎÌÌÌÍÎÎÍÏÍÍÌÎÍÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÍÎÏÌÏÍÌÎÍÎÎÍÌÍÏÏÌÌÏÍÍ>k__BackingField; // 0x48
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÍÌÌÍÍÎÌÌÌÌÌÎÎÎÍÌÍÎÎÍÍÍ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void get_Comparer(){} // RVA: 0x6374D0
@@ -1571,6 +1769,22 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÏÏÌÏÌÍÏÏÍÌÎÌÍÎÎÏÍÍÌÏÎ</summary>
     public class AnimatedTextureBaseImpl_0682Sibling_206E
     {
+        public int ÌÍÌÎÏÍÏÎÎÍÎÍÎÎÍÌÎÎÍÏÎÍÍ;
+        public bool ÌÍÏÏÌÏÎÎÏÏÏÍÏÎÏÍÎÏÌÏÍÎÎ; // 0x20
+        public int ÍÎÎÎÎÌÌÍÌÌÌÏÎÎÌÌÌÎÎÍÌÏÎ; // 0x24
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ> <ÍÏÎÌÏÌÌÌÏÎÏÎÎÌÌÍÎÏÍÎÏÎÏ>k__BackingField; // 0x28
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x30
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÍÌÏÏÎÎÎÍÍÎÎÎÌÍÌÎÎÏÍÍÌÌ>k__BackingField; // 0x38
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<string> <ÏÍÏÏÎÌÏÍÍÏÏÏÍÏÏÌÌÍÎÏÍÌÎ>k__BackingField; // 0x40
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÌÌÏÎÌÍÌÌÌÏÌÏÎÎÍÏÌÌÌÍÏÍ>k__BackingField; // 0x48
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ>> <ÏÌÍÎÍÏÌÍÍÌÍÏÎÏÍÎÌÍÌÍÌÎÎ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÌÌÎÏÌÎÎÏÏÎÏÎÏÏÎÏÎÍÏÏÏÎ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÌÌÏÏÍÌÏÌÏÍÌÏÏÏÏÌÏÌÎÏÎÏ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÌÍÏÎÌÎÎÏÎÍÏÍÎÏÌÎÍÌÌÏÌ>k__BackingField; // 0x68
+        public string ÍÎÎÎÌÍÏÌÎÌÏÎÏÍÏÌÌÌÍÏÌÎÌ; // 0x70
+        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ <ÏÎÍÍÎÍÌÍÍÌÍÍÎÍÏÍÌÏÎÏÎÎÍ>k__BackingField; // 0x78
+        public int <ÍÎÎÎÎÎÌÏÎÍÎÌÌÍÍÍÎÎÏÎÍÌÏ>k__BackingField; // 0x80
+
         // ── Methods ──
         public void SetArrayElementValue(){} // RVA: 0xFC3BD0
         public void SetArrayElementValue_66AD78B96AB3(){} // RVA: 0xFC3C10
@@ -1674,6 +1888,14 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÎÏÏÍÎÍÎÏÏÏÌÏÌÎÍÏÌÏÌÏÍ</summary>
     public class AnimatedTextureBaseImpl_0682Sibling_A352
     {
+        public ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ ÏÌÍÌÍÍÎÌÏÍÎÎÏÌÏÎÎÎÍÏÌÏÎ; // 0x20
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> ÍÍÏÎÎÏÌÎÌÌÎÍÎÏÍÎÌÌÌÍÎÌÍ; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x30
+        public int <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588DD88> <ÏÎÍÌÎÍÎÌÌÏÌÌÌÎÏÌÏÍÎÍÌÌÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÍÏÍÍÏÍÎÌÎÍÍÍÍÌÏÎÌÍÏÌÏÍ>k__BackingField; // 0x48
+        public ÏÏÌÌÏÌÏÍÍÌÌÍÎÎÎÍÎÏÎÎÏÍÎ <ÌÍÎÌÏÌÌÏÏÍÏÍÍÍÍÎÎÎÎÍÌÎÏ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void GetBounds(){} // RVA: 0xFDB310
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
@@ -1815,6 +2037,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÍÏÍÍÏÌÏÏÎÏÌÍÌÎÏÍÏÌÏÍÍ</summary>
     public class AnimatedTextureBaseImpl_0682Sibling_E30C
     {
+        public string ÎÌÏÍÍÍÏÍÍÎÎÍÌÎÏÏÌÌÎÏÍÏÍ; // 0x10
+        public string ÎÌÎÍÎÍÎÏÏÎÌÍÏÏÏÏÍÎÍÌÌÍÎ; // 0x18
+        public string ÍÎÏÏÏÌÏÏÎÍÌÌÎÍÌÎÎÏÌÍÌÌÍ; // 0x20
+        public string ÎÌÏÌÏÎÏÎÏÌÎÍÏÎÌÏÎÍÏÎÏÌÎ; // 0x28
+        public string ÏÌÍÏÌÎÍÍÎÎÌÏÎÎÎÎÌÌÌÍÏÍÍ; // 0x30
+        public string ÏÍÌÏÍÎÌÎÏÏÏÌÍÎÎÎÌÎÎÍÏÍÌ; // 0x38
+        public string ÏÏÍÌÍÏÍÏÎÌÍÎÎÌÍÌÌÌÏÎÌÌÏ; // 0x40
+        public string ÎÎÏÍÏÏÍÌÎÌÌÍÏÎÏÎÍÎÌÏÍÎÌ; // 0x48
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x4976A0
         public void MoveNext(){} // RVA: 0x30B0C0
@@ -1838,6 +2069,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÌÍÌÏÌÌÌÌÎÏÍÍÍÏÎÍÌÌÎÎÌ</summary>
     public class AnimatedTextureBaseImpl_0682Sibling_FBFC
     {
+        public string ÌÎÏÍÏÎÏÏÎÏÏÌÍÌÍÌÏÌÏÎÌÏÍ; // 0x20
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÍÎÎÍÌÎÎÎÏÌÍÌÌÍÌÏÌÎÍÎÎÍÏ>k__BackingField; // 0x28
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÎÍÌÌÌÌÌÌÌÌÏÍÌÌÍÎÏÍÌÎÏÏÌ; // 0x30
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÍÌÌÍÍÎÌÌÌÌÌÎÎÎÍÌÍÎÎÍÍÍ>k__BackingField; // 0x38
+        public string ÍÍÍÏÏÎÏÏÌÎÎÌÎÏÏÎÏÍÌÏÌÍÌ; // 0x40
+
         // ── Methods ──
         public void InitializeSparseHashTable(){} // RVA: 0x9E9990
         public void CompleteWithCallback(){} // RVA: 0x9E92F0
@@ -1877,6 +2114,81 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ</summary>
     public class AnimatedTextureBaseImpl_0682_3A0F
     {
+        public ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ ÎÎÍÌÌÍÏÌÏÎÎÌÌÎÍÍÍÏÌÌÌÌÌ; // 0x20
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<VRC.Core.ApiWorldInstance> ÍÌÏÍÍÍÎÏÍÌÏÍÎÎÏÌÍÎÌÌÏÏÌ; // 0x28
+        public string ÌÏÌÏÌÏÎÎÏÍÍÏÌÏÍÍÏÎÏÍÌÌÍ;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÌÍÌÏÍÏÍÏÎÌÌÏÌÎÍÌÌÌÌÎÌÎ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÍÌÎÎÏÌÌÍÎÏÌÌÎÌÏÏÍÍÍÏÍÏ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÏÌÏÍÌÎÎÏÏÏÌÎÏÌÏÍÍÏÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÏÍÎÏÌÎÎÍÌÎÏÏÎÍÎÏÍÍÎÏÍÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÎÍÍÎÌÍÌÌÍÍÎÏÏÌÎÌÏÎÍÏÌÎÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÌÏÎÍÌÍÎÎÎÌÍÎÎÏÌÏÏÎÍÌÌÍÎ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÌÎÌÌÌÏÎÌÌÌÍÎÎÍÏÍÍÌÎÍÍ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÍÎÏÌÏÍÌÎÍÎÎÍÌÍÏÏÌÌÏÍÍ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÏÎÌÎÍÎÍÍÏÎÌÎÌÍÍÎÎÏÎÌÍ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÏÎÎÍÍÌÎÏÌÌÏÏÌÎÍÎÍÍÌÍÎ>k__BackingField; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÎÌÍÎÍÏÎÌÌÍÍÏÌÏÎÌÏÎÏÍÏ>k__BackingField; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÏÌÏÎÍÎÎÏÌÎÎÌÎÎÎÏÏÏÎÎÎ>k__BackingField; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÎÏÍÎÎÏÎÎÏÏÌÎÍÍÌÍÏÍÎÏÌÏÏ>k__BackingField; // 0xA0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÏÍÎÏÏÌÌÏÌÌÎÏÍÎÏÏÏÎÍÍ>k__BackingField; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÎÏÏÌÏÌÎÏÍÏÎÏÎÏÍÍÍÌÎÏÎÎÌ>k__BackingField; // 0xB0
+        public UnityEngine.Color ÌÌÏÎÌÏÌÌÌÏÎÍÏÎÌÍÏÌÌÏÏÏÍ;
+        public UnityEngine.Color ÎÍÏÌÌÍÌÎÌÍÍÌÍÏÎÎÎÍÏÌÎÌÏ; // 0x10
+        public UnityEngine.Color ÎÏÏÎÍÌÍÌÎÏÎÌÎÎÎÌÌÎÎÍÍÌÍ; // 0x20
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÍÎÎÍÌÎÎÎÏÌÍÌÌÍÌÏÌÎÍÎÎÍÏ>k__BackingField; // 0xB8
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÎÌÎÌÏÍÍÌÍÌÏÎÍÎÏÎÏÍÏÎÌÎÍ>k__BackingField; // 0xC0
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÍÌÌÍÍÎÌÌÌÌÌÎÎÎÍÌÍÎÎÍÍÍ>k__BackingField; // 0xC8
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÌÏÌÍÍÏÌÍÌÎÎÌÍÏÎÌÌÎÏÍÍÎ>k__BackingField; // 0xD0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÎÎÌÌÌÍÎÌÍÌÎÍÍÎÍÌÏÏÍÎÌ>k__BackingField; // 0xD8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÏÎÏÍÏÌÍÍÏÌÎÍÎÏÍÎÌÎÍÎÌ>k__BackingField; // 0xE0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÎÏÎÏÍÎÏÏÍÏÍÎÏÎÍÍÎÍÍÎ>k__BackingField; // 0xE8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÍÎÍÎÌÎÎÌÎÍÏÌÎÏÏÎÌÍÏÏÎ>k__BackingField; // 0xF0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÌÎÌÏÍÏÌÌÏÎÌÍÏÌÌÎÏÌÎÍ>k__BackingField; // 0xF8
+        public bool ÏÏÎÌÍÎÍÏÍÌÍÎÏÎÏÍÏÌÌÌÌÎÌ; // 0x100
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÎÌÍÎÎÎÏÍÎÌÏÎÌÏÏÏÍÌÌÍÎ>k__BackingField; // 0x108
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÎÏÌÌÌÎÌÎÌÍÎÍÏÍÌÎÌÏÎÏÎÌÌ>k__BackingField; // 0x110
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÎÎÌÌÏÏÎÏÎÏÏÍÍÍÍÍÎÎÏÌÍÍÏ>k__BackingField; // 0x118
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÌÎÎÍÌÏÍÍÎÏÎÌÌÏÍÍÎÎÏÎÎ>k__BackingField; // 0x120
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÏÏÌÏÎÏÌÍÌÏÍÏÎÎÌÎÍÌÏÌÍ>k__BackingField; // 0x128
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÎÌÎÏÎÎÍÎÌÎÍÌÎÎÎÎÌÍÍÍÏ>k__BackingField; // 0x130
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÏÎÍÎÏÌÍÍÏÏÏÎÍÍÍÎÎÍÎÍ>k__BackingField; // 0x138
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÎÍÎÎÌÏÏÍÎÏÏÎÍÍÌÏÎÏÏÏ>k__BackingField; // 0x140
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÌÍÎÏÌÎÍÏÎÍÏÌÌÏÍÎÌÎÌÎÍ>k__BackingField; // 0x148
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÏÌÏÎÌÎÍÏÌÍÏÍÎÏÎÏÎÍÎÎÌ>k__BackingField; // 0x150
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÍÍÎÌÏÌÎÎÍÎÏÌÌÎÍÌÍÎÎÌÎ>k__BackingField; // 0x158
+        public ÏÏÌÌÏÌÏÍÍÌÌÍÎÎÎÍÎÏÎÎÏÍÎ <ÍÍÍÏÎÍÍÌÏÏÌÌÍÏÏÍÌÏÎÎÍÍÎ>k__BackingField; // 0x160
+        public ÏÏÌÌÏÌÏÍÍÌÌÍÎÎÎÍÎÏÎÎÏÍÎ <ÌÏÎÌÏÎÏÎÍÎÏÍÍÌÎÏÍÏÏÍÏÎÏ>k__BackingField; // 0x168
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65972C88> <ÎÎÏÌÌÌÏÍÎÌÎÏÌÏÌÏÎÍÌÍÎÍÌ>k__BackingField; // 0x170
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65972C88> <ÍÎÏÌÌÍÍÎÎÎÎÍÌÎÏÍÍÎÌÍÍÎÏ>k__BackingField; // 0x178
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÍÍÏÍÌÍÏÌÍÌÌÌÏÌÍÏÌÌÌÏÎ>k__BackingField; // 0x180
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÎÍÍÍÍÍÎÏÎÍÌÌÏÍÏÌÏÌÌÍÌ>k__BackingField; // 0x188
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÏÌÍÏÏÏÎÌÎÍÎÏÎÎÏÍÍÌÎÍÍ>k__BackingField; // 0x190
+        public ÏÏÌÌÏÌÏÍÍÌÌÍÎÎÎÍÎÏÎÎÏÍÎ <ÌÌÏÎÍÎÏÍÌÎÏÎÏÍÌÍÌÌÌÏÌÏÍ>k__BackingField; // 0x198
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> <ÌÎÌÍÌÌÏÎÏÌÎÎÎÏÌÏÏÍÎÏÌÍÎ>k__BackingField; // 0x1A0
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<bool> <ÍÏÎÌÎÏÌÌÏÏÏÍÎÍÌÌÏÌÏÌÎÏÏ>k__BackingField; // 0x1A8
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<bool> <ÌÎÎÎÌÍÍÌÍÍÌÏÎÎÎÍÌÎÏÌÏÎÏ>k__BackingField; // 0x1B0
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<bool> <ÍÎÏÍÏÏÎÎÏÍÎÌÍÍÍÏÎÍÍÌÌÏÍ>k__BackingField; // 0x1B8
+        public string ÏÌÍÌÏÎÏÍÏÎÎÌÍÍÎÍÌÎÍÎÌÏÍ; // 0x1C0
+        public string ÍÍÍÏÏÎÏÏÌÎÎÌÎÏÏÎÏÍÌÏÌÍÌ; // 0x1C8
+        public string ÎÎÎÏÎÎÎÎÎÎÏÌÍÎÎÎÏÏÎÌÍÎÎ; // 0x1D0
+        public string ÌÎÏÍÏÎÏÏÎÏÏÌÍÌÍÌÏÌÏÎÌÏÍ; // 0x1D8
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÎÍÌÌÌÌÌÌÌÌÏÍÌÌÍÎÏÍÌÎÏÏÌ; // 0x1E0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<string>> <ÍÏÎÌÌÍÌÎÍÎÎÍÍÍÏÎÏÍÎÌÍÎÍ>k__BackingField; // 0x1E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÍÌÍÎÌÏÏÏÌÌÏÌÎÎÎÏÌÎÏÍÏ>> <ÏÏÏÎÍÌÍÎÍÎÎÌÏÎÏÏÍÏÎÏÌÏÍ>k__BackingField; // 0x1F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<string>> <ÍÎÍÌÎÏÍÍÎÏÌÏÎÎÍÍÌÌÌÌÎÏÍ>k__BackingField; // 0x1F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÏÏÏÍÏÍÏÍÌÍÌÍÏÌÍÍÌÌÍÏ>k__BackingField; // 0x200
+        public int ÌÏÎÌÏÎÍÏÍÏÏÎÏÍÎÌÍÎÏÏÎÌÎ;
+        public System.Threading.SemaphoreSlim ÏÏÏÎÍÎÎÎÌÏÍÌÍÏÍÎÍÏÍÎÍÏÍ; // 0x30
+        public int ÏÍÍÌÍÍÌÍÎÌÌÎÍÏÍÍÎÎÏÏÏÏÍ;
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÏÏÎÏÍÌÏÎÏÌÎÏÍÌÎÎÎÌÎÍÏÍ> <ÎÌÌÎÍÍÏÌÎÏÏÎÍÏÎÏÏÏÌÏÏÌÌ>k__BackingField; // 0x208
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> <ÎÏÌÍÎÍÌÍÌÍÏÎÍÎÎÏÏÍÎÍÎÌÌ>k__BackingField; // 0x210
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ>> <ÏÍÍÎÏÏÌÌÍÌÍÌÌÌÏÍÎÌÌÎÍÌÎ>k__BackingField; // 0x218
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÏÍÏÎÏÌÍÎÌÌÏÌÎÏÎÎÌÍÍÌÏÍÏ> <ÍÎÍÏÏÍÎÎÎÍÌÎÍÏÌÍÌÎÏÎÍÎÌ>k__BackingField; // 0x220
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÍÍÏÏÌÍÌÍÌÎÍÎÏÏÏÌÎÌÏÎ>> <ÌÍÏÍÏÏÎÍÍÍÍÏÌÎÏÎÌÌÌÏÏÎÏ>k__BackingField; // 0x228
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÍÎÏÎÎÎÎÏÍÎÎÌÎÍÍÎÏÌÍÌÎÎÏ>> <ÍÌÏÏÌÏÏÎÍÎÏÎÎÌÏÌÌÌÏÌÍÎÏ>k__BackingField; // 0x230
+
         // ── Methods ──
         public void InitializeFA55276D91DA(){} // RVA: 0xF00EE0
         public void GetPlatformOptionsWebGLA726A94B33FA(){} // RVA: 0xF70D80
@@ -2138,6 +2450,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÎÌÎÎÌÎÎÏÎÏÏÎÌÎÎÌÍÎÎÌÌ</summary>
     public class AnimatedTextureBaseImpl_0Related_2475
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x20
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x28
+        public System.Collections.Generic.List`1<ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ> <ÌÌÌÎÌÍÍÍÌÏÍÍÏÏÎÏÌÏÍÌÍÍÍ>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ> <ÌÌÏÌÌÌÌÎÎÎÏÏÏÏÍÎÌÍÌÌÌÍÎ>k__BackingField; // 0x38
+        public System.Collections.Generic.List`1<string> <ÌÍÍÍÌÌÌÍÎÍÏÎÍÍÍÏÏÏÌÌÏÍÏ>k__BackingField; // 0x40
+        public ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ <ÌÍÌÎÎÏÍÌÏÍÏÎÍÍÎÌÏÎÎÍÍÌÎ>k__BackingField; // 0x48
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÌÌÍÌÌÍÏÏÌÍÌÍÎÌÎÌÏÎÏÎÎÏÎ>k__BackingField; // 0x50
+        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ ÌÎÍÏÌÌÎÌÍÏÍÎÌÏÍÏÏÎÍÎÏÎÍ; // 0x58
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void get_Data(){} // RVA: 0x30B130
@@ -2183,6 +2504,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÍÍÌÏÎÎÌÎÌÌÌÎÍÎÎÍÏÎÏÌÍ</summary>
     public class AnimatedTextureBaseImpl_0Related_3C4C
     {
+        public bool <ÏÏÌÎÎÎÌÍÎÏÍÏÍÏÍÍÎÎÏÏÌÍÌ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÏÍÍÎÌÌÏÏÏÎÎÍÏÎÎÌÌÍÌÏÌ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÌÍÎÎÍÎÍÏÍÍÌÌÎÍÏÍÍÏÏÌ>k__BackingField; // 0x30
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ> <ÎÏÎÌÎÏÌÏÎÍÌÍÌÎÍÍÏÌÌÏÌÍÎ>k__BackingField; // 0x38
+        public ÌÏÎÎÌÎÎÌÏÍÏÏÏÏÌÌÍÌÎÍÌÏÌ ÏÎÏÍÍÍÌÏÍÏÎÏÏÏÌÎÌÌÌÎÏÌÍ; // 0x40
+
         // ── Methods ──
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -2233,17 +2560,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÍÏÏÏÍÍÏÎÎÍÌÍÍÍÍÏÎÎÏÏÎ</summary>
     public class AnimatedTextureBaseImpl_0Related_8AFB
     {
-        public object f_DE8;
-        public object f_C3D;
-        public object f_C9B;
-        public object f_EA0;
-        public object f_BC9;
-        public object f_502;
-        public object f_742;
-        public object f_887;
-        public object f_148;
-        public object f_9B2;
-        public object f_0FB;
+        public string f_DE8; // 0x10
+        public string f_C3D; // 0x18
+        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ f_C9B; // 0x20
+        public string f_EA0; // 0x28
+        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ f_BC9; // 0x30
+        public System.DateTime f_502; // 0x38
+        public UnityEngine.Texture2D f_742; // 0x40
+        public 0x65889920 f_887; // 0x48
+        public byte[] f_148; // 0x50
+        public ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ f_9B2; // 0x58
+        public bool f_0FB; // 0x60
 
         // ── Methods ──
         public void set_controlPathInternal(){} // RVA: 0x305200
@@ -2290,6 +2617,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÌÍÌÏÎÌÍÍÍÍÏÌÌÍÌÌÌÎÎÌÌ</summary>
     public class AnimatedTextureBaseImpl_0Related_D4F8
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0xF506E0 | overloaded x2
@@ -2326,7 +2655,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÏÌÌÌÏÎÏÏÏÌÎÍÏÌÍÎÌÎÌÌÏ</summary>
     public class AnimatedTextureBaseImpl_0Related_E6BA
     {
-        public object _e6BA;
+        public ÍÏÎÎÎÌÎÎÍÏÎÍÎÌÌÍÌÍÏÌÍÏÎ _e6BA; // 0x10
+        public int ÎÍÌÍÎÏÎÏÍÎÍÌÎÍÍÍÎÍÎÌÏÏÎ; // 0x14
+        public byte[] ÏÏÍÏÌÏÌÎÍÌÎÎÍÏÌÍÍÏÎÏÏÌÎ; // 0x18
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
@@ -2348,6 +2679,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÏÍÍÏÏÌÌÎÏÏÎÍÎÍÎÏÎÍÏÌÎ</summary>
     public class AnimatedTextureBaseImpl_0Related_E884
     {
+        public string <ÏÌÌÏÏÏÍÎÎÎÍÏÌÏÎÎÎÌÏÎÎÌÍ>k__BackingField; // 0x10
+        public string <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public string <ÏÏÌÌÎÏÏÏÌÍÍÎÎÍÎÌÎÏÍÍÏÍÍ>k__BackingField; // 0x20
+        public float <ÎÏÏÍÍÌÌÎÍÏÍÍÎÍÌÌÎÏÍÏÎÍÎ>k__BackingField; // 0x28
+        public System.Func`2<float,bool> <ÎÌÍÏÏÎÏÏÌÍÏÏÍÎÎÌÍÍÏÎÎÌÏ>k__BackingField; // 0x30
+        public System.Func`2<float,bool> <ÌÌÏÏÌÎÌÎÌÏÏÍÍÏÌÍÌÎÍÎÏÌÏ>k__BackingField; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<ÏÏÏÌÏÍÌÎÍÎÏÏÌÎÍÍÏÎÏÍÏÎÍ> <ÍÍÍÌÍÍÍÍÏÌÍÏÌÏÍÌÏÏÌÍÌÍÎ>k__BackingField; // 0x40
+        public int <ÍÌÍÍÍÍÍÎÏÏÎÌÌÏÍÎÍÌÍÎÏÎÎ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void GetStatus(){} // RVA: 0x37E0C0
         public void get_MoveNext(){} // RVA: 0x4976A0
@@ -2384,6 +2724,24 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÌÏÎÌÎÎÍÏÍÏÌÌÏÏÍÎÎÍÎÏÏ</summary>
     public class AnimatedTextureBaseImpl_0Related_F6EA
     {
+        public 0x658861C8 <ÏÍÍÌÌÏÏÎÌÍÏÏÎÏÎÏÌÌÌÍÏÍÎ>k__BackingField; // 0x10
+        public string <ÍÏÌÎÌÌÏÎÎÍÍÏÌÏÌÏÏÌÏÎÏÍÍ>k__BackingField; // 0x18
+        public string <ÍÍÍÏÏÍÎÎÎÌÍÌÌÌÍÍÌÍÍÌÏÌÌ>k__BackingField; // 0x20
+        public string <ÎÎÍÌÌÎÍÍÍÏÏÎÌÍÍÍÌÏÌÏÍÏÏ>k__BackingField; // 0x28
+        public bool <ÎÎÎÌÏÏÍÏÍÌÎÍÏÍÌÌÌÍÌÏÌÏÏ>k__BackingField; // 0x30
+        public int <ÍÍÌÏÌÏÌÍÌÌÎÏÍÎÌÎÌÎÎÌÌÍÎ>k__BackingField; // 0x34
+        public string <ÎÎÍÏÌÍÌÌÎÎÌÌÏÏÍÏÌÎÌÏÌÎÏ>k__BackingField; // 0x38
+        public object <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x40
+        public UnityEngine.Vector2 <ÎÍÎÎÏÎÏÌÍÍÏÏÍÎÍÏÎÎÎÏÍÎÌ>k__BackingField; // 0x48
+        public float <ÏÎÏÏÏÍÏÌÌÎÏÌÎÎÎÏÏÌÌÌÌÍÎ>k__BackingField; // 0x50
+        public bool <ÍÌÌÌÏÎÎÍÌÌÎÍÌÍÌÎÎÏÏÍÏÎÌ>k__BackingField; // 0x54
+        public UnityEngine.Texture2D <ÌÎÌÏÎÎÍÌÏÍÎÌÏÎÍÍÍÍÍÌÏÎÏ>k__BackingField; // 0x58
+        public UnityEngine.Texture2D <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x60
+        public UnityEngine.Texture2D <ÍÎÏÌÎÌÏÏÎÏÏÏÌÎÍÌÎÏÎÍÏÌÎ>k__BackingField; // 0x68
+        public int <ÏÏÏÍÏÎÏÌÎÏÍÍÏÌÎÌÏÏÏÌÎÎÍ>k__BackingField; // 0x70
+        public 0x65886220 ÌÌÎÎÍÎÎÌÍÍÍÌÎÏÌÏÍÎÍÏÍÎÏ; // 0x74
+        public ÍÏÍÍÏÎÎÍÏÌÌÏÎÏÍÎÎÎÎÏÌÎÍ ÌÍÍÌÌÍÍÎÌÌÏÌÎÎÎÎÍÌÌÎÏÌÍ; // 0x78
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1D723F0
         public void set_stepProgress(){} // RVA: 0x345470
@@ -2449,6 +2807,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÎÏÏÎÍÌÍÎÎÏÌÍÌÌÎÍÌÌÏÏÌ</summary>
     public class AnimationAnimationCurveHandler_23B7
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> <ÌÎÌÎÏÌÍÎÏÌÍÏÍÌÍÌÍÍÏÎÏÏÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
@@ -2530,6 +2890,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ</summary>
     public class AnimationApplicationHandler_251B
     {
+        public UnityEngine.UI.RawImage _screen; // 0x20
+        public ÌÎÎÍÍÏÌÍÎÍÌÏÎÌÎÍÏÍÍÏÍÏÍ ÏÏÍÎÏÍÌÍÎÍÌÎÌÌÎÍÏÌÌÏÏÍÍ; // 0x28
+
         // ── Methods ──
         public void InternalGetBehaviours(){} // RVA: 0x19775E0
         public void InternalGetBehaviours_BFBC0B325789(){} // RVA: 0x1977620
@@ -2567,6 +2930,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÍÌÍÍÏÏÍÎÌÏÌÍÍÎÌÎÎÏÍÌÎ</summary>
     public class AnimationBehaviourHandler_2433
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÏÍÍÎÍÌÏÍÍÏÌÏÌÎÍÍÌÍÍÏÎÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void SetFloatString(){} // RVA: 0x1FE5890
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -2610,6 +2977,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÌÍÌÎÏÍÍÏÍÌÌÎÎÍÎÎÍÍÌÎÍ</summary>
     public class AnimationComponentHandler_9F93
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ>> <ÌÍÏÌÌÏÌÏÏÍÏÎÍÍÏÎÍÏÍÌÍÍÌ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÎÎÌÍÏÎÌÍÎÍÍÌÌÎÏÌÎÏÌÌÏÍ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÍÍÎÍÌÌÏÍÌÍÍÍÌÏÍÎÌÎÎÍÌÍ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void Awake(){} // RVA: 0xEC5EB0
@@ -2633,6 +3004,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÏÌÌÍÏÏÏÌÌÍÏÏÎÏÏÍÍÎÏÌÎ</summary>
     public class AnimationCurrentMoveNext_CC50_92FE
     {
+        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,ÌÍÍÏÏÍÌÍÏÍÌÎÎÎÏÏÍÍÍÏÏÎÍ>> ÌÎÏÌÎÍÌÏÏÌÍÍÌÌÎÏÍÎÍÌÎÎÍ; // 0x10
+
         // ── Methods ──
         public void set_Key(){} // RVA: 0x1B05E20
         public void get_Key_FEF12014EDB8(){} // RVA: 0x1B05EF0
@@ -2643,8 +3016,8 @@ namespace VRC.Animation
         public void get_Current_E95830D67830(){} // RVA: 0x1B061B0
         public void get_Current(){} // RVA: 0x1B06280
         public void MoveNext(){} // RVA: 0x1B06470
-        public void set_Entry(){} // RVA: 0x1B064C0
-        public void set_Value(){} // RVA: 0x1B06510
+        public void set_Value(){} // RVA: 0x1B064C0
+        public void set_Entry(){} // RVA: 0x1B06510
         public void get_Value(){} // RVA: 0x1B065B0
         public void get_Entry(){} // RVA: 0x1B06680
         // ── Unresolved (hash) ──
@@ -2720,7 +3093,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÍÏÍÌÏÎÎÍÏÏÏÍÌÎÌÎÍÎÎÏÎ</summary>
     public class AnimationHandler_93B8
     {
-        public object _93B8;
+        public ÍÍÍÎÌÎÎÌÍÌÌÍÏÎÎÍÌÏÎÎÏÎÍ _93B8;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE5610
@@ -2775,7 +3148,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÎÍÍÍÎÎÎÏÍÌÍÌÍÏÎÌÏÏÍÌÎ</summary>
     public class AnimationTransformHandler_C6AB
     {
-        public object _c6AB;
+        public ÍÏÏÏÍÌÏÍÎÌÌÌÏÎÌÎÍÍÏÎÏÍÏ _c6AB;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE70E0

@@ -58,6 +58,9 @@ public class Action
 
 public class ActionEvent
 {
+    public string m_ActionId; // 0x30
+    public string m_ActionName; // 0x38
+
     // ── Methods ──
     public void get_actionId(){} // RVA: 0x6374D0
     public void get_actionName(){} // RVA: 0x4976A0
@@ -66,8 +69,8 @@ public class ActionEvent
 
 public class ActionEventPtr
 {
-    public object buffer;
-    public object count;
+    public UnityEngine.InputSystem.InputActionState buffer; // 0x10
+    public UnityEngine.InputSystem.LowLevel.ActionEvent* count; // 0x18
 
     // ── Methods ──
     public void get_action(){} // RVA: 0x6DCA310
@@ -102,6 +105,8 @@ public class ActionNoArgs
 
 public class ActionQueryMatcher
 {
+    public System.Action`1<T> <callBack>k__BackingField;
+
     // ── Methods ──
     public void get_callBack(){} // RVA: 0xCD60
     public void OnRuleMatchedElement(){}
@@ -376,6 +381,9 @@ public class ActivityJoinCallback
 
 public class ActivityLogScope
 {
+    public string _cachedToString; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object>[] _items; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BB2CC0
     public void get_Count(){} // RVA: 0x760030
@@ -518,6 +526,14 @@ public class AddUInt64
 
 public class AdjustmentRule
 {
+    public System.DateTime _dateStart; // 0x10
+    public System.DateTime _dateEnd; // 0x18
+    public System.TimeSpan _daylightDelta; // 0x20
+    public TransitionTime _daylightTransitionStart; // 0x28
+    public TransitionTime _daylightTransitionEnd; // 0x40
+    public System.TimeSpan _baseUtcOffsetDelta; // 0x58
+    public bool _noDaylightTransitions; // 0x60
+
     // ── Methods ──
     public void get_DateStart(){} // RVA: 0x2F8380
     public void get_DateEnd(){} // RVA: 0x2E07C0
@@ -615,6 +631,9 @@ public class Allocator
 
 public class AllocatorHandle
 {
+    public ushort Index; // 0x10
+    public ushort Version; // 0x12
+
     // ── Methods ──
     public void get_TableEntry(){} // RVA: 0x6D768D0
     public void Rewind(){} // RVA: 0x2DD310
@@ -656,6 +675,9 @@ public class AnalyticsCoreStatsUpdate
 
 public class AnalyticsExperiment
 {
+    public string <key>k__BackingField; // 0x68
+    public string <variant>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_key(){} // RVA: 0x358D50
     public void set_key(){} // RVA: 0x358D60
@@ -747,6 +769,8 @@ public class AnimationBinding
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements;
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0xD840
     public void set_capacity(){} // RVA: 0x24FA0
@@ -762,6 +786,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E8890

@@ -276,8 +276,9 @@ public class ExitStateDelegate
 
 public class ExpandoData
 {
-    public object System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Current;
-    public object System.Collections.IEnumerator.Current;
+    public ExpandoData System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Current;
+    public System.Dynamic.ExpandoClass System.Collections.IEnumerator.Current; // 0x10
+    public object[] _dataArray; // 0x18
 
     // ── Methods ──
     public void get_Item(){} // RVA: 0x5D05250
@@ -298,6 +299,10 @@ public class ExpectedPluginVersion
 
 public class ExperimentSegment
 {
+    public string <Key>k__BackingField; // 0x10
+    public System.Collections.Generic.Dictionary`2<string,string> <Payload>k__BackingField; // 0x18
+    public string <RawPayload>k__BackingField; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3BCE00
     public void get_Key(){} // RVA: 0x2F8380
@@ -372,6 +377,15 @@ public class ExtensionInfo
 
 public class ExtensionRange
 {
+    public Google.Protobuf.MessageParser`1<ExtensionRange> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int StartDefaultValue; // 0x8
+    public int start_; // 0x1C
+    public int EndDefaultValue; // 0xC
+    public int end_; // 0x20
+    public Google.Protobuf.Reflection.ExtensionRangeOptions options_; // 0x28
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5A5BE00
     public void get_Descriptor(){} // RVA: 0x5A5BE60
@@ -520,12 +534,7 @@ public class ExtentsProperty
 
 public class ExternalForcesModule
 {
-    public object enabled;
-    public object separateAxes;
-    public object strength;
-    public object strengthMultiplier;
-    public object strengthX;
-    public object strengthXMultiplier;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -602,6 +611,8 @@ public class EyeFov
 
 public class EyeGazeState
 {
+    public Posef Pose; // 0x10
+
     // ── Methods ──
     public void get_IsValid(){} // RVA: 0x6170FE0
 }

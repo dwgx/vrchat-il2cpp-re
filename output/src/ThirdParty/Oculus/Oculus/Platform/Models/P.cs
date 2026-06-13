@@ -37,6 +37,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class PingResult
     {
+        public ulong <ID>k__BackingField; // 0x10
+        public System.Nullable`1<ulong> pingTimeUsec; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x60EFAE0
         public void get_ID(){} // RVA: 0x2F8380

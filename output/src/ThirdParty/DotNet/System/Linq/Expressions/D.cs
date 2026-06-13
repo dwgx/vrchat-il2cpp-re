@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class DebugInfoExpression
     {
+        public System.Linq.Expressions.SymbolDocumentInfo <Document>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E0640 | overloaded x2
         public void get_Type(){} // RVA: 0x65E0470
@@ -22,6 +24,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DebugViewWriter
     {
+        public int Tab;
+        public int MaxColumn;
+        public System.IO.TextWriter _out; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E06E0
         public void get_Base(){} // RVA: 0x65E0800
@@ -96,6 +102,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DefaultExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E6260 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380
@@ -105,6 +113,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpression
     {
+        public System.Runtime.CompilerServices.CallSiteBinder <Binder>k__BackingField; // 0x10
+        public System.Type <DelegateType>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7100 | overloaded x2
         public void get_CanReduce(){} // RVA: 0x3C2850
@@ -130,6 +141,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpression1 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7130
         public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7410
@@ -141,6 +154,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpression2 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7680
         public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7760
@@ -152,6 +167,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpression3 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7B70
         public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7CA0
@@ -163,6 +180,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpression4 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E8130
         public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E82B0
@@ -174,6 +193,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DynamicExpressionN : .ctor
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7130
         public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E71A0

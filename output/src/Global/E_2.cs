@@ -64,12 +64,7 @@ public class Emission
 
 public class EmissionModule
 {
-    public object enabled;
-    public object shapeType;
-    public object randomDirectionAmount;
-    public object sphericalDirectionAmount;
-    public object randomPositionAmount;
-    public object alignToDirection;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -107,6 +102,19 @@ public class EmissionModule
 
 public class EmitParams
 {
+    public Particle m_Particle; // 0x10
+    public bool m_PositionSet; // 0x94
+    public bool m_VelocitySet; // 0x95
+    public bool m_AxisOfRotationSet; // 0x96
+    public bool m_RotationSet; // 0x97
+    public bool m_AngularVelocitySet; // 0x98
+    public bool m_StartSizeSet; // 0x99
+    public bool m_StartColorSet; // 0x9A
+    public bool m_RandomSeedSet; // 0x9B
+    public bool m_StartLifetimeSet; // 0x9C
+    public bool m_MeshIndexSet; // 0x9D
+    public bool m_ApplyShapeToPosition; // 0x9E
+
     // ── Methods ──
     public void get_particle(){} // RVA: 0x71BA1A0
     public void set_particle(){} // RVA: 0x71BA1F0
@@ -157,13 +165,16 @@ public class EmojiMap
 
 public class EmojiParticleSystem
 {
+    public VRC.Localization.LocalizableString _name; // 0x10
+    public string _prefabName; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0xBDB960
     public void get_PrefabName(){} // RVA: 0x4976A0
     public void set_PrefabName(){} // RVA: 0x1911170
-    public void set_DisplayName(){} // RVA: 0xBDB960
     public void set_Key(){} // RVA: 0xBDB960
+    public void set_DisplayName(){} // RVA: 0xBDB960
     public void get_DisplayName(){} // RVA: 0xBDB960
     public void get_Key(){} // RVA: 0x1911200
     public void set_DisplayName_D959C2DACD98(){} // RVA: 0x4976A0
@@ -263,6 +274,8 @@ public class EmptyData
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<T> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x24A50
     public void MoveNext(){} // RVA: 0xDBE0
@@ -275,14 +288,18 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<UnityEngine.InputSystem.InputDevice> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<char> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<System.Reflection.ConstructorInfo> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -295,6 +312,8 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<System.Reflection.MemberInfo> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -307,6 +326,8 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<System.Reflection.ParameterInfo> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -319,6 +340,8 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<Token> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -331,6 +354,8 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<object> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -343,18 +368,23 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<System.Collections.Generic.IEnumerable`1<VRC.Core.APICalendarEntry>> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<byte> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<UnityEngine.Object> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<int> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -367,6 +397,8 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<VRC.SDKBase.INetworkID> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -379,14 +411,18 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<ÎÍÎÎÎÎÌÎÏÍÎÍÏÌÏÎÎÌÏÍÎÏÌ> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<System.Type> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<ÏÍÍÏÌÏÎÍÌÌÎÏÏÌÍÎÌÍÏÌÎÍÏ> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -399,22 +435,28 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<ÌÏÍÎÏÏÎÌÍÎÍÌÍÏÏÍÏÌÎÍÎÌÎ> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<ChildrenSection`1<int>> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<UnityEngine.AudioSource> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<Microsoft.Extensions.Logging.ILoggerProvider> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<string> Value;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x2DD310
     public void MoveNext(){} // RVA: 0x2DD320
@@ -427,14 +469,17 @@ public class EmptyInternalEnumerator`1
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<UnityEngine.LowLevel.PlayerLoopSystem> Value;
 }
 
 public class EmptyInternalEnumerator`1
 {
+    public EmptyInternalEnumerator`1<IJobSortable> Value;
 }
 
 public class EmptyParticle
@@ -452,6 +497,8 @@ public class EmptyStream
 
 public class Encoder
 {
+    public int bits; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4F7B0
     public void Reset(){} // RVA: 0x5C4F7C0
@@ -460,7 +507,9 @@ public class Encoder
 
 public class EncodingByteBuffer
 {
-    public object Preamble;
+    public byte* Preamble; // 0x10
+    public byte* byteStart; // 0x18
+    public byte* byteEnd; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C5EDB0
@@ -474,6 +523,10 @@ public class EncodingByteBuffer
 
 public class EncodingCharBuffer
 {
+    public char* chars; // 0x10
+    public char* charStart; // 0x18
+    public char* charEnd; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C5E7B0
     public void AddChar(){} // RVA: 0x5C5EA90 | overloaded x2
@@ -500,8 +553,8 @@ public class Encoding_GetString
 
 public class EncryptedData
 {
-    public object Certificates;
-    public object ContentInfo;
+    public byte Certificates; // 0x10
+    public ContentInfo ContentInfo; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BB9B80 | overloaded x2
@@ -511,6 +564,11 @@ public class EncryptedData
 
 public class EncryptedPrivateKeyInfo
 {
+    public string _algorithm; // 0x10
+    public byte[] _salt; // 0x18
+    public int _iterations; // 0x20
+    public byte[] _data; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BE1D70 | overloaded x2
     public void get_Algorithm(){} // RVA: 0x2F8380

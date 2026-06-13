@@ -27,6 +27,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ</summary>
     public class ButtonTransformCoroutineComponent_DBB1
     {
+        public ÎÍÎÍÍÏÌÏÏÎÏÍÎÌÍÍÍÍÌÍÌÍÍ _worldInstanceInfoPane; // 0x20
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x8C4FC30
         public void OnPointerExit(){} // RVA: 0x8C4FE00

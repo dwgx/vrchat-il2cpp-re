@@ -96,6 +96,15 @@ namespace VRC.SDKBase
 
     public class Networking
     {
+        public System.Func`2<UnityEngine.GameObject,float> _GetSimulationTime;
+        public System.Func`2<UnityEngine.GameObject,string> _GetUniqueName; // 0x8
+        public System.Action`4<0x6596EDF8,UnityEngine.GameObject,string,object[]> _RPC; // 0x10
+        public System.Action`4<VRC.SDKBase.VRCPlayerApi,UnityEngine.GameObject,string,object[]> _RPCtoPlayer; // 0x18
+        public System.Func`1<bool> _IsNetworkSettled; // 0x20
+        public System.Func`1<bool> _IsMaster; // 0x28
+        public System.Func`1<bool> _IsSuffering; // 0x30
+        public System.Func`1<bool> _IsInstanceOwner; // 0x38
+
         // ── Methods ──
         public void get_SceneEventHandler(){} // RVA: 0x9A76840
         public void get_IsNetworkSettled(){} // RVA: 0x9A768A0
@@ -168,6 +177,9 @@ namespace VRC.SDKBase
 
     public class VRCBuiltInShaderGlobals
     {
+        public int _vrcTimeUTCUnixSecondsID;
+        public int _vrcTimeNetworkMsID; // 0x4
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x9A7B7E0
         public void set_Instance(){} // RVA: 0x9A7B840
@@ -206,6 +218,8 @@ namespace VRC.SDKBase
 
     public class VRCGraphics
     {
+        public System.Lazy`1<UnityEngine.LayerMask> _uiLayerMaskLazy;
+
         // ── Methods ──
         public void get_UiLayerMask(){} // RVA: 0x9A7CBD0
         public void Blit(){} // RVA: 0x9A7D1A0 | overloaded x7
@@ -217,6 +231,15 @@ namespace VRC.SDKBase
 
     public class VRCPlayerApi
     {
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isMasterDelegate;
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isInstanceOwnerDelegate; // 0x8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isModeratorDelegate; // 0x10
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isSuperDelegate; // 0x18
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isSuspendedDelegate; // 0x20
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _isVRCPlusDelegate; // 0x28
+        public bool isLocal; // 0x10
+        public string displayName; // 0x18
+
         // ── Methods ──
         public void get_isMaster(){} // RVA: 0x9A6BF30
         public void get_isInstanceOwner(){} // RVA: 0x9A6BFB0
@@ -373,6 +396,10 @@ namespace VRC.SDKBase
 
     public class VRCUrl
     {
+        public VRC.SDKBase.VRCUrl <Empty>k__BackingField;
+        public System.Func`1<System.Collections.Generic.IEnumerable`1<string>> <DomainExplicitAllowlistDelegate>k__BackingField; // 0x8
+        public System.Func`1<System.Collections.Generic.IEnumerable`1<string>> <DomainWildcardAllowlistDelegate>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x9A97700
         public void TryCreateAllowlistedVRCUrl(){} // RVA: 0x9A97760
@@ -408,6 +435,11 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorPlayAudio
     {
+        public UnityEngine.AudioSource Source; // 0x18
+        public string SourcePath; // 0x20
+        public 0x6596DED8 PlaybackOrder; // 0x28
+        public string ParameterName; // 0x30
+
         // ── Methods ──
         public void get_ShouldApplyVolume(){} // RVA: 0x9A71A80
         public void get_ShouldApplyPitch(){} // RVA: 0x9A71A90
@@ -439,6 +471,8 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarDescriptor
     {
+        public string Name; // 0x20
+
         // ── Methods ──
         public void OnDrawGizmosSelected(){} // RVA: 0x9A71DE0
         public void PositionPortraitCamera(){} // RVA: 0x9A72120
@@ -521,6 +555,9 @@ namespace VRC.SDKBase
 
     public class VRC_EventHandler
     {
+        public System.Collections.Generic.List`1<VrcEvent> Events; // 0x20
+        public VRC.SDKBase.VRC_EventDispatcher _dispatcher; // 0x28
+
         // ── Methods ──
         public void BooleanOp(){} // RVA: 0x9A989B0
         public void get_Dispatcher(){} // RVA: 0x9A989D0
@@ -556,6 +593,9 @@ namespace VRC.SDKBase
 
     public class VRC_Interactable
     {
+        public UnityEngine.Transform interactTextPlacement; // 0x20
+        public string interactText; // 0x28
+
         // ── Methods ──
         public void get_IsInteractive(){} // RVA: 0x2DD320
         public void get_Proximity(){} // RVA: 0x4FE250
@@ -590,6 +630,8 @@ namespace VRC.SDKBase
 
     public class VRC_MetadataListener
     {
+        public MetadataCallback callbacks;
+
         // ── Methods ──
         public void get_currentMetadata(){} // RVA: 0x9A7FAD0
         public void Awake(){} // RVA: 0x9A7FB30
@@ -610,6 +652,9 @@ namespace VRC.SDKBase
 
     public class VRC_MirrorReflection
     {
+        public string VRC_MIRROR_CAMERA_POS_PROPERTY;
+        public string VRC_MIRROR_MODE_PROPERTY;
+
         // ── Methods ──
         public void add_PreRenderMirror(){} // RVA: 0x9A7FE90
         public void remove_PreRenderMirror(){} // RVA: 0x9A7FFE0
@@ -721,6 +766,11 @@ namespace VRC.SDKBase
 
     public class VRC_Pickup
     {
+        public 0x659C3CD0 MomentumTransferMethod; // 0x20
+        public bool DisallowTheft; // 0x24
+        public UnityEngine.Transform ExactGun; // 0x28
+        public UnityEngine.Transform ExactGrip; // 0x30
+
         // ── Methods ──
         public void IsGlobalAutoHoldPickup(){} // RVA: 0x9A78E30 | overloaded x2
         public void get_currentPlayer(){} // RVA: 0x9A78E60
@@ -772,6 +822,9 @@ namespace VRC.SDKBase
 
     public class VRC_PropDescriptor : NetworkIDLookup
     {
+        public object apiProp; // 0x20
+        public string unityVersion; // 0x28
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x9A7A080
         public void get_NetworkIDCollection(){} // RVA: 0x35A740
@@ -786,6 +839,13 @@ namespace VRC.SDKBase
 
     public class VRC_SceneDescriptor
     {
+        public UnityEngine.Transform[] spawns; // 0x20
+        public float spawnRadius; // 0x28
+        public 0x65970558 spawnOrder; // 0x2C
+        public 0x659705B0 spawnOrientation; // 0x30
+        public UnityEngine.GameObject ReferenceCamera; // 0x38
+        public float RespawnHeightY; // 0x40
+
         // ── Methods ──
         public void GetValidatedSpawnList(){} // RVA: 0x9A88E50
         public void GetPrefab(){} // RVA: 0x9A89040
@@ -812,6 +872,10 @@ namespace VRC.SDKBase
 
     public class VRC_Serialization
     {
+        public System.Collections.Generic.HashSet`1<System.Type> _allowedTypes;
+        public System.Collections.Generic.HashSet`1<System.Type> _allowedPluginTypes; // 0x8
+        public bool <AllowPluginTypes>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_AllowPluginTypes(){} // RVA: 0x9A9BA90
         public void set_AllowPluginTypes(){} // RVA: 0x9A9BAF0
@@ -872,6 +936,13 @@ namespace VRC.SDKBase
 
     public class VRC_Trigger
     {
+        public System.Action`1<VRC.SDKBase.VRC_Trigger> InitializeTrigger;
+        public bool isHidden; // 0x40
+        public bool UsesAdvancedOptions; // 0x41
+        public bool TakesOwnershipIfNecessary; // 0x42
+        public bool DrawLines; // 0x43
+        public 0x659709D0 EditorGlobalTriggerLineMode; // 0x8
+
         // ── Methods ──
         public void TriggerCustom(){} // RVA: 0x9A8C7D0 | overloaded x2
         public void Trigger(){} // RVA: 0x9A8C640
@@ -931,6 +1002,9 @@ namespace VRC.SDKBase
 
     public class VRC_UiShape
     {
+        public GetEventCameraDelegate GetEventCamera;
+        public UnityEngine.Canvas <RootCanvas>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_RootCanvas(){} // RVA: 0x30B0C0
         public void set_RootCanvas(){} // RVA: 0x30B0D0
@@ -988,6 +1062,8 @@ namespace VRC.SDKBase
 
     public class VRC_WebPanel : ؄}e
     {
+        public string webRoot; // 0x40
+
         // ── Methods ──
         public void WebPanelForward(){} // RVA: 0x9A93A00
         public void WebPanelBackward(){} // RVA: 0x9A93A30

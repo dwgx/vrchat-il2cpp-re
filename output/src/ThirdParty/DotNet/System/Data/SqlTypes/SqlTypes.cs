@@ -38,6 +38,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlBinary
     {
+        public byte[] _value; // 0x10
+        public System.Data.SqlTypes.SqlBinary Null;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67747F0 | overloaded x2
         public void get_IsNull(){} // RVA: 0x1D26810
@@ -61,6 +64,12 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlBoolean
     {
+        public byte m_value; // 0x10
+        public System.Data.SqlTypes.SqlBoolean True;
+        public System.Data.SqlTypes.SqlBoolean False; // 0x1
+        public System.Data.SqlTypes.SqlBoolean Null; // 0x2
+        public System.Data.SqlTypes.SqlBoolean Zero; // 0x3
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6775F30 | overloaded x3
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -88,6 +97,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlByte
     {
+        public bool m_fNotNull; // 0x10
+        public byte m_value; // 0x11
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3CA5E30 | overloaded x2
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -118,6 +130,12 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlBytes
     {
+        public byte[] _rgbBuf; // 0x10
+        public long _lCurLen; // 0x18
+        public System.IO.Stream _stream; // 0x20
+        public 0x658ED2C0 _state; // 0x28
+        public byte[] _rgbWorkBuf; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67785A0 | overloaded x3
         public void get_IsNull(){} // RVA: 0x104D6D0
@@ -138,6 +156,12 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlChars
     {
+        public char[] _rgchBuf; // 0x10
+        public long _lCurLen; // 0x18
+        public System.Data.SqlTypes.SqlStreamChars _stream; // 0x20
+        public 0x658ED2C0 _state; // 0x28
+        public char[] _rgchWorkBuf; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6779250 | overloaded x3
         public void get_IsNull(){} // RVA: 0x104D6D0
@@ -158,6 +182,11 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlDateTime
     {
+        public bool m_fNotNull; // 0x10
+        public int m_day; // 0x14
+        public int m_time; // 0x18
+        public double s_SQLTicksPerMillisecond;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6779D60 | overloaded x3
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -187,6 +216,12 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlDecimal
     {
+        public byte _bStatus; // 0x10
+        public byte _bLen; // 0x11
+        public byte _bPrec; // 0x12
+        public byte _bScale; // 0x13
+        public uint _data1; // 0x14
+
         // ── Methods ──
         public void CalculatePrecision(){} // RVA: 0x677BF00
         public void VerifyPrecision(){} // RVA: 0x677C140
@@ -252,6 +287,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlDouble
     {
+        public bool m_fNotNull; // 0x10
+        public double m_value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67847D0 | overloaded x2
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -281,6 +319,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlGuid
     {
+        public int s_sizeOfGuid;
+        public int[] s_rgiGuidOrder; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67868F0 | overloaded x2
         public void get_IsNull(){} // RVA: 0x1D26810
@@ -303,6 +344,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlInt16
     {
+        public bool m_fNotNull; // 0x10
+        public short m_value; // 0x12
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3CAB320 | overloaded x2
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -334,6 +378,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlInt32
     {
+        public bool m_fNotNull; // 0x10
+        public int m_value; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3CB3350 | overloaded x2
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -366,6 +413,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlInt64
     {
+        public bool m_fNotNull; // 0x10
+        public long m_value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3CAF760 | overloaded x2
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -402,6 +452,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlMoney
     {
+        public bool _fNotNull; // 0x10
+        public long _value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x678D350 | overloaded x5
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -442,6 +495,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlSingle
     {
+        public bool _fNotNull; // 0x10
+        public float _value; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x678FBA0 | overloaded x3
         public void get_IsNull(){} // RVA: 0x362AF20
@@ -481,6 +537,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlString
     {
+        public string m_value; // 0x10
+        public System.Globalization.CompareInfo m_cmpInfo; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67920A0 | overloaded x4
         public void get_IsNull(){} // RVA: 0xF44720
@@ -523,6 +582,9 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlXml
     {
+        public System.Func`4<System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext,System.Xml.XmlReader> s_sqlReaderDelegate;
+        public System.Xml.XmlReaderSettings s_defaultXmlReaderSettings; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6794770
         public void CreateReader(){} // RVA: 0x67947D0
@@ -540,6 +602,10 @@ namespace ThirdParty.DotNet.System.Data.SqlTypes
 
     public class SqlXmlStreamWrapper
     {
+        public System.IO.Stream _stream; // 0x28
+        public long _lPosition; // 0x30
+        public bool _isClosed; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6795730
         public void get_CanRead(){} // RVA: 0x67957E0

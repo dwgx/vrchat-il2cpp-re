@@ -16,6 +16,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MatchTargetWeightMask
     {
+        public UnityEngine.Vector3 m_PositionXYZWeight; // 0x10
+        public float m_RotationWeight; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x49C63E0
         public void get_positionXYZWeight(){} // RVA: 0x7079450
@@ -180,7 +183,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MaterialPropertyBlock
     {
-        public object Length;
+        public UIntPtr Length; // 0x10
 
         // ── Methods ──
         public void GetIntImpl(){} // RVA: 0x70DDF00
@@ -334,6 +337,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Matrix4x4
     {
+        public float m00; // 0x10
+        public float m10; // 0x14
+        public float m20; // 0x18
+        public float m30; // 0x1C
+        public float m01; // 0x20
+        public float m11; // 0x24
+        public float m21; // 0x28
+        public float m31; // 0x2C
+        public float m02; // 0x30
+        public float m12; // 0x34
+        public float m22; // 0x38
+
         // ── Methods ──
         public void GetRotation(){} // RVA: 0x7112320
         public void GetLossyScale(){} // RVA: 0x7112390
@@ -656,8 +671,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MonoBehaviour
     {
-        public object enabled;
-        public object isActiveAndEnabled;
+        public System.Threading.CancellationTokenSource enabled; // 0x18
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7129E90
@@ -688,12 +702,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Motion
     {
-        public object length;
-        public object frameRate;
-        public object wrapMode;
-        public object localBounds;
-        public object legacy;
-        public object humanMotion;
+        public bool length; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x709A3E0

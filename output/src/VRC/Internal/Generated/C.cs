@@ -32,6 +32,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÌÌÏÏÎÍÍÍÌÏÎÍÎÍÍÍÎÍÌÏ</summary>
     public class CleanupDisposeFinalizeStaticMethods_4611
     {
+        public UIntPtr ÏÏÏÎÌÍÍÍÎÍÌÎÎÎÌÍÎÌÏÎÎÌÏ; // 0x10
+        public byte[] ÌÍÍÏÍÍÏÍÎÎÌÎÌÏÏÌÌÌÏÏÍÎÍ; // 0x18
+        public int <ÌÍÏÎÌÌÎÎÍÌÎÌÏÌÎÎÍÌÍÌÏÎÎ>k__BackingField; // 0x20
+        public int <ÏÎÏÎÏÏÌÏÍÍÍÍÌÎÍÌÏÎÎÍÌÌÎ>k__BackingField; // 0x24
+        public 0x6572E0F8 <ÍÍÎÍÌÍÏÏÎÎÌÌÌÌÌÏÌÎÎÍÌÏÍ>k__BackingField; // 0x28
+        public int <ÍÍÎÏÌÍÌÌÎÎÏÏÌÍÌÏÍÏÏÍÏÌÎ>k__BackingField; // 0x2C
+        public bool ÏÌÌÌÎÍÌÎÌÍÍÌÏÎÌÏÍÍÎÍÌÍÏ; // 0x30
+
         // ── Methods ──
         public void set_numTables(){} // RVA: 0x16E1F00
         public void AreGenericValuesEqual(){} // RVA: 0x1AFB550
@@ -67,6 +75,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÏÎÎÌÍÍÌÍÏÏÏÎÏÎÍÌÎÏÍÍÏ</summary>
     public class CleanupDisposeFinalizeStaticMethods_A37E
     {
+        public ÏÏÍÏÏÌÏÍÏÏÍÏÍÎÎÍÎÌÌÏÌÏÎ ÌÍÏÎÍÎÏÏÏÍÎÍÎÏÎÎÍÎÏÌÏÌÎ; // 0x10
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0xE95B10
         public void Cleanup(){} // RVA: 0x2DD310
@@ -142,6 +152,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÌÎÍÌÌÎÏÌÎÏÍÌÎÍÌÌÏÌÎÎÏ</summary>
     public class CleanupDisposeStaticMethods_1E10
     {
+        public UnityEngine.GameObject <ÌÌÌÏÎÍÎÎÍÌÍÍÏÎÏÌÍÏÍÏÏÎÎ>k__BackingField; // 0x20
+        public UnityEngine.RenderTexture <ÎÏÎÎÌÎÏÎÎÏÌÍÍÏÍÌÍÌÌÎÌÌÍ>k__BackingField; // 0x28
+        public UnityEngine.Transform <ÏÎÍÍÏÎÌÎÌÏÌÏÌÍÍÏÌÌÌÏÍÍÍ>k__BackingField; // 0x30
+        public float <ÌÍÎÍÎÎÏÏÏÌÌÍÌÎÌÎÎÍÎÎÍÌÎ>k__BackingField; // 0x38
+        public UnityEngine.Camera cam; // 0x40
+        public UnityEngine.Transform previewParent; // 0x48
+        public UnityEngine.Vector2 ÎÍÌÎÌÌÎÍÏÎÎÎÏÌÍÌÍÌÍÏÏÌÍ; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xAF4D00
         public void Initialize(){} // RVA: 0xAF4D50
@@ -189,6 +207,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÌÏÎÍÏÌÌÎÍÍÏÌÍÍÏÏÎÌÎÏÎÎ</summary>
     public class CleanupDisposeStaticMethods_3950
     {
+        public System.Threading.Tasks.TaskCompletionSource`1<short> ÌÌÏÌÍÎÎÏÌÎÏÏÌÎÌÏÌÍÍÏÍÎÏ; // 0x10
+        public System.Threading.CancellationTokenSource ÌÎÏÍÏÎÎÍÎÌÎÌÎÌÍÍÏÎÎÌÍÏÎ; // 0x18
+        public System.Collections.Concurrent.ConcurrentQueue`1<System.IDisposable> <ÏÏÎÌÌÍÌÌÎÏÍÏÌÏÌÍÏÍÎÍÏÌÌ>k__BackingField; // 0x20
+        public string <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1AB2700 | overloaded x2
         public void Dispose(){} // RVA: 0x1AB2430
@@ -288,6 +311,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÏÍÌÎÎÍÍÏÎÎÏÍÍÏÍÌÌÏÍÎÌÌ</summary>
     public class CleanupDisposeStaticMethods_6151
     {
+        public UnityEngine.Animator ÌÍÍÌÏÎÍÎÌÍÎÍÍÍÌÏÌÏÏÏÎÌÌ; // 0x10
+        public VRC.SDKBase.VRC_AvatarDescriptor ÏÏÎÍÎÏÍÍÌÍÌÍÎÎÍÎÏÌÎÌÎÌÌ; // 0x18
+        public VRC.SDK3.Avatars.Components.VRCAvatarDescriptor ÍÌÎÏÍÎÌÌÌÌÏÎÍÍÏÏÏÌÌÏÌÎÏ; // 0x20
+        public UnityEngine.GameObject ÎÌÎÌÍÍÎÎÍÌÌÏÌÎÌÌÌÎÎÎÏÏÌ; // 0x28
+        public UnityEngine.Vector3 ÏÏÏÍÌÏÎÏÌÎÏÌÎÍÏÎÏÌÎÏÎÏÎ; // 0x30
+
         // ── Methods ──
         public void EqualsValue(){} // RVA: 0x1B3EF00
         public void Dispose(){} // RVA: 0x1B3F700

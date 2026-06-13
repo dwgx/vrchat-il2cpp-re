@@ -11,6 +11,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CryptoAPITransform
     {
+        public bool m_disposed; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BDA00
         public void get_CanReuseTransform(){} // RVA: 0x3C2850
@@ -51,6 +53,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CryptoStream
     {
+        public System.IO.Stream _stream; // 0x28
+        public System.Security.Cryptography.ICryptoTransform _transform; // 0x30
+        public 0x657E6AD0 _transformMode; // 0x38
+        public byte[] _inputBuffer; // 0x40
+        public int _inputBufferIndex; // 0x48
+        public int _inputBlockSize; // 0x4C
+        public byte[] _outputBuffer; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C6D640 | overloaded x2
         public void get_CanRead(){} // RVA: 0x306020
@@ -109,6 +119,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CspKeyContainerInfo
     {
+        public System.Security.Cryptography.CspParameters _params; // 0x10
+        public bool _random; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965E90
         public void get_Accessible(){} // RVA: 0x3C2850
@@ -128,7 +141,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CspParameters
     {
-        public object Key;
+        public int Key; // 0x10
+        public string ProviderName; // 0x18
+        public string KeyContainerName; // 0x20
+        public int KeyNumber; // 0x28
 
         // ── Methods ──
         public void get_Flags(){} // RVA: 0x1209F00

@@ -7,14 +7,7 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class QualitySettings
     {
-        public object x;
-        public object y;
-        public object width;
-        public object height;
-        public object xMin;
-        public object yMin;
-        public object xMax;
-        public object yMax;
+        public System.Action`2<int,int> x;
 
         // ── Methods ──
         public void OnActiveQualityLevelChanged(){} // RVA: 0x70D9E90
@@ -58,6 +51,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Quaternion
     {
+        public float x; // 0x10
+        public float y; // 0x14
+        public float z; // 0x18
+        public float w; // 0x1C
+
         // ── Methods ──
         public void FromToRotation(){} // RVA: 0x7117090
         public void Inverse(){} // RVA: 0x7117110

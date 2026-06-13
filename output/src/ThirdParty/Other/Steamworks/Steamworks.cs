@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Steamworks
-// Classes: 65
-// Methods: 336
+// Classes: 85
+// Methods: 424
 
 namespace ThirdParty.Other.Steamworks
 {
@@ -28,6 +28,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class ConnectionManager
     {
+        public Steamworks.IConnectionManager <Interface>k__BackingField; // 0x10
+        public Steamworks.Data.ConnectionInfo <ConnectionInfo>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x2F8380
         public void set_ConnectionInfo(){} // RVA: 0x20B4860
@@ -39,6 +42,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class Dispatch
     {
+        public System.Action`3<0x659B0DA0,string,bool> OnDebugCallback;
+        public System.Action`1<System.Exception> OnException; // 0x8
+
         // ── Methods ──
         public void SteamAPI_ManualDispatch_Init(){} // RVA: 0x20A9EC0
         public void SteamAPI_ManualDispatch_RunFrame(){} // RVA: 0x20A9F30
@@ -60,7 +66,7 @@ namespace ThirdParty.Other.Steamworks
 
     public class Friend
     {
-        public object Id;
+        public Steamworks.SteamId Id; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
@@ -319,6 +325,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class InventoryDef
     {
+        public Steamworks.Data.InventoryDefId _id; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_Id(){} // RVA: 0x32A5C0
@@ -338,6 +346,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class InventoryResult
     {
+        public Steamworks.Data.SteamInventoryResult_t _id; // 0x10
+        public bool <Expired>k__BackingField; // 0x14
+
         // ── Methods ──
         public void set_Expired(){} // RVA: 0x10EEB40
         public void .ctor(){} // RVA: 0x833590
@@ -354,6 +365,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SocketManager
     {
+        public Steamworks.ISocketManager <Interface>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x2F8380
         public void OnConnectionChanged(){} // RVA: 0x20B4F40
@@ -373,6 +386,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamApps
     {
+        public System.Action OnNewLaunchParameters;
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20B5750
         public void InitializeInterface(){} // RVA: 0x20B57F0
@@ -394,8 +409,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamClient
     {
-        public object isStartupFrame;
-        public object `;
+        public bool isStartupFrame;
+        public System.Collections.Generic.List`1<Steamworks.SteamClass> `; // 0x8
+        public Steamworks.AppId <AppId>k__BackingField; // 0x10
 
         // ── Methods ──
         public void Init(){} // RVA: 0x20B5C20
@@ -420,8 +436,118 @@ namespace ThirdParty.Other.Steamworks
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamClientClass`1
+    {
+        // ── Methods ──
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CCB0
+        public void DestroyInterface(){} // RVA: 0x408CDA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class SteamFriends
     {
+        public System.Collections.Generic.Dictionary`2<string,string> richPresence;
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20B69B0
         public void InitializeInterface(){} // RVA: 0x20B6A50
@@ -450,6 +576,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamInterface
     {
+        public UIntPtr Self; // 0x10
+
         // ── Methods ──
         public void GetUserInterfacePointer(){} // RVA: 0x519240
         public void GetServerInterfacePointer(){} // RVA: 0x519240
@@ -461,6 +589,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamInventory
     {
+        public System.Action`1<Steamworks.InventoryResult> OnInventoryUpdated;
+        public System.Action OnDefinitionsUpdated; // 0x8
+        public Steamworks.InventoryItem[] <Items>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20B8F20
         public void InitializeInterface(){} // RVA: 0x20B8FC0
@@ -476,6 +608,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamMatchmaking
     {
+        public System.Action`2<Steamworks.Friend,Steamworks.Data.Lobby> OnLobbyInvite;
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20B9F00
         public void InitializeInterface(){} // RVA: 0x20B9FA0
@@ -509,6 +643,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamNetworkingSockets
     {
+        public System.Collections.Generic.Dictionary`2<uint,Steamworks.SocketManager> SocketInterfaces;
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20BC3D0
         public void InitializeInterface(){} // RVA: 0x20BC470
@@ -523,6 +659,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamNetworkingUtils
     {
+        public System.Action`2<0x659B1C10,string> OnDebugOutput;
+        public 0x659B1B60 <Status>k__BackingField; // 0x8
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20BD560
         public void InitializeInterface(){} // RVA: 0x20BD600
@@ -574,12 +713,110 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamSharedClass`1
     {
+        public Steamworks.SteamInterface InterfaceClient;
+
         // ── Methods ──
         public void get_Interface(){} // RVA: 0xC960
         public void InitializeInterface(){} // RVA: 0x25130
         public void SetInterface(){} // RVA: 0x25600
         public void DestroyInterface(){} // RVA: 0x25130
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class SteamSharedClass`1
+    {
+        public Steamworks.SteamInterface InterfaceClient;
+
+        // ── Methods ──
+        public void get_Interface(){} // RVA: 0x408CE50
+        public void InitializeInterface(){} // RVA: 0x2DD310
+        public void SetInterface(){} // RVA: 0x408CEE0
+        public void DestroyInterface(){} // RVA: 0x408D060
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class SteamUGC
@@ -592,6 +829,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUser
     {
+        public System.Collections.Generic.Dictionary`2<string,string> richPresence;
+        public System.Action OnSteamServersConnected; // 0x8
+        public System.Action OnSteamServerConnectFailure; // 0x10
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20C0360
         public void InitializeInterface(){} // RVA: 0x20C0400
@@ -608,6 +849,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUserStats
     {
+        public bool <StatsRecieved>k__BackingField;
+        public System.Action`2<string,int> OnAchievementIconFetched; // 0x8
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20C2B30
         public void InitializeInterface(){} // RVA: 0x20C2BD0
@@ -619,6 +863,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUtils
     {
+        public System.Action OnIpCountryChanged;
+        public System.Action`1<int> OnLowBatteryPower; // 0x8
+
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x20C3D40
         public void InitializeInterface(){} // RVA: 0x20C3DE0

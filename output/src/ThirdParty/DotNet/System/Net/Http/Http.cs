@@ -16,6 +16,8 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class DelegatingHandler
     {
+        public bool disposed; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6802C40 | overloaded x2
         public void get_InnerHandler(){} // RVA: 0x2E07C0
@@ -26,6 +28,9 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpClient
     {
+        public System.TimeSpan TimeoutDefault;
+        public System.Uri base_address; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6802ED0 | overloaded x3
         public void get_DefaultRequestHeaders(){} // RVA: 0x6803090
@@ -40,6 +45,9 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpClientHandler
     {
+        public System.Net.Http.IMonoHttpClientHandler _delegatingHandler; // 0x10
+        public 0x659C6718 _clientCertificateOptions; // 0x18
+
         // ── Methods ──
         public void CreateDefaultHandler(){} // RVA: 0x67FD390
         public void .ctor(){} // RVA: 0x67FD490 | overloaded x2
@@ -58,6 +66,9 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpContent
     {
+        public FixedMemoryStream buffer; // 0x10
+        public System.IO.Stream stream; // 0x18
+
         // ── Methods ──
         public void get_Headers(){} // RVA: 0x68045B0
         public void get_LoadedBufferLength(){} // RVA: 0x6804700
@@ -94,6 +105,10 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpMethod
     {
+        public System.Net.Http.HttpMethod delete_method;
+        public System.Net.Http.HttpMethod get_method; // 0x8
+        public System.Net.Http.HttpMethod head_method; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6806B50
         public void get_Get(){} // RVA: 0x6806C20
@@ -114,6 +129,12 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpRequestMessage
     {
+        public System.Net.Http.Headers.HttpRequestHeaders headers; // 0x10
+        public System.Net.Http.HttpMethod method; // 0x18
+        public System.Version version; // 0x20
+        public System.Uri uri; // 0x28
+        public bool is_used; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68075F0 | overloaded x3
         public void get_Content(){} // RVA: 0x4976A0
@@ -132,6 +153,14 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class HttpResponseMessage : 0
     {
+        public System.Net.Http.Headers.HttpResponseHeaders headers; // 0x10
+        public string reasonPhrase; // 0x18
+        public 0x65854D38 statusCode; // 0x20
+        public System.Version version; // 0x28
+        public bool disposed; // 0x30
+        public System.Net.Http.HttpContent <Content>k__BackingField; // 0x38
+        public System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6807FC0
         public void get_Content(){} // RVA: 0x4976A0
@@ -171,6 +200,14 @@ namespace ThirdParty.DotNet.System.Net.Http
 
     public class MonoWebRequestHandler
     {
+        public long groupCounter;
+        public bool allowAutoRedirect; // 0x10
+        public 0x658579E8 automaticDecompression; // 0x14
+        public System.Net.CookieContainer cookieContainer; // 0x18
+        public System.Net.ICredentials credentials; // 0x20
+        public int maxAutomaticRedirections; // 0x28
+        public long maxRequestContentBufferSize; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67FDEB0
         public void EnsureModifiability(){} // RVA: 0x67FE280

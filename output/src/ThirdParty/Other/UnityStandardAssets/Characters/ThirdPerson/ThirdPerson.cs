@@ -7,7 +7,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 {
     public class AICharacterControl
     {
-        public object _agent;
+        public UnityEngine.AI.NavMeshAgent _agent; // 0x20
+        public UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter <character>k__BackingField; // 0x28
 
         // ── Methods ──
         public void get_agent(){} // RVA: 0x30B0C0

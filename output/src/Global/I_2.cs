@@ -172,6 +172,8 @@ public class InputEndFrame
 
 public class InputEventControlCollection
 {
+    public UnityEngine.InputSystem.InputDevice m_Device; // 0x10
+
     // ── Methods ──
     public void get_eventPtr(){} // RVA: 0x19689C0
     public void GetEnumerator(){} // RVA: 0x6DEFF20
@@ -181,6 +183,9 @@ public class InputEventControlCollection
 
 public class InputEventControlEnumerator
 {
+    public 0x65868298 m_Flags; // 0x10
+    public UnityEngine.InputSystem.InputDevice m_Device; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6DF0180
     public void CheckDefault(){} // RVA: 0x6DF0490
@@ -476,16 +481,16 @@ public class InteractionEventDelegate
 
 public class InteractionState
 {
-    public object controlStartIndex;
-    public object controlCount;
-    public object interactionStartIndex;
-    public object interactionCount;
-    public object processorStartIndex;
-    public object processorCount;
-    public object actionIndex;
-    public object mapIndex;
-    public object compositeOrCompositeBindingIndex;
-    public object triggerEventIdForComposite;
+    public ushort controlStartIndex; // 0x10
+    public byte controlCount; // 0x12
+    public byte interactionStartIndex; // 0x13
+    public float interactionCount; // 0x14
+    public double processorStartIndex; // 0x18
+    public double processorCount; // 0x20
+    public double actionIndex; // 0x28
+    public float mapIndex; // 0x30
+    public float compositeOrCompositeBindingIndex; // 0x34
+    public long triggerEventIdForComposite; // 0x38
 
     // ── Methods ──
     public void get_triggerControlIndex(){} // RVA: 0x6DB3B80
@@ -522,6 +527,9 @@ public class InternalCollisionIgnoreSettings
 
 public class InternalEnumerator`1
 {
+    public System.Array array;
+    public int idx;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void Dispose(){} // RVA: 0x24A50
@@ -533,6 +541,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -544,6 +555,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -555,6 +569,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -566,6 +583,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -577,6 +597,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -588,6 +611,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -599,6 +625,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -610,6 +639,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -621,6 +653,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -632,6 +667,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -643,6 +681,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -654,6 +695,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -665,6 +709,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -676,6 +723,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -687,10 +737,15 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
 }
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -702,6 +757,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -713,6 +771,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -724,6 +785,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -735,6 +799,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -746,6 +813,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -757,6 +827,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -768,6 +841,9 @@ public class InternalEnumerator`1
 
 public class InternalEnumerator`1
 {
+    public System.Array array; // 0x10
+    public int idx; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C15A0
     public void Dispose(){} // RVA: 0x2DD310
@@ -818,6 +894,9 @@ public class InternalPartitionEnumerable
 
 public class InternalPartitionEnumerator
 {
+    public System.Collections.Generic.KeyValuePair`2<long,T>[] _localList;
+    public SharedBool _hasNoElementsLeft;
+
     // ── Methods ──
     public void .ctor(){}
     public void GrabNextChunk(){} // RVA: 0xE1F0
@@ -828,6 +907,9 @@ public class InternalPartitionEnumerator
 
 public class InternalPartitionEnumerator
 {
+    public System.Collections.Generic.KeyValuePair`2<long,System.Type>[] _localList; // 0x38
+    public SharedBool _hasNoElementsLeft; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35EBD30
     public void GrabNextChunk(){} // RVA: 0x35EBFE0
@@ -838,6 +920,9 @@ public class InternalPartitionEnumerator
 
 public class InternalPartitionEnumerator
 {
+    public System.Collections.Generic.KeyValuePair`2<long,System.Collections.Generic.HashSet`1<...>>[] _localList; // 0x38
+    public SharedBool _hasNoElementsLeft; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35EBD30
     public void GrabNextChunk(){} // RVA: 0x35EBFE0
@@ -873,6 +958,16 @@ public class IntersectionResults
 
 public class Interval
 {
+    public Google.Protobuf.MessageParser`1<Interval> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int YFieldNumber;
+    public int YDefaultValue; // 0x8
+    public int y_; // 0x1C
+    public int LeftXFieldNumber;
+    public int LeftXDefaultValue; // 0xC
+    public int leftX_; // 0x20
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B04CA0
     public void get_Descriptor(){} // RVA: 0x5B04D00

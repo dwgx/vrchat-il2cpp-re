@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 {
     public class SM2P256V1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SM2P256V1_DEFAULT_COORDS;
+        public int SM2P256V1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94F94C0
         public void CloneCurve(){} // RVA: 0x94F98F0
@@ -46,6 +50,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SM2P256V1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94A29B0

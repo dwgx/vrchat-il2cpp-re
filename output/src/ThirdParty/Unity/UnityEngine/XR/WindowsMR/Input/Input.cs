@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 {
     public class HololensHand
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <airTap>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl <sourceLossRisk>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.Vector3Control <sourceLossMitigationDirection>k__BackingField; // 0x1C8
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0xDA5040
         public void set_deviceVelocity(){} // RVA: 0xD8AAB0
@@ -22,6 +27,8 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRHMD
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <userPresence>k__BackingField; // 0x1E0
+
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x8CBA20
         public void set_userPresence(){} // RVA: 0xDB44F0
@@ -31,6 +38,24 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRSpatialController
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <joystick>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <menu>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <joystickClicked>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClicked>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouched>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x208
+        public UnityEngine.InputSystem.Controls.AxisControl <batteryLevel>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.AxisControl <sourceLossRisk>k__BackingField; // 0x218
+        public UnityEngine.InputSystem.Controls.Vector3Control <sourceLossMitigationDirection>k__BackingField; // 0x220
+        public UnityEngine.InputSystem.Controls.Vector3Control <pointerPosition>k__BackingField; // 0x228
+        public UnityEngine.InputSystem.Controls.QuaternionControl <pointerRotation>k__BackingField; // 0x230
+
         // ── Methods ──
         public void get_joystick(){} // RVA: 0xDA5040
         public void set_joystick(){} // RVA: 0xD8AAB0

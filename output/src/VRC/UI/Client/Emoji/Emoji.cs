@@ -13,14 +13,27 @@ namespace VRC.UI.Client.Emoji
 
     public class EmojiData
     {
+        public string Name; // 0x18
+        public string Tooltip; // 0x20
+        public UnityEngine.Sprite Thumb; // 0x28
+        public string prefabName; // 0x30
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x38
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x40
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x48
+        public string <ÎÎÍÏÌÍÌÌÎÎÌÌÏÏÍÏÌÎÌÏÌÎÏ>k__BackingField; // 0x50
+        public string _customPrefabName; // 0x58
+        public string <ÎÎÍÌÌÎÍÍÍÏÏÎÌÍÍÍÌÏÌÏÍÏÏ>k__BackingField; // 0x60
+        public string <ÍÍÍÏÏÍÎÎÎÌÍÌÌÌÍÍÌÍÍÌÏÌÌ>k__BackingField; // 0x68
+        public bool <ÏÌÍÏÏÏÏÎÎÎÏÎÌÎÏÌÌÏÌÏÌÎÏ>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_OwnerID(){} // RVA: 0xCC3360
         public void get_FPS(){} // RVA: 0x519240
         public void set_LoopStyle(){} // RVA: 0x4354D0
         public void get_LoadFrom(){} // RVA: 0x519240
         public void set_Sprite(){} // RVA: 0x358740
-        public void set_EffectBundleID(){} // RVA: 0x3A5510
-        public void set_LoadFrom(){} // RVA: 0x37B370
+        public void set_FPS(){} // RVA: 0x3A5510
+        public void set_EffectBundleID(){} // RVA: 0x37B370
         public void get_EffectBundleID(){} // RVA: 0xCC33A0
         public void get_FullResolutionTexture(){} // RVA: 0x35A740
         public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x359330

@@ -52,6 +52,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnitySerializationInitializer
     {
+        public object LOCK;
+        public bool initialized; // 0x8
+
         // ── Methods ──
         public void get_Initialized(){} // RVA: 0x78934B0
         public void get_CurrentPlatform(){} // RVA: 0x7893510

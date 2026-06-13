@@ -7,6 +7,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class ExecutorConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ExecutorConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public string type_; // 0x20
+        public Mediapipe.MediaPipeOptions options_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF47B0
         public void get_Descriptor(){} // RVA: 0x5AF4810

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class ReadOnlyAttribute
     {
+        public System.ComponentModel.ReadOnlyAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_IsReadOnly(){} // RVA: 0x3A75E0
@@ -18,6 +20,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class RecommendedAsConfigurableAttribute
     {
+        public bool <RecommendedAsConfigurable>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_RecommendedAsConfigurable(){} // RVA: 0x3A75E0
@@ -43,6 +47,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ReflectEventDescriptor
     {
+        public System.Type _type; // 0x60
+        public System.Type _componentClass; // 0x68
+        public System.Reflection.MethodInfo _addMethod; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C79240 | overloaded x3
         public void get_ComponentType(){} // RVA: 0x358D50
@@ -58,6 +66,20 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ReflectPropertyDescriptor
     {
+        public System.Type[] argsNone;
+        public object noValue; // 0x8
+        public System.Diagnostics.TraceSwitch PropDescCreateSwitch; // 0x10
+        public System.Diagnostics.TraceSwitch PropDescUsageSwitch; // 0x18
+        public int BitDefaultValueQueried; // 0x20
+        public int BitGetQueried; // 0x24
+        public int BitSetQueried; // 0x28
+        public int BitShouldSerializeQueried; // 0x2C
+        public int BitResetQueried; // 0x30
+        public int BitChangedQueried; // 0x34
+        public int BitIPropChangedQueried; // 0x38
+        public int BitReadOnlyChecked; // 0x3C
+        public int BitAmbientValueQueried; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C8AE60 | overloaded x4
         public void get_AmbientValue(){} // RVA: 0x6C8B410
@@ -96,6 +118,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ReflectTypeDescriptionProvider
     {
+        public System.Collections.Hashtable _typeData; // 0x20
+        public System.Type[] _typeConstructor;
+
         // ── Methods ──
         public void get_ExtenderProviderKey(){} // RVA: 0x6C90980
         public void .ctor(){} // RVA: 0x2DD310
@@ -145,6 +170,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class RefreshEventArgs
     {
+        public object <ComponentChanged>k__BackingField; // 0x10
+        public System.Type <TypeChanged>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7AC80 | overloaded x2
         public void get_ComponentChanged(){} // RVA: 0x2F8380
@@ -162,6 +190,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class RefreshPropertiesAttribute
     {
+        public System.ComponentModel.RefreshPropertiesAttribute All;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_RefreshProperties(){} // RVA: 0x32A5C0
@@ -173,6 +203,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class RunInstallerAttribute
     {
+        public bool <RunInstaller>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_RunInstaller(){} // RVA: 0x3A75E0
@@ -184,6 +216,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class RunWorkerCompletedEventArgs
     {
+        public object result; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C9AF00
         public void get_Result(){} // RVA: 0x6C9B070

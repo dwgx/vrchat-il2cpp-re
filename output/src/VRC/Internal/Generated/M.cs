@@ -8,6 +8,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÏÌÎÍÎÍÌÍÍÌÍÏÎÏÍÏÏÎÎÌÌÎ</summary>
     public class Mono20m_9334_B812
     {
+        public ÏÏÌÎÍÎÍÌÍÍÌÍÏÎÏÍÏÏÎÎÌÌÎ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public UnityEngine.GameObject innerCone; // 0x20
+        public UnityEngine.GameObject outerCone; // 0x28
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1B234B0
         public void .ctor(){} // RVA: 0x1B23670
@@ -28,6 +32,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÏÎÍÍÌÌÎÏÍÍÌÎÎÌÌÌÎÎÏÏ</summary>
     public class MonoBehaviourHandler_649B
     {
+        public float ÎÎÏÍÏÌÎÏÏÎÌÎÌÎÎÌÍÌÍÌÏÎÌ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x1B88CF0
         public void Awake(){} // RVA: 0x1B8BF40

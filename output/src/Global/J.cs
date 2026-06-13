@@ -5,6 +5,9 @@
 
 public class JArray
 {
+    public JArray Empty;
+    public System.Collections.Generic.IReadOnlyList`1<Token> m_Values; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9802CC0
     public void ToLegacyList(){} // RVA: 0x9802D80
@@ -58,6 +61,14 @@ public class JArray
 
 public class JObject
 {
+    public int MIN_SORT_SIZE;
+    public JObject Empty;
+    public string[] m_Keys; // 0x10
+    public Token[] m_Values; // 0x18
+    public ReadOnlyKeyCollection m_KeysCollection; // 0x20
+    public ObjectValueCollection m_ValuesCollection; // 0x28
+    public ObjectValueCollection objectValueCollection; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9805560
     public void get_Count(){} // RVA: 0xF3F910
@@ -132,6 +143,8 @@ public class JObjectDynamicProxy
 
 public class JPropertyList
 {
+    public Newtonsoft.Json.Linq.JToken _token; // 0x10
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x6037D10
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x6037D10
@@ -152,6 +165,8 @@ public class JPropertyList
 
 public class JPropertyList
 {
+    public Valve.Newtonsoft.Json.Linq.JToken _token; // 0x10
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x7572E40
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7572E40
@@ -392,6 +407,8 @@ public class JointData
 
 public class JsonPropertyInfoList
 {
+    public System.Text.Json.Serialization.Metadata.JsonTypeInfo _jsonTypeInfo; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68DB640
     public void get_IsReadOnly(){} // RVA: 0x68DB7A0

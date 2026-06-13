@@ -7,6 +7,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 {
     public class BiometricData
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified.TypeOfBiometricData typeOfBiometricData; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString biometricDataHash; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerIA5String sourceDataUri; // 0x28
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9750BA0
         public void .ctor(){} // RVA: 0x9750F60 | overloaded x3
@@ -26,6 +31,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class Iso4217CurrencyCode
     {
+        public int AlphabeticMaxSize;
+        public int NumericMinSize;
+        public int NumericMaxSize;
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97517C0
         public void .ctor(){} // RVA: 0x9751D50 | overloaded x2
@@ -37,6 +46,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class MonetaryValue
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified.Iso4217CurrencyCode currency; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger amount; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger exponent; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97520B0
         public void .ctor(){} // RVA: 0x9752490 | overloaded x2
@@ -48,6 +61,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class QCStatement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier qcStatementId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable qcStatementInfo; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97527C0
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
@@ -65,6 +81,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class SemanticsInformation
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier semanticsIdentifier; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97530D0
         public void .ctor(){} // RVA: 0x343E80 | overloaded x4
@@ -75,6 +93,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class TypeOfBiometricData
     {
+        public int Picture;
+        public int HandwrittenSignature;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable obj; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97537E0
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2

@@ -13,8 +13,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class KeySequence
     {
-        public object Particle1;
-        public object Particle2;
+        public System.Xml.Schema.TypedObject[] Particle1; // 0x10
+        public int Particle2; // 0x18
+        public int hashcode; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD8420

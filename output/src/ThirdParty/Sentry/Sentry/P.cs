@@ -7,6 +7,9 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class PersistedSessionUpdate
     {
+        public Sentry.SessionUpdate <Update>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <PauseTimestamp>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Update(){} // RVA: 0x2F8380
         public void get_PauseTimestamp(){} // RVA: 0x1F4D690

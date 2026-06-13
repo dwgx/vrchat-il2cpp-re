@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 {
     public class AdditionalInformationSyntax
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString information; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9795D10
         public void .ctor(){} // RVA: 0x9795ED0 | overloaded x2
@@ -16,6 +18,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class AdmissionSyntax
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName admissionAuthority; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9797070
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
@@ -26,6 +30,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class Admissions
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName admissionAuthority; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.IsisMtt.X509.NamingAuthority namingAuthority; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9795F90
         public void .ctor(){} // RVA: 0x97968F0 | overloaded x2
@@ -37,6 +44,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class DeclarationOfMajority
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1TaggedObject declaration; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9797EF0 | overloaded x4
         public void GetInstance(){} // RVA: 0x9797C50
@@ -49,6 +58,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class MonetaryLimit
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerPrintableString currency; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger amount; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger exponent; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9798100
         public void .ctor(){} // RVA: 0x97984D0 | overloaded x2
@@ -60,6 +73,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class NamingAuthority
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier IdIsisMttATNamingAuthoritiesRechtWirtschaftSteuern;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier namingAuthorityID; // 0x10
+        public string namingAuthorityUrl; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97989C0 | overloaded x2
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x2
@@ -72,6 +89,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class ProcurationSyntax
     {
+        public string country; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString typeOfSubstitution; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName thirdPerson; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.IssuerSerial certRef; // 0x28
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9799440
         public void .ctor(){} // RVA: 0x9750F60 | overloaded x3
@@ -84,6 +106,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class ProfessionInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Rechtsanwltin;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Rechtsanwalt; // 0x8
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Rechtsbeistand; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9799D80
         public void .ctor(){} // RVA: 0x979A8C0 | overloaded x2
@@ -98,6 +124,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 
     public class Restriction
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString restriction; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979C530
         public void .ctor(){} // RVA: 0x979C6F0 | overloaded x2

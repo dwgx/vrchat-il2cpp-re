@@ -42,6 +42,15 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyeAndHeadAnimator
     {
+        public float ÌÎÏÏÌÏÏÌÎÎÌÎÌÏÏÍÍÎÌÎÎÏÎ;
+        public float ÌÍÌÏÏÍÍÍÎÎÎÎÍÌÍÍÌÎÌÍÎÌÎ;
+        public float ÍÌÌÎÏÎÎÎÎÌÎÍÍÏÏÌÎÌÎÍÏÍÌ;
+        public float ÍÎÍÏÏÌÏÌÎÏÍÏÍÎÏÎÎÌÏÎÏÏÌ;
+        public System.Action ÏÌÍÍÌÍÎÏÎÎÍÎÏÌÌÏÏÍÍÌÏÎÍ; // 0x20
+        public float headSpeedModifier; // 0x28
+        public float headWeight; // 0x2C
+        public UnityEngine.Transform headBoneNonMecanimXform; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1A53D30
         public void RaiseCancellation(){} // RVA: 0x1A54170

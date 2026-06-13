@@ -5,6 +5,8 @@
 
 public class Awaiter
 {
+    public System.Threading.SendOrPostCallback switchToCallback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37C8AF0
     public void get_IsCompleted(){} // RVA: 0x2DD320
@@ -17,6 +19,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public System.Threading.SendOrPostCallback switchToCallback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CFEFB0
     public void GetAwaiter(){} // RVA: 0x1F4D780
@@ -30,6 +34,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<int,bool,bool>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x557F490
@@ -41,6 +47,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.UniTask> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F0D0
     public void get_IsCompleted(){} // RVA: 0x557F130
@@ -52,6 +60,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Threading.Tasks.Task> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -63,6 +73,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÏÏÍÏÌÍÍÏÏÏÏÎÏÍÎÌÏÏÌÎÏÏÌ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -74,6 +86,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÏÍÍÎÏÎÌÏÍÍÍÌÎÏÏÎÌÎÌÏÌÏÎ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557ED60
     public void get_IsCompleted(){} // RVA: 0x557EDD0
@@ -85,6 +99,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÏÎÌÎÏÍÎÎÍÌÌÎÌÌÌÌÏÎÏÍÌÎÌ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557ED60
     public void get_IsCompleted(){} // RVA: 0x557EDD0
@@ -96,6 +112,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.List`1<ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ>>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557ED60
     public void get_IsCompleted(){} // RVA: 0x557EDD0
@@ -107,6 +125,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557ED60
     public void get_IsCompleted(){} // RVA: 0x557EDD0
@@ -118,6 +138,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -129,6 +151,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`4<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<...>,ÏÌÎÎÏÏÏÎÍÏÍÌÍÌÏÌÎÍÍÍÍÌÏ,ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<...>,ÎÎÎÌÌÌÏÏÎÍÍÏÍÍÎÌÎÍÌÏÎÏÍ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5588270
     public void get_IsCompleted(){} // RVA: 0x5588300
@@ -140,6 +164,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<...>,ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<...>>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x55802F0
     public void get_IsCompleted(){} // RVA: 0x5580360
@@ -151,6 +177,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÏÏÎÍÌÎÎÍÌÌÌÎÌÌÍÌÍÍÌÍÌÌÌ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -162,6 +190,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÎÎÌÌÏÌÎÌÍÏÎÏÍÍÎÍÎÍÌÏÌÎÎ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -173,6 +203,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -184,6 +216,8 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÏÍÌÏÍÏÌÏÍÏÍÌÏÌÍÎÎÌÌÎÎ> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x55A9DB0
@@ -195,22 +229,28 @@ public class Awaiter
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<0x65885E00> task; // 0x10
 }
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<0x65885F08> task; // 0x10
 }
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<0x65885E58> task; // 0x10
 }
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<0x65885EB0> task; // 0x10
 }
 
 public class Awaiter
 {
+    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<int,System.ValueTuple`2<bool,bool>,bool>> task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x557F430
     public void get_IsCompleted(){} // RVA: 0x557F490

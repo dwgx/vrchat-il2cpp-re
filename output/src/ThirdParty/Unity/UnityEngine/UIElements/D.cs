@@ -15,6 +15,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultDragAndDropClient
     {
+        public System.Collections.Hashtable m_GenericData; // 0x10
+        public UnityEngine.UIElements.Label m_DraggedInfoLabel; // 0x18
+
         // ── Methods ──
         public void get_source(){} // RVA: 0x73D8100
         public void GetGenericData(){} // RVA: 0x73D8150
@@ -29,7 +32,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultEventSystem
     {
-        public object Text;
+        public System.Func`1<bool> Text;
+        public IInput m_Input; // 0x10
+        public string m_HorizontalAxis; // 0x18
 
         // ── Methods ──
         public void get_isAppFocused(){} // RVA: 0x73D33C0
@@ -70,6 +75,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultMultiColumnTreeViewController`1
     {
+        public UnityEngine.UIElements.TreeDataController`1<T> m_TreeDataController;
+
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x2F090
@@ -87,6 +94,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultTreeViewController`1
     {
+        public UnityEngine.UIElements.TreeDataController`1<T> m_TreeDataController;
+
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0xCD60
         public void get_itemsSource(){} // RVA: 0xCD60
@@ -117,6 +126,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DoubleField
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_doubleInput(){} // RVA: 0x7314170
         public void ValueToString(){} // RVA: 0x7314200
@@ -129,6 +140,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DragAndDropArgs
     {
+        public object <target>k__BackingField; // 0x10
+        public int <insertAtIndex>k__BackingField; // 0x18
+        public int <parentId>k__BackingField; // 0x1C
+        public int <childIndex>k__BackingField; // 0x20
+        public 0x658358B8 <dragAndDropPosition>k__BackingField; // 0x24
+        public UnityEngine.UIElements.DragAndDropData <dragAndDropData>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_target(){} // RVA: 0x100A2F0
         public void get_insertAtIndex(){} // RVA: 0x1EA9890
@@ -159,6 +177,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DragEventsProcessor
     {
+        public bool m_IsRegistered; // 0x10
+        public 0x65835650 m_DragState; // 0x14
+        public UnityEngine.Vector3 m_Start; // 0x18
+        public UnityEngine.UIElements.VisualElement m_Target; // 0x28
+
         // ── Methods ──
         public void get_supportsDragEvents(){} // RVA: 0x3C2850
         public void get_useDragEvents(){} // RVA: 0x73D8D20
@@ -200,6 +223,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownMenuAction
     {
+        public string <name>k__BackingField; // 0x10
+        public 0x65835EE8 <status>k__BackingField; // 0x18
+        public UnityEngine.UIElements.DropdownMenuEventInfo <eventInfo>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_status(){} // RVA: 0x6374E0
         public void set_eventInfo(){} // RVA: 0x30B0D0
@@ -236,6 +263,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicAtlas
     {
+        public System.Collections.Generic.Dictionary`2<UnityEngine.Texture,TextureInfo> m_Database; // 0x18
+        public UnityEngine.UIElements.DynamicAtlasPage m_PointPage; // 0x20
+        public UnityEngine.UIElements.DynamicAtlasPage m_BilinearPage; // 0x28
+        public 0x65897E68 m_ColorSpace; // 0x30
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.IPanel> m_Panels; // 0x38
+        public int m_MinAtlasSize; // 0x40
+        public int m_MaxAtlasSize; // 0x44
+
         // ── Methods ──
         public void get_isInitialized(){} // RVA: 0x72E3C20
         public void OnAssignedToPanel(){} // RVA: 0x72E3C40
@@ -267,6 +302,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicAtlasPage
     {
+        public UnityEngine.UIElements.TextureId <textureId>k__BackingField; // 0x10
+        public UnityEngine.RenderTexture <atlas>k__BackingField; // 0x18
+        public 0x65898180 <format>k__BackingField; // 0x20
+        public 0x65897F70 <filterMode>k__BackingField; // 0x24
+        public UnityEngine.Vector2Int <minSize>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_textureId(){} // RVA: 0x32A5C0
         public void set_textureId(){} // RVA: 0x2E00C0
@@ -288,6 +329,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicAtlasSettings
     {
+        public int m_MinAtlasSize; // 0x10
+        public int m_MaxAtlasSize; // 0x14
+        public int m_MaxSubTextureSize; // 0x18
+        public 0x6582EFE0 m_ActiveFilters; // 0x1C
+        public UnityEngine.UIElements.DynamicAtlasCustomFilter m_CustomFilter; // 0x20
+
         // ── Methods ──
         public void get_minAtlasSize(){} // RVA: 0x32A5C0
         public void set_minAtlasSize(){} // RVA: 0x2E00C0
@@ -306,6 +353,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicHeightVirtualizationController`1
     {
+        public int m_HighestCachedIndex;
+        public System.Collections.Generic.Dictionary`2<int,float> m_ItemHeightCache;
+        public System.Collections.Generic.Dictionary`2<int,ContentHeightCacheInfo<T>> m_ContentHeightCache;
+        public System.Collections.Generic.HashSet`1<int> m_WaitingCache;
+        public int m_ForcedFirstVisibleItem;
+        public int m_ForcedLastVisibleItem;
+        public bool m_StickToBottom;
+
         // ── Methods ──
         public void get_defaultExpectedHeight(){} // RVA: 0x21890
         public void get_contentPadding(){} // RVA: 0x21890

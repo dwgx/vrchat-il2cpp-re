@@ -5,14 +5,20 @@
 
 public class GrowableArrayEnumerator
 {
+    public int cur; // 0x10
+    public int end; // 0x14
 }
 
 public class GrowableArrayEnumerator
 {
+    public int cur; // 0x10
+    public int end; // 0x14
 }
 
 public class GrowableArrayEnumerator
 {
+    public int cur; // 0x10
+    public int end; // 0x14
 }
 
 public class GuidByteUnion

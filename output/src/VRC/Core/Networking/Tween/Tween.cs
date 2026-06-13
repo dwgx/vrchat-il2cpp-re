@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.Tween
-// Classes: 5
-// Methods: 35
+// Classes: 10
+// Methods: 80
 
 namespace VRC.Core.Networking.Tween
 {
@@ -48,6 +48,8 @@ namespace VRC.Core.Networking.Tween
 
     public class TweenableValue`1
     {
+        public float <Time>k__BackingField;
+
         // ── Methods ──
         public void get_Time(){} // RVA: 0x21890
         public void set_Time(){} // RVA: 0x325B0
@@ -58,6 +60,86 @@ namespace VRC.Core.Networking.Tween
         public void DeepCopy(){} // RVA: 0x24B10
         public void Tween(){}
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class TweenableValue`1
+    {
+        public float <Time>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Time(){} // RVA: 0x407320
+        public void set_Time(){} // RVA: 0x407330
+        public void Copy(){} // RVA: 0x4443020
+        public void Interpolate(){} // RVA: 0x11E90
+        public void Extrapolate(){} // RVA: 0x11E90
+        public void BaseCopy(){} // RVA: 0x4443070
+        public void DeepCopy(){} // RVA: 0x24B10
+        public void Tween(){} // RVA: 0x4443260
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class TweenableValue`1
+    {
+        public float <Time>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Time(){} // RVA: 0x407320
+        public void set_Time(){} // RVA: 0x407330
+        public void Copy(){} // RVA: 0x4443020
+        public void Interpolate(){} // RVA: 0x11E90
+        public void Extrapolate(){} // RVA: 0x11E90
+        public void BaseCopy(){} // RVA: 0x4443070
+        public void DeepCopy(){} // RVA: 0x24B10
+        public void Tween(){} // RVA: 0x4443260
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class TweenableValue`1
+    {
+        public float <Time>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Time(){} // RVA: 0x407320
+        public void set_Time(){} // RVA: 0x407330
+        public void Copy(){} // RVA: 0x4443020
+        public void Interpolate(){} // RVA: 0x11E90
+        public void Extrapolate(){} // RVA: 0x11E90
+        public void BaseCopy(){} // RVA: 0x4443070
+        public void DeepCopy(){} // RVA: 0x24B10
+        public void Tween(){} // RVA: 0x4443260
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class TweenableValue`1
+    {
+        public float <Time>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Time(){} // RVA: 0x407320
+        public void set_Time(){} // RVA: 0x407330
+        public void Copy(){} // RVA: 0x4443020
+        public void Interpolate(){} // RVA: 0x11E90
+        public void Extrapolate(){} // RVA: 0x11E90
+        public void BaseCopy(){} // RVA: 0x4443070
+        public void DeepCopy(){} // RVA: 0x24B10
+        public void Tween(){} // RVA: 0x4443260
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class TweenableValue`1
+    {
+        public float Assembly-CSharp; // 0x10
+
+        // ── Methods ──
+        public void get_Time(){} // RVA: 0x407320
+        public void set_Time(){} // RVA: 0x407330
+        public void Copy(){} // RVA: 0x4443020
+        public void Interpolate(){} // RVA: 0x11E90
+        public void Extrapolate(){} // RVA: 0x11E90
+        public void BaseCopy(){} // RVA: 0x4443070
+        public void DeepCopy(){} // RVA: 0x24B10
+        public void Tween(){} // RVA: 0x4443260
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

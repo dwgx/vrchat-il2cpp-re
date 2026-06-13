@@ -17,6 +17,8 @@ namespace ThirdParty.Other.BlobHandles
 
     public class BlobString
     {
+        public System.Text.Encoding <Encoding>k__BackingField;
+
         // ── Methods ──
         public void get_Encoding(){} // RVA: 0x1CC5E40
         public void .ctor(){} // RVA: 0x1CC60D0 | overloaded x2

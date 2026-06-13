@@ -8,6 +8,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÎÏÎÏÌÏÍÌÏÎÍÏÎÏÍÌÍÎÎÏÎÎ</summary>
     public class LateUpdateComponentImpl_AEAB_D7EB
     {
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÌÎÎÍÎÍÎÎÍÏÏÏÌÌÎÎÍÏÍÍÏÏ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x19113B0
         public void RaiseCancellation(){} // RVA: 0x1911480
@@ -236,6 +238,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÏÌÏÎÍÌÎÍÎÏÍÌÌÎÌÏÏÌÎÌÌÍ</summary>
     public class LifecycleComponentSibling_5877Sibling_D0CD
     {
+        public string <ÌÌÍÏÎÌÏÍÎÏÍÍÌÏÌÌÌÎÎÌÎÎÌ>k__BackingField; // 0x10
+        public string <ÍÏÍÍÎÎÍÌÍÏÌÎÎÎÎÍÎÌÌÌÍÎÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x1DE6660
         public void MoveNext(){} // RVA: 0x2F8380

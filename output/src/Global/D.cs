@@ -13,6 +13,9 @@ public class DESEncryption
 
 public class DPIDMipmapper
 {
+    public DPIDMipmapper _instance;
+    public UnityEngine.ComputeShader computeShader; // 0x10
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x9A5C5A0
     public void get_ComputeShaderReady(){} // RVA: 0x9A5C690
@@ -36,10 +39,63 @@ public class DYNAMIC_TIME_ZONE_INFORMATION
 
 public class Data
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <template>k__BackingField; // 0x78
+    public string <thumbnailImageUrl>k__BackingField; // 0x80
+    public string <imageUrl>k__BackingField; // 0x88
+    public string <iconImageUrl>k__BackingField; // 0x90
+    public VRC.Core.ApiLocalizableString <description>k__BackingField; // 0x98
+    public VRC.Core.ApiLocalizableString <tooltipDescription>k__BackingField; // 0xA0
+    public VRC.Core.ApiLocalizableString <taglineText>k__BackingField; // 0xA8
+    public string <version>k__BackingField; // 0xB0
+    public bool <isNew>k__BackingField; // 0xB8
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xC0
+    public string <disclaimerText>k__BackingField; // 0xC8
+    public string <worldTag>k__BackingField; // 0xD0
+    public bool <hoverToJoin>k__BackingField; // 0xD8
+    public ContentList <contentList>k__BackingField; // 0xE0
+    public System.Collections.Generic.List`1<Domain> <domainList>k__BackingField; // 0xE8
+    public SearchParams <search>k__BackingField; // 0xF0
+    public IPSQuery <ipsQuery>k__BackingField; // 0xF8
+    public Article <article>k__BackingField; // 0x100
+    public System.Collections.Generic.List`1<MarketplaceCategoryData> <categories>k__BackingField; // 0x108
+    public Promotion <promotion>k__BackingField; // 0x110
+    public string <featuredAvatarCategoryId>k__BackingField; // 0x118
+    public System.Collections.Generic.List`1<string> <listingIds>k__BackingField; // 0x120
+    public int <weight>k__BackingField; // 0x128
+    public string <category>k__BackingField; // 0x130
 }
 
 public class Data
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <template>k__BackingField; // 0x78
+    public string <thumbnailImageUrl>k__BackingField; // 0x80
+    public string <imageUrl>k__BackingField; // 0x88
+    public string <iconImageUrl>k__BackingField; // 0x90
+    public VRC.Core.ApiLocalizableString <description>k__BackingField; // 0x98
+    public VRC.Core.ApiLocalizableString <tooltipDescription>k__BackingField; // 0xA0
+    public VRC.Core.ApiLocalizableString <taglineText>k__BackingField; // 0xA8
+    public string <version>k__BackingField; // 0xB0
+    public bool <isNew>k__BackingField; // 0xB8
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xC0
+    public string <disclaimerText>k__BackingField; // 0xC8
+    public string <worldTag>k__BackingField; // 0xD0
+    public bool <hoverToJoin>k__BackingField; // 0xD8
+    public ContentList <contentList>k__BackingField; // 0xE0
+    public System.Collections.Generic.List`1<Domain> <domainList>k__BackingField; // 0xE8
+    public SearchParams <search>k__BackingField; // 0xF0
+    public IPSQuery <ipsQuery>k__BackingField; // 0xF8
+    public Article <article>k__BackingField; // 0x100
+    public System.Collections.Generic.List`1<MarketplaceCategoryData> <categories>k__BackingField; // 0x108
+    public Promotion <promotion>k__BackingField; // 0x110
+    public string <featuredAvatarCategoryId>k__BackingField; // 0x118
+    public System.Collections.Generic.List`1<string> <listingIds>k__BackingField; // 0x120
+    public int <weight>k__BackingField; // 0x128
+    public string <category>k__BackingField; // 0x130
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x358D50
     public void set_name(){} // RVA: 0x358D60
@@ -98,14 +154,92 @@ public class Data
 
 public class Data
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <template>k__BackingField; // 0x78
+    public string <thumbnailImageUrl>k__BackingField; // 0x80
+    public string <imageUrl>k__BackingField; // 0x88
+    public string <iconImageUrl>k__BackingField; // 0x90
+    public VRC.Core.ApiLocalizableString <description>k__BackingField; // 0x98
+    public VRC.Core.ApiLocalizableString <tooltipDescription>k__BackingField; // 0xA0
+    public VRC.Core.ApiLocalizableString <taglineText>k__BackingField; // 0xA8
+    public string <version>k__BackingField; // 0xB0
+    public bool <isNew>k__BackingField; // 0xB8
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xC0
+    public string <disclaimerText>k__BackingField; // 0xC8
+    public string <worldTag>k__BackingField; // 0xD0
+    public bool <hoverToJoin>k__BackingField; // 0xD8
+    public ContentList <contentList>k__BackingField; // 0xE0
+    public System.Collections.Generic.List`1<Domain> <domainList>k__BackingField; // 0xE8
+    public SearchParams <search>k__BackingField; // 0xF0
+    public IPSQuery <ipsQuery>k__BackingField; // 0xF8
+    public Article <article>k__BackingField; // 0x100
+    public System.Collections.Generic.List`1<MarketplaceCategoryData> <categories>k__BackingField; // 0x108
+    public Promotion <promotion>k__BackingField; // 0x110
+    public string <featuredAvatarCategoryId>k__BackingField; // 0x118
+    public System.Collections.Generic.List`1<string> <listingIds>k__BackingField; // 0x120
+    public int <weight>k__BackingField; // 0x128
+    public string <category>k__BackingField; // 0x130
 }
 
 public class Data
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <template>k__BackingField; // 0x78
+    public string <thumbnailImageUrl>k__BackingField; // 0x80
+    public string <imageUrl>k__BackingField; // 0x88
+    public string <iconImageUrl>k__BackingField; // 0x90
+    public VRC.Core.ApiLocalizableString <description>k__BackingField; // 0x98
+    public VRC.Core.ApiLocalizableString <tooltipDescription>k__BackingField; // 0xA0
+    public VRC.Core.ApiLocalizableString <taglineText>k__BackingField; // 0xA8
+    public string <version>k__BackingField; // 0xB0
+    public bool <isNew>k__BackingField; // 0xB8
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xC0
+    public string <disclaimerText>k__BackingField; // 0xC8
+    public string <worldTag>k__BackingField; // 0xD0
+    public bool <hoverToJoin>k__BackingField; // 0xD8
+    public ContentList <contentList>k__BackingField; // 0xE0
+    public System.Collections.Generic.List`1<Domain> <domainList>k__BackingField; // 0xE8
+    public SearchParams <search>k__BackingField; // 0xF0
+    public IPSQuery <ipsQuery>k__BackingField; // 0xF8
+    public Article <article>k__BackingField; // 0x100
+    public System.Collections.Generic.List`1<MarketplaceCategoryData> <categories>k__BackingField; // 0x108
+    public Promotion <promotion>k__BackingField; // 0x110
+    public string <featuredAvatarCategoryId>k__BackingField; // 0x118
+    public System.Collections.Generic.List`1<string> <listingIds>k__BackingField; // 0x120
+    public int <weight>k__BackingField; // 0x128
+    public string <category>k__BackingField; // 0x130
 }
 
 public class Data
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <template>k__BackingField; // 0x78
+    public string <thumbnailImageUrl>k__BackingField; // 0x80
+    public string <imageUrl>k__BackingField; // 0x88
+    public string <iconImageUrl>k__BackingField; // 0x90
+    public VRC.Core.ApiLocalizableString <description>k__BackingField; // 0x98
+    public VRC.Core.ApiLocalizableString <tooltipDescription>k__BackingField; // 0xA0
+    public VRC.Core.ApiLocalizableString <taglineText>k__BackingField; // 0xA8
+    public string <version>k__BackingField; // 0xB0
+    public bool <isNew>k__BackingField; // 0xB8
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xC0
+    public string <disclaimerText>k__BackingField; // 0xC8
+    public string <worldTag>k__BackingField; // 0xD0
+    public bool <hoverToJoin>k__BackingField; // 0xD8
+    public ContentList <contentList>k__BackingField; // 0xE0
+    public System.Collections.Generic.List`1<Domain> <domainList>k__BackingField; // 0xE8
+    public SearchParams <search>k__BackingField; // 0xF0
+    public IPSQuery <ipsQuery>k__BackingField; // 0xF8
+    public Article <article>k__BackingField; // 0x100
+    public System.Collections.Generic.List`1<MarketplaceCategoryData> <categories>k__BackingField; // 0x108
+    public Promotion <promotion>k__BackingField; // 0x110
+    public string <featuredAvatarCategoryId>k__BackingField; // 0x118
+    public System.Collections.Generic.List`1<string> <listingIds>k__BackingField; // 0x120
+    public int <weight>k__BackingField; // 0x128
+    public string <category>k__BackingField; // 0x130
 }
 
 public class DataElementDelegate
@@ -136,6 +270,10 @@ public class DataRowTree
 
 public class DataSetRelationCollection
 {
+    public System.Data.DataSet _dataSet; // 0x38
+    public System.Collections.ArrayList _relations; // 0x40
+    public System.Data.DataRelation[] _delayLoadingRelations; // 0x48
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66FE6E0
     public void get_List(){} // RVA: 0x35A740
@@ -149,6 +287,8 @@ public class DataSetRelationCollection
 
 public class DataSet`1
 {
+    public bool <disposed>k__BackingField;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_disposed(){} // RVA: 0xDBE0
@@ -164,6 +304,8 @@ public class DataSet`1
 
 public class DataSet`1
 {
+    public bool <disposed>k__BackingField; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BBB460
     public void get_disposed(){} // RVA: 0x3A75E0
@@ -179,6 +321,8 @@ public class DataSet`1
 
 public class DataSet`1
 {
+    public bool <disposed>k__BackingField; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BBA6E0
     public void get_disposed(){} // RVA: 0x3A75E0
@@ -200,6 +344,10 @@ public class DataStorageShadow
 
 public class DataTableRelationCollection
 {
+    public System.Data.DataTable _table; // 0x38
+    public System.Collections.ArrayList _relations; // 0x40
+    public bool _fParentCollection; // 0x48
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66FDC20
     public void get_List(){} // RVA: 0x35A740
@@ -225,6 +373,8 @@ public class DataTokenFormatter
 
 public class DataViewSettingsEnumerator
 {
+    public System.Data.DataViewSettingCollection _dataViewSettings; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6713190
     public void MoveNext(){} // RVA: 0x67133A0
@@ -247,7 +397,7 @@ public class DateTime
 
 public class DateTimeParseData
 {
-    public object CurrentDepth;
+    public int CurrentDepth; // 0x10
 
     // ── Methods ──
     public void get_OffsetNegative(){} // RVA: 0x6300880
@@ -255,12 +405,18 @@ public class DateTimeParseData
 
 public class DateTimeParseData
 {
+    public int Year; // 0x10
+
     // ── Methods ──
     public void get_OffsetNegative(){} // RVA: 0x684D160
 }
 
 public class DbRow
 {
+    public int _location; // 0x10
+    public int _sizeOrLengthUnion; // 0x14
+    public int _numberOfRowsAndTypeUnion; // 0x18
+
     // ── Methods ──
     public void get_Location(){} // RVA: 0x19689B0
     public void get_SizeOrLength(){} // RVA: 0x6309080
@@ -274,8 +430,11 @@ public class DbRow
 
 public class DbRow
 {
-    public object IsDisposable;
-    public object RootElement;
+    public int IsDisposable;
+    public int RootElement; // 0x10
+    public int _sizeOrLengthUnion; // 0x14
+    public int _numberOfRowsAndTypeUnion; // 0x18
+    public int UnknownSize;
 
     // ── Methods ──
     public void get_Location(){} // RVA: 0x19689B0
@@ -326,10 +485,7 @@ public class DebugInfoComparer
 
 public class DebugInfoExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.DebugInfoExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAB10
@@ -351,6 +507,8 @@ public class DebugMessage
 
 public class DebugView
 {
+    public System.Text.Json.Nodes.JsonValue`1<T> _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Json(){} // RVA: 0xCD60
@@ -360,18 +518,23 @@ public class DebugView
 
 public class DebugView
 {
+    public System.Linq.Expressions.Interpreter.InstructionList _list; // 0x10
 }
 
 public class DebugView
 {
+    public System.Linq.Expressions.Interpreter.InstructionList _list; // 0x10
 }
 
 public class DebugView
 {
+    public System.Linq.Expressions.Interpreter.InstructionList _list; // 0x10
 }
 
 public class DebugView
 {
+    public System.Text.Json.Nodes.JsonArray _node; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Json(){} // RVA: 0x2BBCD30
@@ -381,9 +544,7 @@ public class DebugView
 
 public class DebugView
 {
-    public object Dictionary;
-    public object Count;
-    public object System.Collections.Generic.IDictionary<System.String,System.Text.Json.Nodes.JsonNode>.Keys;
+    public System.Text.Json.Nodes.JsonObject Dictionary; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
@@ -394,6 +555,8 @@ public class DebugView
 
 public class DebugView
 {
+    public System.Linq.Expressions.Interpreter.InstructionArray _array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x661DA10
     public void get_A0(){} // RVA: 0x661DB40
@@ -403,7 +566,7 @@ public class DebugView
 
 public class DebugView
 {
-    public object System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.Current;
+    public System.Linq.Expressions.Interpreter.InstructionList System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.Current; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6623870
@@ -414,7 +577,7 @@ public class DebugView
 
 public class DebugViewItem
 {
-    public object Json;
+    public System.Text.Json.Nodes.JsonNode Json; // 0x10
 
     // ── Methods ──
     public void get_Display(){} // RVA: 0x68B9500
@@ -435,7 +598,7 @@ public class DebugViewPrinter
 
 public class DebugViewProperty
 {
-    public object Json;
+    public System.Text.Json.Nodes.JsonNode Json; // 0x10
 
     // ── Methods ──
     public void get_Display(){} // RVA: 0x68C0760
@@ -471,6 +634,13 @@ public class DebuggerProxy
 
 public class DecCalc
 {
+    public uint uflags; // 0x10
+    public uint uhi; // 0x14
+    public uint ulo; // 0x18
+    public uint umid; // 0x1C
+    public ulong ulomidLE; // 0x18
+    public uint[] s_powers10;
+
     // ── Methods ──
     public void get_High(){} // RVA: 0x19689E0
     public void set_High(){} // RVA: 0x19689D0
@@ -522,8 +692,8 @@ public class DecimalByteUnion
 
 public class DecimalStruct
 {
-    public object Dim;
-    public object IsList;
+    public bool Dim; // 0x10
+    public System.Decimal[] IsList; // 0x18
 
     // ── Methods ──
     public void get_IsDecimal(){} // RVA: 0x3A75E0
@@ -541,6 +711,8 @@ public class DeclBaseInfo
 
 public class Decoder
 {
+    public int lastByte; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C58060
     public void Reset(){} // RVA: 0x5C58070
@@ -549,6 +721,8 @@ public class Decoder
 
 public class Decoder
 {
+    public int bits; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4D290
     public void Reset(){} // RVA: 0x5C4F760
@@ -567,6 +741,8 @@ public class DecoderUTF7Fallback
 
 public class DecoderUTF7FallbackBuffer
 {
+    public char cFallback; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4F8C0
     public void Fallback(){} // RVA: 0x5C4F8D0
@@ -688,10 +864,7 @@ public class DefaultEventInterests
 
 public class DefaultExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Kind;
-    public object NodeType;
+    public System.Linq.Expressions.DefaultExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAC20
@@ -719,6 +892,8 @@ public class DefaultExtendedTypeDescriptor
 
 public class DefaultF2mLookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.F2mCurve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -733,6 +908,8 @@ public class DefaultGroupInstanceSetting
 
 public class DefaultLookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -765,6 +942,8 @@ public class DefaultTypeDescriptor
 
 public class DefaultWebProxy : get_Instance
 {
+    public DefaultWebProxy <Instance>k__BackingField;
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x6BC5730
     public void get_Credentials(){} // RVA: 0x6BC5790
@@ -837,6 +1016,8 @@ public class DeflateOutputStream
 
 public class DelayFramePromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<DelayFramePromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF5B30
@@ -852,6 +1033,8 @@ public class DelayFramePromise
 
 public class DelayIgnoreTimeScalePromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<DelayIgnoreTimeScalePromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF7350
@@ -867,6 +1050,8 @@ public class DelayIgnoreTimeScalePromise
 
 public class DelayPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<DelayPromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF66E0
@@ -882,6 +1067,8 @@ public class DelayPromise
 
 public class DelayPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<DelayPromise> pool;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5F4F4A0
     public void Complete(){} // RVA: 0x5F4F5C0
@@ -889,6 +1076,8 @@ public class DelayPromise
 
 public class DelayRealtimePromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<DelayRealtimePromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF7FC0
@@ -904,6 +1093,11 @@ public class DelayRealtimePromise
 
 public class Delegate
 {
+    public Google.Protobuf.MessageParser`1<Delegate> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public object delegate_; // 0x18
+    public 0x6592C980 delegateCase_; // 0x20
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AE4540
     public void get_Descriptor(){} // RVA: 0x5AE45A0

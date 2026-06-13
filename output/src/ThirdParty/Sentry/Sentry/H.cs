@@ -29,6 +29,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class HttpStatusCodeRange
     {
+        public int <Start>k__BackingField; // 0x10
+        public int <End>k__BackingField; // 0x14
+
         // ── Methods ──
         public void get_Start(){} // RVA: 0x19689B0
         public void set_Start(){} // RVA: 0x833580

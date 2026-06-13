@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class Scope1
     {
+        public object _body; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DE340 | overloaded x2
         public void SameExpressions(){} // RVA: 0x65DE3B0
@@ -18,6 +20,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ScopeExpression
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> _variables; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DDEB0
         public void SameVariables(){} // RVA: 0x65DE180
@@ -28,6 +32,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ScopeN
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _body; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DE340
         public void SameExpressions(){} // RVA: 0x65DE820
@@ -40,6 +46,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ScopeWithType
     {
+        public System.Type <Type>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DEB50
         public void get_Type(){} // RVA: 0x30B0C0
@@ -48,6 +56,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SimpleBinaryExpression
     {
+        public 0x65908648 <NodeType>k__BackingField; // 0x20
+        public System.Type <Type>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65B1140
         public void get_NodeType(){} // RVA: 0x760030
@@ -56,6 +67,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SpanDebugInfoExpression
     {
+        public int _startLine; // 0x18
+        public int _startColumn; // 0x1C
+        public int _endLine; // 0x20
+        public int _endColumn; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E0670
         public void get_StartLine(){} // RVA: 0x5BED50
@@ -257,8 +273,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SwitchCase
     {
-        public object Type;
-        public object NodeType;
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> Type; // 0x10
+        public System.Linq.Expressions.Expression NodeType; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6605200 | overloaded x2
@@ -270,6 +286,12 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SwitchExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <SwitchValue>k__BackingField; // 0x18
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.SwitchCase> <Cases>k__BackingField; // 0x20
+        public System.Linq.Expressions.Expression <DefaultBody>k__BackingField; // 0x28
+        public System.Reflection.MethodInfo <Comparison>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6605760 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380
@@ -285,6 +307,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SymbolDocumentInfo
     {
+        public string <FileName>k__BackingField; // 0x10
+        public System.Guid DocumentType_Text;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66059D0 | overloaded x2
         public void get_FileName(){} // RVA: 0x2F8380
@@ -296,6 +321,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class SymbolDocumentWithGuids
     {
+        public System.Guid <Language>k__BackingField; // 0x18
+        public System.Guid <LanguageVendor>k__BackingField; // 0x28
+        public System.Guid <DocumentType>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6605B30 | overloaded x3
         public void get_Language(){} // RVA: 0x994EE0

@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Diagnostics.Internal
 {
     public class ILReader
     {
+        public System.Reflection.Emit.OpCode[] singleByteOpCode;
+        public System.Reflection.Emit.OpCode[] doubleByteOpCode; // 0x8
+        public byte[] _cil; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_OpCode(){} // RVA: 0x6457060

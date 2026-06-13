@@ -7,21 +7,62 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class CachedReflectionInfo
     {
-        public object CanReduce;
-        public object Right;
-        public object Left;
-        public object Method;
-        public object Conversion;
-        public object IsLifted;
-        public object IsLiftedToNull;
-        public object IsLiftedLogical;
-        public object IsReferenceComparison;
-        public object _nodeType;
-        public object .ctor;
-        public object g5T;
-        public object .ctor;
-        public object get_Type;
-        public object get_NodeType;
+        public System.Reflection.MethodInfo CanReduce;
+        public System.Reflection.ConstructorInfo Right; // 0x8
+        public System.Reflection.MethodInfo Left; // 0x10
+        public System.Reflection.MethodInfo Method; // 0x18
+        public System.Reflection.MethodInfo Conversion; // 0x20
+        public System.Reflection.MethodInfo IsLifted; // 0x28
+        public System.Reflection.MethodInfo IsLiftedToNull; // 0x30
+        public System.Reflection.MethodInfo IsLiftedLogical; // 0x38
+        public System.Reflection.MethodInfo IsReferenceComparison; // 0x40
+        public System.Reflection.MethodInfo _nodeType; // 0x48
+        public System.Reflection.MethodInfo .ctor; // 0x50
+        public System.Reflection.MethodInfo g5T; // 0x58
+        public System.Reflection.MethodInfo .ctor; // 0x60
+        public System.Reflection.MethodInfo get_Type; // 0x68
+        public System.Reflection.MethodInfo get_NodeType; // 0x70
+        public System.Reflection.MethodInfo s_DynamicObject_TryDeleteMember; // 0x78
+        public System.Reflection.MethodInfo s_DynamicObject_TryGetIndex; // 0x80
+        public System.Reflection.MethodInfo s_DynamicObject_TrySetIndex; // 0x88
+        public System.Reflection.MethodInfo s_DynamicObject_TryDeleteIndex; // 0x90
+        public System.Reflection.MethodInfo s_DynamicObject_TryConvert; // 0x98
+        public System.Reflection.MethodInfo s_DynamicObject_TryInvoke; // 0xA0
+        public System.Reflection.MethodInfo s_DynamicObject_TryInvokeMember; // 0xA8
+        public System.Reflection.MethodInfo s_DynamicObject_TryBinaryOperation; // 0xB0
+        public System.Reflection.MethodInfo s_DynamicObject_TryUnaryOperation; // 0xB8
+        public System.Reflection.MethodInfo s_DynamicObject_TryCreateInstance; // 0xC0
+        public System.Reflection.ConstructorInfo s_Nullable_Boolean_Ctor; // 0xC8
+        public System.Reflection.ConstructorInfo s_Decimal_Ctor_Int32; // 0xD0
+        public System.Reflection.ConstructorInfo s_Decimal_Ctor_UInt32; // 0xD8
+        public System.Reflection.ConstructorInfo s_Decimal_Ctor_Int64; // 0xE0
+        public System.Reflection.ConstructorInfo s_Decimal_Ctor_UInt64; // 0xE8
+        public System.Reflection.ConstructorInfo s_Decimal_Ctor_Int32_Int32_Int32_Bool_Byte; // 0xF0
+        public System.Reflection.FieldInfo s_Decimal_One; // 0xF8
+        public System.Reflection.FieldInfo s_Decimal_MinusOne; // 0x100
+        public System.Reflection.FieldInfo s_Decimal_MinValue; // 0x108
+        public System.Reflection.FieldInfo s_Decimal_MaxValue; // 0x110
+        public System.Reflection.FieldInfo s_Decimal_Zero; // 0x118
+        public System.Reflection.FieldInfo s_DateTime_MinValue; // 0x120
+        public System.Reflection.MethodInfo s_MethodBase_GetMethodFromHandle_RuntimeMethodHandle; // 0x128
+        public System.Reflection.MethodInfo s_MethodBase_GetMethodFromHandle_RuntimeMethodHandle_RuntimeTypeHandle; // 0x130
+        public System.Reflection.MethodInfo s_MethodInfo_CreateDelegate_Type_Object; // 0x138
+        public System.Reflection.MethodInfo s_String_op_Equality_String_String; // 0x140
+        public System.Reflection.MethodInfo s_String_Equals_String_String; // 0x148
+        public System.Reflection.MethodInfo s_DictionaryOfStringInt32_Add_String_Int32; // 0x150
+        public System.Reflection.ConstructorInfo s_DictionaryOfStringInt32_Ctor_Int32; // 0x158
+        public System.Reflection.MethodInfo s_Type_GetTypeFromHandle; // 0x160
+        public System.Reflection.MethodInfo s_Object_GetType; // 0x168
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_Byte; // 0x170
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_SByte; // 0x178
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_Int16; // 0x180
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_UInt16; // 0x188
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_Int32; // 0x190
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_UInt32; // 0x198
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_Int64; // 0x1A0
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_UInt64; // 0x1A8
+        public System.Reflection.MethodInfo s_Decimal_op_Implicit_Char; // 0x1B0
+        public System.Reflection.MethodInfo s_Math_Pow_Double_Double; // 0x1B8
 
         // ── Methods ──
         public void get_String_Format_String_ObjectArray(){} // RVA: 0x65A7E30
@@ -84,6 +125,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class CatchBlock
     {
+        public System.Linq.Expressions.ParameterExpression <Variable>k__BackingField; // 0x10
+        public System.Type <Test>k__BackingField; // 0x18
+        public System.Linq.Expressions.Expression <Body>k__BackingField; // 0x20
+        public System.Linq.Expressions.Expression <Filter>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DF800 | overloaded x2
         public void get_Variable(){} // RVA: 0x2F8380
@@ -107,6 +153,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class CoalesceConversionBinaryExpression
     {
+        public System.Linq.Expressions.LambdaExpression _conversion; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65B1000
         public void GetConversion(){} // RVA: 0x30B0C0
@@ -116,6 +164,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ConditionalExpression
     {
+        public System.Linq.Expressions.Expression <Test>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <IfTrue>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E00C0 | overloaded x2
         public void Make(){} // RVA: 0x65DFD10
@@ -138,6 +189,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ConstantExpression
     {
+        public object <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E0330 | overloaded x2
         public void get_Type(){} // RVA: 0x65E0270

@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class NamespaceList
     {
+        public 0x6587D8F8 type; // 0x10
+        public System.Collections.Hashtable set; // 0x18
+        public string targetNamespace; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693B3C0 | overloaded x2
         public void Clone(){} // RVA: 0x693B730
@@ -24,6 +28,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class NamespaceListNode
     {
+        public System.Xml.Schema.NamespaceList namespaceList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void GetResolvedSymbols(){} // RVA: 0x6ADA5D0

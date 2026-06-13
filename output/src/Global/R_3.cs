@@ -19,6 +19,8 @@ public class RevokedCertificatesEnumeration : `
 
 public class RevokedCertificatesEnumerator
 {
+    public System.Collections.IEnumerator e; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void MoveNext(){} // RVA: 0x973C6B0
@@ -84,6 +86,8 @@ public class RightShiftUInt64
 
 public class RigidTransform
 {
+    public UnityEngine.Vector3 pos; // 0x10
+
     // ── Methods ──
     public void get_identity(){} // RVA: 0x64A0C30
     public void FromLocal(){} // RVA: 0x64A0CD0
@@ -127,12 +131,7 @@ public class RoomLayoutInternal
 
 public class RotationBySpeedModule
 {
-    public object enabled;
-    public object multiplier;
-    public object multiplierCurve;
-    public object influenceFilter;
-    public object influenceMask;
-    public object influenceCount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -193,14 +192,7 @@ public class RotationOffsetLink
 
 public class RotationOverLifetimeModule
 {
-    public object enabled;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -260,10 +252,10 @@ public class RoutePoint
 
 public class Row
 {
-    public object maxAtlasSize;
-    public object maxImageWidth;
-    public object maxImageHeight;
-    public object virtualWidth;
+    public UnityEngine.UIElements.ObjectPool`1<Row> maxAtlasSize;
+    public int maxImageWidth; // 0x10
+    public int maxImageHeight; // 0x14
+    public int virtualWidth; // 0x18
 
     // ── Methods ──
     public void get_offsetX(){} // RVA: 0x32A5C0
@@ -281,6 +273,11 @@ public class Row
 
 public class Row
 {
+    public UnityEngine.UIElements.ObjectPool`1<Row> s_Pool;
+    public int <offsetX>k__BackingField; // 0x10
+    public int <offsetY>k__BackingField; // 0x14
+    public int <width>k__BackingField; // 0x18
+
     // ── Methods ──
     public void Create(){} // RVA: 0x7335760
     public void Reset(){} // RVA: 0x73357C0
@@ -303,6 +300,9 @@ public class Rune
 
 public class RuntimePanelAccess
 {
+    public UnityEngine.UIElements.PanelSettings m_Settings; // 0x10
+    public UnityEngine.UIElements.BaseRuntimePanel m_RuntimePanel; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_isInitialized(){} // RVA: 0x1D3B060
@@ -318,6 +318,8 @@ public class RuntimePanelAccess
 
 public class RuntimeVariables
 {
+    public System.Runtime.CompilerServices.IStrongBox[] _boxes; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void System.Runtime.CompilerServices.IRuntimeVariables.get_Count(){} // RVA: 0xF3F910
@@ -327,8 +329,7 @@ public class RuntimeVariables
 
 public class RuntimeVariablesExpressionProxy
 {
-    public object Body;
-    public object TestValues;
+    public System.Linq.Expressions.RuntimeVariablesExpression Body; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB920

@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.EC
 {
     public class CustomNamedCurves
     {
+        public System.Collections.IDictionary nameToCurve;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void ConfigureBasepoint(){} // RVA: 0x9644030

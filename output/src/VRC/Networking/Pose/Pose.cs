@@ -50,6 +50,8 @@ namespace VRC.Networking.Pose
 
     public class PoseRemoteUpdate
     {
+        public ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ ÍÌÎÎÎÏÏÌÎÏÏÎÎÌÏÍÎÍÍÎÎÏÍ; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x670160
         public void .ctor_3EB4C9C037AE(){} // RVA: 0x670170

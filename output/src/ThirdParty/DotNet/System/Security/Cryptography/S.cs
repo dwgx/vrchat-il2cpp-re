@@ -140,6 +140,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SignatureDescription
     {
+        public string _strKey; // 0x10
+        public string _strDigest; // 0x18
+        public string _strFormatter; // 0x20
+        public string _strDeformatter; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C9C800 | overloaded x2
         public void get_KeyAlgorithm(){} // RVA: 0x2F8380
@@ -157,6 +162,16 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SymmetricAlgorithm
     {
+        public int BlockSizeValue; // 0x10
+        public int FeedbackSizeValue; // 0x14
+        public byte[] IVValue; // 0x18
+        public byte[] KeyValue; // 0x20
+        public System.Security.Cryptography.KeySizes[] LegalBlockSizesValue; // 0x28
+        public System.Security.Cryptography.KeySizes[] LegalKeySizesValue; // 0x30
+        public int KeySizeValue; // 0x38
+        public 0x657E70A8 ModeValue; // 0x3C
+        public 0x657E7100 PaddingValue; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C9D550
         public void Dispose(){} // RVA: 0x5C9D610 | overloaded x2

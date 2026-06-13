@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class HandledEventArgs
     {
+        public bool <Handled>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C65D10 | overloaded x2
         public void get_Handled(){} // RVA: 0x3A75E0

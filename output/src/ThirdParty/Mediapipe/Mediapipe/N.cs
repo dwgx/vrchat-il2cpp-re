@@ -7,6 +7,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class NativeCategory
     {
+        public int index; // 0x10
+        public float score; // 0x14
+
         // ── Methods ──
         public void get_categoryName(){} // RVA: 0x5ADBBC0
         public void get_displayName(){} // RVA: 0x5ADBC30
@@ -14,6 +17,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeClassificationResult
     {
+        public UIntPtr _classifications; // 0x10
+
         // ── Methods ──
         public void get_classifications(){} // RVA: 0x5ADBD70
         public void Dispose(){} // RVA: 0x5ADBDD0
@@ -21,8 +26,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeClassifications
     {
-        public object categories;
-        public object keypoints;
+        public UIntPtr categories; // 0x10
+        public uint keypoints; // 0x18
 
         // ── Methods ──
         public void get_categories(){} // RVA: 0x5ADBCA0
@@ -31,7 +36,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeDetection
     {
-        public object name;
+        public UIntPtr name; // 0x10
+        public uint categoriesCount; // 0x18
 
         // ── Methods ──
         public void get_categories(){} // RVA: 0x5ADBEF0
@@ -47,6 +53,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeLandmark
     {
+        public float x; // 0x10
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x5ADC150
     }
@@ -66,7 +74,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeNormalizedKeypoint
     {
-        public object _label;
+        public float _label; // 0x10
 
         // ── Methods ──
         public void get_label(){} // RVA: 0x5ADC0E0
@@ -74,6 +82,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeNormalizedLandmark
     {
+        public float x; // 0x10
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x5ADC1C0
     }
@@ -97,6 +107,20 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmark
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.NormalizedLandmark> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int XFieldNumber;
+        public float XDefaultValue; // 0x8
+        public float x_; // 0x1C
+        public int YFieldNumber;
+        public float YDefaultValue; // 0xC
+        public float y_; // 0x20
+        public int ZFieldNumber;
+        public float ZDefaultValue; // 0x10
+        public float z_; // 0x24
+        public int VisibilityFieldNumber;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B13440
         public void get_Descriptor(){} // RVA: 0x5B134A0
@@ -136,6 +160,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmarkList
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.NormalizedLandmarkList> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int LandmarkFieldNumber;
+        public Google.Protobuf.FieldCodec`1<Mediapipe.NormalizedLandmark> _repeated_landmark_codec; // 0x8
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B14410
         public void get_Descriptor(){} // RVA: 0x5B14470
@@ -156,6 +185,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmarkListCollection
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.NormalizedLandmarkListCollection> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.NormalizedLandmarkList> _repeated_landmarkList_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.NormalizedLandmarkList> landmarkList_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B15380
         public void get_Descriptor(){} // RVA: 0x5B153E0
@@ -176,6 +210,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedRect
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.NormalizedRect> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int XCenterFieldNumber;
+        public float XCenterDefaultValue; // 0x8
+        public float xCenter_; // 0x1C
+        public int YCenterFieldNumber;
+        public float YCenterDefaultValue; // 0xC
+        public float yCenter_; // 0x20
+        public int HeightFieldNumber;
+        public float HeightDefaultValue; // 0x10
+        public float height_; // 0x24
+        public int WidthFieldNumber;
+        public float WidthDefaultValue; // 0x14
+        public float width_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B20600
         public void get_Descriptor(){} // RVA: 0x5B20660

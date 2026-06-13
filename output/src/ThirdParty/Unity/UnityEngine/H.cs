@@ -129,6 +129,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanBone
     {
+        public string m_BoneName; // 0x10
+        public string m_HumanName; // 0x18
+
         // ── Methods ──
         public void get_boneName(){} // RVA: 0x2738C50
         public void set_boneName(){} // RVA: 0x100A2F0
@@ -138,6 +141,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanDescription
     {
+        public UnityEngine.HumanBone[] human; // 0x10
+        public UnityEngine.SkeletonBone[] skeleton; // 0x18
+        public float m_ArmTwist; // 0x20
+        public float m_ForeArmTwist; // 0x24
+        public float m_UpperLegTwist; // 0x28
+        public float m_LegTwist; // 0x2C
+        public float m_ArmStretch; // 0x30
+        public float m_LegStretch; // 0x34
+
         // ── Methods ──
         public void get_upperArmTwist(){} // RVA: 0x707C4A0
         public void set_upperArmTwist(){} // RVA: 0x407330
@@ -159,6 +171,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanLimit
     {
+        public UnityEngine.Vector3 m_Min; // 0x10
+        public UnityEngine.Vector3 m_Max; // 0x1C
+        public UnityEngine.Vector3 m_Center; // 0x28
+        public float m_AxisLength; // 0x34
+        public int m_UseDefaultValues; // 0x38
+
         // ── Methods ──
         public void get_useDefaultValues(){} // RVA: 0x707C4D0
         public void set_useDefaultValues(){} // RVA: 0x707C4E0

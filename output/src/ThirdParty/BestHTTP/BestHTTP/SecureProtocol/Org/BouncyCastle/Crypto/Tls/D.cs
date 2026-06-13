@@ -17,6 +17,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DefaultTlsAgreementCredentials
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.Certificate mCertificate; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x951BBF0
         public void get_Certificate(){} // RVA: 0x2F8380
@@ -68,6 +70,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DefaultTlsDHVerifier
     {
+        public int DefaultMinimumPrimeBits;
+
         // ── Methods ──
         public void AddDefaultGroup(){} // RVA: 0x951DBB0
         public void .cctor(){} // RVA: 0x951DC40
@@ -82,6 +86,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DefaultTlsEncryptionCredentials
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsContext mContext; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x951E8D0
         public void get_Certificate(){} // RVA: 0x2E07C0
@@ -109,6 +115,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DefaultTlsSignerCredentials
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsContext mContext; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.Certificate mCertificate; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x951F490 | overloaded x2
         public void get_Certificate(){} // RVA: 0x2E07C0
@@ -128,6 +137,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DeferredHash
     {
+        public int BUFFERING_HASH_LIMIT;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95202B0 | overloaded x2
         public void Init(){} // RVA: 0x2DEE30
@@ -157,6 +168,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DigitallySigned
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.SignatureAndHashAlgorithm mAlgorithm; // 0x10
+        public byte[] mSignature; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9521D20
         public void get_Algorithm(){} // RVA: 0x2F8380
@@ -190,6 +204,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DtlsEpoch
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.DtlsReplayWindow mReplayWindow; // 0x10
+        public int mEpoch; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsCipher mCipher; // 0x20
+        public long mSequenceNumber; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9525AA0
         public void AllocateSequenceNumber(){} // RVA: 0x9525C60
@@ -219,7 +238,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DtlsReassembler
     {
-        public object ReadEpoch;
+        public byte ReadEpoch; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9526450
@@ -231,6 +250,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DtlsRecordLayer
     {
+        public int RECORD_HEADER_LENGTH;
+        public int MAX_FRAGMENT_LENGTH;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9526A80
         public void SetPlaintextLimit(){} // RVA: 0x9526E00
@@ -258,6 +280,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DtlsReliableHandshake
     {
+        public int MaxReceiveAhead;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95288E0
         public void NotifyHelloComplete(){} // RVA: 0x9528B70
@@ -292,6 +316,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DtlsServerProtocol
     {
+        public bool mVerifyRequests; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x952AD50
         public void get_VerifyRequests(){} // RVA: 0x2F84E0

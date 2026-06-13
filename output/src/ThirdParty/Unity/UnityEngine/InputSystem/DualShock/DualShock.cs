@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 {
     public class DualSenseGamepadHID
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftTriggerButton>k__BackingField; // 0x288
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightTriggerButton>k__BackingField; // 0x290
+        public UnityEngine.InputSystem.Controls.ButtonControl <playStationButton>k__BackingField; // 0x298
+
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0xD94490
         public void set_leftTriggerButton(){} // RVA: 0xD83C70
@@ -32,6 +36,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShock3GamepadHID
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftTriggerButton>k__BackingField; // 0x288
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightTriggerButton>k__BackingField; // 0x290
+        public UnityEngine.InputSystem.Controls.ButtonControl <playStationButton>k__BackingField; // 0x298
+
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0xD94490
         public void set_leftTriggerButton(){} // RVA: 0xD83C70
@@ -45,6 +53,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShock4GamepadHID
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftTriggerButton>k__BackingField; // 0x288
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightTriggerButton>k__BackingField; // 0x290
+        public UnityEngine.InputSystem.Controls.ButtonControl <playStationButton>k__BackingField; // 0x298
+
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0xD94490
         public void set_leftTriggerButton(){} // RVA: 0xD83C70
@@ -68,6 +80,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShockGamepad
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadButton>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.ButtonControl <optionsButton>k__BackingField; // 0x218
+        public UnityEngine.InputSystem.Controls.ButtonControl <shareButton>k__BackingField; // 0x220
+        public UnityEngine.InputSystem.Controls.ButtonControl <L1>k__BackingField; // 0x228
+        public UnityEngine.InputSystem.Controls.ButtonControl <R1>k__BackingField; // 0x230
+        public UnityEngine.InputSystem.Controls.ButtonControl <L2>k__BackingField; // 0x238
+        public UnityEngine.InputSystem.Controls.ButtonControl <R2>k__BackingField; // 0x240
+        public UnityEngine.InputSystem.Controls.ButtonControl <L3>k__BackingField; // 0x248
+        public UnityEngine.InputSystem.Controls.ButtonControl <R3>k__BackingField; // 0x250
+        public UnityEngine.InputSystem.DualShock.DualShockGamepad <current>k__BackingField;
+        public HIDDeviceDescriptor <hidDescriptor>k__BackingField; // 0x258
+
         // ── Methods ──
         public void get_touchpadButton(){} // RVA: 0xD9F7C0
         public void set_touchpadButton(){} // RVA: 0xD9BA80

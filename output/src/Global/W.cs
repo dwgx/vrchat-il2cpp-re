@@ -11,6 +11,8 @@ public class WIN32_FILE_ATTRIBUTE_DATA
 
 public class WIN32_FIND_DATA
 {
+    public uint dwFileAttributes; // 0x10
+
     // ── Methods ──
     public void get_cFileName(){} // RVA: 0x5BF2AF0
     public void SetFileName(){} // RVA: 0x5BF2B40
@@ -29,6 +31,10 @@ public class WTauNafCallback : `
 
 public class WaitAsyncSource
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitAsyncSource<T>> pool;
+    public WaitAsyncSource<T> nextNode;
+
     // ── Methods ──
     public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.AsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -52,6 +58,10 @@ public class WaitAsyncSource
 
 public class WaitAsyncSource
 {
+    public System.Action`1<object> cancellationCallback;
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitAsyncSource<T>> pool;
+    public WaitAsyncSource<T> nextNode;
+
     // ── Methods ──
     public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.ReadOnlyAsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -96,6 +106,8 @@ public class WaitForAuthorisationToAccessPhotos
 
 public class WaitForCompletion
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92BA0
     public void .ctor(){} // RVA: 0x2DEE30
@@ -103,6 +115,8 @@ public class WaitForCompletion
 
 public class WaitForElapsedLoops
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92C70
     public void .ctor(){} // RVA: 0x1D66A50
@@ -110,6 +124,9 @@ public class WaitForElapsedLoops
 
 public class WaitForEndOfFramePromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitForEndOfFramePromise> pool;
+    public WaitForEndOfFramePromise nextNode; // 0x10
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF4FA0
@@ -127,6 +144,8 @@ public class WaitForEndOfFramePromise
 
 public class WaitForKill
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92C50
     public void .ctor(){} // RVA: 0x2DEE30
@@ -138,6 +157,8 @@ public class WaitForLastPresentationAndUpdateTime
 
 public class WaitForPosition
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92CB0
     public void .ctor(){} // RVA: 0x1E92D00
@@ -145,6 +166,8 @@ public class WaitForPosition
 
 public class WaitForRewind
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92BE0
     public void .ctor(){} // RVA: 0x2DEE30
@@ -152,6 +175,8 @@ public class WaitForRewind
 
 public class WaitForStart
 {
+    public DG.Tweening.Tween t; // 0x10
+
     // ── Methods ──
     public void get_keepWaiting(){} // RVA: 0x1E92D60
     public void .ctor(){} // RVA: 0x2DEE30
@@ -159,6 +184,8 @@ public class WaitForStart
 
 public class WaitUntilCanceledPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilCanceledPromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CFA8C0
@@ -174,6 +201,8 @@ public class WaitUntilCanceledPromise
 
 public class WaitUntilPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilPromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF9080
@@ -189,6 +218,8 @@ public class WaitUntilPromise
 
 public class WaitUntilPromise`1
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilPromise`1<T>> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -204,6 +235,8 @@ public class WaitUntilPromise`1
 
 public class WaitUntilValueChangedStandardObjectPromise`2
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilValueChangedStandardObjectPromise`2<U,T>> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -220,6 +253,8 @@ public class WaitUntilValueChangedStandardObjectPromise`2
 
 public class WaitUntilValueChangedUnityObjectPromise`2
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilValueChangedUnityObjectPromise`2<U,U>> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -236,6 +271,8 @@ public class WaitUntilValueChangedUnityObjectPromise`2
 
 public class WaitWhilePromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitWhilePromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CF9CA0
@@ -251,6 +288,8 @@ public class WaitWhilePromise
 
 public class WaitWhilePromise`1
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<WaitWhilePromise`1<T>> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0xCD60
     public void .cctor(){} // RVA: 0x24A80
@@ -274,10 +313,13 @@ public class WapiP192V1Holder
 
 public class Waypoint
 {
+    public UnityEngine.Vector3 position; // 0x10
 }
 
 public class Waypoint
 {
+    public UnityEngine.Vector3 position; // 0x10
+
     // ── Methods ──
     public void get_AsVector4(){} // RVA: 0x1A53750
     public void FromVector4(){} // RVA: 0x1CEB620
@@ -346,6 +388,9 @@ public class WellKnownNoReferenceContainsType`1
 
 public class WhenAllPromise
 {
+    public System.Threading.Tasks.Task[] m_tasks; // 0x58
+    public int m_count; // 0x60
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CFB350
     public void TryInvokeContinuation(){} // RVA: 0x6CFB620
@@ -357,6 +402,9 @@ public class WhenAllPromise
 
 public class WhenAllPromise
 {
+    public System.Threading.Tasks.Task[] m_tasks; // 0x58
+    public int m_count; // 0x60
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5F4F6E0
     public void Invoke(){} // RVA: 0x5F4F900
@@ -366,6 +414,9 @@ public class WhenAllPromise
 
 public class WhenAllPromise`1
 {
+    public System.Threading.Tasks.Task`1<T>[] m_tasks;
+    public int m_count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4B603C0
     public void TryInvokeContinuation(){} // RVA: 0x4B60840
@@ -378,6 +429,9 @@ public class WhenAllPromise`1
 
 public class WhenAllPromise`1
 {
+    public System.Threading.Tasks.Task`1<T>[] m_tasks;
+    public int m_count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BAA0
     public void TryInvokeContinuation(){} // RVA: 0x2DDA0
@@ -390,6 +444,9 @@ public class WhenAllPromise`1
 
 public class WhenAllPromise`1
 {
+    public System.Threading.Tasks.Task`1<T>[] m_tasks;
+    public int m_count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void Invoke(){} // RVA: 0x24B10
@@ -399,10 +456,15 @@ public class WhenAllPromise`1
 
 public class WhenAllPromise`1
 {
+    public System.Threading.Tasks.Task`1<T>[] m_tasks;
+    public int m_count;
 }
 
 public class WhenAllPromise`1
 {
+    public System.Threading.Tasks.Task`1<T>[] m_tasks;
+    public int m_count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4B603C0
     public void TryInvokeContinuation(){} // RVA: 0x4B60840

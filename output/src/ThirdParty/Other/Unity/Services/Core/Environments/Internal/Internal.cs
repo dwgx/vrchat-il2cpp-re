@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Environments.Internal
 {
     public class Environments
     {
+        public string <Current>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void set_Current(){} // RVA: 0x2DEE30

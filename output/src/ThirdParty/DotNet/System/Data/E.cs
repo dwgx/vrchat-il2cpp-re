@@ -331,6 +331,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class ExpressionNode
     {
+        public System.Data.DataTable _table; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_FormatProvider(){} // RVA: 0x671D690

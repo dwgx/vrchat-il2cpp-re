@@ -7,6 +7,13 @@ namespace ThirdParty.Other.PlatformSupport.Collections.ObjectModel
 {
     public class ObservableDictionary`2
     {
+        public string CountString;
+        public string IndexerName;
+        public string KeysName;
+        public string ValuesName;
+        public System.Collections.Generic.IDictionary`2<U,T> _Dictionary;
+        public PlatformSupport.Collections.Specialized.NotifyCollectionChangedEventHandler CollectionChanged;
+
         // ── Methods ──
         public void get_Dictionary(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x26C40 | overloaded x6

@@ -36,6 +36,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarController
     {
+        public 0x658D7688 m_CarDriveType; // 0x20
+        public UnityEngine.WheelCollider[] m_WheelColliders; // 0x28
+        public UnityEngine.GameObject[] m_WheelMeshes; // 0x30
+        public UnityStandardAssets.Vehicles.Car.WheelEffects[] m_WheelEffects; // 0x38
+        public UnityEngine.Vector3 m_CentreOfMassOffset; // 0x40
+        public float m_MaximumSteerAngle; // 0x4C
+        public float m_SteerHelper; // 0x50
+
         // ── Methods ──
         public void get_Skidding(){} // RVA: 0x2FE4C0
         public void set_Skidding(){} // RVA: 0x2FE4D0
@@ -109,8 +117,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class WheelEffects
     {
-        public object deltaStateSizeInBytes;
-        public object deltaState;
+        public UnityEngine.Transform deltaStateSizeInBytes; // 0x20
+        public UnityEngine.Transform deltaState;
 
         // ── Methods ──
         public void get_skidding(){} // RVA: 0x303450

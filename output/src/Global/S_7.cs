@@ -86,6 +86,16 @@ public class Subscriber : ͍
 
 public class Subscription
 {
+    public string <steamItemId>k__BackingField; // 0x68
+    public string <oculusSku>k__BackingField; // 0x70
+    public string <googleProductId>k__BackingField; // 0x78
+    public string <picoSku>k__BackingField; // 0x80
+    public int <amount>k__BackingField; // 0x88
+    public string <description>k__BackingField; // 0x90
+    public string <interval>k__BackingField; // 0x98
+    public int <periodAmount>k__BackingField; // 0xA0
+    public int <tier>k__BackingField; // 0xA4
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DC60
     public void Dispose(){} // RVA: 0x24A50
@@ -93,6 +103,16 @@ public class Subscription
 
 public class Subscription
 {
+    public string <steamItemId>k__BackingField; // 0x68
+    public string <oculusSku>k__BackingField; // 0x70
+    public string <googleProductId>k__BackingField; // 0x78
+    public string <picoSku>k__BackingField; // 0x80
+    public int <amount>k__BackingField; // 0x88
+    public string <description>k__BackingField; // 0x90
+    public string <interval>k__BackingField; // 0x98
+    public int <periodAmount>k__BackingField; // 0xA0
+    public int <tier>k__BackingField; // 0xA4
+
     // ── Methods ──
     public void get_steamItemId(){} // RVA: 0x358D50
     public void set_steamItemId(){} // RVA: 0x358D60
@@ -123,8 +143,7 @@ public class Surname
 
 public class SwitchCaseProxy
 {
-    public object CanReduce;
-    public object Cases;
+    public System.Linq.Expressions.SwitchCase CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DBA00
@@ -134,14 +153,7 @@ public class SwitchCaseProxy
 
 public class SwitchExpressionProxy
 {
-    public object Body;
-    public object CanReduce;
-    public object DebugView;
-    public object Fault;
-    public object Finally;
-    public object Handlers;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.SwitchExpression Body; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DBAE0
@@ -163,6 +175,8 @@ public class SwitchFullInputReport
 
 public class SwitchHIDGenericInputReport
 {
+    public byte reportId; // 0x10
+
     // ── Methods ──
     public void get_Format(){} // RVA: 0x6EBFB70
 }
@@ -175,6 +189,9 @@ public class SwitchInputOnlyReport
 
 public class SwitchMagicOutputHIDBluetooth
 {
+    public int kSize;
+    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0x6EBFB80
     public void get_typeStatic(){} // RVA: 0x6EBFB80
@@ -183,6 +200,9 @@ public class SwitchMagicOutputHIDBluetooth
 
 public class SwitchMagicOutputHIDUSB
 {
+    public int kSize;
+    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0x6EBFB80
     public void get_typeStatic(){} // RVA: 0x6EBFB80
@@ -207,6 +227,8 @@ public class SymbolTables
 
 public class SyncHashtable
 {
+    public System.Collections.Hashtable _table; // 0x50
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E0D2C0 | overloaded x2
     public void GetObjectData(){} // RVA: 0x5E0D320
@@ -233,6 +255,9 @@ public class SyncHashtable
 
 public class SyncSortedList
 {
+    public System.Collections.SortedList _list; // 0x48
+    public object _root; // 0x50
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFFA70
     public void get_Count(){} // RVA: 0x5DFFB70
@@ -276,6 +301,8 @@ public class SyncTextReader
 
 public class SyncTextWriter
 {
+    public System.IO.TextWriter _out; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E3B360
     public void get_Encoding(){} // RVA: 0x5E3B440
@@ -309,6 +336,11 @@ public class SynchronizeState
 
 public class SynchronousAsyncResult
 {
+    public object _stateObject; // 0x10
+    public bool _isWrite; // 0x18
+    public System.Threading.ManualResetEvent _waitHandle; // 0x20
+    public System.Runtime.ExceptionServices.ExceptionDispatchInfo _exceptionInfo; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E53620 | overloaded x3
     public void get_IsCompleted(){} // RVA: 0x3C2850

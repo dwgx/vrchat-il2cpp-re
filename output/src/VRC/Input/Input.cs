@@ -28,6 +28,10 @@ namespace VRC.Input
     /// <summary>Originally: ÍÏÍÍÏÌÌÍÍÏÏÌÌÍÎÎÍÌÏÍÍÏÌ</summary>
     public class InputControlBinding_FB76
     {
+        public bool ÌÏÌÌÎÌÎÍÏÌÌÎÏÌÌÌÌÏÍÏÌÎÍ; // 0x38
+        public float m_MovementRange; // 0x3C
+        public string m_ControlPath; // 0x40
+
         // ── Methods ──
         public void Start_A9A0B0FDF305(){} // RVA: 0xAB32A0
         public void .ctor(){} // RVA: 0xAB33A0
@@ -57,6 +61,10 @@ namespace VRC.Input
     /// <summary>Originally: ÍÍÌÍÍÌÍÎÌÍÏÎÏÌÏÎÎÎÌÎÌÎÌ</summary>
     public class InputHandler_3DA9
     {
+        public float <ÌÎÌÏÏÏÎÏÌÏÍÌÍÏÎÏÍÍÌÎÎÍÎ>k__BackingField; // 0x10
+        public float <ÌÌÌÎÌÏÌÍÏÎÌÎÎÏÍÎÏÍÏÎÎÎÎ>k__BackingField; // 0x14
+        public float <ÏÌÏÌÎÎÎÍÌÎÏÏÏÌÍÎÎÏÍÍÏÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_min(){} // RVA: 0x1F78330
         public void set_max(){} // RVA: 0x1F78350
@@ -95,6 +103,11 @@ namespace VRC.Input
     /// <summary>Originally: ÏÍÍÎÍÌÌÌÏÌÌÌÌÎÌÌÎÍÏÏÌÍÎ</summary>
     public class InputHandler_7493
     {
+        public float <ÎÎÍÎÍÌÎÏÍÏÍÏÌÌÍÍÏÌÎÍÎÎÌ>k__BackingField; // 0x10
+        public float <ÌÎÌÏÏÏÎÏÌÏÍÌÍÏÎÏÍÍÌÎÎÍÎ>k__BackingField; // 0x14
+        public float <ÌÌÌÎÌÏÌÍÏÎÌÎÎÏÍÎÏÍÏÎÎÎÎ>k__BackingField; // 0x18
+        public float <ÏÌÏÌÎÎÎÍÌÎÏÏÏÌÍÎÎÏÍÍÏÏÎ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void set_min(){} // RVA: 0x1F78330
         public void TryGetFeatureValue_bool(){} // RVA: 0x1D26670
@@ -116,6 +129,11 @@ namespace VRC.Input
     /// <summary>Originally: ÌÍÌÍÏÌÌÏÌÍÎÌÏÌÎÌÍÌÌÎÌÍÌ</summary>
     public class InputHandler_809D
     {
+        public ÌÎÎÏÍÌÏÎÏÏÏÌÍÍÌÌÍÎÎÌÎÏÏ ÍÍÏÏÌÎÎÌÏÎÍÍÎÌÏÍÎÎÌÎÎÏÍ; // 0x20
+        public float radius; // 0x28
+        public bool ÏÌÏÍÌÏÎÍÏÍÌÎÎÍÌÍÏÎÏÎÎÍÏ; // 0x2C
+        public UnityEngine.Vector3 ÏÍÏÍÏÏÌÎÎÏÎÌÏÍÌÎÏÌÌÏÍÏÌ; // 0x30
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x462D00
         public void .ctor(){} // RVA: 0xB54810
@@ -215,7 +233,7 @@ namespace VRC.Input
     /// <summary>Originally: ÌÏÎÎÍÍÌÎÎÏÏÎÎÎÎÎÎÌÏÍÏÍÎ</summary>
     public class UiInputFieldSiblingSibling_51EE
     {
-        public object _51EE;
+        public UnityEngine.UI.InputField _51EE; // 0x20
 
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x17C9D60
@@ -234,13 +252,16 @@ namespace VRC.Input
         public void OnScroll(){} // RVA: 0x17CB210
         public void OnEndEdit(){} // RVA: 0x17CB650
         public void OnPointerExit(){} // RVA: 0x17CBCC0
-        public void SetText(){} // RVA: 0x17CBDF0
         public void OnValueChanged_7B90950F2F00(){} // RVA: 0x17CBF20
+        // ── Unresolved (hash) ──
+        public void m_FE4(){} // RVA: 0x17CBDF0
     }
 
     /// <summary>Originally: ÎÏÏÎÎÎÌÍÏÍÍÍÌÍÌÍÌÍÎÏÏÌÏ</summary>
     public class UiInputFieldSiblingSibling_D58B
     {
+        public TMPro.TMP_InputField ÍÎÏÍÏÏÌÍÌÏÎÎÍÎÎÎÌÌÍÎÌÍÎ; // 0x20
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x6374D0
         public void OnPointerExit(){} // RVA: 0x6374D0
@@ -260,6 +281,8 @@ namespace VRC.Input
     /// <summary>Originally: ÌÌÍÏÍÍÌÌÌÌÏÍÎÌÍÎÎÏÎÏÌÏÍ</summary>
     public class UiInputFieldSibling_574B
     {
+        public VRC.SDK3.Components.VRCUrlInputField ÍÎÏÍÏÏÌÍÌÏÎÎÍÎÎÎÌÌÍÎÌÍÎ; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x18EC980
         public void OnPointerEnter(){} // RVA: 0x18ECA80

@@ -25,6 +25,8 @@ namespace VRC.UI.Client.Groups
 
     public class GroupsStorage
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÏÍÍÎÏÎÌÏÍÍÍÌÎÏÏÎÌÎÌÏÌÏÎ> _local; // 0x10
+
         // ── Methods ──
         public void CheckGroupsStorage(){} // RVA: 0xCB5E70
         public void UpdateGroupsStorage(){} // RVA: 0xCB6040

@@ -7,6 +7,11 @@ namespace ThirdParty.Other.Unity.Profiling
 {
     public class DebugScreenCapture
     {
+        public Unity.Collections.NativeArray`1<byte> <RawImageDataReference>k__BackingField; // 0x10
+        public 0x65898078 <ImageFormat>k__BackingField; // 0x20
+        public int <Width>k__BackingField; // 0x24
+        public int <Height>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_RawImageDataReference(){} // RVA: 0x1A53740
         public void set_ImageFormat(){} // RVA: 0x2E00C0
@@ -22,6 +27,8 @@ namespace ThirdParty.Other.Unity.Profiling
 
     public class ProfilerCategory
     {
+        public ushort m_CategoryId; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1FA6400
         public void get_Name(){} // RVA: 0x70B67C0
@@ -43,6 +50,9 @@ namespace ThirdParty.Other.Unity.Profiling
 
     public class ProfilerRecorder
     {
+        public ulong handle; // 0x10
+        public 0x658932C8 SharedRecorder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70B68F0
         public void StartNew(){} // RVA: 0x70B6980

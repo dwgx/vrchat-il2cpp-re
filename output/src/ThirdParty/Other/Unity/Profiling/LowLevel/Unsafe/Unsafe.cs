@@ -11,7 +11,8 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 
     public class ProfilerRecorderDescription
     {
-        public object Valid;
+        public Unity.Profiling.ProfilerCategory Valid; // 0x10
+        public 0x658934D8 flags; // 0x12
 
         // ── Methods ──
         public void get_Category(){} // RVA: 0x1FA63F0
@@ -20,6 +21,8 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 
     public class ProfilerRecorderHandle
     {
+        public ulong handle; // 0x10
+
         // ── Methods ──
         public void get_Valid(){} // RVA: 0x70B70A0
         public void GetDescription(){} // RVA: 0x70B70C0

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class MergeFailedEventArgs
     {
+        public System.Data.DataTable <Table>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6729650
         public void get_Conflict(){} // RVA: 0x2E07C0

@@ -13,6 +13,12 @@ namespace ThirdParty.DotNet.System.Net
 
     public class RequestStream
     {
+        public byte[] buffer; // 0x28
+        public int offset; // 0x30
+        public int length; // 0x34
+        public long remaining_body; // 0x38
+        public bool disposed; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6DF30 | overloaded x2
         public void get_CanRead(){} // RVA: 0x3C2850
@@ -36,6 +42,12 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ResponseDescription
     {
+        public bool Multiline; // 0x10
+        public int Status; // 0x14
+        public string StatusDescription; // 0x18
+        public System.Text.StringBuilder StatusBuffer; // 0x20
+        public string StatusCodeString; // 0x28
+
         // ── Methods ──
         public void get_PositiveIntermediate(){} // RVA: 0x6CD2E00
         public void get_PositiveCompletion(){} // RVA: 0x6CD2E20
@@ -47,6 +59,12 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ResponseStream
     {
+        public System.Net.HttpListenerResponse response; // 0x28
+        public bool ignore_errors; // 0x30
+        public bool disposed; // 0x31
+        public bool trailer_sent; // 0x32
+        public System.IO.Stream stream; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6EC00
         public void get_CanRead(){} // RVA: 0x2DD320

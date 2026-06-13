@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class ValidationEventArgs
     {
+        public System.Xml.Schema.XmlSchemaException ex; // 0x10
+        public 0x65880760 severity; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x698E2E0 | overloaded x2
         public void get_Severity(){} // RVA: 0x5BED50

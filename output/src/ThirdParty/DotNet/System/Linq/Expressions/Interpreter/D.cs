@@ -16,6 +16,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class DecrementInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -26,6 +30,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class DefaultValueInstruction
     {
+        public System.Type _type; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -42,6 +48,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class DivInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -52,6 +62,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class DupInstruction
     {
+        public System.Linq.Expressions.Interpreter.DupInstruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

@@ -113,6 +113,8 @@ public class ILEmitResolverBuilderRuntimeContext
 
 public class IListWrapper
 {
+    public System.Collections.IList _list; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E06410
     public void set_Capacity(){} // RVA: 0x5E06490
@@ -143,6 +145,8 @@ public class IListWrapper
 
 public class IMDrawBuffer`1
 {
+    public UnityEngine.Mesh mesh;
+
     // ── Methods ──
     public void get_UseStructuredBuffers(){} // RVA: 0xDC10
     public void set_UseStructuredBuffers(){} // RVA: 0x24F20
@@ -162,6 +166,8 @@ public class IMDrawBuffer`1
 
 public class IMDrawBuffer`1
 {
+    public UnityEngine.Mesh mesh; // 0x10
+
     // ── Methods ──
     public void get_UseStructuredBuffers(){} // RVA: 0x35250B0
     public void set_UseStructuredBuffers(){} // RVA: 0x3525150
@@ -181,6 +187,8 @@ public class IMDrawBuffer`1
 
 public class IMDrawBuffer`1
 {
+    public UnityEngine.Mesh mesh; // 0x10
+
     // ── Methods ──
     public void get_UseStructuredBuffers(){} // RVA: 0x35250B0
     public void set_UseStructuredBuffers(){} // RVA: 0x3525150
@@ -269,6 +277,9 @@ public class IPLGainNudgeData
 
 public class IPSQuery
 {
+    public string <require>k__BackingField; // 0x68
+    public string <include>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_require(){} // RVA: 0x358D50
     public void set_require(){} // RVA: 0x358D60
@@ -431,6 +442,9 @@ public class IgnoreDelegate
 
 public class IgnoresCaseHashtable
 {
+    public System.Collections.IDictionary orig; // 0x10
+    public System.Collections.IDictionary keys; // 0x18
+
     // ── Methods ──
     public void Clear(){} // RVA: 0x98B6650
     public void GetEnumerator(){} // RVA: 0x98B66C0
@@ -444,6 +458,17 @@ public class IgnoresCaseHashtable
 
 public class ImageDownloader
 {
+    public string NATIVE_LIB;
+    public float MINIMUM_DELAY_BETWEEN_REQUESTS;
+    public int MAXIMUM_DIMENSION;
+    public int MAX_BUFFER_SIZE;
+    public int SLICE_SIZE_BYTES;
+    public float _lastImageRequest;
+    public System.Threading.CancellationTokenSource _cancellationTokenSource; // 0x10
+    public int _sizeInMemoryBytes; // 0x18
+    public 0x6597D3F0 <State>k__BackingField; // 0x1C
+    public 0x6597D398 <Error>k__BackingField; // 0x20
+
     // ── Methods ──
     public void get_State(){} // RVA: 0x197C3B0
     public void set_State(){} // RVA: 0x1989FD0
@@ -546,6 +571,8 @@ public class ImageResult
 
 public class ImmutableBox
 {
+    public object _defaultValue; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5AF0
     public void Run(){} // RVA: 0x66463C0
@@ -554,6 +581,10 @@ public class ImmutableBox
 
 public class ImmutableCollectionTypeInfo
 {
+    public string <ContractTypeName>k__BackingField; // 0x10
+    public string <CreatedTypeName>k__BackingField; // 0x18
+    public string <BuilderTypeName>k__BackingField; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3BCE00
     public void get_ContractTypeName(){} // RVA: 0x2F8380
@@ -574,6 +605,8 @@ public class ImmutableRefBox
 
 public class ImmutableValue
 {
+    public object _defaultValue; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5AF0
     public void Run(){} // RVA: 0x6646250
@@ -593,6 +626,8 @@ public class ImposterData
 
 public class ImpulseEvent
 {
+    public float m_StartTime; // 0x10
+
     // ── Methods ──
     public void get_Expired(){} // RVA: 0x1D34200
     public void Cancel(){} // RVA: 0x1D342B0
@@ -667,12 +702,7 @@ public class IncrementUInt64
 
 public class IndexExpressionProxy
 {
-    public object Arguments;
-    public object CanReduce;
-    public object DebugView;
-    public object Expression;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.IndexExpression Arguments; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DADE0
@@ -702,6 +732,12 @@ public class IndexedConverter`2
 
 public class IndirectDrawIndexedArgs
 {
+    public int size;
+    public uint <indexCountPerInstance>k__BackingField; // 0x10
+    public uint <instanceCount>k__BackingField; // 0x14
+    public uint <startIndex>k__BackingField; // 0x18
+    public uint <baseVertexIndex>k__BackingField; // 0x1C
+
     // ── Methods ──
     public void set_indexCountPerInstance(){} // RVA: 0x833580
     public void set_instanceCount(){} // RVA: 0x19689D0
@@ -712,6 +748,8 @@ public class IndirectDrawIndexedArgs
 
 public class InfiniteTimer
 {
+    public int cancelled; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6B310E0
     public void get_HasExpired(){} // RVA: 0x2DD320
@@ -727,12 +765,20 @@ public class InfiniteTimerQueue
 
 public class Info
 {
+    public string <period>k__BackingField; // 0x68
+    public int <periodAmount>k__BackingField; // 0x70
+    public System.Nullable`1<0x657CE450> periodEnum; // 0x74
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3D90E20
 }
 
 public class Info
 {
+    public string <period>k__BackingField; // 0x68
+    public int <periodAmount>k__BackingField; // 0x70
+    public System.Nullable`1<0x657CE450> periodEnum; // 0x74
+
     // ── Methods ──
     public void get_period(){} // RVA: 0x358D50
     public void set_period(){} // RVA: 0x358D60
@@ -744,6 +790,8 @@ public class Info
 
 public class InheritVelocityModule
 {
+    public UnityEngine.ParticleSystem m_ParticleSystem; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void get_enabled(){} // RVA: 0x71BD1D0

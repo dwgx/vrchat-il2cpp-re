@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DOTween.DG.Tweening.Core
-// Classes: 14
-// Methods: 126
+// Classes: 30
+// Methods: 262
 
 namespace ThirdParty.DOTween.DG.Tweening.Core
 {
@@ -20,6 +20,51 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void EndInvoke(){} // RVA: 0x283FA0
     }
 
+    public class DOGetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB97E0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x20356F0
+    }
+
+    public class DOGetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9600
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x14F6C90
+    }
+
+    public class DOGetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB98B0
+        public void Invoke(){} // RVA: 0x2BB9980
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2BB99C0
+    }
+
+    public class DOGetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9390
+        public void Invoke(){} // RVA: 0x2BB9460
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1D1DE50
+    }
+
+    public class DOGetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9390
+        public void Invoke(){} // RVA: 0x2BB9460
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1D1DE50
+    }
+
     public class DOSetter`1
     {
         // ── Methods ──
@@ -27,6 +72,51 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void Invoke(){} // RVA: 0x283FA0
         public void BeginInvoke(){} // RVA: 0x283FA0
         public void EndInvoke(){} // RVA: 0x24B10
+    }
+
+    public class DOSetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BBA150
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2BBA220
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class DOSetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9C40
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2BB9FC0
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class DOSetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BBA2A0
+        public void Invoke(){} // RVA: 0x2BBA370
+        public void BeginInvoke(){} // RVA: 0x2BBA3A0
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class DOSetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9A20
+        public void Invoke(){} // RVA: 0x2BB9AF0
+        public void BeginInvoke(){} // RVA: 0x2BB9EA0
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class DOSetter`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9A20
+        public void Invoke(){} // RVA: 0x2BB9AF0
+        public void BeginInvoke(){} // RVA: 0x2BB9B20
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     public class DOTweenComponent
@@ -69,6 +159,8 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class Debugger
     {
+        public int _logPriority;
+
         // ── Methods ──
         public void get_logPriority(){} // RVA: 0x1EA6050
         public void Log(){} // RVA: 0x1EA6090
@@ -96,6 +188,11 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class SafeModeReport
     {
+        public int <totMissingTargetOrFieldErrors>k__BackingField; // 0x10
+        public int <totCallbackErrors>k__BackingField; // 0x14
+        public int <totStartupErrors>k__BackingField; // 0x18
+        public int <totUnsetErrors>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_totMissingTargetOrFieldErrors(){} // RVA: 0x19689B0
         public void set_totMissingTargetOrFieldErrors(){} // RVA: 0x833580
@@ -181,6 +278,96 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void UpdateDelay(){} // RVA: 0x22A00
         public void Startup(){} // RVA: 0xDBE0
         public void ApplyTween(){}
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4453850
+        public void ChangeStartValue(){} // RVA: 0x4454420 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x44545E0 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x44546C0 | overloaded x2
+        public void SetFrom(){} // RVA: 0x4449D00 | overloaded x2
+        public void Reset(){} // RVA: 0x44547B0
+        public void Validate(){} // RVA: 0x4447760
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x44548D0
+        public void ApplyTween(){} // RVA: 0x44548F0
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4443C50
+        public void ChangeStartValue(){} // RVA: 0x4444850 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x4444A20 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x4444B10 | overloaded x2
+        public void SetFrom(){} // RVA: 0x4444C50 | overloaded x2
+        public void Reset(){} // RVA: 0x4444CB0
+        public void Validate(){} // RVA: 0x4444DC0
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x4444E50
+        public void ApplyTween(){} // RVA: 0x4444E70
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4457550
+        public void ChangeStartValue(){} // RVA: 0x4458120 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x4458300 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x44583F0 | overloaded x2
+        public void SetFrom(){} // RVA: 0x44584F0 | overloaded x2
+        public void Reset(){} // RVA: 0x4458560
+        public void Validate(){} // RVA: 0x4458680
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x44586C0
+        public void ApplyTween(){} // RVA: 0x44586E0
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x444DA40
+        public void ChangeStartValue(){} // RVA: 0x444E610 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x444E7F0 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x444E8E0 | overloaded x2
+        public void SetFrom(){} // RVA: 0x444E9E0 | overloaded x2
+        public void Reset(){} // RVA: 0x444EA50
+        public void Validate(){} // RVA: 0x4444DC0
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x444EBB0
+        public void ApplyTween(){} // RVA: 0x444EBD0
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x44501C0
+        public void ChangeStartValue(){} // RVA: 0x4450D40 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x4450F00 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x4450FE0 | overloaded x2
+        public void SetFrom(){} // RVA: 0x44510C0 | overloaded x2
+        public void Reset(){} // RVA: 0x4451120
+        public void Validate(){} // RVA: 0x4448B10
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x4451230
+        public void ApplyTween(){} // RVA: 0x4451250
+    }
+
+    public class TweenerCore`3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x44560C0
+        public void ChangeStartValue(){} // RVA: 0x4456C80 | overloaded x2
+        public void ChangeEndValue(){} // RVA: 0x4456E40 | overloaded x4
+        public void ChangeValues(){} // RVA: 0x4456F20 | overloaded x2
+        public void SetFrom(){} // RVA: 0x4457050 | overloaded x2
+        public void Reset(){} // RVA: 0x44570B0
+        public void Validate(){} // RVA: 0x4457220
+        public void UpdateDelay(){} // RVA: 0x4444E00
+        public void Startup(){} // RVA: 0x4457260
+        public void ApplyTween(){} // RVA: 0x4457280
     }
 
     public class Utils

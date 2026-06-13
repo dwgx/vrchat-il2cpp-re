@@ -48,6 +48,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUI
     {
+        public int s_ScrollControlId;
+        public int s_HotTextField; // 0x4
+        public int s_BoxHash; // 0x8
+        public int s_ButonHash; // 0xC
+        public int s_RepeatButtonHash; // 0x10
+        public int s_ToggleHash; // 0x14
+        public int s_ButtonGridHash; // 0x18
+        public int s_SliderHash; // 0x1C
+        public int s_BeginGroupHash; // 0x20
+        public int s_ScrollviewHash; // 0x24
+        public int <scrollTroughSide>k__BackingField; // 0x28
+        public System.DateTime <nextScrollStepTime>k__BackingField; // 0x30
+        public UnityEngine.GUISkin s_Skin; // 0x38
+        public UnityEngine.Rect s_ToolTipRect; // 0x40
+        public UnityEngineInternal.GenericStack <scrollViewStates>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_color(){} // RVA: 0x71718B0
         public void set_color(){} // RVA: 0x7171940
@@ -153,6 +169,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIContent
     {
+        public string m_Text; // 0x10
+        public UnityEngine.Texture m_Image; // 0x18
+        public string m_Tooltip; // 0x20
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x33B6D40
         public void set_text(){} // RVA: 0x717E850
@@ -174,6 +194,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIGridSizer
     {
+        public int m_Count; // 0x48
+
         // ── Methods ──
         public void GetRect(){} // RVA: 0x71920B0
         public void .ctor(){} // RVA: 0x71922E0
@@ -222,6 +244,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutEntry
     {
+        public float minWidth; // 0x10
+        public float maxWidth; // 0x14
+        public float minHeight; // 0x18
+        public float maxHeight; // 0x1C
+        public UnityEngine.Rect rect; // 0x20
+        public int stretchWidth; // 0x30
+        public int stretchHeight; // 0x34
+
         // ── Methods ──
         public void get_style(){} // RVA: 0x7187E30
         public void set_style(){} // RVA: 0x7190F90
@@ -244,6 +274,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutGroup
     {
+        public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries; // 0x48
+        public bool isVertical; // 0x50
+        public bool resetCoords; // 0x51
+        public float spacing; // 0x54
+
         // ── Methods ──
         public void get_marginLeft(){} // RVA: 0xFC4570
         public void get_marginRight(){} // RVA: 0x1C5A600
@@ -271,6 +306,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutUtility
     {
+        public System.Collections.Generic.Dictionary`2<int,LayoutCache> s_StoredLayouts;
+        public System.Collections.Generic.Dictionary`2<int,LayoutCache> s_StoredWindows; // 0x8
+
         // ── Methods ──
         public void Internal_GetWindowRect(){} // RVA: 0x7183480
         public void Internal_MoveWindow(){} // RVA: 0x7183520
@@ -310,6 +348,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUISettings
     {
+        public bool m_DoubleClickSelectsWord; // 0x10
+        public bool m_TripleClickSelectsLine; // 0x11
+        public UnityEngine.Color m_CursorColor; // 0x14
+        public float m_CursorFlashSpeed; // 0x24
+        public UnityEngine.Color m_SelectionColor; // 0x28
+
         // ── Methods ──
         public void Internal_GetCursorFlashSpeed(){} // RVA: 0x71877C0
         public void get_doubleClickSelectsWord(){} // RVA: 0x7187810
@@ -322,6 +366,34 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUISkin
     {
+        public UnityEngine.Font m_Font; // 0x18
+        public UnityEngine.GUIStyle m_box; // 0x20
+        public UnityEngine.GUIStyle m_button; // 0x28
+        public UnityEngine.GUIStyle m_toggle; // 0x30
+        public UnityEngine.GUIStyle m_label; // 0x38
+        public UnityEngine.GUIStyle m_textField; // 0x40
+        public UnityEngine.GUIStyle m_textArea; // 0x48
+        public UnityEngine.GUIStyle m_window; // 0x50
+        public UnityEngine.GUIStyle m_horizontalSlider; // 0x58
+        public UnityEngine.GUIStyle m_horizontalSliderThumb; // 0x60
+        public UnityEngine.GUIStyle m_horizontalSliderThumbExtent; // 0x68
+        public UnityEngine.GUIStyle m_verticalSlider; // 0x70
+        public UnityEngine.GUIStyle m_verticalSliderThumb; // 0x78
+        public UnityEngine.GUIStyle m_verticalSliderThumbExtent; // 0x80
+        public UnityEngine.GUIStyle m_SliderMixed; // 0x88
+        public UnityEngine.GUIStyle m_horizontalScrollbar; // 0x90
+        public UnityEngine.GUIStyle m_horizontalScrollbarThumb; // 0x98
+        public UnityEngine.GUIStyle m_horizontalScrollbarLeftButton; // 0xA0
+        public UnityEngine.GUIStyle m_horizontalScrollbarRightButton; // 0xA8
+        public UnityEngine.GUIStyle m_verticalScrollbar; // 0xB0
+        public UnityEngine.GUIStyle m_verticalScrollbarThumb; // 0xB8
+        public UnityEngine.GUIStyle m_verticalScrollbarUpButton; // 0xC0
+        public UnityEngine.GUIStyle m_verticalScrollbarDownButton; // 0xC8
+        public UnityEngine.GUIStyle m_ScrollView; // 0xD0
+        public UnityEngine.GUIStyle[] m_CustomStyles; // 0xD8
+        public UnityEngine.GUISettings m_Settings; // 0xE0
+        public UnityEngine.GUIStyle ms_Error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x71878D0
         public void OnEnable(){} // RVA: 0x7187A80
@@ -395,6 +467,23 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStyle
     {
+        public UIntPtr m_Ptr; // 0x10
+        public UnityEngine.GUIStyleState m_Normal; // 0x18
+        public UnityEngine.GUIStyleState m_Hover; // 0x20
+        public UnityEngine.GUIStyleState m_Active; // 0x28
+        public UnityEngine.GUIStyleState m_Focused; // 0x30
+        public UnityEngine.GUIStyleState m_OnNormal; // 0x38
+        public UnityEngine.GUIStyleState m_OnHover; // 0x40
+        public UnityEngine.GUIStyleState m_OnActive; // 0x48
+        public UnityEngine.GUIStyleState m_OnFocused; // 0x50
+        public UnityEngine.RectOffset m_Border; // 0x58
+        public UnityEngine.RectOffset m_Padding; // 0x60
+        public UnityEngine.RectOffset m_Margin; // 0x68
+        public UnityEngine.RectOffset m_Overflow; // 0x70
+        public string m_Name; // 0x78
+        public bool showKeyboardFocus;
+        public UnityEngine.GUIStyle s_None; // 0x8
+
         // ── Methods ──
         public void get_rawName(){} // RVA: 0x718AF00
         public void set_rawName(){} // RVA: 0x718AF50
@@ -471,8 +560,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStyleState
     {
-        public object doubleClickSelectsWord;
-        public object tripleClickSelectsLine;
+        public UIntPtr doubleClickSelectsWord; // 0x10
+        public UnityEngine.GUIStyle tripleClickSelectsLine; // 0x18
 
         // ── Methods ──
         public void set_background(){} // RVA: 0x718ABA0
@@ -505,6 +594,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIUtility
     {
+        public int s_ControlCount;
+        public int s_SkinMode; // 0x4
+        public int s_OriginalID; // 0x8
+        public System.Action takeCapture; // 0x10
+        public System.Action releaseCapture; // 0x18
+        public System.Func`3<int,UIntPtr,bool> processEvent; // 0x20
+        public System.Action cleanupRoots; // 0x28
+        public System.Func`2<System.Exception,bool> endContainerGUIFromException; // 0x30
+        public System.Action guiChanged; // 0x38
+        public System.Action`2<0x659A0E90,0x658991A8> beforeEventProcessed; // 0x40
+        public UnityEngine.Event m_Event; // 0x48
+
         // ── Methods ──
         public void get_pixelsPerPoint(){} // RVA: 0x718E450
         public void get_guiDepth(){} // RVA: 0x718E4A0
@@ -699,6 +800,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Gradient
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7111AE0
         public void Cleanup(){} // RVA: 0x7111B30
@@ -788,6 +891,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GraphicsBuffer
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x70EF4E0
         public void Dispose(){} // RVA: 0x70EF650 | overloaded x2

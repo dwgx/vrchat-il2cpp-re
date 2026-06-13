@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class NegateCheckedInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -17,6 +21,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NegateInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -27,6 +35,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NewArrayBoundsInstruction
     {
+        public System.Type _elementType; // 0x10
+        public int _rank; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50
         public void get_ConsumedStack(){} // RVA: 0x5BED50
@@ -37,6 +48,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NewArrayInitInstruction
     {
+        public System.Type _elementType; // 0x10
+        public int _elementCount; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50
         public void get_ConsumedStack(){} // RVA: 0x5BED50
@@ -47,6 +61,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NewArrayInstruction
     {
+        public System.Type _elementType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
@@ -57,6 +73,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NewInstruction
     {
+        public System.Reflection.ConstructorInfo _constructor; // 0x10
+        public int _argumentCount; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50
         public void get_ConsumedStack(){} // RVA: 0x5BED50
@@ -69,6 +88,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NotEqualInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_reference;
+        public System.Linq.Expressions.Interpreter.Instruction s_Boolean; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -79,6 +102,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NotInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Boolean;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
@@ -89,6 +116,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NullCheckInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
@@ -100,6 +129,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NullableMethodCallInstruction
     {
+        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_hasValue;
+        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_value; // 0x8
+        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_equals; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -111,6 +144,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class NumericConvertInstruction
     {
+        public 0x657DC788 _from; // 0x10
+        public 0x657DC788 _to; // 0x14
+        public bool _isLiftedToNull; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x664F570
         public void Run(){} // RVA: 0x664F580

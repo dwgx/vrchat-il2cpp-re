@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 3
-// Methods: 24
+// Classes: 8
+// Methods: 59
 
 namespace ThirdParty.DotNet.System
 {
     public class WeakReference
     {
+        public bool isLongReference; // 0x10
+        public System.Runtime.InteropServices.GCHandle gcHandle; // 0x18
+
         // ── Methods ──
         public void AllocateHandle(){} // RVA: 0x5F18AD0
         public void .ctor(){} // RVA: 0x5F18B60 | overloaded x4
@@ -26,6 +29,56 @@ namespace ThirdParty.DotNet.System
         public void SetTarget(){} // RVA: 0x283FA0
         public void TryGetTarget(){} // RVA: 0xDE40
         public void Finalize(){} // RVA: 0x24A50
+    }
+
+    public class WeakReference`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x4B5D370
+        public void SetTarget(){} // RVA: 0x4B5D450
+        public void TryGetTarget(){} // RVA: 0x4B5D460
+        public void Finalize(){} // RVA: 0x4B5D5A0
+    }
+
+    public class WeakReference`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x4B5D370
+        public void SetTarget(){} // RVA: 0x4B5D450
+        public void TryGetTarget(){} // RVA: 0x4B5D460
+        public void Finalize(){} // RVA: 0x4B5D5A0
+    }
+
+    public class WeakReference`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x4B5D370
+        public void SetTarget(){} // RVA: 0x4B5D450
+        public void TryGetTarget(){} // RVA: 0x4B5D460
+        public void Finalize(){} // RVA: 0x4B5D5A0
+    }
+
+    public class WeakReference`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x4B5D370
+        public void SetTarget(){} // RVA: 0x4B5D450
+        public void TryGetTarget(){} // RVA: 0x4B5D460
+        public void Finalize(){} // RVA: 0x4B5D5A0
+    }
+
+    public class WeakReference`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x4B5D370
+        public void SetTarget(){} // RVA: 0x4B5D450
+        public void TryGetTarget(){} // RVA: 0x4B5D460
+        public void Finalize(){} // RVA: 0x4B5D5A0
     }
 
     public class WindowsConsoleDriver

@@ -7,9 +7,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 {
     public class GenTimeAccuracy
     {
-        public object Version;
-        public object MessageImprintAlgOid;
-        public object ReqPolicy;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.Accuracy Version; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
@@ -22,6 +20,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 
     public class TimeStampRequest
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.TimeStampReq req; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions extensions; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96EB500 | overloaded x4
         public void get_Version(){} // RVA: 0x96EB860
@@ -51,6 +52,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 
     public class TimeStampResponse
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.TimeStampResp resp; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp.TimeStampToken timeStampToken; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96ED030 | overloaded x3
         public void readTimeStampResp(){} // RVA: 0x96ED0C0
@@ -75,6 +79,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 
     public class TimeStampToken
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.CmsSignedData tsToken; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.SignerInformation tsaSignerInfo; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp.TimeStampTokenInfo tstInfo; // 0x20
+        public CertID certID; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96EE780 | overloaded x2
         public void get_TimeStampInfo(){} // RVA: 0x30B0C0
@@ -105,6 +114,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 
     public class TimeStampTokenInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.TstInfo tstInfo; // 0x10
+        public System.DateTime genTime; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96F14E0
         public void get_IsOrdered(){} // RVA: 0x96F1600
@@ -152,6 +164,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Tsp
 
     public class TspValidationException
     {
+        public int failureCode; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96F4870 | overloaded x2
         public void get_FailureCode(){} // RVA: 0x6AFD40

@@ -23,7 +23,7 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Channels
 
     public class ChannelServices
     {
-        public object DomainID;
+        public System.Collections.ArrayList DomainID;
 
         // ── Methods ──
         public void get_CrossContextChannel(){} // RVA: 0x5CEA830
@@ -41,6 +41,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Channels
 
     public class CrossAppDomainChannel
     {
+        public object s_lock;
+
         // ── Methods ──
         public void RegisterCrossAppDomainChannel(){} // RVA: 0x5CEDBD0
         public void get_ChannelName(){} // RVA: 0x5CEDDC0
@@ -54,8 +56,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Channels
 
     public class CrossAppDomainData
     {
-        public object ChannelName;
-        public object ChannelPriority;
+        public object ChannelName; // 0x10
+        public int ChannelPriority; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CEDA10
@@ -65,6 +67,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Channels
 
     public class CrossAppDomainSink
     {
+        public System.Collections.Hashtable s_sinks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void GetSink(){} // RVA: 0x5CEE100
@@ -121,7 +125,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Channels
 
     public class SinkProviderData
     {
-        public object ConstructionActivator;
+        public string ConstructionActivator; // 0x10
+        public System.Collections.ArrayList children; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CEF5F0

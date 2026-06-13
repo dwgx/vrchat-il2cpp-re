@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class BranchFalseInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0x6610740
         public void get_InstructionName(){} // RVA: 0x6610820
@@ -17,6 +19,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class BranchInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction[][][] s_caches;
+        public bool _hasResult; // 0x18
+        public bool _hasValue; // 0x19
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0x6610C50
         public void .ctor(){} // RVA: 0x6610FC0 | overloaded x2
@@ -28,9 +34,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class BranchLabel
     {
-        public object ArgumentCount;
-        public object InstructionName;
-        public object ConsumedStack;
+        public int ArgumentCount;
+        public int InstructionName;
+        public int ConsumedStack; // 0x10
 
         // ── Methods ──
         public void get_LabelIndex(){} // RVA: 0x791DC0
@@ -46,6 +52,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class BranchTrueInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0x6610910
         public void get_InstructionName(){} // RVA: 0x66109F0
@@ -56,6 +64,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class ByRefMethodInfoCallInstruction
     {
+        public System.Linq.Expressions.Interpreter.ByRefUpdater[] _byrefArgs; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F528E0
         public void get_ProducedStack(){} // RVA: 0x660FC40
@@ -64,6 +74,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class ByRefNewInstruction
     {
+        public System.Linq.Expressions.Interpreter.ByRefUpdater[] _byrefArgs; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F528E0
         public void get_InstructionName(){} // RVA: 0x664BFF0

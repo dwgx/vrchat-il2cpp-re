@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class UrlAndHash
     {
+        public string mUrl; // 0x10
+        public byte[] mSha1Hash; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9564CE0
         public void get_Url(){} // RVA: 0x2F8380
@@ -17,6 +20,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class UseSrtpData
     {
+        public int[] mProtectionProfiles; // 0x10
+        public byte[] mMki; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9565260
         public void get_ProtectionProfiles(){} // RVA: 0x2F8380

@@ -7,6 +7,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 {
     public class BsonArray
     {
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Bson.BsonToken> _children; // 0x18
+
         // ── Methods ──
         public void Add(){} // RVA: 0x7585B60
         public void get_Type(){} // RVA: 0x607DDD0
@@ -14,6 +16,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonObject
     {
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Bson.BsonProperty> _children; // 0x18
+
         // ── Methods ──
         public void Add(){} // RVA: 0x75858E0
         public void get_Type(){} // RVA: 0x607DB00
@@ -21,7 +25,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonObjectId
     {
-        public object Type;
+        public byte[] Type; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
@@ -31,6 +35,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonProperty
     {
+        public Valve.Newtonsoft.Json.Bson.BsonString <Name>k__BackingField; // 0x10
+        public Valve.Newtonsoft.Json.Bson.BsonToken <Value>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Name(){} // RVA: 0x2DEE30
         public void set_Value(){} // RVA: 0x343E80
@@ -39,6 +46,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonRegex
     {
+        public Valve.Newtonsoft.Json.Bson.BsonString <Pattern>k__BackingField; // 0x18
+        public Valve.Newtonsoft.Json.Bson.BsonString <Options>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_Pattern(){} // RVA: 0x343E80
         public void set_Options(){} // RVA: 0x30B0D0
@@ -48,6 +58,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonString
     {
+        public bool <IncludeLength>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_IncludeLength(){} // RVA: 0x6E8B80
         public void .ctor(){} // RVA: 0x7585CC0
@@ -55,6 +67,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonToken
     {
+        public Valve.Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xDBE0
         public void set_Parent(){} // RVA: 0x2DEE30
@@ -63,6 +77,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 
     public class BsonValue
     {
+        public object _value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7585C60
         public void get_Type(){} // RVA: 0x3CB9D0

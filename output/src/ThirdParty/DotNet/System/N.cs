@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 11
-// Methods: 128
+// Classes: 13
+// Methods: 139
 
 namespace ThirdParty.DotNet.System
 {
@@ -23,6 +23,12 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void get_ByDesign(){} // RVA: 0x5EC5BB0
+    }
+
+    public class NotImplemented
+    {
+        // ── Methods ──
+        public void ByDesignWithMessage(){} // RVA: 0x6BEFB30
     }
 
     public class NotImplementedException
@@ -59,8 +65,8 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1
     {
-        public object Major;
-        public object Minor;
+        public bool Major;
+        public T Minor;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
@@ -170,8 +176,27 @@ namespace ThirdParty.DotNet.System
         public void .cctor(){} // RVA: 0x5EAC340
     }
 
+    public class Number
+    {
+        // ── Methods ──
+        public void RoundNumber(){} // RVA: 0x62BE620
+        public void NumberBufferToDouble(){} // RVA: 0x62BE820
+        public void NumberBufferToDecimal(){} // RVA: 0x5E1E750
+        public void DecimalToNumber(){} // RVA: 0x62BE8E0
+        public void DigitsToInt(){} // RVA: 0x62BEC70
+        public void Mul32x32To64(){} // RVA: 0x5E1ECE0
+        public void Mul64Lossy(){} // RVA: 0x62BEE30
+        public void abs(){} // RVA: 0x5E1ED90
+        public void NumberToDouble(){} // RVA: 0x62BEED0
+        public void .cctor(){} // RVA: 0x62BF740
+    }
+
     public class NumberBuffer
     {
+        public int Scale; // 0x10
+        public bool IsNegative; // 0x14
+        public byte _b0; // 0x15
+
         // ── Methods ──
         public void get_Digits(){} // RVA: 0x62BFA80
         public void get_UnsafeDigits(){} // RVA: 0x5E1F910

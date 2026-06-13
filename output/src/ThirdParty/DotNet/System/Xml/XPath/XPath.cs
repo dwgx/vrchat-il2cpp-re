@@ -7,7 +7,8 @@ namespace ThirdParty.DotNet.System.Xml.XPath
 {
     public class XPathDocument
     {
-        public object Message;
+        public MS.Internal.Xml.Cache.XPathNode[] Message; // 0x10
+        public int idxXmlNmsp; // 0x18
 
         // ── Methods ──
         public void get_NameTable(){} // RVA: 0x30B0C0
@@ -18,6 +19,8 @@ namespace ThirdParty.DotNet.System.Xml.XPath
 
     public class XPathException
     {
+        public string res; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A92AD0 | overloaded x5
         public void GetObjectData(){} // RVA: 0x6A920E0
@@ -44,6 +47,11 @@ namespace ThirdParty.DotNet.System.Xml.XPath
 
     public class XPathNavigator
     {
+        public System.Xml.XPath.XPathNavigatorKeyComparer comparer;
+        public char[] NodeTypeLetter; // 0x8
+        public char[] UniqueIdTbl; // 0x10
+        public int[] ContentKindMasks; // 0x18
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x391BE0
         public void get_XmlType(){} // RVA: 0x6A92CD0

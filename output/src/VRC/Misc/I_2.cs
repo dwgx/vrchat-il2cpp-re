@@ -38,6 +38,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÎÎÎÍÍÌÍÌÎÏÌÌÍÎÌÌÌÏÎÎ</summary>
     public class InitializeFailed_71B2_07F2
     {
+        public string ÎÌÍÍÍÏÌÎÍÏÎÍÏÍÏÍÌÌÏÌÏÌÎ;
+        public string ÏÌÏÌÎÏÏÌÍÏÌÏÏÌÍÌÌÎÎÎÎÌÌ;
+        public string ÍÍÏÍÍÏÎÎÎÎÍÍÎÎÏÏÍÍÏÌÍÍÎ;
+        public string ÍÏÏÌÎÌÏÎÎÏÎÌÍÍÍÎÎÍÍÎÎÏÍ;
+        public System.Collections.Generic.List`1<ÎÎÏÍÏÌÎÎÎÌÎÍÎÏÍÍÏÎÍÍÎÍÌ> ÌÏÍÍÍÏÏÎÏÍÎÍÏÏÌÎÎÍÍÎÌÌÌ; // 0x8
+        public bool <ÌÎÍÎÌÍÍÏÌÎÍÍÍÍÍÌÏÎÌÍÏÏÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void OnPurchaseFailed(){} // RVA: 0x5427E0 | overloaded x2
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
@@ -70,6 +77,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÌÎÎÍÍÎÏÍÏÍÌÌÎÏÏÎÍÎÌÎ</summary>
     public class InstantiateComponent_6BFA
     {
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÏÍÏÍÌÌÍÏÍÏÎÏÌÌÌÎÎÎÎÏÏÎÎ; // 0xB8
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÌÏÌÏÎÏÍÍÏÏÎÎÏÎÍÍÎÎÍÏÏÍÌ; // 0xC0
+
         // ── Methods ──
         public void Update(){} // RVA: 0x14F2530
         public void LateUpdate(){} // RVA: 0x14F32B0
@@ -95,7 +105,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÍÏÏÏÎÌÎÌÎÎÎÎÌÌÍÌÎÍÍÏ</summary>
     public class Interact_BF8E
     {
-        public object Interact;
+        public 0x65780060 Interact; // 0x20
 
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x929BEF0
@@ -138,6 +148,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÍÌÎÌÏÌÎÏÏÎÌÎÎÏÌÌÍÌÏÏ</summary>
     public class InvisibleComponent_0512
     {
+        public ÍÍÏÌÌÌÍÏÏÎÍÏÏÌÎÍÌÍÌÍÌÎÏ ÌÏÎÌÍÌÏÌÏÏÏÌÍÍÌÏÌÍÎÌÎÎÌ; // 0x20
+        public float ÏÏÌÍÍÏÏÏÎÍÏÏÏÏÎÎÌÌÌÎÌÌÌ; // 0x28
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void Awake(){} // RVA: 0x49B830
@@ -285,6 +298,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÏÍÌÌÌÍÏÎÏÍÌÌÏÏÏÎÍÌÏÌ</summary>
     public class InvisibleComponent_4DD1
     {
+        public string ÎÍÏÎÏÎÍÌÌÏÌÎÌÏÍÏÌÎÌÎÌÌÏ;
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x645DDC0
         public void Awake(){} // RVA: 0x645DDE0
@@ -325,7 +340,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÎÏÍÎÍÎÌÎÏÏÍÍÌÏÌÎÏÌÎÏ</summary>
     public class InvisibleComponent_91F0
     {
-        public object _91F0;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _91F0; // 0x20
 
         // ── Methods ──
         public void Start(){} // RVA: 0x8D5D7F0
@@ -386,6 +401,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÌÌÏÍÎÌÎÏÍÍÏÏÎÌÍÍÏÎÎÍ</summary>
     public class InvisibleComponent_C2AC
     {
+        public UnityEngine.GameObject ÌÏÎÏÍÏÍÍÌÎÏÏÎÏÎÍÏÍÏÏÌÌÏ; // 0x68
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ ÏÌÌÏÌÍÎÏÏÏÌÍÏÏÍÍÍÌÌÍÎÍÍ; // 0x70
+
         // ── Methods ──
         public void Start(){} // RVA: 0x135A620
         public void Update(){} // RVA: 0x135A860
@@ -467,7 +485,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÍÌÌÏÍÍÎÎÏÏÏÎÏÍÌÎÏÎÍÏ</summary>
     public class InvisibleComponent_D894
     {
-        public object _d894;
+        public ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ _d894; // 0x20
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x8D76120
@@ -539,6 +557,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÎÌÎÎÏÍÎÏÍÍÌÏÎÎÍÏÍÏÌÍ</summary>
     public class InvisibleComponent_F3B9
     {
+        public UnityEngine.GameObject ÌÎÍÌÍÎÎÌÌÏÌÎÏÌÏÎÍÏÎÎÎÎÍ; // 0x20
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x8EF3C40
         public void OnDestroy(){} // RVA: 0x348040
@@ -567,6 +587,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÌÎÏÎÍÌÍÏÍÍÏÌÎÏÎÎÏÌÌÎ</summary>
     public class Invoke3FocusSamplerComponent_8051
     {
+        public ÏÌÎÌÍÌÌÍÏÎÍÏÏÍÎÍÎÎÍÌÌÌÍ _worldInformationPanel; // 0x138
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x911BFE0
         public void Initialize(){} // RVA: 0xD93DD0
@@ -605,6 +627,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÏÍÎÎÍÌÏÌÍÌÌÍÌÍÎÏÏÌÏÏ</summary>
     public class IsInteractiveInteractSiblingSibling_2844
     {
+        public 0x6588A478 ÌÏÎÏÏÎÌÍÌÌÏÍÌÍÎÌÏÎÌÌÍÌÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D7FA80
         public void Initialize(){} // RVA: 0x32A5C0
@@ -828,6 +852,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ</summary>
     public class IsInteractiveInteractSibling_AE11
     {
+        public UnityEngine.MeshRenderer printRenderer; // 0x58
+        public UnityEngine.Canvas canvas; // 0x60
+        public UnityEngine.CanvasGroup frontCanvasGroup; // 0x68
+        public UnityEngine.CanvasGroup backCanvasGroup; // 0x70
+        public VRCSDK2.VRC_Pickup pickup; // 0x78
+        public ÏÌÎÌÏÌÍÌÎÎÌÌÏÏÍÎÍÎÍÏÏÏÏ preview; // 0x80
+        public UnityEngine.Collider printCollider; // 0x88
+        public UnityEngine.Texture2D streamerModeTexture; // 0x90
+
         // ── Methods ──
         public void GetTransform_7A1(){} // RVA: 0xD8E320
         public void PublishStateAndLoadLiteral(){} // RVA: 0xD8A610
@@ -1005,6 +1038,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÎÎÌÍÍÌÌÍÎÎÏÎÍÍÌÎÍÏ</summary>
     public class IsInteractiveInteract_2A68
     {
+        public ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ cardRenderer; // 0x40
+
         // ── Methods ──
         public void CheckIsInteractiveInteract(){} // RVA: 0x1A10F00
         public void CreateIsInteractiveInteract(){} // RVA: 0x1A110C0

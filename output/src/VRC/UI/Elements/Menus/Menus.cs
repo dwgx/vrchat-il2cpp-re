@@ -11,6 +11,9 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryIconsView
     {
+        public VRC.UI.Elements.HelperMethods.UIAlert _iconSelected; // 0x68
+        public VRC.UI.Elements.HelperMethods.UIBinaryAlert _iconUpdated; // 0x90
+
         // ── Methods ──
         public void UpdateActive(){} // RVA: 0x908CF30
         public void AccessactiveSelf(){} // RVA: 0x908CF50
@@ -36,6 +39,9 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryPhotosView
     {
+        public ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ _menuStateController; // 0x68
+        public UnityEngine.GameObject subNowInfo; // 0x70
+
         // ── Methods ──
         public void get_MaxContentCount_033373F0C03C(){} // RVA: 0x908EEA0
         public void set_MaxContentCount(){} // RVA: 0x908F2C0
@@ -118,10 +124,22 @@ namespace VRC.UI.Elements.Menus
 
     public class KeyboardInputModalComponents
     {
-        public object _title;
-        public object _keyboard;
-        public object .ctor;
-        public object _worldBackground;
+        public UnityEngine.GameObject _title; // 0x10
+        public UnityEngine.UI.Button _keyboard; // 0x18
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ .ctor; // 0x20
+        public UnityEngine.UI.Button _worldBackground; // 0x28
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _submitText; // 0x30
+        public UnityEngine.UI.Button _closeButton; // 0x38
+        public UnityEngine.UI.Button _clearButton; // 0x40
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _title; // 0x48
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _placeholder; // 0x50
+        public ÌÏÍÎÏÍÌÎÍÏÍÍÎÏÌÏÎÎÌÌÎÌÎ _charactersRemaining; // 0x58
+        public TMPro.TMP_InputField _inputField; // 0x60
+        public ÍÍÍÌÎÍÍÌÍÍÍÏÏÎÌÌÍÏÎÎÌÍÍ _maskInputToggle; // 0x68
+        public ÏÌÎÎÍÍÍÎÍÎÌÏÏÍÍÏÎÏÎÌÌÍÎ _minimizedKeyboard; // 0x70
+        public UnityEngine.GameObject[] _modalBackgrounds; // 0x78
+        public UnityEngine.GameObject _worldKeyboardBackground; // 0x80
+        public ÌÍÎÏÌÌÏÍÍÏÎÎÏÏÎÌÎÎÌÏÌÏÎ[] _keyboardToggleGroups; // 0x88
 
         // ── Methods ──
         public void get_Title(){} // RVA: 0x358730
@@ -135,8 +153,8 @@ namespace VRC.UI.Elements.Menus
         public void set_ModalBackgrounds(){} // RVA: 0x30B130
         public void get_ModalBackgrounds(){} // RVA: 0x4C7C50
         public void set_Placeholder(){} // RVA: 0x3A5590
-        public void set_ClearButton(){} // RVA: 0x35A740
-        public void set_Cancel(){} // RVA: 0x4C7C50
+        public void set_MinimizedKeyboard(){} // RVA: 0x35A740
+        public void set_ClearButton(){} // RVA: 0x4C7C50
         public void get_ClearButton(){} // RVA: 0x35A740
         public void get_Placeholder(){} // RVA: 0x37E0E0
         public void get_MinimizedKeyboard(){} // RVA: 0x3A5590
@@ -153,6 +171,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EFCB0
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -171,6 +193,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab;
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding;
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0xCD60
         public void get_MaxContentCount(){} // RVA: 0xD840
@@ -189,6 +215,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EFCB0
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -207,6 +237,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EF650
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -225,6 +259,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EF650
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -243,6 +281,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EF650
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -261,6 +303,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EF650
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -279,6 +325,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37F0310
         public void get_MaxContentCount(){} // RVA: 0x519240
@@ -297,6 +347,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1
     {
+        public UnityEngine.GameObject _contentPrefab; // 0x20
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
+        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x37EF650
         public void get_MaxContentCount(){} // RVA: 0x519240

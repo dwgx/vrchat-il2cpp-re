@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 {
     public class ChallengeResponse
     {
+        public byte[] magic;
+        public byte[] nullEncMagic; // 0x8
+        public bool _disposed; // 0x10
+        public byte[] _challenge; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD2A60 | overloaded x2
         public void Finalize(){} // RVA: 0x5BD2D30
@@ -38,6 +43,9 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 
     public class MessageBase
     {
+        public byte[] header;
+        public int _type; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_Flags(){} // RVA: 0x8ABED0
@@ -52,7 +60,7 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 
     public class NtlmSettings
     {
-        public object Domain;
+        public 0x659A5D48 Domain;
 
         // ── Methods ──
         public void get_DefaultAuthLevel(){} // RVA: 0x5BD6C80
@@ -61,6 +69,9 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 
     public class Type1Message
     {
+        public string _host; // 0x18
+        public string _domain; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD6D20
         public void set_Domain(){} // RVA: 0x5BD6E30
@@ -71,6 +82,10 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 
     public class Type2Message
     {
+        public byte[] _nonce; // 0x18
+        public string _targetName; // 0x20
+        public byte[] _targetInfo; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD76B0
         public void Finalize(){} // RVA: 0x5BD77A0
@@ -83,6 +98,10 @@ namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 
     public class Type3Message
     {
+        public 0x659A5D48 _level; // 0x18
+        public byte[] _challenge; // 0x20
+        public string _host; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD7DF0
         public void Finalize(){} // RVA: 0x5BD8180

@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Security.Principal
 {
     public class GenericIdentity
     {
+        public string m_name; // 0x78
+        public string m_type; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CB30B0 | overloaded x3
         public void Clone(){} // RVA: 0x5CB31A0
@@ -55,6 +58,8 @@ namespace ThirdParty.DotNet.System.Security.Principal
 
     public class NTAccount
     {
+        public string _value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CB3A10
         public void get_Value(){} // RVA: 0x2F8380
@@ -67,6 +72,9 @@ namespace ThirdParty.DotNet.System.Security.Principal
 
     public class SecurityIdentifier
     {
+        public byte[] buffer; // 0x10
+        public int MaxBinaryLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CB4080 | overloaded x2
         public void CreateFromBinaryForm(){} // RVA: 0x5CB42F0
@@ -91,6 +99,13 @@ namespace ThirdParty.DotNet.System.Security.Principal
 
     public class WellKnownAccount
     {
+        public 0x657E92B0 <WellKnownValue>k__BackingField; // 0x10
+        public bool <IsAbsolute>k__BackingField; // 0x14
+        public string <Sid>k__BackingField; // 0x18
+        public string <Rid>k__BackingField; // 0x20
+        public string <Name>k__BackingField; // 0x28
+        public string <SddlForm>k__BackingField; // 0x30
+
         // ── Methods ──
         public void set_WellKnownValue(){} // RVA: 0x2E00C0
         public void get_IsAbsolute(){} // RVA: 0x42CBD0
@@ -111,6 +126,10 @@ namespace ThirdParty.DotNet.System.Security.Principal
 
     public class WindowsIdentity
     {
+        public UIntPtr _token; // 0x78
+        public string _type; // 0x80
+        public 0x657E9308 _account; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CB9340 | overloaded x3
         public void Dispose(){} // RVA: 0x5CB9380

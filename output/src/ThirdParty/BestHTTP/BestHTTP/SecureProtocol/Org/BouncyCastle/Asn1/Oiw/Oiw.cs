@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Oiw
 {
     public class ElGamalParameter
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger g; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9784240 | overloaded x2
         public void get_P(){} // RVA: 0x972AF80

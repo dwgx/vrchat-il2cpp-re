@@ -44,6 +44,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÎÍÏÏÌÍÏÏÎÍÏÌÎÏÍÍÍÎÌÏ</summary>
     public class k__BackingFieldDerivedSiblingSibling_206F
     {
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÏÍÌÏÏÎÎÎÍÍÎÎÎÌÍÌÎÎÏÍÍÌÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void get_CallingAssembly(){} // RVA: 0x977430
@@ -64,6 +66,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÍÍÏÍÏÎÎÍÎÍÌÎÌÍÏÍÍÏÎÎ</summary>
     public class k__BackingFieldDerivedSibling_195F
     {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÎÎÌÌÌÏÎÌÍÍÎÎÏÍÎÏÌÍÌÎÎÍÌ; // 0x20
+
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x9B7650
         public void get_MaskTag(){} // RVA: 0x9E8FF0
@@ -117,6 +121,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÍÌÎÏÏÌÍÎÌÍÎÏÎÏÍÍÏÍÍÏ</summary>
     public class k__BackingFieldDerived_C727 : <ÎÎÍÎÎÌÌÏÍÎÎÍÌÌÍÎÎÍÍÎÎÌÍ>k__BackingField
     {
+        public System.Collections.Generic.Dictionary`2<string,ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ> <ÏÏÎÌÍÍÍÍÎÍÌÏÏÎÏÎÏÎÍÏÎÎÍ>k__BackingField; // 0x30
+        public System.Type <ÎÎÍÎÎÌÌÏÍÎÎÍÌÌÍÎÎÍÍÎÎÌÍ>k__BackingField; // 0x38
+        public ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ <ÌÏÍÌÍÌÌÌÌÍÌÏÎÍÌÏÎÌÏÌÍÍÎ>k__BackingField; // 0x40
+        public string ÌÎÌÎÌÎÏÎÍÍÌÎÌÎÏÏÌÎÌÎÌÌÍ;
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60 | overloaded x4
@@ -143,6 +152,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÍÌÏÏÏÌÏÍÎÍÌÍÌÌÏÏÎÏÎÏ</summary>
     public class keepWaitingSibling_A78D
     {
+        public T <ÎÍÏÎÏÎÏÍÎÎÎÍÌÌÌÌÌÏÏÌÌÍÌ>k__BackingField;
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void TryCopyTo_4A135C437ADC(){} // RVA: 0x283FA0
@@ -153,6 +164,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÍÎÌÏÏÏÍÎÏÎÍÍÏÏÍÎÌÎÏÎ</summary>
     public class keepWaiting_AA91
     {
+        public object <ÎÍÏÎÏÎÏÍÎÎÎÍÌÌÌÌÌÏÏÌÌÍÌ>k__BackingField; // 0x10
+        public object ÍÎÍÌÍÍÏÏÌÌÏÎÌÎÌÍÎÍÏÏÎÍÍ; // 0x18
+        public bool ÏÍÎÎÎÏÌÏÎÏÎÎÎÏÍÍÌÌÏÏÏÎÌ; // 0x20
+        public UnityEngine.MonoBehaviour ÎÍÏÏÍÏÍÏÍÎÍÎÌÏÌÌÍÌÏÌÍÏÍ; // 0x28
+
         // ── Methods ──
         public void set_keepWaiting(){} // RVA: 0x1977DE0
         public void AddFromToForce(){} // RVA: 0x358740

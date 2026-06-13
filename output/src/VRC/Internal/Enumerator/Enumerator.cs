@@ -8,7 +8,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ</summary>
     public class IEnumeratorImpl_0BDC
     {
-        public object System.Collections.IEnumerator.Current;
+        public string System.Collections.IEnumerator.Current;
+        public string ÍÍÏÌÏÍÎÎÏÍÍÎÎÎÍÏÎÎÍÌÏÌÎ;
+        public string ÍÎÌÏÎÏÌÍÍÏÎÎÍÏÏÍÍÎÌÏÏÏÏ;
+        public string ÏÍÏÌÎÎÏÍÎÌÏÌÍÏÍÌÏÌÍÍÎÍÎ;
+        public string ÍÎÎÏÏÍÏÎÏÎÌÌÌÍÌÏÍÎÏÍÌÎÎ;
+        public string ÍÌÌÎÎÏÌÌÍÎÍÌÏÍÍÎÍÌÎÎÌÌÌ;
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xDC63C0
@@ -27,6 +32,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÌÌÎÏÎÎÍÌÌÎÍÌÌÌÌÎÏÏÎÌÍÏÌ</summary>
     public class IEnumeratorImpl_8A16
     {
+        public System.Delegate ÏÏÏÏÎÏÌÍÍÍÎÎÍÍÎÍÎÎÍÌÏÍÍ;
+        public System.Collections.Generic.List`1<T> <ÏÍÌÏÍÎÎÍÌÏÌÎÎÏÎÌÎÌÏÎÌÏÏ>k__BackingField;
+        public ÌÍÍÏÍÌÏÎÎÌÎÏÍÏÏÌÌÍÌÎÍÏÍ ÍÌÍÎÍÏÏÎÎÍÌÌÌÍÍÍÍÎÍÌÍÏÏ;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x24A50
         public void get_Current(){} // RVA: 0x24B10
@@ -51,8 +60,7 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ</summary>
     public class MidiDeviceInfoEnumerator_DC8F
     {
-        public object System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.Current;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1967C10
@@ -69,7 +77,7 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÎÎÎÌÏÌÌÍÍÍÌÏÍÌÎÏÎÎÌÍÌ</summary>
     public class ObjectEnumerator_93BF
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
+        public System.Lazy`1<string> System.Collections.Generic.IEnumerator<System.Object>.Current;
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x58C0A0
@@ -92,8 +100,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ</summary>
     public class StringEnumerator_2539
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public U System.Collections.Generic.IEnumerator<System.Object>.Current;
+        public T System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void ToString(){} // RVA: 0xCD60
@@ -107,6 +115,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ</summary>
     public class StringEnumerator_2539
     {
+        public ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ ÍÎÌÌÌÍÍÏÏÌÌÌÏÍÍÌÎÍÎÍÏÍÏ; // 0x10
+        public int ÍÏÌÍÎÏÎÍÏÏÎÍÎÎÎÏÎÌÌÍÏÍÎ; // 0x18
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x5150D80
         public void .ctor(){} // RVA: 0x1D66A50

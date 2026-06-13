@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.System.Collections
 {
     public class ArrayList
     {
+        public object[] _items; // 0x10
+        public int _size; // 0x18
+        public int _version; // 0x1C
+        public object _syncRoot; // 0x20
+        public int _defaultCapacity;
+        public int MaxArrayLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E04CF0 | overloaded x3
         public void set_Capacity(){} // RVA: 0x5E04EC0
@@ -40,6 +47,12 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class BitArray
     {
+        public int[] m_array; // 0x10
+        public int m_length; // 0x18
+        public int _version; // 0x1C
+        public object _syncRoot; // 0x20
+        public int _ShrinkThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E037B0 | overloaded x3
         public void get_Item(){} // RVA: 0x5E038F0
@@ -61,6 +74,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class CaseInsensitiveComparer
     {
+        public System.Globalization.CompareInfo _compareInfo; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DFB880 | overloaded x2
         public void get_Default(){} // RVA: 0x5DFB940
@@ -69,6 +84,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class CaseInsensitiveHashCodeProvider
     {
+        public System.Globalization.CompareInfo _compareInfo; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DFBCD0 | overloaded x2
         public void get_Default(){} // RVA: 0x5DFBD90
@@ -77,6 +94,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class CollectionBase
     {
+        public System.Collections.ArrayList _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DFBFB0
         public void get_InnerList(){} // RVA: 0x2F8380
@@ -119,6 +138,9 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class CompatibleComparer : .ctor
     {
+        public System.Collections.IHashCodeProvider _hcp; // 0x10
+        public System.Collections.IComparer _comparer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_HashCodeProvider(){} // RVA: 0x2F8380
@@ -130,6 +152,9 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class DictionaryEntry
     {
+        public object _key; // 0x10
+        public object _value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x19B3510
         public void get_Key(){} // RVA: 0x1AD4690
@@ -138,6 +163,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class HashHelpers
     {
+        public int[] primes;
+
         // ── Methods ──
         public void IsPrime(){} // RVA: 0x5DF9610
         public void GetPrime(){} // RVA: 0x5DF96C0
@@ -148,6 +175,16 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class Hashtable
     {
+        public int HashPrime;
+        public int InitialSize;
+        public string LoadFactorName;
+        public string VersionName;
+        public string ComparerName;
+        public string HashCodeProviderName;
+        public string HashSizeName;
+        public string KeysName;
+        public string ValuesName;
+
         // ── Methods ──
         public void get_SerializationInfoTable(){} // RVA: 0x5E08B50
         public void .ctor(){} // RVA: 0x5E09530 | overloaded x13
@@ -288,6 +325,11 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class ListDictionaryInternal
     {
+        public DictionaryNode head; // 0x10
+        public int version; // 0x18
+        public int count; // 0x1C
+        public object _syncRoot; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Item(){} // RVA: 0x5DF9B80
@@ -310,6 +352,10 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class Queue
     {
+        public object[] _array; // 0x10
+        public int _head; // 0x18
+        public int _tail; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DFCC50 | overloaded x4
         public void get_Count(){} // RVA: 0x760030
@@ -327,6 +373,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class ReadOnlyCollectionBase
     {
+        public System.Collections.ArrayList _list; // 0x10
+
         // ── Methods ──
         public void get_InnerList(){} // RVA: 0x5DFDD10
         public void get_Count(){} // RVA: 0x5DFDDC0
@@ -339,6 +387,15 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class SortedList : 0
     {
+        public object[] keys; // 0x10
+        public object[] values; // 0x18
+        public int _size; // 0x20
+        public int version; // 0x24
+        public System.Collections.IComparer comparer; // 0x28
+        public KeyList keyList; // 0x30
+        public ValueList valueList; // 0x38
+        public object _syncRoot; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DFE520 | overloaded x3
         public void Init(){} // RVA: 0x5DFDF20
@@ -376,6 +433,10 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class Stack
     {
+        public object[] _array; // 0x10
+        public int _size; // 0x18
+        public int _version; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5E02920 | overloaded x2
         public void get_Count(){} // RVA: 0x5BED50

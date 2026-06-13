@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class RadioButton
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x73BA550
         public void set_value(){} // RVA: 0x73BA5A0
@@ -24,6 +26,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RadioButtonGroup
     {
+        public string ussClassName;
+        public string containerUssClassName; // 0x8
+
         // ── Methods ──
         public void set_choices(){} // RVA: 0x73BB860
         public void get_contentContainer(){} // RVA: 0x73BBEE0
@@ -64,6 +69,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RepaintData
     {
+        public UnityEngine.Matrix4x4 <currentOffset>k__BackingField; // 0x10
+        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x50
+        public UnityEngine.Rect <currentWorldClip>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_currentOffset(){} // RVA: 0x2EE27B0
         public void get_currentWorldClip(){} // RVA: 0x111DE50
@@ -83,6 +92,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableCollectionItem
     {
+        public UnityEngine.UIElements.VisualElement <bindableElement>k__BackingField; // 0x10
+        public UnityEngine.UIElements.Experimental.ValueAnimation`1<UnityEngine.UIElements.Experimental.StyleValues> <animator>k__BackingField; // 0x18
+        public int <index>k__BackingField; // 0x20
+        public int <id>k__BackingField; // 0x24
+        public bool <isDragGhost>k__BackingField; // 0x28
+        public System.Action`1<UnityEngine.UIElements.ReusableCollectionItem> onGeometryChanged; // 0x30
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0x2F8380
         public void get_bindableElement(){} // RVA: 0x2F8380
@@ -111,6 +127,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableListViewItem
     {
+        public UnityEngine.UIElements.VisualElement m_Container; // 0x48
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0x72F4AB0
         public void Init(){} // RVA: 0x72F4AC0
@@ -140,6 +158,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableTreeViewItem
     {
+        public UnityEngine.UIElements.Toggle m_Toggle; // 0x48
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0x72F5980
         public void add_onPointerUp(){} // RVA: 0x72F5990
@@ -162,6 +182,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Rotate
     {
+        public UnityEngine.UIElements.Angle m_Angle; // 0x10
+        public UnityEngine.Vector3 m_Axis; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74654B0
         public void Initial(){} // RVA: 0x7465510
@@ -191,6 +214,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RuntimePanel
     {
+        public UnityEngine.UIElements.EventDispatcher s_EventDispatcher;
+
         // ── Methods ──
         public void get_panelSettings(){} // RVA: 0xDB4D60
         public void Create(){} // RVA: 0x7402850

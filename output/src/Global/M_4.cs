@@ -109,6 +109,12 @@ public class MoreInfo
 
 public class MotionSettings
 {
+    public bool _use; // 0x10
+    public float _strength; // 0x14
+    public float _min; // 0x18
+    public float _max; // 0x1C
+    public float _smoothing; // 0x20
+
     // ── Methods ──
     public void set_max(){} // RVA: 0x3AA570
     public void set_strength(){} // RVA: 0x407340
@@ -116,8 +122,8 @@ public class MotionSettings
     public void .ctor(){} // RVA: 0x39C7F0
     public void get_max(){} // RVA: 0x3AA570
     public void set_use(){} // RVA: 0x306080
-    public void set_min(){} // RVA: 0x407340
-    public void set_smoothing(){} // RVA: 0x306080
+    public void set_smoothing(){} // RVA: 0x407340
+    public void set_min(){} // RVA: 0x306080
     public void get_smoothing(){} // RVA: 0x306080
     public void get_use(){} // RVA: 0x3A75E0
     public void get_min(){} // RVA: 0x2E1CF0
@@ -171,6 +177,8 @@ public class MoveShapesJob
 
 public class MovementSettings
 {
+    public float ForwardSpeed; // 0x10
+
     // ── Methods ──
     public void UpdateDesiredTargetSpeed(){} // RVA: 0x313B00
     public void get_Running(){} // RVA: 0x313C20
@@ -307,6 +315,8 @@ public class MusclePropsGroup
 
 public class MutableBox
 {
+    public System.Type _type; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5AF0
     public void Run(){} // RVA: 0x6646A10
@@ -315,6 +325,8 @@ public class MutableBox
 
 public class MutableValue
 {
+    public System.Type _type; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5AF0
     public void Run(){} // RVA: 0x6646870
@@ -324,10 +336,8 @@ public class MutableValue
 
 public class MutationInput
 {
-    public object Root;
-    public object Comparers;
-    public object KeyComparer;
-    public object KeyOnlyComparer;
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> Root;
+    public Comparers<U,T> Comparers;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
@@ -339,8 +349,8 @@ public class MutationInput
 
 public class MutationInput
 {
-    public object Root;
-    public object CountAdjustment;
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> Root;
+    public Comparers<U,T> CountAdjustment;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
@@ -354,9 +364,10 @@ public class MutationInput
 
 public class MutationInput
 {
-    public object Root;
-    public object Count;
-    public object CountType;
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<T>> Root;
+    public System.Collections.Generic.IEqualityComparer`1<T> Count;
+    public int CountType;
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<T>> _hashBucketEqualityComparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
@@ -368,6 +379,11 @@ public class MutationInput
 
 public class MutationInput
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _root; // 0x10
+    public System.Collections.Generic.IEqualityComparer`1<string> _equalityComparer; // 0x18
+    public int _count; // 0x20
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> _hashBucketEqualityComparer; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4C9A0
     public void get_Root(){} // RVA: 0x1AD4690
@@ -378,6 +394,9 @@ public class MutationInput
 
 public class MutationInput
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+    public Comparers<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _comparers; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4CCE0
     public void get_Root(){} // RVA: 0x1AD4690
@@ -390,6 +409,9 @@ public class MutationInput
 
 public class MutationInput
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+    public Comparers<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _comparers; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4CCE0
     public void get_Root(){} // RVA: 0x1AD4690
@@ -402,7 +424,8 @@ public class MutationInput
 
 public class MutationResult
 {
-    public object RequiresDynamicMemberAccessors;
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> RequiresDynamicMemberAccessors;
+    public int _countAdjustment;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BAA0
@@ -413,7 +436,9 @@ public class MutationResult
 
 public class MutationResult
 {
-    public object Data;
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<T>> Data;
+    public int _count;
+    public 0x659D1610<T> _countType;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
@@ -425,6 +450,10 @@ public class MutationResult
 
 public class MutationResult
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _root; // 0x10
+    public int _count; // 0x18
+    public 0x659D1610<string> _countType; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4D070
     public void get_Root(){} // RVA: 0x1AD4690
@@ -435,6 +464,9 @@ public class MutationResult
 
 public class MutationResult
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+    public int _countAdjustment; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4D590
     public void get_Root(){} // RVA: 0x1AD4690
@@ -444,6 +476,9 @@ public class MutationResult
 
 public class MutationResult
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+    public int _countAdjustment; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C4D7D0
     public void get_Root(){} // RVA: 0x1AD4690

@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 {
     public class Asn1CipherBuilderWithKey : .ctor
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter encKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algorithmIdentifier; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9598E30
         public void get_AlgorithmDetails(){} // RVA: 0x2E07C0
@@ -17,6 +20,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class Asn1KeyWrapper
     {
+        public string algorithm; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9599510
         public void get_AlgorithmDetails(){} // RVA: 0x9599670
@@ -25,6 +30,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class Asn1SignatureFactory
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID; // 0x10
+        public string algorithm; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959CFF0 | overloaded x2
         public void get_AlgorithmDetails(){} // RVA: 0x2F8380
@@ -34,6 +42,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class Asn1VerifierFactory
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F28620 | overloaded x2
         public void get_AlgorithmDetails(){} // RVA: 0x2F8380
@@ -42,6 +52,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class Asn1VerifierFactoryProvider
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKey; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void CreateVerifierFactory(){} // RVA: 0x959D660
@@ -50,6 +62,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class BufferedCipherWrapper
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher bufferedCipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9599320
         public void GetMaxOutputSize(){} // RVA: 0x9599450
@@ -59,6 +73,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class DefaultSignatureCalculator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO.SignerSink mSignerSink; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959D770
         public void get_Stream(){} // RVA: 0x2F8380
@@ -74,6 +90,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class DefaultVerifierCalculator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO.SignerSink mSignerSink; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959D9C0
         public void get_Stream(){} // RVA: 0x2F8380
@@ -89,8 +107,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class GenericKey
     {
-        public object AlgorithmName;
-        public object IsPartialBlockOkay;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier AlgorithmName; // 0x10
+        public object IsPartialBlockOkay; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
@@ -109,6 +127,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Op
 
     public class RsaOaepWrapper
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959A100
         public void get_AlgorithmDetails(){} // RVA: 0x2F8380

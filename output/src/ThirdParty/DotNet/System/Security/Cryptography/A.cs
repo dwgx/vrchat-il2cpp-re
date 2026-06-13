@@ -60,6 +60,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AesManaged
     {
+        public System.Security.Cryptography.RijndaelManaged m_rijndael; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x659F730
         public void get_FeedbackSize(){} // RVA: 0x659F8B0
@@ -94,6 +96,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AsnEncodedData
     {
+        public System.Security.Cryptography.Oid _oid; // 0x10
+        public byte[] _raw; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C329A0 | overloaded x4
         public void get_Oid(){} // RVA: 0x2F8380
@@ -114,6 +119,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AsymmetricAlgorithm
     {
+        public int KeySizeValue; // 0x10
+        public System.Security.Cryptography.KeySizes[] LegalKeySizesValue; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Dispose(){} // RVA: 0x2DD310 | overloaded x2

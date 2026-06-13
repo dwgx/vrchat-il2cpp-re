@@ -38,6 +38,13 @@ namespace VRC.Economy
 
     public class UdonProduct
     {
+        public string _ID; // 0x18
+        public string _Name; // 0x20
+        public string _Description; // 0x28
+        public UnityEngine.Texture2D _Image; // 0x30
+        public bool <Purchased>k__BackingField; // 0x38
+        public VRC.SDKBase.VRCPlayerApi <Buyer>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_ID(){} // RVA: 0x2E07C0
         public void set_ID(){} // RVA: 0x99E50B0
@@ -61,7 +68,8 @@ namespace VRC.Economy
 
     public class UdonProductsCategory
     {
-        public object NetworkIDCollection;
+        public string NetworkIDCollection; // 0x18
+        public VRC.Economy.UdonProduct[] _Products; // 0x20
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0

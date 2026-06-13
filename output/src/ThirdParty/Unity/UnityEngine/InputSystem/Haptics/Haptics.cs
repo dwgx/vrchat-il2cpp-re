@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Haptics
 {
     public class DualMotorRumble
     {
+        public float <lowFrequencyMotorSpeed>k__BackingField; // 0x10
+        public float <highFrequencyMotorSpeed>k__BackingField; // 0x14
+
         // ── Methods ──
         public void get_lowFrequencyMotorSpeed(){} // RVA: 0x1D26670
         public void set_lowFrequencyMotorSpeed(){} // RVA: 0x1F78330

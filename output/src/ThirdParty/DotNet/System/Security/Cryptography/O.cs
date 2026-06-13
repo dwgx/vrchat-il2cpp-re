@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Oid
     {
-        public object Item;
-        public object Count;
+        public string Item; // 0x10
+        public string Count; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28914C0 | overloaded x5
@@ -20,6 +20,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class OidCollection
     {
+        public System.Collections.Generic.List`1<System.Security.Cryptography.Oid> _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C32270
         public void Add(){} // RVA: 0x6C32330
@@ -34,6 +36,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class OidEnumerator
     {
+        public System.Security.Cryptography.OidCollection _oids; // 0x10
+        public int _current; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D7B410
         public void get_Current(){} // RVA: 0x6C327F0

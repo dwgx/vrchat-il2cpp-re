@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 {
     public class BaseStyleMatcher
     {
+        public System.Text.RegularExpressions.Regex s_CustomIdentRegex;
+        public System.Collections.Generic.Stack`1<MatchContext> m_ContextStack; // 0x10
+        public MatchContext m_CurrentContext; // 0x18
+
         // ── Methods ──
         public void MatchKeyword(){} // RVA: 0xDE40
         public void MatchNumber(){} // RVA: 0xDBE0
@@ -78,6 +82,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class InitialStyle
     {
+        public UnityEngine.UIElements.ComputedStyle s_InitialStyle;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x736EDD0
         public void Acquire(){} // RVA: 0x736EE20
@@ -167,6 +173,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class MatchResult
     {
+        public 0x65844D78 errorCode; // 0x10
+
         // ── Methods ──
         public void get_success(){} // RVA: 0x7389750
     }
@@ -224,6 +232,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyReader
     {
+        public GetCursorIdFunction getCursorIdFunc;
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheets.StylePropertyValue> m_Values; // 0x10
+        public System.Collections.Generic.List`1<int> m_ValueCount; // 0x18
+        public UnityEngine.UIElements.StyleVariableResolver m_Resolver; // 0x20
+
         // ── Methods ──
         public void get_property(){} // RVA: 0x358730
         public void set_property(){} // RVA: 0x358740
@@ -288,6 +301,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyValueMatcher
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheets.StylePropertyValue> m_Values; // 0x20
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x738AAC0
         public void get_valueCount(){} // RVA: 0x738AB80

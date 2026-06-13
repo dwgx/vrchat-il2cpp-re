@@ -7,6 +7,9 @@ namespace VRC.SDK3.AssetCustomization
 {
     public class AssetPart : ؄}e
     {
+        public string displayName; // 0x20
+        public string assetId; // 0x28
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x99F6130
         public void get_AssetId(){} // RVA: 0x30B130
@@ -57,6 +60,9 @@ namespace VRC.SDK3.AssetCustomization
 
     public class VariableLink
     {
+        public string assetId; // 0x10
+        public string variableId; // 0x18
+
         // ── Methods ──
         public void get_AssetId(){} // RVA: 0x1AD4690
         public void get_VariableId(){} // RVA: 0x19689C0

@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ParticleCollisionEvent
     {
+        public UnityEngine.Vector3 m_Intersection; // 0x10
+        public UnityEngine.Vector3 m_Normal; // 0x1C
+
         // ── Methods ──
         public void get_velocity(){} // RVA: 0x70983A0
         public void get_colliderComponent(){} // RVA: 0x71C8A20
@@ -306,6 +309,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics
     {
+        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<UnityEngine.ModifiableContactPair>> ContactModifyEvent;
+        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<UnityEngine.ModifiableContactPair>> ContactModifyEventCCD; // 0x8
+        public ContactEventDelegate ContactEvent; // 0x10
+        public UnityEngine.Collision s_ReusableCollision; // 0x18
+
         // ── Methods ──
         public void OnSceneContactModify(){} // RVA: 0x71F0AA0
         public void get_gravity(){} // RVA: 0x71F0B90
@@ -400,6 +408,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics2D
     {
+        public System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> m_LastDisabledRigidbody2D;
+
         // ── Methods ──
         public void get_defaultPhysicsScene(){} // RVA: 0x3E0F620
         public void get_velocityIterations(){} // RVA: 0x71CE860
@@ -719,6 +729,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Plane
     {
+        public int size;
+        public UnityEngine.Vector3 m_Normal; // 0x10
+        public float m_Distance; // 0x1C
+
         // ── Methods ──
         public void get_normal(){} // RVA: 0x7079450
         public void set_normal(){} // RVA: 0x210E450
@@ -862,6 +876,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Pose
     {
+        public UnityEngine.Vector3 position; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x49C5490
         public void ToString(){} // RVA: 0x7135680

@@ -7,6 +7,17 @@ namespace VRC.SDK3.Network
 {
     public class Stats
     {
+        public System.Func`1<float> _ThroughputPercentage;
+        public System.Func`1<float> _RoundTripVariance; // 0x8
+        public System.Func`1<int> _RoundTripTime; // 0x10
+        public System.Func`1<int> _BytesInMax; // 0x18
+        public System.Func`1<float> _BytesInAverage; // 0x20
+        public System.Func`1<int> _BytesOutMax; // 0x28
+        public System.Func`1<float> _BytesOutAverage; // 0x30
+        public System.Func`1<float> _HitchesPerNetworkTick; // 0x38
+        public System.Func`1<float> _Suffering; // 0x40
+        public System.Func`1<float> _TimeInRoom; // 0x48
+
         // ── Methods ──
         public void get_ThroughputPercentage(){} // RVA: 0x9A17AF0
         public void get_RoundTripVariance(){} // RVA: 0x9A17B50

@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.XR
-// Classes: 22
+// Classes: 30
 // Methods: 166
 
 namespace ThirdParty.Unity.UnityEngine.XR
 {
     public class Bone
     {
+        public ulong m_DeviceId; // 0x10
+        public uint m_FeatureIndex; // 0x18
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x2738C50
         public void get_featureIndex(){} // RVA: 0x3C4E030
@@ -22,6 +25,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Eyes
     {
+        public ulong m_DeviceId; // 0x10
+        public uint m_FeatureIndex; // 0x18
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x2738C50
         public void get_featureIndex(){} // RVA: 0x3C4E030
@@ -31,6 +37,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Hand
     {
+        public ulong m_DeviceId; // 0x10
+        public uint m_FeatureIndex; // 0x18
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x2738C50
         public void get_featureIndex(){} // RVA: 0x3C4E030
@@ -40,6 +49,13 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class HapticCapabilities
     {
+        public uint m_NumChannels; // 0x10
+        public bool m_SupportsImpulse; // 0x14
+        public bool m_SupportsBuffer; // 0x15
+        public uint m_BufferFrequencyHz; // 0x18
+        public uint m_BufferMaxSize; // 0x1C
+        public uint m_BufferOptimalSize; // 0x20
+
         // ── Methods ──
         public void get_numChannels(){} // RVA: 0x67FD0D0
         public void get_supportsImpulse(){} // RVA: 0x7505EC0
@@ -59,6 +75,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevice
     {
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystem> s_InputSubsystemCache;
+        public ulong m_DeviceId; // 0x10
+        public bool m_Initialized; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7508150
         public void get_deviceId(){} // RVA: 0x7508160
@@ -108,6 +128,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage
     {
+        public string m_Name; // 0x10
+        public 0x659EC520 m_InternalType; // 0x18
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x2738C50
         public void get_internalType(){} // RVA: 0x3C4E030
@@ -117,12 +140,54 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage`1
     {
+        public string <name>k__BackingField;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xCD60
         public void set_name(){} // RVA: 0x24B10
         public void .ctor(){} // RVA: 0x24B10
         public void Equals(){} // RVA: 0x283FA0 | overloaded x2
         public void GetHashCode(){} // RVA: 0xD840
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
+    }
+
+    public class InputFeatureUsage`1
+    {
+        public string <name>k__BackingField; // 0x10
     }
 
     public class InputTracking
@@ -142,6 +207,15 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshGenerationResult
     {
+        public UnityEngine.XR.MeshId <MeshId>k__BackingField; // 0x10
+        public UnityEngine.Mesh <Mesh>k__BackingField; // 0x20
+        public UnityEngine.MeshCollider <MeshCollider>k__BackingField; // 0x28
+        public 0x659ECC58 <Status>k__BackingField; // 0x30
+        public 0x659ECD60 <Attributes>k__BackingField; // 0x34
+        public ulong <Timestamp>k__BackingField; // 0x38
+        public UnityEngine.Vector3 <Position>k__BackingField; // 0x40
+        public UnityEngine.Quaternion <Rotation>k__BackingField; // 0x4C
+
         // ── Methods ──
         public void get_MeshId(){} // RVA: 0x75E7E0
         public void get_Mesh(){} // RVA: 0x2F8380
@@ -176,6 +250,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDisplaySubsystem
     {
+        public System.Action`1<bool> displayFocusChanged; // 0x20
+
         // ── Methods ──
         public void InvokeDisplayFocusChanged(){} // RVA: 0x70AC7D0
         public void get_scaleOfAllRenderTargets(){} // RVA: 0x750A630
@@ -224,6 +300,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRNodeState
     {
+        public 0x659EC3C0 m_Type; // 0x10
+        public 0x659EC418 m_AvailableFields; // 0x14
+        public UnityEngine.Vector3 m_Position; // 0x18
+
         // ── Methods ──
         public void set_uniqueID(){} // RVA: 0x4C34E0
         public void get_nodeType(){} // RVA: 0x67FD0D0

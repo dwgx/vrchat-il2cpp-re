@@ -7,6 +7,8 @@ namespace VRC.Impostors
 {
     public class Impostor
     {
+        public System.Collections.Generic.List`1<UnityEngine.Mesh> imposterMeshes; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xE6E800
         public void RaiseCancellation(){} // RVA: 0xE6ECB0
@@ -36,6 +38,8 @@ namespace VRC.Impostors
 
     public class ImpostorAvatar
     {
+        public UnityEngine.Animator animator; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xE73BA0
         public void Awake(){} // RVA: 0xE73FB0

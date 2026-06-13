@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 11
-// Methods: 64
+// Classes: 13
+// Methods: 77
 
 namespace ThirdParty.DotNet.System
 {
@@ -23,6 +23,8 @@ namespace ThirdParty.DotNet.System
 
     public class ObjectDisposedException
     {
+        public string _objectName; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EAD370 | overloaded x4
         public void GetObjectData(){} // RVA: 0x5EAD480
@@ -32,10 +34,41 @@ namespace ThirdParty.DotNet.System
 
     public class ObsoleteAttribute
     {
+        public string _message; // 0x10
+        public bool _error; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1AB41A0 | overloaded x3
         public void get_Message(){} // RVA: 0x2F8380
         public void get_IsError(){} // RVA: 0x2F84E0
+    }
+
+    public class ObsoleteAttribute
+    {
+        public string <Message>k__BackingField; // 0x10
+        public bool <IsError>k__BackingField; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1AB41A0 | overloaded x2
+        public void set_DiagnosticId(){} // RVA: 0x30B0D0
+        public void set_UrlFormat(){} // RVA: 0x2DEE90
+    }
+
+    public class ObsoleteAttribute
+    {
+        public string <Message>k__BackingField; // 0x10
+        public bool <IsError>k__BackingField; // 0x18
+        public string <DiagnosticId>k__BackingField; // 0x20
+        public string <UrlFormat>k__BackingField; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1AB41A0 | overloaded x3
+        public void get_Message(){} // RVA: 0x2F8380
+        public void get_IsError(){} // RVA: 0x2F84E0
+        public void get_DiagnosticId(){} // RVA: 0x30B0C0
+        public void set_DiagnosticId(){} // RVA: 0x30B0D0
+        public void get_UrlFormat(){} // RVA: 0x30B130
+        public void set_UrlFormat(){} // RVA: 0x2DEE90
     }
 
     public class Obsoletions
@@ -44,6 +77,10 @@ namespace ThirdParty.DotNet.System
 
     public class OperatingSystem
     {
+        public System.Version _version; // 0x10
+        public 0x657DF330 _platform; // 0x18
+        public string _servicePack; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EC8710 | overloaded x2
         public void GetObjectData(){} // RVA: 0x5EC8860
@@ -56,6 +93,8 @@ namespace ThirdParty.DotNet.System
 
     public class OperationCanceledException
     {
+        public System.Threading.CancellationToken _cancellationToken; // 0x90
+
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x796DE0
         public void set_CancellationToken(){} // RVA: 0xB54600

@@ -23,6 +23,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÍÏÎÌÎÍÌÍÎÎÏÍÏÏÎÌÌÌÏÏ</summary>
     public class EncodingWrite_6BB1_3C96
     {
+        public System.Text.StringBuilder ÌÎÌÍÎÌÍÎÎÍÏÎÍÎÏÍÍÏÍÏÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Write(){} // RVA: 0x1488410 | overloaded x3
         public void .ctor(){} // RVA: 0x1488160
@@ -33,6 +35,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÎÎÏÌÌÌÎÏÏÎÎÍÌÏÎÌÍÌÏÎ</summary>
     public class EventReplicator2Related_6A12
     {
+        public UnityEngine.CanvasGroup _canvasGroup; // 0x20
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _controlsText; // 0x28
+
         // ── Methods ──
         public void set_disposed(){} // RVA: 0x394D40
         public void get_disposed(){} // RVA: 0x394D30
@@ -55,6 +60,18 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÍÎÍÌÏÍÌÏÎÏÍÌÍÍÌÌÌÎÎ</summary>
     public class ExceptionInt16OverflowComponent_B2EE
     {
+        public string ÌÍÎÎÌÍÌÏÏÏÍÌÍÎÍÌÍÍÎÎÌÍÎ;
+        public string ÏÎÏÍÎÌÍÎÍÎÎÍÌÏÌÌÎÌÏÎÎÌÎ;
+        public string ÎÌÏÏÌÎÏÎÍÍÌÌÏÌÍÌÌÌÍÎÏÍÌ;
+        public string ÏÍÏÎÍÍÏÍÏÎÌÌÌÌÌÏÎÏÎÌÎÏÌ;
+        public string ÌÌÍÌÎÌÌÎÌÍÎÎÎÌÍÍÎÎÍÍÍÍÍ;
+        public string ÌÍÌÎÌÎÎÌÎÏÏÏÎÌÌÏÌÌÌÏÍÌÍ;
+        public string ÏÏÎÍÌÌÎÏÌÎÌÍÎÎÍÏÌÌÏÎÌÌÎ;
+        public string ÌÍÏÌÎÍÎÏÌÎÎÏÏÎÍÍÍÏÎÎÍÍÍ;
+        public string ÌÍÍÍÌÌÎÍÎÎÏÌÌÌÏÍÍÍÌÏÌÏÏ;
+        public string ÏÎÍÍÎÏÍÍÏÎÍÌÏÎÍÍÌÍÍÌÍÌÍ;
+        public string ÌÎÌÌÏÏÏÍÎÎÏÏÎÏÏÎÍÍÍÎÌÎÍ;
+
         // ── Methods ──
         public void ComputeExponential(){} // RVA: 0x10703B0
         public void Exp(){} // RVA: 0x10704F0
@@ -388,7 +405,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÎÌÏÎÏÏÌÌÏÎÌÏÎÏÏÏÍÌÍÍ</summary>
     public class enabled_D175
     {
-        public object enabled;
+        public TMPro.TextMeshProUGUI enabled; // 0x20
 
         // ── Methods ──
         public void OnEnable_B8E25FAD904C(){} // RVA: 0x92CEC30

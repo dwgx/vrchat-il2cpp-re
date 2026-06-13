@@ -7,6 +7,9 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class BaggageHeader
     {
+        public string HttpHeaderName;
+        public string SentryKeyPrefix;
+
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x629AD10
         public void set_Logger(){} // RVA: 0x629AD70
@@ -23,6 +26,51 @@ namespace ThirdParty.Sentry.Sentry
 
     public class BindableSentryOptions
     {
+        public System.Nullable`1<bool> <IsGlobalModeEnabled>k__BackingField; // 0x10
+        public System.Nullable`1<bool> <EnableScopeSync>k__BackingField; // 0x12
+        public System.Collections.Generic.List`1<string> <TagFilters>k__BackingField; // 0x18
+        public System.Nullable`1<bool> <SendDefaultPii>k__BackingField; // 0x20
+        public System.Nullable`1<bool> <IsEnvironmentUser>k__BackingField; // 0x22
+        public string <ServerName>k__BackingField; // 0x28
+        public System.Nullable`1<bool> <AttachStacktrace>k__BackingField; // 0x30
+        public System.Nullable`1<int> <MaxBreadcrumbs>k__BackingField; // 0x34
+        public System.Nullable`1<float> <SampleRate>k__BackingField; // 0x3C
+        public string <Release>k__BackingField; // 0x48
+        public string <Distribution>k__BackingField; // 0x50
+        public string <Environment>k__BackingField; // 0x58
+        public string <Dsn>k__BackingField; // 0x60
+        public System.Nullable`1<int> <MaxQueueItems>k__BackingField; // 0x68
+        public System.Nullable`1<int> <MaxCacheItems>k__BackingField; // 0x70
+        public System.Nullable`1<System.TimeSpan> <ShutdownTimeout>k__BackingField; // 0x78
+        public System.Nullable`1<System.TimeSpan> <FlushTimeout>k__BackingField; // 0x88
+        public System.Nullable`1<0x658579E8> <DecompressionMethods>k__BackingField; // 0x98
+        public System.Nullable`1<0x65854708> <RequestBodyCompressionLevel>k__BackingField; // 0xA0
+        public System.Nullable`1<bool> <RequestBodyCompressionBuffered>k__BackingField; // 0xA8
+        public System.Nullable`1<bool> <SendClientReports>k__BackingField; // 0xAA
+        public System.Nullable`1<bool> <Debug>k__BackingField; // 0xAC
+        public System.Nullable`1<0x658B4E20> <DiagnosticLevel>k__BackingField; // 0xAE
+        public System.Nullable`1<0x658B4320> <ReportAssembliesMode>k__BackingField; // 0xB4
+        public System.Nullable`1<0x658B2A08> <DeduplicateMode>k__BackingField; // 0xBC
+        public string <CacheDirectoryPath>k__BackingField; // 0xC8
+        public System.Nullable`1<bool> <CaptureFailedRequests>k__BackingField; // 0xD0
+        public System.Collections.Generic.List`1<string> <FailedRequestTargets>k__BackingField; // 0xD8
+        public System.Nullable`1<bool> <DisableFileWrite>k__BackingField; // 0xE0
+        public System.Nullable`1<System.TimeSpan> <InitCacheFlushTimeout>k__BackingField; // 0xE8
+        public System.Collections.Generic.Dictionary`2<string,string> <DefaultTags>k__BackingField; // 0xF8
+        public System.Nullable`1<bool> <EnableTracing>k__BackingField; // 0x100
+        public System.Nullable`1<double> <TracesSampleRate>k__BackingField; // 0x108
+        public System.Collections.Generic.List`1<string> <TracePropagationTargets>k__BackingField; // 0x118
+        public System.Nullable`1<double> <ProfilesSampleRate>k__BackingField; // 0x120
+        public System.Nullable`1<0x658B6210> <StackTraceMode>k__BackingField; // 0x130
+        public System.Nullable`1<long> <MaxAttachmentSize>k__BackingField; // 0x138
+        public System.Nullable`1<0x658B6268> <DetectStartupTime>k__BackingField; // 0x148
+        public System.Nullable`1<System.TimeSpan> <AutoSessionTrackingInterval>k__BackingField; // 0x150
+        public System.Nullable`1<bool> <AutoSessionTracking>k__BackingField; // 0x160
+        public System.Nullable`1<bool> <UseAsyncFileIO>k__BackingField; // 0x162
+        public System.Nullable`1<bool> <JsonPreserveReferences>k__BackingField; // 0x164
+        public System.Nullable`1<bool> <EnableSpotlight>k__BackingField; // 0x166
+        public string <SpotlightUrl>k__BackingField; // 0x168
+
         // ── Methods ──
         public void get_IsGlobalModeEnabled(){} // RVA: 0x1C0F720
         public void set_IsGlobalModeEnabled(){} // RVA: 0x1C0FA70
@@ -118,6 +166,13 @@ namespace ThirdParty.Sentry.Sentry
 
     public class Breadcrumb
     {
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> _data; // 0x10
+        public string _message; // 0x18
+        public bool _sendDefaultPii; // 0x20
+        public System.DateTimeOffset <Timestamp>k__BackingField; // 0x28
+        public string <Type>k__BackingField; // 0x38
+        public string <Category>k__BackingField; // 0x40
+
         // ── Methods ──
         public void Redact(){} // RVA: 0x629E0D0
         public void get_Timestamp(){} // RVA: 0x111F520
@@ -135,6 +190,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class BuiltInSystemDiagnosticsMeters
     {
+        public string MicrosoftAspNetCoreHostingPattern;
+
         // ── Methods ──
         public void get_All(){} // RVA: 0x629F150
         public void .cctor(){} // RVA: 0x629F1D0

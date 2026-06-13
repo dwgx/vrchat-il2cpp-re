@@ -446,6 +446,10 @@ public class TaskSocketAsyncEventArgs`1
 
 public class TaskWrapperAsyncResult
 {
+    public System.Threading.Tasks.Task Task; // 0x10
+    public object _state; // 0x18
+    public bool _completedSynchronously; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D298A0
     public void System.IAsyncResult.get_AsyncState(){} // RVA: 0x2E07C0
@@ -456,6 +460,10 @@ public class TaskWrapperAsyncResult
 
 public class TaskWrapperAsyncResult
 {
+    public System.Threading.Tasks.Task Task; // 0x10
+    public object _state; // 0x18
+    public bool _completedSynchronously; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D298A0
     public void System.IAsyncResult.get_AsyncState(){} // RVA: 0x2E07C0
@@ -488,6 +496,20 @@ public class TempAssemblyComparer
 
 public class TensorMapping
 {
+    public Google.Protobuf.MessageParser`1<TensorMapping> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int DetectionsTensorIndexDefaultValue; // 0x8
+    public int detectionsTensorIndex_; // 0x1C
+    public int ClassesTensorIndexDefaultValue; // 0xC
+    public int classesTensorIndex_; // 0x20
+    public int ScoresTensorIndexDefaultValue; // 0x10
+    public int scoresTensorIndex_; // 0x24
+    public int NumDetectionsTensorIndexDefaultValue; // 0x14
+    public int numDetectionsTensorIndex_; // 0x28
+    public int AnchorsTensorIndexDefaultValue; // 0x18
+    public int anchorsTensorIndex_; // 0x2C
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AEEC70
     public void get_Descriptor(){} // RVA: 0x5AEECD0
@@ -540,6 +562,9 @@ public class TestClass
 
 public class TextBackingContainer
 {
+    public uint[] m_Array; // 0x10
+    public int m_Count; // 0x18
+
     // ── Methods ──
     public void get_Capacity(){} // RVA: 0x35542C0
     public void get_Count(){} // RVA: 0x1EA9890
@@ -552,6 +577,8 @@ public class TextBackingContainer
 
 public class TextEvent
 {
+    public int Time; // 0x10
+
     // ── Methods ──
     public void get_TextEventType(){} // RVA: 0x1EED2E0
 }
@@ -567,6 +594,17 @@ public class TextInput
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -606,6 +644,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField;
+    public UnityEngine.UIElements.ScrollView scrollView;
+    public UnityEngine.UIElements.VisualElement multilineContainer;
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName;
+    public string innerTextElementWithScrollViewUssClassName;
+    public string horizontalVariantInnerTextElementUssClassName;
+    public string verticalVariantInnerTextElementUssClassName;
+    public string verticalHorizontalVariantInnerTextElementUssClassName;
+    public string innerScrollviewUssClassName;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xCD60
     public void set_textElement(){} // RVA: 0x24B10
@@ -645,6 +694,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -684,6 +744,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -723,6 +794,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -762,6 +844,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960
@@ -801,6 +894,17 @@ public class TextInputBase
 
 public class TextInputBase
 {
+    public UnityEngine.UIElements.TextElement <textElement>k__BackingField; // 0x3C8
+    public UnityEngine.UIElements.ScrollView scrollView; // 0x3D0
+    public UnityEngine.UIElements.VisualElement multilineContainer; // 0x3D8
+    public string innerComponentsModifierName;
+    public string innerTextElementUssClassName; // 0x8
+    public string innerTextElementWithScrollViewUssClassName; // 0x10
+    public string horizontalVariantInnerTextElementUssClassName; // 0x18
+    public string verticalVariantInnerTextElementUssClassName; // 0x20
+    public string verticalHorizontalVariantInnerTextElementUssClassName; // 0x28
+    public string innerScrollviewUssClassName; // 0x30
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0xD96B00
     public void set_textElement(){} // RVA: 0xD88960

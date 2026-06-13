@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Google.Google.FlatBuffers32
-// Classes: 17
-// Methods: 258
+// Classes: 29
+// Methods: 262
 
 namespace ThirdParty.Google.Google.FlatBuffers32
 {
     public class ByteArrayAllocator
     {
+        public byte[] _buffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75B6740
         public void GrowFront(){} // RVA: 0x75BEAC0
@@ -19,8 +21,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class ByteBuffer
     {
-        public object Position;
-        public object Length;
+        public Google.FlatBuffers32.ByteBufferAllocator Position; // 0x10
+        public int Length; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75BF0F0 | overloaded x4
@@ -72,6 +74,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class ByteBufferAllocator
     {
+        public int <Length>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Span(){}
         public void get_ReadOnlySpan(){}
@@ -93,6 +97,11 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class FlatBufferBuilder
     {
+        public int _space; // 0x10
+        public Google.FlatBuffers32.ByteBuffer _bb; // 0x18
+        public int _minAlign; // 0x20
+        public int[] _vtable; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75C18C0 | overloaded x2
         public void Clear(){} // RVA: 0x75C1A60
@@ -166,10 +175,68 @@ namespace ThirdParty.Google.Google.FlatBuffers32
         public void .ctor(){} // RVA: 0x24FA0
     }
 
+    public class Offset`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x833580
+    }
+
+    public class Offset`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x833580
+    }
+
+    public class Offset`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x833580
+    }
+
+    public class Offset`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x833580
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
     public class Options
     {
-        public object bb_pos;
-        public object bb;
+        public int bb_pos;
+        public int bb;
+        public int max_depth; // 0x10
+        public int max_tables; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75BC1F0 | overloaded x2
@@ -191,7 +258,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Struct
     {
-        public object _bb_pos;
+        public int _bb_pos; // 0x10
+        public Google.FlatBuffers32.ByteBuffer <bb>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x19689B0
@@ -203,9 +271,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Table
     {
-        public object bb_pos;
-        public object bb;
-        public object ByteBuffer;
+        public int bb_pos; // 0x10
+        public Google.FlatBuffers32.ByteBuffer bb; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x19689B0
@@ -234,6 +301,11 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Verifier
     {
+        public Google.FlatBuffers32.ByteBuffer verifier_buffer; // 0x10
+        public Google.FlatBuffers32.Options verifier_options; // 0x18
+        public int depth_cnt; // 0x20
+        public int num_tables_cnt; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75C4520 | overloaded x2
         public void get_Buf(){} // RVA: 0x2F8380

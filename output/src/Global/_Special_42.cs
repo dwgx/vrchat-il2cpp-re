@@ -5,6 +5,9 @@
 
 public class <ExceptIterator>d__77`1
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.ApiWorldInstance <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D5BAF0
@@ -19,6 +22,9 @@ public class <ExceptIterator>d__77`1
 
 public class <ExceptIterator>d__77`1
 {
+    public int <>1__state; // 0x10
+    public byte <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D5B0B0
@@ -33,6 +39,9 @@ public class <ExceptIterator>d__77`1
 
 public class <ExecuteFilter>d__12
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x60556D0
@@ -47,6 +56,9 @@ public class <ExecuteFilter>d__12
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6054C10
@@ -62,6 +74,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6056530
@@ -77,6 +92,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6057260
@@ -92,6 +110,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x605D5B0
@@ -107,6 +128,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x605E050
@@ -122,6 +146,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x605EC40
@@ -136,6 +163,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__2
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x605F570
@@ -151,6 +181,9 @@ public class <ExecuteFilter>d__2
 
 public class <ExecuteFilter>d__4
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x60540B0
@@ -180,6 +213,9 @@ public class <ExtractContentAsync>d__3 : [I
 
 public class <ExtractFrameCoroutine>d__246
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -205,6 +241,9 @@ public class <ExtractResponseContentAsync>d__1 : [I
 
 public class <FOVKickDown>d__10
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -216,6 +255,9 @@ public class <FOVKickDown>d__10
 
 public class <FOVKickUp>d__9
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -227,6 +269,9 @@ public class <FOVKickUp>d__9
 
 public class <Fade>d__25
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -238,6 +283,9 @@ public class <Fade>d__25
 
 public class <FallDown>d__11
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -316,6 +364,9 @@ public class <FetchSharedConnectionCountsAsync>d__11 : [I
 
 public class <FinalRenderCapture>d__14
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -327,6 +378,9 @@ public class <FinalRenderCapture>d__14
 
 public class <FinalRenderCapture>d__15
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -338,6 +392,9 @@ public class <FinalRenderCapture>d__15
 
 public class <FinalRenderCapture>d__20
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -349,6 +406,9 @@ public class <FinalRenderCapture>d__20
 
 public class <FinalRenderCapture>d__211
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -360,6 +420,9 @@ public class <FinalRenderCapture>d__211
 
 public class <FinalRenderCapture>d__22
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -371,6 +434,9 @@ public class <FinalRenderCapture>d__22
 
 public class <FinalRenderCapture>d__49
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -382,6 +448,9 @@ public class <FinalRenderCapture>d__49
 
 public class <FindComponentInPossibleClones>d__58
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Component <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x984DAE0
@@ -395,6 +464,9 @@ public class <FindComponentInPossibleClones>d__58
 
 public class <FindIllegalShadersEnumerator>d__21
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AA7620
@@ -595,6 +667,9 @@ public class <ForgetCoreWithCatch>d__21`1 : <>t__builder
 
 public class <FreeRenderModel>d__33
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -627,6 +702,9 @@ public class <GetAccessory>d__24 : [I
 
 public class <GetAllButtonPresses>d__43
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.InputSystem.InputControl <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6DF1C90
@@ -641,6 +719,9 @@ public class <GetAllButtonPresses>d__43
 
 public class <GetAllEventProcessors>d__114
 {
+    public int <>1__state; // 0x10
+    public Sentry.Extensibility.ISentryEventProcessor <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x638FC70
@@ -656,6 +737,9 @@ public class <GetAllEventProcessors>d__114
 
 public class <GetAllExceptionProcessors>d__116
 {
+    public int <>1__state; // 0x10
+    public Sentry.Extensibility.ISentryEventExceptionProcessor <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x63906A0
@@ -671,6 +755,9 @@ public class <GetAllExceptionProcessors>d__116
 
 public class <GetAllItemIds>d__13
 {
+    public int <>1__state;
+    public int <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -684,6 +771,9 @@ public class <GetAllItemIds>d__13
 
 public class <GetAllMembers>d__49
 {
+    public int <>1__state; // 0x10
+    public System.Reflection.MemberInfo <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -697,6 +787,9 @@ public class <GetAllMembers>d__49
 
 public class <GetAllMembers>d__50
 {
+    public int <>1__state; // 0x10
+    public System.Reflection.MemberInfo <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x78ADBB0
@@ -711,6 +804,9 @@ public class <GetAllMembers>d__50
 
 public class <GetAllMembers>d__51`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -724,6 +820,9 @@ public class <GetAllMembers>d__51`1
 
 public class <GetAllPossibleMissingAOTTypes>d__16
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x785C3E0
@@ -738,6 +837,9 @@ public class <GetAllPossibleMissingAOTTypes>d__16
 
 public class <GetAllSceneObjects>d__86`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -752,6 +854,9 @@ public class <GetAllSceneObjects>d__86`1
 
 public class <GetAllTransactionProcessors>d__115
 {
+    public int <>1__state; // 0x10
+    public Sentry.Extensibility.ISentryTransactionProcessor <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x63910D0
@@ -767,6 +872,9 @@ public class <GetAllTransactionProcessors>d__115
 
 public class <GetAllowedCodePoints>d__14
 {
+    public int <>1__state; // 0x10
+    public int <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -780,6 +888,9 @@ public class <GetAllowedCodePoints>d__14
 
 public class <GetAllowedCodePoints>d__14
 {
+    public int <>1__state; // 0x10
+    public int <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -793,6 +904,9 @@ public class <GetAllowedCodePoints>d__14
 
 public class <GetAncestors>d__48
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -813,6 +927,8 @@ public class <GetAnonymizationStateAsync>d__10 : [I
 
 public class <GetAsyncEnumerator>d__1
 {
+    public int <>1__state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void MoveNext(){} // RVA: 0x24A50
@@ -830,6 +946,8 @@ public class <GetAsyncEnumerator>d__1
 
 public class <GetAsyncEnumerator>d__1
 {
+    public int <>1__state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void MoveNext(){} // RVA: 0x24A50
@@ -847,6 +965,9 @@ public class <GetAsyncEnumerator>d__1
 
 public class <GetAttributes>d__116
 {
+    public int <>1__state; // 0x10
+    public System.Xml.Linq.XAttribute <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -867,6 +988,9 @@ public class <GetAvailableLanguagesFile>d__2 : [I
 
 public class <GetBaseClasses>d__55
 {
+    public int <>1__state; // 0x10
+    public System.Type <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -880,6 +1004,9 @@ public class <GetBaseClasses>d__55
 
 public class <GetBaseLayouts>d__24
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.InputSystem.Utilities.InternedString <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -914,6 +1041,9 @@ public class <GetByteArrayAsync>d__25 : [I
 
 public class <GetCacheSizeInfo>d__4
 {
+    public int <>1__state; // 0x10
+    public System.ValueTuple`2<System.Type,int> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x6CED600
@@ -936,6 +1066,9 @@ public class <GetCampaignAsync>d__32 : [I
 
 public class <GetChains>d__58
 {
+    public int <>1__state; // 0x10
+    public System.ValueTuple`2<int,Chain> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -954,6 +1087,9 @@ public class <GetConfigAsync>d__2 : [I
 
 public class <GetControlableScripts>d__40
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.MonoBehaviour <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -974,6 +1110,9 @@ public class <GetCurrentLeaderboardAsync>d__8 : [I
 
 public class <GetCustomAttributes>d__64`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -987,6 +1126,9 @@ public class <GetCustomAttributes>d__64`1
 
 public class <GetDeclaredMethods>d__10
 {
+    public int <>1__state; // 0x10
+    public System.Reflection.MethodInfo <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

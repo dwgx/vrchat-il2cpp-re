@@ -24,6 +24,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Compiler
 
     public class HoistedLocals
     {
+        public System.Linq.Expressions.Compiler.HoistedLocals Parent; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x665D8B0
         public void get_ParentVariable(){} // RVA: 0x665DE10

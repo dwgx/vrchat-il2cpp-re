@@ -7,6 +7,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq.JsonPath
 {
     public class ArrayIndexFilter
     {
+        public System.Nullable`1<int> <Index>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Index(){} // RVA: 0x2F8380
         public void set_Index(){} // RVA: 0x1967700
@@ -23,6 +25,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq.JsonPath
 
     public class ArraySliceFilter
     {
+        public System.Nullable`1<int> <Start>k__BackingField; // 0x10
+        public System.Nullable`1<int> <End>k__BackingField; // 0x18
+        public System.Nullable`1<int> <Step>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Start(){} // RVA: 0x2F8380
         public void set_Start(){} // RVA: 0x1967700
@@ -49,6 +55,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq.JsonPath
 
     public class CompositeExpression
     {
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> <Expressions>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Expressions(){} // RVA: 0x2E07C0
         public void set_Expressions(){} // RVA: 0x343E80
@@ -72,6 +80,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq.JsonPath
 
     public class JPath
     {
+        public char[] FloatCharacters;
+
         // ── Methods ──
         public void get_Filters(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0x6057F60

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Common
-// Classes: 15
-// Methods: 95
+// Classes: 16
+// Methods: 104
 
 namespace VRC.Udon.Common
 {
@@ -57,6 +57,15 @@ namespace VRC.Udon.Common
 
     public class UdonProgram
     {
+        public string <InstructionSetIdentifier>k__BackingField; // 0x10
+        public int <InstructionSetVersion>k__BackingField; // 0x18
+        public byte[] <ByteCode>k__BackingField; // 0x20
+        public VRC.Udon.Common.Interfaces.IUdonHeap <Heap>k__BackingField; // 0x28
+        public VRC.Udon.Common.Interfaces.IUdonSymbolTable <EntryPoints>k__BackingField; // 0x30
+        public VRC.Udon.Common.Interfaces.IUdonSymbolTable <SymbolTable>k__BackingField; // 0x38
+        public VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable <SyncMetadataTable>k__BackingField; // 0x40
+        public int <UpdateOrder>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_InstructionSetIdentifier(){} // RVA: 0x2F8380
         public void get_InstructionSetVersion(){} // RVA: 0x5BED50
@@ -71,6 +80,10 @@ namespace VRC.Udon.Common
 
     public class UdonSymbol
     {
+        public string <Name>k__BackingField; // 0x10
+        public System.Type <Type>k__BackingField; // 0x18
+        public uint <Address>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_Type(){} // RVA: 0x2E07C0
@@ -98,6 +111,9 @@ namespace VRC.Udon.Common
 
     public class UdonSyncMetadata : get_Name
     {
+        public string <Name>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonSyncProperty> <Properties>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_Properties(){} // RVA: 0x2E07C0
@@ -116,6 +132,9 @@ namespace VRC.Udon.Common
 
     public class UdonSyncProperty : get_Name
     {
+        public string <Name>k__BackingField; // 0x10
+        public 0x659F2FB0 <InterpolationAlgorithm>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_InterpolationAlgorithm(){} // RVA: 0x5BED50
@@ -125,6 +144,8 @@ namespace VRC.Udon.Common
 
     public class UdonVariableTable
     {
+        public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonVariable> _publicVariables; // 0x10
+
         // ── Methods ──
         public void get_VariableSymbols(){} // RVA: 0x76FC5D0
         public void .ctor(){} // RVA: 0x76FCF20 | overloaded x3
@@ -138,6 +159,9 @@ namespace VRC.Udon.Common
 
     public class UdonVariable`1
     {
+        public string <SymbolName>k__BackingField;
+        public T <Value>k__BackingField;
+
         // ── Methods ──
         public void get_SymbolName(){} // RVA: 0xCD60
         public void get_Value(){} // RVA: 0x283FA0
@@ -147,6 +171,22 @@ namespace VRC.Udon.Common
         public void get_DeclaredType(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x283FA0 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){}
+    }
+
+    public class UdonVariable`1
+    {
+        public string <SymbolName>k__BackingField; // 0x10
+        public VRC.SDKBase.VRCStation <Value>k__BackingField; // 0x18
+
+        // ── Methods ──
+        public void get_SymbolName(){} // RVA: 0x2F8380
+        public void get_Value(){} // RVA: 0x2E07C0
+        public void set_Value(){} // RVA: 0x343E80
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.get_Value(){} // RVA: 0x2E07C0
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.set_Value(){} // RVA: 0x3E03F00
+        public void get_DeclaredType(){} // RVA: 0x448A570
+        public void .ctor(){} // RVA: 0x448AA60 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x448A620
     }
 
     public class VariableChangedEvent

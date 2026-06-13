@@ -120,6 +120,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ChaperoneInfo
     {
+        public bool <initialized>k__BackingField; // 0x20
+        public float <playAreaSizeX>k__BackingField; // 0x24
+        public float <playAreaSizeZ>k__BackingField; // 0x28
+        public bool <roomscale>k__BackingField; // 0x2C
+        public Event Initialized;
+
         // ── Methods ──
         public void get_initialized(){} // RVA: 0x3CB9D0
         public void set_initialized(){} // RVA: 0x3CB9E0
@@ -174,6 +180,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ControllerButtonHints
     {
+        public UnityEngine.Material controllerMaterial; // 0x20
+        public UnityEngine.Material urpControllerMaterial; // 0x28
+
         // ── Methods ──
         public void get_usingMaterial(){} // RVA: 0x30B0C0
         public void get_initialized(){} // RVA: 0x632C3D0
@@ -231,7 +240,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DebugUI
     {
-        public object responseCode;
+        public Valve.VR.InteractionSystem.Player responseCode; // 0x20
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x652AB30
@@ -285,6 +294,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Equippable
     {
+        public UnityEngine.Transform[] antiFlip; // 0x20
+
         // ── Methods ──
         public void get_attachedHandType(){} // RVA: 0x652B960
         public void Start(){} // RVA: 0x652BA70
@@ -321,6 +332,16 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Hand
     {
+        public 0x65927DE0 defaultAttachmentFlags;
+        public Valve.VR.InteractionSystem.Hand otherHand; // 0x20
+        public 0x65925E40 handType; // 0x28
+        public Valve.VR.SteamVR_Behaviour_Pose trackedObject; // 0x30
+        public Valve.VR.SteamVR_Action_Boolean grabPinchAction; // 0x38
+        public Valve.VR.SteamVR_Action_Boolean grabGripAction; // 0x40
+        public Valve.VR.SteamVR_Action_Vibration hapticAction; // 0x48
+        public Valve.VR.SteamVR_Action_Boolean uiInteractAction; // 0x50
+        public bool useHoverSphere; // 0x58
+
         // ── Methods ──
         public void get_AttachedObjects(){} // RVA: 0x652CAE0
         public void get_hoverLocked(){} // RVA: 0x408F80
@@ -473,6 +494,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InputModule
     {
+        public UnityEngine.GameObject submitObject; // 0x58
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x65445C0
         public void ShouldActivateModule(){} // RVA: 0x6544750
@@ -485,6 +508,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Interactable
     {
+        public Valve.VR.SteamVR_ActionSet activateActionSetOnAttach; // 0x20
+        public bool hideHandOnAttach; // 0x28
+        public bool hideSkeletonOnAttach; // 0x29
+        public bool hideControllerOnAttach; // 0x2A
+
         // ── Methods ──
         public void add_onAttachedToHand(){} // RVA: 0x6544C30
         public void remove_onAttachedToHand(){} // RVA: 0x6544D20
@@ -515,6 +543,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InteractableDebug
     {
+        public Valve.VR.InteractionSystem.Hand attachedToHand; // 0x20
+
         // ── Methods ──
         public void get_isThrowable(){} // RVA: 0x6547F70
         public void Awake(){} // RVA: 0x6548040
@@ -555,6 +585,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ItemPackageSpawner
     {
+        public Valve.VR.InteractionSystem.ItemPackage _itemPackage; // 0x20
+
         // ── Methods ──
         public void get_itemPackage(){} // RVA: 0x30B0C0
         public void set_itemPackage(){} // RVA: 0x6549940
@@ -683,6 +715,16 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Player
     {
+        public UnityEngine.Transform trackingOriginTransform; // 0x20
+        public UnityEngine.Transform[] hmdTransforms; // 0x28
+        public Valve.VR.InteractionSystem.Hand[] hands; // 0x30
+        public UnityEngine.Collider headCollider; // 0x38
+        public UnityEngine.GameObject rigSteamVR; // 0x40
+        public UnityEngine.GameObject rig2DFallback; // 0x48
+        public UnityEngine.Transform audioListener; // 0x50
+        public Valve.VR.SteamVR_Action_Boolean headsetOnHead; // 0x58
+        public bool allowToggleTo2D; // 0x60
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x654E480
         public void get_handCount(){} // RVA: 0x654E610
@@ -706,6 +748,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class RenderModel
     {
+        public UnityEngine.GameObject handPrefab; // 0x20
+
         // ── Methods ──
         public void add_onControllerLoaded(){} // RVA: 0x6551D70
         public void remove_onControllerLoaded(){} // RVA: 0x6551E60
@@ -825,6 +869,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Teleport
     {
+        public Valve.VR.SteamVR_Action_Boolean teleportAction; // 0x20
+
         // ── Methods ──
         public void ChangeSceneAction(){} // RVA: 0x6576350
         public void PlayerAction(){} // RVA: 0x6576400
@@ -882,6 +928,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportArea
     {
+        public UnityEngine.Bounds <meshBounds>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_meshBounds(){} // RVA: 0x204E840
         public void set_meshBounds(){} // RVA: 0x204E820
@@ -900,6 +948,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportMarkerBase
     {
+        public bool locked; // 0x20
+
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x3C2850
         public void SetLocked(){} // RVA: 0x6582D10
@@ -914,6 +964,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportPoint
     {
+        public 0x65929C20 teleportType; // 0x28
+
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x2DD320
         public void Awake(){} // RVA: 0x6582D80

@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Dynamics
-// Classes: 81
-// Methods: 813
+// Classes: 89
+// Methods: 911
 
 namespace VRC.Dynamics
 {
     public class AbstractVRCConstraintBinding`2
     {
+        public U UnityConstraint;
+        public T VrcConstraint;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xCD60
         public void get_ApplicationVrcConstraint(){} // RVA: 0xCD60
@@ -19,6 +22,108 @@ namespace VRC.Dynamics
         public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x2A490
     }
 
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.PositionConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCPositionConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.RotationConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCRotationConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.ScaleConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCScaleConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.ParentConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCParentConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.AimConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCAimConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
+    public class AbstractVRCConstraintBinding`2
+    {
+        public UnityEngine.Animations.LookAtConstraint VRC.Dynamics; // 0x10
+        public VRC.Dynamics.ManagedTypes.VRCLookAtConstraintBase VrcConstraint; // 0x18
+
+        // ── Methods ──
+        public void get_ApplicationUnityConstraint(){} // RVA: 0x2F8380
+        public void get_ApplicationVrcConstraint(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x35DDBC0
+        public void Dispose(){} // RVA: 0x35DDDF0
+        public void Synchronize(){} // RVA: 0x35DDE50
+        public void SynchronizeInternal(){} // RVA: 0xD840
+        public void RestoreUnityConstraintEnabledState(){} // RVA: 0x35DE350
+        public void ChangeProperty(){} // RVA: 0x35DE450 | overloaded x5
+        public void <Synchronize>g__PushResult|11_0(){} // RVA: 0x35DE5E0
+    }
+
     public class AimVRCConstraintBinding
     {
         // ── Methods ──
@@ -29,6 +134,10 @@ namespace VRC.Dynamics
 
     public class AnimParameterAccessAvatarSDK
     {
+        public UnityEngine.Animator animator; // 0x10
+        public int paramHash; // 0x18
+        public 0x659C0628 paramType; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x768FF00
         public void get_boolVal(){} // RVA: 0x7690190
@@ -41,6 +150,8 @@ namespace VRC.Dynamics
 
     public class BoneBuffer
     {
+        public Unity.Collections.NativeList`1<Bone> bones; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76A1890
         public void get_Length(){} // RVA: 0x76A1A20
@@ -53,6 +164,9 @@ namespace VRC.Dynamics
 
     public class ChainBuffer : 
     {
+        public Unity.Collections.NativeList`1<Chain> chains; // 0x10
+        public System.Collections.Generic.List`1<VRC.Dynamics.VRCPhysBoneBase> comps; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76A0A50
         public void get_Length(){} // RVA: 0x76A0B90
@@ -68,6 +182,9 @@ namespace VRC.Dynamics
 
     public class ChainId
     {
+        public VRC.Dynamics.ChainId Null;
+        public ulong a; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D36F20
         public void Equals(){} // RVA: 0x769A6D0 | overloaded x2
@@ -82,6 +199,8 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HashGrid
     {
+        public int SHAPE_BATCH_COUNT;
+
         // ── Methods ──
         public void get_scene(){} // RVA: 0x2F8380
         public void set_scene(){} // RVA: 0x2DEE30
@@ -98,6 +217,8 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HybridSAP
     {
+        public int SHAPE_BATCH_COUNT;
+
         // ── Methods ──
         public void get_scene(){} // RVA: 0x2F8380
         public void set_scene(){} // RVA: 0x2DEE30
@@ -179,6 +300,11 @@ namespace VRC.Dynamics
 
     public class ContactBase : DefaultUsage
     {
+        public float MAX_SIZE;
+        public int MAX_COLLISION_TAGS;
+        public System.Func`2<VRC.Dynamics.ContactBase,bool> OnInitialize;
+        public UnityEngine.Transform rootTransform; // 0x28
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x76907B0
         public void get_axis(){} // RVA: 0x76908D0
@@ -206,6 +332,9 @@ namespace VRC.Dynamics
 
     public class ContactBaseProxy`2
     {
+        public T Component;
+        public VRC.SDKBase.VRCPlayerApi _ownerPlayerApi;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
         public void get_isValid(){} // RVA: 0xDBE0
@@ -218,8 +347,48 @@ namespace VRC.Dynamics
         public void Equals(){} // RVA: 0x283FA0 | overloaded x2
     }
 
+    public class ContactBaseProxy`2
+    {
+        public VRC.Dynamics.ContactSender Component; // 0x10
+        public VRC.SDKBase.VRCPlayerApi _ownerPlayerApi; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void get_isValid(){} // RVA: 0x2B5E6D0
+        public void get_contactShapeId(){} // RVA: 0x2B5E7A0
+        public void get_player(){} // RVA: 0x2B5E840
+        public void get_usage(){} // RVA: 0x2B5E8C0
+        public void get_position(){} // RVA: 0x2B5E950
+        public void get_rotation(){} // RVA: 0x2B5EA60
+        public void get_scale(){} // RVA: 0x2B5EB60
+        public void Equals(){} // RVA: 0x2B5ED40 | overloaded x2
+    }
+
+    public class ContactBaseProxy`2
+    {
+        public VRC.Dynamics.ContactReceiver Component; // 0x10
+        public VRC.SDKBase.VRCPlayerApi _ownerPlayerApi; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void get_isValid(){} // RVA: 0x2B5E6D0
+        public void get_contactShapeId(){} // RVA: 0x2B5E7A0
+        public void get_player(){} // RVA: 0x2B5E840
+        public void get_usage(){} // RVA: 0x2B5E8C0
+        public void get_position(){} // RVA: 0x2B5E950
+        public void get_rotation(){} // RVA: 0x2B5EA60
+        public void get_scale(){} // RVA: 0x2B5EB60
+        public void Equals(){} // RVA: 0x2B5ED40 | overloaded x2
+    }
+
     public class ContactEnterInfo
     {
+        public VRC.Dynamics.ContactSenderProxy <contactSender>k__BackingField; // 0x10
+        public VRC.Dynamics.ContactReceiverProxy <contactReceiver>k__BackingField; // 0x18
+        public UnityEngine.Vector3 <enterVelocity>k__BackingField; // 0x20
+        public UnityEngine.Vector3 <contactPoint>k__BackingField; // 0x2C
+        public string[] <matchingTags>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_contactSender(){} // RVA: 0x1AD4690
         public void set_contactSender(){} // RVA: 0x100A2F0
@@ -235,6 +404,10 @@ namespace VRC.Dynamics
 
     public class ContactExitInfo
     {
+        public VRC.Dynamics.ContactSenderProxy <contactSender>k__BackingField; // 0x10
+        public VRC.Dynamics.ContactReceiverProxy <contactReceiver>k__BackingField; // 0x18
+        public string[] <matchingTags>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_contactSender(){} // RVA: 0x1AD4690
         public void set_contactSender(){} // RVA: 0x100A2F0
@@ -266,6 +439,8 @@ namespace VRC.Dynamics
 
     public class ContactReceiver
     {
+        public bool allowSelf; // 0xA0
+
         // ── Methods ──
         public void get_EffectiveReceiverType(){} // RVA: 0x76972A0
         public void IsReceiver(){} // RVA: 0x3C2850
@@ -357,7 +532,8 @@ namespace VRC.Dynamics
 
     public class DynamicsComponent
     {
-        public object callBack;
+        public 0x65981DD8 callBack;
+        public 0x65981DD8 _assignedUsage; // 0x20
 
         // ── Methods ──
         public void get_DefaultUsage(){} // RVA: 0x766E430
@@ -734,6 +910,9 @@ namespace VRC.Dynamics
 
     public class PhysBoneRoot
     {
+        public 0x65984980 timing; // 0x20
+        public VRC.Dynamics.PhysBoneRootDefinition <RootDefinition>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_RootDefinition(){} // RVA: 0x30B130
         public void set_RootDefinition(){} // RVA: 0x2DEE90
@@ -746,6 +925,10 @@ namespace VRC.Dynamics
 
     public class PhysBoneRootDefinition
     {
+        public int NullId;
+        public int chainCount; // 0x10
+        public int bufferIndex; // 0x14
+
         // ── Methods ──
         public void get_Transform(){} // RVA: 0x30B0C0
         public void get_AutoEvaluateFixedTime(){} // RVA: 0x6E8A80
@@ -852,6 +1035,19 @@ namespace VRC.Dynamics
 
     public class VRCConstraintBase
     {
+        public bool IsActive; // 0x28
+        public float GlobalWeight; // 0x2C
+        public UnityEngine.Transform TargetTransform; // 0x30
+        public bool SolveInLocalSpace; // 0x38
+        public bool FreezeToWorld; // 0x39
+        public bool RebakeOffsetsWhenUnfrozen; // 0x3A
+        public bool Locked; // 0x3B
+        public VRC.Dynamics.VRCConstraintSourceKeyableList Sources; // 0x40
+        public int <NativeIndex>k__BackingField; // 0x2D8
+        public int cachedExecutionGroupIndex; // 0x2DC
+        public int latestValidExecutionGroupIndex; // 0x2E0
+        public UnityEngine.Transform _runtimeTargetTransform; // 0x2E8
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0xD840
         public void get_RotationMode(){} // RVA: 0xD840
@@ -930,6 +1126,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGroup
     {
+        public int MinGroupCapacity;
+
         // ── Methods ──
         public void get_MemberCount(){} // RVA: 0x766FC80
         public void .ctor(){} // RVA: 0x766FCC0
@@ -943,6 +1141,9 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGrouper
     {
+        public System.Collections.Generic.SortedDictionary`2<int,VRC.Dynamics.VRCConstraintGroup> _executionGroups; // 0x10
+        public System.Collections.Generic.HashSet`1<UnityEngine.Transform> _staleRootTransforms; // 0x18
+
         // ── Methods ──
         public void get_GroupsAreStale(){} // RVA: 0x76703D0
         public void get_ExecutionGroups(){} // RVA: 0x7670450
@@ -989,8 +1190,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintManager
     {
-        public object MidiIn;
-        public object Initialize;
+        public int MidiIn;
+        public int Initialize;
 
         // ── Methods ──
         public void get_IsInitialized(){} // RVA: 0x7684E90
@@ -1016,8 +1217,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintOffsetBaker
     {
-        public object _shouldBakeAtRest;
-        public object _shouldBakeOffsets;
+        public UnityEngine.Transform _shouldBakeAtRest; // 0x10
+        public float _shouldBakeOffsets; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7689760
@@ -1040,6 +1241,16 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSourceKeyableList
     {
+        public int MaxFlatLength;
+        public VRC.Dynamics.VRCConstraintSource source0; // 0x10
+        public VRC.Dynamics.VRCConstraintSource source1; // 0x38
+        public VRC.Dynamics.VRCConstraintSource source2; // 0x60
+        public VRC.Dynamics.VRCConstraintSource source3; // 0x88
+        public VRC.Dynamics.VRCConstraintSource source4; // 0xB0
+        public VRC.Dynamics.VRCConstraintSource source5; // 0xD8
+        public VRC.Dynamics.VRCConstraintSource source6; // 0x100
+        public VRC.Dynamics.VRCConstraintSource source7; // 0x128
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x768C3A0
         public void get_OverflowList(){} // RVA: 0x768C3B0
@@ -1106,6 +1317,16 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneBase
     {
+        public bool foldout_transforms; // 0x28
+        public bool foldout_forces; // 0x29
+        public bool foldout_collision; // 0x2A
+        public bool foldout_stretchsquish; // 0x2B
+        public bool foldout_limits; // 0x2C
+        public bool foldout_grabpose; // 0x2D
+        public bool foldout_options; // 0x2E
+        public bool foldout_gizmos; // 0x2F
+        public string PARAM_ISGRABBED;
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x76C3380
         public void IsCollisionAllowed(){} // RVA: 0x76C34A0
@@ -1173,6 +1394,12 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneColliderBase
     {
+        public UnityEngine.Transform rootTransform; // 0x28
+        public 0x65984E50 shapeType; // 0x30
+        public bool insideBounds; // 0x34
+        public float radius; // 0x38
+        public float height; // 0x3C
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x76C8060
         public void get_axis(){} // RVA: 0x76C8180

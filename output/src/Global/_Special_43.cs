@@ -5,6 +5,9 @@
 
 public class <GetDescendants>d__23`1
 {
+    public int <>1__state;
+    public System.Xml.Linq.XElement <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -19,6 +22,9 @@ public class <GetDescendants>d__23`1
 
 public class <GetDescendants>d__36
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x602E410
@@ -34,6 +40,9 @@ public class <GetDescendants>d__36
 
 public class <GetDescendants>d__38
 {
+    public int <>1__state; // 0x10
+    public System.Xml.Linq.XElement <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -47,6 +56,9 @@ public class <GetDescendants>d__38
 
 public class <GetDynamicMemberNames>d__6
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -67,6 +79,9 @@ public class <GetEntityAsync>d__15 : [I
 
 public class <GetEnumerator>d__0
 {
+    public byte <>2__current; // 0x10
+    public int <>1__state; // 0x14
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x9AE01F0
     public void System.Collections.Generic.IEnumerator<System.Byte>.get_Current(){} // RVA: 0x7187810
@@ -79,6 +94,9 @@ public class <GetEnumerator>d__0
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -90,6 +108,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Serialization.JsonProperty <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -101,6 +122,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public ÍÏÌÎÎÌÌÎÌÌÏÎÌÍÏÍÌÍÎÍÍÏÍ <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -112,6 +136,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.GameObject <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -123,6 +150,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ<ÍÌÏÌÌÍÍÍÌÏÌÌÍÍÎÌÏÍÌÍÏÏÏ,int> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -134,6 +164,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<int,byte[]> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -145,6 +178,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -156,6 +192,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__1
 {
+    public int <>1__state; // 0x10
+    public Valve.Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -167,6 +206,9 @@ public class <GetEnumerator>d__1
 
 public class <GetEnumerator>d__10
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -178,6 +220,9 @@ public class <GetEnumerator>d__10
 
 public class <GetEnumerator>d__11
 {
+    public int <>1__state;
+    public string <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -190,6 +235,9 @@ public class <GetEnumerator>d__11
 
 public class <GetEnumerator>d__11
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -202,6 +250,9 @@ public class <GetEnumerator>d__11
 
 public class <GetEnumerator>d__11
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -213,6 +264,9 @@ public class <GetEnumerator>d__11
 
 public class <GetEnumerator>d__12
 {
+    public int <>1__state;
+    public System.Linq.IGrouping`2<U,T> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -224,6 +278,9 @@ public class <GetEnumerator>d__12
 
 public class <GetEnumerator>d__12
 {
+    public int <>1__state; // 0x10
+    public System.Linq.IGrouping`2<string,System.Reflection.MemberInfo> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -235,6 +292,9 @@ public class <GetEnumerator>d__12
 
 public class <GetEnumerator>d__12
 {
+    public int <>1__state; // 0x10
+    public System.Linq.IGrouping`2<string,VRC.Core.APICalendarEntry> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -246,6 +306,9 @@ public class <GetEnumerator>d__12
 
 public class <GetEnumerator>d__12
 {
+    public int <>1__state; // 0x10
+    public System.Linq.IGrouping`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -257,6 +320,9 @@ public class <GetEnumerator>d__12
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -268,6 +334,9 @@ public class <GetEnumerator>d__13
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -279,50 +348,75 @@ public class <GetEnumerator>d__13
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public ÌÏÍÌÍÍÏÌÌÍÎÍÏÍÏÏÎÌÏÏÏÍÎ <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.GameObject <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public Transmtn.DTO.Notifications.Notification <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ComponentInfoT <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,int> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.ApiLicense <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public VRC.Core.ApiVRChatSubscription <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__13
 {
+    public int <>1__state; // 0x10
+    public ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__14
 {
+    public int <>1__state;
+    public string <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -335,6 +429,9 @@ public class <GetEnumerator>d__14
 
 public class <GetEnumerator>d__14
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -347,6 +444,9 @@ public class <GetEnumerator>d__14
 
 public class <GetEnumerator>d__14
 {
+    public int <>1__state;
+    public System.Linq.IGrouping`2<U,T> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -358,6 +458,9 @@ public class <GetEnumerator>d__14
 
 public class <GetEnumerator>d__14
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -369,6 +472,9 @@ public class <GetEnumerator>d__14
 
 public class <GetEnumerator>d__14
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -380,6 +486,9 @@ public class <GetEnumerator>d__14
 
 public class <GetEnumerator>d__15
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -391,6 +500,9 @@ public class <GetEnumerator>d__15
 
 public class <GetEnumerator>d__15
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -402,10 +514,15 @@ public class <GetEnumerator>d__15
 
 public class <GetEnumerator>d__15
 {
+    public int <>1__state; // 0x10
+    public ZLogger.IZLoggerEntry <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__15
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -417,6 +534,9 @@ public class <GetEnumerator>d__15
 
 public class <GetEnumerator>d__15
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -428,6 +548,9 @@ public class <GetEnumerator>d__15
 
 public class <GetEnumerator>d__18
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,T> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -440,6 +563,9 @@ public class <GetEnumerator>d__18
 
 public class <GetEnumerator>d__18
 {
+    public byte <>2__current; // 0x10
+    public int <>1__state; // 0x14
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x9AE5CD0
     public void System.Collections.Generic.IEnumerator<System.Byte>.get_Current(){} // RVA: 0x7187810
@@ -452,6 +578,9 @@ public class <GetEnumerator>d__18
 
 public class <GetEnumerator>d__18
 {
+    public int <>1__state; // 0x10
+    public System.Linq.Expressions.Expression <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -463,6 +592,9 @@ public class <GetEnumerator>d__18
 
 public class <GetEnumerator>d__19
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,System.Collections.Generic.IEnumerable`1<string>> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x6813740
@@ -475,6 +607,9 @@ public class <GetEnumerator>d__19
 
 public class <GetEnumerator>d__2
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<object,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -487,6 +622,9 @@ public class <GetEnumerator>d__2
 
 public class <GetEnumerator>d__2
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<object,object> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -499,6 +637,9 @@ public class <GetEnumerator>d__2
 
 public class <GetEnumerator>d__20
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -510,6 +651,9 @@ public class <GetEnumerator>d__20
 
 public class <GetEnumerator>d__20
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -521,14 +665,21 @@ public class <GetEnumerator>d__20
 
 public class <GetEnumerator>d__20
 {
+    public int <>1__state; // 0x10
+    public System.Linq.Expressions.Expression <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__20
 {
+    public int <>1__state; // 0x10
+    public System.Linq.Expressions.ParameterExpression <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -540,30 +691,45 @@ public class <GetEnumerator>d__28
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public int <>2__current; // 0x14
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public Interval <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public float <>2__current; // 0x14
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public RelativeKeypoint <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__28
 {
+    public int <>1__state; // 0x10
+    public AssociatedDetection <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__3
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<string,Token> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -576,6 +742,9 @@ public class <GetEnumerator>d__3
 
 public class <GetEnumerator>d__3
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,Token> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2E39130
@@ -588,6 +757,9 @@ public class <GetEnumerator>d__3
 
 public class <GetEnumerator>d__3
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,Token> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2E382E0
@@ -600,6 +772,9 @@ public class <GetEnumerator>d__3
 
 public class <GetEnumerator>d__32
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.InputSystem.InputAction <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -611,10 +786,15 @@ public class <GetEnumerator>d__32
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<string,string>,System.Type> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -626,6 +806,9 @@ public class <GetEnumerator>d__35
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<U,T> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -637,22 +820,33 @@ public class <GetEnumerator>d__35
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,Microsoft.Extensions.Logging.ILogger> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,object> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,Microsoft.Extensions.Logging.Logger> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -664,54 +858,81 @@ public class <GetEnumerator>d__35
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<SPKey,System.Net.ServicePoint> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,Newtonsoft.Json.Serialization.JsonContract> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,Union> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,System.Type>,System.Func`2<object,object>> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<object[],object>> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonContainerAttribute> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<object,System.Runtime.Serialization.DataContractAttribute> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonConverterAttribute> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonObjectAttribute> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Type> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,Newtonsoft.Json.Utilities.ReflectionObject> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<LiteralList,ZLogger.MessageSequence> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<int,ÍÌÏÎÌÏÌÏÌÏÌÌÌÌÌÏÏÏÎÍÎÏÍ> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -723,52 +944,78 @@ public class <GetEnumerator>d__35
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,ÏÏÌÌÌÏÌÎÌÏÌÌÎÌÏÌÎÏÍÎÎÌÎ> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<uint,int> <>2__current; // 0x14
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<byte,int> <>2__current; // 0x14
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,VRC.Udon.Common.Interfaces.IUdonComponentGetterModule> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonWrapperModule> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,Handlers> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<UIntPtr,SteamAudio.SteamAudioSource> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,System.Lazy`1<Microsoft.Extensions.Logging.LoggerFilterOptions>> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Security.IUdonSignatureHolder,byte> <>2__current; // 0x18
 }
 
 public class <GetEnumerator>d__35
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ,ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ> <>2__current; // 0x18
 }

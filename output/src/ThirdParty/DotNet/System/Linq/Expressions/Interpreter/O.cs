@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class OffsetInstruction
     {
+        public int Unknown;
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0xCD60
         public void Fixup(){} // RVA: 0x66104A0
@@ -17,6 +19,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class OrInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

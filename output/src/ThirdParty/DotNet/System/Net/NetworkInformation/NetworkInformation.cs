@@ -54,6 +54,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class LinuxNetworkChange
     {
+        public object _lock; // 0x10
+
         // ── Methods ──
         public void add_NetworkAddressChanged(){} // RVA: 0x6B91C20
         public void remove_NetworkAddressChanged(){} // RVA: 0x6B91D20
@@ -77,6 +79,9 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class MacNetworkChange
     {
+        public UIntPtr handle; // 0x10
+        public UIntPtr runLoopMode; // 0x18
+
         // ── Methods ──
         public void dlopen(){} // RVA: 0x6B90750
         public void dlsym(){} // RVA: 0x6B90800
@@ -122,6 +127,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class NetworkChange
     {
+        public System.Net.NetworkInformation.INetworkChange networkChange;
+
         // ── Methods ──
         public void add_NetworkAddressChanged(){} // RVA: 0x6B8FF50
         public void remove_NetworkAddressChanged(){} // RVA: 0x6B90170
@@ -198,6 +205,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class UnicastIPAddressInformationCollection
     {
+        public System.Collections.ObjectModel.Collection`1<System.Net.NetworkInformation.UnicastIPAddressInformation> addresses; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B8FAE0
         public void CopyTo(){} // RVA: 0x6B8FBA0
@@ -239,6 +248,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32IPInterfaceProperties2
     {
+        public System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B936D0
         public void get_UnicastAddresses(){} // RVA: 0x6B93900
@@ -257,6 +268,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32NetworkInterface
     {
+        public System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo;
+
         // ── Methods ──
         public void GetNetworkParams(){} // RVA: 0x6B951A0
         public void MultiByteToWideChar(){} // RVA: 0x6B95240
@@ -266,6 +279,10 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32NetworkInterface2
     {
+        public System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr; // 0x10
+        public System.Net.NetworkInformation.Win32_MIB_IFROW mib4; // 0x118
+        public System.Net.NetworkInformation.Win32_MIB_IFROW mib6; // 0x188
+
         // ── Methods ──
         public void GetIfEntry(){} // RVA: 0x6B946E0
         public void .ctor(){} // RVA: 0x6B94860
@@ -292,6 +309,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32UnicastIPAddressInformation
     {
+        public System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B95CE0
         public void get_Address(){} // RVA: 0x6B95F00

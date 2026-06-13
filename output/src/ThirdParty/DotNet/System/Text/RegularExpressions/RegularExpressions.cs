@@ -7,7 +7,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 {
     public class Capture
     {
-        public object Groups;
+        public int Groups; // 0x10
+        public int <Length>k__BackingField; // 0x14
+        public string <Text>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFC3F0
@@ -25,6 +27,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class CaptureCollection
     {
+        public System.Text.RegularExpressions.Group _group; // 0x10
+        public int _capcount; // 0x18
+        public System.Text.RegularExpressions.Capture[] _captures; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFC5E0
         public void get_IsReadOnly(){} // RVA: 0x3C2850
@@ -72,9 +78,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Group
     {
-        public object Index;
-        public object Length;
-        public object Text;
+        public System.Text.RegularExpressions.Group Index;
+        public int[] Length; // 0x20
+        public int Text; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFD9D0 | overloaded x2
@@ -87,6 +93,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class GroupCollection
     {
+        public System.Text.RegularExpressions.Match _match; // 0x10
+        public System.Collections.Hashtable _captureMap; // 0x18
+        public System.Text.RegularExpressions.Group[] _groups; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFED10 | overloaded x2
         public void get_IsReadOnly(){} // RVA: 0x3C2850
@@ -122,6 +132,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Match
     {
+        public System.Text.RegularExpressions.GroupCollection _groupcoll; // 0x40
+        public System.Text.RegularExpressions.Regex _regex; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFFF30 | overloaded x2
         public void get_Empty(){} // RVA: 0x6BFF060
@@ -144,6 +157,15 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class MatchCollection
     {
+        public System.Text.RegularExpressions.Regex _regex; // 0x10
+        public System.Collections.Generic.List`1<System.Text.RegularExpressions.Match> _matches; // 0x18
+        public bool _done; // 0x20
+        public string _input; // 0x28
+        public int _beginning; // 0x30
+        public int _length; // 0x34
+        public int _startat; // 0x38
+        public int _prevlen; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C01050 | overloaded x2
         public void get_IsReadOnly(){} // RVA: 0x3C2850
@@ -186,6 +208,8 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class MatchSparse
     {
+        public System.Collections.Hashtable _caps; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFFF60
         public void get_Groups(){} // RVA: 0x6C00060
@@ -193,6 +217,11 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Regex
     {
+        public int CacheDictionarySwitchLimit;
+        public int s_cacheSize;
+        public System.Collections.Generic.Dictionary`2<CachedCodeEntryKey,CachedCodeEntry> s_cache; // 0x8
+        public int s_cacheCount; // 0x10
+
         // ── Methods ──
         public void get_CacheSize(){} // RVA: 0x6C012E0
         public void set_CacheSize(){} // RVA: 0x6C01340
@@ -239,6 +268,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexCharClass
     {
+        public string s_internalRegexIgnoreCase;
+        public string s_space; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C08390 | overloaded x2
         public void get_CanMerge(){} // RVA: 0x6C084B0
@@ -289,6 +321,8 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexFC
     {
+        public System.Text.RegularExpressions.RegexCharClass _cc; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C11F20 | overloaded x3
         public void AddFC(){} // RVA: 0x6C12020
@@ -356,6 +390,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexMatchTimeoutException
     {
+        public string <Input>k__BackingField; // 0x90
+        public string <Pattern>k__BackingField; // 0x98
+        public System.TimeSpan <MatchTimeout>k__BackingField; // 0xA0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C15A00 | overloaded x3
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6C15D00
@@ -466,7 +504,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexPrefix
     {
-        public object CaseInsensitive;
+        public bool CaseInsensitive; // 0x10
+        public System.Text.RegularExpressions.RegexPrefix <Empty>k__BackingField;
+        public string <Prefix>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C1F270
@@ -478,7 +518,7 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexReplacement
     {
-        public object joystick;
+        public int joystick;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C1F450

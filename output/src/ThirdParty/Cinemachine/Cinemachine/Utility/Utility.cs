@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Cinemachine.Cinemachine.Utility
-// Classes: 12
-// Methods: 75
+// Classes: 15
+// Methods: 117
 
 namespace ThirdParty.Cinemachine.Cinemachine.Utility
 {
@@ -46,6 +46,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1
     {
+        public T[] mData;
+        public float[] mKernel;
+        public int mCurrentPos;
+
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0x21890
         public void set_Sigma(){} // RVA: 0x325B0
@@ -63,8 +67,79 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
         public void GetBufferValue(){} // RVA: 0x283FA0
     }
 
+    public class GaussianWindow1d`1
+    {
+        public UnityEngine.Vector3[] mData; // 0x10
+        public float[] mKernel; // 0x18
+        public int mCurrentPos; // 0x20
+
+        // ── Methods ──
+        public void get_Sigma(){} // RVA: 0x44AF50
+        public void set_Sigma(){} // RVA: 0x44AF60
+        public void get_KernelSize(){} // RVA: 0x33B7190
+        public void GenerateKernel(){} // RVA: 0x33B7D30
+        public void Compute(){} // RVA: 0xDAD0
+        public void .ctor(){} // RVA: 0x33B7F90
+        public void Reset(){} // RVA: 0x2EE3B40
+        public void IsEmpty(){} // RVA: 0x33B74E0
+        public void AddValue(){} // RVA: 0x33B8060
+        public void Filter(){} // RVA: 0x33B8140
+        public void Value(){} // RVA: 0x33B8290
+        public void get_BufferLength(){} // RVA: 0xF3F910
+        public void SetBufferValue(){} // RVA: 0x33B82D0
+        public void GetBufferValue(){} // RVA: 0x33B8310
+    }
+
+    public class GaussianWindow1d`1
+    {
+        public UnityEngine.Quaternion[] mData; // 0x10
+        public float[] mKernel; // 0x18
+        public int mCurrentPos; // 0x20
+
+        // ── Methods ──
+        public void get_Sigma(){} // RVA: 0x44AF50
+        public void set_Sigma(){} // RVA: 0x44AF60
+        public void get_KernelSize(){} // RVA: 0x33B7190
+        public void GenerateKernel(){} // RVA: 0x33B71B0
+        public void Compute(){} // RVA: 0xDAD0
+        public void .ctor(){} // RVA: 0x33B7410
+        public void Reset(){} // RVA: 0x2EE3B40
+        public void IsEmpty(){} // RVA: 0x33B74E0
+        public void AddValue(){} // RVA: 0x33B74F0
+        public void Filter(){} // RVA: 0x33B75C0
+        public void Value(){} // RVA: 0x33B76E0
+        public void get_BufferLength(){} // RVA: 0xF3F910
+        public void SetBufferValue(){} // RVA: 0x33B7720
+        public void GetBufferValue(){} // RVA: 0x1CA84A0
+    }
+
+    public class GaussianWindow1d`1
+    {
+        public UnityEngine.Vector2[] mData; // 0x10
+        public float[] mKernel; // 0x18
+        public int mCurrentPos; // 0x20
+
+        // ── Methods ──
+        public void get_Sigma(){} // RVA: 0x44AF50
+        public void set_Sigma(){} // RVA: 0x44AF60
+        public void get_KernelSize(){} // RVA: 0x33B7190
+        public void GenerateKernel(){} // RVA: 0x33B7760
+        public void Compute(){}
+        public void .ctor(){} // RVA: 0x33B79C0
+        public void Reset(){} // RVA: 0x2EE3B40
+        public void IsEmpty(){} // RVA: 0x33B74E0
+        public void AddValue(){} // RVA: 0x33B7A90
+        public void Filter(){} // RVA: 0x33B7B70
+        public void Value(){} // RVA: 0x33B7C80
+        public void get_BufferLength(){} // RVA: 0xF3F910
+        public void SetBufferValue(){} // RVA: 0x33B7CA0
+        public void GetBufferValue(){} // RVA: 0x33B7CF0
+    }
+
     public class HeadingTracker
     {
+        public Item[] mHistory; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D53980
         public void get_FilterSize(){} // RVA: 0xF3F910

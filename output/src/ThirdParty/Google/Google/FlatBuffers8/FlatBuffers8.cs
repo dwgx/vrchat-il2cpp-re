@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Google.Google.FlatBuffers8
-// Classes: 17
+// Classes: 21
 // Methods: 259
 
 namespace ThirdParty.Google.Google.FlatBuffers8
 {
     public class ByteArrayAllocator
     {
+        public byte[] _buffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75B6740
         public void GrowFront(){} // RVA: 0x75B67B0
@@ -19,6 +21,9 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class ByteBuffer
     {
+        public Google.FlatBuffers8.ByteBufferAllocator _buffer; // 0x10
+        public int _pos; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75B6E00 | overloaded x4
         public void get_Position(){} // RVA: 0x5BED50
@@ -69,6 +74,8 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class ByteBufferAllocator
     {
+        public int <Length>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Span(){}
         public void get_ReadOnlySpan(){}
@@ -90,6 +97,11 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class FlatBufferBuilder
     {
+        public int _space; // 0x10
+        public Google.FlatBuffers8.ByteBuffer _bb; // 0x18
+        public int _minAlign; // 0x20
+        public int[] _vtable; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75B9430 | overloaded x2
         public void Clear(){} // RVA: 0x75B95D0
@@ -163,8 +175,29 @@ namespace ThirdParty.Google.Google.FlatBuffers8
         public void .ctor(){} // RVA: 0x24FA0
     }
 
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
+    public class Offset`1
+    {
+    }
+
     public class Options
     {
+        public int DEFAULT_MAX_DEPTH;
+        public int DEFAULT_MAX_TABLES;
+        public int max_depth; // 0x10
+        public int max_tables; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75BC1F0 | overloaded x2
         public void get_maxDepth(){} // RVA: 0x32A5C0
@@ -185,6 +218,9 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class Struct
     {
+        public int <bb_pos>k__BackingField; // 0x10
+        public Google.FlatBuffers8.ByteBuffer <bb>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x19689B0
         public void set_bb_pos(){} // RVA: 0x833580
@@ -195,6 +231,9 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class Table
     {
+        public int <bb_pos>k__BackingField; // 0x10
+        public Google.FlatBuffers8.ByteBuffer <bb>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x19689B0
         public void set_bb_pos(){} // RVA: 0x833580
@@ -222,10 +261,10 @@ namespace ThirdParty.Google.Google.FlatBuffers8
 
     public class Verifier
     {
-        public object Span;
-        public object ReadOnlySpan;
-        public object Memory;
-        public object ReadOnlyMemory;
+        public Google.FlatBuffers8.ByteBuffer Span; // 0x10
+        public Google.FlatBuffers8.Options ReadOnlySpan; // 0x18
+        public int Memory; // 0x20
+        public int ReadOnlyMemory; // 0x24
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75BC580 | overloaded x2

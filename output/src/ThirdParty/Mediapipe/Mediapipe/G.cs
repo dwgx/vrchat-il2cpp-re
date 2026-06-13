@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe
-// Classes: 10
+// Classes: 20
 // Methods: 54
 
 namespace ThirdParty.Mediapipe.Mediapipe
@@ -39,6 +39,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2
     {
+        public System.Threading.ReaderWriterLockSlim _tableLock;
+
         // ── Methods ──
         public void get_maxSize(){} // RVA: 0xD840
         public void set_maxSize(){} // RVA: 0x24FA0
@@ -49,8 +51,63 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void ClearUnusedKeys(){} // RVA: 0x24A50
     }
 
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
+    public class GlobalInstanceTable`2
+    {
+        public System.Threading.ReaderWriterLockSlim _tableLock; // 0x10
+    }
+
     public class Glog
     {
+        public bool _Logtostderr;
+        public int _Stderrthreshold; // 0x4
+        public int _Minloglevel; // 0x8
+        public int _V; // 0xC
+
         // ── Methods ──
         public void set_Logtostderr(){} // RVA: 0x5AD3EE0
         public void get_Stderrthreshold(){} // RVA: 0x5AD3FE0
@@ -72,6 +129,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuOrigin
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.GpuOrigin> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B2ECC0
         public void get_Descriptor(){} // RVA: 0x5B2ED20
@@ -91,6 +151,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuOriginReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B2E750
         public void .cctor(){} // RVA: 0x5B2E7B0
@@ -98,6 +160,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuResources
     {
+        public Mediapipe.SharedPtrHandle _sharedPtrHandle; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ADB6B0
         public void DisposeManaged(){} // RVA: 0x5ADB0F0

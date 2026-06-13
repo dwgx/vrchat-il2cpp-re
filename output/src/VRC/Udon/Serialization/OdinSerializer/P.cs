@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 4
-// Methods: 42
+// Classes: 5
+// Methods: 46
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
@@ -22,6 +22,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class PreviouslySerializedAsAttribute
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -35,6 +37,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public void Read(){} // RVA: 0x2DC60
         public void Write(){} // RVA: 0x2DC60
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class PrimitiveArrayFormatter`1
+    {
+        // ── Methods ──
+        public void GetUninitializedObject(){} // RVA: 0x519240
+        public void Read(){} // RVA: 0x3E06880
+        public void Write(){} // RVA: 0x3E06730
+        public void .ctor(){} // RVA: 0x3E06840
     }
 
     public class ProperBitConverter

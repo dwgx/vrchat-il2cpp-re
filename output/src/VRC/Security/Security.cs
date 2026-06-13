@@ -50,6 +50,15 @@ namespace VRC.Security
     /// <summary>Originally: ÎÌÏÏÏÍÍÌÎÎÏÏÌÍÍÏÎÎÏÍÏÌÏ</summary>
     public class UserBlockedIdComponent_5224
     {
+        public string ÏÏÎÍÎÌÌÌÏÎÎÍÍÍÏÍÌÏÎÎÌÎÏ;
+        public string ÍÎÎÌÎÍÍÏÎÎÎÌÎÌÎÎÌÌÌÌÏÏÏ;
+        public string ÎÍÌÏÏÌÍÏÎÌÌÌÍÍÎÏÍÎÎÌÎÏÎ;
+        public string ÏÌÍÏÍÏÎÍÌÏÏÏÍÎÎÍÌÏÌÍÌÏÎ;
+        public string ÎÌÍÎÍÌÏÎÏÎÎÏÎÎÌÌÍÏÍÍÍÏÌ;
+        public string ÍÍÌÎÍÎÏÎÎÍÌÎÏÏÌÌÌÏÌÍÎÌÍ;
+        public string ÍÌÎÍÎÎÎÌÍÌÌÌÌÍÎÏÍÎÌÌÎÌÏ;
+        public string ÎÏÏÌÌÍÎÌÍÍÌÎÌÍÏÌÌÌÎÌÍÎÍ;
+
         // ── Methods ──
         public void OnAudioFilterRead(){} // RVA: 0x6462A50
         public void Start(){} // RVA: 0x6462AD0

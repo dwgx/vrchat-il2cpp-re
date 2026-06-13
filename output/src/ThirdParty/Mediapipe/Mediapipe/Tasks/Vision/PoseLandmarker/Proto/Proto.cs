@@ -7,6 +7,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 {
     public class PoseLandmarkerGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarkerGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public Mediapipe.Tasks.Vision.PoseDetector.Proto.PoseDetectorGraphOptions poseDetectorGraphOptions_; // 0x28
+        public Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions poseLandmarksDetectorGraphOptions_; // 0x30
+        public float MinTrackingConfidenceDefaultValue; // 0x8
+        public float minTrackingConfidence_; // 0x38
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B5C220
         public void get_Descriptor(){} // RVA: 0x5B5C280
@@ -36,6 +45,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 
     public class PoseLandmarkerGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B5B640
         public void .cctor(){} // RVA: 0x5B5B6A0
@@ -43,6 +54,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 
     public class PoseLandmarksDetectorGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public float MinDetectionConfidenceDefaultValue; // 0x8
+        public float minDetectionConfidence_; // 0x28
+        public bool SmoothLandmarksDefaultValue; // 0xC
+        public bool smoothLandmarks_; // 0x2C
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B5DF20
         public void get_Descriptor(){} // RVA: 0x5B5DF80
@@ -72,6 +92,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 
     public class PoseLandmarksDetectorGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B5D580
         public void .cctor(){} // RVA: 0x5B5D5E0

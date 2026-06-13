@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
-// Classes: 29
-// Methods: 176
+// Classes: 65
+// Methods: 319
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 {
@@ -24,6 +24,39 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         public void .cctor(){} // RVA: 0x3A37490
     }
 
+    public class ArrayPool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x24A50
+        public void Rent(){} // RVA: 0x1BCC0
+        public void Return(){} // RVA: 0x2A620
+        public void CalculateSize(){} // RVA: 0x13FF0
+        public void GetQueueIndex(){} // RVA: 0x13FF0
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class ArrayPool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3A376E0
+        public void Rent(){} // RVA: 0x3A37960
+        public void Return(){} // RVA: 0x3A37C60
+        public void CalculateSize(){} // RVA: 0x3A35F50
+        public void GetQueueIndex(){} // RVA: 0x3A35F90
+        public void .cctor(){} // RVA: 0x3A37E70
+    }
+
+    public class ArrayPool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3A36320
+        public void Rent(){} // RVA: 0x3A365A0
+        public void Return(){} // RVA: 0x3A368A0
+        public void CalculateSize(){} // RVA: 0x3A35F50
+        public void GetQueueIndex(){} // RVA: 0x3A35F90
+        public void .cctor(){} // RVA: 0x3A36AB0
+    }
+
     public class ArrayUtil
     {
         // ── Methods ──
@@ -34,6 +67,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class AsyncSubject`1
     {
+        public object observerLock;
+        public T lastValue;
+        public bool hasValue;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x283FA0
         public void get_HasObservers(){} // RVA: 0xDBE0
@@ -130,7 +167,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ImmutableList`1
     {
-        public object Count;
+        public Cysharp.Threading.Tasks.Internal.ImmutableList`1<T> Count;
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0xCD60
@@ -154,6 +191,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1
     {
+        public int MinimumGrow;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void get_Count(){} // RVA: 0xD840
@@ -164,6 +203,70 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         public void SetCapacity(){} // RVA: 0x24FA0
         public void MoveNext(){} // RVA: 0x24B10
         public void ThrowForEmptyQueue(){} // RVA: 0x24A50
+    }
+
+    public class MinimumQueue`1
+    {
+        public int MinimumGrow;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C45DA0
+        public void get_Count(){} // RVA: 0x760030
+        public void Peek(){} // RVA: 0x3C45E90
+        public void Enqueue(){} // RVA: 0x3A438F0
+        public void Dequeue(){} // RVA: 0x3A43860
+        public void Grow(){} // RVA: 0x3C45EF0
+        public void SetCapacity(){} // RVA: 0x3C46060
+        public void MoveNext(){} // RVA: 0x3C461A0
+        public void ThrowForEmptyQueue(){} // RVA: 0x3C461D0
+    }
+
+    public class MinimumQueue`1
+    {
+        public int MinimumGrow;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C45DA0
+        public void get_Count(){} // RVA: 0x760030
+        public void Peek(){} // RVA: 0x3C45E90
+        public void Enqueue(){} // RVA: 0x3A438F0
+        public void Dequeue(){} // RVA: 0x3A43860
+        public void Grow(){} // RVA: 0x3C45EF0
+        public void SetCapacity(){} // RVA: 0x3C46060
+        public void MoveNext(){} // RVA: 0x3C461A0
+        public void ThrowForEmptyQueue(){} // RVA: 0x3C461D0
+    }
+
+    public class MinimumQueue`1
+    {
+        public int MinimumGrow;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C45DA0
+        public void get_Count(){} // RVA: 0x760030
+        public void Peek(){} // RVA: 0x3C45E90
+        public void Enqueue(){} // RVA: 0x3A438F0
+        public void Dequeue(){} // RVA: 0x3A43860
+        public void Grow(){} // RVA: 0x3C45EF0
+        public void SetCapacity(){} // RVA: 0x3C46060
+        public void MoveNext(){} // RVA: 0x3C461A0
+        public void ThrowForEmptyQueue(){} // RVA: 0x3C461D0
+    }
+
+    public class MinimumQueue`1
+    {
+        public int MinimumGrow;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C45DA0
+        public void get_Count(){} // RVA: 0x760030
+        public void Peek(){} // RVA: 0x3C45E90
+        public void Enqueue(){} // RVA: 0x3A438F0
+        public void Dequeue(){} // RVA: 0x3A43860
+        public void Grow(){} // RVA: 0x3C45EF0
+        public void SetCapacity(){} // RVA: 0x3C46060
+        public void MoveNext(){} // RVA: 0x3C461A0
+        public void ThrowForEmptyQueue(){} // RVA: 0x3C461D0
     }
 
     public class PlayerLoopRunner
@@ -194,12 +297,26 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class PooledDelegate`1
     {
+        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.Internal.PooledDelegate`1<T>> pool;
+
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0xCD60
         public void .cctor(){} // RVA: 0x24A80
         public void .ctor(){} // RVA: 0x24A50
         public void Create(){} // RVA: 0xCE50
         public void Run(){} // RVA: 0x283FA0
+    }
+
+    public class PooledDelegate`1
+    {
+        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.Internal.PooledDelegate`1<UnityEngine.AsyncOperation>> pool;
+
+        // ── Methods ──
+        public void get_NextNode(){} // RVA: 0x3DF6A30
+        public void .cctor(){} // RVA: 0x3DF6A40
+        public void .ctor(){} // RVA: 0x3DF6C20
+        public void Create(){} // RVA: 0x3DF6CF0
+        public void Run(){} // RVA: 0x3DF6EB0
     }
 
     public class RuntimeHelpersAbstraction
@@ -211,6 +328,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class SingleAssignmentDisposable
     {
+        public object gate; // 0x10
+        public System.IDisposable current; // 0x18
+
         // ── Methods ──
         public void get_IsDisposed(){} // RVA: 0x6B5D530
         public void get_Disposable(){} // RVA: 0x2E07C0
@@ -227,7 +347,111 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         public void .cctor(){} // RVA: 0x24A80
     }
 
+    public class StatePool`1
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F220
+        public void Return(){} // RVA: 0x4088F00
+        public void .cctor(){} // RVA: 0x4088CD0
+    }
+
+    public class StatePool`1
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279ED00
+        public void Return(){} // RVA: 0x4088BE0
+        public void .cctor(){} // RVA: 0x4088CD0
+    }
+
+    public class StatePool`1
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F220
+        public void Return(){} // RVA: 0x4088F00
+        public void .cctor(){} // RVA: 0x4088CD0
+    }
+
     public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x283FA0
+        public void Return(){} // RVA: 0x24AE0
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279FA30
+        public void Return(){} // RVA: 0x40898F0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279FD70
+        public void Return(){} // RVA: 0x40899F0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`2
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x279F710
+        public void Return(){} // RVA: 0x40896D0
+        public void .cctor(){} // RVA: 0x40897C0
+    }
+
+    public class StatePool`3
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x27A0A60
+        public void Return(){} // RVA: 0x408A6C0
+        public void .cctor(){} // RVA: 0x408A590
+    }
+
+    public class StatePool`3
     {
         // ── Methods ──
         public void Create(){} // RVA: 0x283FA0
@@ -240,6 +464,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         // ── Methods ──
         public void Create(){} // RVA: 0x27A0A60
         public void Return(){} // RVA: 0x408A6C0
+        public void .cctor(){} // RVA: 0x408A590
+    }
+
+    public class StatePool`3
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x27A0730
+        public void Return(){} // RVA: 0x408A4A0
         public void .cctor(){} // RVA: 0x408A590
     }
 
@@ -257,10 +489,114 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class StateTuple`1
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B480
+        public void Dispose(){} // RVA: 0x408B4E0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`1
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B140
+        public void Dispose(){} // RVA: 0x408B1A0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`1
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B480
+        public void Dispose(){} // RVA: 0x408B4E0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class StateTuple`2
     {
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x2DC60
+        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408BB00
+        public void Dispose(){} // RVA: 0x408BBC0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408BD00
+        public void Dispose(){} // RVA: 0x408BDC0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`2
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408B920
+        public void Dispose(){} // RVA: 0x408B9D0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`3
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408C720
+        public void Dispose(){} // RVA: 0x408C800
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`3
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x2F090
         public void Dispose(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
     }
@@ -270,6 +606,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x408C720
         public void Dispose(){} // RVA: 0x408C800
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StateTuple`3
+    {
+        // ── Methods ──
+        public void Deconstruct(){} // RVA: 0x408C520
+        public void Dispose(){} // RVA: 0x408C5F0
         public void .ctor(){} // RVA: 0x2DD310
     }
 
@@ -299,6 +643,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ValueStopwatch
     {
+        public double TimestampToTicks;
+        public long startTimestamp; // 0x10
+
         // ── Methods ──
         public void StartNew(){} // RVA: 0x6D65020
         public void .ctor(){} // RVA: 0x1B12320

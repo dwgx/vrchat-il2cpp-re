@@ -15,6 +15,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class AnrWatchDog
     {
+        public int DetectionTimeoutMs; // 0x10
+
         // ── Methods ──
         public void add_OnApplicationNotResponding(){} // RVA: 0x63702C0
         public void remove_OnApplicationNotResponding(){} // RVA: 0x63703C0
@@ -155,6 +157,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class Il2CppMethods
     {
+        public Sentry.Unity.Il2CppGcHandleGetTarget <Il2CppGcHandleGetTarget>k__BackingField; // 0x10
+        public Sentry.Unity.Il2CppNativeStackTrace <Il2CppNativeStackTrace>k__BackingField; // 0x18
+        public Sentry.Unity.Il2CppFree <Il2CppFree>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00
         public void get_Il2CppGcHandleGetTarget(){} // RVA: 0x2F8380
@@ -179,6 +185,40 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class MainThreadData
     {
+        public System.Nullable`1<int> <MainThreadId>k__BackingField;
+        public string <OperatingSystem>k__BackingField; // 0x8
+        public System.Nullable`1<int> <ProcessorCount>k__BackingField; // 0x10
+        public System.Nullable`1<bool> <SupportsVibration>k__BackingField; // 0x18
+        public string <DeviceType>k__BackingField; // 0x20
+        public string <CpuDescription>k__BackingField; // 0x28
+        public string <DeviceName>k__BackingField; // 0x30
+        public string <DeviceUniqueIdentifier>k__BackingField; // 0x38
+        public string <DeviceModel>k__BackingField; // 0x40
+        public System.Nullable`1<int> <SystemMemorySize>k__BackingField; // 0x48
+        public System.Nullable`1<int> <GraphicsDeviceId>k__BackingField; // 0x50
+        public string <GraphicsDeviceName>k__BackingField; // 0x58
+        public string <GraphicsDeviceVendorId>k__BackingField; // 0x60
+        public string <GraphicsDeviceVendor>k__BackingField; // 0x68
+        public System.Nullable`1<int> <GraphicsMemorySize>k__BackingField; // 0x70
+        public System.Nullable`1<bool> <GraphicsMultiThreaded>k__BackingField; // 0x78
+        public string <NpotSupport>k__BackingField; // 0x80
+        public string <GraphicsDeviceVersion>k__BackingField; // 0x88
+        public string <GraphicsDeviceType>k__BackingField; // 0x90
+        public System.Nullable`1<int> <MaxTextureSize>k__BackingField; // 0x98
+        public System.Nullable`1<bool> <SupportsDrawCallInstancing>k__BackingField; // 0xA0
+        public System.Nullable`1<bool> <SupportsRayTracing>k__BackingField; // 0xA2
+        public System.Nullable`1<bool> <SupportsComputeShaders>k__BackingField; // 0xA4
+        public System.Nullable`1<bool> <SupportsGeometryShaders>k__BackingField; // 0xA6
+        public System.Nullable`1<int> <GraphicsShaderLevel>k__BackingField; // 0xA8
+        public System.Nullable`1<bool> <IsDebugBuild>k__BackingField; // 0xB0
+        public string <EditorVersion>k__BackingField; // 0xB8
+        public string <InstallMode>k__BackingField; // 0xC0
+        public string <TargetFrameRate>k__BackingField; // 0xC8
+        public string <CopyTextureSupport>k__BackingField; // 0xD0
+        public string <RenderingThreadingMode>k__BackingField; // 0xD8
+        public System.Nullable`1<System.DateTimeOffset> <StartTime>k__BackingField; // 0xE0
+        public Sentry.Unity.ISentrySystemInfo <SentrySystemInfo>k__BackingField; // 0xF8
+
         // ── Methods ──
         public void get_MainThreadId(){} // RVA: 0x6374B00
         public void set_MainThreadId(){} // RVA: 0x6374B40
@@ -252,6 +292,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class NativeStackTrace
     {
+        public UIntPtr[] <Frames>k__BackingField; // 0x10
+        public string <ImageUuid>k__BackingField; // 0x18
+        public string <ImageName>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Frames(){} // RVA: 0x2F8380
         public void set_Frames(){} // RVA: 0x2DEE30
@@ -264,7 +308,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneAdapter
     {
-        public object Version;
+        public string Version; // 0x10
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x1AD4690
@@ -335,6 +379,67 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class ScriptableSentryUnityOptions
     {
+        public string ConfigRootFolder;
+        public string ConfigName;
+        public bool <Enabled>k__BackingField; // 0x18
+        public string <Dsn>k__BackingField; // 0x20
+        public bool <CaptureInEditor>k__BackingField; // 0x28
+        public bool <EnableLogDebouncing>k__BackingField; // 0x29
+        public int <DebounceTimeLog>k__BackingField; // 0x2C
+        public int <DebounceTimeWarning>k__BackingField; // 0x30
+        public int <DebounceTimeError>k__BackingField; // 0x34
+        public double <TracesSampleRate>k__BackingField; // 0x38
+        public bool <AutoStartupTraces>k__BackingField; // 0x40
+        public bool <AutoSceneLoadTraces>k__BackingField; // 0x41
+        public bool <AutoAwakeTraces>k__BackingField; // 0x42
+        public bool <AutoSessionTracking>k__BackingField; // 0x43
+        public int <AutoSessionTrackingInterval>k__BackingField; // 0x44
+        public string <ReleaseOverride>k__BackingField; // 0x48
+        public string <EnvironmentOverride>k__BackingField; // 0x50
+        public bool <AttachStacktrace>k__BackingField; // 0x58
+        public bool <AttachScreenshot>k__BackingField; // 0x59
+        public 0x659AFAB8 <ScreenshotQuality>k__BackingField; // 0x5C
+        public int <ScreenshotCompression>k__BackingField; // 0x60
+        public bool <AttachViewHierarchy>k__BackingField; // 0x64
+        public int <MaxViewHierarchyRootObjects>k__BackingField; // 0x68
+        public int <MaxViewHierarchyObjectChildCount>k__BackingField; // 0x6C
+        public int <MaxViewHierarchyDepth>k__BackingField; // 0x70
+        public bool <BreadcrumbsForLogs>k__BackingField; // 0x74
+        public bool <BreadcrumbsForWarnings>k__BackingField; // 0x75
+        public bool <BreadcrumbsForAsserts>k__BackingField; // 0x76
+        public bool <BreadcrumbsForErrors>k__BackingField; // 0x77
+        public bool <BreadcrumbsForExceptions>k__BackingField; // 0x78
+        public int <MaxBreadcrumbs>k__BackingField; // 0x7C
+        public 0x658B4320 <ReportAssembliesMode>k__BackingField; // 0x80
+        public bool <SendDefaultPii>k__BackingField; // 0x84
+        public bool <IsEnvironmentUser>k__BackingField; // 0x85
+        public bool <EnableOfflineCaching>k__BackingField; // 0x86
+        public int <MaxCacheItems>k__BackingField; // 0x88
+        public int <InitCacheFlushTimeout>k__BackingField; // 0x8C
+        public float <SampleRate>k__BackingField; // 0x90
+        public int <ShutdownTimeout>k__BackingField; // 0x94
+        public int <MaxQueueItems>k__BackingField; // 0x98
+        public bool <AnrDetectionEnabled>k__BackingField; // 0x9C
+        public int <AnrTimeout>k__BackingField; // 0xA0
+        public bool <CaptureFailedRequests>k__BackingField; // 0xA4
+        public System.Collections.Generic.List`1<int> <FailedRequestStatusCodes>k__BackingField; // 0xA8
+        public bool <FilterBadGatewayExceptions>k__BackingField; // 0xB0
+        public bool <FilterWebExceptions>k__BackingField; // 0xB1
+        public bool <FilterSocketExceptions>k__BackingField; // 0xB2
+        public bool <IosNativeSupportEnabled>k__BackingField; // 0xB3
+        public bool <AndroidNativeSupportEnabled>k__BackingField; // 0xB4
+        public bool <NdkIntegrationEnabled>k__BackingField; // 0xB5
+        public bool <NdkScopeSyncEnabled>k__BackingField; // 0xB6
+        public int <PostGenerateGradleProjectCallbackOrder>k__BackingField; // 0xB8
+        public bool <WindowsNativeSupportEnabled>k__BackingField; // 0xBC
+        public bool <MacosNativeSupportEnabled>k__BackingField; // 0xBD
+        public bool <LinuxNativeSupportEnabled>k__BackingField; // 0xBE
+        public bool <Il2CppLineNumberSupportEnabled>k__BackingField; // 0xBF
+        public Sentry.Unity.SentryRuntimeOptionsConfiguration <RuntimeOptionsConfiguration>k__BackingField; // 0xC0
+        public Sentry.Unity.SentryBuildTimeOptionsConfiguration <BuildTimeOptionsConfiguration>k__BackingField; // 0xC8
+        public Sentry.Unity.SentryOptionsConfiguration <OptionsConfiguration>k__BackingField; // 0xD0
+        public bool <Debug>k__BackingField; // 0xD8
+
         // ── Methods ──
         public void GetConfigPath(){} // RVA: 0x6378E90
         public void get_Enabled(){} // RVA: 0x2F84E0
@@ -474,12 +579,15 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryCliOptions
     {
-        public object ShouldApplyVolume;
-        public object ShouldApplyPitch;
-        public object ShouldApplyClip;
-        public object ShouldApplyLoop;
-        public object debugString;
-        public object initialized;
+        public string ShouldApplyVolume;
+        public string ShouldApplyPitch;
+        public bool ShouldApplyClip; // 0x18
+        public bool ShouldApplyLoop; // 0x19
+        public bool debugString; // 0x1A
+        public string initialized; // 0x20
+        public string <Auth>k__BackingField; // 0x28
+        public string <Organization>k__BackingField; // 0x30
+        public string <Project>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_UploadSymbols(){} // RVA: 0x2F84E0
@@ -529,6 +637,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryMonoBehaviour
     {
+        public Sentry.Unity.SentryMonoBehaviour _instance;
+        public System.Action ApplicationResuming; // 0x20
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x637ABD0
         public void StartAwakeSpan(){} // RVA: 0x637ADF0
@@ -565,6 +676,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentrySystemInfoAdapter
     {
+        public Sentry.Unity.SentrySystemInfoAdapter Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_MainThreadId(){} // RVA: 0x637E830
@@ -612,6 +725,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityInfo
     {
+        public Sentry.Unity.Il2CppMethods _il2CppMethods; // 0x10
+
         // ── Methods ──
         public void get_IL2CPP(){} // RVA: 0x3C2850
         public void get_Il2CppMethods(){} // RVA: 0x2F8380
@@ -631,6 +746,40 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityOptions
     {
+        public string PackageName;
+        public bool <Enabled>k__BackingField; // 0x288
+        public bool <AutoStartupTraces>k__BackingField; // 0x289
+        public bool <AutoSceneLoadTraces>k__BackingField; // 0x28A
+        public bool <CaptureInEditor>k__BackingField; // 0x28B
+        public bool <EnableLogDebouncing>k__BackingField; // 0x28C
+        public System.TimeSpan <DebounceTimeLog>k__BackingField; // 0x290
+        public System.TimeSpan <DebounceTimeWarning>k__BackingField; // 0x298
+        public System.TimeSpan <DebounceTimeError>k__BackingField; // 0x2A0
+        public 0x659AFA60 _requestBodyCompressionLevel; // 0x2A8
+        public bool <AttachScreenshot>k__BackingField; // 0x2AC
+        public bool <AttachViewHierarchy>k__BackingField; // 0x2AD
+        public int <MaxViewHierarchyRootObjects>k__BackingField; // 0x2B0
+        public int <MaxViewHierarchyObjectChildCount>k__BackingField; // 0x2B4
+        public int <MaxViewHierarchyDepth>k__BackingField; // 0x2B8
+        public 0x659AFAB8 <ScreenshotQuality>k__BackingField; // 0x2BC
+        public int <ScreenshotCompression>k__BackingField; // 0x2C0
+        public System.Collections.Generic.Dictionary`2<0x65895580,bool> <AddBreadcrumbsForLogType>k__BackingField; // 0x2C8
+        public System.TimeSpan <AnrTimeout>k__BackingField; // 0x2D0
+        public bool <FilterBadGatewayExceptions>k__BackingField; // 0x2D8
+        public bool <IosNativeSupportEnabled>k__BackingField; // 0x2D9
+        public bool <AndroidNativeSupportEnabled>k__BackingField; // 0x2DA
+        public bool <NdkIntegrationEnabled>k__BackingField; // 0x2DB
+        public bool <NdkScopeSyncEnabled>k__BackingField; // 0x2DC
+        public bool <WindowsNativeSupportEnabled>k__BackingField; // 0x2DD
+        public bool <MacosNativeSupportEnabled>k__BackingField; // 0x2DE
+        public bool <LinuxNativeSupportEnabled>k__BackingField; // 0x2DF
+        public bool <Il2CppLineNumberSupportEnabled>k__BackingField; // 0x2E0
+        public bool <PerformanceAutoInstrumentationEnabled>k__BackingField; // 0x2E1
+        public 0x658B6210 <StackTraceMode>k__BackingField; // 0x2E4
+        public string _defaultUserId; // 0x2E8
+        public bool MultiThreading; // 0x2F0
+        public Sentry.Unity.ContextWriter <NativeContextWriter>k__BackingField; // 0x2F8
+
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x637BA40
         public void set_Enabled(){} // RVA: 0x637BA50
@@ -743,6 +892,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class TimeDebounceBase
     {
+        public System.TimeSpan DebounceOffset; // 0x10
+
         // ── Methods ──
         public void get_Now(){} // RVA: 0x6380CA0
         public void Debounced(){} // RVA: 0x6380D50
@@ -805,6 +956,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnitySdkInfo
     {
+        public string <Version>k__BackingField;
+
         // ── Methods ──
         public void get_Version(){} // RVA: 0x6372690
         public void .cctor(){} // RVA: 0x63726F0
@@ -822,6 +975,13 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityViewHierarchyNode
     {
+        public string <Tag>k__BackingField; // 0x20
+        public string <Position>k__BackingField; // 0x28
+        public string <Rotation>k__BackingField; // 0x30
+        public string <Scale>k__BackingField; // 0x38
+        public System.Nullable`1<bool> <Active>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<string> <Extras>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0x30B0C0
         public void set_Tag(){} // RVA: 0x30B0D0
@@ -856,6 +1016,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class WebBackgroundWorker
     {
+        public Sentry.Unity.SentryMonoBehaviour _behaviour; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6382E00
         public void EnqueueEnvelope(){} // RVA: 0x6382F90

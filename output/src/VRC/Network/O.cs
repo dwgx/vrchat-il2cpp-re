@@ -8,6 +8,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÌÌÎÍÎÎÏÍÏÎÏÏÏÎÏÍÌÌÌÍÍ</summary>
     public class OVRLipSyncContextCannedReRelated_5FE9
     {
+        public UnityEngine.Transform ÌÌÌÏÏÎÎÌÏÍÍÏÌÌÎÏÏÎÍÍÌÎÌ; // 0x20
+
         // ── Methods ──
         public void FillArrayRange(){} // RVA: 0x18F58E0
         public void FillArrayRange_A85E3366D41B(){} // RVA: 0x18F5920
@@ -69,6 +71,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÍÍÎÎÎÏÌÌÍÍÍÌÌÎÎÏÎÍÏÎÍ</summary>
     public class OVRLipSyncContextCannedRelated_06C7
     {
+        public float ÍÎÎÎÏÍÌÎÏÌÍÍÏÍÍÏÌÎÏÍÎÏÌ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x13551C0
         public void .ctor(){} // RVA: 0x1355480
@@ -238,6 +242,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÏÏÎÍÍÌÏÌÌÌÌÌÏÎÍÍÌÏÎÏÌ</summary>
     public class OVRLipSyncContextCannedSiblingSibling_29B6
     {
+        public 0x6588AF78 ÌÌÏÍÍÎÏÌÏÌÏÍÍÎÍÏÌÍÌÎÎÏÎ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x14E9A30
         public void RaiseCancellation(){} // RVA: 0x14E9B40
@@ -493,6 +499,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÏÏÌÍÍÌÏÏÏÍÌÏÏÍÏÌÎÏÎÌÏ</summary>
     public class OVRLipSyncContextCannedSiblingSibling_B7FD
     {
+        public ÎÌÏÍÌÎÎÍÌÍÌÌÌÍÎÍÎÌÎÎÏÎÏ ÌÎÎÎÌÏÎÌÍÍÍÌÏÏÌÎÍÌÏÎÏÍÌ; // 0x28
+        public bool ÎÍÏÌÍÎÍÏÍÌÎÎÍÍÍÎÎÏÍÍÎÍÏ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1372A00
         public void RaiseCancellation(){} // RVA: 0x1372A90
@@ -553,6 +562,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÏÎÏÎÍÎÌÎÌÏÌÍÎÏÍÏÌÌÎÏÍ</summary>
     public class OVRLipSyncContextCannedSiblingSibling_EBEC
     {
+        public ÌÏÍÏÎÌÌÏÎÎÎÎÍÌÏÎÍÎÎÏÎÎÍ <ÎÌÏÏÎÏÎÏÏÌÏÍÎÌÏÌÏÏÎÎÎÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x30B0C0
         public void RaiseCancellation(){} // RVA: 0x30B0D0
@@ -603,6 +614,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÌÍÏÎÍÏÎÌÏÍÏÍÍÏÏÌÏÎÍÌÎ</summary>
     public class OVRLipSyncContextCannedSiblingSibling_FB4E
     {
+        public ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ ÌÍÏÍÏÌÍÏÏÍÎÍÎÌÌÌÌÏÏÍÎÎÌ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x136F1D0
         public void Awake(){} // RVA: 0x136F280
@@ -667,6 +680,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÍÏÏÍÌÏÌÌÎÎÏÍÏÏÏÍÌÍÎÌ</summary>
     public class OVRLipSyncContextCannedSibling_640B
     {
+        public bool ÍÌÍÌÎÌÌÍÎÍÎÌÎÌÎÏÍÎÏÌÍÌÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x14EC2E0
         public void RaiseCancellation(){} // RVA: 0x14EC430
@@ -804,6 +819,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÍÍÏÌÎÍÎÏÎÌÍÍÎÌÏÏÎÍÏÎÎ</summary>
     public class OVRLipSyncContextTextureFlipSiSibling_1484
     {
+        public VRC.Profiling.ProfilerMarker ÏÎÎÎÎÌÎÎÎÌÏÍÏÍÏÎÌÌÏÌÏÍÌ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÎÌÌÏÏÏÌÏÌÍÏÏÎÌÌÎÎÎÏÏÌÍÌ; // 0x20
+        public VRC.Profiling.ProfilerMarker ÌÎÏÎÎÌÎÌÏÎÎÍÍÌÍÌÍÏÍÍÎÍÏ; // 0x30
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x665920
         public void Cleanup(){} // RVA: 0x35A740
@@ -973,6 +992,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÏÏÍÍÏÎÎÏÌÎÏÌÌÌÌÍÏÍÏÌÎ</summary>
     public class OVRLipSyncContextTextureFlipSiSibling_EC46
     {
+        public VRC.Profiling.ProfilerMarker ÎÎÌÍÏÎÌÏÏÍÏÌÌÌÏÍÎÌÍÍÏÍÌ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÍÎÎÏÏÎÍÌÎÏÌÌÏÎÎÍÌÌÏÌÌÎÍ; // 0x20
+        public ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ <ÏÎÌÌÏÏÎÌÏÍÍÍÍÍÍÏÎÌÍÍÌÍÎ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_CloseOutput(){} // RVA: 0x4A6500
         public void .ctor(){} // RVA: 0x660E00
@@ -1047,6 +1070,9 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÏÎÌÏÎÌÎÌÏÎÏÏÌÎÏÍÍÏÍÎ</summary>
     public class OVRLipSyncSiblingSibling_0CD1
     {
+        public ÍÏÎÌÏÍÍÌÏÎÌÎÏÎÏÍÏÎÍÌÍÏÌ ÍÏÌÏÍÏÎÍÏÎÌÌÌÌÎÎÏÎÌÎÏÏÎ; // 0x20
+        public ÏÍÍÏÎÌÏÎÌÎÌÏÎÏÏÌÎÏÍÍÏÍÎ ÎÏÎÌÍÏÍÍÎÏÏÍÏÌÎÎÏÏÌÌÎÌÏ;
+
         // ── Methods ──
         public void OnDestroy_AD434082A73F(){} // RVA: 0x12F5EB0
         public void RaiseCancellation(){} // RVA: 0x12F6120
@@ -1094,6 +1120,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÍÌÏÏÏÎÍÎÍÏÍÎÌÎÏÎÍÏÍÌÎ</summary>
     public class OVRLipSyncSiblingSibling_6C6B
     {
+        public float ÍÌÍÍÎÏÍÎÏÌÌÌÎÎÏÏÎÌÍÎÌÏÎ;
+
         // ── Methods ──
         public void OnDestroy_AD434082A73F(){} // RVA: 0x112D540
         public void RaiseCancellation(){} // RVA: 0x112D9B0
@@ -1116,6 +1144,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÏÌÎÎÍÌÍÎÌÌÌÎÌÌÏÎÏÍÌÌ</summary>
     public class OVRLipSyncSiblingSibling_BA6D
     {
+        public string ÌÍÏÌÌÏÍÏÍÏÍÌÍÎÏÍÍÌÏÌÍÌÎ; // 0x10
+        public string ÏÍÍÌÍÍÌÎÌÎÌÍÎÍÌÎÏÍÍÎÎÌÏ; // 0x18
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0x20
+        public string ÍÎÍÍÎÌÌÌÎÌÏÏÌÍÎÌÎÌÎÌÎÏÏ; // 0x28
+        public float ÏÌÌÎÏÍÏÏÏÍÏÏÎÏÍÏÏÏÏÎÌÌÌ; // 0x30
+
         // ── Methods ──
         public void OnDestroy_AD434082A73F(){} // RVA: 0x1B204F0
         public void RaiseCancellation(){} // RVA: 0x1B20580
@@ -1141,6 +1175,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÍÍÏÍÌÌÏÌÍÎÌÌÍÏÏÏÎÍÎÏ</summary>
     public class OVRLipSyncSiblingSibling_FC45
     {
+        public System.Collections.Generic.List`1<UnityEngine.RuntimeAnimatorController> ÌÏÌÌÌÏÎÌÍÎÎÍÍÌÌÏÎÏÌÎÎÎÍ; // 0x20
+
         // ── Methods ──
         public void OnDestroy_AD434082A73F(){} // RVA: 0x116FD30
         public void RaiseCancellation(){} // RVA: 0x116FFA0
@@ -1193,6 +1229,11 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÌÏÎÍÏÏÎÍÍÌÏÌÏÎÎÎÌÎÎÏ</summary>
     public class OVRLipSyncSibling_3218
     {
+        public System.Nullable`1<int> ÌÍÌÍÎÎÏÌÏÍÎÎÍÏÏÎÌÍÌÌÏÏÌ; // 0x20
+        public bool <ÎÍÍÏÍÍÌÎÌÏÏÌÌÌÏÎÏÏÍÌÏÌÎ>k__BackingField; // 0x28
+        public bool ÏÍÌÌÎÍÏÎÌÍÏÍÏÎÍÎÏÏÌÎÌÎÍ; // 0x29
+        public bool ÎÍÎÎÍÏÍÍÏÏÎÍÎÏÏÎÍÌÎÎÏÎÍ; // 0x2A
+
         // ── Methods ──
         public void StartCoroutineManaged2(){} // RVA: 0x1332A30 | overloaded x3
         public void NeedsSync_BB35FE213191(){} // RVA: 0x1331980 | overloaded x2
@@ -1231,6 +1272,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÌÏÎÌÌÍÌÎÌÏÎÍÌÌÎÏÌÏÍÍÏ</summary>
     public class OVRLipSyncSibling_4E04
     {
+        public int ÍÎÍÍÏÌÏÏÍÍÎÌÌÍÍÏÏÎÎÌÌÎÎ;
+
         // ── Methods ──
         public void OnDestroy_AD434082A73F(){} // RVA: 0x13FD220
         public void RaiseCancellation(){} // RVA: 0x13FD310

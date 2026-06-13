@@ -29,6 +29,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class CommandStream
     {
+        public System.AsyncCallback s_writeCallbackDelegate;
+        public System.AsyncCallback s_readCallbackDelegate; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CD0B70
         public void Abort(){} // RVA: 0x6CD0DD0
@@ -65,6 +68,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ContentDecodeStream
     {
+        public System.IO.Stream <OriginalInnerStream>k__BackingField; // 0x40
+
         // ── Methods ──
         public void Create(){} // RVA: 0x6B48080
         public void get_OriginalInnerStream(){} // RVA: 0x35A740
@@ -89,6 +94,28 @@ namespace ThirdParty.DotNet.System.Net
 
     public class Cookie
     {
+        public char[] PortSplitDelimiters;
+        public char[] Reserved2Name; // 0x8
+        public char[] Reserved2Value; // 0x10
+        public System.Net.Comparer staticComparer; // 0x18
+        public string m_comment; // 0x10
+        public System.Uri m_commentUri; // 0x18
+        public 0x65856CD8 m_cookieVariant; // 0x20
+        public bool m_discard; // 0x24
+        public string m_domain; // 0x28
+        public bool m_domain_implicit; // 0x30
+        public System.DateTime m_expires; // 0x38
+        public string m_name; // 0x40
+        public string m_path; // 0x48
+        public bool m_path_implicit; // 0x50
+        public string m_port; // 0x58
+        public bool m_port_implicit; // 0x60
+        public int[] m_port_list; // 0x68
+        public bool m_secure; // 0x70
+        public bool m_httpOnly; // 0x71
+        public System.DateTime m_timeStamp; // 0x78
+        public string m_value; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B31110
         public void get_Comment(){} // RVA: 0x2F8380
@@ -133,6 +160,12 @@ namespace ThirdParty.DotNet.System.Net
 
     public class CookieCollection
     {
+        public int m_version; // 0x10
+        public System.Collections.ArrayList m_list; // 0x18
+        public System.DateTime m_TimeStamp; // 0x20
+        public bool m_has_other_versions; // 0x28
+        public bool m_IsReadOnly; // 0x29
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B37210
         public void get_Item(){} // RVA: 0x6B372F0
@@ -184,6 +217,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class CookieTokenizer
     {
+        public bool m_eofCookie; // 0x10
+        public int m_index; // 0x14
+        public int m_length; // 0x18
+        public string m_name; // 0x20
+        public bool m_quoted; // 0x28
+        public int m_start; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B345C0
         public void get_EndOfCookie(){} // RVA: 0x3A75E0

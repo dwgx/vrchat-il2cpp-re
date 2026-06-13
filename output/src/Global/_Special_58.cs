@@ -815,6 +815,8 @@ public class _GetWorkingStandingZeroPoseToRawTrackingPose
 
 public class _GroupBy
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -827,6 +829,8 @@ public class _GroupBy
 
 public class _GroupBy
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -839,6 +843,8 @@ public class _GroupBy
 
 public class _GroupByAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -851,6 +857,8 @@ public class _GroupByAwait
 
 public class _GroupByAwait
 {
+    public System.Action`1<object> ResultSelectCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -865,6 +873,8 @@ public class _GroupByAwait
 
 public class _GroupByAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -877,6 +887,8 @@ public class _GroupByAwaitWithCancellation
 
 public class _GroupByAwaitWithCancellation
 {
+    public System.Action`1<object> ResultSelectCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -891,6 +903,8 @@ public class _GroupByAwaitWithCancellation
 
 public class _GroupJoin
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -905,6 +919,8 @@ public class _GroupJoin
 
 public class _GroupJoinAwait
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -921,6 +937,8 @@ public class _GroupJoinAwait
 
 public class _GroupJoinAwaitWithCancellation
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0

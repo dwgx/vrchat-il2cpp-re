@@ -22,6 +22,9 @@ namespace ThirdParty.Unity.UnityEngine.Networking.PlayerConnection
 
     public class PlayerConnection
     {
+        public UnityEngine.IPlayerEditorConnectionNative connectionNative;
+        public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents; // 0x18
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x714BB40
         public void get_isConnected(){} // RVA: 0x714BD40

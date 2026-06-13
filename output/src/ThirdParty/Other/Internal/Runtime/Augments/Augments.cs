@@ -14,6 +14,8 @@ namespace ThirdParty.Other.Internal.Runtime.Augments
 
     public class RuntimeAugments
     {
+        public Internal.Runtime.Augments.ReflectionExecutionDomainCallbacks s_reflectionExecutionDomainCallbacks;
+
         // ── Methods ──
         public void ReportUnhandledException(){} // RVA: 0x5C234D0
         public void get_Callbacks(){} // RVA: 0x5C23500
@@ -22,7 +24,7 @@ namespace ThirdParty.Other.Internal.Runtime.Augments
 
     public class RuntimeThread
     {
-        public object Enabled;
+        public int Enabled;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30

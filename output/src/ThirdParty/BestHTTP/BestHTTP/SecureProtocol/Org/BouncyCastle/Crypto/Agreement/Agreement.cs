@@ -98,6 +98,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class X25519Agreement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.X25519PrivateKeyParameters privateKey; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x96844D0
         public void get_AgreementSize(){} // RVA: 0x96845A0
@@ -107,6 +109,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class X448Agreement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.X448PrivateKeyParameters privateKey; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x9684820
         public void get_AgreementSize(){} // RVA: 0x96848F0

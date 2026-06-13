@@ -7,6 +7,20 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Landmark
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Landmark> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int XFieldNumber;
+        public float XDefaultValue; // 0x8
+        public float x_; // 0x1C
+        public int YFieldNumber;
+        public float YDefaultValue; // 0xC
+        public float y_; // 0x20
+        public int ZFieldNumber;
+        public float ZDefaultValue; // 0x10
+        public float z_; // 0x24
+        public int VisibilityFieldNumber;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B102C0
         public void get_Descriptor(){} // RVA: 0x5B10320
@@ -46,6 +60,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkList
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.LandmarkList> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int LandmarkFieldNumber;
+        public Google.Protobuf.FieldCodec`1<Mediapipe.Landmark> _repeated_landmark_codec; // 0x8
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B11560
         public void get_Descriptor(){} // RVA: 0x5B115C0
@@ -66,6 +85,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkListCollection
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.LandmarkListCollection> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.LandmarkList> _repeated_landmarkList_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.LandmarkList> landmarkList_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B124D0
         public void get_Descriptor(){} // RVA: 0x5B12530
@@ -86,6 +110,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B0F490
         public void .cctor(){} // RVA: 0x5B0F4F0
@@ -99,6 +125,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LocationData
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.LocationData> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int FormatFieldNumber;
+        public 0x6592EA80 FormatDefaultValue; // 0x8
+        public 0x6592EA80 format_; // 0x1C
+        public int BoundingBoxFieldNumber;
+        public BoundingBox boundingBox_; // 0x20
+        public int RelativeBoundingBoxFieldNumber;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B173B0
         public void get_Descriptor(){} // RVA: 0x5B17410
@@ -129,7 +165,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LocationDataReflection
     {
-        public object Descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B162F0

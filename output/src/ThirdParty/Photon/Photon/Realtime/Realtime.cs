@@ -7,8 +7,10 @@ namespace ThirdParty.Photon.Photon.Realtime
 {
     public class AppSettings
     {
-        public object BodyState;
-        public object BodyJointLocation[];
+        public string BodyState; // 0x10
+        public string BodyJointLocation[]; // 0x18
+        public string AppIdQuantum; // 0x20
+        public string AppIdChat; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1A8B7C0 | overloaded x2
@@ -48,6 +50,10 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class ConnectionHandler
     {
+        public ÎÎÌÏÎÏÏÎÍÎÏÍÎÎÎÍÎÏÏÌÎÎÍ <ÏÍÍÌÏÌÏÏÌÎÌÍÏÌÍÎÎÎÎÌÏÎÎ>k__BackingField; // 0x20
+        public string ÏÌÏÌÎÌÎÌÏÏÎÏÍÍÍÍÍÏÌÍÏÏÍ; // 0x28
+        public bool ÎÎÍÌÎÎÏÎÏÍÏÌÎÎÌÎÌÏÎÏÌÏÏ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1ABF230
         public void RaiseCancellation(){} // RVA: 0x1ABF2E0
@@ -82,8 +88,9 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class MatchmakingArguments
     {
-        public object Timeout;
-        public object HasTimedOut;
+        public Photon.Realtime.AppSettings Timeout; // 0x10
+        public int HasTimedOut; // 0x18
+        public int EmptyRoomTtlInSeconds; // 0x1C
 
         // ── Methods ──
         public void set_Plugins(){} // RVA: 0x1ADB180
@@ -103,6 +110,9 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class MatchmakingReconnectInformation
     {
+        public string Room; // 0x10
+        public string Region; // 0x18
+
         // ── Methods ──
         public void get_Timeout_0D7BEB6F7E02(){} // RVA: 0x1ADBD00
         public void set_HasTimedOut(){} // RVA: 0x1ADBD90

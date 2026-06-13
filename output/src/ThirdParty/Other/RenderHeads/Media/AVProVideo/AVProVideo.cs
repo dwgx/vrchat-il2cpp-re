@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.RenderHeads.Media.AVProVideo
-// Classes: 66
-// Methods: 1112
+// Classes: 69
+// Methods: 1148
 
 namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 {
@@ -11,6 +11,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToBase
     {
+        public RenderHeads.Media.AVProVideo.MediaPlayer _media; // 0x20
+        public bool _automaticStereoPacking; // 0x28
+        public 0x65997DD8 _overrideStereoPacking; // 0x2C
+        public bool _stereoRedGreenTint; // 0x30
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0x30B0C0
         public void set_Player(){} // RVA: 0x1CA1730
@@ -36,6 +41,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToMaterial
     {
+        public UnityEngine.Texture2D _defaultTexture; // 0x38
+        public UnityEngine.Material _material; // 0x40
+        public string _texturePropertyName; // 0x48
+        public UnityEngine.Vector2 _offset; // 0x50
+        public UnityEngine.Vector2 _scale; // 0x58
+
         // ── Methods ──
         public void get_DefaultTexture(){} // RVA: 0x4976A0
         public void set_DefaultTexture(){} // RVA: 0x1C8B4E0
@@ -57,6 +68,13 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToMesh
     {
+        public UnityEngine.Texture2D _defaultTexture; // 0x38
+        public UnityEngine.Renderer _renderer; // 0x40
+        public int _materialIndex; // 0x48
+        public string _texturePropertyName; // 0x50
+        public UnityEngine.Vector2 _offset; // 0x58
+        public UnityEngine.Vector2 _scale; // 0x60
+
         // ── Methods ──
         public void get_DefaultTexture(){} // RVA: 0x4976A0
         public void set_DefaultTexture(){} // RVA: 0x1C8CDB0
@@ -82,7 +100,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioChannelMixer
     {
-        public object _channel;
+        public int _channel;
 
         // ── Methods ──
         public void get_Channel(){} // RVA: 0x30B0C0
@@ -95,7 +113,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioOutput
     {
-        public object _player;
+        public RenderHeads.Media.AVProVideo.MediaPlayer _player; // 0x20
+        public 0x65996888 _audioOutputMode; // 0x28
+        public int _channelMask; // 0x2C
 
         // ── Methods ──
         public void get_Player(){} // RVA: 0x30B0C0
@@ -119,7 +139,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioOutputManager
     {
-        public object center;
+        public RenderHeads.Media.AVProVideo.AudioOutputManager center;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x1CA1C30
@@ -131,6 +151,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioTrack
     {
+        public int <Bitrate>k__BackingField; // 0x38
+        public int <ChannelCount>k__BackingField; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CB95C0 | overloaded x2
         public void get_Bitrate(){} // RVA: 0xFDC9F0
@@ -148,6 +171,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AuthData
     {
+        public string <URL>k__BackingField; // 0x10
+        public string <Token>k__BackingField; // 0x18
+        public byte[] <KeyBytes>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_URL(){} // RVA: 0x2F8380
         public void set_URL(){} // RVA: 0x2DEE30
@@ -313,12 +340,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class DisplayIMGUI
     {
-        public object _player;
-        public object _scaleMode;
-        public object _color;
-        public object _allowTransparency;
-        public object _useDepth;
-        public object _depth;
+        public RenderHeads.Media.AVProVideo.MediaPlayer _player; // 0x20
+        public 0x659A1200 _scaleMode; // 0x28
+        public UnityEngine.Color _color; // 0x2C
+        public bool _allowTransparency; // 0x3C
+        public bool _useDepth; // 0x3D
+        public int _depth; // 0x40
+        public bool _isAreaFullScreen; // 0x44
+        public float _areaX; // 0x48
+        public float _areaY; // 0x4C
+        public float _areaWidth; // 0x50
+        public float _areaHeight; // 0x54
+        public bool _showAreaInEditor; // 0x58
 
         // ── Methods ──
         public void get_Player(){} // RVA: 0x30B0C0
@@ -357,6 +390,17 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class DisplayUGUI
     {
+        public RenderHeads.Media.AVProVideo.MediaPlayer _mediaPlayer; // 0xE0
+        public UnityEngine.Texture _defaultTexture; // 0xE8
+        public UnityEngine.Rect _uvRect; // 0xF0
+        public bool _setNativeSize; // 0x100
+        public 0x659A1200 _scaleMode; // 0x104
+        public bool _noDefaultDisplay; // 0x108
+        public bool _displayInEditor; // 0x109
+        public int _lastWidth; // 0x10C
+        public int _lastHeight; // 0x110
+        public 0x65998098 _lastOrientation; // 0x114
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0x35E900
         public void set_Player(){} // RVA: 0x1C86850
@@ -437,6 +481,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class HttpHeaderData
     {
+        public System.Collections.Generic.List`1<RenderHeads.Media.AVProVideo.HttpHeader> httpHeaders; // 0x10
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x1CB98A0
         public void get_Item(){} // RVA: 0x1CB9980
@@ -627,6 +673,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class LazyShaderProperty
     {
+        public string _name; // 0x10
+        public int _id; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CBDE20
         public void get_Name(){} // RVA: 0x1AD4690
@@ -641,6 +690,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaHints
     {
+        public 0x65997F38 transparency; // 0x10
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x1CA8240
         public void .cctor(){} // RVA: 0x2DD310
@@ -648,6 +699,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPath
     {
+        public 0x65997C78 _pathType; // 0x10
+        public string _path; // 0x18
+
         // ── Methods ──
         public void get_PathType(){} // RVA: 0x32A5C0
         public void set_PathType(){} // RVA: 0x2E00C0
@@ -663,6 +717,60 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPlayer
     {
+        public 0x65997C20 _mediaSource; // 0x20
+        public RenderHeads.Media.AVProVideo.MediaReference _mediaReference; // 0x28
+        public RenderHeads.Media.AVProVideo.MediaPath _mediaPath; // 0x30
+        public RenderHeads.Media.AVProVideo.MediaHints _fallbackMediaHints; // 0x38
+        public bool _autoOpen; // 0x44
+        public bool _autoPlayOnStart; // 0x45
+        public bool _loop; // 0x46
+        public float _audioVolume; // 0x48
+        public float _audioBalance; // 0x4C
+        public bool _audioMuted; // 0x50
+        public UnityEngine.AudioSource _audioSource; // 0x58
+        public float _playbackRate; // 0x60
+        public bool _useResampler; // 0x64
+        public 0x65999488 _resampleMode; // 0x68
+        public int _resampleBufferSize; // 0x6C
+        public RenderHeads.Media.AVProVideo.Resampler _resampler; // 0x70
+        public 0x659980F0 _videoMapping; // 0x78
+        public 0x65897F70 _textureFilterMode; // 0x7C
+        public 0x65897FC8 _textureWrapMode; // 0x80
+        public int _textureAnisoLevel; // 0x84
+        public bool _sideloadSubtitles; // 0x88
+        public RenderHeads.Media.AVProVideo.MediaPath _subtitlePath; // 0x90
+        public UnityEngine.Transform _audioHeadTransform; // 0x98
+        public bool _audioFocusEnabled; // 0xA0
+        public UnityEngine.Transform _audioFocusTransform; // 0xA8
+        public float _audioFocusWidthDegrees; // 0xB0
+        public float _audioFocusOffLevelDB; // 0xB4
+        public RenderHeads.Media.AVProVideo.HttpHeaderData _httpHeaders; // 0xB8
+        public RenderHeads.Media.AVProVideo.KeyAuthData _keyAuth; // 0xC0
+        public RenderHeads.Media.AVProVideo.MediaPlayerEvent _events; // 0xC8
+        public int _eventMask; // 0xD0
+        public bool _pauseMediaOnAppPause; // 0xD4
+        public bool _playMediaOnAppUnpause; // 0xD5
+        public bool _persistent; // 0xD6
+        public 0x65998148 _forceFileFormat; // 0xD8
+        public RenderHeads.Media.AVProVideo.BaseMediaPlayer _baseMediaPlayer; // 0xE0
+        public RenderHeads.Media.AVProVideo.IMediaControl _controlInterface; // 0xE8
+        public RenderHeads.Media.AVProVideo.ITextureProducer _textureInterface; // 0xF0
+        public RenderHeads.Media.AVProVideo.IMediaInfo _infoInterface; // 0xF8
+        public RenderHeads.Media.AVProVideo.IMediaPlayer _playerInterface; // 0x100
+        public RenderHeads.Media.AVProVideo.IMediaSubtitles _subtitlesInterface; // 0x108
+        public RenderHeads.Media.AVProVideo.IMediaCache _cacheInterface; // 0x110
+        public RenderHeads.Media.AVProVideo.IBufferedDisplay _bufferedDisplayInterface; // 0x118
+        public RenderHeads.Media.AVProVideo.IVideoTracks _videoTracksInterface; // 0x120
+        public RenderHeads.Media.AVProVideo.IAudioTracks _audioTracksInterface; // 0x128
+        public RenderHeads.Media.AVProVideo.ITextTracks _textTracksInterface; // 0x130
+        public System.IDisposable _disposeInterface; // 0x138
+        public bool _isMediaOpened; // 0x140
+        public bool _autoPlayOnStartTriggered; // 0x141
+        public bool _wasPlayingOnPause; // 0x142
+        public UnityEngine.Coroutine _renderingCoroutine; // 0x148
+        public bool s_GlobalStartup;
+        public bool s_TrialVersion; // 0x1
+
         // ── Methods ──
         public void get_MediaSource(){} // RVA: 0x760030
         public void set_MediaSource(){} // RVA: 0x99E0D0
@@ -834,6 +942,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPlaylist
     {
+        public System.Collections.Generic.List`1<MediaItem> _items; // 0x10
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0x2F8380
         public void HasItemAt(){} // RVA: 0x1C9A5F0
@@ -842,7 +952,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaReference
     {
-        public object outputs;
+        public string outputs; // 0x18
+        public RenderHeads.Media.AVProVideo.MediaPath _mediaPath; // 0x20
+        public RenderHeads.Media.AVProVideo.MediaHints _hints; // 0x28
 
         // ── Methods ──
         public void get_Alias(){} // RVA: 0x2E07C0
@@ -924,11 +1036,14 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class PlaybackQualityStats
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object get_Descriptor;
+        public int Parser; // 0x10
+        public int Descriptor; // 0x14
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public float BaseOptions; // 0x1C
+        public string get_Descriptor; // 0x20
+        public int <PerfectFrames>k__BackingField; // 0x28
+        public int <TotalFrames>k__BackingField; // 0x2C
+        public bool <LogIssues>k__BackingField; // 0x30
 
         // ── Methods ──
         public void get_SkippedFrames(){} // RVA: 0x32A5C0
@@ -956,6 +1071,23 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class PlaylistMediaPlayer
     {
+        public UnityEngine.Shader _transitionShader; // 0x1C0
+        public RenderHeads.Media.AVProVideo.MediaPlayer _playerA; // 0x1C8
+        public RenderHeads.Media.AVProVideo.MediaPlayer _playerB; // 0x1D0
+        public bool _playlistAutoProgress; // 0x1D8
+        public bool _autoCloseVideo; // 0x1D9
+        public 0x65997280 _playlistLoopMode; // 0x1DC
+        public RenderHeads.Media.AVProVideo.MediaPlaylist _playlist; // 0x1E0
+        public bool _pausePreviousOnTransition; // 0x1E8
+        public 0x65997228 _defaultTransition; // 0x1EC
+        public float _defaultTransitionDuration; // 0x1F0
+        public 0x65997388 _defaultTransitionEasing; // 0x1F4
+        public RenderHeads.Media.AVProVideo.LazyShaderProperty PropFromTex;
+        public RenderHeads.Media.AVProVideo.LazyShaderProperty PropFade; // 0x10
+        public bool _isPaused; // 0x1F8
+        public int _playlistIndex; // 0x1FC
+        public RenderHeads.Media.AVProVideo.MediaPlayer _nextPlayer; // 0x200
+
         // ── Methods ──
         public void get_CurrentPlayer(){} // RVA: 0x1C9A8E0
         public void get_NextPlayer(){} // RVA: 0xD9E9A0
@@ -1017,8 +1149,13 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class Resampler
     {
-        public object _droppedFrames;
-        public object _frameDisplayedTimer;
+        public System.Collections.Generic.List`1<TimestampedRenderTexture[]> _droppedFrames; // 0x10
+        public RenderHeads.Media.AVProVideo.MediaPlayer _frameDisplayedTimer; // 0x18
+        public UnityEngine.RenderTexture[] _outputTexture; // 0x20
+        public int _start; // 0x28
+        public int _end; // 0x2C
+        public int _bufferSize; // 0x30
+        public long _baseTimestamp; // 0x38
 
         // ── Methods ──
         public void get_DroppedFrames(){} // RVA: 0x1C91440
@@ -1053,9 +1190,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ResolveToRenderTexture
     {
-        public object IsCreated;
-        public object Length;
-        public object Depthkit;
+        public RenderHeads.Media.AVProVideo.MediaPlayer IsCreated; // 0x20
+        public RenderHeads.Media.AVProVideo.VideoResolveOptions Length; // 0x28
+        public 0x65999698 Depthkit; // 0x58
+        public UnityEngine.RenderTexture _externalTexture; // 0x60
 
         // ── Methods ──
         public void get_MediaPlayer(){} // RVA: 0x30B0C0
@@ -1099,7 +1237,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class SubtitlesUGUI
     {
-        public object _player;
+        public RenderHeads.Media.AVProVideo.MediaPlayer _player; // 0x20
+        public UnityEngine.UI.Text _text; // 0x28
 
         // ── Methods ──
         public void set_Player(){} // RVA: 0x1C8A4D0
@@ -1119,6 +1258,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TextCue
     {
+        public string <Text>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_Text(){} // RVA: 0x2F8380
@@ -1144,6 +1285,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TimeRange
     {
+        public double startTime; // 0x10
+        public double duration; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CA83B0
         public void get_StartTime(){} // RVA: 0x1CA83C0
@@ -1153,6 +1297,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TimeRanges
     {
+        public RenderHeads.Media.AVProVideo.TimeRange[] _ranges; // 0x10
+        public double _minTime; // 0x18
+        public double _maxTime; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CA8750 | overloaded x2
         public void GetEnumerator(){} // RVA: 0x1CA8480
@@ -1167,12 +1315,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackBase
     {
-        public object _uid;
-        public object _trackType;
-        public object _displayName;
-        public object _name;
-        public object _language;
-        public object _isDefault;
+        public int _uid; // 0x10
+        public 0x65998EB0 _trackType; // 0x14
+        public string _displayName; // 0x18
+        public string _name; // 0x20
+        public string _language; // 0x28
+        public bool _isDefault; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CB90F0 | overloaded x2
@@ -1193,6 +1341,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection
     {
+        public 0x65998EB0 <TrackType>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_TrackType(){} // RVA: 0x32A5C0
         public void set_TrackType(){} // RVA: 0x2E00C0
@@ -1209,6 +1359,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection`1
     {
+        public T <ActiveTrack>k__BackingField;
+        public System.Collections.Generic.List`1<T> _tracks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
@@ -1224,8 +1377,70 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
         public void get_Count(){} // RVA: 0xD840
     }
 
+    public class TrackCollection`1
+    {
+        public RenderHeads.Media.AVProVideo.VideoTrack <ActiveTrack>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<RenderHeads.Media.AVProVideo.VideoTrack> _tracks; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x441DBC0
+        public void GetEnumerator(){} // RVA: 0x441DD00
+        public void get_Item(){} // RVA: 0x441DDD0
+        public void get_ActiveTrack(){} // RVA: 0x2E07C0
+        public void set_ActiveTrack(){} // RVA: 0x343E80
+        public void HasActiveTrack(){} // RVA: 0x1D3B060
+        public void IsActiveTrack(){} // RVA: 0x441DE20
+        public void Clear(){} // RVA: 0x441DE30
+        public void Add(){} // RVA: 0x441DEC0
+        public void SetActiveTrack(){} // RVA: 0x441DFD0
+        public void SetFirstTrackActive(){} // RVA: 0x441E0D0
+        public void get_Count(){} // RVA: 0x441E160
+    }
+
+    public class TrackCollection`1
+    {
+        public RenderHeads.Media.AVProVideo.AudioTrack <ActiveTrack>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<RenderHeads.Media.AVProVideo.AudioTrack> _tracks; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x441DBC0
+        public void GetEnumerator(){} // RVA: 0x441DD00
+        public void get_Item(){} // RVA: 0x441DDD0
+        public void get_ActiveTrack(){} // RVA: 0x2E07C0
+        public void set_ActiveTrack(){} // RVA: 0x343E80
+        public void HasActiveTrack(){} // RVA: 0x1D3B060
+        public void IsActiveTrack(){} // RVA: 0x441DE20
+        public void Clear(){} // RVA: 0x441DE30
+        public void Add(){} // RVA: 0x441DEC0
+        public void SetActiveTrack(){} // RVA: 0x441DFD0
+        public void SetFirstTrackActive(){} // RVA: 0x441E0D0
+        public void get_Count(){} // RVA: 0x441E160
+    }
+
+    public class TrackCollection`1
+    {
+        public RenderHeads.Media.AVProVideo.TextTrack <ActiveTrack>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<RenderHeads.Media.AVProVideo.TextTrack> _tracks; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x441DBC0
+        public void GetEnumerator(){} // RVA: 0x441DD00
+        public void get_Item(){} // RVA: 0x441DDD0
+        public void get_ActiveTrack(){} // RVA: 0x2E07C0
+        public void set_ActiveTrack(){} // RVA: 0x343E80
+        public void HasActiveTrack(){} // RVA: 0x1D3B060
+        public void IsActiveTrack(){} // RVA: 0x441DE20
+        public void Clear(){} // RVA: 0x441DE30
+        public void Add(){} // RVA: 0x441DEC0
+        public void SetActiveTrack(){} // RVA: 0x441DFD0
+        public void SetFirstTrackActive(){} // RVA: 0x441E0D0
+        public void get_Count(){} // RVA: 0x441E160
+    }
+
     public class UpdateMultiPassStereo
     {
+        public UnityEngine.Camera _camera; // 0x20
+
         // ── Methods ──
         public void get_Camera(){} // RVA: 0x30B0C0
         public void set_Camera(){} // RVA: 0x30B0D0
@@ -1273,6 +1488,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class VideoTrack
     {
+        public int <Bitrate>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CB9590 | overloaded x2
         public void get_Bitrate(){} // RVA: 0xFDC9F0
@@ -1394,6 +1611,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class WindowsRtMediaPlayer
     {
+        public bool _isMediaLoaded; // 0xA8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CB4200 | overloaded x2
         public void CanPlay(){} // RVA: 0x1CB44E0

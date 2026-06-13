@@ -8,6 +8,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÏÌÌÏÍÏÍÎÎÏÌÌÌÌÎÌÌÌÏÎÏ</summary>
     public class MaterialUIHandler_3216
     {
+        public float[] ÍÌÌÏÏÍÎÎÍÏÎÏÎÍÏÏÏÍÏÌÍÌÎ; // 0x10
+
         // ── Methods ──
         public void HasTextureImpl(){} // RVA: 0x15B3F40
         public void GetTextureImpl(){} // RVA: 0x15B3F90
@@ -40,6 +42,41 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÌÎÏÍÌÎÌÍÏÎÎÍÎÎÌÎÎÎÍÍÎ</summary>
     public class MaterialUISystem_932F
     {
+        public ÌÎÌÎÏÍÌÎÌÍÏÎÎÍÎÎÌÎÎÎÍÍÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public bool ÎÎÌÏÌÎÌÎÌÏÏÌÎÏÎÍÍÍÍÍÍÍÍ; // 0x20
+        public 0x658853B0 ÏÎÌÏÏÍÍÍÍÎÍÏÍÏÏÎÏÌÍÏÎÎÎ; // 0x24
+        public 0x658853B0 ÌÎÎÏÌÎÌÌÍÏÏÌÍÌÌÏÍÎÌÎÌÏÏ; // 0x28
+        public bool <ÌÎÌÍÌÏÌÎÍÍÌÎÎÏÎÏÌÌÌÍÎÌÏ>k__BackingField; // 0x2C
+        public 0x65713EF8 ÍÌÏÍÎÎÌÎÌÏÍÍÍÏÌÏÌÍÌÎÎÌÌ; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65885408> ÏÎÍÏÌÍÌÎÏÎÏÌÍÌÌÌÍÌÏÎÍÎÍ; // 0x38
+        public 0x65713DF0 ÏÎÍÌÏÎÍÏÎÎÍÎÏÏÏÌÍÍÏÏÍÌÎ; // 0x40
+        public 0x65713DF0 ÌÍÏÎÏÍÎÏÏÍÎÍÍÎÌÍÌÍÍÌÏÏÏ; // 0x44
+        public 0x65713DF0 ÏÌÏÌÎÍÏÌÌÍÌÍÏÍÎÍÎÏÎÍÏÌÏ; // 0x48
+        public 0x65713DF0 ÌÍÍÍÏÍÌÎÎÌÏÏÍÎÍÎÏÍÌÍÌÏÍ; // 0x4C
+        public VRC.Localization.LocalizableString ÎÌÎÍÍÌÏÎÎÍÏÌÍÍÎÎÍÌÏÌÍÏÍ; // 0x8
+        public VRC.Localization.LocalizableString ÎÌÎÎÏÍÍÎÍÎÌÎÎÎÍÏÍÍÎÌÍÌÏ; // 0x30
+        public VRC.Localization.LocalizableString ÏÏÏÎÌÌÍÏÎÌÎÎÏÎÌÌÏÍÌÍÏÏÍ; // 0x58
+        public VRC.Localization.LocalizableString ÏÌÎÏÎÍÍÌÏÌÏÏÎÏÍÎÏÍÍÌÌÏÎ; // 0x80
+        public VRC.Localization.LocalizableString ÍÌÎÌÍÎÎÏÌÍÌÍÍÏÌÌÎÌÏÌÍÍÌ; // 0xA8
+        public VRC.Localization.LocalizableString ÎÏÎÏÌÎÌÏÌÎÎÏÌÏÍÏÍÎÎÎÏÎÏ; // 0xD0
+        public VRC.Localization.LocalizableString ÍÎÎÌÏÏÎÏÎÍÍÏÏÎÏÍÌÍÎÍÍÏÌ; // 0xF8
+        public VRC.Localization.LocalizableString ÍÎÏÏÎÏÍÍÎÌÏÍÎÎÏÏÏÎÌÎÍÌÏ; // 0x120
+        public VRC.Localization.LocalizableString ÍÍÍÍÎÍÏÍÎÎÎÏÏÌÎÌÎÌÏÍÏÍÎ; // 0x148
+        public VRC.Localization.LocalizableString ÌÎÏÏÌÍÏÎÌÏÌÎÎÏÏÎÎÌÌÌÌÍÍ; // 0x170
+        public VRC.Localization.LocalizableString ÏÍÏÌÏÍÍÍÍÎÍÎÎÌÌÍÌÎÍÌÎÏÏ; // 0x198
+        public VRC.Localization.LocalizableString ÍÎÏÌÌÍÎÌÏÍÌÍÎÏÏÍÌÏÏÌÍÎÌ; // 0x1C0
+        public VRC.Localization.LocalizableString ÌÏÎÍÍÏÎÌÎÎÌÎÎÌÌÍÏÍÍÍÍÎÌ; // 0x1E8
+        public VRC.Localization.LocalizableString ÏÌÌÌÌÍÍÌÏÏÏÏÍÎÎÌÍÏÍÏÌÏÎ; // 0x210
+        public VRC.Localization.LocalizableString ÎÍÎÏÍÍÍÎÌÍÌÌÎÏÌÎÌÌÌÏÎÏÎ; // 0x238
+        public VRC.Localization.LocalizableString ÍÌÌÎÌÍÌÎÍÎÎÌÎÎÍÎÍÎÌÍÍÎÎ; // 0x260
+        public VRC.Localization.LocalizableString ÌÏÌÎÏÏÌÍÌÎÎÎÎÍÏÏÏÏÏÎÏÎÍ; // 0x288
+        public VRC.Localization.LocalizableString ÌÌÍÎÏÍÍÌÎÍÎÌÏÏÎÏÌÏÍÎÏÎÎ; // 0x2B0
+        public VRC.Localization.LocalizableString ÏÌÍÍÎÏÌÏÍÎÏÎÌÏÏÎÌÎÌÌÌÎÏ; // 0x2D8
+        public VRC.Localization.LocalizableString ÌÎÎÍÌÎÍÍÍÍÏÎÏÏÏÎÎÏÎÎÌÏÍ; // 0x300
+        public VRC.Localization.LocalizableString ÎÌÍÍÍÍÏÌÌÏÍÍÍÌÍÎÌÎÌÎÎÏÍ; // 0x328
+        public System.Collections.Generic.Dictionary`2<0x65713DF0,VRC.Localization.LocalizableString> ÏÎÎÏÍÍÍÎÍÍÎÎÍÍÍÎÎÏÎÍÌÌÍ; // 0x350
+        public bool ÌÏÌÏÌÎÏÍÏÎÌÏÏÌÏÏÏÏÏÍÏÏÍ; // 0x50
+
         // ── Methods ──
         public void Contains(){} // RVA: 0xCE9980
         public void CopyTo(){} // RVA: 0xCE9B20

@@ -72,6 +72,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleLastKnownProductService
     {
+        public string <LastKnownOldProductId>k__BackingField; // 0x10
+        public string <LastKnownProductId>k__BackingField; // 0x18
+        public System.Nullable`1<0x6599D0B0> <LastKnownProrationMode>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_LastKnownOldProductId(){} // RVA: 0x2F8380
         public void set_LastKnownOldProductId(){} // RVA: 0x2DEE30
@@ -198,8 +202,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleProductMetadata
     {
-        public object Name;
-        public object .cctor;
+        public string Name; // 0x40
+        public string .cctor; // 0x48
+        public string <freeTrialPeriod>k__BackingField; // 0x50
+        public string <introductoryPrice>k__BackingField; // 0x58
+        public string <introductoryPricePeriod>k__BackingField; // 0x60
+        public int <introductoryPriceCycles>k__BackingField; // 0x68
 
         // ── Methods ──
         public void get_originalJson(){} // RVA: 0x35A740

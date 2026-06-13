@@ -65,6 +65,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR.Implementation
 
     public class UIRStylePainter
     {
+        public UnityEngine.UIElements.UIR.RenderChain m_Owner; // 0x10
+        public System.Collections.Generic.List`1<Entry> m_Entries; // 0x18
+        public UnityEngine.UIElements.AtlasBase m_Atlas; // 0x20
+        public UnityEngine.UIElements.UIR.VectorImageManager m_VectorImageManager; // 0x28
+        public Entry m_CurrentEntry; // 0x30
+        public ClosingInfo m_ClosingInfo; // 0x80
+        public int m_MaskDepth; // 0xB8
+
         // ── Methods ──
         public void GetPooledMeshWriteData(){} // RVA: 0x7362A40
         public void AllocRawVertsIndices(){} // RVA: 0x7362B30

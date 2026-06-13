@@ -7,6 +7,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.Logger
 {
     public class DefaultLogger
     {
+        public 0x657C31E8 <Level>k__BackingField; // 0x10
+        public string <FormatVerbose>k__BackingField; // 0x18
+        public string <FormatInfo>k__BackingField; // 0x20
+        public string <FormatWarn>k__BackingField; // 0x28
+        public string <FormatErr>k__BackingField; // 0x30
+        public string <FormatEx>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_Level(){} // RVA: 0x3A75E0
         public void set_Level(){} // RVA: 0x3A75F0

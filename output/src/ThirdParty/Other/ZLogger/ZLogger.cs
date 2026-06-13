@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.ZLogger
-// Classes: 30
-// Methods: 141
+// Classes: 31
+// Methods: 152
 
 namespace ThirdParty.Other.ZLogger
 {
@@ -82,6 +82,8 @@ namespace ThirdParty.Other.ZLogger
 
     public class LogCategory
     {
+        public byte[] utf8; // 0x10
+
         // ── Methods ──
         public void get_Utf8Span(){} // RVA: 0x9B0C580
         public void .ctor(){} // RVA: 0x9B0C620
@@ -116,6 +118,8 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageSequenceSegment
     {
+        public string Literal; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x19B3510
         public void get_IsLiteral(){} // RVA: 0x1102770
@@ -135,6 +139,12 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageTemplateChunk
     {
+        public byte[] <Literal>k__BackingField; // 0x10
+        public int <Index>k__BackingField; // 0x18
+        public int <Alignment>k__BackingField; // 0x1C
+        public string <Format>k__BackingField; // 0x20
+        public bool <NoAlignmentAndFormat>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B0DE00
         public void get_Literal(){} // RVA: 0x1AD4690
@@ -159,6 +169,10 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageTemplateHolder
     {
+        public int <LiteralLength>k__BackingField; // 0x10
+        public int <FormattedCount>k__BackingField; // 0x14
+        public ZLogger.MessageTemplateChunk[] <TemplateChunk>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95D2530
         public void get_EqualityContract(){} // RVA: 0x9B0D690
@@ -175,6 +189,9 @@ namespace ThirdParty.Other.ZLogger
 
     public class Timestamp
     {
+        public System.DateTimeOffset utcNow; // 0x10
+        public System.TimeProvider timeProvider; // 0x20
+
         // ── Methods ──
         public void get_Utc(){} // RVA: 0x75E7E0
         public void get_Local(){} // RVA: 0x9B0ED70
@@ -209,6 +226,9 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerEntry`1
     {
+        public ZLogger.Internal.ObjectPool`1<ZLogger.ZLoggerEntry`1<T>> cache;
+        public ZLogger.ZLoggerEntry`1<T> next;
+
         // ── Methods ──
         public void ZLogger.Internal.IObjectPoolNode<ZLogger.ZLoggerEntry<TState>>.get_NextNode(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x2DC60
@@ -220,6 +240,24 @@ namespace ThirdParty.Other.ZLogger
         public void Return(){} // RVA: 0x24A50
         public void .cctor(){} // RVA: 0x24A80
         public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0xCE10
+    }
+
+    public class ZLoggerEntry`1
+    {
+        public ZLogger.Internal.ObjectPool`1<ZLogger.ZLoggerEntry`1<ZLogger.LogStates.InterpolatedStringLogState>> cache;
+        public ZLogger.ZLoggerEntry`1<ZLogger.LogStates.InterpolatedStringLogState> next; // 0x10
+
+        // ── Methods ──
+        public void ZLogger.Internal.IObjectPoolNode<ZLogger.ZLoggerEntry<TState>>.get_NextNode(){} // RVA: 0x3DF6A30
+        public void .ctor(){} // RVA: 0x4DA2340
+        public void Create(){} // RVA: 0x4DA2460
+        public void ToString(){} // RVA: 0x4DA2890 | overloaded x2
+        public void CreateEntry(){} // RVA: 0x4DA2820
+        public void get_LogInfo(){} // RVA: 0x4DA0EB0
+        public void FormatUtf8(){} // RVA: 0x4DA0F00
+        public void Return(){} // RVA: 0x4DA2900
+        public void .cctor(){} // RVA: 0x4DA1210
+        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x4DA2820
     }
 
     public class ZLoggerErrorInterpolatedStringHandler
@@ -241,6 +279,8 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerInterpolatedStringHandler
     {
+        public System.Collections.Generic.List`1<string> literalPool; // 0xFFFFFFFF
+
         // ── Methods ──
         public void get_IsLoggerEnabled(){} // RVA: 0x1E40360
         public void .ctor(){} // RVA: 0x9B11790
@@ -260,6 +300,12 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerOptions
     {
+        public System.Action`1<System.Exception> <InternalErrorLogger>k__BackingField; // 0x10
+        public bool <IncludeScopes>k__BackingField; // 0x18
+        public System.TimeProvider <TimeProvider>k__BackingField; // 0x20
+        public 0x659D6050 <FullMode>k__BackingField; // 0x28
+        public int <BackgroundBufferCapacity>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void get_InternalErrorLogger(){} // RVA: 0x2F8380
         public void set_InternalErrorLogger(){} // RVA: 0x2DEE30

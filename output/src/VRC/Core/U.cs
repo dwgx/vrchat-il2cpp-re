@@ -7,6 +7,10 @@ namespace VRC.Core
 {
     public class UnityEventFilter
     {
+        public System.Collections.Generic.HashSet`1<System.Type> ÍÌÎÏÎÏÏÎÍÌÎÍÏÌÍÏÌÏÍÏÎÏÍ;
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<System.Type,ÌÏÌÏÎÎÌÌÍÏÌÏÌÏÏÏÏÌÌÏÎÍÏ>> ÌÏÍÌÏÏÍÏÌÌÌÏÎÎÌÌÏÎÌÌÏÎÎ; // 0x8
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<System.Type,ÏÍÏÏÏÏÎÎÌÌÌÏÏÎÏÏÌÎÍÍÌÏÌ>> ÎÌÍÎÎÍÍÎÍÍÏÍÏÍÎÍÍÍÏÏÌÏÎ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xE5BC30
         public void Equals(){} // RVA: 0xE5BCB0
@@ -51,6 +55,8 @@ namespace VRC.Core
 
     public class UrlAllowlistConfig
     {
+        public System.Lazy`1<System.ValueTuple`2<System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>>> _urlAllowlist;
+
         // ── Methods ──
         public void GetRemoteLists(){} // RVA: 0x992EB40
         public void get_DomainExplicitAllowlist(){} // RVA: 0x992F060

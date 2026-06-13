@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tele
 {
     public class TeleTrusTNamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void ConfigureBasepoint(){} // RVA: 0x975E100
         public void ConfigureCurve(){} // RVA: 0x1A3F520

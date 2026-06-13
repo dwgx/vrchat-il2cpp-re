@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 13
-// Methods: 271
+// Classes: 92
+// Methods: 639
 
 namespace ThirdParty.DotNet.System
 {
@@ -22,12 +22,41 @@ namespace ThirdParty.DotNet.System
 
     public class Range
     {
+        public System.Index <Start>k__BackingField; // 0x10
+        public System.Index <End>k__BackingField; // 0x14
+
         // ── Methods ──
         public void get_Start(){} // RVA: 0x19689B0
         public void get_End(){} // RVA: 0x19689E0
         public void Equals(){} // RVA: 0x5EB0A70 | overloaded x2
         public void GetHashCode(){} // RVA: 0x5EB0A90
         public void ToString(){} // RVA: 0x5EB0C60
+    }
+
+    public class Range
+    {
+        public System.Index <Start>k__BackingField; // 0x10
+        public System.Index <End>k__BackingField; // 0x14
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x644C8F0 | overloaded x2
+        public void get_EqualityContract(){} // RVA: 0x644C1A0
+        public void get_Start(){} // RVA: 0x32A5C0
+        public void set_Start(){} // RVA: 0x2E00C0
+        public void get_End(){} // RVA: 0x8ABED0
+        public void set_End(){} // RVA: 0x8AC660
+        public void ToString(){} // RVA: 0x644C250
+        public void StartAt(){} // RVA: 0x644C320
+        public void EndAt(){} // RVA: 0x644C370
+        public void get_All(){} // RVA: 0x644C3C0
+        public void GetOffsetAndLength(){} // RVA: 0x644C410
+        public void PrintMembers(){} // RVA: 0x644C4E0
+        public void op_Inequality(){} // RVA: 0x1D77880
+        public void op_Equality(){} // RVA: 0x1D778C0
+        public void GetHashCode(){} // RVA: 0x644C5A0
+        public void Equals(){} // RVA: 0x644C750 | overloaded x2
+        public void <Clone>$(){} // RVA: 0x644C890
+        public void Deconstruct(){} // RVA: 0x644C910
     }
 
     public class RankException
@@ -39,7 +68,8 @@ namespace ThirdParty.DotNet.System
     public class ReadOnlyMemory`1
     {
         public object Length;
-        public object Span;
+        public int Span;
+        public int _length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x3
@@ -57,8 +87,136 @@ namespace ThirdParty.DotNet.System
         public void GetObjectStartLength(){} // RVA: 0x1E6A0
     }
 
+    public class ReadOnlyMemory`1
+    {
+        public object _object;
+        public int _index;
+        public int _length;
+        public int RemoveFlagsBitMask;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x24B10 | overloaded x3
+        public void op_Implicit(){} // RVA: 0x283FA0 | overloaded x2
+        public void get_Empty(){} // RVA: 0x283FA0
+        public void get_Length(){} // RVA: 0xD840
+        public void get_IsEmpty(){} // RVA: 0xDBE0
+        public void ToString(){} // RVA: 0xCD60
+        public void Slice(){} // RVA: 0x283FA0 | overloaded x2
+        public void get_Span(){} // RVA: 0x283FA0
+        public void Pin(){} // RVA: 0x283FA0
+        public void ToArray(){} // RVA: 0xCD60
+        public void Equals(){} // RVA: 0x283FA0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0xD840
+        public void CombineHashCodes(){} // RVA: 0x13CA0 | overloaded x2
+        public void GetObjectStartLength(){} // RVA: 0x1E6A0
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x3
+        public void op_Implicit(){} // RVA: 0x3F0EE70 | overloaded x2
+        public void get_Empty(){} // RVA: 0x1529E90
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void get_IsEmpty(){} // RVA: 0x3F0EF90
+        public void ToString(){} // RVA: 0x3F17110
+        public void Slice(){} // RVA: 0x3F0F2A0 | overloaded x2
+        public void get_Span(){} // RVA: 0x3F17410
+        public void Pin(){} // RVA: 0x3F17810
+        public void ToArray(){} // RVA: 0x3F17C20
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3F0FEB0
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+        public void GetObjectStartLength(){} // RVA: 0x3F0FF80
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x3
+        public void op_Implicit(){} // RVA: 0x3F0EE70 | overloaded x2
+        public void get_Empty(){} // RVA: 0x1529E90
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void get_IsEmpty(){} // RVA: 0x3F0EF90
+        public void ToString(){} // RVA: 0x3F186D0
+        public void Slice(){} // RVA: 0x3F0F2A0 | overloaded x2
+        public void get_Span(){} // RVA: 0x3F189D0
+        public void Pin(){} // RVA: 0x3F18DD0
+        public void ToArray(){} // RVA: 0x3F191E0
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3F0FEB0
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+        public void GetObjectStartLength(){} // RVA: 0x3F0FF80
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x3
+        public void op_Implicit(){} // RVA: 0x3C21520
+        public void get_Empty(){} // RVA: 0x1529E90
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void get_IsEmpty(){} // RVA: 0x3F0EF90
+        public void ToString(){} // RVA: 0x3F163C0
+        public void Slice(){} // RVA: 0x3F16760 | overloaded x2
+        public void get_Span(){} // RVA: 0x3F16800
+        public void ToArray(){} // RVA: 0x3F16E90
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3C2C010
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+        public void GetObjectStartLength(){} // RVA: 0x3F0FF80
+    }
+
+    public class ReadOnlyMemory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+    }
+
     public class ReadOnlySpan`1
     {
+        public System.ByReference`1<T> _pointer;
+        public int _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2BAA0 | overloaded x4
         public void get_Item(){} // RVA: 0x1BCC0
@@ -77,6 +235,671 @@ namespace ThirdParty.DotNet.System
         public void get_Empty(){} // RVA: 0x283FA0
     }
 
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<byte> HasValue; // 0x10
+        public int Value; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F37E40
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F37E60
+        public void TryCopyTo(){} // RVA: 0x3F37F10
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F3F970
+        public void Slice(){} // RVA: 0x5BEF90 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F38290
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<char> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F40920
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F40940
+        public void TryCopyTo(){} // RVA: 0x3F409F0
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F40AA0
+        public void Slice(){} // RVA: 0x3F40D70 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F40DE0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.Pinnable`1<T> RequiresDynamicMemberAccessors;
+        public UIntPtr _byteOffset;
+        public int _length;
+
+        // ── Methods ──
+        public void get_Length(){} // RVA: 0xD840
+        public void get_IsEmpty(){} // RVA: 0xDBE0
+        public void Equals(){} // RVA: 0xDE40
+        public void GetHashCode(){} // RVA: 0xD840
+        public void op_Implicit(){} // RVA: 0x283FA0
+        public void get_Empty(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x283FA0 | overloaded x4
+        public void get_Item(){} // RVA: 0x1BCC0
+        public void GetPinnableReference(){} // RVA: 0xCD60
+        public void CopyTo(){} // RVA: 0x283FA0
+        public void TryCopyTo(){} // RVA: 0x283FA0
+        public void ToString(){} // RVA: 0xCD60
+        public void Slice(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToArray(){} // RVA: 0xCD60
+        public void DangerousGetPinnableReference(){} // RVA: 0xCD60
+        public void get_Pinnable(){} // RVA: 0xCD60
+        public void get_ByteOffset(){} // RVA: 0xCD60
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.Pinnable`1<byte> _pinnable; // 0x10
+        public UIntPtr _byteOffset; // 0x18
+        public int _length; // 0x20
+
+        // ── Methods ──
+        public void get_Length(){} // RVA: 0x32A5C0
+        public void get_IsEmpty(){} // RVA: 0x355E190
+        public void Equals(){} // RVA: 0x3F3EBD0
+        public void GetHashCode(){} // RVA: 0x3F3EC40
+        public void op_Implicit(){} // RVA: 0x3F3ECB0
+        public void get_Empty(){} // RVA: 0x3F3ED10
+        public void .ctor(){} // RVA: 0x3F3F0A0 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F3F100
+        public void GetPinnableReference(){} // RVA: 0x3F3F130
+        public void CopyTo(){} // RVA: 0x3F3F160
+        public void TryCopyTo(){} // RVA: 0x3F3F1C0
+        public void ToString(){} // RVA: 0x3F3F2D0
+        public void Slice(){} // RVA: 0x3F3F6C0 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F3F770
+        public void DangerousGetPinnableReference(){} // RVA: 0x3F3F950
+        public void get_Pinnable(){} // RVA: 0x1AD4690
+        public void get_ByteOffset(){} // RVA: 0x19689C0
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<UnityEngine.GameObject[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<int> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F369C0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F369E0
+        public void TryCopyTo(){} // RVA: 0x3F36A90
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F42DC0
+        public void Slice(){} // RVA: 0x3F36E10 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F36E80
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÍÏÏÍÎÎÌÎÏÎÌÌÍÍÍÌÏÍÎÌÍÎ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.ValueTuple`2<int,ÌÍÏÏÍÎÎÌÎÏÎÌÌÍÍÍÌÏÍÎÌÍÎ>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÏÍÏÎÌÌÏÏÎÎÏÎÎÌÏÎÏÍÌÌÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<string> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<string[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÍÏÎÏÎÎÏÍÎÏÏÎÌÎÎÌÍÏÌÎÏÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ZLogger.InterpolatedStringParameter> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.TimeZoneInfo> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.SDKBase.VRC_SceneDescriptor> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<UnityEngine.Object> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<object> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÎÏÍÏÌÎÎÎÌÎÍÎÏÍÍÏÎÍÍÎÍÌ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<Discord.Sdk.UserHandle> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<UnityEngine.Transform> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÍÌÍÍÏÌÌÍÎÍÏÍÏÏÎÌÏÏÏÍÎ> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÎÌÎÏÍÎÎÍÌÌÎÌÌÌÌÏÎÏÍÌÎÌ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<EmojiParticleSystem> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiPurchase> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÍÎÏÌÎÎÌÏÏÎÌÎÍÍÌÍÍÍÏÌÌÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÌÏÌÎÌÏÎÌÍÏÍÌÌÌÎÍÏÏÏÍÏÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiInventoryItem> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÎÎÌÏÌÍÏÏÍÏÎÏÌÏÌÏÌÍÏÌÌÏÌ> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,ÏÏÎÏÏÎÏÌÏÎÍÏÍÎÏÎÌÌÌÎÎÎÍ>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<UnityEngine.GameObject> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÌÏÎÌÏÌÏÌÏÌÌÌÌÌÏÏÏÎÍÎÏÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration>>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.Networking.IVRC_FlatBufferSerializer> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.Networking.IVRC_FlatBufferSerializer[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<UnityEngine.Material> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<0x659C0BA8> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<Transmtn.DTO.Notifications.Notification> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.SortedSet`1<...>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<Transmtn.DTO.Notifications.Notification[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÌÍÌÎÌÎÌÌÌÍÏÏÎÎÌÏÏÍÍÍÎÎ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ComponentInfoT> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ComponentInfoT[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,int>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiPlayerModeration> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiLicense> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,System.Collections.Generic.List`1<VRC.Core.ApiModeration>>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÌÏÌÍÏÌÌÍÌÌÍÌÎÍÌÍÎÏÌÌÌÎÏ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>>> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<int[]> <5; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<System.Type> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.Pinnable`1<System.Reflection.PortableExecutable.SectionHeader> _pinnable; // 0x10
+        public UIntPtr _byteOffset; // 0x18
+        public int _length; // 0x20
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiVRChatSubscription> _pointer; // 0x10
+        public int _length; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1CC5B50 | overloaded x4
+        public void get_Item(){} // RVA: 0x3F33EB0
+        public void GetPinnableReference(){} // RVA: 0x3F337A0
+        public void CopyTo(){} // RVA: 0x3F337B0
+        public void TryCopyTo(){} // RVA: 0x3F33840
+        public void op_Equality(){} // RVA: 0x3F338D0
+        public void ToString(){} // RVA: 0x3F45AC0
+        public void Slice(){} // RVA: 0x3F34300 | overloaded x2
+        public void ToArray(){} // RVA: 0x3F35CC0
+        public void get_Length(){} // RVA: 0x1EA9890
+        public void get_IsEmpty(){} // RVA: 0x34B3520
+        public void Equals(){} // RVA: 0x3F33D30
+        public void GetHashCode(){} // RVA: 0x3F33D80
+        public void op_Implicit(){} // RVA: 0x3F33DD0
+        public void get_Empty(){} // RVA: 0x1529E90
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<VRC.Core.ApiUserIcon> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<uint> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
+    public class ReadOnlySpan`1
+    {
+        public System.ByReference`1<uint> _pointer; // 0x10
+        public int _length; // 0x18
+    }
+
     public class ReflectionOnlyType
     {
         // ── Methods ──
@@ -86,6 +909,8 @@ namespace ThirdParty.DotNet.System
 
     public class ResolveEventArgs
     {
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EB1070 | overloaded x2
         public void get_Name(){} // RVA: 0x2F8380
@@ -104,6 +929,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeFieldHandle
     {
+        public UIntPtr value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F0B4D0 | overloaded x2
         public void get_Value(){} // RVA: 0x1AD4690
@@ -117,6 +944,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeMethodHandle
     {
+        public UIntPtr value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F0B9F0 | overloaded x2
         public void get_Value(){} // RVA: 0x1AD4690
@@ -129,6 +958,28 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeType
     {
+        public System.RuntimeType ValueType;
+        public System.RuntimeType EnumType; // 0x8
+        public System.RuntimeType ObjectType; // 0x10
+        public System.RuntimeType StringType; // 0x18
+        public System.RuntimeType DelegateType; // 0x20
+        public System.Type[] s_SICtorParamTypes; // 0x28
+        public System.Func`3<System.Type,System.Type[],System.Type> MakeTypeBuilderInstantiation; // 0x30
+        public 0x657F3700 MemberBindingMask;
+        public 0x657F3700 InvocationMask;
+        public 0x657F3700 BinderNonCreateInstance;
+        public 0x657F3700 BinderGetSetProperty;
+        public 0x657F3700 BinderSetInvokeProperty;
+        public 0x657F3700 BinderGetSetField;
+        public 0x657F3700 BinderSetInvokeField;
+        public 0x657F3700 BinderNonFieldGetSet;
+        public 0x657F3700 ClassicBindingMask;
+        public System.RuntimeType s_typedRef; // 0x38
+        public System.MonoTypeInfo type_info; // 0x18
+        public object GenericCache; // 0x20
+        public System.Reflection.RuntimeConstructorInfo m_serializationCtor; // 0x28
+        public int GenericParameterCountAny;
+
         // ── Methods ──
         public void GetType(){} // RVA: 0x5EE8800
         public void ThrowIfTypeNeverValidGenericArgument(){} // RVA: 0x5EE8880
@@ -273,6 +1124,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeTypeHandle
     {
+        public UIntPtr value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F0C080 | overloaded x3
         public void get_Value(){} // RVA: 0x1AD4690

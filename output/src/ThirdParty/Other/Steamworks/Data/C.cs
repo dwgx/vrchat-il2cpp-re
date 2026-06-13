@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class ChangeNumOpenSlotsCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB8C0
         public void .cctor(){} // RVA: 0x20CB8D0
@@ -14,6 +16,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class CheckFileSignature_t
     {
+        public 0x659B1848 CheckFileSignature; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C9D30
         public void .cctor(){} // RVA: 0x20C9D40
@@ -21,6 +25,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ClanOfficerListResponse_t
     {
+        public ulong SteamIDClan; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C86E0
         public void .cctor(){} // RVA: 0x20C86F0
@@ -28,6 +34,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ClientGameServerDeny_t
     {
+        public uint AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C72B0
         public void .cctor(){} // RVA: 0x20C72C0
@@ -35,6 +43,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ComputeNewPlayerCompatibilityResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D50B0
         public void .cctor(){} // RVA: 0x20D50C0
@@ -42,6 +52,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class Connection
     {
+        public uint <Id>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x19689B0
         public void Equals(){} // RVA: 0x20D64A0 | overloaded x2
@@ -53,12 +65,16 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ConnectionInfo
     {
+        public Steamworks.Data.NetIdentity identity; // 0x10
+
         // ── Methods ──
         public void get_State(){} // RVA: 0x20D67F0
     }
 
     public class CreateBeaconCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB6A0
         public void .cctor(){} // RVA: 0x20CB6B0
@@ -66,6 +82,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class CreateItemResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0980
         public void .cctor(){} // RVA: 0x20D0990

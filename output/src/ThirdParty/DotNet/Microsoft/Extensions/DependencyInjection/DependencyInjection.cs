@@ -38,6 +38,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class FromKeyedServicesAttribute
     {
+        public object <Key>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x2F8380
     }
@@ -70,6 +72,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class KeyedService
     {
+        public object <AnyKey>k__BackingField;
+
         // ── Methods ──
         public void get_AnyKey(){} // RVA: 0x5B898B0
         public void .cctor(){} // RVA: 0x5B89910
@@ -90,6 +94,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceCollection
     {
+        public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> _descriptors; // 0x10
+        public bool _isReadOnly; // 0x18
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x5B89A00
         public void get_IsReadOnly(){} // RVA: 0x2F84E0
@@ -125,6 +132,13 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceDescriptor
     {
+        public 0x659FB3B0 <Lifetime>k__BackingField; // 0x10
+        public object <ServiceKey>k__BackingField; // 0x18
+        public System.Type <ServiceType>k__BackingField; // 0x20
+        public System.Type _implementationType; // 0x28
+        public object _implementationInstance; // 0x30
+        public object _implementationFactory; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5B8AB20 | overloaded x6
         public void get_Lifetime(){} // RVA: 0x32A5C0
@@ -154,6 +168,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProvider
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator _callSiteValidator; // 0x10
+        public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> _createServiceAccessor; // 0x18
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine _engine; // 0x20
+        public bool _disposed; // 0x28
+        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> _serviceAccessors; // 0x30
+
         // ── Methods ──
         public void get_CallSiteFactory(){} // RVA: 0x4976A0
         public void get_Root(){} // RVA: 0x35A740
@@ -178,8 +198,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProviderOptions
     {
-        public object CallSiteFactory;
-        public object Root;
+        public Microsoft.Extensions.DependencyInjection.ServiceProviderOptions CallSiteFactory;
+        public bool Root; // 0x10
 
         // ── Methods ──
         public void get_ValidateScopes(){} // RVA: 0x3A75E0

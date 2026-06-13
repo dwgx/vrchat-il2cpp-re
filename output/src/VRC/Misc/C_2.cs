@@ -8,6 +8,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÌÏÌÍÎÌÌÍÏÌÌÎÍÏÍÏÏÍÌÍ</summary>
     public class ChallengeUpdateEventSiblingSibSibling_A4ED
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÌÏÌÌÏÎÍÌÌÎÎÌÎÎÏÏÏÌÍÍÏÌ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÎÍÎÍÎÎÏÏÌÏÍÍÏÍÍÎÎÎÎÏÏÌ>k__BackingField; // 0x18
+        public 0x65815200 <ÍÎÍÏÍÍÎÍÍÏÎÌÏÎÏÍÎÍÏÌÎÌÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
@@ -27,7 +31,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÌÎÏÍÎÎÌÎÌÎÍÍÏÎÏÎÍ</summary>
     public class ChallengeUpdateEventSiblingSibling_B60B
     {
-        public object _b60B;
+        public System.WeakReference`1<ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ> _b60B; // 0x10
 
         // ── Methods ──
         public void set_Options(){} // RVA: 0x30B890
@@ -45,6 +49,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÍÌÍÎÏÌÌÎÌÍÏÍÏÎÌÏÎÎÌÌ</summary>
     public class ChallengeUpdateEventSibling_71D0
     {
+        public bool <ÎÌÎÌÎÌÌÎÌÌÌÌÍÎÏÎÎÍÌÎÍÎÍ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÌÎÍÎÍÎÎÏÏÌÏÍÍÏÍÍÎÎÎÎÏÏÌ>k__BackingField; // 0x18
+        public float <ÎÏÎÌÎÌÎÏÍÍÏÏÍÎÌÎÎÏÎÏÎÎÌ>k__BackingField; // 0x40
+        public int <ÍÌÏÍÏÎÎÍÎÍÏÎÍÎÍÎÏÌÎÎÍÎÌ>k__BackingField; // 0x44
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D03F0
         public void Initialize(){} // RVA: 0x7D0490
@@ -111,6 +120,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÌÏÏÎÍÍÌÌÍÏÌÍÌÍÎÎÌÍÍÌ</summary>
     public class CloneSiblingSiblingSibling_1783
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void ReadParticleTextureSheetAnimationModuleState(){} // RVA: 0xC3BA10
@@ -211,6 +222,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÏÌÎÌÍÎÌÏÌÏÌÌÎÌÍÌÏÎÏÎ</summary>
     public class CloneSiblingSiblingSibling_9C73
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x10
+        public ÍÍÌÍÍÍÍÏÌÎÎÌÌÍÍÏÏÌÌÏÎÍÌ ÏÏÎÌÍÌÏÏÎÏÏÍÍÎÌÍÍÎÎÍÌÏÎ; // 0x18
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void .ctor(){} // RVA: 0xC35BC0
@@ -232,6 +246,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÎÌÍÍÌÌÏÎÏÎÍÎÌÏÍÎÏÎÌÌÏ</summary>
     public class CloneSiblingSiblingSibling_E16F
     {
+        public System.Collections.Generic.Dictionary`2<ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ,ÏÏÏÎÍÏÌÌÎÌÌÎÏÎÌÏÌÌÍÍÍÍÍ> ÍÎÌÎÍÌÍÏÌÍÏÏÏÌÌÌÍÍÏÌÎÌÏ; // 0x20
+
         // ── Methods ──
         public void GetPositionAndRotation(){} // RVA: 0x1B47A90
         public void GetPositionAndRotation_41EB9DB35DF8(){} // RVA: 0x1B484D0
@@ -320,6 +336,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÍÌÍÌÎÍÌÎÏÏÏÌÏÏÌÏÏÍÍ</summary>
     public class CloneSiblingSibling_39C1
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x10
+        public ÍÍÌÍÍÍÍÏÌÎÎÌÌÍÍÏÏÌÌÏÎÍÌ ÏÏÎÌÍÌÏÏÎÏÏÍÍÎÌÍÍÎÎÍÌÏÎ; // 0x18
+        public bool ÎÍÎÌÍÎÎÌÎÍÎÎÎÍÍÏÎÏÍÍÍÌÌ; // 0x20
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void .ctor(){} // RVA: 0xC38DF0
@@ -470,6 +490,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÌÌÎÍÎÍÏÍÏÏÎÌÏÎÌÏÌÏÏ</summary>
     public class CloneSiblingSibling_7401
     {
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ ÎÏÌÎÍÎÍÎÎÌÏÏÍÌÎÌÍÍÎÌÏÎÏ;
+        public bool <ÎÏÌÏÏÏÍÏÍÏÍÌÍÌÍÏÌÍÍÌÌÍÏ>k__BackingField;
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0xDBE0
         public void MarkLayoutForRebuild(){} // RVA: 0x25130
@@ -485,6 +508,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÌÌÎÍÎÍÏÍÏÏÎÌÏÎÌÏÌÏÏ</summary>
     public class CloneSiblingSibling_7401
     {
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ ÎÏÌÎÍÎÍÎÎÌÏÏÍÌÎÌÍÍÎÌÏÎÏ; // 0x10
+        public bool <ÎÏÌÏÏÏÍÏÍÏÍÌÍÌÍÏÌÍÍÌÌÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
@@ -500,6 +526,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÌÌÎÍÎÍÏÍÏÏÎÌÏÎÌÏÌÏÏ</summary>
     public class CloneSiblingSibling_7401
     {
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ ÎÏÌÎÍÎÍÎÎÌÏÏÍÌÎÌÍÍÎÌÏÎÏ; // 0x10
+        public bool <ÎÏÌÏÏÏÍÏÍÏÍÌÍÌÍÏÌÍÍÌÌÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
@@ -515,6 +544,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÌÌÎÍÎÍÏÍÏÏÎÌÏÎÌÏÌÏÏ</summary>
     public class CloneSiblingSibling_7401
     {
+        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ ÎÏÌÎÍÎÍÎÎÌÏÏÍÌÎÌÍÍÎÌÏÎÏ; // 0x10
+        public bool <ÎÏÌÏÏÏÍÏÍÏÍÌÍÌÍÏÌÍÍÌÌÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
@@ -530,6 +562,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÏÎÍÎÍÏÌÎÎÏÍÏÍÏÍÌÌÎÍÎ</summary>
     public class CloneSiblingSibling_7B30
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ>> ÍÏÍÏÏÎÏÍÍÏÎÍÌÏÌÏÎÍÎÌÍÎÎ; // 0x20
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x1E08EC0
@@ -543,6 +577,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÎÌÌÏÏÍÌÏÌÎÍÎÌÏÌÏÎÏÍÏ</summary>
     public class CloneSiblingSibling_870E
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.IList`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ>> ÌÎÎÍÍÍÍÏÎÍÍÌÎÎÎÏÍÎÏÌÌÌÌ; // 0x20
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0xC93A30
@@ -555,6 +591,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÌÎÌÌÌÌÏÏÌÏÏÍÍÌÎÎÎÏÎÍ</summary>
     public class CloneSiblingSibling_A9A5
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBFA3A0
         public void Initialize(){} // RVA: 0xBFA4C0
@@ -590,6 +628,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÍÎÏÌÌÎÍÍÍÎÏÍÍÌÍÌÏÍÍÏ</summary>
     public class CloneSiblingSibling_EA11
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void ConfigureParticleMainModule(){} // RVA: 0xC3E1F0
         public void .ctor(){} // RVA: 0xC3E490
@@ -625,6 +665,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÍÍÏÌÏÎÎÏÎÎÏÌÏÎÌÎÍ</summary>
     public class Clone_3177
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x10
+        public int <ÍÍÌÍÎÏÎÏÏÏÌÎÍÌÌÍÎÎÍÏÏÏÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Priority(){} // RVA: 0x6374E0
         public void get_outputFaceTransformationMatrixes(){} // RVA: 0x4FDE20
@@ -713,6 +756,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÏÍÌÍÍÎÏÏÎÎÌÎÏÍÏÍÎÌÏ</summary>
     public class ComponentHandler_0A3C
     {
+        public bool <ÎÎÎÎÌÍÍÌÍÎÍÌÎÏÎÍÏÍÎÍÌÏÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0xFEE990
         public void FixedUpdate(){} // RVA: 0x3CB9D0
@@ -731,6 +776,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÍÎÏÏÍÌÍÎÏÏÎÌÏÌÍÍÍÎÍ</summary>
     public class ComponentHandler_12F7
     {
+        public ÏÎÌÍÎÌÍÏÍÍÏÌÍÍÎÏÏÍÌÏÍÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2076B50
         public void Process(){} // RVA: 0x2076D20
@@ -739,7 +786,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÎÎÍÏÏÎÎÍÏÎÏÌÌÍÎÏÏÏÍÏ</summary>
     public class ComponentHandler_256F
     {
-        public object _256F;
+        public ÌÍÏÌÏÎÎÎÏÎÍÎÎÏÍÎÏÎÌÎÎÏÌ _256F;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE4510
@@ -749,6 +796,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÎÏÏÍÌÏÍÏÏÌÍÍÍÎÌÍÍÍÍ</summary>
     public class ComponentHandler_3EF5
     {
+        public ÎÌÎÏÍÎÎÏÌÏÎÌÎÎÌÍÍÎÏÍÍÌÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F7C900
         public void Process(){} // RVA: 0x1F7CAD0
@@ -773,6 +822,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÍÍÏÏÏÏÎÌÍÎÌÎÌÍÍÍÎÍÏÍ</summary>
     public class ComponentHandler_44F8
     {
+        public 0x65802538 <ÌÍÍÍÌÏÌÌÏÌÏÌÍÏÎÏÎÍÏÌÎÌÏ>k__BackingField; // 0x10
+        public bool <ÍÏÌÎÎÎÍÎÍÍÌÌÎÌÌÌÏÌÏÏÍÍÌ>k__BackingField; // 0x14
+        public bool <ÌÎÍÍÎÍÌÏÎÍÎÌÎÏÎÍÏÍÌÏÏÎÎ>k__BackingField; // 0x15
+        public uint <ÌÌÌÍÌÍÎÌÌÍÍÎÏÏÌÏÍÎÌÏÎÏÌ>k__BackingField; // 0x18
+        public uint <ÏÏÎÌÎÌÍÌÏÏÌÏÍÎÌÌÌÎÍÍÏÎÌ>k__BackingField; // 0x1C
+        public uint <ÌÌÍÏÎÎÏÎÍÎÏÎÌÏÎÌÏÏÍÏÏÎÍ>k__BackingField; // 0x20
+        public float <ÌÏÏÎÎÎÌÌÌÌÍÏÍÌÎÌÍÎÌÌÎÌÌ>k__BackingField; // 0x24
+        public float <ÏÍÍÍÌÎÌÏÎÎÎÍÎÏÏÍÍÍÎÌÍÎÌ>k__BackingField; // 0x28
+        public float <ÍÎÏÌÏÍÌÍÏÍÍÌÎÍÍÎÏÌÏÎÎÏÏ>k__BackingField; // 0x2C
+        public float <ÍÏÏÏÍÌÏÏÍÏÏÎÏÏÍÌÍÍÎÌÍÌÌ>k__BackingField; // 0x30
+        public float <ÍÍÎÍÍÌÍÏÌÍÏÏÏÍÎÏÍÏÍÏÏÎÍ>k__BackingField; // 0x34
+        public float <ÏÏÌÎÎÌÏÎÌÎÏÎÏÍÍÎÎÍÏÏÍÏÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void set_W(){} // RVA: 0x3AA580
@@ -810,6 +872,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÍÏÍÏÏÎÏÎÎÏÌÌÏÎÌÍÎÍÏÌ</summary>
     public class ComponentHandler_44FF
     {
+        public ÌÍÎÍÌÍÌÌÌÍÌÍÍÎÌÎÌÎÎÏÌÍÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2076EF0
         public void Process(){} // RVA: 0x20770C0
@@ -818,7 +882,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÏÍÎÍÍÌÍÏÍÌÌÎÏÏÏÍÏÎÍ</summary>
     public class ComponentHandler_48F2
     {
-        public object _48F2;
+        public ÍÌÍÍÌÎÎÍÍÌÍÌÎÌÍÌÎÏÎÎÌÎÏ _48F2;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F34750
@@ -828,6 +892,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÎÎÏÏÍÏÍÏÎÎÏÌÏÌÏÍÎÎÎÌ</summary>
     public class ComponentHandler_5BFA
     {
+        public float ÏÍÎÎÌÏÌÏÌÌÎÌÌÌÌÎÍÍÎÎÍÎÌ;
+
         // ── Methods ──
         public void get_ManualAudioChannelCount(){} // RVA: 0x1CAC8F0
         public void CreateContext(){} // RVA: 0x8B29430
@@ -942,7 +1008,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÌÍÌÏÏÎÏÎÌÎÏÎÎÍÎÍÌÏÏÌ</summary>
     public class ComponentHandler_9628
     {
-        public object _9628;
+        public ÌÌÍÏÏÌÍÏÍÏÏÏÏÌÎÍÏÎÍÏÍÏÎ _9628;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F6EE10
@@ -952,7 +1018,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÎÌÌÌÌÍÌÏÌÏÌÎÎÍÌÎÍÌÍ</summary>
     public class ComponentHandler_9BE7
     {
-        public object _9BE7;
+        public ÌÍÎÏÌÌÌÎÍÌÍÎÍÌÏÏÎÍÌÌÎÍÏ _9BE7;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x20A15F0
@@ -962,6 +1028,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÌÎÌÎÎÌÏÏÌÏÏÏÎÏÍÏÏÌÎÍ</summary>
     public class ComponentHandler_ABF2
     {
+        public bool _doTestMode; // 0x20
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x13FF610
         public void OnDisable(){} // RVA: 0x13FFAB0
@@ -1062,7 +1130,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÎÏÏÌÏÌÏÏÎÌÏÎÏÏÎÎÍÍÌÎ</summary>
     public class ComponentHandler_F204
     {
-        public object _f204;
+        public ÍÎÎÏÏÌÎÍÎÎÏÍÍÏÏÌÍÍÌÎÍÍÏ _f204;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FA27B0
@@ -1072,6 +1140,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÍÍÎÌÍÍÏÏÍÌÎÎÏÏÏÎÏÎÍÏ</summary>
     public class ComponentObjectHandler_B2B5
     {
+        public ÏÏÍÌÎÎÌÎÏÌÎÏÏÍÌÏÏÏÌÎÍÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F1F2D0
         public void Process(){} // RVA: 0x1F1F4A0
@@ -1100,6 +1170,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÌÍÎÎÏÏÎÎÏÏÏÍÌÏÎÎÎÍÏÍ</summary>
     public class CoroutineInvokingGuiComponent_21BB
     {
+        public float ÌÏÌÌÏÏÎÍÌÍÍÎÍÏÏÍÎÌÌÍÍÏÌ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x19C5650
         public void Start(){} // RVA: 0x19C5680
@@ -1235,6 +1307,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÏÍÎÍÍÏÌÌÌÎÏÍÏÏÌÎÏÌÏ</summary>
     public class CreatePropertiesCreateContractSibling_AC11
     {
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ ContentList;
+
         // ── Methods ──
         public void get_SameFunc(){} // RVA: 0xCD60
         public void set_relatedTarget(){} // RVA: 0x24B10
@@ -1259,6 +1333,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÏÍÎÍÍÏÌÌÌÎÏÍÏÏÌÎÏÌÏ</summary>
     public class CreatePropertiesCreateContractSibling_AC11
     {
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ ContentList; // 0x20
+
         // ── Methods ──
         public void get_SameFunc(){} // RVA: 0x31C010
         public void set_relatedTarget(){} // RVA: 0x463060
@@ -1283,6 +1359,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÏÍÎÍÍÏÌÌÌÎÏÍÏÏÌÎÏÌÏ</summary>
     public class CreatePropertiesCreateContractSibling_AC11
     {
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ ContentList; // 0x20
+
         // ── Methods ──
         public void get_SameFunc(){} // RVA: 0x31C010
         public void set_relatedTarget(){} // RVA: 0x463060
@@ -1307,6 +1385,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÏÍÎÍÍÏÌÌÌÎÏÍÏÏÌÎÏÌÏ</summary>
     public class CreatePropertiesCreateContractSibling_AC11
     {
+        public ÏÎÍÌÏÎÎÏÎÏÌÍÍÍÏÎÎÌÌÌÎÌÍ ContentList; // 0x20
+
         // ── Methods ──
         public void get_SameFunc(){} // RVA: 0x31C010
         public void set_relatedTarget(){} // RVA: 0x463060
@@ -1331,6 +1411,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage;
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator;
+        public UnityEngine.GameObject loadingPanel;
+        public UnityEngine.GameObject errorPanel;
+        public T <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField;
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x283FA0
@@ -1352,6 +1438,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1373,6 +1465,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1394,6 +1492,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1415,6 +1519,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1436,6 +1546,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1457,6 +1573,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1478,6 +1600,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ</summary>
     public class Ctor7BoxSecondComponent_EB90
     {
+        public UnityEngine.UI.RawImage previewImage; // 0x20
+        public ÍÎÎÌÌÌÌÎÌÏÏÏÌÏÏÍÎÎÍÍÏÎÎ rotator; // 0x28
+        public UnityEngine.GameObject loadingPanel; // 0x30
+        public UnityEngine.GameObject errorPanel; // 0x38
+        public ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ <ÏÌÎÍÌÏÍÍÎÎÎÌÌÏÏÎÎÍÌÏÏÍÏ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -1581,6 +1709,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÍÎÌÏÌÏÌÌÏÍÏÍÏÌÏÍÌÏÏÌ</summary>
     public class ctorDerivedSiblingSiblingSibling_022A
     {
+        public float ÌÎÍÏÎÏÎÌÎÌÌÏÌÌÌÌÎÌÏÏÎÍÍ;
+        public string ÌÌÏÏÎÍÍÍÎÌÏÎÍÌÎÌÌÌÏÌÏÎÏ;
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x90D7E30
         public void InterpolatePathCorner(){} // RVA: 0x90D7F40
@@ -1648,6 +1779,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÏÎÏÌÌÏÎÎÍÍÏÍÏÌÏÌÎÏÌÎ</summary>
     public class ctorDerivedSiblingSiblingSibling_2B77
     {
+        public UnityEngine.Canvas ÏÍÍÏÌÏÍÌÌÎÌÎÍÏÌÏÎÏÍÍÌÍÌ; // 0x80
+        public UnityEngine.CanvasGroup ÍÏÌÍÍÏÏÎÏÎÍÌÎÏÏÌÏÍÎÏÍÍÎ; // 0x88
+        public UnityEngine.GameObject ÌÎÍÍÎÌÏÌÌÏÎÎÌÍÌÍÏÏÏÍÏÍÍ; // 0x90
+        public UnityEngine.GameObject ÎÍÏÌÌÏÍÍÎÌÏÎÍÌÍÏÏÌÏÌÏÎÌ; // 0x98
+
         // ── Methods ──
         public void ToStringEnd(){} // RVA: 0x8C07A10
         public void ToStringEnd_D2A0F1809FA1(){} // RVA: 0x8C07CD0
@@ -1716,6 +1852,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÎÍÎÏÎÏÍÎÍÌÌÌÍÎÌÌÏÎÏÎ</summary>
     public class ctorDerivedSiblingSiblingSibling_56CD
     {
+        public int ÍÌÎÌÏÏÍÎÏÍÌÍÍÎÏÌÎÏÏÌÏÍÎ;
+
         // ── Methods ──
         public void GetAutoConfigureConnectedAnchor(){} // RVA: 0x8B9E9B0
         public void GetAutoConfigureConnectedAnchor_6CEDD66E6600(){} // RVA: 0x8B9E9C0
@@ -1804,6 +1942,38 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÍÎÌÏÍÎÍÌÏÎÎÌÎÍÌÍÎÌÏ</summary>
     public class ctorDerivedSiblingSibling_04AC
     {
+        public string ÌÌÎÍÏÎÍÌÎÏÌÌÍÎÌÎÎÌÎÏÌÌÌ; // 0x20
+        public bool <ÌÍÍÍÏÍÏÎÍÏÏÌÏÌÏÍÍÌÍÎÎÏÎ>k__BackingField; // 0x28
+        public bool _isModal; // 0x29
+        public bool _isTransparent; // 0x2A
+        public bool _clearContextWhenClosed; // 0x2B
+        public ÌÏÍÌÌÌÎÍÌÍÎÍÍÎÍÍÌÌÌÍÌÏÎ ÌÍÌÌÏÌÌÍÏÍÏÏÏÍÍÏÍÍÎÌÎÏÏ; // 0x30
+        public bool ÍÎÎÎÍÏÌÎÏÌÍÎÍÍÎÌÎÍÎÎÎÍÏ; // 0x38
+        public ÌÏÍÎÎÎÎÏÌÍÎÌÍÌÎÌÏÍÏÍÏÍÍ ÎÏÎÌÌÎÎÌÏÍÌÏÌÍÏÍÌÏÌÏÎÍÍ; // 0x40
+        public bool ÏÏÎÌÍÏÎÍÍÎÍÍÍÏÍÏÏÎÎÏÍÏÌ; // 0x48
+        public ÎÌÏÌÎÌÌÎÏÌÏÏÏÍÏÌÌÌÏÏÌÌÍ ÎÎÎÌÏÏÍÍÏÌÍÍÍÌÌÌÌÎÏÏÌÌÎ; // 0x50
+        public UnityEngine.RectTransform <ÍÍÌÌÍÏÏÍÌÎÌÌÌÏÏÏÏÌÍÏÍÎÍ>k__BackingField; // 0x58
+        public UnityEngine.CanvasGroup <ÎÎÏÏÌÏÌÎÏÌÎÏÍÌÏÍÌÎÌÍÌÌÌ>k__BackingField; // 0x60
+        public float ÎÎÌÌÎÌÍÌÏÏÏÍÏÎÍÎÎÎÍÌÌÎÏ;
+        public System.Action`1<VRC.Localization.LocalizableString> ÎÍÎÎÏÍÎÏÏÍÏÎÍÎÍÏÏÌÎÏÍÎÏ; // 0x68
+        public System.Action`2<bool,0x6594BAE8> ÎÏÏÍÏÌÏÍÍÏÏÎÍÎÏÍÌÏÍÏÌÎÏ; // 0x70
+        public System.Action`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> ÌÍÎÎÌÏÌÍÏÍÏÌÏÌÍÌÍÏÎÌÎÍÏ; // 0x78
+        public System.Action ÌÌÌÎÎÍÏÍÎÌÏÎÎÍÎÎÌÌÎÍÏÏÍ; // 0x80
+        public System.Action ÌÎÎÏÏÍÍÎÍÏÌÎÌÎÍÏÏÍÍÏÍÎÌ; // 0x88
+        public System.Action`1<bool> ÍÎÎÎÎÍÏÏÌÏÎÍÍÌÌÎÍÎÍÏÎÏÎ; // 0x90
+        public System.Action ÌÌÍÏÎÏÏÌÏÎÎÎÍÎÍÏÏÏÌÌÎÍÍ; // 0x98
+        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÏÌÎÍÌÏÌÎÏÍÏÍÏÎÍÌÌÍÏÌÍÎÌ>k__BackingField; // 0xA0
+        public System.Collections.Generic.Dictionary`2<UnityEngine.Behaviour,bool> ÍÎÎÍÍÍÎÌÎÍÏÍÌÌÏÍÎÍÎÍÌÎÏ; // 0xA8
+        public System.Collections.Generic.List`1<ÏÎÏÌÏÍÏÎÏÍÍÌÏÍÌÏÏÍÍÎÌÌÎ> ÍÍÎÎÌÎÍÎÏÏÌÎÍÏÍÍÏÏÎÎÌÏÍ; // 0xB0
+        public System.Collections.Generic.List`1<ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ> ÏÏÍÍÏÍÏÏÎÎÏÏÏÏÌÍÌÎÎÌÍÍÌ; // 0xB8
+        public bool ÌÍÏÎÎÏÍÍÎÌÌÌÍÎÏÎÏÌÍÌÎÏÌ; // 0xC0
+        public System.Collections.Generic.List`1<ÏÍÍÏÌÏÎÍÌÌÎÏÏÌÍÎÌÍÏÌÎÍÏ> ÏÍÏÍÌÏÌÏÌÏÍÌÎÎÌÎÌÍÎÎÌÌÌ; // 0xC8
+        public System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> ÎÎÍÌÏÎÎÏÎÌÏÏÎÏÏÏÏÍÍÍÏÏÎ; // 0xD0
+        public System.Collections.Generic.List`1<ÍÌÍÌÎÍÎÎÏÌÏÏÏÍÍÌÎÎÌÏÍÌÏ> ÍÏÌÌÏÎÎÏÏÍÌÍÏÌÍÏÍÍÎÏÏÏÍ; // 0xD8
+        public System.Collections.Generic.List`1<UnityEngine.Canvas> ÏÏÍÏÎÍÏÌÏÌÏÏÎÍÌÎÍÌÍÏÎÎÍ; // 0xE0
+        public System.Collections.Generic.List`1<UnityEngine.UI.GraphicRaycaster> ÍÎÏÎÏÍÏÍÍÌÏÍÏÌÎÏÌÎÏÎÏÍÍ; // 0xE8
+        public System.Collections.Generic.List`1<UnityEngine.Behaviour> ÏÍÌÎÍÏÍÏÎÍÍÍÎÍÍÌÎÏÌÎÍÏÎ; // 0xF0
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x2DD310 | overloaded x2
         public void GetPassCount(){} // RVA: 0x8C380A0
@@ -1924,6 +2094,25 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÎÍÎÍÎÏÎÎÍÍÌÎÍÍÎÏÎÎÌÌ</summary>
     public class ctorDerivedSiblingSibling_4FAB
     {
+        public System.Action`2<bool,0x6594BAE8> ÎÏÏÍÏÌÏÍÍÏÏÎÍÎÏÍÌÏÍÏÌÎÏ; // 0x10
+        public System.Action`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> ÌÍÎÎÌÏÌÍÏÍÏÌÏÌÍÌÍÏÎÌÎÍÏ; // 0x18
+        public ÌÏÌÍÌÎÏÏÌÍÎÌÍÎÏÎÏÍÍÏÍÍÏ <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x20
+        public ÎÏÎÏÌÎÎÌÌÍÌÎÌÎÌÎÍÎÏÏÍÍÎ <ÏÎÏÏÏÍÏÍÌÍÌÏÍÏÎÎÎÌÏÍÌÏÏ>k__BackingField; // 0x28
+        public ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ ÌÏÍÎÌÍÍÌÍÎÏÏÎÌÌÌÍÌÏÍÍÎÌ; // 0x30
+        public bool <ÍÌÎÍÍÎÎÎÎÏÌÍÏÌÏÌÎÍÎÏÏÌÍ>k__BackingField; // 0x38
+        public bool <ÎÍÏÍÌÌÏÌÍÍÏÏÌÍÌÍÏÎÏÌÏÏÌ>k__BackingField; // 0x39
+        public ÌÏÍÎÎÎÎÏÌÍÎÌÍÌÎÌÏÍÏÍÏÍÍ ÏÌÏÏÍÏÏÌÏÍÌÌÌÌÌÍÏÌÎÏÏÌÏ; // 0x40
+        public UnityEngine.Transform ÌÏÌÏÌÌÎÍÍÏÎÌÍÍÏÎÎÌÏÍÌÎÌ; // 0x48
+        public ÏÎÍÎÍÌÍÍÍÏÌÍÏÌÎÎÏÍÎÏÏÎÌ ÎÏÎÎÎÍÍÎÌÎÎÍÍÍÍÎÌÎÍÎÏÌÍ; // 0x50
+        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ ÎÏÍÎÍÎÎÏÎÍÎÌÏÎÌÌÎÏÍÌÎÎÌ; // 0x58
+        public ÍÎÌÏÎÏÏÌÏÏÍÍÎÏÍÎÍÍÍÎÍÌÍ ÏÎÍÎÏÍÌÍÎÍÏÏÏÌÌÍÏÏÌÏÍÏÏ; // 0x60
+        public ÌÏÌÍÌÎÏÏÌÍÎÌÍÎÏÎÏÍÍÏÍÍÏ ÍÏÎÍÍÎÌÏÍÍÏÏÏÎÍÏÎÎÌÏÌÌÌ; // 0x68
+        public bool ÏÌÎÎÏÌÏÎÎÏÎÌÌÏÌÌÌÏÎÏÎÌÍ; // 0x70
+        public ÌÌÎÏÎÍÎÌÎÍÍÏÌÏÎÏÎÏÏÏÍÎÌ ÌÏÌÎÌÌÎÌÏÌÌÏÍÍÌÎÌÏÌÍÌÏÎ;
+        public ÏÏÍÏÎÏÍÍÌÌÌÎÏÌÍÎÏÌÎÍÎÏÏ <ÏÎÎÍÍÏÍÍÍÎÎÍÏÏÌÍÍÍÍÏÎÌÎ>k__BackingField; // 0x78
+        public ÍÏÎÏÎÌÌÏÌÌÌÏÌÏÌÏÌÌÌÎÌÎÌ ÏÎÌÎÍÌÌÏÍÎÎÍÏÎÏÌÎÌÏÌÏÍÌ; // 0x80
+        public ÌÏÍÌÌÌÎÍÌÍÎÍÍÎÍÍÌÌÌÍÌÏÎ ÌÍÌÌÏÌÌÍÏÍÏÏÏÍÍÏÍÍÎÌÎÏÏ; // 0x88
+
         // ── Methods ──
         public void CreateNativeSlice(){} // RVA: 0x8EA9590
         public void ConstructListEnumerator(){} // RVA: 0x8EA9690

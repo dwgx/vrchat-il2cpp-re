@@ -13,6 +13,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets.Syntax
 
     public class ExpressionMultiplier
     {
+        public int Infinity;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x67FD0D0
         public void set_type(){} // RVA: 0x738B790
@@ -49,6 +51,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets.Syntax
 
     public class StyleSyntaxTokenizer
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken> m_Tokens; // 0x10
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x738DE00
         public void MoveNext(){} // RVA: 0x738DF40

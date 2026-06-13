@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class GenericDropdownMenu
     {
+        public string ussClassName;
+        public string itemUssClassName; // 0x8
+        public string labelUssClassName; // 0x10
+
         // ── Methods ──
         public void get_isSingleSelectionDropdown(){} // RVA: 0x59FF30
         public void set_isSingleSelectionDropdown(){} // RVA: 0xC5F680
@@ -39,6 +43,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class GeometryChangedEvent
     {
+        public UnityEngine.Rect <oldRect>k__BackingField; // 0x88
+        public UnityEngine.Rect <newRect>k__BackingField; // 0x98
+        public int <layoutPass>k__BackingField; // 0xA8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73EDBC0
         public void GetPooled(){} // RVA: 0x73EDCB0
@@ -66,6 +74,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class GroupBox : set_text
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void set_text(){} // RVA: 0x731E820
         public void .ctor(){} // RVA: 0x731EB70 | overloaded x2

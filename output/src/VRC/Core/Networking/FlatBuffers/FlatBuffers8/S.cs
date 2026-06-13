@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class SerializedObjects
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedObjectsT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.SerializedTypeUnion> <Objects>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0x2F8380
         public void set_Objects(){} // RVA: 0x2DEE30
@@ -56,6 +60,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedTypeUnion
     {
+        public 0x65918608 <Type>k__BackingField; // 0x10
+        public object <Value>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0
         public void set_Type(){} // RVA: 0x3A75F0
@@ -92,6 +99,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjects
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -121,6 +130,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjectsT
     {
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.SerializedObjectsT <Objects>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<byte> <Bitmap>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0x2F8380
         public void set_Objects(){} // RVA: 0x2DEE30
@@ -139,6 +151,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnim
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -186,6 +200,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnimT
     {
+        public bool <AnimationIsPlaying>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.AnimationStateT> <AnimationStates>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.AnimatorLayerT> <AnimatorLayers>k__BackingField; // 0x20
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.AnimatorParameterUnion> <AnimatorParameters>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_AnimationIsPlaying(){} // RVA: 0x3A75E0
         public void set_AnimationIsPlaying(){} // RVA: 0x3A75F0
@@ -208,6 +227,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsData
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -223,9 +244,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsDataT
     {
-        public object IsPlaying;
-        public object Time;
-        public object PlaybackSpeed;
+        public byte IsPlaying; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3BytesT Time; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionTenBitT PlaybackSpeed; // 0x20
 
         // ── Methods ──
         public void get_Flags(){} // RVA: 0x3A75E0
@@ -239,6 +260,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayer
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -263,6 +286,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayerT
     {
+        public bool <IsPlaying>k__BackingField; // 0x10
+        public float <Time>k__BackingField; // 0x14
+        public short <PlaybackSpeed>k__BackingField; // 0x18
+        public short <CurrentPlaylistIndex>k__BackingField; // 0x1A
+
         // ── Methods ──
         public void get_IsPlaying(){} // RVA: 0x3A75E0
         public void set_IsPlaying(){} // RVA: 0x3A75F0
@@ -283,6 +311,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStream
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -311,6 +341,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStreamT
     {
+        public bool <IsPlaying>k__BackingField; // 0x10
+        public float <Time>k__BackingField; // 0x14
+        public short <PlaybackRate>k__BackingField; // 0x18
+        public short <CurrentPlaylistIndex>k__BackingField; // 0x1A
+        public byte <SyncType>k__BackingField; // 0x1C
+        public short <SyncMinutes>k__BackingField; // 0x1E
+
         // ── Methods ──
         public void get_IsPlaying(){} // RVA: 0x3A75E0
         public void set_IsPlaying(){} // RVA: 0x3A75F0

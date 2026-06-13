@@ -131,6 +131,8 @@ namespace VRC.Core.Services
 
     public class InstanceCallError
     {
+        public int <Code>k__BackingField; // 0x90
+
         // ── Methods ──
         public void get_Code(){} // RVA: 0x6AFD40
         public void .ctor(){} // RVA: 0x994FE70

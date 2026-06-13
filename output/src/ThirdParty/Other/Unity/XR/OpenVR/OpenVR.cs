@@ -7,6 +7,12 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 {
     public class HandedViveTracker
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <primary>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadPressed>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E0
+
         // ── Methods ──
         public void get_grip(){} // RVA: 0xA57F60
         public void set_grip(){} // RVA: 0xD94790
@@ -31,6 +37,18 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRControllerWMR
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClick>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouch>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <menu>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector2Control <joystick>k__BackingField; // 0x200
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0xDA5040
         public void set_deviceVelocity(){} // RVA: 0xD8AAB0
@@ -83,6 +101,15 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRHMD
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeVelocity>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeAngularVelocity>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeVelocity>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeAngularVelocity>k__BackingField; // 0x208
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeVelocity>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeAngularVelocity>k__BackingField; // 0x218
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x8CBA20
         public void set_deviceVelocity(){} // RVA: 0xDB44F0
@@ -118,6 +145,9 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRLoader
     {
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRDisplaySubsystemDescriptor> s_DisplaySubsystemDescriptors;
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystemDescriptor> s_InputSubsystemDescriptors; // 0x8
+
         // ── Methods ──
         public void get_displaySubsystem(){} // RVA: 0x7072A20
         public void get_inputSubsystem(){} // RVA: 0x7072AB0
@@ -145,6 +175,18 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVROculusTouchController
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <thumbstick>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <primaryButton>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <secondaryButton>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickClicked>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickTouched>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x200
+
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0xDA5040
         public void set_thumbstick(){} // RVA: 0xD8AAB0
@@ -197,6 +239,9 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveTracker
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1B8
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0xDA5040
         public void set_deviceVelocity(){} // RVA: 0xD8AAB0
@@ -208,6 +253,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveWand
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl <primary>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadPressed>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadTouched>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.Vector2Control <trackpad>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1F8
+
         // ── Methods ──
         public void get_grip(){} // RVA: 0xDA5040
         public void set_grip(){} // RVA: 0xD8AAB0

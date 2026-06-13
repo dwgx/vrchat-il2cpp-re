@@ -13,6 +13,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Hash128Field
     {
+        public bool m_UpdateTextFromValue; // 0x460
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x731F020 | overloaded x2
         public void get_value(){} // RVA: 0x731F2A0
@@ -32,6 +34,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class HelpBox
     {
+        public string ussClassName;
+        public string labelUssClassName; // 0x8
+
         // ── Methods ──
         public void set_text(){} // RVA: 0x7320060
         public void set_messageType(){} // RVA: 0x7320090

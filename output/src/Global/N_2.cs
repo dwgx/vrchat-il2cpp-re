@@ -5,12 +5,25 @@
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ <Item>k__BackingField; // 0x10
+    public Node<ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ> <Left>k__BackingField; // 0x18
+    public Node<ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ> <Right>k__BackingField; // 0x20
+    public 0x65853D10 <Color>k__BackingField; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C85250
     public void IsNonNullRed(){} // RVA: 0x3C852B0
@@ -43,6 +56,14 @@ public class Node
 
 public class Node
 {
+    public Node<string> EmptyNode;
+    public string _key; // 0x10
+    public bool _frozen; // 0x18
+    public byte _height; // 0x19
+    public int _count; // 0x1C
+    public Node<string> _left; // 0x20
+    public Node<string> _right; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C83020 | overloaded x2
     public void get_IsEmpty(){} // RVA: 0x3C81FA0
@@ -79,38 +100,89 @@ public class Node
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D570
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Transmtn.DTO.Notifications.Notification <Item>k__BackingField; // 0x10
+    public Node<Transmtn.DTO.Notifications.Notification> <Left>k__BackingField; // 0x18
+    public Node<Transmtn.DTO.Notifications.Notification> <Right>k__BackingField; // 0x20
+    public 0x65853D10 <Color>k__BackingField; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C85250
     public void IsNonNullRed(){} // RVA: 0x3C852B0
@@ -143,18 +215,39 @@ public class Node
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D760
 }
 
 public class Node
 {
+    public VRC.Udon.UdonBehaviour <Item>k__BackingField; // 0x10
+    public Node<VRC.Udon.UdonBehaviour> <Left>k__BackingField; // 0x18
+    public Node<VRC.Udon.UdonBehaviour> <Right>k__BackingField; // 0x20
+    public 0x65853D10 <Color>k__BackingField; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C85250
     public void IsNonNullRed(){} // RVA: 0x3C852B0
@@ -187,46 +280,120 @@ public class Node
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D4B0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3CE2B0 | overloaded x3
 }
 
 public class Node
 {
+    public System.Collections.Generic.KeyValuePair`2<uint,System.ValueTuple`2<uint,uint>> <Item>k__BackingField; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,System.ValueTuple`2<uint,uint>>> <Left>k__BackingField; // 0x20
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,System.ValueTuple`2<uint,uint>>> <Right>k__BackingField; // 0x28
+    public 0x65853D10 <Color>k__BackingField; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D760
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C81EF0
 }
 
 public class Node
 {
+    public Google.Protobuf.MessageParser`1<Node> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public string name_; // 0x18
+    public string calculator_; // 0x20
+    public Google.Protobuf.FieldCodec`1<string> _repeated_inputStream_codec; // 0x8
+    public Google.Protobuf.Collections.RepeatedField`1<string> inputStream_; // 0x28
+    public Google.Protobuf.FieldCodec`1<string> _repeated_outputStream_codec; // 0x10
+    public Google.Protobuf.Collections.RepeatedField`1<string> outputStream_; // 0x30
+    public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x18
+    public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x38
+    public Google.Protobuf.FieldCodec`1<string> _repeated_outputSidePacket_codec; // 0x20
+    public Google.Protobuf.Collections.RepeatedField`1<string> outputSidePacket_; // 0x40
+    public Mediapipe.CalculatorOptions options_; // 0x48
+    public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Any> _repeated_nodeOptions_codec; // 0x28
+    public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Any> nodeOptions_; // 0x50
+    public int sourceLayer_; // 0x58
+    public int bufferSizeHint_; // 0x5C
+    public Mediapipe.InputStreamHandlerConfig inputStreamHandler_; // 0x60
+    public Mediapipe.OutputStreamHandlerConfig outputStreamHandler_; // 0x68
+    public Google.Protobuf.FieldCodec`1<Mediapipe.InputStreamInfo> _repeated_inputStreamInfo_codec; // 0x30
+    public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.InputStreamInfo> inputStreamInfo_; // 0x70
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AFE980
     public void get_Descriptor(){} // RVA: 0x5AFE9E0
@@ -274,6 +441,8 @@ public class Node
 
 public class Node
 {
+    public System.Collections.Generic.Dictionary`2<string,Node> <Children>k__BackingField; // 0x10
+
     // ── Methods ──
     public void get_Children(){} // RVA: 0x2F8380
     public void .ctor(){} // RVA: 0x5A253A0
@@ -281,34 +450,86 @@ public class Node
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D9D0
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C8D310
 }
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C7DA60 | overloaded x2
     public void get_IsEmpty(){} // RVA: 0x3C7C820
@@ -345,6 +566,14 @@ public class Node
 
 public class Node
 {
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> EmptyNode;
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _key; // 0x10
+    public bool _frozen; // 0x20
+    public byte _height; // 0x21
+    public int _count; // 0x24
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _left; // 0x28
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _right; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C7FFB0 | overloaded x2
     public void get_IsEmpty(){} // RVA: 0x3C7C820
@@ -381,6 +610,14 @@ public class Node
 
 public class NodeData
 {
+    public NodeData s_None;
+    public 0x658787D8 type; // 0x10
+    public string localName; // 0x18
+    public string prefix; // 0x20
+    public string ns; // 0x28
+    public string nameWPrefix; // 0x30
+    public string value; // 0x38
+
     // ── Methods ──
     public void get_None(){} // RVA: 0x6A28930
     public void .ctor(){} // RVA: 0x6A28A20
@@ -409,6 +646,11 @@ public class NodeData
 
 public class NodeEnumerator
 {
+    public System.Collections.ListDictionaryInternal list; // 0x10
+    public DictionaryNode current; // 0x18
+    public int version; // 0x20
+    public bool start; // 0x24
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFA790
     public void get_Current(){} // RVA: 0x5DFA870
@@ -421,6 +663,11 @@ public class NodeEnumerator
 
 public class NodeEnumerator
 {
+    public System.Collections.Specialized.ListDictionary _list; // 0x10
+    public DictionaryNode _current; // 0x18
+    public int _version; // 0x20
+    public bool _start; // 0x24
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFA790
     public void get_Current(){} // RVA: 0x6CB5950
@@ -433,6 +680,9 @@ public class NodeEnumerator
 
 public class NodeKeyValueCollection
 {
+    public System.Collections.ListDictionaryInternal list; // 0x10
+    public bool isKeys; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1AB41A0
     public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5DFAC80
@@ -444,6 +694,9 @@ public class NodeKeyValueCollection
 
 public class NodeKeyValueCollection
 {
+    public System.Collections.Specialized.ListDictionary _list; // 0x10
+    public bool _isKeys; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1AB41A0
     public void System.Collections.ICollection.CopyTo(){} // RVA: 0x6CB5D60
@@ -455,6 +708,8 @@ public class NodeKeyValueCollection
 
 public class NodeKeyValueEnumerator
 {
+    public System.Collections.ListDictionaryInternal list; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFB0A0
     public void get_Current(){} // RVA: 0x5DFB190
@@ -464,6 +719,8 @@ public class NodeKeyValueEnumerator
 
 public class NodeKeyValueEnumerator
 {
+    public System.Collections.Specialized.ListDictionary _list; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFB0A0
     public void get_Current(){} // RVA: 0x6CB60A0
@@ -491,19 +748,7 @@ public class Noise
 
 public class NoiseModule
 {
-    public object enabled;
-    public object ratio;
-    public object useRandomDistribution;
-    public object light;
-    public object useParticleColor;
-    public object sizeAffectsRange;
-    public object alphaAffectsIntensity;
-    public object range;
-    public object rangeMultiplier;
-    public object intensity;
-    public object intensityMultiplier;
-    public object maxLights;
-    public object get_enabled;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -890,6 +1135,10 @@ public class NoteOnEvent
 
 public class NotificationEntry
 {
+    public double time; // 0x10
+    public UnityEngine.Playables.INotification payload; // 0x18
+    public bool notificationFired; // 0x20
+
     // ── Methods ──
     public void get_triggerInEditor(){} // RVA: 0x67E1D90
     public void get_prewarm(){} // RVA: 0x703FC40
@@ -927,6 +1176,8 @@ public class NullProgress`1
 
 public class NullStream
 {
+    public System.Threading.Tasks.Task`1<int> s_zeroTask;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E52AB0
     public void get_CanRead(){} // RVA: 0x3C2850
@@ -988,6 +1239,8 @@ public class NullTextWriter
 
 public class NullableAttributeStateParser
 {
+    public object UnknownByte;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void get_Unknown(){} // RVA: 0x645D100
@@ -1022,6 +1275,9 @@ public class Number
 
 public class NumberBuffer
 {
+    public int precision; // 0x10
+    public int scale; // 0x14
+
     // ── Methods ──
     public void get_sign(){} // RVA: 0x5EAD220
     public void set_sign(){} // RVA: 0x5EAD230
@@ -1030,6 +1286,8 @@ public class NumberBuffer
 
 public class NumberBuffer
 {
+    public int precision; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D73F20
     public void GetDigitsPointer(){} // RVA: 0x1AD4690
@@ -1037,6 +1295,8 @@ public class NumberBuffer
 
 public class NumberBuffer
 {
+    public int precision; // 0x10
+
     // ── Methods ──
     public void get_digits(){} // RVA: 0x2F8380
 }

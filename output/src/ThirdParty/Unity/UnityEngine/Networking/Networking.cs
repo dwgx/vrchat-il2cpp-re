@@ -19,6 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandler
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void Release(){} // RVA: 0x74FB110
         public void .ctor(){} // RVA: 0x2DD310
@@ -95,6 +97,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandlerTexture
     {
+        public Unity.Collections.NativeArray`1<byte> m_NativeData; // 0x18
+
         // ── Methods ──
         public void Create(){} // RVA: 0x74FF230
         public void InternalCreateTexture(){} // RVA: 0x74FF290
@@ -112,6 +116,21 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequest
     {
+        public UIntPtr m_Ptr; // 0x10
+        public UnityEngine.Networking.DownloadHandler m_DownloadHandler; // 0x18
+        public UnityEngine.Networking.UploadHandler m_UploadHandler; // 0x20
+        public UnityEngine.Networking.CertificateHandler m_CertificateHandler; // 0x28
+        public System.Uri m_Uri; // 0x30
+        public string kHttpVerbGET;
+        public string kHttpVerbHEAD;
+        public string kHttpVerbPOST;
+        public string kHttpVerbPUT;
+        public string kHttpVerbCREATE;
+        public string kHttpVerbDELETE;
+        public bool <disposeCertificateHandlerOnDispose>k__BackingField; // 0x38
+        public bool <disposeDownloadHandlerOnDispose>k__BackingField; // 0x39
+        public bool <disposeUploadHandlerOnDispose>k__BackingField; // 0x3A
+
         // ── Methods ──
         public void GetWebErrorString(){} // RVA: 0x74FC290
         public void GetHTTPStatusString(){} // RVA: 0x74FC2E0
@@ -182,6 +201,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequestAsyncOperation
     {
+        public UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_webRequest(){} // RVA: 0x30B0C0
         public void set_webRequest(){} // RVA: 0x30B0D0

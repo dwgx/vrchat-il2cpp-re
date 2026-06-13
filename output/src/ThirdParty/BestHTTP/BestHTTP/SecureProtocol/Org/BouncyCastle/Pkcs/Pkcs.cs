@@ -7,7 +7,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkcs
 {
     public class AsymmetricKeyEntry
     {
-        public object Item;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter Item; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98A97D0 | overloaded x3
@@ -47,6 +47,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkcs
 
     public class Pkcs12Entry
     {
+        public System.Collections.IDictionary attributes; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98ADCE0
         public void GetBagAttribute(){} // RVA: 0x98AE180 | overloaded x2
@@ -57,6 +59,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkcs
 
     public class Pkcs12Store
     {
+        public IgnoresCaseHashtable keys; // 0x10
+        public System.Collections.IDictionary localIds; // 0x18
+
         // ── Methods ──
         public void CreateSubjectKeyID(){} // RVA: 0x98AE530
         public void .ctor(){} // RVA: 0x98AE9F0 | overloaded x3
@@ -140,6 +145,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkcs
 
     public class X509CertificateEntry
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate cert; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98A97D0 | overloaded x3
         public void get_Certificate(){} // RVA: 0x2E07C0

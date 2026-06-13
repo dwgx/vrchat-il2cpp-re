@@ -19,6 +19,8 @@ namespace VRC.Udon
 
     public class AbstractUdonBehaviourEventProxy
     {
+        public VRC.Udon.UdonBehaviour <EventReceiver>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_EventReceiver(){} // RVA: 0x30B0C0
         public void set_EventReceiver(){} // RVA: 0x30B0D0
@@ -94,6 +96,24 @@ namespace VRC.Udon
 
     public class UdonBehaviour : `
     {
+        public VRC.Udon.Common.Interfaces.IUdonVariableTable publicVariables; // 0x40
+        public bool SynchronizePosition; // 0x48
+        public bool SynchronizeAnimation; // 0x49
+        public bool AllowCollisionOwnershipTransfer; // 0x4A
+        public bool Reliable; // 0x4B
+        public 0x6596EF00 _syncMethod; // 0x4C
+        public VRC.Udon.AbstractSerializedUdonProgramAsset serializedProgramAsset; // 0x50
+        public System.Action`2<VRC.Udon.UdonBehaviour,VRC.Udon.Common.Interfaces.IUdonProgram> <OnInit>k__BackingField;
+        public System.Action`1<VRC.Udon.UdonBehaviour> <RequestSerializationHook>k__BackingField; // 0x8
+        public bool <DisableInteractive>k__BackingField; // 0x58
+        public string ReturnVariableName;
+        public bool <DisableEventProcessing>k__BackingField; // 0x59
+        public int _componentIndexFixed; // 0x5C
+        public VRC.Udon.UdonManager _udonManager; // 0x60
+        public VRC.Udon.Common.Interfaces.IUdonProgram _program; // 0x68
+        public VRC.Udon.Common.Interfaces.IUdonVM _udonVM; // 0x70
+        public bool _isReady; // 0x78
+
         // ── Methods ──
         public void get_SyncMethod(){} // RVA: 0x76FF4C0
         public void set_SyncMethod(){} // RVA: 0x76FF4E0
@@ -221,6 +241,13 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÍÌÍÍÍÍÌÏÌÏÎÌÌÍÏÌÏÌÏÌÏÌ</summary>
     public class UdonBehaviourResultBytes_CF3F_6FF8
     {
+        public float ÏÎÍÌÏÎÎÏÍÌÍÌÌÍÎÎÍÏÏÏÏÏÎ;
+        public int ÎÎÎÏÌÎÍÎÎÏÏÎÏÎÌÎÏÎÍÏÎÌÎ;
+        public float ÍÌÏÏÌÌÍÏÌÌÍÌÍÏÏÌÌÌÌÏÏÍÎ;
+        public System.Threading.CancellationTokenSource ÍÏÌÎÌÎÏÍÌÎÌÍÌÏÍÏÎÌÏÌÍÎÎ; // 0x10
+        public string ÌÌÏÌÍÎÎÏÌÎÏÏÌÎÌÏÌÍÍÏÍÎÏ; // 0x18
+        public byte[] <ÌÌÍÎÏÎÌÌÏÎÌÌÎÏÏÏÎÏÏÌÏÌÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_UdonBehaviour(){} // RVA: 0x35A740
         public void get_Result(){} // RVA: 0x6570B0
@@ -249,6 +276,8 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÏÌÌÏÌÎÏÎÎÍÍÎÍÍÌÍÌÌÏÏÎÌ</summary>
     public class UdonClientImageDownloaderSibling_5F31
     {
+        public System.Text.RegularExpressions.Regex ÍÏÏÏÌÏÏÍÏÎÍÎÍÍÍÎÏÏÍÍÎÏÍ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x4CFEB0
         public void .ctor(){} // RVA: 0x2DD310
@@ -267,6 +296,15 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÎÏÌÎÍÏÌÍÍÌÍÎÍÏÎÌÎÍÌÎÎÌ</summary>
     public class UdonDisableEventProcessing_A521_6832
     {
+        public bool <ÍÍÍÎÏÎÏÎÏÌÎÌÏÍÌÎÎÎÍÎÏÎÎ>k__BackingField; // 0x40
+        public bool <ÌÏÍÏÎÎÏÌÏÍÎÎÏÎÎÎÏÍÍÏÎÏÌ>k__BackingField; // 0x41
+        public bool <ÌÍÏÎÍÏÎÌÍÏÎÏÎÌÌÎÍÏÌÏÏÎÎ>k__BackingField; // 0x42
+        public string <ÌÎÌÏÍÌÍÌÍÍÏÏÎÏÎÌÎÌÌÍÏÏÏ>k__BackingField; // 0x48
+        public 0x6596EF00 <ÏÌÏÍÍÎÏÌÍÍÌÌÏÎÎÏÍÌÌÏÍÏÎ>k__BackingField; // 0x50
+        public VRC.SDK3.UdonNetworkCalling.NetworkCallingEntrypointMetadata[] <ÍÍÏÍÎÍÎÍÏÍÌÏÌÍÍÌÏÌÌÌÏÎÍ>k__BackingField; // 0x58
+        public System.Collections.Generic.Dictionary`2<uint,string> ÏÏÎÌÎÍÌÏÎÍÏÍÎÏÍÏÎÍÏÍÎÏÍ; // 0x60
+        public System.Collections.Generic.Dictionary`2<string,uint> ÏÎÍÍÎÍÌÍÍÏÍÏÍÍÎÎÏÍÎÎÏÏÌ; // 0x68
+
         // ── Methods ──
         public void RunEvent(){} // RVA: 0x65F230 | overloaded x10
         public void RunEventAdvanced(){} // RVA: 0x283FA0 | overloaded x10
@@ -313,6 +351,16 @@ namespace VRC.Udon
 
     public class UdonManager : (00
     {
+        public System.Action`1<VRC.Udon.Common.Interfaces.IUdonProgram> OnUdonProgramLoaded;
+        public System.Action OnUdonReady; // 0x8
+        public VRC.Udon.UdonBehaviour currentlyExecuting; // 0x20
+        public bool <HasLoaded>k__BackingField; // 0x28
+        public VRC.Udon.UdonManager _instance; // 0x10
+        public UpdateOrderComparer _udonBehaviourUpdateOrderComparer; // 0x18
+        public bool _isUdonEnabled; // 0x29
+        public bool _isRunningEvent; // 0x2A
+        public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Collections.Generic.HashSet`1<...>>> _sceneUdonBehaviourDirectories; // 0x30
+
         // ── Methods ──
         public void add_OnUdonProgramLoaded(){} // RVA: 0x770B0E0
         public void remove_OnUdonProgramLoaded(){} // RVA: 0x770B240
@@ -389,6 +437,10 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÎÎÌÎÏÍÏÎÏÎÌÎÎÏÍÍÏÍÏÌÎÎ</summary>
     public class UdonOperationResponseDiscRelated_0902
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+        public uint <ÍÍÏÌÍÏÍÍÏÌÍÌÌÍÌÏÎÎÏÍÎÏÌ>k__BackingField; // 0x18
+        public ÌÍÍÌÌÎÌÍÍÍÎÎÌÌÏÎÍÌÏÌÎÍÍ[] <ÍÏÌÍÏÏÌÎÌÎÍÎÌÏÌÌÎÍÏÌÎÎÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_Low64(){} // RVA: 0x1B12320
         public void set_Value(){} // RVA: 0x2DEE30
@@ -410,6 +462,10 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÍÌÍÎÍÍÍÍÍÏÌÌÏÍÌÍÍÏÌÌÌÍ</summary>
     public class UdonOperationResponseDiscRelated_10F5
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x18
+        public System.ArraySegment`1<byte> <ÍÏÌÎÌÍÏÎÌÌÍÏÌÍÎÎÌÎÏÌÏÏÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_y(){} // RVA: 0x1EE8D20
         public void get_Current(){} // RVA: 0x196ABE0
@@ -431,6 +487,10 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÏÎÌÎÌÏÏÌÏÍÎÍÏÌÏÌÎÎÌÏÎÍ</summary>
     public class UdonOperationResponseDiscRelated_1356
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x18
+        public 0x65828B28 <ÎÎÏÌÎÍÏÎÎÎÏÌÌÌÎÍÌÌÌÌÍÍÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x1AD4690
         public void get_ElementType(){} // RVA: 0x519240
@@ -452,6 +512,11 @@ namespace VRC.Udon
     /// <summary>Originally: ÌÏÏÌÎÌÌÏÌÏÍÌÌÎÍÌÍÏÌÎÍÌÏ</summary>
     public class UdonOperationResponseDiscRelated_3389
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÏÎÎÏÏÎÌÍÎÎÏÏÌÍÌÏÍÍÎÎÍÏ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x18
+        public 0x65806E18 <ÏÎÌÌÎÏÎÎÏÌÏÎÍÍÌÎÎÍÍÌÍÏÏ>k__BackingField; // 0x20
+        public System.Nullable`1<ÎÏÍÍÌÎÌÏÏÏÌÏÍÎÏÌÏÌÎÌÏÍÏ> <ÌÎÍÌÏÌÍÌÌÏÏÌÎÍÏÎÎÌÏÎÎÏÏ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
         public void ReadCapsuleColliderState_5824C877CF0B(){} // RVA: 0x2E00C0
@@ -473,6 +538,8 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÎÏÎÎÌÏÌÎÌÎÍÎÌÏÍÏÎÎÏÎÏÌ</summary>
     public class UdonOperationResponseDiscRelated_61A5
     {
+        public T <ÏÎÌÌÎÏÎÎÏÌÏÎÍÍÌÎÎÍÍÌÍÏÏ>k__BackingField;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x24A50
         public void OnDestroy(){} // RVA: 0x24A50
@@ -491,6 +558,8 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÎÏÎÎÌÏÌÎÌÎÍÎÌÏÍÏÎÎÏÎÏÌ</summary>
     public class UdonOperationResponseDiscRelated_61A5
     {
+        public bool <ÏÎÌÌÎÏÎÎÏÌÏÎÍÍÌÎÎÍÍÌÍÏÏ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x50959F0
         public void OnDestroy(){} // RVA: 0x5095CC0
@@ -509,6 +578,10 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÍÏÌÏÌÏÌÏÎÌÏÌÍÍÌÎÏÎÌÏÍÍ</summary>
     public class UdonOperationResponseDiscRelated_8C4E
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+        public 0x65828B80 <ÍÌÏÎÌÌÎÎÌÏÎÏÏÎÏÏÍÍÏÍÎÎÍ>k__BackingField; // 0x18
+        public 0x65828BD8 <ÏÌÏÎÎÍÏÍÏÏÏÍÍÏÌÎÍÎÎÎÌÎÎ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x1EA98A0
         public void get_Length(){} // RVA: 0x1EA9890
@@ -526,6 +599,12 @@ namespace VRC.Udon
     /// <summary>Originally: ÌÍÎÍÌÍÎÎÏÎÎÏÍÏÏÍÌÌÏÎÎÌÏ</summary>
     public class UdonOperationResponseDiscRelated_9AFF
     {
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x10
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x18
+        public 0x65828A78 <ÍÏÎÌÌÏÎÏÌÌÎÎÌÏÍÏÍÏÎÎÏÎÏ>k__BackingField; // 0x20
+        public 0x65828AD0 <ÎÎÏÌÏÏÌÌÌÌÎÌÏÌÌÍÌÍÎÌÏÏÎ>k__BackingField; // 0x24
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÌÎÌÎÍÍÏÎÌÌÌÌÎÌÌÍÍÏÎÌÍÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x8ABED0
         public void get_ElementType(){} // RVA: 0x519240
@@ -551,6 +630,8 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÌÍÌÍÍÍÌÎÏÌÌÍÍÏÍÎÏÏÏÏÎÌ</summary>
     public class UdonOperationResponseDiscRelated_A43E
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void set_Low64(){} // RVA: 0x1B12320
@@ -566,6 +647,11 @@ namespace VRC.Udon
     /// <summary>Originally: ÌÌÍÍÎÎÏÎÎÍÌÎÍÏÏÌÎÌÌÍÏÏÏ</summary>
     public class UdonOperationResponseDiscRelated_C3B2
     {
+        public 0x656FBC98 ÏÌÌÌÌÌÌÎÌÏÌÏÌÍÎÍÏÌÏÌÍÌÏ; // 0x10
+        public int ÌÍÍÌÎÍÍÍÌÍÎÍÏÏÏÏÍÎÌÏÏÏÌ; // 0x14
+        public int ÌÌÎÍÏÌÍÎÎÌÎÏÏÎÏÏÍÏÍÌÎÌÎ; // 0x18
+        public byte ÍÎÏÎÌÎÍÍÎÏÎÌÏÏÍÎÌÌÍÎÏÏÎ; // 0x1C
+
         // ── Methods ──
         public void set_Count(){} // RVA: 0x8AC660
         public void get_InstantiationKind(){} // RVA: 0x32A5C0
@@ -589,6 +675,14 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÎÏÏÏÍÎÏÍÎÌÍÏÌÌÎÎÎÎÌÌÌÎ</summary>
     public class UdonOperationResponseDisconnecSibling_00AD
     {
+        public UIntPtr <ÎÌÏÌÍÏÍÍÎÌÍÏÏÍÍÌÍÎÎÏÌÎÍ>k__BackingField; // 0x10
+        public 0x65828C88 <ÎÎÏÏÏÏÏÌÏÏÎÏÍÍÏÎÌÌÌÏÎÏÍ>k__BackingField; // 0x18
+        public 0x65828C30 <ÎÍÎÏÍÍÎÏÎÌÎÍÎÏÍÌÌÌÍÌÎÌÌ>k__BackingField; // 0x1C
+        public uint <ÌÎÌÏÌÏÌÍÎÍÏÎÎÍÏÍÌÍÍÍÎÌÎ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÏÌÍÎÎÎÌÌÍÏÍÍÌÎÌÌÍÎÏÍÌ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÎÎÍÏÌÏÎÍÌÍÌÌÌÎÎÍÍÎÌÌÍ>k__BackingField; // 0x30
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÏÍÍÍÌÌÌÍÏÏÌÍÌÎÎÍÍÌÏÌÌÎÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -617,6 +711,11 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÎÍÎÏÎÍÎÍÏÌÏÍÍÌÎÍÎÍÌÍÍÍ</summary>
     public class UdonOperationResponseDisconnecSibling_9ACD
     {
+        public 0x65886F30 <ÏÎÌÌÎÏÎÎÏÌÏÎÍÍÌÎÎÍÍÌÍÏÏ>k__BackingField; // 0x10
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x18
+        public string <ÍÌÎÍÎÌÎÍÏÏÌÍÎÌÍÏÏÌÎÌÎÏÌ>k__BackingField; // 0x20
+        public string <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void GetLocalRotation(){} // RVA: 0x1D73750
         public void .ctor(){} // RVA: 0x2DD310
@@ -641,6 +740,14 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÎÎÎÌÍÍÏÏÍÌÌÍÌÏÍÌÌÎÎÌÌÍ</summary>
     public class UdonOperationResponseDisconnecSibling_F17D
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+        public 0x65828C88 <ÎÎÏÏÏÏÏÌÏÏÎÏÍÍÏÎÌÌÌÏÎÏÍ>k__BackingField; // 0x18
+        public 0x65828C30 <ÎÍÎÏÍÍÎÏÎÌÎÍÎÏÍÌÌÌÍÌÎÌÌ>k__BackingField; // 0x1C
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÏÌÍÎÎÎÌÌÍÏÍÍÌÎÌÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÎÎÎÍÏÌÏÎÍÌÍÌÌÌÎÎÍÍÎÌÌÍ>k__BackingField; // 0x28
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x30
+        public int <ÏÌÌÏÏÍÎÍÎÏÌÌÌÏÎÎÌÍÏÎÏÌÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
@@ -669,6 +776,40 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÎÌÏÎÏÏÎÍÎÏÍÎÎÎÍÎÏÏÌÎÎÍ</summary>
     public class UdonOperationResponseDisconnectMessage_331A_E89F
     {
+        public Photon.Client.PhotonPeer ÎÏÎÎÏÏÍÎÏÎÎÌÌÍÌÌÌÏÏÍÏÌÎ; // 0x10
+        public string ÎÎÍÍÏÏÎÏÌÍÎÎÏÌÎÌÏÎÍÌÏÏÍ; // 0x18
+        public 0x6598D8D8 ÌÍÎÎÎÌÏÏÏÍÏÏÎÍÍÍÌÍÎÍÎÏÍ; // 0x20
+        public int ÎÍÍÎÏÍÎÍÎÏÎÌÏÏÍÌÍÎÌÍÍÍÎ; // 0x24
+        public int ÏÎÌÏÏÍÏÌÍÎÌÏÌÎÌÏÏÎÍÍÏÏÏ; // 0x28
+        public Photon.Realtime.AppSettings <ÍÍÏÌÏÍÎÍÎÍÍÏÍÌÎÏÍÎÏÎÌÏÎ>k__BackingField; // 0x30
+        public 0x6572C628 <ÎÎÏÏÏÏÏÌÏÏÎÏÍÍÏÎÌÌÌÏÎÏÍ>k__BackingField; // 0x38
+        public ÏÎÎÎÍÎÎÌÏÎÎÌÎÍÌÎÍÍÏÍÌÍÌ <ÍÍÌÌÏÌÍÍÍÎÌÍÏÍÍÍÍÍÎÎÎÍÍ>k__BackingField; // 0x40
+        public 0x6572C680 ÌÎÎÌÏÌÌÌÌÎÌÎÏÌÏÏÌÍÍÏÏÎÎ; // 0x48
+        public string ÏÍÎÍÍÌÌÎÎÌÌÌÏÌÌÏÏÏÌÌÏÍÌ; // 0x50
+        public ÎÍÏÍÏÍÍÏÏÎÏÎÌÍÏÍÏÎÍÎÏÍÎ ÌÎÏÌÏÏÏÏÍÌÎÌÍÌÏÌÍÍÍÎÌÎÎ; // 0x58
+        public string <ÏÎÏÏÏÌÏÏÌÎÏÌÎÍÏÌÎÎÌÌÍÏÏ>k__BackingField; // 0x60
+        public string <ÍÍÏÎÌÎÎÌÎÌÎÍÎÎÍÌÌÌÌÍÏÎÌ>k__BackingField; // 0x68
+        public System.Func`3<string,0x6572C5D0,string> ÏÎÏÍÏÏÌÎÌÏÎÏÎÌÍÍÏÌÍÌÏÌÍ; // 0x70
+        public 0x6572C5D0 <ÌÌÎÎÍÎÌÎÏÎÏÎÌÏÎÎÎÏÌÎÍÏÎ>k__BackingField; // 0x78
+        public 0x6572C470 ÏÌÌÌÌÌÌÎÌÏÌÏÌÍÎÍÏÌÏÌÍÌÏ; // 0x7C
+        public Photon.Realtime.ConnectionHandler <ÏÎÏÏÌÏÎÌÏÏÏÌÌÍÌÏÌÌÌÍÎÍÏ>k__BackingField; // 0x80
+        public System.Action`2<0x6572C470,0x6572C470> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x88
+        public System.Action`1<Photon.Client.EventData> ÎÎÏÏÏÏÍÏÏÌÎÍÌÎÍÎÏÎÏÎÌÏÍ; // 0x90
+        public System.Action`2<bool,object> ÍÏÎÍÌÍÌÍÎÏÍÎÎÌÌÎÎÍÏÌÎÌÎ; // 0x98
+        public System.Action`1<Photon.Client.OperationResponse> ÎÌÏÎÍÍÎÍÌÏÏÏÏÎÍÎÏÍÍÌÏÍÎ; // 0xA0
+        public ÏÍÌÌÍÌÏÏÍÏÍÏÎÎÏÍÍÎÍÍÎÏÍ ÍÏÎÌÎÏÎÎÍÍÎÍÍÎÏÌÌÎÍÎÌÌÎ; // 0xA8
+        public ÏÌÌÏÍÎÏÍÌÌÏÍÏÎÌÎÌÎÍÍÏÏÌ ÌÍÏÌÎÏÎÍÍÍÌÎÎÎÌÌÎÎÌÍÎÎÍ; // 0xB0
+        public ÍÏÌÏÍÍÌÏÍÍÎÌÎÎÏÏÏÌÍÏÏÍÏ ÌÎÎÌÏÍÎÍÌÏÎÏÏÌÎÎÎÎÏÌÌÎÏ; // 0xB8
+        public ÎÍÌÍÌÏÏÏÎÏÏÏÎÍÎÎÏÍÏÌÍÎÏ ÍÌÎÎÍÍÍÌÌÏÎÎÍÌÎÏÏÎÍÌÏÏÌ; // 0xC0
+        public ÏÎÍÍÎÌÏÌÏÌÎÎÎÌÏÍÏÌÏÌÍÏÎ ÌÍÍÌÎÌÍÏÎÍÎÌÎÍÍÌÍÍÌÏÏÏÌ; // 0xC8
+        public 0x6572C578 <ÌÍÌÏÎÍÏÏÌÍÍÎÍÌÍÎÌÌÌÏÎÌÍ>k__BackingField; // 0xD0
+        public ÌÌÍÍÎÍÏÍÍÎÏÍÏÎÎÍÏÏÏÌÌÌÍ ÍÍÎÌÎÍÌÎÎÌÏÍÏÎÎÍÍÌÎÍÏÌÍ; // 0xD8
+        public ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ <ÍÍÎÌÌÌÍÍÍÍÍÌÏÏÍÎÍÎÍÎÌÌÍ>k__BackingField; // 0xE0
+        public ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ ÌÏÌÌÏÎÌÍÎÌÎÎÍÌÍÌÏÏÏÏÍÌÎ; // 0xE8
+        public System.Collections.Generic.List`1<ÌÏÎÌÍÏÍÎÌÌÎÎÍÌÎÎÌÍÎÎÎÎÏ> ÍÎÏÌÍÍÎÎÌÍÍÌÏÌÍÎÍÌÍÍÌÎÎ; // 0xF0
+        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ ÏÌÏÌÍÍÍÌÌÌÌÎÏÎÏÍÍÍÌÌÌÎÌ; // 0xF8
+        public ÌÌÍÍÍÏÎÍÎÎÌÎÎÌÌÎÍÏÏÌÌÍÏ <ÌÎÎÍÎÌÌÎÍÎÌÏÌÌÌÍÌÏÌÌÏÍÏ>k__BackingField; // 0x100
+
         // ── Methods ──
         public void .ctor_B4166BA2026C(){} // RVA: 0x1ADFB20
         public void Initialize(){} // RVA: 0x1ADFB40
@@ -814,6 +955,10 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÎÏÌÌÏÍÏÏÌÌÍÏÌÌÏÏÌÍÎÌÎÏ</summary>
     public class UdonOperationResponseStatusChanged_6550_B67D
     {
+        public ÏÎÏÌÌÏÍÏÏÌÌÍÏÌÌÏÏÌÍÎÌÎÏ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public bool ÏÎÏÍÍÎÎÏÏÎÏÌÌÏÍÌÏÍÎÎÌÏÍ; // 0x170
+        public System.Collections.Generic.Queue`1<Photon.Client.EventData> ÍÎÏÌÏÍÍÍÌÍÎÍÍÍÎÌÍÏÏÍÌÍÍ; // 0x178
+
         // ── Methods ──
         public void OnEvent(){} // RVA: 0xDB7050
         public void Initialize(){} // RVA: 0xDB7B90
@@ -838,6 +983,9 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÍÌÌÏÎÌÌÌÎÌÍÌÍÌÎÍÍÎÎÍÏÍ</summary>
     public class UdonUnregisterEventHandlerRegiSibling_220B
     {
+        public ÎÍÌÌÏÎÌÌÌÎÌÍÌÍÌÎÍÍÎÎÍÏÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ <ÏÍÏÏÏÎÎÍÎÏÍÏÏÍÏÍÌÍÌÌÎÍÍ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x1E195E0
         public void LateUpdate(){} // RVA: 0x1E19630
@@ -862,6 +1010,11 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ</summary>
     public class UdonUnregisterEventHandlerRegiSibling_581D
     {
+        public string ÏÌÍÌÎÌÏÏÍÏÌÍÌÎÏÎÍÎÎÏÍÎÏ; // 0x20
+        public string ÏÎÏÏÍÌÏÌÌÌÎÌÍÌÎÍÏÌÏÌÏÌÌ; // 0x28
+        public int ÌÎÎÏÌÏÌÏÍÍÎÏÏÌÌÎÎÌÎÏÌÍÎ;
+        public float ÌÏÏÎÌÍÎÏÏÏÏÏÏÏÌÎÍÏÎÎÏÌÌ;
+
         // ── Methods ──
         public void PushRegistration(){} // RVA: 0x19C9300
         public void PopRegistration(){} // RVA: 0x19C9340
@@ -902,6 +1055,8 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÍÌÏÎÌÏÎÍÌÍÎÍÍÌÍÏÏÍÎÏÏÍ</summary>
     public class UdonUnregisterEventHandlerRegisterEventHandl_2C20_C4A4
     {
+        public ÏÍÌÏÎÌÏÎÍÌÍÎÍÍÌÍÏÏÍÎÏÏÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void UpdateHandlerState(){} // RVA: 0x13A0DD0
         public void DoPlay(){} // RVA: 0x13A0FE0

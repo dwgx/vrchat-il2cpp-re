@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class WheelEvent
     {
+        public UnityEngine.Vector3 <delta>k__BackingField; // 0xC0
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73F0340
         public void get_delta(){} // RVA: 0x1D00320

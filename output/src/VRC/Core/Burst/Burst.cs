@@ -7,6 +7,8 @@ namespace VRC.Core.Burst
 {
     public class DisposableJobHandle
     {
+        public Unity.Jobs.JobHandle _jobHandle; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A6AC80
         public void GetIncompleteDisposableJobs(){} // RVA: 0x9A6AD80

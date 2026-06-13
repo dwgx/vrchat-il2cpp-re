@@ -7,6 +7,10 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 {
     public class DescriptorBase
     {
+        public int <Index>k__BackingField; // 0x10
+        public string <FullName>k__BackingField; // 0x18
+        public Google.Protobuf.Reflection.FileDescriptor <File>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A7D680
         public void get_Name(){} // RVA: 0xCD60
@@ -17,6 +21,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class DescriptorDeclaration
     {
+        public Google.Protobuf.Reflection.IDescriptor <Descriptor>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_StartLine(){} // RVA: 0x5BED50
         public void .ctor(){} // RVA: 0x5A7D740
@@ -41,6 +47,21 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class DescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.DescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.FieldDescriptorProto> _repeated_field_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.FieldDescriptorProto> field_; // 0x20
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.FieldDescriptorProto> _repeated_extension_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.FieldDescriptorProto> extension_; // 0x28
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.DescriptorProto> _repeated_nestedType_codec; // 0x20
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.DescriptorProto> nestedType_; // 0x30
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.EnumDescriptorProto> _repeated_enumType_codec; // 0x28
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.EnumDescriptorProto> enumType_; // 0x38
+        public Google.Protobuf.FieldCodec`1<ExtensionRange> _repeated_extensionRange_codec; // 0x30
+        public Google.Protobuf.Collections.RepeatedField`1<ExtensionRange> extensionRange_; // 0x40
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A59380
         public void get_Descriptor(){} // RVA: 0x5A593E0
@@ -74,6 +95,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class DescriptorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A50A60
         public void .cctor(){} // RVA: 0x5A50AC0
@@ -93,6 +116,9 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumDescriptor
     {
+        public Google.Protobuf.Reflection.EnumDescriptorProto proto; // 0x28
+        public Google.Protobuf.Reflection.MessageDescriptor containingType; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A7FE00
         public void get_Name(){} // RVA: 0x5A80270
@@ -102,6 +128,16 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.EnumDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.EnumValueDescriptorProto> _repeated_value_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.EnumValueDescriptorProto> value_; // 0x20
+        public Google.Protobuf.Reflection.EnumOptions options_; // 0x28
+        public Google.Protobuf.FieldCodec`1<EnumReservedRange> _repeated_reservedRange_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<EnumReservedRange> reservedRange_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A62580
         public void get_Descriptor(){} // RVA: 0x5A625E0
@@ -130,6 +166,16 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.EnumOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.EnumOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool AllowAliasDefaultValue; // 0x8
+        public bool allowAlias_; // 0x24
+        public bool DeprecatedDefaultValue; // 0x9
+        public bool deprecated_; // 0x25
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x10
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A71230
@@ -164,6 +210,9 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumValueDescriptor
     {
+        public Google.Protobuf.Reflection.EnumDescriptor enumDescriptor; // 0x28
+        public Google.Protobuf.Reflection.EnumValueDescriptorProto proto; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A803F0
         public void get_Proto(){} // RVA: 0x6374D0
@@ -174,6 +223,15 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumValueDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.EnumValueDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x20
+        public int NumberDefaultValue; // 0x10
+        public int number_; // 0x28
+        public Google.Protobuf.Reflection.EnumValueOptions options_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A64AB0
         public void get_Descriptor(){} // RVA: 0x5A64B10
@@ -203,6 +261,14 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumValueOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.EnumValueOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.EnumValueOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool DeprecatedDefaultValue; // 0x8
+        public bool deprecated_; // 0x24
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x10
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A72560
@@ -233,6 +299,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ExtensionAccessor : .ctor
     {
+        public Google.Protobuf.Extension extension; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A80640
         public void get_Descriptor(){} // RVA: 0x30B0C0
@@ -244,6 +312,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ExtensionCollection
     {
+        public System.Collections.Generic.IDictionary`2<Google.Protobuf.Reflection.MessageDescriptor,System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FieldDescriptor>> extensionsByTypeInDeclarationOrder; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A80B40 | overloaded x2
         public void get_UnorderedExtensions(){} // RVA: 0x30B0C0
@@ -252,6 +322,12 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ExtensionRangeOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.ExtensionRangeOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.ExtensionRangeOptions> _extensions; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.UninterpretedOption> uninterpretedOption_; // 0x20
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A5DD60
@@ -278,6 +354,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FieldAccessorBase : .ctor
     {
+        public System.Func`2<Google.Protobuf.IMessage,object> getValueDelegate; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A81CE0
         public void get_Descriptor(){} // RVA: 0x2E07C0
@@ -289,6 +367,18 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FieldDescriptor
     {
+        public Google.Protobuf.Reflection.EnumDescriptor enumType; // 0x28
+        public Google.Protobuf.Reflection.MessageDescriptor extendeeType; // 0x30
+        public Google.Protobuf.Reflection.MessageDescriptor messageType; // 0x38
+        public 0x65951810 fieldType; // 0x40
+        public Google.Protobuf.Reflection.IFieldAccessor accessor; // 0x48
+        public Google.Protobuf.Reflection.MessageDescriptor <ContainingType>k__BackingField; // 0x50
+        public Google.Protobuf.Reflection.OneofDescriptor <ContainingOneof>k__BackingField; // 0x58
+        public string <JsonName>k__BackingField; // 0x60
+        public string <PropertyName>k__BackingField; // 0x68
+        public Google.Protobuf.Reflection.FieldDescriptorProto <Proto>k__BackingField; // 0x70
+        public Google.Protobuf.Extension <Extension>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_ContainingType(){} // RVA: 0x37E0E0
         public void get_ContainingOneof(){} // RVA: 0x3A5500
@@ -315,6 +405,31 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FieldDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.FieldDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x20
+        public int NumberDefaultValue; // 0x10
+        public int number_; // 0x28
+        public 0x6594FFA8 LabelDefaultValue; // 0x14
+        public 0x6594FFA8 label_; // 0x2C
+        public 0x6594FF50 TypeDefaultValue; // 0x18
+        public 0x6594FF50 type_; // 0x30
+        public string TypeNameDefaultValue; // 0x20
+        public string typeName_; // 0x38
+        public string ExtendeeDefaultValue; // 0x28
+        public string extendee_; // 0x40
+        public string DefaultValueDefaultValue; // 0x30
+        public string defaultValue_; // 0x48
+        public int OneofIndexDefaultValue; // 0x38
+        public int oneofIndex_; // 0x50
+        public string JsonNameDefaultValue; // 0x40
+        public string jsonName_; // 0x58
+        public Google.Protobuf.Reflection.FieldOptions options_; // 0x60
+        public bool Proto3OptionalDefaultValue; // 0x48
+        public bool proto3Optional_; // 0x68
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A5ED90
         public void get_Descriptor(){} // RVA: 0x5A5EDF0
@@ -376,6 +491,26 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FieldOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.FieldOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.FieldOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public 0x65950790 CtypeDefaultValue; // 0x8
+        public 0x65950790 ctype_; // 0x24
+        public bool PackedDefaultValue; // 0xC
+        public bool packed_; // 0x28
+        public 0x659507E8 JstypeDefaultValue; // 0x10
+        public 0x659507E8 jstype_; // 0x2C
+        public bool LazyDefaultValue; // 0x14
+        public bool lazy_; // 0x30
+        public bool UnverifiedLazyDefaultValue; // 0x15
+        public bool unverifiedLazy_; // 0x31
+        public bool DeprecatedDefaultValue; // 0x16
+        public bool deprecated_; // 0x32
+        public bool WeakDefaultValue; // 0x17
+        public bool weak_; // 0x33
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x18
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A6E910
@@ -430,6 +565,18 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileDescriptor
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<Google.Protobuf.Reflection.IDescriptor,Google.Protobuf.Reflection.DescriptorDeclaration>> declarations; // 0x10
+        public Google.Protobuf.Reflection.FileDescriptorProto <Proto>k__BackingField; // 0x18
+        public 0x65951868 <Syntax>k__BackingField; // 0x20
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.MessageDescriptor> <MessageTypes>k__BackingField; // 0x28
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.EnumDescriptor> <EnumTypes>k__BackingField; // 0x30
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.ServiceDescriptor> <Services>k__BackingField; // 0x38
+        public Google.Protobuf.Reflection.ExtensionCollection <Extensions>k__BackingField; // 0x40
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FileDescriptor> <Dependencies>k__BackingField; // 0x48
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FileDescriptor> <PublicDependencies>k__BackingField; // 0x50
+        public Google.Protobuf.ByteString <SerializedData>k__BackingField; // 0x58
+        public Google.Protobuf.Reflection.DescriptorPool <DescriptorPool>k__BackingField; // 0x60
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x5A83590
         public void .ctor(){} // RVA: 0x5A83640
@@ -465,6 +612,25 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.FileDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x18
+        public string PackageDefaultValue; // 0x10
+        public string package_; // 0x20
+        public Google.Protobuf.FieldCodec`1<string> _repeated_dependency_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<string> dependency_; // 0x28
+        public Google.Protobuf.FieldCodec`1<int> _repeated_publicDependency_codec; // 0x20
+        public Google.Protobuf.Collections.RepeatedField`1<int> publicDependency_; // 0x30
+        public Google.Protobuf.FieldCodec`1<int> _repeated_weakDependency_codec; // 0x28
+        public Google.Protobuf.Collections.RepeatedField`1<int> weakDependency_; // 0x38
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.DescriptorProto> _repeated_messageType_codec; // 0x30
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.DescriptorProto> messageType_; // 0x40
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.EnumDescriptorProto> _repeated_enumType_codec; // 0x38
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.EnumDescriptorProto> enumType_; // 0x48
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.ServiceDescriptorProto> _repeated_service_codec; // 0x40
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.ServiceDescriptorProto> service_; // 0x50
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A56080
         public void get_Descriptor(){} // RVA: 0x5A560E0
@@ -507,6 +673,11 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileDescriptorSet
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.FileDescriptorSet> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.FileDescriptorProto> _repeated_file_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.FileDescriptorProto> file_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A55110
         public void get_Descriptor(){} // RVA: 0x5A55170
@@ -527,6 +698,52 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.FileOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.FileOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public string JavaPackageDefaultValue; // 0x8
+        public string javaPackage_; // 0x28
+        public string JavaOuterClassnameDefaultValue; // 0x10
+        public string javaOuterClassname_; // 0x30
+        public bool JavaMultipleFilesDefaultValue; // 0x18
+        public bool javaMultipleFiles_; // 0x38
+        public bool JavaGenerateEqualsAndHashDefaultValue; // 0x19
+        public bool javaGenerateEqualsAndHash_; // 0x39
+        public bool JavaStringCheckUtf8DefaultValue; // 0x1A
+        public bool javaStringCheckUtf8_; // 0x3A
+        public 0x65950580 OptimizeForDefaultValue; // 0x1C
+        public 0x65950580 optimizeFor_; // 0x3C
+        public string GoPackageDefaultValue; // 0x20
+        public string goPackage_; // 0x40
+        public bool CcGenericServicesDefaultValue; // 0x28
+        public bool ccGenericServices_; // 0x48
+        public bool JavaGenericServicesDefaultValue; // 0x29
+        public bool javaGenericServices_; // 0x49
+        public bool PyGenericServicesDefaultValue; // 0x2A
+        public bool pyGenericServices_; // 0x4A
+        public bool PhpGenericServicesDefaultValue; // 0x2B
+        public bool phpGenericServices_; // 0x4B
+        public bool DeprecatedDefaultValue; // 0x2C
+        public bool deprecated_; // 0x4C
+        public bool CcEnableArenasDefaultValue; // 0x2D
+        public bool ccEnableArenas_; // 0x4D
+        public string ObjcClassPrefixDefaultValue; // 0x30
+        public string objcClassPrefix_; // 0x50
+        public string CsharpNamespaceDefaultValue; // 0x38
+        public string csharpNamespace_; // 0x58
+        public string SwiftPrefixDefaultValue; // 0x40
+        public string swiftPrefix_; // 0x60
+        public string PhpClassPrefixDefaultValue; // 0x48
+        public string phpClassPrefix_; // 0x68
+        public string PhpNamespaceDefaultValue; // 0x50
+        public string phpNamespace_; // 0x70
+        public string PhpMetadataNamespaceDefaultValue; // 0x58
+        public string phpMetadataNamespace_; // 0x78
+        public string RubyPackageDefaultValue; // 0x60
+        public string rubyPackage_; // 0x80
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x68
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A69170
@@ -633,6 +850,14 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class GeneratedClrTypeInfo
     {
+        public string[] EmptyNames;
+        public Google.Protobuf.Reflection.GeneratedClrTypeInfo[] EmptyCodeInfo; // 0x8
+        public Google.Protobuf.Extension[] EmptyExtensions; // 0x10
+        public System.Type <ClrType>k__BackingField; // 0x10
+        public Google.Protobuf.MessageParser <Parser>k__BackingField; // 0x18
+        public string[] <PropertyNames>k__BackingField; // 0x20
+        public Google.Protobuf.Extension[] <Extensions>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_ClrType(){} // RVA: 0x2F8380
         public void set_ClrType(){} // RVA: 0x2DEE30
@@ -648,6 +873,11 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class GeneratedCodeInfo
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.GeneratedCodeInfo> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Annotation> _repeated_annotation_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Annotation> annotation_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A7B320
         public void get_Descriptor(){} // RVA: 0x5A7B380
@@ -695,6 +925,18 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MessageDescriptor
     {
+        public System.Collections.Generic.HashSet`1<string> WellKnownTypeNames;
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FieldDescriptor> fieldsInDeclarationOrder; // 0x28
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FieldDescriptor> fieldsInNumberOrder; // 0x30
+        public System.Collections.Generic.IDictionary`2<string,Google.Protobuf.Reflection.FieldDescriptor> jsonFieldMap; // 0x38
+        public Google.Protobuf.Reflection.DescriptorProto <Proto>k__BackingField; // 0x40
+        public System.Type <ClrType>k__BackingField; // 0x48
+        public Google.Protobuf.MessageParser <Parser>k__BackingField; // 0x50
+        public Google.Protobuf.Reflection.MessageDescriptor <ContainingType>k__BackingField; // 0x58
+        public FieldCollection <Fields>k__BackingField; // 0x60
+        public Google.Protobuf.Reflection.ExtensionCollection <Extensions>k__BackingField; // 0x68
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.MessageDescriptor> <NestedTypes>k__BackingField; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A86F30
         public void CreateJsonFieldMap(){} // RVA: 0x5A87CC0
@@ -718,6 +960,20 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MessageOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.MessageOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.MessageOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool MessageSetWireFormatDefaultValue; // 0x8
+        public bool messageSetWireFormat_; // 0x24
+        public bool NoStandardDescriptorAccessorDefaultValue; // 0x9
+        public bool noStandardDescriptorAccessor_; // 0x25
+        public bool DeprecatedDefaultValue; // 0xA
+        public bool deprecated_; // 0x26
+        public bool MapEntryDefaultValue; // 0xB
+        public bool mapEntry_; // 0x27
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x10
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A6D440
@@ -760,6 +1016,9 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MethodDescriptor
     {
+        public Google.Protobuf.Reflection.MethodDescriptorProto proto; // 0x28
+        public Google.Protobuf.Reflection.ServiceDescriptor service; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A89310
         public void get_Proto(){} // RVA: 0x30B130
@@ -769,6 +1028,21 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MethodDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.MethodDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x20
+        public string InputTypeDefaultValue; // 0x10
+        public string inputType_; // 0x28
+        public string OutputTypeDefaultValue; // 0x18
+        public string outputType_; // 0x30
+        public Google.Protobuf.Reflection.MethodOptions options_; // 0x38
+        public bool ClientStreamingDefaultValue; // 0x20
+        public bool clientStreaming_; // 0x40
+        public bool ServerStreamingDefaultValue; // 0x21
+        public bool serverStreaming_; // 0x41
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A677E0
         public void get_Descriptor(){} // RVA: 0x5A67840
@@ -810,6 +1084,16 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MethodOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.MethodOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.MethodOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool DeprecatedDefaultValue; // 0x8
+        public bool deprecated_; // 0x24
+        public 0x65950C08 IdempotencyLevelDefaultValue; // 0xC
+        public 0x65950C08 idempotencyLevel_; // 0x28
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x10
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A74870
@@ -844,6 +1128,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OneofAccessor
     {
+        public System.Func`2<Google.Protobuf.IMessage,int> caseDelegate; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A898E0
         public void ForRegularOneof(){} // RVA: 0x5A899E0
@@ -855,6 +1141,12 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OneofDescriptor
     {
+        public Google.Protobuf.Reflection.MessageDescriptor containingType; // 0x28
+        public System.Collections.Generic.IList`1<Google.Protobuf.Reflection.FieldDescriptor> fields; // 0x30
+        public Google.Protobuf.Reflection.OneofAccessor accessor; // 0x38
+        public Google.Protobuf.Reflection.OneofDescriptorProto <Proto>k__BackingField; // 0x40
+        public bool <IsSynthetic>k__BackingField; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A89F30
         public void get_Name(){} // RVA: 0x5A8A260
@@ -869,6 +1161,12 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OneofDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.OneofDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x18
+        public Google.Protobuf.Reflection.OneofOptions options_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A61400
         public void get_Descriptor(){} // RVA: 0x5A61460
@@ -894,6 +1192,12 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OneofOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.OneofOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.OneofOptions> _extensions; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.UninterpretedOption> uninterpretedOption_; // 0x20
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A70290
@@ -920,6 +1224,9 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OriginalNameAttribute
     {
+        public string <Name>k__BackingField; // 0x10
+        public bool <PreferredAlias>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -930,6 +1237,10 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class PackageDescriptor
     {
+        public string name; // 0x10
+        public string fullName; // 0x18
+        public Google.Protobuf.Reflection.FileDescriptor file; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A8AC80
         public void get_Name(){} // RVA: 0x2F8380
@@ -939,6 +1250,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ReflectionUtil
     {
+        public System.Type[] EmptyTypes;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x5A8AD90
         public void ForceInitialize(){} // RVA: 0x24A80
@@ -965,6 +1278,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ServiceDescriptor
     {
+        public Google.Protobuf.Reflection.ServiceDescriptorProto proto; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A8C290
         public void get_Name(){} // RVA: 0x5A8C5F0
@@ -974,6 +1289,14 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ServiceDescriptorProto
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.ServiceDescriptorProto> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string NameDefaultValue; // 0x8
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.MethodDescriptorProto> _repeated_method_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.Reflection.MethodDescriptorProto> method_; // 0x20
+        public Google.Protobuf.Reflection.ServiceOptions options_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A66170
         public void get_Descriptor(){} // RVA: 0x5A661D0
@@ -1000,6 +1323,14 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ServiceOptions
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.ServiceOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.ExtensionSet`1<Google.Protobuf.Reflection.ServiceOptions> _extensions; // 0x18
+        public int _hasBits0; // 0x20
+        public bool DeprecatedDefaultValue; // 0x8
+        public bool deprecated_; // 0x24
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.Reflection.UninterpretedOption> _repeated_uninterpretedOption_codec; // 0x10
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x2E07C0
         public void get_Parser(){} // RVA: 0x5A736E0
@@ -1040,6 +1371,11 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class SourceCodeInfo
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.SourceCodeInfo> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Location> _repeated_location_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Location> location_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A78A30
         public void get_Descriptor(){} // RVA: 0x5A78A90
@@ -1060,6 +1396,8 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class TypeRegistry
     {
+        public Google.Protobuf.Reflection.TypeRegistry <Empty>k__BackingField;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x5A8DEF0
         public void .ctor(){} // RVA: 0x2DEE30
@@ -1069,6 +1407,23 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class UninterpretedOption
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.Reflection.UninterpretedOption> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Google.Protobuf.FieldCodec`1<NamePart> _repeated_name_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<NamePart> name_; // 0x20
+        public string IdentifierValueDefaultValue; // 0x10
+        public string identifierValue_; // 0x28
+        public ulong PositiveIntValueDefaultValue; // 0x18
+        public ulong positiveIntValue_; // 0x30
+        public long NegativeIntValueDefaultValue; // 0x20
+        public long negativeIntValue_; // 0x38
+        public double DoubleValueDefaultValue; // 0x28
+        public double doubleValue_; // 0x40
+        public Google.Protobuf.ByteString StringValueDefaultValue; // 0x30
+        public Google.Protobuf.ByteString stringValue_; // 0x48
+        public string AggregateValueDefaultValue; // 0x38
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A75C00
         public void get_Descriptor(){} // RVA: 0x5A75C60

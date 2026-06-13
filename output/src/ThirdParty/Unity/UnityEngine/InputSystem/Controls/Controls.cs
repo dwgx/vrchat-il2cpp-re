@@ -28,6 +28,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class ButtonControl
     {
+        public bool m_NeedsToCheckFramePress; // 0x130
+        public uint m_UpdateCountLastPressed; // 0x134
+        public uint m_UpdateCountLastReleased; // 0x138
+        public bool m_LastUpdateWasPress; // 0x13C
+        public bool <needsToCheckFramePress>k__BackingField; // 0x13D
+
         // ── Methods ──
         public void get_needsToCheckFramePress(){} // RVA: 0x646FC70
         public void set_needsToCheckFramePress(){} // RVA: 0x6DC3080
@@ -43,6 +49,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DeltaControl
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <up>k__BackingField; // 0x120
+        public UnityEngine.InputSystem.Controls.AxisControl <down>k__BackingField; // 0x128
+        public UnityEngine.InputSystem.Controls.AxisControl <left>k__BackingField; // 0x130
+        public UnityEngine.InputSystem.Controls.AxisControl <right>k__BackingField; // 0x138
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x59E660
         public void set_up(){} // RVA: 0x59F420
@@ -75,6 +86,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DpadControl
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <up>k__BackingField; // 0x120
+        public UnityEngine.InputSystem.Controls.ButtonControl <down>k__BackingField; // 0x128
+        public UnityEngine.InputSystem.Controls.ButtonControl <left>k__BackingField; // 0x130
+        public UnityEngine.InputSystem.Controls.ButtonControl <right>k__BackingField; // 0x138
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x59E660
         public void set_up(){} // RVA: 0x59F420
@@ -102,6 +118,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class KeyControl
     {
+        public 0x65868BE0 <keyCode>k__BackingField; // 0x148
+        public int m_ScanCode; // 0x14C
+
         // ── Methods ──
         public void get_keyCode(){} // RVA: 0x15FA5E0
         public void set_keyCode(){} // RVA: 0x15DF3A0
@@ -112,6 +131,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class QuaternionControl
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <x>k__BackingField; // 0x120
+        public UnityEngine.InputSystem.Controls.AxisControl <y>k__BackingField; // 0x128
+        public UnityEngine.InputSystem.Controls.AxisControl <z>k__BackingField; // 0x130
+        public UnityEngine.InputSystem.Controls.AxisControl <w>k__BackingField; // 0x138
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x59E660
         public void set_x(){} // RVA: 0x59F420
@@ -130,6 +154,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class StickControl
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <up>k__BackingField; // 0x120
+        public UnityEngine.InputSystem.Controls.ButtonControl <down>k__BackingField; // 0x128
+        public UnityEngine.InputSystem.Controls.ButtonControl <left>k__BackingField; // 0x130
+        public UnityEngine.InputSystem.Controls.ButtonControl <right>k__BackingField; // 0x138
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x59E660
         public void set_up(){} // RVA: 0x59F420
@@ -145,6 +174,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class TouchControl
     {
+        public UnityEngine.InputSystem.Controls.TouchPressControl <press>k__BackingField; // 0x170
+        public UnityEngine.InputSystem.Controls.IntegerControl <displayIndex>k__BackingField; // 0x178
+        public UnityEngine.InputSystem.Controls.IntegerControl <touchId>k__BackingField; // 0x180
+        public UnityEngine.InputSystem.Controls.Vector2Control <position>k__BackingField; // 0x188
+        public UnityEngine.InputSystem.Controls.DeltaControl <delta>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.AxisControl <pressure>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector2Control <radius>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.TouchPhaseControl <phase>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Controls.ButtonControl <indirectTouch>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <tap>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.IntegerControl <tapCount>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.DoubleControl <startTime>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.Vector2Control <startPosition>k__BackingField; // 0x1D0
+
         // ── Methods ──
         public void get_press(){} // RVA: 0x830040
         public void set_press(){} // RVA: 0xD8E320
@@ -198,6 +241,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector2Control
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <x>k__BackingField; // 0x110
+        public UnityEngine.InputSystem.Controls.AxisControl <y>k__BackingField; // 0x118
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x507710
         public void set_x(){} // RVA: 0x509930
@@ -213,6 +259,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector3Control
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <x>k__BackingField; // 0x118
+        public UnityEngine.InputSystem.Controls.AxisControl <y>k__BackingField; // 0x120
+        public UnityEngine.InputSystem.Controls.AxisControl <z>k__BackingField; // 0x128
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x507D10
         public void set_x(){} // RVA: 0x50A8C0

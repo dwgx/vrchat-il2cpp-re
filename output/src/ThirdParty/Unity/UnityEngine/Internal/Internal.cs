@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Internal
 {
     public class DefaultValueAttribute
     {
+        public object DefaultValue; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Value(){} // RVA: 0x33B6D40

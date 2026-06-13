@@ -19,6 +19,16 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Index
     {
+        public System.Data.DataTable _table; // 0x10
+        public System.Data.IndexField[] _indexFields; // 0x18
+        public System.Comparison`1<System.Data.DataRow> _comparison; // 0x20
+        public 0x658EB4D8 _recordStates; // 0x28
+        public System.WeakReference _rowFilter; // 0x30
+        public IndexTree _records; // 0x38
+        public int _recordCount; // 0x40
+        public int _refCount; // 0x44
+        public System.Data.Listeners`1<System.Data.DataViewListener> _listeners; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x672FB90 | overloaded x3
         public void GetAllFields(){} // RVA: 0x672F9E0
@@ -83,6 +93,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class InternalDataCollectionBase
     {
+        public System.ComponentModel.CollectionChangeEventArgs s_refreshEventArgs;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x66EAEB0
         public void CopyTo(){} // RVA: 0x66EAEF0

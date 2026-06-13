@@ -71,6 +71,9 @@ namespace ThirdParty.DotNet.System.Resources
 
     public class NeutralResourcesLanguageAttribute
     {
+        public string <CultureName>k__BackingField; // 0x10
+        public 0x657F2D08 <Location>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D48E30
         public void get_CultureName(){} // RVA: 0x2F8380
@@ -87,8 +90,8 @@ namespace ThirdParty.DotNet.System.Resources
 
     public class ResourceLocator
     {
-        public object Key;
-        public object Current;
+        public object Key; // 0x10
+        public int Current; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D16F70
@@ -100,6 +103,10 @@ namespace ThirdParty.DotNet.System.Resources
 
     public class ResourceManager
     {
+        public string BaseNameField; // 0x10
+        public System.Collections.Hashtable ResourceSets; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,System.Resources.ResourceSet> _resourceSets; // 0x20
+
         // ── Methods ──
         public void Init(){} // RVA: 0x5D4E5D0
         public void .ctor(){} // RVA: 0x5D4E8D0 | overloaded x2
@@ -182,6 +189,8 @@ namespace ThirdParty.DotNet.System.Resources
 
     public class SatelliteContractVersionAttribute
     {
+        public string <Version>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D4AF00
         public void get_Version(){} // RVA: 0x2F8380

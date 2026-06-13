@@ -29,6 +29,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class IndexExpression
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x10
+        public System.Linq.Expressions.Expression <Object>k__BackingField; // 0x18
+        public System.Reflection.PropertyInfo <Indexer>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FA170 | overloaded x2
         public void get_NodeType(){} // RVA: 0x65F9D60
@@ -63,6 +67,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InstanceMethodCallExpression1 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDE40
         public void GetArgument(){} // RVA: 0x6600120
@@ -74,6 +80,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InstanceMethodCallExpression2 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FEB40
         public void GetArgument(){} // RVA: 0x6600410
@@ -85,6 +93,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InstanceMethodCallExpression3 : .ctor
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FF130
         public void GetArgument(){} // RVA: 0x6600850
@@ -96,6 +106,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InstanceMethodCallExpressionN : .ctor
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDE40
         public void GetArgument(){} // RVA: 0x65FDF20
@@ -107,6 +119,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FA5E0 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380
@@ -134,6 +149,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression1
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FA900
         public void GetOrMakeArguments(){} // RVA: 0x65E7630
@@ -144,6 +161,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression2
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FAAC0
         public void GetOrMakeArguments(){} // RVA: 0x65E7630
@@ -154,6 +173,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression3
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FAD30
         public void GetOrMakeArguments(){} // RVA: 0x65E7630
@@ -164,6 +185,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression4
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FB020
         public void GetOrMakeArguments(){} // RVA: 0x65E7630
@@ -174,6 +197,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpression5
     {
+        public object _arg0; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FB3B0
         public void GetOrMakeArguments(){} // RVA: 0x65E7630
@@ -184,6 +209,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class InvocationExpressionN
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FA610
         public void GetOrMakeArguments(){} // RVA: 0x65FA680

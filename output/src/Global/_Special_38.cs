@@ -509,8 +509,8 @@ public class <>c__DisplayClassf
 
 public class <>f__AnonymousType0`2
 {
-    public object assembly;
-    public object type;
+    public U assembly;
+    public T type;
 
     // ── Methods ──
     public void get_Window(){} // RVA: 0x283FA0
@@ -523,8 +523,8 @@ public class <>f__AnonymousType0`2
 
 public class <>f__AnonymousType0`2
 {
-    public object Assembly;
-    public object Attribute;
+    public U Assembly;
+    public T Attribute;
 
     // ── Methods ──
     public void get_assembly(){} // RVA: 0x283FA0
@@ -537,8 +537,8 @@ public class <>f__AnonymousType0`2
 
 public class <>f__AnonymousType0`2
 {
-    public object Reason;
-    public object Category;
+    public U Reason;
+    public T Category;
 
     // ── Methods ──
     public void get_Assembly(){} // RVA: 0x283FA0
@@ -551,9 +551,9 @@ public class <>f__AnonymousType0`2
 
 public class <>f__AnonymousType0`3
 {
-    public object CanonicalName;
-    public object Type;
-    public object Class;
+    public U CanonicalName;
+    public V Type;
+    public T Class;
 
     // ── Methods ──
     public void get_Reason(){} // RVA: 0x283FA0
@@ -567,6 +567,10 @@ public class <>f__AnonymousType0`3
 
 public class <>f__AnonymousType1`3
 {
+    public U <CanonicalName>i__Field;
+    public V <Type>i__Field;
+    public T <Class>i__Field;
+
     // ── Methods ──
     public void get_CanonicalName(){} // RVA: 0x283FA0
     public void get_Type(){} // RVA: 0x283FA0
@@ -590,6 +594,9 @@ public class <AcquireAsync>d__2 : [I
 
 public class <Activate>d__5
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -601,6 +608,9 @@ public class <Activate>d__5
 
 public class <ActiveToDisabled>d__176
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -612,6 +622,9 @@ public class <ActiveToDisabled>d__176
 
 public class <ActiveToKinematic>d__177
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -644,6 +657,9 @@ public class <AddSecurityResourcesAsync>d__15 : [I
 
 public class <AfterPhysics>d__38
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -655,6 +671,9 @@ public class <AfterPhysics>d__38
 
 public class <AfterSelf>d__49
 {
+    public int <>1__state; // 0x10
+    public Newtonsoft.Json.Linq.JToken <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -731,6 +750,9 @@ public class <AggregateAwaitWithCancellationAsync>d__8`3 : <>t__builder
 
 public class <AliveToDead>d__228
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -763,6 +785,9 @@ public class <AllAwaitWithCancellationAsync>d__2`1 : <>t__builder
 
 public class <AnalyzeGeometry>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9ABBA50

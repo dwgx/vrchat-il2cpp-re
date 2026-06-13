@@ -66,6 +66,8 @@ public class Ref
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0xD840
     public void .ctor(){} // RVA: 0x24A50
@@ -77,6 +79,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -88,6 +92,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -99,6 +105,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -110,6 +118,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -121,6 +131,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -132,6 +144,8 @@ public class RefCounted
 
 public class RefCounted
 {
+    public uint m_NextId;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x32A5C0
     public void .ctor(){} // RVA: 0x3F4E8A0
@@ -185,8 +199,8 @@ public class ReferenceEqualsEqualityComparer
 
 public class References
 {
-    public object position;
-    public object rotation;
+    public UnityEngine.Transform position; // 0x10
+    public UnityEngine.Transform rotation; // 0x18
 
     // ── Methods ──
     public void GetTransforms(){} // RVA: 0x3AD4A0
@@ -198,7 +212,7 @@ public class References
 
 public class ReflectedTypeData
 {
-    public object ExtenderProviderKey;
+    public System.Type ExtenderProviderKey; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
@@ -272,6 +286,18 @@ public class RelationshipHandle
 
 public class RelativeBoundingBox
 {
+    public Google.Protobuf.MessageParser`1<RelativeBoundingBox> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int XminFieldNumber;
+    public float XminDefaultValue; // 0x8
+    public float xmin_; // 0x1C
+    public int YminFieldNumber;
+    public float YminDefaultValue; // 0xC
+    public float ymin_; // 0x20
+    public int WidthFieldNumber;
+    public float WidthDefaultValue; // 0x10
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B19AF0
     public void get_Descriptor(){} // RVA: 0x5B19B50
@@ -307,6 +333,18 @@ public class RelativeBoundingBox
 
 public class RelativeKeypoint
 {
+    public Google.Protobuf.MessageParser`1<RelativeKeypoint> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int XFieldNumber;
+    public float XDefaultValue; // 0x8
+    public float x_; // 0x1C
+    public int YFieldNumber;
+    public float YDefaultValue; // 0xC
+    public float y_; // 0x20
+    public int KeypointLabelFieldNumber;
+    public string KeypointLabelDefaultValue; // 0x10
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B1BC20
     public void get_Descriptor(){} // RVA: 0x5B1BC80
@@ -392,7 +430,8 @@ public class RenderMirrorEventDelegate
 
 public class RenderModel
 {
-    public object instance;
+    public UnityEngine.Mesh instance; // 0x10
+    public UnityEngine.Material <material>k__BackingField; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
@@ -404,6 +443,8 @@ public class RenderModel
 
 public class RenderModelInterfaceHolder
 {
+    public bool needsShutdown; // 0x10
+
     // ── Methods ──
     public void get_instance(){} // RVA: 0x651EF30
     public void Dispose(){} // RVA: 0x651F060
@@ -493,6 +534,12 @@ public class ReplacementList
 
 public class ReplayController
 {
+    public bool <finished>k__BackingField; // 0x10
+    public bool <paused>k__BackingField; // 0x11
+    public int <position>k__BackingField; // 0x14
+    public UnityEngine.InputSystem.LowLevel.InputEventTrace m_EventTrace; // 0x18
+    public Enumerator m_Enumerator; // 0x20
+
     // ── Methods ──
     public void get_trace(){} // RVA: 0x2E07C0
     public void get_finished(){} // RVA: 0x3A75E0
@@ -591,6 +638,9 @@ public class RequestObject
 
 public class RequiredValue
 {
+    public string <value>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <error>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_value(){} // RVA: 0x358D50
     public void set_value(){} // RVA: 0x358D60
@@ -601,6 +651,9 @@ public class RequiredValue
 
 public class ReservedName
 {
+    public string <displayName>k__BackingField; // 0x68
+    public System.DateTime <expires>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_displayName(){} // RVA: 0x358D50
     public void set_displayName(){} // RVA: 0x358D60
@@ -611,6 +664,14 @@ public class ReservedName
 
 public class ReservedRange
 {
+    public Google.Protobuf.MessageParser`1<ReservedRange> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int StartDefaultValue; // 0x8
+    public int start_; // 0x1C
+    public int EndDefaultValue; // 0xC
+    public int end_; // 0x20
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5A5CFF0
     public void get_Descriptor(){} // RVA: 0x5A5D050
@@ -680,6 +741,11 @@ public class Resource
 
 public class ResourceEnumerator
 {
+    public System.Resources.ResourceReader _reader; // 0x10
+    public bool _currentIsValid; // 0x18
+    public int _currentName; // 0x1C
+    public int _dataPosition; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D57200
     public void MoveNext(){} // RVA: 0x5D57270
@@ -693,9 +759,7 @@ public class ResourceEnumerator
 
 public class ResourceManagerMediator
 {
-    public object DataPosition;
-    public object Value;
-    public object .ctor;
+    public System.Resources.ResourceManager DataPosition; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D52340
@@ -725,6 +789,8 @@ public class ResourceProvider
 
 public class ResourceRequestAwaiter : .ctor
 {
+    public UnityEngine.ResourceRequest asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void get_IsCompleted(){} // RVA: 0x6D365A0
@@ -735,6 +801,8 @@ public class ResourceRequestAwaiter : .ctor
 
 public class ResourceRequestConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<ResourceRequestConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D39CB0
@@ -776,6 +844,10 @@ public class ResponseObject
 
 public class Result
 {
+    public 0x65858C78<T> <Status>k__BackingField;
+    public System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField;
+    public T <Argument>k__BackingField;
+
     // ── Methods ──
     public void get_Status(){} // RVA: 0x283FA0
     public void get_Success(){} // RVA: 0xDBE0
@@ -786,6 +858,9 @@ public class Result
 
 public class Result
 {
+    public 0x65858C78<object> <Status>k__BackingField; // 0x10
+    public System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField; // 0x18
+    public object <Argument>k__BackingField; // 0x20
 }
 
 public class ResultCallback

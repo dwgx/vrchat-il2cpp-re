@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Nist
 {
     public class NistNamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void DefineCurveAlias(){} // RVA: 0x978DB20

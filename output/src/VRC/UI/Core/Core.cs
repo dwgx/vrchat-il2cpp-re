@@ -17,6 +17,8 @@ namespace VRC.UI.Core
 
     public class UIElement
     {
+        public ÎÏÍÏÌÏÍÍÌÎÏÍÌÌÏÍÎÎÏÏÏÍÏ ÍÍÍÌÌÏÎÌÌÏÌÏÌÏÏÌÎÌÎÍÏÎÎ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x30B0D0
@@ -44,6 +46,8 @@ namespace VRC.UI.Core
 
     public class UIManager
     {
+        public VRC.UI.Core.UIManager ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+
         // ── Methods ──
         public void Awake_69273C59850D(){} // RVA: 0x8ACE1E0
         public void RaiseCancellation(){} // RVA: 0x8ACE380

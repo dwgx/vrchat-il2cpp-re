@@ -23,6 +23,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class CastInstruction
     {
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Boolean;
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Byte; // 0x8
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Char; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -47,6 +51,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class CoalescingBranchInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0x6610AE0
         public void get_InstructionName(){} // RVA: 0x6610BC0
@@ -64,6 +70,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class CreateDelegateInstruction
     {
+        public System.Linq.Expressions.Interpreter.LightDelegateCreator _creator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ConsumedStack(){} // RVA: 0x6656AB0

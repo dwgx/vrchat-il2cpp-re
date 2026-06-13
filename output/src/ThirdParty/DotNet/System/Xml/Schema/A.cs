@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class ActiveAxis
     {
+        public int _currentDepth; // 0x10
+
         // ── Methods ──
         public void get_CurrentDepth(){} // RVA: 0x32A5C0
         public void Reactivate(){} // RVA: 0x6ACFB90
@@ -18,6 +20,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class AllElementsContentValidator
     {
+        public System.Collections.Hashtable elements; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AE1ED0
         public void AddElement(){} // RVA: 0x6AE20C0
@@ -31,7 +35,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Asttree
     {
-        public object PreserveWhitespace;
+        public System.Collections.ArrayList PreserveWhitespace; // 0x10
 
         // ── Methods ──
         public void get_SubtreeArray(){} // RVA: 0x2F8380
@@ -57,7 +61,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class AxisElement
     {
-        public object Subtree;
+        public System.Xml.Schema.DoubleLinkAxis Subtree; // 0x10
 
         // ── Methods ──
         public void get_CurNode(){} // RVA: 0x2F8380
@@ -69,7 +73,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class AxisStack
     {
-        public object CurrentDepth;
+        public System.Collections.ArrayList CurrentDepth; // 0x10
+        public System.Xml.Schema.ForwardAxis _subtree; // 0x18
 
         // ── Methods ──
         public void get_Subtree(){} // RVA: 0x2E07C0

@@ -16,6 +16,8 @@ namespace VRC.SDKBase.Validation
 
     public class VRCSdkWhitelistAttribute
     {
+        public 0x65A0B318 <name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x32A5C0
         public void .ctor(){} // RVA: 0x2E00C0

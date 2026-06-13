@@ -14,6 +14,8 @@ namespace ThirdParty.Other.ZLogger.Formatters
 
     public class PlainTextZLoggerFormatter
     {
+        public byte[] newLine;
+
         // ── Methods ──
         public void get_WithLineBreak(){} // RVA: 0x3C2850
         public void SetPrefixFormatter(){} // RVA: 0x9B18B30

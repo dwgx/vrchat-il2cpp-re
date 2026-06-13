@@ -11,6 +11,8 @@ public class BCrypt
 
 public class BaggageEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,string>> _enumerator; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void get_Current(){} // RVA: 0x5BB41A0
@@ -22,6 +24,8 @@ public class BaggageEnumerator
 
 public class BaggageLinkedList
 {
+    public System.Diagnostics.DiagNode`1<System.Collections.Generic.KeyValuePair`2<string,string>> _first; // 0x10
+
     // ── Methods ──
     public void get_First(){} // RVA: 0x2F8380
     public void GetEnumerator(){} // RVA: 0x67DC900
@@ -53,6 +57,8 @@ public class BakingStateCache
 
 public class BaseVisualElementScheduledItem
 {
+    public UnityEngine.UIElements.VisualElement <element>k__BackingField; // 0x38
+
     // ── Methods ──
     public void get_element(){} // RVA: 0x4976A0
     public void set_element(){} // RVA: 0x49B830
@@ -70,6 +76,9 @@ public class BaseVisualElementScheduledItem
 
 public class BasicEntropySource
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom mSecureRandom; // 0x10
+    public bool mPredictionResistant; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7122250
     public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant(){} // RVA: 0x2F84E0
@@ -106,13 +115,7 @@ public class BigNumberBuffer
 
 public class BinaryExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Expressions;
-    public object NodeType;
-    public object Result;
-    public object Type;
-    public object Variables;
+    public System.Linq.Expressions.BinaryExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DA600
@@ -130,6 +133,15 @@ public class BinaryExpressionProxy
 
 public class BinaryMask
 {
+    public Google.Protobuf.MessageParser`1<BinaryMask> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int WidthFieldNumber;
+    public int WidthDefaultValue; // 0x8
+    public int width_; // 0x1C
+    public int HeightFieldNumber;
+    public int HeightDefaultValue; // 0xC
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B1AB20
     public void get_Descriptor(){} // RVA: 0x5B1AB80
@@ -197,26 +209,20 @@ public class BindingRestrictionsProxy
 
 public class BindingState
 {
-    public object phase;
-    public object isDisabled;
-    public object isWaiting;
-    public object isStarted;
-    public object isPerformed;
-    public object isCanceled;
-    public object time;
-    public object startTime;
-    public object magnitude;
-    public object haveMagnitude;
-    public object mapIndex;
-    public object controlIndex;
-    public object bindingIndex;
-    public object interactionIndex;
-    public object lastPerformedInUpdate;
-    public object lastCompletedInUpdate;
-    public object lastCanceledInUpdate;
-    public object pressedInUpdate;
-    public object releasedInUpdate;
-    public object isPassThrough;
+    public byte phase; // 0x10
+    public byte isDisabled; // 0x11
+    public byte isWaiting; // 0x12
+    public byte isStarted; // 0x13
+    public byte isPerformed; // 0x14
+    public byte isCanceled; // 0x15
+    public ushort time; // 0x16
+    public ushort startTime; // 0x18
+    public ushort magnitude; // 0x1A
+    public ushort haveMagnitude; // 0x1C
+    public ushort mapIndex; // 0x1E
+    public double controlIndex; // 0x20
+    public int bindingIndex; // 0x28
+    public int interactionIndex; // 0x2C
 
     // ── Methods ──
     public void get_controlStartIndex(){} // RVA: 0x6DB3C60
@@ -262,6 +268,10 @@ public class BindingState
 
 public class BindingSyntax
 {
+    public UnityEngine.InputSystem.InputActionMap m_ActionMap; // 0x10
+    public UnityEngine.InputSystem.InputAction m_Action; // 0x18
+    public int m_BindingIndexInMap; // 0x20
+
     // ── Methods ──
     public void get_valid(){} // RVA: 0x6DA6BD0
     public void get_bindingIndex(){} // RVA: 0x6DA6C40
@@ -313,6 +323,8 @@ public class BioWriteFunc
 
 public class BitArrayEnumeratorSimple : .ctor
 {
+    public System.Collections.BitArray bitarray; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E04770
     public void Clone(){} // RVA: 0x5D7B480
@@ -323,6 +335,8 @@ public class BitArrayEnumeratorSimple : .ctor
 
 public class BitRegion
 {
+    public uint bitOffset; // 0x10
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x6DD1D20
     public void .ctor(){} // RVA: 0x6DD1D30 | overloaded x2
@@ -405,6 +419,10 @@ public class BlitInfo
 
 public class Block : get_Bytes
 {
+    public Range Range; // 0x10
+    public int BytesPerItem; // 0x20
+    public int AllocatedItems; // 0x24
+
     // ── Methods ──
     public void get_Bytes(){} // RVA: 0x6D76C80
     public void get_AllocatedBytes(){} // RVA: 0x6D76C90
@@ -416,7 +434,7 @@ public class Block : get_Bytes
 
 public class Block
 {
-    public object isEmpty;
+    public uint isEmpty; // 0x18
 
     // ── Methods ──
     public void get_size(){} // RVA: 0x73401B0
@@ -425,10 +443,7 @@ public class Block
 
 public class BlockExpressionProxy
 {
-    public object Body;
-    public object Filter;
-    public object Test;
-    public object Variable;
+    public System.Linq.Expressions.BlockExpression Body; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DA740
@@ -473,6 +488,9 @@ public class Body
 
 public class BodyJointLocation
 {
+    public 0x658C3E10 LocationFlags; // 0x10
+    public Posef Pose; // 0x18
+
     // ── Methods ──
     public void get_OrientationValid(){} // RVA: 0x6170FA0
     public void get_PositionValid(){} // RVA: 0x6170FB0
@@ -482,6 +500,9 @@ public class BodyJointLocation
 
 public class BodyPart
 {
+    public float <sqrMag>k__BackingField; // 0x10
+    public float <mag>k__BackingField; // 0x14
+
     // ── Methods ──
     public void OnRead(){}
     public void PreSolve(){} // RVA: 0x24A50
@@ -513,18 +534,24 @@ public class BodyStateInternal
 
 public class Bone
 {
+    public int childIndex; // 0x10
+
     // ── Methods ──
     public void get_isSimulated(){} // RVA: 0x76B6390
 }
 
 public class Bone
 {
+    public UnityEngine.Transform transform; // 0x10
+
     // ── Methods ──
     public void get_isEndBone(){} // RVA: 0x5CE6DF0
 }
 
 public class Bone
 {
+    public float length; // 0x58
+
     // ── Methods ──
     public void get_rotationLimit(){} // RVA: 0x3CC850
     public void set_rotationLimit(){} // RVA: 0x3CCA60
@@ -537,6 +564,7 @@ public class Bone
 
 public class Bone
 {
+    public float length; // 0x58
 }
 
 public class BoneCapsule
@@ -553,6 +581,10 @@ public class BoneLink
 
 public class BoneMap
 {
+    public UnityEngine.Transform transform; // 0x10
+    public int chainIndex; // 0x18
+    public int nodeIndex; // 0x1C
+
     // ── Methods ──
     public void Initiate(){} // RVA: 0x3C2AB0
     public void get_swingDirection(){} // RVA: 0x3C2B40
@@ -773,6 +805,18 @@ public class BoundedChannelWriter
 
 public class BoundingBox
 {
+    public Google.Protobuf.MessageParser`1<BoundingBox> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int XminFieldNumber;
+    public int XminDefaultValue; // 0x8
+    public int xmin_; // 0x1C
+    public int YminFieldNumber;
+    public int YminDefaultValue; // 0xC
+    public int ymin_; // 0x20
+    public int WidthFieldNumber;
+    public int WidthDefaultValue; // 0x10
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B18D50
     public void get_Descriptor(){} // RVA: 0x5B18DB0
@@ -847,6 +891,18 @@ public class BoxAvoidance
 
 public class BoxBoundariesIndices
 {
+    public Google.Protobuf.MessageParser`1<BoxBoundariesIndices> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int YminDefaultValue; // 0x8
+    public int ymin_; // 0x1C
+    public int XminDefaultValue; // 0xC
+    public int xmin_; // 0x20
+    public int YmaxDefaultValue; // 0x10
+    public int ymax_; // 0x24
+    public int XmaxDefaultValue; // 0x14
+    public int xmax_; // 0x28
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AEFD80
     public void get_Descriptor(){} // RVA: 0x5AEFDE0
@@ -888,7 +944,7 @@ public class BrainEvent
 
 public class BrainFrame
 {
-    public object System.Collections.Generic.IEnumerator<System.Object>.Current;
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
 
     // ── Methods ──
     public void get_Active(){} // RVA: 0x1CD1AC0

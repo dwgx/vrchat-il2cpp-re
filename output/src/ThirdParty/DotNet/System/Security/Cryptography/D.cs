@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class DES
     {
+        public System.Security.Cryptography.KeySizes[] s_legalBlockSizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C78A90
         public void get_Key(){} // RVA: 0x5C78BC0
@@ -66,6 +68,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DSACryptoServiceProvider
     {
+        public int PROV_DSS_DH;
+        public Mono.Security.Cryptography.KeyPairPersistence store; // 0x20
+        public bool persistKey; // 0x28
+        public bool persisted; // 0x29
+        public bool privateKeyExportable; // 0x2A
+        public bool m_disposed; // 0x2B
+        public Mono.Security.Cryptography.DSAManaged dsa; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CA6E30 | overloaded x4
         public void Common(){} // RVA: 0x5CA74A0 | overloaded x2
@@ -124,6 +134,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DerSequenceReader
     {
+        public System.Globalization.DateTimeFormatInfo s_validityDateTimeFormatInfo;
+        public System.Text.Encoding s_utf8EncodingWithExceptionFallback; // 0x8
+
         // ── Methods ──
         public void set_ContentLength(){} // RVA: 0x99E0D0
         public void .ctor(){} // RVA: 0x6C2FBD0 | overloaded x3

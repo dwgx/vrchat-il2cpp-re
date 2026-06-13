@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.Futures
-// Classes: 5
+// Classes: 6
 // Methods: 39
 
 namespace ThirdParty.BestHTTP.BestHTTP.Futures
@@ -34,6 +34,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Futures
 
     public class Future`1
     {
+        public 0x657C3B30 _state;
+        public T _value;
+        public System.Exception _error;
+
         // ── Methods ──
         public void get_state(){} // RVA: 0xD840
         public void get_value(){} // RVA: 0x283FA0
@@ -67,6 +71,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Futures
         public void OnSuccess(){} // RVA: 0xCE10
         public void OnError(){} // RVA: 0xCE10
         public void OnComplete(){} // RVA: 0xCE10
+    }
+
+    public class IFuture`1
+    {
     }
 
 }

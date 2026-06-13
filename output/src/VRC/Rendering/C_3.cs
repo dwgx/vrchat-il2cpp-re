@@ -968,6 +968,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÎÍÌÎÏÏÎÎÍÏÍÌÌÏÎÍÎÎÌÏÎÌ</summary>
     public class CameraCanWritePosition_FCC8
     {
+        public ÌÌÎÍÏÍÌÎÎÎÍÏÌÏÎÌÏÍÎÏÏÏÌ ÏÌÌÍÎÍÏÏÍÌÏÍÎÎÎÍÏÍÎÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void set_CanWrite(){} // RVA: 0x1A37D40
         public void get_CanWrite(){} // RVA: 0x1A37D60

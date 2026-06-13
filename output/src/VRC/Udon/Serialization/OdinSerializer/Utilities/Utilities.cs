@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer.Utilities
-// Classes: 33
-// Methods: 334
+// Classes: 53
+// Methods: 492
 
 namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 {
     public class Cache`1
     {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver;
+        public object[] FreeValues;
+
         // ── Methods ──
         public void get_MaxCacheSize(){} // RVA: 0xD870
         public void set_MaxCacheSize(){} // RVA: 0x25E50
@@ -21,8 +25,170 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
         public void .cctor(){} // RVA: 0x24A80
     }
 
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
+    public class Cache`1
+    {
+        public System.Threading.SpinLock FreeValuesLock;
+        public bool IsNotificationReceiver; // 0x4
+        public object[] FreeValues; // 0x8
+
+        // ── Methods ──
+        public void get_MaxCacheSize(){} // RVA: 0x574C260
+        public void set_MaxCacheSize(){} // RVA: 0x574C300
+        public void .ctor(){} // RVA: 0x574C400
+        public void get_IsFree(){} // RVA: 0x3A75E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.get_Value(){} // RVA: 0x2E07C0
+        public void Claim(){} // RVA: 0x574C480
+        public void Release(){} // RVA: 0x574D1C0 | overloaded x2
+        public void Purge(){} // RVA: 0x574CFE0
+        public void op_Implicit(){} // RVA: 0x574D1B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x574D1C0
+        public void .cctor(){} // RVA: 0x574D230
+    }
+
     public class DoubleLookupDictionary`3
     {
+        public System.Collections.Generic.IEqualityComparer`1<V> secondKeyComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DC60 | overloaded x2
         public void get_Item(){} // RVA: 0x283FA0
@@ -35,8 +201,95 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
         public void RemoveWhere(){} // RVA: 0x24B10
     }
 
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<System.Type> secondKeyComparer; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2E62190 | overloaded x2
+        public void get_Item(){} // RVA: 0x2E62210
+        public void InnerCount(){} // RVA: 0x2E62300
+        public void TotalInnerCount(){} // RVA: 0x2E613B0
+        public void ContainsKeys(){} // RVA: 0x2E62360
+        public void TryGetInnerValue(){} // RVA: 0x2E62400
+        public void AddInner(){} // RVA: 0x2E624A0
+        public void RemoveInner(){} // RVA: 0x2E62730
+        public void RemoveWhere(){} // RVA: 0x2E62800
+    }
+
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<System.Type> secondKeyComparer; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2E62190 | overloaded x2
+        public void get_Item(){} // RVA: 0x2E62210
+        public void InnerCount(){} // RVA: 0x2E62300
+        public void TotalInnerCount(){} // RVA: 0x2E613B0
+        public void ContainsKeys(){} // RVA: 0x2E62360
+        public void TryGetInnerValue(){} // RVA: 0x2E62400
+        public void AddInner(){} // RVA: 0x2E624A0
+        public void RemoveInner(){} // RVA: 0x2E62730
+        public void RemoveWhere(){} // RVA: 0x2E62800
+    }
+
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<System.Type> secondKeyComparer; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2E62190 | overloaded x2
+        public void get_Item(){} // RVA: 0x2E62210
+        public void InnerCount(){} // RVA: 0x2E62300
+        public void TotalInnerCount(){} // RVA: 0x2E613B0
+        public void ContainsKeys(){} // RVA: 0x2E62360
+        public void TryGetInnerValue(){} // RVA: 0x2E62400
+        public void AddInner(){} // RVA: 0x2E624A0
+        public void RemoveInner(){} // RVA: 0x2E62730
+        public void RemoveWhere(){} // RVA: 0x2E62800
+    }
+
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<System.Type> secondKeyComparer; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2E62190 | overloaded x2
+        public void get_Item(){} // RVA: 0x2E62210
+        public void InnerCount(){} // RVA: 0x2E62300
+        public void TotalInnerCount(){} // RVA: 0x2E613B0
+        public void ContainsKeys(){} // RVA: 0x2E62360
+        public void TryGetInnerValue(){} // RVA: 0x2E62400
+        public void AddInner(){} // RVA: 0x2E624A0
+        public void RemoveInner(){} // RVA: 0x2E62730
+        public void RemoveWhere(){} // RVA: 0x2E62800
+    }
+
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy> secondKeyComparer; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2E62190 | overloaded x2
+        public void get_Item(){} // RVA: 0x2E62210
+        public void InnerCount(){} // RVA: 0x2E62300
+        public void TotalInnerCount(){} // RVA: 0x2E613B0
+        public void ContainsKeys(){} // RVA: 0x2E62360
+        public void TryGetInnerValue(){} // RVA: 0x2E62400
+        public void AddInner(){} // RVA: 0x2E624A0
+        public void RemoveInner(){} // RVA: 0x2E62730
+        public void RemoveWhere(){} // RVA: 0x2E62800
+    }
+
+    public class DoubleLookupDictionary`3
+    {
+        public System.Collections.Generic.IEqualityComparer`1<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy> secondKeyComparer; // 0x50
+    }
+
     public class EmitUtilities
     {
+        public System.Reflection.Assembly EngineAssembly;
+
         // ── Methods ──
         public void get_CanEmit(){} // RVA: 0x2DD320
         public void EmitIsIllegalForMember(){} // RVA: 0x78AE850
@@ -113,8 +366,22 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
         public void get_Item(){} // RVA: 0x283FA0
     }
 
+    public class IImmutableList`1
+    {
+    }
+
+    public class IImmutableList`1
+    {
+    }
+
+    public class IImmutableList`1
+    {
+    }
+
     public class ImmutableList
     {
+        public System.Collections.IList innerList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78B01B0
         public void get_Count(){} // RVA: 0x78B0260
@@ -147,6 +414,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`1
     {
+        public System.Collections.Generic.IList`1<T> innerList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void get_Count(){} // RVA: 0xD840
@@ -182,6 +451,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`2
     {
+        public U innerList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
         public void get_Count(){} // RVA: 0xD840
@@ -224,6 +495,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasFieldInfo
     {
+        public string FAKE_NAME_SEPARATOR_STRING;
+        public System.Reflection.FieldInfo aliasedField; // 0x10
+        public string mangledName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78B1010 | overloaded x2
         public void get_AliasedField(){} // RVA: 0x2F8380
@@ -243,6 +518,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasMethodInfo
     {
+        public string FAKE_NAME_SEPARATOR_STRING;
+        public System.Reflection.MethodInfo aliasedMethod; // 0x10
+        public string mangledName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78B1010 | overloaded x2
         public void get_AliasedMethod(){} // RVA: 0x2F8380
@@ -263,6 +542,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasPropertyInfo
     {
+        public string FakeNameSeparatorString;
+        public System.Reflection.PropertyInfo aliasedProperty; // 0x10
+        public string mangledName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78B1010 | overloaded x2
         public void get_AliasedProperty(){} // RVA: 0x2F8380
@@ -328,6 +611,33 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
         public void GetHashCode(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x24A50
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class ReferenceEqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3473E20
+        public void GetHashCode(){} // RVA: 0x3F4F5D0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x3379340
+    }
+
+    public class ReferenceEqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3473E20
+        public void GetHashCode(){} // RVA: 0x3F4F5D0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x3379340
+    }
+
+    public class ReferenceEqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3473E20
+        public void GetHashCode(){} // RVA: 0x3F4F5D0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x3379340
     }
 
     public class StringExtensions

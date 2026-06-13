@@ -96,7 +96,7 @@ namespace VRC.World
     /// <summary>Originally: ÍÏÍÍÍÏÎÍÏÍÎÎÎÎÍÏÍÏÌÎÎÏÌ</summary>
     public class SpawnComponent_D9F3
     {
-        public object _d9F3;
+        public ÍÌÏÌÌÎÎÍÍÎÌÏÍÎÍÍÎÏÏÍÌÏÏ _d9F3; // 0x20
 
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
@@ -119,6 +119,8 @@ namespace VRC.World
     /// <summary>Originally: ÎÎÎÍÏÎÌÌÌÌÎÎÎÎÍÌÌÍÍÎÎÎÌ</summary>
     public class UserRoomRectComponent_CDC4
     {
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ groupListBinding; // 0x138
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x8DC4A40
         public void Clear(){} // RVA: 0x8DC4CE0
@@ -150,6 +152,8 @@ namespace VRC.World
     /// <summary>Originally: ÌÌÎÌÌÎÍÌÍÏÌÎÏÏÍÎÎÌÏÎÎÏÏ</summary>
     public class UserRoomRectComponent_F0A4
     {
+        public UnityEngine.UI.Button closeButton; // 0x138
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x8D749E0
         public void .ctor(){} // RVA: 0x8D74A10
@@ -177,6 +181,18 @@ namespace VRC.World
     /// <summary>Originally: ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ</summary>
     public class WorldProximityExitStation_C9A0
     {
+        public ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ[] ÏÌÌÌÌÎÎÍÏÎÌÍÌÍÌÎÍÎÌÌÏÎÏ;
+        public System.Collections.Generic.Dictionary`2<uint,ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ> ÌÌÏÏÏÍÌÎÏÌÎÌÏÌÍÎÍÎÍÌÍÎÎ; // 0x8
+        public VRC.SDKBase.VRCStation ÌÍÍÎÍÌÎÌÍÌÎÍÌÌÏÎÏÍÏÏÍÍÎ; // 0x58
+        public VRCSDK2.VRC_Station ÌÌÌÌÌÏÌÍÍÎÏÌÍÍÏÏÏÍÌÎÌÍÍ; // 0x60
+        public VRC.SDK3.Components.VRCStation ÌÍÏÍÏÏÎÎÍÎÎÎÍÎÍÏÎÌÎÌÌÍÍ; // 0x68
+        public VRC.Udon.UdonBehaviour ÎÌÎÎÌÎÏÍÏÎÏÍÍÏÏÍÍÌÎÏÏÍÌ; // 0x70
+        public VRC.SDKBase.VRC_Interactable ÏÌÎÏÍÎÌÎÍÌÌÏÍÏÍÍÍÍÏÏÏÏÌ; // 0x78
+        public VRC.SDKBase.VRC_PropController ÌÏÍÌÏÏÏÍÍÍÍÌÏÍÏÎÍÎÍÌÏÍÏ; // 0x80
+        public CustomTriggerTarget ÏÍÌÌÏÏÌÍÏÏÍÏÌÏÍÌÍÍÏÎÎÍÎ; // 0x88
+        public UnityEngine.Vector3 ÎÎÎÌÎÌÏÎÎÍÌÏÌÎÍÏÏÎÎÌÎÍÏ; // 0x90
+        public UnityEngine.Vector3 ÍÍÌÌÌÍÌÌÎÏÌÎÏÍÎÏÏÏÌÌÏÏÏ; // 0x9C
+
         // ── Methods ──
         public void GetLocalPosition(){} // RVA: 0x1701EC0
         public void set_Item(){} // RVA: 0x17027C0
@@ -375,6 +391,8 @@ namespace VRC.World
     /// <summary>Originally: ÎÌÌÏÎÎÏÎÏÌÌÎÌÎÌÏÏÌÍÎÏÎÎ</summary>
     public class WorldSpawnSibling_B0D0
     {
+        public UnityEngine.UI.Button playButton; // 0x20
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x92C6940
         public void get_Item_D96B488E71E3(){} // RVA: 0x92C6970
@@ -414,6 +432,8 @@ namespace VRC.World
     /// <summary>Originally: ÎÌÎÏÍÏÏÏÍÏÏÌÍÌÎÎÌÎÍÎÎÍÎ</summary>
     public class WorldSpawn_532E
     {
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _customizeButton; // 0x68
+
         // ── Methods ──
         public void Start(){} // RVA: 0x8B71510
         public void Ctor(){} // RVA: 0x8B71690

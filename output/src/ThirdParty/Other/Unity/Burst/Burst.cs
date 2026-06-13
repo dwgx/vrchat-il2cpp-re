@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Burst
-// Classes: 11
+// Classes: 14
 // Methods: 86
 
 namespace ThirdParty.Other.Unity.Burst
@@ -13,6 +13,11 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompileAttribute
     {
+        public 0x659E6A60 <FloatMode>k__BackingField; // 0x10
+        public 0x659E6AB8 <FloatPrecision>k__BackingField; // 0x14
+        public System.Nullable`1<bool> _compileSynchronously; // 0x18
+        public string[] <Options>k__BackingField; // 0x20
+
         // ── Methods ──
         public void set_FloatMode(){} // RVA: 0x2E00C0
         public void set_FloatPrecision(){} // RVA: 0x8AC660
@@ -23,6 +28,8 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompiler
     {
+        public bool _IsEnabled;
+
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x6D6C600
         public void CompileILPPMethod2(){} // RVA: 0x6D6C6A0
@@ -36,6 +43,11 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompilerOptions
     {
+        public bool ForceDisableBurstCompilation;
+        public bool ForceBurstCompilationSynchronously; // 0x1
+        public bool IsSecondaryUnityProcess; // 0x2
+        public bool _enableBurstCompilation; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6D6E7E0
         public void get_IsGlobal(){} // RVA: 0x195A940
@@ -106,9 +118,16 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class FunctionPointer`1
     {
+        public UIntPtr _ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24CC0
         public void get_Invoke(){} // RVA: 0x283FA0
+    }
+
+    public class FunctionPointer`1
+    {
+        public UIntPtr _ptr;
     }
 
     public class SharedStatic
@@ -119,10 +138,22 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class SharedStatic`1
     {
+        public void* _buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
         public void get_Data(){} // RVA: 0xCD60
         public void GetOrCreateUnsafe(){} // RVA: 0x283FA0
+    }
+
+    public class SharedStatic`1
+    {
+        public void* _buffer; // 0x10
+    }
+
+    public class SharedStatic`1
+    {
+        public void* _buffer; // 0x10
     }
 
     public class Unsafe

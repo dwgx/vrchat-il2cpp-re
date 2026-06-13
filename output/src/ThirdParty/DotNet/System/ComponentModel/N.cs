@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class NestedContainer
     {
+        public System.ComponentModel.IComponent <Owner>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C716C0
         public void get_Owner(){} // RVA: 0x35A740
@@ -19,6 +21,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class NotifyParentPropertyAttribute
     {
+        public System.ComponentModel.NotifyParentPropertyAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_NotifyParent(){} // RVA: 0x3A75E0
@@ -30,6 +34,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class NullableConverter
     {
+        public System.Type <NullableType>k__BackingField; // 0x10
+        public System.Type <UnderlyingType>k__BackingField; // 0x18
+        public System.ComponentModel.TypeConverter <UnderlyingTypeConverter>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C72390
         public void CanConvertFrom(){} // RVA: 0x6C72590

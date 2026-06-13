@@ -19,7 +19,9 @@ namespace VRC.Core
 
     public class TextureDirectCopy
     {
-        public object PreprocessOrder;
+        public string PreprocessOrder;
+        public bool _initialized;
+        public bool _available; // 0x1
 
         // ── Methods ──
         public void VRCTexCopy_Initialize(){} // RVA: 0x9A68BE0

@@ -928,8 +928,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÌÍÏÍÍÎÏÎÌÏÌÌÎÎÍÏÎÌÌÍÌÏ</summary>
     public class CameraComponentSystem_EE75
     {
-        public object f_14B;
-        public object f_3A1;
+        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ f_14B; // 0x20
+        public UnityEngine.Animator f_3A1; // 0x28
 
         // ── Methods ──
         public void SetBackgroundColor(){} // RVA: 0x1108680

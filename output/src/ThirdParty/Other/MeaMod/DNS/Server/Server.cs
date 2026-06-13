@@ -29,6 +29,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class ConcurrentSet`1
     {
+        public int DefaultConcurrencyLevel;
+        public int DefaultCapacity;
+        public System.Collections.Concurrent.ConcurrentDictionary`2<T,byte> _dictionary;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x3
         public void get_Count(){} // RVA: 0xD840
@@ -49,6 +53,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class NameServer
     {
+        public MeaMod.DNS.Server.Catalog <Catalog>k__BackingField; // 0x10
+        public bool <AnswerAllQuestions>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Catalog(){} // RVA: 0x2F8380
         public void set_Catalog(){} // RVA: 0x2DEE30
@@ -66,9 +73,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class Node
     {
-        public object Message;
-        public object RemoteEndPoint;
-        public object IsLegacyUnicast;
+        public MeaMod.DNS.Model.DomainName Message; // 0x10
+        public MeaMod.DNS.Server.ConcurrentSet`1<MeaMod.DNS.Model.ResourceRecord> RemoteEndPoint; // 0x18
+        public bool IsLegacyUnicast; // 0x20
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380

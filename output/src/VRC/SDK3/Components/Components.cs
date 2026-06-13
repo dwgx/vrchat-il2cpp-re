@@ -96,7 +96,7 @@ namespace VRC.SDK3.Components
 
     public class VRCInputFieldKeyboardOverride
     {
-        public object StartResolveURLCoroutine;
+        public 0x6597E6D8 StartResolveURLCoroutine; // 0x20
 
         // ── Methods ──
         public void get_OverrideBehavior(){} // RVA: 0x760030
@@ -128,6 +128,10 @@ namespace VRC.SDK3.Components
 
     public class VRCObjectSync
     {
+        public bool AllowCollisionOwnershipTransfer; // 0x20
+        public bool ForceKinematicOnRemote; // 0x21
+        public System.Action`2<VRC.SDK3.Components.VRCObjectSync,bool> <SetKinematicHook>k__BackingField;
+
         // ── Methods ──
         public void get_SetKinematicHook(){} // RVA: 0x9A3AF90
         public void set_SetKinematicHook(){} // RVA: 0x9A3AFF0
@@ -201,6 +205,8 @@ namespace VRC.SDK3.Components
 
     public class VRCTween
     {
+        public VRC.SDK3.Components.VRCTweenRunner _runner;
+
         // ── Methods ──
         public void get_Runner(){} // RVA: 0x9A4C670
         public void TweenPosition(){} // RVA: 0x9A4CCE0 | overloaded x2
@@ -251,6 +257,8 @@ namespace VRC.SDK3.Components
 
     public class VRCTweenHandle
     {
+        public int Id; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x833580
         public void get_IsValid(){} // RVA: 0x61D2420
@@ -374,6 +382,51 @@ namespace VRC.SDK3.Components
 
     public class VRCUrlInputField
     {
+        public System.Action onSelected; // 0x100
+        public UnityEngine.TouchScreenKeyboard m_Keyboard; // 0x108
+        public char[] kSeparators;
+        public bool s_AreDevicesEvaluated; // 0x8
+        public bool s_IsQuestDevice; // 0x9
+        public bool s_IsPicoDevice; // 0xA
+        public UnityEngine.UI.Text m_TextComponent; // 0x110
+        public UnityEngine.UI.Graphic m_Placeholder; // 0x118
+        public 0x6597E890 m_ContentType; // 0x120
+        public 0x6597E8E8 m_InputType; // 0x124
+        public char m_AsteriskChar; // 0x128
+        public 0x6589C430 m_KeyboardType; // 0x12C
+        public 0x6597E998 m_LineType; // 0x130
+        public bool m_HideMobileInput; // 0x134
+        public 0x6597E940 m_CharacterValidation; // 0x138
+        public int m_CharacterLimit; // 0x13C
+        public SubmitEvent m_OnEndEdit; // 0x140
+        public OnChangeEvent m_OnValueChanged; // 0x148
+        public OnValidateInput m_OnValidateInput; // 0x150
+        public UnityEngine.Color m_CaretColor; // 0x158
+        public bool m_CustomCaretColor; // 0x168
+        public UnityEngine.Color m_SelectionColor; // 0x16C
+        public string m_Text; // 0x180
+        public float m_CaretBlinkRate; // 0x188
+        public int m_CaretWidth; // 0x18C
+        public bool m_ReadOnly; // 0x190
+        public bool m_ShouldActivateOnSelect; // 0x191
+        public int m_CaretPosition; // 0x194
+        public int m_CaretSelectPosition; // 0x198
+        public UnityEngine.RectTransform caretRectTrans; // 0x1A0
+        public UnityEngine.UIVertex[] m_CursorVerts; // 0x1A8
+        public UnityEngine.TextGenerator m_InputTextCache; // 0x1B0
+        public UnityEngine.CanvasRenderer m_CachedInputRenderer; // 0x1B8
+        public bool m_PreventFontCallback; // 0x1C0
+        public UnityEngine.Mesh m_Mesh; // 0x1C8
+        public bool m_AllowInput; // 0x1D0
+        public bool m_ShouldActivateNextUpdate; // 0x1D1
+        public bool m_UpdateDrag; // 0x1D2
+        public bool m_DragPositionOutOfBounds; // 0x1D3
+        public float kHScrollSpeed;
+        public float kVScrollSpeed;
+        public bool m_CaretVisible; // 0x1D4
+        public UnityEngine.Coroutine m_BlinkCoroutine; // 0x1D8
+        public float m_BlinkStartTime; // 0x1E0
+
         // ── Methods ──
         public void GetUrl(){} // RVA: 0x9A3D240
         public void SetUrl(){} // RVA: 0x9A3D580

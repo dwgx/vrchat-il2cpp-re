@@ -29,8 +29,9 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÎÌÏÌÍÍÌÌÌÌÌÎÏÍÍÎÍÌÍÍÏÍ</summary>
     public class ComplexComponentImpl_FE07SibliSibling_8103
     {
-        public object x;
-        public object y;
+        public string x; // 0x20
+        public UnityEngine.RectTransform y; // 0x28
+        public UnityEngine.UI.Button _button; // 0x30
 
         // ── Methods ──
         public void CreateComplexComponentSibli_0C8CACCFE864(){} // RVA: 0x8EB74A0 | overloaded x2
@@ -145,6 +146,9 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÌÍÏÏÎÏÍÏÍÌÌÌÌÎÍÌÍÌÍÌÍÍ</summary>
     public class ComplexComponentSiblingSiblingSibling_744C
     {
+        public UnityEngine.GameObject _sidePanelButtonPrefab; // 0x20
+        public ÌÏÎÌÍÍÍÏÎÍÎÎÌÌÏÌÌÍÌÏÏÏÎ _dataContextSelectorGroup; // 0x28
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void Awake(){} // RVA: 0x8F4D1E0
@@ -175,6 +179,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÍÍÌÏÏÎÎÍÎÏÌÌÍÌÎÎÎÍÏÏÏ</summary>
     public class ComplexComponentSiblingSibling_D534_21ED
     {
+        public ÍÌÍÌÎÍÎÎÏÌÏÏÏÍÍÌÎÎÌÏÍÌÏ _scrollRect; // 0x138
+
         // ── Methods ──
         public void RegisterComponent(){} // RVA: 0x90CE320
         public void Awake(){} // RVA: 0x90CE550
@@ -236,6 +242,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÌÎÌÎÌÍÌÏÎÏÍÏÏÎÏÏÍÏÏÏÍÏ</summary>
     public class ComplexComponentSibling_809B_737F
     {
+        public ÏÎÌÎÎÌÏÍÎÍÍÏÎÏÌÌÎÏÌÎÍÌÍ ÍÌÏÌÍÏÌÌÏÏÏÍÍÎÏÌÎÎÌÎÏÍÏ; // 0x10
+        public ÏÎÌÎÎÌÏÍÎÍÍÏÎÏÌÌÎÏÌÎÍÌÍ ÏÍÌÌÍÏÎÎÏÌÏÏÎÏÎÎÎÏÏÎÌÍÏ; // 0x14
+        public ÏÎÌÎÎÌÏÍÎÍÍÏÎÏÌÌÎÏÌÎÍÌÍ ÎÌÎÎÌÎÍÎÍÏÏÏÌÏÌÌÍÏÏÎÏÏÎ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1A6E260
         public void Equals(){} // RVA: 0x6461D90
@@ -303,6 +313,12 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÏÍÌÍÎÌÎÌÌÌÌÌÎÍÎÎÍÏÍÍÎÏ</summary>
     public class ComplexComponent_8C61SiblRelated_2799
     {
+        public string ÌÌÌÍÌÍÎÏÏÏÍÏÏÍÌÎÏÌÎÏÏÎÏ;
+        public string ÎÌÍÏÏÎÏÏÍÎÍÍÎÏÎÌÏÌÎÏÏÍÏ;
+        public string ÍÌÎÏÏÌÌÏÌÏÏÍÎÏÌÌÎÍÎÏÌÌÏ;
+        public string ÌÌÏÍÎÌÎÎÎÎÏÎÏÍÎÎÏÌÌÍÎÌÌ;
+        public string ÌÌÏÌÏÌÏÏÍÌÏÏÎÏÏÏÍÏÌÍÏÏÌ;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
@@ -412,6 +428,19 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÎÎÏÌÏÎÌÎÏÌÎÌÏÎÍÍÌÍÌÌÏÌ</summary>
     public class ComplexComponent_8C61SiblingSiSibling_446F
     {
+        public ÎÎÏÏÍÏÍÏÍÍÌÍÎÎÏÍÏÎÏÎÍÏÌ ÍÍÍÍÏÌÍÏÏÍÏÌÏÎÌÎÎÌÌÍÌÍÍ; // 0x10
+        public ÏÎÎÎÎÌÍÍÏÏÎÌÏÎÎÍÏÎÏÏÍÌÏ ÍÎÌÍÎÌÌÌÎÏÍÍÎÌÏÏÏÎÎÎÌÍÌ; // 0x18
+        public ÎÎÎÎÌÎÍÍÏÎÎÍÌÌÏÌÏÎÎÌÍÎÎ ÍÏÏÌÌÍÌÍÎÏÍÍÎÏÏÎÎÏÌÎÍÍÌ; // 0x20
+        public System.Action`1<double> ÏÍÍÏÎÌÎÎÎÍÎÍÏÌÍÍÍÏÍÎÌÎÎ; // 0x28
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÏÌÍÏÌÎÍÎÎÌÎÎÏÎÏÍÌÎÍÏÎÍÏ>k__BackingField; // 0x30
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÏÎÏÌÎÍÏÍÎÎÌÌÌÌÍÏÍÍÌÍÎÍÏ>k__BackingField; // 0x38
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<bool> <ÎÎÏÏÌÎÎÍÎÎÏÍÏÏÌÏÎÏÌÏÎÍÌ>k__BackingField; // 0x40
+        public bool <ÍÍÌÍÏÍÍÍÌÎÎÎÌÏÏÏÏÌÌÏÌÎÏ>k__BackingField; // 0x48
+        public string ÎÌÌÏÌÍÍÏÍÏÏÍÏÍÍÏÌÌÌÌÏÍÎ; // 0x50
+        public string <ÏÎÏÌÍÌÎÎÎÌÎÍÏÌÍÎÎÌÍÏÏÍÏ>k__BackingField; // 0x58
+        public ÏÍÎÏÌÌÌÍÎÌÌÍÌÎÏÍÌÍÌÏÏÎÍ ÍÌÍÎÍÏÏÌÏÌÏÏÍÏÏÍÎÏÏÌÌÏÍ; // 0x60
+        public int ÌÍÍÍÌÍÌÎÌÏÍÏÌÍÎÎÎÏÎÏÍÏÏ;
+
         // ── Methods ──
         public void get_K3(){} // RVA: 0x5B1C70
         public void .ctor(){} // RVA: 0xF9B710
@@ -488,6 +517,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÎÎÏÍÎÌÎÏÏÍÍÏÎÏÌÎÎÌÍÏÍÌ</summary>
     public class ComplexComponent_8C61SiblingSiSibling_4861
     {
+        public System.Action`1<VRC.DataModel.Challenges.ChallengeUpdateEvent> <ÌÎÎÏÍÌÏÍÍÎÏÎÍÌÎÎÎÏÍÎÏÎÎ>k__BackingField; // 0x28
+        public System.Action`1<VRC.DataModel.Challenges.ChallengeCompleteEvent> <ÌÎÏÏÎÌÍÌÎÎÍÏÌÏÍÌÌÍÎÏÍÍÌ>k__BackingField; // 0x30
+        public bool ÎÏÍÏÌÌÌÍÏÌÎÍÌÏÍÎÏÌÍÍÍÌÌ; // 0x38
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x2DEE90
         public void OnDisable(){} // RVA: 0x30B890
@@ -525,6 +558,12 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÌÌÎÍÏÍÎÍÎÎÏÍÌÌÎÌÌÍÎÏÍÎ</summary>
     public class ComplexComponent_8C61SiblingSiSibling_9E96
     {
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x657869E8>[] ÎÏÏÏÍÌÎÎÎÍÎÌÏÍÎÏÌÎÏÏÌÏÏ;
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x657869E8>[] ÏÎÏÏÏÎÍÏÎÎÎÎÎÌÌÏÏÎÎÏÌÎÏ; // 0x8
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x657869E8>[] ÎÌÎÍÎÌÏÍÌÌÎÌÏÍÏÏÏÌÏÎÏÎÍ; // 0x10
+        public System.Collections.Generic.List`1<VRC.Localization.LocalizableOptionData> ÍÍÍÍÏÍÌÏÏÌÌÏÍÌÍÎÍÏÌÎÌÌÌ; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÌÏÌÏÏÎÌÏÌÍÏÎÏÎÌÎÏÍÍÍÌÎÎ; // 0x20
+
         // ── Methods ──
         public void InvokeDelegate(){} // RVA: 0x8CBD690
         public void InvokeDelegate_E926737D5F63(){} // RVA: 0x8CBD8B0
@@ -558,6 +597,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÌÎÍÏÏÌÏÏÌÍÍÎÎÎÏÌÍÎÍÎÎÌ</summary>
     public class ComplexComponent_8C61SiblingSiSibling_AF02
     {
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x65786780>[] ÌÍÌÍÌÍÌÏÍÏÎÎÍÏÌÎÏÎÏÍÎÌÍ;
+
         // ── Methods ──
         public void GetIsPartOfStaticBatch(){} // RVA: 0x8CB8420
         public void GetIsVisible(){} // RVA: 0x8CB8540
@@ -705,6 +746,12 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÍÎÏÏÍÏÍÌÎÏÌÍÌÎÏÌÍÎÎÍÌ</summary>
     public class ComplexComponent_8C61SiblingSibling_801A
     {
+        public bool ÎÏÍÏÏÎÍÍÌÏÏÍÌÌÍÎÌÌÎÍÎÍÌ; // 0x238
+        public bool <ÍÍÎÌÌÍÏÏÌÍÍÏÎÏÎÏÏÎÎÍÎÌÎ>k__BackingField; // 0x239
+        public bool <ÍÍÎÏÏÎÏÏÍÏÍÏÌÍÎÎÏÏÌÌÎÎÌ>k__BackingField; // 0x23A
+        public bool <ÌÌÎÏÎÍÌÍÏÎÍÏÏÍÌÎÎÎÏÍÏÌÌ>k__BackingField; // 0x23B
+        public System.Nullable`1<System.DateTime> <ÍÍÍÍÍÎÏÎÌÍÎÎÍÏÌÏÍÏÎÎÌÎÏ>k__BackingField; // 0x240
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF2EA40
         public void Initialize(){} // RVA: 0xF2EFA0
@@ -722,6 +769,22 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÏÍÏÏÌÍÏÏÎÌÍÍÎÎÌÍÎÌÌÎÌÌ</summary>
     public class ComplexComponent_8C61SiblingSibling_DE0C
     {
+        public System.Random ÌÎÎÎÍÌÏÏÌÏÌÍÎÎÌÏÌÎÌÏÌÌÌ;
+        public System.Action ÌÌÎÌÏÍÍÏÌÏÎÍÌÏÍÍÌÌÌÌÏÎÏ; // 0x8
+        public string ÍÏÎÍÍÍÏÎÎÏÍÎÍÌÍÌÍÎÎÏÌÍÎ; // 0x10
+        public 0x6588A9F8 ÏÍÍÌÏÍÌÏÍÌÌÎÌÍÎÎÎÎÎÏÏÏÌ; // 0x18
+        public VRC.DataModel.SearchParameters ÌÌÌÎÌÍÎÏÏÎÌÍÍÏÏÎÎÌÌÏÌÏÍ; // 0x20
+        public System.Collections.Generic.ICollection`1<string> ÍÌÍÍÌÌÎÌÎÎÌÌÎÌÌÌÏÍÍÎÎÌÌ; // 0x28
+        public string ÎÍÎÏÍÌÍÎÌÏÌÏÍÌÏÍÍÌÏÍÎÌÌ;
+        public string ÏÎÎÌÍÎÏÎÎÎÏÏÌÍÌÍÏÌÌÎÎÌÌ;
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ>> <ÍÍÍÎÍÌÏÎÌÍÍÏÏÏÌÍÏÍÏÌÏÏÏ>k__BackingField; // 0x10
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ>> <ÎÏÏÎÎÌÌÍÍÏÌÌÍÎÏÏÍÏÎÍÍÎÍ>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ>>> <ÌÍÏÏÌÎÏÍÌÏÏÎÎÍÎÏÎÏÏÎÎÎÌ>k__BackingField; // 0x20
+        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÏÏÍÏÎÏÏÎÌÏÍÏÌÎÎÌÍÍÍÍÎÎÏ>k__BackingField; // 0x28
+        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÌÍÎÎÌÌÏÏÍÏÍÍÏÍÌÍÌÎÍÎÌÏÏ>k__BackingField; // 0x30
+        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÍÌÌÏÍÏÏÍÎÍÍÎÏÏÎÍÍÏÌÏÎÍÍ>k__BackingField; // 0x38
+        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÎÌÍÎÌÌÏÏÏÎÌÌÎÌÌÍÌÍÎÎÎÍÍ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xBF4370
         public void get_Current(){} // RVA: 0x2F8380
@@ -775,6 +838,17 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÎÎÎÎÏÏÍÎÏÎÏÌÏÏÎÎÍÎÎÏÍÌ</summary>
     public class ComplexComponent_8C61Sibling_1837
     {
+        public ÌÎÎÎÎÏÏÍÎÏÎÏÌÏÏÎÎÍÎÎÏÍÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public float ÎÍÏÍÍÌÏÏÏÎÌÏÎÎÎÎÌÌÌÍÏÌÍ;
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÏÎÏÏÎÎÏÏÎÍÍÎÍÌÎÎÌÎÍÍÍÍÌ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x10
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÏÎÏÏÎÎÏÏÎÍÍÎÍÌÎÎÌÎÍÍÍÍÌ>> <ÍÌÍÏÎÍÎÌÎÍÌÏÏÍÍÍÌÎÎÌÌÏÌ>k__BackingField; // 0x18
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ> <ÎÎÏÏÍÍÍÍÍÎÎÏÌÎÌÌÎÍÏÎÏÍÎ>k__BackingField; // 0x20
+        public ÌÌÏÏÏÏÌÎÎÌÏÎÌÍÎÌÍÍÏÏÌÍÌ <ÌÍÎÍÎÎÌÏÎÎÏÏÌÎÏÏÎÌÌÍÌÍÏ>k__BackingField; // 0x28
+        public ÌÌÏÏÏÏÌÎÎÌÏÎÌÍÎÌÍÍÏÏÌÍÌ <ÌÏÌÏÌÌÏÏÌÍÌÎÍÍÎÎÏÌÍÏÎÎÎ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÎÎÍÌÌÌÍÏÏÌÍÏÎÏÌÏÌÌÌÌÎÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÌÍÏÍÎÎÍÎÎÎÍÌÎÍÏÍÎÏÎÌÎÌ>k__BackingField; // 0x40
+        public string ÏÍÌÌÍÎÍÌÏÍÌÍÍÎÎÍÏÎÏÎÏÌÌ;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void Equals(){} // RVA: 0x343E80
@@ -851,6 +925,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÎÏÌÎÎÍÍÌÍÍÍÍÍÌÌÏÌÌÌÎÌÍ</summary>
     public class ComplexComponent_8C61Sibling_31E0
     {
+        public System.Action ÌÎÏÎÌÍÎÍÌÏÍÍÎÍÎÏÌÌÍÍÍÌÎ; // 0x10
+        public System.Action ÎÍÌÍÏÌÍÎÌÎÌÌÏÌÏÎÍÌÎÎÌÎÍ; // 0x18
+        public System.Action ÏÏÌÌÍÌÍÎÎÍÍÎÌÌÏÎÎÎÏÌÌÎÍ; // 0x20
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x68B300
         public void Contains(){} // RVA: 0xB29EF0
@@ -883,6 +961,12 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÏÌÍÍÌÏÎÍÎÎÏÍÌÌÌÌÍÎÏÍÌÍ</summary>
     public class RefreshServices_2226
     {
+        public int ÎÎÍÎÌÎÏÏÌÏÍÏÏÍÍÎÍÏÌÏÏÍÌ; // 0x20
+        public string ÍÍÌÍÎÎÏÎÏÌÍÏÎÌÌÏÎÍÍÌÏÍÎ; // 0x28
+        public int ÎÏÎÎÌÌÌÎÍÍÏÌÍÏÌÏÎÏÎÍÎÍÍ; // 0x30
+        public ÎÏÌÍÍÌÏÎÍÎÎÏÍÌÌÌÌÍÎÏÍÌÍ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public OscCore.OscServer ÎÎÌÌÎÏÍÎÏÏÏÏÎÌÍÌÌÍÎÌÏÎÎ; // 0x38
+
         // ── Methods ──
         public void SampleHumanoidRefreshData(){} // RVA: 0x1404670
         public void SampleHumanoidRefreshData_4E87DFEBEEE9(){} // RVA: 0x1404B80
@@ -982,6 +1066,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÍÌÎÎÌÎÏÌÍÍÎÍÌÌÌÍÎÍÎÎÎ</summary>
     public class Service21m_642E_F2E6
     {
+        public ÏÍÌÎÌÏÌÍÌÍÏÍÍÌÎÎÎÏÏÍÎÏÏ <ÍÎÏÎÎÏÎÏÍÌÌÌÌÍÏÏÍÎÏÌÍÍÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D78690 | overloaded x2
         public void Initialize(){} // RVA: 0x1D780D0
@@ -1005,9 +1091,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ</summary>
     public class Service23m_A3D8SiblingSibling_0859
     {
-        public object f_530;
-        public object f_E19;
-        public object f_622;
+        public string f_530; // 0x10
+        public System.Type f_E19; // 0x18
+        public object f_622; // 0x20
+        public ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ ÏÎÏÌÎÏÍÍÏÏÏÌÍÎÎÌÏÌÏÎÌÏÎ;
 
         // ── Methods ──
         public void set_Value(){} // RVA: 0x2DEE30
@@ -1031,6 +1118,15 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÎÎÎÎÌÎÏÍÎÍÏÌÏÎÎÌÏÍÎÏÌ</summary>
     public class Service23m_A3D8SiblingSibling_1F00
     {
+        public string ÏÍÎÍÎÍÏÌÌÍÎÏÏÏÍÌÏÎÏÍÍÌÌ; // 0x10
+        public bool <ÏÎÏÏÏÌÌÎÍÎÌÎÎÎÏÎÏÏÌÏÍÌÌ>k__BackingField; // 0x18
+        public string <ÏÌÍÏÍÎÎÍÎÍÍÌÏÌÌÌÎÍÏÌÌÏÏ>k__BackingField; // 0x20
+        public bool <ÌÍÍÍÏÍÏÎÍÏÏÌÏÌÏÍÍÌÍÎÎÏÎ>k__BackingField; // 0x28
+        public bool <ÏÌÌÍÎÎÏÎÍÏÏÌÏÍÎÎÌÏÍÍÍÍÍ>k__BackingField; // 0x29
+        public bool <ÌÌÌÏÏÎÏÎÌÎÌÏÌÎÎÌÌÍÏÍÍÌÌ>k__BackingField; // 0x2A
+        public bool <ÏÍÌÌÍÍÍÌÍÏÌÌÌÌÌÍÌÌÏÏÌÍÌ>k__BackingField; // 0x2B
+        public int <ÎÏÎÏÎÌÍÍÍÌÌÌÎÎÌÎÌÌÍÌÎÎÍ>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void ResolveImportProcedure(){} // RVA: 0x205EA30
         public void set_HandleNullOnRead(){} // RVA: 0x6E8B80
@@ -1061,6 +1157,13 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÏÎÍÏÎÎÌÎÍÌÌÏÎÎÍÎÌÎÍÏÍÌ</summary>
     public class Service23m_A3D8Sibling_54EB
     {
+        public string <ÏÌÍÏÍÎÎÍÎÍÍÌÏÌÌÌÎÍÏÌÌÏÏ>k__BackingField; // 0x10
+        public 0x659F64A0 <ÎÎÍÎÎÌÌÏÍÎÎÍÌÌÍÎÎÍÍÎÎÌÍ>k__BackingField; // 0x18
+        public string <ÎÎÏÎÍÏÎÍÏÏÎÏÏÎÌÏÍÌÍÎÍÏÌ>k__BackingField; // 0x20
+        public System.Type <ÍÏÏÍÏÎÎÎÎÍÍÌÌÌÌÏÌÏÏÍÌÏÎ>k__BackingField; // 0x28
+        public 0x6588D078 <ÍÍÏÏÍÍÏÍÌÍÌÎÏÍÎÎÌÌÎÌÏÌÌ>k__BackingField; // 0x30
+        public int <ÎÏÎÏÎÌÍÍÍÌÌÌÎÎÌÎÌÌÍÌÎÎÍ>k__BackingField; // 0x34
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x5BED50
         public void SetSiblingIndex(){} // RVA: 0x338CD0
@@ -1086,7 +1189,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÏÎÏÌÎÎÌÌÍÌÎÌÎÌÎÍÎÏÏÍÍÎ</summary>
     public class Service23m_A3D8_5247
     {
-        public object _5247;
+        public System.Collections.Generic.Dictionary`2<string,string> _5247;
+        public string <ÍÌÎÍÏÍÍÎÎÌÎÏÍÍÏÍÌÍÎÎÍÍÏ>k__BackingField; // 0x10
+        public string <ÏÌÍÏÍÎÎÍÎÍÍÌÏÌÌÌÎÍÏÌÌÏÏ>k__BackingField; // 0x18
+        public string[] <ÎÎÌÍÌÍÏÍÌÎÎÌÍÍÍÍÏÏÌÏÌÌÍ>k__BackingField; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x30B130
@@ -1119,6 +1225,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÍÌÌÍÍÏÌÏÎÎÏÏÎÏÏÍÍÌÎÌÌÏ</summary>
     public class Service23m_C68FSiblingRelated_4083
     {
+        public bool <ÍÍÎÎÍÎÎÍÍÌÏÏÎÏÍÍÍÏÌÍÌÌÌ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_ResultOnSuccess(){} // RVA: 0x3978E0
         public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally(){} // RVA: 0x3978F0
@@ -1136,6 +1244,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÎÏÌÏÎÎÎÍÏÍÍÎÍÎÎÍÌÎÏÎÍÏ</summary>
     public class Service23m_C68FSiblingRelated_7572
     {
+        public ÎÎÍÌÏÏÌÎÍÎÎÍÍÎÏÎÎÍÍÌÎÌÌ tabPrefab; // 0x20
+
         // ── Methods ──
         public void set_LogCaptureStartStop(){} // RVA: 0x627A5F0
         public void Update(){} // RVA: 0x8EA17B0
@@ -1160,6 +1270,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÍÏÌÍÎÌÏÌÎÍÎÏÏÌÌÍÍÌÍÎÎ</summary>
     public class Service23m_C68FSiblingRelated_9C92
     {
+        public int ÍÎÌÎÌÎÍÍÌÌÏÎÏÏÎÍÏÎÍÍÎÏÍ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8E4FD60
         public void .ctor(){} // RVA: 0x17E65B0
@@ -1193,6 +1305,15 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÍÌÌÍÎÍÍÍÍÌÎÏÎÌÌÍÌÍÌÌÍ</summary>
     public class Service23m_C68FSiblingSibling_076C
     {
+        public bool ÍÏÎÏÎÌÎÍÎÍÍÌÍÎÍÎÏÌÏÌÌÏÎ; // 0x10
+        public bool ÍÌÎÏÌÌÏÌÎÍÍÍÏÎÏÍÏÍÌÍÌÌÎ; // 0x11
+        public int ÌÏÍÎÏÍÍÎÏÍÌÌÍÏÎÎÏÏÍÎÎÌÎ; // 0x14
+        public int ÏÏÍÌÍÌÏÏÍÌÎÏÏÍÍÌÍÏÎÌÏÎÏ; // 0x18
+        public int ÍÎÍÎÍÏÏÏÍÍÌÎÍÎÎÍÌÌÏÎÍÎÎ; // 0x1C
+        public bool ÍÍÍÌÌÌÍÌÎÍÎÍÍÏÏÎÍÏÎÎÎÌÌ; // 0x20
+        public Photon.Client.PhotonHashtable ÎÍÎÏÍÌÎÌÏÏÍÎÏÍÎÏÏÏÏÍÏÍÌ; // 0x28
+        public object[] ÎÏÎÎÍÍÏÏÎÍÏÏÏÏÍÌÏÍÏÌÎÏÍ; // 0x30
+
         // ── Methods ──
         public void GetMaxDampTime(){} // RVA: 0x3CB9E0
         public void set_Loop(){} // RVA: 0x65EEB0
@@ -1221,6 +1342,19 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÎÌÌÍÍÏÏÏÍÏÌÏÍÏÌÎÎÎÍÍÏ</summary>
     public class Service23m_C68FSiblingSibling_972B
     {
+        public string[] ÍÍÎÏÎÎÌÍÏÎÎÎÏÎÎÌÎÍÍÌÏÎÎ; // 0x10
+        public string[] ÏÌÌÏÍÍÍÏÌÍÌÎÌÍÌÌÎÎÏÏÌÍÍ; // 0x18
+        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ ÎÎÍÎÏÎÍÏÏÍÌÌÍÌÎÎÏÍÍÌÌÌÏ;
+        public System.Collections.Generic.List`1<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> ÎÎÎÌÌÎÎÏÏÍÍÌÍÏÎÍÏÏÏÏÌÎÍ; // 0x20
+        public ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ ÌÍÏÏÍÍÎÌÎÏÌÍÌÌÍÍÏÍÏÍÌÌÏ; // 0x28
+        public System.Collections.Generic.Dictionary`2<int,ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> ÌÌÏÎÌÎÍÌÏÎÍÏÎÏÏÌÏÌÌÍÌÌÌ; // 0x30
+        public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> ÎÎÍÍÎÏÎÌÏÌÌÏÍÏÌÍÌÎÍÍÍÌÌ; // 0x38
+        public System.Collections.Generic.HashSet`1<string> ÏÏÎÍÌÍÏÏÎÍÏÌÍÍÍÌÎÌÌÎÏÍÎ; // 0x40
+        public System.Collections.Generic.HashSet`1<string> ÎÎÍÎÏÍÌÌÍÏÏÏÎÏÍÌÎÌÍÌÌÏÎ; // 0x48
+        public System.Collections.Generic.HashSet`1<string> ÏÏÌÍÍÌÍÎÏÏÎÎÎÎÏÎÏÍÌÌÌÍÏ; // 0x50
+        public System.Collections.Generic.Dictionary`2<string,int> ÏÏÍÌÍÍÍÍÏÌÏÌÏÏÎÌÎÏÌÎÎÏÏ; // 0x58
+        public UnityEngine.GameObject ÍÎÎÍÏÌÍÎÌÍÎÎÌÏÏÍÍÍÌÍÌÍÍ; // 0x60
+
         // ── Methods ──
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
         public void Dispose(){} // RVA: 0x1BEA910
@@ -1240,6 +1374,16 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÍÍÍÏÎÍÎÎÌÎÎÌÌÎÍÏÏÌÌÍÏ</summary>
     public class Service23m_C68FSibling_1971
     {
+        public ÎÎÌÏÎÏÏÎÍÎÏÍÎÎÎÍÎÏÏÌÎÎÍ <ÌÍÎÎÌÎÏÏÎÌÏÍÏÌÎÍÎÌÎÎÎÍÍ>k__BackingField; // 0x60
+        public bool ÌÎÍÏÎÍÏÏÌÌÎÎÌÌÏÏÍÏÏÎÌÎÏ; // 0x68
+        public System.Collections.Concurrent.ConcurrentDictionary`2<int,ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ> ÌÍÏÌÎÌÍÍÎÌÌÎÎÎÏÌÌÏÎÎÍÌÎ; // 0x70
+        public bool <ÌÎÌÎÏÌÍÍÎÎÎÎÎÎÌÎÎÎÎÌÍÏÍ>k__BackingField; // 0x78
+        public bool <ÎÎÏÏÍÍÎÎÌÏÌÌÏÏÌÌÍÌÎÎÌÌÏ>k__BackingField; // 0x79
+        public bool <ÌÎÎÏÎÏÌÍÌÎÏÎÍÎÍÌÎÎÎÍÏÌÎ>k__BackingField; // 0x7A
+        public bool <ÌÌÍÎÌÏÍÌÏÍÌÍÏÎÍÎÎÍÏÏÏÎÌ>k__BackingField; // 0x7B
+        public bool <ÎÏÎÏÎÍÎÎÍÎÏÎÏÏÌÌÌÎÍÏÏÏÌ>k__BackingField; // 0x7C
+        public ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ <ÌÏÏÏÍÏÍÏÎÍÍÍÌÍÍÎÏÍÍÌÎÎÍ>k__BackingField; // 0x80
+
         // ── Methods ──
         public void set_imageUrl(){} // RVA: 0x3A55A0
         public void Decode_E41E86F9CC1A(){} // RVA: 0x37E0D0
@@ -1290,6 +1434,13 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÍÎÏÌÎÏÎÍÏÎÍÍÍÎÏÎÏÏÏÏÎ</summary>
     public class Service23m_C68F_B6FC
     {
+        public bool ÎÎÎÍÌÎÎÏÏÏÏÍÏÍÌÌÌÎÍÏÎÍÏ; // 0x10
+        public Photon.Client.PhotonHashtable ÎÏÏÏÌÍÏÎÏÎÌÍÏÏÏÎÌÏÎÌÌÎÏ; // 0x18
+        public int ÎÏÎÌÌÏÍÏÍÍÏÏÏÍÌÏÌÎÏÎÎÌÎ; // 0x20
+        public int ÍÌÎÎÎÎÍÍÏÏÎÍÍÍÏÍÍÍÎÌÌÍÎ; // 0x24
+        public int ÌÏÌÏÍÌÌÌÏÏÌÎÎÍÏÍÍÍÌÍÎÌÎ; // 0x28
+        public string[] ÍÌÍÏÏÏÌÌÌÍÎÍÌÏÎÏÎÏÏÌÍÌÍ; // 0x30
+
         // ── Methods ──
         public void get_CloseOutput(){} // RVA: 0x4A6500
         public void get_CloseOutput_159763A6A291(){} // RVA: 0x4A6500
@@ -1317,7 +1468,7 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÎÍÍÌÍÌÏÍÏÍÏÎÏÍÏÍÌÎÏÌÍ</summary>
     public class Service24m_3F87
     {
-        public object _3F87;
+        public ÌÌÎÍÍÌÍÌÏÍÏÍÏÎÏÍÏÍÌÎÏÌÍ _3F87;
 
         // ── Methods ──
         public void Update(){} // RVA: 0x1412B40
@@ -1361,9 +1512,10 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÏÌÏÌÍÎÌÏÍÎÌÎÏÏÎÎÌÍÌÎÌÎ</summary>
     public class Service39m_7C91
     {
-        public object f_62F;
-        public object f_0F5;
-        public object f_739;
+        public string f_62F;
+        public Mediapipe.GlobalInstanceTable`2<System.Guid,ÎÏÌÏÌÍÎÌÏÍÎÌÎÏÏÎÎÌÍÌÎÌÎ> f_0F5;
+        public System.Collections.Generic.Dictionary`2<uint,System.Guid> f_739; // 0x8
+        public UnityEngine.Texture2D ÏÍÍÏÌÏÍÍÎÎÏÍÍÌÍÍÌÎÌÍÍÏÍ; // 0x10
 
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
@@ -1385,9 +1537,7 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÎÌÎÎÌÏÍÎÍÍÏÎÏÌÌÎÏÌÎÍÌÍ</summary>
     public class Service42m_DE2F_6C16
     {
-        public object f_60D;
-        public object f_14A;
-        public object f_7DE;
+        public float f_60D; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x6461220
@@ -1456,7 +1606,7 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÍÎÎÏÏÍÎÍÍÍÌÎÌÍÎÍÎÎÎÏÎÍ</summary>
     public class Service53m_E21F
     {
-        public object _e21F;
+        public UnityEngine.UI.Button _e21F; // 0x20
 
         // ── Methods ──
         public void get_left(){} // RVA: 0xA8E870
@@ -1561,6 +1711,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÏÍÏÍÎÎÏÌÏÌÏÍÎÎÎÌÍÎÌÏÏ</summary>
     public class ServiceLanguagePlatformComponent_C9E4
     {
+        public ÌÌÏÍÏÍÎÎÏÌÏÌÏÍÎÎÎÌÍÎÌÏÏ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public ÌÎÎÎÏÏÌÎÏÎÎÎÎÏÎÏÏÍÌÌÍÎÏ notification; // 0x20
+        public ÎÎÎÎÌÍÎÎÏÍÌÌÏÍÌÍÍÎÎÎÎÌÌ move; // 0x28
+        public ÌÏÍÎÍÏÏÎÏÍÌÎÎÍÏÎÍÏÎÏÎÍÌ userEventCarousel; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xD14F20
         public void RaiseCancellation(){} // RVA: 0xD151A0

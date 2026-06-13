@@ -14,6 +14,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourBase
     {
+        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
+
         // ── Methods ──
         public void OnReactivate(){} // RVA: 0x24A50
         public void Resurrect(){} // RVA: 0x2DD310
@@ -83,6 +85,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourPuppet
     {
+        public MasterProps masterProps; // 0x100
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x2DD310
         public void OpenScriptReference(){} // RVA: 0x2DD310
@@ -209,6 +213,25 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Muscle
     {
+        public string name; // 0x10
+        public UnityEngine.ConfigurableJoint joint; // 0x18
+        public UnityEngine.Transform target; // 0x20
+        public Props props; // 0x28
+        public State state; // 0x30
+        public int[] parentIndexes; // 0x70
+        public int[] childIndexes; // 0x78
+        public bool[] childFlags; // 0x80
+        public int[] kinshipDegrees; // 0x88
+        public RootMotion.Dynamics.MuscleCollisionBroadcaster broadcaster; // 0x90
+        public RootMotion.Dynamics.JointBreakBroadcaster jointBreakBroadcaster; // 0x98
+        public UnityEngine.Vector3 positionOffset; // 0xA0
+        public UnityEngine.Transform <transform>k__BackingField; // 0xB0
+        public UnityEngine.Rigidbody <rigidbody>k__BackingField; // 0xB8
+        public UnityEngine.Transform <connectedBodyTarget>k__BackingField; // 0xC0
+        public UnityEngine.Vector3 <targetAnimatedPosition>k__BackingField; // 0xC8
+        public UnityEngine.Quaternion <targetAnimatedWorldRotation>k__BackingField; // 0xD4
+        public UnityEngine.Vector3 <targetVelocity>k__BackingField; // 0xE4
+
         // ── Methods ──
         public void get_transform(){} // RVA: 0x348040
         public void set_transform(){} // RVA: 0x348050
@@ -319,6 +342,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PressureSensor
     {
+        public bool visualize; // 0x20
+        public UnityEngine.LayerMask layers; // 0x24
+        public UnityEngine.Vector3 <center>k__BackingField; // 0x28
+        public bool <inContact>k__BackingField; // 0x34
+
         // ── Methods ──
         public void get_center(){} // RVA: 0x358700
         public void set_center(){} // RVA: 0x358720
@@ -341,6 +369,10 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Prop
     {
+        public int propType; // 0x20
+        public UnityEngine.ConfigurableJoint muscle; // 0x28
+        public Props muscleProps; // 0x30
+
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0x358C80
         public void get_propRoot(){} // RVA: 0x358D50
@@ -362,6 +394,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PropMuscle
     {
+        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
+        public RootMotion.Dynamics.PuppetMasterProp currentProp; // 0x28
+
         // ── Methods ──
         public void get_muscle(){} // RVA: 0x35A650
         public void get_activeProp(){} // RVA: 0x35A740
@@ -399,6 +434,22 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMaster
     {
+        public RootMotion.Dynamics.PuppetMasterHumanoidConfig humanoidConfig; // 0x20
+        public UnityEngine.Transform targetRoot; // 0x28
+        public 0x658DA440 state; // 0x30
+        public StateSettings stateSettings; // 0x34
+        public 0x658DA2E0 mode; // 0x48
+        public float blendTime; // 0x4C
+        public bool fixTargetTransforms; // 0x50
+        public int solverIterationCount; // 0x54
+        public bool visualizeTargetPose; // 0x58
+        public float mappingWeight; // 0x5C
+        public float pinWeight; // 0x60
+        public float muscleWeight; // 0x64
+        public float muscleSpring; // 0x68
+        public float muscleDamper; // 0x6C
+        public float pinPow; // 0x70
+
         // ── Methods ──
         public void OpenUserManualSetup(){} // RVA: 0x2DD310
         public void OpenUserManualComponent(){} // RVA: 0x2DD310
@@ -550,6 +601,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterProp
     {
+        public UnityEngine.Transform meshRoot; // 0x20
+        public Props muscleProps; // 0x28
+
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0x37B240
         public void set_isPickedUp(){} // RVA: 0x37B250
@@ -571,6 +625,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterSettings
     {
+        public PuppetUpdateLimit kinematicCollidersUpdateLimit; // 0x20
+        public PuppetUpdateLimit freeUpdateLimit; // 0x28
+        public PuppetUpdateLimit fixedUpdateLimit; // 0x30
+        public bool collisionStayMessages; // 0x38
+
         // ── Methods ──
         public void get_currentlyActivePuppets(){} // RVA: 0x37E080
         public void set_currentlyActivePuppets(){} // RVA: 0x37E090
@@ -628,12 +687,12 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourBalancer
     {
-        public object baseOptions;
-        public object runningMode;
-        public object numPoses;
-        public object minPoseDetectionConfidence;
-        public object minPosePresenceConfidence;
-        public object minTrackingConfidence;
+        public UnityEngine.ConfigurableJoint baseOptions; // 0x18
+        public UnityEngine.Vector3 runningMode; // 0x20
+        public UnityEngine.Vector3 numPoses; // 0x2C
+        public UnityEngine.Vector3 minPoseDetectionConfidence; // 0x38
+        public UnityEngine.Vector3 minPosePresenceConfidence; // 0x44
+        public UnityEngine.Vector3 minTrackingConfidence; // 0x50
 
         // ── Methods ──
         public void get_joint(){} // RVA: 0x2E07C0
@@ -665,6 +724,16 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourCOM
     {
+        public 0x658D9C00 mode; // 0x18
+        public float velocityDamper; // 0x1C
+        public float velocityLerpSpeed; // 0x20
+        public float velocityMax; // 0x24
+        public float centerOfPressureSpeed; // 0x28
+        public UnityEngine.Vector3 offset; // 0x2C
+        public UnityEngine.Vector3 <position>k__BackingField; // 0x38
+        public UnityEngine.Vector3 <direction>k__BackingField; // 0x44
+        public float <angle>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x343F40
         public void set_position(){} // RVA: 0x343F60

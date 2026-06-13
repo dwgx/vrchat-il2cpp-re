@@ -29,6 +29,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipAudioSourceHiLevel
     {
+        public int initialPlaybackDelayMS; // 0x20
+
         // ── Methods ──
         public void set_senderID(){} // RVA: 0x60DEEA0
         public void Stop(){} // RVA: 0x2DD310

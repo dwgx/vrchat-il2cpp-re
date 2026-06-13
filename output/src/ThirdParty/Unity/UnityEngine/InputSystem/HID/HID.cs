@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.HID
 {
     public class HID
     {
+        public string kHIDInterface;
+        public string kHIDNamespace;
+        public bool m_HaveParsedHIDDescriptor; // 0x190
+        public HIDDeviceDescriptor m_HIDDescriptor; // 0x198
+
         // ── Methods ──
         public void get_QueryHIDReportDescriptorDeviceCommandType(){} // RVA: 0x6EC4F10
         public void get_QueryHIDReportDescriptorSizeDeviceCommandType(){} // RVA: 0x6EC4F20
@@ -29,6 +34,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.HID
 
     public class HIDSupport
     {
+        public HIDPageUsage[] s_SupportedHIDUsages;
+
         // ── Methods ──
         public void get_supportedHIDUsages(){} // RVA: 0x6ECE570
         public void set_supportedHIDUsages(){} // RVA: 0x6ECE660

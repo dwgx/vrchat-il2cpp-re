@@ -7,6 +7,8 @@ namespace VRC.Core.Source.Config
 {
     public class NoAllocByteSetStorage
     {
+        public string configPath; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x993F800
         public void get_Count(){} // RVA: 0x993FB40

@@ -43,8 +43,9 @@ public class EditorDebugInfo
 
 public class EditorSettings
 {
-    public object System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.Current;
-    public object System.Collections.IEnumerator.Current;
+    public double System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.Current;
+    public double System.Collections.IEnumerator.Current; // 0x8
+    public double kDefaultFrameRate; // 0x10
 
     // ── Methods ──
     public void get_fps(){} // RVA: 0x7023880

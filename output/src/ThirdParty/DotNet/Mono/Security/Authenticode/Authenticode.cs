@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.Mono.Security.Authenticode
 {
     public class AuthenticodeBase
     {
-        public object RawData;
+        public byte[] RawData; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BE5AB0
@@ -22,7 +22,8 @@ namespace ThirdParty.DotNet.Mono.Security.Authenticode
 
     public class AuthenticodeDeformatter
     {
-        public object RSA;
+        public string RSA; // 0x40
+        public byte[] rawdata; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BE6B00 | overloaded x2
@@ -37,6 +38,8 @@ namespace ThirdParty.DotNet.Mono.Security.Authenticode
 
     public class PrivateKey
     {
+        public bool encrypted; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BE8FC0
         public void get_RSA(){} // RVA: 0x2E07C0

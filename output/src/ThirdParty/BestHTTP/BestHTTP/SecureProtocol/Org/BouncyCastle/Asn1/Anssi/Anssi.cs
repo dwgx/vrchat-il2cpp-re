@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Anss
 {
     public class AnssiNamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void ConfigureBasepoint(){} // RVA: 0x97FA7A0
         public void ConfigureCurve(){} // RVA: 0x1A3F520

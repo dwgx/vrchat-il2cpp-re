@@ -7,9 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Authentication
 {
     public class Credentials
     {
-        public object Uri;
-        public object Type;
-        public object Realm;
+        public 0x657C5188 Uri; // 0x10
+        public string Type; // 0x18
+        public string Realm; // 0x20
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x32A5C0
@@ -23,6 +23,18 @@ namespace ThirdParty.BestHTTP.BestHTTP.Authentication
 
     public class Digest
     {
+        public System.Uri <Uri>k__BackingField; // 0x10
+        public 0x657C5188 <Type>k__BackingField; // 0x18
+        public string <Realm>k__BackingField; // 0x20
+        public bool <Stale>k__BackingField; // 0x28
+        public string <Nonce>k__BackingField; // 0x30
+        public string <Opaque>k__BackingField; // 0x38
+        public string <Algorithm>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<string> <ProtectedUris>k__BackingField; // 0x48
+        public string <QualityOfProtections>k__BackingField; // 0x50
+        public int <NonceCount>k__BackingField; // 0x58
+        public string <HA1Sess>k__BackingField; // 0x60
+
         // ── Methods ──
         public void get_Uri(){} // RVA: 0x2F8380
         public void set_Uri(){} // RVA: 0x2DEE30

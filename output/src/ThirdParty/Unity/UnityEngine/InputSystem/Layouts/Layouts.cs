@@ -7,6 +7,30 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 {
     public class InputControlAttribute
     {
+        public string <layout>k__BackingField; // 0x10
+        public string <variants>k__BackingField; // 0x18
+        public string <name>k__BackingField; // 0x20
+        public string <format>k__BackingField; // 0x28
+        public string <usage>k__BackingField; // 0x30
+        public string[] <usages>k__BackingField; // 0x38
+        public string <parameters>k__BackingField; // 0x40
+        public string <processors>k__BackingField; // 0x48
+        public string <alias>k__BackingField; // 0x50
+        public string[] <aliases>k__BackingField; // 0x58
+        public string <useStateFrom>k__BackingField; // 0x60
+        public uint <bit>k__BackingField; // 0x68
+        public uint <offset>k__BackingField; // 0x6C
+        public uint <sizeInBits>k__BackingField; // 0x70
+        public int <arraySize>k__BackingField; // 0x74
+        public string <displayName>k__BackingField; // 0x78
+        public string <shortDisplayName>k__BackingField; // 0x80
+        public bool <noisy>k__BackingField; // 0x88
+        public bool <synthetic>k__BackingField; // 0x89
+        public bool <dontReset>k__BackingField; // 0x8A
+        public object <defaultState>k__BackingField; // 0x90
+        public object <minValue>k__BackingField; // 0x98
+        public object <maxValue>k__BackingField; // 0xA0
+
         // ── Methods ──
         public void get_layout(){} // RVA: 0x2F8380
         public void set_layout(){} // RVA: 0x2DEE30
@@ -59,16 +83,24 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayout
     {
-        public object header;
-        public object recordIndex;
-        public object version;
-        public object valid;
-        public object owner;
-        public object index;
-        public object time;
-        public object control;
-        public object next;
-        public object previous;
+        public UnityEngine.InputSystem.Utilities.InternedString header;
+        public string recordIndex;
+        public UnityEngine.InputSystem.Utilities.InternedString version; // 0x10
+        public System.Type valid; // 0x20
+        public UnityEngine.InputSystem.Utilities.InternedString owner; // 0x28
+        public UnityEngine.InputSystem.Utilities.FourCC index; // 0x38
+        public int time; // 0x3C
+        public System.Nullable`1<bool> control; // 0x40
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Utilities.InternedString> next; // 0x48
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Utilities.InternedString> previous; // 0x68
+        public UnityEngine.InputSystem.Utilities.InternedString[] m_CommonUsages; // 0x88
+        public ControlItem[] m_Controls; // 0x90
+        public string m_DisplayName; // 0x98
+        public string m_Description; // 0xA0
+        public 0x65870B10 m_Flags; // 0xA8
+        public Collection s_Layouts; // 0x10
+        public Cache s_CacheInstance; // 0x50
+        public int s_CacheInstanceRef; // 0x58
 
         // ── Methods ──
         public void get_DefaultVariant(){} // RVA: 0x6EF0400
@@ -122,6 +154,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayoutAttribute
     {
+        public System.Type <stateType>k__BackingField; // 0x10
+        public string <stateFormat>k__BackingField; // 0x18
+        public string[] <commonUsages>k__BackingField; // 0x20
+        public string <variants>k__BackingField; // 0x28
+        public bool <isNoisy>k__BackingField; // 0x30
+        public System.Nullable`1<bool> canRunInBackgroundInternal; // 0x31
+        public System.Nullable`1<bool> updateBeforeRenderInternal; // 0x33
+        public bool <isGenericTypeOfDevice>k__BackingField; // 0x35
+        public string <displayName>k__BackingField; // 0x38
+        public string <description>k__BackingField; // 0x40
+        public bool <hideInUI>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_stateType(){} // RVA: 0x2F8380
         public void set_stateType(){} // RVA: 0x2DEE30
@@ -150,6 +194,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceBuilder
     {
+        public UnityEngine.InputSystem.InputDevice m_Device; // 0x10
+
         // ── Methods ──
         public void Setup(){} // RVA: 0x6DB7B70
         public void Finish(){} // RVA: 0x6DB7E00
@@ -183,6 +229,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceDescription
     {
+        public string m_InterfaceName; // 0x10
+        public string m_DeviceClass; // 0x18
+        public string m_Manufacturer; // 0x20
+        public string m_Product; // 0x28
+        public string m_Serial; // 0x30
+        public string m_Version; // 0x38
+        public string m_Capabilities; // 0x40
+
         // ── Methods ──
         public void get_interfaceName(){} // RVA: 0x1AD4690
         public void set_interfaceName(){} // RVA: 0x100A2F0
@@ -220,6 +274,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceMatcher
     {
+        public System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,object>[] m_Patterns; // 0x10
+        public UnityEngine.InputSystem.Utilities.InternedString kInterfaceKey;
+
         // ── Methods ──
         public void get_empty(){} // RVA: 0x1D26810
         public void get_patterns(){} // RVA: 0x6DBF390

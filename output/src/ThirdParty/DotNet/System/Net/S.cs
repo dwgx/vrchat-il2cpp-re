@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class ServerCertValidationCallback
     {
+        public System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B45150
         public void get_ValidationCallback(){} // RVA: 0x2F8380
@@ -22,6 +24,19 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ServicePoint
     {
+        public System.Uri uri; // 0x10
+        public System.DateTime lastDnsResolve; // 0x18
+        public System.Version protocolVersion; // 0x20
+        public System.Net.IPHostEntry host; // 0x28
+        public bool usesProxy; // 0x30
+        public bool sendContinue; // 0x31
+        public bool useConnect; // 0x32
+        public object hostE; // 0x38
+        public bool useNagle; // 0x40
+        public System.Net.BindIPEndPoint endPointCallback; // 0x48
+        public bool tcp_keepalive; // 0x50
+        public int tcp_keepalive_time; // 0x54
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6FDB0
         public void get_Key(){} // RVA: 0x358D50
@@ -55,6 +70,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ServicePointManager
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<SPKey,System.Net.ServicePoint> servicePoints;
+        public System.Net.ICertificatePolicy policy; // 0x8
+        public int defaultConnectionLimit; // 0x10
+        public int maxServicePointIdleTime; // 0x14
+        public int maxServicePoints; // 0x18
+        public int dnsRefreshTimeout; // 0x1C
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6B714E0
         public void get_CertificatePolicy(){} // RVA: 0x6B71640
@@ -73,6 +95,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class ServicePointScheduler
     {
+        public System.Net.ServicePoint <ServicePoint>k__BackingField; // 0x10
+        public int running; // 0x18
+
         // ── Methods ──
         public void get_ServicePoint(){} // RVA: 0x2F8380
         public void set_ServicePoint(){} // RVA: 0x2DEE30
@@ -99,6 +124,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class SocketAddress
     {
+        public int m_Size; // 0x10
+        public byte[] m_Buffer; // 0x18
+        public bool m_changed; // 0x20
+
         // ── Methods ──
         public void get_Family(){} // RVA: 0x6B21360
         public void get_Size(){} // RVA: 0x32A5C0

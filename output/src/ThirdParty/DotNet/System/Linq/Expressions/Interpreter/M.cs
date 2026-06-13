@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class MethodInfoCallInstruction
     {
+        public System.Reflection.MethodInfo _target; // 0x10
+        public int _argumentCount; // 0x18
+
         // ── Methods ──
         public void get_ArgumentCount(){} // RVA: 0x5BED50
         public void .ctor(){} // RVA: 0x1D66A50
@@ -18,6 +21,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class ModuloInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -28,6 +35,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class MulInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -38,6 +49,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class MulOvfInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

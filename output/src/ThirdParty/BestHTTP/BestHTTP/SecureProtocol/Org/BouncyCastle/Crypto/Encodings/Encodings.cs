@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 {
     public class ISO9796d1Encoding
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Sixteen;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_AlgorithmName(){} // RVA: 0x9640970
@@ -24,6 +26,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class OaepEncoding
     {
+        public byte[] defHash; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96419B0 | overloaded x4
         public void GetUnderlyingCipher(){} // RVA: 0x30B0C0
@@ -40,6 +44,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Pkcs1Encoding
     {
+        public string StrictLengthEnabledProperty;
+        public int HeaderLength;
+
         // ── Methods ──
         public void get_StrictLengthEnabled(){} // RVA: 0x9642BC0
         public void set_StrictLengthEnabled(){} // RVA: 0x9642C40

@@ -5,6 +5,9 @@
 
 public class <get_outputs>d__16
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -18,6 +21,9 @@ public class <get_outputs>d__16
 
 public class <get_outputs>d__27
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x7023DC0
@@ -33,6 +39,9 @@ public class <get_outputs>d__27
 
 public class <get_outputs>d__4
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -46,6 +55,9 @@ public class <get_outputs>d__4
 
 public class <get_outputs>d__45
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -59,6 +71,9 @@ public class <get_outputs>d__45
 
 public class <get_outputs>d__49
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -72,6 +87,9 @@ public class <get_outputs>d__49
 
 public class <get_outputs>d__69
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.Playables.PlayableBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7016510
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -85,6 +103,9 @@ public class <get_outputs>d__69
 
 public class <get_patterns>d__4
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -98,6 +119,9 @@ public class <get_patterns>d__4
 
 public class <get_stylesheets>d__23
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.UIElements.StyleSheet <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x7323DA0
@@ -114,6 +138,9 @@ public class <get_stylesheets>d__23
 
 public class <get_templateDependencies>d__19
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.UIElements.VisualTreeAsset <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x7324F50
@@ -322,6 +349,8 @@ public class _AddApplicationManifest
 
 public class _AppendPrepend
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -379,6 +408,8 @@ public class _BeginVrProfilerEvent
 
 public class _Buffer
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -392,6 +423,8 @@ public class _Buffer
 
 public class _BufferSkip
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -556,6 +589,8 @@ public class _CloseMessageOverlay
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -579,6 +614,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -603,6 +640,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -628,6 +667,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -654,6 +695,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -667,6 +710,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -681,6 +726,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -696,6 +743,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -712,6 +761,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -729,6 +780,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -747,6 +800,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -766,6 +821,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -786,6 +843,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -807,6 +866,8 @@ public class _CombineLatest
 
 public class _CombineLatest
 {
+    public System.Action`1<object> Completed1Delegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -955,6 +1016,8 @@ public class _ComputeOverlayIntersection
 
 public class _Concat
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0

@@ -7,6 +7,9 @@ namespace VRC.Udon.ClientBindings
 {
     public class UdonClientInterface
     {
+        public VRC.Udon.Common.Interfaces.IUdonVMFactory _udonVMFactory; // 0x10
+        public VRC.Udon.ClientBindings.UdonVMTimeSource _udonVMTimeSource; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76F3030 | overloaded x2
         public void get_DebugLogging(){} // RVA: 0x303450
@@ -38,6 +41,8 @@ namespace VRC.Udon.ClientBindings
 
     public class UdonVMTimeSource : get_CurrentTime
     {
+        public long INTERVAL_MS;
+
         // ── Methods ──
         public void get_CurrentTime(){} // RVA: 0x2E07C0
         public void set_CurrentTime(){} // RVA: 0xC5BE60

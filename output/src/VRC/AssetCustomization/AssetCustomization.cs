@@ -58,6 +58,8 @@ namespace VRC.AssetCustomization
 
     public class VRCMaterialPartOption
     {
+        public UnityEngine.Material _material; // 0x20
+
         // ── Methods ──
         public void get_Material(){} // RVA: 0x30B0C0
         public void set_Material(){} // RVA: 0x30B0D0

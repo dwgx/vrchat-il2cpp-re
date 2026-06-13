@@ -67,6 +67,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class BinaryFormatter
     {
+        public System.Runtime.Serialization.ISurrogateSelector m_surrogates; // 0x10
+        public System.Runtime.Serialization.StreamingContext m_context; // 0x18
+
         // ── Methods ──
         public void set_AssemblyFormat(){} // RVA: 0x4C5F20
         public void set_SurrogateSelector(){} // RVA: 0x2DEE30
@@ -165,6 +168,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class IntSizedArray : .ctor
     {
+        public int[] objects; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D3B5C0 | overloaded x2
         public void Clone(){} // RVA: 0x5D3B7F0
@@ -229,6 +234,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class NameInfo
     {
+        public string NIFullName; // 0x10
+        public long NIobjectId; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Init(){} // RVA: 0x5D3C480
@@ -274,6 +282,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class ObjectReader
     {
+        public System.IO.Stream m_stream; // 0x10
+        public System.Runtime.Serialization.ISurrogateSelector m_surrogates; // 0x18
+
         // ── Methods ──
         public void get_ValueFixupStack(){} // RVA: 0x5D29A90
         public void get_TopObject(){} // RVA: 0x37B370
@@ -310,7 +321,7 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class ObjectWriter
     {
-        public object SystemAssemblyInfo;
+        public System.Collections.Queue SystemAssemblyInfo; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D2F240
@@ -416,6 +427,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class SizedArray
     {
+        public object[] objects; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D3ADA0 | overloaded x3
         public void Clone(){} // RVA: 0x5D3AF20
@@ -426,6 +439,10 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class TypeInformation
     {
+        public string fullTypeName; // 0x10
+        public string assemblyString; // 0x18
+        public bool hasTypeForwardedFrom; // 0x20
+
         // ── Methods ──
         public void get_FullTypeName(){} // RVA: 0x2F8380
         public void get_AssemblyString(){} // RVA: 0x2E07C0
@@ -463,6 +480,11 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization.Formatters.Binary
 
     public class __BinaryParser
     {
+        public System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader; // 0x10
+        public System.IO.Stream input; // 0x18
+        public long topId; // 0x20
+        public long headerId; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D33680
         public void get_SystemAssemblyInfo(){} // RVA: 0x5D338D0

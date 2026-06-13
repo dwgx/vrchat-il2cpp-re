@@ -345,9 +345,9 @@ public class EnumFlagAttribute
 
 public class EnumMapMember
 {
-    public object IsFlags;
-    public object EnumNames;
-    public object XmlNames;
+    public string IsFlags; // 0x10
+    public string EnumNames; // 0x18
+    public long XmlNames; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6ACE830
@@ -358,6 +358,14 @@ public class EnumMapMember
 
 public class EnumReservedRange
 {
+    public Google.Protobuf.MessageParser`1<EnumReservedRange> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int StartDefaultValue; // 0x8
+    public int start_; // 0x1C
+    public int EndDefaultValue; // 0xC
+    public int end_; // 0x20
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5A63ED0
     public void get_Descriptor(){} // RVA: 0x5A63F30
@@ -426,6 +434,9 @@ public class EnumerableDropIndices
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<HIDElementDescriptor>> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED1D20
     public void Dispose(){} // RVA: 0x2DD310
@@ -438,28 +449,48 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<HIDElementDescriptor> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Queue`1<string> _q; // 0x10
+    public int _version; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.Text.RegularExpressions.Match> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<ÎÌÍÎÌÌÏÏÏÏÌÏÌÍÍÍÎÌÍÌÌÎÎ,ÌÎÏÎÍÌÌÌÎÏÎÌÏÎÍÎÌÏÍÏÏÍÍ> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<ÎÌÍÎÌÌÏÏÏÏÌÏÌÍÍÍÎÌÍÌÌÎÎ,ÌÎÏÎÍÌÌÌÎÏÎÌÏÎÍÎÌÏÍÏÏÍÍ> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x38
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.LinkedList`1<System.Action`2<object,TMPro.Compute_DT_EventArgs>> _list; // 0x10
+    public System.Collections.Generic.LinkedListNode`1<System.Action`2<object,TMPro.Compute_DT_EventArgs>> _node; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Action`2<object,TMPro.Compute_DT_EventArgs>,System.Collections.Generic.LinkedListNode`1<System.Action`2<object,TMPro.Compute_DT_EventArgs>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Action`2<object,TMPro.Compute_DT_EventArgs>,System.Collections.Generic.LinkedListNode`1<System.Action`2<object,TMPro.Compute_DT_EventArgs>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.LinkedList`1<System.Action`2<bool,UnityEngine.Material>> _list; // 0x10
+    public System.Collections.Generic.LinkedListNode`1<System.Action`2<bool,UnityEngine.Material>> _node; // 0x18
 }

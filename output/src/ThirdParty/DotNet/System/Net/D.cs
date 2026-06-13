@@ -14,6 +14,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class DigestClient
     {
+        public System.Collections.Hashtable cache;
+
         // ── Methods ──
         public void get_Cache(){} // RVA: 0x6B4A480
         public void CheckExpired(){} // RVA: 0x6B4A6A0
@@ -26,11 +28,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class DigestHeaderParser
     {
-        public object Algorithm;
-        public object Realm;
-        public object Nonce;
-        public object Opaque;
-        public object QOP;
+        public string Algorithm; // 0x10
+        public int Realm; // 0x18
+        public int Nonce; // 0x1C
+        public string[] Opaque;
+        public string[] QOP; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B48310
@@ -48,9 +50,12 @@ namespace ThirdParty.DotNet.System.Net
 
     public class DigestSession
     {
-        public object Cache;
-        public object AuthenticationType;
-        public object .ctor;
+        public System.Security.Cryptography.RandomNumberGenerator Cache;
+        public System.DateTime AuthenticationType; // 0x10
+        public int .ctor; // 0x18
+        public System.Security.Cryptography.HashAlgorithm hash; // 0x20
+        public System.Net.DigestHeaderParser parser; // 0x28
+        public string _cnonce; // 0x30
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6B48CB0

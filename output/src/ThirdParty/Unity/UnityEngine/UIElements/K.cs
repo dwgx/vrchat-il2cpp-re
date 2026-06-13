@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 7
-// Methods: 46
+// Classes: 9
+// Methods: 78
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
@@ -24,6 +24,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardEventBase`1
     {
+        public 0x659A0EE8 <modifiers>k__BackingField;
+        public char <character>k__BackingField;
+        public 0x658991A8 <keyCode>k__BackingField;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0xD840
         public void set_modifiers(){} // RVA: 0x24FA0
@@ -41,6 +45,56 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void LocalInit(){} // RVA: 0x24A50
         public void GetPooled(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class KeyboardEventBase`1
+    {
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+        public char <character>k__BackingField; // 0x8C
+        public 0x658991A8 <keyCode>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void get_modifiers(){} // RVA: 0xBB90C0
+        public void set_modifiers(){} // RVA: 0xBB9E60
+        public void get_character(){} // RVA: 0x37CD9F0
+        public void set_character(){} // RVA: 0x37CDA00
+        public void get_keyCode(){} // RVA: 0x6AFD40
+        public void set_keyCode(){} // RVA: 0xF02F80
+        public void get_shiftKey(){} // RVA: 0x37CDA10
+        public void get_ctrlKey(){} // RVA: 0x37CDA20
+        public void get_commandKey(){} // RVA: 0x37CDA30
+        public void get_altKey(){} // RVA: 0x37CDA40
+        public void get_functionKey(){} // RVA: 0x37CDA50
+        public void get_actionKey(){} // RVA: 0x37CDA60
+        public void Init(){} // RVA: 0x37CDB60
+        public void LocalInit(){} // RVA: 0x37CDC10
+        public void GetPooled(){} // RVA: 0x37CDC40
+        public void .ctor(){} // RVA: 0x37CDE20
+    }
+
+    public class KeyboardEventBase`1
+    {
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
+        public char <character>k__BackingField; // 0x8C
+        public 0x658991A8 <keyCode>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void get_modifiers(){} // RVA: 0xBB90C0
+        public void set_modifiers(){} // RVA: 0xBB9E60
+        public void get_character(){} // RVA: 0x37CD9F0
+        public void set_character(){} // RVA: 0x37CDA00
+        public void get_keyCode(){} // RVA: 0x6AFD40
+        public void set_keyCode(){} // RVA: 0xF02F80
+        public void get_shiftKey(){} // RVA: 0x37CDA10
+        public void get_ctrlKey(){} // RVA: 0x37CDA20
+        public void get_commandKey(){} // RVA: 0x37CDA30
+        public void get_altKey(){} // RVA: 0x37CDA40
+        public void get_functionKey(){} // RVA: 0x37CDA50
+        public void get_actionKey(){} // RVA: 0x37CDA60
+        public void Init(){} // RVA: 0x37CDB60
+        public void LocalInit(){} // RVA: 0x37CDC10
+        public void GetPooled(){} // RVA: 0x37CDC40
+        public void .ctor(){} // RVA: 0x37CDE20
     }
 
     public class KeyboardEventDispatchingStrategy

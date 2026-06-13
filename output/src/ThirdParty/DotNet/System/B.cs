@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 8
-// Methods: 125
+// Classes: 77
+// Methods: 189
 
 namespace ThirdParty.DotNet.System
 {
@@ -11,6 +11,8 @@ namespace ThirdParty.DotNet.System
 
     public class BadImageFormatException
     {
+        public string _fileName; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D73C30 | overloaded x5
         public void GetObjectData(){} // RVA: 0x5D73DD0
@@ -93,9 +95,484 @@ namespace ThirdParty.DotNet.System
 
     public class ByReference`1
     {
+        public UIntPtr _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void get_Value(){} // RVA: 0xCD60
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B0F90
+        public void get_Value(){} // RVA: 0x28A5A70
+    }
+
+    public class ByReference`1
+    {
+        public UIntPtr _value; // 0x10
     }
 
     public class Byte

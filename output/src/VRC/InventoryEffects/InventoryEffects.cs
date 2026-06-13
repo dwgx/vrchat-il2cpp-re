@@ -52,6 +52,8 @@ namespace VRC.InventoryEffects
 
     public class WarpEffect
     {
+        public float _MAX_EYE_HEIGHT;
+
         // ── Methods ──
         public void add_Completed(){} // RVA: 0x76D3930
         public void remove_Completed(){} // RVA: 0x76D3A30
@@ -74,6 +76,9 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectMap
     {
+        public VRC.InventoryEffects.WarpEffectParams _parameters; // 0x20
+        public UnityEngine.Transform _trackedTransform; // 0x28
+
         // ── Methods ──
         public void get_Parameters(){} // RVA: 0x30B0C0
         public void get_TrackedTransform(){} // RVA: 0x30B130
@@ -82,6 +87,16 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectParams
     {
+        public 0x659FCBC0 _poseTrackingFlags; // 0x18
+        public float _poseTrackingDuration; // 0x1C
+        public bool _centerTrackedTransformVertically; // 0x20
+        public UnityEngine.Vector3 _trackedTransformLocalOffset; // 0x24
+        public UnityEngine.Vector3 _trackedTransformRemoteOffset; // 0x30
+        public float _delayBeforeShowingAvatar; // 0x3C
+        public float _delayBeforeDespawningPlayer; // 0x40
+        public UnityEngine.Vector3 _previewDistanceFromCamera; // 0x44
+        public bool _useReplacementShaderForPreview; // 0x50
+
         // ── Methods ──
         public void get_PoseTrackingFlags(){} // RVA: 0x5BED50
         public void get_PoseTrackingDuration(){} // RVA: 0x3AA570

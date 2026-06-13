@@ -8,6 +8,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÍÍÎÏÌÎÏÌÌÍÍÌÍÍÍÌÌÌÌÎÏÏ</summary>
     public class VRCPlayerSiblingSiblingSibling_6422
     {
+        public System.Action ÏÌÎÍÍÏÏÌÏÌÏÍÎÏÍÍÌÏÎÎÏÎÌ; // 0x10
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÏÎÎÍÎÎÍÏÎÏÍÌÎÌÍÎÏÍÌÍÌÎÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xF28320
         public void get_Current(){} // RVA: 0xF285A0
@@ -28,6 +31,10 @@ namespace VRC.Player
     /// <summary>Originally: ÎÎÏÌÍÎÏÌÏÌÏÏÏÏÍÌÎÍÌÌÌÍÍ</summary>
     public class VRCPlayerSiblingSibling_2549
     {
+        public System.Action ÏÌÎÍÍÏÏÌÏÌÏÍÎÏÍÍÌÏÎÎÏÎÌ; // 0x10
+        public VRC.Core.APIUser <ÏÌÍÍÍÌÏÎÎÍÍÌÏÎÌÎÎÏÌÏÏÍÍ>k__BackingField; // 0x18
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÏÎÎÍÎÎÍÏÎÏÍÌÎÌÍÎÏÍÌÍÌÎÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void ProcessQuaternion(){} // RVA: 0x301210
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
@@ -63,6 +70,13 @@ namespace VRC.Player
     /// <summary>Originally: ÎÎÏÌÌÏÍÎÍÏÏÌÎÏÎÌÌÍÍÌÍÎÌ</summary>
     public class VRCPlayerSiblingSibling_26E5
     {
+        public ÎÎÏÌÌÏÍÎÍÏÏÌÎÏÎÌÌÍÍÌÍÎÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÎÍÎÌÎÏÏÏÎÍÏÎÌÍÍÎÎÍÌÎÏÌÏ <ÌÏÏÌÎÌÎÎÏÍÏÎÎÏÌÍÏÏÏÍÌÎÌ>k__BackingField; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,ÍÏÎÎÎÏÍÍÍÎÌÎÌÍÌÎÏÌÎÎÌÌÌ> ÍÌÌÎÏÎÌÌÍÏÏÏÎÏÌÏÌÎÎÏÎÌÏ; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,object> ÌÌÎÎÌÎÎÎÎÎÌÎÎÎÏÎÏÌÌÍÌÏÎ; // 0x20
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ; // 0x8
+        public bool ÌÎÍÏÍÎÍÍÎÎÏÎÌÍÎÎÏÏÌÎÏÎÍ; // 0x10
+
         // ── Methods ──
         public void SystemIConvertibleToByte(){} // RVA: 0xDEB740
         public void .cctor(){} // RVA: 0xDEBA70
@@ -103,6 +117,9 @@ namespace VRC.Player
     /// <summary>Originally: ÎÌÌÍÌÍÍÍÌÎÍÌÎÍÌÎÏÌÏÎÏÌÌ</summary>
     public class VRCPlayerSiblingSibling_B5F1
     {
+        public float ÏÏÏÍÌÌÎÌÎÌÏÍÏÌÍÌÏÏÎÎÍÍÌ;
+        public int ÎÌÏÍÏÌÌÎÌÏÍÌÏÌÌÏÎÏÍÍÏÌÎ;
+
         // ── Methods ──
         public void SetIdAnimator(){} // RVA: 0x955280
         public void CreateSpanFromArraySegment_296B90045F5F(){} // RVA: 0x960E60 | overloaded x2
@@ -149,6 +166,34 @@ namespace VRC.Player
     /// <summary>Originally: ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ</summary>
     public class VRCPlayerSiblingSibling_BF8C
     {
+        public VRC.Core.APIUser <ÎÏÏÌÍÎÍÎÍÌÌÎÌÏÌÌÌÌÎÎÎÌÍ>k__BackingField; // 0x20
+        public ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ ÌÌÎÍÎÍÍÌÌÍÎÍÌÌÌÍÌÌÌÌÌÌÎ; // 0x28
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ _vrcplayer; // 0x30
+        public ÏÍÏÌÍÎÍÍÏÍÎÍÍÏÍÍÏÏÏÏÎÌÎ _laserSelectRegion; // 0x38
+        public ÍÎÎÌÍÏÎÏÏÎÏÏÌÏÍÍÍÌÍÌÏÌÏ ÏÍÎÍÏÎÎÎÏÌÌÍÌÌÌÎÍÌÍÏÍÍÎ; // 0x40
+        public ÌÍÍÌÏÎÌÍÏÍÌÌÍÏÏÎÏÌÍÌÌÍÌ <ÎÌÎÏÌÌÏÎÍÎÏÍÌÎÍÍÍÏÌÎÍÏÌ>k__BackingField; // 0x48
+        public bool <ÏÍÍÌÎÎÌÌÏÍÌÌÎÏÍÍÍÏÌÌÎÌÏ>k__BackingField; // 0x50
+        public bool <ÍÎÍÌÎÎÌÌÍÏÍÎÎÍÏÍÌÌÏÏÍÎÎ>k__BackingField; // 0x51
+        public bool <ÌÍÍÌÌÎÌÎÏÌÏÌÏÍÍÌÍÎÌÌÍÍÌ>k__BackingField; // 0x52
+        public bool <ÎÏÍÎÌÍÏÏÌÌÍÍÍÍÎÎÌÌÏÍÌÍÌ>k__BackingField; // 0x53
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> <ÎÌÏÌÎÏÏÎÏÏÎÎÌÎÌÌÏÍÌÍÏÌÌ>k__BackingField; // 0x58
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÏÏÎÏÎÏÍÎÏÏÍÏÍÎÏÎÍÍÎÍÍÎ>k__BackingField; // 0x60
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÏÎÍÎÍÎÌÎÎÌÎÍÏÌÎÏÏÎÌÍÏÏÎ>k__BackingField; // 0x68
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÎÌÎÍÍÍÌÍÍÏÏÎÏÌÌÏÍÍÌÌÏÏ>k__BackingField; // 0x70
+        public string[] <ÍÏÍÏÍÎÏÌÏÏÏÏÌÎÎÎÍÌÌÍÌÏÌ>k__BackingField; // 0x78
+        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ <ÏÎÏÍÍÎÌÎÍÏÌÎÌÏÌÏÌÏÏÎÍÏÎ>k__BackingField; // 0x80
+        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ _USpeaker; // 0x88
+        public bool <ÏÌÍÏÍÍÎÏÍÍÏÎÏÎÌÍÍÎÏÌÏÌÌ>k__BackingField; // 0x90
+        public bool <ÏÏÌÍÏÌÎÍÍÍÎÎÎÏÎÍÎÌÏÎÍÌÏ>k__BackingField; // 0x91
+        public bool ÏÏÍÌÏÌÌÏÍÍÍÏÎÏÎÎÌÎÎÎÏÎÌ; // 0x92
+        public bool ÍÌÏÌÌÏÍÌÏÏÎÌÏÌÎÍÎÌÏÎÎÌÌ; // 0x93
+        public VRC.SDKBase.VRCPlayerApi ÌÍÌÌÏÌÏÌÌÏÍÎÏÎÌÎÎÍÎÌÌÍÌ; // 0x98
+        public ÍÌÏÎÍÏÎÎÍÏÌÏÌÌÍÍÍÌÍÎÏÎÌ ÎÌÍÍÏÌÌÌÏÏÌÏÌÌÍÍÍÌÏÏÎÎÍ; // 0xA0
+        public bool ÌÎÎÌÎÏÍÏÌÏÌÌÏÎÍÏÍÎÏÍÍÍÌ; // 0xA8
+        public bool ÍÏÍÌÎÏÏÌÍÎÍÌÌÎÎÏÎÌÎÎÎÎÌ; // 0xA9
+        public bool ÌÏÍÏÏÍÎÍÎÍÏÎÌÌÏÏÎÌÎÏÌÏÏ; // 0xAA
+        public bool ÌÌÎÌÍÎÏÌÌÏÌÍÌÍÎÎÏÏÌÎÍÍÌ; // 0xAB
+
         // ── Methods ──
         public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically(){} // RVA: 0x1BE2170
         public void set_Error(){} // RVA: 0x1BE2180
@@ -262,6 +307,10 @@ namespace VRC.Player
     /// <summary>Originally: ÌÎÎÎÏÏÌÍÍÌÎÎÌÌÍÏÎÌÏÏÌÏÌ</summary>
     public class VRCPlayerSibling_1A7B
     {
+        public UnityEngine.GameObject ÏÏÎÍÏÎÍÎÌÏÌÎÎÎÏÍÎÏÎÌÎÍÌ; // 0x20
+        public TMPro.TextMeshProUGUI ÎÎÏÎÌÏÍÌÏÍÎÏÌÎÌÌÏÎÏÌÍÍÎ; // 0x28
+        public UnityEngine.UI.Graphic ÌÎÏÎÍÎÌÌÎÌÍÏÏÏÌÏÌÎÎÎÍÍÎ; // 0x30
+
         // ── Methods ──
         public void ReadComponentState(){} // RVA: 0x7CBE50
         public void Contains(){} // RVA: 0x7CC040
@@ -293,6 +342,14 @@ namespace VRC.Player
     /// <summary>Originally: ÎÎÍÌÌÍÌÍÌÎÏÎÍÍÏÎÎÏÎÍÏÏÍ</summary>
     public class VRCPlayerSibling_40F1
     {
+        public ÎÎÍÌÌÍÌÍÌÎÏÎÍÍÏÎÎÏÎÍÏÏÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public System.Collections.Generic.Dictionary`2<0x6588F750,ÌÌÌÏÌÍÍÎÎÍÏÌÍÏÏÍÍÌÌÍÎÎÍ> ÍÌÏÎÎÏÎÎÏÌÌÏÎÎÍÌÍÍÎÍÏÍÎ; // 0x20
+        public System.Nullable`1<0x6588E360> <ÏÎÏÍÌÎÍÍÎÌÎÏÍÏÎÎÍÌÌÎÌÍÍ>k__BackingField; // 0x28
+        public System.Collections.Generic.Dictionary`2<0x6588F750,ÌÌÌÏÌÍÍÎÎÍÏÌÍÏÏÍÍÌÌÍÎÎÍ> ÏÏÏÍÏÍÌÎÌÎÍÍÎÎÌÏÏÏÎÍÍÌÌ; // 0x8
+        public 0x6588F750[] ÍÎÌÏÎÍÏÍÍÍÏÌÍÍÏÏÌÍÏÎÌÏÌ; // 0x30
+        public System.Collections.Generic.Dictionary`2<string,0x6588F750> ÎÎÎÌÎÍÍÍÍÎÌÌÏÎÍÏÌÍÎÏÌÍÏ; // 0x38
+        public 0x65972C88 ÎÏÎÎÍÌÌÏÌÍÏÌÎÏÍÌÎÌÏÎÏÍÎ; // 0x40
+
         // ── Methods ──
         public void GetIsTrigger(){} // RVA: 0x1B9F590
         public void GetStructuralHashCode(){} // RVA: 0x1B9FFC0
@@ -406,6 +463,75 @@ namespace VRC.Player
     /// <summary>Originally: ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ</summary>
     public class VRCPlayer_F618
     {
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ _player; // 0x58
+        public ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ _serializer; // 0x60
+        public ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ _poseRecorder; // 0x68
+        public ÎÎÏÍÏÏÏÍÎÌÍÎÍÏÎÍÏÍÎÌÏÏÌ _syncPhysics; // 0x70
+        public bool <ÏÏÌÎÎÎÌÍÎÏÍÏÍÏÍÍÎÎÏÏÌÍÌ>k__BackingField; // 0x78
+        public ÎÎÍÏÍÏÌÌÍÎÏÍÏÌÎÌÍÏÌÏÎÌÌ ÎÎÍÏÍÏÌÌÍÎÏÍÏÌÎÌÍÏÌÏÎÌÌ; // 0x80
+        public UnityEngine.GameObject ÌÏÍÏÍÍÌÏÏÏÍÏÌÍÌÍÎÎÎÍÎÍÏ; // 0x88
+        public ÌÏÏÌÏÎÏÌÎÍÏÎÏÍÍÍÌÏÍÌÎÌÌ ÍÎÍÌÏÍÏÍÎÎÌÌÍÍÎÏÏÎÎÌÌÍÌ; // 0x90
+        public ÎÌÌÍÌÍÍÍÌÎÍÌÎÍÌÎÏÌÏÎÏÌÌ ÍÍÏÎÏÍÌÏÏÍÍÏÏÎÏÏÏÌÍÏÌÌÎ; // 0x98
+        public string ÌÏÌÍÌÌÌÏÍÍÎÏÍÍÏÌÌÎÏÍÎÏÎ; // 0xA0
+        public UnityEngine.Texture2D ÎÎÍÎÌÍÎÌÍÏÍÌÌÍÍÎÌÌÍÎÎÏÏ; // 0xA8
+        public bool ÎÏÏÎÌÏÍÏÎÌÏÎÏÍÍÌÎÎÌÎÎÎÍ; // 0xB0
+        public float ÍÍÌÏÌÌÍÌÍÏÍÏÎÏÍÌÍÎÏÍÎÎÌ; // 0xB4
+        public float ÏÏÏÎÎÌÏÌÌÍÍÎÎÎÏÏÏÌÏÏÌÌÏ; // 0xB8
+        public System.Collections.Generic.HashSet`1<string> ÍÌÏÏÎÌÏÏÍÍÍÍÏÍÏÏÏÌÎÌÏÏÌ; // 0xC0
+        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ ÍÌÌÌÌÏÏÍÌÎÏÍÏÌÍÎÍÌÍÌÌÌÎ; // 0xC8
+        public ÏÏÎÏÎÌÌÍÎÎÌÎÍÏÏÎÎÌÌÍÌÍÌ ÌÍÎÎÍÍÌÎÌÎÏÎÎÌÍÌÌÍÏÏÍÏÎ; // 0xD0
+        public ÏÏÌÏÏÎÏÏÌÏÍÍÍÏÌÍÎÍÏÍÌÎÎ ÏÌÎÌÎÎÎÌÎÍÌÏÏÌÌÌÏÍÎÏÏÌÌ; // 0xD8
+        public UnityEngine.GameObject[] ÎÌÏÏÏÎÎÏÏÍÌÎÍÍÎÍÍÏÍÌÍÏÍ; // 0xE0
+        public UnityEngine.GameObject[] ÍÍÎÌÌÏÌÌÍÏÏÌÌÌÏÏÎÍÎÌÎÍÏ; // 0xE8
+        public ÏÌÍÏÎÏÍÏÏÌÏÏÍÎÍÌÎÌÎÏÌÍÍ ÎÏÌÏÏÍÌÎÍÏÎÏÍÏÍÎÎÍÏÎÌÏÏ; // 0xF0
+        public ÏÌÍÏÎÏÍÏÏÌÏÏÍÎÍÌÎÌÎÏÌÍÍ ÌÏÌÎÎÎÏÍÍÌÌÏÌÍÌÌÍÌÍÎÎÏÍ; // 0xF8
+        public bool ÏÍÌÏÎÌÌÌÌÍÏÌÍÍÏÌÌÎÏÍÍÏÌ; // 0x100
+        public float <ÏÍÏÏÌÎÎÌÎÎÍÏÎÍÏÌÌÏÏÏÌÍÎ>k__BackingField; // 0x8
+        public UnityEngine.Vector3 ÌÎÎÏÎÎÏÏÍÍÎÏÏÎÏÏÌÏÎÌÎÌÏ; // 0x104
+        public float ÎÎÍÏÎÎÌÍÌÍÏÌÍÎÍÏÎÎÌÎÏÏÍ; // 0x110
+        public float ÌÌÏÍÍÍÎÎÌÏÎÏÌÍÎÏÏÍÌÏÎÏÌ;
+        public string ÌÍÎÏÏÏÎÍÏÏÎÎÍÏÏÍÌÏÎÌÌÌÎ; // 0x118
+        public string ÏÌÍÍÍÏÏÏÍÌÏÎÍÏÎÏÏÌÌÌÍÌÌ; // 0x120
+        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ <ÌÎÍÌÎÍÎÎÎÏÏÍÏÎÌÏÌÌÏÌÏÏÏ>k__BackingField; // 0x128
+        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0x130
+        public bool ÌÌÎÍÍÏÎÌÌÌÏÏÏÌÌÍÎÎÏÌÎÏÌ; // 0x131
+        public ÏÏÎÍÍÏÍÌÌÏÌÍÎÌÌÍÏÏÏÎÍÎÏ ÎÌÍÏÏÎÌÏÎÍÎÏÍÍÍÌÎÌÏÌÌÌÌ; // 0x138
+        public UnityEngine.Transform ÌÏÌÎÍÌÎÌÏÎÌÏÌÏÍÎÎÌÍÍÍÍÍ; // 0x140
+        public bool <ÎÌÎÎÏÍÏÍÎÌÏÎÌÌÎÍÍÎÍÍÌÏÎ>k__BackingField; // 0x148
+        public ÏÌÏÎÌÏÌÎÎÍÎÎÎÍÎÏÏÏÏÍÌÎÎ ÏÌÍÏÎÍÍÍÌÍÎÌÎÌÌÏÌÏÏÌÎÏÍ; // 0x150
+        public UnityEngine.GameObject ÏÎÍÌÎÏÌÌÌÎÍÍÏÎÍÍÍÏÏÍÍÏÏ; // 0x158
+        public UnityEngine.Animator ÍÌÎÏÎÎÏÌÏÏÌÎÌÎÌÎÎÏÌÎÎÎÏ; // 0x160
+        public ÌÌÏÏÏÎÌÌÌÍÍÎÍÌÏÏÎÍÏÏÌÎÏ <ÌÏÎÍÍÍÌÍÏÌÎÏÏÎÌÍÌÎÏÏÏÍÍ>k__BackingField; // 0x168
+        public System.Collections.Generic.Dictionary`2<string,string> ÎÍÎÏÏÌÎÍÏÎÌÎÍÌÎÎÎÎÏÏÌÎÎ; // 0x170
+        public System.Collections.Generic.HashSet`1<int> ÏÏÌÎÌÍÎÍÎÏÏÌÎÎÌÍÍÍÌÌÎÎÍ; // 0x178
+        public System.Collections.Generic.Dictionary`2<int,int> ÍÌÍÎÎÌÌÌÍÏÎÎÏÏÎÍÎÌÍÏÏÏÎ; // 0x180
+        public ÌÏÌÍÎÎÍÎÌÎÌÌÍÍÏÏÌÌÏÍÎÏÎ <ÎÌÎÌÏÌÌÏÌÌÍÏÎÏÌÌÎÏÏÌÍÍÎ>k__BackingField; // 0x188
+        public bool ÍÎÍÍÍÍÍÎÏÎÌÍÌÌÎÏÍÍÏÏÌÌÎ; // 0x190
+        public System.Nullable`1<int> <ÎÏÏÎÏÌÎÎÎÎÍÌÎÏÎÌÏÍÌÍÌÍÎ>k__BackingField; // 0x194
+        public VRC.SDKBase.VRCPlayerApi ÍÌÏÏÌÎÏÌÌÎÏÌÎÌÍÍÎÎÍÌÏÍÎ; // 0x1A0
+        public System.Collections.Generic.List`1<ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ> ÍÌÍÌÌÎÏÍÎÏÎÌÎÌÏÏÎÍÍÏÌÍÏ; // 0x1A8
+        public ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ ÏÎÍÌÎÌÏÏÏÏÍÎÎÌÍÍÌÏÌÎÍÎÏ; // 0x1B0
+        public ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ ÍÏÌÎÍÍÏÏÌÎÏÎÍÎÎÎÎÎÌÌÍÎÎ; // 0x1B8
+        public bool ÍÎÌÍÏÍÌÏÎÌÎÎÍÍÏÌÍÍÏÏÍÌÌ; // 0x1C0
+        public bool ÎÏÍÌÏÌÎÍÍÍÌÎÎÏÌÏÎÎÏÌÎÎÎ; // 0x1C1
+        public bool ÎÍÍÎÌÍÎÎÍÍÌÏÏÎÎÏÌÎÏÎÌÌÍ; // 0x1C2
+        public bool ÎÌÎÌÍÏÏÌÎÌÎÏÍÏÌÎÏÌÎÏÍÍÎ; // 0x1C3
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÏÎÎÍÎÎÍÏÎÏÍÌÎÌÍÎÏÍÌÍÌÎÏ>k__BackingField; // 0x1C8
+        public ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ <ÌÍÍÏÌÍÌÏÏÌÏÍÌÌÎÎÎÌÎÌÎÌÍ>k__BackingField; // 0x1D0
+        public VRC.Core.ApiAvatar <ÏÏÎÌÍÏÎÏÍÌÌÎÎÍÌÌÏÎÍÍÏÌÎ>k__BackingField; // 0x1D8
+        public VRC.Core.ApiAvatar <ÌÏÌÌÌÎÍÎÎÏÎÎÎÌÎÍÌÏÍÍÎÎÌ>k__BackingField; // 0x1E0
+        public ÌÏÍÎÏÍÏÎÌÎÍÏÍÎÍÍÍÌÏÏÌÏÍ <ÎÌÏÏÏÍÎÎÌÎÏÍÌÏÏÍÌÎÍÎÌÎÍ>k__BackingField; // 0x1E8
+        public bool ÏÍÍÏÎÌÍÎÏÎÌÌÎÍÎÏÌÍÎÎÌÎÍ; // 0x1F0
+        public bool ÏÍÎÌÍÌÍÍÏÌÏÍÏÎÍÍÍÏÏÏÏÍÏ; // 0x1F1
+        public string ÎÌÎÍÎÍÎÏÏÎÌÍÏÏÏÏÍÎÍÌÌÍÎ; // 0x1F8
+        public bool ÏÍÍÍÍÏÌÏÏÌÍÎÍÏÏÎÌÌÎÍÌÏÎ; // 0x200
+        public ulong ÎÍÌÏÌÍÍÍÍÏÏÍÍÌÍÏÏÌÍÎÎÎÏ; // 0x208
+        public bool ÎÍÍÌÌÏÏÎÍÏÍÍÎÎÍÌÎÎÍÌÎÏÌ; // 0x210
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÎÎÎÎÎÏÌÏÏÎÍÏÎÌÏÌÎÍÏÍÌÎ; // 0x218
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÌÌÏÏÌÍÌÌÍÎÏÏÌÍÏÏÌÎÍÏÏÏÏ; // 0x220
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÍÍÌÌÏÍÏÏÏÍÏÏÎÏÍÏÎÍÎÏÏÍ; // 0x228
+
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x1679690
         public void Computetransform(){} // RVA: 0x16797C0

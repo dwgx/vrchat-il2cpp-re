@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Switch
 {
     public class SwitchProControllerHID
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <captureButton>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.ButtonControl <homeButton>k__BackingField; // 0x218
+
         // ── Methods ──
         public void get_captureButton(){} // RVA: 0xD9F7C0
         public void set_captureButton(){} // RVA: 0xD9BA80

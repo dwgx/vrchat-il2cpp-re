@@ -8,6 +8,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÍÏÌÍÍÏÌÏÏÎÍÌÏÌÌÍÌÏÍÎÌ</summary>
     public class AsyncQuaternionHandler_0DB8
     {
+        public bool ÍÎÍÍÍÎÎÍÏÌÏÌÌÍÌÎÍÏÍÌÏÍÏ; // 0x38
+        public ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ ÍÎÌÌÍÌÌÏÎÌÍÌÍÍÍÎÌÎÍÍÌÍÎ; // 0x40
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÎÍÍÎÍÌÌÍÍÎÌÌÏÎÎÏÏÌÏÏÍÎ; // 0x48
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÍÍÎÎÎÌÌÌÎÌÎÌÏÌÌÍÎÏÎÌÌÍ; // 0x50
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÍÎÌÌÌÌÍÎÏÌÎÍÎÏÎÏÏÍÏÌÏÏ; // 0x58
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÎÎÍÌÏÍÍÍÏÏÍÎÌÏÏÍÎÌÌÌÏÌ; // 0x60
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÎÏÍÌÏÎÍÏÏÏÍÎÏÎÌÍÎÎÏÌÏÍ; // 0x68
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void GetIsDone(){} // RVA: 0x14D7370

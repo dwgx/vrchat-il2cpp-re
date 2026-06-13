@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500
 {
     public class AttributeTypeAndValue
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier type; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
         public void GetInstance(){} // RVA: 0x9754050
@@ -26,6 +29,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500
 
     public class Rdn
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set values; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9754B50 | overloaded x4
         public void GetInstance(){} // RVA: 0x97547D0

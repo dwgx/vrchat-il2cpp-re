@@ -30,6 +30,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsBlockCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsContext context; // 0x10
+        public byte[] randomData; // 0x18
+
         // ── Methods ──
         public void get_WriteMac(){} // RVA: 0x4976A0
         public void get_ReadMac(){} // RVA: 0x35A740
@@ -94,6 +97,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsClientProtocol
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsClient mTlsClient; // 0xA8
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsClientContextImpl mTlsClientContext; // 0xB0
+        public byte[] mSelectedSessionID; // 0xB8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9539E70 | overloaded x3
         public void Connect(){} // RVA: 0x9539E80
@@ -140,6 +147,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsDHKeyExchange
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSigner mTlsSigner; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x953DF60 | overloaded x2
         public void Init(){} // RVA: 0x953E1C0
@@ -235,6 +244,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsECDHKeyExchange
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSigner mTlsSigner; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9545C20
         public void Init(){} // RVA: 0x9545EC0
@@ -384,6 +395,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsFatalAlert
     {
+        public byte alertDescription; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9549050 | overloaded x2
         public void get_AlertDescription(){} // RVA: 0x134A670
@@ -391,6 +404,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsFatalAlertReceived
     {
+        public byte alertDescription; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9549000
         public void get_AlertDescription(){} // RVA: 0x134A670
@@ -430,6 +445,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsMac
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsContext context; // 0x10
+        public byte[] secret; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95490B0
         public void get_MacSecret(){} // RVA: 0x2E07C0
@@ -478,6 +496,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsProtocol
     {
+        public short CS_START;
+        public short CS_CLIENT_HELLO;
+        public short CS_SERVER_HELLO;
+        public short CS_SERVER_SUPPLEMENTAL_DATA;
+        public short CS_SERVER_CERTIFICATE;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x954A9A0 | overloaded x3
         public void get_Context(){} // RVA: 0xCD60
@@ -567,6 +591,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsPskKeyExchange
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsPskIdentity mPskIdentity; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9550640 | overloaded x2
         public void SkipServerCredentials(){} // RVA: 0x95509A0
@@ -666,6 +692,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsServerProtocol
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsServer mTlsServer; // 0xA8
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsServerContextImpl mTlsServerContext; // 0xB0
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsKeyExchange mKeyExchange; // 0xB8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9553A50 | overloaded x3
         public void Accept(){} // RVA: 0x9553A70
@@ -700,6 +730,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsSessionImpl
     {
+        public byte[] mSessionID; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.SessionParameters mSessionParameters; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9556D60
         public void ExportSessionParameters(){} // RVA: 0x9556FB0
@@ -740,6 +773,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsSrpKeyExchange
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSigner mTlsSigner; // 0x28
+
         // ── Methods ──
         public void CreateSigner(){} // RVA: 0x9557570
         public void .ctor(){} // RVA: 0x9557940 | overloaded x3
@@ -760,6 +795,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsSrpLoginParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Srp6GroupParameters mGroup; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mVerifier; // 0x18
+        public byte[] mSalt; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00
         public void get_Group(){} // RVA: 0x2F8380
@@ -782,6 +821,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class TlsStream
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsProtocol handler; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9559ED0
         public void get_CanRead(){} // RVA: 0x9559F70

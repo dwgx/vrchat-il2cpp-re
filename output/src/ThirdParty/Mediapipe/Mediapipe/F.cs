@@ -7,6 +7,36 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class FaceDetectionOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.FaceDetectionOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public string ModelPathDefaultValue; // 0x8
+        public string modelPath_; // 0x20
+        public 0x6592FA50 GpuOriginDefaultValue; // 0x10
+        public 0x6592FA50 gpuOrigin_; // 0x28
+        public int TensorWidthDefaultValue; // 0x14
+        public int tensorWidth_; // 0x2C
+        public int TensorHeightDefaultValue; // 0x18
+        public int tensorHeight_; // 0x30
+        public int NumLayersDefaultValue; // 0x1C
+        public int numLayers_; // 0x34
+        public Google.Protobuf.FieldCodec`1<int> _repeated_strides_codec; // 0x20
+        public Google.Protobuf.Collections.RepeatedField`1<int> strides_; // 0x38
+        public float InterpolatedScaleAspectRatioDefaultValue; // 0x28
+        public float interpolatedScaleAspectRatio_; // 0x40
+        public int NumBoxesDefaultValue; // 0x2C
+        public int numBoxes_; // 0x44
+        public float XScaleDefaultValue; // 0x30
+        public float xScale_; // 0x48
+        public float YScaleDefaultValue; // 0x34
+        public float yScale_; // 0x4C
+        public float WScaleDefaultValue; // 0x38
+        public float wScale_; // 0x50
+        public float HScaleDefaultValue; // 0x3C
+        public float hScale_; // 0x54
+        public float MinScoreThreshDefaultValue; // 0x40
+        public float minScoreThresh_; // 0x58
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B2FEA0
         public void get_Descriptor(){} // RVA: 0x5B2FF00
@@ -77,6 +107,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FaceDetectionReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B2F320
         public void .cctor(){} // RVA: 0x5B2F380
@@ -84,6 +116,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FlowLimiterCalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.FlowLimiterCalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int MaxInFlightDefaultValue; // 0x8
+        public int maxInFlight_; // 0x1C
+        public int MaxInQueueDefaultValue; // 0xC
+        public int maxInQueue_; // 0x20
+        public long InFlightTimeoutDefaultValue; // 0x10
+        public long inFlightTimeout_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AE0AE0
         public void get_Descriptor(){} // RVA: 0x5AE0B40
@@ -115,6 +157,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FlowLimiterCalculatorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5AE0310
         public void .cctor(){} // RVA: 0x5AE0370

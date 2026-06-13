@@ -49,6 +49,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class NetworkingPeer
     {
+        public ulong <ID>k__BackingField; // 0x10
+        public 0x659779E0 <State>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1969380
         public void get_ID(){} // RVA: 0x2F8380

@@ -7,6 +7,22 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class DatatypeImplementation
     {
+        public 0x6587BAB8 variety; // 0x10
+        public System.Xml.Schema.RestrictionFacets restriction; // 0x18
+        public System.Xml.Schema.DatatypeImplementation baseType; // 0x20
+        public System.Xml.Schema.XmlValueConverter valueConverter; // 0x28
+        public System.Xml.Schema.XmlSchemaType parentSchemaType; // 0x30
+        public System.Collections.Hashtable builtinTypes;
+        public System.Xml.Schema.XmlSchemaSimpleType[] enumToTypeCode; // 0x8
+        public System.Xml.Schema.XmlSchemaSimpleType anySimpleType; // 0x10
+        public System.Xml.Schema.XmlSchemaSimpleType anyAtomicType; // 0x18
+        public System.Xml.Schema.XmlSchemaSimpleType untypedAtomicType; // 0x20
+        public System.Xml.Schema.XmlSchemaSimpleType yearMonthDurationType; // 0x28
+        public System.Xml.Schema.XmlSchemaSimpleType dayTimeDurationType; // 0x30
+        public System.Xml.Schema.XmlSchemaSimpleType normalizedStringTypeV1Compat; // 0x38
+        public System.Xml.Schema.XmlSchemaSimpleType tokenTypeV1Compat; // 0x40
+        public System.Xml.XmlQualifiedName QnAnySimpleType; // 0x48
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6AE2D20
         public void get_AnySimpleType(){} // RVA: 0x6AE8C70
@@ -85,6 +101,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_List
     {
+        public System.Xml.Schema.DatatypeImplementation itemType; // 0x38
+        public int minListSize; // 0x40
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AECC20
         public void .ctor(){} // RVA: 0x6AED1A0
@@ -116,6 +135,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_NOTATION
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF4FA0
@@ -140,6 +162,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_QName
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF4770
@@ -156,6 +181,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_QNameXdr
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void get_TokenizedType(){} // RVA: 0x5B1C70
         public void ParseValue(){} // RVA: 0x6AFAB10
@@ -176,6 +204,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_anySimpleType
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AEF020
         public void get_FacetsChecker(){} // RVA: 0x6AEF080
@@ -193,6 +224,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_anyURI
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF40E0
@@ -210,6 +244,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_base64Binary
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF3970
@@ -226,6 +263,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_boolean
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AEFA00
         public void get_FacetsChecker(){} // RVA: 0x6AEFA90
@@ -242,6 +282,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_byte
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF77E0
         public void get_TypeCode(){} // RVA: 0x65B0FF0
@@ -255,6 +299,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_char
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void get_ValueType(){} // RVA: 0x6AFB090
         public void get_ListValueType(){} // RVA: 0x6AFB0F0
@@ -281,6 +328,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_dateTimeBase
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public 0x65880F48 dateTimeFlags; // 0x38
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF2260
         public void get_FacetsChecker(){} // RVA: 0x6AF22F0
@@ -324,6 +375,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_decimal
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF0DF0
         public void get_FacetsChecker(){} // RVA: 0x6AF0E80
@@ -340,6 +395,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_double
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF0190
         public void get_FacetsChecker(){} // RVA: 0x6AF07D0
@@ -363,6 +421,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_duration
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF1580
@@ -387,6 +448,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_float
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF0190
         public void get_FacetsChecker(){} // RVA: 0x6AF01A0
@@ -410,6 +474,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_hexBinary
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AF1570
         public void get_FacetsChecker(){} // RVA: 0x6AF3230
@@ -426,6 +493,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_int
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF6690
         public void get_TypeCode(){} // RVA: 0x2111950
@@ -454,6 +525,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_long
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF5DF0
         public void get_HasValueFacets(){} // RVA: 0x3C2850
@@ -482,6 +557,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_negativeInteger
     {
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF5BD0
         public void get_TypeCode(){} // RVA: 0x6AF5C30
@@ -491,6 +568,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_nonNegativeInteger
     {
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF8050
         public void get_TypeCode(){} // RVA: 0x5E61600
@@ -501,6 +580,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_nonPositiveInteger
     {
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF5A50
         public void get_TypeCode(){} // RVA: 0x6AF5AB0
@@ -528,6 +609,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_positiveInteger
     {
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AFA4F0
         public void get_TypeCode(){} // RVA: 0x21118C0
@@ -537,6 +620,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_short
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF6FB0
         public void get_TypeCode(){} // RVA: 0x6AF7010
@@ -597,6 +684,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_union
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.XmlSchemaSimpleType[] types; // 0x38
+
         // ── Methods ──
         public void CreateValueConverter(){} // RVA: 0x6AEE1E0
         public void .ctor(){} // RVA: 0x6AEE240
@@ -615,6 +706,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_unsignedByte
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF9CA0
         public void get_TypeCode(){} // RVA: 0x65E6220
@@ -628,6 +723,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_unsignedInt
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF8B30
         public void get_TypeCode(){} // RVA: 0x2111910
@@ -641,6 +740,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_unsignedLong
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF81B0
         public void get_TypeCode(){} // RVA: 0x210E2D0
@@ -654,6 +757,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_unsignedShort
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+
         // ── Methods ──
         public void get_FacetsChecker(){} // RVA: 0x6AF9420
         public void get_TypeCode(){} // RVA: 0x5B1C80
@@ -676,6 +783,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class Datatype_uuid
     {
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+
         // ── Methods ──
         public void get_ValueType(){} // RVA: 0x6AFC030
         public void get_ListValueType(){} // RVA: 0x6AFC090
@@ -730,6 +840,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class DoubleLinkAxis
     {
+        public MS.Internal.Xml.XPath.Axis next; // 0x40
+
         // ── Methods ──
         public void get_Next(){} // RVA: 0x35A740
         public void set_Next(){} // RVA: 0x305200
@@ -739,6 +851,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class DtdValidator
     {
+        public NamespaceManager namespaceManager;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AFC890
         public void Init(){} // RVA: 0x6AFC990

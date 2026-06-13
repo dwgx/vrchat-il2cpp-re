@@ -7,6 +7,11 @@ namespace VRC.Core
 {
     public class DiscordAccessDataObject
     {
+        public string <accessToken>k__BackingField; // 0x68
+        public string <tokenType>k__BackingField; // 0x70
+        public int <expiresIn>k__BackingField; // 0x78
+        public string <scope>k__BackingField; // 0x80
+
         // ── Methods ──
         public void get_accessToken(){} // RVA: 0x358D50
         public void set_accessToken(){} // RVA: 0x358D60
@@ -21,6 +26,13 @@ namespace VRC.Core
 
     public class DiscordDeviceCodeResponse
     {
+        public string <device_code>k__BackingField; // 0x68
+        public string <user_code>k__BackingField; // 0x70
+        public string <verification_uri>k__BackingField; // 0x78
+        public string <verification_uri_complete>k__BackingField; // 0x80
+        public int <expires_in>k__BackingField; // 0x88
+        public int <interval>k__BackingField; // 0x8C
+
         // ── Methods ──
         public void get_device_code(){} // RVA: 0x358D50
         public void set_device_code(){} // RVA: 0x358D60
@@ -39,6 +51,10 @@ namespace VRC.Core
 
     public class DiscordLoginResponse
     {
+        public VRC.Core.APIUser <user>k__BackingField; // 0x68
+        public VRC.Core.DiscordAccessDataObject <discordAccessData>k__BackingField; // 0x70
+        public bool <userNewlyAcceptedSocialSDKPerms>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_user(){} // RVA: 0x358D50
         public void set_user(){} // RVA: 0x358D60

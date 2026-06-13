@@ -91,6 +91,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÏÍÍÎÏÍÏÏÏÍÌÌÌÎÍÍÍÏÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C652
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0x1F22F10
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -107,6 +109,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÏÏÌÎÍÏÎÌÌÎÎÍÌÏÏÎÌÍÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C790
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void TestDefaultCountry(){} // RVA: 0x20686E0

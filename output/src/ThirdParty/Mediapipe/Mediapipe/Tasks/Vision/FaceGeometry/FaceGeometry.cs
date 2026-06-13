@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry
 {
     public class FaceGeometryPipelineCalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceGeometry.FaceGeometryPipelineCalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Mediapipe.Tasks.Core.Proto.ExternalFile metadataFile_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B71F70
         public void get_Descriptor(){} // RVA: 0x5B71FD0
@@ -28,6 +32,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry
 
     public class GeometryPipelineCalculatorReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B716E0
         public void .cctor(){} // RVA: 0x5B71740

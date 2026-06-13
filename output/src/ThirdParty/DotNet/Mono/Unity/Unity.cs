@@ -20,6 +20,8 @@ namespace ThirdParty.DotNet.Mono.Unity
 
     public class UnityTls
     {
+        public unitytls_interface_struct marshalledInterface;
+
         // ── Methods ──
         public void GetUnityTlsInterface(){} // RVA: 0x6682C60
         public void get_IsSupported(){} // RVA: 0x6682C70
@@ -28,6 +30,10 @@ namespace ThirdParty.DotNet.Mono.Unity
 
     public class UnityTlsContext
     {
+        public unitytls_tlsctx* tlsContext; // 0x58
+        public unitytls_x509list* requestedClientCertChain; // 0x60
+        public unitytls_key* requestedClientKey; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66837C0
         public void ExtractNativeKeyAndChainFromManagedCertificate(){} // RVA: 0x66846C0
@@ -86,6 +92,11 @@ namespace ThirdParty.DotNet.Mono.Unity
 
     public class X509ChainImplUnityTls
     {
+        public System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements; // 0x10
+        public unitytls_x509list* ownedList; // 0x18
+        public unitytls_x509list_ref nativeCertificateChain; // 0x20
+        public System.Security.Cryptography.X509Certificates.X509ChainPolicy policy; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66879A0 | overloaded x2
         public void get_IsValid(){} // RVA: 0x6687B00

@@ -23,6 +23,8 @@ public class _Put8Bit
 
 public class _Queue
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -42,6 +44,8 @@ public class _QueueHasReader
 
 public class _Range
 {
+    public int start; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D23A20
     public void get_Current(){} // RVA: 0x5BED50
@@ -330,6 +334,8 @@ public class _RenderModelHasComponent
 
 public class _Repeat
 {
+    public T element;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -375,6 +381,8 @@ public class _ResetZeroPose
 
 public class _Return
 {
+    public T value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -384,6 +392,8 @@ public class _Return
 
 public class _Reverse
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -421,6 +431,8 @@ public class _RoomSetupStarting
 
 public class _Select
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -432,6 +444,8 @@ public class _Select
 
 public class _Select
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -443,6 +457,8 @@ public class _Select
 
 public class _SelectAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -454,6 +470,8 @@ public class _SelectAwait
 
 public class _SelectAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -465,6 +483,8 @@ public class _SelectAwait
 
 public class _SelectAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -476,6 +496,8 @@ public class _SelectAwaitWithCancellation
 
 public class _SelectAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -487,6 +509,8 @@ public class _SelectAwaitWithCancellation
 
 public class _SelectMany
 {
+    public System.Action`1<object> sourceMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -503,6 +527,8 @@ public class _SelectMany
 
 public class _SelectManyAwait
 {
+    public System.Action`1<object> sourceMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -521,6 +547,8 @@ public class _SelectManyAwait
 
 public class _SelectManyAwaitWithCancellation
 {
+    public System.Action`1<object> sourceMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0

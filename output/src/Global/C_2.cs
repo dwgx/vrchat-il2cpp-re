@@ -25,6 +25,9 @@ public class Child
 
 public class ChildConstraint
 {
+    public float pushElasticity; // 0x10
+    public float pullElasticity; // 0x14
+
     // ── Methods ──
     public void get_nominalDistance(){} // RVA: 0x3BC210
     public void set_nominalDistance(){} // RVA: 0x3BC220
@@ -38,8 +41,8 @@ public class ChildConstraint
 
 public class ChildrenSection`1
 {
-    public object _settingComponents;
-    public object _sections;
+    public string _settingComponents;
+    public T _sections;
 
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0xCD60
@@ -57,6 +60,9 @@ public class ChildrenSection`1
 
 public class ChildrenSection`1
 {
+    public string _name; // 0x10
+    public int _valueToAppear; // 0x18
+
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0x30B0C0
     public void set_SettingComponents(){} // RVA: 0x30B0C0
@@ -73,6 +79,9 @@ public class ChildrenSection`1
 
 public class ChildrenSection`1
 {
+    public string _name; // 0x10
+    public bool _valueToAppear; // 0x18
+
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0x30B0C0
     public void set_SettingComponents(){} // RVA: 0x30B0C0
@@ -137,6 +146,8 @@ public class CinemachineShot
 
 public class CinemachineShotPlayable
 {
+    public Cinemachine.CinemachineVirtualCameraBase VirtualCamera; // 0x10
+
     // ── Methods ──
     public void get_IsValid(){} // RVA: 0x1CC8590
     public void .ctor(){} // RVA: 0x2DD310
@@ -168,6 +179,8 @@ public class ClaimNetworkControlDelegate
 
 public class Classification
 {
+    public string Floor;
+
     // ── Methods ──
     public void get_List(){} // RVA: 0x618C670
     public void .cctor(){} // RVA: 0x618C6D0
@@ -244,6 +257,9 @@ public class ClientResult
 
 public class ClipPlaybackTracker
 {
+    public int <ReadCount>k__BackingField; // 0x10
+    public OVRHapticsClip <Clip>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_ReadCount(){} // RVA: 0x32A5C0
     public void set_ReadCount(){} // RVA: 0x2E00C0
@@ -254,6 +270,9 @@ public class ClipPlaybackTracker
 
 public class Clipper
 {
+    public int ioReverseSolution;
+    public int ioStrictlySimple;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1D3BC70
     public void InsertMaxima(){} // RVA: 0x1D3C290
@@ -359,6 +378,8 @@ public class Clipper
 
 public class ClipperBase
 {
+    public double horizontal;
+
     // ── Methods ──
     public void near_zero(){} // RVA: 0x1D37100
     public void get_PreserveCollinear(){} // RVA: 0x65F560
@@ -405,6 +426,9 @@ public class ClipperException
 
 public class ClipperOffset
 {
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> m_destPolys; // 0x10
+    public System.Collections.Generic.List`1<IntPoint> m_srcPoly; // 0x18
+
     // ── Methods ──
     public void get_ArcTolerance(){} // RVA: 0x1D4A890
     public void set_ArcTolerance(){} // RVA: 0x1D4A8A0
@@ -440,6 +464,9 @@ public class CmsAuthenticatedDataOutputStream
 
 public class CmsAuthenticatedSecureReadable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algorithm; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac mac; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6458F80
     public void get_Algorithm(){} // RVA: 0x2F8380
@@ -467,6 +494,9 @@ public class CmsEnvelopedDataOutputStream
 
 public class CmsEnvelopedSecureReadable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algorithm; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher cipher; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6458F80
     public void get_Algorithm(){} // RVA: 0x2F8380
@@ -487,7 +517,9 @@ public class CmsSignedDataOutputStream
 
 public class Codec
 {
-    public object Separator;
+    public Google.Protobuf.FieldCodec`1<U> Separator;
+    public Google.Protobuf.FieldCodec`1<T> valueCodec;
+    public uint mapTag;
 
     // ── Methods ──
     public void .ctor(){}
@@ -519,9 +551,10 @@ public class Collection
 
 public class CollectionFixup
 {
-    public object Callback;
-    public object Ids;
-    public object Source;
+    public System.Xml.Serialization.XmlSerializationCollectionFixupCallback Callback; // 0x10
+    public object Ids; // 0x18
+    public object Source; // 0x20
+    public string id; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6AB4F30
@@ -534,6 +567,8 @@ public class CollectionFixup
 
 public class CollectionHeaderTypeInfo`2
 {
+    public int minimalCount;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Separator(){} // RVA: 0xCD60
@@ -542,6 +577,10 @@ public class CollectionHeaderTypeInfo`2
 
 public class CollectionItemFixup
 {
+    public System.Array list; // 0x10
+    public int index; // 0x18
+    public string id; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5F528E0
     public void get_Collection(){} // RVA: 0x2F8380
@@ -558,6 +597,8 @@ public class Collider
 
 public class ColliderConfig
 {
+    public bool isMirrored; // 0x10
+
     // ── Methods ──
     public void Create(){} // RVA: 0x9A26130
     public void get_axis(){} // RVA: 0x9A26190
@@ -621,15 +662,7 @@ public class CollisionImpulseDelegate
 
 public class CollisionModule
 {
-    public object enabled;
-    public object inside;
-    public object outside;
-    public object enter;
-    public object exit;
-    public object colliderQueryMode;
-    public object radiusScale;
-    public object colliderCount;
-    public object get_subEmittersCount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -784,9 +817,7 @@ public class Color32Surrogate
 
 public class ColorBySpeedModule
 {
-    public object enabled;
-    public object size;
-    public object sizeMultiplier;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -814,8 +845,7 @@ public class ColorEqualityComparer
 
 public class ColorOverLifetimeModule
 {
-    public object enabled;
-    public object color;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -869,6 +899,9 @@ public class Colorf
 
 public class ColumnData
 {
+    public UnityEngine.UIElements.Internal.MultiColumnHeaderColumn <control>k__BackingField; // 0x10
+    public UnityEngine.UIElements.Internal.MultiColumnHeaderColumnResizeHandle <resizeHandle>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_control(){} // RVA: 0x2F8380
     public void set_control(){} // RVA: 0x2DEE30
@@ -887,6 +920,8 @@ public class ColumnState
 
 public class ComNativeDescriptionProvider
 {
+    public System.ComponentModel.IComNativeDescriptorHandler _handler; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30B0D0
     public void get_Handler(){} // RVA: 0x30B0C0
@@ -934,6 +969,10 @@ public class ComparePerformanceStatsDelegate
 
 public class Comparers
 {
+    public Comparers<U,T> Default;
+    public System.Collections.Generic.IEqualityComparer`1<U> _keyComparer;
+    public System.Collections.Generic.IEqualityComparer`1<T> _valueComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DC60
     public void get_KeyComparer(){} // RVA: 0xCD60
@@ -949,6 +988,10 @@ public class Comparers
 
 public class Comparers
 {
+    public Comparers<U,T> Default;
+    public System.Collections.Generic.IEqualityComparer`1<U> _keyComparer;
+    public System.Collections.Generic.IEqualityComparer`1<T> _valueComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DC60
     public void get_KeyComparer(){} // RVA: 0xCD60
@@ -966,6 +1009,10 @@ public class Comparers
 
 public class Comparers
 {
+    public Comparers<string,VRC.Udon.Common.Interfaces.IUdonSymbol> Default;
+    public System.Collections.Generic.IEqualityComparer`1<string> _keyComparer; // 0x10
+    public System.Collections.Generic.IEqualityComparer`1<VRC.Udon.Common.Interfaces.IUdonSymbol> _valueComparer; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x58E7A50
     public void get_KeyComparer(){} // RVA: 0x2F8380
@@ -983,6 +1030,10 @@ public class Comparers
 
 public class Comparers
 {
+    public Comparers<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> Default;
+    public System.Collections.Generic.IEqualityComparer`1<uint> _keyComparer; // 0x10
+    public System.Collections.Generic.IEqualityComparer`1<VRC.Udon.Common.Interfaces.IUdonSymbol> _valueComparer; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x58E8460
     public void get_KeyComparer(){} // RVA: 0x2F8380
@@ -1000,6 +1051,8 @@ public class Comparers
 
 public class CompleteOnInvokePromise
 {
+    public System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks; // 0x58
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C336A0
     public void Invoke(){} // RVA: 0x5C337C0
@@ -1008,6 +1061,8 @@ public class CompleteOnInvokePromise
 
 public class CompositeSyntax
 {
+    public UnityEngine.InputSystem.InputAction m_Action; // 0x10
+
     // ── Methods ──
     public void get_bindingIndex(){} // RVA: 0x6DA92C0
     public void .ctor(){} // RVA: 0x6DA92F0
@@ -1032,6 +1087,9 @@ public class ComputeShaders
 
 public class ConcreteFormattableString
 {
+    public string _format; // 0x10
+    public object[] _arguments; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
     public void get_Format(){} // RVA: 0x2F8380
@@ -1043,11 +1101,7 @@ public class ConcreteFormattableString
 
 public class ConditionalExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object NodeType;
-    public object Type;
-    public object Value;
+    public System.Linq.Expressions.ConditionalExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DA950
@@ -1062,16 +1116,36 @@ public class ConditionalExpressionProxy
 
 public class Config
 {
+    public int <SampleRateHz>k__BackingField;
+    public int <SampleSizeInBytes>k__BackingField; // 0x4
+    public int <MinimumSafeSamplesQueued>k__BackingField; // 0x8
+    public int <MinimumBufferSamplesCount>k__BackingField; // 0xC
+    public int <OptimalBufferSamplesCount>k__BackingField; // 0x10
+    public int <MaximumBufferSamplesCount>k__BackingField; // 0x14
 }
 
 public class Config
 {
+    public int <SampleRateHz>k__BackingField;
+    public int <SampleSizeInBytes>k__BackingField; // 0x4
+    public int <MinimumSafeSamplesQueued>k__BackingField; // 0x8
+    public int <MinimumBufferSamplesCount>k__BackingField; // 0xC
+    public int <OptimalBufferSamplesCount>k__BackingField; // 0x10
+    public int <MaximumBufferSamplesCount>k__BackingField; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x95B65C0
 }
 
 public class Config
 {
+    public int <SampleRateHz>k__BackingField;
+    public int <SampleSizeInBytes>k__BackingField; // 0x4
+    public int <MinimumSafeSamplesQueued>k__BackingField; // 0x8
+    public int <MinimumBufferSamplesCount>k__BackingField; // 0xC
+    public int <OptimalBufferSamplesCount>k__BackingField; // 0x10
+    public int <MaximumBufferSamplesCount>k__BackingField; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6714790
     public void SetCoordinateSystem(){} // RVA: 0x99BAF80
@@ -1082,6 +1156,13 @@ public class Config
 
 public class Config
 {
+    public int <SampleRateHz>k__BackingField;
+    public int <SampleSizeInBytes>k__BackingField; // 0x4
+    public int <MinimumSafeSamplesQueued>k__BackingField; // 0x8
+    public int <MinimumBufferSamplesCount>k__BackingField; // 0xC
+    public int <OptimalBufferSamplesCount>k__BackingField; // 0x10
+    public int <MaximumBufferSamplesCount>k__BackingField; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x95B65C0
     public void Lookup(){} // RVA: 0x981E010
@@ -1090,6 +1171,13 @@ public class Config
 
 public class Config
 {
+    public int <SampleRateHz>k__BackingField;
+    public int <SampleSizeInBytes>k__BackingField; // 0x4
+    public int <MinimumSafeSamplesQueued>k__BackingField; // 0x8
+    public int <MinimumBufferSamplesCount>k__BackingField; // 0xC
+    public int <OptimalBufferSamplesCount>k__BackingField; // 0x10
+    public int <MaximumBufferSamplesCount>k__BackingField; // 0x14
+
     // ── Methods ──
     public void get_SampleRateHz(){} // RVA: 0x611CBB0
     public void set_SampleRateHz(){} // RVA: 0x611CC10
@@ -1109,6 +1197,8 @@ public class Config
 
 public class Configuration
 {
+    public byte[] bytes; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9676760
     public void get_Bytes(){} // RVA: 0x2F8380
@@ -1116,7 +1206,7 @@ public class Configuration
 
 public class ConfigurationListDebugView
 {
-    public object IsReadOnly;
+    public System.Text.Json.Serialization.ConfigurationList`1<T> IsReadOnly;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
@@ -1132,6 +1222,8 @@ public class ConfigureBasepointCallback : `
 
 public class ConfiguredTaskAwaiter : IsCompleted
 {
+    public System.Threading.Tasks.Task`1<T> m_task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A620
     public void get_IsCompleted(){} // RVA: 0xDBE0
@@ -1142,6 +1234,8 @@ public class ConfiguredTaskAwaiter : IsCompleted
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<int> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -1152,12 +1246,15 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.VoidResult> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> m_task; // 0x10
 }

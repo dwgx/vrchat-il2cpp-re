@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.OscCore.OscCore
-// Classes: 38
-// Methods: 208
+// Classes: 46
+// Methods: 224
 
 namespace ThirdParty.OscCore.OscCore
 {
@@ -62,6 +62,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class MessageHandlerBase
     {
+        public OscCore.OscReceiver m_Receiver; // 0x20
+        public string m_Address; // 0x28
+
         // ── Methods ──
         public void get_Receiver(){} // RVA: 0x30B0C0
         public void get_Address(){} // RVA: 0x30B130
@@ -121,6 +124,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscBlobMessageHandler
     {
+        public OscCore.BlobUnityEvent OnMessageReceived; // 0x40
+        public byte[] m_Buffer; // 0x48
+
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0x358730
         public void get_LastReceivedBlobLength(){} // RVA: 0x59C540
@@ -139,7 +145,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscClient
     {
-        public object _writer;
+        public System.Net.Sockets.Socket _writer; // 0x10
+        public OscCore.OscWriter m_Writer; // 0x18
 
         // ── Methods ──
         public void get_Writer(){} // RVA: 0x2E07C0
@@ -191,9 +198,65 @@ namespace ThirdParty.OscCore.OscCore
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6C30
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6CB0
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6BB0
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6BF0
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6CF0
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6D30
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6C70
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
+    public class OscMessageHandler`2
+    {
+        // ── Methods ──
+        public void InvokeEvent(){} // RVA: 0x3DD6B60
+        public void .ctor(){} // RVA: 0x3DD6BA0
+    }
+
     public class OscMessageValues
     {
-        public object instance;
+        public int instance;
 
         // ── Methods ──
         public void ReadBlobElement(){} // RVA: 0x61FCE60
@@ -232,6 +295,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscReceiver
     {
+        public int m_Port; // 0x20
+        public bool <Running>k__BackingField; // 0x24
+        public OscCore.OscServer <Server>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Port(){} // RVA: 0x760030
         public void set_Port(){} // RVA: 0x61FA050
@@ -251,8 +318,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSender
     {
-        public object captureButton;
-        public object homeButton;
+        public string captureButton; // 0x20
+        public int homeButton; // 0x28
+        public OscCore.OscClient <Client>k__BackingField; // 0x30
 
         // ── Methods ──
         public void get_IpAddress(){} // RVA: 0x30B0C0
@@ -271,6 +339,12 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscServer
     {
+        public System.Collections.Generic.Dictionary`2<System.Action`1<OscCore.OscMessageValues>,OscCore.OscActionPair> k_SingleCallbackToPair;
+        public OscCore.OscSocket m_Socket; // 0x10
+        public bool m_Disposed; // 0x18
+        public bool m_Started; // 0x19
+        public byte[] m_ReadBuffer; // 0x20
+
         // ── Methods ──
         public void set_Running(){} // RVA: 0x306030
         public void get_Port(){} // RVA: 0x59C4F0
@@ -301,6 +375,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSocket
     {
+        public System.Net.Sockets.Socket m_Socket; // 0x10
+        public System.Threading.Thread m_Thread; // 0x18
+
         // ── Methods ──
         public void get_Port(){} // RVA: 0x4C6670
         public void get_Server(){} // RVA: 0x4976A0
@@ -327,6 +404,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscWriter
     {
+        public byte[] Buffer; // 0x10
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1AE3800
         public void .ctor(){} // RVA: 0x6204550
@@ -341,6 +420,11 @@ namespace ThirdParty.OscCore.OscCore
 
     public class PropertyOutput
     {
+        public OscCore.OscSender m_Sender; // 0x20
+        public string m_Address; // 0x28
+        public UnityEngine.GameObject m_Object; // 0x30
+        public UnityEngine.Component m_SourceComponent; // 0x38
+
         // ── Methods ──
         public void get_Sender(){} // RVA: 0x30B0C0
         public void set_Sender(){} // RVA: 0x61FA830

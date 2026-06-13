@@ -17,6 +17,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class AnalyticsSessionInfo
     {
+        public SessionStateChanged sessionStateChanged;
+
         // ── Methods ──
         public void CallSessionStateChanged(){} // RVA: 0x74F6800
         public void get_userId(){} // RVA: 0x74F6890

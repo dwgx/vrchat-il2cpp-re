@@ -507,6 +507,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÌÏÎÍÏÏÍÎÍÎÍÏÏÎÌÏÏÏÏÎ</summary>
     public class DispatchIncomingCommandsSendOutgoingComm_8BCB_8607
     {
+        public ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ ÏÎÏÏÏÍÌÎÌÍÌÏÏÏÌÏÏÌÌÍÎÍÌ; // 0xE0
+        public int ÍÌÏÎÎÎÏÌÍÎÌÏÍÌÌÏÌÎÌÏÌÎÍ;
+        public int ÎÌÍÎÎÌÎÎÌÍÎÍÍÌÌÍÌÍÎÏÎÏÏ; // 0xE8
+        public int ÍÎÌÏÏÎÎÌÌÏÏÌÎÎÏÏÌÌÌÍÎÌÎ; // 0xEC
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> ÌÌÌÏÍÌÎÌÌÍÏÍÌÏÌÍÏÎÎÍÍÏÎ; // 0xF0
+        public ÏÎÎÌÏÎÍÏÏÍÎÍÎÍÏÏÎÌÏÏÏÏÎ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public int ÍÍÏÌÌÏÌÏÏÎÏÏÎÌÍÌÌÍÏÍÌÌÎ; // 0x8
+        public int ÎÍÌÎÎÏÏÎÎÌÏÍÎÏÍÏÎÌÎÌÏÌÍ; // 0xC
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> ÏÏÍÏÌÎÎÍÍÍÍÏÌÎÌÏÍÏÎÌÎÏÍ; // 0xF8
+        public System.Collections.Concurrent.ConcurrentDictionary`2<uint,int> ÏÏÎÌÎÎÍÎÎÌÏÍÌÎÏÍÌÍÏÏÍÌÏ; // 0x100
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> ÍÏÍÎÌÏÏÍÌÍÍÎÏÏÎÏÎÏÌÎÏÏÏ; // 0x108
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> ÏÌÍÎÌÍÍÍÏÎÏÌÏÏÎÎÏÏÌÏÏÌÏ; // 0x110
+
         // ── Methods ──
         public void Disconnect(){} // RVA: 0xDBA550
         public void SendOperation(){} // RVA: 0xDBB530

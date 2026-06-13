@@ -195,6 +195,13 @@ public class TransitionParams
 
 public class TransitionTime
 {
+    public System.DateTime _timeOfDay; // 0x10
+    public byte _month; // 0x18
+    public byte _week; // 0x19
+    public byte _day; // 0x1A
+    public 0x657D9A80 _dayOfWeek; // 0x1C
+    public bool _isFixedDateRule; // 0x20
+
     // ── Methods ──
     public void get_TimeOfDay(){} // RVA: 0x1AD4690
     public void get_Month(){} // RVA: 0x1B06CA0
@@ -215,6 +222,9 @@ public class TransitionTime
 
 public class TreePage
 {
+    public Node<T>[] _slots;
+    public int[] _slotMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void AllocSlot(){} // RVA: 0x12590
@@ -226,10 +236,14 @@ public class TreePage
 
 public class TreePage
 {
+    public Node<System.Data.DataRow>[] _slots; // 0x10
+    public int[] _slotMap; // 0x18
 }
 
 public class TreePage
 {
+    public Node<int>[] _slots; // 0x10
+    public int[] _slotMap; // 0x18
 }
 
 public class TriangleDataShaderIds
@@ -262,8 +276,7 @@ public class TriggerEvent
 
 public class TriggerModule
 {
-    public object enabled;
-    public object subEmittersCount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -311,6 +324,28 @@ public class TriggerModule
 
 public class TriggerState
 {
+    public int kMaxNumMaps;
+    public int kMaxNumControls;
+    public int kMaxNumBindings;
+    public byte m_Phase; // 0x10
+    public byte m_Flags; // 0x11
+    public byte m_MapIndex; // 0x12
+    public ushort m_ControlIndex; // 0x14
+    public double m_Time; // 0x18
+    public double m_StartTime; // 0x20
+    public ushort m_BindingIndex; // 0x28
+    public ushort m_InteractionIndex; // 0x2A
+    public float m_Magnitude; // 0x2C
+    public uint m_LastPerformedInUpdate; // 0x30
+    public uint m_LastCanceledInUpdate; // 0x34
+    public uint m_PressedInUpdate; // 0x38
+    public uint m_ReleasedInUpdate; // 0x3C
+    public uint m_LastCompletedInUpdate; // 0x40
+    public int framePerformed; // 0x44
+    public int framePressed; // 0x48
+    public int frameReleased; // 0x4C
+    public int frameCompleted; // 0x50
+
     // ── Methods ──
     public void get_phase(){} // RVA: 0x1E40360
     public void set_phase(){} // RVA: 0x1E40370
@@ -378,12 +413,7 @@ public class TryCode
 
 public class TryExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Expression;
-    public object NodeType;
-    public object Type;
-    public object TypeOperand;
+    public System.Linq.Expressions.TryExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DBBC0
@@ -448,12 +478,7 @@ public class TweenData
 
 public class TypeBinaryExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object IsLifted;
-    public object IsLiftedToNull;
-    public object Method;
-    public object NodeType;
+    public System.Linq.Expressions.TypeBinaryExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DBCA0
@@ -480,6 +505,8 @@ public class TypeConstructorVisitor
 
 public class TypeConstructor`1 : P00
 {
+    public System.Func`1<T> m_ExplicitConstructor;
+
     // ── Methods ──
     public void Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated(){} // RVA: 0xDBE0
     public void .ctor(){} // RVA: 0x24A50
@@ -494,6 +521,9 @@ public class TypeConstructor`1 : P00
 
 public class TypeConvertKey
 {
+    public System.Type _initialType; // 0x10
+    public System.Type _targetType; // 0x18
+
     // ── Methods ──
     public void get_InitialType(){} // RVA: 0x1AD4690
     public void get_TargetType(){} // RVA: 0x19689C0
@@ -504,6 +534,11 @@ public class TypeConvertKey
 
 public class TypeData
 {
+    public System.Type <type>k__BackingField; // 0x10
+    public string m_FullTypeName; // 0x18
+    public string m_TypeName; // 0x20
+    public string m_TypeNamespace; // 0x28
+
     // ── Methods ──
     public void get_type(){} // RVA: 0x2F8380
     public void .ctor(){} // RVA: 0x745D930
@@ -580,8 +615,8 @@ public class TypeRestriction
 
 public class TypeSchema
 {
-    public object UndefinedSchemaIdHandling;
-    public object ContractResolver;
+    public System.Type UndefinedSchemaIdHandling; // 0x10
+    public Newtonsoft.Json.Schema.JsonSchema ContractResolver; // 0x18
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x2F8380

@@ -28,6 +28,8 @@ public class SerializableContainer
 
 public class SerializableVector3
 {
+    public float X; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xFED160
     public void Initialize(){} // RVA: 0xFED180
@@ -311,6 +313,9 @@ public class ServerHandshakeState
 
 public class ServiceAccessor
 {
+    public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite <CallSite>k__BackingField; // 0x10
+    public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope,object> <RealizedService>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_CallSite(){} // RVA: 0x2F8380
     public void set_CallSite(){} // RVA: 0x2DEE30
@@ -325,6 +330,9 @@ public class ServiceCollectionDebugView
 
 public class ServiceDescriptorCacheItem
 {
+    public Microsoft.Extensions.DependencyInjection.ServiceDescriptor _item; // 0x10
+    public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> _items; // 0x18
+
     // ── Methods ──
     public void get_Last(){} // RVA: 0x5B97AD0
     public void get_Count(){} // RVA: 0x5B97B70
@@ -366,6 +374,8 @@ public class SetClassValueAction
 
 public class SetElementProperty
 {
+    public T m_Value;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xCD60
     public void .ctor(){} // RVA: 0x24A50
@@ -373,7 +383,7 @@ public class SetElementProperty
 
 public class SetElementProperty
 {
-    public object UnityEngine.PropertiesModule;
+    public T UnityEngine.PropertiesModule;
 }
 
 public class SetErrorLocation
@@ -408,6 +418,12 @@ public class SetStructValueAction
 
 public class Settings
 {
+    public Settings <Default>k__BackingField;
+    public bool <FormatDefaultValues>k__BackingField; // 0x10
+    public Google.Protobuf.Reflection.TypeRegistry <TypeRegistry>k__BackingField; // 0x18
+    public bool <FormatEnumsAsIntegers>k__BackingField; // 0x20
+    public bool <PreserveProtoFieldNames>k__BackingField; // 0x21
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9841560
     public void Get(){} // RVA: 0x283FA0
@@ -420,21 +436,35 @@ public class Settings
 
 public class Settings
 {
+    public Settings <Default>k__BackingField;
+    public bool <FormatDefaultValues>k__BackingField; // 0x10
+    public Google.Protobuf.Reflection.TypeRegistry <TypeRegistry>k__BackingField; // 0x18
+    public bool <FormatEnumsAsIntegers>k__BackingField; // 0x20
+    public bool <PreserveProtoFieldNames>k__BackingField; // 0x21
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3453A0
 }
 
 public class Settings
 {
+    public Settings <Default>k__BackingField;
+    public bool <FormatDefaultValues>k__BackingField; // 0x10
+    public Google.Protobuf.Reflection.TypeRegistry <TypeRegistry>k__BackingField; // 0x18
+    public bool <FormatEnumsAsIntegers>k__BackingField; // 0x20
+    public bool <PreserveProtoFieldNames>k__BackingField; // 0x21
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45B7C0
 }
 
 public class Settings
 {
-    public object Default;
-    public object DiagnosticOnly;
-    public object MergeFrom;
+    public Settings Default;
+    public bool DiagnosticOnly; // 0x10
+    public Google.Protobuf.Reflection.TypeRegistry MergeFrom; // 0x18
+    public bool <FormatEnumsAsIntegers>k__BackingField; // 0x20
+    public bool <PreserveProtoFieldNames>k__BackingField; // 0x21
 
     // ── Methods ──
     public void get_Default(){} // RVA: 0x5A2BDC0
@@ -448,6 +478,12 @@ public class Settings
 
 public class Settings
 {
+    public Settings <Default>k__BackingField;
+    public bool <FormatDefaultValues>k__BackingField; // 0x10
+    public Google.Protobuf.Reflection.TypeRegistry <TypeRegistry>k__BackingField; // 0x18
+    public bool <FormatEnumsAsIntegers>k__BackingField; // 0x20
+    public bool <PreserveProtoFieldNames>k__BackingField; // 0x21
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6267250
 }
@@ -483,6 +519,8 @@ public class Shaders
 
 public class Shape
 {
+    public UnityEngine.Transform transform0; // 0x10
+
     // ── Methods ──
     public void get_id(){} // RVA: 0x7666DE0
     public void set_id(){} // RVA: 0x7666DF0
@@ -492,6 +530,7 @@ public class Shape
 
 public class Shape
 {
+    public UnityEngine.Transform transform0; // 0x10
 }
 
 public class ShapeCache
@@ -517,31 +556,7 @@ public class ShapeData
 
 public class ShapeModule
 {
-    public object enabled;
-    public object type;
-    public object mode;
-    public object dampen;
-    public object dampenMultiplier;
-    public object bounce;
-    public object bounceMultiplier;
-    public object lifetimeLoss;
-    public object lifetimeLossMultiplier;
-    public object minKillSpeed;
-    public object maxKillSpeed;
-    public object collidesWith;
-    public object enableDynamicColliders;
-    public object maxCollisionShapes;
-    public object quality;
-    public object voxelSize;
-    public object radiusScale;
-    public object sendCollisionMessages;
-    public object colliderForce;
-    public object multiplyColliderForceByCollisionAngle;
-    public object multiplyColliderForceByParticleSpeed;
-    public object multiplyColliderForceByParticleSize;
-    public object planeCount;
-    public object `;
-    public object set_enabled;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -777,6 +792,8 @@ public class SharedStatic
 
 public class SharedStatic`1
 {
+    public void* _buffer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Data(){} // RVA: 0xCD60
@@ -785,6 +802,8 @@ public class SharedStatic`1
 
 public class SharedStatic`1
 {
+    public void* _buffer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1B12320
     public void get_Data(){} // RVA: 0x4019EE0
@@ -819,6 +838,8 @@ public class SigStream
 
 public class SignalSource
 {
+    public Cinemachine.CinemachineImpulseDefinition m_Def; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1D31DA0
     public void get_SignalDuration(){} // RVA: 0x1D31E10
@@ -827,10 +848,10 @@ public class SignalSource
 
 public class SignedData
 {
-    public object IssuerName;
-    public object SerialNumber;
-    public object AuthenticatedAttributes;
-    public object HashName;
+    public byte IssuerName; // 0x10
+    public string SerialNumber; // 0x18
+    public ContentInfo AuthenticatedAttributes; // 0x20
+    public Mono.Security.X509.X509CertificateCollection HashName; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BBA000
@@ -843,6 +864,10 @@ public class SignedData
 
 public class SignerInf
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.CmsSignedGenerator outer; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISignatureFactory sigCalc; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.SignerIdentifier signerIdentifier; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x96A1F10 | overloaded x2
     public void get_DigestAlgorithmID(){} // RVA: 0x96A2360
@@ -853,9 +878,13 @@ public class SignerInf
 
 public class SignerInfo
 {
-    public object BagOID;
-    public object ASN1;
-    public object set_HashName;
+    public byte BagOID; // 0x10
+    public string ASN1; // 0x18
+    public System.Collections.ArrayList set_HashName; // 0x20
+    public System.Collections.ArrayList unauthenticatedAttributes; // 0x28
+    public byte[] signature; // 0x30
+    public string issuer; // 0x38
+    public byte[] serial; // 0x40
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BBAD40 | overloaded x2
@@ -878,7 +907,7 @@ public class SignerInfoGeneratorImpl : `
 
 public class SigningKey
 {
-    public object SigningKey;
+    public byte[] SigningKey; // 0x10
 
     // ── Methods ──
     public void get_Key(){} // RVA: 0x1AD4690
@@ -887,6 +916,8 @@ public class SigningKey
 
 public class SigningKey
 {
+    public byte[] <Key>k__BackingField; // 0x10
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x1AD4690
     public void .ctor(){} // RVA: 0x76FEF60
@@ -894,6 +925,9 @@ public class SigningKey
 
 public class SimplePropertyDescriptor
 {
+    public System.Type componentType; // 0x88
+    public System.Type propertyType; // 0x90
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C9C700 | overloaded x2
     public void get_ComponentType(){} // RVA: 0x31C010
@@ -921,6 +955,8 @@ public class SingleByteUnion
 
 public class SingleConsumerUnboundedChannelReader
 {
+    public System.Action`1<object> CancellationCallbackDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Completion(){} // RVA: 0xC770
@@ -940,6 +976,8 @@ public class SingleConsumerUnboundedChannelReader
 
 public class SingleConsumerUnboundedChannelReader
 {
+    public System.Action`1<object> CancellationCallbackDelegate; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x401EA50
     public void get_Completion(){} // RVA: 0x401EB70
@@ -959,6 +997,8 @@ public class SingleConsumerUnboundedChannelReader
 
 public class SingleConsumerUnboundedChannelReader
 {
+    public System.Action`1<object> CancellationCallbackDelegate; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4021F80
     public void get_Completion(){} // RVA: 0x40220A0
@@ -978,6 +1018,8 @@ public class SingleConsumerUnboundedChannelReader
 
 public class SingleConsumerUnboundedChannelReader
 {
+    public System.Action`1<object> CancellationCallbackDelegate; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x401C5F0
     public void get_Completion(){} // RVA: 0x401C710

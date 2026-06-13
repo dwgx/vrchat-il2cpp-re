@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 {
     public class NameOrPseudonym
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString pseudonym; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString surname; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x974EF60
         public void .ctor(){} // RVA: 0x6408E20 | overloaded x4
@@ -18,6 +21,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509
 
     public class PersonalData
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.SigI.NameOrPseudonym nameOrPseudonym; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger nameDistinguisher; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime dateOfBirth; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString placeOfBirth; // 0x28
+        public string gender; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString postalAddress; // 0x38
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x974F960
         public void .ctor(){} // RVA: 0x974FEC0 | overloaded x2

@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class HWStack
     {
+        public object[] stack; // 0x10
+        public int growthRate; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6E550 | overloaded x3
         public void Push(){} // RVA: 0x6A6E1A0

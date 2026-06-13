@@ -22,6 +22,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÏÍÎÏÍÌÌÎÍÍÏÏÍÏÎÎÍÍÏÌ</summary>
     public class PlayerMoveNext_210D
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2E07C0
         public void MoveNext(){} // RVA: 0x593D20
@@ -43,6 +46,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÎÎÎÍÍÎÏÍÌÍÎÌÎÏÌÍÏÌÎÌ</summary>
     public class PlayerMoveNext_36C5
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2E07C0
@@ -61,6 +67,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÎÏÍÏÍÍÎÌÎÍÏÍÍÍÍÍÎÏÌÎ</summary>
     public class PlayerMoveNext_3EE3
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2E07C0
@@ -78,6 +87,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÏÌÏÌÍÎÎÍÌÌÍÍÏÌÏÍÎÍÌÍ</summary>
     public class PlayerMoveNext_4803
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
         public void get_Current(){} // RVA: 0x2E07C0
@@ -97,6 +109,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÎÎÏÌÍÌÏÏÌÌÏÌÌÌÌÍÏÌÏ</summary>
     public class PlayerMoveNext_5C2B
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x8C931F0
         public void Equals(){} // RVA: 0x2E07C0
@@ -118,6 +133,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÏÍÏÏÌÎÎÍÍÎÏÏÌÌÍÍÍÌÎÎ</summary>
     public class PlayerMoveNext_624C
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B12E90
         public void get_Current(){} // RVA: 0x2E07C0
@@ -137,6 +155,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÏÌÏÍÏÌÌÌÍÎÍÎÍÌÎÌÏÏÎÌ</summary>
     public class PlayerMoveNext_6B24
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x92E8410
         public void Equals(){} // RVA: 0x92E8450
@@ -157,6 +178,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÍÍÏÎÎÌÏÏÏÎÎÌÎÍÎÍÎÌÌÍ</summary>
     public class PlayerMoveNext_74AC
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x1710630
         public void Equals(){} // RVA: 0x1710710
@@ -175,6 +199,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÍÌÍÌÏÍÍÌÏÍÍÏÏÍÏÏÎÍÍÎ</summary>
     public class PlayerMoveNext_7807
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2E07C0
         public void Equals(){} // RVA: 0x2E07C0
@@ -192,6 +219,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ;
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ;
+
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x24A50
         public void get_Current(){} // RVA: 0x24A50
@@ -212,56 +242,79 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÎÌÌÏÌÍÎÏÍÍÎÏÏÌÌÎÌÏÌÏ</summary>
     public class PlayerMoveNext_8356
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÏÌÍÌÏÎÌÍÍÌÌÎÌÍÌÎÍÎÏÍÍ</summary>
     public class PlayerMoveNext_86A1
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
         public void get_Current(){} // RVA: 0x8ECA780
@@ -280,6 +333,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÌÍÎÎÎÍÌÌÍÍÍÏÍÍÍÏÌÎÏ</summary>
     public class PlayerMoveNext_8927
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x12D0530
         public void MoveNext(){} // RVA: 0x12D0570
@@ -300,6 +356,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÎÎÎÏÏÍÍÌÎÍÏÍÌÎÏÏÏÎÏ</summary>
     public class PlayerMoveNext_983D
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12B5040
@@ -320,6 +379,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÌÍÍÏÏÍÌÌÍÍÌÌÎÍÎÎÍÎÍÏ</summary>
     public class PlayerMoveNext_9C88
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x1A09FC0
         public void .ctor(){} // RVA: 0x2E00C0
@@ -340,6 +402,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÌÏÏÌÏÎÏÏÍÏÍÎÍÌÌÌÏÏÍÍ</summary>
     public class PlayerMoveNext_9CC5
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2E07C0
@@ -361,6 +426,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÎÎÏÌÎÌÍÏÍÌÏÏÌÍÏÎÏÏÎÎ</summary>
     public class PlayerMoveNext_9DB3
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x5F7B20
         public void MoveNext(){} // RVA: 0x5F7BB0
@@ -378,6 +446,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÍÌÏÏÍÎÎÍÎÏÍÍÍÍÎÍÏÍÌÏ</summary>
     public class PlayerMoveNext_AAEE
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x884B70
         public void get_Current(){} // RVA: 0x2E07C0
@@ -398,6 +469,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÍÎÎÍÏÌÍÎÌÎÏÍÌÌÌÎÏÍÍÏ</summary>
     public class PlayerMoveNext_B68E
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2E07C0
         public void Equals(){} // RVA: 0x8F67050
@@ -417,6 +491,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÍÎÌÏÎÎÌÏÎÌÏÍÏÏÎÌÍÌÍÎ</summary>
     public class PlayerMoveNext_B8B9
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ;
+        public ÍÌÎÍÌÍÍÍÏÎÌÍÌÍÌÏÎÎÎÌÍÍÍ<T> ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ;
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x24A50
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
@@ -434,6 +511,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÌÏÍÏÎÎÏÌÏÌÍÌÌÏÍÏÎÎÍ</summary>
     public class PlayerMoveNext_BC00
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -454,6 +534,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÏÏÏÏÎÏÏÎÌÏÍÏÏÎÎÎÎÏÌÍ</summary>
     public class PlayerMoveNext_BFE4
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2E07C0
         public void MoveNext(){} // RVA: 0x1B1F480
@@ -473,6 +556,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÌÍÎÎÍÌÏÍÎÏÎÏÍÎÍÌÏÌÏÍ</summary>
     public class PlayerMoveNext_C427
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public UnityEngine.GameObject ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xD71E80
         public void MoveNext(){} // RVA: 0xD72050
@@ -494,6 +580,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÌÍÏÍÏÏÎÌÏÎÏÏÎÎÌÌÏÏÏÍ</summary>
     public class PlayerMoveNext_C429
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2E07C0
@@ -514,6 +603,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÎÎÎÎÌÎÏÌÍÏÍÎÎÌÏÎÍÌÎÎ</summary>
     public class PlayerMoveNext_C4CE
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2E07C0
         public void Equals(){} // RVA: 0x2E07C0
@@ -534,6 +626,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÌÏÍÎÏÍÍÌÎÌÏÍÌÌÍÍÍÍÍÏ</summary>
     public class PlayerMoveNext_CFA4
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
         public void get_Current(){} // RVA: 0x2E07C0
@@ -551,6 +646,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÍÍÏÎÏÌÍÏÏÏÌÌÍÍÎÏÎÎÏ</summary>
     public class PlayerMoveNext_EA5D
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
         public void get_Current(){} // RVA: 0x8BB29F0
@@ -571,6 +669,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÏÎÏÌÏÎÏÌÌÌÏÌÎÍÌÌÌÍÏÍ</summary>
     public class PlayerMoveNext_F2C8
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x198EC80
         public void .ctor(){} // RVA: 0x2E00C0
@@ -590,6 +691,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÍÍÍÍÎÏÌÌÍÏÍÏÏÌÍÎÏÎÍÍ</summary>
     public class PlayerMoveNext_F2CB
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ;
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ;
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
         public void get_Current(){} // RVA: 0x24A50
@@ -608,21 +712,30 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÍÍÍÍÎÏÌÌÍÏÍÏÏÌÍÎÏÎÍÍ</summary>
     public class PlayerMoveNext_F2CB
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÍÍÍÍÎÏÌÌÍÏÍÏÏÌÍÎÏÎÍÍ</summary>
     public class PlayerMoveNext_F2CB
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÎÍÍÍÍÎÏÌÌÍÏÍÏÏÌÍÎÏÎÍÍ</summary>
     public class PlayerMoveNext_F2CB
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
     }
 
     /// <summary>Originally: ÏÏÌÍÏÎÎÏÏÌÎÍÏÏÎÌÎÎÏÌÍÌÎ</summary>
     public class PlayerMoveNext_F3FF
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2DD310
         public void Equals(){} // RVA: 0x2E07C0
@@ -643,6 +756,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÍÎÏÌÏÎÏÏÍÍÌÎÏÎÍÍÍÏÎÏÍ</summary>
     public class PlayerMoveNext_FAA2
     {
+        public int ÍÌÏÏÎÎÍÎÌÏÌÏÍÏÍÏÎÌÏÏÍÎÏ; // 0x10
+        public object ÎÎÎÏÎÏÍÎÎÏÌÏÏÏÏÏÏÌÏÎÎÎÍ; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7E57F0
         public void Equals(){} // RVA: 0x2E07C0
@@ -664,6 +780,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÎÌÏÎÎÌÏÍÌÌÍÌÏÌÏÌÎÍÍÏÌ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_007D
     {
+        public System.Nullable`1<ÏÎÌÍÍÏÌÎÏÏÌÍÎÌÌÏÍÏÏÌÌÏÌ> <ÎÌÎÌÌÏÎÌÍÌÎÎÎÍÎÍÌÏÎÍÍÌÎ>k__BackingField; // 0x10
+        public 0x658170F0 <ÍÍÍÎÍÌÎÌÌÌÏÎÍÍÍÍÌÍÌÌÌÎÍ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void GetStatus(){} // RVA: 0x37E0C0
         public void Decode_E41E86F9CC1A(){} // RVA: 0x37E0D0
@@ -680,6 +799,9 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÍÍÍÌÏÎÎÎÌÍÎÎÏÎÎÌÌÍÍÌ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_4246
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+        public System.ArraySegment`1<byte> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Low64(){} // RVA: 0x1B12320
         public void TryGetValue(){} // RVA: 0x1F6F0A0
@@ -696,6 +818,10 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÎÍÌÌÎÏÍÍÎÎÌÎÎÎÎÍÍÍÎÎ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_4E22
     {
+        public UIntPtr <ÍÍÌÌÌÍÏÎÌÎÍÌÏÌÏÎÍÌÏÎÏÍÎ>k__BackingField; // 0x10
+        public System.ArraySegment`1<byte> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x18
+        public uint <ÎÍÏÌÏÎÎÍÍÎÏÎÎÌÌÏÍÍÏÌÎÍÎ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void set_Low64(){} // RVA: 0x1B12320
         public void get_Count(){} // RVA: 0x5BED50

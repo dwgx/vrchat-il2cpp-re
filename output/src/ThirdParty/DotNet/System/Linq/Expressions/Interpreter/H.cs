@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class HybridReferenceDictionary`2
     {
-        public object System.Collections.Generic.IEnumerator<System.Int32>.Current;
+        public System.Collections.Generic.KeyValuePair`2<U,T>[] System.Collections.Generic.IEnumerator<System.Int32>.Current;
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x283FA0

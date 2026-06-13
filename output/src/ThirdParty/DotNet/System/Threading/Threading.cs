@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Threading
-// Classes: 77
-// Methods: 634
+// Classes: 86
+// Methods: 675
 
 namespace ThirdParty.DotNet.System.Threading
 {
@@ -24,20 +24,43 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class AsyncLocalValueChangedArgs`1
     {
-        public object Token;
+        public T Token;
 
         // ── Methods ──
         public void get_CurrentValue(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x283FA0
     }
 
+    public class AsyncLocalValueChangedArgs`1
+    {
+        public Scope <PreviousValue>k__BackingField; // 0x10
+    }
+
+    public class AsyncLocalValueChangedArgs`1
+    {
+        public Scope <PreviousValue>k__BackingField; // 0x10
+    }
+
     public class AsyncLocal`1 : Value
     {
+        public System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> m_valueChangedHandler;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x2
         public void get_Value(){} // RVA: 0x283FA0
         public void set_Value(){} // RVA: 0x283FA0
         public void System.Threading.IAsyncLocal.OnValueChanged(){}
+    }
+
+    public class AsyncLocal`1
+    {
+        public System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<Scope>> m_valueChangedHandler; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
+        public void get_Value(){} // RVA: 0x4CBA5D0
+        public void set_Value(){} // RVA: 0x4CBA680
+        public void System.Threading.IAsyncLocal.OnValueChanged(){} // RVA: 0x4CBA700
     }
 
     public class AutoResetEvent
@@ -62,9 +85,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationToken
     {
-        public object IsCompleted;
-        public object IsCompletedSuccessfully;
-        public object Result;
+        public System.Threading.CancellationTokenSource IsCompleted; // 0x10
+        public System.Action`1<object> IsCompletedSuccessfully;
 
         // ── Methods ──
         public void get_None(){} // RVA: 0x519240
@@ -84,6 +106,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationTokenRegistration
     {
+        public System.Threading.CancellationCallbackInfo m_callbackInfo; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37C9050
         public void get_Token(){} // RVA: 0x5F25270
@@ -96,6 +120,13 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationTokenSource
     {
+        public System.Threading.CancellationTokenSource s_canceledSource;
+        public System.Threading.CancellationTokenSource s_neverCanceledSource; // 0x8
+        public int s_nLists; // 0x10
+        public System.Threading.ManualResetEvent _kernelEvent; // 0x10
+        public System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] _registeredCallbacksLists; // 0x18
+        public int CannotBeCanceled;
+
         // ── Methods ──
         public void get_IsCancellationRequested(){} // RVA: 0x5F257B0
         public void get_IsCancellationCompleted(){} // RVA: 0x5F257C0
@@ -145,6 +176,24 @@ namespace ThirdParty.DotNet.System.Threading
         public void Dispose(){} // RVA: 0x283FA0
     }
 
+    public class DeferredDisposableLifetime`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x1020CE0
+        public void AddRef(){} // RVA: 0x2BC3D50
+        public void Release(){} // RVA: 0x2BC3E40
+        public void Dispose(){} // RVA: 0x2BC3ED0
+    }
+
+    public class DeferredDisposableLifetime`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x1020CE0
+        public void AddRef(){} // RVA: 0x2BC3D50
+        public void Release(){} // RVA: 0x2BC3E40
+        public void Dispose(){} // RVA: 0x2BC3ED0
+    }
+
     public class EventWaitHandle
     {
         // ── Methods ──
@@ -155,6 +204,14 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ExecutionContext
     {
+        public System.Threading.SynchronizationContext _syncContext; // 0x10
+        public System.Threading.SynchronizationContext _syncContextNoFlow; // 0x18
+        public System.Runtime.Remoting.Messaging.LogicalCallContext _logicalCallContext; // 0x20
+        public System.Runtime.Remoting.Messaging.IllogicalCallContext _illogicalCallContext; // 0x28
+        public 0x657E1958 _flags; // 0x30
+        public System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,object> _localValues; // 0x38
+        public System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications; // 0x40
+
         // ── Methods ──
         public void get_isNewCapture(){} // RVA: 0x5F2F890
         public void set_isNewCapture(){} // RVA: 0x5F2F8A0
@@ -268,6 +325,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class LockQueue
     {
+        public System.Threading.ReaderWriterLock rwlock; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Wait(){} // RVA: 0x5F3D020
@@ -289,6 +348,11 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ManualResetEventSlim
     {
+        public int DEFAULT_SPIN_SP;
+        public object m_lock; // 0x10
+        public System.Threading.ManualResetEvent m_eventObj; // 0x18
+        public int m_combinedState; // 0x20
+
         // ── Methods ──
         public void get_WaitHandle(){} // RVA: 0x5F230C0
         public void get_IsSet(){} // RVA: 0x5F23100
@@ -385,6 +449,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class PlatformHelper
     {
+        public int s_processorCount;
+
         // ── Methods ──
         public void get_ProcessorCount(){} // RVA: 0x5F250E0
         public void .cctor(){} // RVA: 0x5F251E0
@@ -417,6 +483,9 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ReaderWriterLock
     {
+        public int seq_num; // 0x10
+        public int state; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F3D9F0
         public void Finalize(){} // RVA: 0x5F36410
@@ -431,6 +500,16 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ReaderWriterLockSlim
     {
+        public bool fIsReentrant; // 0x10
+        public int myLock; // 0x14
+        public int LockSpinCycles;
+        public int LockSpinCount;
+        public int LockSleep0Count;
+        public uint numWriteWaiters; // 0x18
+        public uint numReadWaiters; // 0x1C
+        public uint numWriteUpgradeWaiters; // 0x20
+        public uint numUpgradeWaiters; // 0x24
+
         // ── Methods ──
         public void InitializeThreadCounts(){} // RVA: 0x667D9D0
         public void .ctor(){} // RVA: 0x667DA40 | overloaded x2
@@ -495,6 +574,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SemaphoreSlim
     {
+        public int m_currentCount; // 0x10
+
         // ── Methods ──
         public void get_CurrentCount(){} // RVA: 0x5F2AEC0
         public void .ctor(){} // RVA: 0x5F2AEE0 | overloaded x2
@@ -522,8 +603,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SparselyPopulatedArrayAddInfo`1
     {
-        public object Item;
-        public object Length;
+        public System.Threading.SparselyPopulatedArrayFragment`1<T> Item;
+        public int Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2BAA0
@@ -531,10 +612,22 @@ namespace ThirdParty.DotNet.System.Threading
         public void get_Index(){} // RVA: 0xD840
     }
 
+    public class SparselyPopulatedArrayAddInfo`1
+    {
+        public System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> _source; // 0x10
+        public int _index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x820840
+        public void get_Source(){} // RVA: 0x1AD4690
+        public void get_Index(){} // RVA: 0x1EA9890
+    }
+
     public class SparselyPopulatedArrayFragment`1
     {
-        public object Tail;
-        public object .ctor;
+        public T[] Tail;
+        public int .ctor;
+        public System.Threading.SparselyPopulatedArrayFragment`1<T> _next;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26C40 | overloaded x2
@@ -544,16 +637,45 @@ namespace ThirdParty.DotNet.System.Threading
         public void SafeAtomicRemove(){} // RVA: 0x283FA0
     }
 
+    public class SparselyPopulatedArrayFragment`1
+    {
+        public System.Threading.CancellationCallbackInfo[] _elements; // 0x10
+        public int _freeCount; // 0x18
+        public System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> _next; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x407FD60 | overloaded x2
+        public void get_Item(){} // RVA: 0x407FE70
+        public void get_Length(){} // RVA: 0xF3F910
+        public void get_Prev(){} // RVA: 0x407FEB0
+        public void SafeAtomicRemove(){} // RVA: 0x407FEC0
+    }
+
     public class SparselyPopulatedArray`1
     {
+        public System.Threading.SparselyPopulatedArrayFragment`1<T> _head;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void get_Tail(){} // RVA: 0xCD60
         public void Add(){} // RVA: 0x283FA0
     }
 
+    public class SparselyPopulatedArray`1
+    {
+        public System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> _head; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x407FF70
+        public void get_Tail(){} // RVA: 0x40800A0
+        public void Add(){} // RVA: 0x40800B0
+    }
+
     public class SpinLock
     {
+        public int m_owner; // 0x10
+        public int MAXIMUM_WAITERS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F2DEE0
         public void Enter(){} // RVA: 0x5F2DF00
@@ -570,8 +692,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SpinWait
     {
-        public object FrameworkDescription;
-        public object OSDescription;
+        public int FrameworkDescription;
+        public int OSDescription; // 0x10
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x19689B0
@@ -584,6 +706,10 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SynchronizationContext
     {
+        public 0x657E1B10 _props; // 0x10
+        public System.Type s_cachedPreparedType1;
+        public System.Type s_cachedPreparedType2; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void SetWaitNotificationRequired(){} // RVA: 0x5F32EB0
@@ -614,6 +740,22 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Thread
     {
+        public System.LocalDataStoreMgr s_LocalDataStoreMgr;
+        public System.LocalDataStoreHolder s_LocalDataStore; // 0xFFFFFFFF
+        public System.Globalization.CultureInfo m_CurrentCulture; // 0xFFFFFFFF
+        public System.Globalization.CultureInfo m_CurrentUICulture; // 0xFFFFFFFF
+        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentCulture; // 0x8
+        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentUICulture; // 0x10
+        public System.Threading.InternalThread internal_thread; // 0x10
+        public object m_ThreadStartArg; // 0x18
+        public object pending_exception; // 0x20
+        public System.Threading.Thread current_thread; // 0xFFFFFFFF
+        public System.MulticastDelegate m_Delegate; // 0x28
+        public System.Threading.ExecutionContext m_ExecutionContext; // 0x30
+        public bool m_ExecutionContextBelongsToOuterScope; // 0x38
+        public System.Security.Principal.IPrincipal principal; // 0x40
+        public int principal_version; // 0x48
+
         // ── Methods ──
         public void AsyncLocalSetCurrentUICulture(){} // RVA: 0x5F34920
         public void .ctor(){} // RVA: 0x5F34B30 | overloaded x3
@@ -704,6 +846,9 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadLocal`1
     {
+        public System.Func`1<T> m_valueFactory;
+        public LinkedSlotVolatile<T>[] ts_slotArray; // 0xFFFFFFFF
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x2
         public void Initialize(){} // RVA: 0x2A620
@@ -719,6 +864,28 @@ namespace ThirdParty.DotNet.System.Threading
         public void GrowTable(){} // RVA: 0x2BAA0
         public void GetNewTableSize(){} // RVA: 0x13FF0
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class ThreadLocal`1
+    {
+        public System.Func`1<int> m_valueFactory; // 0x10
+        public LinkedSlotVolatile<int>[] ts_slotArray; // 0xFFFFFFFF
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43EA620 | overloaded x2
+        public void Initialize(){} // RVA: 0x43EA790
+        public void Finalize(){} // RVA: 0x43EA910
+        public void Dispose(){} // RVA: 0x43EA9F0 | overloaded x2
+        public void ToString(){} // RVA: 0x43EADC0
+        public void get_Value(){} // RVA: 0x43EAE70
+        public void set_Value(){} // RVA: 0x43EAF90
+        public void GetValueSlow(){} // RVA: 0x43EB0B0
+        public void SetValueSlow(){} // RVA: 0x43EB300
+        public void CreateLinkedSlot(){} // RVA: 0x43EB8F0
+        public void get_IsValueCreated(){} // RVA: 0x43EBDE0
+        public void GrowTable(){} // RVA: 0x43EBEF0
+        public void GetNewTableSize(){} // RVA: 0x43EC240
+        public void .cctor(){} // RVA: 0x43EC280
     }
 
     public class ThreadPool
@@ -749,6 +916,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadPoolBoundHandle
     {
+        public System.Runtime.InteropServices.SafeHandle _handle; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1020CE0
         public void .ctor(){} // RVA: 0x5F28620
@@ -829,6 +998,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Timer
     {
+        public System.Threading.TimerCallback callback; // 0x18
+
         // ── Methods ──
         public void get_scheduler(){} // RVA: 0x5F3FF50
         public void .ctor(){} // RVA: 0x5F40100 | overloaded x3
@@ -863,6 +1034,9 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class WaitHandle
     {
+        public int WaitTimeout;
+        public int MAX_WAITHANDLES;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5F3B4D0
         public void Init(){} // RVA: 0x5F3B4D0
@@ -897,6 +1071,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Win32ThreadPoolNativeOverlapped
     {
+        public ExecutionContextCallbackArgs t_executionContextCallbackArgs; // 0xFFFFFFFF
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1020CE0
         public void get_Data(){} // RVA: 0x5F29900

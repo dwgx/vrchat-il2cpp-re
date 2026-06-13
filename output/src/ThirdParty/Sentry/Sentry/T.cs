@@ -15,6 +15,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class TransactionContext
     {
+        public string <Name>k__BackingField; // 0x60
+        public 0x658B6580 <NameSource>k__BackingField; // 0x68
+        public System.Nullable`1<bool> <IsParentSampled>k__BackingField; // 0x6C
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x37B370
         public void set_Name(){} // RVA: 0x37B380
@@ -32,7 +36,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class TransactionSamplingContext
     {
-        public object TrackedSpans;
+        public Sentry.ITransactionContext TrackedSpans; // 0x10
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,object> <CustomSamplingContext>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_TransactionContext(){} // RVA: 0x2F8380
@@ -42,6 +47,41 @@ namespace ThirdParty.Sentry.Sentry
 
     public class TransactionTracer
     {
+        public Sentry.IHub _hub; // 0x10
+        public Sentry.SentryOptions _options; // 0x18
+        public System.Threading.Timer _idleTimer; // 0x20
+        public long _cancelIdleTimeout; // 0x28
+        public Sentry.Internal.SentryStopwatch _stopwatch; // 0x30
+        public 0x658B3718 _instrumenter; // 0x48
+        public System.Nullable`1<Sentry.SpanId> <ParentSpanId>k__BackingField; // 0x50
+        public string <Name>k__BackingField; // 0x60
+        public 0x658B6580 <NameSource>k__BackingField; // 0x68
+        public System.Nullable`1<bool> <IsParentSampled>k__BackingField; // 0x6C
+        public string <Platform>k__BackingField; // 0x70
+        public string <Release>k__BackingField; // 0x78
+        public string <Distribution>k__BackingField; // 0x80
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x88
+        public System.Nullable`1<System.DateTimeOffset> <EndTimestamp>k__BackingField; // 0x98
+        public string <Description>k__BackingField; // 0xB0
+        public System.Nullable`1<double> <SampleRate>k__BackingField; // 0xB8
+        public System.Nullable`1<0x658B4E20> <Level>k__BackingField; // 0xC8
+        public Sentry.SentryRequest _request; // 0xD0
+        public Sentry.SentryContexts _contexts; // 0xD8
+        public Sentry.SentryUser _user; // 0xE0
+        public string <Environment>k__BackingField; // 0xE8
+        public Sentry.SdkVersion <Sdk>k__BackingField; // 0xF0
+        public System.Collections.Generic.IReadOnlyList`1<string> _fingerprint; // 0xF8
+        public System.Collections.Concurrent.ConcurrentBag`1<Sentry.Breadcrumb> _breadcrumbs; // 0x100
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,object> _extra; // 0x108
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,string> _tags; // 0x110
+        public System.Collections.Concurrent.ConcurrentBag`1<Sentry.ISpan> _spans; // 0x118
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Sentry.Protocol.Measurement> _measurements; // 0x120
+        public System.Lazy`1<Sentry.MetricsSummaryAggregator> _metricsSummary; // 0x128
+        public Sentry.DynamicSamplingContext <DynamicSamplingContext>k__BackingField; // 0x130
+        public Sentry.Internal.ITransactionProfiler <TransactionProfiler>k__BackingField; // 0x138
+        public bool <IsSentryRequest>k__BackingField; // 0x140
+        public LastActiveSpanTracker _activeSpanTracker; // 0x148
+
         // ── Methods ──
         public void Sentry.IBaseTracer.get_IsOtelInstrumenter(){} // RVA: 0x63C8490
         public void get_SpanId(){} // RVA: 0x63C84A0

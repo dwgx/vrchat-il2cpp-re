@@ -5,6 +5,8 @@
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -15,6 +17,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<bool> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -25,30 +29,38 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<Mediapipe.NormalizedLandmarkList>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<ÌÎÌÌÏÍÎÎÌÎÌÏÏÍÏÍÏÎÎÎÎÎÎ>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<ÌÎÌÌÏÍÎÎÌÎÌÏÏÍÏÍÏÎÎÎÎÎÎ> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<short> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.Sockets.Socket> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -59,38 +71,48 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<Mediapipe.ImageFrame>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<Mediapipe.Detection>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<Mediapipe.LandmarkList>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<...>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -101,6 +123,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<byte[]> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -111,6 +135,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.IO.Stream> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -121,6 +147,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<string> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -131,6 +159,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter : .ctor
 {
+    public System.Threading.Tasks.Task m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -141,6 +171,8 @@ public class ConfiguredTaskAwaiter : .ctor
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Sentry.ISentryJsonSerializable> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -151,6 +183,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyDictionary`2<string,object>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -161,6 +195,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.EnvelopeItem> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -171,6 +207,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Collections.Generic.Dictionary`2<string,object>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -181,6 +219,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.ISerializable> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -191,6 +231,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.IO.MemoryStream> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -201,6 +243,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.Envelope> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -211,6 +255,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.IDisposable> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -221,6 +267,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Text.Json.JsonDocument> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -231,6 +279,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Text.Json.JsonElement> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -241,6 +291,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<object> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -251,6 +303,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<char> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -261,6 +315,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JObject> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -271,6 +327,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JArray> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -281,6 +339,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JConstructor> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -291,6 +351,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JProperty> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -301,6 +363,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Cysharp.Threading.Tasks.UniTask> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -311,6 +375,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.ArraySegment`1<byte>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -321,6 +387,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.Sockets.UdpReceiveResult> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -331,10 +399,13 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<SteamAudio.StaticMesh> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Nullable`1<int>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -345,6 +416,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Mono.Net.Security.AsyncProtocolResult> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -355,6 +428,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.WebRequestStream> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -365,6 +440,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.ValueTuple`5<System.Net.HttpWebResponse,bool,bool,System.Net.BufferOffsetSize,System.Net.WebOperation>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -375,6 +452,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.BufferOffsetSize> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -385,10 +464,13 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<Result<object>> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.ValueTuple`3<System.Net.WebHeaderCollection,byte[],int>> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -399,6 +481,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.IPAddress[]> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -409,6 +493,8 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Net.WebResponse> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -419,10 +505,13 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Exception> m_task; // 0x10
 }
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.Text.Json.JsonDocument> m_task; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA8650
     public void get_IsCompleted(){} // RVA: 0x2AC5C60
@@ -433,10 +522,13 @@ public class ConfiguredTaskAwaiter
 
 public class ConfiguredTaskAwaiter
 {
+    public System.Threading.Tasks.Task`1<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>> m_task; // 0x10
 }
 
 public class ConfiguredValueTaskAwaiter : IsCompleted
 {
+    public System.Threading.Tasks.ValueTask`1<T> _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_IsCompleted(){} // RVA: 0xDBE0
@@ -447,6 +539,8 @@ public class ConfiguredValueTaskAwaiter : IsCompleted
 
 public class ConfiguredValueTaskAwaiter
 {
+    public System.Threading.Tasks.ValueTask`1<System.Exception> _value; // 0x10
+
     // ── Methods ──
     public void OnCompleted(){} // RVA: 0x24B10
     public void UnsafeOnCompleted(){} // RVA: 0x24B10
@@ -454,6 +548,8 @@ public class ConfiguredValueTaskAwaiter
 
 public class ConfiguredValueTaskAwaiter
 {
+    public System.Threading.Tasks.ValueTask`1<bool> _value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x2B33E80
@@ -464,6 +560,8 @@ public class ConfiguredValueTaskAwaiter
 
 public class ConfiguredValueTaskAwaiter : .ctor
 {
+    public System.Threading.Tasks.ValueTask _value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x636A3D0
@@ -474,6 +572,8 @@ public class ConfiguredValueTaskAwaiter : .ctor
 
 public class ConfiguredValueTaskAwaiter : .ctor
 {
+    public System.Threading.Tasks.ValueTask _value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x5D44520
@@ -484,6 +584,8 @@ public class ConfiguredValueTaskAwaiter : .ctor
 
 public class ConfiguredValueTaskAwaiter
 {
+    public System.Threading.Tasks.ValueTask`1<int> _value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1F7E940
     public void get_IsCompleted(){} // RVA: 0x2B07B80
@@ -494,6 +596,8 @@ public class ConfiguredValueTaskAwaiter
 
 public class ConfiguredValueTaskAwaiter
 {
+    public System.Threading.Tasks.ValueTask`1<System.Exception> _value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x20463F0
     public void get_IsCompleted(){} // RVA: 0x2ACAD30
@@ -523,7 +627,7 @@ public class ConnectionChangeEvent
 
 public class ConnectionGroup
 {
-    public object ServicePoint;
+    public System.Net.ServicePointScheduler ServicePoint; // 0x10
 
     // ── Methods ──
     public void get_Scheduler(){} // RVA: 0x2F8380
@@ -540,11 +644,7 @@ public class ConnectionGroup
 
 public class ConstantExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Document;
-    public object EndColumn;
-    public object EndLine;
+    public System.Linq.Expressions.ConstantExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAA30
@@ -620,6 +720,8 @@ public class ContainerContext
 
 public class ContainerHeight
 {
+    public UnityEngine.Transform _containerTop; // 0x10
+
     // ── Methods ──
     public void set_Height(){} // RVA: 0x8EA3BD0
     public void .ctor(){} // RVA: 0x2DD310

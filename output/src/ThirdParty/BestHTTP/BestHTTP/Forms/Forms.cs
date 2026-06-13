@@ -7,11 +7,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.Forms
 {
     public class HTTPFieldData
     {
-        public object Fields;
-        public object IsEmpty;
-        public object IsChanged;
-        public object HasBinary;
-        public object HasLongValue;
+        public string Fields; // 0x10
+        public string IsEmpty; // 0x18
+        public string IsChanged; // 0x20
+        public System.Text.Encoding HasBinary; // 0x28
+        public string HasLongValue; // 0x30
+        public byte[] <Binary>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
@@ -32,6 +33,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.Forms
 
     public class HTTPFormBase
     {
+        public int LongLength;
+        public System.Collections.Generic.List`1<BestHTTP.Forms.HTTPFieldData> <Fields>k__BackingField; // 0x10
+        public bool <IsChanged>k__BackingField; // 0x18
+        public bool <HasBinary>k__BackingField; // 0x19
+        public bool <HasLongValue>k__BackingField; // 0x1A
+
         // ── Methods ──
         public void get_Fields(){} // RVA: 0x2F8380
         public void set_Fields(){} // RVA: 0x2DEE30

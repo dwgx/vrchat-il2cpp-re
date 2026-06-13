@@ -8,6 +8,11 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÌÌÎÏÌÌÏÌÌÍÌÏÍÎÎÏÏÏÎÍÌÌ</summary>
     public class RectTransformDimensionsChSibliSibling_D80B
     {
+        public int <ÍÍÌÏÌÍÌÍÏÌÌÌÌÍÎÎÏÎÍÎÍÍÎ>k__BackingField; // 0x10
+        public int <ÍÎÏÌÎÏÌÍÌÎÎÍÍÍÏÍÎÌÌÎÍÌÎ>k__BackingField; // 0x14
+        public uint <ÏÏÏÎÎÏÎÍÌÎÏÍÎÍÎÍÏÍÍÎÎÎÍ>k__BackingField; // 0x18
+        public uint <ÎÎÌÌÎÍÎÍÌÍÏÌÌÍÍÍÎÎÍÎÍÏÍ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void set_y(){} // RVA: 0x19689D0
         public void get_Length(){} // RVA: 0x1EA9890
@@ -30,6 +35,11 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÎÎÌÎÏÍÍÍÌÏÍÏÎÌÎÎÍÍÎÏÏÏ</summary>
     public class RectTransformDimensionsChSibling_3CE1
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÎÏÏÎÍÌÍÏÌÏÍÏÍÍÎÏÍÍÎÏÏÎ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÎÌÏÏÎÏÎÎÌÍÍÎÎÎÏÍÎÏÌÍÍÎ>k__BackingField; // 0x18
+        public uint <ÏÏÏÎÎÏÎÍÌÎÏÍÎÍÎÍÏÍÍÎÎÎÍ>k__BackingField; // 0x20
+        public uint <ÎÎÌÌÎÍÎÍÌÍÏÌÌÍÍÍÎÎÍÎÍÏÍ>k__BackingField; // 0x24
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Current(){} // RVA: 0x1968950
@@ -52,6 +62,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÍÏÎÎÍÎÌÏÌÌÌÎÎÍÌÌÎÍÎÎÏ</summary>
     public class RectTransformDimensionsChSibling_C59B
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public int <ÌÌÍÎÎÏÏÌÎÌÌÌÌÍÎÍÏÌÌÍÍÎÎ>k__BackingField; // 0x18
+        public int <ÌÌÎÏÎÎÍÍÎÍÏÎÍÏÌÍÎÏÍÌÎÍÌ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Value(){} // RVA: 0x1AD4690
@@ -72,6 +86,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÍÏÎÌÌÍÎÌÏÎÍÏÎÌÎÌÎÌÎÎÌ</summary>
     public class RectTransformDimensionsCh_CF11
     {
+        public 0x65969B20 ÏÎÎÏÏÎÏÍÎÏÌÌÎÍÌÍÌÎÎÎÏÏÌ; // 0x20
+
         // ── Methods ──
         public void OnRectTransformDimensionsChange(){} // RVA: 0x92A9AE0
         public void .ctor(){} // RVA: 0x92A9C80
@@ -94,6 +110,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÌÍÏÌÍÌÏÎÏÍÌÌÌÍÎÌÏÍÏÍÏÏ</summary>
     public class RectTransformDimensionsCh_DFB0
     {
+        public int ÌÎÏÎÌÏÏÎÌÍÌÌÍÍÎÏÎÎÏÌÏÍÏ; // 0x20
+
         // ── Methods ──
         public void OnRectTransformDimensionsChange(){} // RVA: 0x8C047A0
         public void FormatRectTransformDimensionsState(){} // RVA: 0x8C047D0
@@ -115,6 +133,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÎÌÏÍÏÎÍÏÌÍÌÌÍÏÍÍÍÍÏÌÍÎ</summary>
     public class RectTransformDimensionsCh_E817
     {
+        public UnityEngine.RectTransform _parent; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8ECBC40
@@ -132,6 +152,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÏÏÎÎÍÏÎÏÎÌÌÍÎÎÍÏÏÎÎÏÏÏ</summary>
     public class RoomTransformJoinedComponent_F739
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ clockText; // 0x20
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x8E30C40
         public void OnApplicationPause(){} // RVA: 0x8E31170

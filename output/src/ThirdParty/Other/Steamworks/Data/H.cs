@@ -47,6 +47,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_BrowserReady_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1DB0
         public void .cctor(){} // RVA: 0x20D1DC0
@@ -54,6 +56,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_BrowserRestarted_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3510
         public void .cctor(){} // RVA: 0x20D3520
@@ -61,6 +65,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_CanGoBackAndForward_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2740
         public void .cctor(){} // RVA: 0x20D2750
@@ -68,6 +74,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_ChangedTitle_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2520
         public void .cctor(){} // RVA: 0x20D2530
@@ -75,6 +83,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_CloseBrowser_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D20E0
         public void .cctor(){} // RVA: 0x20D20F0
@@ -82,6 +92,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_FileOpenDialog_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2DA0
         public void .cctor(){} // RVA: 0x20D2DB0
@@ -89,6 +101,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_FinishedRequest_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2300
         public void .cctor(){} // RVA: 0x20D2310
@@ -96,6 +110,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_HideToolTip_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D3400
         public void .cctor(){} // RVA: 0x20D3410
@@ -103,6 +119,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_HorizontalScroll_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2850
         public void .cctor(){} // RVA: 0x20D2860
@@ -110,6 +128,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_JSAlert_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2B80
         public void .cctor(){} // RVA: 0x20D2B90
@@ -117,6 +137,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_JSConfirm_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2C90
         public void .cctor(){} // RVA: 0x20D2CA0
@@ -124,6 +146,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_LinkAtPosition_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2A70
         public void .cctor(){} // RVA: 0x20D2A80
@@ -131,6 +155,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_NeedsPaint_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1EC0
         public void .cctor(){} // RVA: 0x20D1ED0
@@ -138,6 +164,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_NewWindow_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2EB0
         public void .cctor(){} // RVA: 0x20D2EC0
@@ -145,6 +173,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_OpenLinkInNewTab_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2410
         public void .cctor(){} // RVA: 0x20D2420
@@ -152,6 +182,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_SearchResults_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2630
         public void .cctor(){} // RVA: 0x20D2640
@@ -159,6 +191,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_SetCursor_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2FC0
         public void .cctor(){} // RVA: 0x20D2FD0
@@ -166,6 +200,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_ShowToolTip_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D31E0
         public void .cctor(){} // RVA: 0x20D31F0
@@ -173,6 +209,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_StartRequest_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1FD0
         public void .cctor(){} // RVA: 0x20D1FE0
@@ -180,6 +218,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_StatusText_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D30D0
         public void .cctor(){} // RVA: 0x20D30E0
@@ -187,6 +227,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_URLChanged_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D21F0
         public void .cctor(){} // RVA: 0x20D2200
@@ -194,6 +236,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_UpdateToolTip_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D32F0
         public void .cctor(){} // RVA: 0x20D3300
@@ -201,6 +245,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTML_VerticalScroll_t
     {
+        public uint UnBrowserHandle; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D2960
         public void .cctor(){} // RVA: 0x20D2970
@@ -208,6 +254,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTTPRequestCompleted_t
     {
+        public uint Request; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0100
         public void .cctor(){} // RVA: 0x20D0110
@@ -215,6 +263,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTTPRequestDataReceived_t
     {
+        public uint Request; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0320
         public void .cctor(){} // RVA: 0x20D0330
@@ -222,6 +272,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HTTPRequestHeadersReceived_t
     {
+        public uint Request; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0210
         public void .cctor(){} // RVA: 0x20D0220

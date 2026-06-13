@@ -22,9 +22,9 @@ Build: 2026-06-05 (June 5) | Status: v2.3, post full 122-batch quality audit
 | Semantic method names | 478,923 | **90.7%** |
 | Hash-fallback methods (m_XXX) | 49,212 | 9.3% |
 | Still raw-obfuscated methods | 0 | 0.0% |
-| Total fields | 2,870 | - |
-| Semantic field names | 2,712 | 94.5% |
-| Hash-fallback fields (f_XXX) | 158 | 5.5% |
+| Total fields | 71,972 | - (was 2,870 before v2.4 runtime recovery) |
+| Typed/semantic fields | 66,282 | **92.1%** |
+| Hash-fallback fields | 5,690 | 7.9% |
 | cross_version method mappings | 39,623 | - |
 
 **Bottom line:** No raw Beebyte identifiers remain. 90.7% of all methods carry semantic

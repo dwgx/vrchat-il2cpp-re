@@ -16,6 +16,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Fiel
 
     public class GF2Polynomial
     {
+        public int[] exponents; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99B47C0
         public void get_Degree(){} // RVA: 0x99B48C0
@@ -26,6 +28,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Fiel
 
     public class GenericPolynomialExtensionField
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IFiniteField subfield; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_Characteristic(){} // RVA: 0x99B4520
@@ -66,6 +71,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Fiel
 
     public class PrimeField
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger characteristic; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Characteristic(){} // RVA: 0x2F8380

@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Text
-// Classes: 38
-// Methods: 621
+// Classes: 43
+// Methods: 679
 
 namespace ThirdParty.DotNet.System.Text
 {
     public class ASCIIEncoding
     {
+        public ASCIIEncodingSealed s_default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C35570
         public void SetDefaultFallbacks(){} // RVA: 0x5C35590
@@ -25,6 +27,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Decoder
     {
+        public System.Text.DecoderFallback _fallback; // 0x10
+        public System.Text.DecoderFallbackBuffer _fallbackBuffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Fallback(){} // RVA: 0x2F8380
@@ -58,6 +63,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallback
     {
+        public System.Text.DecoderFallback s_replacementFallback;
+        public System.Text.DecoderFallback s_exceptionFallback; // 0x8
+
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x5C395F0
         public void get_ExceptionFallback(){} // RVA: 0x5C396C0
@@ -68,6 +76,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallbackBuffer
     {
+        public byte* byteStart; // 0x10
+
         // ── Methods ──
         public void Fallback(){} // RVA: 0x10840
         public void GetNextChar(){} // RVA: 0xCC90
@@ -88,6 +98,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderNLS
     {
+        public System.Text.Encoding _encoding; // 0x20
+        public bool _mustFlush; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C39E60
         public void Reset(){} // RVA: 0x5C39F40
@@ -101,6 +114,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderReplacementFallback
     {
+        public string _strDefault; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C3B020 | overloaded x3
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C3ADE0
@@ -113,6 +128,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderReplacementFallbackBuffer
     {
+        public string _strDefault; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C3B330
         public void Fallback(){} // RVA: 0x5C3B3A0
@@ -124,6 +141,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoder
     {
+        public System.Text.EncoderFallback _fallback; // 0x10
+        public System.Text.EncoderFallbackBuffer _fallbackBuffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Fallback(){} // RVA: 0x2F8380
@@ -157,6 +177,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderFallback
     {
+        public System.Text.EncoderFallback s_replacementFallback;
+        public System.Text.EncoderFallback s_exceptionFallback; // 0x8
+
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x5C3D240
         public void get_ExceptionFallback(){} // RVA: 0x5C3D310
@@ -167,6 +190,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderFallbackBuffer
     {
+        public char* charStart; // 0x10
+
         // ── Methods ──
         public void Fallback(){} // overloaded x2
         public void GetNextChar(){} // RVA: 0xCC90
@@ -189,6 +214,10 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderNLS
     {
+        public char _charLeftOver; // 0x20
+        public System.Text.Encoding _encoding; // 0x28
+        public bool _mustFlush; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C3D720
         public void Reset(){} // RVA: 0x5C3D800
@@ -203,6 +232,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderReplacementFallback
     {
+        public string _strDefault; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C3E890 | overloaded x3
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C3E650
@@ -215,6 +246,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderReplacementFallbackBuffer
     {
+        public string _strDefault; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C3EBA0
         public void Fallback(){} // RVA: 0x5C3ED90 | overloaded x2
@@ -226,6 +259,26 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoding
     {
+        public System.Text.Encoding defaultEncoding;
+        public System.Text.Encoding unicodeEncoding; // 0x8
+        public System.Text.Encoding bigEndianUnicode; // 0x10
+        public System.Text.Encoding utf7Encoding; // 0x18
+        public System.Text.Encoding utf8Encoding; // 0x20
+        public System.Text.Encoding utf32Encoding; // 0x28
+        public System.Text.Encoding asciiEncoding; // 0x30
+        public System.Text.Encoding latin1Encoding; // 0x38
+        public System.Collections.Generic.Dictionary`2<int,System.Text.Encoding> encodings; // 0x40
+        public int MIMECONTF_MAILNEWS;
+        public int MIMECONTF_BROWSER;
+        public int MIMECONTF_SAVABLE_MAILNEWS;
+        public int MIMECONTF_SAVABLE_BROWSER;
+        public int CodePageDefault;
+        public int CodePageNoOEM;
+        public int CodePageNoMac;
+        public int CodePageNoThread;
+        public int CodePageNoSymbol;
+        public int CodePageUnicode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C58B60 | overloaded x2
         public void SetDefaultFallbacks(){} // RVA: 0x5C58BE0
@@ -282,6 +335,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncodingHelper
     {
+        public System.Text.Encoding utf8EncodingWithoutMarkers;
+
         // ── Methods ──
         public void get_UTF8Unmarked(){} // RVA: 0x5C61F80
         public void InternalCodePage(){} // RVA: 0x5C62280
@@ -313,6 +368,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class InternalDecoderBestFitFallback
     {
+        public System.Text.Encoding _encoding; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C38A20
         public void CreateFallbackBuffer(){} // RVA: 0x5C38A80
@@ -323,6 +380,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class InternalDecoderBestFitFallbackBuffer
     {
+        public char _cBestFit; // 0x20
+        public int _iCount; // 0x24
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x5C38BD0
         public void .ctor(){} // RVA: 0x5C38CA0
@@ -336,6 +396,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class InternalEncoderBestFitFallback
     {
+        public System.Text.Encoding _encoding; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void CreateFallbackBuffer(){} // RVA: 0x5C3C120
@@ -346,6 +408,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class InternalEncoderBestFitFallbackBuffer
     {
+        public char _cBestFit; // 0x30
+        public System.Text.InternalEncoderBestFitFallback _oFallback; // 0x38
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x5C3C270
         public void .ctor(){} // RVA: 0x5C3C340
@@ -359,6 +424,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Latin1Encoding
     {
+        public System.Text.Latin1Encoding s_default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C40920 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C40990
@@ -402,6 +469,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Rune
     {
+        public uint _value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x833580 | overloaded x3
         public void get_IsAscii(){} // RVA: 0x62EC2F0
@@ -421,8 +490,37 @@ namespace ThirdParty.DotNet.System.Text
         public void UnsafeCreate(){} // RVA: 0x20C5210
     }
 
+    public class Rune
+    {
+        public uint DefinedCharsBitmapSpan; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x833580 | overloaded x3
+        public void get_IsAscii(){} // RVA: 0x62EC2F0
+        public void get_IsBmp(){} // RVA: 0x62EC300
+        public void op_Equality(){} // RVA: 0x2110AC0
+        public void IsControl(){} // RVA: 0x62EC310
+        public void get_ReplacementChar(){} // RVA: 0x62EC320
+        public void get_Utf16SequenceLength(){} // RVA: 0x62EC330
+        public void get_Value(){} // RVA: 0x19689B0
+        public void DecodeFromUtf16(){} // RVA: 0x62EC340
+        public void DecodeFromUtf8(){} // RVA: 0x62EC4B0
+        public void Equals(){} // RVA: 0x20D6490 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x19689B0
+        public void TryCreate(){} // RVA: 0x62EC6E0 | overloaded x2
+        public void TryEncodeToUtf16(){} // RVA: 0x62EC720
+        public void TryEncodeToUtf8(){} // RVA: 0x62EC880
+        public void UnsafeCreate(){} // RVA: 0x20C5210
+    }
+
     public class StringBuilder
     {
+        public char[] m_ChunkChars; // 0x10
+        public System.Text.StringBuilder m_ChunkPrevious; // 0x18
+        public int m_ChunkLength; // 0x20
+        public int m_ChunkOffset; // 0x24
+        public int m_MaxCapacity; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C49920 | overloaded x9
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C42350
@@ -470,8 +568,18 @@ namespace ThirdParty.DotNet.System.Text
         public void GetStringAndRelease(){} // RVA: 0x5C49F40
     }
 
+    public class StringBuilderCache
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x6911720
+        public void Release(){} // RVA: 0x6911810
+        public void GetStringAndRelease(){} // RVA: 0x69118C0
+    }
+
     public class UTF32Encoding
     {
+        public System.Text.UTF32Encoding s_default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C4A010 | overloaded x3
         public void SetDefaultFallbacks(){} // RVA: 0x5C4A080
@@ -516,6 +624,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UTF8Encoding
     {
+        public UTF8EncodingSealed s_default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C4FA40 | overloaded x3
         public void SetDefaultFallbacks(){} // RVA: 0x5C4FAB0
@@ -541,6 +651,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UnicodeEncoding
     {
+        public System.Text.UnicodeEncoding s_bigEndianDefault;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C53B80 | overloaded x3
         public void SetDefaultFallbacks(){} // RVA: 0x5C53C00
@@ -572,12 +684,23 @@ namespace ThirdParty.DotNet.System.Text
         public void IsValidUnicodeScalar(){} // RVA: 0x62EC2A0
     }
 
+    public class UnicodeUtility
+    {
+        // ── Methods ──
+        public void GetUtf16SequenceLength(){} // RVA: 0x62EC230
+        public void GetUtf16SurrogatesFromSupplementaryPlaneScalar(){} // RVA: 0x62EC240
+        public void IsAsciiCodePoint(){} // RVA: 0x62EC270
+        public void IsBmpCodePoint(){} // RVA: 0x62EC280
+        public void IsInRangeInclusive(){} // RVA: 0x5C516A0
+        public void IsSurrogateCodePoint(){} // RVA: 0x62EC290
+        public void IsValidUnicodeScalar(){} // RVA: 0x62EC2A0
+    }
+
     public class ValueStringBuilder
     {
-        public object FullName;
-        public object IncludeGenericParameters;
-        public object IncludeGenericParameterNames;
-        public object NestedTypeDelimiter;
+        public char[] FullName; // 0x10
+        public System.Span`1<char> IncludeGenericParameters; // 0x18
+        public int IncludeGenericParameterNames; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BA5860 | overloaded x2
@@ -598,6 +721,43 @@ namespace ThirdParty.DotNet.System.Text
         public void GrowAndAppend(){} // RVA: 0x5BA6C50
         public void Grow(){} // RVA: 0x5BA6C90
         public void Dispose(){} // RVA: 0x5BA6F80
+    }
+
+    public class ValueStringBuilder
+    {
+        public char[] _arrayToReturnToPool; // 0x10
+        public System.Span`1<char> _chars; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5C580C0
+        public void get_Length(){} // RVA: 0x5BED50
+        public void get_Item(){} // RVA: 0x5BA5B10
+        public void ToString(){} // RVA: 0x5C580D0
+        public void TryCopyTo(){} // RVA: 0x5C581B0
+        public void Append(){} // RVA: 0x5C586A0 | overloaded x4
+        public void AppendSlow(){} // RVA: 0x5C58420
+        public void AppendSpan(){} // RVA: 0x5C58780
+        public void GrowAndAppend(){} // RVA: 0x5C58860
+        public void Grow(){} // RVA: 0x5C588A0
+        public void Dispose(){} // RVA: 0x5C58AA0
+    }
+
+    public class ValueStringBuilder
+    {
+        public char[] _arrayToReturnToPool; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5C580C0
+        public void get_Length(){} // RVA: 0x5BED50
+        public void ToString(){} // RVA: 0x6833AE0
+        public void TryCopyTo(){} // RVA: 0x6833BC0
+        public void Insert(){} // RVA: 0x6833D10
+        public void Append(){} // RVA: 0x68342F0 | overloaded x4
+        public void AppendSlow(){} // RVA: 0x6834070
+        public void AppendSpan(){} // RVA: 0x68343D0
+        public void GrowAndAppend(){} // RVA: 0x68344B0
+        public void Grow(){} // RVA: 0x68344F0
+        public void Dispose(){} // RVA: 0x68346F0
     }
 
 }

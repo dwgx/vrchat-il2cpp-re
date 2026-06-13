@@ -19,6 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ActivationMixerPlayable
     {
+        public 0x659A2120 m_PostPlaybackState; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7013850
         public void get_postPlaybackState(){} // RVA: 0x32A5C0
@@ -38,6 +40,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ActivationTrack
     {
+        public 0x659A2120 m_PostPlaybackState; // 0xA0
+
         // ── Methods ──
         public void CanCompileClips(){} // RVA: 0x7013EA0
         public void get_postPlaybackState(){} // RVA: 0x1D76590
@@ -59,6 +63,19 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AnimationPlayableAsset
     {
+        public UnityEngine.AnimationClip m_Clip; // 0x18
+        public UnityEngine.Vector3 m_Position; // 0x20
+        public UnityEngine.Vector3 m_EulerAngles; // 0x2C
+        public bool m_UseTrackMatchFields; // 0x38
+        public 0x659A2490 m_MatchTargetFields; // 0x3C
+        public bool m_RemoveStartOffset; // 0x40
+        public bool m_ApplyFootIK; // 0x41
+        public 0x659A2280 m_Loop; // 0x44
+        public 0x659A2540 <appliedOffsetMode>k__BackingField; // 0x48
+        public int k_LatestVersion;
+        public int m_Version; // 0x4C
+        public UnityEngine.Quaternion m_Rotation; // 0x50
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x343EE0
         public void set_position(){} // RVA: 0x343F00
@@ -107,6 +124,28 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AnimationTrack
     {
+        public string k_DefaultInfiniteClipName;
+        public string k_DefaultRecordableClipName;
+        public 0x659A2800 m_InfiniteClipPreExtrapolation; // 0xA0
+        public 0x659A2800 m_InfiniteClipPostExtrapolation; // 0xA4
+        public UnityEngine.Vector3 m_InfiniteClipOffsetPosition; // 0xA8
+        public UnityEngine.Vector3 m_InfiniteClipOffsetEulerAngles; // 0xB4
+        public double m_InfiniteClipTimeOffset; // 0xC0
+        public bool m_InfiniteClipRemoveOffset; // 0xC8
+        public bool m_InfiniteClipApplyFootIK; // 0xC9
+        public 0x659A2280 mInfiniteClipLoop; // 0xCC
+        public 0x659A2490 m_MatchTargetFields; // 0xD0
+        public UnityEngine.Vector3 m_Position; // 0xD4
+        public UnityEngine.Vector3 m_EulerAngles; // 0xE0
+        public UnityEngine.AvatarMask m_AvatarMask; // 0xF0
+        public bool m_ApplyAvatarMask; // 0xF8
+        public 0x659A24E8 m_TrackOffset; // 0xFC
+        public UnityEngine.AnimationClip m_InfiniteClip; // 0x100
+        public System.Collections.Generic.Queue`1<UnityEngine.Transform> s_CachedQueue;
+        public UnityEngine.Quaternion m_OpenClipOffsetRotation; // 0x108
+        public UnityEngine.Quaternion m_Rotation; // 0x118
+        public bool m_ApplyOffsets; // 0x128
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x3DF13B0
         public void set_position(){} // RVA: 0x3DF13D0
@@ -207,6 +246,11 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AudioPlayableAsset
     {
+        public UnityEngine.AudioClip m_Clip; // 0x18
+        public bool m_Loop; // 0x20
+        public float m_bufferingTime; // 0x24
+        public UnityEngine.Timeline.AudioClipProperties m_ClipProperties; // 0x28
+
         // ── Methods ──
         public void get_bufferingTime(){} // RVA: 0x44AF50
         public void set_bufferingTime(){} // RVA: 0x44AF60
@@ -223,6 +267,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AudioTrack
     {
+        public UnityEngine.Timeline.AudioMixerProperties m_TrackProperties; // 0xA0
+
         // ── Methods ──
         public void CreateClip(){} // RVA: 0x702E9F0
         public void CompileClips(){} // RVA: 0x702ECF0
@@ -259,6 +305,11 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ControlPlayableAsset
     {
+        public int k_MaxRandInt;
+        public System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList;
+        public System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList; // 0x8
+        public System.Collections.Generic.HashSet`1<UnityEngine.ParticleSystem> s_SubEmitterCollector; // 0x10
+
         // ── Methods ──
         public void get_controllingDirectors(){} // RVA: 0x4FE4B90
         public void set_controllingDirectors(){} // RVA: 0x601E3A0
@@ -332,6 +383,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class DiscreteTime
     {
+        public double k_Tick;
+
         // ── Methods ──
         public void get_tickValue(){} // RVA: 0x7034AD0
         public void .ctor(){} // RVA: 0x7034C40 | overloaded x6
@@ -486,6 +539,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class InfiniteRuntimeClip
     {
+        public UnityEngine.Playables.Playable m_Playable; // 0x18
+        public long kIntervalEnd;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9949A0
         public void get_intervalStart(){} // RVA: 0x519240
@@ -502,6 +558,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class IntervalTree`1
     {
+        public int kMinNodeSize;
+
         // ── Methods ──
         public void get_dirty(){} // RVA: 0xDBE0
         public void set_dirty(){} // RVA: 0x25130
@@ -518,6 +576,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class Marker
     {
+        public double m_Time; // 0x18
+        public UnityEngine.Timeline.TrackAsset <parent>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_parent(){} // RVA: 0x30B0C0
         public void set_parent(){} // RVA: 0x30B0D0
@@ -530,6 +591,10 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class MarkerList
     {
+        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> m_Cache; // 0x18
+        public bool m_CacheDirty; // 0x20
+
         // ── Methods ──
         public void get_markers(){} // RVA: 0x7036C20
         public void .ctor(){} // RVA: 0x7036C40
@@ -584,6 +649,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ParticleControlPlayable
     {
+        public float kUnsetTime;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x703C9D0
         public void get_particleSystem(){} // RVA: 0x30B0C0
@@ -606,6 +673,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class PrefabControlPlayable
     {
+        public UnityEngine.GameObject m_Instance; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x703D520
         public void get_prefabInstance(){} // RVA: 0x2F8380
@@ -619,6 +688,10 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class RuntimeClip
     {
+        public UnityEngine.Timeline.TimelineClip m_Clip; // 0x18
+        public UnityEngine.Playables.Playable m_Playable; // 0x20
+        public UnityEngine.Playables.Playable m_ParentMixer; // 0x30
+
         // ── Methods ──
         public void get_start(){} // RVA: 0x70358C0
         public void get_duration(){} // RVA: 0x70358F0
@@ -646,6 +719,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class RuntimeElement
     {
+        public int <intervalBit>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_intervalStart(){} // RVA: 0xCD60
         public void get_intervalEnd(){} // RVA: 0xCD60
@@ -659,6 +734,13 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ScheduleRuntimeClip
     {
+        public UnityEngine.Timeline.TimelineClip m_Clip; // 0x18
+        public UnityEngine.Playables.Playable m_Playable; // 0x20
+        public UnityEngine.Playables.Playable m_ParentMixer; // 0x30
+        public double m_StartDelay; // 0x40
+        public double m_FinishTail; // 0x48
+        public bool m_Started; // 0x50
+
         // ── Methods ──
         public void get_start(){} // RVA: 0x70362E0
         public void get_duration(){} // RVA: 0x7036390
@@ -684,6 +766,10 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class SignalEmitter
     {
+        public bool m_Retroactive; // 0x28
+        public bool m_EmitOnce; // 0x29
+        public UnityEngine.Timeline.SignalAsset m_Asset; // 0x30
+
         // ── Methods ──
         public void get_retroactive(){} // RVA: 0x6E8A80
         public void set_retroactive(){} // RVA: 0x6E8B80
@@ -740,6 +826,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimeFieldAttribute
     {
+        public 0x659A4220 <useEditMode>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_useEditMode(){} // RVA: 0x32A5C0
         public void .ctor(){} // RVA: 0x2E00C0
@@ -747,6 +835,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimeNotificationBehaviour
     {
+        public System.Collections.Generic.List`1<NotificationEntry> m_Notifications; // 0x10
+
         // ── Methods ──
         public void set_timeSource(){} // RVA: 0x111C380
         public void Create(){} // RVA: 0x703E630
@@ -791,6 +881,17 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimelineAsset
     {
+        public int k_LatestVersion;
+        public int m_Version; // 0x18
+        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks; // 0x20
+        public double m_FixedDuration; // 0x28
+        public UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks; // 0x30
+        public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks; // 0x38
+        public UnityEngine.Timeline.TrackAsset[] m_CacheFlattenedTracks; // 0x40
+        public EditorSettings m_EditorSettings; // 0x48
+        public 0x659A2A10 m_DurationMode; // 0x50
+        public UnityEngine.Timeline.MarkerTrack m_MarkerTrack; // 0x58
+
         // ── Methods ──
         public void UpgradeToLatestVersion(){} // RVA: 0x2DD310
         public void get_editorSettings(){} // RVA: 0x358730
@@ -838,6 +939,38 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimelineClip
     {
+        public int k_LatestVersion;
+        public int m_Version; // 0x10
+        public 0x659A3040 kDefaultClipCaps;
+        public float kDefaultClipDurationInSeconds; // 0x4
+        public double kTimeScaleMin; // 0x8
+        public double kTimeScaleMax; // 0x10
+        public string kDefaultCurvesName; // 0x18
+        public double kMinDuration; // 0x20
+        public double kMaxTimeValue; // 0x28
+        public double m_Start; // 0x18
+        public double m_ClipIn; // 0x20
+        public UnityEngine.Object m_Asset; // 0x28
+        public double m_Duration; // 0x30
+        public double m_TimeScale; // 0x38
+        public UnityEngine.Timeline.TrackAsset m_ParentTrack; // 0x40
+        public double m_EaseInDuration; // 0x48
+        public double m_EaseOutDuration; // 0x50
+        public double m_BlendInDuration; // 0x58
+        public double m_BlendOutDuration; // 0x60
+        public UnityEngine.AnimationCurve m_MixInCurve; // 0x68
+        public UnityEngine.AnimationCurve m_MixOutCurve; // 0x70
+        public 0x659A2858 m_BlendInCurveMode; // 0x78
+        public 0x659A2858 m_BlendOutCurveMode; // 0x7C
+        public System.Collections.Generic.List`1<string> m_ExposedParameterNames; // 0x80
+        public UnityEngine.AnimationClip m_AnimationCurves; // 0x88
+        public bool m_Recordable; // 0x90
+        public 0x659A2800 m_PostExtrapolationMode; // 0x94
+        public 0x659A2800 m_PreExtrapolationMode; // 0x98
+        public double m_PostExtrapolationTime; // 0xA0
+        public double m_PreExtrapolationTime; // 0xA8
+        public string m_DisplayName; // 0xB0
+
         // ── Methods ──
         public void UpgradeToLatestVersion(){} // RVA: 0x701C630
         public void .ctor(){} // RVA: 0x701C660
@@ -1000,6 +1133,31 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TrackAsset
     {
+        public int k_LatestVersion;
+        public int m_Version; // 0x18
+        public UnityEngine.AnimationClip m_AnimClip; // 0x20
+        public TransientBuildData s_BuildData;
+        public string kDefaultCurvesName;
+        public System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate; // 0x18
+        public System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate; // 0x20
+        public bool m_Locked; // 0x28
+        public bool m_Muted; // 0x29
+        public string m_CustomPlayableFullTypename; // 0x30
+        public UnityEngine.AnimationClip m_Curves; // 0x38
+        public UnityEngine.Playables.PlayableAsset m_Parent; // 0x40
+        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Children; // 0x48
+        public int m_ItemsHash; // 0x50
+        public UnityEngine.Timeline.TimelineClip[] m_ClipsCache; // 0x58
+        public UnityEngine.Timeline.DiscreteTime m_Start; // 0x60
+        public UnityEngine.Timeline.DiscreteTime m_End; // 0x68
+        public bool m_CacheSorted; // 0x70
+        public bool m_BlendsValid; // 0x71
+        public System.Nullable`1<bool> m_SupportsNotifications; // 0x72
+        public UnityEngine.Timeline.TrackAsset[] s_EmptyCache; // 0x28
+        public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> m_ChildTrackCache; // 0x78
+        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache; // 0x30
+        public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> m_Clips; // 0x80
+
         // ── Methods ──
         public void OnBeforeTrackSerialize(){} // RVA: 0x2DD310
         public void OnAfterTrackDeserialize(){} // RVA: 0x2DD310
@@ -1127,6 +1285,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TrackColorAttribute
     {
+        public UnityEngine.Color m_Color; // 0x10
+
         // ── Methods ──
         public void get_color(){} // RVA: 0x196ABE0
         public void .ctor(){} // RVA: 0x702DD70

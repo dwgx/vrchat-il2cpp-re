@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Timers
 {
     public class ElapsedEventArgs
     {
-        public object InvokeRequired;
+        public System.DateTime InvokeRequired; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFC390
@@ -23,6 +23,11 @@ namespace ThirdParty.DotNet.System.Timers
 
     public class Timer
     {
+        public double interval; // 0x28
+        public bool enabled; // 0x30
+        public bool initializing; // 0x31
+        public bool delayedEnable; // 0x32
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFB430 | overloaded x2
         public void set_AutoReset(){} // RVA: 0x6BFB650
@@ -43,6 +48,8 @@ namespace ThirdParty.DotNet.System.Timers
 
     public class TimersDescriptionAttribute
     {
+        public bool replaced; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BFC2F0
         public void get_Description(){} // RVA: 0x6BFABB0

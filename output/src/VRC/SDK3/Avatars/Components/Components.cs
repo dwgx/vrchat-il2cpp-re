@@ -92,6 +92,20 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycast
     {
+        public UnityEngine.Vector3 raycastDirection; // 0x20
+        public float distance; // 0x2C
+        public bool applyTransformScale; // 0x30
+        public 0x659F6A20 collisionMode; // 0x34
+        public UnityEngine.LayerMask customCollisionLayers; // 0x38
+        public UnityEngine.LayerMask _worldLayerMask; // 0x3C
+        public UnityEngine.LayerMask _playerLayerMask; // 0x40
+        public UnityEngine.Transform _cachedTransform; // 0x48
+        public UnityEngine.Transform resultTransform; // 0x50
+        public bool applyRotation; // 0x58
+        public UnityEngine.Vector3 alignmentAxis; // 0x5C
+        public 0x659F6A78 behaviorOnMiss; // 0x68
+        public string parameter; // 0x70
+
         // ── Methods ──
         public void get_RaycastDirection(){} // RVA: 0x343EE0
         public void set_RaycastDirection(){} // RVA: 0x343F00
@@ -139,6 +153,8 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycastHandler
     {
+        public System.Collections.Generic.List`1<VRC.SDK3.Avatars.Components.VRCRaycast> _activeRaycastComponents;
+
         // ── Methods ──
         public void get_ProcessingRaycasts(){} // RVA: 0x9A20600
         public void Initialize(){} // RVA: 0x9A20640

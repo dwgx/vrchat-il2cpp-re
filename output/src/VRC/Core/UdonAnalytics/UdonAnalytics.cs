@@ -7,6 +7,8 @@ namespace VRC.Core.UdonAnalytics
 {
     public class AggregateUdonAnalyticsEvent
     {
+        public System.Collections.Generic.IReadOnlyCollection`1<VRC.Core.UdonAnalytics.IUdonAnalyticsEvent> <AggregatedEvents>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x993D350
         public void AggregateEvents(){} // RVA: 0x993D3F0
@@ -39,6 +41,12 @@ namespace VRC.Core.UdonAnalytics
 
     public class UdonAnalyticsEvent
     {
+        public string <WorldId>k__BackingField; // 0x10
+        public string <MetricId>k__BackingField; // 0x18
+        public UnityEngine.Vector3 <Position>k__BackingField; // 0x20
+        public System.DateTime <Timestamp>k__BackingField; // 0x30
+        public int <Count>k__BackingField; // 0x38
+
         // ── Methods ──
         public void CreateEvent(){} // RVA: 0x993EB20
         public void .ctor(){} // RVA: 0x993EBD0

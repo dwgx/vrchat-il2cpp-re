@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements.UIR
-// Classes: 50
-// Methods: 381
+// Classes: 67
+// Methods: 432
 
 namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 {
@@ -31,6 +31,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BaseShaderInfoStorage
     {
+        public int s_TextureCounter;
+        public Unity.Profiling.ProfilerMarker s_MarkerCopyTexture; // 0x8
+
         // ── Methods ──
         public void get_texture(){} // RVA: 0xCD60
         public void AllocateRect(){}
@@ -58,9 +61,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class BasicNode`1
+    {
+        // ── Methods ──
+        public void AppendTo(){} // RVA: 0x571F940
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class BasicNode`1
+    {
+    }
+
     public class BestFitAllocator
     {
-        public object size;
+        public uint size; // 0x10
+        public Block m_FirstBlock; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x733EFA0
@@ -75,8 +90,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BitmapAllocator32
     {
-        public object pageWidth;
-        public object pageHeight;
+        public int pageWidth; // 0x10
+        public System.Collections.Generic.List`1<Page> pageHeight; // 0x18
 
         // ── Methods ──
         public void Construct(){} // RVA: 0x73543E0
@@ -121,6 +136,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GPUBufferAllocator
     {
+        public UnityEngine.UIElements.UIR.BestFitAllocator m_Low; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73401F0
         public void Allocate(){} // RVA: 0x7340330
@@ -148,6 +165,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GradientSettingsAtlas
     {
+        public Unity.Profiling.ProfilerMarker s_MarkerWrite;
+        public Unity.Profiling.ProfilerMarker s_MarkerCommit; // 0x8
+        public int m_Length; // 0x10
+        public int m_ElemWidth; // 0x14
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x70B92A0
         public void get_disposed(){} // RVA: 0x4A6500
@@ -167,6 +189,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class JobManager
     {
+        public UnityEngine.UIElements.UIR.NativePagedList`1<UnityEngine.UIElements.UIR.NudgeJobData> m_NudgeJobs; // 0x10
+
         // ── Methods ──
         public void Add(){} // RVA: 0x7344650 | overloaded x3
         public void CompleteNudgeJobs(){} // RVA: 0x7344810
@@ -180,6 +204,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class JobMerger
     {
+        public Unity.Collections.NativeArray`1<Unity.Jobs.JobHandle> m_Jobs; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7345930
         public void Add(){} // RVA: 0x73459F0
@@ -206,8 +232,64 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class LinkedPoolItem`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class LinkedPool`1
     {
+        public System.Func`1<T> m_CreateFunc;
+
         // ── Methods ──
         public void .ctor(){}
         public void get_Count(){} // RVA: 0xD840
@@ -215,6 +297,58 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
         public void Clear(){} // RVA: 0x24A50
         public void Get(){} // RVA: 0x283FA0
         public void Return(){} // RVA: 0x283FA0
+    }
+
+    public class LinkedPool`1
+    {
+        public System.Func`1<UnityEngine.UIElements.UIR.BasicNode`1<T>> m_CreateFunc; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x37EE520
+        public void get_Count(){} // RVA: 0x338CD0
+        public void set_Count(){} // RVA: 0x338CE0
+        public void Clear(){} // RVA: 0x37EE660
+        public void Get(){} // RVA: 0x37EE670
+        public void Return(){} // RVA: 0x37EE720
+    }
+
+    public class LinkedPool`1
+    {
+        public System.Func`1<Block> m_CreateFunc; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x37EE520
+        public void get_Count(){} // RVA: 0x338CD0
+        public void set_Count(){} // RVA: 0x338CE0
+        public void Clear(){} // RVA: 0x37EE660
+        public void Get(){} // RVA: 0x37EE670
+        public void Return(){} // RVA: 0x37EE720
+    }
+
+    public class LinkedPool`1
+    {
+        public System.Func`1<UnityEngine.UIElements.UIR.VectorImageRenderInfo> m_CreateFunc; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x37EE520
+        public void get_Count(){} // RVA: 0x338CD0
+        public void set_Count(){} // RVA: 0x338CE0
+        public void Clear(){} // RVA: 0x37EE660
+        public void Get(){} // RVA: 0x37EE670
+        public void Return(){} // RVA: 0x37EE720
+    }
+
+    public class LinkedPool`1
+    {
+        public System.Func`1<UnityEngine.UIElements.UIR.GradientRemap> m_CreateFunc; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x37EE520
+        public void get_Count(){} // RVA: 0x338CD0
+        public void set_Count(){} // RVA: 0x338CE0
+        public void Clear(){} // RVA: 0x37EE660
+        public void Get(){} // RVA: 0x37EE670
+        public void Return(){} // RVA: 0x37EE720
     }
 
     public class MeshBuilder
@@ -234,6 +368,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class NativePagedList`1
     {
+        public int k_PoolCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24FA0
         public void Add(){} // RVA: 0x24B10
@@ -250,6 +386,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class OpacityIdAccelerator
     {
+        public Unity.Collections.NativeArray`1<Unity.Jobs.JobHandle> m_Jobs; // 0x10
+
         // ── Methods ──
         public void CreateJob(){} // RVA: 0x7346BA0
         public void CompleteJobs(){} // RVA: 0x7346E90
@@ -261,6 +399,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Page : .ctor
     {
+        public bool <disposed>k__BackingField; // 0x10
+        public DataSet`1<UnityEngine.UIElements.Vertex> vertices; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7340A20
         public void get_disposed(){} // RVA: 0x3A75E0
@@ -271,6 +412,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChain
     {
+        public UnityEngine.UIElements.UIR.RenderChainCommand m_FirstCommand; // 0x10
+        public DepthOrderedDirtyTracking m_DirtyTracker; // 0x18
+        public UnityEngine.UIElements.UIR.LinkedPool`1<UnityEngine.UIElements.UIR.RenderChainCommand> m_CommandPool; // 0x40
+        public UnityEngine.UIElements.UIR.BasicNodePool`1<UnityEngine.UIElements.UIR.TextureEntry> m_TexturePool; // 0x48
+        public System.Collections.Generic.List`1<RenderNodeData> m_RenderNodesData; // 0x50
+        public UnityEngine.Shader m_DefaultShader; // 0x58
+        public UnityEngine.Shader m_DefaultWorldSpaceShader; // 0x60
+        public UnityEngine.Material m_DefaultMat; // 0x68
+        public UnityEngine.Material m_DefaultWorldSpaceMat; // 0x70
+        public bool m_BlockDirtyRegistration; // 0x78
+        public int m_StaticIndex; // 0x7C
+        public int m_ActiveRenderNodes; // 0x80
+        public int m_CustomMaterialCommands; // 0x84
+        public UnityEngine.UIElements.UIR.ChainBuilderStats m_Stats; // 0x88
+
         // ── Methods ──
         public void get_opacityIdAccelerator(){} // RVA: 0x7F7DB0
         public void set_opacityIdAccelerator(){} // RVA: 0x63D280
@@ -348,6 +504,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChainVEData
     {
+        public UnityEngine.UIElements.VisualElement prev; // 0x10
+        public UnityEngine.UIElements.VisualElement next; // 0x18
+
         // ── Methods ──
         public void get_lastClosingOrLastCommand(){} // RVA: 0x734EE70
         public void AllocatesID(){} // RVA: 0x734EE80
@@ -371,6 +530,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorage`1
     {
+        public int m_InitialSize;
+
         // ── Methods ──
         public void .ctor(){}
         public void Dispose(){} // RVA: 0x25130
@@ -380,6 +541,36 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
         public void UpdateTexture(){} // RVA: 0x24A50
         public void CreateOrExpandTexture(){} // RVA: 0x24A50
         public void CpuBlit(){} // RVA: 0x283FA0
+    }
+
+    public class ShaderInfoStorage`1
+    {
+        public int UnityEngine.UIElementsModule; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40181B0
+        public void Dispose(){} // RVA: 0x40183B0
+        public void get_texture(){} // RVA: 0x4976A0
+        public void AllocateRect(){} // RVA: 0x4018510
+        public void SetTexel(){} // RVA: 0x40186A0
+        public void UpdateTexture(){} // RVA: 0x4018790
+        public void CreateOrExpandTexture(){} // RVA: 0x40188B0
+        public void CpuBlit(){} // RVA: 0x4018E40
+    }
+
+    public class ShaderInfoStorage`1
+    {
+        public int UnityEngine.UIElementsModule; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40173F0
+        public void Dispose(){} // RVA: 0x40175F0
+        public void get_texture(){} // RVA: 0x4976A0
+        public void AllocateRect(){} // RVA: 0x4017750
+        public void SetTexel(){} // RVA: 0x40178E0
+        public void UpdateTexture(){} // RVA: 0x40179E0
+        public void CreateOrExpandTexture(){} // RVA: 0x4017B00
+        public void CpuBlit(){} // RVA: 0x40180A0
     }
 
     public class Shaders
@@ -394,6 +585,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TempAllocator`1
     {
+        public int m_ExcessMinCapacity;
+
         // ── Methods ──
         public void .ctor(){}
         public void get_disposed(){} // RVA: 0xDBE0
@@ -413,6 +606,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TextureBlitter
     {
+        public int[] k_TextureIds;
+
         // ── Methods ──
         public void get_disposed(){} // RVA: 0x394D30
         public void set_disposed(){} // RVA: 0x394D40
@@ -433,6 +628,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TextureSlotManager
     {
+        public int k_SlotCount;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7351B40
         public void .ctor(){} // RVA: 0x7351E10
@@ -453,6 +650,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRVEShaderInfoAllocator
     {
+        public UnityEngine.UIElements.UIR.BaseShaderInfoStorage m_Storage; // 0x10
+        public UnityEngine.UIElements.UIR.BitmapAllocator32 m_TransformAllocator; // 0x18
+        public UnityEngine.UIElements.UIR.BitmapAllocator32 m_ClipRectAllocator; // 0x38
+        public UnityEngine.UIElements.UIR.BitmapAllocator32 m_OpacityAllocator; // 0x58
+        public UnityEngine.UIElements.UIR.BitmapAllocator32 m_ColorAllocator; // 0x78
+
         // ── Methods ──
         public void get_pageWidth(){} // RVA: 0x7354F20
         public void get_pageHeight(){} // RVA: 0x7354F30
@@ -491,6 +694,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRenderDevice
     {
+        public bool m_MockDevice; // 0x10
+        public UIntPtr m_DefaultStencilState; // 0x18
+        public UIntPtr m_VertexDecl; // 0x20
+        public UnityEngine.UIElements.UIR.Page m_FirstPage; // 0x28
+        public uint m_NextPageVertexCount; // 0x30
+        public uint m_LargeMeshVertexCount; // 0x34
+        public float m_IndexToVertexCountRatio; // 0x38
+        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<AllocToFree>> m_DeferredFrees; // 0x40
+
         // ── Methods ──
         public void get_maxVerticesPerPage(){} // RVA: 0xCC3CB0
         public void get_breakBatches(){} // RVA: 0x7335D40
@@ -586,6 +798,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class VectorImageManager
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.UIR.VectorImageManager> instances;
+        public Unity.Profiling.ProfilerMarker s_MarkerRegister; // 0x8
+
         // ── Methods ──
         public void get_atlas(){} // RVA: 0x7353210
         public void .ctor(){} // RVA: 0x7353230

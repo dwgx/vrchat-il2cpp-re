@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 36
-// Methods: 361
+// Classes: 60
+// Methods: 1427
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Painter2D
     {
+        public UnityEngine.UIElements.MeshGenerationContext m_Ctx; // 0x10
+        public UnityEngine.UIElements.UIR.DetachedAllocator m_DetachedAllocator; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7435FE0
         public void Reset(){} // RVA: 0x74361E0
@@ -18,6 +21,27 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Panel
     {
+        public UnityEngine.UIElements.VisualElement m_RootContainer; // 0xA8
+        public UnityEngine.UIElements.VisualTreeUpdater m_VisualTreeUpdater; // 0xB0
+        public UnityEngine.UIElements.IStylePropertyAnimationSystem m_StylePropertyAnimationSystem; // 0xB8
+        public string m_PanelName; // 0xC0
+        public uint m_Version; // 0xC8
+        public uint m_RepaintVersion; // 0xCC
+        public uint m_HierarchyVersion; // 0xD0
+        public Unity.Profiling.ProfilerMarker m_MarkerBeforeUpdate; // 0xD8
+        public Unity.Profiling.ProfilerMarker m_MarkerUpdate; // 0xE0
+        public Unity.Profiling.ProfilerMarker m_MarkerLayout; // 0xE8
+        public Unity.Profiling.ProfilerMarker m_MarkerBindings; // 0xF0
+        public Unity.Profiling.ProfilerMarker m_MarkerAnimations; // 0xF8
+        public Unity.Profiling.ProfilerMarker s_MarkerPickAll;
+        public UnityEngine.UIElements.EventDispatcher <dispatcher>k__BackingField; // 0x100
+        public UnityEngine.UIElements.TimerEventScheduler m_Scheduler; // 0x108
+        public UnityEngine.ScriptableObject <ownerObject>k__BackingField; // 0x110
+        public 0x6583AE50 <contextType>k__BackingField; // 0x118
+        public UnityEngine.UIElements.SavePersistentViewData <saveViewData>k__BackingField; // 0x120
+        public UnityEngine.UIElements.GetViewDataDictionary <getViewDataDictionary>k__BackingField; // 0x128
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField; // 0x130
+
         // ── Methods ──
         public void get_visualTree(){} // RVA: 0x71884A0
         public void get_dispatcher(){} // RVA: 0xA94E10
@@ -74,6 +98,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1
     {
+        public UnityEngine.UIElements.IPanel <originPanel>k__BackingField;
+        public UnityEngine.UIElements.IPanel <destinationPanel>k__BackingField;
+
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0xCD60
         public void set_originPanel(){} // RVA: 0x24B10
@@ -85,12 +112,50 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class PanelChangedEventBase`1
+    {
+        public UnityEngine.UIElements.IPanel <originPanel>k__BackingField; // 0x88
+        public UnityEngine.UIElements.IPanel <destinationPanel>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void get_originPanel(){} // RVA: 0x31C010
+        public void set_originPanel(){} // RVA: 0x463060
+        public void get_destinationPanel(){} // RVA: 0x796DE0
+        public void set_destinationPanel(){} // RVA: 0xB54600
+        public void Init(){} // RVA: 0x3DDC820
+        public void LocalInit(){} // RVA: 0x3DDC8C0
+        public void GetPooled(){} // RVA: 0x3DDC980
+        public void .ctor(){} // RVA: 0x3DDCB10
+    }
+
+    public class PanelChangedEventBase`1
+    {
+        public UnityEngine.UIElements.IPanel <originPanel>k__BackingField; // 0x88
+        public UnityEngine.UIElements.IPanel <destinationPanel>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void get_originPanel(){} // RVA: 0x31C010
+        public void set_originPanel(){} // RVA: 0x463060
+        public void get_destinationPanel(){} // RVA: 0x796DE0
+        public void set_destinationPanel(){} // RVA: 0xB54600
+        public void Init(){} // RVA: 0x3DDC820
+        public void LocalInit(){} // RVA: 0x3DDC8C0
+        public void GetPooled(){} // RVA: 0x3DDC980
+        public void .ctor(){} // RVA: 0x3DDCB10
+    }
+
     public class PanelClearSettings
     {
     }
 
     public class PanelEventHandler
     {
+        public UnityEngine.UIElements.BaseRuntimePanel m_Panel; // 0x20
+        public PointerEvent m_PointerEvent; // 0x28
+        public float m_LastClickTime; // 0x30
+        public bool m_Selecting; // 0x34
+        public UnityEngine.Event m_Event; // 0x38
+
         // ── Methods ──
         public void get_panel(){} // RVA: 0x30B0C0
         public void set_panel(){} // RVA: 0x74DEEE0
@@ -132,6 +197,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelRaycaster
     {
+        public UnityEngine.UIElements.BaseRuntimePanel m_Panel; // 0x28
+
         // ── Methods ──
         public void get_panel(){} // RVA: 0x30B130
         public void set_panel(){} // RVA: 0x74E22B0
@@ -148,14 +215,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelSettings
     {
-        public object panelSettings;
-        public object parentUI;
-        public object visualTreeAsset;
-        public object rootVisualElement;
-        public object firstChildInserIndex;
-        public object sortingOrder;
-        public object importedWithErrors;
-        public object importedWithWarnings;
+        public int panelSettings;
+        public float parentUI;
+        public string visualTreeAsset;
+        public UnityEngine.UIElements.ThemeStyleSheet rootVisualElement; // 0x18
+        public UnityEngine.RenderTexture firstChildInserIndex; // 0x20
+        public 0x65839FE0 sortingOrder; // 0x28
+        public float importedWithErrors; // 0x2C
+        public float importedWithWarnings; // 0x30
+        public float DefaultDpi;
+        public float m_ReferenceDpi; // 0x34
+        public float m_FallbackDpi; // 0x38
+        public UnityEngine.Vector2Int m_ReferenceResolution; // 0x3C
+        public 0x6583A038 m_ScreenMatchMode; // 0x44
+        public float m_Match; // 0x48
+        public float m_SortingOrder; // 0x4C
+        public int m_TargetDisplay; // 0x50
+        public bool m_ClearDepthStencil; // 0x54
+        public bool m_ClearColor; // 0x55
+        public UnityEngine.Color m_ColorClearValue; // 0x58
+        public RuntimePanelAccess m_PanelAccess; // 0x68
 
         // ── Methods ──
         public void get_themeStyleSheet(){} // RVA: 0x2F0F420
@@ -214,6 +293,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelTextSettings
     {
+        public UnityEngine.UIElements.PanelTextSettings s_DefaultPanelTextSettings;
+
         // ── Methods ──
         public void get_defaultPanelTextSettings(){} // RVA: 0x7477B50
         public void UpdateLocalizationFontAsset(){} // RVA: 0x7477DC0
@@ -249,6 +330,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1
     {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField;
+        public int <pointerId>k__BackingField;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0x24B10
         public void get_pointerId(){} // RVA: 0xD840
@@ -257,6 +341,87 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void LocalInit(){} // RVA: 0x24A50
         public void GetPooled(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_pointerId(){} // RVA: 0x6AFD40
+        public void set_pointerId(){} // RVA: 0xF02F80
+        public void Init(){} // RVA: 0x3C49AB0
+        public void LocalInit(){} // RVA: 0x3DF10D0
+        public void GetPooled(){} // RVA: 0x3DF11A0
+        public void .ctor(){} // RVA: 0x3DF12E0
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_pointerId(){} // RVA: 0x6AFD40
+        public void set_pointerId(){} // RVA: 0xF02F80
+        public void Init(){} // RVA: 0x3C49AB0
+        public void LocalInit(){} // RVA: 0x3DF10D0
+        public void GetPooled(){} // RVA: 0x3DF11A0
+        public void .ctor(){} // RVA: 0x3DF12E0
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_pointerId(){} // RVA: 0x6AFD40
+        public void set_pointerId(){} // RVA: 0xF02F80
+        public void Init(){} // RVA: 0x3C49AB0
+        public void LocalInit(){} // RVA: 0x3DF10D0
+        public void GetPooled(){} // RVA: 0x3DF11A0
+        public void .ctor(){} // RVA: 0x3DF12E0
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_pointerId(){} // RVA: 0x6AFD40
+        public void set_pointerId(){} // RVA: 0xF02F80
+        public void Init(){} // RVA: 0x3C49AB0
+        public void LocalInit(){} // RVA: 0x3DF10D0
+        public void GetPooled(){} // RVA: 0x3DF11A0
+        public void .ctor(){} // RVA: 0x3DF12E0
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
+
+        // ── Methods ──
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_pointerId(){} // RVA: 0x6AFD40
+        public void set_pointerId(){} // RVA: 0xF02F80
+        public void Init(){} // RVA: 0x3C49AB0
+        public void LocalInit(){} // RVA: 0x3DF10D0
+        public void GetPooled(){} // RVA: 0x3DF11A0
+        public void .ctor(){} // RVA: 0x3DF12E0
+    }
+
+    public class PointerCaptureEventBase`1
+    {
+        public UnityEngine.UIElements.IEventHandler <relatedTarget>k__BackingField; // 0x88
+        public int <pointerId>k__BackingField; // 0x90
     }
 
     public class PointerCaptureHelper
@@ -335,6 +500,32 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1
     {
+        public bool m_AltitudeNeedsConversion;
+        public bool m_AzimuthNeedsConversion;
+        public float m_AltitudeAngle;
+        public float m_AzimuthAngle;
+        public bool m_TiltNeeded;
+        public UnityEngine.Vector2 m_Tilt;
+        public int <pointerId>k__BackingField;
+        public string <pointerType>k__BackingField;
+        public bool <isPrimary>k__BackingField;
+        public int <button>k__BackingField;
+        public int <pressedButtons>k__BackingField;
+        public UnityEngine.Vector3 <position>k__BackingField;
+        public UnityEngine.Vector3 <localPosition>k__BackingField;
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField;
+        public float <deltaTime>k__BackingField;
+        public int <clickCount>k__BackingField;
+        public float <pressure>k__BackingField;
+        public float <tangentialPressure>k__BackingField;
+        public float <twist>k__BackingField;
+        public 0x659FBB98 <penStatus>k__BackingField;
+        public UnityEngine.Vector2 <radius>k__BackingField;
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField;
+        public 0x659A0EE8 <modifiers>k__BackingField;
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField;
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD840
         public void set_pointerId(){} // RVA: 0x24FA0
@@ -400,6 +591,1401 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
+    public class PointerEventBase`1
+    {
+        public bool m_AltitudeNeedsConversion; // 0x88
+        public bool m_AzimuthNeedsConversion; // 0x89
+        public float m_AltitudeAngle; // 0x8C
+        public float m_AzimuthAngle; // 0x90
+        public bool m_TiltNeeded; // 0x94
+        public UnityEngine.Vector2 m_Tilt; // 0x98
+        public int <pointerId>k__BackingField; // 0xA0
+        public string <pointerType>k__BackingField; // 0xA8
+        public bool <isPrimary>k__BackingField; // 0xB0
+        public int <button>k__BackingField; // 0xB4
+        public int <pressedButtons>k__BackingField; // 0xB8
+        public UnityEngine.Vector3 <position>k__BackingField; // 0xBC
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0xC8
+        public UnityEngine.Vector3 <deltaPosition>k__BackingField; // 0xD4
+        public float <deltaTime>k__BackingField; // 0xE0
+        public int <clickCount>k__BackingField; // 0xE4
+        public float <pressure>k__BackingField; // 0xE8
+        public float <tangentialPressure>k__BackingField; // 0xEC
+        public float <twist>k__BackingField; // 0xF0
+        public 0x659FBB98 <penStatus>k__BackingField; // 0xF4
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0xF8
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x100
+        public 0x659A0EE8 <modifiers>k__BackingField; // 0x108
+        public bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x10C
+        public bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x10D
+
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x1D76590
+        public void set_pointerId(){} // RVA: 0x1D76550
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void set_pointerType(){} // RVA: 0xAE5030
+        public void get_isPrimary(){} // RVA: 0x17323D0
+        public void set_isPrimary(){} // RVA: 0x1735610
+        public void get_button(){} // RVA: 0x3DF1350
+        public void set_button(){} // RVA: 0x3DF1360
+        public void get_pressedButtons(){} // RVA: 0x1896340
+        public void set_pressedButtons(){} // RVA: 0x1896350
+        public void get_position(){} // RVA: 0x3DF1370
+        public void set_position(){} // RVA: 0x3DF1390
+        public void get_localPosition(){} // RVA: 0x348190
+        public void set_localPosition(){} // RVA: 0x3481B0
+        public void get_deltaPosition(){} // RVA: 0x3DF13B0
+        public void set_deltaPosition(){} // RVA: 0x3DF13D0
+        public void get_deltaTime(){} // RVA: 0x8A7990
+        public void set_deltaTime(){} // RVA: 0x8A7B30
+        public void get_clickCount(){} // RVA: 0x1CAC8E0
+        public void set_clickCount(){} // RVA: 0x3DF13F0
+        public void get_pressure(){} // RVA: 0x3DF1400
+        public void set_pressure(){} // RVA: 0x3DF1410
+        public void get_tangentialPressure(){} // RVA: 0x1CAC900
+        public void set_tangentialPressure(){} // RVA: 0x3DF1420
+        public void get_altitudeAngle(){} // RVA: 0x3DF1430
+        public void set_altitudeAngle(){} // RVA: 0x3DF14C0
+        public void get_azimuthAngle(){} // RVA: 0x3DF14D0
+        public void set_azimuthAngle(){} // RVA: 0x3DF15F0
+        public void get_twist(){} // RVA: 0x3DF1600
+        public void set_twist(){} // RVA: 0x3DF1610
+        public void get_tilt(){} // RVA: 0x3DF1620
+        public void set_tilt(){} // RVA: 0x3DF1870
+        public void get_penStatus(){} // RVA: 0x3DF1880
+        public void set_penStatus(){} // RVA: 0x3DF1890
+        public void get_radius(){} // RVA: 0x3DF18A0
+        public void set_radius(){} // RVA: 0x3DF18C0
+        public void get_radiusVariance(){} // RVA: 0x3DF18D0
+        public void set_radiusVariance(){} // RVA: 0x1702E00
+        public void get_modifiers(){} // RVA: 0x1AE9D90
+        public void set_modifiers(){} // RVA: 0x1AEDA80
+        public void get_shiftKey(){} // RVA: 0x3DF18F0
+        public void get_ctrlKey(){} // RVA: 0x3DF1900
+        public void get_commandKey(){} // RVA: 0x3DF1910
+        public void get_altKey(){} // RVA: 0x3DF1920
+        public void get_actionKey(){} // RVA: 0x3DF1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x3DF1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x3DF1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x3DF1A60
+        public void Init(){} // RVA: 0x3DF1A70
+        public void LocalInit(){} // RVA: 0x3DF1B30
+        public void get_currentTarget(){} // RVA: 0x3C49E80
+        public void set_currentTarget(){} // RVA: 0x3DF1DF0
+        public void IsMouse(){} // RVA: 0x3DF1F20
+        public void IsTouch(){} // RVA: 0x3DF1FA0
+        public void TiltToAzimuth(){} // RVA: 0x3DF2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x3DF2120
+        public void TiltToAltitude(){} // RVA: 0x3DF21C0
+        public void GetPooled(){} // RVA: 0x3DF47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x3DF4D80
+        public void PostDispatch(){} // RVA: 0x3DF4EA0
+        public void .ctor(){} // RVA: 0x3DF5090
+    }
+
     public class PointerEventDispatchingStrategy : CanDispatchEvent
     {
         // ── Methods ──
@@ -449,6 +2035,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerMoveEvent
     {
+        public bool <isHandledByDraggable>k__BackingField; // 0x110
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73F6EA0
         public void get_isHandledByDraggable(){} // RVA: 0x66C530
@@ -502,6 +2090,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PopupField`1
     {
+        public int m_Index;
+        public string ussClassName;
+
         // ── Methods ──
         public void GetValueToDisplay(){} // RVA: 0xCD60
         public void GetListItemToDisplay(){} // RVA: 0x283FA0
@@ -515,8 +2106,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void .cctor(){} // RVA: 0x24A80
     }
 
+    public class PopupField`1
+    {
+        public int m_Index; // 0x470
+        public string ussClassName;
+
+        // ── Methods ──
+        public void GetValueToDisplay(){} // RVA: 0x3E01280
+        public void GetListItemToDisplay(){} // RVA: 0x3E013A0
+        public void get_value(){} // RVA: 0x3E01490
+        public void set_value(){} // RVA: 0x3E014B0
+        public void SetValueWithoutNotify(){} // RVA: 0x3E01550
+        public void set_index(){} // RVA: 0x3E01660
+        public void .ctor(){} // RVA: 0x3E016E0
+        public void AddMenuItems(){} // RVA: 0x3E01860
+        public void ChangeValueFromMenu(){} // RVA: 0x3E01C70
+        public void .cctor(){} // RVA: 0x3E01CE0
+    }
+
     public class PopupWindow
     {
+        public UnityEngine.UIElements.VisualElement m_ContentContainer; // 0x4A0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73B8BA0
         public void get_contentContainer(){} // RVA: 0x7309DF0

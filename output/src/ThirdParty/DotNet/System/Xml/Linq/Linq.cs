@@ -61,6 +61,10 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XAttribute
     {
+        public System.Xml.Linq.XAttribute next; // 0x20
+        public System.Xml.Linq.XName name; // 0x28
+        public string value; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6902E70 | overloaded x2
         public void get_IsNamespaceDeclaration(){} // RVA: 0x6902FA0
@@ -84,6 +88,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XComment
     {
+        public string value; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6904080 | overloaded x2
         public void get_NodeType(){} // RVA: 0xA63AE0
@@ -95,6 +101,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XContainer
     {
+        public object content; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6904410 | overloaded x2
         public void get_LastNode(){} // RVA: 0x69045C0
@@ -125,9 +133,9 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XDeclaration
     {
-        public object InternalSubset;
-        public object Name;
-        public object NodeType;
+        public string InternalSubset; // 0x10
+        public string Name; // 0x18
+        public string NodeType; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6909330 | overloaded x3
@@ -141,6 +149,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XDocument
     {
+        public System.Xml.Linq.XDeclaration _declaration; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6909720 | overloaded x4
         public void get_Declaration(){} // RVA: 0x6374D0
@@ -163,6 +173,11 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XDocumentType
     {
+        public string _name; // 0x28
+        public string _publicId; // 0x30
+        public string _systemId; // 0x38
+        public string _internalSubset; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x690AB20 | overloaded x2
         public void get_InternalSubset(){} // RVA: 0x35A740
@@ -176,6 +191,9 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XElement
     {
+        public System.Xml.Linq.XName name; // 0x30
+        public System.Xml.Linq.XAttribute lastAttr; // 0x38
+
         // ── Methods ──
         public void get_EmptySequence(){} // RVA: 0x690AE00
         public void .ctor(){} // RVA: 0x690B0D0 | overloaded x5
@@ -215,6 +233,10 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XName
     {
+        public System.Xml.Linq.XNamespace _ns; // 0x10
+        public string _localName; // 0x18
+        public int _hashCode; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x690E810 | overloaded x2
         public void get_LocalName(){} // RVA: 0x2E07C0
@@ -233,6 +255,11 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XNamespace
     {
+        public System.Xml.Linq.XHashtable`1<System.WeakReference> s_namespaces;
+        public System.WeakReference s_refNone; // 0x8
+        public System.WeakReference s_refXml; // 0x10
+        public System.WeakReference s_refXmlns; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x690E840
         public void get_NamespaceName(){} // RVA: 0x2F8380
@@ -268,6 +295,9 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XObject : p00
     {
+        public System.Xml.Linq.XContainer parent; // 0x10
+        public object annotations; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_BaseUri(){} // RVA: 0x690FBD0
@@ -301,6 +331,9 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XProcessingInstruction
     {
+        public string target; // 0x28
+        public string data; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6910DE0 | overloaded x2
         public void get_Data(){} // RVA: 0x6374D0
@@ -318,6 +351,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XText
     {
+        public string text; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6903DA0 | overloaded x2
         public void get_NodeType(){} // RVA: 0xA308B0

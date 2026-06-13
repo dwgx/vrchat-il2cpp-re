@@ -5,6 +5,8 @@
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380A360
@@ -20,6 +22,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E3540
@@ -35,6 +39,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3805CF0
@@ -50,6 +56,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E45B0
@@ -65,6 +73,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3806B10
@@ -80,6 +90,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E1210
@@ -95,6 +107,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3803EE0
@@ -110,14 +124,18 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
 }
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
 }
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380DC80
@@ -133,6 +151,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38003D0
@@ -148,6 +168,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E22E0
@@ -163,6 +185,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3804D20
@@ -178,6 +202,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E5570
@@ -193,6 +219,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38078E0
@@ -208,6 +236,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E9820
@@ -223,6 +253,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380B180
@@ -238,6 +270,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E78B0
@@ -253,6 +287,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3809570
@@ -268,6 +304,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E6780
@@ -283,6 +321,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38086E0
@@ -298,6 +338,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38EB930
@@ -313,6 +355,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380CE50
@@ -328,6 +372,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38EA930
@@ -343,6 +389,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380C030
@@ -358,6 +406,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x380EE00
@@ -373,6 +423,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38013C0
@@ -388,6 +440,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38DF070
@@ -403,6 +457,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3802240
@@ -418,6 +474,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x38E0110
@@ -433,6 +491,8 @@ public class AnimationDataSet`2
 
 public class AnimationDataSet`2
 {
+    public UnityEngine.UIElements.VisualElement[] elements; // 0x10
+
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x35542C0
     public void set_capacity(){} // RVA: 0x3803060
@@ -480,6 +540,17 @@ public class AnimatorEvent
 
 public class Annotation
 {
+    public Google.Protobuf.MessageParser`1<Annotation> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public Google.Protobuf.FieldCodec`1<int> _repeated_path_codec; // 0x8
+    public Google.Protobuf.Collections.RepeatedField`1<int> path_; // 0x20
+    public string SourceFileDefaultValue; // 0x10
+    public string sourceFile_; // 0x28
+    public int BeginDefaultValue; // 0x18
+    public int begin_; // 0x30
+    public int EndDefaultValue; // 0x1C
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5A7C100
     public void get_Descriptor(){} // RVA: 0x5A7C160
@@ -533,6 +604,10 @@ public class AotTester
 
 public class ApiBundleDropNotificationDetails
 {
+    public string <title>k__BackingField; // 0x68
+    public string <body>k__BackingField; // 0x70
+    public string <imageUrl>k__BackingField; // 0x78
+
     // ── Methods ──
     public void get_title(){} // RVA: 0x358D50
     public void set_title(){} // RVA: 0x358D60
@@ -545,6 +620,9 @@ public class ApiBundleDropNotificationDetails
 
 public class ApiGalleryImageContainer
 {
+    public int <totalCount>k__BackingField; // 0x68
+    public System.Collections.Generic.List`1<VRC.Core.ApiGroupGalleryImage> <results>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_totalCount(){} // RVA: 0x1C91440
     public void set_totalCount(){} // RVA: 0x1C91450
@@ -555,6 +633,11 @@ public class ApiGalleryImageContainer
 
 public class ApiPopupBuilderData
 {
+    public string <key>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <title>k__BackingField; // 0x70
+    public float <spacing>k__BackingField; // 0x78
+    public System.Collections.Generic.List`1<ContentBlock> <content>k__BackingField; // 0x80
+
     // ── Methods ──
     public void get_key(){} // RVA: 0x358D50
     public void set_key(){} // RVA: 0x358D60
@@ -569,6 +652,8 @@ public class ApiPopupBuilderData
 
 public class ApiPopupBuilderRecipe
 {
+    public System.Collections.Generic.List`1<ApiPopupBuilderData> <pages>k__BackingField; // 0x68
+
     // ── Methods ──
     public void get_pages(){} // RVA: 0x358D50
     public void set_pages(){} // RVA: 0x358D60
@@ -577,6 +662,12 @@ public class ApiPopupBuilderRecipe
 
 public class ApiPromotionNotification
 {
+    public string <title>k__BackingField; // 0x68
+    public string <body>k__BackingField; // 0x70
+    public string <imageUrl>k__BackingField; // 0x78
+    public string <command>k__BackingField; // 0x80
+    public string <parameter>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_title(){} // RVA: 0x358D50
     public void set_title(){} // RVA: 0x358D60
@@ -600,6 +691,8 @@ public class ApiRequestData
 
 public class ApiVRChatProductStore
 {
+    public string <planId>k__BackingField; // 0x68
+
     // ── Methods ──
     public void get_planId(){} // RVA: 0x358D50
     public void set_planId(){} // RVA: 0x358D60
@@ -693,6 +786,13 @@ public class ArgsBufferPrep
 
 public class Arm
 {
+    public UnityEngine.Transform target; // 0x48
+    public UnityEngine.Transform bendGoal; // 0x50
+    public float positionWeight; // 0x58
+    public float rotationWeight; // 0x5C
+    public 0x658DC908 shoulderRotationMode; // 0x60
+    public bool vrcExtraShoulderReach; // 0x64
+
     // ── Methods ──
     public void get_position(){} // RVA: 0x3FB590
     public void set_position(){} // RVA: 0x3FB5B0
@@ -742,6 +842,8 @@ public class Array3
 
 public class Array32768`1
 {
+    public Array4096`1<T> f0;
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0xD840
     public void ElementAt(){} // RVA: 0x1BCC0
@@ -757,6 +859,8 @@ public class Array4096`1
 
 public class ArrayEnumerator : .ctor
 {
+    public System.Array _array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5ECEDF0
     public void MoveNext(){} // RVA: 0x5ECEE70
@@ -767,6 +871,9 @@ public class ArrayEnumerator : .ctor
 
 public class ArrayEnumerator
 {
+    public System.Text.Json.JsonElement _target; // 0x10
+    public int _curIdx; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x630D9D0
     public void get_Current(){} // RVA: 0x630DAA0
@@ -781,6 +888,9 @@ public class ArrayEnumerator
 
 public class ArrayEnumerator
 {
+    public System.Text.Json.JsonElement _target; // 0x10
+    public int _curIdx; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x685DD80
     public void get_Current(){} // RVA: 0x630DAA0
@@ -799,6 +909,8 @@ public class ArrayListDebugView
 
 public class ArrayListEnumeratorSimple
 {
+    public System.Collections.ArrayList _list; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E084A0
     public void Clone(){} // RVA: 0x5D7B480
@@ -810,6 +922,9 @@ public class ArrayListEnumeratorSimple
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock;
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<T>> Pool;
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0xCD60
     public void get_CountInactive(){} // RVA: 0xD840
@@ -823,6 +938,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<UnityEngine.Keyframe>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A2BF20
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -836,6 +954,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<object>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A31300
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -849,6 +970,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A31300
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -862,6 +986,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<float>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A2BF20
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -875,6 +1002,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<bool>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A2BF20
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -888,6 +1018,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<System.Collections.Generic.List`1<ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ>>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A31300
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -901,6 +1034,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<byte>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A2BF20
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -914,6 +1050,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<int>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A2BF20
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -927,6 +1066,9 @@ public class ArrayPoolImpl`1
 
 public class ArrayPoolImpl`1
 {
+    public object syncLock; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<UnityEngine.Mesh>> Pool; // 0x18
+
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x3A31300
     public void get_CountInactive(){} // RVA: 0x3A2BF60
@@ -948,6 +1090,8 @@ public class ArrayPropertyDescriptor
 
 public class ArraySubsetEnumerator
 {
+    public System.Array _array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C64610
     public void MoveNext(){} // RVA: 0x6C64680
@@ -965,6 +1109,11 @@ public class ArraySurrogate
 
 public class Article
 {
+    public System.Collections.Generic.List`1<ArticleContent> <content>k__BackingField; // 0x68
+    public System.Collections.Generic.List`1<string> <sectionLinks>k__BackingField; // 0x70
+    public System.Collections.Generic.List`1<VRC.Core.ApiBindingCommandReference> <embeddedLinkData>k__BackingField; // 0x78
+    public System.Collections.Generic.List`1<VRC.Core.ApiBindingCommandReference> <moreInfoLinks>k__BackingField; // 0x80
+
     // ── Methods ──
     public void get_content(){} // RVA: 0x358D50
     public void set_content(){} // RVA: 0x358D60
@@ -979,6 +1128,12 @@ public class Article
 
 public class ArticleContent
 {
+    public string <title>k__BackingField; // 0x68
+    public string <text>k__BackingField; // 0x70
+    public string <imageUrl>k__BackingField; // 0x78
+    public string <videoUrl>k__BackingField; // 0x80
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0x88
+
     // ── Methods ──
     public void get_title(){} // RVA: 0x358D50
     public void set_title(){} // RVA: 0x358D60
@@ -1025,7 +1180,7 @@ public class Asn1SetParserImpl
 
 public class AspectStretcher
 {
-    public object IsNull;
+    public float IsNull; // 0x10
 
     // ── Methods ──
     public void get_Aspect(){} // RVA: 0x1D26670
@@ -1036,6 +1191,8 @@ public class AspectStretcher
 
 public class AssetBundleCreateRequestAwaiter : .ctor
 {
+    public UnityEngine.AssetBundleCreateRequest asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void get_IsCompleted(){} // RVA: 0x6D365A0
@@ -1046,6 +1203,8 @@ public class AssetBundleCreateRequestAwaiter : .ctor
 
 public class AssetBundleCreateRequestConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AssetBundleCreateRequestConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D3C240
@@ -1063,6 +1222,8 @@ public class AssetBundleCreateRequestConfiguredSource
 
 public class AssetBundleRequestAllAssetsAwaiter
 {
+    public UnityEngine.AssetBundleRequest asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void GetAwaiter(){} // RVA: 0x75E7E0
@@ -1074,6 +1235,8 @@ public class AssetBundleRequestAllAssetsAwaiter
 
 public class AssetBundleRequestAllAssetsConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AssetBundleRequestAllAssetsConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D36950
@@ -1091,6 +1254,8 @@ public class AssetBundleRequestAllAssetsConfiguredSource
 
 public class AssetBundleRequestAwaiter : .ctor
 {
+    public UnityEngine.AssetBundleRequest asyncOperation; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1102870
     public void get_IsCompleted(){} // RVA: 0x6D365A0
@@ -1101,6 +1266,8 @@ public class AssetBundleRequestAwaiter : .ctor
 
 public class AssetBundleRequestConfiguredSource
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<AssetBundleRequestConfiguredSource> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6D3AE70
@@ -1118,6 +1285,8 @@ public class AssetBundleRequestConfiguredSource
 
 public class AssetEntry
 {
+    public string path; // 0x10
+
     // ── Methods ──
     public void get_type(){} // RVA: 0x7323AC0
     public void .ctor(){} // RVA: 0x7323BA0
@@ -1125,6 +1294,8 @@ public class AssetEntry
 
 public class AssetPreloader
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiWorld> ÏÏÌÍÍÌÌÎÍÌÎÏÍÎÎÍÍÏÍÏÌÌÏ; // 0x10
+
     // ── Methods ──
     public void Initialize_C7F63F0380B4(){} // RVA: 0x1178E50
     public void GetAssetBundleRequestAllAssets(){} // RVA: 0x1179490
@@ -1149,6 +1320,14 @@ public class AssetPreloader
 
 public class AssociatedDetection
 {
+    public Google.Protobuf.MessageParser`1<AssociatedDetection> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int IdFieldNumber;
+    public int IdDefaultValue; // 0x8
+    public int id_; // 0x1C
+    public int ConfidenceFieldNumber;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5B0C9E0
     public void get_Descriptor(){} // RVA: 0x5B0CA40

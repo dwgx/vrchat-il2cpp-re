@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 {
     public class AbstractF2mCurve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] si; // 0x50
+
         // ── Methods ──
         public void Inverse(){} // RVA: 0x99BC580
         public void BuildField(){} // RVA: 0x99BC620
@@ -92,6 +94,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class ECCurve
     {
+        public int COORD_AFFINE;
+        public int COORD_HOMOGENEOUS;
+        public int COORD_JACOBIAN;
+        public int COORD_JACOBIAN_CHUDNOVSKY;
+        public int COORD_JACOBIAN_MODIFIED;
+        public int COORD_LAMBDA_AFFINE;
+        public int COORD_LAMBDA_PROJECTIVE;
+        public int COORD_SKEWED;
+
         // ── Methods ──
         public void GetAllCoordinateSystems(){} // RVA: 0x99B8C20
         public void .ctor(){} // RVA: 0x2DEE30
@@ -167,6 +178,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class ECPoint
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECFieldElement[] EMPTY_ZS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve m_curve; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECFieldElement m_x; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECFieldElement m_y; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECFieldElement[] m_zs; // 0x28
+        public bool m_withCompression; // 0x30
+        public System.Collections.IDictionary m_preCompTable; // 0x38
+
         // ── Methods ──
         public void GetInitialZCoords(){} // RVA: 0x99C2BA0
         public void .ctor(){} // RVA: 0x99C2FC0 | overloaded x2
@@ -230,6 +249,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class F2mCurve
     {
+        public int F2M_DEFAULT_COORDS;
+        public int m; // 0x58
+        public int k1; // 0x5C
+        public int k2; // 0x60
+        public int k3; // 0x64
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.F2mPoint m_infinity; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99BD950 | overloaded x5
         public void CloneCurve(){} // RVA: 0x99BDBD0
@@ -249,6 +275,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class F2mFieldElement
     {
+        public int Gnb;
+        public int Tpb;
+        public int Ppb;
+        public int representation; // 0x10
+        public int m; // 0x14
+        public int[] ks; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.LongArray x; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99C18F0 | overloaded x3
         public void get_BitLength(){} // RVA: 0x99C19D0
@@ -297,6 +331,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class FpCurve
     {
+        public int FP_DEFAULT_COORDS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_q; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_r; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99BBC00 | overloaded x4
         public void CloneCurve(){} // RVA: 0x99BBEF0
@@ -311,6 +349,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class FpFieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger r; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger x; // 0x20
+
         // ── Methods ──
         public void CalculateResidue(){} // RVA: 0x99BEB80
         public void .ctor(){} // RVA: 0x99BED30 | overloaded x2
@@ -369,6 +411,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class LongArray
     {
+        public ushort[] INTERLEAVE2_TABLE;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99CD960 | overloaded x4
         public void CopyTo(){} // RVA: 0x99CDBA0
@@ -461,6 +505,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC
 
     public class SimpleLookupTable
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint[] points; // 0x10
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x99D4CC0
         public void .ctor(){} // RVA: 0x99D4E20

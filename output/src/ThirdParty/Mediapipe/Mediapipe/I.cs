@@ -25,6 +25,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageFormat
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.ImageFormat> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B0EE30
         public void get_Descriptor(){} // RVA: 0x5B0EE90
@@ -51,6 +54,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageFormatReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B0E7C0
         public void .cctor(){} // RVA: 0x5B0E820
@@ -74,6 +79,19 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InferenceCalculatorOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.InferenceCalculatorOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public string ModelPathDefaultValue; // 0x8
+        public string modelPath_; // 0x20
+        public bool UseGpuDefaultValue; // 0x10
+        public bool useGpu_; // 0x28
+        public bool UseNnapiDefaultValue; // 0x11
+        public bool useNnapi_; // 0x29
+        public int CpuNumThreadDefaultValue; // 0x14
+        public int cpuNumThread_; // 0x2C
+        public Delegate delegate_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AE3360
         public void get_Descriptor(){} // RVA: 0x5AE33C0
@@ -111,7 +129,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InferenceCalculatorReflection
     {
-        public object Description;
+        public Google.Protobuf.Reflection.FileDescriptor Description;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5AE1B90
@@ -120,6 +138,15 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputCollection
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.InputCollection> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<string> _repeated_sidePacketName_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<string> sidePacketName_; // 0x20
+        public Google.Protobuf.FieldCodec`1<string> _repeated_externalInputName_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> externalInputName_; // 0x28
+        public 0x6592D690 inputType_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF5A50
         public void get_Descriptor(){} // RVA: 0x5AF5AB0
@@ -147,6 +174,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputCollectionSet
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.InputCollectionSet> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.InputCollection> _repeated_inputCollection_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.InputCollection> inputCollection_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF7170
         public void get_Descriptor(){} // RVA: 0x5AF71D0
@@ -167,6 +199,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputStreamHandlerConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.InputStreamHandlerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string InputStreamHandlerDefaultValue; // 0x8
+        public string inputStreamHandler_; // 0x18
+        public Mediapipe.MediaPipeOptions options_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B2C0A0
         public void get_Descriptor(){} // RVA: 0x5B2C100
@@ -192,6 +230,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputStreamInfo
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.InputStreamInfo> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string tagIndex_; // 0x18
+        public bool backEdge_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5AF80E0
         public void get_Descriptor(){} // RVA: 0x5AF8140

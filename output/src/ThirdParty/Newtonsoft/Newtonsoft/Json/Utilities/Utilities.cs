@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
-// Classes: 45
-// Methods: 466
+// Classes: 65
+// Methods: 586
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 {
@@ -90,6 +90,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1
     {
+        public System.Collections.IList _list;
+        public System.Collections.Generic.ICollection`1<T> _genericCollection;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x2
         public void Add(){} // RVA: 0x283FA0
@@ -116,6 +120,74 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
         public void VerifyValueType(){} // RVA: 0x24AE0
         public void IsCompatibleObject(){} // RVA: 0xDCC0
         public void get_UnderlyingCollection(){} // RVA: 0xCD60
+    }
+
+    public class CollectionWrapper`1
+    {
+        public System.Collections.IList _list; // 0x10
+        public System.Collections.Generic.ICollection`1<ÏÍÎÏÌÎÎÌÏÏÎÌÎÍÍÌÍÍÍÏÌÌÍ> _genericCollection; // 0x18
+        public object _syncRoot; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5776AF0 | overloaded x2
+        public void Add(){} // RVA: 0x5776BD0
+        public void Clear(){} // RVA: 0x5776D50
+        public void Contains(){} // RVA: 0x5776E00
+        public void CopyTo(){} // RVA: 0x5776F80
+        public void get_Count(){} // RVA: 0x5777040
+        public void get_IsReadOnly(){} // RVA: 0x57770F0
+        public void Remove(){} // RVA: 0x57771A0
+        public void GetEnumerator(){} // RVA: 0x5777390
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5777420
+        public void System.Collections.IList.Add(){} // RVA: 0x5777480
+        public void System.Collections.IList.Contains(){} // RVA: 0x5777670
+        public void System.Collections.IList.IndexOf(){} // RVA: 0x5777870
+        public void System.Collections.IList.RemoveAt(){} // RVA: 0x5777AC0
+        public void System.Collections.IList.Insert(){} // RVA: 0x5777B70
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x5777DB0
+        public void System.Collections.IList.Remove(){} // RVA: 0x5777E60
+        public void System.Collections.IList.get_Item(){} // RVA: 0x5778040
+        public void System.Collections.IList.set_Item(){} // RVA: 0x57780F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5778330
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x57783D0
+        public void VerifyValueType(){} // RVA: 0x5778480
+        public void IsCompatibleObject(){} // RVA: 0x57785D0
+        public void get_UnderlyingCollection(){} // RVA: 0x5778760
+    }
+
+    public class CollectionWrapper`1
+    {
+        public System.Collections.IList _list; // 0x10
+        public System.Collections.Generic.ICollection`1<string> _genericCollection; // 0x18
+        public object _syncRoot; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5776AF0 | overloaded x2
+        public void Add(){} // RVA: 0x5776BD0
+        public void Clear(){} // RVA: 0x5776D50
+        public void Contains(){} // RVA: 0x5776E00
+        public void CopyTo(){} // RVA: 0x5776F80
+        public void get_Count(){} // RVA: 0x5777040
+        public void get_IsReadOnly(){} // RVA: 0x57770F0
+        public void Remove(){} // RVA: 0x57771A0
+        public void GetEnumerator(){} // RVA: 0x5777390
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5777420
+        public void System.Collections.IList.Add(){} // RVA: 0x5777480
+        public void System.Collections.IList.Contains(){} // RVA: 0x5777670
+        public void System.Collections.IList.IndexOf(){} // RVA: 0x5777870
+        public void System.Collections.IList.RemoveAt(){} // RVA: 0x5777AC0
+        public void System.Collections.IList.Insert(){} // RVA: 0x5777B70
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x5777DB0
+        public void System.Collections.IList.Remove(){} // RVA: 0x5777E60
+        public void System.Collections.IList.get_Item(){} // RVA: 0x5778040
+        public void System.Collections.IList.set_Item(){} // RVA: 0x57780F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5778330
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x57783D0
+        public void VerifyValueType(){} // RVA: 0x5778480
+        public void IsCompatibleObject(){} // RVA: 0x57785D0
+        public void get_UnderlyingCollection(){} // RVA: 0x5778760
     }
 
     public class ConvertUtils
@@ -200,6 +272,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : System.Collections.Generic
     {
+        public System.Collections.IDictionary _dictionary;
+        public System.Collections.Generic.IDictionary`2<U,T> _genericDictionary;
+        public System.Collections.Generic.IReadOnlyDictionary`2<U,T> _readOnlyDictionary;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x3
         public void get_GenericDictionary(){} // RVA: 0xCD60
@@ -234,6 +311,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DynamicProxyMetaObject`1
     {
+        public Newtonsoft.Json.Utilities.DynamicProxy`1<T> _proxy;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
         public void IsOverridden(){} // RVA: 0xDE40
@@ -280,6 +359,44 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class DynamicProxy`1
+    {
+        // ── Methods ──
+        public void GetDynamicMemberNames(){} // RVA: 0x2E74C70
+        public void TryBinaryOperation(){} // RVA: 0x2E74CB0
+        public void TryConvert(){} // RVA: 0x2E74D10
+        public void TryCreateInstance(){} // RVA: 0x2E74CB0
+        public void TryDeleteIndex(){} // RVA: 0x2DD320
+        public void TryDeleteMember(){} // RVA: 0x2DD320
+        public void TryGetIndex(){} // RVA: 0x2E74CB0
+        public void TryGetMember(){} // RVA: 0x2E74D10
+        public void TryInvoke(){} // RVA: 0x2E74CB0
+        public void TryInvokeMember(){} // RVA: 0x2E74CB0
+        public void TrySetIndex(){} // RVA: 0x2DD320
+        public void TrySetMember(){} // RVA: 0x2DD320
+        public void TryUnaryOperation(){} // RVA: 0x2E74D10
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class DynamicProxy`1
+    {
+        // ── Methods ──
+        public void GetDynamicMemberNames(){} // RVA: 0x2E74C70
+        public void TryBinaryOperation(){} // RVA: 0x2E74CB0
+        public void TryConvert(){} // RVA: 0x2E74D10
+        public void TryCreateInstance(){} // RVA: 0x2E74CB0
+        public void TryDeleteIndex(){} // RVA: 0x2DD320
+        public void TryDeleteMember(){} // RVA: 0x2DD320
+        public void TryGetIndex(){} // RVA: 0x2E74CB0
+        public void TryGetMember(){} // RVA: 0x2E74D10
+        public void TryInvoke(){} // RVA: 0x2E74CB0
+        public void TryInvokeMember(){} // RVA: 0x2E74CB0
+        public void TrySetIndex(){} // RVA: 0x2DD320
+        public void TrySetMember(){} // RVA: 0x2DD320
+        public void TryUnaryOperation(){} // RVA: 0x2E74D10
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class DynamicUtils
     {
         // ── Methods ──
@@ -317,8 +434,16 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     public class FSharpUtils
     {
         public object Item1;
-        public object Item2;
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public Newtonsoft.Json.Utilities.FSharpUtils Item2; // 0x8
+        public System.Reflection.MethodInfo System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public System.Type _mapType; // 0x18
+        public System.Reflection.Assembly <FSharpCoreAssembly>k__BackingField; // 0x20
+        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <IsUnion>k__BackingField; // 0x28
+        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <GetUnionCases>k__BackingField; // 0x30
+        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <PreComputeUnionTagReader>k__BackingField; // 0x38
+        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <PreComputeUnionReader>k__BackingField; // 0x40
+        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <PreComputeUnionConstructor>k__BackingField; // 0x48
+        public System.Func`2<object,object> <GetUnionCaseInfoDeclaringType>k__BackingField; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5FCF4E0
@@ -400,6 +525,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory
     {
+        public Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory _instance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5FD6EF0
         public void CreateParameterizedConstructor(){} // RVA: 0x5FD6F50
@@ -479,6 +606,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionMember
     {
+        public System.Type <MemberType>k__BackingField; // 0x10
+        public System.Func`2<object,object> <Getter>k__BackingField; // 0x18
+        public System.Action`2<object,object> <Setter>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_MemberType(){} // RVA: 0x2F8380
         public void set_MemberType(){} // RVA: 0x2DEE30
@@ -491,6 +622,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionObject
     {
+        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> <Creator>k__BackingField; // 0x10
+        public System.Collections.Generic.IDictionary`2<string,Newtonsoft.Json.Utilities.ReflectionMember> <Members>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Creator(){} // RVA: 0x2F8380
         public void get_Members(){} // RVA: 0x2E07C0
@@ -549,9 +683,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringBuffer
     {
-        public object Item;
-        public object Chars;
-        public object StartIndex;
+        public char[] Item; // 0x10
+        public int Chars; // 0x18
 
         // ── Methods ──
         public void get_Position(){} // RVA: 0x1EA9890
@@ -567,6 +700,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringReference
     {
+        public char[] _chars; // 0x10
+        public int _startIndex; // 0x18
+        public int _length; // 0x1C
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x5FDEE40
         public void get_Chars(){} // RVA: 0x1AD4690
@@ -611,6 +748,122 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     {
     }
 
+    public class StructMultiKey`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x19B3510
+        public void GetHashCode(){} // RVA: 0x40AD780
+        public void Equals(){} // RVA: 0x40AD960 | overloaded x2
+    }
+
+    public class StructMultiKey`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x283FA0
+        public void GetHashCode(){} // RVA: 0xD840
+        public void Equals(){} // RVA: 0x283FA0 | overloaded x2
+    }
+
+    public class StructMultiKey`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x19B3510
+        public void GetHashCode(){} // RVA: 0x40AD780
+        public void Equals(){} // RVA: 0x40AD960 | overloaded x2
+    }
+
+    public class StructMultiKey`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x19B3510
+        public void GetHashCode(){} // RVA: 0x40AD780
+        public void Equals(){} // RVA: 0x40AD960 | overloaded x2
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43EFF20
+        public void Get(){} // RVA: 0x43F0150
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x24B10
+        public void Get(){} // RVA: 0x283FA0
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43EFF20
+        public void Get(){} // RVA: 0x43F0150
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
+    public class ThreadSafeStore`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43F0190
+        public void Get(){} // RVA: 0x43F0320
+    }
+
     public class ThreadSafeStore`2
     {
         // ── Methods ──
@@ -642,6 +895,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class TypeInformation
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public 0x658E2370 <TypeCode>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
         public void get_TypeCode(){} // RVA: 0x5BED50

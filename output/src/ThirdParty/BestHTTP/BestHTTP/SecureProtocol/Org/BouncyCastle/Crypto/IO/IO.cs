@@ -7,6 +7,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 {
     public class CipherStream
     {
+        public System.IO.Stream stream; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher inCipher; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher outCipher; // 0x38
+        public byte[] mInBuf; // 0x40
+        public int mInPos; // 0x48
+        public bool inStreamEnded; // 0x4C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CD880
         public void get_ReadCipher(){} // RVA: 0x6374D0
@@ -31,6 +38,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class DigestSink
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mDigest; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9521B90
         public void get_Digest(){} // RVA: 0x6374D0
@@ -40,6 +49,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class DigestStream
     {
+        public System.IO.Stream stream; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest inDigest; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest outDigest; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CE4B0
         public void ReadDigest(){} // RVA: 0x6374D0
@@ -62,6 +75,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class MacSink
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac mMac; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9521B90
         public void get_Mac(){} // RVA: 0x6374D0
@@ -71,6 +86,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class MacStream
     {
+        public System.IO.Stream stream; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac inMac; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac outMac; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CEA20
         public void ReadMac(){} // RVA: 0x6374D0
@@ -93,6 +112,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class SignerSink
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner mSigner; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9521B90
         public void get_Signer(){} // RVA: 0x6374D0
@@ -102,6 +123,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 
     public class SignerStream
     {
+        public System.IO.Stream stream; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner inSigner; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner outSigner; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CEF90
         public void ReadSigner(){} // RVA: 0x6374D0

@@ -53,7 +53,7 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemSettings
     {
-        public object implementation;
+        public UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper implementation;
 
         // ── Methods ──
         public void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(){} // RVA: 0x71680A0
@@ -64,6 +64,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemWrapper
     {
+        public UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem <implementation>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_implementation(){} // RVA: 0x2F8380
         public void set_implementation(){} // RVA: 0x2DEE30

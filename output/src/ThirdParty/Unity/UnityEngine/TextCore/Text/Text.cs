@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.TextCore.Text
-// Classes: 45
-// Methods: 451
+// Classes: 54
+// Methods: 577
 
 namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 {
@@ -32,11 +32,36 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FontAsset
     {
-        public object version;
-        public object instanceID;
-        public object hashCode;
-        public object material;
-        public object materialHashCode;
+        public string version; // 0x38
+        public UnityEngine.TextCore.Text.FontAssetCreationEditorSettings instanceID; // 0x40
+        public UnityEngine.Font hashCode; // 0x98
+        public string material; // 0xA0
+        public 0x6597FD30 materialHashCode; // 0xA8
+        public bool InternalDynamicOS; // 0xAC
+        public UnityEngine.TextCore.FaceInfo m_FaceInfo; // 0xB0
+        public int m_FamilyNameHashCode; // 0x110
+        public int m_StyleNameHashCode; // 0x114
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable; // 0x118
+        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Glyph> m_GlyphLookupDictionary; // 0x120
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.Character> m_CharacterTable; // 0x128
+        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Text.Character> m_CharacterLookupDictionary; // 0x130
+        public UnityEngine.Texture2D m_AtlasTexture; // 0x138
+        public UnityEngine.Texture2D[] m_AtlasTextures; // 0x140
+        public int m_AtlasTextureIndex; // 0x148
+        public bool m_IsMultiAtlasTexturesEnabled; // 0x14C
+        public bool m_ClearDynamicDataOnBuild; // 0x14D
+        public int m_AtlasWidth; // 0x150
+        public int m_AtlasHeight; // 0x154
+        public int m_AtlasPadding; // 0x158
+        public 0x659F5478 m_AtlasRenderMode; // 0x15C
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects; // 0x160
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_FreeGlyphRects; // 0x168
+        public UnityEngine.TextCore.Text.FontFeatureTable m_FontFeatureTable; // 0x170
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> m_FallbackFontAssetTable; // 0x178
+        public UnityEngine.TextCore.Text.FontWeightPair[] m_FontWeightTable; // 0x180
+        public float m_RegularStyleWeight; // 0x188
+        public float m_RegularStyleSpacing; // 0x18C
+        public float m_BoldStyleWeight; // 0x190
 
         // ── Methods ──
         public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7265F20
@@ -220,6 +245,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class MaterialReferenceManager
     {
+        public UnityEngine.TextCore.Text.MaterialReferenceManager s_Instance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7275FE0
         public void AddFontAsset(){} // RVA: 0x72760C0
@@ -255,6 +282,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class Offset
     {
+        public float m_Left; // 0x10
+        public float m_Right; // 0x14
+        public float m_Top; // 0x18
+        public float m_Bottom; // 0x1C
+        public UnityEngine.TextCore.Text.Offset k_ZeroOffset;
+
         // ── Methods ──
         public void get_left(){} // RVA: 0x300D20
         public void get_right(){} // RVA: 0x300D30
@@ -279,6 +312,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteAsset
     {
+        public System.Collections.Generic.Dictionary`2<int,int> m_NameLookup; // 0x38
+        public System.Collections.Generic.Dictionary`2<uint,int> m_GlyphIndexLookup; // 0x40
+        public UnityEngine.TextCore.FaceInfo m_FaceInfo; // 0x48
+        public UnityEngine.Texture m_SpriteAtlasTexture; // 0xA8
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteCharacter> m_SpriteCharacterTable; // 0xB0
+
         // ── Methods ──
         public void get_faceInfo(){} // RVA: 0x7278310
         public void set_faceInfo(){} // RVA: 0x6FFE680
@@ -307,6 +346,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteCharacter
     {
+        public string m_Name; // 0x30
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x7145E90
         public void .ctor(){} // RVA: 0x7001040
@@ -320,6 +361,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextAsset
     {
+        public string m_Version; // 0x18
+        public int m_InstanceID; // 0x20
+        public int m_HashCode; // 0x24
+        public UnityEngine.Material m_Material; // 0x28
+        public int m_MaterialHashCode; // 0x30
+
         // ── Methods ──
         public void get_version(){} // RVA: 0x2F0F420
         public void set_version(){} // RVA: 0x343E80
@@ -335,6 +382,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextBackingContainer
     {
+        public uint[] m_Array; // 0x10
+        public int m_Count; // 0x18
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x35542C0
         public void get_Count(){} // RVA: 0x3C4E030
@@ -354,6 +404,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextElement
     {
+        public 0x65980468 m_ElementType; // 0x10
+        public uint m_Unicode; // 0x14
+        public UnityEngine.TextCore.Text.TextAsset m_TextAsset; // 0x18
+        public UnityEngine.TextCore.Glyph m_Glyph; // 0x20
+        public uint m_GlyphIndex; // 0x28
+        public float m_Scale; // 0x2C
+
         // ── Methods ──
         public void get_elementType(){} // RVA: 0x7187810
         public void get_unicode(){} // RVA: 0x2EE0010
@@ -387,6 +444,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGenerator
     {
+        public UnityEngine.TextCore.Text.TextGenerator s_TextGenerator;
+
         // ── Methods ──
         public void GetTextGenerator(){} // RVA: 0x728D900
         public void GenerateText(){} // RVA: 0x728D9E0
@@ -462,6 +521,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextHandle
     {
+        public UnityEngine.Vector2 m_PreferredSize; // 0x10
+        public UnityEngine.TextCore.Text.TextInfo m_TextInfo; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72A7540
         public void get_textInfo(){} // RVA: 0x72A7670
@@ -510,6 +572,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1
     {
+        public T[] itemStack;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26EE0 | overloaded x3
         public void get_Count(){} // RVA: 0xD840
@@ -524,6 +589,177 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
         public void CurrentItem(){} // RVA: 0x283FA0
     }
 
+    public class TextProcessingStack`1
+    {
+        public UnityEngine.TextCore.Text.MaterialReference[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C98D0 | overloaded x3
+        public void get_Count(){} // RVA: 0x43DC070
+        public void get_current(){} // RVA: 0x43DC080
+        public void SetDefault(){} // RVA: 0x43DC330 | overloaded x2
+        public void Clear(){} // RVA: 0x40C9C40
+        public void Add(){} // RVA: 0x40C9DD0
+        public void Remove(){} // RVA: 0x43DC4C0
+        public void Push(){} // RVA: 0x40C9F50
+        public void Pop(){} // RVA: 0x43DC590
+        public void Peek(){} // RVA: 0x43DC700
+        public void CurrentItem(){} // RVA: 0x43DC080
+    }
+
+    public class TextProcessingStack`1
+    {
+        public float[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
+        public void get_Count(){} // RVA: 0x3D92310
+        public void get_current(){} // RVA: 0x40CA9A0
+        public void SetDefault(){} // RVA: 0x43DCBA0 | overloaded x2
+        public void Clear(){} // RVA: 0x40C87A0
+        public void Add(){} // RVA: 0x40CAC20
+        public void Remove(){} // RVA: 0x43DCC90
+        public void Push(){} // RVA: 0x43DCD00
+        public void Pop(){} // RVA: 0x40CAD90
+        public void Peek(){} // RVA: 0x40CAE20
+        public void CurrentItem(){} // RVA: 0x40CA9A0
+    }
+
+    public class TextProcessingStack`1
+    {
+        public 0x6597FC28[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
+        public void get_Count(){} // RVA: 0x3D92310
+        public void get_current(){} // RVA: 0x40C8600
+        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
+        public void Clear(){} // RVA: 0x40C87A0
+        public void Add(){} // RVA: 0x40C8890
+        public void Remove(){} // RVA: 0x43DB7A0
+        public void Push(){} // RVA: 0x40C95A0
+        public void Pop(){} // RVA: 0x40C9660
+        public void Peek(){} // RVA: 0x40C8A90
+        public void CurrentItem(){} // RVA: 0x40C8600
+    }
+
+    public class TextProcessingStack`1
+    {
+        public 0x65980728[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
+        public void get_Count(){} // RVA: 0x3D92310
+        public void get_current(){} // RVA: 0x40C8600
+        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
+        public void Clear(){} // RVA: 0x40C87A0
+        public void Add(){} // RVA: 0x40C8890
+        public void Remove(){} // RVA: 0x43DB7A0
+        public void Push(){} // RVA: 0x40C95A0
+        public void Pop(){} // RVA: 0x40C9660
+        public void Peek(){} // RVA: 0x40C8A90
+        public void CurrentItem(){} // RVA: 0x40C8600
+    }
+
+    public class TextProcessingStack`1
+    {
+        public UnityEngine.Color32[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
+        public void get_Count(){} // RVA: 0x3D92310
+        public void get_current(){} // RVA: 0x40C8600
+        public void SetDefault(){} // RVA: 0x43DB6C0 | overloaded x2
+        public void Clear(){} // RVA: 0x40C87A0
+        public void Add(){} // RVA: 0x40C8890
+        public void Remove(){} // RVA: 0x43DB7A0
+        public void Push(){} // RVA: 0x43DB800
+        public void Pop(){} // RVA: 0x40C89F0
+        public void Peek(){} // RVA: 0x40C8A90
+        public void CurrentItem(){} // RVA: 0x40C8600
+    }
+
+    public class TextProcessingStack`1
+    {
+        public UnityEngine.TextCore.Text.HighlightState[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8C70 | overloaded x3
+        public void get_Count(){} // RVA: 0x43DB8C0
+        public void get_current(){} // RVA: 0x43DB8D0
+        public void SetDefault(){} // RVA: 0x43DBAD0 | overloaded x2
+        public void Clear(){} // RVA: 0x40C8F20
+        public void Add(){} // RVA: 0x40C9030
+        public void Remove(){} // RVA: 0x43DBBD0
+        public void Push(){} // RVA: 0x40C9100
+        public void Pop(){} // RVA: 0x43DBC60
+        public void Peek(){} // RVA: 0x43DBD30
+        public void CurrentItem(){} // RVA: 0x43DB8D0
+    }
+
+    public class TextProcessingStack`1
+    {
+        public int[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
+        public void get_Count(){} // RVA: 0x3D92310
+        public void get_current(){} // RVA: 0x40C8600
+        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
+        public void Clear(){} // RVA: 0x40C87A0
+        public void Add(){} // RVA: 0x40C8890
+        public void Remove(){} // RVA: 0x43DB7A0
+        public void Push(){} // RVA: 0x40C95A0
+        public void Pop(){} // RVA: 0x40C9660
+        public void Peek(){} // RVA: 0x40C8A90
+        public void CurrentItem(){} // RVA: 0x40C8600
+    }
+
+    public class TextProcessingStack`1
+    {
+        public UnityEngine.TextCore.Text.TextColorGradient[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40CA450 | overloaded x3
+        public void get_Count(){} // RVA: 0x43DC7A0
+        public void get_current(){} // RVA: 0x40CA520
+        public void SetDefault(){} // RVA: 0x43DC840 | overloaded x2
+        public void Clear(){} // RVA: 0x40CA600
+        public void Add(){} // RVA: 0x40CA700
+        public void Remove(){} // RVA: 0x43DC930
+        public void Push(){} // RVA: 0x40CA7A0
+        public void Pop(){} // RVA: 0x43DC990
+        public void Peek(){} // RVA: 0x40CA910
+        public void CurrentItem(){} // RVA: 0x40CA520
+    }
+
+    public class TextProcessingStack`1
+    {
+        public UnityEngine.TextCore.Text.WordWrapState[] itemStack; // 0x10
+        public int index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x43DCF40 | overloaded x3
+        public void get_Count(){} // RVA: 0x43DD020
+        public void get_current(){} // RVA: 0x43DD030
+        public void SetDefault(){} // RVA: 0x43DD390 | overloaded x2
+        public void Clear(){} // RVA: 0x43DD380
+        public void Add(){} // RVA: 0x43DD510
+        public void Remove(){} // RVA: 0x43DD5D0
+        public void Push(){} // RVA: 0x43DD750
+        public void Pop(){} // RVA: 0x43DD8B0
+        public void Peek(){} // RVA: 0x43DDB80
+        public void CurrentItem(){} // RVA: 0x43DD030
+    }
+
     public class TextResourceManager
     {
         // ── Methods ──
@@ -533,11 +769,23 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextSettings
     {
-        public object faceInfo;
-        public object spriteSheet;
-        public object spriteCharacterTable;
-        public object spriteCharacterLookupTable;
-        public object spriteGlyphTable;
+        public string faceInfo; // 0x18
+        public UnityEngine.TextCore.Text.FontAsset spriteSheet; // 0x20
+        public string spriteCharacterTable; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> spriteCharacterLookupTable; // 0x30
+        public bool spriteGlyphTable; // 0x38
+        public int m_MissingCharacterUnicode; // 0x3C
+        public bool m_ClearDynamicDataOnBuild; // 0x40
+        public UnityEngine.TextCore.Text.SpriteAsset m_DefaultSpriteAsset; // 0x48
+        public string m_DefaultSpriteAssetPath; // 0x50
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> m_FallbackSpriteAssets; // 0x58
+        public uint m_MissingSpriteCharacterUnicode; // 0x60
+        public UnityEngine.TextCore.Text.TextStyleSheet m_DefaultStyleSheet; // 0x68
+        public string m_StyleSheetsResourcePath; // 0x70
+        public string m_DefaultColorGradientPresetsPath; // 0x78
+        public UnityEngine.TextCore.Text.UnicodeLineBreakingRules m_UnicodeLineBreakingRules; // 0x80
+        public bool m_UseModernHangulLineBreakingRules; // 0x88
+        public bool m_DisplayWarnings; // 0x89
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x2E07C0
@@ -582,6 +830,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextShaderUtilities
     {
+        public int ID_MainTex;
+        public int ID_FaceTex; // 0x4
+
         // ── Methods ──
         public void get_ShaderRef_MobileSDF(){} // RVA: 0x72AD040
         public void get_ShaderRef_MobileBitmap(){} // RVA: 0x72AD4E0
@@ -591,6 +842,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyle
     {
+        public UnityEngine.TextCore.Text.TextStyle k_NormalStyle;
+        public string m_Name; // 0x10
+        public int m_HashCode; // 0x18
+
         // ── Methods ──
         public void get_hashCode(){} // RVA: 0x3D92310
         public void get_styleOpeningTagArray(){} // RVA: 0x7145E90
@@ -601,7 +856,7 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyleSheet
     {
-        public object width;
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.TextStyle> width; // 0x18
 
         // ── Methods ──
         public void get_styles(){} // RVA: 0x2F0F420
@@ -626,10 +881,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class UnicodeLineBreakingRules
     {
-        public object IsAlive;
-        public object Target;
-        public object TrackResurrection;
-        public object System.Collections.Generic;
+        public UnityEngine.TextAsset IsAlive; // 0x10
+        public UnityEngine.TextAsset Target; // 0x18
+        public UnityEngine.TextAsset TrackResurrection; // 0x20
+        public bool System.Collections.Generic; // 0x28
+        public System.Collections.Generic.HashSet`1<uint> m_LeadingCharactersLookup; // 0x30
 
         // ── Methods ──
         public void get_leadingCharacters(){} // RVA: 0x2E07C0

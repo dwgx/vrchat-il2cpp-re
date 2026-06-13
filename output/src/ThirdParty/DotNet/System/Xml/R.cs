@@ -15,6 +15,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class ReaderPositionInfo
     {
+        public System.Xml.IXmlLineInfo lineInfo; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void HasLineInfo(){} // RVA: 0x6A6E7D0

@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class PhysBoneChain
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -23,10 +25,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneChainT
     {
-        public object ByteBuffer;
-        public object ChainsLength;
-        public object BonesLength;
-        public object GrabL;
+        public ulong ByteBuffer; // 0x10
+        public ulong ChainsLength; // 0x18
+        public ushort BonesLength; // 0x20
+        public byte GrabL; // 0x22
 
         // ── Methods ──
         public void get_ChainIdA(){} // RVA: 0x2F8380
@@ -42,6 +44,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrab
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -58,10 +62,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrabT
     {
-        public object ByteBuffer;
-        public object BoneId;
-        public object Position;
-        public object Rotation;
+        public ulong ByteBuffer; // 0x10
+        public ulong BoneId; // 0x18
+        public byte Position; // 0x20
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T Rotation; // 0x28
 
         // ── Methods ──
         public void get_ChainIdA(){} // RVA: 0x2F8380
@@ -77,6 +81,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneRecorder
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -108,6 +114,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneRecorderT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneChainT> <Chains>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneTransformT> <Bones>k__BackingField; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT <GrabL>k__BackingField; // 0x20
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT <GrabR>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Chains(){} // RVA: 0x2F8380
         public void set_Chains(){} // RVA: 0x2DEE30
@@ -130,6 +141,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneTransform
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -145,9 +158,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneTransformT
     {
-        public object ByteBuffer;
-        public object ChainIdA;
-        public object ChainIdB;
+        public byte ByteBuffer; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.FloatHalfT ChainIdA; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.QuaternionTenBitT ChainIdB; // 0x20
 
         // ── Methods ──
         public void get_BoneId(){} // RVA: 0x3A75E0
@@ -161,6 +174,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerData
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -183,6 +198,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPair
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -226,6 +243,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPairT
     {
+        public string <Key>k__BackingField; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataTypeUnion <Value>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x2F8380
         public void set_Key(){} // RVA: 0x2DEE30
@@ -242,6 +262,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT> <Pairs>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Pairs(){} // RVA: 0x2F8380
         public void set_Pairs(){} // RVA: 0x2DEE30
@@ -250,8 +272,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataTypeUnion
     {
-        public object inputIsActive;
-        public object active;
+        public 0x6591CC80 inputIsActive; // 0x10
+        public object active; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0
@@ -315,6 +337,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateData
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -339,6 +363,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateDataT
     {
+        public System.Collections.Generic.List`1<uint> <ActiveStations>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_ActiveStations(){} // RVA: 0x2F8380
         public void set_ActiveStations(){} // RVA: 0x2DEE30
@@ -353,6 +379,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PuppetData
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -366,7 +394,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PuppetDataT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Channels(){} // RVA: 0x2F8380

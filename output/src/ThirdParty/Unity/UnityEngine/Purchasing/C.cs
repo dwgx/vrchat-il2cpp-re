@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ConfigurationBuilder
     {
+        public bool <useCatalogProvider>k__BackingField; // 0x10
+        public bool <logUnavailableProducts>k__BackingField; // 0x11
+        public System.Collections.Generic.HashSet`1<UnityEngine.Purchasing.ProductDefinition> <products>k__BackingField; // 0x18
+        public UnityEngine.Purchasing.PurchasingFactory <factory>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7213A40
         public void get_useCatalogProvider(){} // RVA: 0x3A75E0

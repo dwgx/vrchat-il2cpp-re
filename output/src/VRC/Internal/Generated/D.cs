@@ -8,6 +8,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÎÌÏÌÌÍÌÎÍÍÍÏÍÎÌÌÍÌÎÍÎ</summary>
     public class DisposeFinalizeStaticMethods_860E
     {
+        public UIntPtr ÎÎÍÏÎÏÌÎÏÍÍÏÌÍÎÍÎÍÏÏÌÍÌ; // 0x10
+        public int <ÎÌÏÍÎÌÎÏÌÎÎÍÏÎÌÏÍÍÍÍÏÍÎ>k__BackingField; // 0x18
+        public int <ÍÏÏÎÌÏÏÌÍÎÌÍÌÌÍÏÎÍÎÌÎÍÌ>k__BackingField; // 0x1C
+        public bool <ÌÏÍÏÍÌÌÎÎÍÍÏÎÏÎÌÎÎÍÌÌÍÌ>k__BackingField; // 0x20
+        public int ÍÌÎÎÍÌÏÏÍÎÍÍÏÌÍÏÍÍÌÏÏÎÍ; // 0x24
+
         // ── Methods ──
         public void set_Priority(){} // RVA: 0x6374E0
         public void get_Count(){} // RVA: 0x5BED50

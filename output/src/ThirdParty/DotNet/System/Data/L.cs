@@ -15,6 +15,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Listeners`1
     {
+        public System.Collections.Generic.List`1<T> _listeners;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26C40
         public void get_HasListeners(){} // RVA: 0xDBE0

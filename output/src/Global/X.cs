@@ -5,6 +5,8 @@
 
 public class X509CertificateEnumerator : .ctor
 {
+    public System.Collections.IEnumerator enumerator; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C3E250
     public void get_Current(){} // RVA: 0x6C3E300
@@ -16,6 +18,8 @@ public class X509CertificateEnumerator : .ctor
 
 public class X509CertificateEnumerator : .ctor
 {
+    public System.Collections.IEnumerator enumerator; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BCD210
     public void get_Current(){} // RVA: 0x5BCD2C0
@@ -27,9 +31,9 @@ public class X509CertificateEnumerator : .ctor
 
 public class X509CrlEntry
 {
-    public object Extensions;
-    public object Hash;
-    public object IssuerName;
+    public byte[] Extensions; // 0x10
+    public System.DateTime Hash; // 0x18
+    public Mono.Security.X509.X509ExtensionCollection IssuerName; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BC9F70
@@ -124,6 +128,8 @@ public class XSODictionaryEnumerator
 
 public class XSOEnumerator
 {
+    public System.Collections.Generic.List`1<XmlSchemaObjectEntry> entries; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69AC860
     public void get_Current(){} // RVA: 0x69AC8D0
@@ -179,11 +185,11 @@ public class XmlContext
 
 public class XmlEvent
 {
-    public object NameTable;
-    public object NamespaceManager;
-    public object DocTypeName;
-    public object PublicId;
-    public object SystemId;
+    public 0x65875550 NameTable; // 0x10
+    public string NamespaceManager; // 0x18
+    public string DocTypeName; // 0x20
+    public string PublicId; // 0x28
+    public object SystemId; // 0x30
 
     // ── Methods ──
     public void InitEvent(){} // RVA: 0x6A20A50 | overloaded x6
@@ -196,6 +202,8 @@ public class XmlEvent
 
 public class XmlNodeIdHashtable
 {
+    public XmlNodeIdentety _id; // 0x50
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x675E360
     public void get_Item(){} // RVA: 0x675E850 | overloaded x4
@@ -217,6 +225,12 @@ public class XmlSchemaObjectEntry
 
 public class Xnnpack
 {
+    public Google.Protobuf.MessageParser`1<Xnnpack> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public int _hasBits0; // 0x18
+    public int NumThreadsDefaultValue; // 0x8
+    public int numThreads_; // 0x1C
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5AE93E0
     public void get_Descriptor(){} // RVA: 0x5AE9440

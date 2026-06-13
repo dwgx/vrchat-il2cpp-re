@@ -292,6 +292,12 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class InputBindingInfo_t
     {
+        public byte rchDevicePathName0; // 0x10
+        public byte rchDevicePathName1; // 0x11
+        public byte rchDevicePathName2; // 0x12
+        public byte rchDevicePathName3; // 0x13
+        public byte rchDevicePathName4; // 0x14
+
         // ── Methods ──
         public void get_rchDevicePathName(){} // RVA: 0x7068510
         public void get_rchInputPathName(){} // RVA: 0x7068F80
@@ -306,7 +312,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class InputOriginInfo_t
     {
-        public object rchDevicePathName;
+        public ulong rchDevicePathName; // 0x10
 
         // ── Methods ──
         public void get_rchRenderModelComponentName(){} // RVA: 0x7067A70

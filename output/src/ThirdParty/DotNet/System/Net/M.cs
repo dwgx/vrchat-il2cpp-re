@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class MonoChunkParser
     {
+        public System.Net.WebHeaderCollection headers; // 0x10
+        public int chunkSize; // 0x18
+        public int chunkRead; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6B490
         public void Read(){} // RVA: 0x6B6B630
@@ -26,6 +30,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class MonoChunkStream
     {
+        public System.Net.WebHeaderCollection <Headers>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Decoder(){} // RVA: 0x358730
         public void .ctor(){} // RVA: 0x6B6C9B0

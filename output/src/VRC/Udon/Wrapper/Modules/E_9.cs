@@ -7,6 +7,8 @@ namespace VRC.Udon.Wrapper.Modules
 {
     public class ExternVRCUdonCommonUdonInputEventArgs
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CE52A0
         public void .ctor(){} // RVA: 0x7CE52E0
@@ -25,6 +27,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonUdonInputEventType
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CE6840
         public void .ctor(){} // RVA: 0x7CE6880

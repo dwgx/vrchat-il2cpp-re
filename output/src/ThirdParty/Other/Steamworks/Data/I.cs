@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class IPCFailure_t
     {
+        public byte FailureType; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C73C0
         public void .cctor(){} // RVA: 0x20C73D0
@@ -14,6 +16,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class IPCountry_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C98F0
         public void .cctor(){} // RVA: 0x20C9900
@@ -76,6 +80,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ItemInstalled_t
     {
+        public Steamworks.AppId AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D0BA0
         public void .cctor(){} // RVA: 0x20D0BB0

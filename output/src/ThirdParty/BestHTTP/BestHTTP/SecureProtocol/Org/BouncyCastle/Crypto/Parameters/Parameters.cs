@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 {
     public class AeadParameters : .ctor
     {
+        public byte[] associatedText; // 0x10
+        public byte[] nonce; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95850E0 | overloaded x2
         public void get_Key(){} // RVA: 0x30B0C0
@@ -23,7 +26,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHKeyGenerationParameters
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters Parameters; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9585E60
@@ -33,8 +36,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHKeyParameters
     {
-        public object P;
-        public object G;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters P; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier G; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9585FF0 | overloaded x2
@@ -46,6 +49,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHParameters
     {
+        public int DefaultMinimumLength;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger j; // 0x28
+        public int m; // 0x30
+        public int l; // 0x34
+
         // ── Methods ──
         public void GetDefaultMParam(){} // RVA: 0x9586290
         public void .ctor(){} // RVA: 0x9586540 | overloaded x6
@@ -62,7 +73,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHPrivateKeyParameters
     {
-        public object Y;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9586CE0 | overloaded x2
@@ -73,6 +84,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHPublicKeyParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger y; // 0x28
+
         // ── Methods ──
         public void Validate(){} // RVA: 0x9586F60
         public void .ctor(){} // RVA: 0x9587250 | overloaded x2
@@ -83,7 +96,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DHValidationParameters
     {
-        public object Parameters;
+        public byte[] Parameters; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9587410
@@ -115,7 +128,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaKeyGenerationParameters
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters Parameters; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9587920
@@ -124,7 +137,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaKeyParameters
     {
-        public object L;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters L; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BA57A0
@@ -135,6 +148,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaParameterGenerationParameters
     {
+        public int DigitalSignatureUsage;
+        public int KeyEstablishmentUsage;
+        public int l; // 0x10
+        public int n; // 0x14
+        public int certainty; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9587B40 | overloaded x2
         public void get_L(){} // RVA: 0x32A5C0
@@ -146,8 +165,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaParameters
     {
-        public object X;
-        public object 5e=;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger 5e=; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters validation; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9587D00 | overloaded x2
@@ -161,7 +182,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaPrivateKeyParameters
     {
-        public object Y;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95880A0
@@ -172,7 +193,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaPublicKeyParameters
     {
-        public object Counter;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Counter; // 0x20
 
         // ── Methods ──
         public void Validate(){} // RVA: 0x95883C0
@@ -184,6 +205,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class DsaValidationParameters
     {
+        public byte[] seed; // 0x10
+        public int counter; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9588950 | overloaded x2
         public void GetSeed(){} // RVA: 0x9588AB0
@@ -195,6 +219,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECDomainParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve curve; // 0x10
+        public byte[] seed; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint g; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger n; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger h; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95891B0 | overloaded x3
         public void get_Curve(){} // RVA: 0x2F8380
@@ -211,6 +241,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECGost3410Parameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet; // 0x58
+
         // ── Methods ──
         public void get_PublicKeyParamSet(){} // RVA: 0x358730
         public void get_DigestParamSet(){} // RVA: 0x37E0E0
@@ -220,8 +254,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECKeyGenerationParameters
     {
-        public object AlgorithmName;
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters AlgorithmName; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Parameters; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9589EF0 | overloaded x2
@@ -231,7 +265,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECKeyParameters
     {
-        public object D;
+        public string[] D;
+        public string algorithm; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958A180 | overloaded x2
@@ -248,6 +284,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECNamedDomainParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier name; // 0x40
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x35A740
         public void .ctor(){} // RVA: 0x958AFE0 | overloaded x4
@@ -255,7 +293,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECPrivateKeyParameters
     {
-        public object Q;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958B460 | overloaded x4
@@ -266,6 +304,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ECPublicKeyParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint q; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958B9A0 | overloaded x4
         public void get_Q(){} // RVA: 0x6374D0
@@ -327,7 +367,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ElGamalKeyGenerationParameters
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters Parameters; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958DC10
@@ -337,7 +377,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ElGamalKeyParameters
     {
-        public object P;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters P; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BA57A0
@@ -348,7 +388,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ElGamalParameters
     {
-        public object X;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
+        public int l; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958DF70 | overloaded x2
@@ -361,7 +403,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ElGamalPrivateKeyParameters
     {
-        public object Y;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958E2E0
@@ -372,7 +414,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ElGamalPublicKeyParameters
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Parameters; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958E5B0
@@ -383,8 +425,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410KeyGenerationParameters
     {
-        public object Parameters;
-        public object PublicKeyParamSet;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters Parameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PublicKeyParamSet; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958E7F0 | overloaded x2
@@ -395,8 +437,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410KeyParameters
     {
-        public object P;
-        public object Q;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters P; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Q; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958EBE0 | overloaded x2
@@ -407,7 +449,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410Parameters
     {
-        public object X;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger a; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958F0C0 | overloaded x2
@@ -421,7 +466,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410PrivateKeyParameters
     {
-        public object Y;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958F450 | overloaded x2
@@ -430,7 +475,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410PublicKeyParameters
     {
-        public object C;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger C; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958F680 | overloaded x2
@@ -439,7 +484,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Gost3410ValidationParameters
     {
-        public object SkipExtract;
+        public int SkipExtract; // 0x10
+        public int c; // 0x14
+        public long x0L; // 0x18
+        public long cL; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958F780 | overloaded x2
@@ -453,6 +501,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class HkdfParameters
     {
+        public byte[] ikm; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958FBC0 | overloaded x2
         public void SkipExtractParameters(){} // RVA: 0x958FBF0
@@ -465,7 +515,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class IesParameters
     {
-        public object CipherKeySize;
+        public byte[] CipherKeySize; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28914C0
@@ -476,6 +526,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class IesWithCipherParameters
     {
+        public int cipherKeySize; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958FEF0
         public void get_CipherKeySize(){} // RVA: 0x791DC0
@@ -490,10 +542,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class KdfCounterParameters
     {
-        public object Ki;
-        public object UseCounter;
-        public object R;
-        public object FixedInputData;
+        public byte[] Ki; // 0x10
+        public byte[] UseCounter; // 0x18
+        public byte[] R; // 0x20
+        public int FixedInputData; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x958FFE0 | overloaded x2
@@ -506,10 +558,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class KdfDoublePipelineIterationParameters
     {
-        public object Ki;
-        public object Iv;
-        public object UseCounter;
-        public object R;
+        public int Ki;
+        public byte[] Iv; // 0x10
+        public bool UseCounter; // 0x18
+        public int R; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9590630
@@ -524,6 +576,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class KdfFeedbackParameters
     {
+        public int UNUSED_R;
+        public byte[] ki; // 0x10
+        public byte[] iv; // 0x18
+        public bool useCounter; // 0x20
+        public int r; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9590C20
         public void CreateWithCounter(){} // RVA: 0x9591010
@@ -560,6 +618,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class MqvPrivateParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters staticPrivateKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters ephemeralPrivateKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ephemeralPublicKey; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95919D0 | overloaded x2
         public void get_StaticPrivateKey(){} // RVA: 0x2F8380
@@ -569,6 +631,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class MqvPublicParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters staticPublicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ephemeralPublicKey; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9591C50
         public void get_StaticPublicKey(){} // RVA: 0x2F8380
@@ -577,9 +642,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class NaccacheSternKeyGenerationParameters
     {
-        public object G;
-        public object LowerSigmaBound;
-        public object Modulus;
+        public int G; // 0x20
+        public int LowerSigmaBound; // 0x24
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9591DB0 | overloaded x2
@@ -590,9 +654,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class NaccacheSternKeyParameters
     {
-        public object PhiN;
-        public object SmallPrimes;
-        public object SmallPrimesList;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger PhiN; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger SmallPrimes; // 0x20
+        public int SmallPrimesList; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9591E90
@@ -603,7 +667,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class NaccacheSternPrivateKeyParameters
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Parameters; // 0x30
+        public System.Collections.IList smallPrimes; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9591F50 | overloaded x2
@@ -614,7 +679,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ParametersWithID
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Parameters; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95921D0 | overloaded x2
@@ -624,7 +689,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ParametersWithIV
     {
-        public object Random;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Random; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592330 | overloaded x2
@@ -634,7 +699,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ParametersWithRandom
     {
-        public object Parameters;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Parameters; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95926B0 | overloaded x2
@@ -645,7 +711,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ParametersWithSBox
     {
-        public object EffectiveKeyBits;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters EffectiveKeyBits; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
@@ -655,7 +721,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class ParametersWithSalt
     {
-        public object Parameters;
+        public byte[] Parameters; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592870 | overloaded x2
@@ -665,7 +731,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RC2Parameters
     {
-        public object Rounds;
+        public int Rounds; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592A60 | overloaded x4
@@ -674,7 +740,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RC5Parameters
     {
-        public object PublicKey;
+        public int PublicKey; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592A90
@@ -683,8 +749,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RsaBlindingParameters
     {
-        public object PublicExponent;
-        public object Certainty;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters PublicExponent; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Certainty; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592B20
@@ -694,8 +760,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RsaKeyGenerationParameters
     {
-        public object Modulus;
-        public object Exponent;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Modulus; // 0x20
+        public int Exponent; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9592C50
@@ -707,8 +773,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RsaKeyParameters
     {
-        public object PublicExponent;
-        public object P;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger PublicExponent;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger P; // 0x18
 
         // ── Methods ──
         public void Validate(){} // RVA: 0x9592DE0
@@ -722,6 +788,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class RsaPrivateCrtKeyParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger e; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger dP; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger dQ; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger qInv; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9593C90 | overloaded x2
         public void get_PublicExponent(){} // RVA: 0x30B130
@@ -737,6 +810,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class SM2KeyExchangePrivateParameters : .ctor
     {
+        public bool mInitiator; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters mStaticPrivateKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint mStaticPublicPoint; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters mEphemeralPrivateKey; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint mEphemeralPublicPoint; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9595BC0
         public void get_IsInitiator(){} // RVA: 0x3A75E0
@@ -748,6 +827,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class SM2KeyExchangePublicParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters mStaticPublicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters mEphemeralPublicKey; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9595E10
         public void get_StaticPublicKey(){} // RVA: 0x2F8380
@@ -768,8 +850,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class Srp6GroupParameters
     {
-        public object Key;
-        public object Tweak;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Key; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Tweak; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
@@ -779,6 +861,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 
     public class TweakableBlockCipherParameters
     {
+        public byte[] tweak; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter key; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9595F70
         public void get_Key(){} // RVA: 0x2E07C0

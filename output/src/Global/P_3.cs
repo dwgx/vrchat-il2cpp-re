@@ -12,6 +12,9 @@ public class PrintErrorsCallbackFunc
 
 public class PrintFile
 {
+    public string <fileId>k__BackingField; // 0x68
+    public string <image>k__BackingField; // 0x70
+
     // ── Methods ──
     public void get_fileId(){} // RVA: 0x358D50
     public void set_fileId(){} // RVA: 0x358D60
@@ -22,6 +25,9 @@ public class PrintFile
 
 public class PrivateKeyInfo
 {
+    public int _version; // 0x10
+    public string _algorithm; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BE0230 | overloaded x2
     public void get_Algorithm(){} // RVA: 0x2E07C0
@@ -84,6 +90,20 @@ public class ProfilerSynchronizeStats
 
 public class Promotion
 {
+    public string <type>k__BackingField; // 0x68
+    public string <imageUrl>k__BackingField; // 0x70
+    public int <position>k__BackingField; // 0x78
+    public int <displayDelay>k__BackingField; // 0x7C
+    public int <impressions>k__BackingField; // 0x80
+    public int <hoursBetweenImpressions>k__BackingField; // 0x84
+    public string <fallback>k__BackingField; // 0x88
+    public int <fallbackPosition>k__BackingField; // 0x90
+    public string <popupId>k__BackingField; // 0x98
+    public VRC.Core.ApiBindingCommandReference <onPressed>k__BackingField; // 0xA0
+    public VRC.Core.ApiBindingCommandReference <popupCommand>k__BackingField; // 0xA8
+    public System.Collections.Generic.List`1<ApiPopupBuilderRecipe> <recipes>k__BackingField; // 0xB0
+    public ApiPromotionNotification <notification>k__BackingField; // 0xB8
+
     // ── Methods ──
     public void get_type(){} // RVA: 0x358D50
     public void set_type(){} // RVA: 0x358D60
@@ -131,6 +151,9 @@ public class PropDelegate
 
 public class PropertyDescriptorEnumerator
 {
+    public System.ComponentModel.PropertyDescriptorCollection _owner; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F93A00
     public void get_Current(){} // RVA: 0x6C77850
@@ -175,6 +198,8 @@ public class PseudoStateData
 
 public class PuppetEvent
 {
+    public string switchToBehaviour; // 0x10
+
     // ── Methods ──
     public void get_switchBehaviour(){} // RVA: 0x33BDB0
     public void Trigger(){} // RVA: 0x33BEA0

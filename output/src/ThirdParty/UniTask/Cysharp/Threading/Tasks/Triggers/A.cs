@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
-// Classes: 80
-// Methods: 716
+// Classes: 97
+// Methods: 835
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 {
@@ -185,6 +185,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncDestroyTrigger
     {
+        public bool awakeCalled; // 0x20
+
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x6D4B970
         public void Awake(){} // RVA: 0x1282B00
@@ -618,6 +620,210 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1660
+        public void AddHandler(){} // RVA: 0x52F1690
+        public void RemoveHandler(){} // RVA: 0x52F17B0
+        public void RaiseEvent(){} // RVA: 0x52F18D0
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1B80
+        public void AddHandler(){} // RVA: 0x52F1BB0
+        public void RemoveHandler(){} // RVA: 0x52F1CD0
+        public void RaiseEvent(){} // RVA: 0x52F1DF0
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F18F0
+        public void AddHandler(){} // RVA: 0x52F1920
+        public void RemoveHandler(){} // RVA: 0x52F1A40
+        public void RaiseEvent(){} // RVA: 0x52F1B60
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1020
+        public void AddHandler(){} // RVA: 0x52F1050
+        public void RemoveHandler(){} // RVA: 0x52F1170
+        public void RaiseEvent(){} // RVA: 0x52F1290
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F23F0
+        public void AddHandler(){} // RVA: 0x52F2420
+        public void RemoveHandler(){} // RVA: 0x52F2540
+        public void RaiseEvent(){} // RVA: 0x52F2660
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F20A0
+        public void AddHandler(){} // RVA: 0x52F20D0
+        public void RemoveHandler(){} // RVA: 0x52F21F0
+        public void RaiseEvent(){} // RVA: 0x52F2310
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F13C0
+        public void AddHandler(){} // RVA: 0x52F13F0
+        public void RemoveHandler(){} // RVA: 0x52F1510
+        public void RaiseEvent(){} // RVA: 0x52F1630
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AsyncTriggerBase`1
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1199240
+        public void OnDestroy(){} // RVA: 0x52F1E10
+        public void AddHandler(){} // RVA: 0x52F1E40
+        public void RemoveHandler(){} // RVA: 0x52F1F60
+        public void RaiseEvent(){} // RVA: 0x52F2080
+        public void GetAsyncEnumerator(){} // RVA: 0x52F12C0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
     public class AsyncTriggerEnter2DTrigger
     {
         // ── Methods ──
@@ -742,6 +948,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncTriggerHandler`1
     {
+        public System.Action`1<object> cancellationCallback;
+        public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> trigger;
+        public System.Threading.CancellationToken cancellationToken;
+
         // ── Methods ──
         public void Cysharp.Threading.Tasks.Triggers.IAsyncOneShotTrigger.OneShotAsync(){} // RVA: 0xC770
         public void get_CancellationToken(){} // RVA: 0x283FA0

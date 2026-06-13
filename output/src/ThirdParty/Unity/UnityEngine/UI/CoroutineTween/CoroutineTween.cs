@@ -1,12 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UI.CoroutineTween
-// Classes: 4
-// Methods: 37
+// Classes: 6
+// Methods: 47
 
 namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 {
     public class ColorTween
     {
+        public ColorTweenCallback m_Target; // 0x10
+        public UnityEngine.Color m_StartColor; // 0x18
+        public UnityEngine.Color m_TargetColor; // 0x28
+        public 0x6596B6F8 m_TweenMode; // 0x38
+        public float m_Duration; // 0x3C
+
         // ── Methods ──
         public void get_startColor(){} // RVA: 0x1F6F090
         public void set_startColor(){} // RVA: 0x1F74E00
@@ -27,6 +33,11 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class FloatTween
     {
+        public FloatTweenCallback m_Target; // 0x10
+        public float m_StartValue; // 0x18
+        public float m_TargetValue; // 0x1C
+        public float m_Duration; // 0x20
+
         // ── Methods ──
         public void get_startValue(){} // RVA: 0x1F78360
         public void set_startValue(){} // RVA: 0x1F78340
@@ -60,6 +71,26 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
         public void StartTween(){} // RVA: 0x283FA0
         public void StopTween(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class TweenRunner`1
+    {
+        // ── Methods ──
+        public void Start(){} // RVA: 0x4442390
+        public void Init(){} // RVA: 0x2DEE30
+        public void StartTween(){} // RVA: 0x4442480
+        public void StopTween(){} // RVA: 0x4441E20
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class TweenRunner`1
+    {
+        // ── Methods ──
+        public void Start(){} // RVA: 0x4441A00
+        public void Init(){} // RVA: 0x2DEE30
+        public void StartTween(){} // RVA: 0x44427D0
+        public void StopTween(){} // RVA: 0x4441E20
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

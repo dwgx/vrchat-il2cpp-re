@@ -642,6 +642,12 @@ public class OVRP_1_9_0
 
 public class OVRPassthroughLayer
 {
+    public 0x658C1898 projectionSurfaceType; // 0x20
+    public 0x658C1688 overlayType; // 0x24
+    public int compositionDepth; // 0x28
+    public bool hidden; // 0x2C
+    public bool overridePerLayerColorScaleAndOffset; // 0x2D
+
     // ── Methods ──
     public void AddSurfaceGeometry(){} // RVA: 0x6146CB0
     public void RemoveSurfaceGeometry(){} // RVA: 0x6146F80
@@ -711,6 +717,8 @@ public class OVRPlatformMenu
 
 public class OVRPlayerController
 {
+    public float Acceleration; // 0x20
+
     // ── Methods ──
     public void add_TransformUpdated(){} // RVA: 0x61B43A0
     public void remove_TransformUpdated(){} // RVA: 0x61B44A0
@@ -744,6 +752,40 @@ public class OVRPlayerController
 
 public class OVRPlugin
 {
+    public bool isSupportedPlatform;
+    public System.Version wrapperVersion;
+    public System.Version _version; // 0x8
+    public System.Version _nativeSDKVersion; // 0x10
+    public int MAX_CPU_CORES; // 0x18
+    public int OverlayShapeFlagShift;
+    public int AppPerfFrameStatsMaxCount;
+    public int EventDataBufferSize;
+    public int RENDER_MODEL_NULL_KEY;
+    public int SpaceFilterInfoIdsMaxSize;
+    public int SpaceFilterInfoComponentsMaxSize;
+    public int SpatialEntityMaxQueryResultsPerEvent;
+    public System.Nullable`1<0x658C1FD0> _nativeXrApi; // 0x1C
+    public GUID _nativeAudioOutGuid; // 0x28
+    public System.Guid _cachedAudioOutGuid; // 0x30
+    public string _cachedAudioOutString; // 0x40
+    public GUID _nativeAudioInGuid; // 0x48
+    public System.Guid _cachedAudioInGuid; // 0x50
+    public string _cachedAudioInString; // 0x60
+    public bool perfStatWarningPrinted; // 0x68
+    public bool resetPerfStatWarningPrinted; // 0x69
+    public UnityEngine.Texture2D cachedCameraFrameTexture; // 0x70
+    public UnityEngine.Texture2D cachedCameraDepthTexture; // 0x78
+    public UnityEngine.Texture2D cachedCameraDepthConfidenceTexture; // 0x80
+    public OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable; // 0x88
+    public float[] _cachedSystemDisplayFrequenciesAvailable; // 0x90
+    public HandStateInternal cachedHandState; // 0x98
+    public Skeleton cachedSkeleton; // 0x298
+    public Skeleton2Internal cachedSkeleton2; // 0x2B8
+    public FaceStateInternal cachedFaceState; // 0xF00
+    public EyeGazesStateInternal cachedEyeGazesState; // 0x1018
+    public string pluginName;
+    public System.Version _versionZero; // 0x1068
+
     // ── Methods ──
     public void get_version(){} // RVA: 0x614C580
     public void get_nativeSDKVersion(){} // RVA: 0x614CDC0
@@ -1011,6 +1053,8 @@ public class OVRPointerVisualizer
 
 public class OVRPose
 {
+    public UnityEngine.Vector3 position; // 0x10
+
     // ── Methods ──
     public void get_identity(){} // RVA: 0x6109830
     public void Equals(){} // RVA: 0x61098D0
@@ -1049,6 +1093,10 @@ public class OVRProgressIndicator
 
 public class OVRRaycaster
 {
+    public UnityEngine.GameObject pointer; // 0x48
+    public int sortOrder; // 0x50
+    public UnityEngine.Canvas m_Canvas; // 0x58
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x61B8B10
     public void get_canvas(){} // RVA: 0x61B8CE0
@@ -1110,6 +1158,9 @@ public class OVRSandwichComposition
 
 public class OVRSceneAnchor
 {
+    public OVRSpace <Space>k__BackingField; // 0x20
+    public System.Guid <Uuid>k__BackingField; // 0x28
+
     // ── Methods ──
     public void get_Space(){} // RVA: 0x30B0C0
     public void set_Space(){} // RVA: 0xAE83A0
@@ -1128,6 +1179,8 @@ public class OVRSceneAnchor
 
 public class OVRSceneManager
 {
+    public OVRSceneAnchor PlanePrefab; // 0x20
+
     // ── Methods ──
     public void get_Verbose(){} // RVA: 0x6187D30
     public void Awake(){} // RVA: 0x6187D80
@@ -1155,6 +1208,8 @@ public class OVRSceneManager
 
 public class OVRSceneModelLoader
 {
+    public OVRSceneManager <SceneManager>k__BackingField; // 0x20
+
     // ── Methods ──
     public void get_SceneManager(){} // RVA: 0x30B0C0
     public void set_SceneManager(){} // RVA: 0x30B0D0
@@ -1170,6 +1225,9 @@ public class OVRSceneModelLoader
 
 public class OVRScenePlane
 {
+    public float <Width>k__BackingField; // 0x20
+    public float <Height>k__BackingField; // 0x24
+
     // ── Methods ──
     public void get_Width(){} // RVA: 0x306080
     public void set_Width(){} // RVA: 0xFEC7A0
@@ -1213,6 +1271,10 @@ public class OVRSceneSampleController
 
 public class OVRSceneVolume
 {
+    public float <Width>k__BackingField; // 0x20
+    public float <Height>k__BackingField; // 0x24
+    public float <Depth>k__BackingField; // 0x28
+
     // ── Methods ──
     public void get_Width(){} // RVA: 0x306080
     public void set_Width(){} // RVA: 0xFEC7A0
@@ -1228,6 +1290,9 @@ public class OVRSceneVolume
 
 public class OVRScreenFade
 {
+    public OVRScreenFade <instance>k__BackingField;
+    public float fadeTime; // 0x20
+
     // ── Methods ──
     public void get_instance(){} // RVA: 0x61BDBA0
     public void set_instance(){} // RVA: 0x61BDBE0
@@ -1247,6 +1312,8 @@ public class OVRScreenFade
 
 public class OVRSemanticClassification
 {
+    public System.Collections.Generic.List`1<string> _labels; // 0x20
+
     // ── Methods ──
     public void get_Labels(){} // RVA: 0x30B0C0
     public void Contains(){} // RVA: 0x618F8D0
@@ -1257,6 +1324,14 @@ public class OVRSemanticClassification
 
 public class OVRSkeleton
 {
+    public 0x658C9090 _skeletonType; // 0x20
+    public IOVRSkeletonDataProvider _dataProvider; // 0x28
+    public bool _updateRootPose; // 0x30
+    public bool _updateRootScale; // 0x31
+    public bool _enablePhysicsCapsules; // 0x32
+    public bool _applyBoneTranslations; // 0x33
+    public UnityEngine.GameObject _bonesGO; // 0x38
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x86DB40
     public void set_IsInitialized(){} // RVA: 0x86DB50
@@ -1293,6 +1368,11 @@ public class OVRSkeleton
 
 public class OVRSkeletonRenderer
 {
+    public IOVRSkeletonRendererDataProvider _dataProvider; // 0x20
+    public 0x658C92F8 _confidenceBehavior; // 0x28
+    public 0x658C9350 _systemGestureBehavior; // 0x2C
+    public bool _renderPhysicsCapsules; // 0x30
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x345520
     public void set_IsInitialized(){} // RVA: 0x345530
@@ -1314,6 +1394,8 @@ public class OVRSkeletonRenderer
 
 public class OVRSpace
 {
+    public ulong <Handle>k__BackingField; // 0x10
+
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x1AD4690
     public void TryGetUuid(){} // RVA: 0x618FD10
@@ -1333,6 +1415,12 @@ public class OVRSpaceQuery
 
 public class OVRSpatialAnchor
 {
+    public bool _startCalled; // 0x20
+    public ulong _requestId; // 0x28
+    public OVRSpace <Space>k__BackingField; // 0x30
+    public System.Guid <Uuid>k__BackingField; // 0x38
+    public System.Collections.Generic.Dictionary`2<System.Guid,OVRSpatialAnchor> SpatialAnchors;
+
     // ── Methods ──
     public void get_Space(){} // RVA: 0x6374D0
     public void set_Space(){} // RVA: 0x1F74DF0

@@ -714,6 +714,8 @@ public class _Skip
 
 public class _SkipLast
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -727,6 +729,8 @@ public class _SkipLast
 
 public class _SkipUntil
 {
+    public System.Action`1<object> CancelDelegate1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -742,6 +746,8 @@ public class _SkipUntil
 
 public class _SkipUntilCanceled
 {
+    public System.Action`1<object> CancelDelegate1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -902,6 +908,8 @@ public class _Sync
 
 public class _Take
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0

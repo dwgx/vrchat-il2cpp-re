@@ -24,6 +24,10 @@ namespace VRC.Core.Networking.Tools
 
     public class BunchCollection
     {
+        public System.Collections.Generic.Dictionary`2<int,byte[]> _bunches; // 0x10
+        public int _count; // 0x18
+        public System.Nullable`1<uint> _hash; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7640610 | overloaded x2
         public void AddBunch(){} // RVA: 0x7640930
@@ -36,6 +40,11 @@ namespace VRC.Core.Networking.Tools
 
     public class ByteManipulation
     {
+        public byte[] _oneByteArray; // 0xFFFFFFFF
+        public byte[] _twoByteArray; // 0xFFFFFFFF
+        public byte[] _fourByteArray; // 0xFFFFFFFF
+        public byte[] _eightByteArray; // 0xFFFFFFFF
+
         // ── Methods ──
         public void get_OneByteArray(){} // RVA: 0x7641430
         public void get_TwoByteArray(){} // RVA: 0x7641570

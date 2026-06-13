@@ -17,6 +17,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BeforeRenderOrderAttribute
     {
+        public int <order>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_order(){} // RVA: 0x32A5C0
         public void set_order(){} // RVA: 0x2E00C0
@@ -52,8 +54,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BlendShape
     {
-        public object weight0;
-        public object weight1;
+        public uint weight0; // 0x10
+        public uint weight1; // 0x14
 
         // ── Methods ──
         public void get_firstVertex(){} // RVA: 0x67FD0D0
@@ -62,8 +64,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BlendShapeBufferRange
     {
-        public object mesh;
-        public object subMeshIndex;
+        public uint mesh; // 0x10
+        public uint subMeshIndex; // 0x14
 
         // ── Methods ──
         public void set_startIndex(){} // RVA: 0x833580
@@ -72,6 +74,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoneWeight
     {
+        public float m_Weight0; // 0x10
+        public float m_Weight1; // 0x14
+        public float m_Weight2; // 0x18
+        public float m_Weight3; // 0x1C
+        public int m_BoneIndex0; // 0x20
+        public int m_BoneIndex1; // 0x24
+        public int m_BoneIndex2; // 0x28
+        public int m_BoneIndex3; // 0x2C
+
         // ── Methods ──
         public void get_weight0(){} // RVA: 0x300D20
         public void set_weight0(){} // RVA: 0x1F78330
@@ -108,6 +119,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Bounds
     {
+        public UnityEngine.Vector3 m_Center; // 0x10
+        public UnityEngine.Vector3 m_Extents; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x70CB480
         public void GetHashCode(){} // RVA: 0x3477800
@@ -142,6 +156,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundsInt
     {
+        public UnityEngine.Vector3Int m_Position; // 0x10
+        public UnityEngine.Vector3Int m_Size; // 0x1C
+
         // ── Methods ──
         public void get_min(){} // RVA: 0x70CC150
         public void get_xMin(){} // RVA: 0x70CC1B0

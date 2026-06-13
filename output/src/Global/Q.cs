@@ -50,6 +50,8 @@ public class Quatf
 
 public class Queue
 {
+    public int m_DurationMilliseconds; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void get_Duration(){} // RVA: 0x32A5C0
@@ -62,6 +64,8 @@ public class QueueDebugView
 
 public class QueueEnumerator : .ctor
 {
+    public System.Collections.Queue _q; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5DFD8F0
     public void Clone(){} // RVA: 0x5D7B480

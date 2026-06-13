@@ -18,6 +18,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1EncodableVector
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements;
+        public int DefaultCapacity;
+
         // ── Methods ──
         public void FromEnumerable(){} // RVA: 0x96C7B50
         public void .ctor(){} // RVA: 0x96C7FE0 | overloaded x3
@@ -43,6 +46,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1Generator
     {
+        public System.IO.Stream _out; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Out(){} // RVA: 0x2F8380
@@ -90,6 +95,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1OctetString
     {
+        public byte[] str; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96CAAD0 | overloaded x2
         public void .ctor(){} // RVA: 0x96CAD50 | overloaded x2
@@ -122,6 +129,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1Sequence
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable[] elements; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96CB7B0 | overloaded x2
         public void .ctor(){} // RVA: 0x96CBE00 | overloaded x4
@@ -143,6 +152,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1Set
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable[] elements; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96CC820 | overloaded x2
         public void .ctor(){} // RVA: 0x96CD0E0 | overloaded x4
@@ -177,6 +188,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class Asn1TaggedObject
     {
+        public int tagNo; // 0x10
+
         // ── Methods ──
         public void IsConstructed(){} // RVA: 0x96CEE80
         public void GetInstance(){} // RVA: 0x96CF070 | overloaded x2
@@ -336,6 +349,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class BerTaggedObjectParser
     {
+        public bool _constructed; // 0x10
+        public int _tagNumber; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96D3870 | overloaded x2
         public void get_IsConstructed(){} // RVA: 0x3A75E0
@@ -354,6 +370,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DefiniteLengthInputStream
     {
+        public byte[] EmptyBytes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96D40A0
         public void get_Remaining(){} // RVA: 0x37E0A0
@@ -366,6 +384,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerApplicationSpecific
     {
+        public bool isConstructed; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96D4AF0 | overloaded x5
         public void GetLengthOfHeader(){} // RVA: 0x96D4CB0
@@ -381,6 +401,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerBitString
     {
+        public char[] table;
+        public byte[] mData; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96D55A0 | overloaded x2
         public void .ctor(){} // RVA: 0x96D5A80 | overloaded x4
@@ -408,6 +431,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerBoolean
     {
+        public byte value; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96D6FA0 | overloaded x3
         public void .ctor(){} // RVA: 0x96D7190 | overloaded x2
@@ -422,6 +447,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerEnumerated
     {
+        public byte[] bytes; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96D7800 | overloaded x2
         public void .ctor(){} // RVA: 0x96D7AA0 | overloaded x3
@@ -435,6 +462,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerExternal
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier directReference; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger indirectReference; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object dataValueDescriptor; // 0x20
+        public int encoding; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object externalContent; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96D88A0 | overloaded x3
         public void Encode(){} // RVA: 0x96D8A40
@@ -475,6 +508,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerGeneralizedTime
     {
+        public string time; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96D9260 | overloaded x2
         public void .ctor(){} // RVA: 0x96D95B0 | overloaded x3
@@ -527,6 +562,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerInteger
     {
+        public string AllowUnsafeProperty;
+        public byte[] bytes; // 0x10
+
         // ── Methods ──
         public void AllowUnsafe(){} // RVA: 0x96DBE00
         public void GetInstance(){} // RVA: 0x96DBFD0 | overloaded x2
@@ -563,6 +601,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerObjectIdentifier
     {
+        public string identifier; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96DD570 | overloaded x2
         public void .ctor(){} // RVA: 0x96DDC20 | overloaded x3
@@ -714,6 +754,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class DerUtcTime
     {
+        public string time; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x970D720 | overloaded x2
         public void .ctor(){} // RVA: 0x96D95B0 | overloaded x3
@@ -807,6 +849,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class LazyDerSequence
     {
+        public byte[] encoded; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x970FA80
         public void Parse(){} // RVA: 0x970FB30
@@ -818,6 +862,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class LazyDerSet
     {
+        public byte[] encoded; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97101F0
         public void Parse(){} // RVA: 0x97102A0
@@ -837,7 +883,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1
 
     public class OidTokenizer
     {
-        public object P;
+        public string P; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30

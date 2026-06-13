@@ -78,6 +78,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_Keyboard_t
     {
+        public byte cNewInput0; // 0x10
+
         // ── Methods ──
         public void get_cNewInput(){} // RVA: 0x70678A0
     }

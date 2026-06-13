@@ -13,6 +13,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput
 
     public class XInputController
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <menu>k__BackingField; // 0x210
+        public UnityEngine.InputSystem.Controls.ButtonControl <view>k__BackingField; // 0x218
+        public bool m_HaveParsedCapabilities; // 0x220
+        public 0x6586B368 m_SubType; // 0x224
+
         // ── Methods ──
         public void get_menu(){} // RVA: 0xD9F7C0
         public void set_menu(){} // RVA: 0xD9BA80

@@ -57,6 +57,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÎÍÎÎÍÌÍÌÌÌÍÌÍÏÎÏÏÍÏÏÍÎÌ</summary>
     public class AudioFilterRead_603B
     {
+        public float ÍÏÌÌÌÍÏÌÎÍÍÎÍÎÍÌÎÍÎÏÌÌÌ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xFE9DC0
         public void Initialize(){} // RVA: 0xFE99B0
@@ -74,6 +76,9 @@ namespace VRC.Audio
     /// <summary>Originally: ÏÏÎÍÎÏÎÏÎÎÍÌÌÌÍÎÌÏÍÏÍÌÌ</summary>
     public class AudioFilterRead_74D7
     {
+        public float <Gain>k__BackingField; // 0x20
+        public float <ÍÍÍÌÎÌÎÍÌÌÏÎÍÎÌÍÎÏÌÏÍÎÏ>k__BackingField; // 0x24
+
         // ── Methods ──
         public void ReadApplicationState(){} // RVA: 0x306080
         public void set_Sigma(){} // RVA: 0x44AF60
@@ -95,6 +100,9 @@ namespace VRC.Audio
     /// <summary>Originally: ÎÍÌÏÏÍÌÎÍÎÎÏÎÌÏÌÌÍÏÏÍÏÏ</summary>
     public class AudioFilterRead_DB62
     {
+        public int ÎÌÏÎÍÌÎÌÏÌÍÌÏÍÎÎÎÌÏÌÍÌÎ; // 0x20
+        public bool ÏÏÏÌÎÎÎÎÎÌÎÏÍÌÏÎÌÏÌÎÎÏÌ; // 0x24
+
         // ── Methods ──
         public void OpenUrl(){} // RVA: 0x4626D0
         public void LateUpdate(){} // RVA: 0x4628B0
@@ -124,6 +132,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÏÌÌÏÏÎÍÏÍÌÎÌÏÍÏÎÌÌÎÌÎÎÎ</summary>
     public class AudioGetDeviceNamesOpenDevice_173D_DEA7
     {
+        public ÎÍÎÌÏÎÎÍÏÏÍÌÌÍÌÍÍÎÏÏÍÎÎ ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ; // 0x10
+
         // ── Methods ──
         public void Close(){} // RVA: 0x596C50
         public void add_OnMidiVoiceMessage(){} // RVA: 0x596CE0
@@ -226,6 +236,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÏÌÏÎÌÎÏÍÏÏÏÎÌÎÏÎÌÏÏÍÌÍÌ</summary>
     public class AudioPerformClipping_A8DE
     {
+        public System.Action ÌÍÏÏÌÍÍÏÏÍÏÌÍÏÎÏÏÎÏÎÌÎÏ;
+
         // ── Methods ──
         public void IsTrigger(){} // RVA: 0x5A6180
         public void PerformClipping(){} // RVA: 0x8EE11A0
@@ -344,6 +356,10 @@ namespace VRC.Audio
     /// <summary>Originally: ÌÌÏÏÏÎÌÌÌÍÍÎÍÌÏÏÎÍÏÏÌÎÏ</summary>
     public class ONSPAmbisonicsNativeRelated_75ED
     {
+        public float ÍÌÌÏÏÌÌÎÌÌÌÍÌÎÍÎÎÎÍÎÎÎÎ; // 0x20
+        public float ÌÎÎÏÏÎÎÏÍÌÌÎÎÎÏÏÎÎÎÏÏÎÎ; // 0x24
+        public UnityEngine.Renderer ÌÍÍÏÏÎÌÎÍÎÏÏÏÏÌÍÌÍÍÍÎÌÌ; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA2FDF0
         public void Initialize(){} // RVA: 0x1824D50
@@ -560,6 +576,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÏÎÌÍÎÌÍÏÎÌÌÌÏÎÌÏÎÌÏÎÎÍÎ</summary>
     public class ONSPAmbisonicsNativeSiblingSibSibling_3150
     {
+        public bool ÏÎÏÏÎÍÏÍÏÍÏÍÌÌÏÌÍÎÍÏÌÏÏ; // 0x138
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x91B9160
         public void InitializeAmbisonics(){} // RVA: 0x91B93E0
@@ -976,6 +994,9 @@ namespace VRC.Audio
     /// <summary>Originally: ÌÏÏÌÍÌÍÌÍÌÌÌÏÌÌÌÎÌÏÍÍÌÍ</summary>
     public class ONSPAmbisonicsNativeSiblingSibling_8A5B
     {
+        public int ÎÍÍÍÌÏÎÏÏÏÎÍÏÍÏÍÍÏÍÍÌÌÎ;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _username; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x92003A0
         public void OnEnable(){} // RVA: 0x9201120
@@ -1228,6 +1249,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÌÏÌÏÌÍÌÏÎÎÏÌÍÌÍÏÎÌÍÎÌÏÌ</summary>
     public class ONSPAmbisonicsNativeSibling_B4E4
     {
+        public ÎÏÏÏÍÌÎÍÍÍÎÏÍÏÌÎÍÍÎÌÍÏÌ ÎÎÍÌÎÏÍÌÍÌÎÏÍÏÌÎÌÏÎÍÍÌÏ; // 0x68
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x92C09E0
         public void OnEnable2B4F45D701AE(){} // RVA: 0x92C11E0
@@ -1274,6 +1297,10 @@ namespace VRC.Audio
     /// <summary>Originally: ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ</summary>
     public class ONSPSettingsSiblingSibling_0133
     {
+        public ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public UnityEngine.GameObject _portalPrefab; // 0x20
+        public UnityEngine.GameObject _placeholderPrefab; // 0x28
+
         // ── Methods ──
         public void .ctor_23927B099279(){} // RVA: 0xAD70B0
         public void FindComponentByGameObject(){} // RVA: 0x30B0C0
@@ -1291,6 +1318,8 @@ namespace VRC.Audio
     /// <summary>Originally: ÍÍÎÏÏÌÍÍÏÍÍÏÍÏÎÏÎÎÍÎÎÏÎ</summary>
     public class ONSPSettingsSibling_A458
     {
+        public ÍÍÎÏÏÌÍÍÏÍÍÏÍÏÎÏÎÎÍÎÎÏÎ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+
         // ── Methods ──
         public void .ctor_23927B099279(){} // RVA: 0x8AD0840
         public void set_Instance(){} // RVA: 0x8AD0C30
@@ -1325,6 +1354,13 @@ namespace VRC.Audio
     /// <summary>Originally: ÎÏÌÏÏÏÍÏÌÌÍÏÎÍÏÌÌÍÎÍÎÍÎ</summary>
     public class SpatialAudioHandler_12D9
     {
+        public ÍÏÍÌÎÏÍÏÎÏÍÌÍÏÏÍÍÏÏÏÍÌÍ ÍÌÌÍÏÎÎÎÌÏÏÎÏÍÏÎÏÌÎÎÍÍÏ; // 0x10
+        public bool <ÌÌÌÌÏÍÌÎÎÍÎÌÏÎÌÏÎÍÍÍÏÍÎ>k__BackingField; // 0x18
+        public UnityEngine.Camera <ÎÌÌÌÍÍÍÎÏÎÏÍÎÏÌÌÎÌÎÎÌÌÍ>k__BackingField; // 0x20
+        public UnityEngine.Camera <ÍÌÎÎÏÌÏÍÌÌÍÏÏÌÌÎÏÏÎÎÌÎÌ>k__BackingField; // 0x28
+        public UnityEngine.Camera <ÎÌÌÌÎÏÌÎÍÌÎÌÍÏÏÍÎÏÏÎÌÎÎ>k__BackingField; // 0x30
+        public UnityEngine.Camera <ÏÍÏÍÍÎÌÌÌÌÎÎÎÏÌÌÍÌÎÌÏÏÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1900A10
         public void Initialize(){} // RVA: 0x1900BC0
@@ -1359,6 +1395,9 @@ namespace VRC.Audio
     /// <summary>Originally: ÌÎÎÏÍÌÏÎÏÏÏÌÍÍÌÌÍÎÎÌÎÏÏ</summary>
     public class TransformAudioHandler_7997
     {
+        public bool useDebugInputs; // 0x28
+        public UnityEngine.Transform ÎÎÍÌÌÌÏÏÎÌÎÍÍÌÎÍÌÍÏÎÎÌÏ; // 0x30
+
         // ── Methods ──
         public void OnDrawGizmos(){} // RVA: 0xB57F30
         public void ProcessPhysics(){} // RVA: 0xB5B400

@@ -37,6 +37,15 @@ namespace ThirdParty.DotNet.System.Net
 
     public class IPAddress
     {
+        public System.Net.IPAddress Any;
+        public System.Net.IPAddress Loopback; // 0x8
+        public System.Net.IPAddress Broadcast; // 0x10
+        public System.Net.IPAddress None; // 0x18
+        public long LoopbackMask;
+        public System.Net.IPAddress IPv6Any; // 0x20
+        public System.Net.IPAddress IPv6Loopback; // 0x28
+        public System.Net.IPAddress IPv6None; // 0x30
+
         // ── Methods ──
         public void get_IsIPv4(){} // RVA: 0x2ED2970
         public void get_IsIPv6(){} // RVA: 0x1D3B060
@@ -85,6 +94,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class IPEndPoint
     {
+        public int MinPort;
+        public int MaxPort;
+        public System.Net.IPAddress _address; // 0x10
+
         // ── Methods ──
         public void get_AddressFamily(){} // RVA: 0x6CD0120
         public void .ctor(){} // RVA: 0x6CD0150
@@ -100,6 +113,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class IPHostEntry
     {
+        public string hostName; // 0x10
+        public string[] aliases; // 0x18
+        public System.Net.IPAddress[] addressList; // 0x20
+
         // ── Methods ──
         public void get_HostName(){} // RVA: 0x2F8380
         public void set_HostName(){} // RVA: 0x2DEE30

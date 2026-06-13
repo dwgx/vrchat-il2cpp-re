@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 {
     public class LogEntry`1
     {
+        public 0x659DBCC8 <LogLevel>k__BackingField;
+        public string <Category>k__BackingField;
+        public Microsoft.Extensions.Logging.EventId <EventId>k__BackingField;
+        public T <State>k__BackingField;
+        public System.Exception <Exception>k__BackingField;
+        public System.Func`3<T,System.Exception,string> <Formatter>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0
         public void get_LogLevel(){} // RVA: 0xD840
@@ -19,6 +26,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLogger : Instance
     {
+        public Microsoft.Extensions.Logging.Abstractions.NullLogger <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5BADF40
         public void .ctor(){} // RVA: 0x2DD310
@@ -40,6 +49,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLoggerProvider : get_Instance
     {
+        public Microsoft.Extensions.Logging.Abstractions.NullLoggerProvider <Instance>k__BackingField;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5BAE180
         public void .ctor(){} // RVA: 0x2DD310

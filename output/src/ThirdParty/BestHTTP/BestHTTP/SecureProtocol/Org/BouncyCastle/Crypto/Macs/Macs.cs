@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 {
     public class CMac
     {
+        public byte CONSTANT_128;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C4AC0 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x95C4EB0
@@ -22,6 +24,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class CbcBlockCipherMac
     {
+        public byte[] buf; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C2FD0 | overloaded x4
         public void get_AlgorithmName(){} // RVA: 0x95C3210
@@ -35,6 +39,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class CfbBlockCipherMac
     {
+        public byte[] mac; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C4100 | overloaded x4
         public void get_AlgorithmName(){} // RVA: 0x95C43A0
@@ -48,6 +54,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class Dstu7564Mac
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Digests.Dstu7564Digest engine; // 0x10
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x95C5850
         public void .ctor(){} // RVA: 0x95C5890
@@ -63,6 +71,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class Dstu7624Mac
     {
+        public int macSize; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C63E0
         public void Init(){} // RVA: 0x95C6660
@@ -78,6 +88,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class GMac
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.GcmBlockCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50 | overloaded x2
         public void Init(){} // RVA: 0x95C7170
@@ -91,6 +103,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class Gost28147Mac
     {
+        public int blockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C7570
         public void GenerateWorkingKey(){} // RVA: 0x95C7700
@@ -110,6 +124,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class HMac
     {
+        public byte IPAD;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C89F0
         public void get_AlgorithmName(){} // RVA: 0x95C8B90
@@ -125,6 +141,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class ISO9797Alg3Mac
     {
+        public byte[] mac; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C95F0 | overloaded x4
         public void get_AlgorithmName(){} // RVA: 0x95C9930
@@ -138,6 +156,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class MacCFBBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] cfbV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95C3810
         public void Init(){} // RVA: 0x95C3A70
@@ -151,6 +172,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class Poly1305
     {
+        public int BlockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CA6B0 | overloaded x2
         public void Init(){} // RVA: 0x95CA890
@@ -167,6 +190,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class SipHash
     {
+        public int c; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4438000 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x95CBA10
@@ -183,6 +208,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class SkeinMac
     {
+        public int SKEIN_256;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95CC1D0 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x95CC2E0
@@ -196,6 +223,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ma
 
     public class VmpcMac
     {
+        public byte g; // 0x10
+
         // ── Methods ──
         public void DoFinal(){} // RVA: 0x95CC960
         public void get_AlgorithmName(){} // RVA: 0x95CCE50

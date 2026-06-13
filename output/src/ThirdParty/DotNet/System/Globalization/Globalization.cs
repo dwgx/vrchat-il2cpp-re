@@ -18,6 +18,17 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class Calendar
     {
+        public long TicksPerMillisecond;
+        public long TicksPerSecond;
+        public long TicksPerMinute;
+        public long TicksPerHour;
+        public long TicksPerDay;
+        public int MillisPerSecond;
+        public int MillisPerMinute;
+        public int MillisPerHour;
+        public int MillisPerDay;
+        public int DaysPerYear;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x5DC8880
         public void get_MaxSupportedDateTime(){} // RVA: 0x5DC88E0
@@ -103,6 +114,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CodePageDataItem
     {
+        public int m_dataIndex; // 0x10
+        public int m_uiFamilyCodePage; // 0x14
+        public string m_webName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DDF390
         public void CreateString(){} // RVA: 0x5DDF450
@@ -114,6 +129,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CompareInfo
     {
+        public 0x657F5F90 ValidIndexMaskOffFlags;
+        public 0x657F5F90 ValidCompareMaskOffFlags;
+
         // ── Methods ──
         public void InvariantIndexOf(){} // RVA: 0x5DAC240
         public void InvariantLastIndexOf(){} // RVA: 0x5DAC310
@@ -170,6 +188,24 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureData
     {
+        public string sAM1159; // 0x10
+        public string sPM2359; // 0x18
+        public string sTimeSeparator; // 0x20
+        public string[] saLongTimes; // 0x28
+        public string[] saShortTimes; // 0x30
+        public int iFirstDayOfWeek; // 0x38
+        public int iFirstWeekOfYear; // 0x3C
+        public int[] waCalendars; // 0x40
+        public System.Globalization.CalendarData[] calendars; // 0x48
+        public string sISO639Language; // 0x50
+        public string sRealName; // 0x58
+        public bool bUseOverrides; // 0x60
+        public int calendarId; // 0x64
+        public int numberIndex; // 0x68
+        public int iDefaultAnsiCodePage; // 0x6C
+        public int iDefaultOemCodePage; // 0x70
+        public int iDefaultMacCodePage; // 0x74
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A5510
         public void get_Invariant(){} // RVA: 0x5DDD0E0
@@ -223,6 +259,38 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureInfo
     {
+        public System.Globalization.CultureInfo invariant_culture_info;
+        public object shared_table_lock; // 0x8
+        public System.Globalization.CultureInfo default_current_culture; // 0x10
+        public bool m_isReadOnly; // 0x10
+        public int cultureID; // 0x14
+        public int parent_lcid; // 0x18
+        public int datetime_index; // 0x1C
+        public int number_index; // 0x20
+        public int default_calendar_type; // 0x24
+        public bool m_useUserOverride; // 0x28
+        public System.Globalization.NumberFormatInfo numInfo; // 0x30
+        public System.Globalization.DateTimeFormatInfo dateTimeInfo; // 0x38
+        public System.Globalization.TextInfo textInfo; // 0x40
+        public string m_name; // 0x48
+        public string englishname; // 0x50
+        public string nativename; // 0x58
+        public string iso3lang; // 0x60
+        public string iso2lang; // 0x68
+        public string win3lang; // 0x70
+        public string territory; // 0x78
+        public string[] native_calendar_names; // 0x80
+        public System.Globalization.CompareInfo compareInfo; // 0x88
+        public void* textinfo_data; // 0x90
+        public int m_dataItem; // 0x98
+        public System.Globalization.Calendar calendar; // 0xA0
+        public System.Globalization.CultureInfo parent_culture; // 0xA8
+        public bool constructed; // 0xB0
+        public byte[] cached_serialized_form; // 0xB8
+        public System.Globalization.CultureData m_cultureData; // 0xC0
+        public bool m_isInherited; // 0xC8
+        public int InvariantCultureId;
+
         // ── Methods ──
         public void get__cultureData(){} // RVA: 0x348120
         public void get__isInherited(){} // RVA: 0x126AF80
@@ -298,6 +366,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureNotFoundException
     {
+        public string _invalidCultureName; // 0x98
+        public System.Nullable`1<int> _invalidCultureId; // 0xA0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DB2240 | overloaded x3
         public void GetObjectData(){} // RVA: 0x5DB2550
@@ -310,6 +381,58 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfo
     {
+        public System.Globalization.DateTimeFormatInfo s_invariantInfo;
+        public System.Globalization.CultureData _cultureData; // 0x10
+        public string _name; // 0x18
+        public string _langName; // 0x20
+        public System.Globalization.CompareInfo _compareInfo; // 0x28
+        public System.Globalization.CultureInfo _cultureInfo; // 0x30
+        public string amDesignator; // 0x38
+        public string pmDesignator; // 0x40
+        public string dateSeparator; // 0x48
+        public string generalShortTimePattern; // 0x50
+        public string generalLongTimePattern; // 0x58
+        public string timeSeparator; // 0x60
+        public string monthDayPattern; // 0x68
+        public string dateTimeOffsetPattern; // 0x70
+        public string rfc1123Pattern;
+        public string sortableDateTimePattern;
+        public string universalSortableDateTimePattern;
+        public System.Globalization.Calendar calendar; // 0x78
+        public int firstDayOfWeek; // 0x80
+        public int calendarWeekRule; // 0x84
+        public string fullDateTimePattern; // 0x88
+        public string[] abbreviatedDayNames; // 0x90
+        public string[] m_superShortDayNames; // 0x98
+        public string[] dayNames; // 0xA0
+        public string[] abbreviatedMonthNames; // 0xA8
+        public string[] monthNames; // 0xB0
+        public string[] genitiveMonthNames; // 0xB8
+        public string[] m_genitiveAbbreviatedMonthNames; // 0xC0
+        public string[] leapYearMonthNames; // 0xC8
+        public string longDatePattern; // 0xD0
+        public string shortDatePattern; // 0xD8
+        public string yearMonthPattern; // 0xE0
+        public string longTimePattern; // 0xE8
+        public string shortTimePattern; // 0xF0
+        public string[] allYearMonthPatterns; // 0xF8
+        public string[] allShortDatePatterns; // 0x100
+        public string[] allLongDatePatterns; // 0x108
+        public string[] allShortTimePatterns; // 0x110
+        public string[] allLongTimePatterns; // 0x118
+        public string[] m_eraNames; // 0x120
+        public string[] m_abbrevEraNames; // 0x128
+        public string[] m_abbrevEnglishEraNames; // 0x130
+        public 0x657F6250[] optionalCalendars; // 0x138
+        public int DEFAULT_ALL_DATETIMES_SIZE;
+        public bool _isReadOnly; // 0x140
+        public 0x657F60F0 formatFlags; // 0x144
+        public char[] s_monthSpaces; // 0x8
+        public string RoundtripFormat;
+        public string RoundtripDateTimeUnfixed;
+        public string _fullTimeSpanPositivePattern; // 0x148
+        public string _fullTimeSpanNegativePattern; // 0x150
+
         // ── Methods ──
         public void get_CultureName(){} // RVA: 0x5DB2C40
         public void get_Culture(){} // RVA: 0x5DB2CB0
@@ -411,7 +534,7 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfoScanner
     {
-        public object Start;
+        public System.Collections.Generic.List`1<string> Start; // 0x10
 
         // ── Methods ──
         public void get_KnownWords(){} // RVA: 0x5DBADA0
@@ -434,6 +557,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DaylightTime
     {
+        public System.DateTime _start; // 0x10
+        public System.DateTime _end; // 0x18
+        public System.TimeSpan _delta; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DBC810
         public void get_Start(){} // RVA: 0x2F8380
@@ -474,7 +601,7 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GlobalizationMode
     {
-        public object Invariant;
+        public bool Invariant;
 
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x5DC87E0
@@ -484,6 +611,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendar
     {
+        public 0x657F6E00 m_type; // 0x20
+        public int[] DaysToMonth365;
+        public int[] DaysToMonth366; // 0x8
+        public System.Globalization.Calendar s_defaultInstance; // 0x10
+
         // ── Methods ──
         public void OnDeserialized(){} // RVA: 0x5DCD210
         public void get_MinSupportedDateTime(){} // RVA: 0x5DCD300
@@ -521,6 +653,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendarHelper
     {
+        public int[] DaysToMonth365;
+        public int[] DaysToMonth366; // 0x8
+
         // ── Methods ──
         public void get_MaxYear(){} // RVA: 0x32A5C0
         public void .ctor(){} // RVA: 0x5DCFE70
@@ -571,6 +706,12 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class HijriCalendar
     {
+        public int HijriEra;
+        public int[] HijriMonthDays; // 0x8
+        public int m_HijriAdvance; // 0x20
+        public System.DateTime calendarMinValue; // 0x10
+        public System.DateTime calendarMaxValue; // 0x18
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x5DD24E0
         public void get_MaxSupportedDateTime(){} // RVA: 0x5DD2540
@@ -648,6 +789,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class JapaneseCalendar
     {
+        public System.DateTime calendarMinValue;
+        public System.Globalization.EraInfo[] japaneseEraInfo; // 0x8
+        public System.Globalization.Calendar s_defaultInstance; // 0x10
+        public System.Globalization.GregorianCalendarHelper helper; // 0x20
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x5DD46D0
         public void get_MaxSupportedDateTime(){} // RVA: 0x5DD4730
@@ -686,6 +832,35 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class NumberFormatInfo
     {
+        public System.Globalization.NumberFormatInfo invariantInfo;
+        public int[] numberGroupSizes; // 0x10
+        public int[] currencyGroupSizes; // 0x18
+        public int[] percentGroupSizes; // 0x20
+        public string positiveSign; // 0x28
+        public string negativeSign; // 0x30
+        public string numberDecimalSeparator; // 0x38
+        public string numberGroupSeparator; // 0x40
+        public string currencyGroupSeparator; // 0x48
+        public string currencyDecimalSeparator; // 0x50
+        public string currencySymbol; // 0x58
+        public string ansiCurrencySymbol; // 0x60
+        public string nanSymbol; // 0x68
+        public string positiveInfinitySymbol; // 0x70
+        public string negativeInfinitySymbol; // 0x78
+        public string percentDecimalSeparator; // 0x80
+        public string percentGroupSeparator; // 0x88
+        public string percentSymbol; // 0x90
+        public string perMilleSymbol; // 0x98
+        public string[] nativeDigits; // 0xA0
+        public int m_dataItem; // 0xA8
+        public int numberDecimalDigits; // 0xAC
+        public int currencyDecimalDigits; // 0xB0
+        public int currencyPositivePattern; // 0xB4
+        public int currencyNegativePattern; // 0xB8
+        public int numberNegativePattern; // 0xBC
+        public int percentPositivePattern; // 0xC0
+        public int percentNegativePattern; // 0xC4
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DD5BE0 | overloaded x2
         public void OnSerializing(){} // RVA: 0x5DD5A70
@@ -737,6 +912,18 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class RegionInfo
     {
+        public System.Globalization.RegionInfo currentRegion;
+        public int regionId; // 0x10
+        public string iso2Name; // 0x18
+        public string iso3Name; // 0x20
+        public string win3Name; // 0x28
+        public string englishName; // 0x30
+        public string nativeName; // 0x38
+        public string currencySymbol; // 0x40
+        public string isoCurrencySymbol; // 0x48
+        public string currencyEnglishName; // 0x50
+        public string currencyNativeName; // 0x58
+
         // ── Methods ──
         public void get_CurrentRegion(){} // RVA: 0x5DF4FC0
         public void .ctor(){} // RVA: 0x5DF5460 | overloaded x3
@@ -763,6 +950,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class SortKey
     {
+        public string source; // 0x10
+        public byte[] key; // 0x18
+
         // ── Methods ──
         public void Compare(){} // RVA: 0x5DDC9C0
         public void .ctor(){} // RVA: 0x5DDD0B0 | overloaded x4
@@ -779,6 +969,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TaiwanCalendar
     {
+        public System.Globalization.EraInfo[] taiwanEraInfo;
+        public System.Globalization.Calendar s_defaultInstance; // 0x8
+        public System.Globalization.GregorianCalendarHelper helper; // 0x20
+        public System.DateTime calendarMinValue; // 0x10
+
         // ── Methods ──
         public void GetDefaultInstance(){} // RVA: 0x5DD71D0
         public void get_MinSupportedDateTime(){} // RVA: 0x5DD7310
@@ -812,6 +1007,13 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TextInfo
     {
+        public string m_listSeparator; // 0x10
+        public bool m_isReadOnly; // 0x18
+        public string m_cultureName; // 0x20
+        public System.Globalization.CultureData m_cultureData; // 0x28
+        public string m_textInfoName; // 0x30
+        public System.Nullable`1<bool> m_IsAsciiCasingSameAsInvariant; // 0x38
+
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x5DD7A60
         public void .ctor(){} // RVA: 0x5DD9E50 | overloaded x2
@@ -859,6 +1061,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class ThaiBuddhistCalendar
     {
+        public System.Globalization.EraInfo[] thaiBuddhistEraInfo;
+        public int ThaiBuddhistEra;
+        public System.Globalization.GregorianCalendarHelper helper; // 0x20
+        public int DEFAULT_TWO_DIGIT_YEAR_MAX;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x5DD9E80
         public void get_MaxSupportedDateTime(){} // RVA: 0x5DD9EE0
@@ -929,6 +1136,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class UmAlQuraCalendar
     {
+        public DateMapping[] HijriYearInfo;
+        public System.DateTime minDate; // 0x8
+        public System.DateTime maxDate; // 0x10
+
         // ── Methods ──
         public void InitDateMapping(){} // RVA: 0x5DDA440
         public void get_MinSupportedDateTime(){} // RVA: 0x5DDA620

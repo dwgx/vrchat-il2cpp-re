@@ -7,12 +7,19 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 {
     public class DataContractAttribute
     {
+        public bool isReference; // 0x10
+
         // ── Methods ──
         public void get_IsReference(){} // RVA: 0x3A75E0
     }
 
     public class DataMemberAttribute
     {
+        public string name; // 0x10
+        public int order; // 0x18
+        public bool isRequired; // 0x1C
+        public bool emitDefaultValue; // 0x1D
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_Order(){} // RVA: 0x5BED50
@@ -29,6 +36,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class EnumMemberAttribute
     {
+        public string value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Value(){} // RVA: 0x2F8380
@@ -155,8 +164,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class LongList
     {
-        public object Version;
-        public object Count;
+        public long[] Version; // 0x10
+        public int Count; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D10EF0 | overloaded x2
@@ -179,6 +188,21 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class ObjectHolder
     {
+        public object m_object; // 0x10
+        public long m_id; // 0x18
+        public int m_missingElementsRemaining; // 0x20
+        public int m_missingDecendents; // 0x24
+        public System.Runtime.Serialization.SerializationInfo m_serInfo; // 0x28
+        public System.Runtime.Serialization.ISerializationSurrogate m_surrogate; // 0x30
+        public System.Runtime.Serialization.FixupHolderList m_missingElements; // 0x38
+        public System.Runtime.Serialization.LongList m_dependentObjects; // 0x40
+        public System.Runtime.Serialization.ObjectHolder m_next; // 0x48
+        public int m_flags; // 0x50
+        public bool m_markForFixupWhenAvailable; // 0x54
+        public System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup; // 0x58
+        public System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad; // 0x60
+        public bool m_reachable; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D0FC10 | overloaded x3
         public void IncrementDescendentFixups(){} // RVA: 0x5D0FEC0
@@ -223,6 +247,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class ObjectHolderList
     {
+        public System.Runtime.Serialization.ObjectHolder[] m_values; // 0x10
+        public int m_count; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D11380 | overloaded x2
         public void Add(){} // RVA: 0x5D11420
@@ -234,7 +261,7 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class ObjectHolderListEnumerator
     {
-        public object TypeName;
+        public bool TypeName; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D11720
@@ -255,6 +282,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class ObjectManager
     {
+        public System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler; // 0x10
+        public System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D0BA60
         public void CanCallGetType(){} // RVA: 0x3C2850
@@ -313,6 +343,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class OptionalFieldAttribute
     {
+        public int versionAdded; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1AF9470
         public void set_VersionAdded(){} // RVA: 0x5D12D10
@@ -320,6 +352,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SafeSerializationEventArgs
     {
+        public System.Runtime.Serialization.StreamingContext m_streamingContext; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D11890
         public void get_SerializedStates(){} // RVA: 0x30B0C0
@@ -327,6 +361,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SafeSerializationManager
     {
+        public System.Collections.Generic.IList`1<object> m_serializedStates; // 0x10
+
         // ── Methods ──
         public void add_SerializeObjectState(){} // RVA: 0x5D119E0
         public void remove_SerializeObjectState(){} // RVA: 0x5D11AE0
@@ -349,9 +385,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationEntry
     {
-        public object System.Collections.IEnumerator.Current;
-        public object Current;
-        public object Name;
+        public string System.Collections.IEnumerator.Current; // 0x10
+        public object Current; // 0x18
+        public System.Type Name; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x19D8110
@@ -369,6 +405,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationEvents
     {
+        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> _onSerializingMethods; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D06FF0
         public void GetMethodsWithAttribute(){} // RVA: 0x5D07390
@@ -398,6 +436,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationFieldInfo
     {
+        public System.Reflection.RuntimeFieldInfo m_field; // 0x10
+        public string m_serializationName; // 0x18
+
         // ── Methods ──
         public void get_Module(){} // RVA: 0x196F280
         public void get_MetadataToken(){} // RVA: 0x7F02B0
@@ -419,6 +460,13 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationInfo
     {
+        public int defaultSize;
+        public string s_mscorlibAssemblySimpleName;
+        public string s_mscorlibFileName;
+        public string[] m_members; // 0x10
+        public object[] m_data; // 0x18
+        public System.Type[] m_types; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D130F0 | overloaded x2
         public void get_FullTypeName(){} // RVA: 0x35A740
@@ -453,6 +501,12 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationInfoEnumerator
     {
+        public string[] _members; // 0x10
+        public object[] _data; // 0x18
+        public System.Type[] _types; // 0x20
+        public int _numItems; // 0x28
+        public int _currItem; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D06460
         public void MoveNext(){} // RVA: 0x5D06580
@@ -475,6 +529,9 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class StreamingContext
     {
+        public object m_additionalContext; // 0x10
+        public 0x657EE480 m_state; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D16F70 | overloaded x2
         public void get_Context(){} // RVA: 0x1AD4690
@@ -492,7 +549,7 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class TypeLoadExceptionHolder
     {
-        public object SerializedStates;
+        public string SerializedStates; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
@@ -501,6 +558,10 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class ValueTypeFixupInfo
     {
+        public long _containerID; // 0x10
+        public System.Reflection.FieldInfo _parentField; // 0x18
+        public int[] _parentIndex; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D081F0
         public void get_ContainerID(){} // RVA: 0x2F8380

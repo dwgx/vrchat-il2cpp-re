@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 {
     public class JPakeParticipant
     {
+        public int STATE_INITIALIZED;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96889C0 | overloaded x3
         public void get_State(){} // RVA: 0xBB90C0
@@ -22,6 +24,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class JPakePrimeOrderGroup
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x968AE90 | overloaded x2
         public void get_P(){} // RVA: 0x2F8380
@@ -38,6 +44,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class JPakeRound1Payload
     {
+        public string participantId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger gx1; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger gx2; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX1; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX2; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x968B890
         public void get_ParticipantId(){} // RVA: 0x2F8380
@@ -49,6 +61,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class JPakeRound2Payload
     {
+        public string participantId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger a; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX2s; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x968C0D0
         public void get_ParticipantId(){} // RVA: 0x2F8380
@@ -58,6 +74,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class JPakeRound3Payload
     {
+        public string participantId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger macTag; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_ParticipantId(){} // RVA: 0x2F8380

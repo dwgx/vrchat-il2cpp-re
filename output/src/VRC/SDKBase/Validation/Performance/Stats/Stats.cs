@@ -7,6 +7,11 @@ namespace VRC.SDKBase.Validation.Performance.Stats
 {
     public class AvatarPerformanceStats
     {
+        public float BYTES_TO_MEGABYTES_CONVERSION_FACTOR;
+        public string avatarName; // 0x10
+        public System.Nullable`1<int> polyCount; // 0x18
+        public System.Nullable`1<UnityEngine.Bounds> aabb; // 0x20
+
         // ── Methods ──
         public void get_downloadSize(){} // RVA: 0x9AAB420
         public void get_uncompressedSize(){} // RVA: 0x9AAB4C0

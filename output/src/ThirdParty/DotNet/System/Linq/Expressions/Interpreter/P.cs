@@ -14,6 +14,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class PopInstruction
     {
+        public System.Linq.Expressions.Interpreter.PopInstruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0

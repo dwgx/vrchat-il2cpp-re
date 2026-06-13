@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 {
     public class ContentHints
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerUtf8String contentDescription; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier contentType; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97A4FE0
         public void .ctor(){} // RVA: 0x5CCCD00 | overloaded x3
@@ -17,6 +20,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 
     public class ContentIdentifier
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString value; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97A55D0
         public void .ctor(){} // RVA: 0x97A57A0 | overloaded x2
@@ -26,6 +31,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 
     public class EssCertID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString certHash; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97A58F0
         public void .ctor(){} // RVA: 0x97A5DC0 | overloaded x3
@@ -36,6 +43,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 
     public class EssCertIDv2
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
+        public byte[] certHash; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97A6170
         public void .ctor(){} // RVA: 0x97A66B0 | overloaded x5
@@ -48,6 +58,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 
     public class OtherCertID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable otherCertHash; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.IssuerSerial issuerSerial; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97A6D90
         public void .ctor(){} // RVA: 0x97A7250 | overloaded x3

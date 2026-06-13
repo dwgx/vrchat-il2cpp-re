@@ -33,6 +33,11 @@ namespace ThirdParty.DotNet.System.IO.MemoryMappedFiles
 
     public class MemoryMappedView
     {
+        public Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle m_viewHandle; // 0x10
+        public long m_pointerOffset; // 0x18
+        public long m_size; // 0x20
+        public 0x659146C8 m_access; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66770B0
         public void get_ViewHandle(){} // RVA: 0x2F8380
@@ -47,6 +52,8 @@ namespace ThirdParty.DotNet.System.IO.MemoryMappedFiles
 
     public class MemoryMappedViewAccessor
     {
+        public System.IO.MemoryMappedFiles.MemoryMappedView m_view; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6675B30
         public void get_SafeMemoryMappedViewHandle(){} // RVA: 0x6675C40

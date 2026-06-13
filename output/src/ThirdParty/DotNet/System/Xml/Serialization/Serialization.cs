@@ -7,6 +7,20 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 {
     public class ClassMap
     {
+        public System.Collections.Hashtable _elements; // 0x10
+        public System.Collections.ArrayList _elementMembers; // 0x18
+        public System.Collections.Hashtable _attributeMembers; // 0x20
+        public System.Xml.Serialization.XmlTypeMapMemberAttribute[] _attributeMembersArray; // 0x28
+        public System.Collections.ArrayList _flatLists; // 0x30
+        public System.Collections.ArrayList _allMembers; // 0x38
+        public System.Collections.ArrayList _membersWithDefault; // 0x40
+        public System.Collections.ArrayList _listMembers; // 0x48
+        public System.Xml.Serialization.XmlTypeMapMemberAnyElement _defaultAnyElement; // 0x50
+        public System.Xml.Serialization.XmlTypeMapMemberAnyAttribute _defaultAnyAttribute; // 0x58
+        public System.Xml.Serialization.XmlTypeMapMemberNamespaces _namespaceDeclarations; // 0x60
+        public System.Xml.Serialization.XmlTypeMapMember _xmlTextCollector; // 0x68
+        public System.Xml.Serialization.XmlTypeMapMember _returnMember; // 0x70
+
         // ── Methods ──
         public void AddMember(){} // RVA: 0x6ACAAD0
         public void RegisterFlatList(){} // RVA: 0x6ACB890
@@ -42,8 +56,10 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class EnumMap
     {
-        public object ProhibitDefaultUrlResolver;
-        public object CollapseWhiteSpaceIntoEmptyString;
+        public EnumMapMember[] ProhibitDefaultUrlResolver; // 0x10
+        public bool CollapseWhiteSpaceIntoEmptyString; // 0x18
+        public string[] _enumNames; // 0x20
+        public string[] _xmlNames; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6ACDD50
@@ -78,8 +94,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class ListMap
     {
-        public object XmlName;
-        public object EnumName;
+        public System.Xml.Serialization.XmlTypeMapElementInfoList XmlName; // 0x10
+        public string EnumName; // 0x18
 
         // ── Methods ──
         public void set_ChoiceMember(){} // RVA: 0x343E80
@@ -120,6 +136,20 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class TypeData
     {
+        public System.Type type; // 0x10
+        public string elementName; // 0x18
+        public 0x65879228 sType; // 0x20
+        public System.Type listItemType; // 0x28
+        public string typeName; // 0x30
+        public string fullTypeName; // 0x38
+        public System.Xml.Serialization.TypeData listItemTypeData; // 0x40
+        public System.Xml.Serialization.TypeData mappedType; // 0x48
+        public System.Xml.Schema.XmlSchemaPatternFacet facet; // 0x50
+        public System.Reflection.MethodInfo typeConvertor; // 0x58
+        public bool hasPublicConstructor; // 0x60
+        public bool nullableOverride; // 0x61
+        public string[] keywords;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A97260 | overloaded x2
         public void LookupTypeConvertor(){} // RVA: 0x6A97A60
@@ -185,6 +215,10 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlAnyElementAttribute
     {
+        public string elementName; // 0x10
+        public string ns; // 0x18
+        public int order; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2EE3B40
         public void get_Name(){} // RVA: 0x6A9E350
@@ -205,6 +239,12 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlArrayAttribute
     {
+        public string elementName; // 0x10
+        public 0x6587F738 form; // 0x18
+        public bool isNullable; // 0x1C
+        public string ns; // 0x20
+        public int order; // 0x28
+
         // ── Methods ──
         public void get_ElementName(){} // RVA: 0x6A9EA50
         public void get_Form(){} // RVA: 0x5BED50
@@ -216,6 +256,15 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlArrayItemAttribute
     {
+        public string dataType; // 0x10
+        public string elementName; // 0x18
+        public 0x6587F738 form; // 0x20
+        public string ns; // 0x28
+        public bool isNullable; // 0x30
+        public bool isNullableSpecified; // 0x31
+        public int nestingLevel; // 0x34
+        public System.Type type; // 0x38
+
         // ── Methods ──
         public void get_DataType(){} // RVA: 0x6A9EE10
         public void get_ElementName(){} // RVA: 0x6A9EE70
@@ -239,6 +288,11 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlAttributeAttribute
     {
+        public string attributeName; // 0x10
+        public string dataType; // 0x18
+        public System.Type type; // 0x20
+        public 0x6587F738 form; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_AttributeName(){} // RVA: 0x6A9F6C0
@@ -264,8 +318,7 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlAttributeOverrides
     {
-        public object XmlAnyAttribute;
-        public object XmlAnyElements;
+        public System.Collections.Hashtable XmlAnyAttribute; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A9FC00
@@ -276,8 +329,20 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlAttributes
     {
-        public object MemberName;
-        public object FromXmlNCName;
+        public System.Xml.Serialization.XmlAnyAttributeAttribute MemberName; // 0x10
+        public System.Xml.Serialization.XmlAnyElementAttributes FromXmlNCName; // 0x18
+        public System.Xml.Serialization.XmlArrayAttribute xmlArray; // 0x20
+        public System.Xml.Serialization.XmlArrayItemAttributes xmlArrayItems; // 0x28
+        public System.Xml.Serialization.XmlAttributeAttribute xmlAttribute; // 0x30
+        public System.Xml.Serialization.XmlChoiceIdentifierAttribute xmlChoiceIdentifier; // 0x38
+        public object xmlDefaultValue; // 0x40
+        public System.Xml.Serialization.XmlElementAttributes xmlElements; // 0x48
+        public System.Xml.Serialization.XmlEnumAttribute xmlEnum; // 0x50
+        public bool xmlIgnore; // 0x58
+        public bool xmlns; // 0x59
+        public System.Xml.Serialization.XmlRootAttribute xmlRoot; // 0x60
+        public System.Xml.Serialization.XmlTextAttribute xmlText; // 0x68
+        public System.Xml.Serialization.XmlTypeAttribute xmlType; // 0x70
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AA0630 | overloaded x2
@@ -301,6 +366,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlChoiceIdentifierAttribute
     {
+        public string memberName; // 0x10
+
         // ── Methods ──
         public void get_MemberName(){} // RVA: 0x6AA1D50
         public void AddKeyHash(){} // RVA: 0x6AA1DB0
@@ -319,6 +386,14 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlElementAttribute
     {
+        public string dataType; // 0x10
+        public string elementName; // 0x18
+        public 0x6587F738 form; // 0x20
+        public string ns; // 0x28
+        public bool isNullable; // 0x30
+        public System.Type type; // 0x38
+        public int order; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AA4B40 | overloaded x2
         public void get_DataType(){} // RVA: 0x6AA4C00
@@ -356,6 +431,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlEnumAttribute
     {
+        public string name; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Name(){} // RVA: 0x2F8380
@@ -370,12 +447,21 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlIncludeAttribute
     {
+        public System.Type type; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
     }
 
     public class XmlMapping
     {
+        public System.Xml.Serialization.ObjectMap map; // 0x10
+        public System.Collections.ArrayList relatedMaps; // 0x18
+        public 0x65879AC0 format; // 0x20
+        public System.Xml.Serialization.SerializationSource source; // 0x28
+        public string _elementName; // 0x30
+        public string _namespace; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A15BE0
         public void get_ElementName(){} // RVA: 0x6374D0
@@ -396,6 +482,9 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlMembersMapping
     {
+        public bool _hasWrapperElement; // 0x48
+        public System.Xml.Serialization.XmlMemberMapping[] _mapping; // 0x50
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x6AA5760
         public void get_HasWrapperElement(){} // RVA: 0x394D30
@@ -448,10 +537,11 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlReflectionMember
     {
-        public object DataType;
-        public object ElementName;
-        public object IsNullable;
-        public object Namespace;
+        public bool DataType; // 0x10
+        public string ElementName; // 0x18
+        public System.Type IsNullable; // 0x20
+        public System.Xml.Serialization.XmlAttributes Namespace; // 0x28
+        public System.Type declaringType; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AAE230
@@ -465,6 +555,11 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlRootAttribute
     {
+        public string dataType; // 0x10
+        public string elementName; // 0x18
+        public bool isNullable; // 0x20
+        public string ns; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1E13120 | overloaded x2
         public void get_DataType(){} // RVA: 0x6AAE3E0
@@ -480,6 +575,9 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlSchemaProviderAttribute
     {
+        public string _methodName; // 0x10
+        public bool _isAny; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_MethodName(){} // RVA: 0x2F8380
@@ -522,6 +620,9 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlSerializationReader
     {
+        public System.Xml.XmlDocument document; // 0x10
+        public System.Xml.XmlReader reader; // 0x18
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x6AAE760
         public void EnsureArrayList(){} // RVA: 0x6AAF030
@@ -620,6 +721,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlSerializationWriter
     {
+        public System.Runtime.Serialization.ObjectIDGenerator idGenerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6ABBA70
         public void Initialize(){} // RVA: 0x6ABBB20
@@ -695,6 +798,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlSerializer
     {
+        public int generationThreshold;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6AC4A80
         public void .ctor(){} // RVA: 0x6AC4BD0
@@ -725,6 +830,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlSerializerNamespaces
     {
+        public System.Collections.Hashtable namespaces; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Add(){} // RVA: 0x6A95100
@@ -738,6 +845,9 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTextAttribute
     {
+        public string dataType; // 0x10
+        public System.Type type; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_DataType(){} // RVA: 0x6AC6620
@@ -747,6 +857,10 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeAttribute
     {
+        public bool includeInSchema; // 0x10
+        public string ns; // 0x18
+        public string typeName; // 0x20
+
         // ── Methods ──
         public void get_IncludeInSchema(){} // RVA: 0x3A75E0
         public void get_Namespace(){} // RVA: 0x2E07C0
@@ -756,6 +870,8 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeConvertorAttribute
     {
+        public string <Method>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Method(){} // RVA: 0x2F8380
         public void set_Method(){} // RVA: 0x2DEE30
@@ -764,6 +880,18 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapElementInfo
     {
+        public string _elementName; // 0x10
+        public string _namespace; // 0x18
+        public 0x6587F738 _form; // 0x20
+        public System.Xml.Serialization.XmlTypeMapMember _member; // 0x28
+        public object _choiceValue; // 0x30
+        public bool _isNullable; // 0x38
+        public int _nestingLevel; // 0x3C
+        public System.Xml.Serialization.XmlTypeMapping _mappedType; // 0x40
+        public System.Xml.Serialization.TypeData _type; // 0x48
+        public bool _wrappedElement; // 0x50
+        public int _explicitOrder; // 0x54
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AC6B10
         public void get_TypeData(){} // RVA: 0x358730
@@ -804,10 +932,13 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapMember
     {
-        public object AttributeName;
-        public object Namespace;
-        public object Form;
-        public object MappedType;
+        public string AttributeName; // 0x10
+        public int Namespace; // 0x18
+        public int Form; // 0x1C
+        public int MappedType; // 0x20
+        public System.Xml.Serialization.TypeData _typeData; // 0x28
+        public System.Reflection.MemberInfo _member; // 0x30
+        public System.Reflection.MemberInfo _specifiedMember; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AC7330
@@ -850,10 +981,10 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapMemberAttribute
     {
-        public object ElementInfo;
-        public object ChoiceMember;
-        public object ChoiceTypeData;
-        public object IsXmlTextCollector;
+        public string ElementInfo; // 0x58
+        public string ChoiceMember; // 0x60
+        public 0x6587F738 ChoiceTypeData; // 0x68
+        public System.Xml.Serialization.XmlTypeMapping IsXmlTextCollector; // 0x70
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AC8820
@@ -868,6 +999,11 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapMemberElement
     {
+        public System.Xml.Serialization.XmlTypeMapElementInfoList _elementInfo; // 0x58
+        public string _choiceMember; // 0x60
+        public bool _isTextCollector; // 0x68
+        public System.Xml.Serialization.TypeData _choiceTypeData; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AC88B0
         public void get_ElementInfo(){} // RVA: 0x6AC88C0
@@ -884,7 +1020,7 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapMemberExpandable
     {
-        public object ListMap;
+        public int ListMap; // 0x78
 
         // ── Methods ──
         public void get_FlatArrayIndex(){} // RVA: 0x1AE3800
@@ -894,7 +1030,7 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapMemberFlatList
     {
-        public object IsDefaultAny;
+        public System.Xml.Serialization.ListMap IsDefaultAny; // 0x80
 
         // ── Methods ──
         public void get_ListMap(){} // RVA: 0x462D00
@@ -916,6 +1052,16 @@ namespace ThirdParty.DotNet.System.Xml.Serialization
 
     public class XmlTypeMapping
     {
+        public string xmlType; // 0x48
+        public string xmlTypeNamespace; // 0x50
+        public System.Xml.Serialization.TypeData type; // 0x58
+        public System.Xml.Serialization.XmlTypeMapping baseMap; // 0x60
+        public bool multiReferenceType; // 0x68
+        public bool includeInSchema; // 0x69
+        public bool isNullable; // 0x6A
+        public bool isAny; // 0x6B
+        public System.Collections.ArrayList _derivedTypes; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AC9370
         public void get_TypeFullName(){} // RVA: 0x6AC95D0

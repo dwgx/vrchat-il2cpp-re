@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Utils
     {
-        public object CanReuseTransform;
+        public int CanReuseTransform;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x2DD310

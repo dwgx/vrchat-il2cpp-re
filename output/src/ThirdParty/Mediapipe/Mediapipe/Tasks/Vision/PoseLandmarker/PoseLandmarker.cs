@@ -21,6 +21,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerOptions
     {
+        public Mediapipe.Tasks.Core.BaseOptions <baseOptions>k__BackingField; // 0x10
+        public 0x65932078 <runningMode>k__BackingField; // 0x18
+        public int <numPoses>k__BackingField; // 0x1C
+        public float <minPoseDetectionConfidence>k__BackingField; // 0x20
+        public float <minPosePresenceConfidence>k__BackingField; // 0x24
+        public float <minTrackingConfidence>k__BackingField; // 0x28
+        public bool <outputSegmentationMasks>k__BackingField; // 0x2C
+        public ResultCallback <resultCallback>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x2F8380
         public void get_runningMode(){} // RVA: 0x5BED50

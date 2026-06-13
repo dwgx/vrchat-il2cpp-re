@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 14
-// Methods: 121
+// Classes: 16
+// Methods: 123
 
 namespace ThirdParty.Unity.UnityEngine
 {
@@ -68,6 +68,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Event
     {
+        public UIntPtr m_Ptr; // 0x10
+        public UnityEngine.Event s_Current;
+        public UnityEngine.Event s_MasterEvent; // 0x8
+
         // ── Methods ──
         public void get_rawType(){} // RVA: 0x716D950
         public void get_mousePosition(){} // RVA: 0x716D9A0
@@ -128,6 +132,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class EventInterests
     {
+        public bool <wantsMouseMove>k__BackingField; // 0x10
+        public bool <wantsMouseEnterLeaveWindow>k__BackingField; // 0x11
+        public bool <wantsLessLayoutEvents>k__BackingField; // 0x12
+
         // ── Methods ──
         public void get_wantsMouseMove(){} // RVA: 0x1E40360
         public void set_wantsMouseMove(){} // RVA: 0x1E40370
@@ -172,6 +180,18 @@ namespace ThirdParty.Unity.UnityEngine
     {
         // ── Methods ──
         public void Resolve(){} // RVA: 0x283FA0
+    }
+
+    public class ExposedReference`1
+    {
+        // ── Methods ──
+        public void Resolve(){} // RVA: 0x331B280
+    }
+
+    public class ExposedReference`1
+    {
+        // ── Methods ──
+        public void Resolve(){} // RVA: 0x331B280
     }
 
     public class ExpressionEvaluator

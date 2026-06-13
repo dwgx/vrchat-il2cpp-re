@@ -7,6 +7,11 @@ namespace VRC.Steam
 {
     public class SteamManager
     {
+        public uint ÌÌÌÍÍÎÎÍÌÏÌÍÎÌÏÌÎÍÌÌÍÍÎ;
+        public uint ÎÌÏÍÎÏÎÍÌÌÍÏÏÍÍÏÌÎÏÌÍÏÍ;
+        public Steamworks.AuthTicket ÍÍÍÌÌÎÌÌÍÏÌÌÎÍÏÎÌÍÌÎÏÌÌ; // 0x8
+        public bool <ÍÍÎÎÌÍÎÏÍÍÍÍÍÎÏÎÍÌÌÎÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x5350D0
         public void Equals(){} // RVA: 0x5351A0

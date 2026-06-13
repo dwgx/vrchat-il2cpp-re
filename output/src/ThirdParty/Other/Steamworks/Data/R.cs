@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class RegisterActivationCodeResponse_t
     {
+        public 0x659B1A00 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CE670
         public void .cctor(){} // RVA: 0x20CE680
@@ -14,6 +16,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemotePlaySession
     {
+        public uint <Id>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x19689B0
         public void set_Id(){} // RVA: 0x833580
@@ -23,6 +27,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageDeletePublishedFileResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CBE10
         public void .cctor(){} // RVA: 0x20CBE20
@@ -30,6 +36,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageDownloadUGCResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC470
         public void .cctor(){} // RVA: 0x20CC480
@@ -37,6 +45,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageEnumeratePublishedFilesByUserActionResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD020
         public void .cctor(){} // RVA: 0x20CD030
@@ -44,6 +54,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageEnumerateUserPublishedFilesResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CBF20
         public void .cctor(){} // RVA: 0x20CBF30
@@ -51,6 +63,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageEnumerateUserSharedWorkshopFilesResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CCE00
         public void .cctor(){} // RVA: 0x20CCE10
@@ -58,6 +72,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageEnumerateUserSubscribedFilesResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC140
         public void .cctor(){} // RVA: 0x20CC150
@@ -65,6 +81,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageEnumerateWorkshopFilesResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC690
         public void .cctor(){} // RVA: 0x20CC6A0
@@ -72,6 +90,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageFileReadAsyncComplete_t
     {
+        public ulong FileReadAsync; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD460
         public void .cctor(){} // RVA: 0x20CD470
@@ -79,6 +99,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageFileShareResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CBBF0
         public void .cctor(){} // RVA: 0x20CBC00
@@ -86,6 +108,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageFileWriteAsyncComplete_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD350
         public void .cctor(){} // RVA: 0x20CD360
@@ -93,6 +117,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageGetPublishedFileDetailsResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC580
         public void .cctor(){} // RVA: 0x20CC590
@@ -100,6 +126,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageGetPublishedItemVoteDetailsResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC7A0
         public void .cctor(){} // RVA: 0x20CC7B0
@@ -107,6 +135,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageLocalFileChange_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD570
         public void .cctor(){} // RVA: 0x20CD580
@@ -114,6 +144,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishFileProgress_t
     {
+        public double DPercentFile; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD130
         public void .cctor(){} // RVA: 0x20CD140
@@ -121,6 +153,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishFileResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CBD00
         public void .cctor(){} // RVA: 0x20CBD10
@@ -128,6 +162,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileDeleted_t
     {
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CCAD0
         public void .cctor(){} // RVA: 0x20CCAE0
@@ -135,6 +171,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileSubscribed_t
     {
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC8B0
         public void .cctor(){} // RVA: 0x20CC8C0
@@ -142,6 +180,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileUnsubscribed_t
     {
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC9C0
         public void .cctor(){} // RVA: 0x20CC9D0
@@ -149,6 +189,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileUpdated_t
     {
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CD240
         public void .cctor(){} // RVA: 0x20CD250
@@ -156,6 +198,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageSetUserPublishedFileActionResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CCF10
         public void .cctor(){} // RVA: 0x20CCF20
@@ -163,6 +207,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageSubscribePublishedFileResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC030
         public void .cctor(){} // RVA: 0x20CC040
@@ -170,6 +216,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageUnsubscribePublishedFileResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC250
         public void .cctor(){} // RVA: 0x20CC260
@@ -177,6 +225,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageUpdatePublishedFileResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CC360
         public void .cctor(){} // RVA: 0x20CC370
@@ -184,6 +234,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageUpdateUserPublishedItemVoteResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CCBE0
         public void .cctor(){} // RVA: 0x20CCBF0
@@ -191,6 +243,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStorageUserVoteDetails_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CCCF0
         public void .cctor(){} // RVA: 0x20CCD00
@@ -198,6 +252,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoveAppDependencyResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1640
         public void .cctor(){} // RVA: 0x20D1650
@@ -205,6 +261,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoveUGCDependencyResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1420
         public void .cctor(){} // RVA: 0x20D1430
@@ -212,6 +270,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RequestPlayersForGameFinalResultCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB260
         public void .cctor(){} // RVA: 0x20CB270
@@ -219,6 +279,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RequestPlayersForGameProgressCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB040
         public void .cctor(){} // RVA: 0x20CB050
@@ -226,6 +288,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RequestPlayersForGameResultCallback_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB150
         public void .cctor(){} // RVA: 0x20CB160
@@ -233,6 +297,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ReservationNotificationCallback_t
     {
+        public ulong BeaconID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB7B0
         public void .cctor(){} // RVA: 0x20CB7C0

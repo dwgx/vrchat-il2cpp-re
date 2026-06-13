@@ -7,6 +7,19 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Vector2
     {
+        public float x; // 0x10
+        public float y; // 0x14
+        public UnityEngine.Vector2 zeroVector;
+        public UnityEngine.Vector2 oneVector; // 0x8
+        public UnityEngine.Vector2 upVector; // 0x10
+        public UnityEngine.Vector2 downVector; // 0x18
+        public UnityEngine.Vector2 leftVector; // 0x20
+        public UnityEngine.Vector2 rightVector; // 0x28
+        public UnityEngine.Vector2 positiveInfinityVector; // 0x30
+        public UnityEngine.Vector2 negativeInfinityVector; // 0x38
+        public float kEpsilon;
+        public float kEpsilonNormalSqrt;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0xABC9F0
         public void set_Item(){} // RVA: 0x7119ED0
@@ -55,6 +68,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector2Int
     {
+        public int m_X; // 0x10
+        public int m_Y; // 0x14
+        public UnityEngine.Vector2Int s_Zero;
+        public UnityEngine.Vector2Int s_One; // 0x8
+        public UnityEngine.Vector2Int s_Up; // 0x10
+        public UnityEngine.Vector2Int s_Down; // 0x18
+        public UnityEngine.Vector2Int s_Left; // 0x20
+        public UnityEngine.Vector2Int s_Right; // 0x28
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x67FD0D0
         public void set_x(){} // RVA: 0x833580
@@ -97,6 +119,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3
     {
+        public float kEpsilon;
+        public float kEpsilonNormalSqrt;
+        public float x; // 0x10
+        public float y; // 0x14
+        public float z; // 0x18
+        public UnityEngine.Vector3 zeroVector;
+        public UnityEngine.Vector3 oneVector; // 0xC
+        public UnityEngine.Vector3 upVector; // 0x18
+        public UnityEngine.Vector3 downVector; // 0x24
+        public UnityEngine.Vector3 leftVector; // 0x30
+        public UnityEngine.Vector3 rightVector; // 0x3C
+        public UnityEngine.Vector3 forwardVector; // 0x48
+        public UnityEngine.Vector3 backVector; // 0x54
+        public UnityEngine.Vector3 positiveInfinityVector; // 0x60
+
         // ── Methods ──
         public void Slerp(){} // RVA: 0x7115410
         public void SlerpUnclamped(){} // RVA: 0x71154A0
@@ -158,6 +195,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3Int
     {
+        public int m_X; // 0x10
+        public int m_Y; // 0x14
+        public int m_Z; // 0x18
+        public UnityEngine.Vector3Int s_Zero;
+        public UnityEngine.Vector3Int s_One; // 0xC
+        public UnityEngine.Vector3Int s_Up; // 0x18
+        public UnityEngine.Vector3Int s_Down; // 0x24
+        public UnityEngine.Vector3Int s_Left; // 0x30
+        public UnityEngine.Vector3Int s_Right; // 0x3C
+        public UnityEngine.Vector3Int s_Forward; // 0x48
+        public UnityEngine.Vector3Int s_Back; // 0x54
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x67FD0D0
         public void set_x(){} // RVA: 0x833580
@@ -204,6 +253,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector4
     {
+        public float kEpsilon;
+        public float x; // 0x10
+        public float y; // 0x14
+        public float z; // 0x18
+        public float w; // 0x1C
+        public UnityEngine.Vector4 zeroVector;
+        public UnityEngine.Vector4 oneVector; // 0x10
+        public UnityEngine.Vector4 positiveInfinityVector; // 0x20
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x3019C0
         public void set_Item(){} // RVA: 0xABCA70

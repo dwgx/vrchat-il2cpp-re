@@ -7,6 +7,9 @@ namespace VRC.SDK3.Internal
 {
     public class BestInstancesListener
     {
+        public string ÏÌÏÌÏÏÏÌÍÍÎÏÌÍÌÌÎÌÏÍÍÌÏ;
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver ÍÏÎÌÌÍÏÎÌÍÍÌÎÏÍÍÎÎÎÎÎÍÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1C68B00
         public void Initialize(){} // RVA: 0x1C68C10
@@ -49,6 +52,8 @@ namespace VRC.SDK3.Internal
 
     public class PedestalPreviewListener
     {
+        public string ÏÌÏÌÏÏÏÌÍÍÎÏÌÍÌÌÎÌÏÍÍÌÏ;
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x2E07C0
         public void StartListening(){} // RVA: 0x1C82F60
@@ -64,6 +69,10 @@ namespace VRC.SDK3.Internal
 
     public class PlatformChecker
     {
+        public string ÏÌÏÌÏÏÏÌÍÍÎÏÌÍÌÌÎÌÏÍÍÌÏ;
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver <ÌÎÍÎÎÍÎÎÎÌÌÌÍÎÏÍÎÌÏÌÌÏÏ>k__BackingField; // 0x10
+        public string <ÎÎÌÌÎÌÍÌÌÎÌÍÍÍÏÍÎÏÍÎÎÎÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x3CB9D0
         public void Equals(){} // RVA: 0x4CEE30
@@ -154,6 +163,14 @@ namespace VRC.SDK3.Internal
 
     public class VRCPrideCampaign
     {
+        public string ÎÍÍÍÏÏÍÏÌÎÍÎÎÏÍÌÌÎÎÎÏÎÏ;
+        public int ÎÎÍÎÍÍÎÏÌÎÎÏÎÏÏÌÏÏÎÏÏÌÏ;
+        public System.Threading.CancellationTokenSource ÌÏÎÎÌÎÎÏÏÍÎÍÌÏÍÌÏÏÎÎÍÍÏ;
+        public ÏÏÎÍÏÎÎÌÌÎÌÏÍÍÎÏÏÏÎÌÏÌÌ ÍÌÌÏÏÍÍÎÏÌÎÌÎÌÏÏÌÌÎÏÎÌÎ; // 0x8
+        public string[] ÌÌÎÍÌÎÍÏÌÏÍÎÎÏÌÌÍÍÏÏÏÏÎ; // 0x10
+        public UnityEngine.Sprite[] ÌÏÏÍÍÎÍÍÍÏÍÍÌÏÎÌÌÍÏÌÌÏÌ; // 0x18
+        public System.DateTime ÌÏÏÎÍÏÏÍÏÍÍÍÌÌÌÌÌÎÏÍÌÌÏ; // 0x20
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1C83470
         public void Equals(){} // RVA: 0x1C83680

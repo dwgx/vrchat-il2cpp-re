@@ -8,6 +8,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÎÍÌÏÎÏÎÎÍÍÎÏÌ</summary>
     public class UICalculateFragmentLengthCalculateEncrypte_1B94_CA19
     {
+        public string ÍÌÎÎÍÏÎÍÏÌÍÍÍÌÌÌÏÏÎÌÍÎÍ;
+
         // ── Methods ──
         public void CalculateEncryptedSize(){} // RVA: 0x1AF8CF0
         public void CalculateEncryptedLength(){} // RVA: 0x1AF9750 | overloaded x2
@@ -39,6 +41,35 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ</summary>
     public class UICompareDispose_241D_E151
     {
+        public int ÎÏÏÎÌÎÎÌÍÏÌÍÌÍÌÏÌÌÍÎÎÌÎ;
+        public int ÌÏÌÍÎÏÏÌÏÌÏÌÍÍÍÌÍÍÎÌÏÍÏ;
+        public int ÍÍÌÎÎÏÏÎÌÎÏÌÎÏÎÏÎÌÌÌÎÎÏ;
+        public int ÍÌÎÍÏÎÌÍÎÌÎÌÏÍÌÌÎÍÏÌÏÏÍ;
+        public float ÏÏÎÏÏÌÎÎÎÌÌÏÌÏÌÏÌÏÌÏÌÌÍ;
+        public int ÌÎÍÏÎÎÎÍÎÏÌÏÏÌÎÌÎÎÌÎÌÎÎ;
+        public float ÌÍÎÌÍÍÎÏÎÌÍÏÏÌÍÌÏÍÍÏÌÎÏ;
+        public ÌÍÎÏÍÏÏÍÏÎÌÏÍÌÎÍÌÍÌÏÌÍÌ ÎÍÎÍÍÍÌÍÍÏÌÌÏÏÌÏÏÍÍÍÎÎÎ; // 0x10
+        public int ÏÏÌÌÏÏÎÌÎÌÌÎÎÍÎÌÎÎÎÍÌÏÏ; // 0x18
+        public VRC.Core.ApiModel ÎÏÏÎÍÎÏÎÎÌÎÏÍÏÎÎÌÍÎÌÏÏÌ; // 0x20
+        public int ÍÏÎÌÏÌÌÌÏÎÌÍÌÏÎÌÌÍÎÌÏÌÌ; // 0x28
+        public int ÍÌÎÌÍÍÍÌÏÏÏÏÌÏÍÍÏÎÏÌÍÌÎ; // 0x2C
+        public int ÎÌÏÎÌÏÏÌÏÎÏÍÏÍÏÏÌÍÌÎÎÏÍ;
+        public bool ÌÌÍÏÍÍÎÏÏÍÎÎÎÎÎÍÎÏÎÏÏÍÎ; // 0x30
+        public bool ÌÍÏÌÍÎÌÌÌÍÍÍÍÎÌÎÌÌÏÍÌÎÎ; // 0x31
+        public string ÍÌÌÌÌÏÌÏÎÏÏÎÏÍÏÍÍÍÌÎÏÏÎ; // 0x38
+        public UnityEngine.Networking.UnityWebRequest ÌÎÏÏÌÎÏÏÎÌÍÌÌÍÌÎÍÎÎÍÍÎÎ; // 0x40
+        public ÎÌÌÎÎÎÏÌÍÌÎÎÍÎÍÏÎÏÏÏÍÍÌ ÎÏÍÏÌÌÎÎÏÎÍÌÏÎÏÍÎÍÏÍÍÏÏ; // 0x48
+        public System.Nullable`1<VRC.Localization.LocalizableString> ÏÎÏÍÌÎÍÏÌÌÎÌÍÍÎÎÍÏÍÍÌÌÌ; // 0x50
+        public System.Nullable`1<System.ValueTuple`2<Cysharp.Threading.Tasks.UniTask,System.Threading.CancellationTokenSource>> ÎÏÏÌÏÍÎÏÏÍÌÎÌÌÎÍÌÍÎÎÌÎÌ; // 0x80
+        public int ÎÏÌÍÌÍÍÏÏÍÍÏÍÎÎÎÏÎÌÌÍÏÍ; // 0xA0
+        public int ÌÍÍÏÎÌÌÌÎÏÏÌÌÍÏÎÎÍÏÌÌÍÍ; // 0xA4
+        public bool ÍÏÏÎÍÍÏÏÌÍÏÎÍÎÏÏÌÍÏÎÏÏÌ; // 0xA8
+        public ulong ÎÌÌÏÍÏÏÍÏÎÎÌÎÍÍÏÎÍÍÍÎÎÍ; // 0xB0
+        public System.Nullable`1<UnityEngine.Networking.EncryptionKey> ÌÍÏÌÌÏÍÏÍÏÍÌÍÎÏÍÍÌÏÌÍÌÎ; // 0xB8
+        public bool <ÏÎÌÎÎÌÌÌÌÌÏÏÏÏÎÎÍÍÌÌÌÌÎ>k__BackingField; // 0xE0
+        public bool ÏÏÎÎÏÏÎÏÍÍÍÎÍÏÍÍÏÎÏÎÎÎÍ; // 0xE1
+        public int ÏÍÏÎÌÎÍÌÌÎÍÏÎÏÎÍÌÍÎÎÎÏÎ; // 0xE4
+
         // ── Methods ──
         public void SetupParticles(){} // RVA: 0x1209120
         public void .cctor(){} // RVA: 0x12091C0
@@ -141,6 +172,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÎÌÎÍÎÏÏÌÎÌÏÏÌÌÍÏÏÎÌÎÏ</summary>
     public class UICompareEquals_4CCB
     {
+        public ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ <ÍÏÍÌÏÎÏÎÎÏÏÍÍÏÏÎÌÎÌÍÌÎÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x519240
         public void ReverseSpanElements(){} // RVA: 0x9B6EB0
@@ -183,6 +216,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÏÌÎÎÌÌÏÌÏÏÌÎÍÏÌÌÏÍÎÎÌ</summary>
     public class UICompareTo_75E9
     {
+        public int ÏÎÌÌÏÏÏÏÏÏÎÏÌÍÏÏÎÎÎÎÏÍÏ; // 0x10
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0xDBA2E0 | overloaded x2
         public void get_HasState(){} // RVA: 0xDBA490
@@ -219,6 +254,20 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÌÎÏÍÌÏÏÎÍÍÏÏÎÍÎÌÎÌÏÌ</summary>
     public class UIDescriptionPurchase_F7C6
     {
+        public string <ÏÌÏÌÌÏÎÍÌÌÎÎÌÎÎÏÏÏÌÍÍÏÌ>k__BackingField; // 0x20
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÌÌÎÍÏÍÌÏÎÎÎÌÎÍÏÎÌÌÎÎÌÍÍ>k__BackingField; // 0x28
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÌÏÏÎÎÎÌÎÌÎÏÎÍÍÎÍÌÌÌÍÎÌ>k__BackingField; // 0x30
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÌÌÌÏÌÏÍÍÏÏÏÎÎÍÏÌÌÍÏÎÏÌÍ>k__BackingField; // 0x38
+        public string ÏÍÏÍÏÍÏÍÍÏÌÎÎÏÌÍÏÎÎÌÎÍÍ;
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÌÍÌÎÍÌÍÏÏÍÏÍÍÎÍÎÍÏÎÍÎÏÎ; // 0x40
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÎÎÏÏÌÎÏÌÍÌÏÏÏÍÏÍÏÎÍÌÏÎÍ; // 0x48
+        public System.Collections.Generic.List`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ> <ÌÌÎÎÎÎÌÎÍÏÏÍÏÍÏÍÎÌÏÎÍÏÎ>k__BackingField; // 0x50
+        public System.Nullable`1<bool> ÍÎÌÎÏÎÎÎÎÎÏÏÌÏÎÎÏÌÌÍÍÍÌ; // 0x58
+        public VRC.SDKBase.VRCPlayerApi <ÍÍÎÍÏÌÏÍÏÏÍÍÎÌÌÍÍÎÏÎÌÌÎ>k__BackingField; // 0x60
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÏÏÍÎÌÍÌÏÌÏÏÌÍÎÍÌÎÏÎÎÎÍÍ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÍÏÏÏÎÏÌÍÏÎÏÏÍÎÏÎÌÏÏÎÎÎÎ> <ÏÎÎÌÏÏÎÌÌÌÍÍÌÌÏÏÏÏÌÏÏÎÎ>k__BackingField; // 0x70
+        public int ÌÌÌÎÍÍÎÏÌÏÎÍÎÌÍÍÌÏÎÏÏÎÏ;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x99E140
         public void set_Description(){} // RVA: 0x37B380
@@ -336,6 +385,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ</summary>
     public class UIMaxContentCountObservableLisSibling_9E98
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ ÏÎÎÌÌÌÏÍÌÎÍÎÏÌÎÌÌÌÍÍÌÌÎ; // 0x138
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x8D35B20
         public void OnDestroy(){} // RVA: 0x8D35FF0
@@ -556,6 +607,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÏÎÌÍÌÌÌÎÏÌÏÌÏÏÌÏÍÏÌÏÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_4E85
     {
+        public System.Action`1<bool> ÏÎÍÏÏÏÎÍÏÎÌÎÌÎÍÌÍÌÏÏÍÎÌ; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x92F4270
         public void .ctor(){} // RVA: 0x2DDD50
@@ -715,6 +768,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÏÍÌÌÎÌÌÍÍÎÏÍÎÍÍÏÎÍÍÎÏ</summary>
     public class UIRectTransformDimensionsChBefSibling_9DBF
     {
+        public UnityEngine.Canvas _canvas; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8FBDBF0
@@ -783,6 +838,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÎÏÎÌÌÌÎÏÍÎÌÍÌÍÎÎÍÌÌÎ</summary>
     public class UIRectTransformDimensionsChBefSibling_EFAC
     {
+        public ÏÏÌÍÏÌÏÎÏÎÏÌÌÌÌÏÌÏÌÏÏÌÎ tooltip; // 0x128
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9338F80
         public void Initialize(){} // RVA: 0x9338FC0
@@ -811,6 +868,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÍÍÌÏÌÎÏÌÌÍÌÎÏÏÍÍÍÌÏÏÍ</summary>
     public class UIRectTransformDimensionsChBefSibling_FE05
     {
+        public System.Action`1<string> ÍÌÎÌÌÏÌÍÏÏÍÍÍÌÏÎÎÌÌÍÎÏÎ; // 0x128
+
         // ── Methods ──
         public void IsGameObjectActiveSelf(){} // RVA: 0x9344F40
         public void SetRotation(){} // RVA: 0x93455C0
@@ -907,6 +966,17 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÌÎÏÏÎÌÍÍÍÌÌÍÍÏÏÏÌÎÎÌÌ</summary>
     public class UIShowScreenButtonHideScreen_FCF4
     {
+        public bool <ÍÎÏÍÌÌÍÌÎÌÌÌÎÌÎÍÌÍÍÌÍÎÍ>k__BackingField;
+        public ÏÍÌÎÏÏÎÌÍÍÍÌÌÍÍÏÏÏÌÎÎÌÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x8
+        public bool <ÌÎÎÍÏÎÍÎÏÌÍÍÏÌÌÏÏÏÏÏÎÍÎ>k__BackingField; // 0x10
+        public UnityEngine.Transform ÎÎÎÌÎÍÌÍÎÏÍÎÎÍÎÏÎÎÎÌÌÍÍ; // 0x20
+        public UnityEngine.Transform ÍÎÍÍÏÎÌÎÍÌÎÌÍÍÍÌÎÏÍÌÌÏÏ; // 0x28
+        public string ÎÏÏÌÎÌÏÎÏÍÎÏÎÌÎÎÍÎÎÏÏÍÌ; // 0x30
+        public float ÌÍÏÏÏÍÌÏÌÎÌÏÍÎÎÎÎÏÎÏÌÌÎ; // 0x38
+        public float ÏÏÎÏÌÍÌÍÌÍÎÍÎÎÌÌÌÎÎÎÍÌÏ; // 0x3C
+        public float ÎÎÌÏÏÏÍÌÍÌÏÎÎÌÏÏÌÏÌÏÍÏÍ; // 0x40
+        public float ÏÎÍÍÎÍÌÎÍÏÌÎÎÌÍÏÎÎÎÏÎÌÏ; // 0x44
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x18AA5D0 | overloaded x2
         public void Start(){} // RVA: 0x18A2100

@@ -43,10 +43,10 @@ public class DerComparer
 
 public class DeriveBytes
 {
-    public object Password;
-    public object IterationCount;
-    public object Keys;
-    public object Certificates;
+    public byte[] Password;
+    public byte[] IterationCount; // 0x8
+    public byte[] Keys; // 0x10
+    public string Certificates; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
@@ -64,8 +64,8 @@ public class DeriveBytes
 
 public class DerivedJsonTypeInfo
 {
-    public object BaseType;
-    public object UnknownDerivedTypeHandling;
+    public System.Text.Json.Serialization.Metadata.JsonTypeInfo BaseType; // 0x10
+    public System.Type UnknownDerivedTypeHandling; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6408E20
@@ -76,6 +76,8 @@ public class DerivedJsonTypeInfo
 
 public class DerivedTypeList
 {
+    public System.Text.Json.Serialization.Metadata.JsonPolymorphismOptions _parent; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68CE5F0
     public void get_IsReadOnly(){} // RVA: 0x68CE750
@@ -147,6 +149,12 @@ public class DeserializeVector3Delegate
 
 public class DesignerOptionCollection
 {
+    public System.ComponentModel.Design.DesignerOptionService _service; // 0x10
+    public string _name; // 0x18
+    public object _value; // 0x20
+    public System.Collections.ArrayList _children; // 0x28
+    public System.ComponentModel.PropertyDescriptorCollection _properties; // 0x30
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x6CB25A0
     public void get_Name(){} // RVA: 0x2E07C0
@@ -221,7 +229,7 @@ public class DeviceArray
 
 public class DeviceBuilder
 {
-    public object System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControl>.Current;
+    public UnityEngine.InputSystem.InputDevice System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControl>.Current; // 0x10
 
     // ── Methods ──
     public void get_device(){} // RVA: 0x1AD4690
@@ -291,6 +299,11 @@ public class DeviceIndexChangedHandler
 
 public class DeviceInfo
 {
+    public int m_DeviceId; // 0x10
+    public string m_Layout; // 0x18
+    public UnityEngine.InputSystem.Utilities.FourCC m_StateFormat; // 0x20
+    public int m_StateSizeInBytes; // 0x24
+
     // ── Methods ──
     public void get_deviceId(){} // RVA: 0x19689B0
     public void set_deviceId(){} // RVA: 0x833580
@@ -323,6 +336,9 @@ public class DeviceRegainedEvent
 
 public class DeviceRequirement
 {
+    public string m_ControlPath; // 0x10
+    public 0x65867CC0 m_Flags; // 0x18
+
     // ── Methods ──
     public void get_controlPath(){} // RVA: 0x1AD4690
     public void set_controlPath(){} // RVA: 0x100A2F0
@@ -375,10 +391,13 @@ public class DictationResultDelegate
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<string,string>,System.Type>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Entry(){} // RVA: 0xC770
@@ -391,6 +410,9 @@ public class DictionaryEnumerator
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IDictionary`2<U,T> _dictionary;
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Entry(){} // RVA: 0xC770
@@ -403,6 +425,8 @@ public class DictionaryEnumerator
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void MoveNext(){} // RVA: 0xDBE0
@@ -415,146 +439,185 @@ public class DictionaryEnumerator
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,Microsoft.Extensions.Logging.ILogger>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,object>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,Microsoft.Extensions.Logging.Logger>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<SPKey,System.Net.ServicePoint>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Newtonsoft.Json.Serialization.JsonContract>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Union>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,System.Type>,System.Func`2<object,object>>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<object[],object>>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonContainerAttribute>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<object,System.Runtime.Serialization.DataContractAttribute>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonConverterAttribute>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<object,Newtonsoft.Json.JsonObjectAttribute>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Newtonsoft.Json.Utilities.ReflectionObject>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<LiteralList,ZLogger.MessageSequence>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<int,ÍÌÏÎÌÏÌÏÌÏÌÌÌÌÌÏÏÏÎÍÎÏÍ>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,ÏÏÌÌÌÏÌÎÌÏÌÌÎÌÏÌÎÏÍÎÎÌÎ>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<uint,int>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<byte,int>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,VRC.Udon.Common.Interfaces.IUdonComponentGetterModule>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonWrapperModule>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Handlers>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<UIntPtr,SteamAudio.SteamAudioSource>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,object>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,System.Lazy`1<Microsoft.Extensions.Logging.LoggerFilterOptions>>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<VRC.Udon.Security.IUdonSignatureHolder,byte>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ,ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<int,ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,Transmtn.IAcceptMessages>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<VRC.Udon.Security.IUdonSignatureHolder,bool>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<MeaMod.DNS.Model.DomainName,MeaMod.DNS.Server.Node>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary; // 0x10
+    public System.Collections.IDictionaryEnumerator _hashtableEnum; // 0x18
+    public int _posMethod; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5D00560
     public void get_Current(){} // RVA: 0x5D00690
@@ -567,14 +630,18 @@ public class DictionaryEnumerator
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,string>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,Newtonsoft.Json.Serialization.NamingStrategy>,Newtonsoft.Json.Utilities.EnumInfo>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator`2
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<W,T>> _e;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Entry(){} // RVA: 0xC770
@@ -587,6 +654,8 @@ public class DictionaryEnumerator`2
 
 public class DictionaryEnumerator`2
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<W,T>> _e;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Entry(){} // RVA: 0xC770
@@ -599,6 +668,8 @@ public class DictionaryEnumerator`2
 
 public class DictionaryIterator`2 : enumerator
 {
+    public System.Collections.Generic.Dictionary`2<U,T> dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -609,6 +680,8 @@ public class DictionaryIterator`2 : enumerator
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -619,6 +692,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -629,6 +704,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,...<...,...>>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -639,6 +716,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,...<...,...>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -649,6 +728,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -659,6 +740,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -669,6 +752,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -679,6 +764,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -689,6 +776,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0
@@ -699,6 +788,8 @@ public class DictionaryIterator`2
 
 public class DictionaryIterator`2
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BDEED0
     public void GetEnumerator(){} // RVA: 0x2BDF0E0

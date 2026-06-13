@@ -197,6 +197,8 @@ public class Cache
 
 public class CacheCurve
 {
+    public float StartTime; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x1D2A700
     public void .ctor(){} // RVA: 0x1D2A750
@@ -207,6 +209,9 @@ public class CacheCurve
 
 public class CacheEntry
 {
+    public VRC.Core.ApiCacheObject obj; // 0x10
+    public string id; // 0x18
+
     // ── Methods ──
     public void AddRawItem(){} // RVA: 0x1D2B060
     public void CreateCurves(){} // RVA: 0x1D2B4B0
@@ -215,6 +220,9 @@ public class CacheEntry
 
 public class CacheEntry
 {
+    public VRC.Core.ApiCacheObject obj; // 0x10
+    public string id; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9867310
     public void get_TTL(){} // RVA: 0x9867490
@@ -225,6 +233,9 @@ public class CacheEntry
 
 public class CacheEntry
 {
+    public VRC.Core.ApiCacheObject obj; // 0x10
+    public string id; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68ADDD0 | overloaded x2
     public void GetResult(){} // RVA: 0x68ADE30
@@ -263,6 +274,8 @@ public class CachedCodeEntryKey
 
 public class CachedData
 {
+    public OffsetAndRule _oneYearLocalFromUtc; // 0x10
+
     // ── Methods ──
     public void GetCurrentOneYearLocal(){} // RVA: 0x5D6B430
     public void GetOneYearLocalFromUtc(){} // RVA: 0x5D6B5A0
@@ -291,6 +304,10 @@ public class CachedUdonExternDelegate
 
 public class CachingContext
 {
+    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,CacheEntry> _cache; // 0x10
+    public System.Func`2<System.Type,CacheEntry> _cacheEntryFactory; // 0x18
+    public System.Text.Json.JsonSerializerOptions <Options>k__BackingField; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68AD240
     public void get_Options(){} // RVA: 0x30B0C0
@@ -334,6 +351,9 @@ public class CalibrationData
 
 public class CallSiteFormatterContext
 {
+    public System.Collections.Generic.HashSet`1<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite> _processedCallSites; // 0x10
+    public bool _firstItem; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5B8E4B0
     public void get_Offset(){} // RVA: 0x1EA98B0
@@ -351,7 +371,7 @@ public class CallSiteFormatterContext
 
 public class CallSiteValidatorState
 {
-    public object ServiceKey;
+    public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite ServiceKey; // 0x10
 
     // ── Methods ──
     public void get_Singleton(){} // RVA: 0x1AD4690
@@ -396,19 +416,8 @@ public class Callback
 
 public class CallbackContext
 {
-    public object action;
-    public object bindingMask;
-    public object candidates;
-    public object scores;
-    public object magnitudes;
-    public object selectedControl;
-    public object started;
-    public object completed;
-    public object canceled;
-    public object startTime;
-    public object timeout;
-    public object expectedControlType;
-    public object Clear;
+    public UnityEngine.InputSystem.InputActionState action; // 0x10
+    public int bindingMask; // 0x18
 
     // ── Methods ──
     public void get_actionIndex(){} // RVA: 0x1EA9890
@@ -435,6 +444,9 @@ public class CallbackContext
 
 public class CallbackContext
 {
+    public UnityEngine.InputSystem.InputActionState m_State; // 0x10
+    public int m_ActionIndex; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6B45550
 }
@@ -519,6 +531,8 @@ public class CanceledUniTaskCache`1
 
 public class CancellationTokenDisposable : Token
 {
+    public System.Threading.CancellationTokenSource cts;
+
     // ── Methods ──
     public void get_Token(){} // RVA: 0x283FA0
     public void Dispose(){} // RVA: 0x24A50
@@ -570,10 +584,7 @@ public class CastInstructionT`1
 
 public class CatchBlockProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object IfFalse;
-    public object IfTrue;
+    public System.Linq.Expressions.CatchBlock CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DA870
@@ -612,7 +623,7 @@ public class CenterProperty
 
 public class CertID
 {
-    public object TimeStampInfo;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess.EssCertID TimeStampInfo; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x96EFDB0 | overloaded x2
@@ -624,7 +635,7 @@ public class CertID
 
 public class CertId
 {
-    public object Aliases;
+    public byte[] Aliases; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
@@ -642,6 +653,9 @@ public class Chain
 
 public class ChainItemInfo
 {
+    public int <Order>k__BackingField; // 0x10
+    public System.Type <ImplementationType>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_Order(){} // RVA: 0x19689B0
     public void get_ImplementationType(){} // RVA: 0x19689C0
@@ -816,6 +830,9 @@ public class CharDescriptor
 
 public class CharacterPosition
 {
+    public bool use; // 0x10
+    public UnityEngine.Vector2 offset; // 0x14
+
     // ── Methods ──
     public void get_offset3D(){} // RVA: 0x43A9D0
     public void get_direction3D(){} // RVA: 0x43A9F0

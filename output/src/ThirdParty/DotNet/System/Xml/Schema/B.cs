@@ -7,9 +7,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class BaseProcessor
     {
-        public object Count;
-        public object Item;
-        public object IsEmpty;
+        public System.Xml.XmlNameTable Count; // 0x10
+        public System.Xml.Schema.SchemaNames Item; // 0x18
+        public System.Xml.Schema.ValidationEventHandler IsEmpty; // 0x20
+        public System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings; // 0x28
+        public int errorCount; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD1D30 | overloaded x2
@@ -28,6 +30,18 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class BaseValidator
     {
+        public System.Xml.Schema.XmlSchemaCollection schemaCollection; // 0x10
+        public System.Xml.IValidationEventHandling eventHandling; // 0x18
+        public System.Xml.XmlNameTable nameTable; // 0x20
+        public System.Xml.Schema.SchemaNames schemaNames; // 0x28
+        public System.Xml.PositionInfo positionInfo; // 0x30
+        public System.Xml.XmlResolver xmlResolver; // 0x38
+        public System.Uri baseUri; // 0x40
+        public System.Xml.Schema.SchemaInfo schemaInfo; // 0x48
+        public System.Xml.XmlValidatingReaderImpl reader; // 0x50
+        public System.Xml.XmlQualifiedName elementName; // 0x58
+        public System.Xml.Schema.ValidationState context; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD3820 | overloaded x2
         public void get_Reader(){} // RVA: 0x37E0E0
@@ -64,6 +78,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class BitSet
     {
+        public int count; // 0x10
+        public uint[] bits; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD5210 | overloaded x2
         public void get_Count(){} // RVA: 0x32A5C0

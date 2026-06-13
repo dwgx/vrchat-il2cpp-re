@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class PathList
     {
+        public System.Collections.SortedList m_list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3C990
         public void get_Count(){} // RVA: 0x5DFC2A0

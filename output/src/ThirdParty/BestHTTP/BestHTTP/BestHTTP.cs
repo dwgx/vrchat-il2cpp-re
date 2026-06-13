@@ -7,6 +7,17 @@ namespace ThirdParty.BestHTTP.BestHTTP
 {
     public class ConnectionBase
     {
+        public string <ServerAddress>k__BackingField; // 0x10
+        public 0x6579D648 <State>k__BackingField; // 0x18
+        public BestHTTP.HTTPRequest <CurrentRequest>k__BackingField; // 0x20
+        public System.DateTime <StartTime>k__BackingField; // 0x28
+        public System.DateTime <TimedOutStart>k__BackingField; // 0x30
+        public System.Uri <LastProcessedUri>k__BackingField; // 0x38
+        public System.DateTime LastProcessTime; // 0x40
+        public BestHTTP.HTTPConnectionRecycledDelegate OnConnectionRecycled; // 0x48
+        public bool IsThreaded; // 0x50
+        public bool <IsDisposed>k__BackingField; // 0x51
+
         // ── Methods ──
         public void get_ServerAddress(){} // RVA: 0x2F8380
         public void set_ServerAddress(){} // RVA: 0x2DEE30
@@ -48,6 +59,8 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPConnection
     {
+        public BestHTTP.PlatformSupport.TcpClient.General.TcpClient Client; // 0x58
+
         // ── Methods ──
         public void get_IsRemovable(){} // RVA: 0x942CE30
         public void .ctor(){} // RVA: 0x942C280
@@ -75,6 +88,26 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPManager
     {
+        public byte maxConnectionPerServer;
+        public bool <KeepAliveDefaultValue>k__BackingField; // 0x1
+        public bool <IsCachingDisabled>k__BackingField; // 0x2
+        public System.TimeSpan <MaxConnectionIdleTime>k__BackingField; // 0x8
+        public bool <IsCookiesEnabled>k__BackingField; // 0x10
+        public uint <CookieJarSize>k__BackingField; // 0x14
+        public bool <EnablePrivateBrowsing>k__BackingField; // 0x18
+        public System.TimeSpan <ConnectTimeout>k__BackingField; // 0x20
+        public System.TimeSpan <RequestTimeout>k__BackingField; // 0x28
+        public System.Func`1<string> <RootCacheFolderProvider>k__BackingField; // 0x30
+        public BestHTTP.Proxy <Proxy>k__BackingField; // 0x38
+        public BestHTTP.Extensions.HeartbeatManager heartbeats; // 0x40
+        public BestHTTP.Logger.ILogger logger; // 0x48
+        public Org.BouncyCastle.Crypto.Tls.ICertificateVerifyer <DefaultCertificateVerifyer>k__BackingField; // 0x50
+        public Org.BouncyCastle.Crypto.Tls.IClientCredentialsProvider <DefaultClientCredentialsProvider>k__BackingField; // 0x58
+        public bool <UseAlternateSSLDefaultValue>k__BackingField; // 0x60
+        public System.Func`4<BestHTTP.HTTPRequest,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,bool> <DefaultCertificationValidator>k__BackingField; // 0x68
+        public bool TryToMinimizeTCPLatency; // 0x70
+        public int SendBufferSize; // 0x74
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9430E20
         public void get_MaxConnectionPerServer(){} // RVA: 0x94318D0
@@ -142,6 +175,10 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPProxy
     {
+        public bool <IsTransparent>k__BackingField; // 0x20
+        public bool <SendWholeUri>k__BackingField; // 0x21
+        public bool <NonTransparentForHTTPS>k__BackingField; // 0x22
+
         // ── Methods ──
         public void get_IsTransparent(){} // RVA: 0x3CB9D0
         public void set_IsTransparent(){} // RVA: 0x3CB9E0
@@ -156,6 +193,11 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPRange
     {
+        public int <FirstBytePos>k__BackingField; // 0x10
+        public int <LastBytePos>k__BackingField; // 0x14
+        public int <ContentLength>k__BackingField; // 0x18
+        public bool <IsValid>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_FirstBytePos(){} // RVA: 0x32A5C0
         public void set_FirstBytePos(){} // RVA: 0x2E00C0
@@ -171,6 +213,60 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPRequest
     {
+        public byte[] EOL;
+        public string[] MethodNames; // 0x8
+        public int UploadChunkSize; // 0x10
+        public System.Uri <Uri>k__BackingField; // 0x10
+        public 0x6579D7A8 <MethodType>k__BackingField; // 0x18
+        public byte[] <RawData>k__BackingField; // 0x20
+        public System.IO.Stream <UploadStream>k__BackingField; // 0x28
+        public bool <DisposeUploadStream>k__BackingField; // 0x30
+        public bool <UseUploadStreamLength>k__BackingField; // 0x31
+        public BestHTTP.OnUploadProgressDelegate OnUploadProgress; // 0x38
+        public int <MaxFragmentQueueLength>k__BackingField; // 0x40
+        public BestHTTP.OnRequestFinishedDelegate <Callback>k__BackingField; // 0x48
+        public BestHTTP.OnDownloadProgressDelegate OnProgress; // 0x50
+        public BestHTTP.OnRequestFinishedDelegate OnUpgraded; // 0x58
+        public bool <DisableRetry>k__BackingField; // 0x60
+        public bool <IsRedirected>k__BackingField; // 0x61
+        public System.Uri <RedirectUri>k__BackingField; // 0x68
+        public BestHTTP.HTTPResponse <Response>k__BackingField; // 0x70
+        public BestHTTP.HTTPResponse <ProxyResponse>k__BackingField; // 0x78
+        public System.Exception <Exception>k__BackingField; // 0x80
+        public object <Tag>k__BackingField; // 0x88
+        public BestHTTP.Authentication.Credentials <Credentials>k__BackingField; // 0x90
+        public BestHTTP.Proxy <Proxy>k__BackingField; // 0x98
+        public int <MaxRedirects>k__BackingField; // 0xA0
+        public bool <UseAlternateSSL>k__BackingField; // 0xA4
+        public bool <IsCookiesEnabled>k__BackingField; // 0xA5
+        public System.Collections.Generic.List`1<BestHTTP.Cookies.Cookie> customCookies; // 0xA8
+        public 0x657C3978 <FormUsage>k__BackingField; // 0xB0
+        public 0x6579D9B8 <State>k__BackingField; // 0xB4
+        public int <RedirectCount>k__BackingField; // 0xB8
+        public System.Func`4<BestHTTP.HTTPRequest,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,bool> CustomCertificationValidator; // 0xC0
+        public System.TimeSpan <ConnectTimeout>k__BackingField; // 0xC8
+        public System.TimeSpan <Timeout>k__BackingField; // 0xD0
+        public bool <EnableTimoutForStreaming>k__BackingField; // 0xD8
+        public bool <EnableSafeReadOnUnknownContentLength>k__BackingField; // 0xD9
+        public int <Priority>k__BackingField; // 0xDC
+        public Org.BouncyCastle.Crypto.Tls.ICertificateVerifyer <CustomCertificateVerifyer>k__BackingField; // 0xE0
+        public Org.BouncyCastle.Crypto.Tls.IClientCredentialsProvider <CustomClientCredentialsProvider>k__BackingField; // 0xE8
+        public System.Collections.Generic.List`1<string> <CustomTLSServerNameList>k__BackingField; // 0xF0
+        public 0x6579D800 <ProtocolHandler>k__BackingField; // 0xF8
+        public BestHTTP.OnBeforeRedirectionDelegate onBeforeRedirection; // 0x100
+        public BestHTTP.OnBeforeHeaderSendDelegate _onBeforeHeaderSend; // 0x108
+        public bool <TryToMinimizeTCPLatency>k__BackingField; // 0x110
+        public int <SendBufferSize>k__BackingField; // 0x114
+        public int <ReceiveBufferSize>k__BackingField; // 0x118
+        public long <Downloaded>k__BackingField; // 0x120
+        public long <DownloadLength>k__BackingField; // 0x128
+        public bool <DownloadProgressChanged>k__BackingField; // 0x130
+        public long <Uploaded>k__BackingField; // 0x138
+        public long <UploadLength>k__BackingField; // 0x140
+        public bool <UploadProgressChanged>k__BackingField; // 0x148
+        public bool isKeepAlive; // 0x149
+        public bool disableCache; // 0x14A
+
         // ── Methods ──
         public void get_Uri(){} // RVA: 0x2F8380
         public void set_Uri(){} // RVA: 0x2DEE30
@@ -317,6 +413,24 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPResponse
     {
+        public byte CR;
+        public byte LF;
+        public int MinBufferSize;
+        public int <VersionMajor>k__BackingField; // 0x10
+        public int <VersionMinor>k__BackingField; // 0x14
+        public int <StatusCode>k__BackingField; // 0x18
+        public string <Message>k__BackingField; // 0x20
+        public bool <IsStreamed>k__BackingField; // 0x28
+        public bool <IsStreamingFinished>k__BackingField; // 0x29
+        public bool <IsFromCache>k__BackingField; // 0x2A
+        public BestHTTP.Caching.HTTPCacheFileInfo <CacheFileInfo>k__BackingField; // 0x30
+        public bool <IsCacheOnly>k__BackingField; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<string>> <Headers>k__BackingField; // 0x40
+        public byte[] <Data>k__BackingField; // 0x48
+        public bool <IsUpgraded>k__BackingField; // 0x50
+        public System.Collections.Generic.List`1<BestHTTP.Cookies.Cookie> <Cookies>k__BackingField; // 0x58
+        public string dataAsText; // 0x60
+
         // ── Methods ──
         public void get_VersionMajor(){} // RVA: 0x32A5C0
         public void set_VersionMajor(){} // RVA: 0x2E00C0
@@ -383,6 +497,12 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class HTTPUpdateDelegator
     {
+        public BestHTTP.HTTPUpdateDelegator <Instance>k__BackingField;
+        public bool <IsCreated>k__BackingField; // 0x8
+        public bool <IsThreaded>k__BackingField; // 0x9
+        public bool <IsThreadRunning>k__BackingField; // 0xA
+        public int <ThreadFrequencyInMS>k__BackingField; // 0xC
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x9444820
         public void set_Instance(){} // RVA: 0x9444880
@@ -414,6 +534,9 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class KeepAliveHeader
     {
+        public System.TimeSpan <TimeOut>k__BackingField; // 0x10
+        public int <MaxRequests>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_TimeOut(){} // RVA: 0x2F8380
         public void set_TimeOut(){} // RVA: 0x1967700
@@ -479,6 +602,9 @@ namespace ThirdParty.BestHTTP.BestHTTP
 
     public class Proxy
     {
+        public System.Uri <Address>k__BackingField; // 0x10
+        public BestHTTP.Authentication.Credentials <Credentials>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Address(){} // RVA: 0x2F8380
         public void set_Address(){} // RVA: 0x2DEE30

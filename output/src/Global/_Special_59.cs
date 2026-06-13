@@ -420,6 +420,8 @@ public class _IsViewingPermitted
 
 public class _Join
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -434,6 +436,8 @@ public class _Join
 
 public class _JoinAwait
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -450,6 +454,8 @@ public class _JoinAwait
 
 public class _JoinAwaitWithCancellation
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -664,6 +670,8 @@ public class _LockGLSharedTextureForAccess
 
 public class _Merge
 {
+    public System.Action`1<object> GetResultAtAction;
+
     // ── Methods ──
     public void get_Current(){} // RVA: 0x283FA0
     public void set_Current(){} // RVA: 0x283FA0
@@ -687,6 +695,8 @@ public class _MoveGamepadFocusToNeighbor
 
 public class _Never
 {
+    public System.Threading.CancellationToken cancellationToken;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24CC0
     public void get_Current(){} // RVA: 0x283FA0
@@ -731,6 +741,8 @@ public class _OpenBindingUI
 
 public class _OrderedAsyncEnumerator
 {
+    public Cysharp.Threading.Tasks.Linq.OrderedAsyncEnumerable`1<T> parent;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -742,6 +754,8 @@ public class _OrderedAsyncEnumerator
 
 public class _Pairwise
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -926,6 +940,10 @@ public class _PropertyContainer
 
 public class _Publish
 {
+    public System.Action`1<object> CancelDelegate;
+    public Cysharp.Threading.Tasks.Linq.Publish`1<T> parent;
+    public System.Threading.CancellationToken cancellationToken;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0

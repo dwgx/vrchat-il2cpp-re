@@ -36,6 +36,8 @@ namespace ThirdParty.DotNet.System.Security
 
     public class NamedPermissionSet
     {
+        public string name; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C63E30 | overloaded x3
         public void get_Name(){} // RVA: 0x6374D0
@@ -47,6 +49,10 @@ namespace ThirdParty.DotNet.System.Security
 
     public class PermissionSet
     {
+        public object[] psUnrestricted;
+        public 0x657E6658 state; // 0x10
+        public System.Collections.ArrayList list; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C64390 | overloaded x3
         public void CopyTo(){} // RVA: 0x5C643E0
@@ -68,6 +74,8 @@ namespace ThirdParty.DotNet.System.Security
 
     public class SecureString
     {
+        public int BlockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C65520 | overloaded x2
         public void get_Length(){} // RVA: 0x5C65690
@@ -95,6 +103,11 @@ namespace ThirdParty.DotNet.System.Security
 
     public class SecurityElement
     {
+        public string text; // 0x10
+        public string tag; // 0x18
+        public System.Collections.ArrayList attributes; // 0x20
+        public System.Collections.ArrayList children; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5C65A20 | overloaded x2
         public void get_Children(){} // RVA: 0x30B130

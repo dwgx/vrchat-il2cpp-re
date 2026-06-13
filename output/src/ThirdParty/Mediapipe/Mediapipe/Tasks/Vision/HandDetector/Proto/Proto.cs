@@ -7,6 +7,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandDetector.Proto
 {
     public class HandDetectorGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandDetector.Proto.HandDetectorGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public float MinDetectionConfidenceDefaultValue; // 0x8
+        public float minDetectionConfidence_; // 0x28
+        public int NumHandsDefaultValue; // 0xC
+        public int numHands_; // 0x2C
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B67B90
         public void get_Descriptor(){} // RVA: 0x5B67BF0
@@ -36,6 +45,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandDetector.Proto
 
     public class HandDetectorGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B67220
         public void .cctor(){} // RVA: 0x5B67280

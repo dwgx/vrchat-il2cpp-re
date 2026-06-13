@@ -7,6 +7,9 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class ViewHierarchy : ؄}e
     {
+        public string <RenderingSystem>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> <Windows>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_RenderingSystem(){} // RVA: 0x2F8380
         public void set_RenderingSystem(){} // RVA: 0x2DEE30
@@ -23,6 +26,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class ViewHierarchyNode
     {
+        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> _children; // 0x10
+        public string <Type>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2E07C0
         public void set_Type(){} // RVA: 0x343E80

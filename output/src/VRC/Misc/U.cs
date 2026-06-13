@@ -41,6 +41,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÌÌÌÏÏÌÎÎÍÍÏÎÏÎÍÎÌÎÏÎÍ</summary>
     public class Unknown6m_72F1 : ÌÏÎÏÍÏÌÎÍÏÏÏÍÏÌÎÏÍÍÌÎÏÍ
     {
+        public System.Collections.Generic.Dictionary`2<string,Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ>> ÌÏÌÌÎÎÌÎÌÍÌÏÍÌÎÍÌÍÍÎÏÍÌ; // 0x20
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x9034990
@@ -115,6 +117,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÌÌÌÍÎÍÎÌÍÎÏÎÌÎÌÌÍÌÎÍ</summary>
     public class UpdateHeight_29A4
     {
+        public VRC.Localization.LocalizableString ÏÎÌÌÎÏÌÏÎÏÎÏÍÏÌÎÎÌÎÎÍÍÌ;
+        public VRC.Localization.LocalizableString ÍÎÎÍÎÌÎÎÌÍÍÎÎÌÍÌÍÌÌÍÍÍÏ; // 0x28
+
         // ── Methods ──
         public void BeginHeightUpdateInvoke(){} // RVA: 0x90E3D40
         public void Start(){} // RVA: 0x90E3E70
@@ -181,6 +186,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÏÍÏÏÌÍÌÏÌÌÌÎÌÎÏÍÏÏÏÎÏ</summary>
     public class UpdateHeight_7FC3
     {
+        public ÍÎÏÏÍÌÍÎÏÍÏÏÍÍÍÎÍÍÌÎÌÌÍ _selectedAvatarPanel; // 0x20
+
         // ── Methods ──
         public void GetNextFormatArgument(){} // RVA: 0x904D2A0
         public void get_TraceWriter(){} // RVA: 0x7F7DB0
@@ -256,6 +263,53 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÎÌÍÌÎÍÌÏÌÏÏÌÍÍÌÌÌÏÏÌ</summary>
     public class UserConnectionApplyComponent_D0E4
     {
+        public ÍÌÎÎÌÍÌÎÍÌÏÌÏÏÌÍÍÌÌÌÏÏÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÍÎÏÎÏÌÍÌÌÎÏÌÎÍÌÏÎÌÎÌÍÍ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÎÎÌÍÍÍÌÌÎÌÏÏÎÏÌÍÌÏÎÍÏÏ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÏÏÎÌÏÏÍÍÏÏÎÍÏÎÌÏÌÌÌÌÌÏÏ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÎÌÏÎÍÍÍÌÍÎÏÌÌÍÎÏÎÏÌÎÍÎ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÎÍÍÏÎÍÍÌÎÎÌÌÌÎÏÏÌÌÌÌÌÎ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÏÏÏÍÍÍÍÏÏÎÏÌÏÍÏÍÏÎÌÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÎÌÏÌÌÏÍÏÎÌÌÏÌÎÌÎÌÍÌÌÎÌÌ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÏÏÎÏÎÌÌÌÌÎÍÍÌÌÌÎÏÎÌÍÏÎÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÎÏÏÏÎÍÍÌÍÏÌÍÍÌÍÌÌÎÌÍ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÌÎÍÎÍÌÏÌÏÏÎÌÍÍÎÌÏÍÍÍÏÎ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÏÎÎÌÎÏÎÌÎÏÎÍÏÍÏÎÏÎÌÏÎÎÌ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÎÍÍÌÍÎÎÏÏÏÌÏÎÏÌÏÌÎÏÎÌÎ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÎÎÏÏÌÌÌÍÏÍÎÏÏÌÎÍÏÍÌÍÏÏ>k__BackingField; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÍÌÍÎÍÌÍÏÎÏÍÎÌÍÏÌÍÏÌÏÌÎ>k__BackingField; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÍÍÌÌÏÍÍÍÎÍÌÍÎÍÍÌÏÍÍÏÌ>k__BackingField; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÏÍÌÏÍÏÌÎÍÌÌÎÍÌÍÎÏÎÏÏÏÏÌ>k__BackingField; // 0xA0
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.Generic.IList`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ>> ÏÎÏÌÍÌÌÍÍÎÍÏÍÏÌÌÎÌÎÌÍÏÏ; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÍÍÎÎÏÌÎÎÌÌÍÌÏÎÍÎÌÎÌÏ> ÎÎÍÍÎÌÏÍÎÎÍÎÍÎÏÌÌÎÎÏÌÏÏ; // 0xB0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÍÍÎÎÏÌÎÎÌÌÍÌÏÎÍÎÌÎÌÏ> ÍÎÏÌÎÎÌÏÍÍÎÏÍÌÍÏÏÎÌÌÌÎÍ; // 0xB8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÍÍÎÎÏÌÎÎÌÌÍÌÏÎÍÎÌÎÌÏ> ÌÍÎÍÌÌÍÌÏÏÍÎÎÍÌÏÌÎÏÎÍÍÍ; // 0xC0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÍÍÎÎÏÌÎÎÌÌÍÌÏÎÍÎÌÎÌÏ> ÏÍÏÏÎÎÎÏÏÌÍÏÏÍÌÎÍÍÌÏÏÍÍ; // 0xC8
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÍÍÏÏÍÏÌÏÎÎÏÎÌÏÌÎÏÎÌÍÎÌÌ; // 0xD0
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÎÏÍÌÏÍÏÏÌÎÏÍÌÏÍÌÏÎÎÍÏÏÏ; // 0xD8
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÌÍÍÏÌÍÌÍÌÍÎÏÎÍÎÎÍÌÌÏÏÍÌ; // 0xE0
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÎÍÌÎÍÎÌÎÎÌÌÏÌÎÌÌÍÍÎÌÍÌÍ; // 0xE8
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÎÌÎÏÏÎÌÍÌÍÌÏÍÌÏÎÏÏÎÍÍÎ; // 0xF0
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÎÏÌÏÌÏÌÎÌÎÍÏÏÏÎÎÍÏÍÍÍÌÍ; // 0xF8
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÎÏÌÌÍÍÏÏÏÍÎÌÎÌÎÎÏÎÏÏÌÎ; // 0x100
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÍÍÎÍÍÍÍÏÍÍÌÎÏÏÌÏÎÎÌÍÎÌ; // 0x108
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÏÏÍÌÍÎÍÌÎÍÌÎÍÎÌÌÌÏÎÌÌÏ; // 0x110
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÏÎÍÎÍÌÏÍÎÏÍÍÌÏÌÌÌÎÍÏÍÌ; // 0x118
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÏÌÎÏÏÍÌÎÌÍÍÌÏÍÍÍÌÎÍÏÌÌÌ; // 0x120
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.IList> ÌÎÎÏÎÏÎÏÎÏÎÎÍÌÎÍÏÌÎÎÏÎÍ; // 0x128
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÏÍÎÏÏÌÍÍÏÎÍÎÌÎÍÍÏÌÌÏÌÎÏ>k__BackingField; // 0x130
+        public ÏÎÌÍÌÌÌÎÌÌÎÎÎÌÍÍÌÌÌÎÏÌÏ <ÌÏÌÌÏÍÍÍÌÌÌÍÏÎÍÎÏÏÍÍÍÎÎ>k__BackingField; // 0x138
+        public System.Action <ÍÏÍÎÌÍÌÎÎÏÍÍÍÌÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x140
+        public int ÏÎÌÎÌÎÏÏÏÌÌÎÌÍÏÌÏÌÌÌÌÎÎ;
+        public int ÌÎÏÌÍÌÏÏÏÍÍÌÍÎÎÎÌÏÏÌÌÎÍ;
+        public int ÌÎÍÏÌÎÎÌÌÏÌÎÎÎÍÍÏÍÏÍÌÌÍ;
+        public int ÍÎÎÌÌÎÌÎÏÏÍÎÍÍÎÍÌÍÎÌÎÌÌ;
+        public float ÎÏÌÍÍÍÏÍÎÌÎÎÌÏÌÎÏÎÌÌÎÍÏ;
+        public float ÍÍÌÏÎÍÌÍÎÌÌÎÏÏÍÍÏÎÌÏÎÎÎ;
+        public float ÏÎÍÏÎÍÏÏÎÏÎÎÌÏÏÌÌÍÎÍÍÌÎ; // 0x148
+        public float ÌÌÌÎÎÎÎÌÌÏÏÏÌÏÌÍÎÍÌÌÌÎÏ; // 0x14C
+        public System.ValueTuple`2<string,float> ÍÍÍÏÏÏÌÎÍÌÌÏÍÍÏÍÍÎÍÎÏÍÎ; // 0x150
+
         // ── Methods ──
         public void get_focusController(){} // RVA: 0xA1C8C0
         public void ConstructNullableValue(){} // RVA: 0xA8DA50

@@ -8,6 +8,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÍÍÎÌÎÏÍÎÍÌÏÍÍÍÎÏÎÌÏÏÏ</summary>
     public class NetworkCancelRPCSibling_230A
     {
+        public ÍÌÎÌÏÏÏÌÎÎÎÌÏÏÍÏÏÏÎÎÌÏÍ _muteReminder; // 0x20
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x19295D0
         public void Start(){} // RVA: 0x19296B0
@@ -31,6 +33,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÍÍÏÍÍÍÍÌÏÎÌÏÍÍÍÏÍÍÎÌ</summary>
     public class NetworkDisposeAsync_9716_92D8
     {
+        public ÌÍÎÏÍÏÏÍÏÎÌÏÍÌÎÍÌÍÌÏÌÍÌ ÎÍÎÍÍÍÌÍÍÏÌÌÏÏÌÏÏÍÍÍÎÎÎ; // 0x10
+        public System.WeakReference`1<ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ> <ÍÍÌÌÌÌÍÍÏÎÍÌÌÏÌÍÎÎÌÏÎÍÍ>k__BackingField; // 0x18
+        public bool <ÎÍÎÏÌÌÌÌÍÏÌÍÌÎÏÎÏÌÏÎÎÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void Equals(){} // RVA: 0x343E80
@@ -75,6 +81,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÏÌÌÌÎÍÌÍÍÍÎÎÏÌÎÍÎÍÌÌ</summary>
     public class NetworkItemSibling_FEF9SiRelated_6283
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] <ÌÌÎÍÏÎÌÌÏÍÎÏÍÎÌÎÌÍÌÍÏÎÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x1968950
@@ -93,6 +102,11 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÍÌÎÏÍÌÏÏÌÎÎÎÌÌÏÍÌÎÌÍ</summary>
     public class NetworkItemSibling_FEF9Sibling_2DBD
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public uint <ÎÏÌÍÍÍÎÍÎÏÎÍÏÍÍÍÎÍÏÎÏÏÎ>k__BackingField; // 0x18
+        public int <ÌÍÍÏÎÎÎÍÌÌÎÍÌÍÌÏÎÌÏÏÌÌÎ>k__BackingField; // 0x1C
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÍÍÏÏÎÌÍÍÌÏÍÎÎÎÎÌÌÎÏÌÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x1EA9890
         public void get_Capacity(){} // RVA: 0x1EA98B0
@@ -113,6 +127,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public T ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ;
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void Add(){} // RVA: 0x24B10
@@ -124,6 +140,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public 0x65785E38 ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ; // 0x30
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4EE1820
         public void Add(){} // RVA: 0x4EE1930
@@ -135,6 +153,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public 0x65785E90 ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ; // 0x30
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4EE1820
         public void Add(){} // RVA: 0x4EE1930
@@ -146,6 +166,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public 0x658842D8 ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ; // 0x30
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4EE1820
         public void Add(){} // RVA: 0x4EE1930
@@ -157,6 +179,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public 0x657860F8 ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ; // 0x30
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4EE1820
         public void Add(){} // RVA: 0x4EE1930
@@ -168,6 +192,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÎÎÏÍÍÏÍÍÎÎÍÍÌÌÍÏÏÍÌÎ</summary>
     public class NetworkItem_722FSiblingSiRelated_1A51
     {
+        public 0x6588DFF0 ÏÏÏÍÌÌÍÌÍÍÏÌÌÌÎÎÍÌÌÎÎÏÍ; // 0x30
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x4EE1820
         public void Add(){} // RVA: 0x4EE1930
@@ -179,6 +205,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÏÌÍÍÌÎÍÌÍÎÎÎÏÍÍÏÌÏÎÎÌ</summary>
     public class NetworkItem_722FSiblingSiRelated_AEC0
     {
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<System.Collections.Generic.IList`1<U>> ÎÍÏÏÍÎÎÍÏÌÍÏÌÎÍÌÍÌÎÌÌÌÍ;
+        public System.Func`2<U,T> ÏÏÌÍÌÌÌÏÍÎÌÌÏÏÏÍÍÌÏÏÍÎÎ;
+
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void InitializeCollection(){} // RVA: 0x24A50
@@ -208,6 +237,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÌÎÌÎÍÏÏÍÍÍÍÏÎÏÌÏÌÌÏÍÍ</summary>
     public class NetworkItem_722FSiblingSiRelated_DA9F
     {
+        public System.Action ÏÍÍÌÎÎÎÏÎÌÍÍÌÎÎÏÎÎÌÍÎÍÍ; // 0x10
+        public System.Collections.Generic.List`1<ÎÎÌÏÌÍÏÏÍÏÎÏÌÏÌÏÌÍÏÌÌÏÌ> <ÏÎÏÏÌÏÏÌÎÎÌÏÍÌÍÎÍÌÍÍÎÍÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xD840
         public void GetZ(){} // RVA: 0xE9A9C0
@@ -246,6 +278,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public U ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ;
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField;
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void op_Implicit(){} // RVA: 0x283FA0
@@ -262,7 +297,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
-        public object [I;
+        public VRC.Core.APIUser [I; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
 
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
@@ -280,6 +316,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiAdminAssetBundle ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -296,6 +335,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public GalleryObject ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -312,6 +354,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupMember ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -328,6 +373,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupRoleList ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -344,6 +392,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiHypeTrainInfo ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -360,6 +411,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiInventoryItem ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -376,6 +430,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiInventoryBundle ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -392,6 +449,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public ApiBundleDropNotificationDetails ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -408,6 +468,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APISticker ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -424,6 +487,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIEmoji ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -440,6 +506,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APICalendarEntryUserInterest ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -456,6 +525,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLeaderboard ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -472,6 +544,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLeaderboardAnonymizationStatus ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -488,6 +563,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLeaderboardData ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -504,6 +582,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLeaderboardUserStats ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -520,6 +601,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLeaderboardRank ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -536,6 +620,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiProduct ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -552,6 +639,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiProductPurchaseStatus ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -568,6 +658,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiProductVariant ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -584,6 +677,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiPurchase ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -600,6 +696,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiStoreShelf ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -616,6 +715,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiCampaign ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -632,6 +734,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiCampaignReward ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -648,6 +753,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiCampaignRewardProgress ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -664,6 +772,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiInfoPushSystem ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -680,6 +791,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public MarketplaceCategoryData ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -696,6 +810,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiWorldInstance ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -712,6 +829,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiAvatar ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -728,6 +848,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiBadge ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -744,6 +867,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiDroneSkin ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -760,6 +886,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiEconomyStore ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -776,6 +905,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroup ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -792,6 +924,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupAnnouncement ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -808,6 +943,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiGroupGalleryImage ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -824,6 +962,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiGroupInstanceAnnouncement ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -840,6 +981,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupList ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -856,6 +1000,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupMemberList ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -872,6 +1019,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIGroupRole ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -888,6 +1038,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiFile ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -904,6 +1057,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiMessage ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -920,6 +1076,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLedgerTransaction ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -936,6 +1095,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiLoadingScreen ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -952,6 +1114,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public UnityEngine.Texture2D ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -968,6 +1133,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiMutualFriend ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -984,6 +1152,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiMutualGroup ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1000,6 +1171,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public Transmtn.DTO.Notifications.Notification ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1016,6 +1190,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiPortalSkin ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1032,6 +1209,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiPrint ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1048,6 +1228,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiProp ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1064,6 +1247,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiPropItemMetadata ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1080,6 +1266,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiReport ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1096,6 +1285,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiSharedConnectionCounts ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1112,6 +1304,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiTransaction ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1128,6 +1323,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APITutorial ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1144,6 +1342,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APIUIColorPalette ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1160,6 +1361,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiViewfinderSkin ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1176,6 +1380,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiWarpEffectSkin ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1192,6 +1399,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.ApiWorld ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1208,6 +1418,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.FavoriteListModel ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1224,6 +1437,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÍÎÌÍÎÎÎÌÎÍÍÎÎÎÏÍÎÍÌÎÍ</summary>
     public class NetworkItem_722FSibling_9B99
     {
+        public VRC.Core.APICalendarEntry ÍÌÌÌÌÎÌÌÎÍÏÍÍÍÍÎÎÍÎÌÏÌÏ; // 0x10
+        public string <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x408EFF0
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -1298,6 +1514,18 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÌÏÏÏÌÍÍÌÎÏÎÌÎÎÍÎÏÌÌÍ</summary>
     public class NetworkShouldBroadcastInstigator_5171
     {
+        public int ÍÎÌÌÌÌÏÎÏÎÌÏÏÏÏÎÍÏÌÌÏÏÌ; // 0x10
+        public int ÎÎÎÏÏÌÍÍÏÏÎÎÍÌÎÍÏÍÌÏÍÍÎ; // 0x14
+        public int ÌÌÌÌÍÍÏÍÌÌÎÏÍÌÏÎÌÌÎÎÍÏÍ; // 0x18
+        public VrcEvent ÏÍÏÌÎÎÍÎÌÍÌÍÎÍÌÏÌÍÎÎÏÎÍ; // 0x20
+        public string ÏÎÍÌÎÏÍÍÏÍÌÍÍÌÏÎÍÏÌÌÍÎÏ; // 0x28
+        public float ÏÌÍÎÎÌÍÏÌÏÎÏÍÏÏÏÍÌÏÏÍÏÍ; // 0x30
+        public float ÎÌÌÍÏÌÎÍÏÌÌÏÌÍÍÏÏÍÌÍÏÌÏ; // 0x34
+        public object[] ÎÍÍÍÌÎÍÎÍÌÏÌÎÎÏÏÌÍÌÍÌÏÏ; // 0x38
+        public 0x659718F0 ÍÍÎÍÍÌÎÌÌÍÎÌÏÍÍÏÏÌÎÍÍÎÌ; // 0x40
+        public byte[] ÎÏÏÌÎÏÎÌÎÌÏÎÌÌÎÍÏÎÍÌÍÎÎ; // 0x48
+        public int <ÍÌÏÎÍÎÌÍÌÎÌÏÍÏÍÏÏÎÌÌÏÍÌ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void get_Sender(){} // RVA: 0x59C540
@@ -1385,6 +1613,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÍÌÍÍÏÌÏÎÍÍÌÎÍÍÏÍÎÌÎÏÏ</summary>
     public class NetworkSyncableSiblingSibRelated_389A
     {
+        public 0x65725B40 ÏÍÏÏÍÍÍÍÏÌÍÌÏÎÍÌÌÏÎÏÌÏÍ; // 0x68
+        public bool ÍÍÎÎÎÎÏÏÌÍÍÏÌÏÍÍÎÎÍÌÎÌÏ; // 0x6C
+
         // ── Methods ──
         public void CreateNetworkSyncMessage(){} // RVA: 0x19A0210
         public void ReadApplicationState(){} // RVA: 0x3060A0
@@ -1407,6 +1638,11 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÎÌÎÎÏÏÎÎÎÍÏÎÎÎÏÏÌÌÎÍ</summary>
     public class NetworkSyncableSiblingSibRelated_5EC7
     {
+        public Mediapipe.Unity.DetectionListAnnotationController _palmDetectionsAnnotationController; // 0x60
+        public Mediapipe.Unity.NormalizedRectListAnnotationController _handRectsFromPalmDetectionsAnnotationController; // 0x68
+        public Mediapipe.Unity.MultiHandLandmarkListAnnotationController _handLandmarksAnnotationController; // 0x70
+        public Mediapipe.Unity.NormalizedRectListAnnotationController _handRectsFromLandmarksAnnotationController; // 0x78
+
         // ── Methods ──
         public void get_Version(){} // RVA: 0x19E81C0
         public void DeserializeNetworkSyncable(){} // RVA: 0x19E9210
@@ -1465,6 +1701,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÏÎÍÍÎÏÎÍÎÌÎÌÎÎÌÌÌÍÏÌÌ</summary>
     public class NetworkSyncableSiblingSibRelated_BCE5
     {
+        public Mediapipe.Unity.DetectionListAnnotationController _faceDetectionsAnnotationController; // 0x60
+
         // ── Methods ──
         public void UpdateTransformPose(){} // RVA: 0x1A09090
         public void UpdateTransformPose_D9E4C5EFFA4D(){} // RVA: 0x1A09090
@@ -1488,6 +1726,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÏÎÏÏÏÌÏÎÍÍÏÌÌÏÏÏÍÎÎÌ</summary>
     public class NetworkSyncableSiblingSibRelated_D9C0
     {
+        public 0x65726C18 ÏÍÏÏÍÍÍÍÏÌÍÌÏÎÍÌÌÏÎÏÌÏÍ; // 0x68
+        public int ÍÎÏÍÌÌÎÌÏÎÏÏÌÍÏÏÍÎÎÎÏÏÍ; // 0x6C
+
         // ── Methods ──
         public void OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange(){} // RVA: 0x3060C0
         public void OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange_AA03E5EA4797(){} // RVA: 0x3060C0
@@ -1506,6 +1747,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÌÍÎÍÍÍÍÍÎÌÏÏÎÌÌÎÌÍÎÌ</summary>
     public class NetworkSyncableSiblingSibling_5EA4
     {
+        public float ÎÍÏÏÌÌÏÏÌÍÍÍÍÎÍÏÌÎÎÏÍÏÏ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x5BF170
         public void Awake(){} // RVA: 0x5BFAD0
@@ -1528,6 +1771,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void OnCanceled(){} // RVA: 0x24CC0
@@ -1549,6 +1794,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1570,6 +1817,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1591,6 +1840,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1612,6 +1863,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1633,6 +1886,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1654,6 +1909,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1675,6 +1932,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
     public class NetworkSyncableSiblingSibling_AE3B
     {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4EE62E0
         public void OnCanceled(){} // RVA: 0x4EE6320
@@ -1696,6 +1955,9 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÎÏÍÍÏÎÌÎÏÍÏÌÏÍÏÌÍÍÍÌ</summary>
     public class NetworkSyncableSibling_3642
     {
+        public UnityEngine.GameObject ÏÌÌÌÏÌÏÏÌÍÌÍÎÏÍÏÍÏÌÎÏÎÎ; // 0x20
+        public UnityEngine.GameObject ÌÏÏÌÎÎÏÍÏÍÎÎÏÏÎÍÍÎÍÌÌÎÍ; // 0x28
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x13C0130
         public void OnDestroy(){} // RVA: 0x13C0FA0
@@ -1715,6 +1977,14 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÎÍÍÏÌÍÎÍÌÏÎÌÎÍÏÍÍÏÍÏÍ</summary>
     public class NetworkSyncableSibling_4501
     {
+        public ResolutionStruct <ÌÍÌÏÌÍÍÌÎÎÌÏÏÏÍÌÏÏÎÍÎÎÎ>k__BackingField; // 0x10
+        public float <ÏÏÌÎÏÌÏÏÌÏÍÍÍÍÎÌÌÏÏÌÍÎÍ>k__BackingField; // 0x20
+        public bool <ÍÎÎÏÌÏÎÏÏÍÎÍÌÍÌÎÍÏÏÏÎÍÍ>k__BackingField; // 0x24
+        public bool <ÎÎÌÌÎÍÍÌÎÎÍÍÌÍÍÏÍÏÍÏÏÌÏ>k__BackingField; // 0x25
+        public bool <ÎÎÏÍÎÍÍÎÎÍÌÌÌÍÌÍÎÍÌÎÍÎÎ>k__BackingField; // 0x26
+        public bool <ÏÌÍÍÌÌÏÏÎÏÌÎÌÏÌÏÍÎÎÎÎÌÎ>k__BackingField; // 0x27
+        public 0x65931D60 <ÍÌÎÏÍÌÎÌÍÍÌÎÎÎÏÌÏÎÎÌÌÍÍ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x196ABE0
         public void set_EventId(){} // RVA: 0x196ABF0
@@ -1749,6 +2019,13 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÍÎÌÎÌÍÍÎÎÏÏÏÎÎÎÍÎÌÎÏ</summary>
     public class NetworkSyncable_9834
     {
+        public bool ÌÍÏÍÌÌÌÏÏÍÏÌÎÎÎÎÏÍÍÌÏÌÌ; // 0x58
+        public VRC.Udon.UdonBehaviour ÍÌÏÍÍÏÍÌÍÎÏÏÍÍÏÎÏÎÎÍÌÌÏ; // 0x60
+        public ÏÎÏÍÎÏÏÍÍÎÏÌÏÌÎÎÌÎÏÍÎÎÎ[] ÏÌÏÍÏÎÏÎÎÌÌÌÌÍÌÏÍÎÏÏÍÎÌ; // 0x68
+        public VRC.Core.Networking.LimitedCapacityList`1<ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ> ÌÌÍÎÌÌÏÍÍÌÍÎÍÏÌÍÌÌÏÍÌÏÌ; // 0x70
+        public ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ ÎÌÍÌÍÌÌÏÎÏÌÏÏÌÎÎÎÍÏÏÎÎÌ; // 0x78
+        public bool ÌÌÌÌÎÎÎÍÏÏÍÎÌÌÏÏÍÏÏÍÏÌÏ; // 0x80
+
         // ── Methods ──
         public void OnDestroy_895EBA02F486(){} // RVA: 0x647C90
         public void GetMaxDampTime(){} // RVA: 0x3CB9E0

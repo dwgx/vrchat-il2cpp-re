@@ -8,7 +8,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÎÏÌÌÏÌÎÎÎÌÌÏÏÍÏÏÎÎÎÎ</summary>
     public class Parser_BDBC
     {
-        public object Parser;
+        public UnityEngine.UI.Button Parser; // 0x20
 
         // ── Methods ──
         public void Start(){} // RVA: 0x8F06840
@@ -65,6 +65,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÍÌÏÏÎÍÎÌÍÌÌÍÎÏÏÍÍÎÌÌ</summary>
     public class PlatformCoroutineRepeatingComponent_B42E
     {
+        public float minWidth; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7CF380
         public void RaiseCancellation(){} // RVA: 0x7CF4B0
@@ -213,6 +215,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÎÍÎÎÌÏÎÎÌÎÍÌÎÍÍÏÍÌÍÌ</summary>
     public class poolSizeSiblingSibling_328D
     {
+        public 0x6572CC00 ÌÏÌÍÎÌÍÎÏÏÏÌÍÎÏÏÍÍÍÏÏÌÍ; // 0x10
+        public string <ÎÌÏÏÏÏÎÎÍÏÌÎÍÎÍÌÍÎÌÏÌÎÏ>k__BackingField; // 0x18
+        public object <ÌÎÏÍÍÏÏÌÏÌÏÍÌÌÌÍÌÌÎÎÍÎÏ>k__BackingField; // 0x20
+        public object <ÎÎÏÌÍÌÏÎÌÍÏÎÌÌÌÌÌÌÎÌÍÌÏ>k__BackingField; // 0x28
+        public string <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void .ctor(){} // RVA: 0x1AB3690 | overloaded x2
@@ -243,6 +251,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÎÌÍÌÎÏÏÌÎÏÌÍÎÎÌÌÍÌÍÍ</summary>
     public class poolSizeSiblingSibling_773F
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÎÏÏÏÏÎÏÌÍÎÌÏÌÍÎÏÎÍÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÌÍÎÌÌÎÏÌÌÎÌÌÍÎÏÏÌÎÍÍÌÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -260,6 +271,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÍÍÏÍÌÍÌÌÏÌÎÌÎÌÎÍÌÌÌÎ</summary>
     public class poolSizeSibling_81B1
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÎÎÏÏÏÏÎÏÌÍÎÌÏÌÍÎÏÎÍÎÎÎÎ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÏÌÍÌÏÎÌÍÏÎÌÌÌÌÌÌÎÌÍÌÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x19689C0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -278,7 +292,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÏÍÎÏÌÏÍÌÏÎÎÎÍÍÎÌÌÎÍÌ</summary>
     public class poolSize_F2E7
     {
-        public object poolSize;
+        public UnityEngine.GameObject poolSize; // 0x20
 
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0

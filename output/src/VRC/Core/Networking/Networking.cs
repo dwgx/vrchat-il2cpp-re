@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking
-// Classes: 27
-// Methods: 296
+// Classes: 43
+// Methods: 496
 
 namespace VRC.Core.Networking
 {
@@ -15,6 +15,8 @@ namespace VRC.Core.Networking
 
     public class ConcurrentLimitedCapacityList`1
     {
+        public VRC.Core.Networking.LimitedCapacityList`1<T> theList;
+
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0xD870
         public void .ctor(){} // RVA: 0x24A50 | overloaded x2
@@ -41,8 +43,73 @@ namespace VRC.Core.Networking
         public void FirstOrDefault(){} // RVA: 0x283FA0 | overloaded x2
     }
 
+    public class ConcurrentLimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public VRC.Core.Networking.LimitedCapacityList`1<VRC.Core.Networking.PositionEvent> theList; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x2A93640
+        public void .ctor(){} // RVA: 0x2A937C0 | overloaded x2
+        public void get_Count(){} // RVA: 0x2A93910
+        public void get_IsReadOnly(){} // RVA: 0x2A93A70
+        public void get_Capacity(){} // RVA: 0x2A93BB0
+        public void set_Capacity(){} // RVA: 0x2A93D20
+        public void get_Item(){} // RVA: 0x2A94010
+        public void set_Item(){} // RVA: 0x2A941B0
+        public void get_Full(){} // RVA: 0x2A94350
+        public void Add(){} // RVA: 0x2A94390
+        public void Push(){} // RVA: 0x2A94500
+        public void PushAt(){} // RVA: 0x2A94770
+        public void Clear(){} // RVA: 0x2A949B0
+        public void Contains(){} // RVA: 0x2A94B30
+        public void CopyTo(){} // RVA: 0x2A94D30
+        public void Remove(){} // RVA: 0x2A94ED0
+        public void GetEnumerator(){} // RVA: 0x2A95090
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x2A95090
+        public void IndexOf(){} // RVA: 0x2A95200
+        public void Insert(){} // RVA: 0x2A953E0
+        public void RemoveAt(){} // RVA: 0x2A95580
+        public void LastOrDefault(){} // RVA: 0x2A95D20 | overloaded x2
+        public void FirstOrDefault(){} // RVA: 0x2A95AE0 | overloaded x2
+    }
+
+    public class ConcurrentLimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public VRC.Core.Networking.LimitedCapacityList`1<VRC.Core.Networking.Pose.PoseEvent> theList; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x2A93640
+        public void .ctor(){} // RVA: 0x2A937C0 | overloaded x2
+        public void get_Count(){} // RVA: 0x2A93910
+        public void get_IsReadOnly(){} // RVA: 0x2A93A70
+        public void get_Capacity(){} // RVA: 0x2A93BB0
+        public void set_Capacity(){} // RVA: 0x2A93D20
+        public void get_Item(){} // RVA: 0x2A94010
+        public void set_Item(){} // RVA: 0x2A941B0
+        public void get_Full(){} // RVA: 0x2A94350
+        public void Add(){} // RVA: 0x2A94390
+        public void Push(){} // RVA: 0x2A94500
+        public void PushAt(){} // RVA: 0x2A94770
+        public void Clear(){} // RVA: 0x2A949B0
+        public void Contains(){} // RVA: 0x2A94B30
+        public void CopyTo(){} // RVA: 0x2A94D30
+        public void Remove(){} // RVA: 0x2A94ED0
+        public void GetEnumerator(){} // RVA: 0x2A95090
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x2A95090
+        public void IndexOf(){} // RVA: 0x2A95200
+        public void Insert(){} // RVA: 0x2A953E0
+        public void RemoveAt(){} // RVA: 0x2A95580
+        public void LastOrDefault(){} // RVA: 0x2A95D20 | overloaded x2
+        public void FirstOrDefault(){} // RVA: 0x2A95AE0 | overloaded x2
+    }
+
     public class DecodeParameters32
     {
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.SerializedObjects <Objects>k__BackingField; // 0x10
+        public int <ObjectIndex>k__BackingField; // 0x20
+        public float <SendTime>k__BackingField; // 0x24
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataT <SerializationRecovery>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75C75D0
         public void get_Objects(){} // RVA: 0x196ABE0
@@ -59,6 +126,11 @@ namespace VRC.Core.Networking
 
     public class DecodeParameters8
     {
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.SerializedObjects <Objects>k__BackingField; // 0x10
+        public int <ObjectIndex>k__BackingField; // 0x20
+        public float <SendTime>k__BackingField; // 0x24
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataT <SerializationRecovery>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75C75D0
         public void get_Objects(){} // RVA: 0x196ABE0
@@ -75,6 +147,8 @@ namespace VRC.Core.Networking
 
     public class FixedByteBufferAllocator32
     {
+        public byte[] Buffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75DA660
         public void GrowFront(){} // RVA: 0x75DA800
@@ -87,6 +161,8 @@ namespace VRC.Core.Networking
 
     public class FixedByteBufferAllocator8
     {
+        public byte[] Buffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75DA030
         public void GrowFront(){} // RVA: 0x75DA1D0
@@ -105,6 +181,9 @@ namespace VRC.Core.Networking
 
     public class FlatBufferSerializerCodec
     {
+        public VRC.Core.Networking.IFlatBufferNetworkSerializer serializer; // 0x10
+        public bool verboseLogging; // 0x18
+
         // ── Methods ──
         public void get_Targets(){} // RVA: 0x75C86C0
         public void .ctor(){} // RVA: 0x75C8790
@@ -140,6 +219,9 @@ namespace VRC.Core.Networking
 
     public class IFlatBufferNetworkSerializer
     {
+        public int HeaderLength8;
+        public int HeaderLength32;
+
         // ── Methods ──
         public void get_EventCode(){} // RVA: 0xDBE0
         public void get_name(){} // RVA: 0xCD60
@@ -158,6 +240,43 @@ namespace VRC.Core.Networking
         public void PushAt(){} // RVA: 0x283FA0
         public void get_Capacity(){} // RVA: 0xD840
         public void set_Capacity(){} // RVA: 0x24FA0
+    }
+
+    public class ILimitedCapacityList`1
+    {
+        // ── Methods ──
+        public void Push(){} // RVA: 0xCE10
+        public void PushAt(){} // RVA: 0x1CEE0
+        public void get_Capacity(){} // RVA: 0xD840
+        public void set_Capacity(){} // RVA: 0x24FA0
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
+    }
+
+    public class ILimitedCapacityList`1
+    {
     }
 
     public class ILoggableClass
@@ -223,6 +342,8 @@ namespace VRC.Core.Networking
 
     public class LimitedCapacityList`1
     {
+        public System.Collections.Generic.List`1<T> data;
+
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0xD870
         public void get_Count(){} // RVA: 0xD840
@@ -247,6 +368,186 @@ namespace VRC.Core.Networking
         public void RemoveAt(){} // RVA: 0x24FA0
         public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x283FA0
         public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x283FA0
+    }
+
+    public class LimitedCapacityList`1
+    {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.PositionEvent> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E25A0
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x2AC4300
+        public void set_Item(){} // RVA: 0x2BCC680
+        public void .ctor(){} // RVA: 0x37E2880 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E28F0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E2A90
+        public void Push(){} // RVA: 0x37E2B70
+        public void PushAt(){} // RVA: 0x37E2C80
+        public void Clear(){} // RVA: 0x2BCC740
+        public void Contains(){} // RVA: 0x37E2D60
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E2DE0
+        public void GetEnumerator(){} // RVA: 0x37E2E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E2E10
+        public void IndexOf(){} // RVA: 0x37E2EE0
+        public void Insert(){} // RVA: 0x37E2F40
+        public void RemoveAt(){} // RVA: 0x37E3080
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E30B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E30F0
+    }
+
+    public class LimitedCapacityList`1
+    {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.Pose.PoseEvent> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E25A0
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x2AC4300
+        public void set_Item(){} // RVA: 0x2BCC680
+        public void .ctor(){} // RVA: 0x37E2880 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E28F0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E2A90
+        public void Push(){} // RVA: 0x37E2B70
+        public void PushAt(){} // RVA: 0x37E2C80
+        public void Clear(){} // RVA: 0x2BCC740
+        public void Contains(){} // RVA: 0x37E2D60
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E2DE0
+        public void GetEnumerator(){} // RVA: 0x37E2E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E2E10
+        public void IndexOf(){} // RVA: 0x37E2EE0
+        public void Insert(){} // RVA: 0x37E2F40
+        public void RemoveAt(){} // RVA: 0x37E3080
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E30B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E30F0
+    }
+
+    public class LimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public System.Collections.Generic.List`1<float> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E3110
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x37E31C0
+        public void set_Item(){} // RVA: 0x37E3210
+        public void .ctor(){} // RVA: 0x37E3470 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E34B0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E36C0
+        public void Push(){} // RVA: 0x37E37D0
+        public void PushAt(){} // RVA: 0x37E3900
+        public void Clear(){} // RVA: 0x37E3A10
+        public void Contains(){} // RVA: 0x37E3A40
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E3AC0
+        public void GetEnumerator(){} // RVA: 0x37E3AF0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E3AF0
+        public void IndexOf(){} // RVA: 0x37E3BC0
+        public void Insert(){} // RVA: 0x37E3C20
+        public void RemoveAt(){} // RVA: 0x37E3D50
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E3DB0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E3EC0
+    }
+
+    public class LimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.Tween.AnimationEvent> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E25A0
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x2AC4300
+        public void set_Item(){} // RVA: 0x2BCC680
+        public void .ctor(){} // RVA: 0x37E2880 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E28F0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E2A90
+        public void Push(){} // RVA: 0x37E2B70
+        public void PushAt(){} // RVA: 0x37E2C80
+        public void Clear(){} // RVA: 0x2BCC740
+        public void Contains(){} // RVA: 0x37E2D60
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E2DE0
+        public void GetEnumerator(){} // RVA: 0x37E2E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E2E10
+        public void IndexOf(){} // RVA: 0x37E2EE0
+        public void Insert(){} // RVA: 0x37E2F40
+        public void RemoveAt(){} // RVA: 0x37E3080
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E30B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E30F0
+    }
+
+    public class LimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.Tween.AnimatorEvent> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E25A0
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x2AC4300
+        public void set_Item(){} // RVA: 0x2BCC680
+        public void .ctor(){} // RVA: 0x37E2880 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E28F0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E2A90
+        public void Push(){} // RVA: 0x37E2B70
+        public void PushAt(){} // RVA: 0x37E2C80
+        public void Clear(){} // RVA: 0x2BCC740
+        public void Contains(){} // RVA: 0x37E2D60
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E2DE0
+        public void GetEnumerator(){} // RVA: 0x37E2E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E2E10
+        public void IndexOf(){} // RVA: 0x37E2EE0
+        public void Insert(){} // RVA: 0x37E2F40
+        public void RemoveAt(){} // RVA: 0x37E3080
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E30B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E30F0
+    }
+
+    public class LimitedCapacityList`1 : VRC.Core.Networking
+    {
+        public System.Collections.Generic.List`1<ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ> data; // 0x10
+
+        // ── Methods ──
+        public void get_SerializationHistoryLength(){} // RVA: 0x37E25A0
+        public void get_Count(){} // RVA: 0x37E2650
+        public void get_Item(){} // RVA: 0x2AC4300
+        public void set_Item(){} // RVA: 0x2BCC680
+        public void .ctor(){} // RVA: 0x37E2880 | overloaded x2
+        public void get_Capacity(){} // RVA: 0x37E28C0
+        public void set_Capacity(){} // RVA: 0x37E28F0
+        public void get_Full(){} // RVA: 0x37E2A60
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void Add(){} // RVA: 0x37E2A90
+        public void Push(){} // RVA: 0x37E2B70
+        public void PushAt(){} // RVA: 0x37E2C80
+        public void Clear(){} // RVA: 0x2BCC740
+        public void Contains(){} // RVA: 0x37E2D60
+        public void CopyTo(){} // RVA: 0x2AC3D20
+        public void Remove(){} // RVA: 0x37E2DE0
+        public void GetEnumerator(){} // RVA: 0x37E2E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37E2E10
+        public void IndexOf(){} // RVA: 0x37E2EE0
+        public void Insert(){} // RVA: 0x37E2F40
+        public void RemoveAt(){} // RVA: 0x37E3080
+        public void System.Collections.Generic.IList<T>.Insert(){} // RVA: 0x37E30B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x37E30F0
     }
 
     public class NetworkUpdateRates
@@ -274,6 +575,14 @@ namespace VRC.Core.Networking
 
     public class PositionEvent
     {
+        public byte <flags>k__BackingField; // 0x40
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T Velocity; // 0x48
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T Position; // 0x50
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT Rotation; // 0x58
+        public bool WasSleeping; // 0x60
+        public bool HasValue; // 0x61
+        public int OwnerID; // 0x64
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75CE230 | overloaded x2
         public void DeepCopy(){} // RVA: 0x75CE420
@@ -365,6 +674,15 @@ namespace VRC.Core.Networking
 
     public class TimeProxy
     {
+        public System.Func`1<float> TimeDelegate;
+        public System.Func`1<float> TimeSinceEnteredRoomDelegate; // 0x8
+        public System.Func`1<float> RealtimeSinceStartupDelegate; // 0x10
+        public System.Func`1<float> FixedTimeDelegate; // 0x18
+        public System.Func`1<float> DeltaTimeDelegate; // 0x20
+        public System.Func`1<float> SmoothDeltaTimeDelegate; // 0x28
+        public System.Func`1<long> UnixTimeDelegate; // 0x30
+        public System.Func`1<int> FrameCountDelegate; // 0x38
+
         // ── Methods ──
         public void get_time(){} // RVA: 0x75C6BB0
         public void get_timeSinceEnteredRoom(){} // RVA: 0x75C6C10

@@ -245,6 +245,8 @@ public class ListPoolImpl`1
 
 public class ListQueryMatcher`1
 {
+    public System.Collections.Generic.List`1<T> <matches>k__BackingField;
+
     // ── Methods ──
     public void get_matches(){} // RVA: 0xCD60
     public void set_matches(){} // RVA: 0x24B10
@@ -255,6 +257,8 @@ public class ListQueryMatcher`1
 
 public class ListWrapper`1
 {
+    public System.Collections.Generic.IReadOnlyList`1<T> List;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void get_Item(){}
@@ -265,6 +269,8 @@ public class ListWrapper`1
 
 public class ListWrapper`1
 {
+    public System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.IReadOnlyDictionary`2<string,object>> List; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x3871A40
     public void get_Item(){} // RVA: 0x3871D70
@@ -275,6 +281,8 @@ public class ListWrapper`1
 
 public class ListWrapper`1
 {
+    public System.Collections.Generic.IReadOnlyList`1<int> List; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x3871A40
     public void get_Item(){} // RVA: 0x3871AA0
@@ -285,6 +293,8 @@ public class ListWrapper`1
 
 public class ListWrapper`1
 {
+    public System.Collections.Generic.IReadOnlyList`1<object> List; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x3871A40
     public void get_Item(){} // RVA: 0x3871D70
@@ -295,6 +305,8 @@ public class ListWrapper`1
 
 public class ListWrapper`1
 {
+    public System.Collections.Generic.IReadOnlyList`1<string> List; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x3871A40
     public void get_Item(){} // RVA: 0x3871D70
@@ -313,10 +325,10 @@ public class LiteralList
 
 public class LoadOptions
 {
-    public object Uuid;
-    public object Localized;
-    public object Localizing;
-    public object Pose;
+    public 0x658C7300 Uuid; // 0x10
+    public int Localized; // 0x14
+    public double Localizing; // 0x18
+    public System.Collections.Generic.IReadOnlyList`1<System.Guid> Pose; // 0x20
 
     // ── Methods ──
     public void get_StorageLocation(){} // RVA: 0x19689B0
@@ -398,6 +410,17 @@ public class LocalityName
 
 public class Location
 {
+    public Google.Protobuf.MessageParser`1<Location> _parser;
+    public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+    public Google.Protobuf.FieldCodec`1<int> _repeated_path_codec; // 0x8
+    public Google.Protobuf.Collections.RepeatedField`1<int> path_; // 0x18
+    public Google.Protobuf.FieldCodec`1<int> _repeated_span_codec; // 0x10
+    public Google.Protobuf.Collections.RepeatedField`1<int> span_; // 0x20
+    public string LeadingCommentsDefaultValue; // 0x18
+    public string leadingComments_; // 0x28
+    public string TrailingCommentsDefaultValue; // 0x20
+    public string trailingComments_; // 0x30
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x5A79810
     public void get_Descriptor(){} // RVA: 0x5A79870
@@ -509,6 +532,12 @@ public class LockedStack
 
 public class Locomotion
 {
+    public float weight; // 0x10
+    public float footDistance; // 0x14
+    public float stepThreshold; // 0x18
+    public float angleThreshold; // 0x1C
+    public float comAngleMlp; // 0x20
+
     // ── Methods ──
     public void get_centerOfMass(){} // RVA: 0x40DE70
     public void set_centerOfMass(){} // RVA: 0x40DE90
@@ -594,6 +623,9 @@ public class LogHandler
 
 public class LogValues
 {
+    public System.Func`3<LogValues,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void get_Item(){} // RVA: 0x5BAB5C0
@@ -606,6 +638,9 @@ public class LogValues
 
 public class LogValues`1
 {
+    public System.Func`3<LogValues`1<T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Item(){}
@@ -618,6 +653,9 @@ public class LogValues`1
 
 public class LogValues`2
 {
+    public System.Func`3<LogValues`2<U,T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Item(){}
@@ -630,6 +668,9 @@ public class LogValues`2
 
 public class LogValues`3
 {
+    public System.Func`3<LogValues`3<U,V,T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void get_Item(){}
@@ -642,6 +683,9 @@ public class LogValues`3
 
 public class LogValues`4
 {
+    public System.Func`3<LogValues`4<U,V,W,T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void get_Item(){}
@@ -655,6 +699,9 @@ public class LogValues`4
 
 public class LogValues`5
 {
+    public System.Func`3<LogValues`5<U,V,W,T4,T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void get_Item(){}
@@ -668,6 +715,9 @@ public class LogValues`5
 
 public class LogValues`6
 {
+    public System.Func`3<LogValues`6<U,V,W,T4,T5,T>,System.Exception,string> Callback;
+    public Microsoft.Extensions.Logging.LogValuesFormatter _formatter;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void get_Item(){}
@@ -724,6 +774,8 @@ public class LongInput
 
 public class LookAtBone
 {
+    public UnityEngine.Vector3 baseForwardOffsetEuler; // 0x80
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3ECDB0 | overloaded x2
     public void Initiate(){} // RVA: 0x3ECE20
@@ -739,6 +791,9 @@ public class LookCommonShaderIds
 
 public class Lookup`2
 {
+    public Lookup`2<U,T> empty;
+    public System.Collections.Generic.Dictionary`2<U,Grouping`2<U,T>> dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void CreateEmpty(){} // RVA: 0xC960
@@ -754,12 +809,7 @@ public class Lookup`2
 
 public class LoopExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Expression;
-    public object Member;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.LoopExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB2B0

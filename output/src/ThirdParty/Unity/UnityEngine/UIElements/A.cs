@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class AbstractProgressBar
     {
+        public string ussClassName;
+        public string containerUssClassName; // 0x8
+        public string titleUssClassName; // 0x10
+        public string titleContainerUssClassName; // 0x18
+
         // ── Methods ──
         public void set_title(){} // RVA: 0x73B8F70
         public void get_lowValue(){} // RVA: 0x73B8FA0
@@ -42,6 +47,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Angle
     {
+        public float m_Value; // 0x10
+
         // ── Methods ──
         public void None(){} // RVA: 0x743BE70
         public void get_value(){} // RVA: 0x1D26670

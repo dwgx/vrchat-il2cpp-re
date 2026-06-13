@@ -15,6 +15,8 @@ public class UBI
 
 public class UIActions
 {
+    public UnityEngine.InputSystem.DefaultInputActions m_Wrapper; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void get_Navigate(){} // RVA: 0x100A2D0
@@ -82,6 +84,8 @@ public class URPMaterialSwitcher
 
 public class UTF32Decoder
 {
+    public int iChar; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4D290
     public void Reset(){} // RVA: 0x5C4D2A0
@@ -90,6 +94,8 @@ public class UTF32Decoder
 
 public class UTF8Decoder
 {
+    public int bits; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4D290
     public void Reset(){} // RVA: 0x5C53AC0
@@ -98,6 +104,8 @@ public class UTF8Decoder
 
 public class UTF8Encoder
 {
+    public int surrogateChar; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C4F7B0
     public void Reset(){} // RVA: 0x5C53A90
@@ -113,6 +121,10 @@ public class UTF8EncodingSealed
 
 public class UbiTweak
 {
+    public ulong LOW_RANGE;
+    public ulong T1_FINAL;
+    public ulong T1_FIRST;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x96768D0
     public void Reset(){} // RVA: 0x9676A90 | overloaded x2
@@ -136,6 +148,9 @@ public class UdonProgramScanner
 
 public class UdonTimeSource
 {
+    public double <CurrentTime>k__BackingField; // 0x10
+    public long <CurrentFrame>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_CurrentTime(){} // RVA: 0x2EE1B30
     public void set_CurrentTime(){} // RVA: 0x40AB380
@@ -148,6 +163,8 @@ public class UdonTimeSource
 
 public class UiInputField
 {
+    public VRC.Localization.LocalizableString _titleText; // 0x20
+
     // ── Methods ──
     public void OnPointerEnter(){} // RVA: 0x1863EC0
     public void OnPointerExit(){} // RVA: 0xC42990
@@ -186,6 +203,8 @@ public class Uint64ToBytes
 
 public class UnaryExpressionProxy
 {
+    public System.Linq.Expressions.UnaryExpression _node; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DBD80
     public void get_CanReduce(){} // RVA: 0x7F02E0
@@ -200,6 +219,9 @@ public class UnaryExpressionProxy
 
 public class UnboundAnchor
 {
+    public OVRSpace _space; // 0x10
+    public System.Guid <Uuid>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_Uuid(){} // RVA: 0x1F6F090
     public void get_Localized(){} // RVA: 0x6194500
@@ -417,6 +439,8 @@ public class UnicodeChar
 
 public class Uniforms
 {
+    public UnityEngine.Rendering.PostProcessing.HableCurve parent; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_curve(){} // RVA: 0x6F46470
@@ -430,6 +454,8 @@ public class Uniforms
 
 public class Union
 {
+    public long m_long; // 0x10
+
     // ── Methods ──
     public void get_m_current(){} // RVA: 0x6D79B00
     public void set_m_current(){} // RVA: 0x6D79B20
@@ -439,12 +465,15 @@ public class Union
 
 public class Union
 {
+    public long m_long; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
 }
 
 public class Union
 {
+    public long m_long; // 0x10
 }
 
 public class UnionCase
@@ -461,6 +490,8 @@ public class UnityEventHand
 
 public class UnityEventHandlerAsyncEnumerator
 {
+    public System.Action`1<object> cancel1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -475,6 +506,8 @@ public class UnityEventHandlerAsyncEnumerator
 
 public class UnityEventHandlerAsyncEnumerator
 {
+    public System.Action`1<object> cancel1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4599400
     public void get_Current(){} // RVA: 0x2DD320
@@ -536,6 +569,13 @@ public class UnityOpenXR
 
 public class UnityPackage
 {
+    public string <assetUrl>k__BackingField; // 0x68
+    public string <performanceRating>k__BackingField; // 0x70
+    public string <platform>k__BackingField; // 0x78
+    public 0x657C7CD8<VRC.Core.ApiAvatar> <scanStatus>k__BackingField; // 0x80
+    public string <unityVersion>k__BackingField; // 0x88
+    public 0x657C6C58 <variant>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_assetUrl(){} // RVA: 0x358D50
     public void set_assetUrl(){} // RVA: 0x358D60
@@ -554,6 +594,10 @@ public class UnityPackage
 
 public class UnityPackage
 {
+    public string <assetUrl>k__BackingField; // 0x68
+    public string <platform>k__BackingField; // 0x70
+    public string <unityVersion>k__BackingField; // 0x78
+
     // ── Methods ──
     public void get_assetUrl(){} // RVA: 0x358D50
     public void set_assetUrl(){} // RVA: 0x358D60
@@ -566,6 +610,11 @@ public class UnityPackage
 
 public class UnityPackage
 {
+    public string <assetUrl>k__BackingField; // 0x68
+    public string <platform>k__BackingField; // 0x70
+    public string <unityVersion>k__BackingField; // 0x78
+    public string <propSignature>k__BackingField; // 0x80
+
     // ── Methods ──
     public void get_assetUrl(){} // RVA: 0x358D50
     public void set_assetUrl(){} // RVA: 0x358D60
@@ -580,6 +629,8 @@ public class UnityPackage
 
 public class UnitySafeFindHandle
 {
+    public UIntPtr m_Handle; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E23ED0
     public void get_Handle(){} // RVA: 0x30B0C0

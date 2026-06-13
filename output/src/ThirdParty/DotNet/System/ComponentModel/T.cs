@@ -17,6 +17,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ToolboxItemAttribute
     {
+        public System.Type _toolboxItemType; // 0x10
+        public string _toolboxItemTypeName; // 0x18
+
         // ── Methods ──
         public void IsDefaultAttribute(){} // RVA: 0x6C60EC0
         public void .ctor(){} // RVA: 0x6C61150 | overloaded x3
@@ -29,6 +32,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ToolboxItemFilterAttribute
     {
+        public string _typeId; // 0x10
+        public string <FilterString>k__BackingField; // 0x18
+        public 0x65850718 <FilterType>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7C420 | overloaded x2
         public void get_FilterString(){} // RVA: 0x2E07C0
@@ -42,6 +49,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class TypeConverter
     {
+        public string s_UseCompatibleTypeConverterBehavior;
+
         // ── Methods ──
         public void get_UseCompatibleTypeConversion(){} // RVA: 0x6C9B160
         public void CanConvertFrom(){} // RVA: 0x6C9B1A0 | overloaded x2
@@ -68,6 +77,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class TypeConverterAttribute
     {
+        public System.ComponentModel.TypeConverterAttribute Default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_ConverterTypeName(){} // RVA: 0x2F8380
@@ -93,6 +104,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class TypeDescriptionProviderAttribute
     {
+        public string <TypeName>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7D5B0 | overloaded x2
         public void get_TypeName(){} // RVA: 0x2F8380
@@ -100,6 +113,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class TypeDescriptor
     {
+        public System.ComponentModel.WeakHashtable _providerTable;
+        public System.Collections.Hashtable _providerTypeTable; // 0x8
+        public System.Collections.Hashtable _defaultProviders; // 0x10
+        public System.ComponentModel.WeakHashtable _associationTable; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ComNativeDescriptorHandler(){} // RVA: 0x6C9D010

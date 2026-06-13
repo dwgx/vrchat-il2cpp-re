@@ -44,6 +44,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÌÍÏÎÌÍÏÎÍÎÌÏÌÌÌÏÍÌÌÌ</summary>
     public class ActiveDisposeAccountComponent_97B2
     {
+        public Features.Sharing.SharableContentData <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0xC7FFD0
         public void OnDisable(){} // RVA: 0xC80250
@@ -533,6 +535,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÏÌÏÏÎÌÌÌÏÍÎÍÏÏÌÎÏÍÍÎ</summary>
     public class AlphaSibling_0FC6
     {
+        public ÏÌÌÏÌÏÏÎÌÌÌÏÍÎÍÏÏÌÎÏÍÍÎ ÍÍÍÍÍÏÌÍÏÌÌÌÏÌÎÌÍÏÎÏÍÌÌ;
+
         // ── Methods ──
         public void SetAnchoredPosition(){} // RVA: 0x1849500
         public void GetCurrent(){} // RVA: 0x184A450
@@ -557,6 +561,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÎÌÍÍÎÍÏÌÍÌÎÎÎÎÌÌÍÍÌ</summary>
     public class Alpha_26E3
     {
+        public ÍÏÎÌÎÌÍÍÎÍÏÌÍÌÎÎÎÎÌÌÍÍÌ ÍÍÍÍÍÏÌÍÏÌÌÌÏÌÎÌÍÏÎÏÍÌÌ;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x183DA70
         public void .ctor(){} // RVA: 0x2DDD50
@@ -635,6 +641,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÍÌÍÎÍÌÍÏÎÌÎÏÎÌÏÌÏÍÍÌÍ</summary>
     public class ApplicationComponentHandler_6BC4
     {
+        public ulong <ÏÌÎÌÏÎÌÏÏÍÎÌÍÍÌÌÌÍÎÍÎÍÎ>k__BackingField; // 0x10
+        public ulong <ÎÏÎÍÌÎÍÌÌÎÏÌÏÏÍÏÎÎÍÌÎÍÎ>k__BackingField; // 0x18
+        public ulong <ÎÎÎÏÌÎÏÏÌÎÏÌÎÎÍÏÍÎÍÌÌÍÌ>k__BackingField; // 0x20
+        public ulong <ÎÏÏÎÏÌÍÍÌÌÌÌÏÌÌÍÎÌÎÏÎÍÎ>k__BackingField; // 0x28
+        public ulong <ÏÍÎÌÌÌÏÏÌÏÏÌÏÌÌÏÍÍÏÍÏÌÏ>k__BackingField; // 0x30
+        public ulong <ÌÎÎÎÌÌÎÎÌÌÎÍÏÎÏÎÏÍÏÏÎÌÍ>k__BackingField; // 0x38
+        public ulong <ÍÍÍÍÎÎÎÌÏÎÍÏÌÏÏÏÌÌÌÌÌÍÏ>k__BackingField; // 0x40
+        public ulong <ÎÏÏÎÌÌÍÍÏÎÍÎÍÎÎÎÏÌÌÌÎÌÌ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void get_Data(){} // RVA: 0x30B130
@@ -694,14 +709,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÏÏÌÌÍÍÍÏÍÏÌÍÍÎÎÍÎÎÍÏ</summary>
     public class ApplicationComponentHandler_CCC6
     {
-        public object f_A71;
-        public object f_CD5;
-        public object f_A81;
-        public object f_E79;
-        public object f_236;
-        public object f_1A8;
-        public object f_DD4;
-        public object f_8CE;
+        public UIntPtr f_A71; // 0x10
+        public UIntPtr f_CD5; // 0x18
+        public UIntPtr f_A81; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ f_E79; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ f_236; // 0x30
+        public UIntPtr f_1A8; // 0x38
+        public UIntPtr f_DD4; // 0x40
+        public System.Nullable`1<ÌÎÍÌÍÎÍÌÍÏÎÌÎÏÎÌÏÌÏÍÍÌÍ> f_8CE; // 0x48
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x343E80
@@ -904,6 +919,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÏÎÌÌÎÌÏÏÌÏÍÎÎÌÍÎÏÌÎÌ</summary>
     public class ApplicationHandler_5DBE
     {
+        public float ÍÌÏÏÍÎÍÌÌÏÏÏÏÎÌÎÌÎÏÌÌÏÎ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x135F6C0
         public void Initialize(){} // RVA: 0x135F720
@@ -924,6 +941,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÍÏÌÌÏÎÎÏÍÌÌÌÎÏÏÍÏÏÌÍ</summary>
     public class ApplicationHandler_6270
     {
+        public UnityEngine.Audio.AudioMixer ÎÌÍÌÎÏÏÎÍÍÏÎÎÎÎÎÏÌÏÍÌÎÌ; // 0x20
+
         // ── Methods ──
         public void OpenURL(){} // RVA: 0x1602860
         public void OnDestroy(){} // RVA: 0x1602970
@@ -946,6 +965,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÏÍÌÌÌÌÎÎÏÎÏÍÎÍÏÏÍÏÍÌ</summary>
     public class ApplicationHandler_6334
     {
+        public long <ÏÏÎÎÍÌÎÏÌÌÎÍÏÎÍÎÍÌÌÎÎÍÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÍÍÍÍÎÌÎÎÎÌÌÏÍÌÍÎÌÏÌÌÍ>k__BackingField; // 0x18
+        public long <ÎÍÌÌÌÏÌÎÌÍÎÎÌÌÎÎÌÍÏÎÏÎÌ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÏÌÎÏÍÏÍÏÌÍÌÍÍÏÏÍÍÎÎÏÏÌ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
@@ -982,6 +1006,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÏÍÌÏÏÌÌÎÍÏÏÌÎÎÍÍÎÌÌÎ</summary>
     public class ApplicationHandler_AA4F
     {
+        public ÌÎÌÎÎÎÌÍÌÎÌÍÌÍÍÏÎÌÌÍÏÎÌ ÌÍÌÍÌÌÎÏÌÍÍÌÏÎÏÍÌÎÍÍÌÍÎ; // 0x10
+        public int <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0xA53440
         public void GetPersistentDataPath(){} // RVA: 0x1967740
@@ -1004,6 +1031,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÍÏÏÌÌÏÎÍÍÏÎÌÌÌÌÏÎÎÌ</summary>
     public class ApplicationHandler_AAA0
     {
+        public ulong <ÍÏÍÏÏÌÍÌÍÍÍÎÎÏÏÏÌÌÏÎÌÍÎ>k__BackingField; // 0x10
+        public ulong <ÌÍÌÍÎÎÌÌÏÌÌÎÎÎÌÍÌÎÏÏÎÍÏ>k__BackingField; // 0x18
+        public ulong <ÌÎÌÏÌÌÏÍÏÌÎÎÏÏÎÍÌÌÍÌÏÎÌ>k__BackingField; // 0x20
+        public ulong <ÎÏÌÏÏÎÍÍÎÍÏÍÎÎÍÍÌÍÌÎÏÍÎ>k__BackingField; // 0x28
+        public ulong <ÌÎÍÎÍÏÌÎÎÏÍÎÎÎÌÏÍÍÎÎÎÌÌ>k__BackingField; // 0x30
+        public ulong <ÌÍÏÎÎÎÎÎÏÌÏÌÍÎÎÎÎÏÏÍÌÍÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void set_Space(){} // RVA: 0xAE83A0
         public void get_Data(){} // RVA: 0x30B130
@@ -1090,6 +1124,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÌÍÏÍÎÎÏÎÎÍÌÍÏÎÎÌÌÎÏÌ</summary>
     public class ApplicationHandler_E393
     {
+        public System.DateTime <ÏÍÌÍÎÌÏÌÍÍÏÌÎÏÎÎÏÍÍÍÏÎÎ>k__BackingField; // 0x10
+        public System.Collections.Generic.List`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ> <ÌÌÏÎÎÏÎÍÍÍÏÎÏÎÌÌÎÍÎÌÎÏÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0x2DD310
@@ -1109,6 +1146,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÏÏÍÌÏÏÏÎÎÏÎÏÎÎÍÎÏÏÍÏ</summary>
     public class ApplicationHandler_EAB0
     {
+        public UnityEngine.Vector2 <ÍÍÏÍÏÌÎÍÏÎÍÍÍÏÌÏÌÎÌÏÍÎÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void Handle(){} // RVA: 0xCD60
         public void Process(){} // RVA: 0x2EE22E0
@@ -1119,6 +1158,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÏÍÏÎÏÎÎÌÍÌÎÌÎÍÎÌÏÏÌÏ</summary>
     public class ApplicationSystemInfoHandler_C1B1
     {
+        public System.Collections.Generic.IDictionary`2<int,System.Collections.Generic.IDictionary`2<int,int[]>> ÏÎÎÌÍÌÎÌÌÍÏÌÏÏÎÏÎÎÏÌÌÌÏ;
+        public System.Collections.Generic.Stack`1<int> ÏÎÍÍÏÎÌÏÍÌÏÎÍÏÍÌÏÍÎÌÍÌÏ; // 0x10
+        public int ÏÌÎÎÍÏÍÎÏÏÍÌÍÎÏÎÌÎÌÏÎÏÏ; // 0x18
+        public int ÍÏÍÌÍÌÏÏÌÌÎÎÏÌÏÎÌÍÌÏÏÍÍ; // 0x1C
+        public bool ÍÌÍÍÍÌÏÏÏÎÍÏÏÎÎÏÏÍÎÏÎÍÏ; // 0x20
+        public bool ÍÎÍÏÍÏÎÌÍÎÏÏÍÌÌÌÏÎÏÍÎÎÎ; // 0x21
+        public ÍÍÍÏÍÌÎÌÏÌÏÏÏÏÏÏÌÍÎÌÍÎÏ ÍÍÏÎÌÍÌÍÍÏÎÎÌÏÍÌÏÌÌÏÌÏÍ; // 0x28
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1B34C30
         public void get_CountActive(){} // RVA: 0x59C540
@@ -1161,6 +1208,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÌÍÌÏÎÏÏÏÎÏÌÌÏÎÏÎÍÎÏÏ</summary>
     public class ApplyUpperOffsetComponent_6480
     {
+        public ÏÌÌÌÍÌÏÎÏÏÏÎÏÌÌÏÎÏÎÍÎÏÏ ÎÌÎÌÍÎÌÎÏÌÏÏÏÎÏÏÎÎÎÍÏÏÌ;
+        public string ÌÌÍÏÌÌÌÌÏÌÎÎÍÍÌÏÎÍÌÌÏÍÎ; // 0x20
+        public Transmtn.Api <ÎÍÌÌÏÍÏÌÎÏÏÌÍÏÏÏÍÌÏÎÍÌÏ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void ConfigureTransform(){} // RVA: 0x137AC40
         public void ConfigureTransform_41369C360709(){} // RVA: 0x137AD30
@@ -1251,9 +1302,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÎÌÏÌÏÌÏÌÌÌÌÌÏÏÏÎÍÎÏÍ</summary>
     public class appReceiptModificationDatappReceipt_71A8
     {
-        public object appReceipt;
-        public object appReceiptModificationDate;
-        public object 0&00;
+        public int appReceipt; // 0x20
+        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ appReceiptModificationDate; // 0x28
+        public System.Nullable`1<int> 0&00; // 0x30
+        public ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ ÌÍÌÏÏÎÌÌÏÌÎÌÌÌÍÍÍÏÏÌÌÍÎ; // 0x38
+        public float <ÍÎÎÍÏÌÌÌÏÍÎÎÍÍÌÌÌÌÏÌÌÍÎ>k__BackingField; // 0x40
+        public float ÏÍÎÍÎÍÏÎÌÍÍÌÌÌÎÏÏÌÍÏÌÏÍ; // 0x44
+        public bool ÏÍÌÍÌÏÌÏÏÍÏÎÏÌÏÍÎÏÍÎÎÎÍ; // 0x48
+        public 0x6572A420 ÌÌÍÍÌÌÎÌÎÎÌÍÌÌÌÌÎÌÎÍÌÍÌ; // 0x4C
+        public int viewIdField; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1A88320

@@ -5,6 +5,8 @@
 
 public class SecT193R2LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -21,6 +23,8 @@ public class SecT233K1Holder
 
 public class SecT233K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -37,6 +41,8 @@ public class SecT233R1Holder
 
 public class SecT233R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -53,6 +59,8 @@ public class SecT239K1Holder
 
 public class SecT239K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -69,6 +77,8 @@ public class SecT283K1Holder
 
 public class SecT283K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -85,6 +95,8 @@ public class SecT283R1Holder
 
 public class SecT283R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -101,6 +113,8 @@ public class SecT409K1Holder
 
 public class SecT409K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -117,6 +131,8 @@ public class SecT409R1Holder
 
 public class SecT409R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -133,6 +149,8 @@ public class SecT571K1Holder
 
 public class SecT571K1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571K1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -149,6 +167,8 @@ public class SecT571R1Holder
 
 public class SecT571R1LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571R1Curve m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -445,8 +465,8 @@ public class SecureStringHelper
 
 public class SecurityAttribute
 {
-    public object Children;
-    public object Tag;
+    public string Children; // 0x10
+    public string Tag; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C67A30
@@ -477,6 +497,9 @@ public class SeekParams
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAllPromise`1<...>,Awaiter<...>,int>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -489,7 +512,8 @@ public class Segment
 
 public class Segment
 {
-    public object Current;
+    public Slot<T>[] Current;
+    public int _slotsMask;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
@@ -503,18 +527,27 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
 }
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCC5C0
 }
 
 public class Segment
 {
+    public Slot<ÎÎÌÎÎÏÎÏÏÎÏÍÍÌÍÏÌÍÍÌÎÏÎ>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -527,6 +560,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -539,6 +575,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<DebugMessage>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCAF90
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -551,6 +590,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Photon.Client.NCommand>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -563,6 +605,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Replica>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -575,6 +620,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<System.ValueTuple`2<...<...>,...<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCAF90
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -587,6 +635,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAllPromise,Awaiter>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -599,6 +650,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAllPromise`1<...>,Awaiter<...>,int>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -611,6 +665,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<System.IDisposable>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -623,6 +680,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -635,6 +695,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -647,6 +710,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -659,6 +725,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyLRPromise`1<...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -671,6 +740,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyLRPromise`1<...>,Awaiter>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -683,6 +755,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -695,6 +770,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<ÎÍÎÍÍÏÍÏÍÍÌÌÌÏÍÎÍÏÌÏÍÎÍ>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -707,6 +785,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<ÏÏÌÌÌÎÍÏÍÎÍÎÏÏÏÎÌÎÏÌÌÍÎ>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCE2E0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -719,6 +800,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -731,6 +815,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<System.Threading.Tasks.TaskCompletionSource`1<bool>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -743,6 +830,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`1<Awaiter>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -755,6 +845,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void Eval(){} // RVA: 0x6F46420
     public void .ctor(){} // RVA: 0x2DD310
@@ -762,6 +855,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910
@@ -774,6 +870,9 @@ public class Segment
 
 public class Segment
 {
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`2<WhenAnyPromise`2<...,...>,Awaiter<...>>>[] _slots; // 0x10
+    public int _slotsMask; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FCB7D0
     public void get_Capacity(){} // RVA: 0xF3F910

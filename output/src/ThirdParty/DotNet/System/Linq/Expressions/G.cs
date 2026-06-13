@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class GotoExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <Value>k__BackingField; // 0x18
+        public System.Linq.Expressions.LabelTarget <Target>k__BackingField; // 0x20
+        public 0x659086F8 <Kind>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65F9BD0 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380

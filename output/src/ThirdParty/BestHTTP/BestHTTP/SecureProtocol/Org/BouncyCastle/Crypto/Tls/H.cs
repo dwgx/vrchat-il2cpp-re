@@ -23,6 +23,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class HeartbeatExtension
     {
+        public byte mMode; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x952E260
         public void get_Mode(){} // RVA: 0x3A75E0

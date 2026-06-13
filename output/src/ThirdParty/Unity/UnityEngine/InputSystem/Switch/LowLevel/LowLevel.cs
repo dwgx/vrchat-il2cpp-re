@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Switch.LowLevel
 {
     public class SwitchProControllerHIDInputState : get_format
     {
+        public UnityEngine.InputSystem.Utilities.FourCC Format;
+
         // ── Methods ──
         public void get_format(){} // RVA: 0x6EC04C0
         public void WithButton(){} // RVA: 0x6EC0520

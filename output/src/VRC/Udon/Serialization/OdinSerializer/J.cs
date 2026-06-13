@@ -11,6 +11,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonDataReader
     {
+        public VRC.Udon.Serialization.OdinSerializer.JsonTextReader reader; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7843550 | overloaded x2
         public void get_Stream(){} // RVA: 0x30B130
@@ -105,6 +107,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonTextReader
     {
+        public System.Collections.Generic.Dictionary`2<char,System.Nullable`1<0x6593FF90>> EntryDelineators;
+
         // ── Methods ──
         public void get_Context(){} // RVA: 0x4976A0
         public void set_Context(){} // RVA: 0x49B830

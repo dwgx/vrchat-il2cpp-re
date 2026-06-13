@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 {
     public class CAKeyUpdAnnContent
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CmpCertificate oldWithNew; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CmpCertificate newWithOld; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CmpCertificate newWithNew; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E4230
         public void GetInstance(){} // RVA: 0x97E43C0
@@ -27,6 +31,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class CertOrEncCert
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CmpCertificate certificate; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.EncryptedValue encryptedCert; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E5C90 | overloaded x3
         public void GetInstance(){} // RVA: 0x97E5A00
@@ -47,6 +54,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class CertResponse
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger certReqId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo status; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CertifiedKeyPair certifiedKeyPair; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E6F50 | overloaded x3
         public void GetInstance(){} // RVA: 0x97E6D50
@@ -58,6 +69,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class CertStatus
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString certHash; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger certReqId; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo statusInfo; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E7840 | overloaded x3
         public void GetInstance(){} // RVA: 0x97E7B00
@@ -69,6 +84,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class CertifiedKeyPair
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CertOrEncCert certOrEncCert; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.EncryptedValue privateKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.PkiPublicationInfo publicationInfo; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E53B0 | overloaded x3
         public void GetInstance(){} // RVA: 0x97E5070
@@ -80,6 +99,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class Challenge
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier owf; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E7F20
         public void GetInstance(){} // RVA: 0x97E8110
@@ -89,6 +110,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class CmpCertificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure x509v3PKCert; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AttributeCertificate x509v2AttrCert; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97E8540 | overloaded x2
         public void GetInstance(){} // RVA: 0x97E8620
@@ -116,6 +140,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class ErrorMsgContent
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo pkiStatusInfo; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger errorCode; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiFreeText errorDetails; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97EA4E0 | overloaded x3
         public void GetInstance(){} // RVA: 0x97EA060
@@ -145,6 +173,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class InfoTypeAndValue
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier infoType; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable infoValue; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
         public void GetInstance(){} // RVA: 0x97EB270
@@ -155,6 +186,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class KeyRecRepContent
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo status; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.CmpCertificate newSigCert; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97EB780
         public void GetInstance(){} // RVA: 0x97EB9F0
@@ -167,6 +201,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class OobCertHash
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlg; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.CertId certId; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97EC290
         public void GetInstance(){} // RVA: 0x97EC460
@@ -177,6 +214,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PbmParameter
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString salt; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier owf; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger iterationCount; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier mac; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x325A50 | overloaded x3
         public void GetInstance(){} // RVA: 0x97ECAE0
@@ -189,6 +231,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiBody
     {
+        public int TYPE_INIT_REQ;
+        public int TYPE_INIT_REP;
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97ED0F0
         public void .ctor(){} // RVA: 0x97ED400 | overloaded x2
@@ -215,6 +260,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiFreeText
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence strings; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97EE4F0 | overloaded x2
         public void .ctor(){} // RVA: 0x97EE930 | overloaded x2
@@ -227,6 +274,18 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiHeader
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName NULL_NAME;
+        public int CMP_1999; // 0x8
+        public int CMP_2000; // 0xC
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger pvno; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName sender; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName recipient; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime messageTime; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier protectionAlg; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString senderKID; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString recipKID; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString transactionID; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x3
         public void GetInstance(){} // RVA: 0x97EF090
@@ -266,6 +325,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiMessage
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiHeader header; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiBody body; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerBitString protection; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97F1B80 | overloaded x4
         public void GetInstance(){} // RVA: 0x97F18C0
@@ -287,6 +350,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiStatusEncodable
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusEncodable granted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void GetInstance(){} // RVA: 0x97F2630
@@ -297,6 +362,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PkiStatusInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger status; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiFreeText statusString; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerBitString failInfo; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97F2C60 | overloaded x2
         public void .ctor(){} // RVA: 0x97F3360 | overloaded x4
@@ -308,6 +377,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class PollRepContent
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger certReqId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger checkAfter; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiFreeText reason; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x3
         public void GetInstance(){} // RVA: 0x97F38C0
@@ -347,6 +420,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class ProtectedPart
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiHeader header; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiBody body; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
         public void GetInstance(){} // RVA: 0x97F4D90
@@ -357,6 +433,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class RevAnnContent
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusEncodable status; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.CertId certId; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime willBeRevokedAt; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime badSinceDate; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions crlDetails; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97F51A0
         public void GetInstance(){} // RVA: 0x97F56A0
@@ -370,6 +452,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp
 
     public class RevDetails
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Crmf.CertTemplate certDetails; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions crlEntryDetails; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
         public void GetInstance(){} // RVA: 0x97F5CC0

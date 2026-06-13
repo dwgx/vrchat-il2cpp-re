@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 {
     public class BaseInputOverride
     {
+        public string <compositionString>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_compositionString(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x2DDD50
@@ -14,6 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedAxisEventData
     {
+        public UnityEngine.InputSystem.InputDevice <device>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_device(){} // RVA: 0x6374D0
         public void set_device(){} // RVA: 0x30B890
@@ -23,6 +27,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedPointerEventData
     {
+        public UnityEngine.InputSystem.InputControl <control>k__BackingField; // 0x180
+        public UnityEngine.InputSystem.InputDevice <device>k__BackingField; // 0x188
+        public int <touchId>k__BackingField; // 0x190
+        public 0x6586BB50 <pointerType>k__BackingField; // 0x194
+        public int <uiToolkitPointerId>k__BackingField; // 0x198
+        public UnityEngine.Vector3 <trackedDevicePosition>k__BackingField; // 0x19C
+        public UnityEngine.Quaternion <trackedDeviceOrientation>k__BackingField; // 0x1A8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x61F8980
         public void get_control(){} // RVA: 0xDA5BB0
@@ -49,6 +61,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedSubmitCancelEventData
     {
+        public UnityEngine.InputSystem.InputDevice <device>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_device(){} // RVA: 0x30B0C0
         public void set_device(){} // RVA: 0x30B0D0
@@ -63,6 +77,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class InputSystemUIInputModule
     {
+        public float kClickSpeed;
+        public float m_MoveRepeatDelay; // 0x58
+        public float m_MoveRepeatRate; // 0x5C
+        public float m_TrackedDeviceDragThresholdMultiplier; // 0x60
+        public UnityEngine.Transform m_XRTrackingOrigin; // 0x68
+        public UnityEngine.InputSystem.DefaultInputActions defaultActions;
+        public UnityEngine.InputSystem.InputActionAsset m_ActionsAsset; // 0x70
+        public UnityEngine.InputSystem.InputActionReference m_PointAction; // 0x78
+        public UnityEngine.InputSystem.InputActionReference m_MoveAction; // 0x80
+        public UnityEngine.InputSystem.InputActionReference m_SubmitAction; // 0x88
+        public UnityEngine.InputSystem.InputActionReference m_CancelAction; // 0x90
+        public UnityEngine.InputSystem.InputActionReference m_LeftClickAction; // 0x98
+        public UnityEngine.InputSystem.InputActionReference m_MiddleClickAction; // 0xA0
+        public UnityEngine.InputSystem.InputActionReference m_RightClickAction; // 0xA8
+        public UnityEngine.InputSystem.InputActionReference m_ScrollWheelAction; // 0xB0
+        public UnityEngine.InputSystem.InputActionReference m_TrackedDevicePositionAction; // 0xB8
+        public UnityEngine.InputSystem.InputActionReference m_TrackedDeviceOrientationAction; // 0xC0
+        public bool m_DeselectOnBackgroundClick; // 0xC8
+        public 0x6586BBA8 m_PointerBehavior; // 0xCC
+        public 0x6586BD08 m_CursorLockBehavior; // 0xD0
+        public float m_ScrollDeltaPerTick; // 0xD4
+        public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.InputAction,InputActionReferenceState> s_InputActionReferenceCounts; // 0x8
+        public bool m_ActionsHooked; // 0xD8
+        public bool m_NeedToPurgeStalePointers; // 0xD9
+        public System.Action`1<CallbackContext> m_OnPointDelegate; // 0xE0
+        public System.Action`1<CallbackContext> m_OnMoveDelegate; // 0xE8
+
         // ── Methods ──
         public void get_deselectOnBackgroundClick(){} // RVA: 0x126AF80
         public void set_deselectOnBackgroundClick(){} // RVA: 0x126BEE0
@@ -172,6 +213,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class MultiplayerEventSystem
     {
+        public UnityEngine.GameObject m_PlayerRoot; // 0x60
+
         // ── Methods ──
         public void get_playerRoot(){} // RVA: 0x37B370
         public void set_playerRoot(){} // RVA: 0x6EB8E10
@@ -190,6 +233,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class PointerModel
     {
+        public bool changedThisFrame; // 0x10
+        public ButtonState leftButton; // 0x18
+        public ButtonState rightButton; // 0xB0
+        public ButtonState middleButton; // 0x148
+        public UnityEngine.InputSystem.UI.ExtendedPointerEventData eventData; // 0x1E0
+        public UnityEngine.Vector2 m_ScreenPosition; // 0x1E8
+        public UnityEngine.Vector2 m_ScrollDelta; // 0x1F0
+        public UnityEngine.Vector3 m_WorldPosition; // 0x1F8
+        public UnityEngine.Quaternion m_WorldOrientation; // 0x204
+        public float m_Pressure; // 0x214
+
         // ── Methods ──
         public void get_pointerType(){} // RVA: 0x6EB9440
         public void get_screenPosition(){} // RVA: 0x6EB9470
@@ -221,6 +275,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class TrackedDeviceRaycaster
     {
+        public System.Collections.Generic.List`1<RaycastHitData> m_RaycastResultsCache; // 0x28
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.UI.TrackedDeviceRaycaster> s_Instances;
+        public System.Collections.Generic.List`1<RaycastHitData> s_SortedGraphics; // 0x18
+        public bool m_IgnoreReversedGraphics; // 0x30
+        public bool m_CheckFor2DOcclusion; // 0x31
+        public bool m_CheckFor3DOcclusion; // 0x32
+        public float m_MaxDistance; // 0x34
+
         // ── Methods ──
         public void get_eventCamera(){} // RVA: 0x6EB9F70
         public void get_blockingMask(){} // RVA: 0xFDC9F0
@@ -246,6 +308,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class VirtualMouseInput
     {
+        public 0x6586C078 m_CursorMode; // 0x20
+        public UnityEngine.UI.Graphic m_CursorGraphic; // 0x28
+        public UnityEngine.RectTransform m_CursorTransform; // 0x30
+        public float m_CursorSpeed; // 0x38
+        public float m_ScrollSpeed; // 0x3C
+        public UnityEngine.InputSystem.InputActionProperty m_StickAction; // 0x40
+        public UnityEngine.InputSystem.InputActionProperty m_LeftButtonAction; // 0x58
+        public UnityEngine.InputSystem.InputActionProperty m_MiddleButtonAction; // 0x70
+        public UnityEngine.InputSystem.InputActionProperty m_RightButtonAction; // 0x88
+        public UnityEngine.InputSystem.InputActionProperty m_ForwardButtonAction; // 0xA0
+        public UnityEngine.InputSystem.InputActionProperty m_BackButtonAction; // 0xB8
+        public UnityEngine.InputSystem.InputActionProperty m_ScrollWheelAction; // 0xD0
+        public UnityEngine.Canvas m_Canvas; // 0xE8
+
         // ── Methods ──
         public void get_cursorTransform(){} // RVA: 0x6374D0
         public void set_cursorTransform(){} // RVA: 0x30B890

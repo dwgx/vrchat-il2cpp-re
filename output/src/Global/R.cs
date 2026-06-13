@@ -5,6 +5,9 @@
 
 public class RBTreeEnumerator
 {
+    public System.Data.RBTree`1<T> _tree;
+    public int _version;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BAA0 | overloaded x2
     public void Dispose(){} // RVA: 0x24A50
@@ -16,10 +19,14 @@ public class RBTreeEnumerator
 
 public class RBTreeEnumerator
 {
+    public System.Data.RBTree`1<System.Data.DataRow> _tree; // 0x10
+    public int _version; // 0x18
 }
 
 public class RBTreeEnumerator
 {
+    public System.Data.RBTree`1<int> _tree; // 0x10
+    public int _version; // 0x18
 }
 
 public class REG_TZI_FORMAT
@@ -57,13 +64,17 @@ public class RaiseMessageToPlayer
 
 public class Range
 {
+    public int mStart; // 0x10
+    public int mEnd; // 0x14
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x6D76C00
 }
 
 public class Range
 {
-    public object MsgType;
+    public int MsgType; // 0x10
+    public int mEnd; // 0x14
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4438000
@@ -75,6 +86,9 @@ public class Range
 
 public class Range
 {
+    public int mStart; // 0x10
+    public int mEnd; // 0x14
+
     // ── Methods ──
     public void IsInRange(){} // RVA: 0x43C1A0
     public void .ctor(){} // RVA: 0x43C2A0
@@ -147,6 +161,11 @@ public class RaycastHitComparer
 
 public class RaycastHitData
 {
+    public UnityEngine.UI.Graphic <graphic>k__BackingField; // 0x10
+    public UnityEngine.Vector3 <worldHitPosition>k__BackingField; // 0x18
+    public UnityEngine.Vector2 <screenPosition>k__BackingField; // 0x24
+    public float <distance>k__BackingField; // 0x2C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6EBBDE0
     public void get_graphic(){} // RVA: 0x1AD4690
@@ -157,6 +176,11 @@ public class RaycastHitData
 
 public class ReachCone
 {
+    public UnityEngine.Vector3[] tetrahedron; // 0x10
+    public float volume; // 0x18
+    public UnityEngine.Vector3 S; // 0x1C
+    public UnityEngine.Vector3 B; // 0x28
+
     // ── Methods ──
     public void get_o(){} // RVA: 0x4467C0
     public void get_a(){} // RVA: 0x446800
@@ -175,6 +199,8 @@ public class ReadActionJson
 
 public class ReadAllAsyncEnumerable
 {
+    public System.Action`1<object> CancellationCallback1Delegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void GetAsyncEnumerator(){}
@@ -187,14 +213,18 @@ public class ReadAllAsyncEnumerable
 
 public class ReadAllAsyncEnumerable
 {
+    public System.Action`1<object> CancellationCallback1Delegate; // 0x10
 }
 
 public class ReadAllAsyncEnumerable
 {
+    public System.Action`1<object> CancellationCallback1Delegate; // 0x10
 }
 
 public class ReadAllAsyncEnumerable
 {
+    public System.Action`1<object> CancellationCallback1Delegate; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3E4B210
     public void GetAsyncEnumerator(){} // RVA: 0x3E4B420
@@ -262,6 +292,9 @@ public class ReadMethod
 
 public class ReadOnly
 {
+    public void* m_Buffer;
+    public int m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Length(){} // RVA: 0xD840
@@ -275,18 +308,27 @@ public class ReadOnly
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5B50
     public void get_Length(){} // RVA: 0x3C4E030
@@ -300,146 +342,218 @@ public class ReadOnly
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnly
 {
+    public void* m_Buffer; // 0x10
+    public int m_Length; // 0x18
 }
 
 public class ReadOnlyArrayList
 {
+    public System.Collections.ArrayList _list; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E07CF0
     public void get_Count(){} // RVA: 0x5E07D60
@@ -476,6 +590,8 @@ public class ReadOnlyIPAddress
 
 public class ReadOnlyKeyCollection
 {
+    public System.Collections.Generic.IReadOnlyCollection`1<string> m_Keys; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9808470
     public void get_Count(){} // RVA: 0x9808530
@@ -512,6 +628,8 @@ public class ReadWriteParameters
 
 public class ReadWriteTask
 {
+    public bool _isRead; // 0x58
+
     // ── Methods ──
     public void ClearBeginState(){} // RVA: 0x5E52310
     public void .ctor(){} // RVA: 0x5E523C0
@@ -522,6 +640,8 @@ public class ReadWriteTask
 
 public class Reader
 {
+    public System.Threading.ExecutionContext m_ec; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
     public void DangerousGetRawExecutionContext(){} // RVA: 0x1AD4690
@@ -537,7 +657,7 @@ public class Reader
 
 public class Reader
 {
-    public object InvokeMayRunArbitraryCode;
+    public System.Runtime.Remoting.Messaging.LogicalCallContext InvokeMayRunArbitraryCode; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -549,6 +669,8 @@ public class Reader
 
 public class Reader
 {
+    public System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx; // 0x10
+
     // ── Methods ──
     public void Read16(){} // RVA: 0x99FB9E0
     public void Read32(){} // RVA: 0x99FBA30
@@ -591,6 +713,19 @@ public class ReapplyDrivenProperties
 
 public class RebindingOperation
 {
+    public float kDefaultMagnitudeThreshold;
+    public UnityEngine.InputSystem.InputAction m_ActionToRebind; // 0x10
+    public System.Nullable`1<UnityEngine.InputSystem.InputBinding> m_BindingMask; // 0x18
+    public System.Type m_ControlType; // 0x78
+    public UnityEngine.InputSystem.Utilities.InternedString m_ExpectedLayout; // 0x80
+    public int m_IncludePathCount; // 0x90
+    public string[] m_IncludePaths; // 0x98
+    public int m_ExcludePathCount; // 0xA0
+    public string[] m_ExcludePaths; // 0xA8
+    public int m_TargetBindingIndex; // 0xB0
+    public string m_BindingGroupForNewBinding; // 0xB8
+    public string m_CancelBinding; // 0xC0
+
     // ── Methods ──
     public void get_action(){} // RVA: 0x2F8380
     public void get_bindingMask(){} // RVA: 0x4495450
@@ -649,6 +784,11 @@ public class RebindingOperation
 
 public class ReceiveContext
 {
+    public System.Net.Sockets.Socket workSocket; // 0x10
+    public int ReceivedHeaderBytes; // 0x18
+    public byte[] HeaderBuffer; // 0x20
+    public int ExpectedMessageBytes; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x623FE10
     public void get_ReadingHeader(){} // RVA: 0x104D6D0
@@ -689,7 +829,7 @@ public class Recentering
 
 public class RecognizedAttribute
 {
-    public object EndOfCookie;
+    public string EndOfCookie; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x820840
@@ -707,6 +847,10 @@ public class RecoilOffset
 
 public class Record
 {
+    public UnityEngine.InputSystem.LowLevel.InputStateHistory`1<T> m_Owner;
+    public int m_IndexPlusOne;
+    public uint m_Version;
+
     // ── Methods ──
     public void get_header(){} // RVA: 0x283FA0
     public void get_recordIndex(){} // RVA: 0xD840
@@ -732,6 +876,10 @@ public class Record
 
 public class Record
 {
+    public UnityEngine.InputSystem.LowLevel.InputStateHistory m_Owner; // 0x10
+    public int m_IndexPlusOne; // 0x18
+    public uint m_Version; // 0x1C
+
     // ── Methods ──
     public void get_header(){} // RVA: 0x6EED830
     public void get_recordIndex(){} // RVA: 0x3F4B990
@@ -759,6 +907,10 @@ public class Record
 
 public class Record
 {
+    public UnityEngine.InputSystem.LowLevel.InputStateHistory`1<UnityEngine.InputSystem.LowLevel.TouchState> m_Owner; // 0x10
+    public int m_IndexPlusOne; // 0x18
+    public uint m_Version; // 0x1C
+
     // ── Methods ──
     public void get_header(){} // RVA: 0x3F4B940
     public void get_recordIndex(){} // RVA: 0x3F4B990
@@ -784,6 +936,9 @@ public class Record
 
 public class RecordHeader
 {
+    public double time; // 0x10
+    public uint version; // 0x18
+
     // ── Methods ──
     public void get_statePtrWithControlIndex(){} // RVA: 0x3DF6A30
     public void get_statePtrWithoutControlIndex(){} // RVA: 0x5EAD240

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.RootMotion
-// Classes: 26
-// Methods: 240
+// Classes: 27
+// Methods: 243
 
 namespace ThirdParty.Other.RootMotion
 {
@@ -28,6 +28,10 @@ namespace ThirdParty.Other.RootMotion
 
     public class Baker
     {
+        public int frameRate; // 0x20
+        public float keyReductionError; // 0x24
+        public 0x658D8868 mode; // 0x28
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x2DD310
         public void OpenScriptReference(){} // RVA: 0x2DD310
@@ -101,6 +105,9 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedLimbOrientations
     {
+        public LimbOrientation leftArm; // 0x10
+        public LimbOrientation rightArm; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x325A50
         public void get_UMA(){} // RVA: 0x325BA0
@@ -138,6 +145,9 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedReferences
     {
+        public UnityEngine.Transform root; // 0x10
+        public UnityEngine.Transform pelvis; // 0x18
+
         // ── Methods ──
         public void get_isFilled(){} // RVA: 0x32A6C0
         public void get_isEmpty(){} // RVA: 0x32AFC0
@@ -303,14 +313,29 @@ namespace ThirdParty.Other.RootMotion
 
     public class Singleton`1
     {
+        public T sInstance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x283FA0
         public void Awake(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class Singleton`1
+    {
+        public RootMotion.Dynamics.PuppetMasterSettings sInstance;
+
+        // ── Methods ──
+        public void get_instance(){} // RVA: 0x4029B60
+        public void Awake(){} // RVA: 0x4029BB0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
     public class SolverManager
     {
+        public System.Func`1<object> StatPerfBegin;
+        public System.Action`3<string,string,object> StatPerfEnd; // 0x8
+
         // ── Methods ──
         public void Disable(){} // RVA: 0x336330
         public void InitiateSolver(){} // RVA: 0x2DD310

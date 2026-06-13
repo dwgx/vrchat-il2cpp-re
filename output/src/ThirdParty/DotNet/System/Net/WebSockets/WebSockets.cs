@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 {
     public class ClientWebSocket
     {
+        public System.Net.WebSockets.ClientWebSocketOptions _options; // 0x10
+        public System.Net.WebSockets.WebSocketHandle _innerWebSocket; // 0x18
+        public int _state; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BC48F0
         public void get_Options(){} // RVA: 0x2F8380
@@ -26,6 +30,16 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class ClientWebSocketOptions
     {
+        public bool _isReadOnly; // 0x10
+        public System.Collections.Generic.List`1<string> _requestedSubProtocols; // 0x18
+        public System.Net.WebHeaderCollection _requestHeaders; // 0x20
+        public System.TimeSpan _keepAliveInterval; // 0x28
+        public System.Net.IWebProxy _proxy; // 0x30
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _clientCertificates; // 0x38
+        public System.Net.CookieContainer _cookies; // 0x40
+        public int _receiveBufferSize; // 0x48
+        public int _sendBufferSize; // 0x4C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BC5E10
         public void get_RequestHeaders(){} // RVA: 0x30B0C0
@@ -44,6 +58,12 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class ManagedWebSocket
     {
+        public System.Security.Cryptography.RandomNumberGenerator s_random;
+        public System.Text.UTF8Encoding s_textEncoding; // 0x8
+        public 0x6585D030[] s_validSendStates; // 0x10
+        public 0x6585D030[] s_validReceiveStates; // 0x18
+        public 0x6585D030[] s_validCloseOutputStates; // 0x20
+
         // ── Methods ──
         public void CreateFromConnectedStream(){} // RVA: 0x6BB97F0
         public void get_StateUpdateLock(){} // RVA: 0x6374D0
@@ -111,6 +131,8 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class WebSocketException
     {
+        public 0x6585CED0 _webSocketErrorCode; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B1C9D0 | overloaded x9
         public void GetObjectData(){} // RVA: 0x6BCCBB0
@@ -122,6 +144,10 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class WebSocketHandle
     {
+        public System.Text.StringBuilder t_cachedStringBuilder; // 0xFFFFFFFF
+        public System.Text.Encoding s_defaultHttpEncoding;
+        public System.Threading.CancellationTokenSource _abortSource; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x6BC6500
         public void IsValid(){} // RVA: 0x15B7070
@@ -148,6 +174,10 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class WebSocketReceiveResult
     {
+        public int <Count>k__BackingField; // 0x10
+        public bool <EndOfMessage>k__BackingField; // 0x14
+        public 0x6585CF80 <MessageType>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BCD0B0 | overloaded x2
         public void get_Count(){} // RVA: 0x32A5C0

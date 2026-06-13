@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Unity
-// Classes: 53
-// Methods: 533
+// Classes: 83
+// Methods: 997
 
 namespace ThirdParty.Mediapipe.Mediapipe.Unity
 {
     public class AnnotationController`1
     {
+        public T annotation;
+        public bool isStale;
+        public UnityEngine.Vector2Int <imageSize>k__BackingField;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0xDBE0
         public void set_isMirrored(){} // RVA: 0x25130
@@ -23,8 +27,278 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.RectangleAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.DetectionAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.DetectionListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.MultiFaceLandmarkListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.RectangleListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.PoseLandmarkListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.PointListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.MultiHandLandmarkListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.HolisticLandmarkListAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.MultiPoseLandmarkListWithMaskAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class AnnotationController`1
+    {
+        public Mediapipe.Unity.MaskAnnotation annotation; // 0x20
+        public bool isStale; // 0x28
+        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
+
+        // ── Methods ──
+        public void get_isMirrored(){} // RVA: 0xB1C8B0
+        public void set_isMirrored(){} // RVA: 0x38EE2C0
+        public void get_rotationAngle(){} // RVA: 0x38EE330
+        public void set_rotationAngle(){} // RVA: 0x38EE360
+        public void get_imageSize(){} // RVA: 0x38EE3C0
+        public void set_imageSize(){} // RVA: 0x38EE3D0
+        public void Start(){} // RVA: 0x38EE3E0
+        public void LateUpdate(){} // RVA: 0x38EE780
+        public void OnDestroy(){} // RVA: 0x38EE7A0
+        public void SyncNow(){} // RVA: 0x24A50
+        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
+        public void IsTargetChanged(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
     public class Arrow
     {
+        public UnityEngine.Color _color; // 0x20
+        public UnityEngine.Vector3 _direction; // 0x30
+        public float _magnitude; // 0x3C
+        public float _capScale; // 0x40
+        public float _lineWidth; // 0x44
+
         // ── Methods ──
         public void Start(){} // RVA: 0x5B332E0
         public void get_cone(){} // RVA: 0x5B33360
@@ -78,6 +352,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ConnectionAnnotation
     {
+        public Mediapipe.Unity.Connection _currentTarget; // 0x50
+
         // ── Methods ──
         public void get_isEmpty(){} // RVA: 0x5B34A40
         public void Draw(){} // RVA: 0x5B34A50
@@ -102,6 +378,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionAnnotation
     {
+        public Mediapipe.Unity.RectangleAnnotation _boundingBoxAnnotation; // 0x30
+        public Mediapipe.Unity.PointListAnnotation _keypointsAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B35C20
         public void set_rotationAngle(){} // RVA: 0x5B35CB0
@@ -153,6 +432,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListAnnotation
     {
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B37E30
         public void set_rotationAngle(){} // RVA: 0x5B37EA0
@@ -176,6 +458,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListWithIrisAnnotation
     {
+        public Mediapipe.Unity.FaceLandmarkListAnnotation _faceLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.IrisLandmarkListAnnotation _leftIrisLandmarkListAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B35C20
         public void set_rotationAngle(){} // RVA: 0x5B35CB0
@@ -207,6 +492,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class GpuManager
     {
+        public object _SetupLock;
+        public UIntPtr _CurrentContext; // 0x8
+        public bool _IsContextInitialized; // 0x10
+
         // ── Methods ──
         public void get_GpuResources(){} // RVA: 0x5B50A10
         public void set_GpuResources(){} // RVA: 0x5B50A70
@@ -221,6 +510,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HandLandmarkListAnnotation
     {
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B37E30
         public void set_rotationAngle(){} // RVA: 0x5B37EA0
@@ -248,6 +541,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HierarchicalAnnotation
     {
+        public Mediapipe.Unity.IHierachicalAnnotation _root; // 0x20
+        public bool <isMirrored>k__BackingField; // 0x28
+        public 0x65931D60 <rotationAngle>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void get_root(){} // RVA: 0x5B3B890
         public void set_root(){} // RVA: 0x30B0D0
@@ -268,6 +565,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HolisticLandmarkListAnnotation
     {
+        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation _faceLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B3C180
         public void set_rotationAngle(){} // RVA: 0x5B3C250
@@ -308,6 +608,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class IrisLandmarkListAnnotation
     {
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.CircleAnnotation _circleAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B37E30
         public void set_rotationAngle(){} // RVA: 0x5B37EA0
@@ -348,6 +651,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1
     {
+        public UnityEngine.GameObject _annotationPrefab;
+        public System.Collections.Generic.List`1<T> _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0xCD60
         public void get_Item(){} // RVA: 0x283FA0
@@ -362,9 +668,161 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.ConnectionAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.PoseLandmarkListAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.HandLandmarkListAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.PoseLandmarkListWithMaskAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.PointAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.DetectionAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
+    public class ListAnnotation`1
+    {
+        public UnityEngine.GameObject _annotationPrefab; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.RectangleAnnotation> _children; // 0x38
+
+        // ── Methods ──
+        public void get_children(){} // RVA: 0x37EE8E0
+        public void get_Item(){} // RVA: 0x37EE9B0
+        public void get_count(){} // RVA: 0x37EEA10
+        public void Fill(){} // RVA: 0x37EEA40
+        public void Add(){} // RVA: 0x37EEB60
+        public void set_isMirrored(){} // RVA: 0x37EEC00
+        public void set_rotationAngle(){} // RVA: 0x37EED70
+        public void Destroy(){} // RVA: 0x37EEEE0
+        public void InstantiateChild(){} // RVA: 0x37EF0C0
+        public void CallActionForAll(){} // RVA: 0x2DC60
+        public void .ctor(){} // RVA: 0x2DDD50
+    }
+
     public class Logger
     {
-        public object _minLogLevel;
+        public 0x659318E8 _minLogLevel;
 
         // ── Methods ──
         public void set_MinLogLevel(){} // RVA: 0x5B51740
@@ -553,6 +1011,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1
     {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<T>> _InstanceTable;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0xCD60
         public void add_OnReceived(){} // RVA: 0x24B10
@@ -575,6 +1036,296 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
         public void ThrowIfDisposed(){} // RVA: 0x24A50
         public void InvokeIfOutputStreamFound(){} // RVA: 0x23260
         public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.LandmarkList>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<Mediapipe.Detection>>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.ImageFrame>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.Detection>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int mscorlib;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.NormalizedLandmarkList>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.NormalizedRect>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
+    }
+
+    public class OutputStream`1
+    {
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x3DD71F0
+        public void add_OnReceived(){} // RVA: 0x3DD73D0
+        public void remove_OnReceived(){} // RVA: 0x3DD74E0
+        public void get_referencePacket(){} // RVA: 0x3DD75F0
+        public void .ctor(){} // RVA: 0x3DD76F0
+        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x3DD7B30
+        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
+        public void Finalize(){} // RVA: 0x3DD7DE0
+        public void StartPolling(){} // RVA: 0x3DD7E70
+        public void AddListener(){} // RVA: 0x3DD80B0
+        public void RemoveListener(){} // RVA: 0x3DD82B0
+        public void WaitNextAsync(){} // RVA: 0x3DD83D0
+        public void WaitNextInternal(){} // RVA: 0x3DD8540
+        public void StartWaitNextTask(){} // RVA: 0x3DD8740
+        public void Next(){} // RVA: 0x3DD8AE0
+        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
+        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
+        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
+        public void .cctor(){} // RVA: 0x3DD96A0
     }
 
     public class PointAnnotation
@@ -605,6 +1356,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListAnnotation
     {
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B37E30
         public void set_rotationAngle(){} // RVA: 0x5B37EA0
@@ -634,6 +1389,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListWithMaskAnnotation
     {
+        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.MaskOverlayAnnotation _maskOverlayAnnotation; // 0x38
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x5B37E30
         public void set_rotationAngle(){} // RVA: 0x5B37EA0

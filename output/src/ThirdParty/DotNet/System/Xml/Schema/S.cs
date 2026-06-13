@@ -7,6 +7,16 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class SchemaAttDef
     {
+        public string defExpanded; // 0x60
+        public int lineNum; // 0x68
+        public int linePos; // 0x6C
+        public int valueLineNum; // 0x70
+        public int valueLinePos; // 0x74
+        public 0x6587DB60 reserved; // 0x78
+        public bool defaultValueChecked; // 0x7C
+        public System.Xml.Schema.XmlSchemaAttribute schemaAttribute; // 0x80
+        public System.Xml.Schema.SchemaAttDef Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x694BB30 | overloaded x3
         public void System.Xml.IDtdAttributeInfo.get_Prefix(){} // RVA: 0x694BB40
@@ -125,6 +135,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaCollectionPreprocessor
     {
+        public System.Xml.Schema.XmlSchema schema; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6961480
         public void Execute(){} // RVA: 0x6961490
@@ -164,6 +176,18 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaDeclBase
     {
+        public System.Xml.XmlQualifiedName name; // 0x10
+        public string prefix; // 0x18
+        public bool isDeclaredInExternal; // 0x20
+        public 0x6587DD70 presence; // 0x24
+        public System.Xml.Schema.XmlSchemaType schemaType; // 0x28
+        public System.Xml.Schema.XmlSchemaDatatype datatype; // 0x30
+        public string defaultValueRaw; // 0x38
+        public object defaultValueTyped; // 0x40
+        public long maxLength; // 0x48
+        public long minLength; // 0x50
+        public System.Collections.Generic.List`1<string> values; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x696BF10 | overloaded x2
         public void get_Name(){} // RVA: 0x2F8380
@@ -195,6 +219,22 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaElementDecl
     {
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef> attdefs; // 0x60
+        public System.Collections.Generic.List`1<System.Xml.IDtdDefaultAttributeInfo> defaultAttdefs; // 0x68
+        public bool isIdDeclared; // 0x70
+        public bool hasNonCDataAttribute; // 0x71
+        public bool isAbstract; // 0x72
+        public bool isNillable; // 0x73
+        public bool hasRequiredAttribute; // 0x74
+        public bool isNotationDeclared; // 0x75
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName> prohibitedAttributes; // 0x78
+        public System.Xml.Schema.ContentValidator contentValidator; // 0x80
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x88
+        public 0x6587F058 block; // 0x90
+        public System.Xml.Schema.CompiledIdentityConstraint[] constraints; // 0x98
+        public System.Xml.Schema.XmlSchemaElement schemaElement; // 0xA0
+        public System.Xml.Schema.SchemaElementDecl Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x696C6B0 | overloaded x3
         public void CreateAnyTypeElementDecl(){} // RVA: 0x696C830
@@ -235,6 +275,20 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaEntity
     {
+        public System.Xml.XmlQualifiedName qname; // 0x10
+        public string url; // 0x18
+        public string pubid; // 0x20
+        public string text; // 0x28
+        public System.Xml.XmlQualifiedName ndata; // 0x30
+        public int lineNumber; // 0x38
+        public int linePosition; // 0x3C
+        public bool isParameter; // 0x40
+        public bool isExternal; // 0x41
+        public bool parsingInProgress; // 0x42
+        public bool isDeclaredInExternal; // 0x43
+        public string baseURI; // 0x48
+        public string declaredURI; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x696D0E0
         public void System.Xml.IDtdEntityInfo.get_Name(){} // RVA: 0xB2ECF0
@@ -277,6 +331,21 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaInfo
     {
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> elementDecls; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> undeclaredElementDecls; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> generalEntities; // 0x20
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> parameterEntities; // 0x28
+        public System.Xml.XmlQualifiedName docTypeName; // 0x30
+        public string internalDtdSubset; // 0x38
+        public bool hasNonCDataAttributes; // 0x40
+        public bool hasDefaultAttributes; // 0x41
+        public System.Collections.Generic.Dictionary`2<string,bool> targetNamespaces; // 0x48
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef> attributeDecls; // 0x50
+        public int errorCount; // 0x58
+        public 0x6587E138 schemaType; // 0x5C
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> elementDeclsByType; // 0x60
+        public System.Collections.Generic.Dictionary`2<string,System.Xml.Schema.SchemaNotation> notations; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x696D630
         public void get_DocTypeName(){} // RVA: 0x6374D0
@@ -331,6 +400,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SchemaNotation
     {
+        public System.Xml.XmlQualifiedName name; // 0x10
+        public string systemLiteral; // 0x18
+        public string pubid; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Name(){} // RVA: 0x2F8380
@@ -342,6 +415,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SelectorActiveAxis
     {
+        public System.Xml.Schema.ConstraintStruct cs; // 0x28
+
         // ── Methods ──
         public void get_lastDepth(){} // RVA: 0x6AD6C20
         public void .ctor(){} // RVA: 0x6AD6CD0
@@ -373,6 +448,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class StringFacetsChecker
     {
+        public System.Text.RegularExpressions.Regex languagePattern;
+
         // ── Methods ──
         public void get_LanguagePattern(){} // RVA: 0x6B08370
         public void CheckValueFacets(){} // RVA: 0x6B08520 | overloaded x3
@@ -383,6 +460,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class SymbolsDictionary
     {
+        public int last; // 0x10
+        public System.Collections.Hashtable names; // 0x18
+        public System.Collections.Hashtable wildcards; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AD8EC0
         public void get_Count(){} // RVA: 0x6AD9010

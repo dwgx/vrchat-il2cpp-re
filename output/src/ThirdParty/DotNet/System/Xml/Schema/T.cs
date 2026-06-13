@@ -7,9 +7,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class TypedObject
     {
-        public object PosLine;
-        public object PosCol;
-        public object Item;
+        public DecimalStruct PosLine; // 0x10
+        public object PosCol; // 0x18
+        public string Item; // 0x20
+        public System.Xml.Schema.XmlSchemaDatatype xsdtype; // 0x28
+        public int dim; // 0x30
+        public bool isList; // 0x34
 
         // ── Methods ──
         public void get_Dim(){} // RVA: 0x338CD0

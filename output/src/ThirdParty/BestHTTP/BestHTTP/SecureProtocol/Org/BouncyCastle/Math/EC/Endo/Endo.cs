@@ -16,6 +16,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class EndoPreCompInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint; // 0x18
+
         // ── Methods ──
         public void get_Endomorphism(){} // RVA: 0x2F8380
         public void set_Endomorphism(){} // RVA: 0x2DEE30
@@ -42,6 +45,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class GlvTypeAEndomorphism
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Endo.GlvTypeAParameters m_parameters; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPointMap m_pointMap; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9479620
         public void DecomposeScalar(){} // RVA: 0x94797F0
@@ -51,6 +57,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class GlvTypeAParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_i; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_lambda; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00
         public void get_I(){} // RVA: 0x2F8380
@@ -60,6 +70,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class GlvTypeBEndomorphism
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters m_parameters; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPointMap m_pointMap; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9479880
         public void DecomposeScalar(){} // RVA: 0x9479A50
@@ -69,6 +82,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class GlvTypeBParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_beta; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_lambda; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x2
         public void get_Beta(){} // RVA: 0x2F8380
@@ -83,6 +100,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.E
 
     public class ScalarSplitParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_v1A; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_v1B; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_v2A; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_v2B; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_g1; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_g2; // 0x38
+        public int m_bits; // 0x40
+
         // ── Methods ──
         public void CheckVector(){} // RVA: 0x9479EC0
         public void .ctor(){} // RVA: 0x9479F40

@@ -27,6 +27,17 @@ public class HIDDeviceDescriptorBuilder
 
 public class HIDElementDescriptor
 {
+    public int usage; // 0x10
+    public 0x6586CAC8 usagePage; // 0x14
+    public int unit; // 0x18
+    public int unitExponent; // 0x1C
+    public int logicalMin; // 0x20
+    public int logicalMax; // 0x24
+    public int physicalMin; // 0x28
+    public int physicalMax; // 0x2C
+    public 0x6586C860 reportType; // 0x30
+    public int collectionIndex; // 0x34
+
     // ── Methods ──
     public void get_hasNullState(){} // RVA: 0x6EC85B0
     public void get_hasPreferredState(){} // RVA: 0x6EC85C0
@@ -211,6 +222,9 @@ public class Hash128Input
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<U,T> _firstValue;
+    public Node<System.Collections.Generic.KeyValuePair`2<U,T>> _additionalElements;
+
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0xDBE0
     public void get_FirstValue(){} // RVA: 0x283FA0
@@ -226,6 +240,9 @@ public class HashBucket
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<U,T> _firstValue;
+    public Node<System.Collections.Generic.KeyValuePair`2<U,T>> _additionalElements;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_IsEmpty(){} // RVA: 0xDBE0
@@ -243,6 +260,8 @@ public class HashBucket
 
 public class HashBucket
 {
+    public T _firstValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_IsEmpty(){} // RVA: 0xDBE0
@@ -257,6 +276,8 @@ public class HashBucket
 
 public class HashBucket
 {
+    public string _firstValue; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x34B6010
     public void get_IsEmpty(){} // RVA: 0x34B6160
@@ -271,10 +292,15 @@ public class HashBucket
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _firstValue; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _additionalElements; // 0x20
 }
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _firstValue; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _additionalElements; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x34B7DA0
     public void get_IsEmpty(){} // RVA: 0xF70920
@@ -292,10 +318,15 @@ public class HashBucket
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _firstValue; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _additionalElements; // 0x20
 }
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _firstValue; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _additionalElements; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x34B8D80
     public void get_IsEmpty(){} // RVA: 0xF70920
@@ -313,10 +344,14 @@ public class HashBucket
 
 public class HashBucket
 {
+    public System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _firstValue; // 0x10
+    public Node<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _additionalElements; // 0x20
 }
 
 public class HashBucketByRefEqualityComparer
 {
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<T>> s_defaultInstance;
+
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0xC960
     public void .ctor(){} // RVA: 0x24A50
@@ -327,6 +362,8 @@ public class HashBucketByRefEqualityComparer
 
 public class HashBucketByRefEqualityComparer
 {
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> s_defaultInstance;
+
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x3305F90
     public void .ctor(){} // RVA: 0x2DD310
@@ -337,6 +374,8 @@ public class HashBucketByRefEqualityComparer
 
 public class HashBucketByValueEqualityComparer
 {
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<T>> s_defaultInstance;
+
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0xC960
     public void .ctor(){} // RVA: 0x24B10
@@ -347,6 +386,7 @@ public class HashBucketByValueEqualityComparer
 
 public class HashBucketByValueEqualityComparer
 {
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> s_defaultInstance;
 }
 
 public class HashCode
@@ -635,6 +675,8 @@ public class HashSetPoolImpl`1
 
 public class HashsetIterator`1 : hashset
 {
+    public bool isNull;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -649,6 +691,11 @@ public class HashtableDebugView
 
 public class HashtableEnumerator
 {
+    public System.Collections.Hashtable _hashtable; // 0x10
+    public int _bucket; // 0x18
+    public int _version; // 0x1C
+    public bool _current; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E0E270
     public void Clone(){} // RVA: 0x5D7B480
@@ -662,6 +709,8 @@ public class HashtableEnumerator
 
 public class HeadChopBone
 {
+    public UnityEngine.Transform transform; // 0x10
+
     // ── Methods ──
     public void get_Transform(){} // RVA: 0x2F8380
     public void CanApply(){} // RVA: 0x9A26DB0
@@ -675,7 +724,8 @@ public class HeadChopData
 
 public class HeaderBucket
 {
-    public object System.Collections.IEnumerator.Current;
+    public object System.Collections.IEnumerator.Current; // 0x10
+    public System.Collections.Generic.List`1<string> values; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6458F80

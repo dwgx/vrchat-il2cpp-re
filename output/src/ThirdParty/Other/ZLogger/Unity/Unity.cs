@@ -7,6 +7,8 @@ namespace ThirdParty.Other.ZLogger.Unity
 {
     public class UnityDebugLogProcessor
     {
+        public System.Buffers.ArrayBufferWriter`1<byte> bufferWriter; // 0xFFFFFFFF
+
         // ── Methods ──
         public void get_IsPostingToUnity(){} // RVA: 0x76D5C60
         public void set_IsPostingToUnity(){} // RVA: 0x76D5CC0
@@ -30,7 +32,7 @@ namespace ThirdParty.Other.ZLogger.Unity
 
     public class ZLoggerUnityDebugOptions
     {
-        public object InternalErrorLogger;
+        public bool InternalErrorLogger; // 0x38
 
         // ── Methods ──
         public void get_PrettyStacktrace(){} // RVA: 0x4A6500

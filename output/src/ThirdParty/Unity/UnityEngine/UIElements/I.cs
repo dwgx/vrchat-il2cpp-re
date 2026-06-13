@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 66
-// Methods: 542
+// Classes: 100
+// Methods: 426
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
@@ -80,6 +80,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void DragCleanup(){} // RVA: 0x24A50
         public void HandleAutoExpand(){}
         public void GetSortedSelectedIds(){} // RVA: 0xCD60
+    }
+
+    public class IDragAndDropController`1
+    {
     }
 
     public class IEditableElement
@@ -175,6 +179,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class IMGUIContainer
     {
+        public System.Action m_OnGUIHandler; // 0x3C8
+        public UnityEngine.ObjectGUIState m_ObjectGUIState; // 0x3D0
+        public bool useOwnerObjectGUIState; // 0x3D8
+        public UnityEngine.Rect <lastWorldClip>k__BackingField; // 0x3DC
+        public bool m_CullingEnabled; // 0x3EC
+        public bool m_IsFocusDelegated; // 0x3ED
+        public bool m_RefreshCachedLayout; // 0x3EE
+        public LayoutCache m_Cache; // 0x3F0
+        public UnityEngine.Rect m_CachedClippingRect; // 0x3F8
+        public UnityEngine.Matrix4x4 m_CachedTransform; // 0x408
+
         // ── Methods ──
         public void get_onGUIHandler(){} // RVA: 0x7407150
         public void set_onGUIHandler(){} // RVA: 0x7407160
@@ -286,6 +301,142 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void get_value(){} // RVA: 0x283FA0
         public void set_value(){} // RVA: 0x283FA0
         public void SetValueWithoutNotify(){} // RVA: 0x283FA0
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xCD60
+        public void set_value(){} // RVA: 0x24B10
+        public void SetValueWithoutNotify(){} // RVA: 0x24B10
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xDBE0
+        public void set_value(){} // RVA: 0x25130
+        public void SetValueWithoutNotify(){} // RVA: 0x25130
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xD840
+        public void set_value(){} // RVA: 0x24FA0
+        public void SetValueWithoutNotify(){} // RVA: 0x24FA0
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0x21890
+        public void set_value(){} // RVA: 0x325B0
+        public void SetValueWithoutNotify(){} // RVA: 0x325B0
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0x12A40
+        public void set_value(){} // RVA: 0x26100
+        public void SetValueWithoutNotify(){} // RVA: 0x26100
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xCD60
+        public void set_value(){} // RVA: 0x24CC0
+        public void SetValueWithoutNotify(){} // RVA: 0x24CC0
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xD840
+        public void set_value(){} // RVA: 0x24FA0
+        public void SetValueWithoutNotify(){} // RVA: 0x24FA0
+    }
+
+    public class INotifyValueChanged`1
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0xCD60
+        public void set_value(){} // RVA: 0x24CC0
+        public void SetValueWithoutNotify(){} // RVA: 0x24CC0
     }
 
     public class IPanel :  Ƀe
@@ -495,6 +646,62 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void CopyFrom(){} // RVA: 0x24B10
     }
 
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
+    public class IStyleDataGroup`1
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x263BC0
+        public void CopyFrom(){} // RVA: 0x24B10
+    }
+
     public class IStylePainter
     {
         // ── Methods ──
@@ -534,6 +741,62 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         // ── Methods ──
         public void get_value(){} // RVA: 0x283FA0
         public void get_keyword(){} // RVA: 0xD840
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
+    }
+
+    public class IStyleValue`1
+    {
     }
 
     public class ITextEdition
@@ -605,228 +868,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void get_position(){} // RVA: 0xC770
         public void set_position(){} // RVA: 0x24B10
         public void get_scale(){} // RVA: 0xC770
-    }
-
-    public class IUIElementsUtility
-    {
-        // ── Methods ──
-        public void TakeCapture(){} // RVA: 0xDBE0
-        public void ReleaseCapture(){} // RVA: 0xDBE0
-        public void ProcessEvent(){}
-        public void CleanupRoots(){} // RVA: 0xDBE0
-        public void EndContainerGUIFromException(){} // RVA: 0xDE40
-        public void MakeCurrentIMGUIContainerDirty(){} // RVA: 0xDBE0
-    }
-
-    public class IUxmlAttributes
-    {
-        // ── Methods ──
-        public void TryGetAttributeValue(){} // RVA: 0x11120
-    }
-
-    public class IUxmlFactory
-    {
-        // ── Methods ──
-        public void Create(){}
-    }
-
-    public class IUxmlObjectFactory`1
-    {
-        // ── Methods ──
-        public void CreateObject(){} // RVA: 0x283FA0
-    }
-
-    public class IValueField`1
-    {
-        // ── Methods ──
-        public void get_value(){} // RVA: 0x283FA0
-        public void set_value(){} // RVA: 0x283FA0
-        public void ApplyInputDeviceDelta(){} // RVA: 0x283FA0
-        public void StartDragging(){} // RVA: 0x24A50
-        public void StopDragging(){} // RVA: 0x24A50
-    }
-
-    public class IVisualElementPanelActivatable
-    {
-        // ── Methods ──
-        public void get_element(){} // RVA: 0xCD60
-        public void CanBeActivated(){} // RVA: 0xDBE0
-        public void OnPanelActivate(){} // RVA: 0x24A50
-        public void OnPanelDeactivate(){} // RVA: 0x24A50
-    }
-
-    public class IVisualElementScheduledItem
-    {
-        // ── Methods ──
-        public void Resume(){} // RVA: 0x24A50
-        public void Pause(){} // RVA: 0x24A50
-        public void ExecuteLater(){} // RVA: 0x24CC0
-        public void StartingIn(){}
-        public void Every(){}
-    }
-
-    public class IVisualElementScheduler
-    {
-        // ── Methods ──
-        public void Execute(){} // RVA: 0xCE10 | overloaded x2
-    }
-
-    public class IVisualTreeUpdater
-    {
-        // ── Methods ──
-        public void set_panel(){} // RVA: 0x24B10
-        public void get_profilerMarker(){}
-        public void Update(){} // RVA: 0x24A50
-        public void OnVersionChanged(){} // RVA: 0x2BAA0
-    }
-
-    public class Image
-    {
-        // ── Methods ──
-        public void get_image(){} // RVA: 0xD8F1C0
-        public void set_image(){} // RVA: 0x7320E10
-        public void get_sprite(){} // RVA: 0xDA0010
-        public void set_sprite(){} // RVA: 0x7321020
-        public void get_vectorImage(){} // RVA: 0xD98840
-        public void set_vectorImage(){} // RVA: 0x7321230
-        public void get_sourceRect(){} // RVA: 0x7321440
-        public void get_uv(){} // RVA: 0x7321470
-        public void set_uv(){} // RVA: 0x7321480
-        public void get_scaleMode(){} // RVA: 0x73214E0
-        public void get_tintColor(){} // RVA: 0x73214F0
-        public void .ctor(){} // RVA: 0x7321500
-        public void GetTextureDisplaySize(){} // RVA: 0x73218A0 | overloaded x2
-        public void DoMeasure(){} // RVA: 0x7321AE0
-        public void OnGenerateVisualContent(){} // RVA: 0x7321F90
-        public void OnCustomStyleResolved(){} // RVA: 0x73227B0
-        public void ReadCustomProperties(){} // RVA: 0x73227F0
-        public void SetProperty(){} // RVA: 0x283FA0
-        public void ClearProperty(){} // RVA: 0x7322E30
-        public void SetScaleMode(){} // RVA: 0x7322E80
-        public void SetTintColor(){} // RVA: 0x7322ED0
-        public void GetSourceRect(){} // RVA: 0x7322F80
-        public void .cctor(){} // RVA: 0x7323240
-    }
-
-    public class ImmediateModeException
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x740D040
-    }
-
-    public class InheritedData
-    {
-        // ── Methods ──
-        public void Copy(){} // RVA: 0x745DD70
-        public void CopyFrom(){} // RVA: 0x745DDC0
-        public void op_Equality(){} // RVA: 0x745DE80
-        public void Equals(){} // RVA: 0x745E650 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x745E760
-    }
-
-    public class InlineStyleAccess : GetStyleLength
-    {
-        // ── Methods ──
-        public void UnityEngine.UIElements.IStyle.set_backgroundColor(){} // RVA: 0x7441720
-        public void UnityEngine.UIElements.IStyle.set_borderBottomColor(){} // RVA: 0x7441790
-        public void UnityEngine.UIElements.IStyle.set_borderBottomLeftRadius(){} // RVA: 0x7441800
-        public void UnityEngine.UIElements.IStyle.set_borderBottomRightRadius(){} // RVA: 0x7441870
-        public void UnityEngine.UIElements.IStyle.set_borderBottomWidth(){} // RVA: 0x74418E0
-        public void UnityEngine.UIElements.IStyle.set_borderLeftColor(){} // RVA: 0x74419A0
-        public void UnityEngine.UIElements.IStyle.set_borderLeftWidth(){} // RVA: 0x7441A10
-        public void UnityEngine.UIElements.IStyle.set_borderRightColor(){} // RVA: 0x7441AD0
-        public void UnityEngine.UIElements.IStyle.set_borderRightWidth(){} // RVA: 0x7441B40
-        public void UnityEngine.UIElements.IStyle.set_borderTopColor(){} // RVA: 0x7441C00
-        public void UnityEngine.UIElements.IStyle.set_borderTopLeftRadius(){} // RVA: 0x7441C70
-        public void UnityEngine.UIElements.IStyle.set_borderTopRightRadius(){} // RVA: 0x7441CE0
-        public void UnityEngine.UIElements.IStyle.set_borderTopWidth(){} // RVA: 0x7441D50
-        public void UnityEngine.UIElements.IStyle.set_bottom(){} // RVA: 0x7441E10
-        public void UnityEngine.UIElements.IStyle.set_color(){} // RVA: 0x7441EF0
-        public void UnityEngine.UIElements.IStyle.get_display(){} // RVA: 0x7441F60
-        public void UnityEngine.UIElements.IStyle.set_display(){} // RVA: 0x7442020
-        public void UnityEngine.UIElements.IStyle.set_flexBasis(){} // RVA: 0x7442150
-        public void UnityEngine.UIElements.IStyle.set_flexDirection(){} // RVA: 0x7442230
-        public void UnityEngine.UIElements.IStyle.set_flexGrow(){} // RVA: 0x7442360
-        public void UnityEngine.UIElements.IStyle.set_flexShrink(){} // RVA: 0x7442420
-        public void UnityEngine.UIElements.IStyle.set_fontSize(){} // RVA: 0x74424E0
-        public void UnityEngine.UIElements.IStyle.set_height(){} // RVA: 0x7442550
-        public void UnityEngine.UIElements.IStyle.set_left(){} // RVA: 0x7442630
-        public void UnityEngine.UIElements.IStyle.set_marginBottom(){} // RVA: 0x7442710
-        public void UnityEngine.UIElements.IStyle.set_marginLeft(){} // RVA: 0x74427F0
-        public void UnityEngine.UIElements.IStyle.set_marginRight(){} // RVA: 0x74428D0
-        public void UnityEngine.UIElements.IStyle.set_marginTop(){} // RVA: 0x74429B0
-        public void UnityEngine.UIElements.IStyle.set_maxHeight(){} // RVA: 0x7442AA0
-        public void UnityEngine.UIElements.IStyle.set_maxWidth(){} // RVA: 0x7442B80
-        public void UnityEngine.UIElements.IStyle.set_minWidth(){} // RVA: 0x7442C60
-        public void UnityEngine.UIElements.IStyle.set_opacity(){} // RVA: 0x7442D40
-        public void UnityEngine.UIElements.IStyle.set_overflow(){} // RVA: 0x7442DA0
-        public void UnityEngine.UIElements.IStyle.set_paddingBottom(){} // RVA: 0x7442F20
-        public void UnityEngine.UIElements.IStyle.set_paddingLeft(){} // RVA: 0x7443010
-        public void UnityEngine.UIElements.IStyle.set_paddingRight(){} // RVA: 0x74430F0
-        public void UnityEngine.UIElements.IStyle.get_paddingTop(){} // RVA: 0x74431E0
-        public void UnityEngine.UIElements.IStyle.set_paddingTop(){} // RVA: 0x7443270
-        public void UnityEngine.UIElements.IStyle.set_position(){} // RVA: 0x7443360
-        public void UnityEngine.UIElements.IStyle.set_right(){} // RVA: 0x7443490
-        public void UnityEngine.UIElements.IStyle.set_top(){} // RVA: 0x7443580
-        public void UnityEngine.UIElements.IStyle.set_unityBackgroundImageTintColor(){} // RVA: 0x7443670
-        public void UnityEngine.UIElements.IStyle.set_unityFont(){} // RVA: 0x74436E0
-        public void UnityEngine.UIElements.IStyle.set_unityFontDefinition(){} // RVA: 0x7443750
-        public void UnityEngine.UIElements.IStyle.set_visibility(){} // RVA: 0x74437D0
-        public void UnityEngine.UIElements.IStyle.get_width(){} // RVA: 0x7443860
-        public void UnityEngine.UIElements.IStyle.set_width(){} // RVA: 0x74438F0
-        public void get_ve(){} // RVA: 0x30B0C0
-        public void set_ve(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x74439D0
-        public void Finalize(){} // RVA: 0x7443A40
-        public void SetInlineRule(){} // RVA: 0x7443B80
-        public void IsValueSet(){} // RVA: 0x7443DD0
-        public void ApplyInlineStyles(){} // RVA: 0x74441B0
-        public void UnityEngine.UIElements.IStyle.get_cursor(){} // RVA: 0x74451B0
-        public void UnityEngine.UIElements.IStyle.get_textShadow(){} // RVA: 0x74452F0
-        public void UnityEngine.UIElements.IStyle.get_backgroundSize(){} // RVA: 0x7445360
-        public void UnityEngine.UIElements.IStyle.get_transformOrigin(){} // RVA: 0x74453C0
-        public void UnityEngine.UIElements.IStyle.get_translate(){} // RVA: 0x7445410
-        public void UnityEngine.UIElements.IStyle.set_translate(){} // RVA: 0x7445470
-        public void UnityEngine.UIElements.IStyle.get_rotate(){} // RVA: 0x74456E0
-        public void UnityEngine.UIElements.IStyle.get_scale(){} // RVA: 0x7445740
-        public void SetStyleValue(){} // RVA: 0x7446140 | overloaded x6
-        public void SetInlineTranslate(){} // RVA: 0x7446440
-        public void ApplyStyleTranslate(){} // RVA: 0x7446600
-        public void ApplyStyleValue(){} // RVA: 0x7446A30
-        public void RemoveInlineStyle(){} // RVA: 0x7446D50
-        public void ApplyFromComputedStyle(){} // RVA: 0x7446EA0
-        public void TryGetInlineCursor(){} // RVA: 0x74470B0
-        public void TryGetInlineTextShadow(){} // RVA: 0x7447120
-        public void TryGetInlineTransformOrigin(){} // RVA: 0x7447140
-        public void TryGetInlineTranslate(){} // RVA: 0x7447160
-        public void TryGetInlineRotate(){} // RVA: 0x7447190
-        public void TryGetInlineScale(){} // RVA: 0x74471C0
-        public void TryGetInlineBackgroundSize(){} // RVA: 0x74471F0
-        public void .cctor(){} // RVA: 0x7447220
-    }
-
-    public class InputEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73EC3D0
-        public void set_previousData(){} // RVA: 0x463060
-        public void set_newData(){} // RVA: 0xB54600
-        public void Init(){} // RVA: 0x73EC4C0
-        public void LocalInit(){} // RVA: 0x73EC580
-        public void GetPooled(){} // RVA: 0x73EC640
-        public void .ctor(){} // RVA: 0x73EC770
-    }
-
-    public class IntegerField
-    {
-        // ── Methods ──
-        public void get_integerInput(){} // RVA: 0x73A5AD0
-        public void ValueToString(){} // RVA: 0x73A5B60
-        public void StringToValue(){} // RVA: 0x73A5D70
-        public void .ctor(){} // RVA: 0x73A5EC0 | overloaded x2
-        public void CanTryParse(){} // RVA: 0x73A6300
-        public void ApplyInputDeviceDelta(){} // RVA: 0x73A63D0
-        public void .cctor(){} // RVA: 0x73A64C0
     }
 
 }

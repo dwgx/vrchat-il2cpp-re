@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class NativeClassAttribute
     {
+        public string <QualifiedNativeName>k__BackingField; // 0x10
+        public string <Declaration>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_QualifiedNativeName(){} // RVA: 0x2DEE30
         public void set_Declaration(){} // RVA: 0x343E80

@@ -7,6 +7,9 @@ namespace VRCCore
 {
     public class ApiAdminFile
     {
+        public string <fileName>k__BackingField; // 0x68
+        public string <url>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_fileName(){} // RVA: 0x358D50
         public void set_fileName(){} // RVA: 0x358D60

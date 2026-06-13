@@ -189,6 +189,9 @@ public class <ReadResponseHeaderLineAsync>d__32 : [I
 
 public class <ReadReverseRdns>d__21
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,string> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -265,6 +268,9 @@ public class <ReceiveAsyncPrivate>d__61`2 : <>t__builder
 
 public class <ReloadLevel>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -276,6 +282,9 @@ public class <ReloadLevel>d__7
 
 public class <RemoveComponent>d__2
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -287,6 +296,9 @@ public class <RemoveComponent>d__2
 
 public class <RemoveComponentsOfTypeEnumerator>d__1`1
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -298,6 +310,9 @@ public class <RemoveComponentsOfTypeEnumerator>d__1`1
 
 public class <RemoveDependencies>d__3
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D72A40
@@ -309,6 +324,9 @@ public class <RemoveDependencies>d__3
 
 public class <RenderLoop>d__24
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -320,6 +338,9 @@ public class <RenderLoop>d__24
 
 public class <ResetCoroutine>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -331,6 +352,9 @@ public class <ResetCoroutine>d__6
 
 public class <ResetDrawAnim>d__49
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -356,6 +380,9 @@ public class <ResolveAsync>d__9 : [I
 
 public class <ReverseIterator>d__79`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -369,6 +396,9 @@ public class <ReverseIterator>d__79`1
 
 public class <ReverseIterator>d__79`1
 {
+    public int <>1__state; // 0x10
+    public Transmtn.DTO.Notifications.Notification <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -487,6 +517,9 @@ public class <RunOther>d__18 : <>t__builder
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9A5FB90
@@ -498,6 +531,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB5B10
@@ -509,6 +545,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9A5FB90
@@ -520,6 +559,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB6CF0
@@ -531,6 +573,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9A5FB90
@@ -542,6 +587,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB6CF0
@@ -553,6 +601,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB6CF0
@@ -564,6 +615,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9A5FB90
@@ -575,6 +629,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AA8C80
@@ -586,6 +643,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB6CF0
@@ -597,6 +657,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -608,6 +671,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__0
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -619,6 +685,9 @@ public class <RunPerformanceScanEnumerator>d__0
 
 public class <RunPerformanceScanEnumerator>d__3
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AAAFF0
@@ -631,6 +700,9 @@ public class <RunPerformanceScanEnumerator>d__3
 
 public class <RunPerformanceScanEnumerator>d__4
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x9AB6CF0
@@ -751,6 +823,9 @@ public class <RunWriterTask>d__12 : <>t__builder
 
 public class <ScanAvatarForComponentsOfType>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -762,6 +837,9 @@ public class <ScanAvatarForComponentsOfType>d__7
 
 public class <ScanAvatarForComponentsOfType>d__8`1
 {
+    public int <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -773,6 +851,9 @@ public class <ScanAvatarForComponentsOfType>d__8`1
 
 public class <ScanAvatarForComponentsOfType>d__8`1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -784,6 +865,9 @@ public class <ScanAvatarForComponentsOfType>d__8`1
 
 public class <ScanAvatarForComponentsOfType>d__8`1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -795,6 +879,9 @@ public class <ScanAvatarForComponentsOfType>d__8`1
 
 public class <ScanAvatarForComponentsOfType>d__8`1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -806,6 +893,9 @@ public class <ScanAvatarForComponentsOfType>d__8`1
 
 public class <ScanAvatarForComponentsOfType>d__8`1
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0

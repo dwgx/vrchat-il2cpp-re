@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Net.Security
 {
     public class AuthenticatedStream
     {
+        public System.IO.Stream _InnerStream; // 0x28
+        public bool _LeaveStreamOpen; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BCDA40
         public void get_InnerStream(){} // RVA: 0x30B130
@@ -53,12 +56,14 @@ namespace ThirdParty.DotNet.System.Net.Security
 
     public class SslClientAuthenticationOptions
     {
-        public object AllowRenegotiation;
-        public object ClientCertificateRequired;
-        public object ServerCertificate;
-        public object EnabledSslProtocols;
-        public object CertificateRevocationCheckMode;
-        public object EncryptionPolicy;
+        public 0x6585D240 AllowRenegotiation; // 0x10
+        public 0x6584C9E8 ClientCertificateRequired; // 0x14
+        public 0x6584C200 ServerCertificate; // 0x18
+        public bool EnabledSslProtocols; // 0x1C
+        public System.Net.Security.LocalCertificateSelectionCallback CertificateRevocationCheckMode; // 0x20
+        public System.Net.Security.RemoteCertificateValidationCallback EncryptionPolicy; // 0x28
+        public string <TargetHost>k__BackingField; // 0x30
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection <ClientCertificates>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_AllowRenegotiation(){} // RVA: 0x2F8390
@@ -78,6 +83,13 @@ namespace ThirdParty.DotNet.System.Net.Security
 
     public class SslServerAuthenticationOptions
     {
+        public 0x6584C9E8 _checkCertificateRevocation; // 0x10
+        public 0x6584C200 _enabledSslProtocols; // 0x14
+        public 0x6585D240 _encryptionPolicy; // 0x18
+        public bool _allowRenegotiation; // 0x1C
+        public bool <ClientCertificateRequired>k__BackingField; // 0x1D
+        public System.Security.Cryptography.X509Certificates.X509Certificate <ServerCertificate>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_AllowRenegotiation(){} // RVA: 0x2F8390
         public void get_ClientCertificateRequired(){} // RVA: 0x1B98300
@@ -93,6 +105,13 @@ namespace ThirdParty.DotNet.System.Net.Security
 
     public class SslStream
     {
+        public Mono.Net.Security.MobileTlsProvider provider; // 0x38
+        public Mono.Security.Interface.MonoTlsSettings settings; // 0x40
+        public System.Net.Security.RemoteCertificateValidationCallback validationCallback; // 0x48
+        public System.Net.Security.LocalCertificateSelectionCallback selectionCallback; // 0x50
+        public Mono.Net.Security.MobileAuthenticatedStream impl; // 0x58
+        public bool explicitSettings; // 0x60
+
         // ── Methods ──
         public void get_Impl(){} // RVA: 0x6BCDF90
         public void get_InternalTargetHost(){} // RVA: 0x6BCE000

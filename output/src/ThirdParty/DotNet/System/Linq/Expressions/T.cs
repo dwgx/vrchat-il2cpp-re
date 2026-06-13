@@ -7,6 +7,12 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class TryExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <Body>k__BackingField; // 0x18
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.CatchBlock> <Handlers>k__BackingField; // 0x20
+        public System.Linq.Expressions.Expression <Finally>k__BackingField; // 0x28
+        public System.Linq.Expressions.Expression <Fault>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6605F20 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380
@@ -21,6 +27,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypeBinaryExpression
     {
+        public 0x65908648 <NodeType>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x18
+        public System.Type <TypeOperand>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6607120 | overloaded x2
         public void get_Type(){} // RVA: 0x6606070
@@ -36,6 +46,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedConstantExpression
     {
+        public System.Type <Type>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E0360
         public void get_Type(){} // RVA: 0x2E07C0
@@ -43,6 +55,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedDynamicExpression1
     {
+        public System.Type <Type>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7390
         public void get_Type(){} // RVA: 0x30B130
@@ -50,6 +64,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedDynamicExpression2
     {
+        public System.Type <Type>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7AE0
         public void get_Type(){} // RVA: 0x6374D0
@@ -57,6 +73,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedDynamicExpression3
     {
+        public System.Type <Type>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E8090
         public void get_Type(){} // RVA: 0x4976A0
@@ -64,6 +82,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedDynamicExpression4
     {
+        public System.Type <Type>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E8710
         public void get_Type(){} // RVA: 0x35A740
@@ -71,6 +91,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedDynamicExpressionN
     {
+        public System.Type <Type>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65E7390
         public void get_Type(){} // RVA: 0x30B130
@@ -78,6 +100,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class TypedParameterExpression
     {
+        public System.Type <Type>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6601CA0
         public void get_Type(){} // RVA: 0x2E07C0

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 30
-// Methods: 560
+// Classes: 32
+// Methods: 608
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
@@ -54,6 +54,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VectorImage
     {
+        public int version; // 0x18
+        public UnityEngine.Texture2D atlas; // 0x20
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x7D0490
         public void get_height(){} // RVA: 0x2E5970
@@ -70,6 +73,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1
     {
+        public UnityEngine.Pool.ObjectPool`1<T> m_Pool;
+        public UnityEngine.UIElements.BaseVerticalCollectionView m_CollectionView;
+        public System.Collections.Generic.List`1<T> m_ActiveItems;
+        public T m_DraggedItem;
+        public int m_LastFocusedElementIndex;
+        public System.Collections.Generic.List`1<int> m_LastFocusedElementTreeChildIndexes;
+        public System.Func`2<T,bool> m_VisibleItemPredicateDelegate;
+        public System.Collections.Generic.List`1<T> m_ScrollInsertionList;
+        public UnityEngine.UIElements.VisualElement m_EmptyRows;
+
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0xCD60
         public void get_itemsCount(){} // RVA: 0xD840
@@ -97,6 +110,84 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void GetDraggedIndex(){} // RVA: 0xD840
     }
 
+    public class VerticalVirtualizationController`1
+    {
+        public UnityEngine.Pool.ObjectPool`1<T> m_Pool; // 0x18
+        public UnityEngine.UIElements.BaseVerticalCollectionView m_CollectionView; // 0x20
+        public System.Collections.Generic.List`1<T> m_ActiveItems; // 0x28
+        public T m_DraggedItem; // 0x30
+        public int m_LastFocusedElementIndex; // 0x38
+        public System.Collections.Generic.List`1<int> m_LastFocusedElementTreeChildIndexes; // 0x40
+        public System.Func`2<T,bool> m_VisibleItemPredicateDelegate; // 0x48
+        public System.Collections.Generic.List`1<T> m_ScrollInsertionList; // 0x50
+        public UnityEngine.UIElements.VisualElement m_EmptyRows; // 0x58
+
+        // ── Methods ──
+        public void get_activeItems(){} // RVA: 0x30B130
+        public void get_itemsCount(){} // RVA: 0x4B4F060
+        public void VisibleItemPredicate(){} // RVA: 0x4B4F0E0
+        public void get_firstVisibleItem(){} // RVA: 0x4B4F1D0
+        public void get_lastVisibleItem(){} // RVA: 0x4B4F1F0
+        public void get_visibleItemCount(){} // RVA: 0x4B4F210
+        public void get_serializedData(){} // RVA: 0x4B4F230
+        public void get_firstVisibleIndex(){} // RVA: 0x4B4F250
+        public void set_firstVisibleIndex(){} // RVA: 0x4B4F2D0
+        public void get_lastHeight(){} // RVA: 0x4B4F300
+        public void get_alwaysRebindOnRefresh(){} // RVA: 0x3C2850
+        public void .ctor(){} // RVA: 0x4B4F320
+        public void Refresh(){} // RVA: 0x4B4FC90
+        public void Setup(){} // RVA: 0x4B50150
+        public void OnFocus(){} // RVA: 0x4B506D0
+        public void OnBlur(){} // RVA: 0x4B50B90
+        public void HandleFocus(){} // RVA: 0x4B50C20
+        public void UpdateBackground(){} // RVA: 0x4B50D20
+        public void StartDragItem(){} // RVA: 0x4B51400
+        public void EndDrag(){} // RVA: 0x4B51630
+        public void GetOrMakeItemAtIndex(){} // RVA: 0x4B519C0
+        public void ReleaseItem(){} // RVA: 0x4B51CD0
+        public void OnDestroyItem(){} // RVA: 0x4B51DC0
+        public void GetDraggedIndex(){} // RVA: 0x4B51F60
+    }
+
+    public class VerticalVirtualizationController`1
+    {
+        public UnityEngine.Pool.ObjectPool`1<T> m_Pool; // 0x18
+        public UnityEngine.UIElements.BaseVerticalCollectionView m_CollectionView; // 0x20
+        public System.Collections.Generic.List`1<T> m_ActiveItems; // 0x28
+        public T m_DraggedItem; // 0x30
+        public int m_LastFocusedElementIndex; // 0x38
+        public System.Collections.Generic.List`1<int> m_LastFocusedElementTreeChildIndexes; // 0x40
+        public System.Func`2<T,bool> m_VisibleItemPredicateDelegate; // 0x48
+        public System.Collections.Generic.List`1<T> m_ScrollInsertionList; // 0x50
+        public UnityEngine.UIElements.VisualElement m_EmptyRows; // 0x58
+
+        // ── Methods ──
+        public void get_activeItems(){} // RVA: 0x30B130
+        public void get_itemsCount(){} // RVA: 0x4B4F060
+        public void VisibleItemPredicate(){} // RVA: 0x4B4F0E0
+        public void get_firstVisibleItem(){} // RVA: 0x4B4F1D0
+        public void get_lastVisibleItem(){} // RVA: 0x4B4F1F0
+        public void get_visibleItemCount(){} // RVA: 0x4B4F210
+        public void get_serializedData(){} // RVA: 0x4B4F230
+        public void get_firstVisibleIndex(){} // RVA: 0x4B4F250
+        public void set_firstVisibleIndex(){} // RVA: 0x4B4F2D0
+        public void get_lastHeight(){} // RVA: 0x4B4F300
+        public void get_alwaysRebindOnRefresh(){} // RVA: 0x3C2850
+        public void .ctor(){} // RVA: 0x4B4F320
+        public void Refresh(){} // RVA: 0x4B4FC90
+        public void Setup(){} // RVA: 0x4B50150
+        public void OnFocus(){} // RVA: 0x4B506D0
+        public void OnBlur(){} // RVA: 0x4B50B90
+        public void HandleFocus(){} // RVA: 0x4B50C20
+        public void UpdateBackground(){} // RVA: 0x4B50D20
+        public void StartDragItem(){} // RVA: 0x4B51400
+        public void EndDrag(){} // RVA: 0x4B51630
+        public void GetOrMakeItemAtIndex(){} // RVA: 0x4B519C0
+        public void ReleaseItem(){} // RVA: 0x4B51CD0
+        public void OnDestroyItem(){} // RVA: 0x4B51DC0
+        public void GetDraggedIndex(){} // RVA: 0x4B51F60
+    }
+
     public class VisualData
     {
         // ── Methods ──
@@ -109,6 +200,78 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElement : UnityEngine.UIElements
     {
+        public int <UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount>k__BackingField; // 0x30
+        public int <UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount>k__BackingField; // 0x34
+        public uint s_NextId;
+        public System.Collections.Generic.List`1<string> s_EmptyClassList; // 0x8
+        public UnityEngine.PropertyName userDataPropertyKey; // 0x10
+        public string disabledUssClassName; // 0x18
+        public string m_Name; // 0x38
+        public System.Collections.Generic.List`1<string> m_ClassList; // 0x40
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,object>> m_PropertyBag; // 0x48
+        public 0x65841620 m_Flags; // 0x50
+        public string m_ViewDataKey; // 0x58
+        public 0x6583AF58 m_RenderHints; // 0x60
+        public UnityEngine.Rect lastLayout; // 0x64
+        public UnityEngine.Rect lastPseudoPadding; // 0x74
+        public UnityEngine.UIElements.UIR.RenderChainVEData renderChainData; // 0x88
+        public UnityEngine.Rect m_Layout; // 0x1D0
+        public UnityEngine.Rect m_BoundingBox; // 0x1E0
+        public 0x65841620 worldBoundingBoxDirtyDependencies;
+        public UnityEngine.Rect m_WorldBoundingBox; // 0x1F0
+        public 0x65841620 worldTransformInverseDirtyDependencies;
+        public UnityEngine.Matrix4x4 m_WorldTransformCache; // 0x200
+        public UnityEngine.Matrix4x4 m_WorldTransformInverseCache; // 0x240
+        public UnityEngine.Rect m_WorldClip; // 0x280
+        public UnityEngine.Rect m_WorldClipMinusGroup; // 0x290
+        public bool m_WorldClipIsInfinite; // 0x2A0
+        public UnityEngine.Rect s_InfiniteRect; // 0x20
+        public 0x658415C8 triggerPseudoMask; // 0x2A4
+        public 0x658415C8 dependencyPseudoMask; // 0x2A8
+        public 0x658415C8 m_PseudoStates; // 0x2AC
+        public int <containedPointerIds>k__BackingField; // 0x2B0
+        public 0x65841678 m_PickingMode; // 0x2B4
+        public UnityEngine.Yoga.YogaNode <yogaNode>k__BackingField; // 0x2B8
+        public UnityEngine.UIElements.ComputedStyle m_Style; // 0x2C0
+        public UnityEngine.UIElements.StyleVariableContext variableContext; // 0x318
+        public int inheritedStylesHash; // 0x320
+        public uint controlid; // 0x324
+        public int imguiContainerDescendantCount; // 0x328
+        public bool <enabledSelf>k__BackingField; // 0x32C
+        public 0x658416D0 m_LanguageDirection; // 0x330
+        public 0x658416D0 m_LocalLanguageDirection; // 0x334
+        public System.Action`1<UnityEngine.UIElements.MeshGenerationContext> <generateVisualContent>k__BackingField; // 0x338
+        public Unity.Profiling.ProfilerMarker k_GenerateVisualContentMarker; // 0x30
+        public 0x6583C608 m_SubRenderTargetMode; // 0x340
+        public UnityEngine.Material s_runtimeMaterial; // 0x38
+        public UnityEngine.Material m_defaultMaterial; // 0x348
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Experimental.IValueAnimationUpdate> m_RunningAnimations; // 0x350
+        public uint s_NextParentVersion; // 0x40
+        public uint m_NextParentCachedVersion; // 0x358
+        public uint m_NextParentRequiredVersion; // 0x35C
+        public UnityEngine.UIElements.VisualElement m_CachedNextParentWithEventCallback; // 0x360
+        public int m_EventCallbackCategories; // 0x368
+        public int m_CachedEventCallbackParentCategories; // 0x36C
+        public int m_DefaultActionEventCategories; // 0x370
+        public int m_DefaultActionAtTargetEventCategories; // 0x374
+        public string k_RootVisualContainerName;
+        public Hierarchy <hierarchy>k__BackingField; // 0x378
+        public bool <isRootVisualContainer>k__BackingField; // 0x380
+        public bool <cacheAsBitmap>k__BackingField; // 0x381
+        public UnityEngine.UIElements.VisualElement m_PhysicalParent; // 0x388
+        public UnityEngine.UIElements.VisualElement m_LogicalParent; // 0x390
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> s_EmptyList; // 0x48
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> m_Children; // 0x398
+        public UnityEngine.UIElements.BaseVisualElementPanel <elementPanel>k__BackingField; // 0x3A0
+        public UnityEngine.UIElements.VisualTreeAsset m_VisualTreeAssetSource; // 0x3A8
+        public CustomStyleAccess s_CustomStyleAccess; // 0x50
+        public UnityEngine.UIElements.InlineStyleAccess inlineStyleAccess; // 0x3B0
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> styleSheetList; // 0x3B8
+        public System.Text.RegularExpressions.Regex s_InternalStyleSheetPath; // 0x58
+        public UnityEngine.PropertyName tooltipPropertyKey; // 0x60
+        public System.Collections.Generic.Dictionary`2<System.Type,TypeData> s_TypeData; // 0x68
+        public TypeData m_TypeData; // 0x3C0
+
         // ── Methods ──
         public void get_resolvedStyle(){} // RVA: 0x1A3F520
         public void UnityEngine.UIElements.IResolvedStyle.get_backgroundColor(){} // RVA: 0x74472E0
@@ -415,6 +578,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementAnimationSystem
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.UIElements.Experimental.IValueAnimationUpdate> m_Animations; // 0x20
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Experimental.IValueAnimationUpdate> m_IterationList; // 0x28
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x732B020
         public void get_stylePropertyAnimationProfilerMarker(){} // RVA: 0x732B080
@@ -430,6 +596,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementAsset
     {
+        public string m_Name; // 0x30
+        public int m_RuleIndex; // 0x38
+        public string m_Text; // 0x40
+        public 0x65841678 m_PickingMode; // 0x48
+        public string[] m_Classes; // 0x50
+        public System.Collections.Generic.List`1<string> m_StylesheetPaths; // 0x58
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> m_Stylesheets; // 0x60
+
         // ── Methods ──
         public void get_ruleIndex(){} // RVA: 0x7145EA0
         public void get_classes(){} // RVA: 0x7187FD0
@@ -455,6 +629,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFactoryRegistry
     {
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<UnityEngine.UIElements.IUxmlFactory>> s_Factories;
+
         // ── Methods ──
         public void GetMovedUIControlTypeName(){} // RVA: 0x7494ED0
         public void get_factories(){} // RVA: 0x74950C0
@@ -466,6 +642,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusChangeDirection
     {
+        public UnityEngine.UIElements.VisualElementFocusChangeDirection s_Left;
+        public UnityEngine.UIElements.VisualElementFocusChangeDirection s_Right; // 0x8
+
         // ── Methods ──
         public void get_left(){} // RVA: 0x7327890
         public void get_right(){} // RVA: 0x73278F0
@@ -475,6 +654,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusChangeTarget
     {
+        public UnityEngine.UIElements.ObjectPool`1<UnityEngine.UIElements.VisualElementFocusChangeTarget> Pool;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x7327C40
         public void Dispose(){} // RVA: 0x7327D60
@@ -487,6 +668,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusRing
     {
+        public UnityEngine.UIElements.VisualElement root; // 0x10
+        public 0x65841CA8 <defaultFocusOrder>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7328220
         public void get_focusController(){} // RVA: 0x7F0180
@@ -515,6 +699,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementPanelActivator
     {
+        public UnityEngine.UIElements.IVisualElementPanelActivatable m_Activatable; // 0x10
+        public bool <isActive>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x2F84E0
         public void set_isActive(){} // RVA: 0x2F84F0
@@ -549,6 +736,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeAsset
     {
+        public string LinkedVEAInTemplatePropertyName;
+        public bool m_ImportedWithErrors; // 0x18
+        public bool m_ImportedWithWarnings; // 0x19
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.VisualElement> s_TemporarySlotInsertionPoints; // 0x8
+        public System.Collections.Generic.List`1<UsingEntry> m_Usings; // 0x20
+        public UnityEngine.UIElements.StyleSheet inlineSheet; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElementAsset> m_VisualElementAssets; // 0x30
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.TemplateAsset> m_TemplateAssets; // 0x38
+        public System.Collections.Generic.List`1<UxmlObjectEntry> m_UxmlObjectEntries; // 0x40
+        public System.Collections.Generic.List`1<int> m_UxmlObjectIds; // 0x48
+        public System.Collections.Generic.List`1<AssetEntry> m_AssetEntries; // 0x50
+
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7090430
         public void set_importedWithErrors(){} // RVA: 0x2F84F0
@@ -592,6 +791,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeBindingsUpdater
     {
+        public UnityEngine.PropertyName s_BindingRequestObjectVEPropertyName;
+        public UnityEngine.PropertyName s_AdditionalBindingObjectVEPropertyName; // 0x4
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x72E6740
         public void GetBindingObjectFromElement(){} // RVA: 0x72E67A0
@@ -613,6 +815,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeHierarchyFlagsUpdater
     {
+        public uint m_Version; // 0x20
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x732BD50
         public void OnVersionChanged(){} // RVA: 0x732BDB0
@@ -625,6 +829,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeStyleUpdater
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.UIElements.VisualElement> m_ApplyStyleUpdateList; // 0x20
+        public System.Collections.Generic.HashSet`1<UnityEngine.UIElements.VisualElement> m_TransitionPropertyUpdateList; // 0x28
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x732D100
         public void OnVersionChanged(){} // RVA: 0x732D160
@@ -639,6 +846,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeStyleUpdaterTraversal
     {
+        public UnityEngine.UIElements.StyleVariableContext m_ProcessVarContext; // 0x10
+
         // ── Methods ──
         public void get_currentPixelsPerPoint(){} // RVA: 0x466280
         public void set_currentPixelsPerPoint(){} // RVA: 0x4FDE90
@@ -672,6 +881,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeViewDataUpdater
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.UIElements.VisualElement> m_UpdateList; // 0x20
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x7331D40
         public void OnVersionChanged(){} // RVA: 0x7331DA0

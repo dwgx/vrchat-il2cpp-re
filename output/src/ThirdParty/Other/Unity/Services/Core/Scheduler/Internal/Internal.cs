@@ -32,6 +32,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
 
     public class MinimumBinaryHeap`1
     {
+        public object m_Lock;
+        public System.Collections.Generic.IComparer`1<T> m_Comparer;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xD840
         public void set_Count(){} // RVA: 0x24FA0

@@ -30,6 +30,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÍÏÌÌÎÏÎÍÍÍÎÍÌÍÏÍÌÏÌÍ</summary>
     public class PhotonConnectionHandlerSiblingSibling_E470
     {
+        public string <ÏÎÍÍÏÎÏÌÍÍÏÍÎÍÍÍÍÌÏÍÎÌÎ>k__BackingField; // 0x10
+        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ; // 0x18
+        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÏÏÌÏÌÍÎÏÎÏÍÏÏÏÎÌÎÍÎÎÎÌ>k__BackingField; // 0x28
+        public string <ÏÍÌÍÌÏÍÏÍÎÍÌÎÏÍÍÌÎÌÏÍÍÎ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
@@ -74,6 +80,18 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÎÏÍÏÌÍÍÍÌÏÌÏÎÏÌÍÍÍÏÍ</summary>
     public class PhotonConnectionHandlerSibling_FC00
     {
+        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x10
+        public ÎÎÍÏÎÎÎÎÌÎÍÌÍÎÏÎÌÍÍÌÍÏÌ <ÌÎÍÏÍÍÍÏÌÎÎÎÌÎÍÌÍÏÍÍÍÎÏ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÎÌÍÌÍÌÏÍÍÌÏÍÏÌÌÏÌÏÎÎÏÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÍÏÍÏÎÏÌÍÏÎÎÍÌÍÎÏÌÌÎÏÎÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÍÎÎÍÍÎÍÌÌÌÍÎÍÎÍÌÌÍÍÍÎÎ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÏÏÌÏÌÍÎÏÎÏÍÏÏÏÎÌÎÍÎÎÎÌ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÌÍÍÏÌÎÏÌÌÌÍÌÌÎÎÌÍÍÍÍÌÏÎ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÎÌÎÍÎÎÌÍÎÍÌÌÎÏÏÏÏÎÍÌÌÏÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÌÌÎÎÏÎÌÍÌÏÎÍÌÏÏÍÌÎÍÍÏ>k__BackingField; // 0x50
+        public System.Action`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÍÎÌÎÎÎÏÍÏÍÍÍÎÌÍÌÌÎÎÍÏÎÏ>k__BackingField; // 0x58
+        public System.Action`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÏÎÎÎÌÍÌÎÍÏÍÎÍÎÍÏÎÎÏÎÎÍÏ>k__BackingField; // 0x60
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void get_MoveNext(){} // RVA: 0x35A740
@@ -150,6 +168,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÏÏÍÎÍÍÍÌÌÌÍÌÎÍÏÌÏÌÍÌ</summary>
     public class PhotonConnectionHandler_D6F1
     {
+        public string ÏÍÌÎÎÌÎÏÎÍÌÎÎÌÏÎÍÎÎÏÌÏÎ;
+        public int ÏÌÌÎÏÌÎÏÏÍÏÌÏÌÌÏÍÍÏÌÏÏÏ;
+        public ÍÌÎÏÏÍÎÍÍÍÌÌÌÍÌÎÍÏÌÏÌÍÌ ÎÌÎÌÍÎÌÎÏÌÏÏÏÎÏÏÎÎÎÍÏÏÌ;
+        public VRC.Localization.LocalizableString <ÌÏÎÍÌÍÏÏÎÎÍÍÏÌÍÏÌÏÏÏÌÎÏ>k__BackingField; // 0x20
+        public 0x6572C578 <ÏÎÎÍÎÌÏÍÌÌÌÌÏÏÏÍÍÎÍÎÎÏÌ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void RegisterPhotonCustomTypes(){} // RVA: 0x12D2430
         public void RegisterPhotonCustomTypes_40E266D77E85(){} // RVA: 0x12D2630
@@ -265,6 +289,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÌÏÌÎÍÎÎÏÎÌÏÌÍÎÏÍÍÍÌÌÏ</summary>
     public class PhotonRoomHandlerSibling_FD7B
     {
+        public ÎÍÌÍÎÎÏÌÌÌÍÍÍÎÌÍÎÏÏÌÌÏÎ<ÏÌÌÍÎÌÍÍÍÏÎÏÌÍÍÌÍÍÌÏÍÎÎ> <ÏÎÏÌÍÍÌÎÎÍÌÏÎÍÏÎÎÌÏÏÌÏÌ>k__BackingField; // 0x10
+        public ÎÍÌÍÎÎÏÌÌÌÍÍÍÎÌÍÎÏÏÌÌÏÎ<ÏÌÌÍÎÌÍÍÍÏÎÏÌÍÍÌÍÍÌÏÍÎÎ> <ÏÎÍÌÎÍÎÍÍÎÍÎÌÎÌÍÌÌÍÌÍÌÍ>k__BackingField; // 0x18
+        public ÎÍÌÍÎÎÏÌÌÌÍÍÍÎÌÍÎÏÏÌÌÏÎ<ÏÌÌÍÎÌÍÍÍÏÎÏÌÍÍÌÍÍÌÏÍÎÎ> <ÎÌÍÌÏÎÏÎÌÏÍÌÍÏÌÍÍÌÌÎÍÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x30B0C0
         public void Equals(){} // RVA: 0x343E80
@@ -322,6 +350,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÎÎÍÏÍÍÌÎÏÎÍÏÌÌÏÎÍÌÏÍÌ</summary>
     public class PhotonUserConnectionComponent_5CF6
     {
+        public UnityEngine.CanvasGroup colorPickerCanvasGroup; // 0x138
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BDBB00
         public void Initialize(){} // RVA: 0x8BDBBF0

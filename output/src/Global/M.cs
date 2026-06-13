@@ -12,6 +12,9 @@ public class MD5
 
 public class MROutput
 {
+    public bool mProvablyComposite; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mFactor; // 0x18
+
     // ── Methods ──
     public void ProbablyPrime(){} // RVA: 0x999B350
     public void ProvablyCompositeWithFactor(){} // RVA: 0x999B3E0
@@ -24,12 +27,7 @@ public class MROutput
 
 public class MainModule
 {
-    public object enabled;
-    public object rateOverTime;
-    public object rateOverTimeMultiplier;
-    public object rateOverDistance;
-    public object rateOverDistanceMultiplier;
-    public object burstCount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -270,6 +268,10 @@ public class MapPointCallback
 
 public class MapView`1
 {
+    public Google.Protobuf.Collections.MapField`2<U,V> parent;
+    public System.Func`2<System.Collections.Generic.KeyValuePair`2<U,V>,T> projection;
+    public System.Func`2<T,bool> containsCheck;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F090
     public void get_Count(){} // RVA: 0xD840
@@ -287,6 +289,13 @@ public class MapView`1
 
 public class MarketplaceCategoryData
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public string <type>k__BackingField; // 0x70
+    public int <maxCells>k__BackingField; // 0x78
+    public System.Collections.Generic.List`1<string> <ids>k__BackingField; // 0x80
+    public bool <shuffle>k__BackingField; // 0x88
+    public ContentList <contentList>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x358D50
     public void set_name(){} // RVA: 0x358D60
@@ -346,9 +355,9 @@ public class MatEntry
 
 public class Match
 {
-    public object Current;
-    public object System.Collections.IEnumerator.Current;
-    public object IEnumerable`1;
+    public int Current; // 0x10
+    public DeviceRequirement[] System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputControl> IEnumerable`1; // 0x20
 
     // ── Methods ──
     public void get_control(){} // RVA: 0x6DE1720
@@ -380,6 +389,12 @@ public class MatchNumberDelegate
 
 public class MatchResult
 {
+    public 0x65867B60 m_Result; // 0x10
+    public float m_Score; // 0x14
+    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputDevice> m_Devices; // 0x18
+    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputControl> m_Controls; // 0x38
+    public DeviceRequirement[] m_Requirements; // 0x58
+
     // ── Methods ──
     public void get_score(){} // RVA: 0x1F78370
     public void get_isSuccessfulMatch(){} // RVA: 0x6DE1350
@@ -474,12 +489,7 @@ public class MemberDescriptorComparer
 
 public class MemberExpressionProxy
 {
-    public object Bindings;
-    public object CanReduce;
-    public object DebugView;
-    public object NewExpression;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.MemberExpression Bindings; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB390
@@ -493,12 +503,7 @@ public class MemberExpressionProxy
 
 public class MemberInitExpressionProxy
 {
-    public object Arguments;
-    public object CanReduce;
-    public object DebugView;
-    public object Method;
-    public object NodeType;
-    public object Object;
+    public System.Linq.Expressions.MemberInitExpression Arguments; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB470

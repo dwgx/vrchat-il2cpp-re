@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509.Extensions
 {
     public class AuthorityKeyIdentifierExtension
     {
+        public byte[] aki; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD1CE0
         public void Decode(){} // RVA: 0x5BD1CF0
@@ -17,6 +19,8 @@ namespace ThirdParty.DotNet.Mono.Security.X509.Extensions
 
     public class BasicConstraintsExtension
     {
+        public bool cA; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD1CE0
         public void Decode(){} // RVA: 0x5BD23E0

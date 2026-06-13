@@ -23,6 +23,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DebugContext
     {
+        public object LOCK; // 0x10
+        public VRC.Udon.Serialization.OdinSerializer.ILogger logger; // 0x18
+        public 0x65940460 loggingPolicy; // 0x20
+
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x7870E40
         public void set_Logger(){} // RVA: 0x78706F0
@@ -47,6 +51,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DefaultLoggers
     {
+        public object LOCK;
+        public VRC.Udon.Serialization.OdinSerializer.ILogger unityLogger; // 0x8
+
         // ── Methods ──
         public void get_DefaultLogger(){} // RVA: 0x7860800
         public void get_UnityLogger(){} // RVA: 0x7860850
@@ -101,6 +108,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DeserializationContext
     {
+        public VRC.Udon.Serialization.OdinSerializer.SerializationConfig config; // 0x10
+        public System.Collections.Generic.Dictionary`2<int,object> internalIdReferenceMap; // 0x18
+        public System.Runtime.Serialization.StreamingContext streamingContext; // 0x20
+        public System.Runtime.Serialization.IFormatterConverter formatterConverter; // 0x30
+        public VRC.Udon.Serialization.OdinSerializer.TwoWaySerializationBinder binder; // 0x38
+        public VRC.Udon.Serialization.OdinSerializer.IExternalStringReferenceResolver <StringReferenceResolver>k__BackingField; // 0x40
+        public VRC.Udon.Serialization.OdinSerializer.IExternalGuidReferenceResolver <GuidReferenceResolver>k__BackingField; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7865260 | overloaded x4
         public void get_Binder(){} // RVA: 0x78654E0

@@ -14,6 +14,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.BC
 
     public class LinkedCertificate
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.DigestInfo mDigest; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName mCertLocation; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name mCertIssuer; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralNames mCACerts; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97FA200 | overloaded x3
         public void GetInstance(){} // RVA: 0x97FA450

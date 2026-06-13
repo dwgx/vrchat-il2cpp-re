@@ -30,7 +30,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GlobalSerializationConfig
     {
-        public object instance;
+        public VRC.Udon.Serialization.OdinSerializer.GlobalSerializationConfig instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7834680

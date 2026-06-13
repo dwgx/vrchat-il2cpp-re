@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class MemberAssignment
     {
+        public System.Linq.Expressions.Expression _expression; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FC3B0 | overloaded x2
         public void get_Expression(){} // RVA: 0x30B0C0
@@ -16,6 +18,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MemberBinding
     {
+        public 0x65909098 <BindingType>k__BackingField; // 0x10
+        public System.Reflection.MemberInfo <Member>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CC5AF0
         public void get_BindingType(){} // RVA: 0x32A5C0
@@ -26,6 +31,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MemberExpression
     {
+        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Member(){} // RVA: 0x37EF790
         public void get_Expression(){} // RVA: 0x2F8380
@@ -39,6 +46,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MemberInitExpression
     {
+        public System.Linq.Expressions.NewExpression <NewExpression>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> <Bindings>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FD590 | overloaded x2
         public void get_Type(){} // RVA: 0x7F0250
@@ -56,6 +66,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MemberListBinding
     {
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> <Initializers>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FD730 | overloaded x2
         public void get_Initializers(){} // RVA: 0x30B0C0
@@ -65,6 +77,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MemberMemberBinding
     {
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> <Bindings>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FD810 | overloaded x2
         public void get_Bindings(){} // RVA: 0x30B0C0
@@ -81,6 +95,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression
     {
+        public System.Reflection.MethodInfo <Method>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDB20 | overloaded x2
         public void GetInstance(){} // RVA: 0x519240
@@ -111,6 +127,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression1 : .ctor
     {
+        public object _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDB50
         public void GetArgument(){} // RVA: 0x65FE420
@@ -122,6 +140,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression2 : .ctor
     {
+        public object _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDE40
         public void GetArgument(){} // RVA: 0x65FE710
@@ -133,6 +153,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression3 : .ctor
     {
+        public object _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FEB40
         public void GetArgument(){} // RVA: 0x65FEC70
@@ -144,6 +166,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression4 : .ctor
     {
+        public object _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FF130
         public void GetArgument(){} // RVA: 0x65FF2B0
@@ -155,6 +179,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpression5 : .ctor
     {
+        public object _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FF800
         public void GetArgument(){} // RVA: 0x65FF9E0
@@ -166,6 +192,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class MethodCallExpressionN : .ctor
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65FDB50
         public void GetArgument(){} // RVA: 0x65FDBC0

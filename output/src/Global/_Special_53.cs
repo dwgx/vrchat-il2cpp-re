@@ -5,6 +5,9 @@
 
 public class <UpdateControllerModel>d__16
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -30,6 +33,9 @@ public class <UpdateThumbnail>d__12 : [I
 
 public class <UpdateUiStatus>d__4
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -41,6 +47,9 @@ public class <UpdateUiStatus>d__4
 
 public class <UpdateUiStatus>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -59,6 +68,9 @@ public class <UploadThumbnail>d__16 : [I
 
 public class <Values>d__11`2
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -75,6 +87,9 @@ public class <Values>d__11`2
 
 public class <Wait>d__5
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -139,6 +154,9 @@ public class <WaitForCompletion>d__15
 
 public class <WaitForCompletion>d__17
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -150,6 +168,9 @@ public class <WaitForCompletion>d__17
 
 public class <WaitForElapsedLoops>d__20
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -161,6 +182,9 @@ public class <WaitForElapsedLoops>d__20
 
 public class <WaitForKill>d__19
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -179,6 +203,9 @@ public class <WaitForNetworkOnlineAsync>d__15 : [I
 
 public class <WaitForPosition>d__21
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -190,6 +217,9 @@ public class <WaitForPosition>d__21
 
 public class <WaitForRewind>d__18
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -208,6 +238,9 @@ public class <WaitForServerToCloseConnectionAsync>d__63 : [I
 
 public class <WaitForStart>d__22
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -284,6 +317,9 @@ public class <WaitUntilCountOrTimeoutAsync>d__32 : [I
 
 public class <WaitforSeekCompletes>d__13
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -295,6 +331,9 @@ public class <WaitforSeekCompletes>d__13
 
 public class <WalkExceptions>d__12
 {
+    public int <>1__state; // 0x10
+    public Sentry.Protocol.SentryException <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x6411B00
@@ -309,6 +348,9 @@ public class <WalkExceptions>d__12
 
 public class <WhereIterator>d__2`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -323,6 +365,9 @@ public class <WhereIterator>d__2`1
 
 public class <WhereNotNullValue>d__3`2
 {
+    public int <>1__state;
+    public System.Collections.Generic.KeyValuePair`2<U,T> <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -337,6 +382,9 @@ public class <WhereNotNullValue>d__3`2
 
 public class <WrapCoroutine>d__43
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -545,6 +593,9 @@ public class <WriteValueNotNullAsync>d__110 : [I
 
 public class <ZipIterator>d__65`3
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -591,6 +642,9 @@ public class <data>e__FixedBuffer
 
 public class <emitter>d__11
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -602,6 +656,9 @@ public class <emitter>d__11
 
 public class <get_Children>d__22
 {
+    public int <>1__state; // 0x10
+    public OVRSimpleJSON.JSONNode <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x61D3FE0
@@ -616,6 +673,9 @@ public class <get_Children>d__22
 
 public class <get_Children>d__23
 {
+    public int <>1__state; // 0x10
+    public OVRSimpleJSON.JSONNode <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x61D55D0
@@ -630,6 +690,9 @@ public class <get_Children>d__23
 
 public class <get_Children>d__40
 {
+    public int <>1__state; // 0x10
+    public OVRSimpleJSON.JSONNode <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -643,6 +706,9 @@ public class <get_Children>d__40
 
 public class <get_Claims>d__51
 {
+    public int <>1__state; // 0x10
+    public System.Security.Claims.Claim <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x5CBEBC0
@@ -657,6 +723,9 @@ public class <get_Claims>d__51
 
 public class <get_Contents>d__70
 {
+    public int <>1__state; // 0x10
+    public 0x65920ED8 <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x7647E00
@@ -671,6 +740,9 @@ public class <get_Contents>d__70
 
 public class <get_DeepChildren>d__42
 {
+    public int <>1__state; // 0x10
+    public OVRSimpleJSON.JSONNode <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x61D2E00
@@ -686,6 +758,9 @@ public class <get_DeepChildren>d__42
 
 public class <get_Integrations>d__62
 {
+    public int <>1__state; // 0x10
+    public Sentry.Integrations.ISdkIntegration <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x63ADE90
@@ -700,6 +775,9 @@ public class <get_Integrations>d__62
 
 public class <get_Keys>d__25
 {
+    public int <>1__state;
+    public U <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -715,6 +793,9 @@ public class <get_Keys>d__25
 
 public class <get_Keys>d__25
 {
+    public int <>1__state;
+    public U <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -730,14 +811,21 @@ public class <get_Keys>d__25
 
 public class <get_Keys>d__25
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
 }
 
 public class <get_Keys>d__25
 {
+    public int <>1__state; // 0x10
+    public uint <>2__current; // 0x14
 }
 
 public class <get_KnownLevels>d__10
 {
+    public int <>1__state; // 0x10
+    public System.ValueTuple`2<string,string> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x9931F70
@@ -752,6 +840,9 @@ public class <get_KnownLevels>d__10
 
 public class <get_References>d__21
 {
+    public int <>1__state; // 0x10
+    public VRC.SDK3.AssetCustomization.IReferenceObject <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x99F6580
@@ -767,6 +858,9 @@ public class <get_References>d__21
 
 public class <get_Values>d__27
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -782,6 +876,9 @@ public class <get_Values>d__27
 
 public class <get_Values>d__27
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -797,14 +894,21 @@ public class <get_Values>d__27
 
 public class <get_Values>d__27
 {
+    public int <>1__state; // 0x10
+    public VRC.Udon.Common.Interfaces.IUdonSymbol <>2__current; // 0x18
 }
 
 public class <get_Values>d__27
 {
+    public int <>1__state; // 0x10
+    public VRC.Udon.Common.Interfaces.IUdonSymbol <>2__current; // 0x18
 }
 
 public class <get_bindings>d__9
 {
+    public int <>1__state; // 0x10
+    public UnityEngine.InputSystem.InputBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D88ED0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -818,6 +922,9 @@ public class <get_bindings>d__9
 
 public class <get_controls>d__2
 {
+    public int <>1__state; // 0x10
+    public PartBinding <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

@@ -39,6 +39,8 @@ namespace VRC.UI
     /// <summary>Originally: ÎÎÌÎÏÌÌÎÍÍÎÏÏÎÍÍÏÍÎÏÍÍÌ</summary>
     public class TextureUIHandler_51D3
     {
+        public ÎÍÏÌÏÍÏÏÌÍÎÎÍÏÌÌÏÏÎÍÍÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2029680
         public void Process(){} // RVA: 0x2029850
@@ -213,6 +215,12 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÌÏÎÌÍÏÍÌÏÍÍÌÎÎÌÎÌÎÏÎÎ</summary>
     public class TransformUITransformHandler_A1CF
     {
+        public UnityEngine.GameObject cursor; // 0x20
+        public UnityEngine.GameObject arrow; // 0x28
+        public UnityEngine.GameObject invalid; // 0x30
+        public UnityEngine.GameObject outline; // 0x38
+        public UnityEngine.LineRenderer lineRenderer; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0xC770
         public void get_minHeight(){} // RVA: 0xAFF380

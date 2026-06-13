@@ -75,6 +75,8 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffect
     {
+        public UnityEngine.VFX.VFXEventAttribute m_cachedEventAttribute; // 0x18
+
         // ── Methods ──
         public void get_visualEffectAsset(){} // RVA: 0x7501300
         public void CreateVFXEventAttribute(){} // RVA: 0x7501350

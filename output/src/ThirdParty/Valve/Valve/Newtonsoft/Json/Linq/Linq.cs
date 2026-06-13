@@ -7,6 +7,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 {
     public class JArray
     {
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Linq.JToken> _values; // 0x40
+
         // ── Methods ──
         public void get_ChildrenTokens(){} // RVA: 0x35A740
         public void get_Type(){} // RVA: 0x3E2CB0
@@ -31,6 +33,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JConstructor
     {
+        public string _name; // 0x40
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Linq.JToken> _values; // 0x48
+
         // ── Methods ──
         public void get_ChildrenTokens(){} // RVA: 0x358730
         public void IndexOfItem(){} // RVA: 0x756C5F0
@@ -44,6 +49,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JContainer
     {
+        public object _syncRoot; // 0x30
+        public bool _busy; // 0x38
+
         // ── Methods ──
         public void get_ChildrenTokens(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x756D090 | overloaded x2
@@ -115,6 +123,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JObject
     {
+        public Valve.Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties; // 0x40
+        public System.ComponentModel.PropertyChangedEventHandler PropertyChanged; // 0x48
+
         // ── Methods ──
         public void get_ChildrenTokens(){} // RVA: 0x35A740
         public void add_PropertyChanged(){} // RVA: 0x756FC60
@@ -150,6 +161,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JProperty
     {
+        public JPropertyList _content; // 0x40
+        public string _name; // 0x48
+
         // ── Methods ──
         public void get_ChildrenTokens(){} // RVA: 0x35A740
         public void get_Name(){} // RVA: 0x358730
@@ -172,6 +186,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JPropertyKeyedCollection
     {
+        public System.Collections.Generic.IEqualityComparer`1<string> Comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7572FF0
         public void AddKey(){} // RVA: 0x75730D0
@@ -199,6 +215,18 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JToken
     {
+        public Valve.Newtonsoft.Json.Linq.JContainer _parent; // 0x10
+        public Valve.Newtonsoft.Json.Linq.JToken _previous; // 0x18
+        public Valve.Newtonsoft.Json.Linq.JToken _next; // 0x20
+        public object _annotations; // 0x28
+        public 0x65967FF8[] BooleanTypes;
+        public 0x65967FF8[] NumberTypes; // 0x8
+        public 0x65967FF8[] StringTypes; // 0x10
+        public 0x65967FF8[] GuidTypes; // 0x18
+        public 0x65967FF8[] TimeSpanTypes; // 0x20
+        public 0x65967FF8[] UriTypes; // 0x28
+        public 0x65967FF8[] CharTypes; // 0x30
+
         // ── Methods ──
         public void get_Parent(){} // RVA: 0x2F8380
         public void set_Parent(){} // RVA: 0x2DEE30
@@ -241,6 +269,11 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JTokenReader
     {
+        public Valve.Newtonsoft.Json.Linq.JToken _root; // 0x78
+        public string _initialPath; // 0x80
+        public Valve.Newtonsoft.Json.Linq.JToken _parent; // 0x88
+        public Valve.Newtonsoft.Json.Linq.JToken _current; // 0x90
+
         // ── Methods ──
         public void get_CurrentToken(){} // RVA: 0x796DE0
         public void .ctor(){} // RVA: 0x757CF30
@@ -260,6 +293,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JTokenWriter
     {
+        public Valve.Newtonsoft.Json.Linq.JContainer _token; // 0x60
+
         // ── Methods ──
         public void get_Token(){} // RVA: 0x604C710
         public void .ctor(){} // RVA: 0x757E850
@@ -282,6 +317,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JValue
     {
+        public 0x65967FF8 _valueType; // 0x30
+        public object _value; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75802B0 | overloaded x3
         public void get_HasValues(){} // RVA: 0x2DD320
@@ -322,6 +360,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JsonLoadSettings
     {
+        public 0x65967A20 _commentHandling; // 0x10
+        public 0x65967A78 _lineInfoHandling; // 0x14
+
         // ── Methods ──
         public void get_CommentHandling(){} // RVA: 0x32A5C0
         public void get_LineInfoHandling(){} // RVA: 0x8ABED0

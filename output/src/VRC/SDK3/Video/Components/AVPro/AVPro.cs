@@ -7,6 +7,15 @@ namespace VRC.SDK3.Video.Components.AVPro
 {
     public class VRCAVProVideoPlayer
     {
+        public System.Func`2<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer,VRC.SDK3.Video.Interfaces.AVPro.IAVProVideoPlayerInternal> <Initialize>k__BackingField;
+        public bool <Initialized>k__BackingField; // 0x38
+        public VRC.SDKBase.VRCUrl videoURL; // 0x40
+        public bool autoPlay; // 0x48
+        public bool loop; // 0x49
+        public int maximumResolution; // 0x4C
+        public bool useLowLatency; // 0x50
+        public VRC.SDK3.Video.Interfaces.AVPro.IAVProVideoPlayerInternal _playerInternal; // 0x58
+
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x9A01120
         public void set_Initialize(){} // RVA: 0x9A01160
@@ -37,6 +46,12 @@ namespace VRC.SDK3.Video.Components.AVPro
 
     public class VRCAVProVideoScreen
     {
+        public System.Action`1<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoScreen> <Initialize>k__BackingField;
+        public VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer videoPlayer; // 0x20
+        public int materialIndex; // 0x28
+        public string textureProperty; // 0x30
+        public bool useSharedMaterial; // 0x38
+
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x9A018D0
         public void set_Initialize(){} // RVA: 0x9A01910
@@ -50,9 +65,9 @@ namespace VRC.SDK3.Video.Components.AVPro
 
     public class VRCAVProVideoSpeaker
     {
-        public object RaycastDirection;
-        public object Distance;
-        public object ApplyTransformScale;
+        public System.Action`1<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker> RaycastDirection;
+        public VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer Distance; // 0x20
+        public 0x6597C1B8 ApplyTransformScale; // 0x28
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x9A01BA0

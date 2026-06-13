@@ -514,8 +514,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÍÌÏÎÍÏÎÍÌÏÎÏÌÎÌÍÍÏÏÌ</summary>
     public class DescriptorParser_3830
     {
-        public object Parser;
-        public object Descriptor;
+        public string Parser; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,ÍÎÎÏÏÌÏÏÍÏÎÎÍÌÏÌÌÌÍÌÍÍÌ> Descriptor; // 0x28
 
         // ── Methods ──
         public void Start(){} // RVA: 0x151F3D0

@@ -81,6 +81,21 @@ public class Content
 
 public class ContentBlock
 {
+    public string <type>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <value>k__BackingField; // 0x70
+    public string <capturedValue>k__BackingField; // 0x78
+    public string <textAlignment>k__BackingField; // 0x80
+    public int <fontSize>k__BackingField; // 0x88
+    public bool <allowTextWrapping>k__BackingField; // 0x8C
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<VRC.Core.ApiLocalizableString>> <points>k__BackingField; // 0x90
+    public string <imageUrl>k__BackingField; // 0x98
+    public string <aspectMode>k__BackingField; // 0xA0
+    public int <height>k__BackingField; // 0xA8
+    public int <imageSize>k__BackingField; // 0xAC
+    public System.Collections.Generic.List`1<PopupButtonData> <buttons>k__BackingField; // 0xB0
+    public string <capture>k__BackingField; // 0xB8
+    public RequiredValue <requiredFormat>k__BackingField; // 0xC0
+
     // ── Methods ──
     public void get_type(){} // RVA: 0x358D50
     public void set_type(){} // RVA: 0x358D60
@@ -121,6 +136,9 @@ public class ContentHeightCacheInfo
 
 public class ContentInfo
 {
+    public string contentType; // 0x10
+    public Mono.Security.ASN1 content; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BB9770 | overloaded x4
     public void get_ASN1(){} // RVA: 0x5BB99B0
@@ -133,6 +151,19 @@ public class ContentInfo
 
 public class ContentList
 {
+    public VRC.Core.ApiLocalizableString <name>k__BackingField; // 0x68
+    public VRC.Core.ApiLocalizableString <shortName>k__BackingField; // 0x70
+    public string <sortHeading>k__BackingField; // 0x78
+    public string <sortOwnership>k__BackingField; // 0x80
+    public string <sortOrder>k__BackingField; // 0x88
+    public string <platform>k__BackingField; // 0x90
+    public System.Nullable`1<bool> <avatarSpecific>k__BackingField; // 0x98
+    public string <tag>k__BackingField; // 0xA0
+    public string <type>k__BackingField; // 0xA8
+    public string <bannersTag>k__BackingField; // 0xB0
+    public string <marketplace>k__BackingField; // 0xB8
+    public System.Collections.Generic.IReadOnlyDictionary`2<string,Token> <queryParams>k__BackingField; // 0xC0
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x358D50
     public void set_name(){} // RVA: 0x358D60
@@ -218,7 +249,7 @@ public class ControlBitRangeNode
 
 public class ControlBuilder
 {
-    public object name;
+    public UnityEngine.InputSystem.InputControl name; // 0x10
 
     // ── Methods ──
     public void get_control(){} // RVA: 0x1AD4690
@@ -245,6 +276,8 @@ public class ControlBuilder
 
 public class ControlBuilder
 {
+    public UnityEngine.InputSystem.InputControl <control>k__BackingField; // 0x10
+
     // ── Methods ──
     public void WithDisplayName(){} // RVA: 0x6EF81A0
     public void WithLayout(){} // RVA: 0x6EF8240
@@ -272,6 +305,26 @@ public class ControlDataForExport
 
 public class ControlItem
 {
+    public UnityEngine.InputSystem.Utilities.InternedString <name>k__BackingField; // 0x10
+    public UnityEngine.InputSystem.Utilities.InternedString <layout>k__BackingField; // 0x20
+    public UnityEngine.InputSystem.Utilities.InternedString <variants>k__BackingField; // 0x30
+    public string <useStateFrom>k__BackingField; // 0x40
+    public string <displayName>k__BackingField; // 0x48
+    public string <shortDisplayName>k__BackingField; // 0x50
+    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> <usages>k__BackingField; // 0x58
+    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> <aliases>k__BackingField; // 0x68
+    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> <parameters>k__BackingField; // 0x78
+    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters> <processors>k__BackingField; // 0x88
+    public uint <offset>k__BackingField; // 0x98
+    public uint <bit>k__BackingField; // 0x9C
+    public uint <sizeInBits>k__BackingField; // 0xA0
+    public UnityEngine.InputSystem.Utilities.FourCC <format>k__BackingField; // 0xA4
+    public 0x65870958 <flags>k__BackingField; // 0xA8
+    public int <arraySize>k__BackingField; // 0xAC
+    public UnityEngine.InputSystem.Utilities.PrimitiveValue <defaultState>k__BackingField; // 0xB0
+    public UnityEngine.InputSystem.Utilities.PrimitiveValue <minValue>k__BackingField; // 0xC0
+    public UnityEngine.InputSystem.Utilities.PrimitiveValue <maxValue>k__BackingField; // 0xD0
+
     // ── Methods ──
     public void get_name(){} // RVA: 0x75E7E0
     public void set_name(){} // RVA: 0x1F7E940
@@ -389,6 +442,8 @@ public class ControlsChangedEvent
 
 public class ConverterList
 {
+    public System.Text.Json.JsonSerializerOptions _options; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68AED70
     public void get_IsReadOnly(){} // RVA: 0x68AEF10
@@ -397,6 +452,8 @@ public class ConverterList
 
 public class CookieCollectionEnumerator
 {
+    public System.Net.CookieCollection m_cookies; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6B37F90
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x6B38030
@@ -419,6 +476,8 @@ public class Counter
 
 public class CounterItem
 {
+    public int _value;
+
     // ── Methods ──
     public void get_Value(){} // RVA: 0xD840
     public void Add(){} // RVA: 0x24FA0
@@ -571,6 +630,9 @@ public class Criterion
 
 public class CryptoApiEntropySource
 {
+    public System.Security.Cryptography.RandomNumberGenerator mRng; // 0x10
+    public bool mPredictionResistant; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7122250
     public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant(){} // RVA: 0x2F84E0
@@ -622,6 +684,8 @@ public class Curve25519Holder
 
 public class Curve25519LookupTable
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28914C0
     public void get_Size(){} // RVA: 0x760030
@@ -644,7 +708,7 @@ public class CustomBlendable
 
 public class CustomDataModule
 {
-    public object alignment;
+    public UnityEngine.ParticleSystem alignment; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -672,6 +736,8 @@ public class CustomDataModule
 
 public class CustomEmojiParticleSystemList
 {
+    public EmojiParticleSystem[] _emojiParticleSystems; // 0x18
+
     // ── Methods ──
     public void IndexOf(){} // RVA: 0x1910B30
     public void .ctor_B6A35B3E7F5A(){} // RVA: 0x1910C00

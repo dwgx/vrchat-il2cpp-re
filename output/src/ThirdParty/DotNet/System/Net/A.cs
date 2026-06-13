@@ -24,8 +24,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class Authorization
     {
-        public object DefaultCredentials;
-        public object DefaultNetworkCredentials;
+        public string DefaultCredentials; // 0x10
+        public bool DefaultNetworkCredentials; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B1C5B0 | overloaded x2

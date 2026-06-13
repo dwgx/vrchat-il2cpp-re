@@ -45,6 +45,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÏÎÍÏÏÍÏÎÎÏÏÏÍÍÏÎÎÍÎÍÌÎ</summary>
     public class LateUpdateComponent_3C6ESibling_D4A5
     {
+        public ÍÏÎÍÏÏÍÏÎÎÏÏÏÍÍÏÎÎÍÎÍÌÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public bool ÌÎÌÌÎÌÍÍÍÌÎÎÎÎÏÍÌÏÌÎÎÏÌ; // 0x20
+        public UnityEngine.GameObject ÏÏÌÎÌÏÎÌÌÎÍÏÏÌÎÍÎÍÎÎÎÎÌ; // 0x28
+
         // ── Methods ──
         public void ApplyDamage(){} // RVA: 0x1B2B120
         public void FixedUpdate(){} // RVA: 0x1B2B1E0
@@ -92,6 +96,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÏÏÏÎÍÎÏÎÏÌÍÌÌÍÍÍÌÎÏÏÎÍ</summary>
     public class LateUpdateComponent_3C6E_D4B4
     {
+        public ÍÏÏÏÎÍÎÏÎÏÌÍÌÌÍÍÍÌÎÏÏÎÍ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0xFF1120
         public void RaiseCancellation(){} // RVA: 0xFDC9F0
@@ -112,10 +118,13 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÌÍÏÍÎÎÏÍÎÍÍÏÏÏÎÍÏÍÍÍ</summary>
     public class LateUpdateComponent_C601_04A7
     {
-        public object f_9F2;
-        public object f_56B;
-        public object f_56B;
-        public object f_69A;
+        public UnityEngine.GameObject f_9F2; // 0x20
+        public UnityEngine.GameObject f_56B; // 0x28
+        public UnityEngine.GameObject f_56B; // 0x30
+        public UnityEngine.GameObject f_69A; // 0x38
+        public UnityEngine.GameObject Icon; // 0x40
+        public TMPro.TMP_Text ÎÏÏÌÌÍÍÌÌÎÏÌÍÍÍÎÍÌÌÏÍÍÍ; // 0x48
+        public UnityEngine.GameObject IconSecondary; // 0x50
 
         // ── Methods ──
         public void CalculateInitialOffset(){} // RVA: 0x1470A80
@@ -447,7 +456,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÌÏÎÏÏÍÍÏÌÎÏÎÍÌÎÍÎÎÏÍÏÌ</summary>
     public class LifecycleComponentImpl_E2CCSibSibling_06E7
     {
-        public object _06E7;
+        public 0x6588E360 _06E7; // 0x20
+        public VRC.Localization.LocalizableString tooltipText; // 0x28
 
         // ── Methods ──
         public void ProcessGameObject(){} // RVA: 0x760030
@@ -598,6 +608,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÍÎÍÏÌÍÎÏÏÌÌÍÎÏÎÌÍÎÌÏÏÍ</summary>
     public class LifecycleComponentSiblingRelated_0E66
     {
+        public ÍÍÎÍÏÌÍÎÏÏÌÌÍÎÏÎÌÍÎÌÏÏÍ ÏÏÍÍÌÎÎÎÌÌÍÎÎÎÏÌÎÌÍÏÍÏÎ;
+
         // ── Methods ──
         public void Equals_E2FA525D13AA(){} // RVA: 0x1D99BD0
         public void Equals(){} // RVA: 0x1D99BD0 | overloaded x2
@@ -631,6 +643,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÎÏÍÎÌÏÍÎÎÌÌÍÏÎÎÎÏÎÏÍÍÏ</summary>
     public class LifecycleComponentSiblingRelated_6CCA
     {
+        public string <ÏÏÌÏÌÌÍÎÌÌÏÎÌÍÍÎÍÏÏÏÍÍÍ>k__BackingField; // 0x10
+        public 0x658848B0 <ÍÎÏÏÎÍÌÌÎÍÎÏÎÏÏÌÍÏÏÌÎÎÌ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x5BED50
         public void get_Current(){} // RVA: 0x2F8380
@@ -651,6 +666,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÍÎÎÎÎÏÍÍÏÍÌÎÌÍÌÎÌÍÎÏÏÍ</summary>
     public class LifecycleComponentSiblingRelated_CD0B
     {
+        public string <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x10
+        public string <ÏÏÍÏÌÌÌÏÏÍÎÏÌÌÌÍÍÎÌÍÎÌÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetValueOrDefault(){} // RVA: 0x1DE5E90
         public void MoveNext(){} // RVA: 0x1DE5F30
@@ -671,6 +689,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÌÌÎÏÏÌÏÎÏÌÏÍÍÏÎÏÏÎÌÍÌÌ</summary>
     public class LifecycleComponentSiblingRelated_DBDA
     {
+        public VRC.Localization.LocalizableString <ÏÍÍÏÌÌÏÌÏÍÎÏÎÌÏÎÏÏÏÏÌÌÌ>k__BackingField; // 0x10
+        public 0x657D9A80 <ÏÎÎÍÍÎÏÍÍÎÌÌÍÌÍÎÌÏÏÌÏÍÏ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void SetCenter(){} // RVA: 0xBDB960
         public void GetLocalScale(){} // RVA: 0xFDC9F0
@@ -688,6 +709,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ</summary>
     public class LifecycleComponentSiblingSibling_66AC_A39F
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ ÎÏÍÏÍÌÌÏÌÌÍÏÌÍÌÌÏÏÎÌÌÌÎ;
+        public int <ÌÍÌÍÏÏÏÍÏÏÎÍÏÍÌÍÎÏÎÌÍÌÍ>k__BackingField; // 0x10
+        public byte[] <ÏÍÍÍÌÎÍÎÌÌÎÎÎÎÎÍÎÌÍÌÌÏÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1EBC610
         public void Equals(){} // RVA: 0x1EBC640
@@ -773,6 +798,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÌÍÏÍÍÌÏÍÍÍÌÏÏÌÌÎÏÎÎÍÌ</summary>
     public class LifecycleComponentSibling_FD32Sibling_ECDB
     {
+        public float ÌÎÎÎÎÍÏÌÏÍÏÎÏÏÍÏÏÎÍÏÍÏÎ;
+        public float ÏÍÌÏÍÎÎÍÍÏÌÎÎÎÏÌÏÌÍÍÎÎÏ;
+        public UnityEngine.Transform _cameraTransform; // 0x20
+
         // ── Methods ──
         public void GetParentTransform(){} // RVA: 0x398C10
         public void .ctor(){} // RVA: 0x2DDD50
@@ -977,6 +1006,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÌÍÎÏÎÎÎÍÏÌÍÏÍÏÏÌÏÎÏÌÍÏ</summary>
     public class LifecycleComponent_5355_6343
     {
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÍÍÍÎÏÏÏÎÌÌÌÏÍÎÌÍÎÍÍÌÏÏ; // 0x20
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÌÏÏÍÏÍÍÏÌÎÏÏÍÎÍÏÎÎÏÌÎÌ; // 0x28
+        public ÏÍÍÌÍÏÍÍÍÎÌÍÎÍÎÏÌÌÎÌÎÎÍ ÏÌÎÎÏÎÏÏÌÏÌÏÌÌÍÍÌÍÎÎÍÎÎ; // 0x30
+        public bool ÍÍÏÌÌÌÎÌÍÍÏÍÌÎÎÍÌÎÏÏÍÍÎ; // 0x38
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x1300140
         public void Start(){} // RVA: 0x13002D0
@@ -1008,6 +1042,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÎÌÏÌÌÏÌÏÌÎÌÏÏÏÌÎÎÍÏÏÎÌ</summary>
     public class LifecycleComponent_5FA7SiRelated_4133
     {
+        public 0x6588D758 <ÎÏÏÏÍÏÌÎÎÌÎÌÎÏÎÍÍÍÏÌÏÎÏ>k__BackingField; // 0x50
+        public string <ÎÍÌÌÌÍÌÏÍÎÏÌÎÌÏÍÏÏÍÍÎÎÌ>k__BackingField; // 0x58
+        public string <ÍÏÎÍÍÌÎÎÍÏÍÌÍÎÎÌÍÎÌÎÌÌÍ>k__BackingField; // 0x60
+        public string <ÎÌÏÎÌÌÎÏÍÎÍÎÌÎÎÌÎÏÌÏÌÌÏ>k__BackingField; // 0x68
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
@@ -1180,6 +1219,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÍÌÏÌÌÍÍÏÍÌÎÎÎÍÎÎÎÌÎ</summary>
     public class LifecycleComponent_5FA7SiblingSibling_467E
     {
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _customizeButton; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x92C3D30
         public void Initialize(){} // RVA: 0x92C3DA0
@@ -1730,7 +1771,7 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÎÍÌÎÏÌÎÏÎÏÎÍÏÎÌÎÎÏÍÏÎÍ</summary>
     public class LifecycleComponent_E24BSibling_4B77
     {
-        public object _4B77;
+        public UnityEngine.Sprite _4B77; // 0x20
 
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x8D3D5F0

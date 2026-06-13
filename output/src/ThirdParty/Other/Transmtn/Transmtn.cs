@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Transmtn
-// Classes: 33
-// Methods: 153
+// Classes: 42
+// Methods: 171
 
 namespace ThirdParty.Other.Transmtn
 {
@@ -91,6 +91,69 @@ namespace ThirdParty.Other.Transmtn
         public void remove_OnUpdateReceived(){} // RVA: 0x24B10
     }
 
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x24B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x24B10
+    }
+
     public class IServerTimeProvider
     {
         // ── Methods ──
@@ -121,6 +184,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryEvent
     {
+        public 0x659CFCF8 <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x32A5C0
         public void set_Type(){} // RVA: 0x2E00C0
@@ -129,8 +194,10 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryShareEvent
     {
-        public object notification;
-        public object version;
+        public string notification; // 0x18
+        public string version; // 0x20
+        public string <FromDisplayName>k__BackingField; // 0x28
+        public string <Token>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5D070
@@ -161,6 +228,11 @@ namespace ThirdParty.Other.Transmtn
 
     public class ModifiedImageUpdateEvent
     {
+        public string <FileID>k__BackingField; // 0x18
+        public string <VersionNumber>k__BackingField; // 0x20
+        public int <PixelSize>k__BackingField; // 0x28
+        public bool <NeedsProcessing>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5D070
         public void get_FileID(){} // RVA: 0x2E07C0
@@ -179,6 +251,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class NotificationEvent
     {
+        public Transmtn.DTO.Notifications.Notification <notification>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AF6A10
         public void get_notification(){} // RVA: 0x2F8380
@@ -201,6 +275,19 @@ namespace ThirdParty.Other.Transmtn
 
     public class PostOffice
     {
+        public Transmtn.HttpClient <HttpClient>k__BackingField; // 0x10
+        public string NOTIFICATION; // 0x18
+        public string NOTIFICATIONV2; // 0x20
+        public System.EventHandler`1<Transmtn.NotificationEvent> OnNotification; // 0x28
+        public int maximumAllowedFileAttachmentInBytes;
+        public Transmtn.IServerTimeProvider _serverTimeProvider; // 0x30
+        public System.TimeSpan fiveMinutes;
+        public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> <SortedNotifications>k__BackingField; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,Transmtn.DTO.Notifications.Notification> <NotificationDictionary>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<string> <NotificationsToDelete>k__BackingField; // 0x48
+        public System.Collections.Generic.List`1<string> <NotificationsToUpdate>k__BackingField; // 0x50
+        public int fetchCount;
+
         // ── Methods ──
         public void get_HttpClient(){} // RVA: 0x2F8380
         public void set_HttpClient(){} // RVA: 0x2DEE30
@@ -269,6 +356,9 @@ namespace ThirdParty.Other.Transmtn
 
     public class SocketEnvelope
     {
+        public string <type>k__BackingField; // 0x10
+        public string <content>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B01660
         public void get_type(){} // RVA: 0x2F8380
@@ -279,6 +369,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class TextureEvent
     {
+        public 0x659D0538 <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x32A5C0
         public void set_Type(){} // RVA: 0x2E00C0
@@ -296,6 +388,9 @@ namespace ThirdParty.Other.Transmtn
 
     public class UpdateEvent
     {
+        public Transmtn.DTO.User <user>k__BackingField; // 0x10
+        public 0x659CF2A8 <messageType>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_user(){} // RVA: 0x2F8380
         public void set_user(){} // RVA: 0x2DEE30

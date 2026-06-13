@@ -8,6 +8,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÎÏÎÏÍÎÌÍÍÍÍÍÎÏÌÎÍÍÌÍ</summary>
     public class VRC_MainSiblingRelated_F63D
     {
+        public ÌÌÍÎÏÎÏÍÎÌÍÍÍÍÍÎÏÌÎÍÍÌÍ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public float ÏÎÌÌÏÍÏÍÍÏÎÎÎÌÎÌÌÍÎÌÍÌÌ; // 0x8
+        public float ÍÌÌÎÌÌÌÎÌÌÎÍÌÏÎÌÎÌÍÎÎÎÏ; // 0xC
+
         // ── Methods ──
         public void GetActivationFactory(){} // RVA: 0xFA9B10
         public void Update(){} // RVA: 0xFA9EE0
@@ -119,6 +123,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÎÎÍÏÏÎÍÏÌÍÎÍÎÏÏÍÍÏÎÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_38AF
     {
+        public UnityEngine.GameObject ÏÎÌÌÏÏÏÌÌÎÏÎÎÍÎÌÎÏÏÍÏÎÍ; // 0x20
+
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0x1455AC0
         public void GetRealtimeSinceStartup_389456F58E41(){} // RVA: 0x1456060
@@ -146,6 +152,24 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÎÏÍÏÍÍÌÌÏÌÌÌÍÏÎÍÌÍÎÎ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_41D5
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÌÍÎÏÎÏÌÍÌÌÎÏÌÎÍÌÏÎÌÎÌÍÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÏÍÍÎÏÍÏÍÏÎÎÏÌÎÎÍÏÌÎÎÎÌÎ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÌÏÎÎÏÍÍÏÎÌÍÎÍÍÍÏÍÏÏÎÏÏÌ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÎÏÏÌÌÍÏÌÎÏÌÎÎÌÍÍÍÏÌÎÌÏÏ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÏÍÏÍÌÌÎÍÍÏÍÎÏÏÌÎÏÏÍÍÌÏÏ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÎÏÌÎÍÌÌÍÎÏÍÌÍÍÌÌÍÎÎÌÎÏÌ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÌÌÎÎÏÍÏÎÏÎÌÎÍÌÍÌÎÏÏÏÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÎÎÏÏÏÍÌÎÌÏÌÍÌÌÌÎÏÍÏÍÏÎ>k__BackingField; // 0x48
+        public System.Collections.Generic.HashSet`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ> ÎÎÎÏÏÌÍÍÌÏÏÏÍÎÎÏÎÌÍÍÏÎÎ; // 0x50
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> ÎÌÌÌÎÏÏÏÍÌÏÌÍÎÏÍÌÎÏÍÏÍÌ; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x60
+        public ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ <ÌÌÎÎÎÌÎÎÍÎÌÌÎÍÏÎÎÌÏÎÌÎÍ>k__BackingField; // 0x68
+        public ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ <ÍÌÎÌÎÏÌÌÍÌÌÎÎÏÎÎÌÍÌÏÏÎÎ>k__BackingField; // 0x70
+        public ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ <ÌÎÎÌÎÍÎÌÏÎÎÌÍÌÍÎÎÎÍÎÎÏÌ>k__BackingField; // 0x78
+        public ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ <ÏÌÏÍÎÌÌÎÌÍÍÍÍÏÍÌÏÎÌÍÏÏÏ>k__BackingField; // 0x80
+        public ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ <ÍÏÎÌÎÎÌÍÏÎÌÎÍÎÌÏÌÏÏÍÌÍÏ>k__BackingField; // 0x88
+        public System.Collections.Generic.List`1<ÏÌÍÌÏÎÍÍÌÍÌÏÌÌÏÏÎÏÏÍÏÏÌ> <ÍÎÎÌÍÏÌÎÏÍÏÌÌÏÍÌÌÌÍÎÎÏÍ>k__BackingField; // 0x90
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x462D00
         public void get_Current(){} // RVA: 0x794F20
@@ -182,6 +206,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÏÎÌÎÍÌÌÍÎÎÏÎÏÍÌÎÌÏÍÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_6764
     {
+        public ÎÎÍÏÎÌÎÍÌÌÍÎÎÏÎÏÍÌÎÌÏÍÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public string printPrefabAssetName; // 0x20
+        public UnityEngine.Object ÏÍÌÏÍÎÏÏÍÌÌÏÎÏÎÌÎÏÏÍÏÎÎ; // 0x28
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ>> ÏÏÎÏÌÍÌÍÏÎÍÌÌÍÏÏÏÍÏÍÍÏÎ; // 0x30
+        public System.Collections.Generic.List`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> ÎÍÌÏÍÍÏÍÍÌÌÏÍÏÏÌÍÍÏÏÌÏÏ; // 0x38
+        public string ÎÍÎÌÍÌÏÎÎÎÎÎÎÌÏÌÌÏÍÍÎÏÍ;
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>> <ÏÍÌÍÎÏÍÎÏÎÎÍÍÎÎÎÍÎÌÎÏÎÌ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÌÏÍÌÏÌÏÎÌÍÌÌÎÎÍÏÌÌÎÏÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>> <ÌÎÌÏÍÎÎÍÍÎÏÌÌÏÍÍÏÌÌÌÌÍÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>> <ÏÎÍÌÎÌÏÎÎÌÏÍÍÍÎÎÍÏÎÎÌÌÏ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ>> ÌÍÌÏÌÎÎÌÏÏÌÎÍÏÎÌÎÌÎÌÌÍÎ; // 0x60
+        public System.ValueTuple`3<string,System.Action`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>,System.Action`2<string,VRC.Localization.LocalizableString>> ÏÌÍÌÍÎÏÌÎÏÎÏÍÏÍÍÌÍÌÎÎÌÍ; // 0x68
+
         // ── Methods ──
         public void set_controlPathInternal(){} // RVA: 0x305200
         public void UpdateRotation(){} // RVA: 0xC66200
@@ -221,6 +258,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÎÍÍÌÎÌÏÎÏÌÌÌÏÌÌÌÍÌÍÎ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_6CB6
     {
+        public ÍÏÏÎÍÍÌÎÌÏÎÏÌÌÌÏÌÌÌÍÌÍÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void InitializeDictionaryBuckets(){} // RVA: 0x763570
         public void InitializeDictionaryStorage(){} // RVA: 0x7637B0
@@ -253,6 +292,28 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÍÍÎÌÍÎÏÌÌÎÎÍÏÏÏÍÎÍÏÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_829F
     {
+        public string ÏÌÏÍÏÏÏÏÍÌÏÎÎÌÏÏÎÍÌÍÎÍÏ;
+        public VRC.UI.Client.Emoji.EmojiCategoryList ÎÌÍÏÏÏÍÏÏÏÍÏÎÌÏÏÏÎÏÏÏÌÍ; // 0x20
+        public VRC.UI.Client.Emoji.EmojiCategoryList ÎÍÎÌÏÌÍÏÎÍÎÎÍÍÌÌÎÍÍÌÍÏÌ; // 0x28
+        public string[] ÍÎÎÏÍÍÎÏÏÎÎÌÍÌÏÍÍÍÌÍÏÏÌ; // 0x30
+        public int ÍÎÌÏÏÏÍÎÏÌÍÏÏÎÏÍÎÏÏÎÏÍÎ; // 0x38
+        public bool ÍÌÍÏÌÍÏÏÍÌÎÌÌÌÌÌÏÎÏÎÎÎÏ; // 0x3C
+        public string ÏÎÍÌÎÎÎÍÏÌÌÏÍÏÎÍÍÎÍÏÏÍÌ;
+        public string ÏÏÏÌÌÌÏÏÍÍÌÌÌÏÌÌÏÌÏÏÍÏÏ;
+        public string ÎÎÌÏÌÏÍÍÎÎÍÌÍÌÎÍÌÏÍÎÍÏÏ;
+        public string ÏÎÌÍÌÍÏÍÌÎÌÍÏÏÎÌÎÍÌÎÌÍÌ;
+        public string ÎÌÎÌÍÍÎÌÏÌÍÌÍÍÎÌÍÏÍÍÏÍÏ;
+        public string ÎÎÍÌÌÍÌÍÏÏÌÌÎÌÎÍÌÍÎÎÎÏÍ;
+        public string ÏÌÍÌÎÎÍÎÎÌÍÌÎÎÌÌÌÍÌÍÍÌÌ;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> <ÌÍÎÏÎÏÌÍÌÌÎÏÌÎÍÌÏÎÌÎÌÍÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> <ÌÏÎÎÏÍÍÏÎÌÍÎÍÍÍÏÍÏÏÎÏÏÌ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> <ÏÍÏÍÌÌÎÍÍÏÍÎÏÏÌÎÏÏÍÍÌÏÏ>k__BackingField; // 0x50
+        public System.Collections.Generic.Dictionary`2<string,ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ> ÏÌÏÏÍÏÍÎÌÏÌÌÎÎÍÎÎÎÌÎÍÏÎ; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÏÌÌÎÎÌÌÍÌÏÏÌÏÏÌÏÍÏÎÎÍÌ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÏÌÌÎÎÌÌÍÌÏÏÌÏÏÌÏÍÏÎÎÍÌ>> <ÌÏÌÌÌÏÌÎÌÍÏÍÌÍÏÍÍÌÌÍÎÏÍ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÍÏÌÌÎÎÌÌÍÌÏÏÌÏÏÌÏÍÏÎÎÍÌ> ÍÏÌÌÎÏÌÎÍÌÏÎÍÏÎÌÏÏÏÏÌÏÎ; // 0x70
+        public System.Collections.Generic.List`1<ÎÏÌÏÎÍÎÏÍÎÍÏÌÍÌÌÏÍÌÏÍÌÏ> <ÍÎÎÌÍÏÌÎÏÍÏÌÌÏÍÌÌÌÍÎÎÏÍ>k__BackingField; // 0x78
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0xCC38E0
         public void get_MoveNext(){} // RVA: 0x462D00
@@ -465,6 +526,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÍÍÌÍÍÎÍÎÎÌÌÏÏÎÏÏÏÎÎÏÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_03C4
     {
+        public ÍÏÍÍÌÍÍÎÍÎÎÌÌÏÏÎÏÏÏÎÎÏÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x638020
         public void Initialize(){} // RVA: 0x638720
@@ -498,6 +561,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÌÎÍÍÌÏÎÍÎÎÌÌÌÎÍÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_81AE
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<T> <ÎÏÎÎÎÌÏÌÍÌÎÏÎÍÏÍÎÎÏÎÍÌÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÍÍÍÌÍÍÍÌÌÏÎÏÎÏÍÎÏÌÎÌÍÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÌÍÍÏÎÌÎÍÌÌÎÏÎÏÏÏÏÌÏÎÎÏÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÌÍÏÍÎÌÍÎÎÍÌÎÍÏÏÍÏÏÎÍÌÎ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.HashSet`1<T>> <ÏÎÌÌÌÏÏÍÌÍÏÎÏÍÎÌÏÌÍÏÏÍÌ>k__BackingField;
+        public T ÏÍÍÌÍÌÌÏÍÍÌÎÌÎÌÌÌÏÌÎÌÎÍ;
+        public T ÎÌÎÌÏÌÌÎÏÎÏÍÌÍÏÍÏÎÌÍÍÏÍ;
+        public T ÍÎÏÌÍÍÌÌÌÍÎÎÍÎÌÏÍÌÎÏÏÎÎ;
+        public UnityEngine.Texture2D ÌÎÌÎÌÌÎÎÎÍÎÍÎÏÌÏÏÍÌÏÍÍÏ;
+        public bool <ÍÌÎÍÍÍÎÌÏÍÎÏÎÏÌÎÎÍÏÎÏÎÎ>k__BackingField;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xCD60
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
@@ -549,6 +623,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÌÎÍÍÌÏÎÍÎÎÌÌÌÎÍÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_81AE
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ> <ÎÏÎÎÎÌÏÌÍÌÎÏÎÍÏÍÎÎÏÎÍÌÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> <ÏÍÍÍÌÍÍÍÌÌÏÎÏÎÏÍÎÏÌÎÌÍÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> <ÌÍÍÏÎÌÎÍÌÌÎÏÎÏÏÏÏÌÏÎÎÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> <ÏÌÍÏÍÎÌÍÎÎÍÌÎÍÏÏÍÏÏÎÍÌÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.HashSet`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> <ÏÎÌÌÌÏÏÍÌÍÏÎÏÍÎÌÏÌÍÏÏÍÌ>k__BackingField; // 0x30
+        public ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ ÏÍÍÌÍÌÌÏÍÍÌÎÌÎÌÌÌÏÌÎÌÎÍ; // 0x38
+        public ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ ÎÌÎÌÏÌÌÎÏÎÏÍÌÍÏÍÏÎÌÍÍÏÍ; // 0x40
+        public ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ ÍÎÏÌÍÍÌÌÌÍÎÎÍÎÌÏÍÌÎÏÏÎÎ; // 0x48
+        public UnityEngine.Texture2D ÌÎÌÎÌÌÎÎÎÍÎÍÎÏÌÏÏÍÌÏÍÍÏ; // 0x50
+        public bool <ÍÌÎÍÍÍÎÌÏÍÎÏÎÏÌÎÎÍÏÎÏÎÎ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -600,6 +685,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÌÎÍÍÌÏÎÍÎÎÌÌÌÎÍÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_81AE
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ> <ÎÏÎÎÎÌÏÌÍÌÎÏÎÍÏÍÎÎÏÎÍÌÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ>> <ÏÍÍÍÌÍÍÍÌÌÏÎÏÎÏÍÎÏÌÎÌÍÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ>> <ÌÍÍÏÎÌÎÍÌÌÎÏÎÏÏÏÏÌÏÎÎÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ>> <ÏÌÍÏÍÎÌÍÎÎÍÌÎÍÏÏÍÏÏÎÍÌÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.HashSet`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ>> <ÏÎÌÌÌÏÏÍÌÍÏÎÏÍÎÌÏÌÍÏÏÍÌ>k__BackingField; // 0x30
+        public ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ ÏÍÍÌÍÌÌÏÍÍÌÎÌÎÌÌÌÏÌÎÌÎÍ; // 0x38
+        public ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ ÎÌÎÌÏÌÌÎÏÎÏÍÌÍÏÍÏÎÌÍÍÏÍ; // 0x40
+        public ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ ÍÎÏÌÍÍÌÌÌÍÎÎÍÎÌÏÍÌÎÏÏÎÎ; // 0x48
+        public UnityEngine.Texture2D ÌÎÌÎÌÌÎÎÎÍÎÍÎÏÌÏÏÍÌÏÍÍÏ; // 0x50
+        public bool <ÍÌÎÍÍÍÎÌÏÍÎÏÎÏÌÎÎÍÏÎÏÎÎ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -651,6 +747,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÌÎÍÍÌÏÎÍÎÎÌÌÌÎÍÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_81AE
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ> <ÎÏÎÎÎÌÏÌÍÌÎÏÎÍÏÍÎÎÏÎÍÌÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ>> <ÏÍÍÍÌÍÍÍÌÌÏÎÏÎÏÍÎÏÌÎÌÍÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ>> <ÌÍÍÏÎÌÎÍÌÌÎÏÎÏÏÏÏÌÏÎÎÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ>> <ÏÌÍÏÍÎÌÍÎÎÍÌÎÍÏÏÍÏÏÎÍÌÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.HashSet`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ>> <ÏÎÌÌÌÏÏÍÌÍÏÎÏÍÎÌÏÌÍÏÏÍÌ>k__BackingField; // 0x30
+        public ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ ÏÍÍÌÍÌÌÏÍÍÌÎÌÎÌÌÌÏÌÎÌÎÍ; // 0x38
+        public ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ ÎÌÎÌÏÌÌÎÏÎÏÍÌÍÏÍÏÎÌÍÍÏÍ; // 0x40
+        public ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ ÍÎÏÌÍÍÌÌÌÍÎÎÍÎÌÏÍÌÎÏÏÎÎ; // 0x48
+        public UnityEngine.Texture2D ÌÎÌÎÌÌÎÎÎÍÎÍÎÏÌÏÏÍÌÏÍÍÏ; // 0x50
+        public bool <ÍÌÎÍÍÍÎÌÏÍÎÏÎÏÌÎÎÍÏÎÏÎÎ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -702,6 +809,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÌÎÍÍÌÏÎÍÎÎÌÌÌÎÍÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_81AE
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ> <ÎÏÎÎÎÌÏÌÍÌÎÏÎÍÏÍÎÎÏÎÍÌÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ>> <ÏÍÍÍÌÍÍÍÌÌÏÎÏÎÏÍÎÏÌÎÌÍÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ>> <ÌÍÍÏÎÌÎÍÌÌÎÏÎÏÏÏÏÌÏÎÎÏÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ>> <ÏÌÍÏÍÎÌÍÎÎÍÌÎÍÏÏÍÏÏÎÍÌÎ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.HashSet`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ>> <ÏÎÌÌÌÏÏÍÌÍÏÎÏÍÎÌÏÌÍÏÏÍÌ>k__BackingField; // 0x30
+        public ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ ÏÍÍÌÍÌÌÏÍÍÌÎÌÎÌÌÌÏÌÎÌÎÍ; // 0x38
+        public ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ ÎÌÎÌÏÌÌÎÏÎÏÍÌÍÏÍÏÎÌÍÍÏÍ; // 0x40
+        public ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ ÍÎÏÌÍÍÌÌÌÍÎÎÍÎÌÏÍÌÎÏÏÎÎ; // 0x48
+        public UnityEngine.Texture2D ÌÎÌÎÌÌÎÎÎÍÎÍÎÏÌÏÏÍÌÏÍÍÏ; // 0x50
+        public bool <ÍÌÎÍÍÍÎÌÏÍÎÏÎÏÌÎÎÍÏÎÏÎÎ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
@@ -753,6 +871,21 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÌÎÏÎÌÌÌÍÏÎÏÎÍÎÏÌÍÎÍÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_8ABD
     {
+        public UnityEngine.RuntimeAnimatorController ÎÏÍÌÌÌÌÏÌÍÍÏÏÏÏÍÏÍÎÍÎÎÏ; // 0x20
+        public UnityEngine.Vector3 ÏÏÏÎÌÍÌÍÌÍÎÏÎÍÌÏÍÍÏÌÎÌÍ; // 0x28
+        public UnityEngine.Vector3 ÍÍÌÌÍÌÎÍÎÎÏÍÌÏÌÎÌÏÌÎÏÌÏ; // 0x34
+        public UnityEngine.Vector3 ÏÍÏÎÎÏÌÏÍÌÎÍÎÌÎÎÎÏÌÌÏÍÏ; // 0x40
+        public UnityEngine.Vector3 ÎÍÍÎÎÏÌÎÏÌÌÌÌÎÎÎÏÌÌÍÍÍÍ; // 0x4C
+        public UnityEngine.Quaternion ÍÎÎÏÏÏÌÏÌÌÍÎÍÌÎÍÌÌÎÏÎÏÏ; // 0x58
+        public UnityEngine.Quaternion ÏÌÌÎÏÏÏÍÍÌÏÌÍÍÏÌÏÏÎÌÏÏÎ; // 0x68
+        public bool ÏÏÎÌÍÏÎÍÍÎÍÍÍÏÍÏÏÎÎÏÍÏÌ; // 0x78
+        public bool ÌÍÎÏÎÏÏÎÎÍÍÏÏÌÍÏÌÏÏÍÏÎÍ; // 0x79
+        public int ÎÎÌÎÌÍÌÎÍÌÍÍÍÍÎÎÍÎÍÎÌÏÍ; // 0x7C
+        public bool ÏÍÎÎÏÎÏÏÎÎÏÎÏÏÏÌÎÎÌÌÏÍÎ; // 0x80
+        public bool ÍÏÍÏÌÏÎÎÏÌÏÏÍÌÍÍÍÍÌÍÏÎÍ; // 0x81
+        public bool ÌÍÏÍÍÍÏÏÌÏÌÏÎÏÌÌÎÎÎÏÎÍÌ; // 0x82
+        public bool ÎÍÌÎÍÍÏÍÎÌÍÌÌÏÌÍÌÎÍÎÎÌÏ; // 0x83
+
         // ── Methods ──
         public void UpdateTransformPose(){} // RVA: 0x1130B00
         public void DrawTransformGizmos(){} // RVA: 0x1131060
@@ -868,6 +1001,32 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÏÏÍÌÍÎÍÏÏÏÏÍÍÏÌÍÍÏÎÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_C693
     {
+        public ÍÏÌÏÏÍÌÍÎÍÏÏÏÏÍÍÏÌÍÍÏÎÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public UnityEngine.LayerMask layerMask; // 0x20
+        public UnityEngine.LayerMask ÌÍÍÍÏÎÍÌÎÎÍÍÌÍÏÏÏÌÌÌÏÎÏ; // 0x24
+        public UnityEngine.GameObject ÎÏÎÍÍÌÍÍÎÌÎÌÌÍÏÌÎÏÌÍÎÍÌ; // 0x28
+        public VRC.StickerCollectionPrefab ÏÎÍÍÍÌÍÎÎÌÌÍÎÏÏÌÌÍÍÏÍÍÌ; // 0x30
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> ÍÍÍÍÎÌÌÌÍÏÍÎÌÍÎÏÎÌÎÎÎÍÎ; // 0x38
+        public string ÍÍÌÏÍÏÏÎÌÎÎÏÏÏÏÍÎÌÎÎÎÎÎ; // 0x8
+        public int <ÌÍÎÎÏÌÌÍÌÏÎÍÍÌÏÌÌÎÍÍÏÏÍ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÍÌÏÎÏÏÏÌÌÏÌÏÎÏÎÍÌÎÍÏÌ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÌÌÎÍÎÏÍÏÏÍÎÌÌÎÎÍÌÌÌÌÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> <ÌÍÎÏÎÏÌÍÌÌÎÏÌÎÍÌÏÎÌÎÌÍÍ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> <ÌÏÎÎÏÍÍÏÎÌÍÎÍÍÍÏÍÏÏÎÏÏÌ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> <ÏÍÏÍÌÌÎÍÍÏÍÎÏÏÌÎÏÏÍÍÌÏÏ>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<ÏÎÏÌÎÌÎÎÏÌÏÌÍÌÎÏÌÎÌÎÎÌÍ> <ÍÎÎÌÍÏÌÎÏÍÏÌÌÏÍÌÌÌÍÎÎÏÍ>k__BackingField; // 0x70
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ <ÌÍÌÎÍÏÍÍÏÍÌÎÍÌÏÎÍÍÌÏÌÎÏ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÍÏÌÏÏÌÍÍÏÎÍÏÍÌÏÏÏÍÍÌÌÌ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÍÍÎÍÌÌÏÍÌÍÍÍÌÏÍÎÌÎÎÍÌÍ>k__BackingField; // 0x88
+        public System.Collections.Generic.HashSet`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ> ÎÎÎÏÏÌÍÍÌÏÏÏÍÎÎÏÎÌÍÍÏÎÎ; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x98
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ ÌÎÍÎÏÍÍÎÌÌÍÍÏÎÎÌÌÍÍÌÍÏÍ; // 0xA0
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ ÏÌÏÌÍÌÍÍÎÏÎÍÏÏÏÏÌÏÍÏÌÍÎ; // 0xA8
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ <ÍÌÎÌÎÏÌÌÍÌÌÎÎÏÎÎÌÍÌÏÏÎÎ>k__BackingField; // 0xB0
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ <ÌÎÎÌÎÍÎÌÏÎÎÌÍÌÍÎÎÎÍÎÎÏÌ>k__BackingField; // 0xB8
+        public ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ <ÏÌÏÍÎÌÌÎÌÍÍÍÍÏÍÌÏÎÌÍÏÏÏ>k__BackingField; // 0xC0
+        public ÎÏÍÎÎÍÎÎÎÍÏÏÍÍÍÏÍÌÌÌÏÍÌ ÌÏÌÌÌÍÎÏÎÎÍÌÌÌÍÏÍÌÌÏÍÌÎ; // 0xC8
+
         // ── Methods ──
         public void AddBoxedItem(){} // RVA: 0xE2AF60
         public void set_CountAll(){} // RVA: 0x37E090
@@ -929,6 +1088,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÎÍÎÍÌÌÌÎÌÍÏÌÏÍÎÌÍÌÎÎ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_FADB
     {
+        public RootMotion.FinalIK.FullBodyBipedIK ÎÏÏÎÏÍÌÍÌÌÏÍÍÏÍÎÏÎÌÎÍÏÎ; // 0x20
+        public RootMotion.FinalIK.FBBIKHeadEffector ÏÎÏÏÏÌÌÌÍÎÎÍÏÍÎÌÍÏÏÎÌÏÎ; // 0x28
+        public UnityEngine.Vector3 ÏÎÏÌÎÏÎÌÏÌÌÏÎÍÍÏÌÌÍÎÍÏÎ; // 0x30
+        public UnityEngine.Vector3 ÎÌÎÎÌÎÏÏÎÏÌÌÌÎÏÎÌÎÍÌÍÎÏ; // 0x3C
+        public UnityEngine.Vector3 ÎÎÎÍÌÎÌÎÏÍÌÏÎÏÌÍÏÍÌÏÎÎÌ; // 0x48
+        public UnityEngine.Vector3 ÎÌÏÌÏÏÍÌÎÌÍÎÎÍÍÌÌÌÌÌÌÌÎ; // 0x54
+        public bool ÏÎÎÏÌÎÍÏÍÏÏÌÏÍÎÏÏÎÏÌÍÏÌ; // 0x60
+
         // ── Methods ──
         public void OnDrawGizmos(){} // RVA: 0x10D9BA0
         public void ResetLocalTransform(){} // RVA: 0x10D9EC0
@@ -958,6 +1125,20 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÌÎÍÍÏÌÍÎÎÏÎÍÍÍÎÍÍÎÎ</summary>
     public class VRC_MainSiblingSiblingSibling_0BA2
     {
+        public ÌÎÏÏÌÎÍÍÏÌÍÎÎÏÎÍÍÍÎÍÍÎÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> ÍÌÍÍÌÌÍÍÎÏÎÍÍÍÏÌÍÍÌÍÏÌÍ; // 0x20
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> ÎÎÏÌÏÎÏÍÎÍÎÎÎÎÎÍÎÏÌÎÌÌÎ; // 0x28
+        public bool ÎÍÍÌÍÏÏÌÍÌÎÌÎÍÎÏÎÎÌÎÌÎÎ; // 0x30
+        public float ÍÎÏÏÌÏÏÌÌÌÌÌÍÍÏÍÍÏÎÍÎÏÎ; // 0x8
+        public float ÏÌÌÍÏÌÌÌÍÏÍÌÏÎÌÏÌÌÍÌÎÎÌ;
+        public float ÌÍÎÎÏÍÌÏÌÏÍÌÌÍÌÌÏÌÌÎÌÎÌ;
+        public float ÎÌÏÏÏÎÌÍÏÌÍÍÍÌÌÎÌÍÏÏÌÏÍ;
+        public System.Collections.Generic.Dictionary`2<string,Transmtn.DTO.Notifications.Notification> ÏÍÌÌÏÌÍÏÌÏÌÌÌÎÌÌÍÌÌÎÍÏÎ; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> <ÌÏÎÏÏÏÌÍÎÏÌÏÍÍÏÌÌÌÏÌÌÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> <ÎÎÌÎÎÏÎÏÍÏÌÏÏÍÎÍÏÌÏÎÏÌÎ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÍÎÍÌÌÎÍÌÏÏÌÍÎÍÍÌÎÎÌÎÌÌ>k__BackingField; // 0x48
+        public System.Collections.Generic.HashSet`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ> ÎÏÌÎÎÌÍÌÎÎÍÍÎÏÍÎÏÏÍÎÎÎÎ; // 0x50
+
         // ── Methods ──
         public void get_imageUrl(){} // RVA: 0x3A5590
         public void GetValueOrDefault(){} // RVA: 0x61DBE0
@@ -1006,8 +1187,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÍÎÏÌÍÌÎÏÏÏÏÏÌÏÏÏÍÎÍÌÎ</summary>
     public class VRC_MainSiblingSiblingSibling_1F73
     {
-        public object f_8E2;
-        public object f_F9B;
+        public byte[] f_8E2; // 0x10
+        public int f_F9B; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
@@ -1035,7 +1216,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÌÌÍÏÌÌÍÍÌÏÏÎÌÏÌÏÎÍÍÎ</summary>
     public class VRC_MainSiblingSiblingSibling_2EE7
     {
-        public object _2EE7;
+        public ÏÎÌÌÌÍÏÌÌÍÍÌÏÏÎÌÏÌÏÎÍÍÎ _2EE7;
 
         // ── Methods ──
         public void RecordRealtimeSinceStartup(){} // RVA: 0x12635C0
@@ -1073,6 +1254,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÎÍÍÌÎÍÌÌÎÍÌÍÌÌÌÌÏÍÎÏ</summary>
     public class VRC_MainSiblingSiblingSibling_82DA
     {
+        public ÌÏÎÎÍÍÌÎÍÌÌÎÍÌÍÌÌÌÌÏÍÎÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public System.Collections.Generic.List`1<VRC.Core.ApiMessage> ÌÍÌÍÎÌÌÌÏÎÏÎÌÌÌÌÌÌÏÍÌÏÏ; // 0x20
+        public System.Collections.Generic.IEnumerable`1<string> ÍÏÎÌÏÏÏÎÏÍÎÏÍÍÏÎÏÏÍÍÎÏÏ; // 0x28
+        public int ÎÌÍÌÏÏÌÏÎÌÍÍÏÏÏÎÍÎÌÌÍÌÎ; // 0x8
+
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x30B0C0
         public void get_Comparer(){} // RVA: 0x6374D0
@@ -1099,6 +1285,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÌÍÏÌÎÌÏÏÎÎÌÏÏÏÍÌÏÌÏÏ</summary>
     public class VRC_MainSiblingSiblingSibling_D43D
     {
+        public ÎÎÎÌÍÏÌÎÌÏÏÎÎÌÏÏÏÍÌÏÌÏÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public UnityEngine.Material pausedAnimatedEmojiOverlayMaterial; // 0x20
+        public UnityEngine.Material emojiSpriteMaterial; // 0x28
+        public UnityEngine.Material maskMaterial; // 0x30
+        public CustomEmojiParticleSystemList customEmoji_ParticleSystemList; // 0x38
+
         // ── Methods ──
         public void AddRange(){} // RVA: 0x4976A0
         public void ProcessComponent(){} // RVA: 0xCBB8F0
@@ -1126,6 +1318,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÎÍÏÎÏÍÌÎÎÍÍÌÌÌÌÍÍÎÌÏ</summary>
     public class VRC_MainSiblingSiblingSibling_E5F5
     {
+        public string ÎÏÎÌÌÏÎÍÌÏÌÌÌÏÌÍÌÍÌÍÎÏÍ;
+        public string ÎÎÎÏÌÌÏÎÏÏÏÍÎÍÌÍÍÏÎÌÌÏÏ;
+        public string ÌÏÍÏÎÌÍÌÏÎÌÏÌÌÍÌÎÍÌÍÍÏÌ;
+        public string ÍÏÍÍÎÏÎÍÏÎÍÎÏÏÏÍÌÍÌÎÎÌÎ;
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x6B10C0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
@@ -1182,7 +1379,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÌÎÍÏÎÏÍÌÌÎÎÍÎÌÏÍÍÎÎÏ</summary>
     public class VRC_MainSiblingSiblingSibling_ECEF
     {
-        public object _eCEF;
+        public ÍÍÎÌÎÍÏÎÏÍÌÌÎÎÍÎÌÏÍÍÎÎÏ _eCEF;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
@@ -1203,6 +1400,24 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÏÏÌÍÌÏÌÎÌÍÍÎÏÎÎÎÍÎÏÏ</summary>
     public class VRC_MainSiblingSiblingSibling_F0C0
     {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+        public UnityEngine.Vector3 ÏÏÏÎÌÍÌÍÌÍÎÏÎÍÌÏÍÍÏÌÎÌÍ; // 0x20
+        public UnityEngine.Vector3 ÍÍÌÌÍÌÎÍÎÎÏÍÌÏÌÎÌÏÌÎÏÌÏ; // 0x2C
+        public UnityEngine.Vector3 ÏÍÏÎÎÏÌÏÍÌÎÍÎÌÎÎÎÏÌÌÏÍÏ; // 0x38
+        public UnityEngine.Vector3 ÎÍÍÎÎÏÌÎÏÌÌÌÌÎÎÎÏÌÌÍÍÍÍ; // 0x44
+        public UnityEngine.Quaternion ÌÎÍÍÍÌÍÍÏÎÏÌÎÎÌÍÌÌÍÍÍÍÌ; // 0x50
+        public bool ÏÏÎÌÍÏÎÍÍÎÍÍÍÏÍÏÏÎÎÏÍÏÌ; // 0x60
+        public bool ÌÍÎÏÎÏÏÎÎÍÍÏÏÌÍÏÌÏÏÍÏÎÍ; // 0x61
+        public bool ÍÏÎÌÌÍÍÍÍÍÏÌÌÍÌÍÍÍÌÍÎÍÍ; // 0x62
+        public int ÎÎÌÎÌÍÌÎÍÌÍÍÍÍÎÎÍÎÍÎÌÏÍ; // 0x64
+        public int ÏÎÌÌÍÏÍÏÎÎÏÏÎÍÏÌÌÏÌÌÎÎÍ; // 0x68
+        public float ÌÌÍÌÎÏÍÏÌÍÌÎÍÏÎÎÎÍÌÍÌÎÏ; // 0x6C
+        public float ÌÏÏÎÌÎÎÍÍÏÌÍÌÍÌÍÏÎÏÏÎÍÍ; // 0x70
+        public bool ÏÍÎÎÏÎÏÏÎÎÏÎÏÏÏÌÎÎÌÌÏÍÎ; // 0x74
+        public bool ÍÏÍÏÌÏÎÎÏÌÏÏÍÌÍÍÍÍÌÍÏÎÍ; // 0x75
+        public bool ÌÍÏÍÍÍÏÏÌÏÌÏÎÏÌÌÎÎÎÏÎÍÌ; // 0x76
+        public bool ÍÎÍÍÏÏÌÌÍÏÏÌÎÌÏÎÌÏÏÎÍÌÌ; // 0x77
+
         // ── Methods ──
         public void HasValidHumanoidTransforms(){} // RVA: 0x114DB80
         public void HasValidTransforms(){} // RVA: 0x114DCB0
@@ -1273,6 +1488,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÌÎÎÍÌÌÌÌÌÎÌÌÌÎÌÍÏÌÍ</summary>
     public class VRC_MainSiblingSiblingSibling_FEF3
     {
+        public System.Collections.Concurrent.ConcurrentQueue`1<ÏÏÌÌÌÎÍÏÍÎÍÎÏÏÏÎÌÎÏÌÌÍÎ> ÍÍÏÍÏÏÍÎÌÎÏÍÍÏÍÌÌÏÌÌÍÌÏ; // 0x10
+        public ÎÌÌÌÌÎÎÍÌÌÌÌÌÎÌÌÌÎÌÍÏÌÍ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public bool ÏÎÍÎÌÏÏÌÎÍÎÏÎÎÎÍÍÍÎÌÍÍÌ; // 0x8
+        public System.Threading.CancellationTokenSource ÌÍÌÍÏÍÎÏÎÏÌÌÏÌÏÎÏÍÎÎÏÎÌ; // 0x18
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x5AFE20
         public void CleanupNativeMarshal(){} // RVA: 0x5AFF90
@@ -1300,6 +1520,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField;
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ;
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x283FA0
         public void get_IsReadOnly(){} // RVA: 0x283FA0
@@ -1330,6 +1553,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1360,6 +1586,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1390,6 +1619,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x59CEC0
         public void get_IsReadOnly(){} // RVA: 0x513B290
@@ -1420,6 +1652,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1450,6 +1685,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1480,6 +1718,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1510,6 +1751,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1540,6 +1784,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÍÍÎÍÏÎÎÎÎÎÏÌÎÌÌÌÏÌ</summary>
     public class VRC_MainSiblingSibling_2422
     {
+        public bool <ÏÌÌÏÌÍÏÎÌÌÍÏÎÌÍÎÏÌÍÎÏÍÌ>k__BackingField; // 0x20
+        public System.Action`1<bool> ÌÍÌÌÏÏÎÎÏÍÏÌÏÌÏÍÎÍÍÎÎÏÏ; // 0x28
+
         // ── Methods ──
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
         public void get_IsReadOnly(){} // RVA: 0x513C760
@@ -1587,6 +1834,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÎÌÍÏÎÎÌÍÏÏÌÌÎÎÍÏÌÌÍÍ</summary>
     public class VRC_MainSiblingSibling_3766
     {
+        public ÍÏÎÎÍÌÏÌÌÎÏÍÏÌÎÌÎÍÌÎÌÌÏ ÎÍÎÍÍÍÌÍÍÏÌÌÏÏÌÏÏÍÍÍÎÎÎ; // 0x10
+        public bool <ÌÌÌÌÏÍÌÎÎÍÎÌÏÎÌÏÎÍÍÍÏÍÎ>k__BackingField; // 0x18
+        public System.Threading.CancellationTokenSource ÍÏÌÎÌÎÏÍÌÎÌÍÌÏÍÏÎÌÏÌÍÎÎ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x11F5A40
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
@@ -1616,6 +1867,28 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ</summary>
     public class VRC_MainSiblingSibling_454D
     {
+        public ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public System.Action <ÎÌÌÏÍÏÏÏÏÌÎÍÍÎÌÏÏÍÎÎÎÍÌ>k__BackingField; // 0x10
+        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÏÌÌÍÏÍÏÍÍÍÏÌÎÏÎÍÏÍÍÎÌÌÏ>k__BackingField; // 0x18
+        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÎÌÍÎÏÏÌÎÏÌÏÌÌÌÎÏÌÏÏÎÌÌÍ>k__BackingField; // 0x20
+        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÎÍÍÎÌÌÎÎÏÎÎÌÍÎÎÌÍÎÏÍÌÍÎ>k__BackingField; // 0x28
+        public int <ÏÎÏÎÍÍÍÎÍÏÍÏÏÍÏÏÍÏÏÌÍÍÍ>k__BackingField; // 0x30
+        public int <ÍÏÍÏÍÎÎÍÏÍÏÎÎÏÌÍÏÏÏÌÏÎÎ>k__BackingField; // 0x34
+        public System.TimeSpan <ÍÎÏÎÎÍÎÍÍÎÎÍÍÎÍÏÎÎÍÍÍÎÍ>k__BackingField; // 0x38
+        public System.TimeSpan <ÏÎÌÏÎÏÎÏÏÌÌÍÍÌÎÍÏÎÏÎÎÎÏ>k__BackingField; // 0x40
+        public int <ÍÎÍÏÍÍÎÍÏÍÏÍÍÎÌÌÎÎÌÏÏÎÎ>k__BackingField; // 0x48
+        public System.TimeSpan <ÎÏÏÍÌÌÎÍÏÍÏÎÌÍÎÎÍÏÎÏÍÏÏ>k__BackingField; // 0x50
+        public System.TimeSpan <ÏÌÏÌÌÏÏÌÎÍÎÏÍÏÏÍÎÎÍÌÍÎÎ>k__BackingField; // 0x58
+        public bool <ÍÍÏÍÎÎÍÏÏÏÌÌÎÏÍÏÍÌÍÍÎÌÍ>k__BackingField; // 0x60
+        public string <ÌÌÎÍÍÍÎÎÍÌÏÏÎÌÎÎÌÍÍÏÏÌÍ>k__BackingField; // 0x68
+        public string <ÏÍÍÌÎÍÏÍÏÌÎÍÏÏÍÌÍÏÎÎÍÌÏ>k__BackingField; // 0x70
+        public string <ÏÌÎÍÍÍÌÏÍÎÌÎÏÍÎÌÍÏÏÎÌÏÌ>k__BackingField; // 0x78
+        public VRC.Localization.LocalizableString <ÎÎÎÏÏÌÎÌÎÍÏÏÍÏÌÎÏÎÎÏÏÌÌ>k__BackingField; // 0x80
+        public VRC.Localization.LocalizableString <ÌÎÌÌÍÏÎÍÍÏÎÎÏÌÍÌÍÎÎÌÎÎÎ>k__BackingField; // 0xA8
+        public VRC.Localization.LocalizableString <ÍÍÌÍÏÍÏÌÍÍÎÏÍÍÎÌÌÌÎÎÎÌÏ>k__BackingField; // 0xD0
+        public VRC.Localization.LocalizableString <ÏÍÌÎÌÍÍÌÎÍÍÍÎÍÏÎÏÌÏÎÏÎÍ>k__BackingField; // 0xF8
+        public System.Threading.CancellationTokenSource ÍÎÍÌÎÎÌÍÏÏÌÏÌÏÍÏÌÏÏÎÌÍÍ; // 0x120
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4C28F0
         public void Initialize(){} // RVA: 0x4C2FA0
@@ -1698,6 +1971,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÏÌÏÌÌÌÏÏÎÏÍÍÏÏÍÎÍÍÍÎ</summary>
     public class VRC_MainSiblingSibling_829A
     {
+        public string ÎÏÌÎÌÏÍÍÍÏÌÍÌÎÌÏÎÌÍÍÏÎÍ;
+        public string ÎÍÌÌÍÎÎÌÏÏÎÌÎÍÎÎÏÎÏÌÌÎÎ;
+        public string ÌÏÍÏÎÌÍÌÏÎÌÏÌÌÍÌÎÍÌÍÍÏÌ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6E8830
         public void Initialize(){} // RVA: 0x6E8A80
@@ -1740,6 +2017,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÎÌÍÌÌÏÏÏÍÌÏÏÍÍÎÏÍÍÏ</summary>
     public class VRC_MainSiblingSibling_C44C
     {
+        public int ÏÎÏÏÎÌÏÏÍÎÏÏÎÎÎÏÏÏÍÍÏÍÏ;
+        public int ÌÌÏÍÌÌÏÌÌÍÏÏÍÌÏÎÌÍÍÏÍÍÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1A3E9E0
         public void Initialize(){} // RVA: 0x1A3EA70
@@ -1776,6 +2056,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÌÏÍÍÍÌÌÏÍÌÌÌÏÌÌÌÌÎÏÍ</summary>
     public class VRC_MainSiblingSibling_EBB2
     {
+        public ÌÍÏÌÏÍÍÍÌÌÏÍÌÌÌÏÌÌÌÌÎÏÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public System.Collections.Generic.List`1<ÏÌÏÌÍÌÍÎÌÏÌÍÎÍÎÌÍÎÍÌÏÌÍ> ÎÏÌÎÌÎÌÍÍÍÏÏÍÌÏÏÍÌÏÎÎÌÏ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x2DD310
         public void CopyTo(){} // RVA: 0x650940
@@ -1800,6 +2083,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÎÏÍÍÏÎÎÍÎÍÍÏÏÌÌÏÎÎÎÏ</summary>
     public class VRC_MainSiblingSibling_F42B
     {
+        public bool <ÌÌÌÌÏÍÌÎÎÍÎÌÏÎÌÏÎÍÍÍÏÍÎ>k__BackingField; // 0x10
+        public int ÎÏÌÏÎÍÍÎÎÍÌÍÌÌÎÍÌÍÌÌÌÍÌ; // 0x14
+        public int ÍÏÎÎÏÎÎÎÍÌÎÏÍÎÎÍÌÌÎÍÏÌÍ; // 0x18
+        public string ÎÏÎÎÌÍÎÍÍÎÏÌÌÏÌÏÏÌÍÎÎÎÏ; // 0x20
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x672A80
         public void CopyTo(){} // RVA: 0x672A80
@@ -1826,6 +2114,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÍÎÎÎÍÍÏÏÎÏÍÏÏÌÍÏÍÏÎÌ</summary>
     public class VRC_MainSiblingSibling_FF0F
     {
+        public bool ÍÏÏÌÎÏÎÍÌÍÎÌÍÍÏÏÍÏÎÍÍÎÎ; // 0x20
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÏÎÏÏÏÏÍÏÍÏÌÎÎÏÍÏÏÍÎÏÌÌ; // 0x28
+        public UnityEngine.Animator ÍÎÎÍÌÍÏÎÌÎÏÌÌÌÍÍÎÍÍÍÎÏÎ; // 0x30
+        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ ÍÍÎÎÏÏÎÎÌÍÎÌÎÌÌÎÎÌÎÏÍÍÏ; // 0x38
+        public ÎÌÎÎÏÍÎÍÍÍÍÎÎÏÏÏÍÌÍÌÏÌÍ ÍÏÎÌÎÌÌÎÏÍÎÎÍÎÍÍÎÌÍÍÌÏÎ; // 0x40
+        public ÍÌÏÏÏÌÍÎÏÌÏÌÌÏÏÍÏÌÏÌÎÎÎ ÍÏÌÌÎÌÏÍÌÏÍÌÏÍÎÎÎÎÌÍÍÎÍ; // 0x48
+        public ÌÍÎÏÏÎÍÌÎÍÏÍÏÍÏÍÎÏÌÏÌÌÎ ÎÌÏÌÎÏÍÏÏÌÎÍÌÏÏÍÎÏÍÌÎÏÏ; // 0x50
+
         // ── Methods ──
         public void Start(){} // RVA: 0x10E1530
         public void OnEnable(){} // RVA: 0x10E1C70
@@ -1905,6 +2201,187 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÌÎÏÏÏÎÍÏÎÌÍÍÎÎÍÌÎÏÌÏ</summary>
     public class VRC_MainSibling_035C
     {
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÏÏÍÏÌÍÍÎÎÎÎÏÎÎÍÍÍÏÏÏÏÍÎ>k__BackingField; // 0x10
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<string> <ÏÏÎÌÍÎÍÌÏÌÌÏÎÌÍÎÌÍÎÌÏÏÎ>k__BackingField; // 0x18
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÌÏÎÏÍÎÍÍÌÎÏÎÏÎÍÎÎÎÍÍÌ>k__BackingField; // 0x20
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588BA78> <ÍÍÎÏÏÎÌÌÎÍÎÏÏÍÍÌÍÌÏÏÎÏÏ>k__BackingField; // 0x28
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÎÌÌÍÍÎÏÏÏÎÎÎÌÌÎÌÌÌÌÌÏ>k__BackingField; // 0x30
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÏÎÎÎÌÎÍÌÎÏÎÎÌÎÏÍÌÏÏÌ>k__BackingField; // 0x38
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÍÎÍÏÌÏÎÍÏÌÏÍÎÍÏÎÎÌÏÏÎ>k__BackingField; // 0x40
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÏÍÍÎÍÎÌÎÏÏÍÏÏÌÏÍÎÍÏÍÎ>k__BackingField; // 0x48
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÎÍÎÌÏÌÍÏÌÌÌÌÏÎÎÍÌÎÌÌÏ>k__BackingField; // 0x50
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÍÎÍÎÏÏÎÎÏÍÎÍÏÎÎÏÌÍÏÍÎÌ>k__BackingField; // 0x58
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÌÌÏÍÌÏÎÍÏÌÌÌÍÏÏÍÍÌÌÏÌÏ>k__BackingField; // 0x60
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÍÍÏÏÏÌÌÍÌÍÌÎÌÏÎÍÎÌÎÌÌ>k__BackingField; // 0x68
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÌÌÍÌÍÌÍÌÌÍÌÏÎÎÍÏÍÌÏÌÎÎ>k__BackingField; // 0x70
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<string> <ÍÏÍÏÌÎÌÏÎÏÏÎÎÏÎÏÍÏÏÌÏÏÌ>k__BackingField; // 0x78
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÍÌÍÍÌÏÏÌÍÏÌÍÎÍÎÎÌÎÌÍÌ>k__BackingField; // 0x80
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÎÎÏÎÎÌÏÌÎÎÏÎÎÏÌÏÌÍÍÏÌÏ>k__BackingField; // 0x88
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÏÌÏÎÌÎÏÎÏÏÌÍÍÎÌÌÌÏÏÍÎÍ>k__BackingField; // 0x90
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÏÏÌÍÎÎÏÎÎÍÏÏÏÏÍÍÏÍÍÍÍÌ>k__BackingField; // 0x98
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÎÏÍÎÎÏÌÏÎÎÏÏÌÍÏÏÎÏÎÏÌÏ>k__BackingField; // 0xA0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B398> <ÏÎÍÍÍÏÍÏÍÍÏÍÎÌÌÎÏÌÍÎÌÌÍ>k__BackingField; // 0xA8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÍÏÍÏÍÍÏÎÍÌÏÌÌÎÍÏÌÏÏÍÍ>k__BackingField; // 0xB0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÍÍÏÌÏÍÏÏÏÏÌÍÌÌÏÌÌÏÍÍÍÌÎ>k__BackingField; // 0xB8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B600> <ÏÍÌÏÏÌÎÎÏÌÍÏÎÏÏÍÎÎÍÍÌÍÏ>k__BackingField; // 0xC0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÍÍÏÌÏÎÎÎÏÌÎÌÏÏÌÎÎÎÏÌÏÌ>k__BackingField; // 0xC8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÍÎÍÏÏÍÌÍÌÏÏÎÌÍÏÍÌÌÎÍÏ>k__BackingField; // 0xD0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÌÎÏÍÏÌÌÎÌÎÍÏÎÌÏÌÌÍÍÌÏ>k__BackingField; // 0xD8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÌÌÏÏÎÍÎÏÏÎÏÏÏÍÏÌÏÏÌÎÏ>k__BackingField; // 0xE0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<string> <ÍÏÍÏÍÏÍÍÏÌÍÎÍÌÍÍÏÎÎÌÏÌÍ>k__BackingField; // 0xE8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x65884D28> <ÍÏÏÏÏÌÍÌÎÍÍÌÏÎÌÍÏÍÏÎÌÍÍ>k__BackingField; // 0xF0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÍÍÎÎÎÏÎÎÏÌÎÍÎÍÌÍÍÍÏÎ>k__BackingField; // 0xF8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÎÏÏÎÍÌÏÌÏÏÍÍÎÏÍÎÍÍÎÎÌ>k__BackingField; // 0x100
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÍÌÎÏÌÍÎÍÌÎÍÎÍÌÍÍÌÎÏÎÏÎ>k__BackingField; // 0x108
+        public ÎÍÏÎÌÎÏÏÏÎÏÎÍÏÏÍÎÍÎÍÏÏÌ<string> <ÎÎÍÌÎÌÎÎÍÍÎÏÍÎÎÍÌÎÎÌÌÏÍ>k__BackingField; // 0x110
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<string> <ÌÎÌÍÍÎÌÏÏÌÎÏÎÎÍÎÌÏÎÌÌÏÍ>k__BackingField; // 0x118
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B0D8> <ÎÏÏÌÍÎÎÌÎÎÌÍÌÌÌÍÌÎÌÎÎÏÎ>k__BackingField; // 0x120
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B080> <ÎÍÌÍÌÎÌÍÌÎÎÏÎÌÌÌÌÎÎÍÎÍÌ>k__BackingField; // 0x128
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÏÏÏÍÏÏÍÌÏÌÏÏÍÍÌÏÍÌÍÌÍ>k__BackingField; // 0x130
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÍÏÌÎÍÌÎÎÏÎÍÎÍÌÌÏÍÎÌÏÍ>k__BackingField; // 0x138
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B028> <ÌÍÍÏÍÎÌÌÌÏÏÏÎÍÌÍÏÏÎÎÍÏÎ>k__BackingField; // 0x140
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÎÍÎÏÌÍÍÏÏÌÏÌÍÍÏÏÏÏÏÌÌ>k__BackingField; // 0x148
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÏÏÎÎÌÎÏÏÏÍÍÎÎÏÍÎÎÌÎÌÌÍ>k__BackingField; // 0x150
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÏÎÎÎÍÍÏÌÎÎÌÍÌÌÍÌÏÏÏÏÍÍ>k__BackingField; // 0x158
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÍÎÏÏÎÏÍÏÎÏÌÏÏÌÍÌÏÍÎÌÏÍÎ>k__BackingField; // 0x160
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÍÏÌÍÎÍÎÎÏÌÎÌÍÍÏÌÍÌÎÍÎÎ>k__BackingField; // 0x168
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x65714058> <ÎÍÎÎÎÏÍÍÍÍÌÍÎÌÌÏÏÎÏÍÏÍÎ>k__BackingField; // 0x170
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÏÍÍÏÌÍÎÌÎÌÏÎÎÏÍÍÎÌÍÏÏ>k__BackingField; // 0x178
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÎÍÌÌÌÎÌÍÏÌÍÎÌÎÎÎÏÎÍÌÏÏ>k__BackingField; // 0x180
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÎÏÌÎÎÌÎÌÌÌÍÍÍÎÎÌÌÎÌÏ>k__BackingField; // 0x188
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÍÍÎÌÏÍÌÏÎÌÏÎÏÌÏÏÍÎÎÍÏ>k__BackingField; // 0x190
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÌÎÏÍÍÌÌÏÍÎÍÎÌÎÍÍÏÎÍÌÍÏ>k__BackingField; // 0x198
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÎÎÌÍÌÏÏÌÎÎÏÍÍÍÍÎÎÍÌÌÎÌ>k__BackingField; // 0x1A0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÎÌÍÍÍÌÏÍÎÌÎÎÏÍÍÍÍÍÍÏÍ>k__BackingField; // 0x1A8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÏÍÍÍÎÏÏÎÌÌÌÎÎÍÏÏÏÎÏÏÍÎ>k__BackingField; // 0x1B0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÌÏÎÎÌÏÌÏÏÎÎÌÎÏÎÍÌÌÌÎÍÎ>k__BackingField; // 0x1B8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÏÍÏÍÎÏÍÎÍÍÎÏÎÍÍÎÏÎÍÏÌ>k__BackingField; // 0x1C0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÌÎÏÌÌÌÌÌÏÌÍÏÌÎÍÎÌÍÏÎÏ>k__BackingField; // 0x1C8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x65970298> <ÎÌÍÌÏÎÌÏÌÍÌÏÌÍÏÍÍÎÌÍÎÎÌ>k__BackingField; // 0x1D0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÎÎÍÎÌÎÍÍÍÌÌÎÍÎÍÏÏÍÏÎÍ>k__BackingField; // 0x1D8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÍÏÍÍÏÌÍÎÎÌÏÍÌÎÏÌÌÏÌÎÍ>k__BackingField; // 0x1E0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÎÌÍÍÎÏÌÍÍÎÍÌÎÍÏÍÍÌÍÍÍÎ>k__BackingField; // 0x1E8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B448> <ÏÎÏÌÏÎÍÌÍÏÌÎÎÍÏÌÌÏÏÍÍÌÌ>k__BackingField; // 0x1F0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÍÍÎÎÌÎÍÎÏÏÌÍÍÌÎÌÍÏÌÍÎÎ>k__BackingField; // 0x1F8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B448> <ÌÎÎÏÏÏÎÎÍÎÏÍÏÌÍÏÎÎÌÏÌÌÎ>k__BackingField; // 0x200
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÎÍÏÎÏÌÌÍÌÍÎÏÏÍÌÌÌÏÌÎÏÎ>k__BackingField; // 0x208
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B448> <ÌÏÏÎÍÎÌÍÌÍÏÎÍÌÌÎÌÎÎÌÍÌÏ>k__BackingField; // 0x210
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B760> <ÏÍÎÏÏÍÍÏÎÎÏÏÏÌÏÍÌÌÌÏÌÍÍ>k__BackingField; // 0x218
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÎÍÌÏÌÍÍÍÌÌÎÌÏÎÍÍÎÍÏÏÏÍ>k__BackingField; // 0x220
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÏÌÍÌÌÌÌÍÎÎÌÍÍÏÍÍÍÎÌÍÏ>k__BackingField; // 0x228
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÎÎÎÏÍÎÎÏÍÏÎÏÎÎÍÌÎÌÏÎÎ>k__BackingField; // 0x230
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÌÍÍÌÌÌÎÏÏÏÌÍÍÎÍÏÌÌÍÌÍ>k__BackingField; // 0x238
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÌÌÍÎÏÎÎÏÏÏÏÏÍÏÍÍÍÏÍÏÎÍ>k__BackingField; // 0x240
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÌÎÍÏÏÎÏÎÏÏÍÏÎÌÏÎÎÏÎÌÎ>k__BackingField; // 0x248
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÍÏÎÎÌÎÎÏÌÎÏÎÎÎÏÌÎÌÎÎÏÍÍ>k__BackingField; // 0x250
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÎÌÍÎÎÏÍÌÍÏÍÎÌÌÏÍÏÎÍÍÏÍ>k__BackingField; // 0x258
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÏÏÍÌÍÌÎÌÍÌÏÌÌÎÏÎÍÌÍÌÌÌ>k__BackingField; // 0x260
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÎÏÍÌÎÎÏÌÎÎÍÍÌÌÏÎÎÍÍÍÍÎ>k__BackingField; // 0x268
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B970> <ÏÍÌÍÏÎÏÌÍÍÏÏÏÌÍÌÎÎÌÌÎÍÎ>k__BackingField; // 0x270
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÍÍÏÍÌÏÍÎÏÏÌÌÌÏÍÎÎÌÍÏÏÎ>k__BackingField; // 0x278
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÎÌÎÎÎÌÎÌÏÏÏÏÌÌÍÍÌÎÌÏÌÏ>k__BackingField; // 0x280
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÍÌÌÏÏÎÌÌÎÍÌÎÏÍÍÏÍÌÎÍÏÌ>k__BackingField; // 0x288
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÌÏÍÌÍÏÍÏÍÏÍÍÍÏÌÌÌÎÏÍÏ>k__BackingField; // 0x290
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÍÍÏÍÍÍÍÎÌÏÎÎÌÎÍÌÌÎÌÍÍÏ>k__BackingField; // 0x298
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÎÎÎÌÏÎÎÌÎÌÌÌÏÌÍÏÏÎÌÎÎÌ>k__BackingField; // 0x2A0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B188> <ÏÍÍÏÍÍÎÏÌÌÍÌÍÌÌÌÎÌÏÍÎÎÍ>k__BackingField; // 0x2A8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588E360> <ÎÍÌÏÍÎÍÌÏÌÌÏÏÎÌÍÎÌÏÌÌÍÏ>k__BackingField; // 0x2B0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÌÏÏÏÎÌÏÌÎÏÏÌÎÌÏÍÏÌÍÏÌ>k__BackingField; // 0x2B8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x65972C88> <ÏÏÏÎÎÌÍÍÎÏÌÌÎÌÍÌÎÎÍÍÍÏÏ>k__BackingField; // 0x2C0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÎÎÌÎÌÌÌÍÌÎÌÎÏÏÎÎÍÌÏÌÍÎ>k__BackingField; // 0x2C8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÍÎÍÏÎÌÎÏÌÍÎÏÍÌÏÌÎÎÎÏÏ>k__BackingField; // 0x2D0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÍÎÌÌÍÏÏÌÌÌÌÍÏÏÏÍÎÍÍÍÎ>k__BackingField; // 0x2D8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÎÎÎÎÍÍÎÏÍÎÍÎÎÎÎÌÌÏÌÏÎ>k__BackingField; // 0x2E0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÏÏÌÌÏÎÍÌÍÌÌÍÏÏÌÎÍÌÏÌÌÎ>k__BackingField; // 0x2E8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÍÍÍÍÌÎÎÍÏÍÍÎÏÏÏÎÏÍÍÏÌ>k__BackingField; // 0x2F0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÍÏÏÏÍÏÌÌÌÎÌÎÏÍÌÎÎÌÍÎÍÌÍ>k__BackingField; // 0x2F8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÌÎÎÌÎÏÌÌÌÎÍÍÎÎÍÍÏÏÏÍÏÏÌ>k__BackingField; // 0x300
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÍÎÍÍÌÍÌÏÌÏÏÌÌÌÎÍÌÎÍÏ>k__BackingField; // 0x308
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÏÎÌÍÌÎÎÌÏÌÌÎÏÎÎÏÌÌÍÍÏÎ>k__BackingField; // 0x310
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÏÍÍÎÌÌÏÏÍÏÏÌÍÏÌÌÍÏÍÏÏÏ>k__BackingField; // 0x318
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÎÍÎÍÍÍÏÏÎÌÌÌÍÏÌÎÏÎÎÏÌ>k__BackingField; // 0x320
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÎÏÎÏÍÏÍÌÏÎÌÍÍÍÎÎÎÌÎÌÎ>k__BackingField; // 0x328
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÍÎÎÏÏÍÌÌÌÍÎÏÎÏÌÌÍÌÍÌÍÎ>k__BackingField; // 0x330
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÎÎÍÏÍÍÌÏÎÎÍÎÎÌÌÎÍÎÍÎÍÏ>k__BackingField; // 0x338
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÌÌÍÍÌÎÏÏÌÍÏÎÎÏÎÍÏÎÍÌÌÎ>k__BackingField; // 0x340
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B6B0> <ÏÌÏÏÍÍÌÏÎÏÍÏÌÎÍÎÏÎÏÏÎÍÌ>k__BackingField; // 0x348
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÌÏÌÏÍÌÍÍÌÍÍÎÎÏÍÎÌÌÍÏÌÎ>k__BackingField; // 0x350
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÌÏÍÍÏÎÏÌÍÎÍÍÎÏÍÌÌÎÎÌÌ>k__BackingField; // 0x358
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÎÏÎÍÌÍÌÍÏÌÏÍÍÌÍÌÌÎÌÍÍÏ>k__BackingField; // 0x360
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÏÏÌÌÏÏÏÎÍÏÌÎÍÌÏÍÌÏÎÎÎÎ>k__BackingField; // 0x368
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÍÍÌÎÎÎÏÎÌÍÍÏÍÏÍÌÎÍÏÏÎÎÌ>k__BackingField; // 0x370
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x657CFEC8> <ÏÎÍÎÍÌÌÎÏÎÎÎÍÍÎÌÎÍÏÍÌÍÏ>k__BackingField; // 0x378
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588AF20> <ÎÍÌÏÎÍÍÍÌÏÎÏÎÌÏÌÍÏÌÍÎÎÌ>k__BackingField; // 0x380
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÏÎÎÎÍÎÍÎÌÎÌÎÏÌÍÎÍÎÏÏÎÎ>k__BackingField; // 0x388
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÎÌÎÌÎÏÏÎÏÏÎÏÌÍÍÎÏÎÎÏÏ>k__BackingField; // 0x390
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588AF78> <ÏÌÏÏÎÎÏÌÍÎÌÏÎÍÍÌÌÎÏÏÏÎÎ>k__BackingField; // 0x398
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B658> <ÎÌÏÎÎÍÌÌÏÎÍÎÏÌÍÍÍÍÏÌÌÎÌ>k__BackingField; // 0x3A0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÍÌÎÏÍÍÏÌÌÏÏÌÍÌÎÍÌÌÌÎÌÍ>k__BackingField; // 0x3A8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588DB20> <ÍÍÍÌÍÍÎÎÏÍÎÎÏÎÏÏÍÌÎÍÌÎÌ>k__BackingField; // 0x3B0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588DC28> <ÍÏÌÌÎÏÏÌÏÏÍÎÏÎÌÌÍÏÏÍÏÌÍ>k__BackingField; // 0x3B8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B4F8> <ÍÏÍÌÏÌÍÍÌÏÏÎÏÎÎÎÎÏÎÏÌÌÎ>k__BackingField; // 0x3C0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B550> <ÌÎÏÌÍÎÎÌÌÎÌÍÍÍÏÌÎÎÏÍÌÎÏ>k__BackingField; // 0x3C8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÌÌÌÍÍÍÎÎÍÏÏÎÍÎÏÌÍÎÍÌÎÏ>k__BackingField; // 0x3D0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÎÌÎÍÍÍÌÎÍÌÌÍÎÎÏÏÌÍÌÌÌÏ>k__BackingField; // 0x3D8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÏÍÍÎÍÎÍÌÏÍÍÍÎÍÎÎÏÏÌÍÍÏ>k__BackingField; // 0x3E0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÏÌÌÏÎÌÍÏÌÍÏÎÌÎÌÌÎÍÏÎÏÏ>k__BackingField; // 0x3E8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÏÏÍÌÎÌÍÍÎÌÌÏÍÎÏÍÏÎÎÏ>k__BackingField; // 0x3F0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÏÍÎÎÍÏÍÎÏÌÌÏÏÏÏÏÍÏÍÌÏÎÌ>k__BackingField; // 0x3F8
+        public ÎÍÏÎÌÎÏÏÏÎÏÎÍÏÏÍÎÍÎÍÏÏÌ<bool> <ÏÍÍÌÌÎÍÌÍÍÌÏÎÏÍÍÏÎÍÍÏÍÏ>k__BackingField; // 0x400
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÎÏÏÎÌÌÏÍÎÍÍÌÍÏÏÎÍÌÍÏÌ>k__BackingField; // 0x408
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÏÏÏÌÍÎÍÏÎÍÍÍÎÎÎÌÏÌÎÍÌÏ>k__BackingField; // 0x410
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÌÏÍÍÍÎÎÍÌÌÍÏÎÎÏÌÏÌÌÏÍÌ>k__BackingField; // 0x418
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÎÎÏÎÍÎÌÏÍÌÏÎÏÌÎÏÍÌÌÌÍÍ>k__BackingField; // 0x420
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÍÌÏÎÍÍÌÏÏÌÏÍÏÏÎÍÌÎÎÎÏÎÍ>k__BackingField; // 0x428
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÌÌÌÍÍÏÌÍÏÏÌÎÍÌÌÎÍÌÏÎÌ>k__BackingField; // 0x430
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÍÎÍÏÎÍÌÍÏÎÎÍÎÎÎÌÎÍÎÏÎÌ>k__BackingField; // 0x438
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÌÎÍÎÏÎÍÎÎÏÍÍÍÍÎÍÏÏÍÏÌÏÎ>k__BackingField; // 0x440
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÎÎÎÍÎÌÏÏÍÏÎÌÎÏÎÏÍÍÍÌÎÍÎ>k__BackingField; // 0x448
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<float> <ÏÍÏÍÎÍÎÎÎÍÏÌÌÍÌÏÌÏÏÌÍÎÍ>k__BackingField; // 0x450
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÍÎÏÌÌÎÏÍÏÏÍÌÏÏÌÏÍÌÏÌÏÎ>k__BackingField; // 0x458
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÌÌÍÌÍÏÎÌÎÌÎÌÍÍÌÍÍÎÍÌÏÏ>k__BackingField; // 0x460
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÍÏÍÎÍÌÏÎÍÍÏÏÏÎÍÍÎÍÎÏÍ>k__BackingField; // 0x468
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÌÌÎÍÌÏÏÎÏÏÍÎÍÎÌÎÌÏÏÍÌ>k__BackingField; // 0x470
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÎÌÍÏÎÏÍÏÏÏÏÌÏÎÌÍÍÏÍÍÏ>k__BackingField; // 0x478
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÏÍÎÏÎÎÎÍÏÌÏÎÍÍÏÍÎÍÏÎÎ>k__BackingField; // 0x480
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÏÏÌÏÎÍÏÌÍÏÏÏÏÍÌÍÍÌÎÌÍÍÌ>k__BackingField; // 0x488
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÏÍÍÎÎÍÎÍÏÏÎÏÌÌÌÌÌÌÍÏÏÌÌ>k__BackingField; // 0x490
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÌÎÍÍÌÌÌÎÍÌÍÍÎÏÍÎÎÌÎÌÏ>k__BackingField; // 0x498
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÌÌÏÌÎÌÍÎÍÏÎÍÏÌÏÏÎÏÏÎÌ>k__BackingField; // 0x4A0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÌÎÏÍÎÍÌÎÎÎÍÎÍÎÎÌÍÏÌÎÎ>k__BackingField; // 0x4A8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x659F5E70> <ÌÍÌÍÏÎÏÌÍÍÌÌÍÎÌÌÍÌÏÏÍÏÏ>k__BackingField; // 0x4B0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÏÎÎÌÎÍÍÍÌÍÏÎÎÎÎÍÎÌÏÏÏ>k__BackingField; // 0x4B8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<string> <ÍÍÏÍÍÎÌÍÌÎÍÌÌÌÏÌÍÌÏÎÍÏÏ>k__BackingField; // 0x4C0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÎÏÌÍÌÎÍÍÍÏÌÍÍÏÎÏÌÌÌÌÍÎÍ>k__BackingField; // 0x4C8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<int> <ÌÌÍÏÏÍÍÌÎÌÏÌÍÏÏÏÍÌÍÏÏÎÏ>k__BackingField; // 0x4D0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588BB28> <ÎÍÌÌÎÍÍÎÌÏÏÎÌÍÌÌÍÍÎÏÏÎÎ>k__BackingField; // 0x4D8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<ÌÏÏÎÎÎÌÎÌÌÎÏÌÎÏÌÌÍÎÌÍÍÎ> <ÌÌÌÍÎÌÍÎÏÎÍÎÎÎÏÎÎÎÏÌÎÎÏ>k__BackingField; // 0x4E0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588BAD0> <ÌÎÌÌÏÏÍÎÌÎÎÌÎÏÌÎÌÎÏÍÌÌÌ>k__BackingField; // 0x4E8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÍÏÏÌÎÌÏÍÏÌÌÏÎÌÍÏÌÌÎÏÌÎÍ>k__BackingField; // 0x4F0
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÎÌÎÎÍÌÍÏÏÌÍÏÍÍÏÍÏÎÌÌÌÌ>k__BackingField; // 0x4F8
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÍÌÎÎÏÎÏÌÌÍÌÏÏÍÏÎÏÍÎÌÌÎ; // 0x500
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÎÍÍÎÎÎÌÏÎÌÌÎÏÌÎÎÎÏÌÌÏÏÍ; // 0x508
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B2E8> ÏÎÌÍÌÏÌÍÌÍÌÌÎÌÎÏÏÏÌÌÍÏÏ; // 0x510
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÍÎÎÏÏÌÏÎÌÏÎÎÍÍÏÎÏÌÌÎÍÎÍ; // 0x518
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B340> ÎÍÌÏÌÎÍÎÌÌÍÍÍÍÏÍÍÍÌÌÏÏÏ; // 0x520
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÍÎÌÌÏÏÍÎÏÍÌÌÎÎÍÍÏÍÍÍÎÍ; // 0x528
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÎÎÏÎÎÍÎÌÎÌÎÎÌÌÌÎÍÍÍÎÏÌ; // 0x530
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÎÍÎÏÏÏÌÏÌÏÎÏÎÍÏÎÌÎÌÎÏÍ; // 0x538
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÍÍÎÍÎÍÎÍÍÎÌÍÍÏÏÎÌÏÌÌÌÎÏ; // 0x540
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÍÌÌÏÌÎÎÌÍÎÎÍÍÏÎÌÍÌÎÏÏÍ; // 0x548
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> ÌÎÏÍÍÌÍÏÏÌÍÏÎÌÎÎÎÏÍÏÏÌÏ; // 0x550
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B5A8> <ÏÏÌÎÎÎÏÎÌÍÍÍÏÏÎÎÍÏÎÏÎÏÌ>k__BackingField; // 0x558
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÌÍÎÏÎÍÏÍÍÌÏÍÌÌÍÌÏÍÎÎÌÍ>k__BackingField; // 0x560
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÏÏÎÎÏÎÌÎÏÏÍÏÏÍÏÏÌÏÍÏÎ>k__BackingField; // 0x568
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<bool> <ÌÍÎÎÍÎÎÍÌÍÌÍÍÏÎÌÎÏÍÎÍÌÍ>k__BackingField; // 0x570
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B810> <ÌÏÏÍÍÌÍÎÎÌÍÌÌÏÏÎÎÌÏÎÏÏÎ>k__BackingField; // 0x578
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B868> <ÍÌÌÌÎÎÏÎÏÎÎÏÎÍÌÍÎÎÏÏÎÌÌ>k__BackingField; // 0x580
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B8C0> <ÍÎÌÍÎÏÍÏÏÎÌÏÎÎÏÎÎÍÍÎÏÏÍ>k__BackingField; // 0x588
+        public ÍÍÌÎÏÍÍÌÍÍÌÏÏÏÎÏÏÏÍÎÏÏÏ<0x6588B918> <ÌÌÎÍÌÏÍÍÎÏÏÍÌÎÎÏÍÎÎÎÌÏÎ>k__BackingField; // 0x590
+        public float ÏÎÍÎÎÏÏÌÍÌÍÌÎÍÍÍÍÌÌÏÍÎÌ;
+        public float ÍÏÏÏÏÏÍÌÌÍÌÍÎÏÏÏÎÌÏÎÌÍÎ;
+        public float ÎÌÍÎÏÏÍÌÍÍÎÎÏÏÏÏÌÌÏÏÌÌÎ;
+
         // ── Methods ──
         public void get_DictionaryKeyType(){} // RVA: 0x435460
         public void get_DictionaryKeyType_E672B0418037(){} // RVA: 0x435460
@@ -2107,6 +2584,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÏÍÏÏÍÏÎÌÏÍÌÎÍÌÍÌÏÌÍÌ</summary>
     public class VRC_MainSibling_12FF
     {
+        public string ÍÍÎÏÎÌÌÏÎÍÌÌÎÏÌÏÏÎÏÌÌÎÏ;
+        public int ÍÍÍÏÌÍÏÌÏÌÍÏÎÍÏÏÎÌÎÌÏÏÌ;
+        public int ÌÏÎÏÌÎÍÏÏÍÏÎÏÌÌÌÌÏÍÌÎÏÍ;
+        public long ÏÌÌÍÍÌÏÍÏÌÌÌÍÎÎÏÎÎÌÎÍÏÍ;
+        public long ÍÍÎÎÍÌÎÎÌÍÏÎÎÍÏÍÏÍÍÍÌÍÌ;
+        public int ÎÎÏÎÎÏÌÎÏÌÏÎÏÎÌÏÎÏÏÎÌÏÍ;
+        public int ÌÍÎÍÌÌÌÎÌÏÏÍÏÍÌÍÌÍÏÏÏÌÌ;
+
         // ── Methods ──
         public void Copy72ByteStateIntoInstance(){} // RVA: 0x1BA5AA0
         public void GetIsKinematic(){} // RVA: 0x1BA5CC0
@@ -2167,6 +2652,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÌÏÎÏÍÏÍÍÎÎÎÏÍÏÍÍÌÍÌÏÍ</summary>
     public class VRC_MainSibling_3920
     {
+        public System.Globalization.NumberFormatInfo ÎÏÎÍÌÍÎÌÌÍÍÌÏÍÎÎÍÎÌÎÏÎÏ;
+        public ÌÌÎÎÏÍÏÌÍÍÎÌÎÌÌÎÌÍÌÎÎÏÍ ÎÎÎÎÌÏÎÌÌÍÌÎÎÏÏÍÌÌÎÏÏÍÍ; // 0x10
+        public System.Collections.Generic.Stack`1<ÌÌÎÎÏÍÏÌÍÍÎÌÎÌÌÎÌÍÌÎÎÏÍ> ÎÎÍÌÏÍÏÏÍÌÌÎÍÍÌÌÍÍÌÏÌÏÎ; // 0x18
+        public bool ÍÍÏÌÎÎÌÍÏÍÌÏÍÌÏÎÏÌÏÏÍÏÌ; // 0x20
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1B37050
         public void GetOrProcessLoadingInfo(){} // RVA: 0x398C10
@@ -2252,6 +2742,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÎÏÍÎÎÎÍÍÏÏÎÎÌÎÏÏÏÏÏÎ</summary>
     public class VRC_MainSibling_7D1C
     {
+        public int ÏÍÍÌÌÏÌÏÌÍÏÍÏÌÍÍÎÌÏÍÌÎÎ;
+        public int ÌÏÏÎÎÌÏÍÎÌÌÍÏÏÎÏÎÌÏÎÍÍÌ;
+        public int ÌÌÌÍÎÎÌÎÎÏÌÌÍÍÍÍÏÏÌÏÎÍÌ;
+        public int ÎÎÎÎÏÏÌÌÎÏÏÌÎÏÎÍÍÎÏÏÍÏÎ;
+        public int ÏÏÏÍÍÏÎÏÏÌÏÌÎÍÎÌÎÎÎÎÎÏÏ;
+        public string ÌÎÌÎÎÏÎÍÌÍÎÌÎÎÎÎÏÎÎÌÎÏÌ;
+        public System.Nullable`1<bool> ÎÌÌÍÍÍÏÍÏÏÎÍÏÍÏÏÏÏÍÎÏÍÏ;
+        public bool <ÌÌÌÌÏÍÌÎÎÍÎÌÏÎÌÏÎÍÍÍÏÍÎ>k__BackingField; // 0x10
+        public int <ÍÎÍÌÏÏÍÏÏÌÍÏÌÌÌÌÌÍÍÍÍÍÏ>k__BackingField; // 0x14
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x10B4FE0
         public void .ctor(){} // RVA: 0x10B5100
@@ -2304,6 +2804,18 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ</summary>
     public class VRC_MainSibling_C23A
     {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+        public ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x8
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiModeration>> ÏÎÏÍÏÎÍÎÌÏÌÍÍÏÏÎÏÌÍÏÍÌÍ; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration>> ÌÏÌÎÏÌÎÌÍÏÎÍÍÌÎÎÎÌÏÌÌÌÎ; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> ÏÎÏÍÌÏÏÍÎÏÌÌÎÍÏÌÏÍÎÌÏÌÌ; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> ÏÎÎÏÏÎÍÍÎÎÎÌÌÍÎÌÎÏÎÌÎÏÎ; // 0x28
+        public float ÎÍÏÎÎÌÌÎÍÏÌÏÎÌÍÌÍÎÎÌÏÎÍ;
+        public System.TimeSpan ÌÎÏÍÍÍÏÍÌÎÍÍÎÏÏÍÍÎÎÍÍÌÍ; // 0x30
+        public bool ÎÏÏÎÍÏÌÏÎÏÍÎÏÍÍÏÎÏÍÍÍÎÌ; // 0x38
+        public float ÍÎÍÎÍÎÏÌÌÎÌÍÍÍÎÌÍÏÍÎÌÏÍ; // 0x3C
+        public System.DateTime ÏÍÏÏÌÍÍÌÍÏÎÏÌÎÎÍÎÌÌÏÍÎÌ; // 0x40
+
         // ── Methods ──
         public void ProcessTransform(){} // RVA: 0x348040
         public void MarshalFixedArrayFromNative_7AB79771446E(){} // RVA: 0x67BF30 | overloaded x2
@@ -2384,6 +2896,251 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ</summary>
     public class VRC_Main_F4CB
     {
+        public ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÎÍÎÌÎÏÏÏÎÍÏÎÌÍÍÎÎÍÌÎÏÌÏ ÎÎÎÍÏÍÍÎÌÎÍÍÎÍÏÎÏÎÏÍÍÍÏ; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÌÏÎÍÍÌÏÏÌÏÍÏÏÎÍÌÎÎÎÏÎÍ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÌÌÌÍÍÏÌÍÏÏÌÎÍÌÌÎÍÌÏÎÌ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÍÎÍÏÎÍÌÍÏÎÎÍÎÎÎÌÎÍÎÏÎÌ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÏÎÍÌÏÏÎÍÍÎÏÎÌÏÎÍÎÍÌÍÌ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÌÏÏÎÍÎÏÌÏÌÎÍÎÍÎÌÌÎÍÎÏ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÏÍÎÍÎÎÎÍÏÌÌÍÌÏÌÏÏÌÍÎÍ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÏÌÏÎÍÎÎÏÌÎÎÌÎÎÎÏÏÏÎÎÎ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B028> <ÎÏÌÏÌÍÌÌÎÎÌÍÏÎÌÏÍÍÍÌÍÍÌ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B0D8> <ÍÏÏÏÍÌÎÍÌÌÎÌÍÍÎÌÌÍÎÍÍÍÌ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B080> <ÎÍÌÍÌÎÌÍÌÎÎÏÎÌÌÌÌÎÎÍÎÍÌ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÏÏÏÍÏÏÍÌÏÌÏÏÍÍÌÏÍÌÍÌÍ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÍÏÌÎÍÌÎÎÏÎÍÎÍÌÌÏÍÎÌÏÍ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÏÌÌÎÏÍÏÏÍÌÏÏÌÏÍÌÏÌÏÎ>k__BackingField; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÌÍÌÍÏÎÌÎÌÎÌÍÍÌÍÍÎÍÌÏÏ>k__BackingField; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÏÍÎÍÌÏÎÍÍÏÏÏÎÍÍÎÍÎÏÍ>k__BackingField; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÌÌÍÎÍÍÌÌÍÏÏÏÎÌÎÌÏÍÌÏ>k__BackingField; // 0xA0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÌÌÍÏÏÏÌÏÌÌÍÏÏÏÎÎÏÍÌÎÏ>k__BackingField; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÏÍÎÏÎÎÎÍÏÌÏÎÍÍÏÍÎÍÏÎÎ>k__BackingField; // 0xB0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÎÍÎÏÌÍÍÏÏÌÏÌÍÍÏÏÏÏÏÌÌ>k__BackingField; // 0xB8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÎÍÍÎÏÌÍÎÌÌÍÏÌÏÎÎÏÍÌÏÌ>k__BackingField; // 0xC0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÏÌÍÎÍÎÎÏÌÎÌÍÍÏÌÍÌÎÍÎÎ>k__BackingField; // 0xC8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÎÏÏÎÏÍÏÎÏÌÏÏÌÍÌÏÍÎÌÏÍÎ>k__BackingField; // 0xD0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÏÌÍÌÌÌÌÍÎÎÌÍÍÏÍÍÍÎÌÍÏ>k__BackingField; // 0xD8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÎÎÏÍÎÎÏÍÏÎÏÎÎÍÌÎÌÏÎÎ>k__BackingField; // 0xE0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÎÎÌÌÍÌÎÌÌÌÏÎÌÌÌÍÎÎÏÏ>k__BackingField; // 0xE8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÌÍÎÏÎÎÏÏÏÏÏÍÏÍÍÍÏÍÏÎÍ>k__BackingField; // 0xF0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÌÎÍÏÏÎÏÎÏÏÍÏÎÌÏÎÎÏÎÌÎ>k__BackingField; // 0xF8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÏÎÎÌÎÎÏÌÎÏÎÎÎÏÌÎÌÎÎÏÍÍ>k__BackingField; // 0x100
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÌÍÎÎÏÍÌÍÏÍÎÌÌÏÍÏÎÍÍÏÍ>k__BackingField; // 0x108
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÎÏÎÎÎÏÍÌÎÍÏÎÎÏÌÏÌÍÎÏÍ>k__BackingField; // 0x110
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÌÏÏÍÌÏÏÌÌÍÍÏÌÌÍÏÌÌÌÎÌÎ>k__BackingField; // 0x118
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B970> <ÍÍÍÍÍÌÌÏÍÌÍÍÌÎÎÏÍÎÍÏÍÏÍ>k__BackingField; // 0x120
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÍÏÍÌÏÍÎÏÏÌÌÌÏÍÎÎÌÍÏÏÎ>k__BackingField; // 0x128
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÍÏÎÎÌÏÌÎÏÍÏÌÎÍÎÌÏÌÏÏÎÏÎ>k__BackingField; // 0x130
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÎÎÏÌÎÏÎÍÌÌÌÍÌÌÏÌÏÌÎÏÏÎÍ>k__BackingField; // 0x138
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÎÎÍÎÏÍÍÏÏÎÌÌÍÎÍÎÌÏÍÏÏÏ>> <ÏÌÌÏÍÌÎÎÌÎÎÎÎÍÎÎÎÏÏÏÌÌÎ>k__BackingField; // 0x140
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<string> <ÌÎÌÍÍÎÌÏÏÌÎÏÎÎÍÎÌÏÎÌÌÏÍ>k__BackingField; // 0x148
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÎÌÏÏÌÏÍÌÎÌÌÎÎÌÏÍÏÍÌÌÌ>k__BackingField; // 0x150
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÌÎÏÎÎÏÏÌÏÎÍÏÎÍÍÏÌÎÎÌÏ>k__BackingField; // 0x158
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B2E8> <ÏÎÍÍÏÍÍÌÌÍÍÎÎÏÍÍÎÍÍÏÎÍÏ>k__BackingField; // 0x160
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÎÌÎÌÎÏÎÌÎÍÏÍÌÏÌÌÎÎÍÏÏ>k__BackingField; // 0x168
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B340> <ÏÍÍÌÏÏÏÍÏÍÍÍÍÍÌÏÏÍÏÏÏÏÍ>k__BackingField; // 0x170
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÎÎÏÏÎÍÏÏÌÏÌÍÌÏÎÍÎÍÍÎÌ>k__BackingField; // 0x178
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÍÌÌÍÏÍÌÏÏÎÎÍÏÌÏÎÍÌÌÍÍ>k__BackingField; // 0x180
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÏÌÎÎÍÍÍÍÎÌÌÌÍÍÎÎÍÏÍÏÍ>k__BackingField; // 0x188
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÎÍÏÍÏÎÎÎÎÍÌÌÏÎÏÎÎÌÏÏÍ>k__BackingField; // 0x190
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÏÎÌÏÍÌÌÌÎÎÎÎÍÌÏÍÌÎÍÎÍ>k__BackingField; // 0x198
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÎÏÏÏÎÏÍÏÍÎÏÎÎÍÍÎÏÎÍÍ>k__BackingField; // 0x1A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÍÌÌÌÎÌÍÏÌÍÎÌÎÎÎÏÎÍÌÏÏ>k__BackingField; // 0x1A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÍÎÍÎÍÍÏÍÎÎÌÎÏÏÌÏÌÏÌÌÍ>k__BackingField; // 0x1B0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÍÎÎÎÍÌÎÏÍÎÌÏÏÏÎÏÍÌÌÎ>k__BackingField; // 0x1B8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÍÍÍÎÏÏÎÌÌÌÎÎÍÏÏÏÎÏÏÍÎ>k__BackingField; // 0x1C0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÏÌÎÎÏÍÏÌÏÍÏÍÌÎÎÎÍÎÌÍÍ>k__BackingField; // 0x1C8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÏÌÏÎÌÍÌÎÌÎÌÍÍÏÎÍÎÎÌÍÎ>k__BackingField; // 0x1D0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÌÎÏÍÌÏÎÍÏÎÏÍÏÌÍÎÏÎÍÎÍ>k__BackingField; // 0x1D8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÏÏÎÍÎÌÌÌÏÏÏÎÍÌÎÍÎÍÌÍÌÏ>k__BackingField; // 0x1E0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÍÏÌÍÏÍÎÌÌÎÏÏÎÍÍÏÏÍÏÍÌ>k__BackingField; // 0x1E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588AFD0> <ÎÌÏÏÎÍÎÎÍÏÌÎÍÎÏÏÍÏÍÍÌÏÏ>k__BackingField; // 0x1F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588DB20> <ÏÏÌÌÍÍÏÌÏÍÎÌÌÏÍÌÌÏÌÏÎÍÌ>k__BackingField; // 0x1F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588DC28> <ÌÎÍÌÏÏÎÏÏÍÏÍÏÍÏÎÍÌÏÌÍÍÏ>k__BackingField; // 0x200
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÍÏÍÍÏÌÍÎÎÌÏÍÌÎÏÌÌÏÌÎÍ>k__BackingField; // 0x208
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÌÍÍÎÏÌÍÍÎÍÌÎÍÏÍÍÌÍÍÍÎ>k__BackingField; // 0x210
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B448> <ÏÎÏÌÏÎÍÌÍÏÌÎÎÍÏÌÌÏÏÍÍÌÌ>k__BackingField; // 0x218
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÍÎÎÌÎÍÎÏÏÌÍÍÌÎÌÍÏÌÍÎÎ>k__BackingField; // 0x220
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B448> <ÌÎÎÏÏÏÎÎÍÎÏÍÏÌÍÏÎÎÌÏÌÌÎ>k__BackingField; // 0x228
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B760> <ÏÍÎÏÏÍÍÏÎÎÏÏÏÌÏÍÌÌÌÏÌÍÍ>k__BackingField; // 0x230
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÍÏÎÏÌÌÍÌÍÎÏÏÍÌÌÌÏÌÎÏÎ>k__BackingField; // 0x238
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B448> <ÌÏÏÎÍÎÌÍÌÍÏÎÍÌÌÎÌÎÎÌÍÌÏ>k__BackingField; // 0x240
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÍÌÏÌÍÍÍÌÌÎÌÏÎÍÍÎÍÏÏÏÍ>k__BackingField; // 0x248
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÏÎÍÌÎÍÏÎÍÍÎÏÎÌÌÌÏÌÏ>k__BackingField; // 0x250
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÎÏÍÍÌÌÏÍÎÍÎÌÎÍÍÏÎÍÌÍÏ>k__BackingField; // 0x258
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÍÍÏÍÍÍÍÎÌÏÎÎÌÎÍÌÌÎÌÍÍÏ>k__BackingField; // 0x260
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÎÎÏÏÍÌÌÌÍÎÏÎÏÌÌÍÌÍÌÍÎ>k__BackingField; // 0x268
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÎÍÏÍÍÌÏÎÎÍÎÎÌÌÎÍÎÍÎÍÏ>k__BackingField; // 0x270
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÌÍÍÌÎÏÏÌÍÏÎÎÏÎÍÏÎÍÌÌÎ>k__BackingField; // 0x278
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B6B0> <ÍÏÍÏÎÍÎÌÌÍÍÌÍÏÏÍÎÏÌÌÍÎÌ>k__BackingField; // 0x280
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÌÏÌÏÍÌÍÍÌÍÍÎÎÏÍÎÌÌÍÏÌÎ>k__BackingField; // 0x288
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÌÏÍÍÏÎÏÌÍÎÍÍÎÏÍÌÌÎÎÌÌ>k__BackingField; // 0x290
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÏÎÍÌÍÌÍÏÌÏÍÍÌÍÌÌÎÌÍÍÏ>k__BackingField; // 0x298
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÍÌÎÎÎÏÎÌÍÍÏÍÏÍÌÎÍÏÏÎÎÌ>k__BackingField; // 0x2A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÏÌÌÏÏÏÎÍÏÌÎÍÌÏÍÌÏÎÎÎÎ>k__BackingField; // 0x2A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÌÎÌÏÍÏÌÌÏÎÌÍÏÌÌÎÏÌÎÍ>k__BackingField; // 0x2B0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÌÌÍÏÌÌÏÏÎÎÏÎÌÏÏÎÍÎÍÏÍ>k__BackingField; // 0x2B8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65972C88> <ÏÌÌÎÌÍÏÌÏÍÏÏÏÍÌÍÏÍÎÍÏÌÌ>k__BackingField; // 0x2C0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÌÎÍÌÎÌÌÍÎÍÎÏÎÏÎÏÏÍÍÍÍÏ>k__BackingField; // 0x2C8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÏÍÏÎÍÌÏÌÎÎÍÏÍÎÍÍÏÍÏÌÏÌÏ>k__BackingField; // 0x2D0
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<VRC.Localization.LocalizableString> <ÎÎÏÏÍÏÏÌÎÍÍÌÎÎÌÌÍÎÎÏÌÏÎ>k__BackingField; // 0x2D8
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<VRC.Localization.LocalizableString> <ÍÌÍÍÎÌÌÎÍÏÏÏÌÏÏÎÍÌÎÎÎÌÌ>k__BackingField; // 0x2E0
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<VRC.Localization.LocalizableString> <ÏÎÏÌÍÏÏÍÍÏÏÍÍÎÏÏÏÍÌÌÍÍÌ>k__BackingField; // 0x2E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÌÎÏÍÍÍÎÍÍÌÌÌÍÏÍÌÏÎÌÌÌÌÌ>k__BackingField; // 0x2F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÎÍÏÌÎÏÍÎÏÏÎÍÌÏÍÎÏÎÏÌÏÎ>k__BackingField; // 0x2F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÍÌÎÍÍÍÏÌÍÍÏÎÏÌÌÌÌÍÎÍ>k__BackingField; // 0x300
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÏÎÌÌÏÎÍÎÌÌÌÍÍÌÏÏÍÌÏÌÏ>k__BackingField; // 0x308
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÎÍÏÏÎÍÍÍÌÌÏÏÍÏÏÍÍÌÎÍÎ>k__BackingField; // 0x310
+        public string[] ÍÌÎÏÍÎÍÍÌÍÎÎÌÌÎÌÏÍÏÎÏÏÎ; // 0x318
+        public int ÎÍÌÏÎÍÎÌÌÌÍÏÎÍÎÍÎÎÌÍÏÎÎ; // 0x320
+        public int ÍÏÍÍÏÎÍÎÏÎÏÌÏÏÍÏÍÏÍÏÏÏÍ; // 0x324
+        public int ÌÍÏÍÏÎÎÏÏÌÎÎÎÎÎÎÏÎÏÏÍÏÏ; // 0x328
+        public bool ÎÍÎÌÎÏÍÎÌÏÌÏÎÍÎÌÏÏÌÎÎÍÎ; // 0x32C
+        public bool ÍÍÏÎÎÌÍÎÎÎÌÌÎÌÌÌÍÏÏÍÏÍÏ; // 0x32D
+        public bool ÌÏÎÏÍÎÎÏÏÎÌÌÍÌÍÎÎÌÏÌÍÌÏ; // 0x32E
+        public bool ÌÍÌÍÎÍÌÍÍÎÍÍÌÌÌÍÎÏÍÌÎÍÎ; // 0x32F
+        public bool ÍÏÍÎÏÌÍÌÍÍÌÏÎÍÍÎÌÌÌÍÌÌÍ; // 0x330
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÎÍÏÎÍÌÏÍÏÎÌÏÌÌÏÍÎÌÌÏÎ>k__BackingField; // 0x338
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588BA78> <ÍÍÎÏÏÎÌÌÎÍÎÏÏÍÍÌÍÌÏÏÎÏÏ>k__BackingField; // 0x340
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÎÌÍÎÏÎÍÎÎÏÌÍÍÍÌÌÏÌÌÌÏ>k__BackingField; // 0x348
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÍÎÌÎÏÏÌÎÌÌÍÌÎÎÏÎÏÏÏÏ>k__BackingField; // 0x350
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÎÍÏÎÏÌÌÏÏÎÏÍÍÎÍÌÏÎÎÌÍÌ>k__BackingField; // 0x358
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÍÍÍÌÎÍÏÌÌÏÌÏÎÎÎÍÏÏÍÏ>k__BackingField; // 0x360
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÏÌÌÏÎÍÌÍÍÌÌÌÍÏÍÌÎÎÌÎÍ>k__BackingField; // 0x368
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÌÎÎÎÌÎÌÏÏÏÏÌÌÍÍÌÎÌÏÌÏ>k__BackingField; // 0x370
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÍÌÎÌÌÏÏÌÏÏÏÌÍÏÍÎÎÏÌÌ>k__BackingField; // 0x378
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÌÌÏÏÎÌÌÎÍÌÎÏÍÍÏÍÌÎÍÏÌ>k__BackingField; // 0x380
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65970298> <ÎÌÍÌÏÎÌÏÌÍÌÏÌÍÏÍÍÎÌÍÎÎÌ>k__BackingField; // 0x388
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÎÏÎÎÍÏÎÏÎÏÍÌÌÏÏÎÏÍÍÏÍÏ>k__BackingField; // 0x390
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÏÎÎÌÏÌÎÎÏÎÎÏÌÏÌÍÍÏÌÏ>k__BackingField; // 0x398
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588DBD0> <ÍÌÏÏÍÌÌÎÎÎÌÍÌÍÎÎÍÎÏÍÍÏÌ>k__BackingField; // 0x3A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÍÏÏÏÌÌÍÌÍÌÎÌÏÎÍÎÌÎÌÌ>k__BackingField; // 0x3A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÌÍÌÍÌÍÌÌÍÌÏÎÎÍÏÍÌÏÌÎÎ>k__BackingField; // 0x3B0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B1E0> <ÍÌÍÎÌÏÎÎÍÏÎÏÏÍÏÎÏÏÏÌÍÍÍ>k__BackingField; // 0x3B8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÏÏÏÎÌÎÎÎÎÎÍÎÍÎÍÍÌÏÍ>k__BackingField; // 0x3C0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÌÌÍÏÍÏÎÍÎÌÎÌÏÏÎÏÌÌÏÏÌ>k__BackingField; // 0x3C8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B5A8> <ÌÍÌÏÎÌÌÏÎÍÌÎÍÎÎÏÍÌÏÍÌÌÎ>k__BackingField; // 0x3D0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÎÌÌÎÏÍÍÎÏÎÌÌÌÌÏÍÏÎÌÍÍ>k__BackingField; // 0x3D8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÍÏÌÎÌÎÏÎÏÏÎÍÏÏÍÏÌÎÍÎÌ>k__BackingField; // 0x3E0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B238> <ÌÏÍÍÎÏÏÍÌÏÌÍÌÏÍÌÏÎÌÌÍÌÍ>k__BackingField; // 0x3E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B290> <ÌÍÍÍÏÎÏÌÍÎÎÎÌÌÌÌÍÍÏÏÍÍÏ>k__BackingField; // 0x3F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÌÎÍÍÌÌÌÎÍÌÍÍÎÏÍÎÎÌÎÌÏ>k__BackingField; // 0x3F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x659F5E70> <ÌÍÌÍÏÎÏÌÍÍÌÌÍÎÌÌÍÌÏÏÍÏÏ>k__BackingField; // 0x400
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÏÎÎÌÎÍÍÍÌÍÏÎÎÎÎÍÎÌÏÏÏ>k__BackingField; // 0x408
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÏÌÏÎÌÎÏÎÏÏÌÍÍÎÌÌÌÏÏÍÎÍ>k__BackingField; // 0x410
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÏÌÍÎÎÏÎÎÍÏÏÏÏÍÍÏÍÍÍÍÌ>k__BackingField; // 0x418
+        public ÍÏÎÎÎÏÏÍÌÏÎÏÎÍÎÌÌÌÍÎÎÌÍ<float> <ÎÎÏÍÎÎÏÌÏÎÎÏÏÌÍÏÏÎÏÎÏÌÏ>k__BackingField; // 0x420
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B398> <ÏÎÍÍÍÏÍÏÍÍÏÍÎÌÌÎÏÌÍÎÌÌÍ>k__BackingField; // 0x428
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÍÏÍÏÍÍÏÎÍÌÏÌÌÎÍÏÌÏÏÍÍ>k__BackingField; // 0x430
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÍÏÌÏÍÏÏÏÏÌÍÌÌÏÌÌÏÍÍÍÌÎ>k__BackingField; // 0x438
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B600> <ÏÌÌÎÌÎÏÎÎÌÏÏÌÎÏÎÏÌÏÌÎÌÍ>k__BackingField; // 0x440
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÍÍÏÌÏÎÎÎÏÌÎÌÏÏÌÎÎÎÏÌÏÌ>k__BackingField; // 0x448
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÍÎÍÏÏÍÌÍÌÏÏÎÌÍÏÍÌÌÎÍÏ>k__BackingField; // 0x450
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÎÏÍÏÌÌÎÌÎÍÏÎÌÏÌÌÍÍÌÏ>k__BackingField; // 0x458
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÌÌÏÏÎÍÎÏÏÎÏÏÏÍÏÌÏÏÌÎÏ>k__BackingField; // 0x460
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65884D28> <ÍÏÍÏÍÏÍÍÏÌÍÎÍÌÍÍÏÎÎÌÏÌÍ>k__BackingField; // 0x468
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x65884D28> <ÍÏÏÏÏÌÍÌÎÍÍÌÏÎÌÍÏÍÏÎÌÍÍ>k__BackingField; // 0x470
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÌÍÍÎÎÎÏÎÎÏÌÎÍÎÍÌÍÍÍÏÎ>k__BackingField; // 0x478
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÏÏÎÍÌÏÌÏÏÍÍÎÏÍÎÍÍÎÎÌ>k__BackingField; // 0x480
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588AF20> <ÌÍÏÌÏÌÏÍÍÎÎÍÌÏÏÌÌÍÏÍÏÍÏ>k__BackingField; // 0x488
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588AF78> <ÏÌÏÏÎÎÏÌÍÎÌÏÎÍÍÌÌÎÏÏÏÎÎ>k__BackingField; // 0x490
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÏÏÏÌÍÏÏÌÏÎÏÎÍÏÌÍÎÍÍÏÍ>k__BackingField; // 0x498
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÍÎÌÌÏÏÌÎÏÎÏÌÌÍÏÌÏÍÌÎÏ>k__BackingField; // 0x4A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÍÌÎÏÍÍÏÌÌÏÏÌÍÌÎÍÌÌÌÎÌÍ>k__BackingField; // 0x4A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B658> <ÎÌÏÎÎÍÌÌÏÎÍÎÏÌÍÍÍÍÏÌÌÎÌ>k__BackingField; // 0x4B0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÌÎÎÏÎÌÎÎÌÍÏÎÍÍÏÍÎÏÌÏÍ>k__BackingField; // 0x4B8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÎÌÌÎÌÎÍÍÌÏÍÍÎÌÌÏÏÌÍÍÍ>k__BackingField; // 0x4C0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÏÍÍÏÍÏÏÎÎÏÍÍÌÎÎÎÍÌÍ>k__BackingField; // 0x4C8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÌÌÎÎÍÏÏÏÎÎÍÍÏÏÌÍÌÏÍÌÏ>k__BackingField; // 0x4D0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÎÌÏÎÎÌÎÌÌÌÏÌÍÏÏÎÌÎÎÌ>k__BackingField; // 0x4D8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÍÏÎÎÍÍÌÍÏÏÌÍÍÌÍÍÌÍÍÏÍ>k__BackingField; // 0x4E0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÎÌÍÎÍÍÍÎÎÌÏÎÌÌÍÍÏÏÏÍÌ>k__BackingField; // 0x4E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÎÏÎÌÍÎÍÎÎÎÏÏÏÏÌÍÎÍÏÌÎ>k__BackingField; // 0x4F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B3F0> <ÌÏÌÍÎÌÌÏÍÌÎÎÌÌÌÎÏÌÎÍÎÏÎ>k__BackingField; // 0x4F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B188> <ÏÍÍÏÍÍÎÏÌÌÍÌÍÌÌÌÎÌÏÍÎÎÍ>k__BackingField; // 0x500
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÌÎÌÌÌÍÌÎÌÎÏÏÎÎÍÌÏÌÍÎ>k__BackingField; // 0x508
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÍÎÍÏÎÌÎÏÌÍÎÏÍÌÏÌÎÎÎÏÏ>k__BackingField; // 0x510
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÍÎÌÌÍÏÏÌÌÌÌÍÏÏÏÍÎÍÍÍÎ>k__BackingField; // 0x518
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÎÎÎÎÍÍÎÏÍÎÍÎÎÎÎÌÌÏÌÏÎ>k__BackingField; // 0x520
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÏÌÌÏÎÍÌÍÌÌÍÏÏÌÎÍÌÏÌÌÎ>k__BackingField; // 0x528
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÏÍÎÌÏÏÌÎÏÌÍÎÍÎÍÏÎÎÌÏ>k__BackingField; // 0x530
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÌÌÌÎÍÏÏÍÍÌÏÏÎÍÍÍÌÎÎÍÍ>k__BackingField; // 0x538
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÏÎÎÏÌÏÏÍÎÎÍÍÎÎÎÌÌÎÍÏÍÎ>k__BackingField; // 0x540
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÍÍÍÎÏÎÎÌÏÌÏÌÌÏÎÏÎÏÏÍÏ>k__BackingField; // 0x548
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÌÌÏÎÍÏÏÍÏÎÌÏÍÏÏÍÌÍÎÎÍÍ>k__BackingField; // 0x550
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÌÎÎÏÏÎÌÏÌÍÍÎÍÏÍÌÏÏÍÍÏ>k__BackingField; // 0x558
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÍÏÎÏÌÍÎÏÍÍÏÏÎÎÏÌÍÎÏÎÌ>k__BackingField; // 0x560
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B708> <ÍÏÏÎÎÍÍÍÌÏÎÎÎÍÌÎÌÏÎÏÌÌÎ>k__BackingField; // 0x568
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÍÌÌÌÏÌÌÌÎÌÎÎÌÍÏÍÍÌÌÍÎÌ>k__BackingField; // 0x570
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÎÎÍÌÎÌÌÍÎÌÍÌÌÌÌÌÏÎÌÏÏ>k__BackingField; // 0x578
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÌÌÍÌÎÍÎÌÍÍÌÎÍÏÏÌÎÌÍÌÏ>k__BackingField; // 0x580
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÎÎÎÌÌÎÌÏÎÏÏÌÏÌÏÍÍÌÍÏÍ>k__BackingField; // 0x588
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÎÌÍÌÌÎÎÏÏÍÎÍÏÍÎÍÎÏÎÌÍ>k__BackingField; // 0x590
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÏÏÏÌÍÍÎÎÍÍÌÎÍÎÍÍÎÌÎÌÌ>k__BackingField; // 0x598
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÎÏÏÌÎÎÌÌÌÎÍÏÍÏÍÎÎÎÌÎ>k__BackingField; // 0x5A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÏÎÏÌÏÎÎÌÎÎÏÍÍÍÍÌÏÍÎÏÌ>k__BackingField; // 0x5A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B7B8> <ÌÏÌÏÍÏÍÎÏÌÍÍÌÌÏÍÏÍÌÎÌÏÏ>k__BackingField; // 0x5B0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÍÎÍÌÌÎÎÎÎÎÏÎÎÍÍÎÎÌÏÍÏ>k__BackingField; // 0x5B8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÌÍÎÏÌÏÌÌÎÍÏÎÍÌÌÏÍÏÍÎÍ>k__BackingField; // 0x5C0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÍÌÌÍÎÏÎÍÍÏÍÍÌÍÏÍÏÏÎÏÎÌ>k__BackingField; // 0x5C8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÎÍÎÍÏÍÏÏÌÏÌÏÎÌÌÎÎÎÌÌÌÏ>k__BackingField; // 0x5D0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÌÍÍÏÎÏÏÍÎÌÍÌÌÎÌÍÍÎÌÍÏÏ>k__BackingField; // 0x5D8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B810> <ÌÏÏÍÍÌÍÎÎÌÍÌÌÏÏÎÎÌÏÎÏÏÎ>k__BackingField; // 0x5E0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ> <ÎÏÎÍÌÍÍÍÏÌÍÌÏÍÌÍÏÌÏÍÏÌÏ>k__BackingField; // 0x5E8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B868> <ÍÌÌÌÎÎÏÎÏÎÎÏÎÍÌÍÎÎÏÏÎÌÌ>k__BackingField; // 0x5F0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B8C0> <ÍÎÌÍÎÏÍÏÏÎÌÏÎÎÏÎÎÍÍÎÏÏÍ>k__BackingField; // 0x5F8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B918> <ÍÎÌÎÎÎÏÏÌÍÌÌÍÎÏÌÏÍÏÎÌÎÍ>k__BackingField; // 0x600
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÏÌÍÍÎÌÍÍÌÏÏÌÏÏÍÏÎÏÍÍÍÌ>k__BackingField; // 0x608
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÍÌÍÎÎÏÌÌÏÎÌÍÍÎÌÌÍÏÎÎÏÏ>k__BackingField; // 0x610
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÏÍÌÌÌÏÌÎÍÎÎÏÌÌÎÎÎÍÍÎÏÎ>k__BackingField; // 0x618
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B9C8> <ÍÎÍÏÏÎÎÌÏÍÎÎÍÏÍÌÍÍÎÌÍÍÎ>k__BackingField; // 0x620
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588BA20> <ÏÎÍÌÏÍÎÎÎÎÏÍÍÍÍÍÌÎÍÌÏÍÌ>k__BackingField; // 0x628
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÌÌÍÏÏÍÍÌÎÌÏÌÍÏÏÏÍÌÍÏÏÎÏ>k__BackingField; // 0x630
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÏÍÌÏÌÍÍÏÌÌÏÏÌÎÎÌÍÍÍÌÎÏ>k__BackingField; // 0x638
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÎÏÌÏÌÌÍÌÎÎÎÍÎÎÌÌÍÎÏÎ>k__BackingField; // 0x640
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÍÍÌÍÏÎÍÏÎÌÌÌÍÎÍÍÌÎÍÍÌÌ>k__BackingField; // 0x648
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B4F8> <ÍÍÌÏÏÍÏÏÏÍÎÎÌÍÏÍÍÌÍÍÎÌÌ>k__BackingField; // 0x650
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588B550> <ÍÏÌÌÏÍÍÍÌÎÎÎÌÏÌÌÏÏÎÎÌÏÍ>k__BackingField; // 0x658
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÌÌÍÍÍÎÎÍÏÏÎÍÎÏÌÍÎÍÌÎÏ>k__BackingField; // 0x660
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÎÌÎÍÍÍÌÎÍÌÌÍÎÎÏÏÌÍÌÌÌÏ>k__BackingField; // 0x668
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÏÍÍÎÍÎÍÌÏÍÍÍÎÍÎÎÏÏÌÍÍÏ>k__BackingField; // 0x670
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÌÌÏÎÌÍÏÌÍÏÎÌÎÌÌÎÍÏÎÏÏ>k__BackingField; // 0x678
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÌÏÏÍÌÎÌÍÍÎÌÌÏÍÎÏÍÏÎÎÏ>k__BackingField; // 0x680
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÌÏÌÌÌÌÌÌÌÎÎÏÍÏÍÏÌÎÏÏÍ>k__BackingField; // 0x688
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÏÍÏÎÎÌÏÎÏÎÎÌÏÌÏÌÏÍÌÏ>k__BackingField; // 0x690
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÎÏÏÎÌÌÏÍÎÍÍÌÍÏÏÎÍÌÍÏÌ>k__BackingField; // 0x698
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÌÎÌÌÍÌÌÍÌÌÍÌÌÏÎÏÏÏÌÍÎÌ>k__BackingField; // 0x6A0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÍÎÌÎÌÌÎÍÏÎÍÍÍÎÍÍÏÎÍÍÍÎÍ>k__BackingField; // 0x6A8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÎÏÎÍÎÌÏÍÌÏÎÏÌÎÏÍÌÌÌÍÍ>k__BackingField; // 0x6B0
+        public bool ÍÍÍÏÌÍÌÎÎÎÌÍÍÎÏÎÏÍÎÍÍÌÎ; // 0x6B8
+        public ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ ÌÍÍÍÌÌÍÌÌÌÍÎÍÌÏÎÎÎÏÍÎÍÌ; // 0x6C0
+        public string ÌÍÏÍÏÌÎÎÏÎÎÍÌÌÍÎÍÍÏÎÎÍÍ; // 0x6C8
+        public VRC.Localization.LocalizableString ÍÌÌÏÏÏÏÍÎÎÏÌÌÍÍÌÏÍÌÍÌÌÍ; // 0x6D0
+        public ÌÎÏÍÌÍÌÎÏÏÏÌÎÌÌÍÏÎÌÌÍÌÍ ÎÌÌÎÍÌÍÍÌÏÌÌÏÎÍÍÍÍÍÎÍÌÎ; // 0x6F8
+        public 0x6588AFD0 ÌÍÍÏÍÎÎÎÌÎÍÎÍÍÏÎÏÍÏÌÎÌÏ; // 0x700
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÎÍÍÌÌÎÍÎÎÏÌÌÍÍÏÎÌÍÌÎÍÍ; // 0x708
+        public bool ÍÎÍÌÍÏÎÍÎÏÏÌÏÍÌÎÏÌÎÏÍÏÎ; // 0x710
+        public string ÎÍÍÌÍÎÎÎÎÎÍÎÍÏÎÎÍÌÏÌÌÍÌ;
+        public float ÌÍÍÏÏÏÎÌÏÍÎÍÎÍÌÎÍÏÏÎÏÏÏ;
+        public string ÌÎÎÏÌÌÏÏÌÎÍÎÏÍÎÎÏÎÍÍÏÏÍ;
+        public string ÌÏÌÍÎÍÌÍÌÌÌÎÌÌÍÏÏÍÍÎÍÏÎ;
+        public string ÌÏÏÎÏÏÍÏÏÌÍÎÍÍÍÍÍÎÏÏÍÌÎ;
+        public string ÌÏÌÌÌÏÎÍÌÎÌÎÌÌÍÍÎÎÍÎÎÍÎ;
+        public float ÌÍÌÍÍÎÌÏÍÎÍÏÌÍÏÍÎÎÌÍÎÌÎ;
+        public float ÎÏÎÎÏÍÍÏÎÍÎÏÏÎÏÌÌÏÎÏÎÍÏ;
+        public System.Lazy`1<string> ÌÍÎÍÌÎÌÌÍÌÌÎÌÍÌÍÍÌÎÌÏÍÌ; // 0x8
+        public System.Collections.Generic.Dictionary`2<string,ÎÌÎÏÎÏÍÍÌÎÎÏÏÍÌÌÌÏÌÎÎÍÎ> ÏÍÍÏÎÎÌÎÎÍÍÏÌÎÎÍÍÍÎÏÏÌÎ; // 0x718
+        public System.Collections.Generic.List`1<string> ÍÏÍÏÍÌÎÏÌÍÌÍÍÌÎÏÎÎÏÍÏÍÏ; // 0x720
+        public VRC.Localization.LocalizableString ÍÎÏÌÎÏÏÌÎÍÎÎÍÍÍÍÌÎÏÍÎÌÎ; // 0x728
+        public System.Collections.Generic.List`1<UnityEngine.Resolution> ÏÌÎÎÌÎÌÌÌÎÍÌÎÍÏÏÍÏÌÍÍÍÏ; // 0x750
+        public bool <ÏÌÌÏÎÍÎÍÍÍÌÎÎÍÏÍÌÎÎÍÍÌÌ>k__BackingField; // 0x758
+        public bool ÏÌÎÎÎÎÌÍÏÍÎÏÌÍÎÌÍÌÌÍÎÎÍ; // 0x759
+        public 0x6588B238 ÍÌÎÌÌÌÎÌÏÎÎÍÍÎÏÏÌÍÌÌÎÌÏ; // 0x75C
+        public ÎÌÌÏÍÏÏÍÍÌÌÌÎÎÍÌÍÏÌÎÌÍÍ <ÏÏÍÏÎÎÏÏÌÏÏÎÏÍÏÏÎÍÍÏÏÍÏ>k__BackingField; // 0x760
+        public bool ÎÏÌÍÏÏÍÎÌÌÌÏÍÍÌÌÌÍÎÏÍÎÌ; // 0x768
+        public string ÎÌÍÌÏÏÍÎÏÌÍÎÎÍÎÍÏÎÏÍÎÎÍ;
+
         // ── Methods ──
         public void GetMainCamera(){} // RVA: 0xD82BE0
         public void ConvertSliceAndInvokeReceiver(){} // RVA: 0xD82C40
@@ -3363,6 +4120,48 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÌÏÍÍÌÏÌÎÎÎÎÎÍÎÌÌÎÍÌÏ</summary>
     public class VRC_SecondarySiblingRelated_6465
     {
+        public ÌÌÏÌÏÍÍÌÏÌÎÎÎÎÎÍÎÌÌÎÍÌÏ ÌÎÏÎÏÏÎÎÏÍÍÎÍÍÌÍÍÏÏÍÍÎÌ;
+        public System.Collections.Generic.Dictionary`2<0x65710A60,System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.SortedSet`1<...>>> ÎÌÎÏÎÍÏÏÎÏÍÎÏÏÏÌÍÏÌÏÏÌÎ; // 0x20
+        public float ÍÏÍÌÎÍÍÌÎÏÎÌÏÌÌÍÎÌÍÍÌÏÎ;
+        public float ÍÌÍÎÎÏÍÌÍÍÏÌÌÌÎÎÍÍÌÍÍÍÍ; // 0x28
+        public int ÌÎÏÍÍÎÎÎÍÌÍÎÎÎÍÌÎÏÌÍÍÏÌ;
+        public int ÌÏÌÎÏÌÎÌÌÎÍÌÎÎÎÌÏÍÏÏÍÏÍ;
+        public int ÏÍÎÏÏÏÎÌÏÍÍÌÏÎÏÏÎÍÏÍÎÏÏ;
+        public string ÏÍÎÌÌÌÌÎÎÎÏÌÌÌÍÍÍÏÎÍÍÏÌ;
+        public float ÏÌÏÏÏÍÎÏÏÌÎÍÍÏÍÏÌÏÍÍÌÍÎ; // 0x2C
+        public float ÍÍÍÍÏÎÌÏÏÍÍÍÌÌÌÏÍÍÍÍÎÍÍ; // 0x30
+        public bool ÌÎÍÎÎÎÌÌÏÏÏÏÍÎÏÎÎÎÎÍÎÌÏ; // 0x34
+        public bool ÎÎÍÍÌÎÎÏÌÏÎÍÍÍÌÍÎÌÎÍÍÌÌ; // 0x35
+        public bool ÏÌÌÎÍÏÍÌÍÍÏÏÏÍÍÏÏÎÌÌÎÌÌ; // 0x36
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÍÎÌÍÎÍÏÌÍÎÌÌÏÍÏÌÏÎÍÌÏÏÎ; // 0x38
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÎÎÌÏÌÏÌÍÏÏÌÌÍÏÎÍÌÏÌÌÍÌÏ; // 0x40
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÌÎÏÌÏÌÎÍÍÌÎÎÏÏÍÍÎÍÌÏÏÍÏ; // 0x48
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÌÏÏÎÍÍÏÎÏÍÎÌÌÍÏÏÎÎÏÎÎÏÌ; // 0x50
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÍÍÎÏÍÏÍÏÌÎÎÍÌÏÍÏÎÌÍÏÌÍÍ; // 0x58
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÌÌÍÏÏÍÍÌÏÏÏÏÎÍÌÌÏÌÍÍÏÌÌ; // 0x60
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÎÎÌÏÌÌÍÌÌÍÎÍÏÍÏÌÌÏÎÏÌÏÌ; // 0x68
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÌÌÍÎÍÍÌÎÌÍÍÌÏÍÏÎÍÌÍÏÍÍÏ; // 0x70
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÏÌÎÌÌÎÎÏÍÎÍÎÌÌÌÏÍÌÌÏÎÍÍ; // 0x78
+        public System.Collections.Generic.List`1<ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ> ÍÌÌÌÍÎÎÎÎÌÏÏÎÍÏÌÍÍÍÍÎÍÍ; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÏÌÏÍÎÍÌÍÏÏÌÌÏÎÌÎÏÌÍÎÍÎ; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÌÏÎÍÏÎÏÍÎÎÎÏÌÌÎÎÎÎÍÌÏÌÏ; // 0x90
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÍÏÌÌÏÍÎÏÌÏÏÏÏÌÏÏÎÏÍÌÍÎ; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÏÌÌÍÍÏÏÌÏÎÎÎÏÏÏÎÍÍÏÍÌÏÌ; // 0xA0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÏÎÎÎÏÏÏÏÌÌÎÌÎÍÎÌÌÌÎÎÌÌÌ; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÍÏÏÎÏÍÏÍÏÍÍÎÎÎÎÍÌÎÎÌÎÍ; // 0xB0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÌÎÍÍÏÏÍÎÎÏÎÍÍÍÎÌÏÎÎÎÌÎÍ; // 0xB8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÎÎÎÏÍÌÍÌÌÎÌÎÎÌÌÏÍÌÍÎÍÎÏ; // 0xC0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÍÎÎÌÌÎÎÍÍÏÏÍÏÎÍÎÍÏÎÌÎÍ; // 0xC8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÌÏÏÎÌÍÍÏÌÎÏÏÍÏÏÎÏÍÎÏÌÍ; // 0xD0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÏÎÍÎÍÍÍÎÎÍÍÏÏÏÍÌÌÎÎÌÎÏÏ; // 0xD8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÍÏÍÎÍÎÎÎÌÎÏÎÎÏÌÎÏÌÏÍÍÍÏ; // 0xE0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÎÌÍÎÌÌÏÏÏÏÎÎÏÍÏÏÌÍÎÎÏÏÏ; // 0xE8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> ÏÍÏÏÌÏÏÎÍÌÌÍÎÏÍÏÏÍÍÏÌÎÏ; // 0xF0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÌÌÎÎÎÌÌÍÏÌÏÌÏÌÎÏÍÏÍÍÏÌ; // 0xF8
+        public string ÎÍÌÌÎÌÏÍÏÎÏÎÎÍÍÍÏÎÌÏÏÎÌ; // 0x100
+        public string ÍÍÎÎÌÎÎÌÌÍÏÍÏÍÍÎÎÌÎÏÍÏÌ; // 0x108
+        public bool ÍÏÍÎÍÎÏÏÌÏÏÏÍÍÌÌÎÍÌÍÌÏÎ; // 0x110
+
         // ── Methods ──
         public void get_SameFunc(){} // RVA: 0x31C010
         public void Update(){} // RVA: 0x13C3E70
@@ -3496,6 +4295,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÌÌÏÌÍÎÍÎÌÎÌÏÏÏÏÏÏÌÌÏ</summary>
     public class VRC_SecondarySiblingSiblingSibling_3655
     {
+        public UnityEngine.Transform ÍÌÏÍÏÌÍÌÌÍÌÏÌÌÌÏÎÏÍÎÏÏÎ; // 0x38
+        public UnityEngine.Transform ÌÎÎÏÏÏÏÎÎÏÎÌÎÍÏÎÎÍÏÏÍÏÏ; // 0x40
+
         // ── Methods ──
         public void DelegateConstructor(){} // RVA: 0x15B9A90
         public void .ctor(){} // RVA: 0x15BC500
@@ -3524,6 +4326,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÌÎÌÎÍÎÏÎÏÌÏÌÏÍÌÎÍÎÌÌ</summary>
     public class VRC_SecondarySiblingSibling_161D
     {
+        public string ÌÏÌÍÎÎÎÌÏÏÎÏÌÍÎÎÎÎÏÏÍÎÎ;
+        public VRCHandData ÍÍÌÏÍÍÌÌÌÌÏÎÎÌÏÏÌÍÏÏÏÍÌ;
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x2DD320
         public void CopyTo(){} // RVA: 0x2DD320
@@ -3595,6 +4400,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÌÌÎÏÌÏÎÎÏÏÍÍÎÏÌÎÏÎÌÎ</summary>
     public class VRC_SecondarySiblingSibling_4237
     {
+        public Mediapipe.Unity.Sample.AppSettings _appSettings; // 0x20
+        public 0x65723F68 <ÌÌÎÍÏÎÌÍÏÎÌÎÍÍÎÌÏÏÎÌÏÎÍ>k__BackingField; // 0x28
+        public bool <ÍÎÏÍÏÌÍÏÏÍÎÎÍÎÏÎÌÎÎÍÌÎÎ>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void GetIsPlaying(){} // RVA: 0x197CA10
         public void set_isRigid(){} // RVA: 0x3BC240
@@ -3621,6 +4430,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÌÍÏÏÌÌÏÍÎÏÍÌÎÏÌÌÍÏÍÎ</summary>
     public class VRC_SecondarySiblingSibling_66EF
     {
+        public string ÏÌÌÍÎÌÎÏÌÏÍÏÎÌÏÌÍÌÌÎÎÏÍ; // 0x38
+        public UnityEngine.GameObject ÏÎÎÍÍÍÎÎÏÌÌÎÌÌÏÏÍÏÏÍÎÎÏ; // 0x40
+        public UnityEngine.Transform ÎÎÍÌÌÎÍÍÎÍÏÎÎÎÌÎÌÍÎÍÍÌÎ; // 0x48
+        public UnityEngine.Transform ÍÍÌÎÍÏÌÎÏÏÍÏÍÍÎÎÏÏÎÏÍÌÎ; // 0x50
+        public UnityEngine.Transform ÎÍÍÌÌÎÏÎÎÍÎÍÎÌÎÎÏÍÍÍÎÎÏ; // 0x58
+        public UnityEngine.Transform ÍÌÎÍÎÍÎÏÍÌÎÎÌÍÍÍÎÍÍÎÏÎÌ; // 0x60
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void CopyTo(){} // RVA: 0x1576570
@@ -3665,6 +4481,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÌÌÏÌÌÏÎÎÍÏÍÍÍÌÏÍÏÎÎÌ</summary>
     public class VRC_SecondarySiblingSibling_966F
     {
+        public UnityEngine.Camera ÍÍÌÍÎÍÍÎÍÎÎÍÎÎÌÍÍÎÍÍÏÌÌ; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÏÌÎÎÌÌÌÎÌÍÍÎÌÎÎÎÍÎÏÏÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÍÍÎÏÎÏÏÌÎÎÎÏÍÏÏÏÏÎÍÍ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÌÎÎÌÍÍÌÎÎÎÌÎÏÏÏÎÌÏÌÏÏ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0xB304F0
         public void get_Current(){} // RVA: 0xB30550
@@ -3712,6 +4533,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÎÎÎÏÌÌÏÌÍÎÎÎÎÎÌÌÌÎÌ</summary>
     public class VRC_SecondarySiblingSibling_BC46
     {
+        public UnityEngine.Transform ÎÎÍÌÌÎÍÍÎÍÏÎÎÎÌÎÌÍÎÍÍÌÎ; // 0x38
+        public UnityEngine.Transform _cameraTransform; // 0x40
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x2DD310
         public void CopyTo(){} // RVA: 0x15C42A0
@@ -3749,6 +4573,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÌÎÏÎÎÎÏÎÏÎÌÎÏÌÍÎÏÎÍÏ</summary>
     public class VRC_SecondarySibling_2289
     {
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ[] ÍÎÏÍÎÏÏÌÌÌÎÏÍÏÏÍÍÍÌÏÏÎÎ; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ> ÏÌÎÏÌÌÌÏÏÏÍÏÎÎÍÎÎÏÍÏÎÏÎ;
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<0x657140B0,ÍÏÏÍÍÏÌÏÍÍÌÎÏÎÍÎÌÏÎÍÌÎÌ>> ÏÌÌÍÍÌÏÍÌÌÎÍÌÎÍÏÍÎÏÎÏÎÎ; // 0x8
+        public bool ÎÎÍÌÎÎÏÎÎÏÍÏÌÏÌÌÎÍÏÍÌÏÍ; // 0x10
+        public ÌÍÏÍÍÍÏÍÍÎÏÏÏÌÌÍÎÍÌÌÎÏÌ ÍÎÎÎÎÎÎÌÌÍÏÏÏÌÍÎÌÎÌÏÍÏÎ; // 0x18
+        public System.Action ÏÌÏÎÏÌÌÏÍÌÌÎÎÌÏÌÌÎÍÍÌÏÍ; // 0x20
+
         // ── Methods ──
         public void GetFormat(){} // RVA: 0x149E810
         public void GetFormat_69814996CE02(){} // RVA: 0x149E900
@@ -3782,6 +4613,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ</summary>
     public class VRC_SecondarySibling_4627
     {
+        public ÌÎÏÍÌÏÎÍÏÎÍÌÏÎÏÌÎÌÍÍÏÏÌ ÌÎÎÏÍÍÌÌÎÏÏÍÌÍÍÎÍÍÏÌÌÏÎ; // 0x38
+        public UnityEngine.Transform ÍÌÎÍÎÍÎÏÍÌÎÎÌÍÍÍÎÍÍÎÏÎÌ; // 0x40
+        public UnityEngine.Transform ÍÎÎÌÍÎÎÍÏÌÏÎÏÎÎÏÏÌÎÎÎÏÏ; // 0x48
+        public UnityEngine.Transform ÎÏÏÎÌÏÏÍÏÌÌÏÌÌÌÌÎÌÏÏÎÏÏ; // 0x50
+        public UnityEngine.Transform ÍÍÎÎÍÍÍÎÌÏÍÎÌÏÌÌÎÏÎÏÏÌÎ; // 0x58
+        public UnityEngine.Transform ÏÌÎÍÍÏÎÏÎÌÌÌÎÍÌÍÏÌÏÍÏÌÏ; // 0x60
+        public UnityEngine.Transform ÌÍÎÎÌÏÌÏÍÎÏÏÏÎÎÏÍÏÍÎÌÍÏ; // 0x68
+        public UnityEngine.Transform ÎÌÌÍÍÌÍÎÎÌÍÌÏÍÌÌÌÍÎÍÌÏÏ; // 0x70
+        public UnityEngine.Transform ÍÏÎÎÌÏÎÎÍÍÎÏÏÏÍÌÍÌÎÍÌÍÍ; // 0x78
+
         // ── Methods ──
         public void OnDrawGizmos(){} // RVA: 0x1595A60
         public void OnDisable(){} // RVA: 0x1596540
@@ -3821,6 +4662,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÏÌÌÍÌÏÎÏÌÏÎÍÌÏÍÍÌÎÎ</summary>
     public class VRC_SecondarySibling_5372
     {
+        public Mediapipe.Unity.Experimental.TextureFramePool ÌÏÎÎÍÍÍÎÎÌÌÌÎÎÌÌÍÌÏÌÎÌÌ; // 0x60
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x1992330
         public void Awake(){} // RVA: 0x1992420
@@ -3871,6 +4714,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÌÍÎÌÌÌÍÎÌÏÌÍÍÎÎÌÎÍÏÍ</summary>
     public class VRC_SecondarySibling_C96F
     {
+        public UnityEngine.Transform ÍÍÍÌÌÍÏÌÌÎÌÌÎÍÏÍÍÏÍÎÎÍÏ; // 0x38
+
         // ── Methods ──
         public void Update(){} // RVA: 0x1587120
         public void SetLocalPosition(){} // RVA: 0x1588150
@@ -3902,6 +4747,128 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÏÍÌÏÍÏÌÎÌÍÍÍÍÍÍÌÍÌÍÏ</summary>
     public class VRC_Secondary_8E5E
     {
+        public ÍÏÎÏÍÌÏÍÏÌÎÌÍÍÍÍÍÍÌÍÌÍÏ ÌÎÏÎÏÏÎÎÏÍÍÎÍÍÌÍÍÏÏÍÍÎÌ;
+        public System.Action ÎÌÎÎÏÌÏÏÌÍÍÌÏÎÍÍÌÌÍÌÌÎÎ; // 0x8
+        public System.Action`1<float> ÎÌÍÏÎÎÍÎÌÏÌÎÍÏÍÏÏÏÎÍÍÌÎ; // 0x10
+        public string ÎÏÎÎÍÍÎÌÏÍÍÍÍÎÌÏÏÍÏÏÌÍÌ;
+        public bool ÏÎÌÍÎÎÌÏÎÏÌÏÎÎÍÌÏÌÏÌÍÎÌ; // 0x20
+        public UnityEngine.Transform ÌÏÌÎÍÌÎÌÏÎÌÏÌÏÍÎÎÌÍÍÍÍÍ; // 0x28
+        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ ÎÍÍÍÍÏÌÏÏÎÍÍÏÏÌÍÍÏÌÎÍÌÌ; // 0x30
+        public ÏÏÎÍÍÏÍÌÌÏÌÍÎÌÌÍÏÏÏÎÍÎÏ ÍÍÌÏÌÌÍÏÌÌÌÌÎÌÍÎÎÍÏÏÌÏÎ; // 0x38
+        public ÌÎÌÍÎÎÎÍÍÏÏÎÏÍÏÏÌÍÏÍÏÎÌ ÎÏÏÎÏÍÌÍÌÌÏÍÍÏÍÎÏÎÌÎÍÏÎ; // 0x40
+        public ÌÏÍÏÌÏÏÍÎÎÌÏÎÏÎÏÌÌÏÏÎÏÏ ÎÍÏÎÌÌÍÍÏÎÍÏÎÍÌÏÎÏÍÏÎÍÏ; // 0x48
+        public bool ÎÎÍÏÍÏÌÏÌÏÍÌÎÏÌÎÏÍÏÏÍÎÌ; // 0x50
+        public UnityEngine.Sprite ÌÍÍÏÌÍÏÌÌÎÍÎÏÎÍÏÌÍÎÎÎÎÎ; // 0x58
+        public string ÎÍÏÏÎÌÌÎÍÏÍÍÌÏÏÎÍÌÍÎÍÏÍ; // 0x60
+        public string ÌÏÌÏÎÌÌÍÎÏÏÌÌÍÍÏÏÏÏÍÍÌÏ; // 0x68
+        public string ÎÏÎÌÏÍÎÎÌÏÌÎÎÍÍÎÏÎÍÏÏÍÌ; // 0x70
+        public string ÌÌÌÍÌÌÎÏÎÍÍÏÏÏÏÎÌÎÏÏÍÎÏ; // 0x78
+        public string ÌÏÌÏÏÎÌÍÏÎÎÍÍÎÏÌÎÎÍÏÏÌÏ; // 0x80
+        public string ÌÎÌÌÍÌÌÎÎÍÎÍÍÎÏÍÌÍÎÏÍÏÍ; // 0x88
+        public string ÎÌÍÌÍÎÎÌÌÎÎÍÏÍÍÌÏÎÌÌÏÌÏ; // 0x90
+        public string ÌÍÎÏÏÍÍÌÎÎÎÎÎÎÏÌÍÏÏÌÏÍÎ; // 0x98
+        public string ÌÎÌÏÍÌÌÎÎÏÍÌÌÎÌÎÌÌÌÎÎÎÏ; // 0xA0
+        public string ÎÎÏÎÎÎÍÌÌÎÌÍÍÏÍÌÏÏÍÎÌÏÏ; // 0xA8
+        public string ÏÌÌÍÌÌÍÎÎÌÍÍÎÏÎÎÏÎÎÍÍÎÌ; // 0xB0
+        public string ÌÏÎÌÌÍÌÌÍÌÍÏÌÌÍÏÍÎÎÍÍÌÎ;
+        public string ÍÍÎÏÎÍÌÎÎÍÍÏÌÏÍÍÎÎÍÏÍÎÍ;
+        public ÎÌÍÎÌÌÌÎÎÏÍÌÏÍÍÍÎÍÏÎÎÎÎ ÏÎÍÍÎÍÎÎÌÎÌÏÍÏÎÏÏÎÌÍÎÏÍ; // 0xB8
+        public ÏÏÍÍÌÌÍÌÏÍÍÎÍÎÏÏÏÌÏÎÌÌÌ _bodyEstimation; // 0xC0
+        public UnityEngine.GameObject ÏÎÏÌÎÏÎÍÌÏÏÏÎÎÍÎÌÌÏÎÏÍÏ; // 0xC8
+        public UnityEngine.GameObject ÎÍÏÌÎÍÍÏÎÌÍÎÎÍÍÏÍÌÏÍÎÎÌ; // 0xD0
+        public UnityEngine.GameObject ÎÏÍÍÍÌÍÍÎÎÌÍÌÌÍÌÏÍÏÎÍÍÍ; // 0xD8
+        public UnityEngine.Transform _inverseScaleRoot; // 0xE0
+        public VRC.IMDraw ÌÏÌÌÍÎÍÎÍÍÎÍÎÎÎÎÏÌÍÏÎÎÌ; // 0x18
+        public ÌÍÏÌÏÏÍÌÍÍÍÌÌÎÎÌÍÍÏÏÏÌÌ ÎÎÌÎÌÌÌÍÌÎÌÌÌÎÎÏÌÏÎÏÎÍÎ; // 0x20
+        public ÌÍÏÌÏÏÍÌÍÍÍÌÌÎÎÌÍÍÏÏÏÌÌ ÍÎÏÎÌÍÎÎÏÍÍÌÎÍÎÎÏÏÏÍÍÌÏ; // 0x28
+        public ÌÍÏÌÏÏÍÌÍÍÍÌÌÎÎÌÍÍÏÏÏÌÌ ÎÏÎÍÏÎÍÏÌÏÍÍÌÎÍÌÎÌÍÌÌÎÏ; // 0x30
+        public System.Collections.Generic.Dictionary`2<string,ÌÍÏÌÏÏÍÌÍÍÍÌÌÎÎÌÍÍÏÏÏÌÌ> ÎÍÎÏÎÏÎÌÌÎÎÌÌÍÎÍÏÍÏÌÌÏÍ; // 0x38
+        public UnityEngine.Transform ÌÌÌÏÍÍÍÍÎÏÏÌÍÏÎÏÍÌÎÎÏÎÍ; // 0x40
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÍÎÌÌÍÏÌÍÏÍÌÍÏÍÎÏÏÌÎÍÍÍÌ; // 0x48
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÏÎÏÎÍÏÎÍÌÍÌÎÌÏÎÍÍÍÌÏÏÌÍ; // 0x50
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÍÎÏÎÎÎÍÎÎÎÏÏÌÌÍÏÏÍÏÍÌÌÎ; // 0x58
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÌÎÌÏÎÏÌÌÍÍÏÍÍÏÍÏÏÏÎÍÏÏÌ; // 0x60
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÏÍÍÏÍÎÍÏÏÏÏÌÍÏÌÏÍÌÎÎÍÍÏ; // 0x68
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÏÌÌÌÍÍÎÍÏÍÌÎÌÍÍÌÍÎÌÏÏÏÍ; // 0x70
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÏÌÌÍÌÏÌÏÎÌÌÎÎÍÎÍÍÌÌÎÏÍÍ; // 0x78
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ ÍÍÎÏÏÌÍÎÏÎÏÌÏÏÌÌÍÌÌÍÌÍÏ; // 0x80
+        public System.Collections.Generic.List`1<string> ÍÏÏÎÌÌÎÎÍÍÌÍÍÎÍÎÍÌÏÎÏÏÍ; // 0x88
+        public float[] ÍÎÏÌÎÎÍÏÍÎÏÎÍÍÎÎÏÍÏÎÏÎÏ; // 0x90
+        public ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ[] ÍÎÍÌÌÍÎÌÌÌÎÌÌÏÎÌÌÎÌÎÍÌÎ; // 0x98
+        public bool[] ÍÍÎÏÎÏÍÏÍÍÏÍÌÎÌÎÌÏÌÍÎÏÏ; // 0xA0
+        public bool ÏÎÍÍÌÌÎÌÏÌÏÌÏÍÏÎÌÎÍÎÎÍÌ; // 0xA8
+        public bool ÎÌÎÍÎÏÌÎÎÎÌÍÍÎÍÍÌÌÌÎÍÍÏ; // 0xA9
+        public bool ÏÍÎÎÍÌÎÌÎÌÎÍÍÌÎÏÏÌÌÏÍÍÍ; // 0xAA
+        public bool ÌÎÌÏÍÎÌÍÌÏÍÌÍÎÏÌÍÎÍÍÎÍÌ; // 0xAB
+        public bool ÎÏÌÏÏÌÌÌÎÏÎÍÏÎÍÏÍÍÎÏÏÌÌ; // 0xAC
+        public bool ÌÎÌÍÌÏÌÎÌÍÍÎÍÏÌÍÌÏÎÍÏÎÌ; // 0xE8
+        public bool ÎÏÏÍÏÎÏÌÍÌÍÌÏÌÌÎÎÏÎÏÌÌÌ; // 0xE9
+        public System.Collections.Generic.List`1<ÍÎÌÌÎÌÎÍÎÏÎÏÌÏÌÏÍÌÎÍÎÌÌ> ÎÎÏÏÍÍÍÎÏÎÌÏÌÎÌÎÎÌÍÎÎÍÎ; // 0xF0
+        public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> ÎÍÎÎÎÌÏÎÍÌÎÎÌÎÍÍÍÏÎÏÍÎÎ; // 0xB0
+        public float <ÎÍÏÌÎÌÏÎÎÌÏÎÌÌÏÏÌÌÌÎÎÎÏ>k__BackingField; // 0xB8
+        public float <ÌÏÌÍÌÍÍÎÎÍÌÏÏÌÍÎÏÍÎÏÎÏÏ>k__BackingField; // 0xBC
+        public float ÌÌÏÌÏÏÌÎÎÏÎÏÎÌÌÍÎÌÍÌÌÌÎ; // 0xC0
+        public float ÏÌÌÍÎÎÍÍÏÌÍÏÌÏÍÏÌÍÍÎÍÏÍ; // 0xC4
+        public UnityEngine.Vector3 ÎÎÏÌÌÏÏÎÌÎÏÌÎÍÏÎÎÍÍÎÌÍÎ; // 0xC8
+        public UnityEngine.Vector3 ÍÌÏÏÎÌÎÏÍÏÍÌÎÌÌÍÎÌÏÎÍÌÍ; // 0xD4
+        public UnityEngine.Vector3 ÍÏÎÍÎÍÎÌÎÌÏÌÎÏÎÍÎÎÏÍÍÌÍ; // 0xE0
+        public bool ÌÍÎÍÍÏÎÍÏÌÍÎÎÍÍÍÍÏÍÏÍÍÌ; // 0xEC
+        public int ÍÌÌÍÍÏÌÍÏÎÍÌÏÌÍÍÎÏÏÎÏÎÎ; // 0xF0
+        public float ÌÏÌÎÌÌÏÌÎÍÏÍÍÎÌÍÌÍÍÍÎÌÏ;
+        public float ÎÎÏÍÍÎÏÍÏÌÏÌÍÌÍÎÍÍÍÎÎÎÏ;
+        public float ÎÍÌÏÎÎÌÏÎÎÍÎÌÏÌÏÏÌÌÍÌÏÍ;
+        public float ÏÍÌÏÎÌÍÎÎÍÎÌÍÌÍÍÎÏÏÍÌÎÎ;
+        public float ÏÏÏÏÎÏÎÏÌÍÌÏÎÎÌÏÍÍÌÌÌÎÍ;
+        public float ÍÎÍÌÎÎÌÌÌÍÏÎÍÍÌÍÏÏÏÍÌÏÍ;
+        public float ÍÎÎÍÌÎÍÏÏÌÏÎÌÏÎÌÎÍÍÌÌÎÍ;
+        public float ÎÌÍÏÎÏÏÍÌÍÎÌÏÎÏÏÌÎÏÎÎÏÌ;
+        public float ÏÎÎÏÍÎÎÏÎÍÎÎÏÎÎÍÌÍÍÎÌÌÍ;
+        public float ÌÎÎÎÍÏÌÌÎÍÍÏÏÏÏÍÍÍÌÏÎÍÏ;
+        public float ÎÌÏÎÎÌÏÍÍÎÌÎÎÍÍÎÍÎÍÌÍÏÍ;
+        public float ÍÍÎÏÎÎÌÍÍÍÎÌÎÎÍÌÏÍÍÎÌÌÍ;
+        public string ÍÌÌÍÌÍÍÏÎÏÍÍÍÎÏÍÎÌÎÌÏÎÏ;
+        public bool ÌÎÍÍÌÎÎÎÍÍÏÍÍÌÌÎÌÌÌÍÏÍÌ; // 0xF8
+        public bool ÌÌÏÍÏÍÏÍÏÍÌÌÍÏÍÍÏÌÌÌÏÏÍ; // 0xF9
+        public bool ÎÍÍÌÏÏÌÌÍÏÏÏÍÌÌÏÌÌÍÍÌÏÌ; // 0xFA
+        public UnityEngine.Vector3 ÌÏÍÎÏÎÍÎÌÎÎÌÍÎÌÏÍÌÏÍÌÎÌ; // 0xFC
+        public UnityEngine.Quaternion ÎÌÏÍÎÍÎÍÍÍÍÍÏÎÏÎÎÏÌÌÎÏÎ; // 0x108
+        public float ÍÌÍÍÎÌÍÌÏÎÌÏÍÎÌÍÍÍÏÍÏÍÎ; // 0x118
+        public UnityEngine.Vector3 ÍÍÏÌÍÍÍÎÌÎÎÌÏÎÍÌÏÏÌÍÏÎÎ; // 0x11C
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÏÌÌÏÍÌÍÏÎÎÏÎÌÍÌÍÍÏÎÍÏÌÌ; // 0x128
+        public ÌÏÍÎÎÎÍÍÎÌÏÍÍÏÌÌÎÎÏÌÌÏÍ ÍÎÏÎÎÏÏÍÌÍÍÌÎÎÌÏÌÏÏÎÏÌÌ; // 0x130
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÍÍÏÍÎÌÌÎÏÎÌÌÍÍÎÎÍÏÎÌÎÍ; // 0x138
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÏÏÍÎÌÌÌÏÏÏÌÌÏÍÏÏÎÎÏÏÍÎ; // 0x140
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÍÏÌÏÎÌÍÍÌÌÌÏÎÌÍÏÍÎÏÏÌÏÍ; // 0x148
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÌÏÎÌÌÎÏÌÎÌÎÍÎÏÍÌÎÎÍÌÏÍ; // 0x150
+        public bool ÌÌÏÏÌÌÏÎÍÌÎÍÎÎÌÍÏÌÏÍÌÎÌ; // 0x158
+        public bool ÎÏÏÎÌÏÍÌÍÏÍÏÎÏÌÎÎÏÌÎÏÏÏ; // 0x159
+        public 0x65714FD0 ÏÌÎÏÌÎÎÎÎÍÌÍÌÍÍÏÏÎÌÎÌÏÎ; // 0x15C
+        public 0x65714FD0 ÏÎÌÎÍÏÍÌÏÏÏÏÍÏÍÌÍÍÍÎÏÍÎ; // 0x160
+        public 0x65714FD0 ÌÍÍÏÍÍÌÏÏÏÏÍÌÌÎÏÎÌÎÌÌÏÏ; // 0x164
+        public 0x65714FD0 ÌÌÏÏÌÌÍÍÌÍÏÏÍÍÍÍÎÍÌÌÏÌÍ; // 0x168
+        public UnityEngine.Vector3 ÍÌÏÏÌÏÎÍÏÏÌÏÏÎÍÎÌÌÌÍÎÏÍ; // 0x16C
+        public UnityEngine.Quaternion ÏÏÍÏÌÍÎÌÎÍÎÎÏÌÎÌÏÏÎÎÍÏÏ; // 0x178
+        public float ÎÏÏÌÍÎÍÏÎÌÏÏÌÌÏÏÎÎÎÏÏÍÍ; // 0x188
+        public float ÏÌÎÍÍÏÏÍÎÎÏÎÏÌÎÎÍÏÏÎÍÎÌ; // 0x18C
+        public float ÌÍÌÎÏÌÎÎÍÍÌÎÏÏÎÍÏÌÏÍÎÍÏ; // 0x190
+        public float ÎÍÎÏÌÍÏÍÍÎÏÍÎÌÎÌÎÍÍÍÍÏÌ;
+        public float ÏÌÍÎÍÎÏÏÏÎÍÌÏÌÏÏÏÎÏÎÎÎÌ;
+        public bool ÍÍÎÍÍÎÍÎÍÌÍÎÏÌÍÏÎÏÍÍÏÎÏ; // 0x194
+        public float ÌÌÎÌÎÏÎÌÏÎÎÏÌÏÏÎÏÌÎÏÍÎÎ;
+        public float ÎÍÎÎÍÍÏÏÍÎÌÏÍÌÎÎÌÏÎÌÌÎÌ;
+        public string ÌÍÍÌÎÏÏÍÏÌÎÎÎÎÏÍÍÏÍÏÏÏÏ;
+        public string ÌÌÌÏÍÌÎÏÍÌÌÎÏÌÌÍÍÌÍÌÎÎÌ;
+        public string ÌÌÎÍÏÎÌÌÌÍÌÍÎÌÏÌÎÎÎÍÌÏÍ;
+        public int ÏÍÍÌÎÎÎÌÎÏÎÌÍÍÍÌÎÌÏÎÏÍÍ; // 0x198
+        public string ÏÎÎÌÏÏÍÎÏÏÎÎÏÎÍÏÎÌÎÌÏÌÌ;
+        public string ÍÌÏÏÌÌÍÌÍÌÎÎÏÌÌÏÏÌÏÎÏÎÏ;
+        public string ÏÏÌÏÏÎÍÏÏÍÏÌÎÎÏÌÎÏÍÌÌÎÌ;
+        public string ÌÍÎÏÌÎÍÌÎÌÏÎÎÎÌÏÎÎÍÌÏÏÍ;
+        public string ÏÎÏÌÌÎÏÌÏÌÍÍÏÌÎÌÌÌÎÌÌÎÍ;
+        public string ÏÎÏÏÍÍÌÎÎÌÍÏÎÎÎÏÏÎÌÌÍÎÎ;
+        public string ÏÏÏÏÎÍÏÎÌÏÏÎÏÌÍÌÏÍÏÌÌÍÍ;
+        public string ÏÍÎÍÍÏÌÍÎÌÌÏÏÎÏÏÎÏÍÌÎÏÏ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x152A100
         public void RaiseCancellation(){} // RVA: 0xD91360
@@ -4456,7 +5423,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÌÏÌÍÍÌÌÌÍÍÌÎÏÍÌÍÏÌÍÎ</summary>
     public class Value_4663
     {
-        public object Value;
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ Value; // 0x20
+        public bool ÎÍÌÌÏÏÍÏÍÌÍÍÍÎÌÏÌÍÎÍÏÎÎ; // 0x28
+        public bool ÍÍÍÏÎÍÌÏÍÎÌÏÏÌÏÎÍÏÌÌÍÏÍ; // 0x29
+        public TMPro.TextMeshPro leftCursorText; // 0x30
 
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0xA4A430
@@ -4521,7 +5491,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÍÎÍÌÏÏÎÍÍÏÍÌÏÏÏÏÎÎÍÏ</summary>
     public class version_8B65
     {
-        public object version;
+        public ÌÌÏÏÌÌÏÏÏÍÎÍÌÍÌÎÏÎÏÍÎÌÏ version; // 0x20
 
         // ── Methods ──
         public void set_CloseOutput(){} // RVA: 0x4A78C0

@@ -7,6 +7,13 @@ namespace VRC.Core.Networking.Codec.StateManagement
 {
     public class AbstractObjectStateManager
     {
+        public int <MaximumViewID>k__BackingField; // 0x10
+        public int <MinimumViewID>k__BackingField; // 0x14
+        public SendEventToAllPlayersDelegate _sendEventToAllPlayers; // 0x18
+        public SendEventToPlayerDelegate _sendEventToPlayer; // 0x20
+        public SetOwnerDelegate _setOwner; // 0x28
+        public ListPlayersDelegate _listPlayers; // 0x30
+
         // ── Methods ──
         public void SerializationHeaderLength(){} // RVA: 0x764A510
         public void get_SerializationHeaderLengthSingleBunch(){} // RVA: 0x7354F30
@@ -39,6 +46,10 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class PersistenceObjectStateManager
     {
+        public OnDecodeError _onDecodeError; // 0x58
+        public GetBucketLimitsDelegate _getBucketLimits; // 0x60
+        public InstanceStorageIdDelegate _instanceStorageId; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x764AC30
         public void InstanceStorageId(){} // RVA: 0x764B690
@@ -92,6 +103,8 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class SimpleObjectStateManager
     {
+        public System.Collections.Generic.Dictionary`2<int,BunchesInformation> latestBunches; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7656050
         public void get_ObjectStateSizeBytes(){} // RVA: 0x7656160

@@ -59,6 +59,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÌÎÍÌÍÌÍÎÎÎÏÏÌÎÏÍÍÎÌÍÌ</summary>
     public class Static10m_9C4C
     {
+        public System.Collections.Generic.Dictionary`2<int,0x65885B98> ÌÌÎÍÏÍÌÎÍÍÍÍÍÌÍÌÏÍÎÌÌÌÏ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7658CC0
         public void .ctor(){} // RVA: 0x2DD310
@@ -160,6 +162,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÌÏÏÎÌÎÏÍÍÎÌÏÎÌÏÏÏÌÎÍÍ</summary>
     public class Static11m_466F
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void FriendsGetFriendIndex(){} // RVA: 0x1FFE530
         public void set_mode(){} // RVA: 0x833580
@@ -269,6 +274,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÍÏÎÌÍÎÎÎÌÎÏÎÌÍÏÏÌÌÏÎÎ</summary>
     public class Static12m_AD1C
     {
+        public int ÎÍÍÌÎÎÏÍÍÎÍÍÏÏÏÏÏÏÌÏÌÌÌ;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x8F05070
         public void OnDestroy(){} // RVA: 0x8F05120
@@ -288,6 +295,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÎÌÍÌÏÏÏÏÎÏÏÏÏÏÏÏÎÍÌÌ</summary>
     public class Static13m_1BD4
     {
+        public System.Collections.Generic.List`1<System.Delegate> <ÏÏÌÎÌÎÍÏÏÏÏÍÏÎÎÌÏÎÏÍÏÏÏ>k__BackingField; // 0x10
+        public System.Nullable`1<ulong> <ÎÏÎÌÏÎÍÌÍÎÍÍÌÌÏÌÍÌÌÍÎÍÍ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Value(){} // RVA: 0x2DEE30
         public void set_ParentSpanId(){} // RVA: 0x9949A0
@@ -308,6 +318,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÎÍÌÎÏÌÍÎÍÌÌÍÌÌÍÌÍÍÍÎ</summary>
     public class Static13m_BCD9
     {
+        public string ÌÍÏÌÍÌÎÍÌÏÍÍÎÍÌÌÎÌÎÍÎÏÍ;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x1199240
         public void Start(){} // RVA: 0x924F080
@@ -548,6 +560,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÎÌÎÌÍÌÍÍÏÎÏÍÏÏÌÌÏÏÎÌ</summary>
     public class Static25m_6C03
     {
+        public ÏÍÎÎÌÎÌÍÌÍÍÏÎÏÍÏÏÌÌÏÏÎÌ ÌÎÍÏÌÍÏÌÎÏÍÎÏÌÌÏÎÍÏÌÍÌÎ;
+        public bool <ÎÎÏÏÍÍÍÏÍÎÏÍÍÌÍÎÏÌÌÏÎÌÏ>k__BackingField; // 0x10
+        public int <ÍÎÍÌÌÍÏÎÍÌÌÍÍÏÌÏÏÏÍÌÏÎÎ>k__BackingField; // 0x14
+        public float <ÍÍÎÌÌÎÎÏÏÌÏÎÍÎÍÍÍÌÎÌÏÎÏ>k__BackingField; // 0x18
+        public System.Threading.Tasks.TaskFactory <ÎÎÏÌÎÎÍÌÏÏÏÍÍÎÎÏÌÏÎÍÍÌÍ>k__BackingField; // 0x20
+        public System.Threading.CancellationToken <ÌÎÎÍÍÍÎÎÏÌÎÌÍÎÍÍÏÏÎÍÌÍÏ>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x1AB29E0
         public void get_Data(){} // RVA: 0x30B130
@@ -622,6 +641,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÎÌÎÍÎÎÏÎÎÎÏÎÍÍÎÏÍÍÌÏ</summary>
     public class Static2m_ABB8
     {
+        public ÍÏÏÍÎÎÏÍÌÏÏÎÏÏÏÏÏÍÍÏÌÌÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F8F480
         public void m_FA2(){} // RVA: 0x1F8F650
@@ -667,6 +688,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÌÍÍÍÎÍÏÎÏÌÎÏÎÍÍÌÏÌÎÍ</summary>
     public class Static3m_3A84
     {
+        public string ÍÍÎÎÍÍÌÎÌÍÌÎÏÏÍÍÍÏÎÎÏÎÎ; // 0x18
+
         // ── Methods ──
         public void CheckRenderTexture(){} // RVA: 0x1D94C80
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
@@ -906,6 +929,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÌÌÏÌÏÎÍÍÎÍÍÏÏÎÌÎÎÎÌÍÏ</summary>
     public class Static7m_BA0B
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> ÏÎÍÎÌÏÎÏÍÏÎÌÎÏÏÍÎÍÎÏÏÎÌ; // 0x10
+
         // ── Unresolved (hash) ──
         public void m_1C3(){} // RVA: 0x8F3FE20
         public void m_94E(){} // RVA: 0x8F3FEC0

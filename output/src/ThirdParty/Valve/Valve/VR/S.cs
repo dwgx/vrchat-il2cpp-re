@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Valve.Valve.VR
 // Classes: 100
-// Methods: 1820
+// Methods: 1907
 
 namespace ThirdParty.Valve.Valve.VR
 {
@@ -11,6 +11,30 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR
     {
+        public System.Nullable`1<bool> isSupported;
+        public bool _enabled; // 0x2
+        public Valve.VR.SteamVR _instance; // 0x8
+        public 0x65926310 initializedState; // 0x10
+        public Valve.VR.SteamVR_Settings <settings>k__BackingField; // 0x18
+        public Valve.VR.CVRSystem <hmd>k__BackingField; // 0x10
+        public Valve.VR.CVRCompositor <compositor>k__BackingField; // 0x18
+        public Valve.VR.CVROverlay <overlay>k__BackingField; // 0x20
+        public bool <initializing>k__BackingField; // 0x20
+        public bool <calibrating>k__BackingField; // 0x21
+        public bool <outOfRange>k__BackingField; // 0x22
+        public bool[] connected; // 0x28
+        public float <sceneWidth>k__BackingField; // 0x28
+        public float <sceneHeight>k__BackingField; // 0x2C
+        public float <aspect>k__BackingField; // 0x30
+        public float <fieldOfView>k__BackingField; // 0x34
+        public UnityEngine.Vector2 <tanHalfFov>k__BackingField; // 0x38
+        public Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField; // 0x40
+        public RigidTransform[] <eyes>k__BackingField; // 0x48
+        public 0x6595C188 textureType; // 0x50
+        public bool runningTemporarySession; // 0x30
+        public string defaultUnityAppKeyTemplate;
+        public string defaultAppKeyTemplate;
+
         // ── Methods ──
         public void get_active(){} // RVA: 0x64F94D0
         public void get_enabled(){} // RVA: 0x64F9530
@@ -87,6 +111,11 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action
     {
+        public string actionPath; // 0x10
+        public bool needsReinit; // 0x18
+        public bool startUpdatingSourceOnAccess;
+        public string cachedShortName; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Create(){} // RVA: 0x283FA0
@@ -127,6 +156,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActionSet
     {
+        public string actionSetPath; // 0x10
+        public Valve.VR.SteamVR_ActionSet_Data setData; // 0x18
+        public bool initialized; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_allActions(){} // RVA: 0x64A4A90
@@ -165,6 +198,16 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActionSet_Data
     {
+        public Valve.VR.SteamVR_Action[] <allActions>k__BackingField; // 0x10
+        public Valve.VR.ISteamVR_Action_In[] <nonVisualInActions>k__BackingField; // 0x18
+        public Valve.VR.ISteamVR_Action_In[] <visualActions>k__BackingField; // 0x20
+        public Valve.VR.SteamVR_Action_Pose[] <poseActions>k__BackingField; // 0x28
+        public Valve.VR.SteamVR_Action_Skeleton[] <skeletonActions>k__BackingField; // 0x30
+        public Valve.VR.ISteamVR_Action_Out[] <outActionArray>k__BackingField; // 0x38
+        public string <fullPath>k__BackingField; // 0x40
+        public string <usage>k__BackingField; // 0x48
+        public ulong <handle>k__BackingField; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x64A58F0
         public void get_allActions(){} // RVA: 0x2F8380
@@ -200,7 +243,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActionSet_Manager
     {
-        public object UnityHandler;
+        public uint UnityHandler;
 
         // ── Methods ──
         public void get_rawActiveActionSetArray(){} // RVA: 0x64A6B80
@@ -263,6 +306,19 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Boolean_Source
     {
+        public uint actionData_size;
+        public StateDownHandler onStateDown; // 0x158
+        public StateUpHandler onStateUp; // 0x160
+        public StateHandler onState; // 0x168
+        public ActiveChangeHandler onActiveChange; // 0x170
+        public ActiveChangeHandler onActiveBindingChange; // 0x178
+        public ChangeHandler onChange; // 0x180
+        public UpdateHandler onUpdate; // 0x188
+        public bool <lastActive>k__BackingField; // 0x190
+        public Valve.VR.InputDigitalActionData_t actionData; // 0x198
+        public Valve.VR.InputDigitalActionData_t lastActionData; // 0x1B0
+        public Valve.VR.SteamVR_Action_Boolean booleanAction; // 0x1C8
+
         // ── Methods ──
         public void add_onStateDown(){} // RVA: 0x64A96D0
         public void remove_onStateDown(){} // RVA: 0x64A97C0
@@ -310,6 +366,14 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_In_Source
     {
+        public uint inputOriginInfo_size;
+        public bool <isUpdating>k__BackingField; // 0x28
+        public float <updateTime>k__BackingField; // 0x2C
+        public float <changedTime>k__BackingField; // 0x30
+        public int <lastOriginGetFrame>k__BackingField; // 0x34
+        public Valve.VR.InputOriginInfo_t inputOriginInfo; // 0x38
+        public Valve.VR.InputOriginInfo_t lastInputOriginInfo; // 0xC8
+
         // ── Methods ──
         public void get_isUpdating(){} // RVA: 0x6E8A80
         public void set_isUpdating(){} // RVA: 0x6E8B80
@@ -345,6 +409,269 @@ namespace ThirdParty.Valve.Valve.VR
         public void ForceAddSourceToUpdateList(){} // RVA: 0x24FA0
         public void UpdateValues(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In_Source_Map`1
+    {
+        // ── Methods ──
+        public void IsUpdating(){} // RVA: 0x408D4B0
+        public void OnAccessSource(){} // RVA: 0x408D560
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408D5F0
+        public void UpdateValues(){} // RVA: 0x408D7A0
+        public void .ctor(){} // RVA: 0x408D880
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0xDBE0
+        public void get_lastChanged(){} // RVA: 0xDBE0
+        public void get_changedTime(){} // RVA: 0x21890
+        public void get_updateTime(){} // RVA: 0x21890
+        public void get_activeOrigin(){} // RVA: 0xCD60
+        public void get_lastActiveOrigin(){} // RVA: 0xCD60
+        public void get_activeDevice(){} // RVA: 0xD840
+        public void get_trackedDeviceIndex(){} // RVA: 0xD840
+        public void get_renderModelComponentName(){} // RVA: 0xCD60
+        public void get_localizedOriginName(){} // RVA: 0xCD60
+        public void UpdateValues(){} // RVA: 0x24A50
+        public void GetRenderModelComponentName(){} // RVA: 0x1BCC0
+        public void GetActiveDevice(){} // RVA: 0x13FB0
+        public void GetDeviceIndex(){} // RVA: 0x13FB0
+        public void GetChanged(){} // RVA: 0xE1F0
+        public void GetTimeLastChanged(){} // RVA: 0x21C40
+        public void GetLocalizedOriginPart(){} // RVA: 0x1CEE0
+        public void GetLocalizedOrigin(){} // RVA: 0x1BCC0
+        public void IsUpdating(){} // RVA: 0xE1F0
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x24FA0
+        public void GetControllerType(){} // RVA: 0x1BCC0
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
+    }
+
+    public class SteamVR_Action_In`2
+    {
+        // ── Methods ──
+        public void get_changed(){} // RVA: 0x408D960
+        public void get_lastChanged(){} // RVA: 0x408D960
+        public void get_changedTime(){} // RVA: 0x408D9B0
+        public void get_updateTime(){} // RVA: 0x408D9F0
+        public void get_activeOrigin(){} // RVA: 0x408DA30
+        public void get_lastActiveOrigin(){} // RVA: 0x408DA80
+        public void get_activeDevice(){} // RVA: 0x408DAD0
+        public void get_trackedDeviceIndex(){} // RVA: 0x408DB60
+        public void get_renderModelComponentName(){} // RVA: 0x408DBB0
+        public void get_localizedOriginName(){} // RVA: 0x408DC00
+        public void UpdateValues(){} // RVA: 0x408DC50
+        public void GetRenderModelComponentName(){} // RVA: 0x408DD40
+        public void GetActiveDevice(){} // RVA: 0x408DD90
+        public void GetDeviceIndex(){} // RVA: 0x408DE20
+        public void GetChanged(){} // RVA: 0x408DE70
+        public void GetTimeLastChanged(){} // RVA: 0x408DEC0
+        public void GetLocalizedOriginPart(){} // RVA: 0x408DF00
+        public void GetLocalizedOrigin(){} // RVA: 0x408DF50
+        public void IsUpdating(){} // RVA: 0x408DF90
+        public void ForceAddSourceToUpdateList(){} // RVA: 0x408E050
+        public void GetControllerType(){} // RVA: 0x408E080
+        public void .ctor(){} // RVA: 0x408E120
     }
 
     public class SteamVR_Action_In`2
@@ -384,6 +711,12 @@ namespace ThirdParty.Valve.Valve.VR
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class SteamVR_Action_Out`2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x408E1A0
     }
 
     public class SteamVR_Action_Pose
@@ -461,8 +794,109 @@ namespace ThirdParty.Valve.Valve.VR
         public void GetLastTrackingResult(){} // RVA: 0x13FB0
     }
 
+    public class SteamVR_Action_Pose_Base`2
+    {
+        // ── Methods ──
+        public void SetUniverseOrigin(){} // RVA: 0x408E220
+        public void get_localPosition(){} // RVA: 0x408E3D0
+        public void get_localRotation(){} // RVA: 0x408E420
+        public void get_trackingState(){} // RVA: 0x408E470
+        public void get_velocity(){} // RVA: 0x408E4B0
+        public void get_angularVelocity(){} // RVA: 0x408E500
+        public void get_poseIsValid(){} // RVA: 0x408E550
+        public void get_deviceIsConnected(){} // RVA: 0x408E590
+        public void get_lastLocalPosition(){} // RVA: 0x408E5D0
+        public void get_lastLocalRotation(){} // RVA: 0x408E620
+        public void get_lastTrackingState(){} // RVA: 0x408E670
+        public void get_lastVelocity(){} // RVA: 0x408E6B0
+        public void get_lastAngularVelocity(){} // RVA: 0x408E700
+        public void get_lastPoseIsValid(){} // RVA: 0x408E750
+        public void get_lastDeviceIsConnected(){} // RVA: 0x408E790
+        public void .ctor(){} // RVA: 0x408E7D0
+        public void UpdateValues(){} // RVA: 0x408E7F0
+        public void GetVelocitiesAtTimeOffset(){} // RVA: 0x408E820
+        public void GetPoseAtTimeOffset(){} // RVA: 0x408E880
+        public void UpdateTransform(){} // RVA: 0x408E900
+        public void GetLocalPosition(){} // RVA: 0x408EA10
+        public void GetLocalRotation(){} // RVA: 0x408EA70
+        public void GetVelocity(){} // RVA: 0x408EAC0
+        public void GetAngularVelocity(){} // RVA: 0x408EB20
+        public void GetDeviceIsConnected(){} // RVA: 0x408EB80
+        public void GetPoseIsValid(){} // RVA: 0x408EBC0
+        public void GetTrackingResult(){} // RVA: 0x408EC00
+        public void GetLastLocalPosition(){} // RVA: 0x408EC40
+        public void GetLastLocalRotation(){} // RVA: 0x408ECA0
+        public void GetLastVelocity(){} // RVA: 0x408ECF0
+        public void GetLastAngularVelocity(){} // RVA: 0x408ED50
+        public void GetLastDeviceIsConnected(){} // RVA: 0x408EDB0
+        public void GetLastPoseIsValid(){} // RVA: 0x408EDF0
+        public void GetLastTrackingResult(){} // RVA: 0x408EE30
+    }
+
+    public class SteamVR_Action_Pose_Base`2
+    {
+        // ── Methods ──
+        public void SetUniverseOrigin(){} // RVA: 0x408E220
+        public void get_localPosition(){} // RVA: 0x408E3D0
+        public void get_localRotation(){} // RVA: 0x408E420
+        public void get_trackingState(){} // RVA: 0x408E470
+        public void get_velocity(){} // RVA: 0x408E4B0
+        public void get_angularVelocity(){} // RVA: 0x408E500
+        public void get_poseIsValid(){} // RVA: 0x408E550
+        public void get_deviceIsConnected(){} // RVA: 0x408E590
+        public void get_lastLocalPosition(){} // RVA: 0x408E5D0
+        public void get_lastLocalRotation(){} // RVA: 0x408E620
+        public void get_lastTrackingState(){} // RVA: 0x408E670
+        public void get_lastVelocity(){} // RVA: 0x408E6B0
+        public void get_lastAngularVelocity(){} // RVA: 0x408E700
+        public void get_lastPoseIsValid(){} // RVA: 0x408E750
+        public void get_lastDeviceIsConnected(){} // RVA: 0x408E790
+        public void .ctor(){} // RVA: 0x408E7D0
+        public void UpdateValues(){} // RVA: 0x408E7F0
+        public void GetVelocitiesAtTimeOffset(){} // RVA: 0x408E820
+        public void GetPoseAtTimeOffset(){} // RVA: 0x408E880
+        public void UpdateTransform(){} // RVA: 0x408E900
+        public void GetLocalPosition(){} // RVA: 0x408EA10
+        public void GetLocalRotation(){} // RVA: 0x408EA70
+        public void GetVelocity(){} // RVA: 0x408EAC0
+        public void GetAngularVelocity(){} // RVA: 0x408EB20
+        public void GetDeviceIsConnected(){} // RVA: 0x408EB80
+        public void GetPoseIsValid(){} // RVA: 0x408EBC0
+        public void GetTrackingResult(){} // RVA: 0x408EC00
+        public void GetLastLocalPosition(){} // RVA: 0x408EC40
+        public void GetLastLocalRotation(){} // RVA: 0x408ECA0
+        public void GetLastVelocity(){} // RVA: 0x408ECF0
+        public void GetLastAngularVelocity(){} // RVA: 0x408ED50
+        public void GetLastDeviceIsConnected(){} // RVA: 0x408EDB0
+        public void GetLastPoseIsValid(){} // RVA: 0x408EDF0
+        public void GetLastTrackingResult(){} // RVA: 0x408EE30
+    }
+
     public class SteamVR_Action_Pose_Source
     {
+        public 0x6595C340 universeOrigin; // 0x158
+        public uint poseActionData_size;
+        public float changeTolerance; // 0x15C
+        public ActiveChangeHandler onActiveChange; // 0x160
+        public ActiveChangeHandler onActiveBindingChange; // 0x168
+        public ChangeHandler onChange; // 0x170
+        public UpdateHandler onUpdate; // 0x178
+        public TrackingChangeHandler onTrackingChanged; // 0x180
+        public ValidPoseChangeHandler onValidPoseChanged; // 0x188
+        public DeviceConnectedChangeHandler onDeviceConnectedChanged; // 0x190
+        public bool <changed>k__BackingField; // 0x198
+        public bool <lastChanged>k__BackingField; // 0x199
+        public bool <lastActive>k__BackingField; // 0x19A
+        public UnityEngine.Vector3 <localPosition>k__BackingField; // 0x19C
+        public UnityEngine.Quaternion <localRotation>k__BackingField; // 0x1A8
+        public UnityEngine.Vector3 <lastLocalPosition>k__BackingField; // 0x1B8
+        public UnityEngine.Quaternion <lastLocalRotation>k__BackingField; // 0x1C4
+        public UnityEngine.Vector3 <velocity>k__BackingField; // 0x1D4
+        public UnityEngine.Vector3 <lastVelocity>k__BackingField; // 0x1E0
+        public UnityEngine.Vector3 <angularVelocity>k__BackingField; // 0x1EC
+        public UnityEngine.Vector3 <lastAngularVelocity>k__BackingField; // 0x1F8
+        public Valve.VR.InputPoseActionData_t poseActionData; // 0x208
+
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x64AD050
         public void remove_onActiveChange(){} // RVA: 0x64AD140
@@ -535,6 +969,22 @@ namespace ThirdParty.Valve.Valve.VR
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class SteamVR_Action_Pose_Source_Map`1
+    {
+        // ── Methods ──
+        public void SetTrackingUniverseOrigin(){} // RVA: 0x408EE70
+        public void UpdateValues(){} // RVA: 0x408EEE0
+        public void .ctor(){} // RVA: 0x408EFD0
+    }
+
+    public class SteamVR_Action_Pose_Source_Map`1
+    {
+        // ── Methods ──
+        public void SetTrackingUniverseOrigin(){} // RVA: 0x408EE70
+        public void UpdateValues(){} // RVA: 0x408EEE0
+        public void .ctor(){} // RVA: 0x408EFD0
+    }
+
     public class SteamVR_Action_Single
     {
         // ── Methods ──
@@ -574,6 +1024,19 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Single_Source
     {
+        public uint actionData_size;
+        public float changeTolerance; // 0x158
+        public AxisHandler onAxis; // 0x160
+        public ActiveChangeHandler onActiveChange; // 0x168
+        public ActiveChangeHandler onActiveBindingChange; // 0x170
+        public ChangeHandler onChange; // 0x178
+        public UpdateHandler onUpdate; // 0x180
+        public bool <changed>k__BackingField; // 0x188
+        public bool <lastChanged>k__BackingField; // 0x189
+        public bool <lastActive>k__BackingField; // 0x18A
+        public Valve.VR.InputAnalogActionData_t actionData; // 0x190
+        public Valve.VR.InputAnalogActionData_t lastActionData; // 0x1C0
+
         // ── Methods ──
         public void add_onAxis(){} // RVA: 0x64B1390
         public void remove_onAxis(){} // RVA: 0x64B1480
@@ -615,6 +1078,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Skeleton
     {
+        public int numBones;
+        public UnityEngine.Quaternion steamVRFixUpRotation;
+
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x64B2C50
         public void remove_onActiveChange(){} // RVA: 0x64B2CD0
@@ -729,6 +1195,35 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Skeleton_Source
     {
+        public uint skeletonActionData_size;
+        public ActiveChangeHandler onActiveChange; // 0x330
+        public ActiveChangeHandler onActiveBindingChange; // 0x338
+        public ChangeHandler onChange; // 0x340
+        public UpdateHandler onUpdate; // 0x348
+        public TrackingChangeHandler onTrackingChanged; // 0x350
+        public ValidPoseChangeHandler onValidPoseChanged; // 0x358
+        public DeviceConnectedChangeHandler onDeviceConnectedChanged; // 0x360
+        public UnityEngine.Vector3[] <bonePositions>k__BackingField; // 0x368
+        public UnityEngine.Quaternion[] <boneRotations>k__BackingField; // 0x370
+        public UnityEngine.Vector3[] <lastBonePositions>k__BackingField; // 0x378
+        public UnityEngine.Quaternion[] <lastBoneRotations>k__BackingField; // 0x380
+        public 0x6595CB80 <rangeOfMotion>k__BackingField; // 0x388
+        public 0x6595D7E0 <skeletalTransformSpace>k__BackingField; // 0x38C
+        public 0x6595D940 <summaryDataType>k__BackingField; // 0x390
+        public float[] <fingerCurls>k__BackingField; // 0x398
+        public float[] <fingerSplays>k__BackingField; // 0x3A0
+        public float[] <lastFingerCurls>k__BackingField; // 0x3A8
+        public float[] <lastFingerSplays>k__BackingField; // 0x3B0
+        public bool <poseChanged>k__BackingField; // 0x3B8
+        public bool <onlyUpdateSummaryData>k__BackingField; // 0x3B9
+        public Valve.VR.VRSkeletalSummaryData_t skeletalSummaryData; // 0x3BC
+        public Valve.VR.VRSkeletalSummaryData_t lastSkeletalSummaryData; // 0x3E0
+        public Valve.VR.SteamVR_Action_Skeleton skeletonAction; // 0x408
+        public Valve.VR.VRBoneTransform_t[] tempBoneTransforms; // 0x410
+        public Valve.VR.InputSkeletalActionData_t skeletonActionData; // 0x418
+        public Valve.VR.InputSkeletalActionData_t lastSkeletonActionData; // 0x428
+        public Valve.VR.InputSkeletalActionData_t tempSkeletonActionData; // 0x438
+
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x64B6650
         public void remove_onActiveChange(){} // RVA: 0x64B6740
@@ -817,6 +1312,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source
     {
+        public 0x65925E40 <inputSource>k__BackingField; // 0x10
+        public ulong inputSourceHandle; // 0x18
+        public Valve.VR.SteamVR_Action action; // 0x20
+
         // ── Methods ──
         public void get_fullPath(){} // RVA: 0x64A4880
         public void get_handle(){} // RVA: 0x64A48B0
@@ -837,6 +1336,11 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source_Map
     {
+        public string <fullPath>k__BackingField; // 0x10
+        public ulong <handle>k__BackingField; // 0x18
+        public Valve.VR.SteamVR_ActionSet <actionSet>k__BackingField; // 0x20
+        public 0x659229A8 <direction>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_fullPath(){} // RVA: 0x2F8380
         public void set_fullPath(){} // RVA: 0x2DEE30
@@ -857,6 +1361,135 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source_Map`1
     {
+        public T[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public T[] sources;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x283FA0
+        public void OnAccessSource(){} // RVA: 0x24FA0
+        public void Initialize(){} // RVA: 0x24A50
+        public void PreinitializeMap(){} // RVA: 0x26C40
+        public void GetSourceElementForIndexer(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public T[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Vibration_Source[] sources; // 0x38
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Vibration_Source[] sources; // 0x38
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Skeleton_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Single_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Pose_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Boolean_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Vector2_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Vector3_Source[] sources; // 0x38
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408EFF0
+        public void OnAccessSource(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x408F010
+        public void PreinitializeMap(){} // RVA: 0x408F0A0
+        public void GetSourceElementForIndexer(){} // RVA: 0x408F140
+        public void .ctor(){} // RVA: 0x408F190
+    }
+
+    public class SteamVR_Action_Source_Map`1
+    {
+        public Valve.VR.SteamVR_Action_Vibration_Source[] sources; // 0x38
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x408EFF0
         public void OnAccessSource(){} // RVA: 0x2DD310
@@ -905,6 +1538,19 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Vector2_Source
     {
+        public uint actionData_size;
+        public float changeTolerance; // 0x158
+        public AxisHandler onAxis; // 0x160
+        public ActiveChangeHandler onActiveChange; // 0x168
+        public ActiveChangeHandler onActiveBindingChange; // 0x170
+        public ChangeHandler onChange; // 0x178
+        public UpdateHandler onUpdate; // 0x180
+        public UnityEngine.Vector2 <axis>k__BackingField; // 0x188
+        public UnityEngine.Vector2 <lastAxis>k__BackingField; // 0x190
+        public UnityEngine.Vector2 <delta>k__BackingField; // 0x198
+        public UnityEngine.Vector2 <lastDelta>k__BackingField; // 0x1A0
+        public bool <changed>k__BackingField; // 0x1A8
+
         // ── Methods ──
         public void add_onAxis(){} // RVA: 0x64D1FE0
         public void remove_onAxis(){} // RVA: 0x64D20D0
@@ -987,6 +1633,19 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Vector3_Source
     {
+        public uint actionData_size;
+        public float changeTolerance; // 0x158
+        public AxisHandler onAxis; // 0x160
+        public ActiveChangeHandler onActiveChange; // 0x168
+        public ActiveChangeHandler onActiveBindingChange; // 0x170
+        public ChangeHandler onChange; // 0x178
+        public UpdateHandler onUpdate; // 0x180
+        public UnityEngine.Vector3 <axis>k__BackingField; // 0x188
+        public UnityEngine.Vector3 <lastAxis>k__BackingField; // 0x194
+        public UnityEngine.Vector3 <delta>k__BackingField; // 0x1A0
+        public UnityEngine.Vector3 <lastDelta>k__BackingField; // 0x1AC
+        public bool <changed>k__BackingField; // 0x1B8
+
         // ── Methods ──
         public void add_onAxis(){} // RVA: 0x64D4AD0
         public void remove_onAxis(){} // RVA: 0x64D4BC0
@@ -1056,6 +1715,12 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Vibration_Source
     {
+        public ActiveChangeHandler onActiveChange; // 0x28
+        public ActiveChangeHandler onActiveBindingChange; // 0x30
+        public ExecuteHandler onExecute; // 0x38
+        public bool <lastActive>k__BackingField; // 0x40
+        public float <timeLastExecuted>k__BackingField; // 0x44
+
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x64D7040
         public void remove_onActiveChange(){} // RVA: 0x64D7130
@@ -1086,6 +1751,341 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action`2
     {
+        public T sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public T sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public T sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public T sourceMap;
+        public bool initialized;
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x283FA0
+        public void get_fullPath(){} // RVA: 0xCD60
+        public void get_handle(){} // RVA: 0xCD60
+        public void get_actionSet(){} // RVA: 0xCD60
+        public void get_direction(){} // RVA: 0xD840
+        public void get_active(){} // RVA: 0xDBE0
+        public void get_lastActive(){} // RVA: 0xDBE0
+        public void get_activeBinding(){} // RVA: 0xDBE0
+        public void get_lastActiveBinding(){} // RVA: 0xDBE0
+        public void PreInitialize(){} // RVA: 0x24B10
+        public void CreateUninitialized(){} // RVA: 0x2A620 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0xCD60
+        public void Initialize(){} // RVA: 0x251C0
+        public void GetSourceMap(){} // RVA: 0xCD60
+        public void InitializeCopy(){} // RVA: 0x2DC60
+        public void InitAfterDeserialize(){} // RVA: 0x24A50
+        public void GetActive(){} // RVA: 0xE1F0
+        public void GetActiveBinding(){} // RVA: 0xE1F0
+        public void GetLastActive(){} // RVA: 0xE1F0
+        public void GetLastActiveBinding(){} // RVA: 0xE1F0
+        public void GetActionBindingInfo(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x24A50
+        public void .cctor(){} // RVA: 0x24A80
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Single_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Pose_Source_Map`1<Valve.VR.SteamVR_Action_Pose_Source> sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Vector2_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Vibration_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Boolean_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Skeleton_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x408F2A0
+        public void get_fullPath(){} // RVA: 0x408F2D0
+        public void get_handle(){} // RVA: 0x408F2F0
+        public void get_actionSet(){} // RVA: 0x408F310
+        public void get_direction(){} // RVA: 0x408F330
+        public void get_active(){} // RVA: 0x408F350
+        public void get_lastActive(){} // RVA: 0x408F3A0
+        public void get_activeBinding(){} // RVA: 0x408F3F0
+        public void get_lastActiveBinding(){} // RVA: 0x408F440
+        public void PreInitialize(){} // RVA: 0x408F490
+        public void CreateUninitialized(){} // RVA: 0x408F6B0 | overloaded x2
+        public void TryNeedsInitData(){} // RVA: 0x408F8B0
+        public void Initialize(){} // RVA: 0x408FB70
+        public void GetSourceMap(){} // RVA: 0x30B130
+        public void InitializeCopy(){} // RVA: 0x408FC80
+        public void InitAfterDeserialize(){} // RVA: 0x408FE00
+        public void GetActive(){} // RVA: 0x408FEB0
+        public void GetActiveBinding(){} // RVA: 0x408FF00
+        public void GetLastActive(){} // RVA: 0x408FF50
+        public void GetLastActiveBinding(){} // RVA: 0x408FFA0
+        public void GetActionBindingInfo(){} // RVA: 0x408FFF0
+        public void .ctor(){} // RVA: 0x4090680
+        public void .cctor(){} // RVA: 0x40906D0
+    }
+
+    public class SteamVR_Action`2
+    {
+        public Valve.VR.SteamVR_Action_Vector3_Source_Map sourceMap; // 0x28
+        public bool initialized; // 0x30
+        public uint inputBindingInfo_size;
+        public Valve.VR.InputBindingInfo_t[] zeroLengthBindingInfos; // 0x8
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x408F2A0
         public void get_fullPath(){} // RVA: 0x408F2D0
@@ -1114,33 +2114,223 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Actions
     {
-        public object padding;
-        public object softness;
-        public object Canvas;
-        public object canvasRect;
-        public object rectTransform;
-        public object rootCanvasRect;
-        public object 0;
-        public object _global_Safe_Mode;
-        public object _global_Pose;
-        public object .ctor;
-        public object _global_SkeletonLeftHand;
-        public object `;
-        public object _global_SkeletonRightHand;
-        public object _global_HeadsetOnHead;
-        public object _global_Menu;
-        public object `;
-        public object _global_Quick_Menu;
-        public object _global_Action_Menu;
-        public object _global_Main_Menu;
-        public object `;
-        public object _global_Interact;
-        public object _global_Grab;
-        public object _global_Move;
-        public object `;
-        public object _global_Jump;
-        public object bV;
-        public object _global_Rotate;
+        public Valve.VR.SteamVR_Action_Boolean padding;
+        public Valve.VR.SteamVR_Action_Pose softness; // 0x8
+        public Valve.VR.SteamVR_Action_Skeleton Canvas; // 0x10
+        public Valve.VR.SteamVR_Action_Skeleton canvasRect; // 0x18
+        public Valve.VR.SteamVR_Action_Boolean rectTransform; // 0x20
+        public Valve.VR.SteamVR_Action_Boolean rootCanvasRect; // 0x28
+        public Valve.VR.SteamVR_Action_Boolean 0; // 0x30
+        public Valve.VR.SteamVR_Action_Boolean _global_Safe_Mode; // 0x38
+        public Valve.VR.SteamVR_Action_Boolean _global_Pose; // 0x40
+        public Valve.VR.SteamVR_Action_Boolean .ctor; // 0x48
+        public Valve.VR.SteamVR_Action_Boolean _global_SkeletonLeftHand; // 0x50
+        public Valve.VR.SteamVR_Action_Vector2 `; // 0x58
+        public Valve.VR.SteamVR_Action_Boolean _global_SkeletonRightHand; // 0x60
+        public Valve.VR.SteamVR_Action_Vector2 _global_HeadsetOnHead; // 0x68
+        public Valve.VR.SteamVR_Action_Boolean _global_Menu; // 0x70
+        public Valve.VR.SteamVR_Action_Boolean `; // 0x78
+        public Valve.VR.SteamVR_Action_Boolean _global_Quick_Menu; // 0x80
+        public Valve.VR.SteamVR_Action_Single _global_Action_Menu; // 0x88
+        public Valve.VR.SteamVR_Action_Single _global_Main_Menu; // 0x90
+        public Valve.VR.SteamVR_Action_Boolean `; // 0x98
+        public Valve.VR.SteamVR_Action_Boolean _global_Interact; // 0xA0
+        public Valve.VR.SteamVR_Action_Boolean _global_Grab; // 0xA8
+        public Valve.VR.SteamVR_Action_Boolean _global_Move; // 0xB0
+        public Valve.VR.SteamVR_Action_Boolean `; // 0xB8
+        public Valve.VR.SteamVR_Action_Boolean _global_Jump; // 0xC0
+        public Valve.VR.SteamVR_Action_Boolean bV; // 0xC8
+        public Valve.VR.SteamVR_Action_Boolean _global_Rotate; // 0xD0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Earmuffs; // 0xD8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Camera; // 0xE0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Stream_Camera; // 0xE8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Avatar_Debug_Screen; // 0xF0
+        public Valve.VR.SteamVR_Action_Boolean p_global_OSC_Debug_Screen; // 0xF8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Confirm_FBT_Calibration; // 0x100
+        public Valve.VR.SteamVR_Action_Boolean p_global_Start_Move; // 0x108
+        public Valve.VR.SteamVR_Action_Boolean p_global_Start_Rotate; // 0x110
+        public Valve.VR.SteamVR_Action_Boolean p_global_Continue_Move; // 0x118
+        public Valve.VR.SteamVR_Action_Boolean p_global_Continue_Rotate; // 0x120
+        public Valve.VR.SteamVR_Action_Boolean p_global_No_Gesture_After_Move; // 0x128
+        public Valve.VR.SteamVR_Action_Boolean p_global_No_Gesture_After_Rotate; // 0x130
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Thumb; // 0x138
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Thumb_Inner_Upper; // 0x140
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Thumb_Inner_Lower; // 0x148
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Thumb_Outer; // 0x150
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Index; // 0x158
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Activator_Grip; // 0x160
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Trigger_Axis; // 0x168
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Grip_Axis; // 0x170
+        public Valve.VR.SteamVR_Action_Vector2 p_global_Gesture_Activator_Stick_Deflection; // 0x178
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Neutral_Left; // 0x180
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Fist_Left; // 0x188
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Open_Left; // 0x190
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Peace_Left; // 0x198
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Horns_Left; // 0x1A0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Finger_Gun_Left; // 0x1A8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Thumbs_Up_Left; // 0x1B0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Point_Left; // 0x1B8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Neutral_Right; // 0x1C0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Fist_Right; // 0x1C8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Open_Right; // 0x1D0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Peace_Right; // 0x1D8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Horns_Right; // 0x1E0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Finger_Gun_Right; // 0x1E8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Thumbs_Up_Right; // 0x1F0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Direct_Point_Right; // 0x1F8
+        public Valve.VR.SteamVR_Action_Vector2 p_global_Gesture_Wheel_Left; // 0x200
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Select_Left; // 0x208
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Wheel_Soft_Select_Left; // 0x210
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Wheel_Weight_Left; // 0x218
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Direct_Left; // 0x220
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Direct_Stay_Left; // 0x228
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Cancel_Left; // 0x230
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Cancel_Open_Left; // 0x238
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Held_Left; // 0x240
+        public Valve.VR.SteamVR_Action_Vector2 p_global_Gesture_Wheel_Right; // 0x248
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Select_Right; // 0x250
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Wheel_Soft_Select_Right; // 0x258
+        public Valve.VR.SteamVR_Action_Single p_global_Gesture_Wheel_Weight_Right; // 0x260
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Direct_Right; // 0x268
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Direct_Stay_Right; // 0x270
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Cancel_Right; // 0x278
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Cancel_Open_Right; // 0x280
+        public Valve.VR.SteamVR_Action_Boolean p_global_Gesture_Wheel_Held_Right; // 0x288
+        public Valve.VR.SteamVR_Action_Boolean p_global_Disable_Gesture_Tracked; // 0x290
+        public Valve.VR.SteamVR_Action_Boolean p_global_Disable_Gesture_Wheel_Move_Left; // 0x298
+        public Valve.VR.SteamVR_Action_Boolean p_global_Disable_Gesture_Wheel_Rotate_Left; // 0x2A0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Disable_Gesture_Wheel_Move_Right; // 0x2A8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Disable_Gesture_Wheel_Rotate_Right; // 0x2B0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Physbone_Grab_Left; // 0x2B8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Physbone_Freeze_Left; // 0x2C0
+        public Valve.VR.SteamVR_Action_Boolean p_global_Physbone_Grab_Right; // 0x2C8
+        public Valve.VR.SteamVR_Action_Boolean p_global_Physbone_Freeze_Right; // 0x2D0
+        public Valve.VR.SteamVR_Action_Vector2 p_global_Scroll; // 0x2D8
+        public Valve.VR.SteamVR_Action_Vibration p_global_Haptic; // 0x2E0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Interact; // 0x2E8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Grab; // 0x2F0
+        public Valve.VR.SteamVR_Action_Vector2 p_one_Hand_Move_Rotate; // 0x2F8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Jump; // 0x300
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Mic; // 0x308
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Toggle; // 0x310
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Stick_Click; // 0x318
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Trigger_Axis; // 0x320
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Grip_Axis; // 0x328
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Udon_Menu; // 0x330
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Drop; // 0x338
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Start_Move_Rotate; // 0x340
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Continue_Move_Rotate; // 0x348
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_No_Gesture_After_Move_Rotate; // 0x350
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Menu; // 0x358
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Nameplates; // 0x360
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_HUD; // 0x368
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Chatbox; // 0x370
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Face_Mirror; // 0x378
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Personal_Mirror; // 0x380
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Personal_Mirror_Lock; // 0x388
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Earmuffs; // 0x390
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Camera; // 0x398
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Stream_Camera; // 0x3A0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Avatar_Debug_Screen; // 0x3A8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_OSC_Debug_Screen; // 0x3B0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Confirm_FBT_Calibration; // 0x3B8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Thumb; // 0x3C0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Thumb_Inner_Upper; // 0x3C8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Thumb_Inner_Lower; // 0x3D0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Thumb_Outer; // 0x3D8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Index; // 0x3E0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Activator_Grip; // 0x3E8
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Trigger_Axis; // 0x3F0
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Grip_Axis; // 0x3F8
+        public Valve.VR.SteamVR_Action_Vector2 p_one_Hand_Gesture_Activator_Stick_Deflection; // 0x400
+        public Valve.VR.SteamVR_Action_Vector2 p_one_Hand_Gesture_Wheel_Left; // 0x408
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Select_Left; // 0x410
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Wheel_Soft_Select_Left; // 0x418
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Wheel_Weight_Left; // 0x420
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Direct_Left; // 0x428
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Direct_Stay_Left; // 0x430
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Cancel_Left; // 0x438
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Cancel_Open_Left; // 0x440
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Held_Left; // 0x448
+        public Valve.VR.SteamVR_Action_Vector2 p_one_Hand_Gesture_Wheel_Right; // 0x450
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Select_Right; // 0x458
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Wheel_Soft_Select_Right; // 0x460
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Gesture_Wheel_Weight_Right; // 0x468
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Direct_Right; // 0x470
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Direct_Stay_Right; // 0x478
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Cancel_Right; // 0x480
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Cancel_Open_Right; // 0x488
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Gesture_Wheel_Held_Right; // 0x490
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Disable_Gesture_Wheel_Move_Left; // 0x498
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Disable_Gesture_Wheel_Rotate_Left; // 0x4A0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Disable_Gesture_Wheel_Move_Right; // 0x4A8
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Disable_Gesture_Wheel_Rotate_Right; // 0x4B0
+        public Valve.VR.SteamVR_Action_Boolean p_one_Hand_Reserve_bool; // 0x4B8
+        public Valve.VR.SteamVR_Action_Single p_one_Hand_Reserve_vector1; // 0x4C0
+        public Valve.VR.SteamVR_Action_Vector2 p_one_Hand_Reserve_vector2; // 0x4C8
+        public Valve.VR.SteamVR_Action_Boolean p_menu_Confirm; // 0x4D0
+        public Valve.VR.SteamVR_Action_Boolean p_menu_Back; // 0x4D8
+        public Valve.VR.SteamVR_Action_Boolean p_menu_Tab; // 0x4E0
+        public Valve.VR.SteamVR_Action_Vector2 p_menu_Scroll; // 0x4E8
+        public Valve.VR.SteamVR_Action_Boolean p_menu_Quick_Menu_Close; // 0x4F0
+        public Valve.VR.SteamVR_Action_Boolean p_menu_Drag; // 0x4F8
+        public Valve.VR.SteamVR_Action_Vector2 p_action_Menu_Axis; // 0x500
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Select; // 0x508
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Thumb; // 0x510
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Thumb_Inner_Upper; // 0x518
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Thumb_Inner_Lower; // 0x520
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Thumb_Outer; // 0x528
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Index; // 0x530
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Activator_Grip; // 0x538
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Trigger_Axis; // 0x540
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Grip_Axis; // 0x548
+        public Valve.VR.SteamVR_Action_Vector2 p_action_Menu_Gesture_Activator_Stick_Deflection; // 0x550
+        public Valve.VR.SteamVR_Action_Vector2 p_action_Menu_Gesture_Wheel_Left; // 0x558
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Select_Left; // 0x560
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Wheel_Soft_Select_Left; // 0x568
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Wheel_Weight_Left; // 0x570
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Direct_Left; // 0x578
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Direct_Stay_Left; // 0x580
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Cancel_Left; // 0x588
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Cancel_Open_Left; // 0x590
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Held_Left; // 0x598
+        public Valve.VR.SteamVR_Action_Vector2 p_action_Menu_Gesture_Wheel_Right; // 0x5A0
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Select_Right; // 0x5A8
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Wheel_Soft_Select_Right; // 0x5B0
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Gesture_Wheel_Weight_Right; // 0x5B8
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Direct_Right; // 0x5C0
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Direct_Stay_Right; // 0x5C8
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Cancel_Right; // 0x5D0
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Cancel_Open_Right; // 0x5D8
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Gesture_Wheel_Held_Right; // 0x5E0
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Disable_Gesture_Wheel_Move_Left; // 0x5E8
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Disable_Gesture_Wheel_Rotate_Left; // 0x5F0
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Disable_Gesture_Wheel_Move_Right; // 0x5F8
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Disable_Gesture_Wheel_Rotate_Right; // 0x600
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Reserve_bool; // 0x608
+        public Valve.VR.SteamVR_Action_Single p_action_Menu_Reserve_vector1; // 0x610
+        public Valve.VR.SteamVR_Action_Vector2 p_action_Menu_Reserve_vector2; // 0x618
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Grab; // 0x620
+        public Valve.VR.SteamVR_Action_Boolean p_action_Menu_Drop; // 0x628
+        public Valve.VR.SteamVR_Action_Vector2 p_drone_Left_Joystick; // 0x630
+        public Valve.VR.SteamVR_Action_Vector2 p_drone_Right_Joystick; // 0x638
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Self_Leveling_Mod; // 0x640
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Hold_Altitude_Mod; // 0x648
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Toggle_FPV; // 0x650
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Flip; // 0x658
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Take_Picture; // 0x660
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Cycle_Flight_Preset; // 0x668
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Toggle_Self_Leveling; // 0x670
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Respawn; // 0x678
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Select_Flight_Preset_Micro; // 0x680
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Select_Flight_Preset_Cinematic; // 0x688
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Select_Flight_Preset_Racing; // 0x690
+        public Valve.VR.SteamVR_Action_Boolean p_drone_Select_Flight_Preset_Freestyle; // 0x698
+        public Valve.VR.SteamVR_Input_ActionSet_Global p_Global; // 0x6A0
+        public Valve.VR.SteamVR_Input_ActionSet_One_Hand p_One_Hand; // 0x6A8
+        public Valve.VR.SteamVR_Input_ActionSet_Menu p_Menu; // 0x6B0
+        public Valve.VR.SteamVR_Input_ActionSet_Action_Menu p_Action_Menu; // 0x6B8
+        public Valve.VR.SteamVR_Input_ActionSet_Drone p_Drone; // 0x6C0
 
         // ── Methods ──
         public void get_global_Safe_Mode(){} // RVA: 0x64BD000
@@ -1377,6 +2567,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour
     {
+        public string openVRDeviceName;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x64FDE20
         public void Initialize(){} // RVA: 0x64FDF60
@@ -1399,6 +2591,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Boolean
     {
+        public Valve.VR.SteamVR_Action_Boolean booleanAction; // 0x20
+        public 0x65925E40 inputSource; // 0x28
+
         // ── Methods ──
         public void add_onChangeEvent(){} // RVA: 0x64D7EF0
         public void remove_onChangeEvent(){} // RVA: 0x64D7FE0
@@ -1433,6 +2628,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Pose
     {
+        public Valve.VR.SteamVR_Action_Pose poseAction; // 0x20
+        public 0x65925E40 inputSource; // 0x28
+
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x64D9880
         public void get_isActive(){} // RVA: 0x64D8850
@@ -1481,6 +2679,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Single
     {
+        public Valve.VR.SteamVR_Action_Single singleAction; // 0x20
+
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x64DBAB0
         public void OnEnable(){} // RVA: 0x64DBAF0
@@ -1502,6 +2702,41 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Skeleton
     {
+        public Valve.VR.SteamVR_Action_Skeleton skeletonAction; // 0x20
+        public 0x65925E40 inputSource; // 0x28
+        public 0x6595CB80 rangeOfMotion; // 0x2C
+        public UnityEngine.Transform skeletonRoot; // 0x30
+        public UnityEngine.Transform origin; // 0x38
+        public bool updatePose; // 0x40
+        public bool onlySetRotations; // 0x41
+        public float skeletonBlend; // 0x44
+        public Valve.VR.SteamVR_Behaviour_SkeletonEvent onBoneTransformsUpdated; // 0x48
+        public Valve.VR.SteamVR_Behaviour_SkeletonEvent onTransformUpdated; // 0x50
+        public Valve.VR.SteamVR_Behaviour_SkeletonEvent onTransformChanged; // 0x58
+        public Valve.VR.SteamVR_Behaviour_Skeleton_ConnectedChangedEvent onConnectedChanged; // 0x60
+        public Valve.VR.SteamVR_Behaviour_Skeleton_TrackingChangedEvent onTrackingChanged; // 0x68
+        public UpdateHandler onBoneTransformsUpdatedEvent; // 0x70
+        public UpdateHandler onTransformUpdatedEvent; // 0x78
+        public ChangeHandler onTransformChangedEvent; // 0x80
+        public DeviceConnectedChangeHandler onConnectedChangedEvent; // 0x88
+        public TrackingChangeHandler onTrackingChangedEvent; // 0x90
+        public 0x65924CB8 mirroring; // 0x98
+        public Valve.VR.SteamVR_Skeleton_Poser fallbackPoser; // 0xA0
+        public Valve.VR.SteamVR_Action_Single fallbackCurlAction; // 0xA8
+        public Valve.VR.SteamVR_Skeleton_Poser blendPoser; // 0xB0
+        public Valve.VR.SteamVR_Skeleton_PoseSnapshot blendSnapshot; // 0xB8
+        public UnityEngine.Transform[] <proximals>k__BackingField; // 0xC0
+        public UnityEngine.Transform[] <middles>k__BackingField; // 0xC8
+        public UnityEngine.Transform[] <distals>k__BackingField; // 0xD0
+        public UnityEngine.Transform[] <tips>k__BackingField; // 0xD8
+        public UnityEngine.Transform[] <auxs>k__BackingField; // 0xE0
+        public UnityEngine.Coroutine blendRoutine; // 0xE8
+        public UnityEngine.Coroutine rangeOfMotionBlendRoutine; // 0xF0
+        public UnityEngine.Coroutine attachRoutine; // 0xF8
+        public UnityEngine.Transform[] bones; // 0x100
+        public System.Nullable`1<0x6595CB80> temporaryRangeOfMotion; // 0x108
+        public UnityEngine.Quaternion rightFlipAngle;
+
         // ── Methods ──
         public void get_skeletonAvailable(){} // RVA: 0x64DC600
         public void get_isActive(){} // RVA: 0x64DC630
@@ -1623,6 +2858,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector2
     {
+        public Valve.VR.SteamVR_Action_Vector2 vector2Action; // 0x20
+
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x64DBAB0
         public void OnEnable(){} // RVA: 0x64E42C0
@@ -1644,6 +2881,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector3
     {
+        public Valve.VR.SteamVR_Action_Vector3 vector3Action; // 0x20
+
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x64DBAB0
         public void OnEnable(){} // RVA: 0x64E4DD0
@@ -1661,664 +2900,6 @@ namespace ThirdParty.Valve.Valve.VR
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x64A3620
-    }
-
-    public class SteamVR_Camera
-    {
-        public object _head;
-
-        // ── Methods ──
-        public void get_head(){} // RVA: 0x30B0C0
-        public void get_offset(){} // RVA: 0x30B0C0
-        public void get_origin(){} // RVA: 0x64FFE00
-        public void get_camera(){} // RVA: 0x30B130
-        public void set_camera(){} // RVA: 0x2DEE90
-        public void get_ears(){} // RVA: 0x6374D0
-        public void GetRay(){} // RVA: 0x64FFE60
-        public void get_sceneResolutionScale(){} // RVA: 0x64FFFC0
-        public void set_sceneResolutionScale(){} // RVA: 0x6500010
-        public void OnDisable(){} // RVA: 0x6500070
-        public void OnEnable(){} // RVA: 0x65001D0
-        public void Awake(){} // RVA: 0x6500C60
-        public void ForceLast(){} // RVA: 0x6500CF0
-        public void get_baseName(){} // RVA: 0x6501640
-        public void Expand(){} // RVA: 0x6501700
-        public void Collapse(){} // RVA: 0x6502DD0
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class SteamVR_CameraFlip
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x6503BC0
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class SteamVR_CameraHelper
-    {
-        // ── Methods ──
-        public void Start(){} // RVA: 0x64A2ED0
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class SteamVR_CameraMask
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x6503C60
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class SteamVR_Ears
-    {
-        // ── Methods ──
-        public void OnNewPosesApplied(){} // RVA: 0x6503D00
-        public void OnEnable(){} // RVA: 0x65040D0
-        public void OnDisable(){} // RVA: 0x6504450
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class SteamVR_Events
-    {
-        // ── Methods ──
-        public void CalibratingAction(){} // RVA: 0x6504550
-        public void DeviceConnectedAction(){} // RVA: 0x6504600
-        public void FadeAction(){} // RVA: 0x6504750
-        public void FadeReadyAction(){} // RVA: 0x65048A0
-        public void HideRenderModelsAction(){} // RVA: 0x6504950
-        public void InitializingAction(){} // RVA: 0x6504A00
-        public void InputFocusAction(){} // RVA: 0x6504AB0
-        public void LoadingAction(){} // RVA: 0x6504B60
-        public void LoadingFadeInAction(){} // RVA: 0x6504C10
-        public void LoadingFadeOutAction(){} // RVA: 0x6504CC0
-        public void NewPosesAction(){} // RVA: 0x6504D70
-        public void NewPosesAppliedAction(){} // RVA: 0x6504E30
-        public void InitializedAction(){} // RVA: 0x6504EE0
-        public void OutOfRangeAction(){} // RVA: 0x6504F90
-        public void RenderModelLoadedAction(){} // RVA: 0x6505040
-        public void System(){} // RVA: 0x6505190
-        public void SystemAction(){} // RVA: 0x6505340
-        public void .cctor(){} // RVA: 0x6505480
-    }
-
-    public class SteamVR_ExternalCamera
-    {
-        // ── Methods ──
-        public void ReadConfig(){} // RVA: 0x65060C0
-        public void SetupPose(){} // RVA: 0x6506B00
-        public void SetupDeviceIndex(){} // RVA: 0x6506C80
-        public void OnChanged(){} // RVA: 0x6506D30
-        public void AttachToCamera(){} // RVA: 0x6506D40
-        public void GetTargetDistance(){} // RVA: 0x6508270
-        public void RenderNear(){} // RVA: 0x65087C0
-        public void RenderFar(){} // RVA: 0x6509940
-        public void OnGUI(){} // RVA: 0x2DD310
-        public void OnEnable(){} // RVA: 0x6509C00
-        public void AutoEnableActionSet(){} // RVA: 0x650A130
-        public void OnDisable(){} // RVA: 0x650A2C0
-        public void .ctor(){} // RVA: 0x650A650
-    }
-
-    public class SteamVR_ExternalCamera_LegacyManager
-    {
-        public object IsValid;
-
-        // ── Methods ──
-        public void get_hasCamera(){} // RVA: 0x650A6B0
-        public void SubscribeToNewPoses(){} // RVA: 0x650A710
-        public void OnNewPoses(){} // RVA: 0x650A8B0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x650A9E0
-    }
-
-    public class SteamVR_Fade
-    {
-        // ── Methods ──
-        public void Start(){} // RVA: 0x650AA90
-        public void View(){} // RVA: 0x650AB60
-        public void OnStartFade(){} // RVA: 0x650ABE0
-        public void OnEnable(){} // RVA: 0x650AC90
-        public void OnDisable(){} // RVA: 0x650AFA0
-        public void OnPostRender(){} // RVA: 0x650B0A0
-        public void .ctor(){} // RVA: 0x650B5E0
-        public void .cctor(){} // RVA: 0x650B640
-    }
-
-    public class SteamVR_Frustum
-    {
-        // ── Methods ──
-        public void UpdateModel(){} // RVA: 0x650B6F0
-        public void OnDeviceConnected(){} // RVA: 0x650C120
-        public void OnEnable(){} // RVA: 0x650C3C0
-        public void OnDisable(){} // RVA: 0x650C510
-        public void .ctor(){} // RVA: 0x650C690
-    }
-
-    public class SteamVR_HistoryBuffer
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x65200B0
-        public void Update(){} // RVA: 0x6520180
-        public void GetVelocityMagnitudeTrend(){} // RVA: 0x65204F0
-        public void IsValid(){} // RVA: 0x6520600
-        public void GetTopVelocity(){} // RVA: 0x6520620
-        public void GetAverageVelocities(){} // RVA: 0x6520710
-    }
-
-    public class SteamVR_HistoryStep
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x65209E0
-    }
-
-    public class SteamVR_IK
-    {
-        // ── Methods ──
-        public void LateUpdate(){} // RVA: 0x650C700
-        public void Solve(){} // RVA: 0x650E030
-        public void .ctor(){} // RVA: 0x650E6D0
-    }
-
-    public class SteamVR_Input
-    {
-        // ── Methods ──
-        public void add_onNonVisualActionsUpdated(){} // RVA: 0x64E59D0
-        public void remove_onNonVisualActionsUpdated(){} // RVA: 0x64E5B20
-        public void add_onPosesUpdated(){} // RVA: 0x64E5C70
-        public void remove_onPosesUpdated(){} // RVA: 0x64E5DC0
-        public void add_onSkeletonsUpdated(){} // RVA: 0x64E5F10
-        public void remove_onSkeletonsUpdated(){} // RVA: 0x64E6060
-        public void get_isStartupFrame(){} // RVA: 0x64E61B0
-        public void .cctor(){} // RVA: 0x64E62D0
-        public void ForcePreinitialize(){} // RVA: 0x64E68F0
-        public void FindPreinitializeMethod(){} // RVA: 0x64E6940
-        public void Initialize(){} // RVA: 0x64E6B20
-        public void PreinitializeFinishActionSets(){} // RVA: 0x64E70B0
-        public void PreinitializeActionSetDictionaries(){} // RVA: 0x64E7180
-        public void PreinitializeActionDictionaries(){} // RVA: 0x64E7420
-        public void Update(){} // RVA: 0x64E7690
-        public void LateUpdate(){} // RVA: 0x64E77B0
-        public void FixedUpdate(){} // RVA: 0x64E78F0
-        public void OnPreCull(){} // RVA: 0x64E7A10
-        public void UpdateVisualActions(){} // RVA: 0x64E7B30
-        public void UpdatePoseActions(){} // RVA: 0x64E7D30
-        public void UpdateSkeletonActions(){} // RVA: 0x64E7EB0
-        public void UpdateNonVisualActions(){} // RVA: 0x64E8030
-        public void ShowBindingHintsForSets(){} // RVA: 0x64E8250
-        public void ShowBindingHints(){} // RVA: 0x64E85B0 | overloaded x2
-        public void ShowBindingHintsForActiveActionSets(){} // RVA: 0x64E8690
-        public void GetActionDataFromPath(){} // RVA: 0x283FA0
-        public void GetActionSetDataFromPath(){} // RVA: 0x64E8840
-        public void GetActionFromPath(){} // RVA: 0x283FA0
-        public void GetBaseActionFromPath(){} // RVA: 0x64E88F0
-        public void HasActionPath(){} // RVA: 0x64E8D40
-        public void HasAction(){} // RVA: 0x64E8F60 | overloaded x2
-        public void GetBooleanActionFromPath(){} // RVA: 0x64E9070
-        public void GetSingleActionFromPath(){} // RVA: 0x64E90F0
-        public void GetVector2ActionFromPath(){} // RVA: 0x64E9170
-        public void GetVector3ActionFromPath(){} // RVA: 0x64E91F0
-        public void GetVibrationActionFromPath(){} // RVA: 0x64E9270
-        public void GetPoseActionFromPath(){} // RVA: 0x64E92F0
-        public void GetSkeletonActionFromPath(){} // RVA: 0x64E9370
-        public void GetAction(){} // RVA: 0x283FA0 | overloaded x2
-        public void GetBaseAction(){} // RVA: 0x64E93F0
-        public void CreateFakeAction(){} // RVA: 0x283FA0 | overloaded x2
-        public void GetBooleanAction(){} // RVA: 0x64E9950 | overloaded x2
-        public void GetSingleAction(){} // RVA: 0x64E9A60 | overloaded x2
-        public void GetVector2Action(){} // RVA: 0x64E9B70 | overloaded x2
-        public void GetVector3Action(){} // RVA: 0x64E9C80 | overloaded x2
-        public void GetPoseAction(){} // RVA: 0x64E9D90 | overloaded x2
-        public void GetSkeletonAction(){} // RVA: 0x64E9EA0 | overloaded x2
-        public void GetVibrationAction(){} // RVA: 0x64E9FB0 | overloaded x2
-        public void GetActionSet(){} // RVA: 0x64EA030 | overloaded x2
-        public void HasActionSet(){} // RVA: 0x64EA0C0
-        public void GetActionSetFromPath(){} // RVA: 0x64EA160 | overloaded x2
-        public void GetState(){} // RVA: 0x64EA340 | overloaded x2
-        public void GetStateDown(){} // RVA: 0x64EA630 | overloaded x2
-        public void GetStateUp(){} // RVA: 0x64EA920 | overloaded x2
-        public void GetFloat(){} // RVA: 0x64EAC10 | overloaded x2
-        public void GetSingle(){} // RVA: 0x64EADF0 | overloaded x2
-        public void GetVector2(){} // RVA: 0x64EB000 | overloaded x2
-        public void GetVector3(){} // RVA: 0x64EB3A0 | overloaded x2
-        public void GetActionSets(){} // RVA: 0x64EB440
-        public void GetActions(){} // RVA: 0xC960
-        public void ShouldMakeCopy(){} // RVA: 0x64EB4A0
-        public void GetLocalizedName(){} // RVA: 0x64EB500
-        public void CheckOldLocation(){} // RVA: 0x2DD320
-        public void IdentifyActionsFile(){} // RVA: 0x64EB650
-        public void HasFileInMemoryBeenModified(){} // RVA: 0x64EB9E0
-        public void CreateEmptyActionsFile(){} // RVA: 0x64EBBB0
-        public void DoesActionsFileExist(){} // RVA: 0x64EC260
-        public void InitializeFile(){} // RVA: 0x64EC2C0
-        public void GetActionsFileFolder(){} // RVA: 0x64EC6E0
-        public void GetActionsFilePath(){} // RVA: 0x64EC7F0
-        public void GetActionsFileName(){} // RVA: 0x64ECA90
-        public void DeleteManifestAndBindings(){} // RVA: 0x64ECAF0
-        public void OpenBindingUI(){} // RVA: 0x64ECF60
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionFile
-    {
-        // ── Methods ──
-        public void InitializeHelperLists(){} // RVA: 0x64ED170
-        public void SaveHelperLists(){} // RVA: 0x64ED820
-        public void GetShortName(){} // RVA: 0x64EE060
-        public void GetCodeFriendlyName(){} // RVA: 0x64EE100
-        public void GetFilesToCopy(){} // RVA: 0x64EE2B0
-        public void CopyFilesToPath(){} // RVA: 0x64EE630
-        public void RemoveAppKey(){} // RVA: 0x64EE900
-        public void Open(){} // RVA: 0x64EEA80
-        public void Save(){} // RVA: 0x64EEB80
-        public void .ctor(){} // RVA: 0x64EED00
-    }
-
-    public class SteamVR_Input_ActionFile_Action
-    {
-        // ── Methods ──
-        public void get_requirementValues(){} // RVA: 0x64EFAD0
-        public void GetCopy(){} // RVA: 0x64EFCB0
-        public void get_requirementEnum(){} // RVA: 0x64EFEA0
-        public void set_requirementEnum(){} // RVA: 0x64EFFE0
-        public void get_codeFriendlyName(){} // RVA: 0x64EF3F0
-        public void get_shortName(){} // RVA: 0x64F0090
-        public void get_path(){} // RVA: 0x64F00A0
-        public void CreateNewName(){} // RVA: 0x64F01D0 | overloaded x2
-        public void CreateNew(){} // RVA: 0x64F02C0
-        public void get_direction(){} // RVA: 0x64F04C0
-        public void get_actionSet(){} // RVA: 0x64F0580
-        public void SetNewActionSet(){} // RVA: 0x64F0630
-        public void ToString(){} // RVA: 0x64F0090
-        public void Equals(){} // RVA: 0x64F0830
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionFile_ActionSet
-    {
-        // ── Methods ──
-        public void get_codeFriendlyName(){} // RVA: 0x64EF3F0
-        public void get_shortName(){} // RVA: 0x64EF400
-        public void SetNewShortName(){} // RVA: 0x64EF500
-        public void CreateNewName(){} // RVA: 0x64EF570
-        public void GetPathFromName(){} // RVA: 0x64EF5B0
-        public void CreateNew(){} // RVA: 0x64EF640
-        public void GetCopy(){} // RVA: 0x64EF710
-        public void Equals(){} // RVA: 0x64EF820
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x64EF920
-    }
-
-    public class SteamVR_Input_ActionFile_ActionSet_Usages
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x64F2230
-    }
-
-    public class SteamVR_Input_ActionFile_ActionTypes
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x64F1950
-    }
-
-    public class SteamVR_Input_ActionFile_DefaultBinding
-    {
-        // ── Methods ──
-        public void GetCopy(){} // RVA: 0x64EF2F0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionFile_LocalizationItem
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x64F0B30 | overloaded x2
-    }
-
-    public class SteamVR_Input_ActionSet_Action_Menu
-    {
-        // ── Methods ──
-        public void get_Axis(){} // RVA: 0x64BC2C0
-        public void get_Select(){} // RVA: 0x64BC2D0
-        public void get_Gesture_Activator_Thumb(){} // RVA: 0x64BC2E0
-        public void get_Gesture_Activator_Thumb_Inner_Upper(){} // RVA: 0x64BC2F0
-        public void get_Gesture_Activator_Thumb_Inner_Lower(){} // RVA: 0x64BC300
-        public void get_Gesture_Activator_Thumb_Outer(){} // RVA: 0x64BC310
-        public void get_Gesture_Activator_Index(){} // RVA: 0x64BC320
-        public void get_Gesture_Activator_Grip(){} // RVA: 0x64BC330
-        public void get_Gesture_Trigger_Axis(){} // RVA: 0x64BC340
-        public void get_Gesture_Grip_Axis(){} // RVA: 0x64BC350
-        public void get_Gesture_Activator_Stick_Deflection(){} // RVA: 0x64BC360
-        public void get_Gesture_Wheel_Left(){} // RVA: 0x64BC370
-        public void get_Gesture_Wheel_Select_Left(){} // RVA: 0x64BC380
-        public void get_Gesture_Wheel_Soft_Select_Left(){} // RVA: 0x64BC390
-        public void get_Gesture_Wheel_Weight_Left(){} // RVA: 0x64BC3A0
-        public void get_Gesture_Wheel_Direct_Left(){} // RVA: 0x64BC3B0
-        public void get_Gesture_Wheel_Direct_Stay_Left(){} // RVA: 0x64BC3C0
-        public void get_Gesture_Wheel_Cancel_Left(){} // RVA: 0x64BC3D0
-        public void get_Gesture_Wheel_Cancel_Open_Left(){} // RVA: 0x64BC3E0
-        public void get_Gesture_Wheel_Held_Left(){} // RVA: 0x64BC3F0
-        public void get_Gesture_Wheel_Right(){} // RVA: 0x64BC400
-        public void get_Gesture_Wheel_Select_Right(){} // RVA: 0x64BC410
-        public void get_Gesture_Wheel_Soft_Select_Right(){} // RVA: 0x64BC420
-        public void get_Gesture_Wheel_Weight_Right(){} // RVA: 0x64BC430
-        public void get_Gesture_Wheel_Direct_Right(){} // RVA: 0x64BC440
-        public void get_Gesture_Wheel_Direct_Stay_Right(){} // RVA: 0x64BC450
-        public void get_Gesture_Wheel_Cancel_Right(){} // RVA: 0x64BC460
-        public void get_Gesture_Wheel_Cancel_Open_Right(){} // RVA: 0x64BC470
-        public void get_Gesture_Wheel_Held_Right(){} // RVA: 0x64BC480
-        public void get_Disable_Gesture_Wheel_Move_Left(){} // RVA: 0x64BC490
-        public void get_Disable_Gesture_Wheel_Rotate_Left(){} // RVA: 0x64BC4A0
-        public void get_Disable_Gesture_Wheel_Move_Right(){} // RVA: 0x64BC4B0
-        public void get_Disable_Gesture_Wheel_Rotate_Right(){} // RVA: 0x64BC4C0
-        public void get_Reserve_bool(){} // RVA: 0x64BC4D0
-        public void get_Reserve_vector1(){} // RVA: 0x64BC4E0
-        public void get_Reserve_vector2(){} // RVA: 0x64BC4F0
-        public void get_Grab(){} // RVA: 0x64BC500
-        public void get_Drop(){} // RVA: 0x64BC510
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionSet_Drone
-    {
-        // ── Methods ──
-        public void get_Left_Joystick(){} // RVA: 0x64BC520
-        public void get_Right_Joystick(){} // RVA: 0x64BC530
-        public void get_Self_Leveling_Mod(){} // RVA: 0x64BC540
-        public void get_Hold_Altitude_Mod(){} // RVA: 0x64BC550
-        public void get_Toggle_FPV(){} // RVA: 0x64BC560
-        public void get_Flip(){} // RVA: 0x64BC570
-        public void get_Take_Picture(){} // RVA: 0x64BC580
-        public void get_Cycle_Flight_Preset(){} // RVA: 0x64BC590
-        public void get_Toggle_Self_Leveling(){} // RVA: 0x64BC5A0
-        public void get_Respawn(){} // RVA: 0x64BC5B0
-        public void get_Select_Flight_Preset_Micro(){} // RVA: 0x64BC5C0
-        public void get_Select_Flight_Preset_Cinematic(){} // RVA: 0x64BC5D0
-        public void get_Select_Flight_Preset_Racing(){} // RVA: 0x64BC5E0
-        public void get_Select_Flight_Preset_Freestyle(){} // RVA: 0x64BC5F0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionSet_Global
-    {
-        // ── Methods ──
-        public void get_Safe_Mode(){} // RVA: 0x64BC600
-        public void get_Pose(){} // RVA: 0x64BC610
-        public void get_SkeletonLeftHand(){} // RVA: 0x64BC620
-        public void get_SkeletonRightHand(){} // RVA: 0x64BC630
-        public void get_HeadsetOnHead(){} // RVA: 0x64BC640
-        public void get_Menu(){} // RVA: 0x64BC650
-        public void get_Quick_Menu(){} // RVA: 0x64BC660
-        public void get_Action_Menu(){} // RVA: 0x64BC670
-        public void get_Main_Menu(){} // RVA: 0x64BC680
-        public void get_Interact(){} // RVA: 0x64BC690
-        public void get_Grab(){} // RVA: 0x64BC6A0
-        public void get_Move(){} // RVA: 0x64BC6B0
-        public void get_Jump(){} // RVA: 0x64BC6C0
-        public void get_Rotate(){} // RVA: 0x64BC6D0
-        public void get_Mic(){} // RVA: 0x64BC6E0
-        public void get_Gesture_Toggle(){} // RVA: 0x64BC6F0
-        public void get_Stick_Click(){} // RVA: 0x64BC700
-        public void get_Trigger_Axis(){} // RVA: 0x64BC710
-        public void get_Grip_Axis(){} // RVA: 0x64BC720
-        public void get_Udon_Menu(){} // RVA: 0x64BC730
-        public void get_Drop(){} // RVA: 0x64BC740
-        public void get_Nameplates(){} // RVA: 0x64BC750
-        public void get_HUD(){} // RVA: 0x64BC760
-        public void get_Chatbox(){} // RVA: 0x64BC770
-        public void get_Face_Mirror(){} // RVA: 0x64BC780
-        public void get_Personal_Mirror(){} // RVA: 0x64BC790
-        public void get_Personal_Mirror_Lock(){} // RVA: 0x64BC7A0
-        public void get_Earmuffs(){} // RVA: 0x64BC7B0
-        public void get_Camera(){} // RVA: 0x64BC7C0
-        public void get_Stream_Camera(){} // RVA: 0x64BC7D0
-        public void get_Avatar_Debug_Screen(){} // RVA: 0x64BC7E0
-        public void get_OSC_Debug_Screen(){} // RVA: 0x64BC7F0
-        public void get_Confirm_FBT_Calibration(){} // RVA: 0x64BC800
-        public void get_Start_Move(){} // RVA: 0x64BC810
-        public void get_Start_Rotate(){} // RVA: 0x64BC820
-        public void get_Continue_Move(){} // RVA: 0x64BC830
-        public void get_Continue_Rotate(){} // RVA: 0x64BC840
-        public void get_No_Gesture_After_Move(){} // RVA: 0x64BC850
-        public void get_No_Gesture_After_Rotate(){} // RVA: 0x64BC860
-        public void get_Gesture_Activator_Thumb(){} // RVA: 0x64BC870
-        public void get_Gesture_Activator_Thumb_Inner_Upper(){} // RVA: 0x64BC880
-        public void get_Gesture_Activator_Thumb_Inner_Lower(){} // RVA: 0x64BC890
-        public void get_Gesture_Activator_Thumb_Outer(){} // RVA: 0x64BC8A0
-        public void get_Gesture_Activator_Index(){} // RVA: 0x64BC8B0
-        public void get_Gesture_Activator_Grip(){} // RVA: 0x64BC8C0
-        public void get_Gesture_Trigger_Axis(){} // RVA: 0x64BC8D0
-        public void get_Gesture_Grip_Axis(){} // RVA: 0x64BC8E0
-        public void get_Gesture_Activator_Stick_Deflection(){} // RVA: 0x64BC8F0
-        public void get_Gesture_Direct_Neutral_Left(){} // RVA: 0x64BC900
-        public void get_Gesture_Direct_Fist_Left(){} // RVA: 0x64BC910
-        public void get_Gesture_Direct_Open_Left(){} // RVA: 0x64BC920
-        public void get_Gesture_Direct_Peace_Left(){} // RVA: 0x64BC930
-        public void get_Gesture_Direct_Horns_Left(){} // RVA: 0x64BC940
-        public void get_Gesture_Direct_Finger_Gun_Left(){} // RVA: 0x64BC950
-        public void get_Gesture_Direct_Thumbs_Up_Left(){} // RVA: 0x64BC960
-        public void get_Gesture_Direct_Point_Left(){} // RVA: 0x64BC970
-        public void get_Gesture_Direct_Neutral_Right(){} // RVA: 0x64BC980
-        public void get_Gesture_Direct_Fist_Right(){} // RVA: 0x64BC990
-        public void get_Gesture_Direct_Open_Right(){} // RVA: 0x64BC9A0
-        public void get_Gesture_Direct_Peace_Right(){} // RVA: 0x64BC9B0
-        public void get_Gesture_Direct_Horns_Right(){} // RVA: 0x64BC9C0
-        public void get_Gesture_Direct_Finger_Gun_Right(){} // RVA: 0x64BC9D0
-        public void get_Gesture_Direct_Thumbs_Up_Right(){} // RVA: 0x64BC9E0
-        public void get_Gesture_Direct_Point_Right(){} // RVA: 0x64BC9F0
-        public void get_Gesture_Wheel_Left(){} // RVA: 0x64BCA00
-        public void get_Gesture_Wheel_Select_Left(){} // RVA: 0x64BCA10
-        public void get_Gesture_Wheel_Soft_Select_Left(){} // RVA: 0x64BCA20
-        public void get_Gesture_Wheel_Weight_Left(){} // RVA: 0x64BCA30
-        public void get_Gesture_Wheel_Direct_Left(){} // RVA: 0x64BCA40
-        public void get_Gesture_Wheel_Direct_Stay_Left(){} // RVA: 0x64BCA50
-        public void get_Gesture_Wheel_Cancel_Left(){} // RVA: 0x64BCA60
-        public void get_Gesture_Wheel_Cancel_Open_Left(){} // RVA: 0x64BCA70
-        public void get_Gesture_Wheel_Held_Left(){} // RVA: 0x64BCA80
-        public void get_Gesture_Wheel_Right(){} // RVA: 0x64BCA90
-        public void get_Gesture_Wheel_Select_Right(){} // RVA: 0x64BCAA0
-        public void get_Gesture_Wheel_Soft_Select_Right(){} // RVA: 0x64BCAB0
-        public void get_Gesture_Wheel_Weight_Right(){} // RVA: 0x64BCAC0
-        public void get_Gesture_Wheel_Direct_Right(){} // RVA: 0x64BCAD0
-        public void get_Gesture_Wheel_Direct_Stay_Right(){} // RVA: 0x64BCAE0
-        public void get_Gesture_Wheel_Cancel_Right(){} // RVA: 0x64BCAF0
-        public void get_Gesture_Wheel_Cancel_Open_Right(){} // RVA: 0x64BCB00
-        public void get_Gesture_Wheel_Held_Right(){} // RVA: 0x64BCB10
-        public void get_Disable_Gesture_Tracked(){} // RVA: 0x64BCB20
-        public void get_Disable_Gesture_Wheel_Move_Left(){} // RVA: 0x64BCB30
-        public void get_Disable_Gesture_Wheel_Rotate_Left(){} // RVA: 0x64BCB40
-        public void get_Disable_Gesture_Wheel_Move_Right(){} // RVA: 0x64BCB50
-        public void get_Disable_Gesture_Wheel_Rotate_Right(){} // RVA: 0x64BCB60
-        public void get_Physbone_Grab_Left(){} // RVA: 0x64BCB70
-        public void get_Physbone_Freeze_Left(){} // RVA: 0x64BCB80
-        public void get_Physbone_Grab_Right(){} // RVA: 0x64BCB90
-        public void get_Physbone_Freeze_Right(){} // RVA: 0x64BCBA0
-        public void get_Scroll(){} // RVA: 0x64BCBB0
-        public void get_Haptic(){} // RVA: 0x64BCBC0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionSet_Menu
-    {
-        // ── Methods ──
-        public void get_Confirm(){} // RVA: 0x64BCBD0
-        public void get_Back(){} // RVA: 0x64BCBE0
-        public void get_Tab(){} // RVA: 0x64BCBF0
-        public void get_Scroll(){} // RVA: 0x64BCC00
-        public void get_Quick_Menu_Close(){} // RVA: 0x64BCC10
-        public void get_Drag(){} // RVA: 0x64BCC20
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ActionSet_One_Hand
-    {
-        // ── Methods ──
-        public void get_Interact(){} // RVA: 0x64BCC30
-        public void get_Grab(){} // RVA: 0x64BCC40
-        public void get_Move_Rotate(){} // RVA: 0x64BCC50
-        public void get_Jump(){} // RVA: 0x64BCC60
-        public void get_Mic(){} // RVA: 0x64BCC70
-        public void get_Gesture_Toggle(){} // RVA: 0x64BCC80
-        public void get_Stick_Click(){} // RVA: 0x64BCC90
-        public void get_Trigger_Axis(){} // RVA: 0x64BCCA0
-        public void get_Grip_Axis(){} // RVA: 0x64BCCB0
-        public void get_Udon_Menu(){} // RVA: 0x64BCCC0
-        public void get_Drop(){} // RVA: 0x64BCCD0
-        public void get_Start_Move_Rotate(){} // RVA: 0x64BCCE0
-        public void get_Continue_Move_Rotate(){} // RVA: 0x64BCCF0
-        public void get_No_Gesture_After_Move_Rotate(){} // RVA: 0x64BCD00
-        public void get_Menu(){} // RVA: 0x64BCD10
-        public void get_Nameplates(){} // RVA: 0x64BCD20
-        public void get_HUD(){} // RVA: 0x64BCD30
-        public void get_Chatbox(){} // RVA: 0x64BCD40
-        public void get_Face_Mirror(){} // RVA: 0x64BCD50
-        public void get_Personal_Mirror(){} // RVA: 0x64BCD60
-        public void get_Personal_Mirror_Lock(){} // RVA: 0x64BCD70
-        public void get_Earmuffs(){} // RVA: 0x64BCD80
-        public void get_Camera(){} // RVA: 0x64BCD90
-        public void get_Stream_Camera(){} // RVA: 0x64BCDA0
-        public void get_Avatar_Debug_Screen(){} // RVA: 0x64BCDB0
-        public void get_OSC_Debug_Screen(){} // RVA: 0x64BCDC0
-        public void get_Confirm_FBT_Calibration(){} // RVA: 0x64BCDD0
-        public void get_Gesture_Activator_Thumb(){} // RVA: 0x64BCDE0
-        public void get_Gesture_Activator_Thumb_Inner_Upper(){} // RVA: 0x64BCDF0
-        public void get_Gesture_Activator_Thumb_Inner_Lower(){} // RVA: 0x64BCE00
-        public void get_Gesture_Activator_Thumb_Outer(){} // RVA: 0x64BCE10
-        public void get_Gesture_Activator_Index(){} // RVA: 0x64BCE20
-        public void get_Gesture_Activator_Grip(){} // RVA: 0x64BCE30
-        public void get_Gesture_Trigger_Axis(){} // RVA: 0x64BCE40
-        public void get_Gesture_Grip_Axis(){} // RVA: 0x64BCE50
-        public void get_Gesture_Activator_Stick_Deflection(){} // RVA: 0x64BCE60
-        public void get_Gesture_Wheel_Left(){} // RVA: 0x64BCE70
-        public void get_Gesture_Wheel_Select_Left(){} // RVA: 0x64BCE80
-        public void get_Gesture_Wheel_Soft_Select_Left(){} // RVA: 0x64BCE90
-        public void get_Gesture_Wheel_Weight_Left(){} // RVA: 0x64BCEA0
-        public void get_Gesture_Wheel_Direct_Left(){} // RVA: 0x64BCEB0
-        public void get_Gesture_Wheel_Direct_Stay_Left(){} // RVA: 0x64BCEC0
-        public void get_Gesture_Wheel_Cancel_Left(){} // RVA: 0x64BCED0
-        public void get_Gesture_Wheel_Cancel_Open_Left(){} // RVA: 0x64BCEE0
-        public void get_Gesture_Wheel_Held_Left(){} // RVA: 0x64BCEF0
-        public void get_Gesture_Wheel_Right(){} // RVA: 0x64BCF00
-        public void get_Gesture_Wheel_Select_Right(){} // RVA: 0x64BCF10
-        public void get_Gesture_Wheel_Soft_Select_Right(){} // RVA: 0x64BCF20
-        public void get_Gesture_Wheel_Weight_Right(){} // RVA: 0x64BCF30
-        public void get_Gesture_Wheel_Direct_Right(){} // RVA: 0x64BCF40
-        public void get_Gesture_Wheel_Direct_Stay_Right(){} // RVA: 0x64BCF50
-        public void get_Gesture_Wheel_Cancel_Right(){} // RVA: 0x64BCF60
-        public void get_Gesture_Wheel_Cancel_Open_Right(){} // RVA: 0x64BCF70
-        public void get_Gesture_Wheel_Held_Right(){} // RVA: 0x64BCF80
-        public void get_Disable_Gesture_Wheel_Move_Left(){} // RVA: 0x64BCF90
-        public void get_Disable_Gesture_Wheel_Rotate_Left(){} // RVA: 0x64BCFA0
-        public void get_Disable_Gesture_Wheel_Move_Right(){} // RVA: 0x64BCFB0
-        public void get_Disable_Gesture_Wheel_Rotate_Right(){} // RVA: 0x64BCFC0
-        public void get_Reserve_bool(){} // RVA: 0x64BCFD0
-        public void get_Reserve_vector1(){} // RVA: 0x64BCFE0
-        public void get_Reserve_vector2(){} // RVA: 0x64BCFF0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_BindingFile
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x64F2740
-    }
-
-    public class SteamVR_Input_BindingFile_ActionList
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x64F2800
-    }
-
-    public class SteamVR_Input_BindingFile_Chord
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F2B20
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x64F2E50
-    }
-
-    public class SteamVR_Input_BindingFile_Haptic
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F3060
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_BindingFile_Pose
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F2F10
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_BindingFile_Skeleton
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F31B0
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_BindingFile_Source
-    {
-        // ── Methods ──
-        public void GetOutput(){} // RVA: 0x64F3300
-        public void Equals(){} // RVA: 0x64F3680
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x64F3870
-    }
-
-    public class SteamVR_Input_BindingFile_Source_Input
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F39F0
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x64F3CE0
-    }
-
-    public class SteamVR_Input_BindingFile_Source_Input_StringDictionary
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x64F3D20
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void .ctor(){} // RVA: 0x64F3E60
-    }
-
-    public class SteamVR_Input_Generator_Names
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ManifestFile
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ManifestFile_Application
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x64F0EF0
-    }
-
-    public class SteamVR_Input_ManifestFile_ApplicationString
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ManifestFile_Application_Binding
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class SteamVR_Input_ManifestFile_Application_Binding_ControllerTypes
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x64F1310
     }
 
 }

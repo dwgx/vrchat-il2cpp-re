@@ -8,6 +8,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÌÌÎÏÏÏÎÎÎÎÏÍÌÎÍÌÍÌÏÌ</summary>
     public class BackgroundOptionsSiblingSibling_3D8F
     {
+        public System.Nullable`1<ÍÍÌÏÏÎÍÏÍÍÎÌÌÏÍÍÌÎÌÌÍÍÏ> <ÎÍÏÎÏÎÏÍÎÏÌÏÏÍÎÏÌÏÎÌÍÎÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void mm256_load_ps(){} // RVA: 0x2095F20
         public void mm256_load_ps_AA07B8EE4938(){} // RVA: 0x2095F20
@@ -22,6 +24,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÏÎÎÏÎÎÏÎÏÏÎÍÏÍÍÍÌÌÌÍ</summary>
     public class BackgroundOptionsSibling_A05E
     {
+        public System.Nullable`1<ÌÍÏÏÏÍÌÍÌÍÌÎÌÍÍÍÏÌÎÎÏÎÌ> <ÎÍÏÎÏÎÏÍÎÏÌÏÏÍÎÏÌÏÎÌÍÎÎ>k__BackingField; // 0x10
+
         // ── Unresolved (hash) ──
         public void m_45E(){} // RVA: 0x209A4D0
         public void m_35C(){} // RVA: 0x1F767A0
@@ -127,6 +131,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÍÌÏÏÏÍÌÏÌÍÍÎÌÌÌÍÍÎÎÎ</summary>
     public class BehaviourComponentSystem_DAAB
     {
+        public UnityEngine.UI.Button _submitButton; // 0x138
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x8EE4420
         public void Start(){} // RVA: 0x8EE4980
@@ -240,6 +246,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÍÎÍÌÎÎÎÏÍÍÍÍÌÌÎÎÌÎÍÏ</summary>
     public class BehaviourHandler_A6B2
     {
+        public ÍÌÎÎÎÏÏÎÍÎÍÌÏÎÏÏÎÌÍÍÏÌÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE3A20
         public void Process(){} // RVA: 0x1FE3BF0
@@ -248,6 +256,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÍÎÍÍÏÌÎÌÌÏÍÏÌÏÍÍÎÎÌÍ</summary>
     public class BehaviourHandler_D029
     {
+        public ÍÌÍÍÌÍÍÎÍÍÎÍÍÎÌÏÏÍÎÌÌÎÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE3680
         public void Process(){} // RVA: 0x1FE3850
@@ -304,7 +314,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÌÌÏÌÍÎÌÍÌÏÎÎÍÏÌÌÌÏÌ</summary>
     public class BehaviourHandler_F28A
     {
-        public object _f28A;
+        public ÏÏÍÏÏÎÎÍÏÏÏÌÌÎÍÍÏÌÌÏÎÌÍ _f28A;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F8E140
@@ -314,6 +324,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÌÍÍÏÎÍÍÌÏÏÎÌÏÍÌÌÌÍÏÎ</summary>
     public class BehaviourHandler_FF58
     {
+        public ÍÎÌÍÍÍÌÌÍÍÎÏÏÏÏÍÏÌÌÏÌÎÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE3DC0
         public void Process(){} // RVA: 0x1FE3F90

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 48
-// Methods: 524
+// Classes: 55
+// Methods: 590
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
@@ -22,6 +22,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Scale
     {
+        public UnityEngine.Vector3 m_Scale; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7465B30
         public void Initial(){} // RVA: 0x7465BD0
@@ -36,6 +38,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScheduledItem
     {
+        public System.Func`1<bool> timerUpdateStopCondition; // 0x10
+        public System.Func`1<bool> OnceCondition;
+        public System.Func`1<bool> ForeverCondition; // 0x8
+        public long <startMs>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_startMs(){} // RVA: 0x2E07C0
         public void set_startMs(){} // RVA: 0xC5BE60
@@ -54,6 +61,32 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScrollView
     {
+        public int m_FirstLayoutPass; // 0x3C8
+        public 0x65834260 m_HorizontalScrollerVisibility; // 0x3CC
+        public 0x65834260 m_VerticalScrollerVisibility; // 0x3D0
+        public UnityEngine.UIElements.VisualElement m_AttachedRootVisualContainer; // 0x3D8
+        public float m_SingleLineHeight; // 0x3E0
+        public bool m_MouseWheelScrollSizeIsInline; // 0x3E4
+        public float m_HorizontalPageSize; // 0x3E8
+        public float m_VerticalPageSize; // 0x3EC
+        public float m_MouseWheelScrollSize; // 0x3F0
+        public float k_DefaultScrollDecelerationRate;
+        public float m_ScrollDecelerationRate; // 0x3F4
+        public float k_ScaledPixelsPerPointMultiplier; // 0x3F8
+        public float k_TouchScrollInertiaBaseTimeInterval; // 0x3FC
+        public float k_DefaultElasticity; // 0x4
+        public float m_Elasticity; // 0x400
+        public 0x65834368 m_TouchScrollBehavior; // 0x404
+        public 0x658343C0 m_NestedInteractionKind; // 0x408
+        public long k_DefaultElasticAnimationInterval; // 0x8
+        public long m_ElasticAnimationIntervalMs; // 0x410
+        public UnityEngine.UIElements.VisualElement <contentViewport>k__BackingField; // 0x418
+        public UnityEngine.UIElements.Scroller <horizontalScroller>k__BackingField; // 0x420
+        public UnityEngine.UIElements.Scroller <verticalScroller>k__BackingField; // 0x428
+        public UnityEngine.UIElements.VisualElement m_ContentContainer; // 0x430
+        public UnityEngine.UIElements.VisualElement m_ContentAndVerticalScrollContainer; // 0x438
+        public float previousVerticalTouchScrollTimeStamp; // 0x440
+
         // ── Methods ──
         public void get_horizontalScrollerVisibility(){} // RVA: 0x73BF400
         public void set_horizontalScrollerVisibility(){} // RVA: 0x73BF410
@@ -135,6 +168,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Scroller
     {
+        public System.Action`1<float> valueChanged; // 0x3C8
+        public UnityEngine.UIElements.Slider <slider>k__BackingField; // 0x3D0
+        public UnityEngine.UIElements.RepeatButton <lowButton>k__BackingField; // 0x3D8
+        public UnityEngine.UIElements.RepeatButton <highButton>k__BackingField; // 0x3E0
+        public string ussClassName;
+        public string horizontalVariantUssClassName; // 0x8
+        public string verticalVariantUssClassName; // 0x10
+
         // ── Methods ──
         public void add_valueChanged(){} // RVA: 0x73BD6E0
         public void remove_valueChanged(){} // RVA: 0x73BD7E0
@@ -185,6 +226,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SliderInt
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73C9AB0 | overloaded x2
         public void get_pageSize(){} // RVA: 0x73C9C20
@@ -200,6 +243,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescription
     {
+        public int m_ColumnIndex; // 0x10
+        public string m_ColumnName; // 0x18
+        public 0x65833810 m_SortDirection; // 0x20
+        public UnityEngine.UIElements.Column <column>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_columnName(){} // RVA: 0x2E07C0
         public void set_columnName(){} // RVA: 0x73B7B90
@@ -216,6 +264,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescriptions
     {
+        public System.Collections.Generic.IList`1<UnityEngine.UIElements.SortColumnDescription> m_Descriptions; // 0x10
+        public System.Action changed; // 0x18
+
         // ── Methods ──
         public void add_changed(){} // RVA: 0x73B7F70
         public void remove_changed(){} // RVA: 0x73B8060
@@ -235,6 +286,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Spacing
     {
+        public float left; // 0x10
+        public float top; // 0x14
+
         // ── Methods ──
         public void get_horizontal(){} // RVA: 0x70CDED0
         public void get_vertical(){} // RVA: 0x70CDEF0
@@ -244,6 +298,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StartDragArgs
     {
+        public string <title>k__BackingField; // 0x10
+        public 0x65835968 <visualMode>k__BackingField; // 0x18
+        public System.Collections.Hashtable <genericData>k__BackingField; // 0x20
+        public System.Collections.Generic.IEnumerable`1<UnityEngine.Object> <unityObjectReferences>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73DA530
         public void get_title(){} // RVA: 0x1AD4690
@@ -257,6 +316,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleBackgroundSize
     {
+        public UnityEngine.UIElements.BackgroundSize m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x24
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7465F50
         public void get_keyword(){} // RVA: 0x2EE0010
@@ -278,6 +340,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleColor
     {
+        public UnityEngine.Color m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x20
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7466310
         public void get_keyword(){} // RVA: 0x70B92A0
@@ -291,6 +356,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleComplexSelector
     {
+        public UnityEngine.UIElements.Hashes ancestorHashes; // 0x10
+        public int m_Specificity; // 0x20
+        public UnityEngine.UIElements.StyleRule <rule>k__BackingField; // 0x28
+        public bool m_isSimple; // 0x30
+
         // ── Methods ──
         public void get_specificity(){} // RVA: 0x43DC7A0
         public void get_rule(){} // RVA: 0x30B130
@@ -310,6 +380,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleCursor
     {
+        public UnityEngine.UIElements.Cursor m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x28
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x74665D0
         public void get_keyword(){} // RVA: 0x3D92310
@@ -336,8 +409,101 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void ReferenceEquals(){} // RVA: 0x283FA0
     }
 
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B3B70
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B3CB0
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B3FB0
+        public void op_Equality(){} // RVA: 0x40B4000
+        public void Equals(){} // RVA: 0x40B41E0 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B42F0
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B4510
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B4770
+        public void op_Equality(){} // RVA: 0x40B47C0
+        public void Equals(){} // RVA: 0x40B49E0 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B4AE0
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B4C00
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B4DD0
+        public void op_Equality(){} // RVA: 0x40B4E20
+        public void Equals(){} // RVA: 0x40B5090 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B5190
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B52D0
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B5440
+        public void op_Equality(){} // RVA: 0x40B5490
+        public void Equals(){} // RVA: 0x40B5610 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B5710
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B5830
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B5A00
+        public void op_Equality(){} // RVA: 0x40B5A50
+        public void Equals(){} // RVA: 0x40B5BF0 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
+    public class StyleDataRef`1
+    {
+        // ── Methods ──
+        public void Acquire(){} // RVA: 0x40B3AA0
+        public void Release(){} // RVA: 0x40B3AE0
+        public void CopyFrom(){} // RVA: 0x40B5CF0
+        public void Read(){} // RVA: 0x40B3C90
+        public void Write(){} // RVA: 0x40B5E10
+        public void Create(){} // RVA: 0x40B3ED0
+        public void GetHashCode(){} // RVA: 0x40B60D0
+        public void op_Equality(){} // RVA: 0x40B6120
+        public void Equals(){} // RVA: 0x40B6340 | overloaded x2
+        public void ReferenceEquals(){} // RVA: 0x40B42E0
+    }
+
     public class StyleEnum`1
     {
+        public T m_Value;
+        public 0x6583D3C8 m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x283FA0
         public void get_keyword(){} // RVA: 0xD840
@@ -350,8 +516,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void ToString(){} // RVA: 0xCD60
     }
 
+    public class StyleEnum`1
+    {
+        public T m_Value;
+        public 0x6583D3C8 m_Keyword;
+    }
+
     public class StyleFloat
     {
+        public float m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x14
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7466AE0
         public void get_keyword(){} // RVA: 0x40B7110
@@ -365,6 +540,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleFont
     {
+        public UnityEngine.Font m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x18
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7466CB0
         public void get_keyword(){} // RVA: 0x3C4E030
@@ -378,6 +556,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleFontDefinition
     {
+        public 0x6583D3C8 m_Keyword; // 0x10
+        public UnityEngine.UIElements.FontDefinition m_Value; // 0x18
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7467270
         public void get_keyword(){} // RVA: 0x67FD0D0
@@ -389,6 +570,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleInt
     {
+        public int m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x14
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x40B7100
         public void get_keyword(){} // RVA: 0x40B7110
@@ -402,6 +586,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleLength
     {
+        public UnityEngine.UIElements.Length m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x18
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7467680
         public void get_keyword(){} // RVA: 0x3C4E030
@@ -415,6 +602,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleMatchingContext
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> m_StyleSheetStack; // 0x10
+
         // ── Methods ──
         public void get_styleSheetCount(){} // RVA: 0x732DB40
         public void .ctor(){} // RVA: 0x732DB90
@@ -425,7 +614,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleProperty
     {
-        public object properties;
+        public string properties; // 0x10
+        public int m_Line; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x33B6D40
@@ -450,6 +640,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyName
     {
+        public 0x658446F0 <id>k__BackingField; // 0x10
+        public string <name>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x19689B0
         public void get_name(){} // RVA: 0x19689C0
@@ -474,6 +667,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleRotate
     {
+        public UnityEngine.UIElements.Rotate m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x28
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7467AA0
         public void get_keyword(){} // RVA: 0x3D92310
@@ -487,6 +683,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleRule
     {
+        public UnityEngine.UIElements.StyleProperty[] m_Properties; // 0x10
+
         // ── Methods ──
         public void get_properties(){} // RVA: 0x33B6D40
         public void .ctor(){} // RVA: 0x2DD310
@@ -494,6 +692,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleScale
     {
+        public UnityEngine.UIElements.Scale m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x20
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7467EC0
         public void get_keyword(){} // RVA: 0x70B92A0
@@ -507,8 +708,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSelector
     {
-        public object value;
-        public object type;
+        public UnityEngine.UIElements.StyleSelectorPart[] value; // 0x10
+        public 0x6583EA78 type; // 0x18
 
         // ── Methods ──
         public void get_parts(){} // RVA: 0x33B6D40
@@ -521,6 +722,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSelectorPart
     {
+        public string m_Value; // 0x10
+        public 0x6583EAD0 m_Type; // 0x18
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x2738C50
         public void get_type(){} // RVA: 0x3C4E030
@@ -533,6 +737,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSheet
     {
+        public bool m_ImportedWithErrors; // 0x18
+        public bool m_ImportedWithWarnings; // 0x19
+        public UnityEngine.UIElements.StyleRule[] m_Rules; // 0x20
+        public UnityEngine.UIElements.StyleComplexSelector[] m_ComplexSelectors; // 0x28
+        public float[] floats; // 0x30
+        public UnityEngine.UIElements.StyleSheets.Dimension[] dimensions; // 0x38
+        public UnityEngine.Color[] colors; // 0x40
+
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7090430
         public void set_importedWithErrors(){} // RVA: 0x2F84F0
@@ -580,6 +792,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTextShadow
     {
+        public 0x6583D3C8 m_Keyword; // 0x10
+        public UnityEngine.UIElements.TextShadow m_Value; // 0x14
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x74685F0
         public void get_keyword(){} // RVA: 0x67FD0D0
@@ -593,6 +808,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTransformOrigin
     {
+        public UnityEngine.UIElements.TransformOrigin m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x24
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x74689D0
         public void get_keyword(){} // RVA: 0x2EE0010
@@ -606,6 +824,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTranslate
     {
+        public UnityEngine.UIElements.Translate m_Value; // 0x10
+        public 0x6583D3C8 m_Keyword; // 0x28
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x7468230
         public void get_keyword(){} // RVA: 0x3D92310
@@ -648,6 +869,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueHandle
     {
+        public 0x6583ED90 m_ValueType; // 0x10
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x67FD0D0
         public void set_valueType(){} // RVA: 0x833580
@@ -680,6 +903,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleVariableResolver
     {
+        public int kMaxResolves;
+        public UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser s_SyntaxParser;
+        public UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher m_Matcher; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheets.StylePropertyValue> m_ResolvedValues; // 0x18
+
         // ── Methods ──
         public void get_currentSheet(){} // RVA: 0x4976A0
         public void get_currentHandles(){} // RVA: 0x35A740

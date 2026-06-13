@@ -46,6 +46,10 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.GlobalIllumination
 
     public class LinearColor
     {
+        public float m_red; // 0x10
+        public float m_green; // 0x14
+        public float m_blue; // 0x18
+
         // ── Methods ──
         public void get_red(){} // RVA: 0x300D20
         public void set_red(){} // RVA: 0x71650C0

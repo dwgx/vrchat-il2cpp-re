@@ -7,6 +7,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 {
     public class HandLandmarkerGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarkerGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public Mediapipe.Tasks.Vision.HandDetector.Proto.HandDetectorGraphOptions handDetectorGraphOptions_; // 0x28
+        public Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarksDetectorGraphOptions handLandmarksDetectorGraphOptions_; // 0x30
+        public float MinTrackingConfidenceDefaultValue; // 0x8
+        public float minTrackingConfidence_; // 0x38
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B64270
         public void get_Descriptor(){} // RVA: 0x5B642D0
@@ -36,6 +45,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 
     public class HandLandmarkerGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B63690
         public void .cctor(){} // RVA: 0x5B636F0
@@ -43,6 +54,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 
     public class HandLandmarksDetectorGraphOptions
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarksDetectorGraphOptions> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
+        public float MinDetectionConfidenceDefaultValue; // 0x8
+        public float minDetectionConfidence_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B66080
         public void get_Descriptor(){} // RVA: 0x5B660E0
@@ -68,6 +86,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 
     public class HandLandmarksDetectorGraphOptionsReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B65710
         public void .cctor(){} // RVA: 0x5B65770

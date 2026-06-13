@@ -7,6 +7,9 @@ namespace VRC.Localization
 {
     public class LocalizableOptionData
     {
+        public VRC.Localization.LocalizableString _localizableText; // 0x10
+        public UnityEngine.Sprite _image; // 0x38
+
         // ── Methods ──
         public void set_LocalizableText(){} // RVA: 0x30B130
         public void .ctor(){} // RVA: 0x49A6E20 | overloaded x2
@@ -22,6 +25,12 @@ namespace VRC.Localization
 
     public class LocalizableString
     {
+        public string VARIANT_KEY_SEPARATOR;
+        public string _localizationKey; // 0x10
+        public string _fallbackText; // 0x18
+        public object _arg0; // 0x20
+        public object _arg1; // 0x28
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x5AA0C30
         public void op_Inequality(){} // RVA: 0x5AA0CC0
@@ -74,6 +83,10 @@ namespace VRC.Localization
 
     public class LocalizationAssetSource
     {
+        public string BASE_FOLDER_NAME;
+        public string LANGUAGES_FILE_NAME;
+        public string KEYS_FILE_NAME;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A97440
         public void get_ID(){} // RVA: 0x2F8380
@@ -91,6 +104,14 @@ namespace VRC.Localization
 
     public class LocalizationDatabase
     {
+        public string DEFAULT_LANGUAGE;
+        public System.Collections.Generic.Dictionary`2<string,string> _currentLanguageDictionary; // 0x10
+        public System.Collections.Generic.List`1<string> _languages; // 0x18
+        public System.Collections.Generic.HashSet`1<string> _invalidKeysCache; // 0x20
+        public System.Collections.Generic.List`1<string> _richTextTags; // 0x28
+        public System.Collections.Generic.List`1<VRC.Localization.LocalizationAssetSource> _loadedAssetSources; // 0x30
+        public System.Text.StringBuilder TMPBuilder; // 0x38
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x5A98D50
         public void set_Instance(){} // RVA: 0x5A98D90
@@ -124,6 +145,14 @@ namespace VRC.Localization
 
     public class LocalizationManager
     {
+        public System.Lazy`1<ÍÎÍÍÌÎÎÏÍÍÎÏÍÏÏÍÏÍÍÍÎÍÎ> ÏÌÌÍÍÍÌÌÎÎÌÎÌÌÌÍÌÎÌÏÌÍÎ; // 0x10
+        public string ÌÎÍÌÎÎÍÎÍÍÌÏÎÏÏÌÎÌÏÍÍÍÍ;
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<string> ÎÎÌÍÎÌÏÌÌÏÎÎÏÌÍÏÍÍÏÌÌÍÌ; // 0x18
+        public ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ<VRC.Localization.LocalizableString> ÎÏÎÎÍÎÎÌÎÌÍÎÌÍÎÌÍÍÎÌÏÎÎ; // 0x20
+        public System.Collections.Generic.List`1<string> ÏÎÎÏÌÏÌÌÌÍÌÎÎÍÎÌÍÍÌÍÍÍÎ; // 0x28
+        public ÎÍÏÎÏÎÎÏÍÎÏÏÎÌÎÎÌÍÏÌÎÏÍ <ÍÌÌÏÍÌÍÍÎÏÏÍÍÍÍÌÍÎÌÏÍÌÎ>k__BackingField; // 0x30
+        public string ÌÍÍÍÎÍÌÍÎÎÍÏÎÎÌÌÍÏÌÏÍÎÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1C48670
         public void OnPlayerJoined_A226E8E63B0E(){} // RVA: 0x1C486B0

@@ -49,6 +49,8 @@ namespace ThirdParty.Other.Unity.Jobs
 
     public class JobHandle
     {
+        public ulong jobGroup; // 0x10
+
         // ── Methods ──
         public void Complete(){} // RVA: 0x70B5B90
         public void get_IsCompleted(){} // RVA: 0x70B5BF0

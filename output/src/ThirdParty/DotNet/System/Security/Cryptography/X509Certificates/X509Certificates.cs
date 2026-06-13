@@ -7,8 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 {
     public class PublicKey
     {
-        public object Name;
-        public object `;
+        public string Name;
+        public string `;
+        public System.Security.Cryptography.AsymmetricAlgorithm _key; // 0x10
+        public System.Security.Cryptography.AsnEncodedData _keyValue; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C34250
@@ -30,6 +32,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X500DistinguishedName
     {
+        public 0x6584C7D8 AllFlags;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C352E0 | overloaded x3
         public void get_Name(){} // RVA: 0x30B0C0
@@ -43,6 +47,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509BasicConstraintsExtension
     {
+        public string oid;
+        public string friendlyName;
+        public bool _certificateAuthority; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C36140 | overloaded x3
         public void get_CertificateAuthority(){} // RVA: 0x6C362B0
@@ -56,6 +64,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate
     {
+        public System.Security.Cryptography.X509Certificates.X509CertificateImpl impl; // 0x10
+        public byte[] lazyCertHash; // 0x18
+        public byte[] lazySerialNumber; // 0x20
+        public string lazyIssuer; // 0x28
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x5CAFBC0
         public void .ctor(){} // RVA: 0x5CB0840 | overloaded x9
@@ -92,6 +105,15 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate2
     {
+        public byte[] lazyRawData; // 0x60
+        public System.Security.Cryptography.Oid lazySignatureAlgorithm; // 0x68
+        public int lazyVersion; // 0x70
+        public System.Security.Cryptography.X509Certificates.X500DistinguishedName lazySubjectName; // 0x78
+        public System.Security.Cryptography.X509Certificates.X500DistinguishedName lazyIssuerName; // 0x80
+        public System.Security.Cryptography.X509Certificates.PublicKey lazyPublicKey; // 0x88
+        public System.Security.Cryptography.AsymmetricAlgorithm lazyPrivateKey; // 0x90
+        public System.Security.Cryptography.X509Certificates.X509ExtensionCollection lazyExtensions; // 0x98
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x6C36C80
         public void .ctor(){} // RVA: 0x6C37100 | overloaded x7
@@ -118,6 +140,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate2Collection
     {
+        public string[] newline_split;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C39740 | overloaded x2
         public void get_Item(){} // RVA: 0x6C397E0
@@ -132,6 +156,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate2Enumerator : .ctor
     {
+        public System.Collections.IEnumerator enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C3B370
         public void get_Current(){} // RVA: 0x6C3B420
@@ -161,6 +187,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate2ImplMono
     {
+        public System.Security.Cryptography.X509Certificates.X509CertificateImplCollection intermediateCerts; // 0xB0
+        public Mono.Security.X509.X509Certificate _cert; // 0xB8
+        public string empty_error;
+        public byte[] signedData; // 0x8
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x6999EB0
         public void .ctor(){} // RVA: 0x6C3B810 | overloaded x3
@@ -181,6 +212,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Certificate2ImplUnix
     {
+        public bool readCertData; // 0x10
+        public Internal.Cryptography.Pal.CertificateData certData; // 0x18
+
         // ── Methods ──
         public void EnsureCertData(){} // RVA: 0x6C3D110
         public void GetRawCertData(){} // RVA: 0xCD60
@@ -247,6 +281,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509CertificateImplCollection
     {
+        public System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C3E5A0 | overloaded x2
         public void get_Count(){} // RVA: 0x6C3E840
@@ -259,6 +295,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Chain
     {
+        public System.Security.Cryptography.X509Certificates.X509ChainImpl impl; // 0x10
+
         // ── Methods ──
         public void get_Impl(){} // RVA: 0x6C3EC10
         public void .ctor(){} // RVA: 0x6C3EF30 | overloaded x4
@@ -273,9 +311,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainElement
     {
-        public object Count;
-        public object IsSynchronized;
-        public object Item;
+        public System.Security.Cryptography.X509Certificates.X509Certificate2 Count; // 0x10
+        public System.Security.Cryptography.X509Certificates.X509ChainStatus[] IsSynchronized; // 0x18
+        public string Item; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C3F320
@@ -290,6 +328,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainElementCollection
     {
+        public System.Collections.ArrayList _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C401E0
         public void get_Count(){} // RVA: 0x5DFC050
@@ -306,6 +346,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainElementEnumerator
     {
+        public System.Collections.IEnumerator enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C40680
         public void get_Current(){} // RVA: 0x6C40730
@@ -331,6 +373,17 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainImplMono
     {
+        public 0x6584C728 location; // 0x10
+        public System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements; // 0x18
+        public System.Security.Cryptography.X509Certificates.X509ChainPolicy policy; // 0x20
+        public System.Security.Cryptography.X509Certificates.X509ChainStatus[] status; // 0x28
+        public System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty;
+        public int max_path_length; // 0x30
+        public System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name; // 0x38
+        public System.Security.Cryptography.AsymmetricAlgorithm working_public_key; // 0x40
+        public System.Security.Cryptography.X509Certificates.X509ChainElement bce_restriction; // 0x48
+        public System.Security.Cryptography.X509Certificates.X509Certificate2Collection roots; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C40980
         public void get_IsValid(){} // RVA: 0x3C2850
@@ -370,8 +423,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainPolicy
     {
-        public object Status;
-        public object StatusInformation;
+        public System.Security.Cryptography.OidCollection Status; // 0x10
+        public System.Security.Cryptography.OidCollection StatusInformation; // 0x18
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection store; // 0x20
+        public System.Security.Cryptography.X509Certificates.X509Certificate2Collection store2; // 0x28
+        public 0x6584C990 rflag; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C44B00
@@ -388,7 +444,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ChainStatus
     {
-        public object EnhancedKeyUsages;
+        public 0x6584C830 EnhancedKeyUsages; // 0x10
+        public string info; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C450B0
@@ -400,6 +457,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509EnhancedKeyUsageExtension
     {
+        public System.Security.Cryptography.OidCollection _enhKeyUsage; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C454F0 | overloaded x3
         public void get_EnhancedKeyUsages(){} // RVA: 0x6C45770
@@ -411,6 +470,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Extension
     {
+        public bool _critical; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C462F0 | overloaded x2
         public void get_Critical(){} // RVA: 0x3CB9D0
@@ -421,6 +482,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ExtensionCollection
     {
+        public byte[] Empty;
+        public System.Collections.ArrayList _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C46750
         public void get_Count(){} // RVA: 0x5DFC050
@@ -436,6 +500,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509ExtensionEnumerator
     {
+        public System.Collections.IEnumerator enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C46ED0
         public void get_Current(){} // RVA: 0x6C46F50
@@ -467,6 +533,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509KeyUsageExtension
     {
+        public string oid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C47680 | overloaded x3
         public void get_KeyUsages(){} // RVA: 0x6C477A0
@@ -479,6 +547,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509Store
     {
+        public string _name; // 0x10
+        public 0x6584C728 _location; // 0x18
+        public System.Security.Cryptography.X509Certificates.X509Certificate2Collection list; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C484E0
         public void get_Certificates(){} // RVA: 0x6C48630
@@ -491,6 +563,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography.X509Certificates
 
     public class X509SubjectKeyIdentifierExtension
     {
+        public string oid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C494C0 | overloaded x6
         public void get_SubjectKeyIdentifier(){} // RVA: 0x6C49A50

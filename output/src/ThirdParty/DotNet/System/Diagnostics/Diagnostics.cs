@@ -1,12 +1,31 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Diagnostics
-// Classes: 56
-// Methods: 428
+// Classes: 58
+// Methods: 430
 
 namespace ThirdParty.DotNet.System.Diagnostics
 {
     public class Activity
     {
+        public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<string,string>> s_emptyBaggageTags;
+        public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<string,object>> s_emptyTagObjects; // 0x8
+        public System.Collections.Generic.IEnumerable`1<System.Diagnostics.ActivityLink> s_emptyLinks; // 0x10
+        public System.Collections.Generic.IEnumerable`1<System.Diagnostics.ActivityEvent> s_emptyEvents; // 0x18
+        public System.Diagnostics.ActivitySource s_defaultSource; // 0x20
+        public string s_uniqSuffix; // 0x28
+        public long s_currentRootId; // 0x30
+        public System.EventHandler`1<System.Diagnostics.ActivityChangedEventArgs> CurrentChanged; // 0x38
+        public string _traceState; // 0x10
+        public 0x659F4AD8 _state; // 0x18
+        public string _id; // 0x20
+        public string _rootId; // 0x28
+        public string _parentId; // 0x30
+        public string _parentSpanId; // 0x38
+        public string _traceId; // 0x40
+        public string _spanId; // 0x48
+        public byte _w3CIdFlags; // 0x50
+        public byte _parentTraceFlags; // 0x51
+
         // ── Methods ──
         public void get_Source(){} // RVA: 0x4C7C50
         public void get_Parent(){} // RVA: 0x462D00
@@ -48,7 +67,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ActivityChangedEventArgs
     {
-        public object First;
+        public System.Diagnostics.Activity First; // 0x10
+        public System.Diagnostics.Activity <Current>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x19B3510
@@ -58,6 +78,12 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ActivityContext
     {
+        public System.Diagnostics.ActivityTraceId <TraceId>k__BackingField; // 0x10
+        public System.Diagnostics.ActivitySpanId <SpanId>k__BackingField; // 0x18
+        public 0x659F4BE0 <TraceFlags>k__BackingField; // 0x20
+        public string <TraceState>k__BackingField; // 0x28
+        public bool <IsRemote>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_TraceId(){} // RVA: 0x1AD4690
         public void get_SpanId(){} // RVA: 0x19689C0
@@ -77,6 +103,9 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ActivityLink
     {
+        public TagsLinkedList _tags; // 0x10
+        public System.Diagnostics.ActivityContext <Context>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Context(){} // RVA: 0x1F9BEA0
         public void get_Tags(){} // RVA: 0x1AD4690
@@ -87,6 +116,9 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ActivityListener
     {
+        public System.Action`1<System.Diagnostics.Activity> <ActivityStopped>k__BackingField; // 0x10
+        public System.Func`2<System.Diagnostics.ActivitySource,bool> <ShouldListenTo>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ActivityStopped(){} // RVA: 0x2F8380
         public void get_ShouldListenTo(){} // RVA: 0x2E07C0
@@ -166,7 +198,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Debugger
     {
-        public object Parent;
+        public string Parent;
 
         // ── Methods ──
         public void get_IsAttached(){} // RVA: 0x5DF6150
@@ -186,6 +218,9 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DebuggerDisplayAttribute
     {
+        public string name; // 0x10
+        public string value; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DF5F90
         public void set_Name(){} // RVA: 0x2DEE30
@@ -218,6 +253,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DefaultTraceListener
     {
+        public bool OnWin32;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6C2E900
         public void GetPrefix(){} // RVA: 0x6C2EB90
@@ -235,6 +272,9 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagEnumerator`1
     {
+        public System.Diagnostics.DiagNode`1<T> s_Empty;
+        public System.Diagnostics.DiagNode`1<T> _nextNode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void get_Current(){} // RVA: 0x283FA0
@@ -267,6 +307,10 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class EnhancedStackFrame
     {
+        public string _fileName; // 0x48
+        public int _lineNumber; // 0x50
+        public int _colNumber; // 0x54
+
         // ── Methods ──
         public void get_StackFrame(){} // RVA: 0x3A5500
         public void get_IsRecursive(){} // RVA: 0x644C9D0
@@ -285,6 +329,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class EnhancedStackTrace
     {
+        public System.Collections.Generic.List`1<System.Diagnostics.EnhancedStackFrame> _frames; // 0x28
+
         // ── Methods ──
         public void Current(){} // RVA: 0x644CCC0
         public void .ctor(){} // RVA: 0x644CFD0 | overloaded x2
@@ -334,6 +380,16 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Process
     {
+        public bool haveProcessId; // 0x28
+        public int processId; // 0x2C
+        public bool haveProcessHandle; // 0x30
+        public Microsoft.Win32.SafeHandles.SafeProcessHandle m_processHandle; // 0x38
+        public bool isRemoteMachine; // 0x40
+        public string machineName; // 0x48
+        public int m_processAccess; // 0x50
+        public System.Diagnostics.ProcessThreadCollection threads; // 0x58
+        public System.Diagnostics.ProcessModuleCollection modules; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C28D50 | overloaded x2
         public void get_Associated(){} // RVA: 0x6C28E30
@@ -385,6 +441,24 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ProcessStartInfo
     {
+        public string fileName; // 0x10
+        public string arguments; // 0x18
+        public string directory; // 0x20
+        public string verb; // 0x28
+        public 0x6584C048 windowStyle; // 0x30
+        public bool errorDialog; // 0x34
+        public UIntPtr errorDialogParentHandle; // 0x38
+        public bool useShellExecute; // 0x40
+        public string userName; // 0x48
+        public string domain; // 0x50
+        public System.Security.SecureString password; // 0x58
+        public string passwordInClearText; // 0x60
+        public bool loadUserProfile; // 0x68
+        public bool redirectStandardInput; // 0x69
+        public bool redirectStandardOutput; // 0x6A
+        public bool redirectStandardError; // 0x6B
+        public System.Text.Encoding standardOutputEncoding; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C2DE20 | overloaded x2
         public void get_ArgumentList(){} // RVA: 0x6C2DEE0
@@ -414,6 +488,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ProcessThreadTimes
     {
+        public long create; // 0x10
+
         // ── Methods ──
         public void get_StartTime(){} // RVA: 0x6C2DCF0
         public void .ctor(){} // RVA: 0x2DD310
@@ -427,10 +503,20 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ResolvedMethod
     {
-        public object Name;
-        public object ResolvedType;
-        public object Prefix;
-        public object IsDynamicType;
+        public System.Reflection.MethodBase Name; // 0x10
+        public System.Type ResolvedType; // 0x18
+        public bool Prefix; // 0x20
+        public bool IsDynamicType; // 0x21
+        public System.Diagnostics.ResolvedParameter <ReturnParameter>k__BackingField; // 0x28
+        public string <Name>k__BackingField; // 0x30
+        public System.Nullable`1<int> <Ordinal>k__BackingField; // 0x38
+        public string <GenericArguments>k__BackingField; // 0x40
+        public System.Type[] <ResolvedGenericArguments>k__BackingField; // 0x48
+        public System.Reflection.MethodBase <SubMethodBase>k__BackingField; // 0x50
+        public string <SubMethod>k__BackingField; // 0x58
+        public System.Collections.Generic.Enumerable.EnumerableIList`1<System.Diagnostics.ResolvedParameter> <Parameters>k__BackingField; // 0x60
+        public System.Collections.Generic.Enumerable.EnumerableIList`1<System.Diagnostics.ResolvedParameter> <SubMethodParameters>k__BackingField; // 0x68
+        public int <RecurseCount>k__BackingField; // 0x70
 
         // ── Methods ──
         public void get_MethodBase(){} // RVA: 0x2F8380
@@ -470,6 +556,11 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ResolvedParameter
     {
+        public string <Name>k__BackingField; // 0x10
+        public System.Type <ResolvedType>k__BackingField; // 0x18
+        public string <Prefix>k__BackingField; // 0x20
+        public bool <IsDynamicType>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -505,6 +596,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class StackTrace
     {
+        public int METHODS_TO_SKIP;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x11
         public void init_frames(){} // RVA: 0x5DF6730
@@ -525,8 +618,25 @@ namespace ThirdParty.DotNet.System.Diagnostics
         public void .ctor(){} // RVA: 0x2DD310
     }
 
+    public class StackTraceHiddenAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class StackTraceHiddenAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class Stopwatch
     {
+        public long Frequency;
+        public bool IsHighResolution; // 0x8
+        public long elapsed; // 0x10
+        public long started; // 0x18
+
         // ── Methods ──
         public void GetTimestamp(){} // RVA: 0x5F40750
         public void StartNew(){} // RVA: 0x6C2F4A0
@@ -559,6 +669,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class SwitchLevelAttribute
     {
+        public System.Type type; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C24A30
         public void set_SwitchLevelType(){} // RVA: 0x6C24A30
@@ -566,7 +678,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class SynchronizedList`1
     {
-        public object countAll;
+        public System.Collections.Generic.List`1<T> countAll;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24A50
@@ -579,9 +691,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Trace
     {
-        public object Callstack;
-        public object LogicalOperationStack;
-        public object DateTime;
+        public System.Diagnostics.CorrelationManager Callstack;
 
         // ── Methods ──
         public void get_Listeners(){} // RVA: 0x6C24B20
@@ -592,6 +702,12 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class TraceEventCache
     {
+        public int processId;
+        public string processName; // 0x8
+        public long timeStamp; // 0x10
+        public System.DateTime dateTime; // 0x18
+        public string stackTrace; // 0x20
+
         // ── Methods ──
         public void get_Callstack(){} // RVA: 0x6C24D30
         public void get_LogicalOperationStack(){} // RVA: 0x6C24E10
@@ -613,11 +729,11 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class TraceInternal
     {
-        public object IsThreadSafe;
-        public object IndentLevel;
-        public object IndentSize;
-        public object Filter;
-        public object NeedIndent;
+        public string IsThreadSafe;
+        public System.Diagnostics.TraceListenerCollection IndentLevel; // 0x8
+        public bool IndentSize; // 0x10
+        public bool Filter; // 0x11
+        public int NeedIndent; // 0xFFFFFFFF
 
         // ── Methods ──
         public void get_Listeners(){} // RVA: 0x6C25450
@@ -632,6 +748,13 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class TraceListener
     {
+        public int indentLevel; // 0x18
+        public int indentSize; // 0x1C
+        public 0x6584BAC8 traceOptions; // 0x20
+        public bool needIndent; // 0x24
+        public string listenerName; // 0x28
+        public System.Diagnostics.TraceFilter filter; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C264C0
         public void get_IsThreadSafe(){} // RVA: 0x2DD320
@@ -654,6 +777,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class TraceListenerCollection
     {
+        public System.Collections.ArrayList list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C27560
         public void get_Count(){} // RVA: 0x5DFC050
@@ -696,6 +821,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class ValueTupleResolvedParameter
     {
+        public System.Collections.Generic.IList`1<string> <TupleNames>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_TupleNames(){} // RVA: 0x6374D0
         public void .ctor(){} // RVA: 0x6456AC0

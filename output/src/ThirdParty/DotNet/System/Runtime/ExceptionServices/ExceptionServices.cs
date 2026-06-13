@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Runtime.ExceptionServices
 {
     public class ExceptionDispatchInfo
     {
+        public System.Exception m_Exception; // 0x10
+        public object m_stackTrace; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D43EE0
         public void get_BinaryStackTraceArray(){} // RVA: 0x2E07C0

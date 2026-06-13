@@ -7,6 +7,8 @@ namespace ThirdParty.Cinemachine.Cinemachine.PostFX
 {
     public class CinemachinePostProcessing
     {
+        public float s_VolumePriority;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x1D4F240
         public void InvalidateCachedProfile(){} // RVA: 0x1D4F350

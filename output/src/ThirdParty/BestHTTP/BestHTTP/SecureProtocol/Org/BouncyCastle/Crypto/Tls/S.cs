@@ -7,6 +7,19 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class SecurityParameters
     {
+        public int entity; // 0x10
+        public int cipherSuite; // 0x14
+        public byte compressionAlgorithm; // 0x18
+        public int prfAlgorithm; // 0x1C
+        public int verifyDataLength; // 0x20
+        public byte[] masterSecret; // 0x28
+        public byte[] clientRandom; // 0x30
+        public byte[] serverRandom; // 0x38
+        public byte[] sessionHash; // 0x40
+        public byte[] pskIdentity; // 0x48
+        public byte[] srpIdentity; // 0x50
+        public short maxFragmentLength; // 0x58
+
         // ── Methods ──
         public void Clear(){} // RVA: 0x95330B0
         public void get_Entity(){} // RVA: 0x32A5C0
@@ -26,6 +39,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ServerName
     {
+        public byte mNameType; // 0x10
+        public object mName; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95331B0
         public void get_NameType(){} // RVA: 0x3A75E0
@@ -38,6 +54,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ServerNameList
     {
+        public System.Collections.IList mServerNameList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95337B0
         public void get_ServerNames(){} // RVA: 0x2F8380
@@ -56,6 +74,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ServerSrpParams
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_N; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_g; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_B; // 0x20
+        public byte[] m_s; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9534080
         public void get_B(){} // RVA: 0x30B0C0
@@ -68,6 +91,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class SessionParameters
     {
+        public int mCipherSuite; // 0x10
+        public byte mCompressionAlgorithm; // 0x14
+        public byte[] mMasterSecret; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.Certificate mPeerCertificate; // 0x20
+        public byte[] mPskIdentity; // 0x28
+        public byte[] mSrpIdentity; // 0x30
+        public byte[] mEncodedServerExtensions; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95345A0
         public void Clear(){} // RVA: 0x95348E0
@@ -90,6 +121,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class SignatureAndHashAlgorithm
     {
+        public byte mHash; // 0x10
+        public byte mSignature; // 0x11
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9534EC0
         public void get_Hash(){} // RVA: 0x3A75E0
@@ -118,6 +152,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class SrpTlsClient
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSrpGroupVerifier mGroupVerifier; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9535DF0 | overloaded x3
         public void get_RequireSrpServerExtension(){} // RVA: 0x2DD320
@@ -151,6 +187,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class Ssl3Mac
     {
+        public byte IPAD_BYTE;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9536EB0
         public void get_AlgorithmName(){} // RVA: 0x9536F70
@@ -166,6 +204,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class SupplementalDataEntry
     {
+        public int mDataType; // 0x10
+        public byte[] mData; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CC5AF0
         public void get_DataType(){} // RVA: 0x32A5C0

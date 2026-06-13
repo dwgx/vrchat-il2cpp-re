@@ -992,6 +992,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÍÏÍÌÎÍÌÍÍÍÎÍÍÎÍÎÏÎÍÎÌ</summary>
     public class CamerarenderModelNameSiblingSibling_6F5B
     {
+        public UnityEngine.UI.Button _visibilityButton;
+
         // ── Methods ──
         public void PublishStateAndLoadLiteral(){} // RVA: 0x283FA0
         public void Start(){} // RVA: 0x24A50
@@ -1007,6 +1009,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÍÏÍÌÎÍÌÍÍÍÎÍÍÎÍÎÏÎÍÎÌ</summary>
     public class CamerarenderModelNameSiblingSibling_6F5B
     {
+        public UnityEngine.UI.Button _visibilityButton; // 0x138
+
         // ── Methods ──
         public void PublishStateAndLoadLiteral(){} // RVA: 0xD8A610
         public void Start(){} // RVA: 0x506CF70

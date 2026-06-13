@@ -14,6 +14,9 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class CharEntityEncoderFallback
     {
+        public System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer; // 0x10
+        public int[] textContentMarks; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void CreateFallbackBuffer(){} // RVA: 0x68FE090
@@ -25,6 +28,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class CharEntityEncoderFallbackBuffer
     {
+        public System.Xml.CharEntityEncoderFallback parent; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68FE300
         public void Fallback(){} // RVA: 0x68FE700 | overloaded x2

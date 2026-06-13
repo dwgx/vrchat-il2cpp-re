@@ -13,6 +13,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class RightShiftInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -30,6 +34,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class RuntimeVariables
     {
+        public System.Runtime.CompilerServices.IStrongBox[] _boxes; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void System.Runtime.CompilerServices.IRuntimeVariables.get_Count(){} // RVA: 0xF3F910
@@ -40,6 +46,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class RuntimeVariablesInstruction
     {
+        public int _count; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

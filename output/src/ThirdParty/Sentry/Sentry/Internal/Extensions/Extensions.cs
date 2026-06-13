@@ -64,7 +64,7 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class JsonExtensions
     {
-        public object TokenType;
+        public System.Text.Json.Serialization.JsonConverter[] TokenType;
 
         // ── Methods ──
         public void get_JsonPreserveReferences(){} // RVA: 0x642F900
@@ -130,6 +130,13 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class PEDebugImageData
     {
+        public string <ImageAddress>k__BackingField; // 0x10
+        public System.Nullable`1<long> <ImageSize>k__BackingField; // 0x18
+        public string <DebugId>k__BackingField; // 0x28
+        public string <DebugChecksum>k__BackingField; // 0x30
+        public string <DebugFile>k__BackingField; // 0x38
+        public string <CodeId>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x6439700
         public void get_ImageAddress(){} // RVA: 0x2F8380
@@ -168,6 +175,17 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class SentryJsonContext
     {
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<int> _Int32; // 0x20
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<Sentry.Internal.GrowableArray`1<int>> _GrowableArrayInt32; // 0x28
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<string> _String; // 0x30
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<bool> _Boolean; // 0x38
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<System.Collections.Generic.Dictionary`2<string,bool>> _DictionaryStringBoolean; // 0x40
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<object> _Object; // 0x48
+        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<System.Collections.Generic.Dictionary`2<string,object>> _DictionaryStringObject; // 0x50
+        public System.Text.Json.JsonSerializerOptions <s_defaultOptions>k__BackingField;
+        public Sentry.Internal.Extensions.SentryJsonContext s_defaultContext; // 0x8
+        public System.Text.Json.JsonSerializerOptions <GeneratedSerializerOptions>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_Int32(){} // RVA: 0x6435EB0
         public void get_GrowableArrayInt32(){} // RVA: 0x6436050

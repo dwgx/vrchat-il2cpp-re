@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
-// Classes: 13
-// Methods: 751
+// Classes: 20
+// Methods: 823
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class ElementInit
     {
+        public System.Reflection.MethodInfo <AddMethod>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> <Arguments>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65EB610 | overloaded x2
         public void get_AddMethod(){} // RVA: 0x2F8380
@@ -193,6 +196,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression
     {
+        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Reflection.MethodInfo> s_lambdaDelegateCache;
+        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`5<System.Linq.Expressions.Expression,string,bool,System.Collections.ObjectModel.ReadOnlyCollection`1<...>,System.Linq.Expressions.LambdaExpression>> s_lambdaFactories; // 0x8
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Linq.Expressions.Expression,ExtensionInfo> s_legacyCtorSupportTable; // 0x10
+
         // ── Methods ──
         public void Assign(){} // RVA: 0x65B1240
         public void GetUserDefinedBinaryOperator(){} // RVA: 0x65B2760 | overloaded x2
@@ -412,6 +419,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression1`1
     {
+        public object _par0;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DC60
         public void get_ParameterCount(){} // RVA: 0xD840
@@ -423,6 +432,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression2`1
     {
+        public object _par0;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2F090
         public void get_ParameterCount(){} // RVA: 0xD840
@@ -434,6 +445,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression3`1
     {
+        public object _par0;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2F9F0
         public void get_ParameterCount(){} // RVA: 0xD840
@@ -460,6 +473,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ExpressionN`1
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> _parameters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DC60
         public void get_ParameterCount(){} // RVA: 0xD840
@@ -467,6 +482,19 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
         public void SameParameters(){} // RVA: 0xDE40
         public void GetOrMakeParameters(){} // RVA: 0xCD60
         public void Rewrite(){} // RVA: 0x1E6A0
+    }
+
+    public class ExpressionN`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> _parameters; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331B650
+        public void get_ParameterCount(){} // RVA: 0x331CBA0
+        public void GetParameter(){} // RVA: 0x331CBF0
+        public void SameParameters(){} // RVA: 0x331CC50
+        public void GetOrMakeParameters(){} // RVA: 0x331CD30
+        public void Rewrite(){} // RVA: 0x331CD70
     }
 
     public class ExpressionStringBuilder
@@ -566,6 +594,84 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
         public void ValidateSwitch(){} // RVA: 0x65F97D0
         public void ValidateChildType(){} // RVA: 0x65F9850
         public void VisitDynamic(){} // RVA: 0x65EB3A0
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331D400 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0x331D410
+        public void get_PublicType(){} // RVA: 0x331D4C0
+        public void Compile(){} // RVA: 0x263BC0 | overloaded x3
+        public void Update(){} // RVA: 0x331D820
+        public void SameParameters(){} // RVA: 0x331D310
+        public void Rewrite(){} // RVA: 0x331D330
+        public void Accept(){} // RVA: 0x331D350
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331D400 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0x331D410
+        public void get_PublicType(){} // RVA: 0x331D4C0
+        public void Compile(){} // RVA: 0x263BC0 | overloaded x3
+        public void Update(){} // RVA: 0x331D820
+        public void SameParameters(){} // RVA: 0x331D310
+        public void Rewrite(){} // RVA: 0x331D330
+        public void Accept(){} // RVA: 0x331D350
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331D400 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0x331D410
+        public void get_PublicType(){} // RVA: 0x331D4C0
+        public void Compile(){} // RVA: 0x263BC0 | overloaded x3
+        public void Update(){} // RVA: 0x331D820
+        public void SameParameters(){} // RVA: 0x331D310
+        public void Rewrite(){} // RVA: 0x331D330
+        public void Accept(){} // RVA: 0x331D350
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331D400 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0x331D410
+        public void get_PublicType(){} // RVA: 0x331D4C0
+        public void Compile(){} // RVA: 0x263BC0 | overloaded x3
+        public void Update(){} // RVA: 0x331D820
+        public void SameParameters(){} // RVA: 0x331D310
+        public void Rewrite(){} // RVA: 0x331D330
+        public void Accept(){} // RVA: 0x331D350
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x331D400 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0x331D410
+        public void get_PublicType(){} // RVA: 0x331D4C0
+        public void Compile(){} // RVA: 0x263BC0 | overloaded x3
+        public void Update(){} // RVA: 0x331D820
+        public void SameParameters(){} // RVA: 0x331D310
+        public void Rewrite(){} // RVA: 0x331D330
+        public void Accept(){} // RVA: 0x331D350
+    }
+
+    public class Expression`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x24A50 | overloaded x2
+        public void get_TypeCore(){} // RVA: 0xCD60
+        public void get_PublicType(){} // RVA: 0xCD60
+        public void Compile(){} // RVA: 0x283FA0 | overloaded x3
+        public void Update(){} // RVA: 0x1E6A0
+        public void SameParameters(){} // RVA: 0xDE40
+        public void Rewrite(){} // RVA: 0x1E6A0
+        public void Accept(){} // RVA: 0xCE10
     }
 
     public class Expression`1

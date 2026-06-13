@@ -5,6 +5,9 @@
 
 public class ObjectEnumerator : 
 {
+    public JObject m_Object; // 0x10
+    public int m_Index; // 0x18
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x9807DF0
     public void System.Collections.IDictionaryEnumerator.get_Key(){} // RVA: 0x9807DF0
@@ -22,6 +25,9 @@ public class ObjectEnumerator : 
 
 public class ObjectEnumerator
 {
+    public System.Text.Json.JsonElement _target; // 0x10
+    public int _curIdx; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x630D9D0
     public void get_Current(){} // RVA: 0x630DDB0
@@ -36,6 +42,9 @@ public class ObjectEnumerator
 
 public class ObjectEnumerator
 {
+    public System.Text.Json.JsonElement _target; // 0x10
+    public int _curIdx; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x685DD80
     public void get_Current(){} // RVA: 0x630DDB0
@@ -67,6 +76,8 @@ public class ObjectSurrogate
 
 public class ObjectValueCollection
 {
+    public System.Collections.Generic.IReadOnlyList`1<Token> Values; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9808B00
     public void get_Count(){} // RVA: 0x9808BC0
@@ -139,10 +150,19 @@ public class OculusSpatializerUnity
 
 public class Offset
 {
+    public string name; // 0x10
+    public UnityEngine.Collider collider; // 0x18
+    public float crossFadeTime; // 0x20
+    public float <crossFader>k__BackingField; // 0x24
 }
 
 public class Offset
 {
+    public string name; // 0x10
+    public UnityEngine.Collider collider; // 0x18
+    public float crossFadeTime; // 0x20
+    public float <crossFader>k__BackingField; // 0x24
+
     // ── Methods ──
     public void get_crossFader(){} // RVA: 0x44AF50
     public void set_crossFader(){} // RVA: 0x44AF60
@@ -451,6 +471,11 @@ public class Operator
 
 public class Option
 {
+    public VRC.Localization.LocalizableString <ÎÍÌÌÌÍÏÍÏÎÌÏÏÍÍÌÌÏÌÌÌÏÏ>k__BackingField; // 0x10
+    public VRC.Localization.LocalizableString <ÏÎÎÍÌÎÏÍÍÏÎÍÌÌÏÌÎÌÎÍÍÍÏ>k__BackingField; // 0x38
+    public object <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x60
+    public System.Func`1<bool> <ÌÎÏÏÍÌÏÍÏÍÌÍÎÍÏÎÏÎÌÌÍÎÎ>k__BackingField; // 0x68
+
     // ── Methods ──
     public void set_Value(){} // RVA: 0x37B380
     public void GetMaterial(){} // RVA: 0x37B370
@@ -473,7 +498,8 @@ public class Option
 
 public class OptionData
 {
-    public object options;
+    public string options; // 0x10
+    public UnityEngine.Sprite m_Image; // 0x18
 
     // ── Methods ──
     public void get_text(){} // RVA: 0x2F8380
@@ -485,7 +511,8 @@ public class OptionData
 
 public class OptionData
 {
-    public object options;
+    public string options; // 0x10
+    public UnityEngine.Sprite m_Image; // 0x18
 
     // ── Methods ──
     public void get_text(){} // RVA: 0x2F8380
@@ -497,6 +524,8 @@ public class OptionData
 
 public class OptionDataList
 {
+    public System.Collections.Generic.List`1<OptionData> m_Options; // 0x10
+
     // ── Methods ──
     public void get_options(){} // RVA: 0x2F8380
     public void set_options(){} // RVA: 0x2DEE30
@@ -505,6 +534,8 @@ public class OptionDataList
 
 public class OptionDataList
 {
+    public System.Collections.Generic.List`1<OptionData> m_Options; // 0x10
+
     // ── Methods ──
     public void get_options(){} // RVA: 0x2F8380
     public void set_options(){} // RVA: 0x2DEE30
@@ -513,6 +544,8 @@ public class OptionDataList
 
 public class OptionPropertyDescriptor
 {
+    public DesignerOptionCollection _option; // 0x88
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CB3990
     public void get_ComponentType(){} // RVA: 0x6CB3A20
@@ -527,6 +560,14 @@ public class OptionPropertyDescriptor
 
 public class Options
 {
+    public int MaxUuidCount;
+    public System.Guid[] Ids;
+    public 0x658C4910[] ComponentTypes; // 0x8
+    public int <MaxResults>k__BackingField; // 0x10
+    public double <Timeout>k__BackingField; // 0x18
+    public 0x658C7300 <Location>k__BackingField; // 0x20
+    public 0x658C4A70 <QueryType>k__BackingField; // 0x24
+
     // ── Methods ──
     public void get_MaxResults(){} // RVA: 0x19689B0
     public void set_MaxResults(){} // RVA: 0x833580
@@ -549,12 +590,16 @@ public class Options
 
 public class Options
 {
+    public float weight; // 0x10
+
     // ── Methods ──
     public void get_Default(){} // RVA: 0x388720
 }
 
 public class Options
 {
+    public float weight; // 0x10
+
     // ── Methods ──
     public void HasOptions(){} // RVA: 0x628CE70
     public void RequiresProcessing(){} // RVA: 0x628CE90
@@ -563,6 +608,11 @@ public class Options
 
 public class OptionsAndroid
 {
+    public 0x65996E08 _changed; // 0x20
+    public 0x65996D58 _preferredMaximumResolution; // 0x24
+    public UnityEngine.Vector2Int _customPreferredMaximumResolution; // 0x28
+    public float _preferredPeakBitRate; // 0x30
+
     // ── Methods ──
     public void get_preferredMaximumResolution(){} // RVA: 0xCEF5B0
     public void set_preferredMaximumResolution(){} // RVA: 0x1C99590
@@ -584,6 +634,15 @@ public class OptionsAndroid
 
 public class OptionsApple
 {
+    public 0x65996AF0 DefaultTextureFormat; // 0x20
+    public 0x65996BA0 DefaultFlags; // 0x24
+    public 0x65996AF0 textureFormat; // 0x28
+    public 0x65996B48 _previousAudioMode; // 0x2C
+    public 0x65996B48 _audioMode; // 0x30
+    public 0x65996BA0 _flags; // 0x34
+    public float maximumPlaybackRate; // 0x38
+    public 0x65996CA8 _changed; // 0x3C
+
     // ── Methods ──
     public void get_previousAudioMode(){} // RVA: 0x1209F00
     public void get_audioMode(){} // RVA: 0x338CD0
@@ -610,6 +669,8 @@ public class OptionsApple
 
 public class OptionsBoundJsonTypeInfoResolverChain
 {
+    public System.Text.Json.JsonSerializerOptions _options; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68AEFB0
     public void get_IsReadOnly(){} // RVA: 0x68AEF10
@@ -719,6 +780,9 @@ public class OrderBlock
 
 public class OrderedDictionaryEnumerator
 {
+    public int _objectReturnType; // 0x10
+    public System.Collections.IEnumerator _arrayEnumerator; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CB87A0
     public void get_Current(){} // RVA: 0x6CB8840
@@ -731,6 +795,9 @@ public class OrderedDictionaryEnumerator
 
 public class OrderedDictionaryKeyValueCollection
 {
+    public System.Collections.ArrayList _objects; // 0x10
+    public bool _isKeys; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1AB41A0
     public void System.Collections.ICollection.CopyTo(){} // RVA: 0x6CB8DC0

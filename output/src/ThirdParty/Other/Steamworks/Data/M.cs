@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class MarketEligibilityResponse_t
     {
+        public bool Allowed; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C7D50
         public void .cctor(){} // RVA: 0x20C7D60
@@ -14,6 +16,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MicroTxnAuthorizationResponse_t
     {
+        public uint AppID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C76F0
         public void .cctor(){} // RVA: 0x20C7700
@@ -21,6 +25,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerRemoteToFront_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF440
         public void .cctor(){} // RVA: 0x20CF450
@@ -28,6 +34,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerRemoteWillActivate_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF220
         public void .cctor(){} // RVA: 0x20CF230
@@ -35,6 +43,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerRemoteWillDeactivate_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF330
         public void .cctor(){} // RVA: 0x20CF340
@@ -42,6 +52,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerSelectsPlaylistEntry_t
     {
+        public int NID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFEE0
         public void .cctor(){} // RVA: 0x20CFEF0
@@ -49,6 +61,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerSelectsQueueEntry_t
     {
+        public int NID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFDD0
         public void .cctor(){} // RVA: 0x20CFDE0
@@ -56,6 +70,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsLooped_t
     {
+        public bool Looped; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFBB0
         public void .cctor(){} // RVA: 0x20CFBC0
@@ -63,6 +79,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsPause_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF770
         public void .cctor(){} // RVA: 0x20CF780
@@ -70,6 +88,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsPlayNext_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF990
         public void .cctor(){} // RVA: 0x20CF9A0
@@ -77,6 +97,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsPlayPrevious_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF880
         public void .cctor(){} // RVA: 0x20CF890
@@ -84,6 +106,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsPlay_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF660
         public void .cctor(){} // RVA: 0x20CF670
@@ -91,6 +115,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsPlayingRepeatStatus_t
     {
+        public int PlayingRepeatStatus; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFFF0
         public void .cctor(){} // RVA: 0x20D0000
@@ -98,6 +124,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsShuffled_t
     {
+        public bool Shuffled; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFAA0
         public void .cctor(){} // RVA: 0x20CFAB0
@@ -105,6 +133,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWantsVolume_t
     {
+        public float NewVolume; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CFCC0
         public void .cctor(){} // RVA: 0x20CFCD0
@@ -112,6 +142,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MusicPlayerWillQuit_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF550
         public void .cctor(){} // RVA: 0x20CF560

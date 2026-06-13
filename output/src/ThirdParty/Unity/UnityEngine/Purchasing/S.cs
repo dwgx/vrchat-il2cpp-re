@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ScriptingStoreCallback
     {
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_ForwardTo; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_products(){} // RVA: 0x7232110
@@ -31,6 +33,15 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StandardPurchasingModule
     {
+        public string k_Version; // 0x18
+        public UnityEngine.Purchasing.INativeStoreProvider m_NativeStoreProvider; // 0x20
+        public 0x658954D0 m_RuntimePlatform; // 0x28
+        public UnityEngine.Purchasing.StandardPurchasingModule ModuleInstance;
+        public Uniject.IUtil <util>k__BackingField; // 0x30
+        public UnityEngine.ILogger <logger>k__BackingField; // 0x38
+        public StoreInstance <storeInstance>k__BackingField; // 0x40
+        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsInstanceWrapper <telemetryMetricsInstanceWrapper>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_util(){} // RVA: 0x6374D0
         public void set_util(){} // RVA: 0x30B890
@@ -75,7 +86,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreConfiguration
     {
-        public object payloadSizeInBytes;
+        public 0x6599E868 payloadSizeInBytes; // 0x10
 
         // ── Methods ──
         public void get_androidStore(){} // RVA: 0x32A5C0

@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class ObjectPool
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -34,6 +36,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ObjectPoolT
     {
+        public System.Collections.Generic.List`1<byte> <Data>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
         public void set_Data(){} // RVA: 0x2DEE30

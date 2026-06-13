@@ -121,6 +121,9 @@ public class <Module>
 
 public class <MouseDragOutsideRect>d__194
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -132,6 +135,9 @@ public class <MouseDragOutsideRect>d__194
 
 public class <MouseDragOutsideRect>d__199
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -143,6 +149,9 @@ public class <MouseDragOutsideRect>d__199
 
 public class <MouseDragOutsideRect>d__294
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -154,6 +163,9 @@ public class <MouseDragOutsideRect>d__294
 
 public class <MoveHaptic>d__2
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -212,6 +224,9 @@ public class <NearFieldILDNudgeOnEarBoost>e__FixedBuffer
 
 public class <Nodes>d__18
 {
+    public int <>1__state; // 0x10
+    public System.Xml.Linq.XNode <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -225,6 +240,9 @@ public class <Nodes>d__18
 
 public class <OfTypeIterator>d__97`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50
@@ -239,6 +257,9 @@ public class <OfTypeIterator>d__97`1
 
 public class <OfTypeIterator>d__97`1
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.IReadOnlyDictionary`2<string,object> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2F83330
@@ -253,6 +274,9 @@ public class <OfTypeIterator>d__97`1
 
 public class <OnCollisionEnter>d__10
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -264,6 +288,9 @@ public class <OnCollisionEnter>d__10
 
 public class <OnFinishSubmit>d__9
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -275,6 +302,9 @@ public class <OnFinishSubmit>d__9
 
 public class <OnVideoReadyDelayCoroutine>d__44
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -286,6 +316,9 @@ public class <OnVideoReadyDelayCoroutine>d__44
 
 public class <OnVideoReadyDelayCoroutine>d__58
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -297,6 +330,9 @@ public class <OnVideoReadyDelayCoroutine>d__58
 
 public class <Parse>d__34
 {
+    public int <>1__state; // 0x10
+    public ParsedPathComponent <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x50B87C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -436,6 +472,9 @@ public class <ParseValueAsync>d__8 : [I
 
 public class <PlayDelayCoroutine>d__38
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -447,6 +486,9 @@ public class <PlayDelayCoroutine>d__38
 
 public class <PlayDelayCoroutine>d__48
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -458,6 +500,9 @@ public class <PlayDelayCoroutine>d__48
 
 public class <PoolCleanupTask>d__6
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -483,6 +528,9 @@ public class <PrepareAndLoad>d__33 : [I
 
 public class <PrepareAssetAsync>d__10
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -494,6 +542,9 @@ public class <PrepareAssetAsync>d__10
 
 public class <PrepareAssetAsync>d__7
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -505,6 +556,9 @@ public class <PrepareAssetAsync>d__7
 
 public class <PrependIterator>d__63`1
 {
+    public int <>1__state;
+    public T <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x24A50

@@ -7,6 +7,8 @@ namespace VRC.Udon.Wrapper.Modules
 {
     public class ExternVRCSDK3DataJsonExportTypeArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B3BA70
         public void .ctor(){} // RVA: 0x7B3BAB0
@@ -56,6 +58,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DataTokenType
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B40830
         public void .ctor(){} // RVA: 0x7B40870
@@ -89,6 +93,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DataTokenTypeArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B42EA0
         public void .ctor(){} // RVA: 0x7B42EE0
@@ -138,6 +144,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DataVRCJson
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B47C60
         public void .ctor(){} // RVA: 0x7B47CA0
@@ -154,6 +162,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCAimConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B49000
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7B49040
@@ -244,6 +255,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCAimConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7B536F0
         public void .ctor(){} // RVA: 0x7B53730
@@ -293,6 +306,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCLookAtConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x78FD170
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x78FD1B0
@@ -379,6 +395,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCLookAtConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7907170
         public void .ctor(){} // RVA: 0x79071B0
@@ -428,6 +446,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCParentConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x790BF80
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x790BFC0
@@ -508,6 +529,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCParentConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7915560
         public void .ctor(){} // RVA: 0x79155A0
@@ -557,6 +580,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCPositionConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x791A370
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x791A3B0
@@ -637,6 +663,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCPositionConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7923950
         public void .ctor(){} // RVA: 0x7923990
@@ -686,6 +714,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCRotationConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7928760
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x79287A0
@@ -766,6 +797,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCRotationConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7931D40
         public void .ctor(){} // RVA: 0x7931D80
@@ -815,6 +848,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCScaleConstraint
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7936B50
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7936B90
@@ -895,6 +931,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsConstraintComponentsVRCScaleConstraintArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7940130
         public void .ctor(){} // RVA: 0x7940170
@@ -944,6 +982,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsContactComponentsVRCContactReceiver
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7944F40
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7944F80
@@ -1026,6 +1067,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsContactComponentsVRCContactReceiverArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x794EAB0
         public void .ctor(){} // RVA: 0x794EAF0
@@ -1075,6 +1118,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsContactComponentsVRCContactSender
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79538F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7953930
@@ -1155,6 +1201,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsContactComponentsVRCContactSenderArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x795CF00
         public void .ctor(){} // RVA: 0x795CF40
@@ -1204,6 +1252,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsPhysBoneComponentsVRCPhysBone
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7961D40
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7961D80
@@ -1340,6 +1391,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsPhysBoneComponentsVRCPhysBoneArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79710D0
         public void .ctor(){} // RVA: 0x7971110
@@ -1389,6 +1442,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsPhysBoneComponentsVRCPhysBoneCollider
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7975F10
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7975F50
@@ -1454,6 +1510,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3DynamicsPhysBoneComponentsVRCPhysBoneColliderArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x797DB80
         public void .ctor(){} // RVA: 0x797DBC0
@@ -1503,6 +1561,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageIVRCImageDownload
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79829C0
         public void .ctor(){} // RVA: 0x7982A00
@@ -1524,6 +1584,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageIVRCImageDownloadArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7984370
         public void .ctor(){} // RVA: 0x79843B0
@@ -1573,6 +1635,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageTextureInfo
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79891C0
         public void .ctor(){} // RVA: 0x7989200
@@ -1598,6 +1662,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageTextureInfoArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x798AF30
         public void .ctor(){} // RVA: 0x798AF70
@@ -1647,6 +1713,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageVRCImageDownloadError
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7995D10
         public void .ctor(){} // RVA: 0x7995D50
@@ -1666,6 +1734,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageVRCImageDownloadState
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7997160
         public void .ctor(){} // RVA: 0x79971A0
@@ -1687,6 +1757,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageVRCImageDownloadStateArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7998980
         public void .ctor(){} // RVA: 0x79989C0
@@ -1736,6 +1808,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageVRCImageDownloader
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x798FD80
         public void .ctor(){} // RVA: 0x798FDC0
@@ -1750,6 +1824,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3ImageVRCImageDownloaderArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7990EF0
         public void .ctor(){} // RVA: 0x7990F30
@@ -1799,6 +1875,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalBestInstancesListener
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x520290
         public void .ctor(){} // RVA: 0x5202D0
@@ -1818,6 +1896,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalChangeSettings
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x522C80
         public void .ctor(){} // RVA: 0x522CC0
@@ -1842,6 +1922,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalEventPortalsVRCEventPortalManager
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x76E1540
         public void .ctor(){} // RVA: 0x76E1580
@@ -1897,6 +1979,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalPedestalPreviewListener
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x529A70
         public void .ctor(){} // RVA: 0x529AB0
@@ -1915,6 +1999,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalPlatformChecker
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x532640
         public void .ctor(){} // RVA: 0x532680
@@ -1935,6 +2021,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalToolsVRCInternalUserInterests
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x531020
         public void .ctor(){} // RVA: 0x531060
@@ -1954,6 +2042,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCAnalyticEventsInternal
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x51DDB0
         public void .ctor(){} // RVA: 0x51DDF0
@@ -1969,6 +2059,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCAvatarsInternal
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x51EE80
         public void .ctor(){} // RVA: 0x51EEC0
@@ -1986,6 +2078,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCBestInstances
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x521AE0
         public void .ctor(){} // RVA: 0x521B20
@@ -2001,6 +2095,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCChatBubbleVisibility
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x524EB0
         public void .ctor(){} // RVA: 0x524EF0
@@ -2020,6 +2116,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCComfortMode
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x526480
         public void .ctor(){} // RVA: 0x5264C0
@@ -2040,6 +2138,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCExperiments
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x527B80
         public void .ctor(){} // RVA: 0x527BC0
@@ -2055,6 +2155,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCInternalAvatarPedestal
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x52B070
         public void .ctor(){} // RVA: 0x52B0B0
@@ -2070,6 +2172,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCOpenMenu
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x528F50
         public void .ctor(){} // RVA: 0x528F90
@@ -2082,6 +2186,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCPrideCampaign
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x52C200
         public void .ctor(){} // RVA: 0x52C240
@@ -2102,6 +2208,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUrlConstructor
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x52DD20
         public void .ctor(){} // RVA: 0x52DD60
@@ -2115,6 +2223,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUrlLauncher
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x52EAD0
         public void .ctor(){} // RVA: 0x52EB10
@@ -2130,6 +2240,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUserFirstJoin
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x52FBA0
         public void .ctor(){} // RVA: 0x52FBE0
@@ -2145,6 +2257,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCWorldPlatformChecker
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x533F60
         public void .ctor(){} // RVA: 0x533FA0
@@ -2160,6 +2274,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiMidiData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x799D740
         public void .ctor(){} // RVA: 0x799D780
@@ -2179,6 +2295,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiMidiDataMidiBlock
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x799EDB0
         public void .ctor(){} // RVA: 0x799EDF0
@@ -2207,6 +2325,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiMidiDataMidiBlockArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79A1050
         public void .ctor(){} // RVA: 0x79A1090
@@ -2256,6 +2376,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiMidiDataMidiTrack
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79A5DB0
         public void .ctor(){} // RVA: 0x79A5DF0
@@ -2282,6 +2404,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiMidiDataMidiTrackArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79A7EF0
         public void .ctor(){} // RVA: 0x79A7F30
@@ -2331,6 +2455,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiVRCMidiPlayer
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79ACC50
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x79ACC90
@@ -2390,6 +2517,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3MidiVRCMidiPlayerArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79B3D50
         public void .ctor(){} // RVA: 0x79B3D90
@@ -2439,6 +2568,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3NetworkStats
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79B8B90
         public void .ctor(){} // RVA: 0x79B8BD0
@@ -2483,6 +2614,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PersistencePlayerData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79BCF30
         public void .ctor(){} // RVA: 0x79BCF70
@@ -2559,6 +2692,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PersistencePlayerDataInfo
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79C5F10
         public void .ctor(){} // RVA: 0x79C5F50
@@ -2576,6 +2711,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PersistencePlayerDataInfoArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79C7310
         public void .ctor(){} // RVA: 0x79C7350
@@ -2625,6 +2762,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PlatformScreenUpdateData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79CC150
         public void .ctor(){} // RVA: 0x79CC190
@@ -2638,6 +2777,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PropsVRCPropApi
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79CCE60
         public void .ctor(){} // RVA: 0x79CCEA0
@@ -2672,6 +2813,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3PropsVRCPropApiArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79CFC30
         public void .ctor(){} // RVA: 0x79CFC70
@@ -2721,6 +2864,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCAsyncGPUReadback
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79D4A80
         public void .ctor(){} // RVA: 0x79D4AC0
@@ -2739,6 +2884,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCAsyncGPUReadbackRequest
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79D67E0
         public void .ctor(){} // RVA: 0x79D6820
@@ -2764,6 +2911,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCAsyncGPUReadbackRequestArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79D8B90
         public void .ctor(){} // RVA: 0x79D8BD0
@@ -2813,6 +2962,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCCameraSettings
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79DD9E0
         public void .ctor(){} // RVA: 0x79DDA20
@@ -2866,6 +3017,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCCameraSettingsArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79E2FB0
         public void .ctor(){} // RVA: 0x79E2FF0
@@ -2915,6 +3068,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3RenderingVRCQualitySettings
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79E7E00
         public void .ctor(){} // RVA: 0x79E7E40
@@ -2940,6 +3095,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3StringLoadingIVRCStringDownload
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79E9C90
         public void .ctor(){} // RVA: 0x79E9CD0
@@ -2956,6 +3113,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3StringLoadingVRCStringDownloader : get_Name
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79EADD0
         public void .ctor(){} // RVA: 0x79EAE10
@@ -2967,6 +3126,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3UdonNetworkCallingNetworkCalling
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79EB820
         public void .ctor(){} // RVA: 0x79EB860
@@ -2990,6 +3151,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3VideoComponentsBaseBaseVRCVideoPlayer
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79EE730
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x79EE770
@@ -3073,6 +3237,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79F8140
         public void .ctor(){} // RVA: 0x79F8180
@@ -3122,6 +3288,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseInputManager
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79FCF80
         public void .ctor(){} // RVA: 0x79FCFC0
@@ -3140,6 +3308,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseNetworking
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x79FE610
         public void .ctor(){} // RVA: 0x79FE650
@@ -3183,6 +3353,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseUtilities
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A02910
         public void .ctor(){} // RVA: 0x7A02950
@@ -3196,6 +3368,9 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCCustomAction
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A03560
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7A035A0
@@ -3266,6 +3441,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCCustomActionArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A0BA20
         public void .ctor(){} // RVA: 0x7A0BA60
@@ -3315,6 +3492,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCDroneApi
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A10860
         public void .ctor(){} // RVA: 0x7A108A0
@@ -3336,6 +3515,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCDroneApiArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A12370
         public void .ctor(){} // RVA: 0x7A123B0
@@ -3385,6 +3566,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCGraphics
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A171C0
         public void .ctor(){} // RVA: 0x7A17200
@@ -3401,6 +3584,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCInputMethod
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A1B5F0
         public void .ctor(){} // RVA: 0x7A1B630
@@ -3431,6 +3616,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApi
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A1D740
         public void .ctor(){} // RVA: 0x7A1D780
@@ -3533,6 +3720,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A28F80
         public void .ctor(){} // RVA: 0x7A28FC0
@@ -3582,6 +3771,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiTrackingData
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A2DC80
         public void .ctor(){} // RVA: 0x7A2DCC0
@@ -3598,6 +3789,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiTrackingDataArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A2EF10
         public void .ctor(){} // RVA: 0x7A2EF50
@@ -3647,6 +3840,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCRenderTexture
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A33D10
         public void .ctor(){} // RVA: 0x7A33D50
@@ -3664,6 +3859,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCShader
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A35490
         public void .ctor(){} // RVA: 0x7A354D0
@@ -3688,6 +3885,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCUrl
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A37A40
         public void .ctor(){} // RVA: 0x7A37A80
@@ -3706,6 +3905,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCUrlArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7A38FD0
         public void .ctor(){} // RVA: 0x7A39010
@@ -3755,6 +3956,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonDeserializationResult
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CDD2A0
         public void .ctor(){} // RVA: 0x7CDD2E0
@@ -3772,6 +3975,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonHandType
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CDE690
         public void .ctor(){} // RVA: 0x7CDE6D0
@@ -3785,6 +3990,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonInterfacesIUdonEventReceiver
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BAE8F0
         public void .ctor(){} // RVA: 0x7BAE930
@@ -3817,6 +4024,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonInterfacesIUdonEventReceiverArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7BB2920
         public void .ctor(){} // RVA: 0x7BB2960
@@ -3866,6 +4075,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonSerializationResult
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CDF320
         public void .ctor(){} // RVA: 0x7CDF360
@@ -3882,6 +4093,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCUdonCommonSerializationResultArray
     {
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7CE04F0
         public void .ctor(){} // RVA: 0x7CE0530

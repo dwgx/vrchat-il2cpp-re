@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 {
     public class ConcatenationKdfGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mDigest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9686F00
         public void Init(){} // RVA: 0x9686FB0
@@ -16,7 +18,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class DHKdfParameters : .ctor
     {
-        public object Digest;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Digest; // 0x10
+        public int keySize; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6714790 | overloaded x2
@@ -28,6 +31,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class DHKekGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest digest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void Init(){} // RVA: 0x9687860
@@ -37,6 +42,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 
     public class ECDHKekGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDerivationFunction kdf; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9688180
         public void Init(){} // RVA: 0x9688280

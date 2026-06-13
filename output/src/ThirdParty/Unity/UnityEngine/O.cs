@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Object
     {
+        public UIntPtr m_CachedPtr; // 0x10
+        public int OffsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x712D640
         public void GetHashCode(){} // RVA: 0x712D740

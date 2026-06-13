@@ -37,7 +37,7 @@ public class BrainpoolP512t1Holder
 
 public class Bucket
 {
-    public object Id;
+    public int Id;
 
     // ── Methods ──
     public void .ctor(){}
@@ -48,7 +48,7 @@ public class Bucket
 
 public class Bucket
 {
-    public object Id;
+    public int Id;
 
     // ── Methods ──
     public void .ctor(){}
@@ -59,6 +59,8 @@ public class Bucket
 
 public class Bucket
 {
+    public int _bufferLength; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x573A070
     public void get_Id(){} // RVA: 0x2AB39F0
@@ -74,8 +76,8 @@ public class BucketInfo
 
 public class Buf12
 {
-    public object Low64;
-    public object High64;
+    public uint Low64; // 0x10
+    public uint High64; // 0x14
 
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x2738C50
@@ -86,8 +88,8 @@ public class Buf12
 
 public class Buf16
 {
-    public object Low64;
-    public object Mid64;
+    public uint Low64; // 0x10
+    public uint Mid64; // 0x14
 
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x2738C50
@@ -98,6 +100,10 @@ public class Buf16
 
 public class Buf24
 {
+    public uint U0; // 0x10
+    public uint U1; // 0x14
+    public uint U2; // 0x18
+
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x2738C50
     public void set_Low64(){} // RVA: 0x1B12320
@@ -182,6 +188,8 @@ public class BufferedBerOctetStream
 
 public class BufferedCipherWrapper
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher cipher; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_AlgorithmName(){} // RVA: 0x9981000
@@ -192,6 +200,8 @@ public class BufferedCipherWrapper
 
 public class BufferedStreamContent
 {
+    public long <ContentLength>k__BackingField; // 0x58
+
     // ── Methods ──
     public void get_ContentLength(){} // RVA: 0x3A5500
     public void .ctor(){} // RVA: 0x6428830
@@ -211,6 +221,9 @@ public class BuildProperty
 
 public class Builder
 {
+    public T[] _elements;
+    public int _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void get_Capacity(){} // RVA: 0xD840
@@ -237,7 +250,7 @@ public class Builder
 
 public class Builder
 {
-    public object IsEmpty;
+    public int IsEmpty;
 
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
@@ -245,7 +258,7 @@ public class Builder
 
 public class Builder
 {
-    public object IsEmpty;
+    public int IsEmpty;
 
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
@@ -253,7 +266,7 @@ public class Builder
 
 public class Builder
 {
-    public object Version;
+    public int Version;
 
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
@@ -261,7 +274,7 @@ public class Builder
 
 public class Builder
 {
-    public object Version;
+    public int Version;
 
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
@@ -269,6 +282,8 @@ public class Builder
 
 public class Builder
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> _root;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -279,6 +294,9 @@ public class Builder
 
 public class Builder
 {
+    public Node<U,T> _root;
+    public System.Collections.Generic.IComparer`1<U> _keyComparer;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
     public void get_Root(){} // RVA: 0xCD60
@@ -290,7 +308,7 @@ public class Builder
 
 public class Builder
 {
-    public object Value;
+    public int Value;
 
     // ── Methods ──
     public void get_Version(){} // RVA: 0xD840
@@ -298,14 +316,14 @@ public class Builder
 
 public class Builder
 {
-    public object DefaultVariant;
-    public object name;
-    public object displayName;
-    public object type;
-    public object variants;
-    public object stateFormat;
-    public object stateSizeInBytes;
-    public object baseLayouts;
+    public string DefaultVariant; // 0x10
+    public string name; // 0x18
+    public System.Type displayName; // 0x20
+    public UnityEngine.InputSystem.Utilities.FourCC type; // 0x28
+    public int variants; // 0x2C
+    public string stateFormat; // 0x30
+    public System.Nullable`1<bool> stateSizeInBytes; // 0x38
+    public int baseLayouts; // 0x3C
 
     // ── Methods ──
     public void get_name(){} // RVA: 0x2F8380
@@ -336,14 +354,18 @@ public class Builder
 
 public class Builder
 {
+    public int _version; // 0x10
 }
 
 public class Builder
 {
+    public int _version; // 0x10
 }
 
 public class Builder
 {
+    public int _version; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9534AB0
     public void Build(){} // RVA: 0x9534AC0
@@ -360,6 +382,8 @@ public class Builder
 
 public class Builder
 {
+    public int _version; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9594BB0 | overloaded x3
     public void Set(){} // RVA: 0x9594FF0
@@ -373,6 +397,8 @@ public class Builder
 
 public class Builder
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x338CD0
     public void GetEnumerator(){} // RVA: 0x574A1A0
@@ -383,10 +409,13 @@ public class Builder
 
 public class Builder
 {
+    public int _version; // 0x10
 }
 
 public class Builder
 {
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x10
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x338CD0
     public void GetEnumerator(){} // RVA: 0x574A740
@@ -397,6 +426,7 @@ public class Builder
 
 public class Builder
 {
+    public int _version; // 0x10
 }
 
 public class BuilderNamespaceManager
@@ -420,13 +450,11 @@ public class BunchesInformation
 
 public class Burst
 {
-    public object mode;
-    public object curveMultiplier;
-    public object curveMax;
-    public object curveMin;
-    public object constantMax;
-    public object constantMin;
-    public object constant;
+    public float mode; // 0x10
+    public MinMaxCurve curveMultiplier; // 0x18
+    public int curveMax; // 0x38
+    public float curveMin; // 0x3C
+    public float constantMax; // 0x40
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x71B90D0 | overloaded x5
@@ -479,12 +507,22 @@ public class ButtonData
 
 public class ButtonState
 {
+    public 0x6596BBC8 m_Button; // 0x10
+    public MouseButtonEventData m_EventData; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x18581A0
 }
 
 public class ButtonState
 {
+    public bool m_IsPressed; // 0x10
+    public 0x6596BC20 m_FramePressState; // 0x14
+    public float m_PressTime; // 0x18
+    public UnityEngine.EventSystems.RaycastResult m_PressRaycast; // 0x20
+    public UnityEngine.GameObject m_PressObject; // 0x70
+    public UnityEngine.GameObject m_RawPressObject; // 0x78
+
     // ── Methods ──
     public void get_isPressed(){} // RVA: 0x1E40360
     public void set_isPressed(){} // RVA: 0x6EB9AB0
@@ -503,6 +541,9 @@ public class ButtonState
 
 public class ButtonState
 {
+    public 0x6596BBC8 m_Button; // 0x10
+    public MouseButtonEventData m_EventData; // 0x18
+
     // ── Methods ──
     public void get_eventData(){} // RVA: 0x2E07C0
     public void set_eventData(){} // RVA: 0x343E80

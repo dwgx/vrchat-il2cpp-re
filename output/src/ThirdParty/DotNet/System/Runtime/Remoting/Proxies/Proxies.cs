@@ -16,6 +16,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Proxies
 
     public class RealProxy
     {
+        public System.Type class_to_proxy; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CE1D50 | overloaded x4
         public void InternalGetProxyType(){} // RVA: 0x5CE1EA0
@@ -35,6 +37,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Proxies
 
     public class RemotingProxy
     {
+        public System.Reflection.MethodInfo _cache_GetTypeMethod;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CE3440 | overloaded x2
         public void Invoke(){} // RVA: 0x5CE34F0
@@ -48,7 +52,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Proxies
 
     public class TransparentProxy
     {
-        public object ObjectIdentity;
+        public System.Runtime.Remoting.Proxies.RealProxy ObjectIdentity; // 0x10
+        public Mono.RuntimeRemoteClassHandle _class; // 0x18
 
         // ── Methods ──
         public void GetProxyType(){} // RVA: 0x5CE11C0

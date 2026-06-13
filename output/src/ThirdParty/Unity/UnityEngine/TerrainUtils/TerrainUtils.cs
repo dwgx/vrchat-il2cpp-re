@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.TerrainUtils
 {
     public class TerrainMap
     {
+        public UnityEngine.Vector3 m_patchSize; // 0x10
+
         // ── Methods ──
         public void GetTerrain(){} // RVA: 0x725F650
         public void CreateFromPlacement(){} // RVA: 0x725FD90 | overloaded x2

@@ -17,6 +17,8 @@ public class DictionaryPoolImpl`2
 
 public class DictionaryValueIterator`2 : enumerator
 {
+    public System.Collections.Generic.Dictionary`2<U,T> dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -59,6 +61,8 @@ public class DigStream
 
 public class DigestAndSignerInfoGeneratorHolder
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.ISignerInfoGenerator signerInf; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
     public void get_DigestAlgorithm(){} // RVA: 0x96A8560
@@ -74,6 +78,12 @@ public class DirectParams
 
 public class DirectToArchiveWriterStream
 {
+    public long _position; // 0x28
+    public System.IO.Compression.CheckSumAndSizeWriteStream _crcSizeStream; // 0x30
+    public bool _everWritten; // 0x38
+    public bool _isDisposed; // 0x39
+    public System.IO.Compression.ZipArchiveEntry _entry; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67F2560
     public void get_Length(){} // RVA: 0x67F2680
@@ -166,6 +176,9 @@ public class DispatchEventQueueEvents
 
 public class Display : .ctor
 {
+    public string displayName; // 0x10
+    public string internal_name; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3C81EF0
     public void get_DisplayName(){} // RVA: 0x2F8380
@@ -175,6 +188,9 @@ public class Display : .ctor
 
 public class DisplayNameOptions
 {
+    public bool <FullName>k__BackingField; // 0x10
+    public bool <IncludeGenericParameterNames>k__BackingField; // 0x11
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3312A0
     public void get_FullName(){} // RVA: 0x1E40360
@@ -183,6 +199,11 @@ public class DisplayNameOptions
 
 public class DisplayNameOptions
 {
+    public bool <FullName>k__BackingField; // 0x10
+    public bool <IncludeGenericParameters>k__BackingField; // 0x11
+    public bool <IncludeGenericParameterNames>k__BackingField; // 0x12
+    public char <NestedTypeDelimiter>k__BackingField; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BA3BB0
     public void get_FullName(){} // RVA: 0x1E40360
@@ -193,6 +214,11 @@ public class DisplayNameOptions
 
 public class DisplayNameOptions
 {
+    public bool <FullName>k__BackingField; // 0x10
+    public bool <IncludeGenericParameters>k__BackingField; // 0x11
+    public bool <IncludeGenericParameterNames>k__BackingField; // 0x12
+    public char <NestedTypeDelimiter>k__BackingField; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5BA3BB0
     public void get_FullName(){} // RVA: 0x1E40360
@@ -214,6 +240,8 @@ public class DisplaysUpdatedDelegate
 
 public class DisposableData
 {
+    public System.IDisposable _accessor; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x62E6BF0
     public void Release(){} // RVA: 0x62E6DB0
@@ -222,6 +250,8 @@ public class DisposableData
 
 public class DisposableData
 {
+    public UIntPtr _pointer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x62E70B0
     public void Release(){} // RVA: 0x62E71B0
@@ -321,6 +351,8 @@ public class DnQualifier
 
 public class Domain
 {
+    public string <domain>k__BackingField; // 0x68
+
     // ── Methods ──
     public void get_domain(){} // RVA: 0x358D50
     public void set_domain(){} // RVA: 0x358D60
@@ -335,6 +367,8 @@ public class DomainComponent
 
 public class DoubleBuffers
 {
+    public void** deviceToBufferMapping; // 0x10
+
     // ── Methods ──
     public void get_valid(){} // RVA: 0x34C1790
     public void SetFrontBuffer(){} // RVA: 0x6EEB1A0
@@ -380,6 +414,8 @@ public class DownloadContext
 
 public class DpadAxisControl
 {
+    public int <component>k__BackingField; // 0x130
+
     // ── Methods ──
     public void get_component(){} // RVA: 0x88E540
     public void set_component(){} // RVA: 0x6DC4630
@@ -434,6 +470,11 @@ public class DropdownEvent
 
 public class DropdownItem
 {
+    public TMPro.TMP_Text m_Text; // 0x20
+    public UnityEngine.UI.Image m_Image; // 0x28
+    public UnityEngine.RectTransform m_RectTransform; // 0x30
+    public UnityEngine.UI.Toggle m_Toggle; // 0x38
+
     // ── Methods ──
     public void get_text(){} // RVA: 0x30B0C0
     public void set_text(){} // RVA: 0x30B0D0
@@ -450,6 +491,11 @@ public class DropdownItem
 
 public class DropdownItem
 {
+    public UnityEngine.UI.Text m_Text; // 0x20
+    public UnityEngine.UI.Image m_Image; // 0x28
+    public UnityEngine.RectTransform m_RectTransform; // 0x30
+    public UnityEngine.UI.Toggle m_Toggle; // 0x38
+
     // ── Methods ──
     public void get_text(){} // RVA: 0x30B0C0
     public void set_text(){} // RVA: 0x30B0D0
@@ -466,6 +512,8 @@ public class DropdownItem
 
 public class DtdDefaultAttributeInfoToNodeDataComparer
 {
+    public System.Collections.Generic.IComparer`1<object> s_instance;
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x6A29AF0
     public void Compare(){} // RVA: 0x6A29B50
@@ -475,6 +523,8 @@ public class DtdDefaultAttributeInfoToNodeDataComparer
 
 public class DtdParserProxy
 {
+    public System.Xml.XmlTextReaderImpl reader; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void System.Xml.IDtdParserAdapter.get_NameTable(){} // RVA: 0xF50690
@@ -517,6 +567,8 @@ public class DualSenseHIDBluetoothInputReport
 
 public class DualSenseHIDGenericInputReport
 {
+    public byte reportId; // 0x10
+
     // ── Methods ──
     public void get_Format(){} // RVA: 0x6EBFB70
 }
@@ -536,7 +588,7 @@ public class DualSenseHIDUSBInputReport
 
 public class DualShock4HIDGenericInputReport
 {
-    public object leftTriggerButton;
+    public byte leftTriggerButton; // 0x10
 
     // ── Methods ──
     public void get_Format(){} // RVA: 0x6EBFB70
@@ -608,6 +660,10 @@ public class DynamicBoneData
 
 public class DynamicPartitionEnumerator_Abstract`2
 {
+    public T _sharedReader;
+    public int s_defaultMaxChunkSize;
+    public SharedInt _currentChunkSize;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void GrabNextChunk(){} // RVA: 0xE1F0
@@ -622,6 +678,10 @@ public class DynamicPartitionEnumerator_Abstract`2
 
 public class DynamicPartitionEnumerator_Abstract`2 : System.Collections.Generic
 {
+    public System.Collections.Generic.IEnumerator`1<T> _sharedReader; // 0x10
+    public int s_defaultMaxChunkSize;
+    public SharedInt _currentChunkSize; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E6B200
     public void GrabNextChunk(){} // RVA: 0xE1F0
@@ -636,6 +696,10 @@ public class DynamicPartitionEnumerator_Abstract`2 : System.Collections.Generic
 
 public class DynamicPartitionEnumerator_Abstract`2
 {
+    public System.Collections.Generic.IEnumerator`1<System.Type> _sharedReader; // 0x10
+    public int s_defaultMaxChunkSize;
+    public SharedInt _currentChunkSize; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E6AD80
     public void GrabNextChunk(){} // RVA: 0xE1F0
@@ -650,6 +714,10 @@ public class DynamicPartitionEnumerator_Abstract`2
 
 public class DynamicPartitionEnumerator_Abstract`2
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.HashSet`1<...>> _sharedReader; // 0x10
+    public int s_defaultMaxChunkSize;
+    public SharedInt _currentChunkSize; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E6AD80
     public void GrabNextChunk(){} // RVA: 0xE1F0
@@ -664,6 +732,8 @@ public class DynamicPartitionEnumerator_Abstract`2
 
 public class DynamicPartitionerForIEnumerable`1
 {
+    public System.Collections.Generic.IEnumerable`1<T> _source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2BAA0
     public void GetOrderableDynamicPartitions(){} // RVA: 0xCD60
@@ -672,6 +742,8 @@ public class DynamicPartitionerForIEnumerable`1
 
 public class DynamicPartitionerForIEnumerable`1
 {
+    public System.Collections.Generic.IEnumerable`1<System.Type> _source; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E6BA40
     public void GetOrderableDynamicPartitions(){} // RVA: 0x2E6BAB0
@@ -680,6 +752,8 @@ public class DynamicPartitionerForIEnumerable`1
 
 public class DynamicPartitionerForIEnumerable`1
 {
+    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.HashSet`1<...>> _source; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E6BA40
     public void GetOrderableDynamicPartitions(){} // RVA: 0x2E6BAB0

@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 {
     public class AsyncJsonSerializable : Source
     {
+        public System.Threading.Tasks.Task`1<Sentry.ISentryJsonSerializable> <Source>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Source(){} // RVA: 0x2F8380
         public void CreateFrom(){} // RVA: 0xCE50
@@ -17,6 +19,9 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 
     public class Envelope
     {
+        public System.Nullable`1<Sentry.SentryId> _eventId; // 0x10
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,object> <Header>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Header(){} // RVA: 0x30B130
         public void get_Items(){} // RVA: 0x6374D0
@@ -44,6 +49,10 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 
     public class EnvelopeItem
     {
+        public string TypeKey;
+        public string TypeValueEvent;
+        public string TypeValueUserReport;
+
         // ── Methods ──
         public void get_Header(){} // RVA: 0x2F8380
         public void get_Payload(){} // RVA: 0x2E07C0
@@ -84,6 +93,8 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 
     public class JsonSerializable
     {
+        public Sentry.ISentryJsonSerializable <Source>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Source(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -93,6 +104,8 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 
     public class StreamSerializable : get_Source
     {
+        public System.IO.Stream <Source>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Source(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30

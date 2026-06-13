@@ -45,6 +45,10 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsContext
     {
+        public System.Security.Cryptography.X509Certificates.X509Certificate2 remoteCertificate; // 0x58
+        public System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate; // 0x60
+        public Mono.Btls.X509CertificateImplBtls nativeServerCertificate; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66987F0
         public void GetPrivateCertificate(){} // RVA: 0x6698870
@@ -113,6 +117,9 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsObject
     {
+        public MonoBtlsHandle handle; // 0x10
+        public System.Exception lastError; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Handle(){} // RVA: 0x669D240
@@ -130,6 +137,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsPkcs12
     {
+        public Mono.Btls.MonoBtlsKey privateKey; // 0x20
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x669DB60
         public void mono_btls_pkcs12_free(){} // RVA: 0x669DBE0
@@ -191,6 +200,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsSsl
     {
+        public Mono.Btls.MonoBtlsBio bio; // 0x20
+
         // ── Methods ──
         public void mono_btls_ssl_destroy(){} // RVA: 0x6BD5AE0
         public void mono_btls_ssl_new(){} // RVA: 0x6BD5B60
@@ -246,6 +257,9 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsSslCtx
     {
+        public NativeVerifyFunc verifyFunc; // 0x20
+        public NativeSelectFunc selectFunc; // 0x28
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BD8490
         public void mono_btls_ssl_ctx_new(){} // RVA: 0x6BD8510
@@ -340,6 +354,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsX509Lookup
     {
+        public Mono.Btls.MonoBtlsX509Store store; // 0x20
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BDD6A0
         public void mono_btls_x509_lookup_new(){} // RVA: 0x6BDD720
@@ -358,6 +374,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsX509LookupMono
     {
+        public System.Runtime.InteropServices.GCHandle gch; // 0x20
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BDE6B0
         public void mono_btls_x509_lookup_mono_new(){} // RVA: 0x6BDE730
@@ -403,6 +421,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsX509Store
     {
+        public System.Collections.Generic.Dictionary`2<UIntPtr,Mono.Btls.MonoBtlsX509Lookup> lookupHash; // 0x20
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BE0A60
         public void mono_btls_x509_store_new(){} // RVA: 0x6BE0AE0
@@ -420,6 +440,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class MonoBtlsX509StoreCtx
     {
+        public System.Nullable`1<int> verifyResult; // 0x20
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BE1B60
         public void mono_btls_x509_store_ctx_new(){} // RVA: 0x6BE1BE0
@@ -475,6 +497,10 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class X509CertificateImplBtls
     {
+        public Mono.Btls.MonoBtlsX509 x509; // 0xB0
+        public Mono.Btls.MonoBtlsKey nativePrivateKey; // 0xB8
+        public System.Security.Cryptography.X509Certificates.X509CertificateImplCollection intermediateCerts; // 0xC0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BE4BF0 | overloaded x4
         public void get_IsValid(){} // RVA: 0x6BE4D90
@@ -497,6 +523,11 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class X509ChainImplBtls
     {
+        public Mono.Btls.MonoBtlsX509StoreCtx storeCtx; // 0x10
+        public Mono.Btls.MonoBtlsX509Chain chain; // 0x18
+        public Mono.Btls.MonoBtlsX509Chain untrustedChain; // 0x20
+        public System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BE60C0 | overloaded x2
         public void get_IsValid(){} // RVA: 0x6BE6A00
@@ -511,6 +542,8 @@ namespace ThirdParty.DotNet.Mono.Btls
 
     public class X509PalImplBtls
     {
+        public Mono.Btls.MonoBtlsProvider <Provider>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BE7460
         public void get_Provider(){} // RVA: 0x2F8380

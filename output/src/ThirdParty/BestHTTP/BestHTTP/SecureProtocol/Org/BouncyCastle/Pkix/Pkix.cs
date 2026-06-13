@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 {
     public class CertStatus
     {
+        public int Unrevoked;
+        public int Undetermined;
+
         // ── Methods ──
         public void get_RevocationDate(){} // RVA: 0x2E07C0
         public void set_RevocationDate(){} // RVA: 0x343E80
@@ -40,6 +43,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixBuilderParameters
     {
+        public int maxPathLength; // 0x90
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x96F5F60
         public void .ctor(){} // RVA: 0x96F6070
@@ -54,6 +59,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixCertPath
     {
+        public System.Collections.IList certPathEncodings;
+        public System.Collections.IList certificates; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x96F6750
         public void SortCerts(){} // RVA: 0x96F68F0
@@ -82,7 +90,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixCertPathBuilderResult
     {
-        public object PolicyTree;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.PkixCertPath PolicyTree; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96F9B10
@@ -111,6 +119,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixCertPathValidatorException
     {
+        public System.Exception cause; // 0x90
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.PkixCertPath certPath; // 0x98
+        public int index; // 0xA0
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96FB920 | overloaded x4
         public void get_Message(){} // RVA: 0x96FBB70
@@ -120,6 +132,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixCertPathValidatorResult
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.TrustAnchor trustAnchor; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.PkixPolicyNode policyTree; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter subjectPublicKey; // 0x20
+
         // ── Methods ──
         public void get_PolicyTree(){} // RVA: 0x2E07C0
         public void get_TrustAnchor(){} // RVA: 0x2F8380
@@ -237,6 +253,16 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixParameters
     {
+        public int PkixValidityModel;
+        public int ChainValidityModel;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet trustAnchors; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date.DateTimeObject date; // 0x18
+        public System.Collections.IList certPathCheckers; // 0x20
+        public bool revocationEnabled; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet initialPolicies; // 0x30
+        public bool explicitPolicyRequired; // 0x38
+        public bool anyPolicyInhibited; // 0x39
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9895450
         public void get_IsRevocationEnabled(){} // RVA: 0x6E8A80
@@ -287,6 +313,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class PkixPolicyNode
     {
+        public System.Collections.IList mChildren; // 0x10
+        public int mDepth; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet mExpectedPolicies; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.PkixPolicyNode mParent; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet mPolicyQualifiers; // 0x30
+        public string mValidPolicy; // 0x38
+        public bool mCritical; // 0x40
+
         // ── Methods ──
         public void get_Depth(){} // RVA: 0x5BED50
         public void get_Children(){} // RVA: 0x9898760
@@ -309,6 +343,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class ReasonsMask
     {
+        public int _reasons; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix.ReasonsMask AllReasons;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5D070 | overloaded x2
         public void AddReasons(){} // RVA: 0x9899620
@@ -379,8 +416,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkix
 
     public class TrustAnchor
     {
-        public object Key;
-        public object .ctor;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter Key; // 0x10
+        public string .ctor; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name caPrincipal; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate trustedCert; // 0x28
+        public byte[] ncBytes; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98A8FA0 | overloaded x3

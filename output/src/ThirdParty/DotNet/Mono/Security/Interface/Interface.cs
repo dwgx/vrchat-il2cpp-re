@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.Mono.Security.Interface
 {
     public class Alert
     {
-        public object Trusted;
-        public object UserDenied;
+        public 0x659A5F58 Trusted; // 0x10
+        public 0x659A5FB0 UserDenied; // 0x11
 
         // ── Methods ──
         public void get_Level(){} // RVA: 0x3A75E0
@@ -38,6 +38,10 @@ namespace ThirdParty.DotNet.Mono.Security.Interface
 
     public class MonoTlsConnectionInfo
     {
+        public 0x659A6110 <CipherSuiteCode>k__BackingField; // 0x10
+        public 0x659A6480 <ProtocolVersion>k__BackingField; // 0x14
+        public string <PeerDomainName>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_CipherSuiteCode(){} // RVA: 0x1C0F720
         public void set_CipherSuiteCode(){} // RVA: 0x1C0FA70
@@ -69,6 +73,22 @@ namespace ThirdParty.DotNet.Mono.Security.Interface
 
     public class MonoTlsSettings
     {
+        public Mono.Security.Interface.MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField; // 0x10
+        public Mono.Security.Interface.MonoLocalCertificateSelectionCallback <ClientCertificateSelectionCallback>k__BackingField; // 0x18
+        public System.Nullable`1<System.DateTime> <CertificateValidationTime>k__BackingField; // 0x20
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection <TrustAnchors>k__BackingField; // 0x30
+        public object <UserSettings>k__BackingField; // 0x38
+        public string[] <CertificateSearchPaths>k__BackingField; // 0x40
+        public bool <SendCloseNotify>k__BackingField; // 0x48
+        public string[] <ClientCertificateIssuers>k__BackingField; // 0x50
+        public bool <DisallowUnauthenticatedCertificateRequest>k__BackingField; // 0x58
+        public System.Nullable`1<0x659A6480> <EnabledProtocols>k__BackingField; // 0x5C
+        public 0x659A6110[] <EnabledCiphers>k__BackingField; // 0x68
+        public bool cloned; // 0x70
+        public bool checkCertName; // 0x71
+        public bool checkCertRevocationStatus; // 0x72
+        public System.Nullable`1<bool> useServicePointManagerCallback; // 0x73
+
         // ── Methods ──
         public void get_RemoteCertificateValidationCallback(){} // RVA: 0x2F8380
         public void set_RemoteCertificateValidationCallback(){} // RVA: 0x2DEE30
@@ -111,8 +131,8 @@ namespace ThirdParty.DotNet.Mono.Security.Interface
 
     public class ValidationResult
     {
-        public object CipherSuiteCode;
-        public object ProtocolVersion;
+        public bool CipherSuiteCode; // 0x10
+        public bool ProtocolVersion; // 0x11
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BD9400

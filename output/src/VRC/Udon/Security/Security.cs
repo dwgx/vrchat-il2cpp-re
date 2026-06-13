@@ -7,6 +7,8 @@ namespace VRC.Udon.Security
 {
     public class AudioSourceMixerHolder
     {
+        public UnityEngine.Audio.AudioMixerGroup <WorldGroup>k__BackingField;
+
         // ── Methods ──
         public void get_WorldGroup(){} // RVA: 0x771A500
         public void set_WorldGroup(){} // RVA: 0x771A540
@@ -38,6 +40,8 @@ namespace VRC.Udon.Security
 
     public class UdonSignatureHolderMarker
     {
+        public System.Type <type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -45,6 +49,8 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityBlacklist
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.Object> _objectBlacklist; // 0x10
+
         // ── Methods ──
         public void IsBlacklisted(){} // RVA: 0x771BDB0 | overloaded x2
         public void IsBlacklistedGameObject(){} // RVA: 0x771AC30
@@ -61,6 +67,8 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityWhitelist
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.Object> _objectWhitelist; // 0x10
+
         // ── Methods ──
         public void ApplyFilter(){} // RVA: 0x771CD70 | overloaded x2
         public void ApplyLightCullingMaskFilter(){} // RVA: 0x771C700

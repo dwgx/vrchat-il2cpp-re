@@ -25,6 +25,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class InteriorNode
     {
+        public System.Xml.Schema.SyntaxTreeNode leftChild; // 0x10
+        public System.Xml.Schema.SyntaxTreeNode rightChild; // 0x18
+
         // ── Methods ──
         public void get_LeftChild(){} // RVA: 0x2F8380
         public void set_LeftChild(){} // RVA: 0x2DEE30

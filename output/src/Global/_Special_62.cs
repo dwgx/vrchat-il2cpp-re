@@ -5,6 +5,8 @@
 
 public class _TakeLast
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -36,6 +38,8 @@ public class _TakeStereoScreenshot
 
 public class _TakeUntil
 {
+    public System.Action`1<object> CancelDelegate1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -51,6 +55,8 @@ public class _TakeUntil
 
 public class _TakeUntilCanceled
 {
+    public System.Action`1<object> CancelDelegate1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -112,6 +118,8 @@ public class _TakeWhileIntAwaitWithCancellation
 
 public class _Throw
 {
+    public System.Exception exception;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -121,6 +129,8 @@ public class _Throw
 
 public class _Timer
 {
+    public float dueTime; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D2B370
     public void get_Current(){} // RVA: 0x2DD320
@@ -131,6 +141,8 @@ public class _Timer
 
 public class _TimerFrame
 {
+    public int dueTimeFrameCount; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D2BD20
     public void get_Current(){} // RVA: 0x2DD320
@@ -141,6 +153,8 @@ public class _TimerFrame
 
 public class _ToUniTaskAsyncEnumerable
 {
+    public System.Collections.Generic.IEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -150,6 +164,8 @@ public class _ToUniTaskAsyncEnumerable
 
 public class _ToUniTaskAsyncEnumerableObservable
 {
+    public System.Action`1<object> OnCanceledDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -164,6 +180,8 @@ public class _ToUniTaskAsyncEnumerableObservable
 
 public class _ToUniTaskAsyncEnumerableTask
 {
+    public System.Threading.Tasks.Task`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -173,6 +191,8 @@ public class _ToUniTaskAsyncEnumerableTask
 
 public class _ToUniTaskAsyncEnumerableUniTask
 {
+    public Cysharp.Threading.Tasks.UniTask`1<T> source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -326,6 +346,8 @@ public class _WaitGetPoses
 
 public class _Where
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -337,6 +359,8 @@ public class _Where
 
 public class _Where
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -348,6 +372,8 @@ public class _Where
 
 public class _WhereAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -359,6 +385,8 @@ public class _WhereAwait
 
 public class _WhereAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -370,6 +398,8 @@ public class _WhereAwait
 
 public class _WhereAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -381,6 +411,8 @@ public class _WhereAwaitWithCancellation
 
 public class _WhereAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -428,6 +460,8 @@ public class _WritePropertyBatch
 
 public class _Zip
 {
+    public System.Action`1<object> firstMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -441,6 +475,8 @@ public class _Zip
 
 public class _ZipAwait
 {
+    public System.Action`1<object> firstMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -455,6 +491,8 @@ public class _ZipAwait
 
 public class _ZipAwaitWithCancellation
 {
+    public System.Action`1<object> firstMoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0

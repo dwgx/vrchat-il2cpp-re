@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 {
     public class AxisComposite
     {
+        public int negative; // 0x10
+
         // ── Methods ──
         public void get_midPoint(){} // RVA: 0x6DDB950
         public void ReadValue(){} // RVA: 0x6DDB970
@@ -36,6 +38,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class OneModifierComposite
     {
+        public int modifier; // 0x10
+        public int binding; // 0x14
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x30B130
         public void get_valueSizeInBytes(){} // RVA: 0x760030
@@ -50,6 +55,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class TwoModifiersComposite
     {
+        public int modifier1; // 0x10
+        public int modifier2; // 0x14
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x30B130
         public void get_valueSizeInBytes(){} // RVA: 0xCEF5B0

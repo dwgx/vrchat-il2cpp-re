@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.A
 {
     public class SimpleBigDecimal
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger bigInt; // 0x10
+        public int scale; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9503A70
         public void .ctor(){} // RVA: 0x9503BB0 | overloaded x2

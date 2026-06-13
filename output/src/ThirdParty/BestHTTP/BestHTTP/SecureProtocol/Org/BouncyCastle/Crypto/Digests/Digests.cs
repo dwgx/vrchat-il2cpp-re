@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 {
     public class Blake2bDigest
     {
+        public ulong[] blake2b_IV;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x964BC40 | overloaded x5
         public void Init(){} // RVA: 0x964BFC0
@@ -28,6 +30,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Blake2sDigest
     {
+        public uint[] blake2s_IV;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x964DF40 | overloaded x5
         public void Init(){} // RVA: 0x964E2C0
@@ -49,6 +53,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Dstu7564Digest
     {
+        public int NB_512;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x964FCB0 | overloaded x2
         public void CopyIn(){} // RVA: 0x964F970
@@ -73,6 +79,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class GeneralDigest
     {
+        public int BYTE_LENGTH;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9651B00 | overloaded x2
         public void CopyIn(){} // RVA: 0x9651BF0
@@ -92,6 +100,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Gost3411Digest
     {
+        public int DIGEST_LENGTH;
+
         // ── Methods ──
         public void MakeC(){} // RVA: 0x9651F70
         public void .ctor(){} // RVA: 0x9653040 | overloaded x3
@@ -117,6 +127,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Gost3411_2012Digest
     {
+        public byte[] IV; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9654E00
         public void get_AlgorithmName(){} // RVA: 0xCD60
@@ -138,6 +150,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Gost3411_2012_256Digest
     {
+        public byte[] IV;
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x9658370
         public void .ctor(){} // RVA: 0x9658450 | overloaded x2
@@ -149,6 +163,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Gost3411_2012_512Digest
     {
+        public byte[] IV;
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x9658780
         public void .ctor(){} // RVA: 0x9658860 | overloaded x2
@@ -159,6 +175,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class KeccakDigest
     {
+        public ulong[] KeccakRoundConstants;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9658C00 | overloaded x3
         public void CopyIn(){} // RVA: 0x9658D90
@@ -184,6 +202,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class LongDigest
     {
+        public int MyByteLength; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965AA10 | overloaded x2
         public void CopyIn(){} // RVA: 0x965AB60
@@ -211,6 +231,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class MD2Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965BEF0 | overloaded x2
         public void CopyIn(){} // RVA: 0x965C070
@@ -229,6 +251,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class MD4Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965CC00 | overloaded x2
         public void CopyIn(){} // RVA: 0x965CCC0
@@ -249,6 +273,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class MD5Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965DDA0 | overloaded x2
         public void CopyIn(){} // RVA: 0x965CCC0
@@ -270,6 +296,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class NonMemoableDigest
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mBaseDigest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965F500
         public void get_AlgorithmName(){} // RVA: 0x965F5B0
@@ -283,6 +311,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class NullDigest
     {
+        public System.IO.MemoryStream bOut; // 0x10
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x965F850
         public void GetByteLength(){} // RVA: 0x519240
@@ -296,6 +326,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class RipeMD128Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x965FBA0 | overloaded x2
         public void CopyIn(){} // RVA: 0x965CCC0
@@ -321,6 +353,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class RipeMD160Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9661850 | overloaded x2
         public void CopyIn(){} // RVA: 0x9661910
@@ -343,6 +377,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class RipeMD256Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x9666820
         public void GetDigestSize(){} // RVA: 0x210E300
@@ -368,6 +404,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class RipeMD320Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x96688B0
         public void GetDigestSize(){} // RVA: 0x210E2E0
@@ -390,6 +428,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class SM3Digest
     {
+        public int DIGEST_LENGTH;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9677A20
         public void .ctor(){} // RVA: 0x9677D30 | overloaded x2
@@ -412,6 +452,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha1Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x966DC50 | overloaded x2
         public void CopyIn(){} // RVA: 0x9661910
@@ -430,6 +472,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha224Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x966EAC0 | overloaded x2
         public void CopyIn(){} // RVA: 0x96669D0
@@ -452,6 +496,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha256Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x966FC70 | overloaded x2
         public void CopyIn(){} // RVA: 0x96669D0
@@ -473,6 +519,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha384Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9670D00 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9670D60
@@ -494,6 +542,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha512Digest
     {
+        public int DigestLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96718F0 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9671950
@@ -505,6 +555,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class Sha512tDigest
     {
+        public ulong A5;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96722C0 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9672350
@@ -530,6 +582,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class ShortenedDigest
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest baseDigest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96735F0
         public void get_AlgorithmName(){} // RVA: 0x9673740
@@ -543,6 +597,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class SkeinDigest
     {
+        public int SKEIN_256;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9673BB0 | overloaded x2
         public void Reset(){} // RVA: 0x95CC890 | overloaded x2
@@ -558,6 +614,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class SkeinEngine
     {
+        public int SKEIN_256;
+        public int SKEIN_512;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x96741D0
         public void InitialState(){} // RVA: 0x9674590
@@ -583,6 +642,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class TigerDigest
     {
+        public int MyByteLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9678C80 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9678E90
@@ -607,6 +668,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Di
 
     public class WhirlpoolDigest
     {
+        public int BYTE_LENGTH;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x967A880
         public void .ctor(){} // RVA: 0x967B8A0 | overloaded x2

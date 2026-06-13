@@ -22,6 +22,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class SettingsBindableAttribute
     {
+        public System.ComponentModel.SettingsBindableAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_Bindable(){} // RVA: 0x3A75E0

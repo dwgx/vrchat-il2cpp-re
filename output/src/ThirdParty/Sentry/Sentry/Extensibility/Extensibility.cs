@@ -36,6 +36,9 @@ namespace ThirdParty.Sentry.Sentry.Extensibility
 
     public class DisabledHub
     {
+        public Sentry.Extensibility.DisabledHub Instance;
+        public Sentry.IMetricAggregator <Metrics>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x2DD320
         public void .ctor(){} // RVA: 0x6446D50
@@ -76,6 +79,8 @@ namespace ThirdParty.Sentry.Sentry.Extensibility
 
     public class HubAdapter
     {
+        public Sentry.Extensibility.HubAdapter Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_IsEnabled(){} // RVA: 0x6447B80
@@ -206,6 +211,8 @@ namespace ThirdParty.Sentry.Sentry.Extensibility
 
     public class RequestBodyExtractionDispatcher
     {
+        public Sentry.SentryOptions _options; // 0x10
+
         // ── Methods ──
         public void get_Extractors(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x6449970

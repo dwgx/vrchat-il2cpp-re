@@ -228,10 +228,16 @@ Start-Process python -ArgumentList "tools/codex_worker.py","--mode","sibling","-
 - [x] 全文档数字统一到权威值（README/WORKFLOW/dashboard/coverage_report）
 - [x] 所有文件名/代码中 claude 引用清除
 
+### 已完成 (v2.4) ✅
+- [x] **运行时字段恢复**【最大缺口已解决】: 字段 2,870 → **71,972**（92.1% 带类型）。
+      由配套私有项目 `vrc-runtime-re` 走 dump 的 FieldInfo→Il2CppType 提取，
+      产出 `output/field_types.json`，pipeline Stage 2b 自动按 VA 合并。
+      混淆 VRChat 类现在带真实类型（VRCPlayerApi/PositionEvent/VRCStation…），
+      可作为方法/类命名的新上下文。
+
 ### 未做 ❌（按 ROI 排序）
-- [ ] **Frida 运行时字段提取**【最高价值】: 当前只有 2,870 字段（应有 ~70K+）。
-      这是最大缺口。需要 VRChat 离线运行 + Frida 注入跑 `extract_field_types_v2.py`。
-      字段类型不仅补全 fields 覆盖，还能给方法命名提供强上下文。
+- [ ] **用字段类型反哺命名**: 71K 字段类型是新的命名上下文（有 VRCPlayerApi 字段的类=玩家相关），
+      可喂回 LLM/规则给混淆类更准的语义名。
 - [ ] **IDA 分析深化**【中价值】: 28K 函数已反编译，剩余 hash 方法可继续补伪代码走 mega-batch。
 - [ ] **剩余 ~49K hash 方法**【低价值】: 大部分是 `<>c` 闭包/lambda/编译器生成/极通用方法，
       审计已证明强行命名 = 幻觉。边际收益极低，不建议盲目冲覆盖率。

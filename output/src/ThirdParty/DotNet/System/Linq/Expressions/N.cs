@@ -14,6 +14,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class NewArrayExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> <Expressions>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66010C0 | overloaded x2
         public void Make(){} // RVA: 0x6600E40
@@ -32,6 +35,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class NewExpression
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x10
+        public System.Reflection.ConstructorInfo <Constructor>k__BackingField; // 0x18
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo> <Members>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66014C0 | overloaded x2
         public void get_Type(){} // RVA: 0x5BF76F0
@@ -47,6 +54,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class NewValueTypeExpression
     {
+        public System.Type <Type>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66014F0
         public void get_Type(){} // RVA: 0x30B130

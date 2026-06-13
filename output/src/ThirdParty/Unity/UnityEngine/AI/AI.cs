@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.AI
 {
     public class NavMesh
     {
+        public OnNavMeshPreUpdate onPreUpdate;
+
         // ── Methods ──
         public void Internal_CallOnNavMeshPreUpdate(){} // RVA: 0x707A160
         public void Raycast(){} // RVA: 0x707B130 | overloaded x2
@@ -187,13 +189,13 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshBuildMarkup
     {
-        public object agentTypeID;
-        public object agentRadius;
-        public object agentHeight;
-        public object agentSlope;
-        public object agentClimb;
-        public object ledgeDropHeight;
-        public object maxJumpAcrossDistance;
+        public int agentTypeID; // 0x10
+        public int agentRadius; // 0x14
+        public int agentHeight; // 0x18
+        public int agentSlope; // 0x1C
+        public int agentClimb; // 0x20
+        public int ledgeDropHeight; // 0x24
+        public int maxJumpAcrossDistance; // 0x28
 
         // ── Methods ──
         public void set_overrideArea(){} // RVA: 0x623C350
@@ -207,6 +209,22 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshBuildSettings
     {
+        public int m_AgentTypeID; // 0x10
+        public float m_AgentRadius; // 0x14
+        public float m_AgentHeight; // 0x18
+        public float m_AgentSlope; // 0x1C
+        public float m_AgentClimb; // 0x20
+        public float m_LedgeDropHeight; // 0x24
+        public float m_MaxJumpAcrossDistance; // 0x28
+        public float m_MinRegionArea; // 0x2C
+        public int m_OverrideVoxelSize; // 0x30
+        public float m_VoxelSize; // 0x34
+        public int m_OverrideTileSize; // 0x38
+        public int m_TileSize; // 0x3C
+        public int m_BuildHeightMesh; // 0x40
+        public uint m_MaxJobWorkers; // 0x44
+        public int m_PreserveTilesOutsideBounds; // 0x48
+
         // ── Methods ──
         public void get_agentTypeID(){} // RVA: 0x67FD0D0
         public void set_agentTypeID(){} // RVA: 0x833580
@@ -245,6 +263,13 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshBuildSource
     {
+        public UnityEngine.Matrix4x4 m_Transform; // 0x10
+        public UnityEngine.Vector3 m_Size; // 0x50
+        public 0x659EA4D0 m_Shape; // 0x5C
+        public int m_Area; // 0x60
+        public int m_InstanceID; // 0x64
+        public int m_ComponentID; // 0x68
+
         // ── Methods ──
         public void get_transform(){} // RVA: 0x707C1A0
         public void set_transform(){} // RVA: 0x707C1D0
@@ -296,9 +321,7 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshDataInstance
     {
-        public object startPosition;
-        public object endPosition;
-        public object costModifier;
+        public int startPosition; // 0x10
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7079A50
@@ -311,9 +334,11 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshHit
     {
-        public object valid;
-        public object id;
-        public object owner;
+        public UnityEngine.Vector3 valid; // 0x10
+        public UnityEngine.Vector3 id; // 0x1C
+        public float owner; // 0x28
+        public int m_Mask; // 0x2C
+        public int m_Hit; // 0x30
 
         // ── Methods ──
         public void get_position(){} // RVA: 0x7079450
@@ -330,9 +355,13 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshLinkData
     {
-        public object valid;
-        public object id;
-        public object owner;
+        public UnityEngine.Vector3 valid; // 0x10
+        public UnityEngine.Vector3 id; // 0x1C
+        public float owner; // 0x28
+        public int m_Bidirectional; // 0x2C
+        public float m_Width; // 0x30
+        public int m_Area; // 0x34
+        public int m_AgentTypeID; // 0x38
 
         // ── Methods ──
         public void get_startPosition(){} // RVA: 0x7079450
@@ -353,9 +382,7 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshLinkInstance
     {
-        public object costs;
-        public object areaMask;
-        public object agentTypeID;
+        public int costs; // 0x10
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7079D10
@@ -411,7 +438,8 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshPath
     {
-        public object PN00;
+        public UIntPtr PN00; // 0x10
+        public UnityEngine.Vector3[] m_Corners; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x707BCE0
@@ -429,8 +457,9 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshQueryFilter
     {
-        public object corners;
-        public object status;
+        public float[] corners; // 0x10
+        public int status; // 0x18
+        public int <agentTypeID>k__BackingField; // 0x1C
 
         // ── Methods ──
         public void get_costs(){} // RVA: 0x1AD4690
@@ -473,11 +502,12 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class OffMeshLinkData
     {
-        public object position;
-        public object normal;
-        public object distance;
-        public object mask;
-        public object hit;
+        public int position; // 0x10
+        public int normal; // 0x14
+        public int distance; // 0x18
+        public 0x659EA000 mask; // 0x1C
+        public UnityEngine.Vector3 hit; // 0x20
+        public UnityEngine.Vector3 m_EndPos; // 0x2C
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x61D2420

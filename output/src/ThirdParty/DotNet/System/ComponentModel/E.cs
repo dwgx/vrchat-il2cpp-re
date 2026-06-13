@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class EditorAttribute
     {
+        public string _typeId; // 0x10
+        public string <EditorBaseTypeName>k__BackingField; // 0x18
+        public string <EditorTypeName>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C62460 | overloaded x4
         public void get_EditorBaseTypeName(){} // RVA: 0x2E07C0
@@ -18,6 +22,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class EditorBrowsableAttribute
     {
+        public 0x6584D540 browsableState; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5D070 | overloaded x2
         public void get_State(){} // RVA: 0x32A5C0
@@ -27,6 +33,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class EnumConverter
     {
+        public StandardValuesCollection values; // 0x10
+        public System.Type type; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x343E80
         public void get_EnumType(){} // RVA: 0x2E07C0
@@ -56,6 +65,15 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class EventDescriptorCollection
     {
+        public System.ComponentModel.EventDescriptor[] _events; // 0x10
+        public string[] _namedSort; // 0x18
+        public System.Collections.IComparer _comparer; // 0x20
+        public bool _eventsOwned; // 0x28
+        public bool _needSort; // 0x29
+        public bool _readOnly; // 0x2A
+        public System.ComponentModel.EventDescriptorCollection Empty;
+        public int <Count>k__BackingField; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C62900 | overloaded x3
         public void get_Count(){} // RVA: 0x1209F00
@@ -95,6 +113,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class EventHandlerList
     {
+        public ListEntry _head; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void get_Item(){} // RVA: 0x6C4EAA0
@@ -116,6 +136,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ExtendedPropertyDescriptor
     {
+        public System.ComponentModel.ReflectPropertyDescriptor _extenderInfo; // 0x88
+        public System.ComponentModel.IExtenderProvider _provider; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C64B20 | overloaded x2
         public void CanResetValue(){} // RVA: 0x6C64D70
@@ -131,6 +154,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ExtenderProvidedPropertyAttribute
     {
+        public System.ComponentModel.PropertyDescriptor <ExtenderProperty>k__BackingField; // 0x10
+        public System.ComponentModel.IExtenderProvider <Provider>k__BackingField; // 0x18
+        public System.Type <ReceiverType>k__BackingField; // 0x20
+
         // ── Methods ──
         public void Create(){} // RVA: 0x6C65280
         public void .ctor(){} // RVA: 0x2DD310

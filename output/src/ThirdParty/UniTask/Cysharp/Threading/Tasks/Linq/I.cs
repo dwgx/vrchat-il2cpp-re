@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
-// Classes: 2
+// Classes: 3
 // Methods: 3
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
@@ -9,6 +9,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     {
         // ── Methods ──
         public void YieldAsync(){} // RVA: 0x283FA0
+    }
+
+    public class IAsyncWriter`1
+    {
     }
 
     public class Intersect`1

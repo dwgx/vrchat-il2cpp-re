@@ -13,6 +13,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class AFSDBRecord
     {
+        public ushort <Subtype>k__BackingField; // 0x30
+        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC1A90
         public void get_Subtype(){} // RVA: 0x3BE7880
@@ -31,6 +34,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class AddressRecord
     {
+        public System.Net.IPAddress <Address>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC1400
         public void get_Address(){} // RVA: 0x6374D0
@@ -42,6 +47,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class CNAMERecord
     {
+        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC1E10
         public void get_Target(){} // RVA: 0x6374D0
@@ -52,6 +59,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DNAMERecord
     {
+        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC2010
         public void get_Target(){} // RVA: 0x6374D0
@@ -62,6 +71,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DNSKEYRecord
     {
+        public 0x659ACB48 <Flags>k__BackingField; // 0x30
+        public byte <Protocol>k__BackingField; // 0x32
+        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x33
+        public byte[] <PublicKey>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC2100 | overloaded x2
         public void get_Flags(){} // RVA: 0x3BE7880
@@ -79,6 +93,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DSRecord
     {
+        public ushort <KeyTag>k__BackingField; // 0x30
+        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x32
+        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x33
+        public byte[] <Digest>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC2940 | overloaded x2
         public void get_KeyTag(){} // RVA: 0x3BE7880
@@ -102,6 +121,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DnsObject
     {
+        public System.DateTime <CreationTime>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_CreationTime(){} // RVA: 0x2F8380
         public void set_CreationTime(){} // RVA: 0x1967700
@@ -115,6 +136,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DomainName
     {
+        public string dot;
+
         // ── Methods ──
         public void get_Labels(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x5AB89D0 | overloaded x2
@@ -137,6 +160,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsDAUOption
     {
+        public System.Collections.Generic.List`1<0x659ADFE8> <Algorithms>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AB9DA0
         public void get_Algorithms(){} // RVA: 0x2E07C0
@@ -149,6 +174,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsDHUOption
     {
+        public System.Collections.Generic.List`1<0x659ACA98> <Algorithms>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABA440
         public void get_Algorithms(){} // RVA: 0x2E07C0
@@ -161,6 +188,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsKeepaliveOption
     {
+        public System.Nullable`1<System.TimeSpan> <Timeout>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABAA60
         public void get_Timeout(){} // RVA: 0x994EE0
@@ -172,6 +201,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsN3UOption
     {
+        public System.Collections.Generic.List`1<0x659ACA98> <Algorithms>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABAD70
         public void get_Algorithms(){} // RVA: 0x2E07C0
@@ -184,6 +215,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsNSIDOption
     {
+        public byte[] <Id>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABB390
         public void get_Id(){} // RVA: 0x2E07C0
@@ -194,6 +227,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsOption
     {
+        public 0x659AD018 <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x1C0F720
         public void set_Type(){} // RVA: 0x1C0FA70
@@ -211,6 +246,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsPaddingOption
     {
+        public byte[] <Padding>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABB600
         public void get_Padding(){} // RVA: 0x2E07C0
@@ -222,6 +259,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class HINFORecord
     {
+        public string <Cpu>k__BackingField; // 0x30
+        public string <OS>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC30F0
         public void get_Cpu(){} // RVA: 0x6374D0
@@ -260,6 +300,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class MXRecord
     {
+        public ushort <Preference>k__BackingField; // 0x30
+        public MeaMod.DNS.Model.DomainName <Exchange>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC33F0
         public void get_Preference(){} // RVA: 0x3BE7880
@@ -272,6 +315,24 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class Message
     {
+        public byte opcode4; // 0x18
+        public int MaxLength;
+        public int MinLength;
+        public ushort <Id>k__BackingField; // 0x1A
+        public bool <QR>k__BackingField; // 0x1C
+        public bool <AA>k__BackingField; // 0x1D
+        public bool <TC>k__BackingField; // 0x1E
+        public bool <RD>k__BackingField; // 0x1F
+        public bool <RA>k__BackingField; // 0x20
+        public int <Z>k__BackingField; // 0x24
+        public bool <AD>k__BackingField; // 0x28
+        public bool <CD>k__BackingField; // 0x29
+        public 0x659AD330 <Status>k__BackingField; // 0x2A
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.Question> <Questions>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <Answers>k__BackingField; // 0x38
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AuthorityRecords>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AdditionalRecords>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x2892CA0
         public void set_Id(){} // RVA: 0x5ABBFD0
@@ -318,6 +379,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSEC3PARAMRecord
     {
+        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x30
+        public byte <Flags>k__BackingField; // 0x31
+        public ushort <Iterations>k__BackingField; // 0x32
+        public byte[] <Salt>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC3450
         public void get_HashAlgorithm(){} // RVA: 0x303450
@@ -334,6 +400,13 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSEC3Record
     {
+        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x30
+        public 0x659AD388 <Flags>k__BackingField; // 0x31
+        public ushort <Iterations>k__BackingField; // 0x32
+        public byte[] <Salt>k__BackingField; // 0x38
+        public byte[] <NextHashedOwnerName>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<0x659ACBF8> <Types>k__BackingField; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC3920
         public void get_HashAlgorithm(){} // RVA: 0x303450
@@ -354,6 +427,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSECRecord
     {
+        public MeaMod.DNS.Model.DomainName <NextOwnerName>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<0x659ACBF8> <Types>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC4750
         public void get_NextOwnerName(){} // RVA: 0x6374D0
@@ -366,6 +442,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSRecord
     {
+        public MeaMod.DNS.Model.DomainName <Authority>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC50F0
         public void get_Authority(){} // RVA: 0x6374D0
@@ -376,6 +454,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NULLRecord
     {
+        public byte[] <Data>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC5150
         public void get_Data(){} // RVA: 0x6374D0
@@ -386,6 +466,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class OPTRecord
     {
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.EdnsOption> <Options>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC5300
         public void get_RequestorPayloadSize(){} // RVA: 0x5AC0F30
@@ -405,6 +487,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class PTRRecord
     {
+        public MeaMod.DNS.Model.DomainName <DomainName>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC5F10
         public void get_DomainName(){} // RVA: 0x6374D0
@@ -415,6 +499,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class PresentationReader
     {
+        public System.DateTime UnixEpoch;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ABE080
         public void get_Origin(){} // RVA: 0x35A740
@@ -463,6 +549,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class Question
     {
+        public MeaMod.DNS.Model.DomainName <Name>k__BackingField; // 0x18
+        public 0x659ACBF8 <Type>k__BackingField; // 0x20
+        public 0x659ACAF0 <Class>k__BackingField; // 0x22
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0
         public void set_Name(){} // RVA: 0x343E80
@@ -478,6 +568,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class RPRecord
     {
+        public MeaMod.DNS.Model.DomainName <Mailbox>k__BackingField; // 0x30
+        public MeaMod.DNS.Model.DomainName <TextName>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC5F70
         public void get_Mailbox(){} // RVA: 0x6374D0
@@ -490,6 +583,16 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class RRSIGRecord
     {
+        public 0x659ACBF8 <TypeCovered>k__BackingField; // 0x30
+        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x32
+        public byte <Labels>k__BackingField; // 0x33
+        public System.TimeSpan <OriginalTTL>k__BackingField; // 0x38
+        public System.DateTime <SignatureExpiration>k__BackingField; // 0x40
+        public System.DateTime <SignatureInception>k__BackingField; // 0x48
+        public ushort <KeyTag>k__BackingField; // 0x50
+        public MeaMod.DNS.Model.DomainName <SignerName>k__BackingField; // 0x58
+        public byte[] <Signature>k__BackingField; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC63E0
         public void get_TypeCovered(){} // RVA: 0x3BE7880
@@ -516,6 +619,12 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class ResourceRecord
     {
+        public System.TimeSpan DefaultTTL;
+        public System.TimeSpan DefaultHostTTL; // 0x8
+        public MeaMod.DNS.Model.DomainName <Name>k__BackingField; // 0x18
+        public 0x659ACBF8 <Type>k__BackingField; // 0x20
+        public 0x659ACAF0 <Class>k__BackingField; // 0x22
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0
         public void set_Name(){} // RVA: 0x343E80
@@ -552,6 +661,14 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class SOARecord
     {
+        public MeaMod.DNS.Model.DomainName <PrimaryName>k__BackingField; // 0x30
+        public MeaMod.DNS.Model.DomainName <Mailbox>k__BackingField; // 0x38
+        public uint <SerialNumber>k__BackingField; // 0x40
+        public System.TimeSpan <Refresh>k__BackingField; // 0x48
+        public System.TimeSpan <Retry>k__BackingField; // 0x50
+        public System.TimeSpan <Expire>k__BackingField; // 0x58
+        public System.TimeSpan <Minimum>k__BackingField; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC6AC0
         public void get_PrimaryName(){} // RVA: 0x6374D0
@@ -574,6 +691,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class SRVRecord
     {
+        public ushort <Priority>k__BackingField; // 0x30
+        public ushort <Weight>k__BackingField; // 0x32
+        public ushort <Port>k__BackingField; // 0x34
+        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC70E0
         public void get_Priority(){} // RVA: 0x3BE7880
@@ -597,6 +719,14 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TKEYRecord
     {
+        public byte[] NoData;
+        public MeaMod.DNS.Model.DomainName <Algorithm>k__BackingField; // 0x30
+        public System.DateTime <Inception>k__BackingField; // 0x38
+        public System.DateTime <Expiration>k__BackingField; // 0x40
+        public 0x659AD228 <Mode>k__BackingField; // 0x48
+        public 0x659AD330 <Error>k__BackingField; // 0x4A
+        public byte[] <Key>k__BackingField; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC75A0
         public void get_Algorithm(){} // RVA: 0x6374D0
@@ -620,6 +750,14 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TSIGRecord
     {
+        public byte[] NoData;
+        public string HMACMD5;
+        public string GSSTSIG;
+        public string HMACSHA1;
+        public string HMACSHA224;
+        public string HMACSHA256;
+        public string HMACSHA384;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC7FE0
         public void get_Algorithm(){} // RVA: 0x6374D0
@@ -643,6 +781,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TXTRecord
     {
+        public System.Collections.Generic.List`1<string> <Strings>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AC9230
         public void get_Strings(){} // RVA: 0x6374D0
@@ -653,6 +793,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UnknownEdnsOption
     {
+        public byte[] <Data>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2E07C0
         public void set_Data(){} // RVA: 0x343E80
@@ -664,6 +806,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UnknownRecord
     {
+        public byte[] <Data>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x6374D0
         public void set_Data(){} // RVA: 0x30B890
@@ -674,6 +818,16 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UpdateMessage
     {
+        public ushort <Id>k__BackingField; // 0x18
+        public bool <QR>k__BackingField; // 0x1A
+        public 0x659AD2D8 <Opcode>k__BackingField; // 0x1C
+        public int <Z>k__BackingField; // 0x20
+        public 0x659AD330 <Status>k__BackingField; // 0x24
+        public MeaMod.DNS.Model.Question <Zone>k__BackingField; // 0x28
+        public MeaMod.DNS.Model.UpdatePrerequisiteList <Prerequisites>k__BackingField; // 0x30
+        public MeaMod.DNS.Model.UpdateResourceList <Updates>k__BackingField; // 0x38
+        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AdditionalResources>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x2892C90
         public void set_Id(){} // RVA: 0x4470200
@@ -739,7 +893,7 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class WireWriter
     {
-        public object System.Collections.Generic.IEnumerator<System.Byte>.Current;
+        public int System.Collections.Generic.IEnumerator<System.Byte>.Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5ACE330

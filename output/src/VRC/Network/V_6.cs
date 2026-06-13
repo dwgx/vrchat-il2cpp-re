@@ -27,6 +27,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÎÌÎÎÌÏÍÌÌÎÍÏÎÎÍÍÏÎÍÎ</summary>
     public class VRCNetworkBehaviourSiblinRelated_224D
     {
+        public 0x659855E0 _keyboardType; // 0x20
+
         // ── Methods ──
         public void ProcessGameObject(){} // RVA: 0x760030
         public void .ctor(){} // RVA: 0x2DDD50
@@ -43,6 +45,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÌÎÏÏÍÌÍÏÌÏÍÍÏÏÍÌÌÏÏÏÏ</summary>
     public class VRCNetworkBehaviourSiblinRelated_90E9
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÍÍÍÎÏÌÍÎÏÍÎÌÏÏÍÍÎÌÎÏÎÍÍ>k__BackingField; // 0x10
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÏÏÎÍÎÎÎÎÌÎÏÎÍÎÎÌÍÌÏÏÍ>k__BackingField; // 0x18
+        public 0x658100E0 <ÏÌÏÌÌÏÎÍÌÌÎÎÌÎÎÏÏÏÌÍÍÏÌ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÎÍÎÍÎÎÏÏÌÏÍÍÏÍÍÎÎÎÎÏÏÌ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÌÏÏÍÎÌÍÎÍÍÌÏÌÌÏÌÏÏÏÍÌÌ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
         public void get_Current(){} // RVA: 0x1AD4690
@@ -82,6 +90,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÍÏÌÌÏÎÍÎÌÏÍÌÏÏÏÎÍÎÌÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_07EA
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void FindNextDirtyPage(){} // RVA: 0x1F7DAC0
         public void AddRootSetRange(){} // RVA: 0x1F7DC90
@@ -141,6 +151,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÎÎÍÍÍÍÎÎÍÍÌÌÎÌÌÍÍÌÌÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_1553
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void WcsncatS(){} // RVA: 0x2066D50
         public void get_Key(){} // RVA: 0x1AD4690
@@ -212,6 +224,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÎÎÎÍÎÎÎÎÎÏÌÎÎÍÌÌÎÌÌÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_2225
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void CacheTransformPosition(){} // RVA: 0x20989D0
@@ -227,6 +241,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÏÏÎÏÍÏÍÌÏÌÌÏÎÌÎÏÌÍÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_2369
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void ResizeBuckets(){} // RVA: 0x1FDEF10
         public void ResizeBuckets_536188208090(){} // RVA: 0x1FDF060
@@ -306,6 +322,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÎÌÏÎÌÌÍÍÍÌÍÏÍÌÍÎÍÍÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_3A02
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void get_Value(){} // RVA: 0x1AD4690
@@ -337,6 +355,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÏÍÏÎÏÏÍÍÎÏÍÏÌÏÍÎÍÏÎÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_3D9D
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -436,6 +456,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÏÍÎÍÏÍÌÌÌÌÎÍÍÏÎÎÍÍÏÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_63AC
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -453,6 +475,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÌÌÎÍÍÎÏÌÌÎÏÎÌÎÌÏÏÏÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_6C60
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -546,7 +570,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÏÏÎÏÎÌÎÍÌÍÌÌÎÎÌÍÎÍÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_86DB
     {
-        public object _86DB;
+        public string _86DB; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,int> ÍÌÏÏÌÏÎÌÍÍÏÎÍÏÏÌÍÌÌÎÏÌÏ; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xAF96D0
@@ -613,6 +638,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -648,6 +678,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -683,6 +718,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<VRC.Core.ApiWorldInstance> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<VRC.Core.ApiWorldInstance> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -718,6 +758,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÍÎÏÎÍÎÍÏÌÏÍÍÌÎÍÎÍÌÍÍÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÍÎÏÎÍÎÍÏÌÏÍÍÌÎÍÎÍÌÍÍÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -753,6 +798,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<ÏÍÍÎÏÎÌÏÍÍÍÌÎÏÏÎÌÎÌÏÌÏÎ> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<ÏÍÍÎÏÎÌÏÍÍÍÌÎÏÏÎÌÎÌÏÌÏÎ> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -788,6 +838,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -823,6 +878,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.IDictionary`2<string,ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<...>>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.IDictionary`2<string,ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<...>>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -858,6 +918,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -893,6 +958,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -928,6 +998,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<...>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<...>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -963,6 +1038,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -998,6 +1078,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÏÍÍÌÌÌÏÍÌÍÎÍÏÍÍÍÏÎÏÎÏÏ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÏÍÍÌÌÌÏÍÌÍÎÍÏÍÍÍÏÎÏÎÏÏ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1033,6 +1118,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1068,6 +1158,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<ÏÏÍÏÌÎÏÎÏÍÌÌÍÍÌÎÌÌÌÏÎÌÌ> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<ÏÏÍÏÌÎÏÎÏÍÌÌÍÍÌÎÌÌÌÏÎÌÌ> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1103,6 +1198,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.IList`1<ÏÏÍÏÌÍÍÏÏÏÏÎÏÍÎÌÏÏÌÎÏÏÌ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.IList`1<ÏÏÍÏÌÍÍÏÏÏÏÎÏÍÎÌÏÏÌÎÏÏÌ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1138,6 +1238,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiInventoryItem>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiInventoryItem>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1173,6 +1278,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1208,6 +1318,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<UnityEngine.Texture2D> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<UnityEngine.Texture2D> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1243,6 +1358,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1278,6 +1398,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
     {
+        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
+        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
+        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
+        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
+
         // ── Methods ──
         public void MemSet(){} // RVA: 0x4FE6460
         public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
@@ -1313,6 +1438,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÌÎÏÎÍÏÎÏÎÍÎÍÏÌÌÍÎÍÌÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_97FF
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -1360,6 +1487,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÍÌÌÏÎÏÌÎÍÏÍÏÌÏÏÏÍÏÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_A446
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void GetPropertiesByName(){} // RVA: 0x1FEA8D0
@@ -1531,6 +1660,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÍÏÍÍÏÍÎÏÍÍÎÏÍÍÎÍÏÍÏÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_B719
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -1548,6 +1679,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÍÏÎÍÌÏÍÎÍÎÍÏÍÍÏÌÎÌÌÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_B986
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ThrowAmbiguousDefaultInterfaceMethodException(){} // RVA: 0x1F8FDB0
@@ -1652,6 +1785,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÏÎÎÎÌÍÏÏÌÌÌÎÍÏÍÌÏÏÏÌÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C55E
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void GetPointerClass(){} // RVA: 0x1FD8590
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -1666,6 +1801,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÏÏÍÌÌÎÍÏÏÍÌÌÌÏÍÍÌÏÌÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C84D
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -1817,6 +1954,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÏÎÍÏÏÎÎÏÍÍÏÍÎÎÌÍÍÏÍÍÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_EC39
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void AppendTypeSignature(){} // RVA: 0x2032D70
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -1862,6 +2001,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÌÏÌÎÏÎÎÏÎÎÍÎÎÏÍÎÍÌÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_F12E
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public ÏÏÏÌÍÌÎÏÏÌÏÍÌÏÎÍÎÍÍÏÎÍÎ <ÏÌÏÌÌÏÎÍÌÌÎÎÌÎÎÏÏÏÌÍÍÏÌ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30

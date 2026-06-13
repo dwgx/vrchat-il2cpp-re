@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 25
-// Methods: 521
+// Classes: 46
+// Methods: 756
 
 namespace ThirdParty.DotNet.System
 {
     public class TermInfoDriver
     {
+        public int* native_terminal_size;
+        public int terminal_size; // 0x8
+        public string[] locations; // 0x10
+
         // ── Methods ──
         public void TryTermInfoDir(){} // RVA: 0x5F0CC00
         public void SearchTerminfo(){} // RVA: 0x5F0CEB0
@@ -92,8 +96,113 @@ namespace ThirdParty.DotNet.System
         public void CreateStartOrEndArgumentValidationException(){} // RVA: 0x62BE600
     }
 
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowArgumentNullException(){} // RVA: 0x5EC6300
+        public void CreateArgumentNullException(){} // RVA: 0x5EC6330
+        public void ThrowArrayTypeMismatchException(){} // RVA: 0x5EC63F0
+        public void CreateArrayTypeMismatchException(){} // RVA: 0x5EC6420
+        public void ThrowArgumentException_DestinationTooShort(){} // RVA: 0x5EC64A0
+        public void CreateArgumentException_DestinationTooShort(){} // RVA: 0x5EC64D0
+        public void ThrowIndexOutOfRangeException(){} // RVA: 0x5EC6540
+        public void CreateIndexOutOfRangeException(){} // RVA: 0x5EC6570
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x5EC6FF0 | overloaded x3
+        public void CreateArgumentOutOfRangeException(){} // RVA: 0x5EC66D0 | overloaded x2
+        public void ThrowArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x5EC6790
+        public void CreateArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x5EC67C0
+        public void ThrowArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x5EC6890
+        public void CreateArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x5EC68C0
+        public void ThrowInvalidOperationException_EndPositionNotReached(){} // RVA: 0x5EC6950
+        public void CreateInvalidOperationException_EndPositionNotReached(){} // RVA: 0x5EC6980
+        public void ThrowArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x5EC69F0
+        public void CreateArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x5EC6A20
+        public void ThrowArgumentOutOfRangeException_OffsetOutOfRange(){} // RVA: 0x5EC6AC0
+        public void CreateArgumentOutOfRangeException_OffsetOutOfRange(){} // RVA: 0x5EC6AF0
+        public void ThrowFormatException_BadFormatSpecifier(){} // RVA: 0x5EC6B90
+        public void CreateFormatException_BadFormatSpecifier(){} // RVA: 0x5EC6BC0
+        public void ThrowNotSupportedException(){} // RVA: 0x5EC71A0 | overloaded x2
+        public void CreateThrowNotSupportedException(){} // RVA: 0x5EC6C60
+        public void TryFormatThrowFormatException(){} // RVA: 0x5EC6CE0
+        public void TryParseThrowFormatException(){} // RVA: 0xE230
+        public void ThrowStartOrEndArgumentValidationException(){} // RVA: 0x5EC6D00
+        public void CreateStartOrEndArgumentValidationException(){} // RVA: 0x5EC6D30
+        public void ThrowWrongKeyTypeArgumentException(){} // RVA: 0x5EC6D50
+        public void ThrowWrongValueTypeArgumentException(){} // RVA: 0x5EC6E30
+        public void ThrowArgumentException(){} // RVA: 0x5EC6F70 | overloaded x2
+        public void ThrowInvalidOperationException(){} // RVA: 0x5EC70E0
+        public void ThrowSerializationException(){} // RVA: 0x5EC7140
+        public void ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion(){} // RVA: 0x5EC7200
+        public void ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen(){} // RVA: 0x5EC7250
+        public void ThrowInvalidOperationException_InvalidOperation_EnumNotStarted(){} // RVA: 0x5EC72A0
+        public void ThrowInvalidOperationException_InvalidOperation_EnumEnded(){} // RVA: 0x5EC72F0
+        public void ThrowInvalidOperationException_InvalidOperation_NoValue(){} // RVA: 0x5EC7340
+        public void GetArgumentOutOfRangeException(){} // RVA: 0x5EC7DD0 | overloaded x2
+        public void ThrowArgumentOutOfRange_IndexException(){} // RVA: 0x5EC7410
+        public void ThrowIndexArgumentOutOfRange_NeedNonNegNumException(){} // RVA: 0x5EC7450
+        public void ThrowArgumentException_Argument_InvalidArrayType(){} // RVA: 0x5EC7490
+        public void GetAddingDuplicateWithKeyArgumentException(){} // RVA: 0x5EC74E0
+        public void ThrowAddingDuplicateWithKeyArgumentException(){} // RVA: 0x5EC7570
+        public void GetKeyNotFoundException(){} // RVA: 0x5EC75A0
+        public void ThrowKeyNotFoundException(){} // RVA: 0x5EC7620
+        public void ThrowInvalidTypeWithPointersNotSupported(){} // RVA: 0x5EC7630
+        public void ThrowInvalidOperationException_ConcurrentOperationsNotSupported(){} // RVA: 0x5EC76A0
+        public void GetInvalidOperationException(){} // RVA: 0x5EC76E0
+        public void ThrowArraySegmentCtorValidationFailedExceptions(){} // RVA: 0x5EC7740
+        public void GetArraySegmentCtorValidationFailedException(){} // RVA: 0x5EC7770
+        public void GetArgumentException(){} // RVA: 0x5EC78F0
+        public void GetArgumentNullException(){} // RVA: 0x5EC7990
+        public void IfNullAndNullsAreIllegalThenThrow(){} // RVA: 0x2A490
+        public void GetArgumentName(){} // RVA: 0x5EC7A30
+        public void ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index(){} // RVA: 0x5EC7E90
+        public void ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count(){} // RVA: 0x5EC7ED0
+        public void GetResourceName(){} // RVA: 0x5EC7F10
+        public void ThrowValueArgumentOutOfRange_NeedNonNegNumException(){} // RVA: 0x5EC8590
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x5BA3E70
+        public void Throw(){} // RVA: 0x5BA3E90
+        public void IfNullOrWhitespace(){} // RVA: 0x5BA3EE0
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x5BAE550
+        public void Throw(){} // RVA: 0x5BAE570
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x5BB5BD0
+        public void Throw(){} // RVA: 0x5BB5BF0
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x5B88D20
+        public void Throw(){} // RVA: 0x5B88D40
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowArgumentNullException(){} // RVA: 0x6369160
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x6369190
+        public void GetArgumentNullException(){} // RVA: 0x63691C0
+        public void GetArgumentOutOfRangeException(){} // RVA: 0x6369260
+        public void GetArgumentName(){} // RVA: 0x6369300
+    }
+
     public class TimeProvider
     {
+        public System.TimeProvider <System>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void GetUtcNow(){} // RVA: 0x5B88930
@@ -103,6 +212,18 @@ namespace ThirdParty.DotNet.System
 
     public class TimeSpan
     {
+        public long TicksPerMillisecond;
+        public double MillisecondsPerTick;
+        public long TicksPerSecond;
+        public double SecondsPerTick;
+        public long TicksPerMinute;
+        public double MinutesPerTick;
+        public long TicksPerHour;
+        public double HoursPerTick;
+        public long TicksPerDay;
+        public double DaysPerTick;
+        public int MillisPerSecond;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EB77D0 | overloaded x4
         public void get_Ticks(){} // RVA: 0x1AD4690
@@ -154,6 +275,9 @@ namespace ThirdParty.DotNet.System
 
     public class TimeZone
     {
+        public System.TimeZone currentTimeZone;
+        public object s_InternalSyncObject; // 0x8
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x5EB9570
         public void .ctor(){} // RVA: 0x2DD310
@@ -165,6 +289,16 @@ namespace ThirdParty.DotNet.System
 
     public class TimeZoneInfo
     {
+        public string TimeZonesRegistryHive;
+        public string DisplayValue;
+        public string DaylightValue;
+        public string StandardValue;
+        public string MuiDisplayValue;
+        public string MuiDaylightValue;
+        public string MuiStandardValue;
+        public string TimeZoneInfoValue;
+        public string FirstEntryValue;
+
         // ── Methods ──
         public void GetAdjustmentRules(){} // RVA: 0x5D5A010
         public void PopulateAllSystemTimeZones(){} // RVA: 0x5D5A0B0
@@ -271,6 +405,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2
     {
+        public U m_Item1;
+        public T m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x283FA0
         public void get_Item2(){} // RVA: 0x283FA0
@@ -286,8 +423,284 @@ namespace ThirdParty.DotNet.System
         public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xD840
     }
 
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.InventoryEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.TextureEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public VRC.DataModel.Challenges.ChallengeEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.EconomyEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.UpdateEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.ContentEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.QueueEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.InstanceEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2
+    {
+        public object m_Item1; // 0x10
+        public Transmtn.GroupEvent m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2
+    {
+        public System.Threading.Tasks.UnwrapPromise`1<System.Threading.Tasks.VoidTaskResult> m_Item1; // 0x10
+        public System.Threading.Tasks.Task m_Item2; // 0x18
+    }
+
+    public class Tuple`2
+    {
+        public System.Threading.Tasks.UnwrapPromise`1<ÌÎÌÌÏÍÎÎÌÎÌÏÏÍÏÍÏÎÎÎÎÎÎ> m_Item1; // 0x10
+        public System.Threading.Tasks.Task m_Item2; // 0x18
+    }
+
+    public class Tuple`2 : 
+    {
+        public object m_Item1; // 0x10
+        public T m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0xCD60
+        public void get_Item2(){} // RVA: 0x263BC0
+        public void .ctor(){} // RVA: 0x288F850
+        public void Equals(){} // RVA: 0x4439E80
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439F00
+        public void System.IComparable.CompareTo(){} // RVA: 0x443A200
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x443A280
+        public void GetHashCode(){} // RVA: 0x443A610
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x443A680
+        public void ToString(){} // RVA: 0x443A840
+        public void System.ITupleInternal.ToString(){} // RVA: 0x443A910
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        public string m_Item1; // 0x10
+        public System.Type m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2
+    {
+        public string m_Item1; // 0x10
+        public object m_Item2; // 0x18
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x2F8380
+        public void get_Item2(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void Equals(){} // RVA: 0x4439810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4439890
+        public void System.IComparable.CompareTo(){} // RVA: 0x4439990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4439A10
+        public void GetHashCode(){} // RVA: 0x4439B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4439C00
+        public void ToString(){} // RVA: 0x4439C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4439D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
+    public class Tuple`2
+    {
+        public System.Guid m_Item1; // 0x10
+        public string m_Item2; // 0x20
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x196ABE0
+        public void get_Item2(){} // RVA: 0x30B0C0
+        public void .ctor(){} // RVA: 0x4437830
+        public void Equals(){} // RVA: 0x4437890
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4437910
+        public void System.IComparable.CompareTo(){} // RVA: 0x4437A60
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4437AE0
+        public void GetHashCode(){} // RVA: 0x4437CC0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4437D30
+        public void ToString(){} // RVA: 0x4437DE0
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4437EB0
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+    }
+
     public class Tuple`3
     {
+        public U m_Item1;
+        public V m_Item2;
+        public T m_Item3;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x283FA0
         public void get_Item2(){} // RVA: 0x283FA0
@@ -306,6 +719,11 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`4
     {
+        public U m_Item1;
+        public V m_Item2;
+        public W m_Item3;
+        public T m_Item4;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x283FA0
         public void get_Item2(){} // RVA: 0x283FA0
@@ -325,6 +743,17 @@ namespace ThirdParty.DotNet.System
 
     public class Type
     {
+        public System.Reflection.Binder s_defaultBinder;
+        public char Delimiter; // 0x8
+        public System.Type[] EmptyTypes; // 0x10
+        public object Missing; // 0x18
+        public System.Reflection.MemberFilter FilterAttribute; // 0x20
+        public System.Reflection.MemberFilter FilterName; // 0x28
+        public System.Reflection.MemberFilter FilterNameIgnoreCase; // 0x30
+        public 0x657F3700 DefaultLookup;
+        public System.RuntimeTypeHandle _impl; // 0x10
+        public string DefaultTypeNameWhenMissingMetadata;
+
         // ── Methods ──
         public void IsEnumDefined(){} // RVA: 0x5EB9EB0
         public void GetEnumName(){} // RVA: 0x5EBA4F0
@@ -490,6 +919,8 @@ namespace ThirdParty.DotNet.System
 
     public class TypeInitializationException
     {
+        public string _typeName; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EBF910 | overloaded x4
         public void GetObjectData(){} // RVA: 0x5EBFA20
@@ -498,6 +929,8 @@ namespace ThirdParty.DotNet.System
 
     public class TypeLoadException
     {
+        public string ClassName; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EF90D0 | overloaded x5
         public void get_Message(){} // RVA: 0x5EF8AD0
@@ -523,6 +956,9 @@ namespace ThirdParty.DotNet.System
 
     public class TypeSpec
     {
+        public System.TypeIdentifier name; // 0x10
+        public string assembly_name; // 0x18
+
         // ── Methods ──
         public void get_HasModifiers(){} // RVA: 0x51555E0
         public void GetDisplayFullName(){} // RVA: 0x5F15B40
@@ -541,6 +977,8 @@ namespace ThirdParty.DotNet.System
 
     public class TypedReference
     {
+        public System.RuntimeTypeHandle type; // 0x10
+
         // ── Methods ──
         public void MakeTypedReference(){} // RVA: 0x5EF81F0
         public void InternalMakeTypedReference(){} // RVA: 0x5EF8830

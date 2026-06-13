@@ -7,7 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 {
     public class AsymmetricCipherKeyPair
     {
-        public object IsPrivate;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter IsPrivate; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95091B0
@@ -17,7 +18,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class AsymmetricKeyParameter
     {
-        public object AlgorithmName;
+        public bool AlgorithmName; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
@@ -28,6 +29,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedAeadBlockCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9509460
         public void get_AlgorithmName(){} // RVA: 0x9509550
@@ -43,6 +46,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedAsymmetricBlockCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9509E90
         public void GetBufferPosition(){} // RVA: 0x760030
@@ -59,6 +64,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedBlockCipher
     {
+        public byte[] buf; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950A490 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x950A630
@@ -74,6 +81,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedCipherBase
     {
+        public byte[] EmptyBuffer;
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0xCD60
         public void Init(){} // RVA: 0x25600
@@ -90,6 +99,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedIesCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Engines.IesEngine engine; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950B8E0
         public void get_AlgorithmName(){} // RVA: 0x950BA70
@@ -105,6 +116,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class BufferedStreamCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IStreamCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950BE10
         public void get_AlgorithmName(){} // RVA: 0x950BF00
@@ -128,6 +141,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class CipherKeyGenerator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950C610 | overloaded x2
         public void get_DefaultStrength(){} // RVA: 0x760030
@@ -435,6 +450,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class KeyGenerationParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x10
+        public int strength; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950CAB0
         public void get_Random(){} // RVA: 0x2F8380
@@ -455,6 +473,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class PbeParametersGenerator
     {
+        public byte[] mPassword; // 0x10
+        public byte[] mSalt; // 0x18
+        public int mIterationCount; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Init(){} // RVA: 0x950CBD0
@@ -472,6 +494,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class SimpleBlockResult
     {
+        public byte[] result; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Length(){} // RVA: 0xF3F910
@@ -480,6 +504,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 
     public class StreamBlockCipher : .ctor
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x950D3A0
         public void Init(){} // RVA: 0x950D570

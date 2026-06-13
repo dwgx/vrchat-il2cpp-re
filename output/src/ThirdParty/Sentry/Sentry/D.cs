@@ -29,7 +29,12 @@ namespace ThirdParty.Sentry.Sentry
 
     public class Dsn
     {
-        public object Dsn;
+        public string Dsn; // 0x10
+        public string <ProjectId>k__BackingField; // 0x18
+        public string <Path>k__BackingField; // 0x20
+        public string <SecretKey>k__BackingField; // 0x28
+        public string <PublicKey>k__BackingField; // 0x30
+        public System.Uri <ApiBaseUri>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_Source(){} // RVA: 0x2F8380
@@ -49,6 +54,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class DsnAttribute
     {
+        public string <Dsn>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Dsn(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -56,6 +63,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class DynamicSamplingContext
     {
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> <Items>k__BackingField; // 0x10
+        public Sentry.DynamicSamplingContext Empty;
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0x2F8380
         public void get_IsEmpty(){} // RVA: 0x62A12B0

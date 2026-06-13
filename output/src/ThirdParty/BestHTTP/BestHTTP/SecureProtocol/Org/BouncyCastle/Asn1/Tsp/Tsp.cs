@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp
 {
     public class Accuracy
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger seconds; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger millis; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger micros; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x975AF10 | overloaded x2
         public void GetInstance(){} // RVA: 0x975B370
@@ -18,6 +22,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp
 
     public class MessageImprint
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x975B7A0
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
@@ -28,6 +34,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp
 
     public class TimeStampReq
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.MessageImprint messageImprint; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier tsaPolicy; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger nonce; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerBoolean certReq; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions extensions; // 0x38
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x975BCF0
         public void .ctor(){} // RVA: 0x975C310 | overloaded x2
@@ -42,6 +55,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp
 
     public class TimeStampResp
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo pkiStatusInfo; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.ContentInfo timeStampToken; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x975C870
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
@@ -52,6 +68,17 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp
 
     public class TstInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier tsaPolicyId; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.MessageImprint messageImprint; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger serialNumber; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime genTime; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Tsp.Accuracy accuracy; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerBoolean ordering; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger nonce; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName tsa; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions extensions; // 0x58
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x975CE80
         public void .ctor(){} // RVA: 0x975D850 | overloaded x2

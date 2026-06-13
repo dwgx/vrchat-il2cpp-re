@@ -20,6 +20,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ComponentRegistry
     {
+        public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IServiceComponent> <ComponentTypeHashToInstance>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_ComponentTypeHashToInstance(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x6F590E0
@@ -31,6 +33,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreDiagnostics
     {
+        public Unity.Services.Core.Internal.CoreDiagnostics <Instance>k__BackingField;
+        public System.Collections.Generic.IDictionary`2<string,string> <CoreTags>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6F5E860
         public void set_Instance(){} // RVA: 0x6F5E8A0
@@ -48,6 +53,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreMetrics
     {
+        public Unity.Services.Core.Internal.CoreMetrics <Instance>k__BackingField;
+
         // ── Methods ──
         public void set_Instance(){} // RVA: 0x6F5EA00
         public void .ctor(){} // RVA: 0x6F5EAA0
@@ -55,6 +62,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CorePackageRegistry
     {
+        public Unity.Services.Core.Internal.CorePackageRegistry <Instance>k__BackingField;
+        public Unity.Services.Core.Internal.IPackageRegistry <Registry>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6F59360
         public void set_Instance(){} // RVA: 0x6F593A0
@@ -76,12 +86,12 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistry
     {
-        public object format;
-        public object isReadable;
-        public object streamingMipmaps;
-        public object streamingMipmapsPriority;
-        public object requestedMipmapLevel;
-        public object desiredMipmapLevel;
+        public Unity.Services.Core.Internal.CoreRegistry format;
+        public string isReadable; // 0x10
+        public 0x65A093D0 streamingMipmaps; // 0x18
+        public Unity.Services.Core.InitializationOptions streamingMipmapsPriority; // 0x20
+        public Unity.Services.Core.Internal.IPackageRegistry requestedMipmapLevel; // 0x28
+        public Unity.Services.Core.Internal.IComponentRegistry desiredMipmapLevel; // 0x30
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6F59680
@@ -167,6 +177,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class HashException
     {
+        public int <Hash>k__BackingField; // 0x90
+
         // ── Methods ──
         public void get_Hash(){} // RVA: 0x6AFD40
         public void .ctor(){} // RVA: 0x6F5E570 | overloaded x2
@@ -212,6 +224,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedComponentRegistry
     {
+        public Unity.Services.Core.Internal.IComponentRegistry <Registry>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -222,6 +236,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedPackageRegistry
     {
+        public Unity.Services.Core.Internal.IPackageRegistry <Registry>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -234,6 +250,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class MissingComponent
     {
+        public System.Type <IntendedType>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_IntendedType(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -247,6 +265,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class PackageRegistry
     {
+        public Unity.Services.Core.Internal.DependencyTree <Tree>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Tree(){} // RVA: 0x2F8380
         public void set_Tree(){} // RVA: 0x2DEE30
@@ -266,6 +286,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class TaskAsyncOperation
     {
+        public System.Threading.Tasks.TaskScheduler Scheduler;
+
         // ── Methods ──
         public void get_IsCompleted(){} // RVA: 0x199D670
         public void SetScheduler(){} // RVA: 0x6F58D70
@@ -280,6 +302,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class UnityServicesInternal
     {
+        public 0x65A092C8 <State>k__BackingField; // 0x10
+        public bool CanInitialize; // 0x14
+
         // ── Methods ──
         public void get_State(){} // RVA: 0x32A5C0
         public void set_State(){} // RVA: 0x2E00C0

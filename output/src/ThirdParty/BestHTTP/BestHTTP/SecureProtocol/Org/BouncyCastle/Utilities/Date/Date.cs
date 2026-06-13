@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 {
     public class DateTimeObject
     {
+        public System.DateTime dt; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1967700
         public void get_Value(){} // RVA: 0x2F8380

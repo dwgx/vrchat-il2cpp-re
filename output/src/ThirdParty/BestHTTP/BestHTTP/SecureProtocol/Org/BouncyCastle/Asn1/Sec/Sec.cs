@@ -19,6 +19,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Sec
 
     public class SecNamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void ConfigureBasepoint(){} // RVA: 0x9766BD0

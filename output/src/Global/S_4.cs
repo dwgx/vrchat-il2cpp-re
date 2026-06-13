@@ -13,6 +13,8 @@ public class SingleConsumerUnboundedChannelWriter
 
 public class SingleObjectEnumerator
 {
+    public object loneValue; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F93A00
     public void get_Current(){} // RVA: 0x6A62320
@@ -26,6 +28,8 @@ public class SingleProducerSingleConsumerQueue_DebugView
 
 public class SingleQueryMatcher
 {
+    public UnityEngine.UIElements.VisualElement <match>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_match(){} // RVA: 0x2E07C0
     public void set_match(){} // RVA: 0x343E80
@@ -51,6 +55,10 @@ public class SingleRangeComparer
 
 public class Site
 {
+    public string _name; // 0x10
+    public System.ComponentModel.IComponent <Component>k__BackingField; // 0x18
+    public System.ComponentModel.IContainer <Container>k__BackingField; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C71E00
     public void get_Component(){} // RVA: 0x2E07C0
@@ -64,6 +72,10 @@ public class Site
 
 public class Site
 {
+    public System.ComponentModel.IComponent component; // 0x10
+    public System.ComponentModel.Container container; // 0x18
+    public string name; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3BCE00
     public void get_Component(){} // RVA: 0x2F8380
@@ -82,14 +94,7 @@ public class Size3f
 
 public class SizeBySpeedModule
 {
-    public object enabled;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -141,6 +146,8 @@ public class SizeBySpeedModule
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<T[]> ArrayStack;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xD840
     public void TryGetArray(){} // RVA: 0xCD60
@@ -152,6 +159,8 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<UnityEngine.Keyframe[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A300
@@ -163,6 +172,8 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<object[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A3C0
@@ -174,6 +185,8 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A3C0
@@ -185,6 +198,8 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<float[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A480
@@ -196,18 +211,23 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<bool[]> ArrayStack; // 0x10
 }
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ>[]> ArrayStack; // 0x10
 }
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<byte[]> ArrayStack; // 0x10
 }
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<int[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A240
@@ -219,6 +239,8 @@ public class SizeGroup
 
 public class SizeGroup
 {
+    public System.Collections.Generic.Stack`1<UnityEngine.Mesh[]> ArrayStack; // 0x10
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0xF3F910
     public void TryGetArray(){} // RVA: 0x402A3C0
@@ -230,16 +252,7 @@ public class SizeGroup
 
 public class SizeOverLifetimeModule
 {
-    public object enabled;
-    public object size;
-    public object sizeMultiplier;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -329,6 +342,14 @@ public class SkeletonBlendablePose
 
 public class SkeletonPoseData
 {
+    public Posef <RootPose>k__BackingField; // 0x10
+    public float <RootScale>k__BackingField; // 0x2C
+    public Quatf[] <BoneRotations>k__BackingField; // 0x30
+    public bool <IsDataValid>k__BackingField; // 0x38
+    public bool <IsDataHighConfidence>k__BackingField; // 0x39
+    public Vector3f[] <BoneTranslations>k__BackingField; // 0x40
+    public int <SkeletonChangedCount>k__BackingField; // 0x48
+
     // ── Methods ──
     public void get_RootPose(){} // RVA: 0x37C8590
     public void set_RootPose(){} // RVA: 0x61C3C40
@@ -348,6 +369,11 @@ public class SkeletonPoseData
 
 public class SkeletonRendererData
 {
+    public float <RootScale>k__BackingField; // 0x10
+    public bool <IsDataValid>k__BackingField; // 0x14
+    public bool <IsDataHighConfidence>k__BackingField; // 0x15
+    public bool <ShouldUseSystemGestureMaterial>k__BackingField; // 0x16
+
     // ── Methods ──
     public void get_RootScale(){} // RVA: 0x1D26670
     public void set_RootScale(){} // RVA: 0x1F78330
@@ -377,6 +403,9 @@ public class SkinChangedDelegate
 
 public class SlabAllocator
 {
+    public AllocatorHandle m_handle; // 0x10
+    public Block Storage; // 0x18
+
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x19689B0
     public void get_SlabSizeInBytes(){} // RVA: 0x6D77400

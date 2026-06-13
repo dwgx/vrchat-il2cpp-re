@@ -5,6 +5,9 @@
 
 public class Hierarchy
 {
+    public string k_InvalidHierarchyChangeMsg;
+    public UnityEngine.UIElements.VisualElement m_Owner; // 0x10
+
     // ── Methods ──
     public void get_parent(){} // RVA: 0x745A9A0
     public void get_children(){} // RVA: 0x745A9C0
@@ -51,6 +54,12 @@ public class HitInfo
 
 public class HitPoint
 {
+    public string name; // 0x10
+    public UnityEngine.Collider collider; // 0x18
+    public float crossFadeTime; // 0x20
+    public float <crossFader>k__BackingField; // 0x24
+    public float <timer>k__BackingField; // 0x28
+
     // ── Methods ──
     public void get_inProgress(){} // RVA: 0x44AF40
     public void get_crossFader(){} // RVA: 0x44AF50

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class LeafNode
     {
+        public int pos; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_Pos(){} // RVA: 0x32A5C0
@@ -18,6 +20,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class LeafRangeNode
     {
+        public System.Decimal min; // 0x18
+        public System.Decimal max; // 0x28
+        public System.Xml.Schema.BitSet nextIteration; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6ADC110 | overloaded x2
         public void get_Max(){} // RVA: 0x111F520
@@ -38,6 +44,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class LocatedActiveAxis
     {
+        public int column; // 0x28
+
         // ── Methods ──
         public void get_Column(){} // RVA: 0x791DC0
         public void .ctor(){} // RVA: 0x6AD6B30

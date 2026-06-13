@@ -29,6 +29,8 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
 
     public class JobsUtility
     {
+        public PanicFunction_ PanicFunction;
+
         // ── Methods ──
         public void GetJobRange(){} // RVA: 0x70B60B0
         public void GetWorkStealingRange(){} // RVA: 0x70B60D0

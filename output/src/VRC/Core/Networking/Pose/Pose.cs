@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.Pose
-// Classes: 6
-// Methods: 59
+// Classes: 8
+// Methods: 65
 
 namespace VRC.Core.Networking.Pose
 {
@@ -42,8 +42,36 @@ namespace VRC.Core.Networking.Pose
         public void Decode(){} // RVA: 0x283FA0
     }
 
+    public class PoseCodec`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void Encode(){} // RVA: 0x17680
+        public void Decode(){}
+    }
+
+    public class PoseCodec`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void Encode(){} // RVA: 0x17680
+        public void Decode(){}
+    }
+
     public class PoseEvent
     {
+        public ushort <poseContents>k__BackingField; // 0x40
+        public float[] muscles; // 0x48
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT bodyRotation; // 0x50
+        public byte standingHeight; // 0x58
+        public byte motionFlags; // 0x59
+        public byte miscFlags; // 0x5A
+        public byte handGestureLeft; // 0x5B
+        public byte handGestureRight; // 0x5C
+        public int handGestureIndexLeft; // 0x60
+        public int handGestureIndexRight; // 0x64
+        public float handGestureWeightLeft; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7646490 | overloaded x2
         public void Finalize(){} // RVA: 0x76470B0

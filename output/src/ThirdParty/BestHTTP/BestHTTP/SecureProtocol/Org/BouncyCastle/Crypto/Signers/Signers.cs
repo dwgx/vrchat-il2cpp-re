@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 {
     public class DsaDigestSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDsa dsa; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9565540
@@ -21,6 +23,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class DsaSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters key; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9565EA0
@@ -34,6 +39,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class ECDsaSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Eight;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9566B50
@@ -50,6 +58,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class ECGost3410Signer
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x18
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0xB2EEA0
         public void Init(){} // RVA: 0x9567D20
@@ -62,6 +73,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class ECNRSigner
     {
+        public bool forSigning; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key; // 0x18
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x9568B20
         public void Init(){} // RVA: 0x9568B60
@@ -73,6 +87,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Ed25519Signer
     {
+        public Buffer buffer; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956B160
         public void get_AlgorithmName(){} // RVA: 0x956B200
@@ -86,6 +102,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Ed25519ctxSigner
     {
+        public Buffer buffer; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9569960
         public void get_AlgorithmName(){} // RVA: 0x9569B10
@@ -99,6 +117,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Ed25519phSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest prehash; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956A630
         public void get_AlgorithmName(){} // RVA: 0x956A810
@@ -112,6 +132,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Ed448Signer
     {
+        public Buffer buffer; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956C670
         public void get_AlgorithmName(){} // RVA: 0x956C820
@@ -125,6 +147,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Ed448phSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IXof prehash; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956BB40
         public void get_AlgorithmName(){} // RVA: 0x956BD20
@@ -138,6 +162,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class GenericSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_AlgorithmName(){} // RVA: 0x956D190
@@ -151,6 +177,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Gost3410DigestSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest digest; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956DA20
         public void get_AlgorithmName(){} // RVA: 0x956DB40
@@ -164,6 +192,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Gost3410Signer
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters key; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x18
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x956E420
         public void Init(){} // RVA: 0x956E460
@@ -175,6 +206,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class HMacDsaKCalculator : .ctor
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Macs.HMac hMac; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x956F000
         public void get_IsDeterministic(){} // RVA: 0x3C2850
@@ -200,6 +233,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Iso9796d2PssSigner
     {
+        public int TrailerImplicit;
+
         // ── Methods ──
         public void GetRecoveredMessage(){} // RVA: 0x37B370
         public void .ctor(){} // RVA: 0x956FE20 | overloaded x2
@@ -221,6 +256,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class Iso9796d2Signer
     {
+        public int TrailerImplicit;
+
         // ── Methods ──
         public void GetRecoveredMessage(){} // RVA: 0x35A740
         public void .ctor(){} // RVA: 0x9571F10 | overloaded x2
@@ -262,6 +299,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class PssSigner
     {
+        public byte TrailerImplicit;
+
         // ── Methods ──
         public void CreateRawSigner(){} // RVA: 0x95743B0 | overloaded x2
         public void .ctor(){} // RVA: 0x95746A0 | overloaded x8
@@ -279,6 +318,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class RandomDsaKCalculator
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x10
+
         // ── Methods ──
         public void get_IsDeterministic(){} // RVA: 0x2DD320
         public void Init(){} // RVA: 0x9575B10 | overloaded x2
@@ -288,6 +329,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class RsaDigestSigner
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IAsymmetricBlockCipher rsaEngine; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9575C10
         public void .ctor(){} // RVA: 0x9576700 | overloaded x6
@@ -303,6 +346,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class SM2Signer
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95772E0 | overloaded x4
         public void get_AlgorithmName(){} // RVA: 0x9577430
@@ -333,6 +378,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Si
 
     public class X931Signer
     {
+        public int TRAILER_IMPLICIT;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9579CA0 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9579BD0

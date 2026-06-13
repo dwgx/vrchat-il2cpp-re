@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class LazySingleton`1
     {
+        public System.Lazy`1<T> LazyInstance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x283FA0
         public void CreateSingleton(){} // RVA: 0x283FA0
@@ -33,6 +35,10 @@ namespace VRC.Core
 
     public class Logger
     {
+        public VRC.Core.ILoggerReceiver _assignedLoggerReceiver;
+        public System.Collections.Generic.HashSet`1<string> _enabledCategories; // 0x8
+        public bool _treatAllCategoriesAsEnabled; // 0x10
+
         // ── Methods ──
         public void AssignLoggerProvider(){} // RVA: 0x992F380
         public void get_KnownLevels(){} // RVA: 0x992F430

@@ -5,6 +5,9 @@
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EB0A0
     public void Init(){} // RVA: 0x45E7620
@@ -13,6 +16,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EB6C0
     public void Init(){} // RVA: 0x45E8540
@@ -21,6 +27,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EBCE0
     public void Init(){} // RVA: 0x45E8540
@@ -29,6 +38,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EB3B0
     public void Init(){} // RVA: 0x45E7620
@@ -37,6 +49,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EB9D0
     public void Init(){} // RVA: 0x45E8540
@@ -45,6 +60,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x72FCA70
     public void .ctor(){} // RVA: 0x72FCD60
@@ -52,6 +70,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7305DC0
     public void Init(){} // RVA: 0x7306630
@@ -59,6 +80,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x72FECD0
     public void .ctor(){} // RVA: 0x72FEE10
@@ -66,6 +90,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73078F0
     public void .ctor(){} // RVA: 0x7307D10
@@ -73,6 +100,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7309190
     public void .ctor(){} // RVA: 0x7309540
@@ -80,12 +110,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x730A510
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x74834C0
     public void .ctor(){} // RVA: 0x7483760
@@ -93,12 +129,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x730A920
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x730B9F0
     public void .ctor(){} // RVA: 0x730BD60
@@ -106,6 +148,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x730D440
     public void .ctor(){} // RVA: 0x730D780
@@ -113,6 +158,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x730E8A0
     public void .ctor(){} // RVA: 0x730EA20
@@ -120,6 +168,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x730F9A0
     public void .ctor(){} // RVA: 0x730FCB0
@@ -127,6 +178,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7311200
     public void .ctor(){} // RVA: 0x7311570
@@ -134,6 +188,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7312630
     public void .ctor(){} // RVA: 0x73128D0
@@ -141,6 +198,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7313980
     public void .ctor(){} // RVA: 0x7313C80
@@ -148,12 +208,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7314B80
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73153A0
     public void .ctor(){} // RVA: 0x73155E0
@@ -161,6 +227,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7317930
     public void .ctor(){} // RVA: 0x7317D60
@@ -168,12 +237,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7318B60
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E80B0
     public void Init(){} // RVA: 0x45E7620
@@ -182,6 +257,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E8EB0
     public void Init(){} // RVA: 0x45E7620
@@ -190,6 +268,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EA720
     public void Init(){} // RVA: 0x45E7620
@@ -198,6 +279,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E83C0
     public void Init(){} // RVA: 0x45E8540
@@ -206,6 +290,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x45E91C0
     public void .ctor(){} // RVA: 0x45E9710
@@ -213,6 +300,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x731A710
     public void .ctor(){} // RVA: 0x731A880
@@ -220,6 +310,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x731EDD0
     public void .ctor(){} // RVA: 0x731EEE0
@@ -227,12 +320,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x731FC80
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7320A20
     public void .ctor(){} // RVA: 0x7320BB0
@@ -240,12 +339,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A1AF0
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73A3C70
     public void .ctor(){} // RVA: 0x73A3E80
@@ -254,30 +359,45 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A6700
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A7010
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A7180
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A7C20
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73AAF30
     public void Init(){} // RVA: 0x73AB390
@@ -285,6 +405,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E8BA0
     public void Init(){} // RVA: 0x45E7620
@@ -293,6 +416,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E74A0
     public void Init(){} // RVA: 0x45E7620
@@ -301,18 +427,27 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EAA30
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45E8B50
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EAA80
     public void Init(){} // RVA: 0x45E7620
@@ -321,6 +456,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x45EAD90
     public void Init(){} // RVA: 0x45E7620
@@ -329,6 +467,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73B6640
     public void .ctor(){} // RVA: 0x73B6930
@@ -336,6 +477,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73B7580
     public void .ctor(){} // RVA: 0x73B7950
@@ -343,12 +487,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73A7010
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73B9DA0
     public void .ctor(){} // RVA: 0x73BA000
@@ -356,6 +506,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73BB5F0
     public void .ctor(){} // RVA: 0x73BB710
@@ -363,6 +516,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73BCBE0
     public void .ctor(){} // RVA: 0x73BCD20
@@ -370,6 +526,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73BD350
     public void .ctor(){} // RVA: 0x73BD4C0
@@ -377,6 +536,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73BECB0
     public void .ctor(){} // RVA: 0x73BEF10
@@ -384,6 +546,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73C7110
     public void .ctor(){} // RVA: 0x73C7730
@@ -391,6 +556,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73C8F90
     public void .ctor(){} // RVA: 0x73C92D0
@@ -398,6 +566,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73CA710
     public void .ctor(){} // RVA: 0x73CAA50
@@ -405,6 +576,9 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73CBA30
     public void .ctor(){} // RVA: 0x73CBB50
@@ -412,12 +586,18 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73CC110
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x73CEB30
     public void .ctor(){} // RVA: 0x73CECE0
@@ -425,18 +605,27 @@ public class UxmlTraits
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73D0D30
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73D1EB0
 }
 
 public class UxmlTraits
 {
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
+    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7477380
     public void .ctor(){} // RVA: 0x7477A10

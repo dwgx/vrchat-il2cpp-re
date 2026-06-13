@@ -8,6 +8,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÎÍÎÏÌÌÎÎÏÍÍÍÌÏÎÏÎÏÍÏÌÍ</summary>
     public class EffectmaterialForRenderingGetMaterial_5E1C_3793
     {
+        public ÍÏÌÍÌÍÍÎÏÍÏÍÍÎÍÍÍÎÍÌÎÍÎ ÍÎÍÏÎÎÍÎÎÍÏÍÎÎÏÌÎÎÌÌÍÌÏ; // 0x7F8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x951F90
         public void Initialize(){} // RVA: 0x951FE0

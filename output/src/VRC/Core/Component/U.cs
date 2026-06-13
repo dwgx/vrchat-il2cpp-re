@@ -27,6 +27,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÏÍÏÌÍÍÏÏÏÏÎÏÍÎÌÏÏÌÎÏÏÌ</summary>
     public class UpdateComponentSibling_D6E6Sibling_2427
     {
+        public string ÏÌÏÌÎÌÎÌÏÏÎÏÍÍÍÍÍÏÌÍÏÏÍ; // 0x10
+
         // ── Methods ──
         public void UpdateComponent(){} // RVA: 0x1E0FF60
         public void Equals(){} // RVA: 0x1E10E70 | overloaded x2
@@ -64,6 +66,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ</summary>
     public class UpdateComponentSibling_D6E6_B7B7
     {
+        public string ÏÌÏÌÎÌÎÌÏÏÎÏÍÍÍÍÍÏÌÍÏÏÍ; // 0x10
+
         // ── Methods ──
         public void set_Singleton(){} // RVA: 0x1E0E4F0
         public void set_Singleton_77C160EB3677(){} // RVA: 0x1E0E550

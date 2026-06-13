@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 {
     public class AbstractEventData
     {
+        public bool m_Used; // 0x10
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x6BDA00
         public void Use(){} // RVA: 0x6BD7E0
@@ -16,6 +18,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class AxisEventData
     {
+        public UnityEngine.Vector2 <moveVector>k__BackingField; // 0x20
+        public 0x6596C9E0 <moveDir>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_moveVector(){} // RVA: 0xAE83B0
         public void set_moveVector(){} // RVA: 0xAE83A0
@@ -26,6 +31,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseEventData
     {
+        public UnityEngine.EventSystems.EventSystem m_EventSystem; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x343E80
         public void get_currentInputModule(){} // RVA: 0x606D2B0
@@ -57,6 +64,11 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseInputModule
     {
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> m_RaycastResultCache; // 0x20
+        public bool m_SendPointerHoverToParent; // 0x28
+        public UnityEngine.EventSystems.AxisEventData m_AxisEventData; // 0x30
+        public UnityEngine.EventSystems.EventSystem m_EventSystem; // 0x38
+
         // ── Methods ──
         public void get_sendPointerHoverToParent(){} // RVA: 0x6E8A80
         public void set_sendPointerHoverToParent(){} // RVA: 0x6E8B80
@@ -85,6 +97,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseRaycaster
     {
+        public UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster; // 0x20
+
         // ── Methods ──
         public void Raycast(){} // RVA: 0x2DC60
         public void get_eventCamera(){} // RVA: 0xCD60
@@ -102,6 +116,20 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventSystem
     {
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules; // 0x20
+        public UnityEngine.EventSystems.BaseInputModule m_CurrentInputModule; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems;
+        public UnityEngine.GameObject m_FirstSelected; // 0x30
+        public bool m_sendNavigationEvents; // 0x38
+        public int m_DragThreshold; // 0x3C
+        public UnityEngine.GameObject m_CurrentSelected; // 0x40
+        public bool m_HasFocus; // 0x48
+        public bool m_SelectionGuard; // 0x49
+        public UnityEngine.EventSystems.BaseEventData m_DummyData; // 0x50
+        public System.Comparison`1<UnityEngine.EventSystems.RaycastResult> s_RaycastComparer; // 0x8
+        public UIToolkitOverrideConfig s_UIToolkitOverride; // 0x10
+        public bool m_Started; // 0x58
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x74E4500
         public void set_current(){} // RVA: 0x74E45E0
@@ -143,6 +171,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventTrigger
     {
+        public System.Collections.Generic.List`1<Entry> m_Delegates; // 0x20
+
         // ── Methods ──
         public void get_delegates(){} // RVA: 0x74E7E10
         public void set_delegates(){} // RVA: 0x30B0D0
@@ -171,6 +201,25 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class ExecuteEvents
     {
+        public EventFunction`1<UnityEngine.EventSystems.IPointerMoveHandler> s_PointerMoveHandler;
+        public EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> s_PointerEnterHandler; // 0x8
+        public EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> s_PointerExitHandler; // 0x10
+        public EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> s_PointerDownHandler; // 0x18
+        public EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> s_PointerUpHandler; // 0x20
+        public EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> s_PointerClickHandler; // 0x28
+        public EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> s_InitializePotentialDragHandler; // 0x30
+        public EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> s_BeginDragHandler; // 0x38
+        public EventFunction`1<UnityEngine.EventSystems.IDragHandler> s_DragHandler; // 0x40
+        public EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> s_EndDragHandler; // 0x48
+        public EventFunction`1<UnityEngine.EventSystems.IDropHandler> s_DropHandler; // 0x50
+        public EventFunction`1<UnityEngine.EventSystems.IScrollHandler> s_ScrollHandler; // 0x58
+        public EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> s_UpdateSelectedHandler; // 0x60
+        public EventFunction`1<UnityEngine.EventSystems.ISelectHandler> s_SelectHandler; // 0x68
+        public EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> s_DeselectHandler; // 0x70
+        public EventFunction`1<UnityEngine.EventSystems.IMoveHandler> s_MoveHandler; // 0x78
+        public EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> s_SubmitHandler; // 0x80
+        public EventFunction`1<UnityEngine.EventSystems.ICancelHandler> s_CancelHandler; // 0x88
+
         // ── Methods ──
         public void ValidateEventData(){} // RVA: 0x283FA0
         public void Execute(){} // RVA: 0x114C0 | overloaded x19
@@ -315,6 +364,14 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRInputModule
     {
+        public UnityEngine.Transform rayTransform; // 0x68
+        public OVRCursor m_Cursor; // 0x70
+        public 0x658C00E0 joyPadClickButton; // 0x78
+        public 0x658991A8 gazeClickKey; // 0x7C
+        public bool performSphereCastForGazepointer; // 0x80
+        public bool useRightStickScroll; // 0x81
+        public float rightStickDeadZone; // 0x84
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x61F1F90
         public void get_inputMode(){} // RVA: 0x519240
@@ -360,6 +417,10 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRPhysicsRaycaster
     {
+        public int kNoEventMaskSet;
+        public UnityEngine.LayerMask m_EventMask; // 0x28
+        public int sortOrder; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x105A720
         public void get_eventCamera(){} // RVA: 0x61F7590
@@ -389,6 +450,12 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PhysicsRaycaster
     {
+        public int kNoEventMaskSet;
+        public UnityEngine.Camera m_EventCamera; // 0x28
+        public UnityEngine.LayerMask m_EventMask; // 0x30
+        public int m_MaxRayIntersections; // 0x34
+        public int m_LastMaxRayIntersections; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17B5070
         public void get_eventCamera(){} // RVA: 0x74F4E10
@@ -404,6 +471,41 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PointerEventData
     {
+        public UnityEngine.GameObject <pointerEnter>k__BackingField; // 0x20
+        public UnityEngine.GameObject m_PointerPress; // 0x28
+        public UnityEngine.GameObject <lastPress>k__BackingField; // 0x30
+        public UnityEngine.GameObject <rawPointerPress>k__BackingField; // 0x38
+        public UnityEngine.GameObject <pointerDrag>k__BackingField; // 0x40
+        public UnityEngine.GameObject <pointerClick>k__BackingField; // 0x48
+        public UnityEngine.EventSystems.RaycastResult <pointerCurrentRaycast>k__BackingField; // 0x50
+        public UnityEngine.EventSystems.RaycastResult <pointerPressRaycast>k__BackingField; // 0xA0
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> hovered; // 0xF0
+        public bool <eligibleForClick>k__BackingField; // 0xF8
+        public int <displayIndex>k__BackingField; // 0xFC
+        public int <pointerId>k__BackingField; // 0x100
+        public UnityEngine.Vector2 <position>k__BackingField; // 0x104
+        public UnityEngine.Vector2 <delta>k__BackingField; // 0x10C
+        public UnityEngine.Vector2 <pressPosition>k__BackingField; // 0x114
+        public UnityEngine.Vector3 <worldPosition>k__BackingField; // 0x11C
+        public UnityEngine.Vector3 <worldNormal>k__BackingField; // 0x128
+        public float <clickTime>k__BackingField; // 0x134
+        public int <clickCount>k__BackingField; // 0x138
+        public UnityEngine.Vector2 <scrollDelta>k__BackingField; // 0x13C
+        public bool <useDragThreshold>k__BackingField; // 0x144
+        public bool <dragging>k__BackingField; // 0x145
+        public 0x6596BBC8 <button>k__BackingField; // 0x148
+        public float <pressure>k__BackingField; // 0x14C
+        public float <tangentialPressure>k__BackingField; // 0x150
+        public float <altitudeAngle>k__BackingField; // 0x154
+        public float <azimuthAngle>k__BackingField; // 0x158
+        public float <twist>k__BackingField; // 0x15C
+        public UnityEngine.Vector2 <tilt>k__BackingField; // 0x160
+        public 0x659FBB98 <penStatus>k__BackingField; // 0x168
+        public UnityEngine.Vector2 <radius>k__BackingField; // 0x16C
+        public UnityEngine.Vector2 <radiusVariance>k__BackingField; // 0x174
+        public bool <fullyExited>k__BackingField; // 0x17C
+        public bool <reentered>k__BackingField; // 0x17D
+
         // ── Methods ──
         public void get_pointerEnter(){} // RVA: 0x30B0C0
         public void set_pointerEnter(){} // RVA: 0x30B0D0
@@ -510,6 +612,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class RaycastResult
     {
+        public UnityEngine.GameObject m_GameObject; // 0x10
+        public UnityEngine.EventSystems.BaseRaycaster module; // 0x18
+
         // ── Methods ──
         public void get_gameObject(){} // RVA: 0x1AD4690
         public void set_gameObject(){} // RVA: 0x100A2F0
@@ -529,6 +634,16 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class StandaloneInputModule
     {
+        public float m_PrevActionTime; // 0x68
+        public UnityEngine.Vector2 m_LastMoveVector; // 0x6C
+        public int m_ConsecutiveMoveCount; // 0x74
+        public UnityEngine.Vector2 m_LastMousePosition; // 0x78
+        public UnityEngine.Vector2 m_MousePosition; // 0x80
+        public UnityEngine.GameObject m_CurrentFocusedGameObject; // 0x88
+        public UnityEngine.EventSystems.PointerEventData m_InputPointerEvent; // 0x90
+        public float doubleClickTime;
+        public string m_HorizontalAxis; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74EEC90
         public void get_inputMode(){} // RVA: 0x519240
@@ -569,6 +684,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class TouchInputModule
     {
+        public UnityEngine.Vector2 m_LastMousePosition; // 0x68
+        public UnityEngine.Vector2 m_MousePosition; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74F1EB0
         public void get_allowActivationOnStandalone(){} // RVA: 0x5A8B10

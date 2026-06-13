@@ -9,6 +9,8 @@ public class FILE_BASIC_INFO
 
 public class FILE_FULL_DIR_INFORMATION
 {
+    public uint NextEntryOffset; // 0x10
+
     // ── Methods ──
     public void get_FileName(){} // RVA: 0x5BF3580
     public void GetNextInfo(){} // RVA: 0x5BF35F0
@@ -33,6 +35,9 @@ public class FaceExpressionStatusInternal
 
 public class FaceExpressionsEnumerator
 {
+    public float[] _faceExpressions; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x610FCA0
     public void MoveNext(){} // RVA: 0x610FD20
@@ -86,6 +91,8 @@ public class FailInfo
 
 public class FakeDelegate
 {
+    public System.Reflection.MethodInfo <Method>k__BackingField; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
     public void get_Method(){} // RVA: 0x2F8380
@@ -115,6 +122,9 @@ public class FallbackMaterial
 
 public class FallbackWrapper`1
 {
+    public System.Collections.Generic.IEnumerable`1<T> _sequence;
+    public System.Collections.Generic.IList`1<T> _collection;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Count(){} // RVA: 0xD840
@@ -154,7 +164,7 @@ public class FeatureState
 
 public class FieldCollection
 {
-    public object Name;
+    public Google.Protobuf.Reflection.MessageDescriptor Name; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DEE30
@@ -199,6 +209,15 @@ public class FieldDescription
 
 public class FileDescriptor
 {
+    public 0x657C82B0 <status>k__BackingField; // 0x68
+    public string <url>k__BackingField; // 0x70
+    public string <md5>k__BackingField; // 0x78
+    public 0x657C8308 <category>k__BackingField; // 0x80
+    public int <sizeInBytes>k__BackingField; // 0x84
+    public string <fileName>k__BackingField; // 0x88
+    public string <uploadId>k__BackingField; // 0x90
+    public System.Collections.Generic.List`1<string> <cdns>k__BackingField; // 0x98
+
     // ── Methods ──
     public void get_status(){} // RVA: 0x1C91440
     public void set_status(){} // RVA: 0x1C91450
@@ -222,6 +241,9 @@ public class FileDescriptor
 
 public class FillCollection`1
 {
+    public int <count>P;
+    public FillCollection`1<T> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void get_Count(){} // RVA: 0xD840
@@ -238,6 +260,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<string> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -254,6 +279,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<ÌÏÍÌÍÍÏÌÌÍÎÍÏÍÏÏÎÌÏÏÏÍÎ> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -270,6 +298,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -286,6 +317,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -302,6 +336,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<UnityEngine.GameObject> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -318,6 +355,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<Transmtn.DTO.Notifications.Notification> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -334,6 +374,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ComponentInfoT> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -350,6 +393,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -366,6 +412,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<VRC.Core.ApiLicense> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -382,6 +431,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<VRC.Core.ApiVRChatSubscription> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -398,6 +450,9 @@ public class FillCollection`1
 
 public class FillCollection`1
 {
+    public int <count>P; // 0x10
+    public FillCollection`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ> Instance; // 0xFFFFFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x333BC00
     public void get_Count(){} // RVA: 0x8ABED0
@@ -529,6 +584,8 @@ public class FingerAndTouchState
 
 public class FingerColliders
 {
+    public UnityEngine.Transform[] thumbColliders; // 0x10
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0x6540680
     public void set_Item(){} // RVA: 0x65406C0
@@ -583,9 +640,9 @@ public class FixedPointCallback
 
 public class Fixup
 {
-    public object Collection;
-    public object Index;
-    public object Id;
+    public object Collection; // 0x10
+    public string[] Index; // 0x18
+    public System.Xml.Serialization.XmlSerializationFixupCallback Id; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6AB5040
@@ -662,6 +719,9 @@ public class FocusedElement
 
 public class FoldoutList
 {
+    public System.Collections.Generic.List`1<bool> foldouts; // 0x10
+    public bool mainFoldout; // 0x18
+
     // ── Methods ──
     public void set_Item(){} // RVA: 0x4745E0
     public void .ctor(){} // RVA: 0x474670
@@ -706,8 +766,8 @@ public class Foot
 
 public class Footstep
 {
-    public object position;
-    public object rotation;
+    public float position; // 0x10
+    public UnityEngine.Vector3 rotation; // 0x14
 
     // ── Methods ──
     public void get_isStepping(){} // RVA: 0x407F10
@@ -745,8 +805,7 @@ public class ForceDropDelegate
 
 public class ForceOverLifetimeModule
 {
-    public object enabled;
-    public object color;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -790,6 +849,13 @@ public class ForceOverLifetimeModule
 
 public class FormatLiterals
 {
+    public string AppCompatLiteral; // 0x10
+    public int dd; // 0x18
+    public int hh; // 0x1C
+    public int mm; // 0x20
+    public int ss; // 0x24
+    public int ff; // 0x28
+
     // ── Methods ──
     public void get_Start(){} // RVA: 0x5DBE990
     public void get_DayHourSep(){} // RVA: 0x5DBE9C0
@@ -803,6 +869,8 @@ public class FormatLiterals
 
 public class FormatOptions
 {
+    public 0x659E7090 Kind; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E1050
     public void get_Uppercase(){} // RVA: 0x68E9DD0
@@ -812,6 +880,9 @@ public class FormatOptions
 
 public class FormatParam
 {
+    public int _int32; // 0x10
+    public string _string; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37C6C70 | overloaded x2
     public void op_Implicit(){} // RVA: 0x5BA8870

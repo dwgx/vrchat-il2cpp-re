@@ -116,6 +116,9 @@ namespace ThirdParty.DotNet.System.Net.Configuration
 
     public class DefaultProxySectionInternal
     {
+        public System.Net.IWebProxy webProxy; // 0x10
+        public object classSyncObject;
+
         // ── Methods ──
         public void GetDefaultProxy_UsingOldMonoCode(){} // RVA: 0x6B43BB0
         public void GetSystemWebProxy(){} // RVA: 0x6B43BB0
@@ -323,6 +326,16 @@ namespace ThirdParty.DotNet.System.Net.Configuration
 
     public class SettingsSectionInternal
     {
+        public System.Net.Configuration.SettingsSectionInternal instance;
+        public bool HttpListenerUnescapeRequestUrl; // 0x10
+        public 0x6585B770 IPProtectionLevel; // 0x14
+        public bool <UseNagleAlgorithm>k__BackingField; // 0x18
+        public bool <Expect100Continue>k__BackingField; // 0x19
+        public bool <CheckCertificateName>k__BackingField; // 0x1A
+        public int <DnsRefreshTimeout>k__BackingField; // 0x1C
+        public bool <EnableDnsRoundRobin>k__BackingField; // 0x20
+        public bool <CheckCertificateRevocationList>k__BackingField; // 0x21
+
         // ── Methods ──
         public void get_Section(){} // RVA: 0x6B96420
         public void get_UseNagleAlgorithm(){} // RVA: 0x2F84E0

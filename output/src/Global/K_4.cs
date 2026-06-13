@@ -5,6 +5,8 @@
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Light,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -24,6 +26,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x657CA5C0,string> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -43,6 +47,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<uint>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -62,6 +68,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.ValueTuple`2<string,string>,string> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -81,6 +89,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.SortedDictionary`2<uint,System.ValueTuple`2<uint,uint>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x379E650
     public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x37B64E0
@@ -99,6 +109,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,ÍÌÍÎÏÎÎÎÍÏÌÍÏÍÏÏÌÏÎÏÌÍÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -118,6 +130,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -137,6 +151,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,HeadChopData> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -156,6 +172,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -175,6 +193,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,TMPro.TMP_SpriteCharacter> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -194,6 +214,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<uint,TMPro.TMP_SpriteGlyph> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -213,6 +235,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_Style> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -232,6 +256,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -251,6 +277,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÎÏÏÌÏÏÍÏÎÎÍÌÏÌÌÌÍÌÍÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -270,6 +298,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Guid,Mediapipe.Unity.Experimental.TextureFrame> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -289,6 +319,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.Transform> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -308,6 +340,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65715E98,float> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -327,6 +361,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ItemAttribute> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -346,6 +382,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÌÎÍÌÎÎÏÎÎÎÎÍÏÏÌÌÎÎÍÌÎÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -365,6 +403,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -384,6 +424,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,VRC.SDKBase.Network.NetworkIDPair> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -403,6 +445,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65A0B318,System.Type> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -422,6 +466,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,long> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -441,6 +487,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<T>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -460,6 +508,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.Networking.FlatBuffers.FlatBuffers32.WorldMetadataT> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -479,6 +529,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -498,10 +550,13 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Threading.Thread,System.Diagnostics.StackTrace> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -521,6 +576,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<BlobHandles.BlobHandle,OscCore.OscActionPair> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -540,6 +597,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,BlobHandles.BlobString> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -559,6 +618,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.OSCQuery.OSCQueryNode> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -578,6 +639,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x6588F598,System.Collections.Generic.Dictionary`2<VRC.OSCQuery.OSCQueryServiceProfile,OscCore.OscClient>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -597,6 +660,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.MeshFilter,UnityEngine.Color> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -616,6 +681,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x659C0BA8,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -635,6 +702,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÍÌÍÏÍÌÏÏÌÌÌÎÌÎÎÍÌÍÌÌÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -654,6 +723,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÎÎÎÎÍÎÌÌÌÏÍÍÏÍÎÍÏÎÌÍÍÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -673,6 +744,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiModeration>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -692,6 +765,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -711,6 +786,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -730,6 +807,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.ValueTuple`2<bool,bool>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -749,6 +828,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<short,ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37989D0
@@ -768,6 +849,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -787,6 +870,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.Dictionary`2<ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ,float>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -806,6 +891,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ>>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -825,6 +912,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -844,6 +933,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÍÌÏÌÌÍÎÌÎÍÍÎÎÏÌÎÍÍÎÍÎÏ,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -863,6 +954,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÍÌÏÌÌÍÎÌÎÍÍÎÎÏÌÎÍÍÎÍÎÏ,Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3799320
@@ -882,10 +975,13 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,UnityEngine.UIElements.Panel> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -905,6 +1001,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -924,6 +1022,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<string>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -943,10 +1043,13 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Rendering.CommandBuffer> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<VRC.Core.ApiModel>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -966,6 +1069,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÎÍÎÍÌÎÏÎÎÍÌÎÌÌÍÍÍÎÌÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -985,6 +1090,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Guid,ÎÏÌÏÌÍÎÌÏÍÎÌÎÏÏÎÎÌÍÌÎÌÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x3794BE0
@@ -1004,22 +1111,28 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x65704148,byte[]> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<ÌÏÎÌÍÏÎÌÍÏÎÍÎÌÏÌÌÌÏÍÌÌÌ>> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÏÎÌÍÏÎÌÍÏÎÍÎÌÏÌÌÌÏÍÌÌÌ> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<0x657CA3B0,int> _dictionary; // 0x10
 }
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,PhysSound.PhysSoundAudioSet> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1039,6 +1152,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,PhysSound.PhysSoundAudioContainer> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1058,6 +1173,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÍÍÍÏÏÌÎÌÎÍÏÍÎÌÏÌÏÌÏÌÎÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1077,6 +1194,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ,ÏÏÏÎÍÏÌÌÎÌÌÎÏÎÌÏÌÌÍÍÍÍÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1096,6 +1215,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÏÎÍÎÎÍÎÌÌÍÍÎÍÍÏÏÎÍÌÏÎÌ,ÏÌÌÎÍÏÏÏÎÎÎÏÏÌÏÌÏÌÎÌÍÌÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37A6390
@@ -1115,6 +1236,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,0x659C0BA8> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1134,6 +1257,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,UnityEngine.Color> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1153,6 +1278,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÎÏÍÎÏÏÍÍÎÏÌÏÌÎÎÌÎÏÍÎÎÎ,int> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1172,6 +1299,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,uint> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1191,6 +1320,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1210,6 +1341,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,VRC.SDK3.Props.VRCPropApi> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1229,6 +1362,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÎÍÎÌÍÍÎÌÏÍÏÌÍÍÍÌÍÍÏÍÏÍÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1248,6 +1383,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1267,6 +1404,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1286,6 +1425,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÎÌÏÎÏÎÎÎÍÎÎÌÎÎÍÏÎÌÏÌÌÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1305,6 +1446,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,ÍÏÎÎÎÎÎÏÍÌÎÌÌÍÏÎÌÏÏÌÏÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1324,6 +1467,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,VRC.SDKBase.VRCDroneApi> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1343,6 +1488,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<System.Tuple`2<...,...>,UnityEngine.Object> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1362,6 +1509,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.Sprite> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1381,6 +1530,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<ÍÏÎÌÏÍÍÌÍÏÍÍÌÌÌÏÎÌÍÌÍÍÌ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1400,6 +1551,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,ÌÌÎÍÌÍÎÍÏÏÌÏÌÍÎÎÍÍÍÍÍÎÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1419,6 +1572,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,System.DateTime> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1438,6 +1593,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.FavoriteModel> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1457,6 +1614,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1476,6 +1635,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.List`1<ÏÌÍÍÍÏÌÌÎÍÏÎÌÏÏÌÍÌÍÍÏÏÍ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1495,6 +1656,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÍÎÏÏÏÎÎÎÏÎÏÍÌÌÍÏÎÏÏÏÍÎ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1514,6 +1677,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÌÌÌÏÌÏÍÎÍÎÍÍÌÏÍÌÍÍÎÍÌÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1533,6 +1698,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1552,6 +1719,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,System.ValueTuple`3<int,UnityEngine.Vector3,float>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1571,6 +1740,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Behaviour,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1590,6 +1761,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1609,6 +1782,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.BoxCollider,bool> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1628,6 +1803,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x379B270
@@ -1647,6 +1824,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,float> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1666,6 +1845,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Collections.Generic.List`1<ÌÍÏÏÏÏÎÏÏÏÍÌÏÍÎÎÌÎÌÎÌÏÏ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1685,6 +1866,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÏÏÌÍÌÏÏÏÌÎÍÍÏÎÍÎÍÎÏÏÏÏÏ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1704,6 +1887,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1723,6 +1908,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1742,6 +1929,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,ÏÍÍÍÏÏÎÏÏÌÎÌÌÍÍÌÌÌÍÍÏÏÏ[]> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1761,6 +1950,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<object,System.Collections.Generic.List`1<ÎÌÎÌÏÍÎÌÌÏÎÌÏÍÌÌÎÎÎÌÎÏÎ>> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0
@@ -1780,6 +1971,8 @@ public class KeyCollection
 
 public class KeyCollection
 {
+    public System.Collections.Generic.Dictionary`2<string,UnityEngine.UI.Toggle> _dictionary; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3794B70
     public void GetEnumerator(){} // RVA: 0x37966C0

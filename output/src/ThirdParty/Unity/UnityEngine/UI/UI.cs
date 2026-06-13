@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.UI
 {
     public class AnimationTriggers
     {
+        public string kDefaultNormalAnimName;
+        public string kDefaultHighlightedAnimName;
+        public string kDefaultPressedAnimName;
+        public string kDefaultSelectedAnimName;
+        public string kDefaultDisabledAnimName;
+
         // ── Methods ──
         public void get_normalTrigger(){} // RVA: 0x2F8380
         public void set_normalTrigger(){} // RVA: 0x2DEE30
@@ -23,6 +29,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class AspectRatioFitter
     {
+        public 0x65969B20 m_AspectMode; // 0x20
+        public float m_AspectRatio; // 0x24
+        public UnityEngine.RectTransform m_Rect; // 0x28
+
         // ── Methods ──
         public void get_aspectMode(){} // RVA: 0x760030
         public void set_aspectMode(){} // RVA: 0x74B0560
@@ -49,6 +59,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class BaseMeshEffect
     {
+        public UnityEngine.UI.Graphic m_Graphic; // 0x20
+
         // ── Methods ──
         public void get_graphic(){} // RVA: 0x74DD5E0
         public void OnEnable(){} // RVA: 0x74DD720
@@ -67,6 +79,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Button
     {
+        public ButtonClickedEvent m_OnClick; // 0x100
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72BA990
         public void get_onClick(){} // RVA: 0xA94E10
@@ -79,6 +93,17 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class CanvasScaler
     {
+        public 0x65969BD0 m_UiScaleMode; // 0x20
+        public float m_ReferencePixelsPerUnit; // 0x24
+        public float m_ScaleFactor; // 0x28
+        public UnityEngine.Vector2 m_ReferenceResolution; // 0x2C
+        public 0x65969C28 m_ScreenMatchMode; // 0x34
+        public float m_MatchWidthOrHeight; // 0x38
+        public float kLogBase;
+        public 0x65969C80 m_PhysicalUnit; // 0x3C
+        public float m_FallbackScreenDPI; // 0x40
+        public float m_DefaultSpriteDPI; // 0x44
+
         // ── Methods ──
         public void get_uiScaleMode(){} // RVA: 0x760030
         public void set_uiScaleMode(){} // RVA: 0x99E0D0
@@ -115,6 +140,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class CanvasUpdateRegistry
     {
+        public UnityEngine.UI.CanvasUpdateRegistry s_Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72BAF40
         public void get_instance(){} // RVA: 0x72BB210
@@ -142,6 +169,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ClipperRegistry
     {
+        public UnityEngine.UI.ClipperRegistry s_Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72BDA30
         public void get_instance(){} // RVA: 0x72BDAF0
@@ -159,6 +188,14 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ColorBlock
     {
+        public UnityEngine.Color m_NormalColor; // 0x10
+        public UnityEngine.Color m_HighlightedColor; // 0x20
+        public UnityEngine.Color m_PressedColor; // 0x30
+        public UnityEngine.Color m_SelectedColor; // 0x40
+        public UnityEngine.Color m_DisabledColor; // 0x50
+        public float m_ColorMultiplier; // 0x60
+        public float m_FadeDuration; // 0x64
+
         // ── Methods ──
         public void get_normalColor(){} // RVA: 0x75E7E0
         public void set_normalColor(){} // RVA: 0x1A53740
@@ -183,6 +220,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ContentSizeFitter
     {
+        public 0x65969D30 m_HorizontalFit; // 0x20
+        public 0x65969D30 m_VerticalFit; // 0x24
+        public UnityEngine.RectTransform m_Rect; // 0x28
+
         // ── Methods ──
         public void get_horizontalFit(){} // RVA: 0x760030
         public void set_horizontalFit(){} // RVA: 0x74B1FD0
@@ -201,6 +242,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class DefaultControls
     {
+        public IFactoryControls m_CurrentFactory;
+
         // ── Methods ──
         public void get_factory(){} // RVA: 0x72BE6C0
         public void CreateUIElementRoot(){} // RVA: 0x72BE720
@@ -225,6 +268,16 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Dropdown
     {
+        public UnityEngine.RectTransform m_Template; // 0x100
+        public UnityEngine.UI.Text m_CaptionText; // 0x108
+        public UnityEngine.UI.Image m_CaptionImage; // 0x110
+        public UnityEngine.UI.Text m_ItemText; // 0x118
+        public UnityEngine.UI.Image m_ItemImage; // 0x120
+        public int m_Value; // 0x128
+        public OptionDataList m_Options; // 0x130
+        public DropdownEvent m_OnValueChanged; // 0x138
+        public float m_AlphaFadeSpeed; // 0x140
+
         // ── Methods ──
         public void get_template(){} // RVA: 0xA94E10
         public void set_template(){} // RVA: 0x72C6760
@@ -277,6 +330,19 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class FontData
     {
+        public UnityEngine.Font m_Font; // 0x10
+        public int m_FontSize; // 0x18
+        public 0x659FB510 m_FontStyle; // 0x1C
+        public bool m_BestFit; // 0x20
+        public int m_MinSize; // 0x24
+        public int m_MaxSize; // 0x28
+        public 0x659FB6C8 m_Alignment; // 0x2C
+        public bool m_AlignByGeometry; // 0x30
+        public bool m_RichText; // 0x31
+        public 0x659FB720 m_HorizontalOverflow; // 0x34
+        public 0x659FB778 m_VerticalOverflow; // 0x38
+        public float m_LineSpacing; // 0x3C
+
         // ── Methods ──
         public void get_defaultFontData(){} // RVA: 0x72CC8C0
         public void get_font(){} // RVA: 0x2F8380
@@ -319,6 +385,21 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Graphic
     {
+        public UnityEngine.Material s_DefaultUI;
+        public UnityEngine.Texture2D s_WhiteTexture; // 0x8
+        public UnityEngine.Material m_Material; // 0x20
+        public UnityEngine.Color m_Color; // 0x28
+        public bool m_SkipLayoutUpdate; // 0x38
+        public bool m_SkipMaterialUpdate; // 0x39
+        public bool m_RaycastTarget; // 0x3A
+        public bool m_RaycastTargetCache; // 0x3B
+        public UnityEngine.Vector4 m_RaycastPadding; // 0x3C
+        public UnityEngine.RectTransform m_RectTransform; // 0x50
+        public UnityEngine.CanvasRenderer m_CanvasRenderer; // 0x58
+        public UnityEngine.Canvas m_Canvas; // 0x60
+        public bool m_VertsDirty; // 0x68
+        public bool m_MaterialDirty; // 0x69
+
         // ── Methods ──
         public void get_defaultGraphicMaterial(){} // RVA: 0x72CD430
         public void get_color(){} // RVA: 0x111F520
@@ -383,6 +464,14 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GraphicRaycaster
     {
+        public int kNoEventMaskSet;
+        public bool m_IgnoreReversedGraphics; // 0x28
+        public 0x659691D8 m_BlockingObjects; // 0x2C
+        public UnityEngine.LayerMask m_BlockingMask; // 0x30
+        public UnityEngine.Canvas m_Canvas; // 0x38
+        public System.Collections.Generic.List`1<UnityEngine.UI.Graphic> m_RaycastResults; // 0x40
+        public System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_SortedGraphics;
+
         // ── Methods ──
         public void get_sortOrderPriority(){} // RVA: 0x72D2000
         public void get_renderOrderPriority(){} // RVA: 0x72D20E0
@@ -401,6 +490,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GraphicRegistry
     {
+        public UnityEngine.UI.GraphicRegistry s_Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72D4450
         public void get_instance(){} // RVA: 0x72D4670
@@ -417,6 +508,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GridLayoutGroup
     {
+        public 0x65969DE0 m_StartCorner; // 0x60
+        public 0x65969E38 m_StartAxis; // 0x64
+        public UnityEngine.Vector2 m_CellSize; // 0x68
+        public UnityEngine.Vector2 m_Spacing; // 0x70
+        public 0x65969E90 m_Constraint; // 0x78
+        public int m_ConstraintCount; // 0x7C
+
         // ── Methods ──
         public void get_startCorner(){} // RVA: 0x59CEC0
         public void set_startCorner(){} // RVA: 0x74B2440
@@ -450,6 +548,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class HorizontalOrVerticalLayoutGroup
     {
+        public float m_Spacing; // 0x60
+        public bool m_ChildForceExpandWidth; // 0x64
+        public bool m_ChildForceExpandHeight; // 0x65
+        public bool m_ChildControlWidth; // 0x66
+        public bool m_ChildControlHeight; // 0x67
+        public bool m_ChildScaleWidth; // 0x68
+        public bool m_ChildScaleHeight; // 0x69
+        public bool m_ReverseArrangement; // 0x6A
+
         // ── Methods ──
         public void get_spacing(){} // RVA: 0x3EDE10
         public void set_spacing(){} // RVA: 0x74B3400
@@ -574,6 +681,28 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Image
     {
+        public UnityEngine.Material s_ETC1DefaultUI;
+        public UnityEngine.Sprite m_Sprite; // 0xE0
+        public UnityEngine.Sprite m_OverrideSprite; // 0xE8
+        public 0x65969390 m_Type; // 0xF0
+        public bool m_PreserveAspect; // 0xF4
+        public bool m_FillCenter; // 0xF5
+        public 0x659693E8 m_FillMethod; // 0xF8
+        public float m_FillAmount; // 0xFC
+        public bool m_FillClockwise; // 0x100
+        public int m_FillOrigin; // 0x104
+        public float m_AlphaHitTestMinimumThreshold; // 0x108
+        public bool m_Tracked; // 0x10C
+        public bool m_UseSpriteMesh; // 0x10D
+        public float m_PixelsPerUnitMultiplier; // 0x110
+        public float m_CachedReferencePixelsPerUnit; // 0x114
+        public UnityEngine.Vector2[] s_VertScratch; // 0x8
+        public UnityEngine.Vector2[] s_UVScratch; // 0x10
+        public UnityEngine.Vector3[] s_Xy; // 0x18
+        public UnityEngine.Vector3[] s_Uv; // 0x20
+        public System.Collections.Generic.List`1<UnityEngine.UI.Image> m_TrackedTexturelessImages; // 0x28
+        public bool s_Initialized; // 0x30
+
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x35E900
         public void set_sprite(){} // RVA: 0x72D5AD0
@@ -652,6 +781,52 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class InputField
     {
+        public UnityEngine.TouchScreenKeyboard m_Keyboard; // 0x100
+        public char[] kSeparators;
+        public bool s_IsQuestDevice; // 0x8
+        public bool s_IsPicoDevice; // 0x9
+        public UnityEngine.UI.Text m_TextComponent; // 0x108
+        public UnityEngine.UI.Graphic m_Placeholder; // 0x110
+        public 0x65969700 m_ContentType; // 0x118
+        public 0x65969758 m_InputType; // 0x11C
+        public char m_AsteriskChar; // 0x120
+        public 0x6589C430 m_KeyboardType; // 0x124
+        public 0x65969808 m_LineType; // 0x128
+        public bool m_HideMobileInput; // 0x12C
+        public 0x659697B0 m_CharacterValidation; // 0x130
+        public int m_CharacterLimit; // 0x134
+        public SubmitEvent m_OnSubmit; // 0x138
+        public SubmitEvent m_OnEndEdit; // 0x140
+        public EndEditEvent m_OnDidEndEdit; // 0x148
+        public OnChangeEvent m_OnValueChanged; // 0x150
+        public OnValidateInput m_OnValidateInput; // 0x158
+        public UnityEngine.Color m_CaretColor; // 0x160
+        public bool m_CustomCaretColor; // 0x170
+        public UnityEngine.Color m_SelectionColor; // 0x174
+        public string m_Text; // 0x188
+        public float m_CaretBlinkRate; // 0x190
+        public int m_CaretWidth; // 0x194
+        public bool m_ReadOnly; // 0x198
+        public bool m_ShouldActivateOnSelect; // 0x199
+        public int m_CaretPosition; // 0x19C
+        public int m_CaretSelectPosition; // 0x1A0
+        public UnityEngine.RectTransform caretRectTrans; // 0x1A8
+        public UnityEngine.UIVertex[] m_CursorVerts; // 0x1B0
+        public UnityEngine.TextGenerator m_InputTextCache; // 0x1B8
+        public UnityEngine.CanvasRenderer m_CachedInputRenderer; // 0x1C0
+        public bool m_PreventFontCallback; // 0x1C8
+        public UnityEngine.Mesh m_Mesh; // 0x1D0
+        public bool m_AllowInput; // 0x1D8
+        public bool m_ShouldActivateNextUpdate; // 0x1D9
+        public bool m_UpdateDrag; // 0x1DA
+        public bool m_DragPositionOutOfBounds; // 0x1DB
+        public float kHScrollSpeed;
+        public float kVScrollSpeed;
+        public bool m_CaretVisible; // 0x1DC
+        public UnityEngine.Coroutine m_BlinkCoroutine; // 0x1E0
+        public float m_BlinkStartTime; // 0x1E8
+        public int m_DrawStart; // 0x1EC
+
         // ── Methods ──
         public void get_input(){} // RVA: 0x74A1830
         public void get_compositionString(){} // RVA: 0x74A1A20
@@ -821,6 +996,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutElement
     {
+        public bool m_IgnoreLayout; // 0x20
+        public float m_MinWidth; // 0x24
+        public float m_MinHeight; // 0x28
+        public float m_PreferredWidth; // 0x2C
+        public float m_PreferredHeight; // 0x30
+        public float m_FlexibleWidth; // 0x34
+        public float m_FlexibleHeight; // 0x38
+        public int m_LayoutPriority; // 0x3C
+
         // ── Methods ──
         public void get_ignoreLayout(){} // RVA: 0x3CB9D0
         public void set_ignoreLayout(){} // RVA: 0x74B4880
@@ -851,6 +1035,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutGroup
     {
+        public UnityEngine.RectOffset m_Padding; // 0x20
+        public 0x659FB6C8 m_ChildAlignment; // 0x28
+        public UnityEngine.RectTransform m_Rect; // 0x30
+        public UnityEngine.DrivenRectTransformTracker m_Tracker; // 0x38
+        public UnityEngine.Vector2 m_TotalMinSize; // 0x3C
+        public UnityEngine.Vector2 m_TotalPreferredSize; // 0x44
+        public UnityEngine.Vector2 m_TotalFlexibleSize; // 0x4C
+        public System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren; // 0x58
+
         // ── Methods ──
         public void get_padding(){} // RVA: 0x30B0C0
         public void set_padding(){} // RVA: 0x74B4CF0
@@ -891,6 +1084,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutRebuilder
     {
+        public UnityEngine.RectTransform m_ToRebuild; // 0x10
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x74B6AA0
         public void Clear(){} // RVA: 0x74B6B20
@@ -933,6 +1128,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Mask
     {
+        public UnityEngine.RectTransform m_RectTransform; // 0x20
+        public bool m_ShowMaskGraphic; // 0x28
+        public UnityEngine.UI.Graphic m_Graphic; // 0x30
+
         // ── Methods ──
         public void get_rectTransform(){} // RVA: 0x74BB1A0
         public void get_showMaskGraphic(){} // RVA: 0x6E8A80
@@ -962,6 +1161,11 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class MaskableGraphic : s_WhiteTexture
     {
+        public bool m_ShouldRecalculateStencil; // 0xA8
+        public UnityEngine.Material m_MaskMaterial; // 0xB0
+        public UnityEngine.UI.RectMask2D m_ParentMask; // 0xB8
+        public bool m_Maskable; // 0xC0
+
         // ── Methods ──
         public void get_onCullStateChanged(){} // RVA: 0x435460
         public void set_onCullStateChanged(){} // RVA: 0x435470
@@ -1004,6 +1208,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Navigation
     {
+        public 0x6596A6D0 m_Mode; // 0x10
+        public bool m_WrapAround; // 0x14
+        public UnityEngine.UI.Selectable m_SelectOnUp; // 0x18
+        public UnityEngine.UI.Selectable m_SelectOnDown; // 0x20
+        public UnityEngine.UI.Selectable m_SelectOnLeft; // 0x28
+        public UnityEngine.UI.Selectable m_SelectOnRight; // 0x30
+
         // ── Methods ──
         public void get_mode(){} // RVA: 0x19689B0
         public void set_mode(){} // RVA: 0x833580
@@ -1037,6 +1248,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class RawImage
     {
+        public UnityEngine.Texture m_Texture; // 0xE0
+        public UnityEngine.Rect m_UVRect; // 0xE8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74C02A0
         public void get_mainTexture(){} // RVA: 0x74C02D0
@@ -1051,6 +1265,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class RectMask2D
     {
+        public UnityEngine.UI.RectangularVertexClipper m_VertexClipper; // 0x20
+        public UnityEngine.RectTransform m_RectTransform; // 0x28
+        public System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic> m_MaskableTargets; // 0x30
+        public System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable> m_ClipTargets; // 0x38
+        public bool m_ShouldRecalculateClipRects; // 0x40
+        public System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers; // 0x48
+
         // ── Methods ──
         public void get_padding(){} // RVA: 0x3EDE00
         public void set_padding(){} // RVA: 0x74C0E90
@@ -1082,7 +1303,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ReflectionMethodsCache
     {
-        public object Key;
+        public Raycast3DCallback Key; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74D8700
@@ -1091,6 +1312,38 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ScrollRect
     {
+        public UnityEngine.RectTransform m_Content; // 0x20
+        public bool m_Horizontal; // 0x28
+        public bool m_Vertical; // 0x29
+        public 0x6596A9E8 m_MovementType; // 0x2C
+        public float m_Elasticity; // 0x30
+        public bool m_Inertia; // 0x34
+        public float m_DecelerationRate; // 0x38
+        public float m_ScrollSensitivity; // 0x3C
+        public UnityEngine.RectTransform m_Viewport; // 0x40
+        public UnityEngine.UI.Scrollbar m_HorizontalScrollbar; // 0x48
+        public UnityEngine.UI.Scrollbar m_VerticalScrollbar; // 0x50
+        public 0x6596AA40 m_HorizontalScrollbarVisibility; // 0x58
+        public 0x6596AA40 m_VerticalScrollbarVisibility; // 0x5C
+        public float m_HorizontalScrollbarSpacing; // 0x60
+        public float m_VerticalScrollbarSpacing; // 0x64
+        public ScrollRectEvent m_OnValueChanged; // 0x68
+        public UnityEngine.Vector2 m_PointerStartLocalCursor; // 0x70
+        public UnityEngine.Vector2 m_ContentStartPosition; // 0x78
+        public UnityEngine.RectTransform m_ViewRect; // 0x80
+        public UnityEngine.Bounds m_ContentBounds; // 0x88
+        public UnityEngine.Bounds m_ViewBounds; // 0xA0
+        public UnityEngine.Vector2 m_Velocity; // 0xB8
+        public bool m_Dragging; // 0xC0
+        public bool m_Scrolling; // 0xC1
+        public UnityEngine.Vector2 m_PrevPosition; // 0xC4
+        public UnityEngine.Bounds m_PrevContentBounds; // 0xCC
+        public UnityEngine.Bounds m_PrevViewBounds; // 0xE4
+        public bool m_HasRebuiltLayout; // 0xFC
+        public bool m_HSliderExpand; // 0xFD
+        public bool m_VSliderExpand; // 0xFE
+        public float m_HSliderHeight; // 0x100
+
         // ── Methods ──
         public void get_content(){} // RVA: 0x30B0C0
         public void set_content(){} // RVA: 0x30B0D0
@@ -1187,6 +1440,16 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Scrollbar
     {
+        public UnityEngine.RectTransform m_HandleRect; // 0x100
+        public 0x6596A830 m_Direction; // 0x108
+        public float m_Value; // 0x10C
+        public float m_Size; // 0x110
+        public int m_NumberOfSteps; // 0x114
+        public ScrollEvent m_OnValueChanged; // 0x118
+        public UnityEngine.RectTransform m_ContainerRect; // 0x120
+        public UnityEngine.Vector2 m_Offset; // 0x128
+        public UnityEngine.DrivenRectTransformTracker m_Tracker; // 0x130
+
         // ── Methods ──
         public void get_handleRect(){} // RVA: 0xA94E10
         public void set_handleRect(){} // RVA: 0x74C2FB0
@@ -1235,6 +1498,23 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Selectable
     {
+        public UnityEngine.UI.Selectable[] s_Selectables;
+        public int s_SelectableCount; // 0x8
+        public bool m_EnableCalled; // 0x20
+        public UnityEngine.UI.Navigation m_Navigation; // 0x28
+        public 0x6596AB48 m_Transition; // 0x50
+        public UnityEngine.UI.ColorBlock m_Colors; // 0x54
+        public UnityEngine.UI.SpriteState m_SpriteState; // 0xB0
+        public UnityEngine.UI.AnimationTriggers m_AnimationTriggers; // 0xD0
+        public bool m_Interactable; // 0xD8
+        public UnityEngine.UI.Graphic m_TargetGraphic; // 0xE0
+        public bool m_GroupsAllowInteraction; // 0xE8
+        public int m_CurrentIndex; // 0xEC
+        public bool <isPointerInside>k__BackingField; // 0xF0
+        public bool <isPointerDown>k__BackingField; // 0xF1
+        public bool <hasSelection>k__BackingField; // 0xF2
+        public System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache; // 0xF8
+
         // ── Methods ──
         public void get_allSelectablesArray(){} // RVA: 0x74CBEC0
         public void get_allSelectableCount(){} // RVA: 0x74CC070
@@ -1311,6 +1591,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Shadow
     {
+        public UnityEngine.Color m_EffectColor; // 0x28
+        public UnityEngine.Vector2 m_EffectDistance; // 0x38
+        public bool m_UseGraphicAlpha; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74DDB30
         public void get_effectColor(){} // RVA: 0x111F520
@@ -1326,6 +1610,19 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Slider
     {
+        public UnityEngine.RectTransform m_FillRect; // 0x100
+        public UnityEngine.RectTransform m_HandleRect; // 0x108
+        public 0x6596ACA8 m_Direction; // 0x110
+        public float m_MinValue; // 0x114
+        public float m_MaxValue; // 0x118
+        public bool m_WholeNumbers; // 0x11C
+        public float m_Value; // 0x120
+        public SliderEvent m_OnValueChanged; // 0x128
+        public UnityEngine.UI.Image m_FillImage; // 0x130
+        public UnityEngine.Transform m_FillTransform; // 0x138
+        public UnityEngine.RectTransform m_FillContainerRect; // 0x140
+        public UnityEngine.Transform m_HandleTransform; // 0x148
+
         // ── Methods ──
         public void get_fillRect(){} // RVA: 0xA94E10
         public void set_fillRect(){} // RVA: 0x74CFDF0
@@ -1378,6 +1675,11 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class SpriteState
     {
+        public UnityEngine.Sprite m_HighlightedSprite; // 0x10
+        public UnityEngine.Sprite m_PressedSprite; // 0x18
+        public UnityEngine.Sprite m_SelectedSprite; // 0x20
+        public UnityEngine.Sprite m_DisabledSprite; // 0x28
+
         // ── Methods ──
         public void get_highlightedSprite(){} // RVA: 0x1AD4690
         public void set_highlightedSprite(){} // RVA: 0x100A2F0
@@ -1402,6 +1704,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Text
     {
+        public UnityEngine.UI.FontData m_FontData; // 0xE0
+        public string m_Text; // 0xE8
+        public UnityEngine.TextGenerator m_TextCache; // 0xF0
+        public UnityEngine.TextGenerator m_TextCacheForLayout; // 0xF8
+        public UnityEngine.Material s_DefaultText;
+        public bool m_DisableFontTextureRebuiltCallback; // 0x100
+        public int MAX_TEXT_LENGTH;
+        public UnityEngine.UIVertex[] m_TempVerts; // 0x108
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74D41D0
         public void get_cachedTextGenerator(){} // RVA: 0x74D4370
@@ -1456,6 +1767,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Toggle
     {
+        public 0x6596AF68 toggleTransition; // 0x100
+        public UnityEngine.UI.Graphic graphic; // 0x108
+
         // ── Methods ──
         public void get_group(){} // RVA: 0x507710
         public void set_group(){} // RVA: 0x74D6AC0
@@ -1482,6 +1796,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ToggleGroup
     {
+        public bool m_AllowSwitchOff; // 0x20
+
         // ── Methods ──
         public void get_allowSwitchOff(){} // RVA: 0x3CB9D0
         public void set_allowSwitchOff(){} // RVA: 0x3CB9E0
@@ -1501,6 +1817,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class VertexHelper
     {
+        public System.Collections.Generic.List`1<UnityEngine.Vector3> m_Positions; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.Color32> m_Colors; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x74DAB20 | overloaded x2
         public void InitializeListIfRequired(){} // RVA: 0x74DAE70

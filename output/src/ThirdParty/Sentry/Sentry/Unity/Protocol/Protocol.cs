@@ -7,6 +7,12 @@ namespace ThirdParty.Sentry.Sentry.Unity.Protocol
 {
     public class Unity
     {
+        public string Type;
+        public string <EditorVersion>k__BackingField; // 0x10
+        public string <InstallMode>k__BackingField; // 0x18
+        public string <CopyTextureSupport>k__BackingField; // 0x20
+        public string <RenderingThreadingMode>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_EditorVersion(){} // RVA: 0x2F8380
         public void set_EditorVersion(){} // RVA: 0x2DEE30

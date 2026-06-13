@@ -23,6 +23,17 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class ValidatingReaderNodeData
     {
+        public string localName; // 0x10
+        public string namespaceUri; // 0x18
+        public string prefix; // 0x20
+        public string nameWPrefix; // 0x28
+        public string rawValue; // 0x30
+        public string originalStringValue; // 0x38
+        public int depth; // 0x40
+        public System.Xml.AttributePSVIInfo attributePSVIInfo; // 0x48
+        public 0x658787D8 nodeType; // 0x50
+        public int lineNo; // 0x54
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A155F0 | overloaded x2
         public void get_LocalName(){} // RVA: 0x2F8380

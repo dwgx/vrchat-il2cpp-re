@@ -354,6 +354,9 @@ public class <ProcessCarriageReturnAsync>d__11 : [I
 
 public class <ProcessDeferredEvents>d__34
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -365,6 +368,9 @@ public class <ProcessDeferredEvents>d__34
 
 public class <ProcessErrors>d__18
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -432,6 +438,9 @@ public class <QueryPurchases>d__3 : [I
 
 public class <RangeIterator>d__115
 {
+    public int <>1__state; // 0x10
+    public int <>2__current; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2A67FA0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

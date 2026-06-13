@@ -29,6 +29,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Stor
 
     public class X509AttrCertStoreSelector
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.IX509AttributeCertificate attributeCert; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date.DateTimeObject attributeCertificateValid; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.AttributeCertificateHolder holder; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.AttributeCertificateIssuer issuer; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger serialNumber; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet targetNames; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x945F8B0 | overloaded x2
         public void Match(){} // RVA: 0x945FC60
@@ -56,6 +63,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Stor
 
     public class X509CertPairStoreSelector
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509CertificatePair certPair; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Store.X509CertStoreSelector forwardSelector; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Store.X509CertStoreSelector reverseSelector; // 0x20
+
         // ── Methods ──
         public void CloneSelector(){} // RVA: 0x9460970
         public void .ctor(){} // RVA: 0x9460A00 | overloaded x2
@@ -71,6 +82,22 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Stor
 
     public class X509CertStoreSelector
     {
+        public byte[] authorityKeyIdentifier; // 0x10
+        public int basicConstraints; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate certificate; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date.DateTimeObject certificateValid; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet extendedKeyUsage; // 0x30
+        public bool ignoreX509NameOrdering; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name issuer; // 0x40
+        public bool[] keyUsage; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet policy; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date.DateTimeObject privateKeyValid; // 0x58
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger serialNumber; // 0x60
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name subject; // 0x68
+        public byte[] subjectKeyIdentifier; // 0x70
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo subjectPublicKey; // 0x78
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier subjectPublicKeyAlgID; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9461130 | overloaded x2
         public void Clone(){} // RVA: 0x9461790
@@ -131,6 +158,18 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Stor
 
     public class X509CrlStoreSelector
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate certificateChecking; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date.DateTimeObject dateAndTime; // 0x18
+        public System.Collections.ICollection issuers; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger maxCrlNumber; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger minCrlNumber; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.IX509AttributeCertificate attrCertChecking; // 0x38
+        public bool completeCrlEnabled; // 0x40
+        public bool deltaCrlIndicatorEnabled; // 0x41
+        public byte[] issuingDistributionPoint; // 0x48
+        public bool issuingDistributionPointEnabled; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger maxBaseCrlNumber; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9463490 | overloaded x2
         public void Clone(){} // RVA: 0x9463890

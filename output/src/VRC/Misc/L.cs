@@ -25,7 +25,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÎÏÌÎÌÏÍÎÏÏÍÎÍÍÌÎÌÌÌ</summary>
     public class LightManagerSibling_DD67
     {
-        public object _dD67;
+        public UnityEngine.UI.RawImage _dD67; // 0x20
 
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x8FF6F0
@@ -58,6 +58,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÌÍÎÍÍÏÍÎÍÍÏÍÍÏÏÏÏÎÌÎ</summary>
     public class LightManagerSibling_E678
     {
+        public UnityEngine.Transform ÍÍÌÏÎÎÍÏÌÎÎÍÌÎÌÏÍÍÏÏÎÎÏ; // 0x48
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x17FF8A0
         public void Start(){} // RVA: 0x17FFEB0
@@ -79,6 +81,18 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ</summary>
     public class LightManager_6ACB
     {
+        public ÎÌÌÌÍÏÎÏÌÍÌÎÎÎÍÌÍÎÌÎÍÎÏ ÍÌÌÏÏÍÍÎÏÌÎÌÎÌÏÏÌÌÎÏÎÌÎ; // 0x20
+        public 0x6573FCE8 ÌÌÌÍÎÎÎÎÎÌÏÎÏÌÌÏÎÎÍÏÏÍÏ; // 0x78
+        public bool ÍÍÍÎÌÏÍÏÍÏÏÍÍÍÎÍÌÌÍÏÏÍÎ; // 0x7C
+        public bool ÏÏÎÌÎÌÎÎÌÍÏÍÎÍÎÍÍÎÏÏÏÍÌ; // 0x7D
+        public UnityEngine.GameObject propInstanceContainer; // 0x80
+        public UnityEngine.Transform propInstanceFollowerPositionRotation; // 0x88
+        public UnityEngine.Transform propInstanceFollowerScaleFactor; // 0x90
+        public UnityEngine.MeshFilter hiddenPreviewMeshFilter; // 0x98
+        public UnityEngine.AudioSource propSpawnAudioSource; // 0xA0
+        public UnityEngine.AudioClip propSpawnAudioClip; // 0xA8
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÌÏÎÏÍÏÌÎÍÏÍÏÏÏÏÍÎÏÍÏÌÌÎ; // 0xB0
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7F0540
         public void get_LightReservedLayerMask(){} // RVA: 0x7F0620

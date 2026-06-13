@@ -14,6 +14,9 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class IPv6MulticastOption
     {
+        public System.Net.IPAddress m_Group; // 0x10
+        public long m_Interface; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB0190 | overloaded x2
         public void set_Group(){} // RVA: 0x6BB0250
@@ -22,8 +25,8 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class LingerOption
     {
-        public object Group;
-        public object LocalAddress;
+        public bool Group; // 0x10
+        public int LocalAddress; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BAFDD0
@@ -33,8 +36,8 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class MulticastOption
     {
-        public object Group;
-        public object InterfaceIndex;
+        public System.Net.IPAddress Group; // 0x10
+        public System.Net.IPAddress InterfaceIndex; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BAFEA0 | overloaded x2
@@ -44,6 +47,15 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class NetworkStream
     {
+        public System.Net.Sockets.Socket _streamSocket; // 0x28
+        public bool _ownsSocket; // 0x30
+        public bool _readable; // 0x31
+        public bool _writeable; // 0x32
+        public int _closeTimeout; // 0x34
+        public bool _cleanedUp; // 0x38
+        public int _currentReadTimeout; // 0x3C
+        public int _currentWriteTimeout; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B96EA0 | overloaded x3
         public void get_CanRead(){} // RVA: 0x303470
@@ -95,6 +107,29 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class Socket
     {
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> AcceptCompletedHandler;
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> ReceiveCompletedHandler; // 0x8
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> SendCompletedHandler; // 0x10
+        public TaskSocketAsyncEventArgs`1<System.Net.Sockets.Socket> s_rentedSocketSentinel; // 0x18
+        public Int32TaskSocketAsyncEventArgs s_rentedInt32Sentinel; // 0x20
+        public System.Threading.Tasks.Task`1<int> s_zeroTask; // 0x28
+        public CachedEventArgs _cachedTaskEventArgs; // 0x10
+        public object s_InternalSyncObject; // 0x30
+        public bool s_SupportsIPv4; // 0x38
+        public bool s_SupportsIPv6; // 0x39
+        public bool s_OSSupportsIPv6; // 0x3A
+        public bool s_Initialized; // 0x3B
+        public bool s_LoggingEnabled; // 0x3C
+        public bool s_PerfCountersEnabled; // 0x3D
+        public int DefaultCloseTimeout;
+        public int SOCKET_CLOSED_CODE;
+        public string TIMEOUT_EXCEPTION_MSG;
+        public bool is_closed; // 0x18
+        public bool is_listening; // 0x19
+        public bool useOverlappedIO; // 0x1A
+        public int linger_timeout; // 0x1C
+        public 0x6585B668 addressFamily; // 0x20
+
         // ── Methods ──
         public void ConnectAsync(){} // RVA: 0x6B9A3E0
         public void ReceiveAsync(){} // RVA: 0x6BA35B0 | overloaded x2
@@ -231,6 +266,21 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class SocketAsyncEventArgs
     {
+        public bool disposed; // 0x10
+        public int in_progress; // 0x14
+        public System.Net.EndPoint remote_ep; // 0x18
+        public System.Net.Sockets.Socket current_socket; // 0x20
+        public System.Net.Sockets.SocketAsyncResult socket_async_result; // 0x28
+        public System.Exception <ConnectByNameError>k__BackingField; // 0x30
+        public System.Net.Sockets.Socket <AcceptSocket>k__BackingField; // 0x38
+        public int <BytesTransferred>k__BackingField; // 0x40
+        public bool <DisconnectReuseSocket>k__BackingField; // 0x44
+        public 0x6585B980 <LastOperation>k__BackingField; // 0x48
+        public System.Net.Sockets.IPPacketInformation <ReceiveMessageFromPacketInfo>k__BackingField; // 0x50
+        public System.Net.Sockets.SendPacketsElement[] <SendPacketsElements>k__BackingField; // 0x60
+        public 0x6585BCF0 <SendPacketsFlags>k__BackingField; // 0x68
+        public int <SendPacketsSendSize>k__BackingField; // 0x6C
+
         // ── Methods ──
         public void get_AcceptSocket(){} // RVA: 0x4976A0
         public void set_AcceptSocket(){} // RVA: 0x49B830
@@ -265,6 +315,9 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class SocketAsyncResult
     {
+        public System.Net.Sockets.Socket socket; // 0x30
+        public 0x6585BF58 operation; // 0x38
+
         // ── Methods ──
         public void get_Handle(){} // RVA: 0x6BB4DF0
         public void .ctor(){} // RVA: 0x6BB5220 | overloaded x2
@@ -277,6 +330,8 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class SocketException
     {
+        public System.Net.EndPoint m_EndPoint; // 0x98
+
         // ── Methods ──
         public void WSAGetLastError_icall(){} // RVA: 0x6BAFB90
         public void .ctor(){} // RVA: 0x6B1C9D0 | overloaded x5
@@ -287,6 +342,9 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class TcpClient
     {
+        public System.Net.Sockets.Socket m_ClientSocket; // 0x10
+        public bool m_Active; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB0730 | overloaded x4
         public void get_Client(){} // RVA: 0x2F8380
@@ -305,7 +363,7 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class TcpListener
     {
-        public object AddressFamily;
+        public System.Net.IPEndPoint AddressFamily; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB1660
@@ -318,6 +376,8 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class UdpClient
     {
+        public System.Net.Sockets.Socket m_ClientSocket; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB1E20
         public void get_Client(){} // RVA: 0x2F8380
@@ -339,6 +399,9 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class UdpReceiveResult
     {
+        public byte[] m_buffer; // 0x10
+        public System.Net.IPEndPoint m_remoteEndPoint; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB30D0
         public void get_Buffer(){} // RVA: 0x1AD4690

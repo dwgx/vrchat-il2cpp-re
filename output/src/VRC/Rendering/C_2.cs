@@ -975,6 +975,10 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÌÌÍÏÏÎÍÎÏÎÍÍÍÎÌÍÎÌÌÏÌÍ</summary>
     public class CameraHandler_361B
     {
+        public ÎÏÏÏÍÏÏÌÎÍÌÎÌÏÏÎÏÍÍÎÏÎÌ ÍÏÍÎÏÌÍÏÏÎÌÏÏÎÌÎÏÌÎÍÏÏÍ; // 0x10
+        public ÌÌÍÍÎÎÏÎÎÍÌÎÍÏÏÌÎÌÌÍÏÏÏ ÏÏÌÍÍÌÎÎÏÌÏÏÌÌÎÍÌÍÎÍÏÏÎ; // 0x18
+        public double ÎÏÍÌÌÏÌÌÌÌÌÏÏÌÏÏÎÍÍÎÌÏÎ; // 0x20
+
         // ── Methods ──
         public void get_BytesInHistory(){} // RVA: 0x1A34510
         public void GetFieldOfView(){} // RVA: 0x1A34630

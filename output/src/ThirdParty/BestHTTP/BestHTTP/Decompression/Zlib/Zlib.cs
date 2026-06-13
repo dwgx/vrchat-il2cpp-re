@@ -15,6 +15,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class DeflateManager
     {
+        public int MEM_LEVEL_MAX;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9817B70
         public void _InitializeLazyMatch(){} // RVA: 0x9818050
@@ -58,6 +60,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class DeflateStream
     {
+        public BestHTTP.Decompression.Zlib.ZlibBaseStream _baseStream; // 0x28
+        public System.IO.Stream _innerStream; // 0x30
+        public bool _disposed; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x981E770 | overloaded x5
         public void get_FlushMode(){} // RVA: 0x981E900
@@ -84,6 +90,17 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class GZipStream
     {
+        public System.Nullable`1<System.DateTime> LastModified; // 0x28
+        public int _headerByteCount; // 0x38
+        public BestHTTP.Decompression.Zlib.ZlibBaseStream _baseStream; // 0x40
+        public bool _disposed; // 0x48
+        public bool _firstReadDone; // 0x49
+        public string _FileName; // 0x50
+        public string _Comment; // 0x58
+        public int _Crc32; // 0x60
+        public System.DateTime _unixEpoch;
+        public System.Text.Encoding iso8859dash1; // 0x8
+
         // ── Methods ──
         public void get_Comment(){} // RVA: 0x3A5500
         public void set_Comment(){} // RVA: 0x981F0A0
@@ -149,6 +166,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class InflateManager
     {
+        public int PRESET_DICT;
+
         // ── Methods ──
         public void get_HandleRfc1950HeaderBytes(){} // RVA: 0x303450
         public void set_HandleRfc1950HeaderBytes(){} // RVA: 0x303460
@@ -206,6 +225,16 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class ZlibBaseStream
     {
+        public BestHTTP.Decompression.Zlib.ZlibCodec _z; // 0x28
+        public 0x657C4CB8 _streamMode; // 0x30
+        public 0x657C4948 _flushMode; // 0x34
+        public 0x657C4C60 _flavor; // 0x38
+        public 0x657C4A50 _compressionMode; // 0x3C
+        public 0x657C49A0 _level; // 0x40
+        public bool _leaveOpen; // 0x44
+        public byte[] _workingBuffer; // 0x48
+        public int _bufferSize; // 0x50
+
         // ── Methods ──
         public void get_Crc32(){} // RVA: 0x9826E90
         public void .ctor(){} // RVA: 0x9826EE0 | overloaded x2
@@ -232,6 +261,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Zlib
 
     public class ZlibCodec
     {
+        public byte[] InputBuffer; // 0x10
+
         // ── Methods ──
         public void get_Adler32(){} // RVA: 0x9EAB90
         public void .ctor(){} // RVA: 0x98292C0 | overloaded x2

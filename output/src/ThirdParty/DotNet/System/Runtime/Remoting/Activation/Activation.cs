@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Activation
 {
     public class ActivationServices
     {
-        public object NextActivator;
+        public System.Runtime.Remoting.Activation.IActivator NextActivator;
 
         // ── Methods ──
         public void get_ConstructionActivator(){} // RVA: 0x5CEF780
@@ -22,6 +22,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Activation
 
     public class AppDomainLevelActivator
     {
+        public string _activationUrl; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_NextActivator(){} // RVA: 0x2E07C0
@@ -38,6 +40,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Activation
 
     public class ContextLevelActivator
     {
+        public System.Runtime.Remoting.Activation.IActivator m_NextActivator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_NextActivator(){} // RVA: 0x2F8380

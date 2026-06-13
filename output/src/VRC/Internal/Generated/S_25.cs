@@ -261,6 +261,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÏÌÎÌÌÍÌÍÌÌÍÍÌÏÌÎÌÎÎÍ</summary>
     public class Static15m_C23F
     {
+        public UnityEngine.UI.Toggle _Toggle; // 0x48
+
         // ── Methods ──
         public void Start(){} // RVA: 0x842920
         public void .ctor(){} // RVA: 0x842B90
@@ -395,6 +397,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÏÍÎÏÌÎÍÍÌÎÍÌÏÌÌÏÏÏÎÏ</summary>
     public class Static2m_3D6A
     {
+        public ÍÏÏÌÏÍÍÏÏÌÏÌÏÏÎÎÍÏÌÌÎÏÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FADAF0
         public void m_FA2(){} // RVA: 0x1FADCC0
@@ -403,6 +407,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÏÏÌÏÏÍÎÍÍÍÎÌÏÌÌÎÍÌÌÌ</summary>
     public class Static2m_65D7
     {
+        public ÌÍÎÌÌÏÎÎÌÌÌÌÌÏÏÌÍÌÍÌÌÏÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F50EE0
         public void m_FA2(){} // RVA: 0x1F510B0
@@ -419,6 +425,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÌÎÌÌÍÍÏÏÌÏÌÌÏÏÎÍÏÎÏÎ</summary>
     public class Static2m_B413
     {
+        public ÍÌÌÎÍÎÍÍÏÏÎÍÌÏÎÌÌÌÍÍÎÏÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20077C0
         public void m_FA2(){} // RVA: 0x2007990
@@ -427,6 +435,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÍÍÏÌÎÌÍÌÏÍÌÏÍÌÌÎÎÍÏÍÌ</summary>
     public class Static2m_C0E3
     {
+        public ÏÎÌÍÏÍÌÍÏÏÎÎÎÏÏÍÎÌÍÏÍÎÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F52100
         public void m_FA2(){} // RVA: 0x1F522D0
@@ -443,6 +453,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÍÌÏÏÌÏÏÍÌÎÎÍÍÌÏÎÍÍÍÏÌ</summary>
     public class Static2m_ED53
     {
+        public ÎÍÏÏÌÎÎÎÏÌÏÌÌÌÌÏÍÎÎÏÍÌÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x202A160
         public void m_FA2(){} // RVA: 0x202A330
@@ -451,6 +463,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÍÌÏÎÏÎÌÏÌÎÎÌÌÏÍÎÍÎÍÏÏ</summary>
     public class Static2m_F9BE
     {
+        public ÏÍÏÏÏÏÌÍÏÎÏÌÌÎÍÍÍÎÏÍÎÎÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FAD010
         public void m_FA2(){} // RVA: 0x1FAD1E0
@@ -663,6 +677,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÍÍÌÎÏÌÍÎÍÎÎÌÏÌÍÏÏÍÍÍÏ</summary>
     public class Static8m_C602
     {
+        public uint <ÌÌÌÍÍÌÍÏÍÎÌÎÏÌÏÎÏÌÌÍÎÌÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode(){} // RVA: 0x19689B0

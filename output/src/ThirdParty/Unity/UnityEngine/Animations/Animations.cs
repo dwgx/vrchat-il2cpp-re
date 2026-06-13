@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Animations
-// Classes: 31
-// Methods: 499
+// Classes: 33
+// Methods: 503
 
 namespace ThirdParty.Unity.UnityEngine.Animations
 {
@@ -81,6 +81,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationHumanStream
     {
+        public UIntPtr stream; // 0x10
+
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x709C440
         public void ThrowIfInvalid(){} // RVA: 0x709C450
@@ -177,6 +179,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationPlayableOutput
     {
+        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x709EDD0
         public void .ctor(){} // RVA: 0x709EF90
@@ -231,6 +235,10 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationStream
     {
+        public uint m_AnimatorBindingsVersion; // 0x10
+        public UIntPtr constant; // 0x18
+        public UIntPtr input; // 0x20
+
         // ── Methods ──
         public void get_animatorBindingsVersion(){} // RVA: 0x67FD0D0
         public void get_isValid(){} // RVA: 0x709FFA0
@@ -245,6 +253,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimatorControllerPlayable
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x70A0760
         public void Create(){} // RVA: 0x70A07D0
@@ -344,6 +354,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ConstraintSource
     {
+        public UnityEngine.Transform m_SourceTransform; // 0x10
+        public float m_Weight; // 0x18
+
         // ── Methods ──
         public void get_sourceTransform(){} // RVA: 0x2738C50
         public void set_sourceTransform(){} // RVA: 0x100A2F0
@@ -421,6 +434,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class MuscleHandle
     {
+        public 0x659C0B50 <humanPartDof>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_muscleHandleCount(){} // RVA: 0x70A8BB0
         public void GetMuscleHandles(){} // RVA: 0x70A8C00
@@ -532,6 +547,20 @@ namespace ThirdParty.Unity.UnityEngine.Animations
         public void Execute(){} // RVA: 0x2D850
     }
 
+    public class ProcessAnimationJobStruct`1
+    {
+        // ── Methods ──
+        public void GetJobReflectionData(){} // RVA: 0x3E0DD00
+        public void Execute(){} // RVA: 0x3E0DF90
+    }
+
+    public class ProcessAnimationJobStruct`1
+    {
+        // ── Methods ──
+        public void GetJobReflectionData(){} // RVA: 0x3E0D940
+        public void Execute(){} // RVA: 0x3E0DBD0
+    }
+
     public class RotationConstraint
     {
         // ── Methods ──
@@ -608,6 +637,10 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class TransformStreamHandle
     {
+        public uint m_AnimatorBindingsVersion; // 0x10
+        public int handleIndex; // 0x14
+        public int skeletonIndex; // 0x18
+
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x70A0290
         public void get_createdByNative(){} // RVA: 0x70A02D0

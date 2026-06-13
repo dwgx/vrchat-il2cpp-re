@@ -49,6 +49,8 @@ public class MemoizeSource
 
 public class Memory : get_Ptr
 {
+    public System.Collections.Generic.Queue`1<UIntPtr> BufferBag;
+
     // ── Methods ──
     public void get_Ptr(){} // RVA: 0x1AD4690
     public void set_Ptr(){} // RVA: 0x1B12320
@@ -94,6 +96,10 @@ public class MenuItem
 
 public class MergeOptions
 {
+    public bool <ReplaceMessageFields>k__BackingField; // 0x10
+    public bool <ReplaceRepeatedFields>k__BackingField; // 0x11
+    public bool <ReplacePrimitiveFields>k__BackingField; // 0x12
+
     // ── Methods ──
     public void get_ReplaceMessageFields(){} // RVA: 0x3A75E0
     public void get_ReplaceRepeatedFields(){} // RVA: 0x543460
@@ -110,6 +116,9 @@ public class MergedRestriction
 
 public class MergedRuntimeVariables
 {
+    public System.Runtime.CompilerServices.IRuntimeVariables _first; // 0x10
+    public System.Runtime.CompilerServices.IRuntimeVariables _second; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3BCE00
     public void get_Count(){} // RVA: 0x441E160
@@ -162,6 +171,10 @@ public class MeshProps
 
 public class MeshRendererData
 {
+    public bool <IsDataValid>k__BackingField; // 0x10
+    public bool <IsDataHighConfidence>k__BackingField; // 0x11
+    public bool <ShouldUseSystemGestureMaterial>k__BackingField; // 0x12
+
     // ── Methods ──
     public void get_IsDataValid(){} // RVA: 0x1E40360
     public void set_IsDataValid(){} // RVA: 0x1E40370
@@ -185,7 +198,9 @@ public class MeshTransformList : ͍
 
 public class Message
 {
-    public object HandshakeHash;
+    public int HandshakeHash; // 0x10
+    public byte mMsgType; // 0x14
+    public byte[] mBody; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x952AA50
@@ -196,10 +211,17 @@ public class Message
 
 public class Message
 {
+    public int mMessageSeq; // 0x10
+    public byte mMsgType; // 0x14
+    public byte[] mBody; // 0x18
 }
 
 public class Message
 {
+    public int mMessageSeq; // 0x10
+    public byte mMsgType; // 0x14
+    public byte[] mBody; // 0x18
+
     // ── Methods ──
     public void Send(){} // RVA: 0x432B40
     public void .ctor(){} // RVA: 0x2DD310
@@ -217,6 +239,8 @@ public class MessageHeader
 
 public class MessageTypeSubscribers
 {
+    public string m_messageTypeId; // 0x10
+
     // ── Methods ──
     public void get_MessageTypeId(){} // RVA: 0x714E2E0
     public void set_MessageTypeId(){} // RVA: 0x714E410
@@ -242,6 +266,8 @@ public class Meta
 
 public class MetaDynamic
 {
+    public System.Linq.Expressions.Expression[] s_noArgs;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6663590
     public void GetDynamicMemberNames(){} // RVA: 0x6663650
@@ -291,6 +317,9 @@ public class MetaExpando
 
 public class Metadata
 {
+    public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x10
+    public string[] <OtherNames>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_HashAlgorithm(){} // RVA: 0x3A75E0
     public void set_HashAlgorithm(){} // RVA: 0x3A75F0
@@ -310,6 +339,8 @@ public class MetadataCallback
 
 public class MetadataDb
 {
+    public int <Length>k__BackingField; // 0x10
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x19689B0
     public void set_Length(){} // RVA: 0x833580
@@ -332,6 +363,8 @@ public class MetadataDb
 
 public class MetadataDb
 {
+    public int SizeOrLengthOffset;
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x19689B0
     public void set_Length(){} // RVA: 0x833580
@@ -367,11 +400,7 @@ public class MetadataVersion
 
 public class MethodCallExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Expressions;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.MethodCallExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB550
@@ -392,6 +421,10 @@ public class MicrosoftConfiguration : `
 
 public class MidiBlock
 {
+    public float startTimeMs; // 0x10
+    public float endTimeMs; // 0x14
+    public byte note; // 0x18
+
     // ── Methods ──
     public void get_startTimeSec(){} // RVA: 0x9A02C30
     public void get_endTimeSec(){} // RVA: 0x9A02C40
@@ -402,7 +435,11 @@ public class MidiBlock
 
 public class MidiEvent
 {
-    public object TextEventType;
+    public int TextEventType; // 0x10
+    public byte Type; // 0x14
+    public byte Arg1; // 0x15
+    public byte Arg2; // 0x16
+    public byte Arg3; // 0x17
 
     // ── Methods ──
     public void get_MidiEventType(){} // RVA: 0x1EED2E0
@@ -430,13 +467,12 @@ public class MidiTrack
 
 public class MinMaxCurve
 {
-    public object mode;
-    public object gradientMax;
-    public object gradientMin;
-    public object colorMax;
-    public object colorMin;
-    public object color;
-    public object gradient;
+    public 0x659A8210 mode; // 0x10
+    public float gradientMax; // 0x14
+    public UnityEngine.AnimationCurve gradientMin; // 0x18
+    public UnityEngine.AnimationCurve colorMax; // 0x20
+    public float colorMin; // 0x28
+    public float color; // 0x2C
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x71B96B0 | overloaded x4
@@ -462,13 +498,11 @@ public class MinMaxCurve
 
 public class MinMaxGradient
 {
-    public object particle;
-    public object position;
-    public object applyShapeToPosition;
-    public object velocity;
-    public object startLifetime;
-    public object startSize;
-    public object startSize3D;
+    public 0x659A8268 particle; // 0x10
+    public UnityEngine.Gradient position; // 0x18
+    public UnityEngine.Gradient applyShapeToPosition; // 0x20
+    public UnityEngine.Color velocity; // 0x28
+    public UnityEngine.Color startLifetime; // 0x38
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x71B9BB0 | overloaded x4
@@ -506,6 +540,8 @@ public class MissingCharacterEventCallback
 
 public class ModifierCollection
 {
+    public System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver _resolver; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68CDB00
     public void get_IsReadOnly(){} // RVA: 0x68CDC60

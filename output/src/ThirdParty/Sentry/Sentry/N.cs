@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class NoOpDisposable
     {
+        public System.Lazy`1<Sentry.NoOpDisposable> LazyInstance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x62A08D0
         public void Dispose(){} // RVA: 0x2DD310

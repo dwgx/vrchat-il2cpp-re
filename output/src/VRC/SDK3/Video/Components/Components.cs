@@ -7,6 +7,14 @@ namespace VRC.SDK3.Video.Components
 {
     public class VRCUnityVideoPlayer
     {
+        public System.Action`5<VRC.SDKBase.VRCUrl,int,UnityEngine.Object,System.Action`1<string>,System.Action`1<0x6597F8B8>> <StartResolveURLCoroutine>k__BackingField;
+        public System.Action`2<string,string> OnErrorReceived; // 0x8
+        public VRC.SDKBase.VRCUrl videoURL; // 0x38
+        public bool autoPlay; // 0x40
+        public bool loop; // 0x41
+        public 0x6597BFA8 renderMode; // 0x44
+        public UnityEngine.RenderTexture targetTexture; // 0x48
+
         // ── Methods ──
         public void get_StartResolveURLCoroutine(){} // RVA: 0x99FEE30
         public void set_StartResolveURLCoroutine(){} // RVA: 0x99FEE70

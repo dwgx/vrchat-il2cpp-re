@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.IO.Pipes
-// Classes: 10
-// Methods: 103
+// Classes: 12
+// Methods: 123
 
 namespace ThirdParty.DotNet.System.IO.Pipes
 {
@@ -53,6 +53,8 @@ namespace ThirdParty.DotNet.System.IO.Pipes
 
     public class PipeCompletionSource`1
     {
+        public System.Threading.ThreadPoolBoundHandle _threadPoolBinding;
+
         // ── Methods ──
         public void .ctor(){}
         public void get_Overlapped(){} // RVA: 0x283FA0
@@ -66,6 +68,40 @@ namespace ThirdParty.DotNet.System.IO.Pipes
         public void CompleteCallback(){} // RVA: 0x24FA0
     }
 
+    public class PipeCompletionSource`1
+    {
+        public System.Threading.ThreadPoolBoundHandle _threadPoolBinding; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DEFFD0
+        public void get_Overlapped(){} // RVA: 0x35A740
+        public void RegisterForCancellation(){} // RVA: 0x3DF0300
+        public void ReleaseResources(){} // RVA: 0x3DEFD10
+        public void SetCompletedSynchronously(){} // RVA: 0x24A50
+        public void AsyncCallback(){} // RVA: 0x3DF0560
+        public void HandleError(){} // RVA: 0x24FA0
+        public void Cancel(){} // RVA: 0x3DF0590
+        public void HandleUnexpectedCancellation(){} // RVA: 0x3DF0630
+        public void CompleteCallback(){} // RVA: 0x3DF0650
+    }
+
+    public class PipeCompletionSource`1
+    {
+        public System.Threading.ThreadPoolBoundHandle _threadPoolBinding; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DEF780
+        public void get_Overlapped(){} // RVA: 0x35A740
+        public void RegisterForCancellation(){} // RVA: 0x3DEFAB0
+        public void ReleaseResources(){} // RVA: 0x3DEFD10
+        public void SetCompletedSynchronously(){} // RVA: 0x24A50
+        public void AsyncCallback(){} // RVA: 0x3DEFD60
+        public void HandleError(){} // RVA: 0x24FA0
+        public void Cancel(){} // RVA: 0x3DEFD90
+        public void HandleUnexpectedCancellation(){} // RVA: 0x3DEFE30
+        public void CompleteCallback(){} // RVA: 0x3DEFE50
+    }
+
     public class PipeSecurity
     {
         // ── Methods ──
@@ -75,6 +111,18 @@ namespace ThirdParty.DotNet.System.IO.Pipes
 
     public class PipeStream
     {
+        public bool CheckOperationsRequiresSetHandle;
+        public System.Threading.ThreadPoolBoundHandle _threadPoolBinding; // 0x28
+        public string AnonymousPipeName;
+        public System.Threading.Tasks.Task`1<int> s_zeroTask;
+        public Microsoft.Win32.SafeHandles.SafePipeHandle _handle; // 0x30
+        public bool _canRead; // 0x38
+        public bool _canWrite; // 0x39
+        public bool _isAsync; // 0x3A
+        public bool _isCurrentUserOnly; // 0x3B
+        public bool _isMessageComplete; // 0x3C
+        public bool _isFromExistingHandle; // 0x3D
+
         // ── Methods ──
         public void GetPipePath(){} // RVA: 0x667A5B0
         public void InitializeAsyncHandle(){} // RVA: 0x667A7B0

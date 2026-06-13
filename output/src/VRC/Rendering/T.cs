@@ -112,10 +112,10 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÏÍÏÍÍÎÌÏÌÏÎÍÎÏÌÌÌÎÎÌÌÏ</summary>
     public class TransformMaterialHandler_347F
     {
-        public object fontAsset;
-        public object spriteAsset;
-        public object material;
-        public object sharedMaterial;
+        public 0x65714C08 fontAsset; // 0x20
+        public bool spriteAsset; // 0x24
+        public bool material; // 0x25
+        public bool sharedMaterial; // 0x26
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x760030
@@ -131,6 +131,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÏÏÍÎÌÎÍÎÍÌÌÏÎÎÌÎÏÌÎÍÌ</summary>
     public class TransformMaterialHandler_8F8D
     {
+        public System.Collections.Generic.Dictionary`2<string,string> ÌÎÎÌÍÏÎÍÎÎÍÌÌÎÏÏÍÏÎÌÌÎÎ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1516170
         public void Process(){} // RVA: 0x1516270
@@ -144,6 +146,14 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÍÏÌÏÌÏÎÌÎÌÍÎÌÍÏÏÏÌÍÌÏÍ</summary>
     public class TransformMaterialHandler_C08A
     {
+        public bool ÎÌÏÎÌÌÍÏÌÍÍÌÏÍÎÏÌÎÌÌÍÎÍ; // 0x38
+        public bool ÍÌÏÌÍÎÌÍÎÏÌÍÌÎÌÍÍÎÍÏÍÎÏ; // 0x39
+        public bool ÏÍÌÌÍÍÏÍÏÎÌÌÍÍÍÌÏÎÎÎÎÏÏ; // 0x3A
+        public bool ÍÎÌÎÌÍÌÎÎÍÍÏÌÏÎÏÎÍÎÌÏÎÎ; // 0x3B
+        public bool ÏÏÍÎÍÍÏÏÎÎÏÌÏÍÍÌÌÏÎÍÏÏÌ; // 0x3C
+        public bool ÍÎÎÎÌÎÎÌÍÎÎÏÏÌÌÎÍÍÌÏÏÏÎ; // 0x3D
+        public bool ÌÌÌÏÍÌÌÌÎÏÎÎÎÏÍÏÌÎÏÌÏÏÏ; // 0x3E
+
         // ── Methods ──
         public void Contains(){} // RVA: 0x1512570
         public void CopyTo(){} // RVA: 0x1513F80
@@ -168,6 +178,12 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÏÌÎÎÌÌÎÍÎÏÎÍÎÍÌÌÍÎÏÍÏÌ</summary>
     public class TransformMaterialSystem_7035
     {
+        public ÎÏÍÎÏÎÎÎÎÏÎÏÌÎÍÎÍÍÌÌÍÏÌ[] ÎÍÎÏÏÏÍÏÌÍÌÍÎÍÌÌÏÌÌÏÏÎÌ; // 0x20
+        public UnityEngine.Animations.AnimationScriptPlayable <ÍÎÌÌÎÎÌÍÏÌÎÏÏÍÌÏÍÍÍÎÏÍÎ>k__BackingField; // 0x28
+        public UnityEngine.Animations.AnimationScriptPlayable ÎÏÌÍÌÍÏÏÌÌÌÎÍÍÎÌÎÎÌÍÌÎÏ; // 0x38
+        public UnityEngine.Playables.PlayableGraph ÏÌÌÎÍÏÏÍÍÏÍÍÎÍÍÌÍÍÎÌÏÏÍ; // 0x48
+        public UnityEngine.Animations.AnimationLayerMixerPlayable ÍÌÌÌÍÏÎÏÌÏÎÍÍÌÍÌÍÌÌÍÍÍÌ; // 0x58
+
         // ── Methods ──
         public void ValidateRigidbodyMassRatio(){} // RVA: 0x1118F40
         public void ValidateRigidbodyMassRatio_3850BEA75765(){} // RVA: 0x1119030
@@ -222,6 +238,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ</summary>
     public class TransformMeshHandler_07E7
     {
+        public int ÎÌÍÌÎÎÏÏÎÏÍÌÎÎÏÍÌÎÍÍÍÍÍ;
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ>> ÍÍÏÏÌÏÏÏÍÌÍÎÎÍÌÌÌÏÍÌÍÌÍ; // 0x20
+
         // ── Methods ──
         public void AdjustHeap(){} // RVA: 0xFE1A10
         public void GetTime(){} // RVA: 0xFE1AF0
@@ -249,6 +268,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÌÏÍÎÌÌÏÎÍÍÏÎÎÏÏÍÍÍÍÌÎÍ</summary>
     public class TransformMeshHandler_1229
     {
+        public string ÌÎÍÎÎÏÌÎÍÍÌÌÏÎÌÏÏÎÎÍÌÏÏ;
+
         // ── Methods ──
         public void SetFileLength(){} // RVA: 0x1061BA0
         public void SetFileLength_7AA197239E93(){} // RVA: 0x1061BB0
@@ -282,6 +303,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÍÍÌÌÍÎÌÌÏÍÍÎÍÍÎÍÏÍÏÎÍÎ</summary>
     public class TransformMeshHandler_C468
     {
+        public string ÎÌÏÌÌÌÍÎÏÎÌÏÎÍÏÏÎÏÌÎÍÏÏ;
+        public string ÌÌÌÍÏÎÏÎÍÌÌÍÎÎÏÏÍÎÌÎÌÌÎ; // 0x20
+
         // ── Methods ──
         public void CreateLocaleObject(){} // RVA: 0x105AFC0
         public void .ctor(){} // RVA: 0x105BDC0
@@ -312,6 +336,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ</summary>
     public class TransformMeshHandler_D007
     {
+        public string ÌÎÍÎÎÏÌÎÍÍÌÌÏÎÌÏÏÎÎÍÌÏÏ;
+
         // ── Methods ──
         public void WriteCharacterToFileStream(){} // RVA: 0x1064640
         public void WriteCharacterToStream(){} // RVA: 0x10646F0
@@ -373,6 +399,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÌÌÏÍÍÎÍÌÌÏÎÍÌÏÍÌÎÍÌÏÎÏ</summary>
     public class TransformShaderHandler_4F98
     {
+        public string ÎÎÏÌÍÌÍÌÍÏÏÌÌÏÌÍÍÌÍÍÌÏÍ; // 0x10
+        public byte ÌÎÌÍÎÌÏÏÎÌÌÎÌÏÏÎÏÌÍÎÏÍÏ; // 0x18
+
         // ── Methods ──
         public void GetSharedMaterial(){} // RVA: 0xB47080
         public void GetTime(){} // RVA: 0xB47180

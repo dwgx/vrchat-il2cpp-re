@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class DataStorage
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBool
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -53,7 +57,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBoolT
     {
-        public object ByteBuffer;
+        public bool ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x3A75E0
@@ -63,6 +67,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBytes
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -87,6 +93,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBytesT
     {
+        public System.Collections.Generic.List`1<byte> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -101,8 +109,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageEntryUnion
     {
-        public object Type;
-        public object Value;
+        public 0x6591BA48 Type; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0
@@ -132,6 +140,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageFloat
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -145,7 +155,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageFloatT
     {
-        public object ByteBuffer;
+        public float ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x407320
@@ -155,6 +165,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageInt
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -168,7 +180,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageIntT
     {
-        public object ByteBuffer;
+        public int ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x32A5C0
@@ -178,6 +190,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageString
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -198,6 +212,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageStringT
     {
+        public string <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -212,6 +228,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.DataStorageEntryUnion> <Entries>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Entries(){} // RVA: 0x2F8380
         public void set_Entries(){} // RVA: 0x2DEE30

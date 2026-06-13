@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class BackgroundWorker
     {
+        public bool _canCancelWorker; // 0x28
+        public bool _workerReportsProgress; // 0x29
+        public bool _cancellationPending; // 0x2A
+        public bool _isRunning; // 0x2B
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C4BDA0
         public void AsyncOperationCompleted(){} // RVA: 0x6C4BF20
@@ -50,6 +55,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class BindableAttribute
     {
+        public System.ComponentModel.BindableAttribute Yes;
+        public System.ComponentModel.BindableAttribute No; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C53260 | overloaded x4
         public void get_Bindable(){} // RVA: 0x543460
@@ -62,6 +70,19 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class BindingList`1
     {
+        public int addNewPos;
+        public bool raiseListChangedEvents;
+        public bool raiseItemChangedEvents;
+        public System.ComponentModel.PropertyDescriptorCollection _itemTypeProperties;
+        public System.ComponentModel.PropertyChangedEventHandler _propertyChangedEventHandler;
+        public System.ComponentModel.AddingNewEventHandler _onAddingNew;
+        public System.ComponentModel.ListChangedEventHandler _onListChanged;
+        public int _lastChangeIndex;
+        public bool allowNew;
+        public bool allowEdit;
+        public bool allowRemove;
+        public bool userSetAllowNew;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10 | overloaded x2
         public void Initialize(){} // RVA: 0x24A50
@@ -136,6 +157,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class BrowsableAttribute
     {
+        public System.ComponentModel.BrowsableAttribute Yes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A75F0
         public void get_Browsable(){} // RVA: 0x3A75E0

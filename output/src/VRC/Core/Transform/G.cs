@@ -206,7 +206,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ</summary>
     public class GameObjectSystem_FD84
     {
-        public object _fD84;
+        public RootMotion.FinalIK.AimIK _fD84; // 0x20
+        public VRC.SDKBase.VRC_Pickup ÌÎÌÌÌÌÍÍÍÏÌÏÍÎÏÎÌÏÎÏÏÎÏ; // 0x28
+        public UnityEngine.Rigidbody ÌÏÎÏÍÎÌÌÎÍÌÏÎÌÏÏÎÌÏÏÏÍÍ; // 0x30
+        public System.Collections.Generic.List`1<VRC.SDKBase.VRC_Interactable> ÏÏÍÍÏÏÍÍÍÌÎÎÎÎÍÍÎÍÏÍÍÌÌ; // 0x38
 
         // ── Methods ──
         public void OnDrawGizmos(){} // RVA: 0x165C4D0
@@ -257,6 +260,28 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÍÏÌÍÍÎÎÌÏÌÎÍÌÏÍÎÎÏÎÎÏÎ</summary>
     public class GameObjectTransformHandler_270B
     {
+        public string <ÏÍÎÏÏÌÍÌÍÍÍÌÍÌÏÌÏÏÏÌÎÌÏ>k__BackingField; // 0x10
+        public string <ÎÌÌÌÏÍÎÌÌÏÏÎÌÎÌÍÌÎÍÍÌÏÌ>k__BackingField; // 0x18
+        public string <ÏÏÎÌÌÏÏÌÌÏÎÌÍÏÍÍÍÎÌÎÍÌÎ>k__BackingField; // 0x20
+        public string <ÏÍÌÌÎÎÌÎÌÎÎÎÏÍÎÏÌÎÌÍÍÏÍ>k__BackingField; // 0x28
+        public string <ÌÍÏÎÏÏÍÏÌÌÏÎÌÍÏÏÎÏÎÏÍÏÎ>k__BackingField; // 0x30
+        public string <ÏÎÍÍÎÍÏÌÎÌÌÍÏÏÏÍÍÏÎÎÎÏÌ>k__BackingField; // 0x38
+        public string <ÌÎÍÌÌÍÎÌÌÎÏÎÌÌÌÌÍÏÌÏÏÎÎ>k__BackingField; // 0x40
+        public int <ÍÎÍÎÏÏÎÎÍÌÍÌÌÍÏÏÍÌÍÎÏÎÎ>k__BackingField; // 0x48
+        public string <ÏÏÏÍÍÏÏÎÏÌÏÎÌÌÍÏÌÌÍÌÎÏÍ>k__BackingField; // 0x50
+        public string <ÎÎÌÍÌÍÍÎÎÍÎÏÎÏÍÎÎÏÏÏÌÍÌ>k__BackingField; // 0x58
+        public bool <ÌÎÏÏÍÍÍÍÏÌÏÍÏÌÍÏÍÏÍÍÏÌÎ>k__BackingField; // 0x60
+        public string <ÏÌÎÍÏÌÎÌÌÏÎÍÎÌÏÍÎÍÎÏÎÏÍ>k__BackingField; // 0x68
+        public string <ÌÏÍÎÍÍÌÏÏÍÌÎÏÏÎÏÌÎÍÏÍÎÏ>k__BackingField; // 0x70
+        public string <ÎÏÌÏÏÏÍÏÌÍÏÍÍÍÌÏÎÎÌÏÌÍÌ>k__BackingField; // 0x78
+        public bool <ÏÏÎÌÎÍÏÎÍÎÌÎÍÏÍÏÎÍÍÏÌÏÎ>k__BackingField; // 0x80
+        public string[] <ÍÌÍÎÌÎÌÍÍÍÍÍÌÌÎÏÍÏÎÎÌÌÏ>k__BackingField; // 0x88
+        public int <ÎÌÎÍÍÌÌÏÍÎÍÌÎÏÍÌÍÏÎÍÌÌÏ>k__BackingField; // 0x90
+        public int <ÌÍÏÍÏÏÍÎÌÎÍÌÍÏÎÎÎÎÌÎÏÍÎ>k__BackingField; // 0x94
+        public int <ÌÍÍÍÏÎÏÍÏÎÍÍÎÎÎÌÎÎÏÍÎÌÌ>k__BackingField; // 0x98
+        public int <ÏÎÍÎÌÌÏÍÎÏÎÏÏÌÍÍÏÌÌÏÌÎÌ>k__BackingField; // 0x9C
+        public int <ÍÏÌÌÍÏÏÍÍÍÎÌÏÎÍÏÏÏÍÌÌÏÏ>k__BackingField; // 0xA0
+
         // ── Methods ──
         public void GetStatus(){} // RVA: 0x37E0C0
         public void set_imageUrl(){} // RVA: 0x4C34F0
@@ -330,6 +355,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÎÍÎÌÍÎÎÎÍÎÏÏÌÌÏÎÌÌÏÌÍÏ</summary>
     public class GameObjectTransformHandler_B998
     {
+        public bool ÎÌÍÌÍÏÍÌÍÌÍÎÍÎÎÌÏÌÎÌÌÍÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D765C0
         public void Initialize(){} // RVA: 0x1D765D0

@@ -7,6 +7,10 @@ namespace VRC.Audio.Voice
 {
     public class MicrophoneManager
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÏÎÍÍÏÏÌÌÎÎÍÌÌÍÏÎÍÌÏÏÍ>k__BackingField; // 0x10
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÏÏÍÍÌÌÍÍÍÎÌÏÌÏÍÎÌÌÍÍ>k__BackingField; // 0x18
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÎÍÎÌÍÎÎÎÍÎÏÏÌÌÏÎÌÌÏÌÍÏ> <ÍÎÎÍÍÍÍÎÍÍÌÎÌÎÍÎÌÌÌÌÌÎÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x30B0C0
         public void GetPosition(){} // RVA: 0xFE4A40
@@ -28,6 +32,10 @@ namespace VRC.Audio.Voice
 
     public class VoicePriorityManager
     {
+        public System.Collections.Generic.List`1<ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ> ÍÌÎÏÏÎÌÍÏÍÌÍÍÎÌÌÌÎÌÍÏÎÍ; // 0x10
+        public System.Collections.Concurrent.ConcurrentDictionary`2<ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ,ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ> ÍÎÍÍÏÌÌÍÍÍÌÌÍÏÎÏÏÏÏÏÏÎÌ; // 0x18
+        public object ÍÏÌÍÏÍÌÍÎÍÌÍÏÏÏÌÌÌÌÏÌÏÎ; // 0x20
+
         // ── Methods ──
         public void ResolveTypeName(){} // RVA: 0xFE6900
         public void .cctor(){} // RVA: 0xFE7090

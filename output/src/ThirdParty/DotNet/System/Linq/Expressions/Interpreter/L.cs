@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class LabelInfo
     {
-        public object padding;
-        public object childAlignment;
+        public System.Linq.Expressions.LabelTarget padding; // 0x10
+        public System.Linq.Expressions.Interpreter.BranchLabel childAlignment; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6626680
@@ -28,6 +28,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LabelScopeInfo
     {
+        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _labels; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66277C0
         public void get_CanJumpInto(){} // RVA: 0x6627820
@@ -38,6 +40,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LeaveExceptionFilterInstruction
     {
+        public System.Linq.Expressions.Interpreter.LeaveExceptionFilterInstruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_InstructionName(){} // RVA: 0x6612B10
@@ -48,6 +52,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LeaveExceptionHandlerInstruction
     {
+        public System.Linq.Expressions.Interpreter.LeaveExceptionHandlerInstruction[] s_cache;
+        public bool _hasValue; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6611640
         public void get_InstructionName(){} // RVA: 0x6612D60
@@ -60,6 +67,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LeaveFaultInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
@@ -71,6 +80,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LeaveFinallyInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
@@ -81,6 +92,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LeftShiftInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -91,6 +106,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LessThanInstruction
     {
+        public object _nullValue; // 0x10
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -101,6 +120,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LessThanOrEqualInstruction
     {
+        public object _nullValue; // 0x10
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -111,7 +134,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightCompiler
     {
-        public object DebugView;
+        public System.Linq.Expressions.Interpreter.InstructionList DebugView; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x662D910 | overloaded x2
@@ -206,6 +229,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightDelegateCreator
     {
+        public System.Linq.Expressions.LambdaExpression _lambda; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCCD00
         public void get_Interpreter(){} // RVA: 0x2E07C0
@@ -214,6 +239,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightLambda
     {
+        public int MaxParameters;
+
         // ── Methods ──
         public void Run0(){} // RVA: 0x283FA0
         public void RunVoid0(){} // RVA: 0x6641D40
@@ -294,6 +321,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LoadCachedObjectInstruction
     {
+        public uint _index; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -352,6 +381,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LoadObjectInstruction
     {
+        public object _value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -378,6 +409,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LocalDefinition
     {
+        public int <Index>k__BackingField; // 0x10
+        public System.Linq.Expressions.ParameterExpression <Parameter>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37C6C70
         public void get_Index(){} // RVA: 0x19689B0
@@ -388,8 +422,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LocalVariable
     {
-        public object Index;
-        public object Parameter;
+        public int Index;
+        public int Parameter;
 
         // ── Methods ──
         public void get_IsBoxed(){} // RVA: 0x6646E80
@@ -401,6 +435,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LocalVariables
     {
+        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.ParameterExpression,VariableScope> _variables; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Interpreter.LocalVariable> _closureVariables; // 0x18
+
         // ── Methods ──
         public void DefineLocal(){} // RVA: 0x66470F0
         public void UndefineLocal(){} // RVA: 0x66474B0

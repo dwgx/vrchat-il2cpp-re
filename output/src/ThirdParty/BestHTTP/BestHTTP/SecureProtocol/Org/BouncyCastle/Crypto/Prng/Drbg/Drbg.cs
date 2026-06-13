@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pr
 {
     public class CtrSP800Drbg
     {
+        public long TDEA_RESEED_MAX;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x957FCC0
         public void CTR_DRBG_Instantiate_algorithm(){} // RVA: 0x957FF90
@@ -40,6 +42,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pr
 
     public class HMacSP800Drbg
     {
+        public long RESEED_MAX;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95840B0
         public void hmac_DRBG_Update(){} // RVA: 0x95845E0
@@ -53,6 +57,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pr
 
     public class HashSP800Drbg
     {
+        public byte[] ONE;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x95829B0
         public void .ctor(){} // RVA: 0x9582E90

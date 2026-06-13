@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net
-// Classes: 17
-// Methods: 336
+// Classes: 18
+// Methods: 346
 
 namespace ThirdParty.DotNet.System.Net
 {
@@ -13,6 +13,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebCompletionSource`1
     {
+        public System.Threading.Tasks.TaskCompletionSource`1<Result<T>> completion;
+        public Result<T> currentResult;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25130
         public void get_CurrentResult(){} // RVA: 0xCD60
@@ -24,8 +27,31 @@ namespace ThirdParty.DotNet.System.Net
         public void WaitForCompletion(){} // RVA: 0xCD60
     }
 
+    public class WebCompletionSource`1
+    {
+        public System.Threading.Tasks.TaskCompletionSource`1<Result<object>> completion; // 0x10
+        public Result<object> currentResult; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4B5D690
+        public void get_CurrentResult(){} // RVA: 0x2E07C0
+        public void get_Task(){} // RVA: 0xB2ECF0
+        public void TrySetCompleted(){} // RVA: 0x4B5D8E0 | overloaded x2
+        public void TrySetCanceled(){} // RVA: 0x4B5DAE0 | overloaded x2
+        public void TrySetException(){} // RVA: 0x4B5DD00
+        public void ThrowOnError(){} // RVA: 0x4B5DF20
+        public void WaitForCompletion(){} // RVA: 0x4B5E3A0
+    }
+
     public class WebConnection
     {
+        public System.Net.NetworkCredential ntlm_credentials; // 0x10
+        public bool ntlm_authenticated; // 0x18
+        public bool unsafe_sharing; // 0x19
+        public System.IO.Stream networkStream; // 0x20
+        public System.Net.Sockets.Socket socket; // 0x28
+        public Mono.Net.Security.MonoTlsStream monoTlsStream; // 0x30
+
         // ── Methods ──
         public void get_ServicePoint(){} // RVA: 0x358730
         public void .ctor(){} // RVA: 0x358740
@@ -57,6 +83,16 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebConnectionStream
     {
+        public bool closed; // 0x28
+        public bool disposed; // 0x29
+        public object locker; // 0x30
+        public int read_timeout; // 0x38
+        public int write_timeout; // 0x3C
+        public bool IgnoreIOErrors; // 0x40
+        public System.Net.HttpWebRequest <Request>k__BackingField; // 0x48
+        public System.Net.WebConnection <Connection>k__BackingField; // 0x50
+        public System.Net.WebOperation <Operation>k__BackingField; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B7BEA0
         public void get_Request(){} // RVA: 0x358730
@@ -91,6 +127,17 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebConnectionTunnel
     {
+        public System.Net.HttpWebRequest <Request>k__BackingField; // 0x10
+        public System.Uri <ConnectUri>k__BackingField; // 0x18
+        public System.Net.HttpWebRequest connectRequest; // 0x20
+        public 0x65859098 ntlmAuthState; // 0x28
+        public bool <Success>k__BackingField; // 0x2C
+        public bool <CloseConnection>k__BackingField; // 0x2D
+        public int <StatusCode>k__BackingField; // 0x30
+        public string <StatusDescription>k__BackingField; // 0x38
+        public string[] <Challenge>k__BackingField; // 0x40
+        public System.Net.WebHeaderCollection <Headers>k__BackingField; // 0x48
+
         // ── Methods ──
         public void get_Request(){} // RVA: 0x2F8380
         public void get_ConnectUri(){} // RVA: 0x2E07C0
@@ -117,6 +164,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebException
     {
+        public 0x658561D8 m_Status; // 0x90
+        public System.Net.WebResponse m_Response; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B22900 | overloaded x10
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B22990
@@ -134,6 +184,11 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebHeaderCollection
     {
+        public int ApproxAveHeaderLineSize;
+        public int ApproxHighAvgNumHeaders;
+        public System.Net.HeaderInfoTable HInfo;
+        public string[] m_CommonHeaders; // 0x68
+
         // ── Methods ──
         public void NormalizeCommonHeaders(){} // RVA: 0x6B22C70
         public void get_InnerCollection(){} // RVA: 0x6B22E00
@@ -166,6 +221,16 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebOperation
     {
+        public System.Net.HttpWebRequest <Request>k__BackingField; // 0x10
+        public System.Net.WebConnection <Connection>k__BackingField; // 0x18
+        public System.Net.ServicePoint <ServicePoint>k__BackingField; // 0x20
+        public System.Net.BufferOffsetSize <WriteBuffer>k__BackingField; // 0x28
+        public bool <IsNtlmChallenge>k__BackingField; // 0x30
+        public int ID; // 0x34
+        public System.Threading.CancellationTokenSource cts; // 0x38
+        public System.Net.WebCompletionSource`1<System.Net.WebRequestStream> requestTask; // 0x40
+        public System.Net.WebCompletionSource`1<System.Net.WebRequestStream> requestWrittenTask; // 0x48
+
         // ── Methods ──
         public void get_Request(){} // RVA: 0x2F8380
         public void get_Connection(){} // RVA: 0x2E07C0
@@ -201,6 +266,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebProxy
     {
+        public bool _UseRegistry; // 0x10
+        public bool _BypassOnLocal; // 0x11
+        public bool m_EnableAutoproxy; // 0x12
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B43BF0 | overloaded x4
         public void get_Credentials(){} // RVA: 0x30B130
@@ -226,6 +295,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebReadStream
     {
+        public System.Net.WebOperation <Operation>k__BackingField; // 0x28
+        public System.IO.Stream <InnerStream>k__BackingField; // 0x30
+        public bool disposed; // 0x38
+
         // ── Methods ──
         public void get_Operation(){} // RVA: 0x30B130
         public void get_InnerStream(){} // RVA: 0x6374D0
@@ -252,6 +325,19 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebRequest
     {
+        public int DefaultTimeout;
+        public System.Collections.ArrayList s_PrefixList;
+        public object s_InternalSyncObject; // 0x8
+        public Queue s_DefaultTimerQueue; // 0x10
+        public 0x6585D1E8 m_AuthenticationLevel; // 0x18
+        public 0x657E9048 m_ImpersonationLevel; // 0x1C
+        public System.Net.Cache.RequestCachePolicy m_CachePolicy; // 0x20
+        public System.Net.Cache.RequestCacheProtocol m_CacheProtocol; // 0x28
+        public System.Net.Cache.RequestCacheBinding m_CacheBinding; // 0x30
+        public DesignerWebRequestCreate webRequestCreate; // 0x18
+        public System.Net.IWebProxy s_DefaultWebProxy; // 0x20
+        public bool s_DefaultWebProxyInitialized; // 0x28
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x6B268A0
         public void Create(){} // RVA: 0x6B26F30 | overloaded x3
@@ -297,6 +383,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebRequestPrefixElement
     {
+        public string Prefix; // 0x10
+
         // ── Methods ──
         public void get_Creator(){} // RVA: 0x6B200B0
         public void set_Creator(){} // RVA: 0x343E80
@@ -305,6 +393,13 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebRequestStream
     {
+        public byte[] crlf;
+        public System.IO.MemoryStream writeBuffer; // 0x60
+        public bool requestWritten; // 0x68
+        public bool allowBuffering; // 0x69
+        public bool sendChunked; // 0x6A
+        public System.Net.WebCompletionSource pendingWrite; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B835A0
         public void get_InnerStream(){} // RVA: 0xA085E0
@@ -333,6 +428,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebResponse
     {
+        public bool m_IsCacheFresh; // 0x18
+        public bool m_IsFromCache; // 0x19
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B28CC0
@@ -347,6 +445,17 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebResponseStream
     {
+        public System.Net.WebReadStream innerStream; // 0x60
+        public bool nextReadCalled; // 0x68
+        public bool bufferedEntireContent; // 0x69
+        public System.Net.WebCompletionSource pendingRead; // 0x70
+        public object locker; // 0x78
+        public int nestedRead; // 0x80
+        public bool read_eof; // 0x84
+        public System.Net.WebRequestStream <RequestStream>k__BackingField; // 0x88
+        public System.Net.WebHeaderCollection <Headers>k__BackingField; // 0x90
+        public 0x65854D38 <StatusCode>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_RequestStream(){} // RVA: 0x31C010
         public void get_Headers(){} // RVA: 0x796DE0
@@ -380,6 +489,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebUtility
     {
+        public char[] _htmlEntityEndingChars;
+
         // ── Methods ──
         public void HtmlEncode(){} // RVA: 0x6B28F50 | overloaded x2
         public void IndexOfHtmlEncodingChars(){} // RVA: 0x6B29370

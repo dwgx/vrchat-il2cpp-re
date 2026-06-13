@@ -7,6 +7,16 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Contexts
 {
     public class Context
     {
+        public int domain_id; // 0x10
+        public int context_id; // 0x14
+        public object static_data; // 0x18
+        public object data; // 0x20
+        public object[] local_slots;
+        public System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink; // 0x8
+        public System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain; // 0x28
+        public System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain; // 0x30
+        public System.Collections.Generic.List`1<System.Runtime.Remoting.Contexts.IContextProperty> context_properties; // 0x38
+
         // ── Methods ──
         public void RegisterContext(){} // RVA: 0x5CE6C50
         public void ReleaseContext(){} // RVA: 0x5CE6C60
@@ -70,6 +80,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Contexts
 
     public class DynamicPropertyCollection
     {
+        public System.Collections.ArrayList _properties; // 0x10
+
         // ── Methods ──
         public void get_HasProperties(){} // RVA: 0x5CE90D0
         public void RegisterDynamicProperty(){} // RVA: 0x5CE9100

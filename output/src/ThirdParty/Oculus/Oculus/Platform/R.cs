@@ -7,6 +7,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class Request
     {
+        public Callback callback_; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC5BE60
         public void get_RequestID(){} // RVA: 0x2E07C0

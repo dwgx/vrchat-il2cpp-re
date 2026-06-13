@@ -8,6 +8,11 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÌÍÎÌÌÌÎÎÏÍÌÏÍÍÍÎÍÏÎÎÎÎ</summary>
     public class DrawGizmosBehaviour_7AAC
     {
+        public float ÍÎÍÏÍÌÏÎÏÌÎÎÍÎÍÎÏÌÍÏÎÍÍ;
+        public ÍÎÌÌÎÌÎÍÎÏÎÏÌÏÌÏÍÌÎÍÎÌÌ ÌÌÍÍÌÌÎÍÎÎÎÎÎÏÍÌÍÏÍÎÏÎÍ; // 0x20
+        public ÏÍÍÌÍÏÍÍÍÎÌÍÎÍÎÏÌÌÎÌÎÎÍ ÏÌÎÎÏÎÏÏÌÏÌÏÌÌÍÍÌÍÎÎÍÎÎ; // 0x28
+        public UnityEngine.Transform ÏÎÎÌÏÌÍÎÎÏÎÌÏÍÎÏÏÏÏÌÎÎÎ; // 0x30
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x98B470
         public void OnEnable(){} // RVA: 0x98BA20

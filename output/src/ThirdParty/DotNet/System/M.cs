@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 25
-// Methods: 207
+// Classes: 38
+// Methods: 329
 
 namespace ThirdParty.DotNet.System
 {
     public class MarshalByRefObject
     {
+        public object _identity; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_ObjectIdentity(){} // RVA: 0x5F06310
@@ -17,6 +19,8 @@ namespace ThirdParty.DotNet.System
 
     public class Marvin
     {
+        public ulong <DefaultSeed>k__BackingField;
+
         // ── Methods ──
         public void ComputeHash32(){} // RVA: 0x5E9BAC0 | overloaded x2
         public void Block(){} // RVA: 0x5E9BFB0
@@ -81,6 +85,10 @@ namespace ThirdParty.DotNet.System
     {
     }
 
+    public class MemoryDebugView`1
+    {
+    }
+
     public class MemoryExtensions
     {
         // ── Methods ──
@@ -99,6 +107,31 @@ namespace ThirdParty.DotNet.System
         public void .cctor(){} // RVA: 0x62C0A30
     }
 
+    public class MemoryExtensions
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x5E9DE40
+        public void EqualsOrdinal(){} // RVA: 0x5E9E0C0
+        public void EqualsOrdinalIgnoreCase(){} // RVA: 0x5E9E1E0
+        public void Contains(){} // RVA: 0x5E9E290
+        public void ToUpperInvariant(){} // RVA: 0x5E9E310
+        public void EndsWith(){} // RVA: 0x283FA0 | overloaded x2
+        public void StartsWith(){} // RVA: 0x283FA0 | overloaded x3
+        public void AsSpan(){} // RVA: 0x283FA0 | overloaded x7
+        public void AsMemory(){} // RVA: 0x283FA0 | overloaded x6
+        public void Trim(){} // RVA: 0x5E9EF40
+        public void TrimStart(){} // RVA: 0x5E9F120
+        public void TrimEnd(){} // RVA: 0x5E9F250
+        public void IndexOf(){} // RVA: 0x283FA0 | overloaded x3
+        public void SequenceEqual(){} // RVA: 0x283FA0 | overloaded x2
+        public void LastIndexOf(){} // RVA: 0x283FA0
+        public void IndexOfAny(){} // RVA: 0x283FA0 | overloaded x3
+        public void SequenceCompareTo(){} // RVA: 0x283FA0
+        public void Reverse(){} // RVA: 0x283FA0
+        public void CopyTo(){} // RVA: 0x283FA0
+        public void IsTypeComparableAsBytes(){} // RVA: 0xDCC0
+    }
+
     public class MemoryExtensionsPolyfill
     {
         // ── Methods ──
@@ -108,7 +141,7 @@ namespace ThirdParty.DotNet.System
     public class Memory`1
     {
         public object Item;
-        public object Length;
+        public int Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2BAA0 | overloaded x4
@@ -121,6 +154,120 @@ namespace ThirdParty.DotNet.System
         public void Equals(){} // RVA: 0x283FA0 | overloaded x2
         public void GetHashCode(){} // RVA: 0xD840
         public void CombineHashCodes(){} // RVA: 0x13CA0 | overloaded x2
+    }
+
+    public class Memory`1
+    {
+        public object _object;
+        public int _index;
+        public int _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BAA0 | overloaded x5
+        public void op_Implicit(){} // RVA: 0x283FA0 | overloaded x3
+        public void get_Empty(){} // RVA: 0x283FA0
+        public void get_Length(){} // RVA: 0xD840
+        public void ToString(){} // RVA: 0xCD60
+        public void Slice(){} // RVA: 0x283FA0 | overloaded x2
+        public void get_Span(){} // RVA: 0x283FA0
+        public void Pin(){} // RVA: 0x283FA0
+        public void ToArray(){} // RVA: 0xCD60
+        public void Equals(){} // RVA: 0x283FA0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0xD840
+        public void CombineHashCodes(){} // RVA: 0x13CA0 | overloaded x2
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x5
+        public void op_Implicit(){} // RVA: 0x75E7E0 | overloaded x3
+        public void get_Empty(){} // RVA: 0x1529E90
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void ToString(){} // RVA: 0x3C2C0E0
+        public void Slice(){} // RVA: 0x3C21A80 | overloaded x2
+        public void get_Span(){} // RVA: 0x3C2C3E0
+        public void Pin(){} // RVA: 0x3C2C790
+        public void ToArray(){} // RVA: 0x3C2CBA0
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3C226B0
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+        public int _length; // 0x1C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x5
+        public void op_Implicit(){} // RVA: 0x75E7E0 | overloaded x3
+        public void get_Empty(){} // RVA: 0x1529E90
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void ToString(){} // RVA: 0x3C2D5D0
+        public void Slice(){} // RVA: 0x3C21A80 | overloaded x2
+        public void get_Span(){} // RVA: 0x3C2D8D0
+        public void Pin(){} // RVA: 0x3C2DC90
+        public void ToArray(){} // RVA: 0x3C2E0A0
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3C226B0
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C214B0 | overloaded x4
+        public void op_Implicit(){} // RVA: 0x75E7E0
+        public void get_Length(){} // RVA: 0x3C216E0
+        public void ToString(){} // RVA: 0x3C2B3A0
+        public void Slice(){} // RVA: 0x3C2B6B0
+        public void get_Span(){} // RVA: 0x3C2B750
+        public void ToArray(){} // RVA: 0x3C2BD40
+        public void Equals(){} // RVA: 0x3C22690 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x3C2C010
+        public void CombineHashCodes(){} // RVA: 0x3C22790 | overloaded x2
+    }
+
+    public class Memory`1
+    {
+        public object _object; // 0x10
+        public int _index; // 0x18
     }
 
     public class MethodAccessException
@@ -138,6 +285,8 @@ namespace ThirdParty.DotNet.System
 
     public class MissingMemberException
     {
+        public string ClassName; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EC8F40 | overloaded x4
         public void GetObjectData(){} // RVA: 0x5EC9270
@@ -205,6 +354,12 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
     }
 
+    public class MonoTODOAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class MonoType
     {
     }
@@ -243,8 +398,20 @@ namespace ThirdParty.DotNet.System
 
     public class MutableDecimal
     {
-        public object ResourceManager;
-        public object ResourceType;
+        public uint ResourceManager; // 0x10
+        public uint ResourceType; // 0x14
+
+        // ── Methods ──
+        public void get_IsNegative(){} // RVA: 0x5EC5B70
+        public void set_IsNegative(){} // RVA: 0x5EC5B80
+        public void get_Scale(){} // RVA: 0x1E40390
+        public void set_Scale(){} // RVA: 0x5EC5BA0
+    }
+
+    public class MutableDecimal
+    {
+        public uint ByDesign; // 0x10
+        public uint High; // 0x14
 
         // ── Methods ──
         public void get_IsNegative(){} // RVA: 0x5EC5B70

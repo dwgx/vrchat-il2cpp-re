@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class BinaryExpression
     {
+        public System.Linq.Expressions.Expression <Right>k__BackingField; // 0x10
+        public System.Linq.Expressions.Expression <Left>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65B0E00 | overloaded x2
         public void get_CanReduce(){} // RVA: 0x65AE770
@@ -34,6 +37,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Block2
     {
+        public object _arg0; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DC6D0
         public void GetExpression(){} // RVA: 0x65DC7E0
@@ -45,6 +50,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Block3
     {
+        public object _arg0; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DCBB0
         public void SameExpressions(){} // RVA: 0x65DCD10
@@ -56,6 +63,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Block4
     {
+        public object _arg0; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DD140
         public void SameExpressions(){} // RVA: 0x65DD2F0
@@ -67,6 +76,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Block5
     {
+        public object _arg0; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DD790
         public void GetExpression(){} // RVA: 0x65DD990
@@ -99,6 +110,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class BlockExpressionList
     {
+        public System.Linq.Expressions.BlockExpression _block; // 0x10
+        public System.Linq.Expressions.Expression _arg0; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void IndexOf(){} // RVA: 0x65DED90
@@ -119,6 +133,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class BlockN
     {
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _expressions; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65DDEB0
         public void SameExpressions(){} // RVA: 0x65DDF50

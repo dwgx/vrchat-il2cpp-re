@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 {
     public class HoldInteraction
     {
+        public float duration; // 0x10
+        public float pressPoint; // 0x14
+
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x6DC7590
         public void get_pressPointOrDefault(){} // RVA: 0x6DC7610
@@ -17,6 +20,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class MultiTapInteraction
     {
+        public float tapTime; // 0x10
+        public float tapDelay; // 0x14
+        public int tapCount; // 0x18
+        public float pressPoint; // 0x1C
+
         // ── Methods ──
         public void get_tapTimeOrDefault(){} // RVA: 0x6DC7800
         public void get_tapDelayOrDefault(){} // RVA: 0x6DC7880
@@ -29,6 +37,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class PressInteraction
     {
+        public float pressPoint; // 0x10
+        public 0x65871BE8 behavior; // 0x14
+
         // ── Methods ──
         public void get_pressPointOrDefault(){} // RVA: 0x6DC7CC0
         public void get_releasePointOrDefault(){} // RVA: 0x6DC7D20
@@ -39,6 +50,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class SlowTapInteraction
     {
+        public float duration; // 0x10
+        public float pressPoint; // 0x14
+
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x6DC8010
         public void get_pressPointOrDefault(){} // RVA: 0x6DC8090
@@ -49,6 +63,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class TapInteraction
     {
+        public float duration; // 0x10
+        public float pressPoint; // 0x14
+        public double m_TapStartTime; // 0x18
+
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x6DC82C0
         public void get_pressPointOrDefault(){} // RVA: 0x6DC8340

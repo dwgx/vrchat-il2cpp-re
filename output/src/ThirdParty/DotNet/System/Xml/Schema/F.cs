@@ -20,7 +20,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class ForwardAxis
     {
-        public object SubtreeArray;
+        public System.Xml.Schema.DoubleLinkAxis SubtreeArray; // 0x10
+        public System.Xml.Schema.DoubleLinkAxis _rootNode; // 0x18
+        public bool _isAttribute; // 0x20
+        public bool _isDss; // 0x21
+        public bool _isSelfAxis; // 0x22
 
         // ── Methods ──
         public void get_RootNode(){} // RVA: 0x2E07C0

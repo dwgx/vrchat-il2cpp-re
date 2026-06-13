@@ -14,6 +14,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class BufferPoolMemoryStream
     {
+        public bool canWrite; // 0x28
+        public bool allowGetBuffer; // 0x29
+        public int capacity; // 0x2C
+        public int length; // 0x30
+        public byte[] internalBuffer; // 0x38
+        public int initialIndex; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x980E930 | overloaded x7
         public void InternalConstructor(){} // RVA: 0x980E9D0
@@ -49,6 +56,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class CircularBuffer`1
     {
+        public int <Capacity>k__BackingField;
+        public int <Count>k__BackingField;
+        public T[] buffer;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0xD840
         public void set_Capacity(){} // RVA: 0x24FA0
@@ -108,6 +119,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class HeaderValue
     {
+        public string <Key>k__BackingField; // 0x10
+        public string <Value>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> <Options>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x2F8380
         public void set_Key(){} // RVA: 0x2DEE30
@@ -140,6 +155,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class KeyValuePairList
     {
+        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> <Values>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Values(){} // RVA: 0x2F8380
         public void set_Values(){} // RVA: 0x2DEE30
@@ -155,6 +172,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class ReadOnlyBufferedStream
     {
+        public System.IO.Stream stream; // 0x28
+        public int READBUFFER;
+        public byte[] buf; // 0x30
+        public int available; // 0x38
+        public int pos; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9813CC0 | overloaded x2
         public void Read(){} // RVA: 0x9813E00
@@ -174,6 +197,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class StreamList
     {
+        public System.IO.Stream[] Streams; // 0x28
+        public int CurrentIdx; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9814370
         public void get_CanRead(){} // RVA: 0x9814420
@@ -192,7 +218,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class VariableSizedBufferPool
     {
-        public object CanRead;
+        public byte[] CanRead;
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x9814E50
@@ -219,6 +245,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class WriteOnlyBufferedStream
     {
+        public int _position; // 0x28
+        public byte[] buffer; // 0x30
+        public System.IO.Stream stream; // 0x38
+
         // ── Methods ──
         public void get_CanRead(){} // RVA: 0x2DD320
         public void get_CanSeek(){} // RVA: 0x2DD320

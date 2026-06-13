@@ -13,6 +13,8 @@ namespace ThirdParty.DotNet.System.Runtime
 
     public class GCSettings
     {
+        public 0x657EA3E0 <LargeObjectHeapCompactionMode>k__BackingField;
+
         // ── Methods ──
         public void set_LargeObjectHeapCompactionMode(){} // RVA: 0x5CCB8B0
     }

@@ -54,6 +54,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÎÍÌÍÍÏÍÎÏÎÎÌÏÎÎÎÍÍÎÌ</summary>
     public class OVRTouchpadHelperSiblingSRelated_4977
     {
+        public UnityEngine.UI.Toggle ÎÎÌÌÎÍÌÌÎÎÏÌÏÍÌÎÎÎÌÌÌÍÎ; // 0x10
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x1E13460
         public void RaiseCancellation(){} // RVA: 0x1E134E0
@@ -74,6 +76,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÍÍÏÏÌÌÌÎÌÏÎÏÌÏÏÎÏÌÏÏÍ</summary>
     public class OVRTouchpadHelperSiblingSRelated_8A9D
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ textField; // 0x20
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x92CCA40
         public void RaiseCancellation(){} // RVA: 0x92CCB40
@@ -134,6 +138,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÎÏÍÌÌÏÍÌÌÏÏÍÏÌÍÌÍÍÌÏ</summary>
     public class OVRTouchpadHelperSiblingSRelated_CD4D
     {
+        public UnityEngine.UI.Button ÍÎÍÍÍÏÍÏÌÎÏÍÌÎÏÏÎÎÍÌÌÎÍ; // 0x10
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x3CB9E0
         public void RaiseCancellation(){} // RVA: 0x3CB9D0
@@ -218,6 +224,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÍÌÌÌÎÍÏÌÏÌÌÏÏÍÌÌÌÍÍÍ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_0241
     {
+        public ÎÎÌÍÏÏÏÎÏÌÏÍÍÏÌÍÏÌÏÍÌÎÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x3480B0
         public void RaiseCancellation(){} // RVA: 0xF4B560
@@ -250,6 +258,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_07ED
     {
+        public UnityEngine.Texture2D _loadingTexture; // 0x20
+        public UnityEngine.UI.RawImage ÎÌÌÌÍÌÎÍÍÎÏÍÏÍÍÏÎÍÎÌÌÏÍ; // 0x28
+        public bool ÍÍÌÏÎÌÍÌÏÎÍÌÍÎÎÏÎÎÏÍÌÏÍ; // 0x30
+        public System.Nullable`1<bool> ÌÎÍÌÍÎÍÌÍÌÌÏÏÏÌÍÌÌÍÎÎÌÎ; // 0x31
+        public UnityEngine.UI.AspectRatioFitter ÌÌÌÏÎÍÍÏÍÍÎÎÎÌÎÍÎÏÏÎÌÍÍ; // 0x38
+        public ÏÏÎÎÎÎÍÌÎÎÌÏÌÎÏÏÏÌÌÏÍÍÌ ÏÏÎÏÌÏÍÌÎÍÍÏÏÌÎÌÎÌÌÍÏÎÌ; // 0x40
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x92E8800
         public void RaiseCancellation(){} // RVA: 0x92E8A40
@@ -322,6 +337,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÏÍÎÍÌÏÏÎÎÍÎÍÎÏÍÍÌÏÏÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_22FD
     {
+        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _eventList; // 0x20
+        public UnityEngine.GameObject _headerPrefab; // 0x28
+        public UnityEngine.GameObject _noEventsPanel; // 0x30
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _noEventsText; // 0x38
+        public ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ _iconBinding; // 0x40
+        public UnityEngine.GameObject _loadingOverlay; // 0x48
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8B37400
         public void .ctor(){} // RVA: 0x8B37530
@@ -364,6 +386,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÏÌÌÎÎÌÏÎÌÍÎÎÍÎÎÍÌÏÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_259E
     {
+        public string ÎÎÍÎÍÍÎÎÌÏÎÎÎÍÍÌÍÍÏÌÍÌÍ;
+        public string ÎÍÍÌÌÏÍÏÎÏÌÏÌÍÎÏÍÍÏÌÏÌÍ;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0xDBE0
         public void RaiseCancellation(){} // RVA: 0xDBE0
@@ -376,6 +401,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÌÍÌÏÏÍÍÍÍÎÍÌÏÌÍÏÏÌÎÏ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_2A18
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _currentOptionText; // 0x80
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _leftButton; // 0x88
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _rightButton; // 0x90
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0xCE10
         public void RaiseCancellation(){} // RVA: 0x24A50
@@ -409,6 +438,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÎÏÏÎÏÍÏÎÎÌÍÏÎÌÍÏÌÏÍÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_2F34
     {
+        public int ÌÍÌÍÍÏÌÏÎÏÎÏÍÍÎÎÍÍÏÌÍÏÌ;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8E54260
         public void RaiseCancellation(){} // RVA: 0x8E54300
@@ -465,6 +496,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÍÌÍÏÎÌÍÌÌÎÎÍÍÏÍÏÎÎÌÏÏ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_34E6
     {
+        public float ÌÍÍÏÏÍÍÏÎÍÍÌÏÌÏÏÌÎÏÌÌÍÍ;
+        public float ÌÎÍÍÎÎÌÎÍÍÍÍÌÌÎÍÏÏÍÏÎÍÏ;
+        public VRC.Localization.LocalizableString ÏÎÎÌÍÌÎÌÏÎÏÌÌÏÏÎÍÏÏÎÏÏÎ;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x92483E0
         public void RaiseCancellation(){} // RVA: 0x9248470
@@ -507,6 +542,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÌÍÏÌÌÌÍÍÌÌÍÎÎÌÎÏÌÌÏÍ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_36D9
     {
+        public string <ÍÎÌÌÎÌÍÏÍÎÍÏÌÌÎÎÌÏÎÎÍÍÍ>k__BackingField; // 0x10
+        public System.Guid <ÌÎÏÏÌÍÌÎÎÌÏÍÏÎÍÏÍÎÍÎÏÍÎ>k__BackingField; // 0x18
+        public bool <ÌÎÏÏÍÌÏÍÏÍÌÍÎÍÏÎÏÎÌÌÍÎÎ>k__BackingField; // 0x28
+        public string <ÏÌÎÎÌÏÍÎÎÎÎÌÏÎÍÍÎÍÍÍÌÏÏ>k__BackingField; // 0x30
+        public UnityEngine.Vector3 <ÍÎÍÌÏÏÍÏÏÌÍÏÌÌÌÌÌÍÍÍÍÍÏ>k__BackingField; // 0x38
+        public UnityEngine.Quaternion <ÎÎÏÏÍÍÎÏÎÏÎÎÌÌÌÌÌÍÌÏÍÎÏ>k__BackingField; // 0x44
+        public UnityEngine.Vector3 <ÍÎÏÏÌÍÏÎÍÌÌÏÌÏÏÎÎÏÏÎÏÎÌ>k__BackingField; // 0x54
+        public System.Collections.Generic.List`1<ÌÌÍÎÏÎÎÌÌÎÌÎÎÌÏÎÏÏÎÌÍÎÍ> <ÍÌÎÎÏÍÎÌÍÌÍÌÌÌÍÍÌÎÍÍÍÏÍ>k__BackingField; // 0x60
+        public ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ <ÏÍÎÎÎÍÍÏÎÎÍÌÍÏÌÌÍÏÎÏÌÏÌ>k__BackingField; // 0x68
+        public ÍÍÍÏÏÍÌÌÏÏÌÌÌÎÎÍÌÎÌÍÏÍÎ <ÏÎÍÌÎÏÍÍÏÌÌÏÌÎÎÏÍÍÎÌÍÍÍ>k__BackingField; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xEB5110 | overloaded x2
         public void Initialize(){} // RVA: 0xEB4FF0
@@ -605,6 +651,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÍÌÍÎÌÏÌÍÏÎÌÎÍÎÎÍÌÍÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_5577
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _label; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x923BFC0
@@ -633,6 +681,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÎÏÏÏÏÌÌÎÍÎÌÍÏÎÏÎÏÎÌÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_5E43
     {
+        public ÍÎÍÌÌÌÍÎÌÌÎÍÍÏÎÍÎÏÎÍÌÌÏ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0xB8
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0xEF0AA0
         public void RaiseCancellation(){} // RVA: 0xEF0D40
@@ -656,6 +706,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_62C3
     {
+        public string _controlName; // 0x20
+        public UnityEngine.RectTransform _container; // 0x28
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8EDF960
         public void RaiseCancellation(){} // RVA: 0x92DF620
@@ -722,6 +775,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÎÍÎÌÎÏÌÎÌÍÏÎÎÎÍÎÌÍÌÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_66B9
     {
+        public 0x6588D128 _wingType; // 0x20
+        public UnityEngine.CanvasGroup _canvasGroup; // 0x28
+        public UnityEngine.RectTransform ÏÌÍÌÏÏÌÌÏÏÍÏÍÍÌÌÎÎÍÏÌÏÌ; // 0x30
+        public UnityEngine.UI.Button ÏÌÍÌÌÌÎÎÍÍÎÍÏÎÌÎÎÎÎÌÎÌÌ; // 0x38
+        public UnityEngine.UI.Button ÍÍÍÎÏÏÏÏÌÍÍÍÌÏÎÌÎÌÏÌÍÌÎ; // 0x40
+        public UnityEngine.UI.Button ÏÌÎÌÍÌÎÏÌÎÌÍÍÌÎÌÌÌÎÍÍÏÌ; // 0x48
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8C4C270
         public void RaiseCancellation(){} // RVA: 0x8C4C480
@@ -812,6 +872,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÏÏÌÍÌÎÎÎÌÏÎÏÍÍÍÍÏÌÍÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_7CE0
     {
+        public System.DateTime ÍÏÎÍÌÏÌÌÎÎÍÏÏÎÎÏÎÎÌÍÍÏÍ; // 0xE0
+        public System.DateTime ÏÏÏÎÍÌÏÏÌÍÏÍÍÌÏÏÌÏÏÏÏÏÏ; // 0xE8
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8E263E0
         public void RaiseCancellation(){} // RVA: 0x8E266D0
@@ -852,6 +915,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÏÍÌÌÎÏÍÎÏÏÎÏÌÌÌÌÎÎÏÏ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_8790
     {
+        public ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ _increaseButton; // 0x80
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x923F340
         public void RaiseCancellation(){} // RVA: 0x923F340
@@ -876,6 +941,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÏÍÌÌÌÌÎÍÌÎÍÎÏÌÌÏÌÎÍÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_8958
     {
+        public TMPro.TMP_Dropdown ÎÎÏÏÎÌÍÏÎÍÎÌÍÏÏÌÍÎÌÏÏÏÎ; // 0x10
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x6E8A80
         public void RaiseCancellation(){} // RVA: 0x1E13F20
@@ -898,6 +965,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÍÍÌÍÌÏÏÏÌÍÏÍÌÌÏÏÍÎÏÍ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_896E
     {
+        public float ÌÍÍÏÏÍÍÏÎÍÍÌÏÌÏÏÌÎÏÌÌÍÍ;
+        public float ÌÎÍÍÎÎÌÎÍÍÍÍÌÌÎÍÏÏÍÏÎÍÏ;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x924BF60
         public void RaiseCancellation(){} // RVA: 0x924C000
@@ -1006,6 +1076,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_A4FB
     {
+        public bool ÌÏÍÍÍÏÍÎÎÌÌÍÏÌÍÍÏÏÌÎÌÌÍ;
+        public bool ÏÎÎÏÏÎÏÍÎÍÏÌÍÍÏÏÏÌÍÌÏÏÌ;
+        public System.Action`1<T> ÌÌÏÌÏÎÌÏÍÍÌÌÌÍÌÌÌÍÌÏÏÎÍ;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x24A50
         public void RaiseCancellation(){} // RVA: 0x24A50
@@ -1031,6 +1105,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_A4FB
     {
+        public bool ÌÏÍÍÍÏÍÎÎÌÌÍÏÌÍÍÏÏÌÎÌÌÍ; // 0x10
+        public bool ÏÎÎÏÏÎÏÍÎÍÏÌÍÍÏÏÏÌÍÌÏÏÌ; // 0x11
+        public System.Action`1<System.Collections.IList> ÌÌÏÌÏÎÌÏÍÍÌÌÌÍÌÌÌÍÌÏÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x514EE10
         public void RaiseCancellation(){} // RVA: 0x514EE10
@@ -1056,6 +1134,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_A4FB
     {
+        public bool ÌÏÍÍÍÏÍÎÎÌÌÍÏÌÍÍÏÏÌÎÌÌÍ; // 0x10
+        public bool ÏÎÎÏÏÎÏÍÎÍÏÌÍÍÏÏÏÌÍÌÏÏÌ; // 0x11
+        public System.Action`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> ÌÌÏÌÏÎÌÏÍÍÌÌÌÍÌÌÌÍÌÏÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x514EE10
         public void RaiseCancellation(){} // RVA: 0x514EE10
@@ -1124,6 +1206,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÎÎÌÎÏÏÏÏÌÏÎÎÏÌÏÍÏÎÎÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_C806
     {
+        public ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ _rawImageBinding; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8E53B80
@@ -1150,7 +1234,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÏÏÌÌÎÏÎÌÍÍÌÍÌÏÎÍÍÎÏÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_CABA
     {
-        public object _cABA;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _cABA; // 0x20
 
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x8D23000
@@ -1220,6 +1304,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÌÎÍÍÎÎÌÍÌÎÏÌÎÍÌÏÎÌÎÌÍ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_DFF7
     {
+        public bool ÌÏÍÍÍÏÍÎÎÌÌÍÏÌÍÍÏÏÌÎÌÌÍ; // 0x10
+        public bool ÏÎÎÏÏÎÏÍÎÍÏÌÍÍÏÏÏÌÍÌÏÏÌ; // 0x11
+        public System.Action ÌÌÏÌÏÎÌÏÍÍÌÌÌÍÌÌÌÍÌÏÏÎÍ; // 0x18
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x1E124B0
         public void Initialize(){} // RVA: 0x1E12E10 | overloaded x3
@@ -1263,6 +1351,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F385
     {
+        public T <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField;
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0xDBE0
         public void RaiseCancellation(){} // RVA: 0xDBE0
@@ -1281,6 +1371,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F385
     {
+        public ÍÎÍÌÌÌÍÎÌÌÎÍÍÏÎÍÎÏÎÍÌÌÏ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x510F400
         public void RaiseCancellation(){} // RVA: 0x510F490
@@ -1299,6 +1391,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F385
     {
+        public ÎÏÍÌÎÎÍÏÍÏÌÎÍÌÌÏÎÍÌÍÍÌÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x510F400
         public void RaiseCancellation(){} // RVA: 0x510F490
@@ -1317,6 +1411,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F385
     {
+        public ÎÎÌÍÏÏÏÎÏÌÏÍÍÏÌÍÏÌÏÍÌÎÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x510F400
         public void RaiseCancellation(){} // RVA: 0x510F490
@@ -1335,6 +1431,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F385
     {
+        public ÏÍÏÍÎÌÏÌÎÏÌÎÎÏÌÏÌÏÏÍÍÎÍ <ÎÍÍÏÏÍÌÍÏÏÍÍÍÍÎÍÌÍÎÌÏÌÍ>k__BackingField; // 0x140
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x510F400
         public void RaiseCancellation(){} // RVA: 0x510F490
@@ -1353,6 +1451,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÍÎÏÏÏÍÎÎÍÍÎÍÍÏÏÎÌÎÌÌ</summary>
     public class OVRTouchpadHelperSiblingSiblinSibling_F700
     {
+        public VRC.Core.ApiAvatarPartItemMetadata ÏÏÍÎÏÌÍÍÌÍÌÎÏÎÏÏÍÍÎÌÎÌÏ; // 0xB8
+        public System.Collections.Generic.List`1<ÏÏÏÌÍÌÎÏÏÌÏÍÌÏÎÍÎÍÍÏÎÍÎ> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0xC0
+        public System.Collections.Generic.List`1<ÎÌÌÎÌÌÌÍÏÌÍÍÎÌÎÎÍÎÌÎÎÍÏ> <ÍÌÎÎÏÍÎÌÍÌÍÌÌÌÍÍÌÎÍÍÍÏÍ>k__BackingField; // 0xC8
+
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x435460
         public void .ctor(){} // RVA: 0xEC45A0
@@ -1597,7 +1699,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÌÎÌÏÍÏÎÌÎÍÏÏÎÏÍÎÍÍÍÍ</summary>
     public class ObjectInstantiator_2F6D
     {
-        public object ScanFrequency;
+        public System.Action`2<UnityEngine.GameObject,int> ScanFrequency;
+        public string[] ÍÏÏÌÎÏÏÌÏÏÏÏÍÌÌÎÎÌÍÏÍÌÍ; // 0x8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x171A950

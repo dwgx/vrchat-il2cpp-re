@@ -102,7 +102,7 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÌÎÍÏÌÏÏÌÎÌÍÏÎÎÌÍÍÍÏÏÎ</summary>
     public class TransformComponentHandler_11C2
     {
-        public object _11C2;
+        public ÏÍÎÎÍÌÏÍÏÌÏÌÎÏÌÎÌÌÍÌÏÎÏ _11C2;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F8B730
@@ -112,7 +112,7 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÍÏÎÌÌÌÍÌÍÌÌÍÍÏÍÍÍÎÍÍÏÎ</summary>
     public class TransformComponentHandler_145C
     {
-        public object _145C;
+        public ÍÏÍÍÏÎÌÏÌÎÍÌÌÌÌÍÍÌÎÎÌÌÏ _145C;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE64A0
@@ -139,6 +139,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÍÏÎÎÎÏÍÌÍÎÎÌÎÏÌÏÌÌÎÎÏÎ</summary>
     public class TransformComponentHandler_265F
     {
+        public ÌÍÌÏÏÎÌÏÌÎÎÏÍÍÎÍÏÍÏÏÍÏÍ ÍÏÎÏÍÍÎÎÍÎÌÎÏÎÌÍÍÏÌÌÍÍÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1B96010
@@ -156,7 +158,7 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÍÏÌÍÌÌÎÎÌÍÍÌÌÎÌÌÍÏÍÏÍ</summary>
     public class TransformComponentHandler_2D57
     {
-        public object _2D57;
+        public ÌÎÏÏÌÏÍÏÌÏÍÎÎÎÌÏÌÍÏÌÎÍÌ _2D57;
 
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE4D90
@@ -205,6 +207,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÏÌÍÎÏÍÎÌÌÏÏÏÏÌÎÌÏÎÏÌÌÌ</summary>
     public class TransformComponentHandler_C249
     {
+        public ÌÎÍÍÍÎÍÎÍÌÌÎÎÏÌÍÍÌÍÌÎÏÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1FE4160
         public void Process(){} // RVA: 0x1FE4330
@@ -213,6 +217,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÌÏÌÏÏÏÍÍÏÎÎÌÍÍÍÍÏÏÏÏÎ</summary>
     public class TransformComponentHandler_CD7E
     {
+        public ÌÌÎÌÎÌÎÏÏÏÏÎÍÍÌÌÎÍÎÎÎÏÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x201A850
         public void Process(){} // RVA: 0x201AA20
@@ -221,6 +227,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÌÌÏÏÍÍÏÏÌÌÎÌÎÎÌÏÍÌÌÍÎ</summary>
     public class TransformComponentHandler_CFCD
     {
+        public UnityEngine.SpriteRenderer ÏÎÎÌÍÍÌÏÏÍÏÍÍÎÌÎÍÌÏÎÍÌÏ; // 0x20
+
         // ── Methods ──
         public void set_CountActive(){} // RVA: 0x65F570
         public void Dispose(){} // RVA: 0x2DD310
@@ -241,6 +249,11 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÏÏÎÍÏÌÌÎÌÌÎÏÎÌÏÌÌÍÍÍÍÍ</summary>
     public class TransformComponentHandler_DBBB
     {
+        public ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ ÌÏÎÌÍÌÌÏÍÍÏÍÌÌÌÎÍÌÎÎÎÌÍ; // 0x10
+        public UnityEngine.GameObject <ÌÏÌÍÏÎÎÍÍÍÌÏÌÍÌÌÏÌÎÍÏÏÌ>k__BackingField; // 0x18
+        public UnityEngine.Bounds <ÏÌÎÏÍÌÎÌÎÎÌÌÎÍÍÏÎÎÏÌÍÏÎ>k__BackingField; // 0x20
+        public UnityEngine.Vector3 <ÍÏÍÏÌÍÍÍÍÍÌÍÏÏÎÌÎÌÍÍÍÌÏ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void set_Date(){} // RVA: 0x1B50090
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
@@ -279,6 +292,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÏÏÏÍÍÍÍÎÏÍÍÏÎÏÍÍÌÍÏÍÏÍ</summary>
     public class TransformGameObjectHandler_3ED3
     {
+        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ ÏÌÎÍÌÎÍÏÌÎÌÍÏÌÍÍÎÍÍÍÎÎÎ; // 0x20
+
         // ── Methods ──
         public void ApplyRigidbodyTargetRotation(){} // RVA: 0x10F7760
         public void SetRigidbodyAngularVelocityToReachRotation(){} // RVA: 0x10F7970
@@ -306,6 +321,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÏÏÌÎÏÎÏÏÏÏÏÍÍÎÍÌÍÍÍÎÏ</summary>
     public class TransformGameObjectHandler_A3BD
     {
+        public ÎÎÎÍÏÏÍÌÌÍÍÏÍÏÍÌÎÎÍÎÏÏÎ ÍÏÎÍÌÍÎÎÌÍÌÌÎÎÎÎÌÍÌÌÌÏÍ;
+
         // ── Methods ──
         public void ConvertMultibyteToWideChars(){} // RVA: 0x1061220
         public void ConvertMultibyteToWideString(){} // RVA: 0x10613F0
@@ -538,6 +555,71 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÏÌÎÍÍÍÍÏÌÍÌÍÌÏÌÏÌÍÎÌÏÍ</summary>
     public class TransformProfiledSystem_5268
     {
+        public string ÏÍÎÌÏÎÍÌÎÎÏÏÎÌÏÏÌÎÍÏÍÌÌ;
+        public string ÏÏÍÍÍÏÍÍÏÏÎÍÌÌÎÌÏÎÍÍÏÎÏ;
+        public string ÏÍÏÌÌÏÍÏÍÎÎÌÌÍÏÌÌÏÎÌÏÎÍ;
+        public string ÍÎÏÏÌÏÏÍÏÏÏÌÍÏÍÍÍÍÏÏÌÏÎ;
+        public string ÎÏÍÌÍÎÏÏÎÏÏÍÌÍÍÎÍÌÏÏÌÏÌ;
+        public bool ÎÎÍÍÎÎÎÏÎÏÍÎÌÏÍÍÎÌÎÎÍÎÌ; // 0x10
+        public bool ÎÎÎÌÌÍÌÏÌÏÎÎÍÎÏÏÎÎÍÏÏÎÍ;
+        public bool ÍÍÏÎÌÏÍÌÏÌÍÌÎÏÏÏÍÍÏÍÍÍÍ; // 0x1
+        public bool ÍÍÌÍÌÎÎÍÍÏÎÍÌÍÎÍÏÌÎÍÎÎÎ; // 0x2
+        public bool ÌÏÍÍÎÍÎÎÏÌÍÏÍÏÎÍÍÎÎÎÌÍÌ; // 0x3
+        public bool ÏÍÎÎÎÏÎÎÍÌÍÏÍÏÎÎÎÌÌÍÎÏÍ; // 0x4
+        public System.DateTime ÌÏÍÍÎÏÍÍÍÍÏÎÌÎÎÍÎÎÏÍÍÌÍ; // 0x8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÏÏÍÏÎÎÏÍÎÎÍÌÌÎÏÍÍÎÍÏÌÌ; // 0x10
+        public bool ÍÏÏÌÌÌÏÍÌÌÎÌÏÎÌÌÏÌÍÏÍÍÏ; // 0x18
+        public string ÏÍÍÎÏÌÌÏÌÌÌÎÌÌÌÎÍÏÍÍÍÏÌ; // 0x20
+        public string ÎÌÏÎÍÍÎÍÎÍÌÎÏÌÎÌÌÍÏÎÏÍÏ; // 0x28
+        public string ÍÎÍÍÏÏÏÏÌÎÏÌÏÌÌÌÏÎÎÏÌÏÏ; // 0x30
+        public string ÍÎÍÏÎÎÍÌÏÍÍÌÌÍÏÎÏÎÍÍÎÍÏ; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÌÍÌÌÎÎÏÌÌÎÎÍÎÏÍÎÏÍÌÎÏÍÍ; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÌÍÎÌÏÏÌÌÎÏÏÌÌÎÏÎÍÌÏÏÍÏÎ; // 0x48
+        public string ÌÏÌÎÌÎÍÏÍÏÌÌÏÌÎÌÎÎÍÍÍÌÍ; // 0x50
+        public System.Collections.Generic.List`1<VRC.Core.ApiVRChatSubscription> ÌÍÍÍÍÎÏÍÌÍÎÍÏÍÏÍÎÏÎÍÍÏÎ; // 0x58
+        public bool ÏÍÍÎÏÎÏÌÍÎÏÌÎÏÌÏÎÎÏÍÎÏÏ; // 0x60
+        public bool ÍÎÎÌÌÏÏÍÎÌÌÌÌÌÍÍÌÌÌÏÍÌÏ; // 0x61
+        public string ÍÌÏÌÍÌÍÏÏÌÏÏÏÍÏÌÌÌÎÌÍÍÎ; // 0x68
+        public bool ÍÎÌÎÎÎÍÌÎÎÏÎÎÎÎÍÏÌÎÍÌÌÍ; // 0x70
+        public System.DateTime ÎÍÎÎÎÌÏÌÎÎÏÍÌÌÏÏÎÍÏÍÌÌÎ; // 0x78
+        public string ÎÍÎÍÌÎÍÌÌÍÎÎÌÌÏÎÍÎÍÎÌÌÌ; // 0x80
+        public string ÎÏÌÍÍÍÌÍÏÌÍÎÎÏÏÎÏÏÍÎÎÍÌ; // 0x88
+        public string ÏÏÌÎÌÌÌÎÏÌÎÎÏÏÎÎÌÎÏÌÍÏÌ; // 0x90
+        public string ÏÌÏÎÎÎÌÌÌÌÌÎÏÌÌÎÎÎÏÍÏÎÍ; // 0x98
+        public string ÏÏÍÏÏÎÎÏÏÎÎÏÌÍÏÎÎÏÎÌÏÌÏ; // 0xA0
+        public string ÌÏÎÎÌÎÌÎÏÌÍÎÌÏÏÍÌÎÏÍÌÎÍ; // 0xA8
+        public string ÍÏÌÌÍÏÎÏÌÌÏÎÌÏÏÏÌÏÏÏÌÌÌ; // 0xB0
+        public bool ÏÎÌÎÍÌÍÏÌÍÌÎÏÍÏÏÍÏÎÌÌÍÏ; // 0xB8
+        public bool ÎÍÎÍÌÍÏÎÎÌÍÏÌÌÎÏÎÍÌÌÌÌÏ; // 0xB9
+        public bool ÌÍÏÍÏÏÍÎÏÍÏÌÌÎÍÍÎÌÏÍÏÌÌ; // 0xBA
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÏÏÌÌÌÏÍÌÎÎÍÍÎÏÌÎÌÌÍÍÎÌÏ; // 0xC0
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÏÎÏÌÎÌÏÎÍÏÎÌÍÏÎÍÍÏÏÏÏÏÎ; // 0xC8
+        public string ÏÍÏÎÎÎÏÏÌÎÎÎÏÌÏÏÍÎÏÏÍÌÍ; // 0xD0
+        public string ÌÏÌÌÍÏÎÏÎÎÍÍÌÌÏÎÏÏÍÍÎÏÏ; // 0xD8
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÏÏÌÎÎÍÎÏÍÍÍÍÌÍÌÍÌÍÍÏÌÎÎ; // 0xE0
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÍÏÍÌÎÌÎÏÎÏÎÍÌÌÏÍÌÏÏÌÍÍÏ; // 0xE8
+        public string ÌÍÏÍÎÍÏÍÌÌÍÎÌÏÌÍÏÌÎÍÎÌÏ; // 0xF0
+        public string ÏÏÍÌÏÎÍÍÏÎÌÏÎÏÍÍÎÏÌÌÌÏÎ; // 0xF8
+        public string ÍÏÎÏÎÎÌÌÎÍÎÍÍÎÎÎÏÍÌÍÍÌÌ;
+        public string ÌÌÌÍÏÎÎÌÌÎÌÌÌÎÎÌÎÎÏÏÎÍÌ;
+        public string ÏÌÏÏÍÎÌÍÍÍÍÏÏÎÌÏÌÍÏÎÍÏÎ;
+        public string ÍÌÎÌÎÍÌÎÍÎÍÍÌÍÌÎÍÏÌÎÍÌÌ;
+        public string ÏÌÍÌÍÎÌÎÏÎÎÍÌÌÎÌÏÏÏÌÌÌÌ;
+        public string ÏÎÍÎÏÌÌÌÏÍÎÏÏÏÏÌÏÏÍÍÎÏÏ;
+        public string ÍÍÍÌÍÍÍÌÏÎÏÎÌÎÎÌÎÎÎÏÏÏÏ;
+        public string ÏÎÎÎÌÌÍÏÎÎÏÌÎÍÏÍÏÏÎÍÎÎÎ;
+        public string ÍÍÌÎÎÍÌÌÍÎÏÌÎÍÏÍÌÏÍÎÎÎÎ;
+        public string ÎÍÌÏÏÍÎÍÌÍÍÎÏÌÏÍÏÍÎÍÍÏÏ;
+        public float ÍÎÏÎÌÎÍÍÏÌÏÌÌÎÏÏÌÍÍÌÏÌÏ;
+        public float ÏÎÌÍÏÎÌÍÎÎÏÌÍÍÎÎÍÌÎÌÌÎÎ; // 0x100
+        public string ÌÍÌÍÏÍÍÍÍÍÍÎÍÎÎÍÍÎÌÍÌÌÏ;
+        public string ÎÌÏÏÎÍÏÎÌÍÌÍÏÎÎÏÎÎÌÏÌÍÍ;
+        public string ÍÍÎÎÍÌÏÌÍÍÎÍÍÎÏÏÍÌÎÎÎÍÏ;
+        public string ÏÏÏÍÎÌÎÌÏÌÏÌÏÍÎÌÌÍÎÎÌÍÏ;
+        public string ÌÎÌÍÌÍÎÍÎÎÎÎÎÍÏÌÌÎÌÍÍÎÎ;
+        public float ÌÌÏÌÎÌÌÎÌÌÏÏÎÌÌÌÍÎÏÎÎÏÌ;
+        public float ÌÎÌÍÌÍÍÌÌÏÍÏÏÎÏÌÍÏÍÍÎÏÏ;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0xDEFEC0
         public void Clear(){} // RVA: 0xDF0460
@@ -829,6 +911,16 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÎÏÍÍÏÍÎÎÎÌÌÎÎÌÏÏÌÏÌÌÎ</summary>
     public class TransformSystem_ACB1
     {
+        public ÏÎÎÏÍÍÏÍÎÎÎÌÌÎÎÌÏÏÌÏÌÌÎ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public ÏÏÍÍÌÌÍÌÏÍÍÎÍÎÏÏÏÌÏÎÌÌÌ ÎÍÏÌÌÍÌÏÏÍÍÏÌÌÍÌÌÍÎÌÏÎÏ; // 0x38
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÍÎÌÌÌÌÍÎÏÌÎÍÎÏÎÏÏÍÏÌÏÏ; // 0x40
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÎÎÍÌÏÍÍÍÏÏÍÎÌÏÏÍÎÌÌÌÏÌ; // 0x48
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÎÏÍÌÏÎÍÏÏÏÍÎÏÎÌÍÎÎÏÌÏÍ; // 0x50
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÏÍÏÍÎÏÎÏÍÎÌÍÏÍÍÌÍÌÍÎÏÏÍ; // 0x58
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÌÎÌÍÎÎÌÏÏÎÌÍÌÌÍÎÌÌÎÌÎÍÍ; // 0x60
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÏÌÎÎÌÎÎÌÍÌÌÍÏÍÍÎÎÌÎÏÏÏ; // 0x68
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÍÎÍÎÍÍÍÍÍÏÌÎÍÏÎÎÎÏÏÏÌÎÏ; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x14B4320
         public void Initialize(){} // RVA: 0x14B5150
@@ -874,6 +966,8 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÍÏÏÌÍÍÌÏÌÍÏÎÏÎÏÏÍÌÎÍÎÌ</summary>
     public class TransformTimeHandler_A706
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC02740
         public void Handle(){} // RVA: 0xC02850

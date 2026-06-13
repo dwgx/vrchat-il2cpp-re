@@ -49,6 +49,8 @@ public class <<CreateOrFetch>g__asyncHelper|0>d : [I
 
 public class <<DeserializeAsyncEnumerableCore>g__CreateAsyncEnumerable|90_0>d`1
 {
+    public int <>1__state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void MoveNext(){} // RVA: 0x24A50
@@ -200,6 +202,9 @@ public class <<OnMain>b__0>d : [I
 
 public class <<ProcessQueryResult>g__EnabledComponents|0>d
 {
+    public int <>1__state; // 0x10
+    public string <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7D87F0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -241,6 +246,9 @@ public class <<WriteToAsync>g__AwaitProperties|0_0>d : [I
 
 public class <<get_Baggage>g__Iterate|87_0>d
 {
+    public int <>1__state; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,string> <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDCF850
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310

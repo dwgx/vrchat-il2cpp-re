@@ -151,8 +151,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointCircuit
     {
-        public object start;
-        public object duration;
+        public WaypointList start; // 0x20
+        public bool duration; // 0x28
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x2E5970
@@ -171,6 +171,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointProgressTracker
     {
+        public UnityStandardAssets.Utility.WaypointCircuit circuit; // 0x20
+        public float lookAheadForTargetOffset; // 0x28
+        public float lookAheadForTargetFactor; // 0x2C
+
         // ── Methods ──
         public void get_targetPoint(){} // RVA: 0x2E6E10
         public void set_targetPoint(){} // RVA: 0x2E6E30

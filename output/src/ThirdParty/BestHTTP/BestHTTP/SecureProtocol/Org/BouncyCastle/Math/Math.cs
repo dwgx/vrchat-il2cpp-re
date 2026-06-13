@@ -7,10 +7,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math
 {
     public class BigInteger
     {
-        public object Factor;
-        public object IsProvablyComposite;
-        public object IsNotPrimePower;
-        public object .ctor;
+        public int[][] Factor;
+        public int[] IsProvablyComposite; // 0x8
+        public long IsNotPrimePower;
+        public ulong .ctor;
+        public int[] ZeroMagnitude; // 0x10
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x998A9F0

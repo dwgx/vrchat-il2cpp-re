@@ -15,10 +15,10 @@
     "semantic_pct": 90.7
   },
   "fields": {
-    "total": 2870,
-    "semantic": 2712,
-    "hash_fallback": 158,
-    "semantic_pct": 94.5
+    "total": 71972,
+    "semantic": 66282,
+    "hash_fallback": 5690,
+    "semantic_pct": 92.1
   },
   "cross_version_entries": 39623
 }

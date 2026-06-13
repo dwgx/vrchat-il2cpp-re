@@ -7,6 +7,8 @@ namespace VRC.SDK3.UdonNetworkCalling
 {
     public class NetworkCallableAttribute
     {
+        public int <MaxEventsPerSecond>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_MaxEventsPerSecond(){} // RVA: 0x32A5C0
         public void set_MaxEventsPerSecond(){} // RVA: 0x2E00C0
@@ -15,6 +17,12 @@ namespace VRC.SDK3.UdonNetworkCalling
 
     public class NetworkCalling
     {
+        public bool <InNetworkCall>k__BackingField;
+        public VRC.SDKBase.VRCPlayerApi <CallingPlayer>k__BackingField; // 0x8
+        public SendNetworkEventDelegate <SendCustomNetworkEventProxy>k__BackingField; // 0x10
+        public GetQueuedEventsDelegate <GetQueuedEventsProxy>k__BackingField; // 0x18
+        public GetAllQueuedEventsDelegate <GetAllQueuedEventsProxy>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_InNetworkCall(){} // RVA: 0x99FBD90
         public void set_InNetworkCall(){} // RVA: 0x99FBDF0
@@ -37,6 +45,10 @@ namespace VRC.SDK3.UdonNetworkCalling
 
     public class NetworkCallingEntrypointMetadata
     {
+        public int RATE_LIMIT_MAX;
+        public int _maxEventsPerSecond; // 0x10
+        public string _name; // 0x18
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2E07C0
         public void get_MaxEventsPerSecond(){} // RVA: 0x32A5C0
@@ -48,8 +60,8 @@ namespace VRC.SDK3.UdonNetworkCalling
 
     public class NetworkCallingParameterMetadata
     {
-        public object startTimeSec;
-        public object endTimeSec;
+        public string startTimeSec; // 0x10
+        public 0x6597D760 endTimeSec; // 0x18
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380

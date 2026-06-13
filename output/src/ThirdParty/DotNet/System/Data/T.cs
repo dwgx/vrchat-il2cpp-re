@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class TypeLimiter
     {
+        public Scope s_activeScope; // 0xFFFFFFFF
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_IsTypeLimitingDisabled(){} // RVA: 0x66E8340

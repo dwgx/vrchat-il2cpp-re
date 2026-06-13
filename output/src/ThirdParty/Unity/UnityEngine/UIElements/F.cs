@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 12
-// Methods: 135
+// Classes: 18
+// Methods: 183
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1
     {
+        public UnityEngine.UIElements.IValueField`1<T> m_DrivenField;
+        public UnityEngine.UIElements.VisualElement m_DragElement;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24B10
         public void get_dragging(){} // RVA: 0xDBE0
@@ -22,6 +25,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void UpdateValueOnPointerUp(){} // RVA: 0x24B10
         public void ProcessUpEvent(){} // RVA: 0x2BAA0
         public void UpdateValueOnKeyDown(){} // RVA: 0x24B10
+    }
+
+    public class FieldMouseDragger`1
+    {
+        public UnityEngine.UIElements.IValueField`1<float> m_DrivenField; // 0x10
+        public UnityEngine.UIElements.VisualElement m_DragElement; // 0x18
+    }
+
+    public class FieldMouseDragger`1
+    {
+        public UnityEngine.UIElements.IValueField`1<int> m_DrivenField; // 0x10
+        public UnityEngine.UIElements.VisualElement m_DragElement; // 0x18
     }
 
     public class FixedHeightVirtualizationController`1
@@ -42,6 +57,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FloatField
     {
+        public string ussClassName;
+
         // ── Methods ──
         public void get_floatInput(){} // RVA: 0x7318010
         public void ValueToString(){} // RVA: 0x73180A0
@@ -54,6 +71,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusChangeDirection
     {
+        public UnityEngine.UIElements.FocusChangeDirection <unspecified>k__BackingField;
+        public UnityEngine.UIElements.FocusChangeDirection <none>k__BackingField; // 0x8
+        public UnityEngine.UIElements.FocusChangeDirection <lastValue>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_unspecified(){} // RVA: 0x73FBC90
         public void get_none(){} // RVA: 0x73FBCF0
@@ -68,10 +89,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusController
     {
-        public object minAtlasSize;
-        public object maxAtlasSize;
-        public object maxSubTextureSize;
-        public object activeFilters;
+        public UnityEngine.UIElements.IFocusRing minAtlasSize; // 0x10
+        public UnityEngine.UIElements.TextElement maxAtlasSize; // 0x18
+        public System.Collections.Generic.List`1<FocusedElement> maxSubTextureSize; // 0x20
+        public UnityEngine.UIElements.Focusable activeFilters; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73FBFD0
@@ -112,6 +133,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1
     {
+        public UnityEngine.UIElements.Focusable <relatedTarget>k__BackingField;
+        public UnityEngine.UIElements.FocusChangeDirection <direction>k__BackingField;
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField;
+        public bool <IsFocusDelegated>k__BackingField;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0xCD60
         public void set_relatedTarget(){} // RVA: 0x24B10
@@ -125,6 +151,94 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public void LocalInit(){} // RVA: 0x24A50
         public void GetPooled(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0x24A50
+    }
+
+    public class FocusEventBase`1
+    {
+        public UnityEngine.UIElements.Focusable <relatedTarget>k__BackingField; // 0x88
+        public UnityEngine.UIElements.FocusChangeDirection <direction>k__BackingField; // 0x90
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField; // 0x98
+        public bool <IsFocusDelegated>k__BackingField; // 0xA0
+
+        // ── Methods ──
+        public void get_relatedTarget(){} // RVA: 0x31C010
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_direction(){} // RVA: 0x796DE0
+        public void set_direction(){} // RVA: 0xB54600
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void set_focusController(){} // RVA: 0x9AA650
+        public void get_IsFocusDelegated(){} // RVA: 0x1B6CD50
+        public void set_IsFocusDelegated(){} // RVA: 0xB70090
+        public void Init(){} // RVA: 0x334BE90
+        public void LocalInit(){} // RVA: 0x334BF30
+        public void GetPooled(){} // RVA: 0x334C0F0
+        public void .ctor(){} // RVA: 0x334C330
+    }
+
+    public class FocusEventBase`1
+    {
+        public UnityEngine.UIElements.Focusable <relatedTarget>k__BackingField; // 0x88
+        public UnityEngine.UIElements.FocusChangeDirection <direction>k__BackingField; // 0x90
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField; // 0x98
+        public bool <IsFocusDelegated>k__BackingField; // 0xA0
+
+        // ── Methods ──
+        public void get_relatedTarget(){} // RVA: 0x31C010
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_direction(){} // RVA: 0x796DE0
+        public void set_direction(){} // RVA: 0xB54600
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void set_focusController(){} // RVA: 0x9AA650
+        public void get_IsFocusDelegated(){} // RVA: 0x1B6CD50
+        public void set_IsFocusDelegated(){} // RVA: 0xB70090
+        public void Init(){} // RVA: 0x334BE90
+        public void LocalInit(){} // RVA: 0x334BF30
+        public void GetPooled(){} // RVA: 0x334C0F0
+        public void .ctor(){} // RVA: 0x334C330
+    }
+
+    public class FocusEventBase`1
+    {
+        public UnityEngine.UIElements.Focusable <relatedTarget>k__BackingField; // 0x88
+        public UnityEngine.UIElements.FocusChangeDirection <direction>k__BackingField; // 0x90
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField; // 0x98
+        public bool <IsFocusDelegated>k__BackingField; // 0xA0
+
+        // ── Methods ──
+        public void get_relatedTarget(){} // RVA: 0x31C010
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_direction(){} // RVA: 0x796DE0
+        public void set_direction(){} // RVA: 0xB54600
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void set_focusController(){} // RVA: 0x9AA650
+        public void get_IsFocusDelegated(){} // RVA: 0x1B6CD50
+        public void set_IsFocusDelegated(){} // RVA: 0xB70090
+        public void Init(){} // RVA: 0x334BE90
+        public void LocalInit(){} // RVA: 0x334BF30
+        public void GetPooled(){} // RVA: 0x334C0F0
+        public void .ctor(){} // RVA: 0x334C330
+    }
+
+    public class FocusEventBase`1
+    {
+        public UnityEngine.UIElements.Focusable <relatedTarget>k__BackingField; // 0x88
+        public UnityEngine.UIElements.FocusChangeDirection <direction>k__BackingField; // 0x90
+        public UnityEngine.UIElements.FocusController <focusController>k__BackingField; // 0x98
+        public bool <IsFocusDelegated>k__BackingField; // 0xA0
+
+        // ── Methods ──
+        public void get_relatedTarget(){} // RVA: 0x31C010
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_direction(){} // RVA: 0x796DE0
+        public void set_direction(){} // RVA: 0xB54600
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void set_focusController(){} // RVA: 0x9AA650
+        public void get_IsFocusDelegated(){} // RVA: 0x1B6CD50
+        public void set_IsFocusDelegated(){} // RVA: 0xB70090
+        public void Init(){} // RVA: 0x334BE90
+        public void LocalInit(){} // RVA: 0x334BF30
+        public void GetPooled(){} // RVA: 0x334C0F0
+        public void .ctor(){} // RVA: 0x334C330
     }
 
     public class FocusInEvent
@@ -147,6 +261,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Focusable
     {
+        public bool <focusable>k__BackingField; // 0x20
+        public int <tabIndex>k__BackingField; // 0x24
+        public bool m_DelegatesFocus; // 0x28
+        public bool m_ExcludeFromFocusRing; // 0x29
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73FB720
         public void get_focusController(){} // RVA: 0xCD60
@@ -171,6 +290,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Foldout
     {
+        public UnityEngine.UIElements.Toggle m_Toggle; // 0x3D8
+        public UnityEngine.UIElements.VisualElement m_Container; // 0x3E0
+        public bool m_Value; // 0x3E8
+
         // ── Methods ──
         public void get_contentContainer(){} // RVA: 0xD98840
         public void set_text(){} // RVA: 0x7319170
@@ -187,6 +310,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FontDefinition
     {
+        public UnityEngine.Font m_Font; // 0x10
+        public UnityEngine.TextCore.Text.FontAsset m_FontAsset; // 0x18
+
         // ── Methods ──
         public void get_font(){} // RVA: 0x2738C50
         public void get_fontAsset(){} // RVA: 0x5F1D510

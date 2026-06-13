@@ -8,7 +8,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÎÏÌÍÌÍÏÏÎÍÌÏÌÌÎÏÌÍÏÎ</summary>
     public class zero_1720
     {
-        public object zero;
+        public ÏÍÌÎÏÌÍÌÍÏÏÎÍÌÏÌÌÎÏÌÍÏÎ zero;
 
         // ── Methods ──
         public void GetAverageChildPosition(){} // RVA: 0x1125330

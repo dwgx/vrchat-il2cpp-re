@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class PlayerDrone
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -28,6 +30,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PlayerDroneT
     {
+        public float <Throttle>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Throttle(){} // RVA: 0x407320
         public void set_Throttle(){} // RVA: 0x407330
@@ -44,6 +48,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseFingerData
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -58,8 +64,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseFingerDataT
     {
-        public object ByteBuffer;
-        public object HandGestureLeft;
+        public byte[] ByteBuffer; // 0x10
+        public byte[] HandGestureLeft; // 0x18
 
         // ── Methods ──
         public void get_FingerStretch(){} // RVA: 0x2F8380
@@ -71,6 +77,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseHandGestures
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -85,7 +93,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseHandGesturesT
     {
-        public object ByteBuffer;
+        public byte ByteBuffer; // 0x10
+        public byte <HandGestureRight>k__BackingField; // 0x11
 
         // ── Methods ──
         public void get_HandGestureLeft(){} // RVA: 0x3A75E0
@@ -97,6 +106,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseMuscleData
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -112,7 +123,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseMuscleDataT
     {
-        public object ByteBuffer;
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionTenBitT ByteBuffer; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3HalfT <HipPosition>k__BackingField; // 0x18
+        public byte[] <Muscles>k__BackingField; // 0x20
 
         // ── Methods ──
         public void get_BodyRotation(){} // RVA: 0x2F8380
@@ -126,8 +139,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PosePositionDataUnion
     {
-        public object ByteBuffer;
-        public object Contents;
+        public 0x65918138 ByteBuffer; // 0x10
+        public object Contents; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0
@@ -149,6 +162,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorder
     {
+        public Google.FlatBuffers8.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -197,6 +212,20 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorderT
     {
+        public ushort <Contents>k__BackingField; // 0x10
+        public byte <MotionFlags>k__BackingField; // 0x12
+        public byte <ExtraFlags>k__BackingField; // 0x13
+        public byte <StandingHeight>k__BackingField; // 0x14
+        public byte <AngVelocity>k__BackingField; // 0x15
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PoseHandGesturesT <Gestures>k__BackingField; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PoseFingerDataT <Fingers>k__BackingField; // 0x20
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PosePositionDataUnion <Pose>k__BackingField; // 0x28
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PuppetDataT <Puppet>k__BackingField; // 0x30
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3TenBitT <EyeLookTargetPosition>k__BackingField; // 0x38
+        public byte <EyeClosedAmount>k__BackingField; // 0x40
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.FloatHalfT <SpineLengthFactor>k__BackingField; // 0x48
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.FaceTrackedVisemeDataT <FaceTrackedVisemes>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_Contents(){} // RVA: 0x1C0F720
         public void set_Contents(){} // RVA: 0x1C0FA70
@@ -237,6 +266,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PuppetData
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -250,7 +281,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PuppetDataT
     {
-        public object Objects;
+        public byte[] Objects; // 0x10
 
         // ── Methods ──
         public void get_Channels(){} // RVA: 0x2F8380

@@ -8,6 +8,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÏÌÍÌÏÍÌÎÎÍÍÍÍÌÎÍÌÏÎÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_003D
     {
+        public ÏÍÌÏÌÍÌÏÍÌÎÎÍÍÍÍÌÎÍÌÏÎÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public float ÏÎÌÌÍÏÌÎÎÏÎÌÍÌÍÏÏÎÏÎÍÎÌ;
+        public float ÌÎÌÎÍÎÏÎÏÏÎÌÏÍÎÏÎÏÌÌÌÌÌ;
+        public float ÌÎÌÍÍÌÌÎÏÌÌÍÌÍÏÎÍÏÍÏÎÎÎ;
+        public float ÏÏÌÎÏÍÍÍÎÎÍÍÎÍÌÏÎÍÏÏÍÌÍ;
+
         // ── Methods ──
         public void Refresh(){} // RVA: 0xADE650
         public void ResolveVRCNetworkBehaviour(){} // RVA: 0x345550
@@ -85,6 +91,9 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÏÍÎÍÍÏÎÌÌÍÏÎÌÏÌÌÍÍÍÍÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_0764
     {
+        public System.Nullable`1<float> ÏÎÌÍÎÏÍÍÎÍÍÍÍÏÏÏÌÍÎÏÎÌÌ;
+        public System.Collections.Generic.Dictionary`2<string,ÎÌÌÌÌÏÌÍÎÏÎÌÎÎÍÎÍÏÌÎÏÌÌ> ÎÌÏÌÍÏÎÎÎÍÏÍÌÎÍÏÌÎÎÏÌÌÎ; // 0x8
+
         // ── Methods ──
         public void GetStructuralHashCode(){} // RVA: 0x1C08D30
         public void CompareTo(){} // RVA: 0x1C09380
@@ -145,6 +154,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÌÏÍÍÌÌÏÎÎÍÌÏÌÎÏÏÍÌÎÎÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_0D80
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -159,6 +170,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÎÏÎÌÎÏÌÏÎÍÌÏÏÏÎÏÍÎÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_0E99
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x1AD4690
         public void IsAssignableFrom(){} // RVA: 0x1FAA280
@@ -225,6 +238,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÌÎÎÌÌÏÍÍÏÌÎÌÏÏÍÎÏÏÌÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_1A73
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -334,6 +349,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÏÎÌÍÎÏÏÍÏÎÎÎÍÎÌÌÍÍÎÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_3510
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void EnsureSparseHashCapacity(){} // RVA: 0x2005A90
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -366,6 +383,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÎÏÎÌÎÎÏÍÍÌÍÏÍÎÌÎÍÍÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_3D27
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void GetMaterialArray(){} // RVA: 0x2079950
         public void GetMaterialArray_96F2BF9A5AED(){} // RVA: 0x2079B50
@@ -398,7 +417,7 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÏÍÌÍÏÎÍÏÎÎÌÎÌÍÌÏÍÎÏÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_3E0C
     {
-        public object _3E0C;
+        public int _3E0C; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AEE9C0 | overloaded x7
@@ -540,6 +559,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÌÍÏÍÏÎÎÌÏÎÎÏÏÎÌÍÎÌÏÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_5B63
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void GetDelegateFunctionPointer(){} // RVA: 0x1FA2E00
@@ -608,6 +629,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÏÌÎÎÌÌÏÌÏÍÌÎÏÌÌÎÌÍÌÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_64F5
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -682,6 +705,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÏÏÍÍÌÎÎÌÏÌÎÍÏÍÍÏÌÌÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_7C4E
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -698,6 +723,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÌÍÍÌÎÍÏÌÍÌÌÎÏÌÏÌÏÏÌÍÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_85A5
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -746,6 +773,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÍÏÍÍÍÌÎÌÎÍÏÌÎÍÌÏÏÎÏÌÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_8770
     {
+        public UnityEngine.GameObject[] _enableWhenSelected; // 0x20
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x8F26B80
         public void .ctor(){} // RVA: 0x2DDD50
@@ -768,6 +797,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÎÌÏÏÍÎÎÌÏÎÍÎÏÎÌÌÎÏÏÌÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_8ACE
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void ReadFileDescriptor(){} // RVA: 0x2054170
         public void ReadFileDescriptor_5752BD00C0B9(){} // RVA: 0x2054390
@@ -814,6 +845,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÏÌÍÌÍÏÏÎÌÌÎÍÍÎÍÏÌÏÌÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_8F7C
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void SetFloatString(){} // RVA: 0x1FE5980
@@ -848,6 +881,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÌÏÎÏÎÍÎÌÏÌÏÎÎÌÍÎÏÌÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_944E0
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -880,6 +915,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÌÍÎÏÍÌÎÍÎÌÏÏÏÎÌÎÌÏÎÏÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_9DC6
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void SetLocalScale(){} // RVA: 0x2097C20
@@ -897,6 +934,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÍÏÏÍÌÌÍÌÍÎÎÌÎÏÏÍÌÏÌÎÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_9E3F
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
@@ -927,6 +966,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÏÌÏÍÌÏÎÎÍÏÌÍÍÏÌÍÍÎÌÏÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_AB8C
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -943,6 +984,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÌÏÍÎÎÎÎÎÍÏÎÍÌÎÏÎÏÍÎÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_ABC9
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void ToLowerWithLocale(){} // RVA: 0x2045380
         public void ToUpperWithLocale(){} // RVA: 0x2045660
@@ -1006,6 +1049,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÏÍÍÍÎÌÏÎÎÍÌÏÍÌÏÎÌÎÍÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_B76C
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void Stop(){} // RVA: 0x1FBDA00
         public void ThreadPoolWorkerThreadLoop(){} // RVA: 0x1FBE2C0
@@ -1052,6 +1097,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÎÌÌÍÏÎÏÌÎÏÌÍÎÍÎÌÏÎÎÏÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_BB8F
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
@@ -1214,6 +1261,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÏÍÍÍÌÌÌÌÌÏÎÍÎÌÍÎÌÌÏÏÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C920
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -1291,6 +1340,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÍÍÍÍÎÎÏÍÏÎÏÎÎÏÎÎÏÌÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_CED1
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void CreateWindowsRuntimeTypeNotFoundException(){} // RVA: 0x1FB14E0
         public void CreateSystemException(){} // RVA: 0x1FB17D0
@@ -1307,6 +1358,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÏÎÏÏÍÌÌÍÌÌÏÎÎÎÍÏÎÍÌÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_CFC5
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void SetLocalScale(){} // RVA: 0x1F01B10
         public void GetIsHuman(){} // RVA: 0x1F02130
@@ -1384,6 +1437,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÎÌÌÎÌÌÌÌÏÎÌÎÍÎÌÏÍÏÍÎÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_DECA
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void BrotliDecoderDecompressStream(){} // RVA: 0x1FD42F0
         public void BrotliDecoderErrorString(){} // RVA: 0x1FD4670
@@ -1398,6 +1453,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÏÍÏÏÏÎÍÍÍÍÌÎÏÍÏÌÎÍÏÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_E3CA
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void Atan(){} // RVA: 0x206F260
         public void Atan_45A041CB090E(){} // RVA: 0x206F3B0
@@ -1483,6 +1540,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÍÏÎÍÏÌÎÍÏÏÍÎÏÎÏÏÎÎÎÌÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_F0A3
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void GetHeight(){} // RVA: 0x1F25BB0
@@ -1500,6 +1559,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÌÍÏÏÏÌÌÏÌÏÌÏÌÏÎÍÌÌÏÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_F238
     {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
@@ -1549,6 +1610,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÌÎÌÌÎÌÍÏÍÎÏÏÎÏÌÌÌÌÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_F5AF
     {
+        public UIntPtr ÏÍÍÎÍÏÏÏÍÍÎÎÍÏÍÏÍÏÎÏÏÎÎ; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
@@ -1563,6 +1626,9 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÏÏÏÎÎÌÎÌÏÌÌÎÎÏÏÌÏÏÍÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_F67C
     {
+        public string ÌÍÏÏÍÏÎÎÎÍÎÎÌÍÎÏÏÌÏÌÍÏÏ;
+        public string ÏÏÍÎÌÎÌÍÍÎÎÍÎÏÎÌÍÎÎÌÍÏÎ; // 0x10
+
         // ── Methods ──
         public void set_CacheWritingBehavior(){} // RVA: 0x9310200
         public void .ctor(){} // RVA: 0x93108A0

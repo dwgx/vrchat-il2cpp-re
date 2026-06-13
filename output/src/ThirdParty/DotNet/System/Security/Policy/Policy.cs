@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Policy
 {
     public class Evidence
     {
+        public bool _locked; // 0x10
+        public System.Collections.ArrayList hostEvidenceList; // 0x18
+        public System.Collections.ArrayList assemblyEvidenceList; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Count(){} // RVA: 0x5C6B600

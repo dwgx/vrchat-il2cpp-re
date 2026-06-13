@@ -7,6 +7,11 @@ namespace ThirdParty.Other.MS.Internal.Xml.Cache
 {
     public class XPathDocumentNavigator
     {
+        public MS.Internal.Xml.Cache.XPathNode[] _pageCurrent; // 0x10
+        public MS.Internal.Xml.Cache.XPathNode[] _pageParent; // 0x18
+        public int _idxCurrent; // 0x20
+        public int _idxParent; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A116F0
         public void get_Value(){} // RVA: 0x6A11810
@@ -29,9 +34,13 @@ namespace ThirdParty.Other.MS.Internal.Xml.Cache
 
     public class XPathNode
     {
-        public object Page;
-        public object Index;
-        public object GetParent;
+        public MS.Internal.Xml.Cache.XPathNodeInfoAtom Page; // 0x10
+        public ushort Index; // 0x18
+        public ushort GetParent; // 0x1A
+        public ushort _idxSimilar; // 0x1C
+        public ushort _posOffset; // 0x1E
+        public uint _props; // 0x20
+        public string _value; // 0x28
 
         // ── Methods ──
         public void get_NodeType(){} // RVA: 0x6A126A0
@@ -66,6 +75,16 @@ namespace ThirdParty.Other.MS.Internal.Xml.Cache
 
     public class XPathNodeInfoAtom
     {
+        public string _localName; // 0x10
+        public string _namespaceUri; // 0x18
+        public string _prefix; // 0x20
+        public MS.Internal.Xml.Cache.XPathNode[] _pageParent; // 0x28
+        public MS.Internal.Xml.Cache.XPathNode[] _pageSibling; // 0x30
+        public System.Xml.XPath.XPathDocument _doc; // 0x38
+        public int _lineNumBase; // 0x40
+        public int _linePosBase; // 0x44
+        public MS.Internal.Xml.Cache.XPathNodePageInfo _pageInfo; // 0x48
+
         // ── Methods ──
         public void get_PageInfo(){} // RVA: 0x358730
         public void get_LocalName(){} // RVA: 0x2F8380
@@ -80,9 +99,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.Cache
 
     public class XPathNodePageInfo
     {
-        public object PageInfo;
-        public object LocalName;
-        public object NamespaceUri;
+        public int PageInfo; // 0x10
+        public int LocalName; // 0x14
+        public MS.Internal.Xml.Cache.XPathNode[] NamespaceUri; // 0x18
 
         // ── Methods ──
         public void get_PageNumber(){} // RVA: 0x32A5C0
@@ -92,6 +111,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.Cache
 
     public class XPathNodeRef
     {
+        public MS.Internal.Xml.Cache.XPathNode[] _page; // 0x10
+        public int _idx; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x820840
         public void get_Page(){} // RVA: 0x1AD4690

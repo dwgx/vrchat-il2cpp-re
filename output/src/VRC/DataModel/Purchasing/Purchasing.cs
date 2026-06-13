@@ -7,6 +7,8 @@ namespace VRC.DataModel.Purchasing
 {
     public class ValidationParams
     {
+        public ÎÏÌÎÌÌÎÎÏÏÎÌÎÍÍÎÎÏÍÍÏÍÏ <ÌÌÎÌÌÍÌÏÎÏÍÎÎÌÍÍÌÎÌÌÎÎÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_RequiresStoring(){} // RVA: 0xDBE0
         public void set_RequiresStoring(){} // RVA: 0x2F8380

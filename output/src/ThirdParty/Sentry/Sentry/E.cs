@@ -15,6 +15,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class ExperimentalMetricsOptions
     {
+        public bool <EnableCodeLocations>k__BackingField; // 0x10
+        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> _captureSystemDiagnosticsInstruments; // 0x18
+        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> _captureSystemDiagnosticsMeters; // 0x20
+
         // ── Methods ──
         public void get_EnableCodeLocations(){} // RVA: 0x3A75E0
         public void set_EnableCodeLocations(){} // RVA: 0x3A75F0

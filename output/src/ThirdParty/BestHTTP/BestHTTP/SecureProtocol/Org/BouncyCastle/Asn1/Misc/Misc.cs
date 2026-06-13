@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Misc
 {
     public class Cast5CbcParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger keyLength; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9791660
         public void .ctor(){} // RVA: 0x97919F0 | overloaded x2

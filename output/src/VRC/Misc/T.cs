@@ -8,6 +8,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÏÎÍÎÍÍÏÏÏÏÎÏÍÌÌÌÎÎÍÌ</summary>
     public class TimeHandler_0D53
     {
+        public 0x65890720 <ÏÎÏÏÎÍÌÍÏÌÏÍÏÍÍÎÏÍÍÎÏÏÎ>k__BackingField; // 0x10
+        public string <ÌÎÏÍÌÎÍÏÍÌÏÍÎÏÌÏÍÎÌÍÍÏÎ>k__BackingField; // 0x18
+        public string <ÍÎÏÏÍÏÎÎÎÌÌÌÎÎÎÏÏÎÎÌÏÍÏ>k__BackingField; // 0x20
+        public string <ÎÌÌÏÎÏÎÎÏÌÍÏÎÎÎÎÌÍÌÎÎÎÍ>k__BackingField; // 0x28
+        public VRC.Localization.LocalizableString <ÍÌÏÏÌÎÎÍÎÎÍÎÎÏÍÎÍÌÍÎÎÏÌ>k__BackingField; // 0x30
+        public VRC.Localization.LocalizableString <ÏÍÍÌÏÍÏÍÌÍÏÍÏÎÎÏÏÌÌÌÏÍÏ>k__BackingField; // 0x58
+        public VRC.Localization.LocalizableString <ÎÏÍÏÍÌÍÎÌÍÌÍÎÏÏÌÏÍÏÍÎÍÏ>k__BackingField; // 0x80
+
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void get_InstantiationKind(){} // RVA: 0x32A5C0
@@ -38,6 +46,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÏÌÌÍÍÍÍÍÍÍÌÎÏÍÏÏÌÍÎ</summary>
     public class TimeHandler_0E19
     {
+        public System.Collections.Generic.HashSet`1<string> ÏÏÎÌÌÍÏÎÏÏÍÏÏÌÌÌÏÏÍÏÎÍÍ;
+        public ÏÎÎÌÏÎÎÍÏÌÎÍÌÎÎÏÌÌÎÎÍÏÍ ÍÏÍÏÌÎÏÏÍÌÏÏÍÏÍÍÎÏÌÏÎÏÏ; // 0x8
+        public double ÍÎÌÍÎÏÎÎÏÏÍÏÎÏÌÎÎÌÍÌÌÍÍ; // 0x10
+        public double ÍÍÏÍÏÌÎÎÎÌÌÌÌÌÎÏÎÌÏÎÌÌÍ; // 0x18
+        public double ÏÍÌÎÍÏÏÎÍÎÍÏÏÍÍÍÏÌÏÍÏÍÌ; // 0x20
+        public double ÎÎÌÎÏÎÌÍÌÎÏÍÌÌÎÌÏÎÌÎÌÍÏ; // 0x28
+
         // ── Methods ──
         public void GetFrameCount(){} // RVA: 0xD74470
         public void .ctor(){} // RVA: 0xD745C0
@@ -57,6 +72,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÍÏÎÌÍÌÌÍÎÎÎÏÏÏÍÌÏÎÌÎ</summary>
     public class TimeHandler_1F8E
     {
+        public ÍÎÍÏÌÌÍÍÎÌÌÍÏÌÏÍÎÍÍÏÌÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x1F1EB90
         public void Process(){} // RVA: 0x1F1ED60
@@ -65,6 +82,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÍÌÎÏÍÍÎÌÌÏÍÏÏÍÍÎÎÍÌÎ</summary>
     public class TimeHandler_2B7E
     {
+        public UnityEngine.CanvasGroup canvasGroup; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x1B16560
         public void GetUnscaledDeltaTime(){} // RVA: 0x1B16600
@@ -140,6 +159,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÏÏÏÎÏÍÍÏÎÍÎÎÌÍÌÌÏÏÎÏ</summary>
     public class TimeHandler_6DE4
     {
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÍÎÍÏÎÏÏÏÍÌÏÍÌÍÌÍÏÏÌÍÌÌÏ; // 0x40
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÏÏÍÎÎÎÎÌÍÏÌÍÌÍÎÌÏÏÎÎÍÌ; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x12F8BE0
         public void .cctor(){} // RVA: 0x12F8CB0
@@ -217,6 +239,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÎÍÏÌÍÌÍÏÍÏÏÎÎÍÎÏÍÏÍÌÍ</summary>
     public class TimeHandler_CF7C
     {
+        public ÎÎÏÍÍÍÎÏÏÍÍÍÌÏÌÌÌÏÏÌÍÍÍ <ÎÍÏÌÏÎÍÌÌÏÎÌÏÌÏÌÌÏÏÌÍÍÎ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_Current(){} // RVA: 0x2F8380
@@ -233,6 +257,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÏÎÎÌÌÏÌÏÌÍÍÎÍÏÌÍÌÎÍÏ</summary>
     public class TimeHandler_E978
     {
+        public System.Collections.Generic.List`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> <ÏÎÎÍÎÏÌÍÏÍÎÏÌÏÏÌÎÍÍÍÎÍÎ>k__BackingField; // 0x10
+        public bool <ÌÎÌÏÍÎÌÍÏÍÍÌÏÎÏÍÎÍÏÍÌÍÍ>k__BackingField; // 0x18
+        public bool <ÏÎÌÎÌÍÌÎÍÎÏÏÏÌÍÌÎÎÍÌÍÍÎ>k__BackingField; // 0x19
+        public bool <ÎÎÎÌÌÏÍÍÍÌÍÌÎÎÎÎÍÍÌÍÎÍÏ>k__BackingField; // 0x1A
+
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void set_Value(){} // RVA: 0x2DEE30
@@ -274,6 +303,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÌÏÌÍÍÎÎÍÏÌÍÏÏÍÍÌÌÍÎÎÍ</summary>
     public class TimeHandler_EF12
     {
+        public string <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
+        public bool <ÎÌÎÌÏÏÌÌÎÏÏÌÏÌÏÎÍÎÍÎÍÍÏ>k__BackingField; // 0x18
+        public bool <ÎÏÍÏÍÎÏÏÌÌÏÌÌÎÏÍÎÏÏÏÎÍÍ>k__BackingField; // 0x19
+        public bool <ÌÏÌÍÏÏÍÎÏÏÌÏÎÎÌÏÏÌÏÏÍÎÍ>k__BackingField; // 0x1A
+        public bool <ÌÌÏÎÎÏÍÏÏÎÍÌÎÌÏÏÎÏÎÌÎÎÍ>k__BackingField; // 0x1B
+        public bool <ÎÍÏÍÏÏÏÏÌÎÌÎÏÍÍÏÎÌÍÍÍÏÏ>k__BackingField; // 0x1C
+        public bool <ÎÏÏÍÎÎÏÌÌÌÏÌÏÏÎÌÏÍÎÎÏÏÎ>k__BackingField; // 0x1D
+        public bool <ÌÏÍÌÎÎÍÎÍÏÌÏÌÏÏÏÌÌÎÌÍÏÎ>k__BackingField; // 0x1E
+        public bool <ÌÏÎÎÎÍÍÎÍÍÏÍÍÏÎÌÎÏÎÏÍÌÌ>k__BackingField; // 0x1F
+        public bool <ÌÎÍÏÍÍÌÏÌÏÏÏÎÎÎÍÌÍÎÏÌÎÏ>k__BackingField; // 0x20
+        public bool <ÍÍÎÌÎÌÌÎÏÎÌÏÌÎÌÏÌÏÍÏÏÍÎ>k__BackingField; // 0x21
+        public bool <ÍÍÌÎÌÎÌÌÍÌÍÏÌÎÏÏÍÌÎÍÎÎÌ>k__BackingField; // 0x22
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B98220 | overloaded x2
         public void Initialize(){} // RVA: 0x6B90C0
@@ -321,7 +363,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÌÍÎÏÍÎÎÏÍÌÏÍÎÌÌÌÎÏÌÌ</summary>
     public class Type10m1f_F422
     {
-        public object _f422;
+        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ _f422; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xFFF130
@@ -340,9 +382,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÍÎÍÌÌÏÏÏÍÌÌÌÍÌÎÎÍÎÍÏ</summary>
     public class Type11m3f_13D1
     {
-        public object f_752;
-        public object f_063;
-        public object f_029;
+        public System.Type f_752; // 0x10
+        public bool f_063; // 0x18
+        public bool f_029; // 0x19
 
         // ── Methods ──
         public void set_passOperationBack(){} // RVA: 0x1B06C90
@@ -362,7 +404,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÎÍÌÌÌÎÏÎÌÏÎÍÎÌÏÍÏÏÍÍ</summary>
     public class Type12m1f_C19C
     {
-        public object _c19C;
+        public string _c19C; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AD8130
@@ -383,8 +425,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÏÍÎÎÌÍÍÌÍÏÌÏÏÌÎÌÏÌÍÎ</summary>
     public class Type12m2f_4DF9
     {
-        public object Payload;
-        public object Store;
+        public int Payload; // 0x10
+        public int Store; // 0x14
 
         // ── Methods ──
         public void get_InstantiationKind(){} // RVA: 0x32A5C0
@@ -404,8 +446,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÌÍÏÍÎÌÌÎÎÍÌÎÎÌÍÎÎÎÎÏ</summary>
     public class Type12m2f_9410
     {
-        public object f_C3D;
-        public object f_ABF;
+        public int f_C3D; // 0x20
+        public int f_ABF; // 0x24
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x760030
@@ -425,7 +467,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÎÍÌÌÌÌÎÎÏÌÌÎÎÍ</summary>
     public class Type13m1f_A27E
     {
-        public object _a27E;
+        public 0x659C0BA8 _a27E; // 0x10
+        public bool ÏÍÌÌÍÏÏÏÍÌÏÌÎÏÎÌÍÍÏÏÎÍÎ; // 0x14
+        public UnityEngine.Transform ÍÎÎÏÏÌÏÏÎÏÍÍÏÍÍÌÌÎÏÎÍÎÎ; // 0x18
+        public UnityEngine.Transform ÎÏÏÎÌÍÍÎÏÎÏÎÌÏÎÌÍÏÍÏÏÏÌ; // 0x20
 
         // ── 13 unresolved (hash) ──
         public void m_32F(){} // RVA: 0x927D690
@@ -439,9 +484,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÎÎÎÏÍÏÏÏÏÌÍÎÎÌÏÎÍÍÍ</summary>
     public class Type14m3f_E1B8
     {
-        public object f_BCC;
-        public object f_B73;
-        public object f_9D2;
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ f_BCC; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] f_B73; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ f_9D2; // 0x20
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
@@ -464,7 +509,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÎÎÏÌÏÍÏÍÌÏÏÎÎÎÎÌÍÌÌÍ</summary>
     public class Type15m1f_5CB0
     {
-        public object 0,00;
+        public 0x65800EE0 0,00; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+        public uint <ÍÌÎÍÌÌÌÍÌÍÎÌÎÏÌÏÍÍÍÎÎÎÎ>k__BackingField; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
@@ -488,8 +536,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÍÏÌÍÏÍÎÎÌÏÌÏÎÌÏÌÎÏÏÎ</summary>
     public class Type16m2f_5DC1
     {
-        public object LocalizableText;
-        public object Image;
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588DFF0>[] LocalizableText;
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588DFF0>[] Image; // 0x8
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588DFF0>[] ÍÎÍÌÍÌÎÌÏÍÌÏÎÎÏÎÍÌÎÌÌÌÎ; // 0x10
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588E048>[] ÏÏÎÏÍÏÍÌÍÍÏÎÏÍÌÍÍÎÍÎÍÏÌ; // 0x18
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588DFF0>[] ÌÎÌÌÌÌÍÏÏÌÎÍÌÍÏÏÍÎÏÏÎÍÎ; // 0x20
 
         // ── Methods ──
         public void GetConverter(){} // RVA: 0xCE50
@@ -534,8 +585,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÏÎÌÌÌÌÍÌÏÌÏÌÍÏÍÏÌÎÌÎ</summary>
     public class Type20m2f_AE23
     {
-        public object f_B6D;
-        public object f_C3D;
+        public int f_B6D;
+        public int f_C3D; // 0x4
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1AF29E0
@@ -557,7 +608,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÌÍÌÎÎÌÌÌÍÍÌÌÌÎÌÎÏÍÎÌ</summary>
     public class Type2m1f_2DF6
     {
-        public object _2DF6;
+        public ÍÌÏÏÍÏÏÌÏÎÌÎÌÏÍÌÏÌÍÌÏÍÎ _2DF6;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F37290
@@ -567,7 +618,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÍÍÍÏÍÎÎÌÏÍÎÎÍÌÍÌÍÎÎ</summary>
     public class Type2m1f_341B
     {
-        public object _341B;
+        public ÏÌÎÍÎÌÎÏÌÌÎÏÍÌÌÎÍÎÏÍÌÍÍ _341B;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F9F430
@@ -577,7 +628,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÍÎÍÌÏÍÏÏÌÏÌÏÎÍÎÍÎÌÍ</summary>
     public class Type2m1f_4903
     {
-        public object _4903;
+        public ÍÌÏÌÏÌÍÎÌÌÎÎÌÍÎÎÎÏÏÌÎÏÏ _4903;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F7E6C0
@@ -587,7 +638,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÎÌÏÍÍÌÌÌÎÏÌÌÎÍÎÌÌÎÎÌ</summary>
     public class Type2m1f_57C2
     {
-        public object _57C2;
+        public ÌÌÏÏÏÎÍÌÎÏÍÎÎÎÏÎÎÎÎÌÎÎÎ _57C2;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x2085A30
@@ -597,7 +648,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÍÎÌÎÍÍÍÍÍÎÍÌÎÍÎÏÎÎÌÍ</summary>
     public class Type2m1f_6B60
     {
-        public object _6B60;
+        public ÌÌÏÏÏÌÌÍÍÍÎÎÎÎÎÎÌÍÌÍÌÎÌ _6B60;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x2022760
@@ -607,7 +658,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÏÌÍÌÌÍÏÌÏÎÏÍÍÎÍÌÍÌ</summary>
     public class Type2m1f_9D31
     {
-        public object _9D31;
+        public ÍÎÌÌÎÍÏÏÏÍÌÎÎÍÍÌÏÌÌÌÏÌÍ _9D31;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FD4060
@@ -617,7 +668,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÍÍÍÎÎÌÌÎÍÎÍÌÍÎÏÎÍÎÎÌ</summary>
     public class Type2m1f_A058
     {
-        public object _a058;
+        public ÏÏÎÎÍÎÍÍÍÌÎÌÏÌÏÏÍÏÏÍÎÍÎ _a058;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FA3E20
@@ -627,7 +678,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÌÏÍÌÏÎÌÍÎÎÍÌÎÎÍÌÌÌÏÍ</summary>
     public class Type2m1f_B1D8
     {
-        public object _b1D8;
+        public ÍÌÏÎÌÍÏÌÌÏÏÍÌÌÌÏÌÍÍÎÏÏÏ _b1D8;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1EDE200
@@ -637,7 +688,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÏÏÌÎÏÏÏÌÎÌÌÍÍÏÍÏÎÏÍÌ</summary>
     public class Type2m1f_C832
     {
-        public object _c832;
+        public ÍÏÌÍÏÌÎÏÏÎÌÎÌÍÍÏÍÌÏÏÌÍÎ _c832;
 
         // ── Methods ──
         public void P2ReceivePacket(){} // RVA: 0x1EF8680
@@ -648,7 +699,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÏÍÏÎÎÌÏÍÌÎÎÏÍÌÍÏÏÍÍÌ</summary>
     public class Type2m1f_CAD7
     {
-        public object _cAD7;
+        public ÎÎÌÏÍÎÍÎÌÌÎÍÍÌÍÌÏÏÍÏÌÏÌ _cAD7;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x2077640
@@ -658,7 +709,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÎÍÏÍÎÎÌÏÌÎÏÎÌÍÍÎÏÌÎ</summary>
     public class Type2m1f_E95C
     {
-        public object _e95C;
+        public ÌÌÏÌÏÌÏÍÍÌÏÏÍÎÍÏÏÎÏÌÌÍÍ _e95C;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1FCD800
@@ -668,7 +719,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÌÍÎÏÎÎÎÍÏÏÎÎÎÍÏÎÌÏÌÏ</summary>
     public class Type2m1f_F52D
     {
-        public object _f52D;
+        public ÌÌÍÌÏÌÌÏÌÌÍÍÍÏÎÏÌÌÌÏÎÏÍ _f52D;
 
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20851F0
@@ -678,7 +729,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÍÎÏÏÎÏÏÎÎÏÌÍÌÏÎÍÎÎÎÍ</summary>
     public class Type7m1f_5613
     {
-        public object _5613;
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ _5613; // 0x10
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
@@ -710,7 +761,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
-        public object _5AE9;
+        public bool _5AE9;
 
         // ── Methods ──
         public void get_FullName(){} // RVA: 0xDBE0
@@ -725,151 +776,182 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -883,6 +965,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -896,76 +980,92 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -979,26 +1079,32 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -1012,6 +1118,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -1025,6 +1133,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -1038,6 +1148,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -1051,6 +1163,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_FullName(){} // RVA: 0x1E40360
         public void get_FullName_8D5B102393E5(){} // RVA: 0x1E40360
@@ -1064,17 +1178,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
     public class Type8m1f_5AE9
     {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÍÌÍÌÏÎÏÏÌÎÍÍÎÌÍÍÍÎÌÎÍÍ</summary>
     public class Type8m1f_5D53
     {
-        public object agentTypeID;
+        public UnityEngine.Object[] agentTypeID; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50

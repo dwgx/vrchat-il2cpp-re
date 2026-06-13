@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Photon.Photon.Client
-// Classes: 45
-// Methods: 660
+// Classes: 50
+// Methods: 726
 
 namespace ThirdParty.Photon.Photon.Client
 {
@@ -37,6 +37,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class DictionaryEntryEnumerator
     {
+        public Enumerator<object,object> enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2878D50
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x62097A0
@@ -68,6 +70,11 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EnetPeer
     {
+        public Photon.Client.Pool`1<Photon.Client.NCommand> nCommandPool; // 0x128
+        public System.Collections.Generic.List`1<Photon.Client.NCommand> sentReliableCommands; // 0x130
+        public int sendWindowUpdateRequiredBackValue; // 0x138
+        public Photon.Client.StreamBuffer outgoingAcknowledgementsPool; // 0x140
+
         // ── Methods ──
         public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x620AED0
         public void get_SendWindowUpdateRequired(){} // RVA: 0x620B1F0
@@ -113,7 +120,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EventData
     {
-        public object Item;
+        public byte Item; // 0x10
+        public Photon.Client.ParameterDictionary Parameters; // 0x18
+        public byte SenderKey; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x623B6A0
@@ -158,6 +167,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NCommand
     {
+        public byte Ack2FeatureFlag;
+        public byte ReliableSendWindowFeatureFlag;
+        public byte FeatureFlagsLow;
+
         // ── Methods ──
         public void get_SizeOfPayload(){} // RVA: 0x6214F50
         public void get_IsFlaggedUnsequenced(){} // RVA: 0x6214F70
@@ -176,6 +189,12 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NetworkSimulationSet
     {
+        public bool isSimulationEnabled; // 0x10
+        public int outgoingLag; // 0x14
+        public int outgoingJitter; // 0x18
+        public int outgoingLossPercentage; // 0x1C
+        public int incomingLag; // 0x20
+
         // ── Methods ──
         public void get_IsSimulationEnabled(){} // RVA: 0x3A75E0
         public void set_IsSimulationEnabled(){} // RVA: 0x6216C40
@@ -189,6 +208,13 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NonAllocDictionary`2
     {
+        public uint[] _primeTableUInt;
+        public int _freeHead;
+        public int _freeCount;
+        public int _usedCount;
+        public uint _capacity;
+        public int[] _buckets;
+
         // ── Methods ──
         public void get_Keys(){} // RVA: 0x283FA0
         public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0xCD60
@@ -217,6 +243,80 @@ namespace ThirdParty.Photon.Photon.Client
         public void .cctor(){} // RVA: 0x24A80
     }
 
+    public class NonAllocDictionary`2
+    {
+        public uint[] _primeTableUInt;
+        public int _freeHead; // 0x10
+        public int _freeCount; // 0x14
+        public int _usedCount; // 0x18
+        public uint _capacity; // 0x1C
+        public int[] _buckets; // 0x20
+
+        // ── Methods ──
+        public void get_Keys(){} // RVA: 0x3C9A8B0
+        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x35A740
+        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x4976A0
+        public void get_Count(){} // RVA: 0x3C9A910
+        public void get_IsReadOnly(){} // RVA: 0x303450
+        public void .ctor(){} // RVA: 0x3C9A920
+        public void ContainsKey(){} // RVA: 0x3C9AB20
+        public void Contains(){} // RVA: 0x3C9AB40
+        public void TryGetValue(){} // RVA: 0x3C9ABF0
+        public void get_Item(){} // RVA: 0x3C9AC90
+        public void set_Item(){} // RVA: 0x3C9AD70
+        public void Add(){} // RVA: 0x3C9AFF0 | overloaded x2
+        public void Remove(){} // RVA: 0x3C9B260 | overloaded x2
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x3C9B340
+        public void GetEnumerator(){} // RVA: 0x3C9A8B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3C9B340
+        public void FindNode(){} // RVA: 0x3C9B3D0
+        public void Insert(){} // RVA: 0x3C9B460
+        public void Expand(){} // RVA: 0x3C9B650
+        public void Clear(){} // RVA: 0x3C9BA10
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x3C9BA70
+        public void IsPrimeFromList(){} // RVA: 0x3C9BC60
+        public void GetNextPrime(){} // RVA: 0x3C9BDE0
+        public void Assert(){} // RVA: 0x3C9C0D0
+        public void .cctor(){} // RVA: 0x3C9C130
+    }
+
+    public class NonAllocDictionary`2
+    {
+        public uint[] _primeTableUInt;
+        public int _freeHead; // 0x10
+        public int _freeCount; // 0x14
+        public int _usedCount; // 0x18
+        public uint _capacity; // 0x1C
+        public int[] _buckets; // 0x20
+
+        // ── Methods ──
+        public void get_Keys(){} // RVA: 0x3C9A8B0
+        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x35A740
+        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x4976A0
+        public void get_Count(){} // RVA: 0x3C9A910
+        public void get_IsReadOnly(){} // RVA: 0x303450
+        public void .ctor(){} // RVA: 0x3C9C260
+        public void ContainsKey(){} // RVA: 0x3C9C460
+        public void Contains(){} // RVA: 0x3C9C480
+        public void TryGetValue(){} // RVA: 0x3C9C520
+        public void get_Item(){} // RVA: 0x3C9C5C0
+        public void set_Item(){} // RVA: 0x3C9C6A0
+        public void Add(){} // RVA: 0x3C9C920 | overloaded x2
+        public void Remove(){} // RVA: 0x3C9CB80 | overloaded x2
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x3C9B340
+        public void GetEnumerator(){} // RVA: 0x3C9A8B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3C9B340
+        public void FindNode(){} // RVA: 0x3C9CC60
+        public void Insert(){} // RVA: 0x3C9CCF0
+        public void Expand(){} // RVA: 0x3C9CEE0
+        public void Clear(){} // RVA: 0x3C9BA10
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x3C9D2A0
+        public void IsPrimeFromList(){} // RVA: 0x3C9BC60
+        public void GetNextPrime(){} // RVA: 0x3C9BDE0
+        public void Assert(){} // RVA: 0x3C9C0D0
+        public void .cctor(){} // RVA: 0x3C9D490
+    }
+
     public class OperationRequest
     {
         // ── Methods ──
@@ -225,6 +325,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class OperationResponse
     {
+        public byte OperationCode; // 0x10
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x623B270
         public void ToString(){} // RVA: 0x623B2E0
@@ -234,6 +336,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ParameterDictionary
     {
+        public Photon.Client.NonAllocDictionary`2<byte,object> paramDict; // 0x10
+        public Photon.Client.StructWrapping.StructWrapperPools wrapperPools; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6217DE0 | overloaded x2
         public void op_Implicit(){} // RVA: 0x4EE6280
@@ -252,6 +357,28 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PeerBase
     {
+        public Photon.Client.PhotonPeer photonPeer; // 0x10
+        public Photon.Client.Protocol SerializationProtocol; // 0x18
+        public 0x6598D880 usedTransportProtocol; // 0x20
+        public Photon.Client.PhotonSocket PhotonSocket; // 0x28
+        public string <ServerAddress>k__BackingField; // 0x30
+        public string <ProxyServerAddress>k__BackingField; // 0x38
+        public int peerConnectionStateField; // 0x40
+        public int ByteCountLastOperation; // 0x44
+        public int ByteCountCurrentDispatch; // 0x48
+        public Photon.Client.NCommand CommandInCurrentDispatch; // 0x50
+        public int packetLossByCrc; // 0x58
+        public int packetLossByChallenge; // 0x5C
+        public int throttledBySendWindow; // 0x60
+        public System.Collections.Generic.Queue`1<MyAction> ActionQueue; // 0x68
+        public short peerID; // 0x70
+        public short peerCount;
+        public int serverTimeOffset; // 0x74
+        public bool serverTimeOffsetIsAvailable; // 0x78
+        public float roundTripTime; // 0x7C
+        public float roundTripTimeVariance; // 0x80
+        public int lastRoundTripTime; // 0x84
+
         // ── Methods ──
         public void get_Stats(){} // RVA: 0x9B8470
         public void get_Listener(){} // RVA: 0xB2E770
@@ -331,6 +458,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonHashtable
     {
+        public object[] boxedByte;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x62088D0
         public void .ctor(){} // RVA: 0x6208B70 | overloaded x2
@@ -344,6 +473,43 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonPeer
     {
+        public bool NoSocket;
+        public bool DebugBuild;
+        public int NativeEncryptorApiVersion;
+        public 0x6598D930 TargetFramework; // 0x10
+        public byte ClientSdkId; // 0x14
+        public string clientVersion;
+        public bool NoNativeCallbacks; // 0x8
+        public bool RemoveAppIdFromWebSocketPath; // 0x15
+        public bool UseInitV3; // 0x16
+        public bool <UseAck2>k__BackingField; // 0x17
+        public bool EnableEncryptedFlag; // 0x18
+        public 0x6598E118 <SerializationProtocolType>k__BackingField; // 0x1C
+        public System.Collections.Generic.Dictionary`2<0x6598D880,System.Type> SocketImplementationConfig; // 0x20
+        public System.Type <SocketImplementation>k__BackingField; // 0x28
+        public 0x6598D8D8 LogLevel; // 0x30
+        public Photon.Client.IPhotonPeerListener <Listener>k__BackingField; // 0x38
+        public bool reuseEventInstance; // 0x40
+        public bool useByteArraySlicePoolForEvents; // 0x41
+        public bool wrapIncomingStructs; // 0x42
+        public bool SendInCreationOrder; // 0x43
+        public int SendWindowSize; // 0x44
+        public byte quickResendAttempts; // 0x48
+        public int MaxResends; // 0x4C
+        public int InitialResendTimeMax; // 0x50
+        public int disconnectTimeout; // 0x54
+        public bool crcEnabled; // 0x58
+        public int PingInterval; // 0x5C
+        public byte ChannelCount; // 0x60
+        public 0x6598D880 <TransportProtocol>k__BackingField; // 0x61
+        public int OutgoingStreamBufferSize; // 0xC
+        public int mtu; // 0x64
+        public bool AsyncKeyExchange; // 0x10
+        public bool RandomizeSequenceNumbers; // 0x68
+        public byte[] RandomizedSequenceNumbers; // 0x70
+        public System.Type payloadEncryptorType; // 0x78
+        public byte[] PayloadEncryptionSecret; // 0x80
+
         // ── Methods ──
         public void get_ClientSdkIdShifted(){} // RVA: 0x621FB00
         public void get_Version(){} // RVA: 0x621FB10
@@ -413,6 +579,20 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonSocket
     {
+        public Photon.Client.PeerBase peerBase; // 0x10
+        public 0x6598D880 Protocol; // 0x18
+        public bool PollReceive; // 0x19
+        public 0x6598DFB8 <State>k__BackingField; // 0x1C
+        public int <SocketErrorCode>k__BackingField; // 0x20
+        public string ConnectAddress; // 0x28
+        public string <ServerAddress>k__BackingField; // 0x30
+        public string <ProxyServerAddress>k__BackingField; // 0x38
+        public string <ServerIpAddress>k__BackingField; // 0x40
+        public int <ServerPort>k__BackingField; // 0x48
+        public bool <AddressResolvedAsIpv6>k__BackingField; // 0x4C
+        public string <UrlProtocol>k__BackingField; // 0x50
+        public string <UrlPath>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_Listener(){} // RVA: 0x6223120
         public void get_MTU(){} // RVA: 0x6223150
@@ -459,6 +639,33 @@ namespace ThirdParty.Photon.Photon.Client
         public void Acquire(){} // RVA: 0x283FA0
     }
 
+    public class Pool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DF5130
+        public void CreatePoolItems(){} // RVA: 0x3DF52F0
+        public void Release(){} // RVA: 0x3DF5370
+        public void Acquire(){} // RVA: 0x3DF5540
+    }
+
+    public class Pool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DF5130
+        public void CreatePoolItems(){} // RVA: 0x3DF52F0
+        public void Release(){} // RVA: 0x3DF5370
+        public void Acquire(){} // RVA: 0x3DF5540
+    }
+
+    public class Pool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DF5130
+        public void CreatePoolItems(){} // RVA: 0x3DF52F0
+        public void Release(){} // RVA: 0x3DF5370
+        public void Acquire(){} // RVA: 0x3DF5540
+    }
+
     public class PreserveAttribute
     {
         // ── Methods ──
@@ -467,6 +674,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol
     {
+        public Photon.Client.ByteArraySlicePool ByteArraySlicePool; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,Photon.Client.CustomType> TypeDict;
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0xCD60
         public void get_VersionBytes(){} // RVA: 0xCD60
@@ -491,6 +701,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol16
     {
+        public byte[] versionBytes; // 0x18
+        public byte[] memShort; // 0x20
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x6225640
         public void get_VersionBytes(){} // RVA: 0x2E07C0
@@ -551,6 +764,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol18
     {
+        public byte[] versionBytes; // 0x18
+        public byte[] boolMasks;
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x622F000
         public void get_VersionBytes(){} // RVA: 0x2E07C0
@@ -653,6 +869,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SendOptions
     {
+        public Photon.Client.SendOptions SendReliable;
+
         // ── Methods ──
         public void get_Reliability(){} // RVA: 0x623C340
         public void set_Reliability(){} // RVA: 0x623C350
@@ -674,6 +892,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SimulationItem
     {
+        public System.Diagnostics.Stopwatch stopw; // 0x10
+
         // ── Methods ──
         public void get_Delay(){} // RVA: 0x791DC0
     }
@@ -737,6 +957,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class StreamBuffer
     {
+        public int DefaultInitialSize;
+        public int pos; // 0x10
+        public int len; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6243E20 | overloaded x2
         public void ToArray(){} // RVA: 0x6243E90
@@ -771,6 +995,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TPeer
     {
+        public System.Collections.Generic.Queue`1<Photon.Client.StreamBuffer> incomingList; // 0x128
+
         // ── Methods ──
         public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x6246290
         public void .ctor(){} // RVA: 0x62462E0
@@ -794,6 +1020,12 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TrafficStats
     {
+        public System.Diagnostics.Stopwatch connectionStopwatch; // 0x60
+        public int LastSendOutgoingTimestamp; // 0x68
+        public int LastSendAckTimestamp; // 0x6C
+        public int <LastReceiveTimestamp>k__BackingField; // 0x70
+        public int <LastDispatchTimestamp>k__BackingField; // 0x74
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37B380
         public void get_LastReceiveTimestamp(){} // RVA: 0x10E5CF0
@@ -812,6 +1044,22 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TrafficStatsBase
     {
+        public long <BytesIn>k__BackingField; // 0x10
+        public long <BytesOut>k__BackingField; // 0x18
+        public int <PackagesIn>k__BackingField; // 0x20
+        public int <PackagesOut>k__BackingField; // 0x24
+        public int <UdpFragmentsIn>k__BackingField; // 0x28
+        public int <UdpFragmentsOut>k__BackingField; // 0x2C
+        public int <UdpUnreliableCommandsSent>k__BackingField; // 0x30
+        public int <UdpReliableCommandsSent>k__BackingField; // 0x34
+        public int <UdpReliableCommandsResent>k__BackingField; // 0x38
+        public int <UdpReliableCommandsInFlight>k__BackingField; // 0x3C
+        public int <DispatchIncomingCommandsCalls>k__BackingField; // 0x40
+        public int <SendOutgoingCommandsCalls>k__BackingField; // 0x44
+        public long <RoundtripTime>k__BackingField; // 0x48
+        public long <RoundtripTimeVariance>k__BackingField; // 0x50
+        public long <LastRoundtripTime>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_BytesIn(){} // RVA: 0x2F8380
         public void set_BytesIn(){} // RVA: 0x1967700

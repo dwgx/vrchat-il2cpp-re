@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.System.Diagnostics.Tracing
 {
     public class EventAttribute
     {
+        public int <EventId>k__BackingField; // 0x10
+        public 0x657F7C70 <Level>k__BackingField; // 0x14
+        public 0x657F7D78 <Keywords>k__BackingField; // 0x18
+        public 0x657F7D20 <Opcode>k__BackingField; // 0x20
+        public string <Message>k__BackingField; // 0x28
+        public 0x657F7CC8 <Task>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void set_EventId(){} // RVA: 0x2E00C0
@@ -29,6 +36,9 @@ namespace ThirdParty.DotNet.System.Diagnostics.Tracing
 
     public class EventSource
     {
+        public string <Name>k__BackingField; // 0x10
+        public 0x657F7F88 <Settings>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5DF8300 | overloaded x4
         public void Finalize(){} // RVA: 0x5AAC950
@@ -43,6 +53,9 @@ namespace ThirdParty.DotNet.System.Diagnostics.Tracing
 
     public class EventSourceAttribute
     {
+        public string <Guid>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Guid(){} // RVA: 0x2DEE30
         public void set_Name(){} // RVA: 0x343E80
@@ -51,6 +64,9 @@ namespace ThirdParty.DotNet.System.Diagnostics.Tracing
 
     public class EventWrittenEventArgs
     {
+        public int <EventId>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<object> <Payload>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_EventId(){} // RVA: 0x32A5C0
         public void get_Payload(){} // RVA: 0x2E07C0

@@ -7,6 +7,42 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class DataColumn
     {
+        public bool _allowNull; // 0x20
+        public string _caption; // 0x28
+        public string _columnName; // 0x30
+        public System.Type _dataType; // 0x38
+        public 0x658EDCB8 _storageType; // 0x40
+        public object _defaultValue; // 0x48
+        public 0x658EB060 _dateTimeMode; // 0x50
+        public System.Data.DataExpression _expression; // 0x58
+        public int _maxLength; // 0x60
+        public int _ordinal; // 0x64
+        public bool _readOnly; // 0x68
+        public System.Data.Index _sortIndex; // 0x70
+        public System.Data.DataTable _table; // 0x78
+        public bool _unique; // 0x80
+        public 0x658EBF28 _columnMapping; // 0x84
+        public int _hashCode; // 0x88
+        public int _errors; // 0x8C
+        public bool _isSqlType; // 0x90
+        public bool _implementsINullable; // 0x91
+        public bool _implementsIChangeTracking; // 0x92
+        public bool _implementsIRevertibleChangeTracking; // 0x93
+        public bool _implementsIXMLSerializable; // 0x94
+        public bool _defaultValueIsNull; // 0x95
+        public System.Collections.Generic.List`1<System.Data.DataColumn> _dependentColumns; // 0x98
+        public System.Data.PropertyCollection _extendedProperties; // 0xA0
+        public System.Data.Common.DataStorage _storage; // 0xA8
+        public System.Data.AutoIncrementValue _autoInc; // 0xB0
+        public string _columnUri; // 0xB8
+        public string _columnPrefix; // 0xC0
+        public string _encodedColumnName; // 0xC8
+        public System.Data.SimpleType _simpleType; // 0xD0
+        public int s_objectTypeCount;
+        public int _objectID; // 0xD8
+        public string <XmlDataType>k__BackingField; // 0xE0
+        public System.ComponentModel.PropertyChangedEventHandler PropertyChanging; // 0xE8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66C31D0 | overloaded x3
         public void UpdateColumnType(){} // RVA: 0x66C36A0
@@ -117,6 +153,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataColumnChangeEventArgs
     {
+        public System.Data.DataColumn _column; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F2780 | overloaded x2
         public void get_ProposedValue(){} // RVA: 0x30B0C0
@@ -133,6 +171,14 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataColumnCollection
     {
+        public System.Data.DataTable _table; // 0x10
+        public System.Collections.ArrayList _list; // 0x18
+        public int _defaultNameIndex; // 0x20
+        public System.Data.DataColumn[] _delayedAddRangeColumns; // 0x28
+        public System.Collections.Generic.Dictionary`2<string,System.Data.DataColumn> _columnFromName; // 0x30
+        public bool _fInClear; // 0x38
+        public System.Data.DataColumn[] _columnsImplementingIChangeTracking; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F28E0
         public void get_List(){} // RVA: 0x2E07C0
@@ -173,6 +219,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataColumnPropertyDescriptor
     {
+        public System.Data.DataColumn <Column>k__BackingField; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F61E0
         public void get_Attributes(){} // RVA: 0x66F6270
@@ -202,8 +250,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataError
     {
-        public object ColumnsReference;
-        public object HasValue;
+        public string ColumnsReference; // 0x10
+        public int HasValue; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F6C30 | overloaded x2
@@ -226,6 +274,9 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataExpression
     {
+        public string _originalExpression; // 0x10
+        public bool _parsed; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x671C8A0 | overloaded x2
         public void get_Expression(){} // RVA: 0x671CCC0
@@ -244,9 +295,7 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataKey
     {
-        public object ChildColumns;
-        public object ChildColumnsReference;
-        public object ChildKey;
+        public System.Data.DataColumn[] ChildColumns; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F7580
@@ -268,6 +317,25 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRelation
     {
+        public System.Data.DataSet _dataSet; // 0x10
+        public System.Data.PropertyCollection _extendedProperties; // 0x18
+        public string _relationName; // 0x20
+        public System.Data.DataKey _childKey; // 0x28
+        public System.Data.DataKey _parentKey; // 0x30
+        public System.Data.UniqueConstraint _parentKeyConstraint; // 0x38
+        public System.Data.ForeignKeyConstraint _childKeyConstraint; // 0x40
+        public string[] _parentColumnNames; // 0x48
+        public string[] _childColumnNames; // 0x50
+        public string _parentTableName; // 0x58
+        public string _childTableName; // 0x60
+        public string _parentTableNamespace; // 0x68
+        public string _childTableNamespace; // 0x70
+        public bool _nested; // 0x78
+        public bool _createConstraints; // 0x79
+        public bool _checkMultipleNested; // 0x7A
+        public int s_objectTypeCount;
+        public int _objectID; // 0x7C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F8A00 | overloaded x5
         public void get_ChildColumns(){} // RVA: 0x66F8D30
@@ -312,6 +380,10 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRelationCollection
     {
+        public System.Data.DataRelation _inTransition; // 0x10
+        public int _defaultNameIndex; // 0x18
+        public System.ComponentModel.CollectionChangeEventHandler _onCollectionChangedDelegate; // 0x20
+
         // ── Methods ──
         public void get_ObjectID(){} // RVA: 0x338CD0
         public void get_Item(){} // RVA: 0xCE10 | overloaded x2
@@ -337,6 +409,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRelationPropertyDescriptor
     {
+        public System.Data.DataRelation <Relation>k__BackingField; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66FFA50
         public void get_Relation(){} // RVA: 0x31C010
@@ -354,6 +428,19 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRow
     {
+        public System.Data.DataTable _table; // 0x10
+        public System.Data.DataColumnCollection _columns; // 0x18
+        public int _oldRecord; // 0x20
+        public int _newRecord; // 0x24
+        public int _tempRecord; // 0x28
+        public long _rowID; // 0x30
+        public 0x658EAC98 _action; // 0x38
+        public bool _inChangingEvent; // 0x3C
+        public bool _inDeletingEvent; // 0x3D
+        public bool _inCascade; // 0x3E
+        public System.Data.DataColumn _lastChangedColumn; // 0x40
+        public int _countColumnChange; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66FFD90
         public void get_LastChangedColumn(){} // RVA: 0x66FFED0
@@ -433,6 +520,9 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRowCollection
     {
+        public System.Data.DataTable _table; // 0x10
+        public DataRowTree _list; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67046A0
         public void get_Count(){} // RVA: 0x6704810
@@ -458,6 +548,12 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataRowView
     {
+        public System.Data.DataView _dataView; // 0x10
+        public System.Data.DataRow _row; // 0x18
+        public bool _delayBeginEdit; // 0x20
+        public System.ComponentModel.PropertyDescriptorCollection s_zeroPropertyDescriptorCollection;
+        public System.ComponentModel.PropertyChangedEventHandler PropertyChanged; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void Equals(){} // RVA: 0x2878D00
@@ -494,6 +590,24 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataSet
     {
+        public System.Data.DataViewManager _defaultViewManager; // 0x20
+        public System.Data.DataTableCollection _tableCollection; // 0x28
+        public System.Data.DataRelationCollection _relationCollection; // 0x30
+        public System.Data.PropertyCollection _extendedProperties; // 0x38
+        public string _dataSetName; // 0x40
+        public string _datasetPrefix; // 0x48
+        public string _namespaceURI; // 0x50
+        public bool _enforceConstraints; // 0x58
+        public bool _caseSensitive; // 0x59
+        public System.Globalization.CultureInfo _culture; // 0x60
+        public bool _cultureUserSet; // 0x68
+        public bool _fInReadXml; // 0x69
+        public bool _fInLoadDiffgram; // 0x6A
+        public bool _fTopLevelTable; // 0x6B
+        public bool _fInitInProgress; // 0x6C
+        public bool _fEnableCascading; // 0x6D
+        public bool _fIsSchemaLoading; // 0x6E
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66D3110 | overloaded x4
         public void get_RemotingFormat(){} // RVA: 0x1AE3800
@@ -591,6 +705,50 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataTable
     {
+        public System.Data.DataSet _dataSet; // 0x20
+        public System.Data.DataView _defaultView; // 0x28
+        public long _nextRowID; // 0x30
+        public System.Data.DataRowCollection _rowCollection; // 0x38
+        public System.Data.DataColumnCollection _columnCollection; // 0x40
+        public System.Data.ConstraintCollection _constraintCollection; // 0x48
+        public int _elementColumnCount; // 0x50
+        public System.Data.DataRelationCollection _parentRelationsCollection; // 0x58
+        public System.Data.DataRelationCollection _childRelationsCollection; // 0x60
+        public System.Data.RecordManager _recordManager; // 0x68
+        public System.Collections.Generic.List`1<System.Data.Index> _indexes; // 0x70
+        public System.Collections.Generic.List`1<System.Data.Index> _shadowIndexes; // 0x78
+        public int _shadowCount; // 0x80
+        public System.Data.PropertyCollection _extendedProperties; // 0x88
+        public string _tableName; // 0x90
+        public string _tableNamespace; // 0x98
+        public string _tablePrefix; // 0xA0
+        public System.Data.DataExpression _displayExpression; // 0xA8
+        public bool _fNestedInDataset; // 0xB0
+        public System.Globalization.CultureInfo _culture; // 0xB8
+        public bool _cultureUserSet; // 0xC0
+        public System.Globalization.CompareInfo _compareInfo; // 0xC8
+        public 0x657F5F90 _compareFlags; // 0xD0
+        public System.IFormatProvider _formatProvider; // 0xD8
+        public System.StringComparer _hashCodeProvider; // 0xE0
+        public bool _caseSensitive; // 0xE8
+        public bool _caseSensitiveUserSet; // 0xE9
+        public string _encodedTableName; // 0xF0
+        public System.Data.DataColumn _xmlText; // 0xF8
+        public System.Data.DataColumn _colUnique; // 0x100
+        public System.Decimal _minOccurs; // 0x108
+        public System.Decimal _maxOccurs; // 0x118
+        public bool _repeatableElement; // 0x128
+        public object _typeName; // 0x130
+        public System.Data.UniqueConstraint _primaryKey; // 0x138
+        public System.Data.IndexField[] _primaryIndex; // 0x140
+        public System.Data.DataColumn[] _delayedSetPrimaryKey; // 0x148
+        public System.Data.Index _loadIndex; // 0x150
+        public System.Data.Index _loadIndexwithOriginalAdded; // 0x158
+        public System.Data.Index _loadIndexwithCurrentDeleted; // 0x160
+        public int _suspendIndexEvents; // 0x168
+        public bool _inDataLoad; // 0x16C
+        public bool _schemaLoading; // 0x16D
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66A1F30 | overloaded x3
         public void GetObjectData(){} // RVA: 0x66A2180
@@ -807,6 +965,12 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataTableCollection
     {
+        public System.Data.DataSet _dataSet; // 0x10
+        public System.Collections.ArrayList _list; // 0x18
+        public int _defaultNameIndex; // 0x20
+        public System.Data.DataTable[] _delayedAddRangeTables; // 0x28
+        public System.ComponentModel.CollectionChangeEventHandler _onCollectionChangedDelegate; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6705F70
         public void get_List(){} // RVA: 0x2E07C0
@@ -852,6 +1016,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataTablePropertyDescriptor
     {
+        public System.Data.DataTable <Table>k__BackingField; // 0x88
+
         // ── Methods ──
         public void get_Table(){} // RVA: 0x31C010
         public void .ctor(){} // RVA: 0x6708DF0
@@ -876,6 +1042,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataTextReader
     {
+        public System.Xml.XmlReader _xmlreader; // 0x10
+
         // ── Methods ──
         public void CreateReader(){} // RVA: 0x6773FD0
         public void .ctor(){} // RVA: 0x67740A0
@@ -915,6 +1083,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataTextWriter
     {
+        public System.Xml.XmlWriter _xmltextWriter; // 0x18
+
         // ── Methods ──
         public void CreateWriter(){} // RVA: 0x6773B20
         public void .ctor(){} // RVA: 0x343E80
@@ -947,6 +1117,38 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataView
     {
+        public System.Data.DataViewManager _dataViewManager; // 0x20
+        public System.Data.DataTable _table; // 0x28
+        public bool _locked; // 0x30
+        public System.Data.Index _index; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,System.Data.Index> _findIndexes; // 0x40
+        public string _sort; // 0x48
+        public System.Comparison`1<System.Data.DataRow> _comparison; // 0x50
+        public System.Data.IFilter _rowFilter; // 0x58
+        public 0x658EB4D8 _recordStates; // 0x60
+        public bool _shouldOpen; // 0x64
+        public bool _open; // 0x65
+        public bool _allowNew; // 0x66
+        public bool _allowEdit; // 0x67
+        public bool _allowDelete; // 0x68
+        public bool _applyDefaultSort; // 0x69
+        public System.Data.DataRow _addNewRow; // 0x70
+        public System.ComponentModel.ListChangedEventArgs _addNewMoved; // 0x78
+        public System.ComponentModel.ListChangedEventHandler _onListChanged; // 0x80
+        public System.ComponentModel.ListChangedEventArgs s_resetEventArgs;
+        public System.Data.DataTable _delayedTable; // 0x88
+        public string _delayedRowFilter; // 0x90
+        public string _delayedSort; // 0x98
+        public 0x658EB4D8 _delayedRecordStates; // 0xA0
+        public bool _fInitInProgress; // 0xA4
+        public bool _fEndInitInProgress; // 0xA5
+        public System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewCache; // 0xA8
+        public System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewBuffer; // 0xB0
+        public System.Data.DataViewListener _dvListener; // 0xB8
+        public int s_objectTypeCount; // 0x8
+        public int _objectID; // 0xC0
+        public System.EventHandler Initialized; // 0xC8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6709780 | overloaded x2
         public void get_AllowDelete(){} // RVA: 0x3A5570
@@ -1067,6 +1269,14 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataViewManager
     {
+        public System.Data.DataViewSettingCollection _dataViewSettingsCollection; // 0x20
+        public System.Data.DataSet _dataSet; // 0x28
+        public System.Data.DataViewManagerListItemTypeDescriptor _item; // 0x30
+        public bool _locked; // 0x38
+        public int _nViews; // 0x3C
+        public System.NotSupportedException s_notSupported;
+        public System.ComponentModel.ListChangedEventHandler ListChanged; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6710EE0
         public void get_DataSet(){} // RVA: 0x30B130
@@ -1132,7 +1342,10 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataViewSetting
     {
-        public object Current;
+        public System.Data.DataViewManager Current; // 0x10
+        public System.Data.DataTable _table; // 0x18
+        public string _sort; // 0x20
+        public string _rowFilter; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67128E0
@@ -1146,6 +1359,9 @@ namespace ThirdParty.DotNet.System.Data
 
     public class DataViewSettingCollection
     {
+        public System.Data.DataViewManager _dataViewManager; // 0x10
+        public System.Collections.Hashtable _list; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6712A50
         public void get_Item(){} // RVA: 0x6712BA0

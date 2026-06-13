@@ -121,6 +121,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class ZDeflaterOutputStream
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Zlib.ZStream z; // 0x28
+        public int flushLevel; // 0x30
+        public int BUFSIZE;
+        public byte[] buf; // 0x38
+        public byte[] buf1; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95BCA00 | overloaded x3
         public void get_CanRead(){} // RVA: 0x2DD320
@@ -142,6 +148,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class ZInflaterInputStream
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Zlib.ZStream z; // 0x28
+        public int flushLevel; // 0x30
+        public int BUFSIZE;
+        public byte[] buf; // 0x38
+        public byte[] buf1; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95BD370 | overloaded x2
         public void get_CanRead(){} // RVA: 0x3C2850
@@ -162,6 +174,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class ZInputStream
     {
+        public int BufferSize;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Zlib.ZStream z; // 0x28
+        public int flushLevel; // 0x30
+        public byte[] buf; // 0x38
+        public byte[] buf1; // 0x40
+        public bool compress; // 0x48
+        public System.IO.Stream input; // 0x50
+        public bool closed; // 0x58
+
         // ── Methods ──
         public void GetDefaultZStream(){} // RVA: 0x95BD950
         public void .ctor(){} // RVA: 0x95BDE10 | overloaded x5
@@ -186,6 +207,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 
     public class ZOutputStream
     {
+        public int BufferSize;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Zlib.ZStream z; // 0x28
+        public int flushLevel; // 0x30
+        public byte[] buf; // 0x38
+        public byte[] buf1; // 0x40
+        public bool compress; // 0x48
+        public System.IO.Stream output; // 0x50
+        public bool closed; // 0x58
+
         // ── Methods ──
         public void GetDefaultZStream(){} // RVA: 0x95BE560
         public void .ctor(){} // RVA: 0x95BE9A0 | overloaded x5

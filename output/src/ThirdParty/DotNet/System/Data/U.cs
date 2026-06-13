@@ -22,6 +22,12 @@ namespace ThirdParty.DotNet.System.Data
 
     public class UniqueConstraint
     {
+        public System.Data.DataKey _key; // 0x38
+        public System.Data.Index _constraintIndex; // 0x40
+        public bool _bPrimaryKey; // 0x48
+        public string _constraintName; // 0x50
+        public string[] _columnNames; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67368B0 | overloaded x5
         public void get_ColumnNames(){} // RVA: 0x6736900

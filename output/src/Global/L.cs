@@ -9,12 +9,7 @@ public class Label
 
 public class LabelExpressionProxy
 {
-    public object Body;
-    public object CanReduce;
-    public object DebugView;
-    public object Name;
-    public object NodeType;
-    public object Parameters;
+    public System.Linq.Expressions.LabelExpression Body; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAFF0
@@ -28,12 +23,7 @@ public class LabelExpressionProxy
 
 public class LambdaExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object Initializers;
-    public object NewExpression;
-    public object NodeType;
-    public object Type;
+    public System.Linq.Expressions.LambdaExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB0D0
@@ -50,6 +40,8 @@ public class LambdaExpressionProxy
 
 public class LambdaSignature`1
 {
+    public LambdaSignature`1<T> s_instance;
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0xC960
     public void .ctor(){} // RVA: 0x24A50
@@ -57,7 +49,7 @@ public class LambdaSignature`1
 
 public class LastActiveSpanTracker
 {
-    public object Sentry.IBaseTracer.IsOtelInstrumenter;
+    public object Sentry.IBaseTracer.IsOtelInstrumenter; // 0x10
 
     // ── Methods ──
     public void get_TrackedSpans(){} // RVA: 0x63CB400
@@ -106,7 +98,7 @@ public class LayerTexture
 
 public class LayoutCache
 {
-    public object unbalancedgroupscount;
+    public int unbalancedgroupscount; // 0x10
 
     // ── Methods ──
     public void set_id(){} // RVA: 0x2E00C0
@@ -131,6 +123,8 @@ public class LayoutMatcher
 
 public class LayoutNotFoundException
 {
+    public string <layout>k__BackingField; // 0x90
+
     // ── Methods ──
     public void get_layout(){} // RVA: 0x796DE0
     public void .ctor(){} // RVA: 0x6DB7640 | overloaded x5
@@ -207,6 +201,16 @@ public class LeftShiftUInt64
 
 public class Leg
 {
+    public UnityEngine.Transform target; // 0x48
+    public UnityEngine.Transform bendGoal; // 0x50
+    public float positionWeight; // 0x58
+    public float rotationWeight; // 0x5C
+    public float bendGoalWeight; // 0x60
+    public float swivelOffset; // 0x64
+    public float bendToTargetWeight; // 0x68
+    public float legLengthMlp; // 0x6C
+    public UnityEngine.AnimationCurve stretchCurve; // 0x70
+
     // ── Methods ──
     public void get_position(){} // RVA: 0x408F20
     public void set_position(){} // RVA: 0x408F40
@@ -237,8 +241,18 @@ public class Leg
 
 public class Leg
 {
-    public object IKOffset;
-    public object heightOffset;
+    public bool IKOffset; // 0x10
+    public UnityEngine.Vector3 heightOffset; // 0x14
+    public UnityEngine.Quaternion rotationOffset; // 0x20
+    public bool <initiated>k__BackingField; // 0x30
+    public float <heightFromGround>k__BackingField; // 0x34
+    public UnityEngine.Vector3 <velocity>k__BackingField; // 0x38
+    public UnityEngine.Transform <transform>k__BackingField; // 0x48
+    public float <IKOffset>k__BackingField; // 0x50
+    public bool invertFootCenter; // 0x54
+    public UnityEngine.RaycastHit <heelHit>k__BackingField; // 0x58
+    public UnityEngine.RaycastHit <capsuleHit>k__BackingField; // 0x84
+    public RootMotion.FinalIK.Grounding grounding; // 0xB0
 
     // ── Methods ──
     public void get_isGrounded(){} // RVA: 0x3A75E0
@@ -288,6 +302,8 @@ public class LegacyFixedAnimationUpdate
 
 public class LegacySignalSource
 {
+    public Cinemachine.CinemachineImpulseDefinition m_Def; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1D32040
     public void get_SignalDuration(){} // RVA: 0x1D32100
@@ -454,6 +470,8 @@ public class Level
 
 public class LicFileLicense
 {
+    public System.ComponentModel.LicFileLicenseProvider _owner; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
     public void get_LicenseKey(){} // RVA: 0x2E07C0
@@ -476,18 +494,7 @@ public class Lights
 
 public class LightsModule
 {
-    public object enabled;
-    public object mode;
-    public object ratio;
-    public object lifetime;
-    public object lifetimeMultiplier;
-    public object minVertexDistance;
-    public object textureMode;
-    public object textureScale;
-    public object worldSpace;
-    public object dieWithParticles;
-    public object sizeAffectsWidth;
-    public object sizeAffectsLifetime;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -555,10 +562,7 @@ public class LimitPoint
 
 public class LimitVelocityOverLifetimeModule
 {
-    public object enabled;
-    public object mode;
-    public object curve;
-    public object curveMultiplier;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0
@@ -708,6 +712,9 @@ public class LinkedSlotVolatile
 
 public class LinqEnumerator
 {
+    public OVRSimpleJSON.JSONNode m_Node; // 0x10
+    public Enumerator m_Enumerator; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x61D2970
     public void get_Current(){} // RVA: 0x61D2AA0
@@ -728,7 +735,8 @@ public class ListBuffer16
 
 public class ListBuilder`1
 {
-    public object _item;
+    public T[] _item;
+    public T _item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
@@ -741,6 +749,9 @@ public class ListBuilder`1
 
 public class ListBuilder`1
 {
+    public System.Reflection.ConstructorInfo[] _items; // 0x10
+    public System.Reflection.ConstructorInfo _item; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37EF250
     public void get_Item(){} // RVA: 0x37EF2B0
@@ -752,6 +763,9 @@ public class ListBuilder`1
 
 public class ListBuilder`1
 {
+    public System.Reflection.MethodInfo[] _items; // 0x10
+    public System.Reflection.MethodInfo _item; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37EF250
     public void get_Item(){} // RVA: 0x37EF2B0
@@ -763,6 +777,9 @@ public class ListBuilder`1
 
 public class ListBuilder`1
 {
+    public System.Reflection.PropertyInfo[] _items; // 0x10
+    public System.Reflection.PropertyInfo _item; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37EF250
     public void get_Item(){} // RVA: 0x37EF2B0
@@ -774,14 +791,21 @@ public class ListBuilder`1
 
 public class ListBuilder`1
 {
+    public System.Reflection.FieldInfo[] _items; // 0x10
+    public System.Reflection.FieldInfo _item; // 0x18
 }
 
 public class ListBuilder`1
 {
+    public System.Reflection.FieldInfo[] _items; // 0x10
+    public System.Reflection.FieldInfo _item; // 0x18
 }
 
 public class ListBuilder`1
 {
+    public System.Reflection.FieldInfo[] _items; // 0x10
+    public System.Reflection.FieldInfo _item; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37EF250
     public void get_Item(){} // RVA: 0x37EF2B0
@@ -801,6 +825,8 @@ public class ListDummy`1
 
 public class ListElementProperty
 {
+    public int m_Index;
+
     // ── Methods ──
     public void get_Index(){} // RVA: 0xD840
     public void get_Name(){} // RVA: 0xCD60
@@ -809,10 +835,12 @@ public class ListElementProperty
 
 public class ListElementProperty
 {
+    public int m_Index;
 }
 
 public class ListElementProperty
 {
+    public int m_Index;
 }
 
 public class ListEntry
@@ -823,12 +851,7 @@ public class ListEntry
 
 public class ListInitExpressionProxy
 {
-    public object Body;
-    public object BreakLabel;
-    public object CanReduce;
-    public object ContinueLabel;
-    public object DebugView;
-    public object NodeType;
+    public System.Linq.Expressions.ListInitExpression Body; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB1D0
@@ -842,6 +865,8 @@ public class ListInitExpressionProxy
 
 public class ListIterator`1 : list
 {
+    public bool isNull;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void GetEnumerator(){} // RVA: 0x283FA0
@@ -852,6 +877,8 @@ public class ListIterator`1 : list
 
 public class ListOfTWrapper`1
 {
+    public System.Collections.Generic.IList`1<T> _collection;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Count(){} // RVA: 0xD840

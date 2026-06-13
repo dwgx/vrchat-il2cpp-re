@@ -44,6 +44,9 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class ExternalMemoryBlock
     {
+        public object _memoryOwner; // 0x10
+        public byte* _buffer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62E6710
         public void Dispose(){} // RVA: 0x62E6780
@@ -53,6 +56,8 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class ExternalMemoryBlockProvider
     {
+        public byte* _memory; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1969380
         public void get_Size(){} // RVA: 0x5BED50
@@ -135,6 +140,9 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class MemoryMappedFileBlock
     {
+        public DisposableData _data; // 0x10
+        public int _size; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62E6AB0
         public void Dispose(){} // RVA: 0x62E6B80
@@ -144,6 +152,9 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class NativeHeapMemoryBlock
     {
+        public DisposableData _data; // 0x10
+        public int _size; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62E6FF0
         public void Dispose(){} // RVA: 0x62E6B80
@@ -173,6 +184,10 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class ReadOnlyUnmanagedMemoryStream
     {
+        public byte* _data; // 0x28
+        public int _length; // 0x30
+        public int _position; // 0x34
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62EB220
         public void ReadByte(){} // RVA: 0x62EB290
@@ -204,6 +219,8 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class StreamMemoryBlockProvider
     {
+        public System.IO.Stream _stream; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62E7300
         public void Dispose(){} // RVA: 0x62E7430

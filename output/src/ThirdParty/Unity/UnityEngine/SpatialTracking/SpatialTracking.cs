@@ -16,6 +16,14 @@ namespace ThirdParty.Unity.UnityEngine.SpatialTracking
 
     public class TrackedPoseDriver
     {
+        public 0x65A056A0 m_Device; // 0x20
+        public 0x65A056F8 m_PoseSource; // 0x24
+        public UnityEngine.Experimental.XR.Interaction.BasePoseProvider m_PoseProviderComponent; // 0x28
+        public 0x65A05750 m_TrackingType; // 0x30
+        public 0x65A057A8 m_UpdateType; // 0x34
+        public bool m_UseRelativeTransform; // 0x38
+        public UnityEngine.Pose m_OriginPose; // 0x3C
+
         // ── Methods ──
         public void get_deviceType(){} // RVA: 0x760030
         public void set_deviceType(){} // RVA: 0x99E0D0

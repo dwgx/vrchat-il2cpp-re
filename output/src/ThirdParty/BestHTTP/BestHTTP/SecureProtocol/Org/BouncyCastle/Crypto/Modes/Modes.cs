@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 {
     public class CbcBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] cbcV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959DC60
         public void GetUnderlyingCipher(){} // RVA: 0x6374D0
@@ -22,6 +25,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class CcmBlockCipher
     {
+        public int BlockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x959E740
         public void GetUnderlyingCipher(){} // RVA: 0x2F8380
@@ -46,6 +51,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class CfbBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] cfbV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95A03A0
         public void GetUnderlyingCipher(){} // RVA: 0x6374D0
@@ -72,6 +80,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class EaxBlockCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95A1930
         public void get_AlgorithmName(){} // RVA: 0x95A1C80
@@ -95,6 +105,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class GOfbBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] ofbV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95A63B0
         public void GetUnderlyingCipher(){} // RVA: 0x6374D0
@@ -110,6 +123,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class GcmBlockCipher
     {
+        public int BlockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95A2F60 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x95A3250
@@ -155,6 +170,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class KCcmBlockCipher
     {
+        public int BYTES_IN_INT;
+
         // ── Methods ──
         public void setNb(){} // RVA: 0x95A6DE0
         public void .ctor(){} // RVA: 0x95A6E60 | overloaded x2
@@ -182,6 +199,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class KCtrBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] ofbV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95A9990
         public void GetUnderlyingCipher(){} // RVA: 0x4976A0
@@ -200,6 +220,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class OcbBlockCipher
     {
+        public int BLOCK_SIZE;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95AA550
         public void GetUnderlyingCipher(){} // RVA: 0x2E07C0
@@ -230,6 +252,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class OfbBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] ofbV; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95ACDC0
         public void GetUnderlyingCipher(){} // RVA: 0x6374D0
@@ -243,6 +268,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class OpenPgpCfbBlockCipher
     {
+        public byte[] IV; // 0x10
+        public byte[] FR; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95AD610
         public void GetUnderlyingCipher(){} // RVA: 0x30B130
@@ -259,6 +287,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Mo
 
     public class SicBlockCipher
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher cipher; // 0x10
+        public int blockSize; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95AE6D0
         public void GetUnderlyingCipher(){} // RVA: 0x2F8380

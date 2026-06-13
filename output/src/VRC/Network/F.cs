@@ -8,6 +8,13 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ</summary>
     public class FlatBufferNetworkSerializer_89B0
     {
+        public int ÍÎÍÍÏÍÌÏÌÏÏÏÌÏÍÌÍÍÍÎÎÍÎ;
+        public VRC.Core.Networking.ConcurrentLimitedCapacityList`1<VRC.Core.Networking.Pose.PoseEvent> ÎÌÎÍÌÏÍÏÍÌÌÎÍÏÌÍÏÌÎÏÎÍÍ; // 0x58
+        public ÍÌÏÏÏÌÍÎÏÌÏÌÌÏÏÍÏÌÏÌÎÎÎ ÌÎÏÌÏÍÌÏÌÍÌÌÏÌÍÏÏÍÏÌÍÍÎ; // 0x60
+        public ÌÏÍÎÎÎÍÍÎÌÏÍÍÏÌÌÎÎÏÌÌÏÍ ÏÏÌÍÏÍÍÎÍÍÎÌÎÏÌÍÍÎÌÏÎÏÎ; // 0x68
+        public ÌÎÌÍÎÎÎÍÍÏÏÎÏÍÏÏÌÍÏÍÏÎÌ ÎÏÏÎÏÍÌÍÌÌÏÍÍÏÍÎÏÎÌÎÍÏÎ; // 0x70
+        public UnityEngine.Animator ÍÌÌÎÌÎÏÏÎÍÏÌÍÏÍÏÏÏÎÍÏÍÏ; // 0x78
+
         // ── Methods ──
         public void Decode_54CF7F9B800A(){} // RVA: 0x667220
         public void Encode(){} // RVA: 0x66A270 | overloaded x2

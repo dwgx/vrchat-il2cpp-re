@@ -7,6 +7,15 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 {
     public class App
     {
+        public string Type;
+        public string <Identifier>k__BackingField; // 0x10
+        public System.Nullable`1<System.DateTimeOffset> <StartTime>k__BackingField; // 0x18
+        public string <Hash>k__BackingField; // 0x30
+        public string <BuildType>k__BackingField; // 0x38
+        public string <Name>k__BackingField; // 0x40
+        public string <Version>k__BackingField; // 0x48
+        public string <Build>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_Identifier(){} // RVA: 0x2F8380
         public void set_Identifier(){} // RVA: 0x2DEE30
@@ -36,6 +45,9 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Browser
     {
+        public string Type;
+        public string <Name>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -53,6 +65,16 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class DebugImage
     {
+        public string <Type>k__BackingField; // 0x10
+        public System.Nullable`1<long> <ImageAddress>k__BackingField; // 0x18
+        public System.Nullable`1<long> <ImageSize>k__BackingField; // 0x28
+        public string <DebugId>k__BackingField; // 0x38
+        public string <DebugChecksum>k__BackingField; // 0x40
+        public string <DebugFile>k__BackingField; // 0x48
+        public string <CodeId>k__BackingField; // 0x50
+        public string <CodeFile>k__BackingField; // 0x58
+        public System.Nullable`1<System.Guid> <ModuleVersionId>k__BackingField; // 0x60
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
         public void set_Type(){} // RVA: 0x2DEE30
@@ -79,6 +101,8 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class DebugMeta
     {
+        public System.Collections.Generic.List`1<Sentry.Protocol.DebugImage> <Images>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Images(){} // RVA: 0x2F8380
         public void set_Images(){} // RVA: 0x2DEE30
@@ -89,6 +113,43 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Device
     {
+        public string Type;
+        public System.TimeZoneInfo <Timezone>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x18
+        public string <Manufacturer>k__BackingField; // 0x20
+        public string <Brand>k__BackingField; // 0x28
+        public string <Family>k__BackingField; // 0x30
+        public string <Model>k__BackingField; // 0x38
+        public string <ModelId>k__BackingField; // 0x40
+        public string <Architecture>k__BackingField; // 0x48
+        public System.Nullable`1<short> <BatteryLevel>k__BackingField; // 0x50
+        public System.Nullable`1<bool> <IsCharging>k__BackingField; // 0x54
+        public System.Nullable`1<bool> <IsOnline>k__BackingField; // 0x56
+        public System.Nullable`1<0x658B6B58> <Orientation>k__BackingField; // 0x58
+        public System.Nullable`1<bool> <Simulator>k__BackingField; // 0x60
+        public System.Nullable`1<long> <MemorySize>k__BackingField; // 0x68
+        public System.Nullable`1<long> <FreeMemory>k__BackingField; // 0x78
+        public System.Nullable`1<long> <UsableMemory>k__BackingField; // 0x88
+        public System.Nullable`1<bool> <LowMemory>k__BackingField; // 0x98
+        public System.Nullable`1<long> <StorageSize>k__BackingField; // 0xA0
+        public System.Nullable`1<long> <FreeStorage>k__BackingField; // 0xB0
+        public System.Nullable`1<long> <ExternalStorageSize>k__BackingField; // 0xC0
+        public System.Nullable`1<long> <ExternalFreeStorage>k__BackingField; // 0xD0
+        public string <ScreenResolution>k__BackingField; // 0xE0
+        public System.Nullable`1<float> <ScreenDensity>k__BackingField; // 0xE8
+        public System.Nullable`1<int> <ScreenDpi>k__BackingField; // 0xF0
+        public System.Nullable`1<System.DateTimeOffset> <BootTime>k__BackingField; // 0xF8
+        public System.Nullable`1<int> <ProcessorCount>k__BackingField; // 0x110
+        public string <CpuDescription>k__BackingField; // 0x118
+        public System.Nullable`1<int> <ProcessorFrequency>k__BackingField; // 0x120
+        public string <DeviceType>k__BackingField; // 0x128
+        public string <BatteryStatus>k__BackingField; // 0x130
+        public string <DeviceUniqueIdentifier>k__BackingField; // 0x138
+        public System.Nullable`1<bool> <SupportsVibration>k__BackingField; // 0x140
+        public System.Nullable`1<bool> <SupportsAccelerometer>k__BackingField; // 0x142
+        public System.Nullable`1<bool> <SupportsGyroscope>k__BackingField; // 0x144
+        public System.Nullable`1<bool> <SupportsAudio>k__BackingField; // 0x146
+
         // ── Methods ──
         public void get_Timezone(){} // RVA: 0x2F8380
         public void set_Timezone(){} // RVA: 0x2DEE30
@@ -175,6 +236,22 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Gpu
     {
+        public string Type;
+        public string <Name>k__BackingField; // 0x10
+        public System.Nullable`1<int> <Id>k__BackingField; // 0x18
+        public string <VendorId>k__BackingField; // 0x20
+        public string <VendorName>k__BackingField; // 0x28
+        public System.Nullable`1<int> <MemorySize>k__BackingField; // 0x30
+        public string <ApiType>k__BackingField; // 0x38
+        public System.Nullable`1<bool> <MultiThreadedRendering>k__BackingField; // 0x40
+        public string <Version>k__BackingField; // 0x48
+        public string <NpotSupport>k__BackingField; // 0x50
+        public System.Nullable`1<int> <MaxTextureSize>k__BackingField; // 0x58
+        public string <GraphicsShaderLevel>k__BackingField; // 0x60
+        public System.Nullable`1<bool> <SupportsDrawCallInstancing>k__BackingField; // 0x68
+        public System.Nullable`1<bool> <SupportsRayTracing>k__BackingField; // 0x6A
+        public System.Nullable`1<bool> <SupportsComputeShaders>k__BackingField; // 0x6C
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -230,6 +307,9 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Measurement
     {
+        public object <Value>k__BackingField; // 0x10
+        public Sentry.MeasurementUnit <Unit>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void get_Unit(){} // RVA: 0x994EE0
@@ -240,6 +320,20 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Mechanism
     {
+        public string HandledKey;
+        public string MechanismKey; // 0x8
+        public string DescriptionKey; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,object> <InternalData>k__BackingField; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,object> <InternalMeta>k__BackingField; // 0x18
+        public string DefaultType;
+        public string _type; // 0x20
+        public string <Description>k__BackingField; // 0x28
+        public string <Source>k__BackingField; // 0x30
+        public string <HelpLink>k__BackingField; // 0x38
+        public System.Nullable`1<bool> <Handled>k__BackingField; // 0x40
+        public bool <Synthetic>k__BackingField; // 0x42
+        public bool <IsExceptionGroup>k__BackingField; // 0x43
+
         // ── Methods ──
         public void get_InternalData(){} // RVA: 0x2F8380
         public void set_InternalData(){} // RVA: 0x2DEE30
@@ -274,6 +368,13 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class OperatingSystem
     {
+        public string Type;
+        public string <Name>k__BackingField; // 0x10
+        public string <Version>k__BackingField; // 0x18
+        public string <RawDescription>k__BackingField; // 0x20
+        public string <Build>k__BackingField; // 0x28
+        public string <KernelVersion>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -299,6 +400,16 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class ProfileInfo
     {
+        public Sentry.SentryId <EventId>k__BackingField; // 0x10
+        public Sentry.Protocol.DebugMeta <DebugMeta>k__BackingField; // 0x20
+        public Sentry.SentryContexts _contexts; // 0x28
+        public Sentry.Protocol.SampleProfile <Profile>k__BackingField; // 0x30
+        public System.DateTimeOffset <StartTimestamp>k__BackingField; // 0x38
+        public string <Environment>k__BackingField; // 0x48
+        public string <Platform>k__BackingField; // 0x50
+        public string <Release>k__BackingField; // 0x58
+        public Sentry.SentryTransaction <Transaction>k__BackingField; // 0x60
+
         // ── Methods ──
         public void get_EventId(){} // RVA: 0x196ABE0
         public void set_EventId(){} // RVA: 0x196ABF0
@@ -324,6 +435,13 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Response
     {
+        public string Type;
+        public System.Collections.Generic.Dictionary`2<string,string> <InternalHeaders>k__BackingField; // 0x10
+        public System.Nullable`1<long> <BodySize>k__BackingField; // 0x18
+        public string <Cookies>k__BackingField; // 0x28
+        public object <Data>k__BackingField; // 0x30
+        public System.Nullable`1<short> <StatusCode>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_InternalHeaders(){} // RVA: 0x2F8380
         public void set_InternalHeaders(){} // RVA: 0x2DEE30
@@ -346,6 +464,12 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Runtime
     {
+        public string Type;
+        public string <Name>k__BackingField; // 0x10
+        public string <Version>k__BackingField; // 0x18
+        public string <RawDescription>k__BackingField; // 0x20
+        public string <Identifier>k__BackingField; // 0x28
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -376,6 +500,13 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class SentryException
     {
+        public string <Type>k__BackingField; // 0x10
+        public string <Value>k__BackingField; // 0x18
+        public string <Module>k__BackingField; // 0x20
+        public int <ThreadId>k__BackingField; // 0x28
+        public Sentry.SentryStackTrace <Stacktrace>k__BackingField; // 0x30
+        public Sentry.Protocol.Mechanism <Mechanism>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
         public void set_Type(){} // RVA: 0x2DEE30
@@ -396,6 +527,15 @@ namespace ThirdParty.Sentry.Sentry.Protocol
 
     public class Trace
     {
+        public string Type;
+        public Sentry.SpanId <SpanId>k__BackingField; // 0x10
+        public System.Nullable`1<Sentry.SpanId> <ParentSpanId>k__BackingField; // 0x18
+        public Sentry.SentryId <TraceId>k__BackingField; // 0x28
+        public string <Operation>k__BackingField; // 0x38
+        public string _origin; // 0x40
+        public string <Description>k__BackingField; // 0x48
+        public System.Nullable`1<0x658B6108> <Status>k__BackingField; // 0x50
+
         // ── Methods ──
         public void get_SpanId(){} // RVA: 0x2F8380
         public void set_SpanId(){} // RVA: 0x1967700

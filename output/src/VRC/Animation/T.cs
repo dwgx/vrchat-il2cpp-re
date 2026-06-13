@@ -45,6 +45,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÌÌÎÏÏÌÍÏÎÎÍÌÏÌÎÍÏÌÌÎÍ</summary>
     public class TransformAnimationHandler_6139
     {
+        public string ÎÌÌÍÌÌÍÎÌÎÍÍÏÌÏÍÌÍÌÎÍÏÍ; // 0x20
+        public ÌÍÌÌÎÏÏÌÍÏÎÎÍÌÏÌÎÍÏÌÌÎÍ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public System.Nullable`1<float> ÎÌÍÌÌÌÎÌÎÍÌÌÍÍÌÌÌÏÌÏÌÏÎ; // 0x28
+        public System.Nullable`1<int> ÌÌÎÎÍÌÌÍÏÌÌÏÍÌÏÍÍÍÎÌÏÎÌ; // 0x30
+        public 0x6570C020 ÎÎÏÌÍÌÎÌÍÏÏÌÎÎÍÎÍÎÏÏÌÌÌ; // 0x38
+        public string ÎÏÏÍÍÌÌÌÌÎÍÏÍÍÏÍÏÏÎÏÎÍÌ; // 0x40
+        public string ÎÎÎÌÍÌÏÎÌÌÏÎÏÌÎÎÌÍÍÎÏÏÌ; // 0x48
+        public string <ÍÎÍÎÏÎÍÎÎÎÍÏÎÎÌÎÍÏÎÍÎÏÌ>k__BackingField; // 0x50
+
         // ── Methods ──
         public void ConfigureGameObject(){} // RVA: 0x1264D00
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
@@ -100,6 +109,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÍÏÎÌÍÎÎÎÌÍÍÌÍÍÏÌÎÍÎÎÏ</summary>
     public class TransformAnimationHandler_BEB2
     {
+        public int ÎÏÏÏÎÌÌÍÍÏÏÎÎÏÏÍÌÏÍÏÎÏÍ;
+
         // ── Methods ──
         public void GetAngularVelocity(){} // RVA: 0x124EC60
         public void SetTransformAnimation(){} // RVA: 0x124EEE0

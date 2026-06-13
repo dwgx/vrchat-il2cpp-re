@@ -18,7 +18,10 @@ namespace VRC.Core
 
     public class GPUTextureCompressor
     {
-        public object DestructionQueueCount;
+        public VRC.Core.GPUTextureCompressor DestructionQueueCount;
+        public UnityEngine.ComputeShader _computeShader; // 0x10
+        public int _kernelCompressASTC; // 0x18
+        public int _kernelCompressBC7; // 0x1C
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x9A61950
@@ -47,6 +50,12 @@ namespace VRC.Core
 
     public class GoogleDeviceCodeResponse
     {
+        public string <device_code>k__BackingField; // 0x68
+        public string <user_code>k__BackingField; // 0x70
+        public string <verification_url>k__BackingField; // 0x78
+        public int <expires_in>k__BackingField; // 0x80
+        public int <interval>k__BackingField; // 0x84
+
         // ── Methods ──
         public void get_device_code(){} // RVA: 0x358D50
         public void set_device_code(){} // RVA: 0x358D60
@@ -63,6 +72,8 @@ namespace VRC.Core
 
     public class GoogleLoginResponse
     {
+        public VRC.Core.APIUser <user>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_user(){} // RVA: 0x358D50
         public void set_user(){} // RVA: 0x358D60

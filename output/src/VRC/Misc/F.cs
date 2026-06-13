@@ -32,7 +32,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÍÍÏÎÌÌÎÏÎÎÌÌÏÍÎÎÏÏÌÌ</summary>
     public class FlagHasConfigurationComponent_0D84
     {
-        public object _0D84;
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _0D84; // 0x20
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x3FA100
@@ -203,6 +203,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÌÌÎÌÎÌÌÏÏÍÌÏÍÌÎÎÌÍÍÌ</summary>
     public class FocusInvisibleComponent_733F
     {
+        public TMPro.TextMeshProUGUI _label; // 0x20
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x8F3DF40
         public void OnDestroy(){} // RVA: 0x8F3E030
@@ -261,6 +263,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÌÍÍÌÍÍÌÏÏÍÌÏÏÌÍÏÌÌÎÎ</summary>
     public class FocusInvisibleComponent_D8AF
     {
+        public UnityEngine.UI.Image m_RecenteredImage; // 0x20
+        public UnityEngine.Color m_RecenteredOffColor; // 0x28
+        public UnityEngine.Color m_RecenteredColor; // 0x38
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x59C0D0
         public void OnDisable(){} // RVA: 0x59C2B0
@@ -283,6 +289,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÎÎÎÍÎÏÏÌÍÎÎÏÌÎÍÍÎÌÌÏ</summary>
     public class FoldoutListRelatedRelated_1FB9
     {
+        public int ÏÌÌÏÎÏÍÏÎÌÍÏÌÌÏÎÍÏÏÎÍÌÍ;
+        public int ÏÎÎÏÍÍÏÌÍÌÎÌÌÎÎÌÎÍÌÌÍÎÌ;
+        public int ÎÎÍÍÍÌÍÍÌÌÏÏÌÌÏÌÏÏÌÌÎÍÏ;
+        public int ÏÌÎÎÏÍÏÎÌÌÌÍÎÏÏÌÎÌÎÎÏÏÌ;
+        public int ÌÌÌÏÌÏÏÍÌÍÍÎÎÎÎÌÍÍÍÏÏÍÍ;
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0xA850E0
         public void get_ElementType(){} // RVA: 0x519240
@@ -329,6 +341,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÏÏÌÍÍÌÏÌÎÌÍÏÏÏÎÌÌÌÌÏÌ</summary>
     public class FoldoutListRelatedRelated_80CD
     {
+        public string ÌÍÏÌÌÎÎÏÎÎÎÎÍÏÌÍÌÍÍÌÌÌÌ; // 0x10
+        public string ÎÎÎÎÏÎÏÌÎÌÌÌÍÎÎÌÏÎÏÌÎÏÏ; // 0x18
+        public string ÎÎÏÌÍÍÎÌÍÌÌÎÌÌÍÍÎÌÍÎÎÍÍ; // 0x20
+        public int ÏÎÍÌÌÌÏÍÎÎÎÍÎÍÏÏÍÎÏÍÌÍÏ;
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0xA6EBB0
         public void TrySetCanceled(){} // RVA: 0xA6EBD0
@@ -364,6 +381,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÏÎÍÏÎÍÎÌÌÌÏÍÍÌÏÍÍÏÎÏ</summary>
     public class FoldoutListRelatedRelated_8232
     {
+        public string ÌÎÏÎÍÌÎÎÎÎÎÏÍÏÍÍÎÏÍÎÎÎÍ;
+        public System.Text.StringBuilder ÍÏÏÌÏÌÎÏÍÏÌÍÍÍÌÍÌÏÍÍÏÍÎ; // 0x10
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x519240
         public void GetStatus(){} // RVA: 0xA681B0
@@ -389,6 +409,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÏÌÏÎÎÏÌÎÌÏÌÎÌÌÌÍÎÎÍÍ</summary>
     public class FoldoutListRelatedRelated_8FD8
     {
+        public ÏÍÎÏÎÌÌÎÎÎÌÍÎÏÏÏÏÍÎÍÏÏÏ ÌÏÏÏÍÏÎÏÎÏÏÍÎÌÌÍÌÎÌÍÎÎÎ; // 0x10
+        public System.Collections.Generic.List`1<System.ValueTuple`2<UnityEngine.AudioSource,0x657481F0>> ÍÎÏÌÍÎÌÍÍÌÌÌÎÍÌÍÌÎÏÏÌÎÍ;
+        public UnityEngine.Color ÎÍÌÏÍÏÌÏÌÍÏÌÌÍÎÍÏÌÎÍÌÎÏ; // 0x8
+        public UnityEngine.Color ÎÍÍÌÎÌÍÌÏÍÏÏÏÎÎÎÌÍÍÎÌÎÏ; // 0x18
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x2DD310
         public void InitializeEnumerator(){} // RVA: 0xA61AF0
@@ -417,6 +442,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÍÎÍÏÎÏÎÏÏÎÍÍÎÌÎÍÏÍÏÎ</summary>
     public class FoldoutListRelatedRelated_98B4
     {
+        public int ÎÌÎÍÎÍÌÏÏÍÎÍÍÍÎÎÌÎÏÏÏÏÎ; // 0x10
+        public int ÌÏÌÌÏÏÎÏÍÎÍÍÎÍÌÏÍÎÌÌÍÌÍ; // 0x14
+        public int ÏÌÎÌÎÌÍÍÏÎÌÌÎÍÏÎÎÌÎÌÍÌÍ;
+        public string[] ÏÏÏÍÍÍÎÍÌÍÎÎÎÌÌÌÎÍÌÍÍÌÎ; // 0x8
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0xA58DC0
         public void .ctor(){} // RVA: 0xA5A910
@@ -457,6 +487,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÍÏÌÎÎÍÍÍÎÏÎÌÎÍÏÍÍÎÎÍ</summary>
     public class FoldoutListRelated_2D15
     {
+        public string ÌÎÍÏÌÏÌÎÏÎÌÏÏÏÏÍÎÍÎÌÎÏÏ;
+        public string ÌÏÎÍÏÍÏÏÌÌÎÍÏÏÍÍÎÏÍÏÍÏÎ;
+        public long ÌÍÎÍÌÌÎÎÏÏÏÌÎÌÍÏÏÏÎÎÍÌÍ;
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0xA7B6A0
         public void .ctor(){} // RVA: 0xA7CE40
@@ -501,6 +535,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÏÏÎÌÏÌÎÎÏÍÍÎÍÏÍÏÏÍÏÍ</summary>
     public class FoldoutListRelated_767A
     {
+        public string ÌÌÎÍÏÎÍÌÎÏÌÌÍÎÌÎÎÌÎÏÌÌÌ; // 0x10
+        public 0x6572F6F8 ÌÏÎÏÏÎÎÏÍÏÌÎÍÍÎÌÍÌÌÌÎÏÎ; // 0x18
+        public UnityEngine.Texture2D ÏÎÌÎÏÌÎÌÏÌÏÌÏÍÌÍÌÎÌÌÎÍÌ; // 0x20
+        public UnityEngine.Color32 ÌÏÍÎÌÌÌÎÎÎÎÌÎÎÍÎÏÌÍÎÏÍÏ; // 0x28
+        public UnityEngine.Color32 ÏÌÎÎÍÏÌÎÍÎÏÏÌÏÍÍÌÍÌÎÏÌÌ; // 0x2C
+        public int ÏÍÌÌÏÏÏÌÍÏÎÏÏÍÎÏÏÌÌÍÎÏÎ; // 0x30
+        public float ÎÏÏÏÍÎÎÎÌÏÌÌÏÌÎÎÎÌÏÎÌÏÌ; // 0x34
+        public float ÍÎÎÍÎÍÌÍÏÏÏÌÏÌÌÏÏÎÍÍÏÏÌ; // 0x38
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x358D50
         public void set_ResponseModels(){} // RVA: 0x358D60
@@ -533,6 +576,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÌÌÌÎÎÍÏÍÏÎÌÏÌÏÌÍÌÏÌÍÍ</summary>
     public class FoldoutListRelated_EA4F
     {
+        public float ÌÏÎÌÍÌÏÏÍÏÌÎÌÍÍÍÌÎÎÌÌÌÏ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xD79400
         public void IndexOf(){} // RVA: 0xD79580
@@ -567,6 +612,22 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÍÎÏÍÌÍÏÏÏÎÏÍÎÏÎÎÎÌÏÌ</summary>
     public class FoldoutListRelated_FDA3
     {
+        public 0x65887350 <ÎÎÎÌÍÍÎÏÎÍÎÏÍÍÌÏÏÍÎÍÎÏÌ>k__BackingField; // 0x20
+        public string <ÎÍÌÍÌÎÎÌÍÎÌÏÎÏÎÎÏÌÎÏÍÌÍ>k__BackingField; // 0x28
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.DateTime> <ÏÌÎÎÌÏÏÎÏÍÏÏÏÎÎÏÏÌÍÍÏÏÍ>k__BackingField; // 0x30
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.DateTime> <ÎÍÍÎÌÍÏÌÎÏÎÏÎÌÎÏÍÌÏÏÎÎÍ>k__BackingField; // 0x38
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÌÌÍÌÎÎÌÏÌÌÏÎÎÌÍÌÏÌÎÌÏÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÍÍÏÎÌÎÏÎÍÎÏÎÌÍÍÎÍÎÎÌÍÍ>k__BackingField; // 0x48
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÍÌÍÍÏÍÏÌÏÎÏÌÌÍÍÎÍÎÍÎÌÏ>k__BackingField; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÏÎÎÍÎÎÎÎÌÍÏÌÏÍÍÌÌÎÎÎÎÏ>k__BackingField; // 0x58
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÏÎÏÌÌÍÌÍÌÌÎÍÌÎÍÌÍÌÌÌÌ>k__BackingField; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÌÌÍÍÍÌÍÎÍÍÏÎÏÍÌÏÌÍÏÌÏ>k__BackingField; // 0x68
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.TimeSpan> <ÎÎÌÏÍÌÍÎÎÌÍÎÏÏÏÎÍÏÏÏÏÏÎ>k__BackingField; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.TimeSpan> <ÏÎÍÍÏÏÎÌÌÏÍÎÌÎÌÍÌÌÏÍÏÏÍ>k__BackingField; // 0x78
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÍÌÍÎÎÍÍÏÍÏÎÍÍÍÏÎÌÌÏÍÍ>k__BackingField; // 0x80
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÌÌÎÎÏÎÏÍÌÎÍÎÏÎÌÌÏÎÎÎÎÎ>k__BackingField; // 0x88
+        public int <ÎÌÎÌÍÏÌÍÏÎÌÌÌÏÏÎÎÍÎÎÍÌÎ>k__BackingField; // 0x90
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x3A5500
         public void get_imageUrl(){} // RVA: 0x3A5590
@@ -632,6 +693,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÏÎÎÎÌÏÎÍÏÎÍÍÎÍÏÌÌÍÍÌ</summary>
     public class FrameSiblingSibling_8019
     {
+        public bool <ÌÍÍÎÎÌÌÏÎÏÏÌÍÌÍÏÎÎÍÎÏÍÌ>k__BackingField; // 0x10
+        public bool <ÏÎÎÏÎÎÏÏÎÍÍÍÌÍÎÌÍÏÏÏÌÌÏ>k__BackingField; // 0x11
+        public bool <ÏÎÌÎÎÍÏÎÍÏÎÎÏÏÎÏÍÏÍÎÍÍÏ>k__BackingField; // 0x12
+        public bool <ÏÍÍÏÌÌÌÏÏÎÍÍÍÍÍÌÏÌÏÍÎÏÌ>k__BackingField; // 0x13
+        public bool <ÌÏÏÌÌÍÍÌÎÍÍÍÍÏÍÏÏÌÍÌÍÌÌ>k__BackingField; // 0x14
+        public bool <ÎÌÏÏÎÌÌÍÍÎÎÎÍÎÎÎÎÎÎÏÎÌÎ>k__BackingField; // 0x15
+        public bool <ÌÏÏÌÏÎÍÏÎÌÍÎÏÏÍÌÎÍÍÍÌÏÎ>k__BackingField; // 0x16
+
         // ── Methods ──
         public void get_B(){} // RVA: 0x195A940
         public void get_ReadData(){} // RVA: 0x543460
@@ -692,7 +761,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÏÎÎÍÍÍÎÌÍÍÏÎÎÎÍÏÏÏÎÍ</summary>
     public class flags_B9F3
     {
-        public object flags;
+        public ÏÍÌÏÎÎÍÍÍÎÌÍÍÏÎÎÎÍÏÏÏÎÍ flags;
 
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x948110
@@ -744,6 +813,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÎÎÍÍÍÍÎÎÏÌÏÎÎÌÍÍÌÍÍÌ</summary>
     public class floatVal_29F7_5398
     {
+        public 0x6573E270 ÍÍÏÍÏÏÎÌÌÍÏÏÍÎÍÏÎÌÎÌÏÌÎ; // 0x10
+        public string ÍÎÏÏÍÏÎÍÎÍÏÏÍÏÍÏÎÌÏÌÍÌÍ; // 0x18
+        public int ÍÎÌÍÎÏÍÏÍÏÎÍÏÎÍÎÎÌÏÍÏÎÌ; // 0x20
+        public bool ÍÌÎÎÍÏÍÌÎÌÌÎÍÍÏÎÏÍÌÍÏÌÎ; // 0x24
+        public float ÎÎÌÏÏÎÎÍÌÌÏÎÏÎÌÎÏÌÌÏÍÏÌ; // 0x28
+        public int ÏÌÎÏÏÍÍÎÏÌÏÏÍÎÍÍÌÎÏÌÏÏÌ; // 0x2C
+        public bool ÌÌÍÏÏÎÎÍÎÎÏÎÌÏÍÏÍÏÍÏÎÏÍ; // 0x30
+        public bool ÎÏÍÎÍÎÎÏÌÌÎÌÍÍÏÌÎÍÍÌÌÏÏ; // 0x31
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2DD310
         public void Equals(){} // RVA: 0x760030
@@ -778,6 +856,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÎÎÏÏÎÎÏÍÌÎÎÌÎÏÎÌÏÏÌÎ</summary>
     public class floatVal_B57D_1BBC
     {
+        public bool ÍÌÏÍÎÍÎÍÍÏÌÏÌÏÍÍÎÍÌÍÎÌÏ; // 0x10
+        public ÏÏÎÎÎÍÍÍÍÎÎÏÌÏÎÎÌÍÍÌÍÍÌ ÎÍÏÎÍÍÏÍÎÌÌÌÌÌÍÏÌÏÏÍÎÍÍ; // 0x18
+
         // ── Methods ──
         public void get_intVal_EE4248CF4CB4(){} // RVA: 0xE7DFE0
         public void set_boolVal(){} // RVA: 0xE7E000

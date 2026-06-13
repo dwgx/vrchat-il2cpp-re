@@ -8,6 +8,8 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÎÌÏÍÍÎÎÌÍÏÏÏÎÎÎÏÌÏÍÏÌ</summary>
     public class AsyncHandler_AA73
     {
+        public ÌÏÍÍÎÏÏÌÏÏÏÎÍÍÎÍÍÎÎÏÏÍÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2029DC0
         public void Process(){} // RVA: 0x2029F90
@@ -16,11 +18,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÎÏÎÌÌÏÍÍÍÏÎÍÍÌÎÍÎÍÏÎÎ</summary>
     public class AsyncResult_3D56
     {
+        public byte[] ÌÎÌÍÎÌÍÎÎÍÏÎÍÎÏÍÍÏÍÏÎÌÌ; // 0x10
+        public int ÌÌÍÎÌÎÏÍÏÎÍÎÎÏÍÌÎÏÍÍÍÌÌ; // 0x18
+        public int ÍÍÏÌÎÏÏÎÍÎÎÏÏÍÏÏÌÌÎÏÏÏÌ; // 0x1C
+        public bool ÎÏÎÎÎÍÌÏÌÏÏÎÎÏÌÏÎÌÎÌÏÌÎ; // 0x20
+        public object ÏÌÏÎÍÍÏÎÎÌÎÏÏÏÌÎÍÌÏÏÍÏÎ; // 0x28
+
         // ── Methods ──
         public void get_AsyncState(){} // RVA: 0x6374D0
         public void set_AsyncState(){} // RVA: 0x6374D0
-        public void set_CompletedSynchronously(){} // RVA: 0x6374D0
-        public void set_IsCompleted(){} // RVA: 0x35A740
+        public void set_IsCompleted(){} // RVA: 0x6374D0
+        public void set_CompletedSynchronously(){} // RVA: 0x35A740
         public void get_IsCompleted(){} // RVA: 0x1A33B70
         public void get_CompletedSynchronously(){} // RVA: 0x394D30
         public void SetCompletedSynchronously(){} // RVA: 0x1A33B80

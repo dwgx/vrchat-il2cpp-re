@@ -26,6 +26,8 @@ namespace VRC.SDK3.Image
 
     public class ImageDownloader
     {
+        public VRC.SDK3.Image.ImageDownloader _instance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x9A602A0
         public void TrimCache(){} // RVA: 0x9A60380
@@ -45,6 +47,9 @@ namespace VRC.SDK3.Image
 
     public class VRCImageDownloader
     {
+        public bool _disposed; // 0x10
+        public System.Collections.Generic.List`1<VRC.SDK3.Image.IVRCImageDownload> _imageDownloads; // 0x18
+
         // ── Methods ──
         public void get_StartDownload(){} // RVA: 0x9A0C6A0
         public void set_StartDownload(){} // RVA: 0x9A0C700

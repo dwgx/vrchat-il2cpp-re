@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class PayoutDefinition
     {
+        public 0x659E5828 m_Type; // 0x10
+        public string m_Subtype; // 0x18
+        public double m_Quantity; // 0x20
+        public string m_Data; // 0x28
+        public int MaxSubtypeLength;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x32A5C0
         public void set_type(){} // RVA: 0x2E00C0
@@ -29,6 +35,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class Product
     {
+        public UnityEngine.Purchasing.ProductDefinition <definition>k__BackingField; // 0x10
+        public UnityEngine.Purchasing.ProductMetadata <metadata>k__BackingField; // 0x18
+        public bool <availableToPurchase>k__BackingField; // 0x20
+        public string <transactionID>k__BackingField; // 0x28
+        public string <appleOriginalTransactionID>k__BackingField; // 0x30
+        public bool <appleProductIsRestored>k__BackingField; // 0x38
+        public string <receipt>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7215150 | overloaded x2
         public void get_definition(){} // RVA: 0x2F8380
@@ -52,6 +66,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCatalog
     {
+        public UnityEngine.Purchasing.IProductCatalogImpl instance;
+
         // ── Methods ──
         public void get_allProducts(){} // RVA: 0x2E07C0
         public void Initialize(){} // RVA: 0x72432D0 | overloaded x2
@@ -82,7 +98,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCollection
     {
-        public object _set;
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> _set; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> m_StoreSpecificIdToProduct; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7215230
@@ -96,8 +113,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDefinition
     {
-        public object _id;
-        public object _storeSpecificId;
+        public string _id; // 0x10
+        public string _storeSpecificId; // 0x18
+        public 0x659E5A38 <type>k__BackingField; // 0x20
+        public bool <enabled>k__BackingField; // 0x24
+        public System.Collections.Generic.List`1<UnityEngine.Purchasing.PayoutDefinition> m_Payouts; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7215E40 | overloaded x4
@@ -160,6 +180,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductMetadata
     {
+        public string <localizedPriceString>k__BackingField; // 0x10
+        public string <localizedTitle>k__BackingField; // 0x18
+        public string <localizedDescription>k__BackingField; // 0x20
+        public string <isoCurrencyCode>k__BackingField; // 0x28
+        public System.Decimal <localizedPrice>k__BackingField; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
         public void get_localizedPriceString(){} // RVA: 0x2F8380
@@ -182,6 +208,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchaseEventArgs
     {
+        public UnityEngine.Purchasing.Product <purchasedProduct>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_purchasedProduct(){} // RVA: 0x2F8380
@@ -190,6 +218,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingFactory
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.Extension.IStoreConfiguration> m_ConfigMap; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.IStoreExtension> m_ExtensionMap; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72162C0
         public void get_storeName(){} // RVA: 0x6374D0
@@ -204,6 +235,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingManager
     {
+        public UnityEngine.Purchasing.Extension.IStore m_Store; // 0x10
+        public UnityEngine.Purchasing.IInternalStoreListener m_Listener; // 0x18
+
         // ── Methods ──
         public void get_useTransactionLog(){} // RVA: 0x3A5570
         public void set_useTransactionLog(){} // RVA: 0x3A5580

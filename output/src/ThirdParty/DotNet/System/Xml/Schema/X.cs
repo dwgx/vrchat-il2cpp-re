@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class XdrBuilder
     {
+        public int[] S_XDR_Root_Element;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x698E430
         public void ProcessElement(){} // RVA: 0x698EB50
@@ -95,6 +97,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XdrValidator
     {
+        public System.Xml.HWStack validationStack; // 0x80
+        public System.Collections.Hashtable attPresence; // 0x88
+        public System.Xml.XmlQualifiedName name; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6999190 | overloaded x2
         public void Init(){} // RVA: 0x6999290
@@ -153,6 +159,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlAtomicValue
     {
+        public System.Xml.Schema.XmlSchemaType xmlType; // 0x10
+        public object objVal; // 0x18
+        public 0x657DC788 clrType; // 0x20
+        public Union unionVal; // 0x28
+        public NamespacePrefixForQName nsPrefix; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x699DF90 | overloaded x9
         public void System.ICloneable.Clone(){} // RVA: 0x1A3F520
@@ -172,6 +184,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlBaseConverter
     {
+        public System.Xml.Schema.XmlSchemaType schemaType; // 0x10
+        public 0x658807B8 typeCode; // 0x18
+        public System.Type clrTypeDefault; // 0x20
+        public System.Type ICollectionType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69C79D0 | overloaded x4
         public void ToBoolean(){} // RVA: 0x69C7F80 | overloaded x6
@@ -324,6 +341,35 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchema
     {
+        public 0x6587F738 attributeFormDefault; // 0x38
+        public 0x6587F738 elementFormDefault; // 0x3C
+        public 0x6587F058 blockDefault; // 0x40
+        public 0x6587F058 finalDefault; // 0x44
+        public string targetNs; // 0x48
+        public string version; // 0x50
+        public System.Xml.Schema.XmlSchemaObjectCollection includes; // 0x58
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x60
+        public string id; // 0x68
+        public System.Xml.XmlAttribute[] moreAttributes; // 0x70
+        public bool isCompiled; // 0x78
+        public bool isCompiledBySet; // 0x79
+        public bool isPreprocessed; // 0x7A
+        public bool isRedefined; // 0x7B
+        public int errorCount; // 0x7C
+        public System.Xml.Schema.XmlSchemaObjectTable attributes; // 0x80
+        public System.Xml.Schema.XmlSchemaObjectTable attributeGroups; // 0x88
+        public System.Xml.Schema.XmlSchemaObjectTable elements; // 0x90
+        public System.Xml.Schema.XmlSchemaObjectTable types; // 0x98
+        public System.Xml.Schema.XmlSchemaObjectTable groups; // 0xA0
+        public System.Xml.Schema.XmlSchemaObjectTable notations; // 0xA8
+        public System.Xml.Schema.XmlSchemaObjectTable identityConstraints; // 0xB0
+        public int globalIdCounter;
+        public System.Collections.ArrayList importedSchemas; // 0xB8
+        public System.Collections.ArrayList importedNamespaces; // 0xC0
+        public int schemaId; // 0xC8
+        public System.Uri baseUri; // 0xD0
+        public bool isChameleon; // 0xD8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x699F110
         public void Read(){} // RVA: 0x699F590
@@ -382,6 +428,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAll
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x78
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0x4C7C50
         public void get_IsEmpty(){} // RVA: 0x69A0CA0
@@ -391,6 +439,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAnnotated
     {
+        public string id; // 0x38
+        public System.Xml.Schema.XmlSchemaAnnotation annotation; // 0x40
+        public System.Xml.XmlAttribute[] moreAttributes; // 0x48
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x4976A0
         public void set_Id(){} // RVA: 0x49B830
@@ -407,6 +459,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAnnotation
     {
+        public string id; // 0x38
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x40
+        public System.Xml.XmlAttribute[] moreAttributes; // 0x48
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x4976A0
         public void set_Id(){} // RVA: 0x49B830
@@ -419,6 +475,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAny
     {
+        public string ns; // 0x78
+        public 0x6587EF50 processContents; // 0x80
+        public System.Xml.Schema.NamespaceList namespaceList; // 0x88
+
         // ── Methods ──
         public void get_Namespace(){} // RVA: 0x4C7C50
         public void set_Namespace(){} // RVA: 0x4C34F0
@@ -435,6 +495,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAnyAttribute
     {
+        public string ns; // 0x50
+        public 0x6587EF50 processContents; // 0x58
+        public System.Xml.Schema.NamespaceList namespaceList; // 0x60
+
         // ── Methods ──
         public void set_Namespace(){} // RVA: 0x4354D0
         public void get_ProcessContents(){} // RVA: 0x9EAB90
@@ -452,6 +516,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAppInfo
     {
+        public string source; // 0x38
+        public System.Xml.XmlNode[] markup; // 0x40
+
         // ── Methods ──
         public void set_Source(){} // RVA: 0x49B830
         public void get_Markup(){} // RVA: 0x35A740
@@ -461,6 +528,18 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAttribute
     {
+        public string defaultValue; // 0x50
+        public string fixedValue; // 0x58
+        public string name; // 0x60
+        public 0x6587F738 form; // 0x68
+        public 0x658804A0 use; // 0x6C
+        public System.Xml.XmlQualifiedName refName; // 0x70
+        public System.Xml.XmlQualifiedName typeName; // 0x78
+        public System.Xml.XmlQualifiedName qualifiedName; // 0x80
+        public System.Xml.Schema.XmlSchemaSimpleType type; // 0x88
+        public System.Xml.Schema.XmlSchemaSimpleType attributeType; // 0x90
+        public System.Xml.Schema.SchemaAttDef attDef; // 0x98
+
         // ── Methods ──
         public void get_DefaultValue(){} // RVA: 0x37E0E0
         public void set_DefaultValue(){} // RVA: 0x4354D0
@@ -493,6 +572,15 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAttributeGroup
     {
+        public string name; // 0x50
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0x58
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x60
+        public System.Xml.XmlQualifiedName qname; // 0x68
+        public System.Xml.Schema.XmlSchemaAttributeGroup redefined; // 0x70
+        public System.Xml.Schema.XmlSchemaObjectTable attributeUses; // 0x78
+        public System.Xml.Schema.XmlSchemaAnyAttribute attributeWildcard; // 0x80
+        public int selfReferenceCount; // 0x88
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x37E0E0
         public void set_Name(){} // RVA: 0x4354D0
@@ -517,6 +605,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaAttributeGroupRef
     {
+        public System.Xml.XmlQualifiedName refName; // 0x50
+
         // ── Methods ──
         public void get_RefName(){} // RVA: 0x37E0E0
         public void set_RefName(){} // RVA: 0x69A2570
@@ -525,6 +615,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaChoice
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x78
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0x4C7C50
         public void get_IsEmpty(){} // RVA: 0x69A2700
@@ -534,6 +626,15 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaCollection
     {
+        public System.Collections.Hashtable collection; // 0x10
+        public System.Xml.XmlNameTable nameTable; // 0x18
+        public System.Xml.Schema.SchemaNames schemaNames; // 0x20
+        public System.Threading.ReaderWriterLock wLock; // 0x28
+        public int timeout; // 0x30
+        public bool isThreadSafe; // 0x34
+        public System.Xml.Schema.ValidationEventHandler validationEventHandler; // 0x38
+        public System.Xml.XmlResolver xmlResolver; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69A27F0
         public void get_Count(){} // RVA: 0x69A2A70
@@ -555,6 +656,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaCollectionEnumerator
     {
+        public System.Collections.IDictionaryEnumerator enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69A3420
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x69A34A0
@@ -567,9 +670,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaCollectionNode
     {
-        public object System.Collections.IEnumerator.Current;
-        public object Current;
-        public object CurrentNode;
+        public string System.Collections.IEnumerator.Current; // 0x10
+        public System.Xml.Schema.SchemaInfo Current; // 0x18
+        public System.Xml.Schema.XmlSchema CurrentNode; // 0x20
 
         // ── Methods ──
         public void set_NamespaceURI(){} // RVA: 0x2DEE30
@@ -582,7 +685,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaCompilationSettings
     {
-        public object IsMixed;
+        public bool IsMixed; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BD7E0
@@ -591,6 +694,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaComplexContent
     {
+        public System.Xml.Schema.XmlSchemaContent content; // 0x50
+        public bool isMixed; // 0x58
+        public bool hasMixedAttribute; // 0x59
+
         // ── Methods ──
         public void get_IsMixed(){} // RVA: 0x59FF30
         public void set_IsMixed(){} // RVA: 0x69A36C0
@@ -602,6 +709,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaComplexContentExtension
     {
+        public System.Xml.Schema.XmlSchemaParticle particle; // 0x50
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0x58
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x60
+        public System.Xml.XmlQualifiedName baseTypeName; // 0x68
+
         // ── Methods ──
         public void get_BaseTypeName(){} // RVA: 0x358D50
         public void set_BaseTypeName(){} // RVA: 0x69A36D0
@@ -616,6 +728,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaComplexContentRestriction
     {
+        public System.Xml.Schema.XmlSchemaParticle particle; // 0x50
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0x58
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x60
+        public System.Xml.XmlQualifiedName baseTypeName; // 0x68
+
         // ── Methods ──
         public void get_BaseTypeName(){} // RVA: 0x358D50
         public void set_BaseTypeName(){} // RVA: 0x69A38F0
@@ -630,6 +747,21 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaComplexType
     {
+        public 0x6587F058 block; // 0x98
+        public System.Xml.Schema.XmlSchemaContentModel contentModel; // 0xA0
+        public System.Xml.Schema.XmlSchemaParticle particle; // 0xA8
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0xB0
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0xB8
+        public System.Xml.Schema.XmlSchemaParticle contentTypeParticle; // 0xC0
+        public 0x6587F058 blockResolved; // 0xC8
+        public System.Xml.Schema.XmlSchemaObjectTable localElements; // 0xD0
+        public System.Xml.Schema.XmlSchemaObjectTable attributeUses; // 0xD8
+        public System.Xml.Schema.XmlSchemaAnyAttribute attributeWildcard; // 0xE0
+        public System.Xml.Schema.XmlSchemaComplexType anyTypeLax;
+        public System.Xml.Schema.XmlSchemaComplexType anyTypeSkip; // 0x8
+        public System.Xml.Schema.XmlSchemaComplexType untypedAnyType; // 0x10
+        public byte pvFlags; // 0xE8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x69A3B10
         public void CreateAnyType(){} // RVA: 0x69A4020
@@ -721,6 +853,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaDocumentation
     {
+        public string source; // 0x38
+        public string language; // 0x40
+        public System.Xml.XmlNode[] markup; // 0x48
+
         // ── Methods ──
         public void set_Source(){} // RVA: 0x49B830
         public void set_Language(){} // RVA: 0x69A7DF0
@@ -731,6 +867,28 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaElement
     {
+        public bool isAbstract; // 0x78
+        public bool hasAbstractAttribute; // 0x79
+        public bool isNillable; // 0x7A
+        public bool hasNillableAttribute; // 0x7B
+        public bool isLocalTypeDerivationChecked; // 0x7C
+        public 0x6587F058 block; // 0x80
+        public 0x6587F058 final; // 0x84
+        public 0x6587F738 form; // 0x88
+        public string defaultValue; // 0x90
+        public string fixedValue; // 0x98
+        public string name; // 0xA0
+        public System.Xml.XmlQualifiedName refName; // 0xA8
+        public System.Xml.XmlQualifiedName substitutionGroup; // 0xB0
+        public System.Xml.XmlQualifiedName typeName; // 0xB8
+        public System.Xml.Schema.XmlSchemaType type; // 0xC0
+        public System.Xml.XmlQualifiedName qualifiedName; // 0xC8
+        public System.Xml.Schema.XmlSchemaType elementType; // 0xD0
+        public 0x6587F058 blockResolved; // 0xD8
+        public 0x6587F058 finalResolved; // 0xDC
+        public System.Xml.Schema.XmlSchemaObjectCollection constraints; // 0xE0
+        public System.Xml.Schema.SchemaElementDecl elementDecl; // 0xE8
+
         // ── Methods ──
         public void get_IsAbstract(){} // RVA: 0x8A10E0
         public void set_IsAbstract(){} // RVA: 0x69A8060
@@ -787,6 +945,14 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaException
     {
+        public string res; // 0x90
+        public string[] args; // 0x98
+        public string sourceUri; // 0xA0
+        public int lineNumber; // 0xA8
+        public int linePosition; // 0xAC
+        public System.Xml.Schema.XmlSchemaObject sourceSchemaObject; // 0xB0
+        public string message; // 0xB8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69AA110 | overloaded x14
         public void GetObjectData(){} // RVA: 0x69A9390
@@ -804,6 +970,13 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaExternal
     {
+        public string location; // 0x38
+        public System.Uri baseUri; // 0x40
+        public System.Xml.Schema.XmlSchema schema; // 0x48
+        public string id; // 0x50
+        public System.Xml.XmlAttribute[] moreAttributes; // 0x58
+        public 0x6587DA58 compositor; // 0x60
+
         // ── Methods ──
         public void get_SchemaLocation(){} // RVA: 0x4976A0
         public void set_SchemaLocation(){} // RVA: 0x49B830
@@ -823,6 +996,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaFacet
     {
+        public string value; // 0x50
+        public bool isFixed; // 0x58
+        public 0x6587F210 facetType; // 0x5C
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x37E0E0
         public void set_Value(){} // RVA: 0x4354D0
@@ -841,6 +1018,13 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaGroup
     {
+        public string name; // 0x50
+        public System.Xml.Schema.XmlSchemaGroupBase particle; // 0x58
+        public System.Xml.Schema.XmlSchemaParticle canonicalParticle; // 0x60
+        public System.Xml.XmlQualifiedName qname; // 0x68
+        public System.Xml.Schema.XmlSchemaGroup redefined; // 0x70
+        public int selfReferenceCount; // 0x78
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x37E0E0
         public void set_Name(){} // RVA: 0x4354D0
@@ -870,6 +1054,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaGroupRef
     {
+        public System.Xml.XmlQualifiedName refName; // 0x78
+        public System.Xml.Schema.XmlSchemaGroupBase particle; // 0x80
+        public System.Xml.Schema.XmlSchemaGroup refined; // 0x88
+
         // ── Methods ──
         public void get_RefName(){} // RVA: 0x4C7C50
         public void set_RefName(){} // RVA: 0x69AA990
@@ -882,6 +1070,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaIdentityConstraint
     {
+        public string name; // 0x50
+        public System.Xml.Schema.XmlSchemaXPath selector; // 0x58
+        public System.Xml.Schema.XmlSchemaObjectCollection fields; // 0x60
+        public System.Xml.XmlQualifiedName qualifiedName; // 0x68
+        public System.Xml.Schema.CompiledIdentityConstraint compiledConstraint; // 0x70
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x37E0E0
         public void set_Name(){} // RVA: 0x4354D0
@@ -899,6 +1093,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaImport
     {
+        public string ns; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69AAE30
         public void get_Namespace(){} // RVA: 0x358D50
@@ -915,6 +1111,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaInference
     {
+        public System.Xml.XmlQualifiedName ST_boolean;
+        public System.Xml.XmlQualifiedName ST_byte; // 0x8
+
         // ── Methods ──
         public void set_Occurrence(){} // RVA: 0x37E0D0
         public void get_Occurrence(){} // RVA: 0x37E0C0
@@ -956,6 +1155,15 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaInfo
     {
+        public bool isDefault; // 0x10
+        public bool isNil; // 0x11
+        public System.Xml.Schema.XmlSchemaElement schemaElement; // 0x18
+        public System.Xml.Schema.XmlSchemaAttribute schemaAttribute; // 0x20
+        public System.Xml.Schema.XmlSchemaType schemaType; // 0x28
+        public System.Xml.Schema.XmlSchemaSimpleType memberType; // 0x30
+        public 0x65880708 validity; // 0x38
+        public 0x6587EFA8 contentType; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69AAE60 | overloaded x2
         public void get_Validity(){} // RVA: 0xFDC9F0
@@ -987,6 +1195,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaKeyref
     {
+        public System.Xml.XmlQualifiedName refer; // 0x78
+
         // ── Methods ──
         public void get_Refer(){} // RVA: 0x4C7C50
         public void set_Refer(){} // RVA: 0x69AACA0
@@ -1037,6 +1247,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaNotation
     {
+        public string name; // 0x50
+        public string publicId; // 0x58
+        public string systemId; // 0x60
+        public System.Xml.XmlQualifiedName qname; // 0x68
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x37E0E0
         public void set_Name(){} // RVA: 0x4354D0
@@ -1059,6 +1274,13 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaObject
     {
+        public int lineNum; // 0x10
+        public int linePos; // 0x14
+        public string sourceUri; // 0x18
+        public System.Xml.Serialization.XmlSerializerNamespaces namespaces; // 0x20
+        public System.Xml.Schema.XmlSchemaObject parent; // 0x28
+        public bool isProcessing; // 0x30
+
         // ── Methods ──
         public void get_LineNumber(){} // RVA: 0x32A5C0
         public void set_LineNumber(){} // RVA: 0x2E00C0
@@ -1087,6 +1309,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaObjectCollection
     {
+        public System.Xml.Schema.XmlSchemaObject parent; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5BCCCF0
         public void get_Item(){} // RVA: 0x69AB480
@@ -1104,6 +1328,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaObjectEnumerator : .ctor
     {
+        public System.Collections.IEnumerator enumerator; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void MoveNext(){} // RVA: 0x69AB940
@@ -1115,6 +1341,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaObjectTable
     {
+        public System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaObject> table; // 0x10
+        public System.Collections.Generic.List`1<XmlSchemaObjectEntry> entries; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69ABB20
         public void Add(){} // RVA: 0x69ABC80
@@ -1132,6 +1361,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaParticle
     {
+        public System.Decimal minOccurs; // 0x50
+        public System.Decimal maxOccurs; // 0x60
+        public 0x6587FEC8 flags; // 0x70
+        public System.Xml.Schema.XmlSchemaParticle Empty;
+
         // ── Methods ──
         public void get_MinOccursString(){} // RVA: 0x69AD2B0
         public void set_MinOccursString(){} // RVA: 0x69AD3F0
@@ -1156,6 +1390,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaRedefine
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x68
+        public System.Xml.Schema.XmlSchemaObjectTable attributeGroups; // 0x70
+        public System.Xml.Schema.XmlSchemaObjectTable types; // 0x78
+        public System.Xml.Schema.XmlSchemaObjectTable groups; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69AE550
         public void get_Items(){} // RVA: 0x358D50
@@ -1167,6 +1406,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSequence
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection items; // 0x78
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0x4C7C50
         public void get_IsEmpty(){} // RVA: 0x69A0CA0
@@ -1176,6 +1417,21 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSet
     {
+        public System.Xml.XmlNameTable nameTable; // 0x10
+        public System.Xml.Schema.SchemaNames schemaNames; // 0x18
+        public System.Collections.SortedList schemas; // 0x20
+        public System.Xml.Schema.ValidationEventHandler internalEventHandler; // 0x28
+        public System.Xml.Schema.ValidationEventHandler eventHandler; // 0x30
+        public bool isCompiled; // 0x38
+        public System.Collections.Hashtable schemaLocations; // 0x40
+        public System.Collections.Hashtable chameleonSchemas; // 0x48
+        public System.Collections.Hashtable targetNamespaces; // 0x50
+        public bool compileAll; // 0x58
+        public System.Xml.Schema.SchemaInfo cachedCompiledInfo; // 0x60
+        public System.Xml.XmlReaderSettings readerSettings; // 0x68
+        public System.Xml.Schema.XmlSchema schemaForSchema; // 0x70
+        public System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings; // 0x78
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x69AE8B0
         public void .ctor(){} // RVA: 0x69AE9C0 | overloaded x2
@@ -1227,6 +1483,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleContent
     {
+        public System.Xml.Schema.XmlSchemaContent content; // 0x50
+
         // ── Methods ──
         public void get_Content(){} // RVA: 0x37E0E0
         public void set_Content(){} // RVA: 0x4354D0
@@ -1235,6 +1493,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleContentExtension
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0x50
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x58
+        public System.Xml.XmlQualifiedName baseTypeName; // 0x60
+
         // ── Methods ──
         public void get_BaseTypeName(){} // RVA: 0x37B370
         public void set_BaseTypeName(){} // RVA: 0x69B7D50
@@ -1247,6 +1509,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleContentRestriction
     {
+        public System.Xml.XmlQualifiedName baseTypeName; // 0x50
+        public System.Xml.Schema.XmlSchemaSimpleType baseType; // 0x58
+        public System.Xml.Schema.XmlSchemaObjectCollection facets; // 0x60
+        public System.Xml.Schema.XmlSchemaObjectCollection attributes; // 0x68
+        public System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute; // 0x70
+
         // ── Methods ──
         public void get_BaseTypeName(){} // RVA: 0x37E0E0
         public void set_BaseTypeName(){} // RVA: 0x69B7F70
@@ -1262,6 +1530,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleType
     {
+        public System.Xml.Schema.XmlSchemaSimpleTypeContent content; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69B8210
         public void get_Content(){} // RVA: 0xA1C8C0
@@ -1277,6 +1547,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleTypeList
     {
+        public System.Xml.XmlQualifiedName itemTypeName; // 0x50
+        public System.Xml.Schema.XmlSchemaSimpleType itemType; // 0x58
+        public System.Xml.Schema.XmlSchemaSimpleType baseItemType; // 0x60
+
         // ── Methods ──
         public void get_ItemTypeName(){} // RVA: 0x37E0E0
         public void set_ItemTypeName(){} // RVA: 0x69B8390
@@ -1290,6 +1564,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleTypeRestriction
     {
+        public System.Xml.XmlQualifiedName baseTypeName; // 0x50
+        public System.Xml.Schema.XmlSchemaSimpleType baseType; // 0x58
+        public System.Xml.Schema.XmlSchemaObjectCollection facets; // 0x60
+
         // ── Methods ──
         public void get_BaseTypeName(){} // RVA: 0x37E0E0
         public void set_BaseTypeName(){} // RVA: 0x69B8680
@@ -1302,6 +1580,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSimpleTypeUnion
     {
+        public System.Xml.Schema.XmlSchemaObjectCollection baseTypes; // 0x50
+        public System.Xml.XmlQualifiedName[] memberTypes; // 0x58
+        public System.Xml.Schema.XmlSchemaSimpleType[] baseMemberTypes; // 0x60
+
         // ── Methods ──
         public void get_BaseTypes(){} // RVA: 0x37E0E0
         public void get_MemberTypes(){} // RVA: 0x3A5500
@@ -1314,6 +1596,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSubstitutionGroup
     {
+        public System.Collections.ArrayList membersList; // 0x38
+        public System.Xml.XmlQualifiedName examplar; // 0x40
+
         // ── Methods ──
         public void get_Members(){} // RVA: 0x4976A0
         public void get_Examplar(){} // RVA: 0x35A740
@@ -1323,6 +1608,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaSubstitutionGroupV1Compat
     {
+        public System.Xml.Schema.XmlSchemaChoice choice; // 0x48
+
         // ── Methods ──
         public void get_Choice(){} // RVA: 0x358730
         public void .ctor(){} // RVA: 0x69B8ED0
@@ -1336,6 +1623,17 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaType
     {
+        public string name; // 0x50
+        public 0x6587F058 final; // 0x58
+        public 0x6587F058 derivedBy; // 0x5C
+        public System.Xml.Schema.XmlSchemaType baseSchemaType; // 0x60
+        public System.Xml.Schema.XmlSchemaDatatype datatype; // 0x68
+        public 0x6587F058 finalResolved; // 0x70
+        public System.Xml.Schema.SchemaElementDecl elementDecl; // 0x78
+        public System.Xml.XmlQualifiedName qname; // 0x80
+        public System.Xml.Schema.XmlSchemaType redefined; // 0x88
+        public 0x6587EFA8 contentType; // 0x90
+
         // ── Methods ──
         public void GetBuiltInSimpleType(){} // RVA: 0x69B9050 | overloaded x2
         public void GetBuiltInComplexType(){} // RVA: 0x69B90A0
@@ -1385,6 +1683,20 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaValidator
     {
+        public System.Xml.Schema.XmlSchemaSet schemaSet; // 0x10
+        public 0x658805A8 validationFlags; // 0x18
+        public int startIDConstraint; // 0x1C
+        public bool isRoot; // 0x20
+        public bool rootHasSchema; // 0x21
+        public bool attrValid; // 0x22
+        public bool checkEntity; // 0x23
+        public System.Xml.Schema.SchemaInfo compiledSchemaInfo; // 0x28
+        public System.Xml.IDtdInfo dtdSchemaInfo; // 0x30
+        public System.Collections.Hashtable validatedNamespaces; // 0x38
+        public System.Xml.HWStack validationStack; // 0x40
+        public System.Xml.Schema.ValidationState context; // 0x48
+        public 0x65880600 currentState; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69B9950
         public void Init(){} // RVA: 0x69B9CA0
@@ -1472,6 +1784,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlSchemaXPath
     {
+        public string xpath; // 0x50
+
         // ── Methods ──
         public void get_XPath(){} // RVA: 0x37E0E0
         public void set_XPath(){} // RVA: 0x4354D0
@@ -1541,6 +1855,10 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XsdBuilder
     {
+        public 0x65880C88[] SchemaElement;
+        public 0x65880C88[] SchemaSubelements; // 0x8
+        public 0x65880C88[] AttributeSubelements; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69EA870
         public void ProcessElement(){} // RVA: 0x69EAED0
@@ -1680,6 +1998,18 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XsdDateTime
     {
+        public System.DateTime dt; // 0x10
+        public uint extra; // 0x18
+        public int Lzyyyy;
+        public int Lzyyyy_; // 0x4
+        public int Lzyyyy_MM; // 0x8
+        public int Lzyyyy_MM_; // 0xC
+        public int Lzyyyy_MM_dd; // 0x10
+        public int Lzyyyy_MM_ddT; // 0x14
+        public int LzHH; // 0x18
+        public int LzHH_; // 0x1C
+        public int LzHH_mm; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69FD750 | overloaded x5
         public void InitiateXsdDateTime(){} // RVA: 0x69FD150
@@ -1707,6 +2037,14 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XsdDuration
     {
+        public int years; // 0x10
+        public int months; // 0x14
+        public int days; // 0x18
+        public int hours; // 0x1C
+        public int minutes; // 0x20
+        public int seconds; // 0x24
+        public uint nanoseconds; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A02820 | overloaded x5
         public void get_IsNegative(){} // RVA: 0x6A028D0
@@ -1726,6 +2064,9 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XsdSimpleValue
     {
+        public System.Xml.Schema.XmlSchemaSimpleType xmlType; // 0x10
+        public object typedValue; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_XmlType(){} // RVA: 0x2F8380
@@ -1734,6 +2075,11 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XsdValidator
     {
+        public int startIDConstraint; // 0x80
+        public System.Xml.HWStack validationStack; // 0x88
+        public System.Collections.Hashtable attPresence; // 0x90
+        public System.Xml.XmlNamespaceManager nsManager; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A041D0 | overloaded x2
         public void Init(){} // RVA: 0x6A04200

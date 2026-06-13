@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.ZLogger.LogStates
-// Classes: 3
+// Classes: 4
 // Methods: 34
 
 namespace ThirdParty.Other.ZLogger.LogStates
 {
     public class InterpolatedStringLogState : ZLogger.Internal
     {
+        public ZLogger.Internal.ObjectPool`1<ZLogger.LogStates.InterpolatedStringLogState> cache;
+        public ZLogger.LogStates.InterpolatedStringLogState next; // 0x10
+        public int <ParameterCount>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x3DF6A30
         public void get_ParameterCount(){} // RVA: 0x5BED50
@@ -35,6 +39,10 @@ namespace ThirdParty.Other.ZLogger.LogStates
         public void CreateEntry(){} // RVA: 0xCE10
         public void ToString(){} // RVA: 0x24B10 | overloaded x2
         public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0xCE10
+    }
+
+    public class StringFormatterLogState`1
+    {
     }
 
     public class VersionedLogState

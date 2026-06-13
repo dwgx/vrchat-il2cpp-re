@@ -19,6 +19,10 @@ namespace ThirdParty.DotNet.System.Net.Mail
 
     public class MailAddress
     {
+        public System.Text.Encoding _displayNameEncoding; // 0x10
+        public string _displayName; // 0x18
+        public string _userName; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BB9020 | overloaded x3
         public void get_DisplayName(){} // RVA: 0x2E07C0

@@ -5,6 +5,12 @@
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Delegate> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -19,22 +25,48 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<int,System.Type> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<int,System.Type> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<UnityEngine.Object,int> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<UnityEngine.Object,int> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Type> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Type> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.Serializer> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,VRC.Udon.Serialization.OdinSerializer.Serializer> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -49,6 +81,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]>> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -60,6 +95,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MemberInfo[]> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Reflection.MemberInfo[]> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -74,6 +115,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,...<...,...>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,...<...,...>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -88,6 +135,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Type,...<...,...>>> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -99,6 +149,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,...<...,...>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,...<...,...>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -113,26 +169,51 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonProgram>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonProgram>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<string,System.Reflection.Assembly> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<string,System.Reflection.Assembly> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.Reflection.Assembly> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.AssemblyLoadEventArgs> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.HashSet`1<System.Type>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.HashSet`1<System.Type>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -147,6 +228,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Delegate>> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -158,6 +242,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -172,6 +262,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>>> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -183,6 +276,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<object,object>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<object,object>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -197,14 +296,27 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Stack`1<System.Type> _stack; // 0x10
+    public int _version; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -219,6 +331,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter>> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -230,6 +345,12 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F30170
     public void MoveNext(){} // RVA: 0x2F48630
@@ -244,38 +365,69 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<FormatterLocatorInfo> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<FormatterInfo> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<byte[]>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<byte[]>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonHeap>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonHeap>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbolTable>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbolTable>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<VRC.Udon.Common.UdonProgram>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<VRC.Udon.Common.UdonHeap>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ECCBB0
     public void Dispose(){} // RVA: 0x2DD310
@@ -288,54 +440,96 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.Collections.Generic.List`1<int>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<...<...>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Runtime.CompilerServices.IStrongBox>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Runtime.CompilerServices.IStrongBox>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Type>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Type>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.ValueTuple`3<int,int,int>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.ValueTuple`3<uint,System.Runtime.CompilerServices.IStrongBox,System.Type>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.SDKBase.VRCPlayerApi>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.SDKBase.VRCPlayerApi>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<int>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<VRC.SDKBase.VRCPlayerApi>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.Runtime.CompilerServices.StrongBox`1<string>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonSymbol> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED1D20
     public void Dispose(){} // RVA: 0x2DD310
@@ -348,38 +542,69 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<VRC.Udon.Common.UdonSymbolTable>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbol>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSymbol>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<...<...>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<VRC.Udon.Common.UdonSymbol>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<object>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<object>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Collections.Generic.List`1<string>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.Collections.Generic.List`1<string>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<System.Collections.Generic.List`1<string>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.Linq.IGrouping`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED1D20
     public void Dispose(){} // RVA: 0x2DD310
@@ -392,6 +617,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public Collections.Pooled.PooledList`1<string> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2EE96B0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -404,6 +632,10 @@ public class Enumerator
 
 public class Enumerator
 {
+    public int _poolUserId; // 0x10
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x18
+    public System.Collections.Immutable.SecurePooledObject`1<System.Collections.Generic.Stack`1<System.Collections.Immutable.RefAsValueType`1<...>>> _stack; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ECF710
     public void get_Current(){} // RVA: 0x2ECFE60
@@ -418,6 +650,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _bucket; // 0x10
+    public 0x659D1B38<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _currentPosition; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F4CE70
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2F4D450
@@ -429,6 +664,10 @@ public class Enumerator
 
 public class Enumerator
 {
+    public Builder<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _builder; // 0x10
+    public int _poolUserId; // 0x18
+    public int _startIndex; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED5430
     public void System.Collections.Immutable.ISecurePooledObjectUser.get_PoolUserId(){} // RVA: 0x1EA9890
@@ -447,6 +686,9 @@ public class Enumerator
 
 public class Enumerator : System.Collections.Generic
 {
+    public Builder<string,VRC.Udon.Common.Interfaces.IUdonSymbol> _builder; // 0x10
+    public Enumerator<HashBucket<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _mapEnumerator; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F491B0
     public void get_Current(){} // RVA: 0x2F49330
@@ -459,14 +701,22 @@ public class Enumerator : System.Collections.Generic
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public int _poolUserId; // 0x10
+    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _root; // 0x18
+    public System.Collections.Immutable.SecurePooledObject`1<System.Collections.Generic.Stack`1<System.Collections.Immutable.RefAsValueType`1<...>>> _stack; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED0550
     public void get_Current(){} // RVA: 0x2ED0CA0
@@ -481,6 +731,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _bucket; // 0x10
+    public 0x659D1B38<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _currentPosition; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F5D080
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2F4D450
@@ -492,6 +745,10 @@ public class Enumerator
 
 public class Enumerator
 {
+    public Builder<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _builder; // 0x10
+    public int _poolUserId; // 0x18
+    public int _startIndex; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED8B60
     public void System.Collections.Immutable.ISecurePooledObjectUser.get_PoolUserId(){} // RVA: 0x1EA9890
@@ -510,6 +767,9 @@ public class Enumerator
 
 public class Enumerator : System.Collections.Generic
 {
+    public Builder<uint,VRC.Udon.Common.Interfaces.IUdonSymbol> _builder; // 0x10
+    public Enumerator<HashBucket<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _mapEnumerator; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F5BCA0
     public void get_Current(){} // RVA: 0x2F49330
@@ -522,22 +782,36 @@ public class Enumerator : System.Collections.Generic
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.RuntimeType>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<System.RuntimeType>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<VRC.Udon.Common.UdonSyncMetadataTable>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadata> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED1D20
     public void Dispose(){} // RVA: 0x2DD310
@@ -550,34 +824,66 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<...<...>>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadata>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadata>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<SerializationCallback<...<...>>> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonSyncMetadata> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSyncMetadata> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<System.Type,System.Action`2<VRC.Udon.Serialization.OdinSerializer.BinaryDataWriter,object>> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<System.Type,System.Action`2<VRC.Udon.Serialization.OdinSerializer.BinaryDataWriter,object>> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<object,int> _dictionary; // 0x10
+    public int _version; // 0x18
+    public int _index; // 0x1C
+    public System.Collections.Generic.KeyValuePair`2<object,int> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.HashSet`1<System.Reflection.Assembly> _set; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonVariable> _dictionary; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F2D620
     public void Dispose(){} // RVA: 0x2DD310
@@ -589,22 +895,33 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Runtime.CompilerServices.ConditionalWeakTable`2<uint[][],object> _table; // 0x10
+    public int _currentIndex; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<ÏÎÏÍÎÏÏÍÍÎÏÌÏÌÎÎÌÎÏÍÎÎÎ> _list; // 0x10
+    public int _index; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.Stack`1<Node<System.Collections.Generic.KeyValuePair`2<int,VRC.Dynamics.VRCConstraintGroup>>> _stack; // 0x10
+    public int _version; // 0x18
 }
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<System.ValueTuple`2<SortingData,SortingData>> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ECC920
     public void Dispose(){} // RVA: 0x2DD310
@@ -617,6 +934,9 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.List`1<IJobSortable> _list; // 0x10
+    public int _index; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2ED1D20
     public void Dispose(){} // RVA: 0x2DD310
@@ -629,10 +949,14 @@ public class Enumerator
 
 public class Enumerator
 {
+    public System.Collections.Generic.Dictionary`2<0x65714FD0,ÏÎÌÌÍÍÏÌÏÎÌÏÍÍÌÍÌÎÏÏÌÏÌ> _dictionary; // 0x10
+    public int _index; // 0x18
 }
 
 public class EnumeratorDropIndices
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<long,T>> _source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void MoveNext(){} // RVA: 0xDBE0
@@ -644,6 +968,9 @@ public class EnumeratorDropIndices
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<T> s_EmptyEnumerator;
+    public T[] _array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Current(){} // RVA: 0x283FA0
@@ -657,6 +984,9 @@ public class EnumeratorObject
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<T> s_EmptyEnumerator;
+    public T[] _array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void get_Current(){} // RVA: 0x283FA0
@@ -670,6 +1000,9 @@ public class EnumeratorObject
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<bool> s_EmptyEnumerator;
+    public bool[] _array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F93A00
     public void get_Current(){} // RVA: 0x2F93A60
@@ -683,26 +1016,39 @@ public class EnumeratorObject
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<UnityEngine.RequireComponent> s_EmptyEnumerator;
+    public UnityEngine.RequireComponent[] _array; // 0x10
 }
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<0x659729C8> s_EmptyEnumerator;
+    public 0x659729C8[] _array; // 0x10
 }
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<0x659C0BA8> s_EmptyEnumerator;
+    public 0x659C0BA8[] _array; // 0x10
 }
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<byte> s_EmptyEnumerator;
+    public byte[] _array; // 0x10
 }
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<System.Reflection.PortableExecutable.SectionHeader> s_EmptyEnumerator;
+    public System.Reflection.PortableExecutable.SectionHeader[] _array; // 0x10
 }
 
 public class EnumeratorObject
 {
+    public System.Collections.Generic.IEnumerator`1<string> s_EmptyEnumerator;
+    public string[] _array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2F93A00
     public void get_Current(){} // RVA: 0x2F941E0
@@ -716,6 +1062,8 @@ public class EnumeratorObject
 
 public class EnumeratorPromise
 {
+    public Cysharp.Threading.Tasks.TaskPool`1<EnumeratorPromise> pool;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x3DF6A30
     public void .cctor(){} // RVA: 0x6CE59D0
@@ -734,6 +1082,8 @@ public class EnumeratorPromise
 
 public class EnvelopeDefinition
 {
+    public UnityEngine.AnimationCurve m_AttackShape; // 0x10
+
     // ── Methods ──
     public void Default(){} // RVA: 0x1D33F50
     public void get_Duration(){} // RVA: 0x1D33F70

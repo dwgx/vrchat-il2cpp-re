@@ -19,6 +19,13 @@ namespace VRC.DataModel.Challenges
 
     public class ChallengeUpdateEvent
     {
+        public string <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x10
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x18
+        public ÍÌÏÏÍÎÎÌÍÍÌÍÏÌÏÏÌÎÌÏÌÍÎ <ÎÏÎÌÎÌÎÏÍÍÏÏÍÎÌÎÎÏÎÏÎÎÌ>k__BackingField; // 0x20
+        public 0x65890510 <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x28
+        public ÌÌÏÌÍÍÌÎÍÌÎÍÍÎÏÎÎÎÍÍÎÌÍ <ÌÍÌÎÌÍÍÎÍÌÌÍÏÎÌÌÍÍÎÎÏÎÍ>k__BackingField; // 0x30
+        public string <ÏÍÎÏÌÏÍÏÎÏÏÎÍÌÌÍÎÏÌÏÎÌÌ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x30B0D0
         public void GetSessionId(){} // RVA: 0x791DC0

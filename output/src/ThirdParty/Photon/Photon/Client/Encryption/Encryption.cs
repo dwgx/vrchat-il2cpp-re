@@ -7,6 +7,8 @@ namespace ThirdParty.Photon.Photon.Client.Encryption
 {
     public class DiffieHellmanCryptoProvider
     {
+        public System.Numerics.BigInteger primeRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624F930 | overloaded x2
         public void get_PublicKey(){} // RVA: 0x624FA70

@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.GM
 {
     public class GMNamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void ConfigureBasepoint(){} // RVA: 0x97A1840

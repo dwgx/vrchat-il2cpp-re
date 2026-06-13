@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class NetworkCallingEntrypoint
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -33,6 +35,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingEntrypointT
     {
+        public uint <NameHash>k__BackingField; // 0x10
+        public int <Ratelimit>k__BackingField; // 0x14
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingParameterT> <Parameters>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_NameHash(){} // RVA: 0x32A5C0
         public void set_NameHash(){} // RVA: 0x2E00C0
@@ -51,6 +57,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingParameter
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -69,6 +77,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingParameterT
     {
+        public byte <Type>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x3A75E0
         public void set_Type(){} // RVA: 0x3A75F0
@@ -83,6 +93,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingView
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -109,6 +121,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingViewT
     {
+        public int <ViewId>k__BackingField; // 0x10
+        public int <ComponentIndex>k__BackingField; // 0x14
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingEntrypointT> <Entrypoints>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ViewId(){} // RVA: 0x32A5C0
         public void set_ViewId(){} // RVA: 0x2E00C0

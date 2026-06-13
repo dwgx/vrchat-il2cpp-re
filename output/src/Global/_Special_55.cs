@@ -5,6 +5,8 @@
 
 public class _Create
 {
+    public System.Func`3<Cysharp.Threading.Tasks.Linq.IAsyncWriter`1<T>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask> create;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -18,6 +20,8 @@ public class _Create
 
 public class _Create
 {
+    public System.Func`3<Cysharp.Threading.Tasks.Linq.IAsyncWriter`1<T>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask> create;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x705CC20
     public void Invoke(){} // RVA: 0x33B3F20
@@ -135,6 +139,8 @@ public class _DecompressSkeletalBoneData
 
 public class _DefaultIfEmpty
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -204,6 +210,8 @@ public class _DistinctAwaitWithCancellation
 
 public class _DistinctUntilChanged
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -215,6 +223,8 @@ public class _DistinctUntilChanged
 
 public class _DistinctUntilChanged
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -226,6 +236,8 @@ public class _DistinctUntilChanged
 
 public class _DistinctUntilChangedAwait
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -237,6 +249,8 @@ public class _DistinctUntilChangedAwait
 
 public class _DistinctUntilChangedAwaitWithCancellation
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+
     // ── Methods ──
     public void .ctor(){}
     public void get_Current(){} // RVA: 0x283FA0
@@ -248,6 +262,8 @@ public class _DistinctUntilChangedAwaitWithCancellation
 
 public class _Do
 {
+    public System.Action`1<object> MoveNextCoreDelegate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -289,6 +305,8 @@ public class _EmitVrProfilerEvent
 
 public class _Empty
 {
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24A50
     public void get_Current(){} // RVA: 0x283FA0
@@ -299,6 +317,8 @@ public class _Empty
 
 public class _EveryUpdate
 {
+    public 0x658F9AD0 updateTiming; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D2ABE0
     public void get_Current(){} // RVA: 0x2DD320
@@ -309,6 +329,8 @@ public class _EveryUpdate
 
 public class _EveryValueChanged
 {
+    public System.WeakReference`1<U> target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0
@@ -319,6 +341,8 @@ public class _EveryValueChanged
 
 public class _EveryValueChanged
 {
+    public U target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x283FA0
     public void get_Current(){} // RVA: 0x283FA0

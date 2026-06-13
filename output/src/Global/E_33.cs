@@ -291,6 +291,10 @@ public class Event
 
 public class EventData
 {
+    public UIntPtr <DataPointer>k__BackingField; // 0x10
+    public int <Size>k__BackingField; // 0x18
+    public int <Reserved>k__BackingField; // 0x1C
+
     // ── Methods ──
     public void set_DataPointer(){} // RVA: 0x1B12320
     public void set_Size(){} // RVA: 0x1EA98A0
@@ -496,6 +500,9 @@ public class EventInfo
 
 public class EventKeyValue
 {
+    public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals; // 0x10
+    public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events; // 0x18
+
     // ── Methods ──
     public void TryGetValue(){} // RVA: 0x7039200
     public void Append(){} // RVA: 0x7039390
@@ -511,6 +518,11 @@ public class EventRecord
 
 public class EventReplicator`2
 {
+    public ÌÏÍÎÌÎÏÍÎÌÍÏÍÎÍÍÎÌÏÌÏÌÍ<T,T> ÌÏÎÎÏÌÎÏÎÏÍÎÌÎÎÏÏÍÌÏÎÍÏ;
+    public int ÌÍÏÎÌÏÍÍÌÍÌÍÎÍÎÎÎÏÍÏÎÌÌ;
+    public int ÍÍÎÎÍÌÏÍÏÍÌÏÍÍÍÍÍÌÌÌÍÍÌ;
+    public int ÏÌÎÎÏÎÏÏÎÎÏÍÌÌÌÎÌÌÎÌÌÍÌ;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x24A50
     public void set_Item(){} // RVA: 0x24B10
@@ -547,6 +559,11 @@ public class EventReplicator`2
 
 public class EventReplicator`2
 {
+    public ÌÏÍÎÌÎÏÍÎÌÍÏÍÎÍÍÎÌÏÌÏÌÍ<ÌÍÎÌÏÏÏÌÍÍÌÎÏÎÌÎÎÍÎÏÌÌÍ,ÎÎÍÏÎÎÏÎÌÎÌÍÎÌÏÌÎÍÎÍÌÍÎ> ÌÏÎÎÏÌÎÏÎÏÍÎÌÎÎÏÏÍÌÏÎÍÏ; // 0x20
+    public int ÌÍÏÎÌÏÍÍÌÍÌÍÎÍÎÎÎÏÍÏÎÌÌ;
+    public int ÍÍÎÎÍÌÏÍÏÍÌÏÍÍÍÍÍÌÌÌÍÍÌ;
+    public int ÏÌÎÎÏÎÏÏÎÎÏÍÌÌÌÎÌÌÎÌÌÍÌ;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x3307F10
     public void set_Item(){} // RVA: 0x3308130
@@ -680,6 +697,8 @@ public class Event`3
 
 public class EvidenceEnumerator
 {
+    public System.Collections.IEnumerator currentEnum; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5C6B8D0
     public void MoveNext(){} // RVA: 0x5C6B9D0

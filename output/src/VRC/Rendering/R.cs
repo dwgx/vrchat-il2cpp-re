@@ -92,6 +92,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÏÌÏÏÏÍÎÎÎÌÍÎÌÍÌÎÏÏÏÍÍÍ</summary>
     public class RendererLightingHandler_645B
     {
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x65885AE8>[] ÏÎÌÎÌÏÍÎÍÎÌÌÍÌÌÎÎÍÌÌÎÍÌ;
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÎÍÏÏÌÌÏÌÌÎÌÏÍÍÌÎÍÌÌÌÍÌÎ; // 0x8
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x8CB90F0
         public void Process(){} // RVA: 0x8CB9300
@@ -105,6 +108,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÍÏÎÌÏÍÌÏÏÏÏÎÎÎÌÏÍÎÍÎÌÎ</summary>
     public class RendererMaterialHandler_17FC
     {
+        public System.Collections.Generic.List`1<ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ> <ÍÍÌÌÍÌÎÎÌÍÌÍÌÍÌÌÎÌÎÍÎÏÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void GetLightProbeProxyVolumeOverride(){} // RVA: 0x8DBC280
         public void GetLocalBounds(){} // RVA: 0x8DBC750
@@ -134,6 +139,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÎÏÎÍÏÍÍÌÌÌÏÍÌÏÌÎÌÌÍÎÎÏ</summary>
     public class RendererMaterialHandler_B369
     {
+        public ÍÎÏÏÍÌÍÎÏÍÏÏÍÍÍÎÍÍÌÎÌÌÍ previewPanel; // 0x20
+
         // ── Methods ──
         public void GetRendererPriority(){} // RVA: 0x8F90860
         public void get_MoveNext(){} // RVA: 0x4976A0
@@ -181,6 +188,15 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÌÍÏÎÎÌÎÏÍÌÎÌÏÏÎÎÏÎÌÎÏÍ</summary>
     public class RendererMeshRenderingHandler_BDB3
     {
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588D650>[] ÌÍÌÏÌÌÌÍÏÌÌÏÍÎÏÎÎÌÏÍÌÎÏ;
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588D650>[] ÍÍÍÏÌÌÏÌÏÏÌÎÍÎÏÎÌÍÎÏÏÎÎ; // 0x8
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588D650>[] ÍÏÏÍÎÏÍÎÌÍÎÌÌÏÌÌÍÌÎÍÌÍÌ; // 0x10
+        public ÎÏÌÍÍÌÌÍÏÎÌÌÍÍÌÍÏÍÌÎÌÏÏ<0x6588D650>[] ÌÏÎÏÏÌÏÌÎÍÎÍÍÏÌÌÌÌÏÍÍÌÌ; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÌÍÏÎÏÏÎÏÎÏÍÎÍÌÍÎÎÎÎÍÏÎÎ; // 0x20
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÍÌÏÍÎÎÏÍÏÎÏÎÍÎÍÎÏÌÌÏÌÏÌ; // 0x28
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÏÎÍÌÌÍÏÏÌÎÏÍÎÎÍÎÎÏÌÏÌÌÏ; // 0x30
+        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÌÎÏÏÌÏÏÏÌÌÍÍÌÌÌÏÏÍÎÌÏÎÎ; // 0x38
+
         // ── Methods ──
         public void GetSharedMaterialArray(){} // RVA: 0x8CB9DB0
         public void GetSortingLayerName(){} // RVA: 0x8CB9FC0
@@ -265,6 +281,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÌÍÌÎÎÍÌÎÎÏÌÎÎÏÌÍÍÏÌÏÎÎ</summary>
     public class RenderingGameObjectHandler_DA46
     {
+        public ÌÌÍÎÎÎÏÎÏÌÌÎÎÏÌÌÌÏÍÏÏÍÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void Handle(){} // RVA: 0x2096510
         public void Process(){} // RVA: 0x20966E0

@@ -55,6 +55,8 @@ namespace ThirdParty.DotNet.System.Xml
 
     public class Ucs4Encoding
     {
+        public System.Xml.Ucs4Decoder ucs4Decoder; // 0x38
+
         // ── Methods ──
         public void get_WebName(){} // RVA: 0x43E1C0
         public void GetDecoder(){} // RVA: 0x4976A0

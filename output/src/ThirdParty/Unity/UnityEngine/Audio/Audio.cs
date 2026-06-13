@@ -77,6 +77,8 @@ namespace ThirdParty.Unity.UnityEngine.Audio
 
     public class AudioPlayableOutput
     {
+        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void Create(){} // RVA: 0x70B3DE0
         public void .ctor(){} // RVA: 0x70B3FA0

@@ -34,6 +34,8 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class MSCompatUnicodeTable
     {
+        public int MaxExpansionLength;
+
         // ── Methods ──
         public void GetTailoringInfo(){} // RVA: 0x5BFA530
         public void BuildTailoringTables(){} // RVA: 0x5BFA640

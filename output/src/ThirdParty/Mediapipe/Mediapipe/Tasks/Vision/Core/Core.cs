@@ -7,6 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
 {
     public class BaseVisionTaskApi
     {
+        public Mediapipe.Tasks.Core.TaskRunner _taskRunner; // 0x10
+
         // ── Methods ──
         public void get_runningMode(){} // RVA: 0x5BED50
         public void .ctor(){} // RVA: 0x5B57E80

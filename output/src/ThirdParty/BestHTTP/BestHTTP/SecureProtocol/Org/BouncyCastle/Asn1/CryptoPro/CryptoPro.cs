@@ -14,7 +14,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
 
     public class ECGost3410NamedCurves
     {
-        public object P;
+        public System.Collections.IDictionary P;
 
         // ── Methods ──
         public void ConfigureBasepoint(){} // RVA: 0x97BB270
@@ -30,6 +30,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
 
     public class ECGost3410ParamSetParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger q; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger a; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97BDDD0 | overloaded x2
         public void .ctor(){} // RVA: 0x97BE5C0 | overloaded x2
@@ -49,7 +53,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
 
     public class Gost3410NamedParameters
     {
-        public object KeySize;
+        public System.Collections.IDictionary KeySize;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
@@ -62,6 +66,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
 
     public class Gost3410ParamSetParameters
     {
+        public int keySize; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger q; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger a; // 0x28
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97C0010 | overloaded x2
         public void .ctor(){} // RVA: 0x97C0560 | overloaded x2
@@ -74,6 +83,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
 
     public class Gost3410PublicKeyAlgParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97C0A00 | overloaded x2
         public void .ctor(){} // RVA: 0x97C0CB0 | overloaded x3

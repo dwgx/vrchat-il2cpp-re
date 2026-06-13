@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 {
     public class BasicOcspResp
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.BasicOcspResponse resp; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9981270
         public void GetTbsResponseData(){} // RVA: 0x9981350
@@ -31,7 +34,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class BasicOcspRespGenerator
     {
-        public object HashAlgOid;
+        public System.Collections.IList HashAlgOid; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9982660 | overloaded x2
@@ -44,6 +47,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class CertificateID
     {
+        public string HashSha1;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.CertID id; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9984430 | overloaded x2
         public void get_HashAlgOid(){} // RVA: 0x9984650
@@ -85,6 +91,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class OcspReq
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspRequest req; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9985100 | overloaded x4
         public void GetTbsRequest(){} // RVA: 0x9985290
@@ -105,7 +113,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class OcspReqGenerator
     {
-        public object Status;
+        public System.Collections.IList Status; // 0x10
 
         // ── Methods ──
         public void AddRequest(){} // RVA: 0x99861A0 | overloaded x2
@@ -119,6 +127,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class OcspResp
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspResponse resp; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9987630 | overloaded x4
         public void get_Status(){} // RVA: 0x9987750
@@ -136,7 +146,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class OcspUtilities
     {
-        public object SingleRequestExtensions;
+        public System.Collections.IDictionary SingleRequestExtensions;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9987FA0
@@ -149,6 +159,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class Req
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.Request req; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void GetCertID(){} // RVA: 0x9989C30
@@ -158,6 +170,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class RespData
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Version(){} // RVA: 0x9726AE0
@@ -179,9 +193,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class RevokedStatus
     {
-        public object ThisUpdate;
-        public object NextUpdate;
-        public object SingleExtensions;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.RevokedInfo ThisUpdate; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x998A510 | overloaded x2
@@ -192,6 +204,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 
     public class SingleResp
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.SingleResponse resp; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void GetCertID(){} // RVA: 0x998A760

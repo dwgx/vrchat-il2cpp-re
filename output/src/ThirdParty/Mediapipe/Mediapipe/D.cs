@@ -7,6 +7,24 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Detection
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Detection> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int LabelFieldNumber;
+        public Google.Protobuf.FieldCodec`1<string> _repeated_label_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<string> label_; // 0x20
+        public int LabelIdFieldNumber;
+        public Google.Protobuf.FieldCodec`1<int> _repeated_labelId_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<int> labelId_; // 0x28
+        public int ScoreFieldNumber;
+        public Google.Protobuf.FieldCodec`1<float> _repeated_score_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<float> score_; // 0x30
+        public int LocationDataFieldNumber;
+        public Mediapipe.LocationData locationData_; // 0x38
+        public int FeatureTagFieldNumber;
+        public string FeatureTagDefaultValue; // 0x20
+        public string featureTag_; // 0x40
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B0A460
         public void get_Descriptor(){} // RVA: 0x5B0A4C0
@@ -49,6 +67,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DetectionList
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.DetectionList> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Mediapipe.Detection> _repeated_detection_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Mediapipe.Detection> detection_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B0D850
         public void get_Descriptor(){} // RVA: 0x5B0D8B0
@@ -69,6 +92,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DetectionReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B098E0
         public void .cctor(){} // RVA: 0x5B09940
@@ -76,6 +101,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DisposableObject
     {
+        public int _disposeSignaled; // 0x10
+        public bool _isLocked; // 0x14
+
         // ── Methods ──
         public void get_isDisposed(){} // RVA: 0x5992B0
         public void set_isDisposed(){} // RVA: 0x195A9C0

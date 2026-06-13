@@ -10,11 +10,18 @@
 | Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
 | Methods (named) | 478,923 / 528,135 | **90.7%** semantic |
 | Methods (hash remaining) | 49,212 | 9.3% fallback (m_XXX) |
-| Fields | 2,712 / 2,870 typed | runtime extraction pending (main gap) |
+| Fields (typed) | 66,282 / 71,972 | **92.1%** typed (was 2,870 — see note) |
 | cross_version entries | 39,623 | quality-audited |
-| Pipeline runtime | ~33s full run | — |
+| Pipeline runtime | ~27s full run | — |
 
 Naming sources: RVA propagation (15.5K), LLM mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts. A full 122-batch quality audit removed ~13.8K low-confidence predictions (precision over raw coverage). Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run).
+
+**v2.4 — runtime field recovery (25x).** Fields jumped from 2,870 to **71,972** by walking
+live `FieldInfo` → `Il2CppType` from the memory dump. Obfuscated VRChat classes now carry
+real field types (e.g. `VRCPlayer_F618` → `VRC.SDKBase.VRCPlayerApi`,
+`PlayerNet` → `VRC.Core.Networking.PositionEvent`). The extractor lives in a companion
+runtime project; the pipeline folds its `output/field_types.json` in automatically
+(VA-matched) before source generation.
 
 ## Beebyte struct layout (June 5 build)
 

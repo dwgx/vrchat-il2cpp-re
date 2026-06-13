@@ -34,6 +34,19 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
 
     public class AeroplaneController
     {
+        public float m_MaxEnginePower; // 0x20
+        public float m_Lift; // 0x24
+        public float m_ZeroLiftSpeed; // 0x28
+        public float m_RollEffect; // 0x2C
+        public float m_PitchEffect; // 0x30
+        public float m_YawEffect; // 0x34
+        public float m_BankedTurnEffect; // 0x38
+        public float m_AerodynamicEffect; // 0x3C
+        public float m_AutoTurnPitch; // 0x40
+        public float m_AutoRollLevel; // 0x44
+        public float m_AutoPitchLevel; // 0x48
+        public float m_AirBrakesEffect; // 0x4C
+
         // ── Methods ──
         public void get_Altitude(){} // RVA: 0x305FE0
         public void set_Altitude(){} // RVA: 0x305FF0

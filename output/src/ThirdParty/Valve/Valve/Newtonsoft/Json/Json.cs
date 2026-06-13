@@ -30,6 +30,12 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonContainerAttribute
     {
+        public System.Type <ItemConverterType>k__BackingField; // 0x10
+        public object[] <ItemConverterParameters>k__BackingField; // 0x18
+        public Valve.Newtonsoft.Json.Serialization.NamingStrategy <NamingStrategyInstance>k__BackingField; // 0x20
+        public System.Nullable`1<bool> _isReference; // 0x28
+        public System.Nullable`1<bool> _itemIsReference; // 0x2A
+
         // ── Methods ──
         public void get_ItemConverterType(){} // RVA: 0x2F8380
         public void get_ItemConverterParameters(){} // RVA: 0x2E07C0
@@ -41,7 +47,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonConvert
     {
-        public object Stream;
+        public System.Func`1<Valve.Newtonsoft.Json.JsonSerializerSettings> Stream;
 
         // ── Methods ──
         public void get_DefaultSettings(){} // RVA: 0x750CF60
@@ -67,6 +73,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonConverterAttribute
     {
+        public System.Type _converterType; // 0x10
+        public object[] <ConverterParameters>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ConverterType(){} // RVA: 0x2F8380
         public void get_ConverterParameters(){} // RVA: 0x2E07C0
@@ -90,6 +99,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonExtensionDataAttribute
     {
+        public bool <WriteData>k__BackingField; // 0x10
+        public bool <ReadData>k__BackingField; // 0x11
+
         // ── Methods ──
         public void get_WriteData(){} // RVA: 0x3A75E0
         public void get_ReadData(){} // RVA: 0x543460
@@ -103,6 +115,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonObjectAttribute
     {
+        public 0x65964ED0 _memberSerialization; // 0x50
+
         // ── Methods ──
         public void get_MemberSerialization(){} // RVA: 0x59C540
     }
@@ -121,6 +135,12 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonPropertyAttribute
     {
+        public System.Nullable`1<0x65964FD8> _nullValueHandling; // 0x10
+        public System.Nullable`1<0x659642C8> _defaultValueHandling; // 0x18
+        public System.Nullable`1<0x659650E0> _referenceLoopHandling; // 0x20
+        public System.Nullable`1<0x65965030> _objectCreationHandling; // 0x28
+        public System.Nullable`1<0x659651E8> _typeNameHandling; // 0x30
+
         // ── Methods ──
         public void get_ItemConverterType(){} // RVA: 0x37B370
         public void get_ItemConverterParameters(){} // RVA: 0x358D50
@@ -131,6 +151,21 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonReader
     {
+        public 0x65964D70 _tokenType; // 0x10
+        public object _value; // 0x18
+        public char _quoteChar; // 0x20
+        public 0x65964A00 _currentState; // 0x24
+        public Valve.Newtonsoft.Json.JsonPosition _currentPosition; // 0x28
+        public System.Globalization.CultureInfo _culture; // 0x40
+        public 0x65964270 _dateTimeZoneHandling; // 0x48
+        public System.Nullable`1<int> _maxDepth; // 0x4C
+        public bool _hasExceededMaxDepth; // 0x54
+        public 0x65964218 _dateParseHandling; // 0x58
+        public 0x65964378 _floatParseHandling; // 0x5C
+        public string _dateFormatString; // 0x60
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.JsonPosition> _stack; // 0x68
+        public bool <CloseInput>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_CurrentState(){} // RVA: 0xCEF5B0
         public void get_CloseInput(){} // RVA: 0x359320
@@ -197,6 +232,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonReaderException
     {
+        public int <LineNumber>k__BackingField; // 0x90
+        public int <LinePosition>k__BackingField; // 0x94
+        public string <Path>k__BackingField; // 0x98
+
         // ── Methods ──
         public void set_LineNumber(){} // RVA: 0xF02F80
         public void set_LinePosition(){} // RVA: 0x8DF350
@@ -218,6 +257,26 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonSerializer
     {
+        public 0x659651E8 _typeNameHandling; // 0x10
+        public 0x657EE530 _typeNameAssemblyFormat; // 0x14
+        public 0x65965088 _preserveReferencesHandling; // 0x18
+        public 0x659650E0 _referenceLoopHandling; // 0x1C
+        public 0x65964F80 _missingMemberHandling; // 0x20
+        public 0x65965030 _objectCreationHandling; // 0x24
+        public 0x65964FD8 _nullValueHandling; // 0x28
+        public 0x659642C8 _defaultValueHandling; // 0x2C
+        public 0x65964168 _constructorHandling; // 0x30
+        public 0x65964F28 _metadataPropertyHandling; // 0x34
+        public Valve.Newtonsoft.Json.JsonConverterCollection _converters; // 0x38
+        public Valve.Newtonsoft.Json.Serialization.IContractResolver _contractResolver; // 0x40
+        public Valve.Newtonsoft.Json.Serialization.ITraceWriter _traceWriter; // 0x48
+        public System.Collections.IEqualityComparer _equalityComparer; // 0x50
+        public System.Runtime.Serialization.SerializationBinder _binder; // 0x58
+        public System.Runtime.Serialization.StreamingContext _context; // 0x60
+        public Valve.Newtonsoft.Json.Serialization.IReferenceResolver _referenceResolver; // 0x70
+        public System.Nullable`1<0x659643D0> _formatting; // 0x78
+        public System.Nullable`1<0x659641C0> _dateFormatHandling; // 0x80
+
         // ── Methods ──
         public void add_Error(){} // RVA: 0x75150C0
         public void remove_Error(){} // RVA: 0x75151C0
@@ -264,6 +323,25 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonSerializerSettings
     {
+        public System.Runtime.Serialization.StreamingContext DefaultContext;
+        public System.Globalization.CultureInfo DefaultCulture; // 0x10
+        public System.Nullable`1<0x659643D0> _formatting; // 0x10
+        public System.Nullable`1<0x659641C0> _dateFormatHandling; // 0x18
+        public System.Nullable`1<0x65964270> _dateTimeZoneHandling; // 0x20
+        public System.Nullable`1<0x65964218> _dateParseHandling; // 0x28
+        public System.Nullable`1<0x65964320> _floatFormatHandling; // 0x30
+        public System.Nullable`1<0x65964378> _floatParseHandling; // 0x38
+        public System.Nullable`1<0x65965190> _stringEscapeHandling; // 0x40
+        public System.Globalization.CultureInfo _culture; // 0x48
+        public System.Nullable`1<bool> _checkAdditionalContent; // 0x50
+        public System.Nullable`1<int> _maxDepth; // 0x54
+        public bool _maxDepthSet; // 0x5C
+        public string _dateFormatString; // 0x60
+        public bool _dateFormatStringSet; // 0x68
+        public System.Nullable`1<0x657EE530> _typeNameAssemblyFormat; // 0x6C
+        public System.Nullable`1<0x659642C8> _defaultValueHandling; // 0x74
+        public System.Nullable`1<0x65965088> _preserveReferencesHandling; // 0x7C
+
         // ── Methods ──
         public void get_ReferenceLoopHandling(){} // RVA: 0x7518210
         public void get_MissingMemberHandling(){} // RVA: 0x7518270
@@ -291,6 +369,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonTextReader
     {
+        public System.IO.TextReader _reader; // 0x78
+        public char[] _chars; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75188E0
         public void EnsureBufferNotEmpty(){} // RVA: 0x75189C0
@@ -354,6 +435,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonTextWriter
     {
+        public System.IO.TextWriter _writer; // 0x60
+        public Valve.Newtonsoft.Json.Utilities.Base64Encoder _base64Encoder; // 0x68
+
         // ── Methods ──
         public void get_Base64Encoder(){} // RVA: 0x7523A20
         public void get_QuoteChar(){} // RVA: 0x5F98F80
@@ -382,6 +466,19 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonWriter
     {
+        public 0x65964DC8[][] StateArray;
+        public 0x65964DC8[][] StateArrayTempate; // 0x8
+        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.JsonPosition> _stack; // 0x10
+        public Valve.Newtonsoft.Json.JsonPosition _currentPosition; // 0x18
+        public 0x65964DC8 _currentState; // 0x30
+        public 0x659643D0 _formatting; // 0x34
+        public bool <CloseOutput>k__BackingField; // 0x38
+        public 0x659641C0 _dateFormatHandling; // 0x3C
+        public 0x65964270 _dateTimeZoneHandling; // 0x40
+        public 0x65965190 _stringEscapeHandling; // 0x44
+        public 0x65964320 _floatFormatHandling; // 0x48
+        public string _dateFormatString; // 0x50
+
         // ── Methods ──
         public void BuildStateArray(){} // RVA: 0x7526310
         public void .cctor(){} // RVA: 0x7526780
@@ -448,6 +545,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonWriterException
     {
+        public string <Path>k__BackingField; // 0x90
+
         // ── Methods ──
         public void set_Path(){} // RVA: 0xB54600
         public void .ctor(){} // RVA: 0x752B6A0 | overloaded x3

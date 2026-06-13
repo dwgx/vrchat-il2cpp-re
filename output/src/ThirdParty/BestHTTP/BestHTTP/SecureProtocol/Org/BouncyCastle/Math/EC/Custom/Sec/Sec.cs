@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 {
     public class SecP128R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP128R1_DEFAULT_COORDS;
+        public int SECP128R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x947A2D0
         public void CloneCurve(){} // RVA: 0x947A700
@@ -46,6 +50,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP128R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x947CE60
@@ -82,6 +89,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP160K1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP160K1_DEFAULT_COORDS;
+        public int SECP160K1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x947F870
         public void CloneCurve(){} // RVA: 0x947FC10
@@ -109,6 +120,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP160R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP160R1_DEFAULT_COORDS;
+        public int SECP160R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9481B00
         public void CloneCurve(){} // RVA: 0x9481F30
@@ -146,6 +161,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP160R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x9484110
@@ -182,6 +200,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP160R2Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP160R2_DEFAULT_COORDS;
+        public int SECP160R2_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9486AA0
         public void CloneCurve(){} // RVA: 0x9486ED0
@@ -219,6 +241,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP160R2FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x9484110
@@ -255,6 +280,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP192K1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP192K1_DEFAULT_COORDS;
+        public int SECP192K1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x948BA40
         public void CloneCurve(){} // RVA: 0x948BDE0
@@ -292,6 +321,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP192K1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x948DFB0
@@ -328,6 +360,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP192R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP192R1_DEFAULT_COORDS;
+        public int SECP192R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9490950
         public void CloneCurve(){} // RVA: 0x9490D80
@@ -367,6 +403,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP192R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x948DFB0
@@ -403,6 +442,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP224K1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP224K1_DEFAULT_COORDS;
+        public int SECP224K1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9495720
         public void CloneCurve(){} // RVA: 0x9495AC0
@@ -440,6 +483,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP224K1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] PRECOMP_POW2; // 0x8
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x9497CA0
@@ -476,6 +523,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP224R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP224R1_DEFAULT_COORDS;
+        public int SECP224R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x949A810
         public void CloneCurve(){} // RVA: 0x949AC40
@@ -515,6 +566,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP224R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x9497CA0
@@ -556,6 +610,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP256K1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP256K1_DEFAULT_COORDS;
+        public int SECP256K1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94A0420
         public void CloneCurve(){} // RVA: 0x94A07C0
@@ -593,6 +651,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP256K1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94A29B0
@@ -629,6 +690,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP256R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP256R1_DEFAULT_COORDS;
+        public int SECP256R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94A53D0
         public void CloneCurve(){} // RVA: 0x94A5800
@@ -668,6 +733,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP256R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94A29B0
@@ -704,6 +772,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP384R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP384R1_DEFAULT_COORDS;
+        public int SECP384R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94AA230
         public void CloneCurve(){} // RVA: 0x94AA660
@@ -742,6 +814,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP384R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94ACB50
@@ -778,6 +853,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP521R1Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
+        public int SECP521R1_DEFAULT_COORDS;
+        public int SECP521R1_FE_INTS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94AF7A0
         public void CloneCurve(){} // RVA: 0x94AFBD0
@@ -814,6 +893,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecP521R1FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
+        public uint[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsZero(){} // RVA: 0x94B1970
@@ -875,6 +957,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT113FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94B5F80
@@ -911,6 +995,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT113R1Curve
     {
+        public int SECT113R1_DEFAULT_COORDS;
+        public int SECT113R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94B72B0
         public void CloneCurve(){} // RVA: 0x94B7790
@@ -943,6 +1031,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT113R2Curve
     {
+        public int SECT113R2_DEFAULT_COORDS;
+        public int SECT113R2_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94B9AA0
         public void CloneCurve(){} // RVA: 0x94B9F80
@@ -1002,6 +1094,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT131FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94BDE60
@@ -1038,6 +1132,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT131R1Curve
     {
+        public int SECT131R1_DEFAULT_COORDS;
+        public int SECT131R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94BF220
         public void CloneCurve(){} // RVA: 0x94BF720
@@ -1070,6 +1168,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT131R2Curve
     {
+        public int SECT131R2_DEFAULT_COORDS;
+        public int SECT131R2_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94C18D0
         public void CloneCurve(){} // RVA: 0x94C1DD0
@@ -1129,6 +1231,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT163FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94BDE60
@@ -1165,6 +1269,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT163K1Curve
     {
+        public int SECT163K1_DEFAULT_COORDS;
+        public int SECT163K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94C6C80
         public void CloneCurve(){} // RVA: 0x94C70E0
@@ -1198,6 +1306,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT163R1Curve
     {
+        public int SECT163R1_DEFAULT_COORDS;
+        public int SECT163R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94C91B0
         public void CloneCurve(){} // RVA: 0x94C96B0
@@ -1230,6 +1342,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT163R2Curve
     {
+        public int SECT163R2_DEFAULT_COORDS;
+        public int SECT163R2_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94CB860
         public void CloneCurve(){} // RVA: 0x94CBD10
@@ -1289,6 +1405,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT193FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94CF990
@@ -1325,6 +1443,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT193R1Curve
     {
+        public int SECT193R1_DEFAULT_COORDS;
+        public int SECT193R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94D0C10
         public void CloneCurve(){} // RVA: 0x94D10F0
@@ -1357,6 +1479,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT193R2Curve
     {
+        public int SECT193R2_DEFAULT_COORDS;
+        public int SECT193R2_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94D32E0
         public void CloneCurve(){} // RVA: 0x94D37C0
@@ -1416,6 +1542,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT233FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94CF990
@@ -1452,6 +1580,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT233K1Curve
     {
+        public int SECT233K1_DEFAULT_COORDS;
+        public int SECT233K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94D85D0
         public void CloneCurve(){} // RVA: 0x94D8A10
@@ -1485,6 +1617,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT233R1Curve
     {
+        public int SECT233R1_DEFAULT_COORDS;
+        public int SECT233R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94DAB60
         public void CloneCurve(){} // RVA: 0x94DAFF0
@@ -1544,6 +1680,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT239FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94CF990
@@ -1580,6 +1718,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT239K1Curve
     {
+        public int SECT239K1_DEFAULT_COORDS;
+        public int SECT239K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94DFB40
         public void CloneCurve(){} // RVA: 0x94DFF80
@@ -1641,6 +1783,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT283FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94E4120
@@ -1677,6 +1821,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT283K1Curve
     {
+        public int SECT283K1_DEFAULT_COORDS;
+        public int SECT283K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94E5550
         public void CloneCurve(){} // RVA: 0x94E59B0
@@ -1710,6 +1858,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT283R1Curve
     {
+        public int SECT283R1_DEFAULT_COORDS;
+        public int SECT283R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94E7B50
         public void CloneCurve(){} // RVA: 0x94E8000
@@ -1769,6 +1921,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT409FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94EBB00
@@ -1805,6 +1959,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT409K1Curve
     {
+        public int SECT409K1_DEFAULT_COORDS;
+        public int SECT409K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94ECDF0
         public void CloneCurve(){} // RVA: 0x94ED230
@@ -1838,6 +1996,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT409R1Curve
     {
+        public int SECT409R1_DEFAULT_COORDS;
+        public int SECT409R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94EF280
         public void CloneCurve(){} // RVA: 0x94EF710
@@ -1897,6 +2059,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT571FieldElement
     {
+        public ulong[] x; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
         public void get_IsOne(){} // RVA: 0x94F3540
@@ -1933,6 +2097,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT571K1Curve
     {
+        public int SECT571K1_DEFAULT_COORDS;
+        public int SECT571K1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571K1Point m_infinity; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94F4900
         public void CloneCurve(){} // RVA: 0x94F4D60
@@ -1966,6 +2134,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 
     public class SecT571R1Curve
     {
+        public int SECT571R1_DEFAULT_COORDS;
+        public int SECT571R1_FE_LONGS;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571R1Point m_infinity; // 0x58
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571FieldElement SecT571R1_B;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT571FieldElement SecT571R1_B_SQRT; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x94F6DB0
         public void CloneCurve(){} // RVA: 0x94F7230

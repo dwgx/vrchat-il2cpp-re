@@ -47,6 +47,9 @@ public class <LoadDefaultAssets>d__30 : [I
 
 public class <LoadFromDisk>d__20
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0
@@ -72,6 +75,9 @@ public class <LoadLanguage>d__31 : [I
 
 public class <LoadLevel>d__45
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -83,6 +89,9 @@ public class <LoadLevel>d__45
 
 public class <LoadSubtitlesCoroutine>d__286
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
@@ -458,6 +467,9 @@ public class <MaxAwaitWithCancellationAsync>d__7`1 : <>t__builder
 
 public class <MidiEnumerator>d__25
 {
+    public int <>1__state; // 0x10
+    public object <>2__current; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void System.IDisposable.Dispose(){} // RVA: 0x2D71EF0

@@ -7,7 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Debug
     {
-        public object order;
+        public UnityEngine.ILogger order;
+        public UnityEngine.ILogger s_Logger; // 0x8
 
         // ── Methods ──
         public void get_unityLogger(){} // RVA: 0x70C6D00
@@ -46,6 +47,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DefaultExecutionOrder
     {
+        public int m_Order; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E00C0
         public void get_order(){} // RVA: 0x70B92A0
@@ -53,6 +56,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DetailPrototype
     {
+        public UnityEngine.Color DefaultHealthColor;
+
         // ── Methods ──
         public void get_prototype(){} // RVA: 0x33B6D40
         public void .ctor(){} // RVA: 0x725E540
@@ -69,6 +74,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Display
     {
+        public UIntPtr nativeDisplay; // 0x10
+        public UnityEngine.Display[] displays;
+        public UnityEngine.Display _mainDisplay; // 0x8
+        public int m_ActiveEditorGameViewTarget; // 0x10
+        public DisplaysUpdatedDelegate onDisplaysUpdated; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1967700 | overloaded x2
         public void get_renderingWidth(){} // RVA: 0x70D2A30

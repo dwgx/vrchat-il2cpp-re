@@ -41,7 +41,7 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimeClassHandle
     {
-        public object ProxyClass;
+        public MonoClass* ProxyClass; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320 | overloaded x2
@@ -54,7 +54,7 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimeEventHandle
     {
-        public object Value;
+        public UIntPtr Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
@@ -65,6 +65,8 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimeGPtrArrayHandle
     {
+        public GPtrArray* value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
         public void get_Length(){} // RVA: 0x5BF5D50
@@ -76,7 +78,7 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimeGenericParamInfoHandle
     {
-        public object Value;
+        public GenericParamInfo* Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
@@ -99,7 +101,7 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimePropertyHandle
     {
-        public object Length;
+        public UIntPtr Length; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
@@ -110,7 +112,7 @@ namespace ThirdParty.DotNet.Mono
 
     public class RuntimeRemoteClassHandle
     {
-        public object Constraints;
+        public RemoteClass* Constraints; // 0x10
 
         // ── Methods ──
         public void get_ProxyClass(){} // RVA: 0x5BF58F0
@@ -122,6 +124,8 @@ namespace ThirdParty.DotNet.Mono
 
     public class SafeGPtrArrayHandle
     {
+        public Mono.RuntimeGPtrArrayHandle handle; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1B12320
         public void Dispose(){} // RVA: 0x5BF5E40
@@ -131,6 +135,8 @@ namespace ThirdParty.DotNet.Mono
 
     public class SafeStringMarshal : StringToUtf8_icall
     {
+        public string str; // 0x10
+
         // ── Methods ──
         public void StringToUtf8_icall(){} // RVA: 0x5BF61D0
         public void StringToUtf8(){} // RVA: 0x5BF62B0
@@ -142,6 +148,8 @@ namespace ThirdParty.DotNet.Mono
 
     public class SystemCertificateProvider
     {
+        public Mono.Security.Interface.MonoTlsProvider provider;
+
         // ── Methods ──
         public void GetX509Pal(){} // RVA: 0x6680B20
         public void EnsureInitialized(){} // RVA: 0x6680E90
@@ -154,6 +162,10 @@ namespace ThirdParty.DotNet.Mono
 
     public class SystemDependencyProvider
     {
+        public Mono.SystemDependencyProvider instance;
+        public object syncRoot; // 0x8
+        public Mono.SystemCertificateProvider <CertificateProvider>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6681650
         public void Initialize(){} // RVA: 0x66816B0
@@ -196,6 +208,8 @@ namespace ThirdParty.DotNet.Mono
 
     public class X509PalImpl
     {
+        public byte[] signedData;
+
         // ── Methods ──
         public void Import(){} // RVA: 0xCE10 | overloaded x3
         public void PEM(){} // RVA: 0x6681D20

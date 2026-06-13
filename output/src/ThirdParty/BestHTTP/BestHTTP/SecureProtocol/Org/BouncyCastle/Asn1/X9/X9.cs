@@ -7,6 +7,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 {
     public class DHDomainParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger g; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger q; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger j; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.DHValidationParms validationParms; // 0x30
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9710DC0 | overloaded x2
         public void .ctor(){} // RVA: 0x97110E0 | overloaded x2
@@ -21,6 +27,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class DHPublicKey
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger y; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9711790 | overloaded x2
         public void .ctor(){} // RVA: 0x97119A0
@@ -30,6 +38,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class DHValidationParms
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerBitString seed; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger pgenCounter; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9711A70 | overloaded x2
         public void .ctor(){} // RVA: 0x9711DB0 | overloaded x2
@@ -54,6 +65,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class KeySpecificInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString counter; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9713B90 | overloaded x2
         public void get_Algorithm(){} // RVA: 0x2F8380
@@ -63,6 +77,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class OtherInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.KeySpecificInfo keyInfo; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString partyAInfo; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString suppPubInfo; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9713F50 | overloaded x2
         public void get_KeyInfo(){} // RVA: 0x2F8380
@@ -73,6 +91,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X962NamedCurves
     {
+        public System.Collections.IDictionary objIds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void ConfigureBasepoint(){} // RVA: 0x9714690
@@ -88,6 +108,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X962Parameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object _params; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x9719C60
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
@@ -99,6 +121,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9Curve
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve curve; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x971A440 | overloaded x4
         public void get_Curve(){} // RVA: 0x2F8380
@@ -108,6 +132,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9ECParameters
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9FieldID fieldID; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve curve; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECPoint g; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger n; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger h; // 0x30
+        public byte[] seed; // 0x38
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x971B310
         public void .ctor(){} // RVA: 0x971BBC0 | overloaded x6
@@ -124,6 +155,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9ECParametersHolder
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParameters parameters; // 0x10
+
         // ── Methods ──
         public void get_Parameters(){} // RVA: 0x971C750
         public void CreateParameters(){} // RVA: 0xCD60
@@ -132,6 +165,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9ECPoint
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString encoding; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve c; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x971CD60 | overloaded x4
         public void GetPointEncoding(){} // RVA: 0x971CDB0
@@ -142,6 +178,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9FieldElement
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECFieldElement f; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x971D110 | overloaded x3
         public void get_Value(){} // RVA: 0x2F8380
@@ -150,6 +188,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9
 
     public class X9FieldID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier id; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object parameters; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x971DC50 | overloaded x4
         public void GetInstance(){} // RVA: 0x971DDC0

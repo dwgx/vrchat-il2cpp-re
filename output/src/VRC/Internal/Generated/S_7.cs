@@ -317,6 +317,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÍÎÌÌÎÌÌÏÍÏÎÌÌÎÏÏÍÎÍÏÍ</summary>
     public class Static11m_C428
     {
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÏÎÌÏÍÎÏÏÎÏÏÎÍÏÌÏÏÎÏÏÎÍ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ[] <ÎÎÍÎÏÎÌÍÏÎÏÎÌÍÎÌÌÏÌÍÏÌÎ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -372,6 +376,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÍÌÏÍÎÏÍÏÌÌÌÎÍÏÎÏÏÍÍÍÌ</summary>
     public class Static12m_7E88
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÍÏÏÌÎÌÏÎÌÍÎÎÌÍÏÏÏÎÍÌÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -461,6 +468,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÍÏÏÍÌÌÎÍÎÌÏÍÌÏÏÌÍÏÌÎÎ</summary>
     public class Static13m_AF93
     {
+        public string <ÏÏÍÏÌÏÌÍÏÍÌÎÍÌÌÏÏÍÌÍÎÌÎ>k__BackingField; // 0x10
+        public 0x65886FE0 <ÌÌÎÏÎÎÏÍÎÍÎÏÌÌÎÏÎÍÎÍÎÍÏ>k__BackingField; // 0x18
+        public 0x65887038 <ÎÎÌÏÌÏÍÌÍÌÍÍÎÎÏÎÍÍÏÏÍÌÌ>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void set_Priority(){} // RVA: 0x6374E0
         public void get_Count(){} // RVA: 0x197C3B0
@@ -517,6 +528,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÌÎÌÏÎÏÎÎÍÍÌÍÍÎÏÎÏÎÍÌÏ</summary>
     public class Static15m_1E33
     {
+        public UnityEngine.GameObject _countBG; // 0x58
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _titleText; // 0x60
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x8F163F0
         public void ReadRectOffsetState(){} // RVA: 0x8F16540
@@ -793,6 +807,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÍÎÍÍÏÎÎÍÌÍÎÏÏÏÎÌÌÏÌÏÌ</summary>
     public class Static2m_26CD
     {
+        public ÍÌÏÍÏÎÌÍÍÎÌÌÌÌÌÏÏÏÎÍÌÌÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1EEB8C0
         public void m_FA2(){} // RVA: 0x1EEBA90
@@ -801,6 +817,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÌÍÎÎÌÌÍÏÎÍÎÍÍÎÎÍÎÍÎÍÍ</summary>
     public class Static2m_4F9C
     {
+        public ÏÏÏÎÍÍÍÎÌÌÏÎÏÍÏÎÌÎÏÍÎÌÍ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F51620
         public void m_FA2(){} // RVA: 0x1F517F0
@@ -889,6 +907,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÌÏÌÍÍÎÏÌÍÍÎÍÌÎÍÎÌÎÌÎÏ</summary>
     public class Static2m_8586
     {
+        public ÌÌÎÏÏÎÍÌÍÌÌÌÏÌÌÍÍÍÌÍÎÌÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20A38D0
         public void m_FA2(){} // RVA: 0x20A3AA0
@@ -905,6 +925,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÎÍÍÌÍÎÍÎÏÍÏÎÍÎÏÌÏÍÎÌÏ</summary>
     public class Static2m_93D6
     {
+        public ÏÎÌÏÎÎÍÍÏÏÏÍÎÏÌÎÏÍÍÌÍÌÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x2075CD0
         public void m_FA2(){} // RVA: 0x2075EA0
@@ -1030,6 +1052,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÍÎÎÎÍÍÎÌÏÍÍÏÌÌÎÎÏÌÌÏÍ</summary>
     public class Static43m_7678
     {
+        public float ÍÎÎÌÌÎÏÌÎÍÍÏÍÎÎÍÏÍÌÎÍÌÌ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x991860
         public void Update(){} // RVA: 0x991BF0

@@ -22,6 +22,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class NewSessionTicket
     {
+        public long mTicketLifetimeHint; // 0x10
+        public byte[] mTicket; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5D8AEC0
         public void get_TicketLifetimeHint(){} // RVA: 0x2F8380

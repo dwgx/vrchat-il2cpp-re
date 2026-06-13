@@ -22,6 +22,10 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Lifetime
 
     public class Lease
     {
+        public System.DateTime _leaseExpireTime; // 0x18
+        public 0x657EB408 _currentState; // 0x20
+        public System.TimeSpan _initialLeaseTime; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CE47E0
         public void get_CurrentLeaseTime(){} // RVA: 0x5CE4960
@@ -57,6 +61,11 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Lifetime
 
     public class LifetimeServices
     {
+        public System.TimeSpan _leaseManagerPollTime;
+        public System.TimeSpan _leaseTime; // 0x8
+        public System.TimeSpan _renewOnCallTime; // 0x10
+        public System.TimeSpan _sponsorshipTimeout; // 0x18
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x5CE65D0
         public void get_LeaseManagerPollTime(){} // RVA: 0x5CE68C0

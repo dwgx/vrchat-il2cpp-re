@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class P2PSessionConnectFail_t
     {
+        public ulong SteamIDRemote; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CECD0
         public void .cctor(){} // RVA: 0x20CECE0
@@ -14,6 +16,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class P2PSessionRequest_t
     {
+        public ulong SteamIDRemote; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CEBC0
         public void .cctor(){} // RVA: 0x20CEBD0
@@ -21,6 +25,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PSNGameBootInviteResult_t
     {
+        public bool GameBootInviteExists; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CAC00
         public void .cctor(){} // RVA: 0x20CAC10
@@ -28,6 +34,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PersonaStateChange_t
     {
+        public ulong SteamID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C7F70
         public void .cctor(){} // RVA: 0x20C7F80
@@ -35,6 +43,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PlaybackStatusHasChanged_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CF000
         public void .cctor(){} // RVA: 0x20CF010

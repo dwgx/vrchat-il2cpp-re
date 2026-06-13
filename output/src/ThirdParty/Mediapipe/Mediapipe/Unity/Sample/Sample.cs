@@ -7,7 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Sample
 {
     public class AppSettings
     {
-        public object clipCaps;
+        public 0x657056F0 clipCaps; // 0x18
+        public 0x65723F68 _preferableInferenceMode; // 0x1C
+        public 0x65724388 _assetLoaderType; // 0x20
+        public 0x659318E8 _logLevel; // 0x24
 
         // ── Methods ──
         public void set_assetLoaderType(){} // RVA: 0xCEF5B0

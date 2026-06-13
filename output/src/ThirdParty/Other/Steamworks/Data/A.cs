@@ -14,6 +14,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ActiveBeaconsUpdated_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CBAE0
         public void .cctor(){} // RVA: 0x20CBAF0
@@ -21,6 +23,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AddAppDependencyResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1530
         public void .cctor(){} // RVA: 0x20D1540
@@ -28,6 +32,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AddUGCDependencyResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D1310
         public void .cctor(){} // RVA: 0x20D1320
@@ -35,6 +41,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AppProofOfPurchaseKeyResponse_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CE890
         public void .cctor(){} // RVA: 0x20CE8A0
@@ -42,6 +50,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AppResumingFromSuspend_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C9F50
         public void .cctor(){} // RVA: 0x20C9F60
@@ -49,6 +59,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AssociateWithClanResult_t
     {
+        public 0x659B1530 Result; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20D4FA0
         public void .cctor(){} // RVA: 0x20D4FB0
@@ -56,6 +68,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AvailableBeaconLocationsUpdated_t
     {
+        public int _datasize;
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20CB9D0
         public void .cctor(){} // RVA: 0x20CB9E0
@@ -63,6 +77,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AvatarImageLoaded_t
     {
+        public ulong SteamID; // 0x10
+
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x20C85D0
         public void .cctor(){} // RVA: 0x20C85E0

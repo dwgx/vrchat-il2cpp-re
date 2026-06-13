@@ -1,12 +1,677 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core
-// Classes: 50
-// Methods: 971
+// Classes: 90
+// Methods: 1305
 
 namespace VRC.Core
 {
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelContainer`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x38F2770 | overloaded x2
+        public void ValidModelData(){} // RVA: 0x38F27C0
+        public void Validate(){} // RVA: 0x38F2890
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<T> <ResponseModels>k__BackingField;
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0xCD60
+        public void set_ResponseModels(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x24A50
+        public void Validate(){}
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiVRChatSubscription> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.APIGiftBundle> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.FavoriteListModel> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiUserPermission> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiUserIcon> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatarStyle> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.APIGroupMember> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiPurchase> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiTokenBundle> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiInfoPushSystem> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiStoreShelf> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiInventoryItem> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiInventoryBundleDrop> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.APIUser> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiLicense> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiPlayerModeration> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiModeration> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatarModeration> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatar> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatarPart> <ResponseModels>k__BackingField; // 0x68
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiProp> <ResponseModels>k__BackingField; // 0x68
+    }
+
+    public class ApiModelListContainer`1
+    {
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.FavoriteModel> <ResponseModels>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x38F2A40
+        public void Validate(){} // RVA: 0x38F2AC0
+    }
+
+    public class ApiModeration
+    {
+        public float ListCacheTime;
+        public 0x657CAB40 <moderationType>k__BackingField; // 0x68
+        public string <moderatorUserId>k__BackingField; // 0x70
+        public string <moderatorDisplayName>k__BackingField; // 0x78
+        public string <targetUserId>k__BackingField; // 0x80
+        public string <targetDisplayName>k__BackingField; // 0x88
+        public string <reasonMessage>k__BackingField; // 0x90
+        public System.Collections.Generic.Dictionary`2<string,object> <details>k__BackingField; // 0x98
+        public System.DateTime <created>k__BackingField; // 0xA0
+        public System.DateTime <expires>k__BackingField; // 0xA8
+        public System.Nullable`1<0x657CAB98> expiresRange; // 0xB0
+        public bool <isPermanent>k__BackingField; // 0xB8
+
+        // ── Methods ──
+        public void get_moderationType(){} // RVA: 0x1C91440
+        public void set_moderationType(){} // RVA: 0x1C91450
+        public void get_moderatorUserId(){} // RVA: 0x3A5590
+        public void set_moderatorUserId(){} // RVA: 0x3A55A0
+        public void get_moderatorDisplayName(){} // RVA: 0x4C7C50
+        public void set_moderatorDisplayName(){} // RVA: 0x4C34F0
+        public void get_targetUserId(){} // RVA: 0x462D00
+        public void set_targetUserId(){} // RVA: 0x464450
+        public void get_targetDisplayName(){} // RVA: 0x31C010
+        public void set_targetDisplayName(){} // RVA: 0x463060
+        public void get_reasonMessage(){} // RVA: 0x796DE0
+        public void set_reasonMessage(){} // RVA: 0xB54600
+        public void get_details(){} // RVA: 0xA1C8C0
+        public void set_details(){} // RVA: 0x9AA650
+        public void get_created(){} // RVA: 0xA085E0
+        public void set_created(){} // RVA: 0x5FF62E0
+        public void get_expires(){} // RVA: 0xA1C130
+        public void set_expires(){} // RVA: 0x1B6C650
+        public void get_isPermanent(){} // RVA: 0x173F990
+        public void set_isPermanent(){} // RVA: 0x173EC00
+        public void get_worldId(){} // RVA: 0x348120
+        public void set_worldId(){} // RVA: 0x348130
+        public void get_instanceId(){} // RVA: 0x435460
+        public void set_instanceId(){} // RVA: 0x435470
+        public void .ctor(){} // RVA: 0x9893CF0 | overloaded x2
+        public void ShouldCache(){} // RVA: 0x2DD320
+        public void ReadField(){} // RVA: 0x9893D90
+        public void WriteField(){} // RVA: 0x9894210
+        public void SendModeration(){} // RVA: 0x9894440
+        public void SendVoteKick(){} // RVA: 0x9894800
+        public void DeleteModeration(){} // RVA: 0x9894B30
+        public void LocalFetchAll(){} // RVA: 0x9894D50
+        public void ModerationTimeRangeToString(){} // RVA: 0x9895050
+        public void ContestModeration(){} // RVA: 0x98950F0
+    }
+
+    public class ApiModerationResult
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class ApiModerationResultExtensions
+    {
+        // ── Methods ──
+        public void WasModerated(){} // RVA: 0x98BDC80
+        public void GetModerationResult(){} // RVA: 0x98BDCA0
+    }
+
+    public class ApiMutualFriend
+    {
+        public string <displayName>k__BackingField; // 0x68
+        public string <status>k__BackingField; // 0x70
+        public string <statusDescription>k__BackingField; // 0x78
+        public string <currentAvatarImageUrl>k__BackingField; // 0x80
+        public string <avatarThumbnail>k__BackingField; // 0x88
+        public string[] <currentAvatarTags>k__BackingField; // 0x90
+        public string <profilePicOverride>k__BackingField; // 0x98
+        public string <userIcon>k__BackingField; // 0xA0
+        public string <world>k__BackingField; // 0xA8
+        public string <instance>k__BackingField; // 0xB0
+        public string <instanceType>k__BackingField; // 0xB8
+        public string <travelingToWorld>k__BackingField; // 0xC0
+        public string <travelingToInstance>k__BackingField; // 0xC8
+        public string <platform>k__BackingField; // 0xD0
+        public string[] <groups>k__BackingField; // 0xD8
+
+        // ── Methods ──
+        public void get_id(){} // RVA: 0x2F8380
+        public void set_id(){} // RVA: 0x2DEE30
+        public void get_displayName(){} // RVA: 0x358D50
+        public void set_displayName(){} // RVA: 0x358D60
+        public void get_status(){} // RVA: 0x3A5590
+        public void set_status(){} // RVA: 0x3A55A0
+        public void get_statusDescription(){} // RVA: 0x4C7C50
+        public void set_statusDescription(){} // RVA: 0x4C34F0
+        public void get_currentAvatarImageUrl(){} // RVA: 0x462D00
+        public void set_currentAvatarImageUrl(){} // RVA: 0x464450
+        public void get_avatarThumbnail(){} // RVA: 0x31C010
+        public void set_avatarThumbnail(){} // RVA: 0x463060
+        public void get_currentAvatarTags(){} // RVA: 0x796DE0
+        public void set_currentAvatarTags(){} // RVA: 0xB54600
+        public void get_profilePicOverride(){} // RVA: 0xA1C8C0
+        public void set_profilePicOverride(){} // RVA: 0x9AA650
+        public void get_userIcon(){} // RVA: 0xA085E0
+        public void set_userIcon(){} // RVA: 0x9AA5F0
+        public void get_world(){} // RVA: 0xA1C130
+        public void set_world(){} // RVA: 0xAE5030
+        public void get_instance(){} // RVA: 0x348040
+        public void set_instance(){} // RVA: 0x348050
+        public void get_instanceType(){} // RVA: 0x3480B0
+        public void set_instanceType(){} // RVA: 0x3480C0
+        public void get_travelingToWorld(){} // RVA: 0x348120
+        public void set_travelingToWorld(){} // RVA: 0x348130
+        public void get_travelingToInstance(){} // RVA: 0x435460
+        public void set_travelingToInstance(){} // RVA: 0x435470
+        public void get_platform(){} // RVA: 0x3FA100
+        public void set_platform(){} // RVA: 0x3FA110
+        public void get_groups(){} // RVA: 0xA96D30
+        public void set_groups(){} // RVA: 0x35E8A0
+        public void get_profilePicImageUrl(){} // RVA: 0x9929480
+        public void get_profilePicThumbnailImageUrl(){} // RVA: 0x99294A0
+        public void FetchMutualFriendsAsync(){} // RVA: 0x99294D0
+        public void .ctor(){} // RVA: 0x99296A0
+    }
+
+    public class ApiMutualGroup
+    {
+        public string <name>k__BackingField; // 0x68
+        public string <discriminator>k__BackingField; // 0x70
+        public string <ownerId>k__BackingField; // 0x78
+        public string <privacy>k__BackingField; // 0x80
+        public int <memberCount>k__BackingField; // 0x88
+        public string <shortCode>k__BackingField; // 0x90
+        public string <description>k__BackingField; // 0x98
+        public string <bannerId>k__BackingField; // 0xA0
+        public string <bannerUrl>k__BackingField; // 0xA8
+        public string <iconId>k__BackingField; // 0xB0
+        public string <iconUrl>k__BackingField; // 0xB8
+        public string <lastPostCreatedAt>k__BackingField; // 0xC0
+
+        // ── Methods ──
+        public void get_id(){} // RVA: 0x2F8380
+        public void set_id(){} // RVA: 0x2DEE30
+        public void get_name(){} // RVA: 0x358D50
+        public void set_name(){} // RVA: 0x358D60
+        public void get_discriminator(){} // RVA: 0x3A5590
+        public void set_discriminator(){} // RVA: 0x3A55A0
+        public void get_ownerId(){} // RVA: 0x4C7C50
+        public void set_ownerId(){} // RVA: 0x4C34F0
+        public void get_privacy(){} // RVA: 0x462D00
+        public void set_privacy(){} // RVA: 0x464450
+        public void get_memberCount(){} // RVA: 0xBB90C0
+        public void set_memberCount(){} // RVA: 0xBB9E60
+        public void get_shortCode(){} // RVA: 0x796DE0
+        public void set_shortCode(){} // RVA: 0xB54600
+        public void get_description(){} // RVA: 0xA1C8C0
+        public void set_description(){} // RVA: 0x9AA650
+        public void get_bannerId(){} // RVA: 0xA085E0
+        public void set_bannerId(){} // RVA: 0x9AA5F0
+        public void get_bannerUrl(){} // RVA: 0xA1C130
+        public void set_bannerUrl(){} // RVA: 0xAE5030
+        public void get_iconId(){} // RVA: 0x348040
+        public void set_iconId(){} // RVA: 0x348050
+        public void get_iconUrl(){} // RVA: 0x3480B0
+        public void set_iconUrl(){} // RVA: 0x3480C0
+        public void get_lastPostCreatedAt(){} // RVA: 0x348120
+        public void set_lastPostCreatedAt(){} // RVA: 0x348130
+        public void FetchMutualGroupsAsync(){} // RVA: 0x992A380
+        public void .ctor(){} // RVA: 0x992A550
+    }
+
+    public class ApiNotification
+    {
+        public int <version>k__BackingField; // 0x68
+        public 0x657CAEB0 <notificationType>k__BackingField; // 0x6C
+        public string <category>k__BackingField; // 0x70
+        public bool <isSystem>k__BackingField; // 0x78
+        public string <senderUserId>k__BackingField; // 0x80
+        public string <senderUsername>k__BackingField; // 0x88
+        public string <receiverUserId>k__BackingField; // 0x90
+        public string <relatedNotificationsId>k__BackingField; // 0x98
+        public string <title>k__BackingField; // 0xA0
+        public string <titleKey>k__BackingField; // 0xA8
+        public string <message>k__BackingField; // 0xB0
+        public string <messageKey>k__BackingField; // 0xB8
+        public string <imageUrl>k__BackingField; // 0xC0
+        public string <link>k__BackingField; // 0xC8
+        public string <linkText>k__BackingField; // 0xD0
+        public string <linkTextKey>k__BackingField; // 0xD8
+        public object[] <responses>k__BackingField; // 0xE0
+        public System.DateTime <expiresAt>k__BackingField; // 0xE8
+        public System.Nullable`1<int> <expiryAfterSeen>k__BackingField; // 0xF0
+        public bool <seen>k__BackingField; // 0xF8
+        public bool <ignoreDND>k__BackingField; // 0xF9
+        public bool <canDelete>k__BackingField; // 0xFA
+        public System.DateTime <created_at>k__BackingField; // 0x100
+        public System.DateTime <createdAt>k__BackingField; // 0x108
+        public System.DateTime <updatedAt>k__BackingField; // 0x110
+        public System.Collections.Generic.Dictionary`2<string,object> <details>k__BackingField; // 0x118
+        public System.Collections.Generic.Dictionary`2<string,string> <data>k__BackingField; // 0x120
+        public string <jobName>k__BackingField; // 0x128
+        public string <jobColor>k__BackingField; // 0x130
+
+        // ── Methods ──
+        public void get_version(){} // RVA: 0x1C91440
+        public void set_version(){} // RVA: 0x1C91450
+        public void get_notificationType(){} // RVA: 0x1C91460
+        public void set_notificationType(){} // RVA: 0x1C91470
+        public void get_category(){} // RVA: 0x3A5590
+        public void set_category(){} // RVA: 0x3A55A0
+        public void get_isSystem(){} // RVA: 0x8A10E0
+        public void set_isSystem(){} // RVA: 0x1688890
+        public void get_senderUserId(){} // RVA: 0x462D00
+        public void set_senderUserId(){} // RVA: 0x464450
+        public void get_senderUsername(){} // RVA: 0x31C010
+        public void set_senderUsername(){} // RVA: 0x463060
+        public void get_receiverUserId(){} // RVA: 0x796DE0
+        public void set_receiverUserId(){} // RVA: 0xB54600
+        public void get_relatedNotificationsId(){} // RVA: 0xA1C8C0
+        public void set_relatedNotificationsId(){} // RVA: 0x9AA650
+        public void get_title(){} // RVA: 0xA085E0
+        public void set_title(){} // RVA: 0x9AA5F0
+        public void get_titleKey(){} // RVA: 0xA1C130
+        public void set_titleKey(){} // RVA: 0xAE5030
+        public void get_message(){} // RVA: 0x348040
+        public void set_message(){} // RVA: 0x348050
+        public void get_messageKey(){} // RVA: 0x3480B0
+        public void set_messageKey(){} // RVA: 0x3480C0
+        public void get_imageUrl(){} // RVA: 0x348120
+        public void set_imageUrl(){} // RVA: 0x348130
+        public void get_link(){} // RVA: 0x435460
+        public void set_link(){} // RVA: 0x435470
+        public void get_linkText(){} // RVA: 0x3FA100
+        public void set_linkText(){} // RVA: 0x3FA110
+        public void get_linkTextKey(){} // RVA: 0xA96D30
+        public void set_linkTextKey(){} // RVA: 0x35E8A0
+        public void get_responses(){} // RVA: 0x35E900
+        public void set_responses(){} // RVA: 0x35E910
+        public void get_expiresAt(){} // RVA: 0x35E970
+        public void set_expiresAt(){} // RVA: 0x6016310
+        public void get_expiryAfterSeen(){} // RVA: 0x3482A0
+        public void set_expiryAfterSeen(){} // RVA: 0x63CFBB0
+        public void get_seen(){} // RVA: 0x1209D80
+        public void set_seen(){} // RVA: 0x7016FA0
+        public void get_ignoreDND(){} // RVA: 0x339F90
+        public void set_ignoreDND(){} // RVA: 0x339FA0
+        public void get_canDelete(){} // RVA: 0x8B8A2F0
+        public void set_canDelete(){} // RVA: 0x8B89CD0
+        public void get_created_at(){} // RVA: 0xA94E10
+        public void set_created_at(){} // RVA: 0x1702E00
+        public void get_createdAt(){} // RVA: 0xA902E0
+        public void set_createdAt(){} // RVA: 0x507D00
+        public void get_updatedAt(){} // RVA: 0x507710
+        public void set_updatedAt(){} // RVA: 0x63CFC00
+        public void get_details(){} // RVA: 0x507D10
+        public void set_details(){} // RVA: 0x50A8C0
+        public void get_data(){} // RVA: 0x59E660
+        public void set_data(){} // RVA: 0x59F420
+        public void get_jobName(){} // RVA: 0xA8EE80
+        public void set_jobName(){} // RVA: 0xD182E0
+        public void get_jobColor(){} // RVA: 0xA8E870
+        public void set_jobColor(){} // RVA: 0xDA3F70
+        public void .ctor(){} // RVA: 0x98BDF80
+        public void ShouldCache(){} // RVA: 0x2DD320
+        public void ReadField(){} // RVA: 0x98BE020
+        public void WriteField(){} // RVA: 0x98BE260
+    }
+
+    public class ApiPagedTransactions
+    {
+        public System.Collections.Generic.List`1<VRC.Core.ApiTransaction> <Transactions>k__BackingField; // 0x68
+        public int <TotalCount>k__BackingField; // 0x70
+
+        // ── Methods ──
+        public void get_Transactions(){} // RVA: 0x358D50
+        public void set_Transactions(){} // RVA: 0x358D60
+        public void get_TotalCount(){} // RVA: 0x10E5CF0
+        public void set_TotalCount(){} // RVA: 0x475080
+        public void FetchTransactions(){} // RVA: 0x98D2E60
+        public void .ctor(){} // RVA: 0x98D3F60
+    }
+
+    public class ApiPendingTransaction
+    {
+        public string <userId>k__BackingField; // 0x68
+        public string <userDisplayName>k__BackingField; // 0x70
+        public string <targetUserId>k__BackingField; // 0x78
+        public string <targetDisplayName>k__BackingField; // 0x80
+        public string <status>k__BackingField; // 0x88
+        public Pico <pico>k__BackingField; // 0x90
+        public GPlay <gplay>k__BackingField; // 0x98
+        public Subscription <subscription>k__BackingField; // 0xA0
+        public string <created_at>k__BackingField; // 0xA8
+        public string <updated_at>k__BackingField; // 0xB0
+        public bool <isGift>k__BackingField; // 0xB8
+        public bool <isTokens>k__BackingField; // 0xB9
+
+        // ── Methods ──
+        public void get_userId(){} // RVA: 0x358D50
+        public void set_userId(){} // RVA: 0x358D60
+        public void get_userDisplayName(){} // RVA: 0x3A5590
+        public void set_userDisplayName(){} // RVA: 0x3A55A0
+        public void get_targetUserId(){} // RVA: 0x4C7C50
+        public void set_targetUserId(){} // RVA: 0x4C34F0
+        public void get_targetDisplayName(){} // RVA: 0x462D00
+        public void set_targetDisplayName(){} // RVA: 0x464450
+        public void get_status(){} // RVA: 0x31C010
+        public void set_status(){} // RVA: 0x463060
+        public void get_pico(){} // RVA: 0x796DE0
+        public void set_pico(){} // RVA: 0xB54600
+        public void get_gplay(){} // RVA: 0xA1C8C0
+        public void set_gplay(){} // RVA: 0x9AA650
+        public void get_subscription(){} // RVA: 0xA085E0
+        public void set_subscription(){} // RVA: 0x9AA5F0
+        public void get_created_at(){} // RVA: 0xA1C130
+        public void set_created_at(){} // RVA: 0xAE5030
+        public void get_updated_at(){} // RVA: 0x348040
+        public void set_updated_at(){} // RVA: 0x348050
+        public void get_isGift(){} // RVA: 0x173F990
+        public void set_isGift(){} // RVA: 0x173EC00
+        public void get_isTokens(){} // RVA: 0x38EED40
+        public void set_isTokens(){} // RVA: 0x38EED50
+        public void .ctor(){} // RVA: 0x98F3090
+    }
+
+    public class ApiPlayerModeration
+    {
+        public float ListCacheTime;
+        public 0x657CAF60 <moderationType>k__BackingField; // 0x68
+        public string <targetUserId>k__BackingField; // 0x70
+        public string <targetDisplayName>k__BackingField; // 0x78
+        public string <sourceUserId>k__BackingField; // 0x80
+        public string <sourceDisplayName>k__BackingField; // 0x88
+
+        // ── Methods ──
+        public void get_moderationType(){} // RVA: 0x1C91440
+        public void set_moderationType(){} // RVA: 0x1C91450
+        public void get_targetUserId(){} // RVA: 0x3A5590
+        public void set_targetUserId(){} // RVA: 0x3A55A0
+        public void get_targetDisplayName(){} // RVA: 0x4C7C50
+        public void set_targetDisplayName(){} // RVA: 0x4C34F0
+        public void get_sourceUserId(){} // RVA: 0x462D00
+        public void set_sourceUserId(){} // RVA: 0x464450
+        public void get_sourceDisplayName(){} // RVA: 0x31C010
+        public void set_sourceDisplayName(){} // RVA: 0x463060
+        public void get_created(){} // RVA: 0x796DE0
+        public void set_created(){} // RVA: 0x1CBA190
+        public void .ctor(){} // RVA: 0x98BE3B0
+        public void CreateRemovalModeration(){} // RVA: 0x98BE470
+        public void ShouldCache(){} // RVA: 0x2DD320
+        public void ReadField(){} // RVA: 0x98BE530
+        public void WriteField(){} // RVA: 0x98BE730
+        public void SendModeration(){} // RVA: 0x98BE910
+        public void DeleteModeration(){} // RVA: 0x98BEB50
+        public void FetchAllAgainstMe(){} // RVA: 0x98BF110
+        public void FetchAllMine(){} // RVA: 0x98BF160
+        public void FetchList(){} // RVA: 0x98BF1B0
+        public void ModerationTypeToAPIString(){} // RVA: 0x98BF490
+    }
+
     public class ApiPortalSkin
     {
+        public string <name>k__BackingField; // 0x68
+        public string <assetBundleId>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x358D50
         public void set_name(){} // RVA: 0x358D60
@@ -17,6 +682,10 @@ namespace VRC.Core
 
     public class ApiPotentialHypeTrainInfo
     {
+        public int <currentGiftCount>k__BackingField; // 0x68
+        public int <minGiftsToStart>k__BackingField; // 0x6C
+        public System.DateTime <endDate>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_currentGiftCount(){} // RVA: 0x1C91440
         public void set_currentGiftCount(){} // RVA: 0x1C91450
@@ -29,6 +698,16 @@ namespace VRC.Core
 
     public class ApiPrint
     {
+        public string <note>k__BackingField; // 0x68
+        public string <authorId>k__BackingField; // 0x70
+        public string <authorName>k__BackingField; // 0x78
+        public string <worldId>k__BackingField; // 0x80
+        public string <worldName>k__BackingField; // 0x88
+        public string <ownerId>k__BackingField; // 0x90
+        public System.DateTime <timestamp>k__BackingField; // 0x98
+        public PrintFile <files>k__BackingField; // 0xA0
+        public System.DateTime <createdAt>k__BackingField; // 0xA8
+
         // ── Methods ──
         public void get_note(){} // RVA: 0x358D50
         public void set_note(){} // RVA: 0x358D60
@@ -59,6 +738,60 @@ namespace VRC.Core
 
     public class ApiProduct
     {
+        public 0x657CFDC0 <Type>k__BackingField; // 0x68
+        public System.DateTime <CreatedAt>k__BackingField; // 0x70
+        public System.DateTime <UpdatedAt>k__BackingField; // 0x78
+        public string <SellerId>k__BackingField; // 0x80
+        public string <AvatarId>k__BackingField; // 0x88
+        public string <SellerDisplayName>k__BackingField; // 0x90
+        public string <Name>k__BackingField; // 0x98
+        public string <Description>k__BackingField; // 0xA0
+        public string <Subtitle>k__BackingField; // 0xA8
+        public string <ProductImageId>k__BackingField; // 0xB0
+        public VRC.Core.ApiProductAttribution <attribution>k__BackingField; // 0xB8
+        public string <LicenseId>k__BackingField; // 0xC0
+        public System.Collections.Generic.List`1<string> <Tags>k__BackingField; // 0xC8
+        public bool <SoldByVrc>k__BackingField; // 0xD0
+        public System.DateTime <UntilDate>k__BackingField; // 0xD8
+        public System.Collections.Generic.Dictionary`2<string,object> <PurchaseToken>k__BackingField; // 0xE0
+        public bool <IsVoided>k__BackingField; // 0xE8
+        public System.Collections.Generic.List`1<string> <ParentListings>k__BackingField; // 0xF0
+        public string <ProductTypeLabel>k__BackingField; // 0xF8
+        public bool <Quantifiable>k__BackingField; // 0x100
+        public string <GroupId>k__BackingField; // 0x108
+        public string <GroupRoleId>k__BackingField; // 0x110
+        public bool <GroupAccess>k__BackingField; // 0x118
+        public bool <GroupAccessRemove>k__BackingField; // 0x119
+        public string <InventoryItemTemplateId>k__BackingField; // 0x120
+        public string <InventoryItemType>k__BackingField; // 0x128
+        public int <InventoryItemQuantity>k__BackingField; // 0x130
+        public bool <AssetDisabled>k__BackingField; // 0x134
+        public string <ListingID>k__BackingField; // 0x138
+        public 0x657CFE18 <ListingType>k__BackingField; // 0x140
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> <Products>k__BackingField; // 0x148
+        public System.Collections.Generic.List`1<string> <ProductIDs>k__BackingField; // 0x150
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> <HydratedProducts>k__BackingField; // 0x158
+        public bool <Active>k__BackingField; // 0x160
+        public bool <SubscriberExclusive>k__BackingField; // 0x161
+        public int <Price>k__BackingField; // 0x164
+        public int <VrcPlusDiscountPrice>k__BackingField; // 0x168
+        public System.DateTime <AvailableToPurchaseUntilDate>k__BackingField; // 0x170
+        public string <CollaboratorUserId>k__BackingField; // 0x178
+        public string <CollaboratorUserDisplayName>k__BackingField; // 0x180
+        public System.Nullable`1<int> <Stock>k__BackingField; // 0x188
+        public System.Collections.Generic.List`1<string> <StoreIDs>k__BackingField; // 0x190
+        public int <Duration>k__BackingField; // 0x198
+        public 0x657CFE70 <DurationType>k__BackingField; // 0x19C
+        public bool <Archived>k__BackingField; // 0x1A0
+        public bool <Permanent>k__BackingField; // 0x1A1
+        public bool <Instant>k__BackingField; // 0x1A2
+        public bool <Stackable>k__BackingField; // 0x1A3
+        public bool <Recurrable>k__BackingField; // 0x1A4
+        public bool <Refundable>k__BackingField; // 0x1A5
+        public bool <BuyerRefundable>k__BackingField; // 0x1A6
+        public bool <ContextPreventsPurchase>k__BackingField; // 0x1A7
+        public System.Collections.Generic.List`1<VRC.Core.ApiProductVariant> <ListingVariants>k__BackingField; // 0x1A8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98C1470
         public void get_Type(){} // RVA: 0x1C91440
@@ -179,6 +912,10 @@ namespace VRC.Core
 
     public class ApiProductAttribution
     {
+        public VRC.Core.ApiProductCreator <creator>k__BackingField; // 0x68
+        public VRC.Core.ApiProductPublisher <publisher>k__BackingField; // 0x70
+        public string <collaborationId>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_creator(){} // RVA: 0x358D50
         public void set_creator(){} // RVA: 0x358D60
@@ -191,6 +928,9 @@ namespace VRC.Core
 
     public class ApiProductCreator
     {
+        public string <userId>k__BackingField; // 0x68
+        public string <customName>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_userId(){} // RVA: 0x358D50
         public void set_userId(){} // RVA: 0x358D60
@@ -201,6 +941,9 @@ namespace VRC.Core
 
     public class ApiProductPublisher
     {
+        public string <userId>k__BackingField; // 0x68
+        public string <customName>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_userId(){} // RVA: 0x358D50
         public void set_userId(){} // RVA: 0x358D60
@@ -211,6 +954,10 @@ namespace VRC.Core
 
     public class ApiProductPurchaseStatus
     {
+        public string <ProductId>k__BackingField; // 0x68
+        public string <LicenseId>k__BackingField; // 0x70
+        public System.DateTime <Expiry>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_ProductId(){} // RVA: 0x358D50
         public void set_ProductId(){} // RVA: 0x358D60
@@ -224,6 +971,12 @@ namespace VRC.Core
 
     public class ApiProductVariant
     {
+        public string <ListingVariantID>k__BackingField; // 0x68
+        public int <Quantity>k__BackingField; // 0x70
+        public int <UnitPriceTokens>k__BackingField; // 0x74
+        public bool <NonRefundable>k__BackingField; // 0x78
+        public System.DateTime <EffectiveFrom>k__BackingField; // 0x80
+
         // ── Methods ──
         public void get_ListingVariantID(){} // RVA: 0x358D50
         public void set_ListingVariantID(){} // RVA: 0x358D60
@@ -240,6 +993,15 @@ namespace VRC.Core
 
     public class ApiProp
     {
+        public System.DateTime <_created_at>k__BackingField; // 0xD8
+        public System.DateTime <_updated_at>k__BackingField; // 0xE0
+        public System.Collections.Generic.List`1<UnityPackage> <unityPackages>k__BackingField; // 0xE8
+        public int <spawnType>k__BackingField; // 0xF0
+        public int <worldPlacementMask>k__BackingField; // 0xF4
+        public int <kind>k__BackingField; // 0xF8
+        public bool <scaleWithAvatar>k__BackingField; // 0xFC
+        public string PropsEndpoint;
+
         // ── Methods ──
         public void get__created_at(){} // RVA: 0xA96D30
         public void set__created_at(){} // RVA: 0x9863DD0
@@ -267,6 +1029,10 @@ namespace VRC.Core
 
     public class ApiPropItemMetadata
     {
+        public string <propId>k__BackingField; // 0x68
+        public int <worldPlacementMask>k__BackingField; // 0x70
+        public int <kind>k__BackingField; // 0x74
+
         // ── Methods ──
         public void get_propId(){} // RVA: 0x358D50
         public void set_propId(){} // RVA: 0x358D60
@@ -279,6 +1045,85 @@ namespace VRC.Core
 
     public class ApiPurchase
     {
+        public string <ListingId>k__BackingField; // 0x68
+        public string <ListingDisplayName>k__BackingField; // 0x70
+        public string <ListingImageId>k__BackingField; // 0x78
+        public 0x657CFE18 <ListingType>k__BackingField; // 0x80
+        public string <ListingVariantId>k__BackingField; // 0x88
+        public string <SellerId>k__BackingField; // 0x90
+        public string <SellerDisplayName>k__BackingField; // 0x98
+        public string <BuyerId>k__BackingField; // 0xA0
+        public string <BuyerDisplayName>k__BackingField; // 0xA8
+        public string <ReceiverId>k__BackingField; // 0xB0
+        public string <ReceiverDisplayName>k__BackingField; // 0xB8
+        public int <Price>k__BackingField; // 0xC0
+        public int <Quantity>k__BackingField; // 0xC4
+        public int <Duration>k__BackingField; // 0xC8
+        public 0x657CFE70 <DurationType>k__BackingField; // 0xCC
+        public System.DateTime <PurchaseDate>k__BackingField; // 0xD0
+        public System.DateTime <PurchaseStartDate>k__BackingField; // 0xD8
+        public System.DateTime <PurchaseEndDate>k__BackingField; // 0xE0
+        public bool <PurchaseActive>k__BackingField; // 0xE8
+        public bool <PurchaseLatest>k__BackingField; // 0xE9
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> <Products>k__BackingField; // 0xF0
+        public bool <IsStackable>k__BackingField; // 0xF8
+        public bool <IsRecurrable>k__BackingField; // 0xF9
+        public System.Collections.Generic.Dictionary`2<string,object> <PurchaseToken>k__BackingField; // 0x100
+        public bool <IsVoided>k__BackingField; // 0x108
+        public bool <IsGift>k__BackingField; // 0x109
+        public int <PurchaseUnitPrice>k__BackingField; // 0x10C
+        public bool <IsRefundable>k__BackingField; // 0x110
+        public string <StackDurationType>k__BackingField; // 0x118
+        public int <StackDuration>k__BackingField; // 0x120
+        public int <StackPrice>k__BackingField; // 0x124
+        public int <StackQuantity>k__BackingField; // 0x128
+        public int <StackQuantityConsumed>k__BackingField; // 0x12C
+        public int <StackQuantityConsumedAtPurchase>k__BackingField; // 0x130
+        public int <StackQuantityUnconsumed>k__BackingField; // 0x134
+        public int <StackQuantityUnconsumedAtPurchase>k__BackingField; // 0x138
+        public string <TiliaTransactionId>k__BackingField; // 0x140
+        public bool <WillRecur>k__BackingField; // 0x148
+        public bool <ListingCurrentlyAvailable>k__BackingField; // 0x149
+        public System.DateTime <CreatedAtDate>k__BackingField; // 0x150
+        public string <PurchaseID>k__BackingField; // 0x158
+        public System.DateTime <UpdatedAtDate>k__BackingField; // 0x160
+        public System.DateTime <PurchaseOriginalEndDate>k__BackingField; // 0x168
+        public string <BuyerIP>k__BackingField; // 0x170
+        public bool <IsRecur>k__BackingField; // 0x178
+        public bool <IsUnityLocalTest>k__BackingField; // 0x179
+        public string <LicenseID>k__BackingField; // 0x180
+        public System.Collections.Generic.List`1<string> <PurchaseStacks>k__BackingField; // 0x188
+        public int <PurchaseTiliaFee>k__BackingField; // 0x190
+        public string <PurchaseType>k__BackingField; // 0x198
+        public int <PurchaseValue>k__BackingField; // 0x1A0
+        public int <PurchaseVrcFee>k__BackingField; // 0x1A4
+        public string <RefundStatus>k__BackingField; // 0x1A8
+        public string <SellerIP>k__BackingField; // 0x1B0
+        public int <StackTiliaFee>k__BackingField; // 0x1B8
+        public int <StackValue>k__BackingField; // 0x1BC
+        public int <StackVrcFee>k__BackingField; // 0x1C0
+        public bool <StackQuantityVoided>k__BackingField; // 0x1C4
+        public string <VoidedBy>k__BackingField; // 0x1C8
+        public bool <VoidedByAdmin>k__BackingField; // 0x1D0
+        public System.DateTime <VoidedOnDate>k__BackingField; // 0x1D8
+        public int <PurchaseTiliaFeeBasedOnStack>k__BackingField; // 0x1E0
+        public int <PurchaseTiliaFeeDrift>k__BackingField; // 0x1E4
+        public int <PurchaseVrcFeeBasedOnStack>k__BackingField; // 0x1E8
+        public bool <Refunded>k__BackingField; // 0x1EC
+        public string <RefundedBy>k__BackingField; // 0x1F0
+        public bool <RefundedByAdmin>k__BackingField; // 0x1F8
+        public System.DateTime <RefundedOnDate>k__BackingField; // 0x200
+        public System.Collections.Generic.List`1<string> <RefundedStacks>k__BackingField; // 0x208
+        public string <RefundReason>k__BackingField; // 0x210
+        public string <RefundReasonType>k__BackingField; // 0x218
+        public string <RefundTiliaTransactionId>k__BackingField; // 0x220
+        public object <RefundTokenComponents>k__BackingField; // 0x228
+        public int <RefundTokens>k__BackingField; // 0x230
+        public object <RefundTokenSources>k__BackingField; // 0x238
+        public string <RefundType>k__BackingField; // 0x240
+        public System.Collections.Generic.List`1<string> <VoidedStacks>k__BackingField; // 0x248
+        public bool <VoidedCompletely>k__BackingField; // 0x250
+
         // ── Methods ──
         public void get_ListingId(){} // RVA: 0x358D50
         public void set_ListingId(){} // RVA: 0x358D60
@@ -450,6 +1295,11 @@ namespace VRC.Core
 
     public class ApiPurchaseCancelSubscriptionInfo
     {
+        public int <RefundableAmount>k__BackingField; // 0x68
+        public int <NonRefundableAmount>k__BackingField; // 0x6C
+        public int <TotalStacksToCancel>k__BackingField; // 0x70
+        public System.DateTime <NewExpirationDate>k__BackingField; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98C6BC0
         public void get_RefundableAmount(){} // RVA: 0x1C91440
@@ -464,6 +1314,10 @@ namespace VRC.Core
 
     public class ApiPurchaseSubscriptionCancelledInfo
     {
+        public int <AmountRefunded>k__BackingField; // 0x68
+        public int <TotalStacksCancelled>k__BackingField; // 0x6C
+        public System.DateTime <NewExpirationDate>k__BackingField; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98C6C10
         public void get_AmountRefunded(){} // RVA: 0x1C91440
@@ -476,6 +1330,15 @@ namespace VRC.Core
 
     public class ApiReport
     {
+        public string <type>k__BackingField; // 0x68
+        public string <category>k__BackingField; // 0x70
+        public string <reason>k__BackingField; // 0x78
+        public string <contentId>k__BackingField; // 0x80
+        public string <description>k__BackingField; // 0x88
+        public VRC.Core.ApiReportDetails <details>k__BackingField; // 0x90
+        public string <contentName>k__BackingField; // 0x98
+        public string <contentThumbnailImageUrl>k__BackingField; // 0xA0
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x358D50
         public void set_type(){} // RVA: 0x358D60
@@ -501,6 +1364,15 @@ namespace VRC.Core
 
     public class ApiReportDetails
     {
+        public System.Collections.Generic.List`1<string> <suggestedWarnings>k__BackingField; // 0x68
+        public string <instanceType>k__BackingField; // 0x70
+        public System.Nullable`1<bool> <instanceAgeGated>k__BackingField; // 0x78
+        public System.Nullable`1<bool> <userInSameInstance>k__BackingField; // 0x7A
+        public string <imageType>k__BackingField; // 0x80
+        public string <fileId>k__BackingField; // 0x88
+        public string <holderId>k__BackingField; // 0x90
+        public string <targetUserId>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_suggestedWarnings(){} // RVA: 0x358D50
         public void set_suggestedWarnings(){} // RVA: 0x358D60
@@ -523,6 +1395,9 @@ namespace VRC.Core
 
     public class ApiReportResponse
     {
+        public bool <evidenceRequired>k__BackingField; // 0x68
+        public bool <supportRequired>k__BackingField; // 0x69
+
         // ── Methods ──
         public void get_evidenceRequired(){} // RVA: 0x3A5570
         public void set_evidenceRequired(){} // RVA: 0x3A5580
@@ -533,6 +1408,10 @@ namespace VRC.Core
 
     public class ApiReportsContainer
     {
+        public bool <hasNext>k__BackingField; // 0x68
+        public System.Collections.Generic.List`1<VRC.Core.ApiReport> <results>k__BackingField; // 0x70
+        public int <totalCount>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_hasNext(){} // RVA: 0x3A5570
         public void set_hasNext(){} // RVA: 0x3A5580
@@ -545,6 +1424,9 @@ namespace VRC.Core
 
     public class ApiSearchGroupResults
     {
+        public System.Collections.Generic.List`1<VRC.Core.APIGroup> <results>k__BackingField; // 0x68
+        public int <totalCount>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_results(){} // RVA: 0x358D50
         public void set_results(){} // RVA: 0x358D60
@@ -555,6 +1437,9 @@ namespace VRC.Core
 
     public class ApiSearchUserResults
     {
+        public System.Collections.Generic.List`1<VRC.Core.APIUser> <results>k__BackingField; // 0x68
+        public int <totalCount>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_results(){} // RVA: 0x358D50
         public void set_results(){} // RVA: 0x358D60
@@ -565,6 +1450,9 @@ namespace VRC.Core
 
     public class ApiSearchWorldResults
     {
+        public System.Collections.Generic.List`1<VRC.Core.ApiWorld> <results>k__BackingField; // 0x68
+        public int <totalCount>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_results(){} // RVA: 0x358D50
         public void set_results(){} // RVA: 0x358D60
@@ -575,6 +1463,10 @@ namespace VRC.Core
 
     public class ApiSharedConnectionCounts
     {
+        public float DefaultCacheLifetime;
+        public int <friends>k__BackingField; // 0x68
+        public int <groups>k__BackingField; // 0x6C
+
         // ── Methods ──
         public void get_CacheLifetime(){} // RVA: 0x992B230
         public void get_friends(){} // RVA: 0x1C91440
@@ -588,6 +1480,10 @@ namespace VRC.Core
 
     public class ApiSteamVRChatFinalizeTransactionResponse
     {
+        public string <status>k__BackingField; // 0x70
+        public VRC.Core.ApiJweToken <giftValidationToken>k__BackingField; // 0x78
+        public VRC.Core.ApiVRChatSubscriptionDetails <subscription>k__BackingField; // 0x80
+
         // ── Methods ──
         public void get_status(){} // RVA: 0x3A5590
         public void set_status(){} // RVA: 0x3A55A0
@@ -600,6 +1496,12 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionSteamTransaction
     {
+        public VRC.Core.ApiSteamVRChatSubscriptionWalletInformation <walletInfo>k__BackingField; // 0x68
+        public string <steamId>k__BackingField; // 0x70
+        public string <orderId>k__BackingField; // 0x78
+        public string <steamUrl>k__BackingField; // 0x80
+        public string <transId>k__BackingField; // 0x88
+
         // ── Methods ──
         public void get_walletInfo(){} // RVA: 0x358D50
         public void set_walletInfo(){} // RVA: 0x358D60
@@ -616,6 +1518,13 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionTransaction
     {
+        public string <status>k__BackingField; // 0x70
+        public VRC.Core.ApiVRChatSubscription <subscription>k__BackingField; // 0x78
+        public bool <sandbox>k__BackingField; // 0x80
+        public string <created_at>k__BackingField; // 0x88
+        public string <updated_at>k__BackingField; // 0x90
+        public VRC.Core.ApiSteamVRChatSubscriptionSteamTransaction <steam>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_status(){} // RVA: 0x3A5590
         public void set_status(){} // RVA: 0x3A55A0
@@ -634,6 +1543,11 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionWalletInformation
     {
+        public string <state>k__BackingField; // 0x68
+        public string <country>k__BackingField; // 0x70
+        public string <currency>k__BackingField; // 0x78
+        public string <status>k__BackingField; // 0x80
+
         // ── Methods ──
         public void get_state(){} // RVA: 0x358D50
         public void set_state(){} // RVA: 0x358D60
@@ -648,6 +1562,22 @@ namespace VRC.Core
 
     public class ApiStoreShelf
     {
+        public string <ShelfTitle>k__BackingField; // 0x68
+        public string <ShelfDescription>k__BackingField; // 0x70
+        public string <ShelfLayout>k__BackingField; // 0x78
+        public System.DateTime <UpdatedAt>k__BackingField; // 0x80
+        public System.DateTime <CreatedAt>k__BackingField; // 0x88
+        public System.Collections.Generic.List`1<string> <ListingIds>k__BackingField; // 0x90
+        public string <ShelfVisibility>k__BackingField; // 0x98
+        public string <StoreId>k__BackingField; // 0xA0
+        public string <SellerId>k__BackingField; // 0xA8
+        public string <HighlightListingId>k__BackingField; // 0xB0
+        public string <ShelfTabBackgroundImageId>k__BackingField; // 0xB8
+        public string <ShelfBackgroundImageId>k__BackingField; // 0xC0
+        public string <ShelfIconImageId>k__BackingField; // 0xC8
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> <Listings>k__BackingField; // 0xD0
+        public VRC.Core.ApiProduct <HighlightListing>k__BackingField; // 0xD8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9925A40
         public void get_ShelfTitle(){} // RVA: 0x358D50
@@ -703,6 +1633,15 @@ namespace VRC.Core
 
     public class ApiTokenBundle
     {
+        public int <steamItemId>k__BackingField; // 0x68
+        public string <oculusSku>k__BackingField; // 0x70
+        public string <googleProductId>k__BackingField; // 0x78
+        public string <picoSku>k__BackingField; // 0x80
+        public int <amount>k__BackingField; // 0x88
+        public string <description>k__BackingField; // 0x90
+        public int <tokens>k__BackingField; // 0x98
+        public string <imageUrl>k__BackingField; // 0xA0
+
         // ── Methods ──
         public void get_steamItemId(){} // RVA: 0x1C91440
         public void set_steamItemId(){} // RVA: 0x1C91450
@@ -726,6 +1665,8 @@ namespace VRC.Core
 
     public class ApiTokenPurchase
     {
+        public System.DateTime <PurchaseDate>k__BackingField; // 0xA8
+
         // ── Methods ──
         public void get_PurchaseDate(){} // RVA: 0xA1C130
         public void set_PurchaseDate(){} // RVA: 0x1B6C650
@@ -734,6 +1675,21 @@ namespace VRC.Core
 
     public class ApiTransaction
     {
+        public string <ListingID>k__BackingField; // 0x68
+        public string <Name>k__BackingField; // 0x70
+        public string <SellerId>k__BackingField; // 0x78
+        public string <FromUserDisplayName>k__BackingField; // 0x80
+        public string <SellerDisplayName>k__BackingField; // 0x88
+        public string <BuyerId>k__BackingField; // 0x90
+        public string <BuyerDisplayName>k__BackingField; // 0x98
+        public string <Type>k__BackingField; // 0xA0
+        public System.DateTime <Date>k__BackingField; // 0xA8
+        public int <Amount>k__BackingField; // 0xB0
+        public int <RunningBalance>k__BackingField; // 0xB4
+        public string <ImageId>k__BackingField; // 0xB8
+        public string <PurchaseId>k__BackingField; // 0xC0
+        public string <TiliaRef>k__BackingField; // 0xC8
+
         // ── Methods ──
         public void get_ListingID(){} // RVA: 0x358D50
         public void set_ListingID(){} // RVA: 0x358D60
@@ -779,6 +1735,10 @@ namespace VRC.Core
 
     public class ApiUserPermission
     {
+        public string <ownerId>k__BackingField; // 0x68
+        public string <name>k__BackingField; // 0x70
+        public System.Collections.Generic.Dictionary`2<string,object> <data>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_ownerId(){} // RVA: 0x358D50
         public void set_ownerId(){} // RVA: 0x358D60
@@ -809,6 +1769,8 @@ namespace VRC.Core
 
     public class ApiUserPlatformList
     {
+        public System.Collections.Generic.List`1<string> <platforms>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_platforms(){} // RVA: 0x358D50
         public void set_platforms(){} // RVA: 0x358D60
@@ -817,8 +1779,8 @@ namespace VRC.Core
 
     public class ApiUserPlatforms
     {
-        public object platforms;
-        public object set_name;
+        public 0x657CA5C0 platforms; // 0x10
+        public VRC.Core.ApiUserPlatforms set_name;
 
         // ── Methods ──
         public void get_platforms(){} // RVA: 0x32A5C0
@@ -835,6 +1797,11 @@ namespace VRC.Core
 
     public class ApiVRChatAdminSubscriptionTransaction
     {
+        public string <userId>k__BackingField; // 0x70
+        public string <adminUserId>k__BackingField; // 0x78
+        public string <expiry>k__BackingField; // 0x80
+        public VRC.Core.ApiVRChatSubscription <subscription>k__BackingField; // 0x88
+
         // ── Methods ──
         public void get_userId(){} // RVA: 0x3A5590
         public void set_userId(){} // RVA: 0x3A55A0
@@ -849,6 +1816,8 @@ namespace VRC.Core
 
     public class ApiVRChatGiftTransactionResponse
     {
+        public VRC.Core.ApiJweToken <giftValidationToken>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_giftValidationToken(){} // RVA: 0x3A5590
         public void set_giftValidationToken(){} // RVA: 0x3A55A0
@@ -857,6 +1826,16 @@ namespace VRC.Core
 
     public class ApiVRChatProductDetails
     {
+        public bool <enabled>k__BackingField; // 0x68
+        public string <productType>k__BackingField; // 0x70
+        public System.Nullable`1<0x657CE5B0> productTypeEnum; // 0x78
+        public string <endpoint>k__BackingField; // 0x80
+        public System.Collections.Generic.Dictionary`2<string,ApiVRChatProductStore> <stores>k__BackingField; // 0x88
+        public Info <subscriptionInfo>k__BackingField; // 0x90
+        public GiftInfo <giftInfo>k__BackingField; // 0x98
+        public TokenInfo <tokenInfo>k__BackingField; // 0xA0
+        public string <description>k__BackingField; // 0xA8
+
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x3A5570
         public void set_enabled(){} // RVA: 0x3A5580
@@ -880,6 +1859,26 @@ namespace VRC.Core
 
     public class ApiVRChatSubscription
     {
+        public string <transactionId>k__BackingField; // 0x68
+        public string <steamItemId>k__BackingField; // 0x70
+        public ulong <amount>k__BackingField; // 0x78
+        public string <description>k__BackingField; // 0x80
+        public string <store>k__BackingField; // 0x88
+        public string <period>k__BackingField; // 0x90
+        public bool <active>k__BackingField; // 0x98
+        public string <status>k__BackingField; // 0xA0
+        public int <tier>k__BackingField; // 0xA8
+        public string <starts>k__BackingField; // 0xB0
+        public string <expires>k__BackingField; // 0xB8
+        public string <created_at>k__BackingField; // 0xC0
+        public string <updated_at>k__BackingField; // 0xC8
+        public bool <isGift>k__BackingField; // 0xD0
+        public bool <isBulkGift>k__BackingField; // 0xD1
+        public string <giftedBy>k__BackingField; // 0xD8
+        public string <giftedByDisplayName>k__BackingField; // 0xE0
+        public System.Collections.Generic.List`1<string> <licenseGroups>k__BackingField; // 0xE8
+        public VendorData <vendorData>k__BackingField; // 0xF0
+
         // ── Methods ──
         public void get_transactionId(){} // RVA: 0x358D50
         public void set_transactionId(){} // RVA: 0x358D60
@@ -925,6 +1924,8 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionBaseResponse
     {
+        public VRC.Core.ApiVRChatSubscriptionError <error>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_error(){} // RVA: 0x358D50
         public void set_error(){} // RVA: 0x358D60
@@ -933,6 +1934,10 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionDetails
     {
+        public int <amount>k__BackingField; // 0x68
+        public string <description>k__BackingField; // 0x70
+        public string <period>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_amount(){} // RVA: 0x1C91440
         public void set_amount(){} // RVA: 0x1C91450
@@ -945,7 +1950,8 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionError
     {
-        public object error;
+        public int error; // 0x10
+        public string <message>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_status_code(){} // RVA: 0x32A5C0
@@ -957,6 +1963,9 @@ namespace VRC.Core
 
     public class ApiViewfinderSkin
     {
+        public string <name>k__BackingField; // 0x68
+        public string <assetBundleId>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x358D50
         public void set_name(){} // RVA: 0x358D60
@@ -967,6 +1976,9 @@ namespace VRC.Core
 
     public class ApiWarpEffectSkin
     {
+        public string <name>k__BackingField; // 0x68
+        public string <assetBundleId>k__BackingField; // 0x70
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x358D50
         public void set_name(){} // RVA: 0x358D60
@@ -977,6 +1989,57 @@ namespace VRC.Core
 
     public class ApiWorld
     {
+        public VRC.Core.AssetVersion _VERSION;
+        public VRC.Core.AssetVersion MIN_LOADABLE_VERSION; // 0x8
+        public float ListCacheTime;
+        public float SingleRecordCacheTime;
+        public string ADMIN_TAG_INTERNAL;
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiWorld> localWorlds; // 0x10
+        public string LOCALIZED_INSTANCES_EXPERIMENT_KEY;
+        public 0x657CEAD8 _localizedInstancesExperimentState; // 0x18
+        public bool _isLocalizedInstancesExperimentLoaded; // 0x1C
+        public bool _hasLocalizedInstancesExposureSent; // 0x1D
+        public double LOCALIZED_INSTANCE_RATIO_TOLERANCE;
+        public string <name>k__BackingField; // 0x68
+        public string <imageUrl>k__BackingField; // 0x70
+        public string <thumbnailImageUrl>k__BackingField; // 0x78
+        public string <authorName>k__BackingField; // 0x80
+        public string <releaseStatus>k__BackingField; // 0x88
+        public int <capacity>k__BackingField; // 0x90
+        public int <recommendedCapacity>k__BackingField; // 0x94
+        public int <occupants>k__BackingField; // 0x98
+        public int <publicOccupants>k__BackingField; // 0x9C
+        public int <privateOccupants>k__BackingField; // 0xA0
+        public string <authorId>k__BackingField; // 0xA8
+        public System.DateTime <createdAt>k__BackingField; // 0xB0
+        public string <assetUrl>k__BackingField; // 0xB8
+        public string <description>k__BackingField; // 0xC0
+        public System.Collections.Generic.List`1<string> <tags>k__BackingField; // 0xC8
+        public System.Collections.Generic.List`1<string> <urlList>k__BackingField; // 0xD0
+        public string <unityPackageUrl>k__BackingField; // 0xD8
+        public int <version>k__BackingField; // 0xE0
+        public string <unityVersion>k__BackingField; // 0xE8
+        public int <apiVersion>k__BackingField; // 0xF0
+        public int <latestAssetVersion>k__BackingField; // 0xF4
+        public System.DateTime <created_at>k__BackingField; // 0xF8
+        public System.DateTime <updated_at>k__BackingField; // 0x100
+        public System.DateTime <publicationDate>k__BackingField; // 0x108
+        public System.DateTime <labsPublicationDate>k__BackingField; // 0x110
+        public System.Collections.Generic.List`1<string> <udonProducts>k__BackingField; // 0x118
+        public string <storeId>k__BackingField; // 0x120
+        public string <platform>k__BackingField; // 0x128
+        public System.Collections.Generic.List`1<VRC.Core.ApiWorldInstance> mWorldInstances; // 0x130
+        public bool <unityPackageUpdated>k__BackingField; // 0x138
+        public string <organization>k__BackingField; // 0x140
+        public bool <shouldAddToAuthor>k__BackingField; // 0x148
+        public string <favoriteId>k__BackingField; // 0x150
+        public int <favorites>k__BackingField; // 0x158
+        public int <visits>k__BackingField; // 0x15C
+        public int <popularity>k__BackingField; // 0x160
+        public int <heat>k__BackingField; // 0x164
+        public bool <detailed>k__BackingField; // 0x168
+        public System.Collections.Generic.Dictionary`2<string,bool> <defaultContentSettings>k__BackingField; // 0x170
+
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x98F3BD0
         public void get_LocalizedInstancesExperimentState(){} // RVA: 0x98F3DD0
@@ -1100,6 +2163,49 @@ namespace VRC.Core
 
     public class ApiWorldInstance
     {
+        public float CacheTime;
+        public int MAX_NAME_LENGTH;
+        public string <location>k__BackingField; // 0x68
+        public string _name; // 0x70
+        public string <shortName>k__BackingField; // 0x78
+        public string <secureName>k__BackingField; // 0x80
+        public string <displayName>k__BackingField; // 0x88
+        public string <worldId>k__BackingField; // 0x90
+        public string <instanceId>k__BackingField; // 0x98
+        public VRC.Core.ApiWorld <world>k__BackingField; // 0xA0
+        public 0x657CFC60 <type>k__BackingField; // 0xA8
+        public string <ownerId>k__BackingField; // 0xB0
+        public System.Collections.Generic.List`1<string> <tags>k__BackingField; // 0xB8
+        public int <count>k__BackingField; // 0xC0
+        public int <capacity>k__BackingField; // 0xC4
+        public int <recommendedCapacity>k__BackingField; // 0xC8
+        public System.Collections.Generic.Dictionary`2<string,int> <platforms>k__BackingField; // 0xD0
+        public string <nonce>k__BackingField; // 0xD8
+        public string <clientVersion>k__BackingField; // 0xE0
+        public int <gameServerVersion>k__BackingField; // 0xE8
+        public 0x657CFEC8 <region>k__BackingField; // 0xEC
+        public bool <active>k__BackingField; // 0xF0
+        public bool <queueEnabled>k__BackingField; // 0xF1
+        public bool <hasCapacityForYou>k__BackingField; // 0xF2
+        public int <queueSize>k__BackingField; // 0xF4
+        public System.DateTime <closedAt>k__BackingField; // 0xF8
+        public bool <hardClose>k__BackingField; // 0x100
+        public bool <ageGate>k__BackingField; // 0x101
+        public System.Collections.Generic.Dictionary`2<string,bool> <contentSettings>k__BackingField; // 0x108
+        public bool <playerPersistenceEnabled>k__BackingField; // 0x110
+        public string <calendarEntryId>k__BackingField; // 0x118
+        public VRC.Core.ApiHypeTrainInstanceInfo <hypeTrain>k__BackingField; // 0x120
+        public System.Collections.Generic.List`1<VRC.Core.APIUser> <users>k__BackingField; // 0x128
+        public System.Collections.Generic.List`1<string> <roleIds>k__BackingField; // 0x130
+        public bool <roleRestricted>k__BackingField; // 0x138
+        public string <groupAccessType>k__BackingField; // 0x140
+        public string <minimumAvatarPerformance>k__BackingField; // 0x148
+        public System.Collections.Generic.Dictionary`2<string,double> <languageRatioMap>k__BackingField; // 0x150
+        public string <dominantLanguageCode>k__BackingField; // 0x158
+        public object _lastPostTimeLock;
+        public bool _postInProgress; // 0x8
+        public System.Nullable`1<long> _lastPostTime; // 0x10
+
         // ── Methods ──
         public void get_location(){} // RVA: 0x358D50
         public void set_location(){} // RVA: 0x358D60
@@ -1211,9 +2317,9 @@ namespace VRC.Core
 
     public class AssetVersion
     {
-        public object ownerId;
-        public object accessType;
-        public object startsAt;
+        public string ownerId; // 0x10
+        public VRC.Core.UnityVersion accessType; // 0x18
+        public int startsAt; // 0x2C
 
         // ── Methods ──
         public void get_UnityVersion(){} // RVA: 0x9915A70

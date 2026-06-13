@@ -27,6 +27,16 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Default
 
     public class WinProductDescription
     {
+        public string <platformSpecificID>k__BackingField; // 0x10
+        public string <price>k__BackingField; // 0x18
+        public string <title>k__BackingField; // 0x20
+        public string <description>k__BackingField; // 0x28
+        public string <ISOCurrencyCode>k__BackingField; // 0x30
+        public System.Decimal <priceDecimal>k__BackingField; // 0x38
+        public string <receipt>k__BackingField; // 0x48
+        public string <transactionID>k__BackingField; // 0x50
+        public bool <consumable>k__BackingField; // 0x58
+
         // ── Methods ──
         public void set_platformSpecificID(){} // RVA: 0x2DEE30
         public void set_price(){} // RVA: 0x343E80

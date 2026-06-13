@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class WarningException
     {
+        public string <HelpUrl>k__BackingField; // 0x90
+        public string <HelpTopic>k__BackingField; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C7E7E0 | overloaded x6
         public void get_HelpUrl(){} // RVA: 0x796DE0
@@ -27,6 +30,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class Win32Exception
     {
+        public int nativeErrorCode; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B1C9D0 | overloaded x6
         public void get_NativeErrorCode(){} // RVA: 0x6AFD40

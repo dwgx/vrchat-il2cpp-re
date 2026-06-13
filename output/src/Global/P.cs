@@ -19,6 +19,9 @@ public class PCMSetPositionCallback
 
 public class PackageEntry
 {
+    public string <packageId>k__BackingField; // 0x10
+    public string <packageVersion>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_packageId(){} // RVA: 0x1AD4690
     public void set_packageId(){} // RVA: 0x100A2F0
@@ -62,6 +65,9 @@ public class Pair
 
 public class PairIterator
 {
+    public int _index;
+    public Photon.Client.NonAllocDictionary`2<U,T> _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24B10
     public void Reset(){} // RVA: 0x24A50
@@ -73,6 +79,9 @@ public class PairIterator
 
 public class PairIterator
 {
+    public int _index; // 0x10
+    public Photon.Client.NonAllocDictionary`2<byte,object> _dict; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x37C0100
     public void Reset(){} // RVA: 0x1EDD860
@@ -84,6 +93,8 @@ public class PairIterator
 
 public class PairIterator
 {
+    public int _index; // 0x10
+    public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> _dict; // 0x18
 }
 
 public class PanicFunction_
@@ -237,6 +248,11 @@ public class ParallelWriter
 
 public class ParamInfo
 {
+    public 0x65881418 _ftype; // 0x10
+    public int _minargs; // 0x14
+    public int _maxargs; // 0x18
+    public 0x65878B48[] _argTypes; // 0x20
+
     // ── Methods ──
     public void get_FType(){} // RVA: 0x32A5C0
     public void get_Minargs(){} // RVA: 0x8ABED0
@@ -247,6 +263,8 @@ public class ParamInfo
 
 public class Parameter
 {
+    public string name; // 0x10
+
     // ── Methods ──
     public void get_hash(){} // RVA: 0x9A1EFC0
     public void IsNull(){} // RVA: 0x9A1F030
@@ -255,30 +273,41 @@ public class Parameter
 
 public class Parameter
 {
+    public int type; // 0x10
+    public byte[] value; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class Parameter
 {
+    public int type; // 0x10
+    public byte[] value; // 0x18
 }
 
 public class Parameter
 {
+    public int type; // 0x10
+    public byte[] value; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9A72D40
 }
 
 public class Parameter
 {
+    public int type; // 0x10
+    public byte[] value; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9A1EE40
 }
 
 public class Parameter
 {
-    public object Type;
-    public object First;
+    public int Type; // 0x10
+    public byte[] First; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1CC5AF0
@@ -288,6 +317,9 @@ public class Parameter
 
 public class Parameter
 {
+    public int type; // 0x10
+    public byte[] value; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2E00C0
     public void Run(){} // RVA: 0x3CFAF0
@@ -322,6 +354,9 @@ public class ParameterEnumerable
 
 public class ParameterEnumerator
 {
+    public UnityEngine.InputSystem.InputActionState m_State; // 0x10
+    public int m_MapIndex; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D99950
     public void MoveToNextBinding(){} // RVA: 0x6D99D20
@@ -337,11 +372,7 @@ public class ParameterEnumerator
 
 public class ParameterExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object NodeType;
-    public object Type;
-    public object Variables;
+    public System.Linq.Expressions.ParameterExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DB840
@@ -355,8 +386,8 @@ public class ParameterExpressionProxy
 
 public class ParameterLookupKey
 {
-    public object DuplicateName;
-    public object JsonPropertyInfo;
+    public string DuplicateName; // 0x10
+    public System.Type JsonPropertyInfo; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
@@ -368,8 +399,8 @@ public class ParameterLookupKey
 
 public class ParameterLookupKey
 {
-    public object DuplicateName;
-    public object JsonPropertyInfo;
+    public string DuplicateName; // 0x10
+    public System.Type JsonPropertyInfo; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0xF19AE0
@@ -381,6 +412,9 @@ public class ParameterLookupKey
 
 public class ParameterLookupValue
 {
+    public string <DuplicateName>k__BackingField; // 0x10
+    public System.Text.Json.Serialization.Metadata.JsonPropertyInfo <JsonPropertyInfo>k__BackingField; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x343E80
     public void get_DuplicateName(){} // RVA: 0x2F8380
@@ -390,6 +424,9 @@ public class ParameterLookupValue
 
 public class ParameterLookupValue
 {
+    public string <DuplicateName>k__BackingField; // 0x10
+    public System.Text.Json.Serialization.Metadata.JsonPropertyInfo <JsonPropertyInfo>k__BackingField; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x343E80
     public void get_DuplicateName(){} // RVA: 0x2F8380
@@ -399,7 +436,7 @@ public class ParameterLookupValue
 
 public class ParameterOverride
 {
-    public object valuePtr;
+    public string valuePtr; // 0x10
 
     // ── Methods ──
     public void get_objectType(){} // RVA: 0x6D9A610
@@ -445,7 +482,10 @@ public class ParseElementOnlyContent_LocalFrame
 
 public class ParsedPathComponent
 {
-    public object isAtEnd;
+    public UnityEngine.InputSystem.Utilities.Substring isAtEnd; // 0x10
+    public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Utilities.Substring> m_Usages; // 0x20
+    public UnityEngine.InputSystem.Utilities.Substring m_Name; // 0x40
+    public UnityEngine.InputSystem.Utilities.Substring m_DisplayName; // 0x50
 
     // ── Methods ──
     public void get_layout(){} // RVA: 0x6DF4C80
@@ -461,6 +501,8 @@ public class ParsedPathComponent
 
 public class Parser
 {
+    public System.IO.StringReader json; // 0x10
+
     // ── Methods ──
     public void IsWordBreak(){} // RVA: 0x6251450
     public void .ctor(){} // RVA: 0x62514F0
@@ -481,6 +523,8 @@ public class Parser
 
 public class Parser
 {
+    public System.IO.StringReader json; // 0x10
+
     // ── Methods ──
     public void Parse(){} // RVA: 0x6A003D0
     public void ParseDate(){} // RVA: 0x6A01500
@@ -497,6 +541,9 @@ public class Parser
 
 public class ParsingState
 {
+    public char[] chars; // 0x10
+    public int charPos; // 0x18
+
     // ── Methods ──
     public void Clear(){} // RVA: 0x6A278A0
     public void Close(){} // RVA: 0x6A27B90
@@ -506,8 +553,8 @@ public class ParsingState
 
 public class PartBinding
 {
-    public object System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.Current;
-    public object System.Collections.IEnumerator.Current;
+    public int System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.Current; // 0x10
+    public UnityEngine.InputSystem.InputControl System.Collections.IEnumerator.Current; // 0x18
 
     // ── Methods ──
     public void get_part(){} // RVA: 0x19689B0
@@ -532,14 +579,22 @@ public class PartialStateForRollback
 
 public class Particle
 {
-    public object time;
-    public object count;
-    public object minCount;
-    public object maxCount;
-    public object cycleCount;
-    public object repeatInterval;
-    public object probability;
-    public object .ctor;
+    public UnityEngine.Vector3 time; // 0x10
+    public UnityEngine.Vector3 count; // 0x1C
+    public UnityEngine.Vector3 minCount; // 0x28
+    public UnityEngine.Vector3 maxCount; // 0x34
+    public UnityEngine.Vector3 cycleCount; // 0x40
+    public UnityEngine.Vector3 repeatInterval; // 0x4C
+    public UnityEngine.Vector3 probability; // 0x58
+    public UnityEngine.Vector3 .ctor; // 0x64
+    public UnityEngine.Color32 m_StartColor; // 0x70
+    public uint m_RandomSeed; // 0x74
+    public uint m_ParentRandomSeed; // 0x78
+    public float m_Lifetime; // 0x7C
+    public float m_StartLifetime; // 0x80
+    public int m_MeshIndex; // 0x84
+    public float m_EmitAccumulator0; // 0x88
+    public float m_EmitAccumulator1; // 0x8C
 
     // ── Methods ──
     public void set_lifetime(){} // RVA: 0x306090
@@ -588,6 +643,9 @@ public class ParticleSystemEndUpdateAll
 
 public class PassthroughCapabilities
 {
+    public bool <SupportsPassthrough>k__BackingField; // 0x10
+    public bool <SupportsColorPassthrough>k__BackingField; // 0x11
+
     // ── Methods ──
     public void get_SupportsPassthrough(){} // RVA: 0x3A75E0
     public void get_SupportsColorPassthrough(){} // RVA: 0x543460
@@ -608,6 +666,8 @@ public class PathListComparer
 
 public class PathParser
 {
+    public string path; // 0x10
+
     // ── Methods ──
     public void get_isAtEnd(){} // RVA: 0x6DF6BB0
     public void .ctor(){} // RVA: 0x6DF6BC0
@@ -641,6 +701,9 @@ public class PcgRandom
 
 public class Pelvis
 {
+    public UnityEngine.Vector3 <IKOffset>k__BackingField; // 0x10
+    public float <heightOffset>k__BackingField; // 0x1C
+
     // ── Methods ──
     public void get_IKOffset(){} // RVA: 0x2FA8D0
     public void set_IKOffset(){} // RVA: 0x2FA8F0

@@ -75,6 +75,9 @@ namespace ThirdParty.Sentry.Sentry.Ben.BlockingDetector
 
     public class TaskBlockingListener
     {
+        public System.Guid s_tplGuid;
+        public Sentry.Ben.BlockingDetector.IBlockingMonitor _monitor; // 0x10
+
         // ── Methods ──
         public void get_LazyDefaultState(){} // RVA: 0x644B670
         public void get_DefaultState(){} // RVA: 0x644B6F0

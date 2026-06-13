@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class CancelEventArgs
     {
-        public object IsChanged;
+        public bool IsChanged; // 0x10
 
         // ── Methods ──
         public void get_Cancel(){} // RVA: 0x3A75E0
@@ -26,6 +26,22 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class CategoryAttribute
     {
+        public System.ComponentModel.CategoryAttribute appearance;
+        public System.ComponentModel.CategoryAttribute asynchronous; // 0x8
+        public System.ComponentModel.CategoryAttribute behavior; // 0x10
+        public System.ComponentModel.CategoryAttribute data; // 0x18
+        public System.ComponentModel.CategoryAttribute design; // 0x20
+        public System.ComponentModel.CategoryAttribute action; // 0x28
+        public System.ComponentModel.CategoryAttribute format; // 0x30
+        public System.ComponentModel.CategoryAttribute layout; // 0x38
+        public System.ComponentModel.CategoryAttribute mouse; // 0x40
+        public System.ComponentModel.CategoryAttribute key; // 0x48
+        public System.ComponentModel.CategoryAttribute focus; // 0x50
+        public System.ComponentModel.CategoryAttribute windowStyle; // 0x58
+        public System.ComponentModel.CategoryAttribute dragDrop; // 0x60
+        public System.ComponentModel.CategoryAttribute defAttr; // 0x68
+        public bool localized; // 0x10
+
         // ── Methods ──
         public void get_Action(){} // RVA: 0x6C7F4C0
         public void get_Appearance(){} // RVA: 0x6C7F620
@@ -60,6 +76,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class CollectionChangeEventArgs
     {
+        public 0x6584E3B0 <Action>k__BackingField; // 0x10
+        public object <Element>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C542D0
         public void get_Action(){} // RVA: 0x32A5C0
@@ -86,6 +105,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class CompModSwitches
     {
+        public System.Diagnostics.BooleanSwitch commonDesignerServices;
+        public System.Diagnostics.TraceSwitch eventLog; // 0x8
+
         // ── Methods ──
         public void get_CommonDesignerServices(){} // RVA: 0x6C81190
         public void get_EventLog(){} // RVA: 0x6C812C0
@@ -93,6 +115,9 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ComplexBindingPropertiesAttribute
     {
+        public string <DataSource>k__BackingField; // 0x10
+        public string <DataMember>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
         public void get_DataSource(){} // RVA: 0x2F8380
@@ -104,6 +129,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class Component
     {
+        public object EventDisposed;
+        public System.ComponentModel.ISite site; // 0x18
+        public System.ComponentModel.EventHandlerList events; // 0x20
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x6C813F0
         public void get_CanRaiseEvents(){} // RVA: 0x3C2850
@@ -147,6 +176,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class ComponentResourceManager
     {
+        public System.Collections.Hashtable _resourceSets; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C54580 | overloaded x2
         public void get_NeutralResourcesCulture(){} // RVA: 0x6C545E0
@@ -156,6 +187,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class Container
     {
+        public System.ComponentModel.ISite[] sites; // 0x10
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x5C76FE0
         public void Add(){} // RVA: 0x6C81D70 | overloaded x2
@@ -178,6 +211,8 @@ namespace ThirdParty.DotNet.System.ComponentModel
 
     public class CultureInfoConverter
     {
+        public StandardValuesCollection _values; // 0x10
+
         // ── Methods ──
         public void get_DefaultCultureString(){} // RVA: 0x6C559B0
         public void GetCultureName(){} // RVA: 0x197F500

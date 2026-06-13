@@ -14,6 +14,11 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class AsyncProtocolRequest
     {
+        public Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField; // 0x10
+        public bool <RunSynchronously>k__BackingField; // 0x18
+        public int <UserResult>k__BackingField; // 0x1C
+        public int Started; // 0x20
+
         // ── Methods ──
         public void get_Parent(){} // RVA: 0x2F8380
         public void get_RunSynchronously(){} // RVA: 0x2F84E0
@@ -32,6 +37,9 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class AsyncProtocolResult
     {
+        public int <UserResult>k__BackingField; // 0x10
+        public System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_UserResult(){} // RVA: 0x32A5C0
         public void get_Error(){} // RVA: 0x2E07C0
@@ -40,6 +48,9 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class AsyncReadOrWriteRequest
     {
+        public Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField; // 0x38
+        public int <CurrentSize>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_UserBuffer(){} // RVA: 0x4976A0
         public void get_CurrentSize(){} // RVA: 0x37E080
@@ -64,6 +75,9 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class BufferOffsetSize
     {
+        public byte[] Buffer; // 0x10
+        public int Offset; // 0x18
+
         // ── Methods ──
         public void get_EndOffset(){} // RVA: 0x6688210
         public void get_Remaining(){} // RVA: 0x6688220
@@ -82,6 +96,8 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class ChainValidationHelper
     {
+        public System.WeakReference`1<System.Net.Security.SslStream> owner; // 0x10
+
         // ── Methods ──
         public void GetInternalValidator(){} // RVA: 0x668A330
         public void Create(){} // RVA: 0x668A420
@@ -97,6 +113,22 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MobileAuthenticatedStream
     {
+        public Mono.Net.Security.MobileTlsContext xobileTlsContext; // 0x38
+        public System.Runtime.ExceptionServices.ExceptionDispatchInfo lastException; // 0x40
+        public Mono.Net.Security.AsyncProtocolRequest asyncHandshakeRequest; // 0x48
+        public Mono.Net.Security.AsyncProtocolRequest asyncReadRequest; // 0x50
+        public Mono.Net.Security.AsyncProtocolRequest asyncWriteRequest; // 0x58
+        public Mono.Net.Security.BufferOffsetSize2 readBuffer; // 0x60
+        public Mono.Net.Security.BufferOffsetSize2 writeBuffer; // 0x68
+        public object ioLock; // 0x70
+        public int closeRequested; // 0x78
+        public bool shutdown; // 0x7C
+        public 0x65847A28 operation; // 0x80
+        public int uniqueNameInteger;
+        public System.Net.Security.SslStream <SslStream>k__BackingField; // 0x88
+        public Mono.Security.Interface.MonoTlsSettings <Settings>k__BackingField; // 0x90
+        public Mono.Net.Security.MobileTlsProvider <Provider>k__BackingField; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x668B8F0
         public void get_SslStream(){} // RVA: 0x31C010
@@ -151,6 +183,17 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MobileTlsContext
     {
+        public Mono.Net.Security.ChainValidationHelper certificateValidator; // 0x10
+        public Mono.Net.Security.MonoSslAuthenticationOptions <Options>k__BackingField; // 0x18
+        public Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField; // 0x20
+        public bool <IsServer>k__BackingField; // 0x28
+        public string <TargetHost>k__BackingField; // 0x30
+        public string <ServerName>k__BackingField; // 0x38
+        public bool <AskForClientCertificate>k__BackingField; // 0x40
+        public 0x6584C200 <EnabledProtocols>k__BackingField; // 0x44
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection <ClientCertificates>k__BackingField; // 0x48
+        public System.Security.Cryptography.X509Certificates.X509Certificate <LocalServerCertificate>k__BackingField; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6691370
         public void get_Options(){} // RVA: 0x2E07C0
@@ -194,6 +237,8 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MonoSslAuthenticationOptions
     {
+        public System.Net.Security.ServerCertSelectionCallback <ServerCertSelectionDelegate>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_ServerMode(){} // RVA: 0xDBE0
         public void get_AllowRenegotiation(){} // RVA: 0xDBE0
@@ -215,6 +260,8 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MonoSslClientAuthenticationOptions
     {
+        public System.Net.Security.SslClientAuthenticationOptions <Options>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x2E07C0
         public void get_ServerMode(){} // RVA: 0x2DD320
@@ -236,6 +283,8 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MonoSslServerAuthenticationOptions
     {
+        public System.Net.Security.SslServerAuthenticationOptions <Options>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x2E07C0
         public void get_ServerMode(){} // RVA: 0x3C2850
@@ -272,6 +321,10 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 
     public class MonoTlsStream
     {
+        public Mono.Net.Security.MobileTlsProvider provider; // 0x10
+        public System.Net.Sockets.NetworkStream networkStream; // 0x18
+        public System.Net.HttpWebRequest request; // 0x20
+
         // ── Methods ──
         public void get_Request(){} // RVA: 0x30B0C0
         public void get_ExceptionStatus(){} // RVA: 0x37E080

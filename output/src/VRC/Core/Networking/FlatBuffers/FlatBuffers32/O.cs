@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class ObjectBunch
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -37,6 +39,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectBunchT
     {
+        public int <Time>k__BackingField; // 0x10
+        public int <Sender>k__BackingField; // 0x14
+        public byte <Index>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<byte> <Data>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_Time(){} // RVA: 0x32A5C0
         public void set_Time(){} // RVA: 0x2E00C0
@@ -57,6 +64,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadata
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x7606960
         public void AreCompatible(){} // RVA: 0x7606F50
@@ -97,6 +106,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataPair
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -117,8 +128,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataPairT
     {
-        public object ViewId;
-        public object ComponentIndex;
+        public int ViewId; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataT ComponentIndex; // 0x18
 
         // ── Methods ──
         public void get_ViewId(){} // RVA: 0x32A5C0
@@ -136,6 +147,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataT
     {
+        public bool <Is8Bit>k__BackingField; // 0x10
+        public bool <DoNotPersist>k__BackingField; // 0x11
+        public byte <Code>k__BackingField; // 0x12
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ComponentInfoT> <ComponentInfo>k__BackingField; // 0x18
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectBunchT> <Payload>k__BackingField; // 0x20
+        public string <InitialPath>k__BackingField; // 0x28
+
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x7608F60
         public void AreCompatible(){} // RVA: 0x7609440
@@ -162,6 +180,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPool
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -189,6 +209,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPoolT
     {
+        public System.Collections.Generic.List`1<byte> <Data>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
         public void set_Data(){} // RVA: 0x2DEE30

@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Crc
 {
     public class CRC32
     {
+        public uint dwPolynomial; // 0x10
+        public long _TotalBytesRead; // 0x18
+
         // ── Methods ──
         public void get_TotalBytesRead(){} // RVA: 0x2E07C0
         public void get_Crc32Result(){} // RVA: 0x982B200

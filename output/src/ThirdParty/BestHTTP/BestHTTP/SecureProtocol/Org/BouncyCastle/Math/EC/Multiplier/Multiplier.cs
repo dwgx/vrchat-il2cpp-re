@@ -36,6 +36,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.M
 
     public class FixedPointPreCompInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint m_offset; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable; // 0x18
+        public int m_width; // 0x20
+
         // ── Methods ──
         public void get_LookupTable(){} // RVA: 0x2E07C0
         public void set_LookupTable(){} // RVA: 0x343E80
@@ -131,6 +135,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.M
 
     public class WNafPreCompInfo
     {
+        public int m_promotionCountdown; // 0x10
+        public int m_confWidth; // 0x14
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint[] m_preComp; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint m_twice; // 0x28
+        public int m_width; // 0x30
+
         // ── Methods ──
         public void DecrementPromotionCountdown(){} // RVA: 0x9474410
         public void get_PromotionCountdown(){} // RVA: 0x5F2AEC0
@@ -182,6 +193,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.M
 
     public class WTauNafPreCompInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp; // 0x10
+
         // ── Methods ──
         public void get_PreComp(){} // RVA: 0x2F8380
         public void set_PreComp(){} // RVA: 0x2DEE30

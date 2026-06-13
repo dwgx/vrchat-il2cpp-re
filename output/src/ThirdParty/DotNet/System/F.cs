@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 22
-// Methods: 53
+// Classes: 100
+// Methods: 251
 
 namespace ThirdParty.DotNet.System
 {
@@ -52,113 +52,665 @@ namespace ThirdParty.DotNet.System
         public void EndInvoke(){} // RVA: 0x283FA0
     }
 
-    public class Func`10
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`11
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`12
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2BB9710
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1969E40
     }
 
-    public class Func`13
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x2BB9600
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x14F6C90
     }
 
-    public class Func`14
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`15
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x3365E90
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1B3C940
     }
 
-    public class Func`16
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x20356F0
     }
 
-    public class Func`17
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`2
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33676C0
-        public void Invoke(){} // RVA: 0x2BB9AF0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`3
-    {
-    }
-
-    public class Func`4
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`5
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`6
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`7
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`8
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    public class Func`9
+    public class Func`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void Invoke(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9710
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1969E40
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3363AC0
+        public void Invoke(){} // RVA: 0x3363B90
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x3363BD0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3363650
+        public void Invoke(){} // RVA: 0x3363720
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x3363760
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x33637C0
+        public void Invoke(){} // RVA: 0x3363890
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x33638E0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9390
+        public void Invoke(){} // RVA: 0x2BB9460
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1D1DE50
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9710
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x1969E40
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2BB9600
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2BB96D0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x20356F0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
+    }
+
+    public class Func`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
 }

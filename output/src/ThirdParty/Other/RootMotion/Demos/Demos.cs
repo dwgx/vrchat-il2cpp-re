@@ -7,8 +7,8 @@ namespace ThirdParty.Other.RootMotion.Demos
 {
     public class Navigator
     {
-        public object ActionScheduler;
-        public object InstallationId;
+        public bool ActionScheduler; // 0x10
+        public float InstallationId; // 0x14
 
         // ── Methods ──
         public void get_normalizedDeltaPosition(){} // RVA: 0x338CA0

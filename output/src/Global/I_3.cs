@@ -12,12 +12,7 @@ public class InvocationEntryDelegate
 
 public class InvocationExpressionProxy
 {
-    public object CanReduce;
-    public object DebugView;
-    public object DefaultValue;
-    public object NodeType;
-    public object Target;
-    public object Type;
+    public System.Linq.Expressions.InvocationExpression CanReduce; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x65DAF10

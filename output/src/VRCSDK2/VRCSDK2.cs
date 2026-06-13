@@ -27,6 +27,11 @@ namespace VRCSDK2
 
     public class VRCPlayerMod
     {
+        public string mName; // 0x10
+        public System.Collections.Generic.List`1<VRCSDK2.VRCPlayerModProperty> mProperties; // 0x18
+        public string mModComponentName; // 0x20
+        public bool mAllowNameEdit; // 0x28
+
         // ── Methods ──
         public void set_name(){} // RVA: 0x99F0310
         public void get_name(){} // RVA: 0x2F8380
@@ -54,6 +59,11 @@ namespace VRCSDK2
 
     public class VRCSerializableSystemType
     {
+        public string m_Name; // 0x10
+        public string m_AssemblyQualifiedName; // 0x18
+        public string m_AssemblyName; // 0x20
+        public System.Type m_SystemType; // 0x28
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void get_AssemblyQualifiedName(){} // RVA: 0x2E07C0
@@ -91,6 +101,9 @@ namespace VRCSDK2
 
     public class VRC_AudioBank
     {
+        public 0x659E9978 PlaybackOrder; // 0x20
+        public 0x659E99D0 PlaybackStyle; // 0x24
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x99F4220
         public void get_CurrentIdx(){} // RVA: 0x99F4380
@@ -147,6 +160,8 @@ namespace VRCSDK2
 
     public class VRC_CustomRendererBehaviour
     {
+        public bool UpdateGIMaterialsEveryTick; // 0x20
+
         // ── Methods ──
         public void get_Renderer(){} // RVA: 0x99F5D30
         public void Update(){} // RVA: 0x99F5EC0
@@ -267,6 +282,9 @@ namespace VRCSDK2
 
     public class VRC_ObjectSync
     {
+        public InitializationDelegate Initialize;
+        public IsLocalDelegate IsLocal; // 0x8
+
         // ── Methods ──
         public void get_useGravity(){} // RVA: 0x99E8FE0
         public void set_useGravity(){} // RVA: 0x99E9050
@@ -502,6 +520,8 @@ namespace VRCSDK2
 
     public class VRC_VideoScreen
     {
+        public VRCSDK2.VRC_SyncVideoStream _videoStream; // 0x20
+
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x99EE2C0
         public void set_Initialize(){} // RVA: 0x99EE300
@@ -511,6 +531,8 @@ namespace VRCSDK2
 
     public class VRC_VideoSpeaker
     {
+        public VRCSDK2.VRC_SyncVideoStream _videoStream; // 0x20
+
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x99EE4D0
         public void set_Initialize(){} // RVA: 0x99EE510

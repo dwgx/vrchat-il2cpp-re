@@ -291,8 +291,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SoftJointLimit
     {
-        public object spring;
-        public object damper;
+        public float spring; // 0x10
+        public float damper; // 0x14
+        public float m_ContactDistance; // 0x18
 
         // ── Methods ──
         public void get_limit(){} // RVA: 0x300D20
@@ -305,8 +306,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SoftJointLimitSpring
     {
-        public object targetVelocity;
-        public object force;
+        public float targetVelocity; // 0x10
+        public float force; // 0x14
 
         // ── Methods ──
         public void get_spring(){} // RVA: 0x300D20
@@ -440,6 +441,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpriteRenderer
     {
+        public UnityEngine.Events.UnityEvent`1<UnityEngine.SpriteRenderer> m_SpriteChangeEvent; // 0x18
+
         // ── Methods ──
         public void RegisterSpriteChangeCallback(){} // RVA: 0x713EF20
         public void UnregisterSpriteChangeCallback(){} // RVA: 0x713F090
@@ -519,6 +522,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemDescriptor
     {
+        public string <id>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x2F8380
         public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x671BFB0
@@ -571,7 +576,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SystemClock
     {
-        public object time;
+        public System.DateTime time;
 
         // ── Methods ──
         public void get_now(){} // RVA: 0x7133350

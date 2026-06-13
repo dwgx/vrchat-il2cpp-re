@@ -21,6 +21,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class AbstractTlsClient
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsCipherFactory mCipherFactory; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsClientContext mContext; // 0x18
+        public System.Collections.IList mSupportedSignatureAlgorithms; // 0x20
+        public int[] mNamedCurves; // 0x28
+        public byte[] mClientECPointFormats; // 0x30
+
         // ── Methods ──
         public void get_HostNames(){} // RVA: 0x358730
         public void set_HostNames(){} // RVA: 0x358740
@@ -52,6 +58,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class AbstractTlsContext
     {
+        public long counter;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Prng.IRandomGenerator mNonceRandom; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom mSecureRandom; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.SecurityParameters mSecurityParameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion mClientVersion; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion mServerVersion; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSession mSession; // 0x38
+        public object mUserObject; // 0x40
+
         // ── Methods ──
         public void NextCounterValue(){} // RVA: 0x95125C0
         public void .ctor(){} // RVA: 0x9512620
@@ -87,6 +102,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class AbstractTlsKeyExchange
     {
+        public int mKeyExchange; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CC5AF0
         public void ParseSignature(){} // RVA: 0x9512D30
@@ -123,6 +140,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class AbstractTlsServer
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsCipherFactory mCipherFactory; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsServerContext mContext; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion mClientVersion; // 0x20
+        public int[] mOfferedCipherSuites; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AllowEncryptThenMac(){} // RVA: 0x3C2850

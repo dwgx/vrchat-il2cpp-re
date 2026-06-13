@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class NclUtilities
     {
+        public System.Net.IPAddress[] _LocalAddresses;
+        public object _LocalAddressesLock; // 0x8
+
         // ── Methods ──
         public void IsFatal(){} // RVA: 0x6B1F290
         public void IsAddressLocal(){} // RVA: 0x6B1F350
@@ -17,6 +20,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class NetEventSource
     {
+        public System.Net.NetEventSource Log;
+
         // ── Methods ──
         public void Enter(){} // RVA: 0x6CCAF60 | overloaded x4
         public void Exit(){} // RVA: 0x6CCB280 | overloaded x3
@@ -44,6 +49,10 @@ namespace ThirdParty.DotNet.System.Net
 
     public class NetworkCredential
     {
+        public string m_domain; // 0x10
+        public string m_userName; // 0x18
+        public System.Security.SecureString m_password; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B20E30 | overloaded x2
         public void get_UserName(){} // RVA: 0x2E07C0
@@ -60,6 +69,9 @@ namespace ThirdParty.DotNet.System.Net
 
     public class NetworkStreamWrapper
     {
+        public System.Net.Sockets.TcpClient _client; // 0x28
+        public System.Net.Sockets.NetworkStream _networkStream; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B1BE90
         public void get_UsingSecureStream(){} // RVA: 0x6B1BFB0
@@ -98,6 +110,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class NtlmClient
     {
+        public System.Net.IAuthenticationModule authObject; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B6DDB0
         public void Authenticate(){} // RVA: 0x6B6DE40

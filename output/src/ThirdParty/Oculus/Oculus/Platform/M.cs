@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Oculus.Oculus.Platform
-// Classes: 95
-// Methods: 403
+// Classes: 100
+// Methods: 417
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
@@ -53,6 +53,11 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message
     {
+        public 0x659756D0 type; // 0x10
+        public ulong requestID; // 0x18
+        public Oculus.Platform.Models.Error error; // 0x20
+        public ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x60B51C0
         public void Finalize(){} // RVA: 0x1007BA0
@@ -865,19 +870,72 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1
     {
+        public T data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x24CC0
         public void get_Data(){} // RVA: 0x283FA0
         public void GetDataFromMessage(){} // RVA: 0x283FA0
     }
 
-    public class MultiplayerErrorOptions
+    public class Message`1
     {
+        public Oculus.Platform.Models.AbuseReportRecording data; // 0x28
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60C27E0
-        public void SetErrorKey(){} // RVA: 0x60C2890
-        public void op_Explicit(){} // RVA: 0x6081810
-        public void Finalize(){} // RVA: 0x60C2950
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
+    }
+
+    public class Message`1
+    {
+        public Oculus.Platform.Models.AchievementDefinitionList data; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
+    }
+
+    public class Message`1
+    {
+        public Oculus.Platform.Models.AchievementProgressList data; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
+    }
+
+    public class Message`1
+    {
+        public Oculus.Platform.Models.AchievementUpdate data; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
+    }
+
+    public class Message`1
+    {
+        public Oculus.Platform.Models.ApplicationInviteList data; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
+    }
+
+    public class Message`1
+    {
+        public Oculus.Platform.Models.ApplicationVersion data; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3C372C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetDataFromMessage(){}
     }
 
 }

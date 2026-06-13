@@ -15,6 +15,14 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Axis
     {
+        public 0x65881310 _axisType; // 0x10
+        public MS.Internal.Xml.XPath.AstNode _input; // 0x18
+        public string _prefix; // 0x20
+        public string _name; // 0x28
+        public 0x65878D00 _nodeType; // 0x30
+        public bool abbrAxis; // 0x34
+        public string _urn; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A0AF90 | overloaded x2
         public void get_Type(){} // RVA: 0x519240
@@ -32,6 +40,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Filter
     {
+        public MS.Internal.Xml.XPath.AstNode _input; // 0x10
+        public MS.Internal.Xml.XPath.AstNode _condition; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_Type(){} // RVA: 0x3E2CB0
@@ -40,6 +51,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Function
     {
+        public 0x65881418 _functionType; // 0x10
+        public System.Collections.Generic.List`1<MS.Internal.Xml.XPath.AstNode> _argumentList; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A0B270 | overloaded x3
         public void get_Type(){} // RVA: 0xA7E130
@@ -49,6 +63,8 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Group
     {
+        public MS.Internal.Xml.XPath.AstNode _groupNode; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Type(){} // RVA: 0x66CCC0
@@ -57,6 +73,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Operand
     {
+        public 0x65878B48 _type; // 0x10
+        public object _val; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A0B520 | overloaded x2
         public void get_Type(){} // RVA: 0xA308B0
@@ -65,6 +84,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Operator
     {
+        public 0x65881578[] s_invertOp;
+        public 0x65881578 _opType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2E766D0
         public void get_Type(){} // RVA: 0x3CFAF0
@@ -82,6 +104,9 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class Variable
     {
+        public string _localname; // 0x10
+        public string _prefix; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void get_Type(){} // RVA: 0xA67BB0
@@ -127,14 +152,14 @@ namespace ThirdParty.Other.MS.Internal.Xml.XPath
 
     public class XPathScanner
     {
-        public object Value;
-        public object NodeType;
-        public object LocalName;
-        public object NamespaceURI;
-        public object Prefix;
-        public object NameTable;
-        public object UnderlyingObject;
-        public object LineNumber;
+        public string Value; // 0x10
+        public int NodeType; // 0x18
+        public 0x65881788 LocalName; // 0x1C
+        public char NamespaceURI; // 0x20
+        public string Prefix; // 0x28
+        public string NameTable; // 0x30
+        public string UnderlyingObject; // 0x38
+        public double LineNumber; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A10A00

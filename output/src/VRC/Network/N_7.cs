@@ -19,6 +19,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÎÌÏÏÎÎÏÌÎÎÌÌÌÎÏÏÎÎÎÎ</summary>
     public class NetworkItemSibling_FEF9SiblingSibling_42E9
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -35,6 +37,13 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÏÏÎÍÏÎÍÌÎÏÍÏÎÍÌÍÍÍÎÎ</summary>
     public class NetworkItemSibling_FEF9SiblingSibling_AD31
     {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÎÏÌÍÌÏÍÏÌÌÏÏÍÌÌÌÏÎÍÌÌ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÎÏÌÎÌÎÎÌÌÎÍÍÍÎÍÌÏÎ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÏÎÍÍÎÎÍÌÍÍÌÍÌÍÌÌÍÍÍÎÌÏ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÎÏÌÌÎÌÏÎÏÎÌÎÍÎÎÌÍÏÍÎÍ>k__BackingField; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÌÌÌÏÎÏÌÏÎÍÌÎÏÍÎÎÏÏÏÎÍ>k__BackingField; // 0x38
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x30B130
         public void set_ByteBuffer(){} // RVA: 0x19689C0
@@ -59,6 +68,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÎÏÎÏÍÍÍÏÌÌÎÌÎÍÍÏÎÏÍÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_78EF
     {
+        public System.Collections.Concurrent.ConcurrentQueue`1<ÎÍÎÍÍÏÍÏÍÍÌÌÌÏÍÎÍÏÌÏÍÎÍ> ÎÏÏÍÌÎÍÌÏÏÏÍÍÌÏÍÏÍÎÎÌÎÍ;
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x10
+        public int ÎÏÍÌÌÎÍÌÍÏÏÍÌÌÎÌÌÎÎÍÌÍÏ; // 0x18
+
         // ── Methods ──
         public void get_HasInfo(){} // RVA: 0xF01170
         public void GetCachedPtr(){} // RVA: 0xF53CE0
@@ -80,6 +93,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<T> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ;
+        public System.Action`1<T> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ;
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<T>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ;
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x283FA0
         public void get_HasSerializedModelDir(){} // RVA: 0xDBE0
@@ -98,6 +115,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<T> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<T> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<T>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x263BC0
         public void get_HasSerializedModelDir(){} // RVA: 0x5157360
@@ -116,6 +137,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156800
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -134,6 +159,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65972C88> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65972C88> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65972C88>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -152,6 +181,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x659F5E70> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x659F5E70> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x659F5E70>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -170,6 +203,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B0D8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B0D8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B0D8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -188,6 +225,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B9C8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B9C8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B9C8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -206,6 +247,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B448> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B448> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B448>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -224,6 +269,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B3F0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B3F0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B3F0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -242,6 +291,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B188> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B188> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B188>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -260,6 +313,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B918> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B918> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B918>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -278,6 +335,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B238> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B238> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B238>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -296,6 +357,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<System.Collections.Generic.List`1<ÎÎÎÍÎÏÍÍÏÏÎÌÌÍÎÍÎÌÏÍÏÏÏ>> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<System.Collections.Generic.List`1<ÎÎÎÍÎÏÍÍÏÏÎÌÌÍÎÍÎÌÏÍÏÏÏ>> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÎÎÍÎÏÍÍÏÏÎÌÌÍÎÍÎÌÏÍÏÏÏ>>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156800
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -314,6 +379,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588DBD0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588DBD0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588DBD0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -332,6 +401,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B290> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B290> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B290>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -350,6 +423,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B4F8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B4F8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B4F8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -368,6 +445,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B8C0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B8C0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B8C0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -386,6 +467,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B550> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B550> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B550>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -404,6 +489,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588DC28> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588DC28> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588DC28>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -422,6 +511,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<int> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<int> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<int>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x51559E0
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -440,6 +533,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B868> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B868> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B868>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -458,6 +555,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B760> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B760> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B760>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -476,6 +577,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B080> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B080> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B080>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -494,6 +599,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B658> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B658> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B658>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -512,6 +621,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B6B0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B6B0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B6B0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -530,6 +643,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B7B8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B7B8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B7B8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -548,6 +665,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B5A8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B5A8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B5A8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -566,6 +687,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B340> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B340> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B340>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -584,6 +709,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B708> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B708> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B708>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -602,6 +731,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588BA78> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588BA78> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588BA78>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -620,6 +753,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B600> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B600> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B600>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -638,6 +775,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588AF20> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588AF20> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588AF20>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -656,6 +797,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588BA20> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588BA20> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588BA20>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -674,6 +819,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B810> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B810> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B810>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -692,6 +841,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588AFD0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588AFD0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588AFD0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -710,6 +863,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B1E0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B1E0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B1E0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -728,6 +885,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B028> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B028> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B028>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -746,6 +907,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65970298> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65970298> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65970298>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -764,6 +929,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B2E8> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B2E8> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B2E8>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -782,6 +951,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B398> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B398> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B398>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -800,6 +973,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588DB20> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588DB20> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588DB20>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -818,6 +995,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588AF78> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588AF78> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588AF78>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -836,6 +1017,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588B970> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588B970> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588B970>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -854,6 +1039,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65884D28> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65884D28> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65884D28>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -872,6 +1061,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<float> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<float> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<float>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156C40
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -890,6 +1083,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588C890> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588C890> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588C890>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -908,6 +1105,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<bool> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<bool> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<bool>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155480
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -926,6 +1127,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588C838> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588C838> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588C838>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -944,6 +1149,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588C788> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588C788> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588C788>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -962,6 +1171,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588C7E0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588C7E0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588C7E0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -980,6 +1193,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<string> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<string> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<string>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156800
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -998,6 +1215,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<VRC.Localization.LocalizableString> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x50
+        public System.Action`1<VRC.Localization.LocalizableString> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x58
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<VRC.Localization.LocalizableString>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x60
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156220
         public void get_HasSerializedModelDir(){} // RVA: 0x51563C0
@@ -1016,6 +1237,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156800
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1034,6 +1259,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65884C78> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65884C78> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65884C78>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1052,6 +1281,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65884CD0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65884CD0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65884CD0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1070,6 +1303,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ>> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ>> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ>>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5156800
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1088,6 +1325,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x6588E360> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x6588E360> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x6588E360>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1106,6 +1347,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65885E00> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65885E00> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65885E00>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1124,6 +1369,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65885EB0> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65885EB0> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65885EB0>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1142,6 +1391,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65885E58> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65885E58> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65885E58>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1160,6 +1413,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_F2E1
     {
+        public System.Func`1<0x65885F08> ÏÎÏÎÏÍÏÏÍÍÏÌÌÏÍÏÎÏÏÌÏÎÎ; // 0x30
+        public System.Action`1<0x65885F08> ÎÌÍÍÎÌÏÏÎÌÎÏÎÍÎÎÌÍÌÏÏÌÍ; // 0x38
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<0x65885F08>> ÌÌÌÏÌÎÌÍÏÍÏÌÌÍÌÏÎÍÏÍÌÍÌ; // 0x40
+
         // ── Methods ──
         public void ConfigureTexture(){} // RVA: 0x5155E00
         public void get_HasSerializedModelDir(){} // RVA: 0x51555E0
@@ -1195,6 +1452,16 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÍÌÎÎÎÌÏÌÍÎÌÏÌÌÍÍÏÌÌÎ</summary>
     public class NetworkSyncableSiblingSibRelated_7ABD
     {
+        public UnityEngine.TextAsset _cpuConfig; // 0x20
+        public UnityEngine.TextAsset _gpuConfig; // 0x28
+        public UnityEngine.TextAsset _openGlEsConfig; // 0x30
+        public long _timeoutMicrosec; // 0x38
+        public Mediapipe.GlobalInstanceTable`2<int,ÏÏÏÍÌÎÎÎÌÏÌÍÎÌÏÌÌÍÍÏÌÌÎ> ÏÏÏÎÎÏÏÎÍÌÍÏÍÎÏÍÎÍÏÏÏÍÌ;
+        public System.Collections.Generic.Dictionary`2<UIntPtr,int> ÎÌÎÍÏÌÍÌÌÎÌÎÎÎÍÌÌÏÍÍÌÏÏ; // 0x8
+        public 0x65723FC0 <ÏÍÌÌÌÎÌÏÎÎÎÎÎÍÍÏÍÏÏÏÎÍÎ>k__BackingField; // 0x40
+        public bool ÎÏÍÏÍÍÌÎÍÏÎÏÍÍÎÍÍÍÎÎÎÏÌ; // 0x44
+        public 0x65931D60 <ÍÌÎÏÍÌÎÌÍÍÌÎÎÎÏÌÏÎÎÌÌÍÍ>k__BackingField; // 0x48
+
         // ── Methods ──
         public void ProcessPlayableOutputHandle(){} // RVA: 0x197D840
         public void GetComponentTransform_93BBF7ED98B6(){} // RVA: 0x37E080
@@ -1235,6 +1502,9 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÎÍÍÎÏÌÏÌÍÎÍÌÍÎÌÌÍÌÌÏÌ</summary>
     public class NetworkSyncableSiblingSiblingSibling_7E32
     {
+        public string ÎÌÏÎÌÌÏÍÏÍÎÎÌÏÏÎÎÍÍÎÏÍÎ;
+        public UnityEngine.GameObject _bootstrapPrefab; // 0x20
+
         // ── Methods ──
         public void ProcessPlayableOutputHandle(){} // RVA: 0x197D840
         public void get_Data(){} // RVA: 0x30B130

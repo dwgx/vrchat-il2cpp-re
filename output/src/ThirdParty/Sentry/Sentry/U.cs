@@ -7,6 +7,11 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class UserFeedback
     {
+        public Sentry.SentryId <EventId>k__BackingField; // 0x10
+        public string <Name>k__BackingField; // 0x20
+        public string <Email>k__BackingField; // 0x28
+        public string <Comments>k__BackingField; // 0x30
+
         // ── Methods ──
         public void get_EventId(){} // RVA: 0x196ABE0
         public void get_Name(){} // RVA: 0x30B0C0

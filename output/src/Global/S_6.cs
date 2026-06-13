@@ -17,6 +17,8 @@ public class SpaceSetComponentStatusCompleteData
 
 public class SparseArray`1
 {
+    public T[] m_array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x24FA0
     public void get_Current(){} // RVA: 0xCD60
@@ -26,6 +28,8 @@ public class SparseArray`1
 
 public class SparseArray`1
 {
+    public WorkStealingQueue[] m_array; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x407F7E0
     public void get_Current(){} // RVA: 0x407F880
@@ -55,6 +59,8 @@ public class SpecialCharacter
 
 public class Spectrum
 {
+    public int selection; // 0x10
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x10A1D90
     public void .ctor_7CFA8B6BDF2D(){} // RVA: 0x10A23F0
@@ -76,6 +82,15 @@ public class Sphere
 
 public class Spine
 {
+    public UnityEngine.Transform headTarget; // 0x48
+    public UnityEngine.Transform pelvisTarget; // 0x50
+    public float positionWeight; // 0x58
+    public float rotationWeight; // 0x5C
+    public float pelvisPositionWeight; // 0x60
+    public float pelvisRotationWeight; // 0x64
+    public UnityEngine.Transform chestGoal; // 0x68
+    public float chestGoalWeight; // 0x70
+
     // ── Methods ──
     public void get_pelvis(){} // RVA: 0x412110
     public void get_firstSpineBone(){} // RVA: 0x412140
@@ -180,6 +195,8 @@ public class Sse2
 
 public class StackAllocator
 {
+    public AllocatorHandle m_handle; // 0x10
+
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x19689B0
     public void Try(){} // RVA: 0x6D76E10 | overloaded x2
@@ -193,6 +210,8 @@ public class StackDebugView
 
 public class StackEnumerator : .ctor
 {
+    public System.Collections.Stack _stack; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5E03240
     public void Clone(){} // RVA: 0x5D7B480
@@ -235,6 +254,9 @@ public class StackRowStack
 
 public class StandardValuesCollection
 {
+    public System.Collections.ICollection values; // 0x10
+    public System.Array valueArray; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C9CC20
     public void get_Count(){} // RVA: 0x6C9CD80
@@ -256,20 +278,26 @@ public class StartSendingMsg
 
 public class State
 {
+    public float mappingWeightMlp; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class State
 {
+    public float mappingWeightMlp; // 0x10
 }
 
 public class State
 {
+    public float mappingWeightMlp; // 0x10
 }
 
 public class State
 {
+    public float mappingWeightMlp; // 0x10
+
     // ── Methods ──
     public void get_Default(){} // RVA: 0x353BB0
     public void Clamp(){} // RVA: 0x353C00
@@ -277,6 +305,8 @@ public class State
 
 public class State
 {
+    public float mappingWeightMlp; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67FB930
     public void ProcessStripe(){} // RVA: 0x67FB980
@@ -301,6 +331,8 @@ public class StateChangeMonitorTimeout
 
 public class StateChangeMonitorsForDevice
 {
+    public BitRegion[] memoryRegions; // 0x10
+
     // ── Methods ──
     public void get_count(){} // RVA: 0x791DC0
     public void Add(){} // RVA: 0x6E85490
@@ -366,7 +398,7 @@ public class StateOrProvinceName
 
 public class StateSettings
 {
-    public object System.Collections.Generic.IEnumerator<System.Object>.Current;
+    public float System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3798C0
@@ -453,6 +485,9 @@ public class StopSendingMsg
 
 public class StoreInstance
 {
+    public string <storeName>k__BackingField; // 0x10
+    public UnityEngine.Purchasing.Extension.IStore <instance>k__BackingField; // 0x18
+
     // ── Methods ──
     public void get_storeName(){} // RVA: 0x2F8380
     public void get_instance(){} // RVA: 0x2E07C0
@@ -461,6 +496,8 @@ public class StoreInstance
 
 public class StreamTokenReader
 {
+    public System.IO.StreamReader _in; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1A3E640
     public void Read(){} // RVA: 0x5C6AC10
@@ -678,8 +715,7 @@ public class SubDouble
 
 public class SubEmittersModule
 {
-    public object enabled;
-    public object mode;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x100A2F0

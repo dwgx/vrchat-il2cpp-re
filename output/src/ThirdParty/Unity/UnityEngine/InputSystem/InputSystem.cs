@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.InputSystem
-// Classes: 67
-// Methods: 2217
+// Classes: 96
+// Methods: 2628
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Accelerometer
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <acceleration>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Accelerometer <current>k__BackingField;
+
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0xA90180
         public void set_acceleration(){} // RVA: 0xD96D90
@@ -20,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AmbientTemperatureSensor
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <ambientTemperature>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.AmbientTemperatureSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_ambientTemperature(){} // RVA: 0xA90180
         public void set_ambientTemperature(){} // RVA: 0xD96D90
@@ -33,6 +39,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AttitudeSensor
     {
+        public UnityEngine.InputSystem.Controls.QuaternionControl <attitude>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.AttitudeSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_attitude(){} // RVA: 0xA90180
         public void set_attitude(){} // RVA: 0xD96D90
@@ -52,6 +61,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class DefaultInputActions
     {
+        public UnityEngine.InputSystem.InputActionAsset <asset>k__BackingField; // 0x10
+        public UnityEngine.InputSystem.InputActionMap m_Player; // 0x18
+        public IPlayerActions m_PlayerActionsCallbackInterface; // 0x20
+        public UnityEngine.InputSystem.InputAction m_Player_Move; // 0x28
+        public UnityEngine.InputSystem.InputAction m_Player_Look; // 0x30
+        public UnityEngine.InputSystem.InputAction m_Player_Fire; // 0x38
+        public UnityEngine.InputSystem.InputActionMap m_UI; // 0x40
+        public IUIActions m_UIActionsCallbackInterface; // 0x48
+        public UnityEngine.InputSystem.InputAction m_UI_Navigate; // 0x50
+        public UnityEngine.InputSystem.InputAction m_UI_Submit; // 0x58
+        public UnityEngine.InputSystem.InputAction m_UI_Cancel; // 0x60
+        public UnityEngine.InputSystem.InputAction m_UI_Point; // 0x68
+
         // ── Methods ──
         public void get_asset(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x6E88460
@@ -574,6 +596,26 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Gamepad
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <buttonWest>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.ButtonControl <buttonNorth>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.ButtonControl <buttonSouth>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.ButtonControl <buttonEast>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftStickButton>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightStickButton>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl <startButton>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <selectButton>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.DpadControl <dpad>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftShoulder>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightShoulder>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.StickControl <leftStick>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.StickControl <rightStick>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftTrigger>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightTrigger>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Gamepad <current>k__BackingField;
+        public UnityEngine.InputSystem.Haptics.DualMotorRumble m_Rumble; // 0x208
+        public int s_GamepadCount; // 0x8
+        public UnityEngine.InputSystem.Gamepad[] s_Gamepads; // 0x10
+
         // ── Methods ──
         public void get_buttonWest(){} // RVA: 0xA90180
         public void set_buttonWest(){} // RVA: 0xD96D90
@@ -630,6 +672,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class GravitySensor
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <gravity>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.GravitySensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_gravity(){} // RVA: 0xA90180
         public void set_gravity(){} // RVA: 0xD96D90
@@ -643,6 +688,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Gyroscope
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <angularVelocity>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Gyroscope <current>k__BackingField;
+
         // ── Methods ──
         public void get_angularVelocity(){} // RVA: 0xA90180
         public void set_angularVelocity(){} // RVA: 0xD96D90
@@ -656,6 +704,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class HingeAngle
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <angle>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.HingeAngle <current>k__BackingField;
+
         // ── Methods ──
         public void get_angle(){} // RVA: 0xA90180
         public void set_angle(){} // RVA: 0xD96D90
@@ -669,6 +720,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class HumiditySensor
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <relativeHumidity>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.HumiditySensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_relativeHumidity(){} // RVA: 0xA90180
         public void set_relativeHumidity(){} // RVA: 0xD96D90
@@ -712,8 +766,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
     }
 
+    public class IInputInteraction`1
+    {
+    }
+
     public class InputAction
     {
+        public Unity.Profiling.ProfilerMarker k_InputActionEnableProfilerMarker;
+        public Unity.Profiling.ProfilerMarker k_InputActionDisableProfilerMarker; // 0x8
+        public string m_Name; // 0x10
+        public 0x65867690 m_Type; // 0x18
+        public string m_ExpectedControlType; // 0x20
+        public string m_Id; // 0x28
+        public string m_Processors; // 0x30
+        public string m_Interactions; // 0x38
+        public UnityEngine.InputSystem.InputBinding[] m_SingletonActionBindings; // 0x40
+        public 0x65866508 m_Flags; // 0x48
+        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> m_BindingMask; // 0x50
+        public int m_BindingsStartIndex; // 0xB0
+        public int m_BindingsCount; // 0xB4
+        public int m_ControlStartIndex; // 0xB8
+        public int m_ControlCount; // 0xBC
+        public int m_ActionIndexInState; // 0xC0
+        public UnityEngine.InputSystem.InputActionMap m_ActionMap; // 0xC8
+        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> m_OnStarted; // 0xD0
+        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> m_OnCanceled; // 0x120
+        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> m_OnPerformed; // 0x170
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x2F8380
         public void get_type(){} // RVA: 0x5BED50
@@ -781,6 +860,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionAsset
     {
+        public string Extension;
+        public string kDefaultAssetLayoutJson;
+        public UnityEngine.InputSystem.InputActionMap[] m_ActionMaps; // 0x18
+        public UnityEngine.InputSystem.InputControlScheme[] m_ControlSchemes; // 0x20
+        public bool m_IsProjectWide; // 0x28
+        public UnityEngine.InputSystem.InputActionState m_SharedStateForAllMaps; // 0x30
+        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> m_BindingMask; // 0x38
+
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x6D86280
         public void get_actionMaps(){} // RVA: 0x6D86450
@@ -817,6 +904,23 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionMap
     {
+        public Unity.Profiling.ProfilerMarker k_ResolveBindingsProfilerMarker;
+        public string m_Name; // 0x10
+        public string m_Id; // 0x18
+        public UnityEngine.InputSystem.InputActionAsset m_Asset; // 0x20
+        public UnityEngine.InputSystem.InputAction[] m_Actions; // 0x28
+        public UnityEngine.InputSystem.InputBinding[] m_Bindings; // 0x30
+        public UnityEngine.InputSystem.InputBinding[] m_BindingsForEachAction; // 0x38
+        public UnityEngine.InputSystem.InputControl[] m_ControlsForEachAction; // 0x40
+        public int m_EnabledActionsCount; // 0x48
+        public UnityEngine.InputSystem.InputAction m_SingletonAction; // 0x50
+        public int m_MapIndexInState; // 0x58
+        public UnityEngine.InputSystem.InputActionState m_State; // 0x60
+        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> m_BindingMask; // 0x68
+        public 0x65866878 m_Flags; // 0xC8
+        public int m_ParameterOverridesCount; // 0xCC
+        public ParameterOverride[] m_ParameterOverrides; // 0xD0
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x2F8380
         public void get_asset(){} // RVA: 0x30B0C0
@@ -879,6 +983,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionProperty
     {
+        public bool m_UseReference; // 0x10
+        public UnityEngine.InputSystem.InputAction m_Action; // 0x18
+        public UnityEngine.InputSystem.InputActionReference m_Reference; // 0x20
+
         // ── Methods ──
         public void get_action(){} // RVA: 0x6D9FDB0
         public void get_reference(){} // RVA: 0x6D9FEB0
@@ -917,8 +1025,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionReference
     {
-        public object _asset;
-        public object _action;
+        public UnityEngine.InputSystem.InputActionAsset _asset; // 0x18
+        public string _action; // 0x20
 
         // ── Methods ──
         public void get_asset(){} // RVA: 0x2E07C0
@@ -963,6 +1071,22 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionState
     {
+        public int kInvalidIndex;
+        public UnityEngine.InputSystem.InputActionMap[] maps; // 0x10
+        public UnityEngine.InputSystem.InputControl[] controls; // 0x18
+        public UnityEngine.InputSystem.IInputInteraction[] interactions; // 0x20
+        public UnityEngine.InputSystem.InputProcessor[] processors; // 0x28
+        public UnityEngine.InputSystem.InputBindingComposite[] composites; // 0x30
+        public int totalProcessorCount; // 0x38
+        public UnmanagedMemory memory; // 0x40
+        public bool m_OnBeforeUpdateHooked; // 0xC0
+        public bool m_OnAfterUpdateHooked; // 0xC1
+        public bool m_InProcessControlStateChange; // 0xC2
+        public UnityEngine.InputSystem.LowLevel.InputEventPtr m_CurrentlyProcessingThisEvent; // 0xC8
+        public System.Action m_OnBeforeUpdateDelegate; // 0xD0
+        public System.Action m_OnAfterUpdateDelegate; // 0xD8
+        public Unity.Profiling.ProfilerMarker k_InputInitialActionStateCheckMarker;
+
         // ── Methods ──
         public void get_totalCompositeCount(){} // RVA: 0x5A54D0
         public void get_totalMapCount(){} // RVA: 0x37E0C0
@@ -1071,6 +1195,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBinding
     {
+        public char Separator;
+        public string kSeparatorString;
+        public string m_Name; // 0x10
+        public string m_Id; // 0x18
+        public string m_Path; // 0x20
+        public string m_Interactions; // 0x28
+        public string m_Processors; // 0x30
+        public string m_Groups; // 0x38
+        public string m_Action; // 0x40
+        public 0x65867798 m_Flags; // 0x48
+        public string m_OverridePath; // 0x50
+        public string m_OverrideInteractions; // 0x58
+        public string m_OverrideProcessors; // 0x60
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x1AD4690
         public void set_name(){} // RVA: 0x100A2F0
@@ -1119,6 +1257,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingComposite
     {
+        public UnityEngine.InputSystem.Utilities.TypeTable s_Composites;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0xCD60
         public void get_valueSizeInBytes(){} // RVA: 0xD840
@@ -1136,6 +1276,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingCompositeContext
     {
+        public UnityEngine.InputSystem.InputActionState m_State; // 0x10
+
         // ── Methods ──
         public void get_controls(){} // RVA: 0x6DDD180
         public void EvaluateMagnitude(){} // RVA: 0x6DDD230
@@ -1155,8 +1297,43 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class InputBindingComposite`1
+    {
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35A6BF0
+        public void get_valueSizeInBytes(){} // RVA: 0xA7E130
+        public void ReadValue(){} // RVA: 0x35A6CA0 | overloaded x2
+        public void ReadValueAsObject(){} // RVA: 0x35A6DF0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputBindingComposite`1
+    {
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35A6E60
+        public void get_valueSizeInBytes(){} // RVA: 0xA63AE0
+        public void ReadValue(){} // RVA: 0x35A6F10 | overloaded x2
+        public void ReadValueAsObject(){} // RVA: 0x35A7060
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputBindingComposite`1
+    {
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35A70D0
+        public void get_valueSizeInBytes(){} // RVA: 0x210E2A0
+        public void ReadValue(){} // RVA: 0x35A7180 | overloaded x2
+        public void ReadValueAsObject(){} // RVA: 0x35A72F0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
     public class InputBindingResolver
     {
+        public int totalProcessorCount; // 0x10
+        public int totalCompositeCount; // 0x14
+        public int totalInteractionCount; // 0x18
+        public UnityEngine.InputSystem.InputActionMap[] maps; // 0x20
+
         // ── Methods ──
         public void get_totalMapCount(){} // RVA: 0x791DC0
         public void get_totalActionCount(){} // RVA: 0x1209F00
@@ -1173,6 +1350,31 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl
     {
+        public UnityEngine.InputSystem.LowLevel.InputStateBlock m_StateBlock; // 0x10
+        public UnityEngine.InputSystem.Utilities.InternedString m_Name; // 0x20
+        public string m_Path; // 0x30
+        public string m_DisplayName; // 0x38
+        public string m_DisplayNameFromLayout; // 0x40
+        public string m_ShortDisplayName; // 0x48
+        public string m_ShortDisplayNameFromLayout; // 0x50
+        public UnityEngine.InputSystem.Utilities.InternedString m_Layout; // 0x58
+        public UnityEngine.InputSystem.Utilities.InternedString m_Variants; // 0x68
+        public UnityEngine.InputSystem.InputDevice m_Device; // 0x78
+        public UnityEngine.InputSystem.InputControl m_Parent; // 0x80
+        public int m_UsageCount; // 0x88
+        public int m_UsageStartIndex; // 0x8C
+        public int m_AliasCount; // 0x90
+        public int m_AliasStartIndex; // 0x94
+        public int m_ChildCount; // 0x98
+        public int m_ChildStartIndex; // 0x9C
+        public 0x65868190 m_ControlFlags; // 0xA0
+        public bool m_CachedValueIsStale; // 0xA4
+        public bool m_UnprocessedCachedValueIsStale; // 0xA5
+        public UnityEngine.InputSystem.Utilities.PrimitiveValue m_DefaultState; // 0xA8
+        public UnityEngine.InputSystem.Utilities.PrimitiveValue m_MinValue; // 0xB8
+        public UnityEngine.InputSystem.Utilities.PrimitiveValue m_MaxValue; // 0xC8
+        public UnityEngine.InputSystem.Utilities.FourCC m_OptimizedControlDataType; // 0xD8
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x6DEB4B0
         public void get_displayName(){} // RVA: 0x6DEB510
@@ -1282,6 +1484,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlList`1 : System.Collections.Generic
     {
+        public int m_Count;
+        public Unity.Collections.NativeArray`1<ulong> m_Indices;
+        public 0x65893D70 m_Allocator;
+        public ulong kInvalidIndex;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xD840
         public void get_Capacity(){} // RVA: 0xD840
@@ -1313,6 +1520,90 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public void FromIndex(){} // RVA: 0x283FA0
     }
 
+    public class InputControlList`1
+    {
+        public int m_Count; // 0x10
+        public Unity.Collections.NativeArray`1<ulong> m_Indices; // 0x18
+        public 0x65893D70 m_Allocator; // 0x28
+        public ulong kInvalidIndex;
+    }
+
+    public class InputControlList`1
+    {
+        public int m_Count; // 0x10
+        public Unity.Collections.NativeArray`1<ulong> m_Indices; // 0x18
+        public 0x65893D70 m_Allocator; // 0x28
+        public ulong kInvalidIndex;
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x19689B0
+        public void get_Capacity(){} // RVA: 0x35A7830
+        public void set_Capacity(){} // RVA: 0x35A7880
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void get_Item(){} // RVA: 0x35A7A50
+        public void set_Item(){} // RVA: 0x35A7B50
+        public void .ctor(){} // RVA: 0x35A7F40 | overloaded x3
+        public void Resize(){} // RVA: 0x35A8060
+        public void Add(){} // RVA: 0x35A81E0
+        public void AddSlice(){} // RVA: 0x283FA0
+        public void AddRange(){} // RVA: 0x35A82B0
+        public void Remove(){} // RVA: 0x35A8680
+        public void RemoveAt(){} // RVA: 0x35A8740
+        public void CopyTo(){} // RVA: 0x35A88A0
+        public void IndexOf(){} // RVA: 0x35A8940 | overloaded x2
+        public void Insert(){} // RVA: 0x35A88A0
+        public void Clear(){} // RVA: 0x1EDD860
+        public void Contains(){} // RVA: 0x35A8B30 | overloaded x2
+        public void SwapElements(){} // RVA: 0x35A8BB0
+        public void Sort(){} // RVA: 0x283FA0
+        public void ToArray(){} // RVA: 0x35A8CB0
+        public void AppendTo(){} // RVA: 0x35A8E60
+        public void Dispose(){} // RVA: 0x35A8F20
+        public void GetEnumerator(){} // RVA: 0x35A8F80
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35A9040
+        public void ToString(){} // RVA: 0x35A9080
+        public void ToIndex(){} // RVA: 0x35A9240
+        public void FromIndex(){} // RVA: 0x35A9320
+    }
+
+    public class InputControlList`1
+    {
+        public int m_Count; // 0x10
+        public Unity.Collections.NativeArray`1<ulong> m_Indices; // 0x18
+        public 0x65893D70 m_Allocator; // 0x28
+        public ulong kInvalidIndex;
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x19689B0
+        public void get_Capacity(){} // RVA: 0x35A7830
+        public void set_Capacity(){} // RVA: 0x35A7880
+        public void get_IsReadOnly(){} // RVA: 0x2DD320
+        public void get_Item(){} // RVA: 0x35A7A50
+        public void set_Item(){} // RVA: 0x35A7B50
+        public void .ctor(){} // RVA: 0x35A7F40 | overloaded x3
+        public void Resize(){} // RVA: 0x35A8060
+        public void Add(){} // RVA: 0x35A81E0
+        public void AddSlice(){} // RVA: 0x283FA0
+        public void AddRange(){} // RVA: 0x35A82B0
+        public void Remove(){} // RVA: 0x35A8680
+        public void RemoveAt(){} // RVA: 0x35A8740
+        public void CopyTo(){} // RVA: 0x35A88A0
+        public void IndexOf(){} // RVA: 0x35A8940 | overloaded x2
+        public void Insert(){} // RVA: 0x35A88A0
+        public void Clear(){} // RVA: 0x1EDD860
+        public void Contains(){} // RVA: 0x35A8B30 | overloaded x2
+        public void SwapElements(){} // RVA: 0x35A8BB0
+        public void Sort(){} // RVA: 0x283FA0
+        public void ToArray(){} // RVA: 0x35A8CB0
+        public void AppendTo(){} // RVA: 0x35A8E60
+        public void Dispose(){} // RVA: 0x35A8F20
+        public void GetEnumerator(){} // RVA: 0x35A8F80
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35A9040
+        public void ToString(){} // RVA: 0x35A9080
+        public void ToIndex(){} // RVA: 0x35A9240
+        public void FromIndex(){} // RVA: 0x35A9320
+    }
+
     public class InputControlPath
     {
         // ── Methods ──
@@ -1342,6 +1633,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlScheme
     {
+        public string m_Name; // 0x10
+        public string m_BindingGroup; // 0x18
+        public DeviceRequirement[] m_DeviceRequirements; // 0x20
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x1AD4690
         public void get_bindingGroup(){} // RVA: 0x19689C0
@@ -1362,6 +1657,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1
     {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<T>> m_ProcessorStack;
+        public T m_CachedValue;
+        public T m_UnprocessedCachedValue;
+        public bool evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0xCD60
         public void get_valueSizeInBytes(){} // RVA: 0xD840
@@ -1390,8 +1690,417 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>> m_ProcessorStack; // 0xE0
+        public UnityEngine.Vector2 m_CachedValue; // 0xF8
+        public UnityEngine.Vector2 m_UnprocessedCachedValue; // 0x100
+        public bool evaluateProcessorsEveryRead; // 0x108
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B73A0
+        public void get_valueSizeInBytes(){} // RVA: 0xA63AE0
+        public void get_value(){} // RVA: 0x35B7450
+        public void get_unprocessedValue(){} // RVA: 0x35B7530
+        public void ReadValue(){} // RVA: 0x35B7670
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B7690
+        public void ReadDefaultValue(){} // RVA: 0x35B77A0
+        public void ReadValueFromState(){} // RVA: 0x35B7880
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B7910
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B7A50
+        public void ReadUnprocessedValue(){} // RVA: 0x35B7B20
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B7B40
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B7C00
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B7DA0
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B7F30
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B8130
+        public void CompareValue(){} // RVA: 0x35B82F0 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B84A0 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B8580
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<float>> m_ProcessorStack; // 0xE0
+        public float m_CachedValue; // 0xF8
+        public float m_UnprocessedCachedValue; // 0xFC
+        public bool evaluateProcessorsEveryRead; // 0x100
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B3E00
+        public void get_valueSizeInBytes(){} // RVA: 0xA7E130
+        public void get_value(){} // RVA: 0x35B3EB0
+        public void get_unprocessedValue(){} // RVA: 0x35B3F70
+        public void ReadValue(){} // RVA: 0x35B4090
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B40B0
+        public void ReadDefaultValue(){} // RVA: 0x35B41C0
+        public void ReadValueFromState(){} // RVA: 0x35B42A0
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B4330
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B4460
+        public void ReadUnprocessedValue(){} // RVA: 0x35B4520
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B4540
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B4610
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B47B0
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B4950
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B4B40
+        public void CompareValue(){} // RVA: 0x35B4D00 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B4EA0 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B4F80
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<0x65869C08>> m_ProcessorStack; // 0xE0
+        public 0x65869C08 m_CachedValue; // 0xF8
+        public 0x65869C08 m_UnprocessedCachedValue; // 0xFC
+        public bool evaluateProcessorsEveryRead; // 0x100
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B05F0
+        public void get_valueSizeInBytes(){} // RVA: 0xA7E130
+        public void get_value(){} // RVA: 0x35B06A0
+        public void get_unprocessedValue(){} // RVA: 0x35B0760
+        public void ReadValue(){} // RVA: 0x35B0880
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35AF470
+        public void ReadDefaultValue(){} // RVA: 0x35AF580
+        public void ReadValueFromState(){} // RVA: 0x35AF660
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B08A0
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B09D0
+        public void ReadUnprocessedValue(){} // RVA: 0x35B0A90
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35AF8E0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35AF9A0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35AFB40
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B0AA0
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35AFEC0
+        public void CompareValue(){} // RVA: 0x35B0190 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B0320 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B0C90
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.PoseState>> m_ProcessorStack; // 0xE0
+        public UnityEngine.InputSystem.XR.PoseState m_CachedValue; // 0xF8
+        public UnityEngine.InputSystem.XR.PoseState m_UnprocessedCachedValue; // 0x134
+        public bool evaluateProcessorsEveryRead; // 0x170
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B0E90
+        public void get_valueSizeInBytes(){} // RVA: 0x21119D0
+        public void get_value(){} // RVA: 0x35B0F40
+        public void get_unprocessedValue(){} // RVA: 0x35B1060
+        public void ReadValue(){} // RVA: 0x35B11C0
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B1200
+        public void ReadDefaultValue(){} // RVA: 0x35B1390
+        public void ReadValueFromState(){} // RVA: 0x35B14E0
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B15E0
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B17A0
+        public void ReadUnprocessedValue(){} // RVA: 0x35B1890
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B18D0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B1A00
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B1C30
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B1E40
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B2060
+        public void CompareValue(){} // RVA: 0x35B22D0 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B2570 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B2720
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Quaternion>> m_ProcessorStack; // 0xE0
+        public UnityEngine.Quaternion m_CachedValue; // 0xF8
+        public UnityEngine.Quaternion m_UnprocessedCachedValue; // 0x108
+        public bool evaluateProcessorsEveryRead; // 0x118
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B2920
+        public void get_valueSizeInBytes(){} // RVA: 0x210E2B0
+        public void get_value(){} // RVA: 0x35B29D0
+        public void get_unprocessedValue(){} // RVA: 0x35B2A90
+        public void ReadValue(){} // RVA: 0x35B2BB0
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B2BD0
+        public void ReadDefaultValue(){} // RVA: 0x35B2D00
+        public void ReadValueFromState(){} // RVA: 0x35B2E00
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B2EB0
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B3000
+        public void ReadUnprocessedValue(){} // RVA: 0x35B30D0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B30F0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B31C0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B3370
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B3510
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B3710
+        public void CompareValue(){} // RVA: 0x35B3920 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B3B00 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B3C00
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<int>> m_ProcessorStack; // 0xE0
+        public int m_CachedValue; // 0xF8
+        public int m_UnprocessedCachedValue; // 0xFC
+        public bool evaluateProcessorsEveryRead; // 0x100
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35AF1D0
+        public void get_valueSizeInBytes(){} // RVA: 0xA7E130
+        public void get_value(){} // RVA: 0x35AF280
+        public void get_unprocessedValue(){} // RVA: 0x35AF340
+        public void ReadValue(){} // RVA: 0x35AF460
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35AF470
+        public void ReadDefaultValue(){} // RVA: 0x35AF580
+        public void ReadValueFromState(){} // RVA: 0x35AF660
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35AF6F0
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35AF810
+        public void ReadUnprocessedValue(){} // RVA: 0x35AF8D0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35AF8E0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35AF9A0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35AFB40
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35AFCD0
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35AFEC0
+        public void CompareValue(){} // RVA: 0x35B0190 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B0320 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B03F0
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<double>> m_ProcessorStack; // 0xE0
+        public double m_CachedValue; // 0xF8
+        public double m_UnprocessedCachedValue; // 0x100
+        public bool evaluateProcessorsEveryRead; // 0x108
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35AC2A0
+        public void get_valueSizeInBytes(){} // RVA: 0xA63AE0
+        public void get_value(){} // RVA: 0x35AC350
+        public void get_unprocessedValue(){} // RVA: 0x35AC410
+        public void ReadValue(){} // RVA: 0x35AC530
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35AC550
+        public void ReadDefaultValue(){} // RVA: 0x35AC660
+        public void ReadValueFromState(){} // RVA: 0x35AC740
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35AC7D0
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35AC900
+        public void ReadUnprocessedValue(){} // RVA: 0x35AC9C0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35AC9E0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35ACAB0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35ACC50
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35ACDF0
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35ACFE0
+        public void CompareValue(){} // RVA: 0x35AD1F0 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35AD390 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35AD470
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.LowLevel.TouchState>> m_ProcessorStack; // 0xE0
+        public UnityEngine.InputSystem.LowLevel.TouchState m_CachedValue; // 0xF8
+        public UnityEngine.InputSystem.LowLevel.TouchState m_UnprocessedCachedValue; // 0x130
+        public bool evaluateProcessorsEveryRead; // 0x168
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B5180
+        public void get_valueSizeInBytes(){} // RVA: 0x2111880
+        public void get_value(){} // RVA: 0x35B5230
+        public void get_unprocessedValue(){} // RVA: 0x35B5330
+        public void ReadValue(){} // RVA: 0x35B5480
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B54C0
+        public void ReadDefaultValue(){} // RVA: 0x35B5640
+        public void ReadValueFromState(){} // RVA: 0x35B5780
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B5870
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B5A20
+        public void ReadUnprocessedValue(){} // RVA: 0x35B5B10
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B5B50
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B5C70
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B5E90
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B6090
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B62B0
+        public void CompareValue(){} // RVA: 0x35B6510 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B6780 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B6920
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector3>> m_ProcessorStack; // 0xE0
+        public UnityEngine.Vector3 m_CachedValue; // 0xF8
+        public UnityEngine.Vector3 m_UnprocessedCachedValue; // 0x104
+        public bool evaluateProcessorsEveryRead; // 0x110
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35B8780
+        public void get_valueSizeInBytes(){} // RVA: 0x210E2A0
+        public void get_value(){} // RVA: 0x35B8830
+        public void get_unprocessedValue(){} // RVA: 0x35B8900
+        public void ReadValue(){} // RVA: 0x35B8A30
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35B8A60
+        public void ReadDefaultValue(){} // RVA: 0x35B8BB0
+        public void ReadValueFromState(){} // RVA: 0x35B8CC0
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35B8D80
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35B8EE0
+        public void ReadUnprocessedValue(){} // RVA: 0x35B8FC0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35B8FF0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35B90D0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35B92A0
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35B9450
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35B9660
+        public void CompareValue(){} // RVA: 0x35B9880 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35B9A80 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35B9BA0
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.Bone>> m_ProcessorStack; // 0xE0
+        public UnityEngine.InputSystem.XR.Bone m_CachedValue; // 0xF8
+        public UnityEngine.InputSystem.XR.Bone m_UnprocessedCachedValue; // 0x118
+        public bool evaluateProcessorsEveryRead; // 0x138
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35A9480
+        public void get_valueSizeInBytes(){} // RVA: 0x210E300
+        public void get_value(){} // RVA: 0x35A9530
+        public void get_unprocessedValue(){} // RVA: 0x35A9600
+        public void ReadValue(){} // RVA: 0x35A9730
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35A9760
+        public void ReadDefaultValue(){} // RVA: 0x35A98B0
+        public void ReadValueFromState(){} // RVA: 0x35A99C0
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35A9A80
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35A9BE0
+        public void ReadUnprocessedValue(){} // RVA: 0x35A9CC0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35A9CF0
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35A9DD0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35A9FB0
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35AA170
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35AA3F0
+        public void CompareValue(){} // RVA: 0x35AA620 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35AA830 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35AAB80
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
+    public class InputControl`1
+    {
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.Eyes>> m_ProcessorStack; // 0xE0
+        public UnityEngine.InputSystem.XR.Eyes m_CachedValue; // 0xF8
+        public UnityEngine.InputSystem.XR.Eyes m_UnprocessedCachedValue; // 0x144
+        public bool evaluateProcessorsEveryRead; // 0x190
+
+        // ── Methods ──
+        public void get_valueType(){} // RVA: 0x35AD670
+        public void get_valueSizeInBytes(){} // RVA: 0x2111980
+        public void get_value(){} // RVA: 0x35AD720
+        public void get_unprocessedValue(){} // RVA: 0x35AD850
+        public void ReadValue(){} // RVA: 0x35AD9C0
+        public void ReadValueFromPreviousFrame(){} // RVA: 0x35ADA10
+        public void ReadDefaultValue(){} // RVA: 0x35ADBB0
+        public void ReadValueFromState(){} // RVA: 0x35ADD10
+        public void ReadValueFromStateWithCaching(){} // RVA: 0x35ADE20
+        public void ReadUnprocessedValueFromStateWithCaching(){} // RVA: 0x35AE000
+        public void ReadUnprocessedValue(){} // RVA: 0x35AE100
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x263BC0
+        public void ReadValueFromStateAsObject(){} // RVA: 0x35AE150
+        public void ReadValueFromStateIntoBuffer(){} // RVA: 0x35AE2A0
+        public void WriteValueFromBufferIntoState(){} // RVA: 0x35AE4C0
+        public void WriteValueFromObjectIntoState(){} // RVA: 0x35AE6B0
+        public void WriteValueIntoState(){} // RVA: 0x35AA380
+        public void ReadValueFromBufferAsObject(){} // RVA: 0x35AE8E0
+        public void CompareValue(){} // RVA: 0x35AEB40 | overloaded x2
+        public void ProcessValue(){} // RVA: 0x35AEE00 | overloaded x2
+        public void TryGetProcessor(){} // RVA: 0x283FA0
+        public void AddProcessor(){} // RVA: 0x35AA970
+        public void FinishSetup(){} // RVA: 0x35AEFD0
+        public void get_processors(){} // RVA: 0x35AAD80
+        public void .ctor(){} // RVA: 0x35AADA0
+    }
+
     public class InputDevice
     {
+        public int InvalidDeviceId;
+        public int kLocalParticipantId;
+        public int kInvalidDeviceIndex;
+        public 0x65868A28 m_DeviceFlags; // 0xE0
+        public int m_DeviceId; // 0xE4
+        public int m_ParticipantId; // 0xE8
+        public int m_DeviceIndex; // 0xEC
+        public uint m_CurrentProcessedEventBytesOnUpdate; // 0xF0
+        public UnityEngine.InputSystem.Layouts.InputDeviceDescription m_Description; // 0xF8
+        public double m_LastUpdateTimeInternal; // 0x130
+        public uint m_CurrentUpdateStepCount; // 0x138
+        public UnityEngine.InputSystem.Utilities.InternedString[] m_AliasesForEachControl; // 0x140
+        public UnityEngine.InputSystem.Utilities.InternedString[] m_UsagesForEachControl; // 0x148
+        public UnityEngine.InputSystem.InputControl[] m_UsageToControl; // 0x150
+        public UnityEngine.InputSystem.InputControl[] m_ChildrenForEachControl; // 0x158
+        public System.Collections.Generic.HashSet`1<int> m_UpdatedButtons; // 0x160
+        public System.Collections.Generic.List`1<UnityEngine.InputSystem.Controls.ButtonControl> m_ButtonControlsCheckingPressState; // 0x168
+        public bool m_UseCachePathForButtonPresses; // 0x170
+        public uint[] m_StateOffsetToControlMap; // 0x178
+        public ControlBitRangeNode[] m_ControlTreeNodes; // 0x180
+        public ushort[] m_ControlTreeIndices; // 0x188
+        public int kControlIndexBits;
+        public int kStateOffsetBits;
+
         // ── Methods ──
         public void get_description(){} // RVA: 0x6DF8A60
         public void get_enabled(){} // RVA: 0x6DF8AA0
@@ -1479,8 +2188,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputInteractionContext
     {
-        public object sending;
-        public object manager;
+        public UnityEngine.InputSystem.InputActionState sending; // 0x10
+        public 0x65867E78 manager; // 0x18
+        public TriggerState m_TriggerState; // 0x1C
 
         // ── Methods ──
         public void get_action(){} // RVA: 0x6DE2780
@@ -1511,6 +2221,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputManager
     {
+        public Unity.Profiling.ProfilerMarker k_InputUpdateProfilerMarker;
+        public Unity.Profiling.ProfilerMarker k_InputTryFindMatchingControllerMarker; // 0x8
+        public Unity.Profiling.ProfilerMarker k_InputAddDeviceMarker; // 0x10
+        public Unity.Profiling.ProfilerMarker k_InputRestoreDevicesAfterReloadMarker; // 0x18
+        public Unity.Profiling.ProfilerMarker k_InputRegisterCustomTypesMarker; // 0x20
+        public Unity.Profiling.ProfilerMarker k_InputOnBeforeUpdateMarker; // 0x28
+        public Unity.Profiling.ProfilerMarker k_InputOnAfterUpdateMarker; // 0x30
+        public Unity.Profiling.ProfilerMarker k_InputOnSettingsChangeMarker; // 0x38
+        public Unity.Profiling.ProfilerMarker k_InputOnDeviceSettingsChangeMarker; // 0x40
+        public Unity.Profiling.ProfilerMarker k_InputOnEventMarker; // 0x48
+        public Unity.Profiling.ProfilerMarker k_InputOnLayoutChangeMarker; // 0x50
+        public Unity.Profiling.ProfilerMarker k_InputOnDeviceChangeMarker; // 0x58
+        public Unity.Profiling.ProfilerMarker k_InputOnActionsChangeMarker; // 0x60
+        public int m_LayoutRegistrationVersion; // 0x10
+        public float m_PollingFrequency; // 0x14
+        public Collection m_Layouts; // 0x18
+        public UnityEngine.InputSystem.Utilities.TypeTable m_Processors; // 0x58
+        public UnityEngine.InputSystem.Utilities.TypeTable m_Interactions; // 0x60
+
         // ── Methods ──
         public void get_devices(){} // RVA: 0x6E71A80
         public void get_processors(){} // RVA: 0x3A5500
@@ -1646,6 +2375,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputProcessor
     {
+        public UnityEngine.InputSystem.Utilities.TypeTable s_Processors;
+
         // ── Methods ──
         public void ProcessAsObject(){} // RVA: 0x1E6A0
         public void Process(){} // RVA: 0x283FA0
@@ -1662,8 +2393,87 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public void .ctor(){} // RVA: 0x24A50
     }
 
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BE080 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BDE70
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BE860 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BE640
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BEC20 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BE9E0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BDCC0 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BDAA0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BD4C0 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BD2B0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BCC90 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BCA80
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BE460 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BE200
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+        // ── Methods ──
+        public void Process(){} // RVA: 0x35BD4C0 | overloaded x2
+        public void ProcessAsObject(){} // RVA: 0x35BD2B0
+        public void .ctor(){} // RVA: 0x2DD310
+    }
+
+    public class InputProcessor`1
+    {
+    }
+
+    public class InputProcessor`1
+    {
+    }
+
+    public class InputProcessor`1
+    {
+    }
+
     public class InputRemoting
     {
+        public 0x65869000 m_Flags; // 0x10
+        public UnityEngine.InputSystem.InputManager m_LocalManager; // 0x18
+
         // ── Methods ──
         public void get_sending(){} // RVA: 0x6E680D0
         public void set_sending(){} // RVA: 0x6E680E0
@@ -1695,12 +2505,27 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputSettings
     {
-        public object currentUpdateType;
-        public object updateCount;
-        public object currentTime;
-        public object System.Collections.Generic;
-        public object [I;
-        public object get_Current;
+        public string[] currentUpdateType; // 0x18
+        public 0x6586A0D8 updateCount; // 0x20
+        public 0x6586A130 currentTime; // 0x24
+        public int System.Collections.Generic; // 0x28
+        public int [I; // 0x2C
+        public bool get_Current; // 0x30
+        public 0x6586A188 m_BackgroundBehavior; // 0x34
+        public 0x6586A1E0 m_EditorInputBehaviorInPlayMode; // 0x38
+        public 0x6586A238 m_InputActionPropertyDrawerMode; // 0x3C
+        public float m_DefaultDeadzoneMin; // 0x40
+        public float m_DefaultDeadzoneMax; // 0x44
+        public float m_DefaultButtonPressPoint; // 0x48
+        public float m_ButtonReleaseThreshold; // 0x4C
+        public float m_DefaultTapTime; // 0x50
+        public float m_DefaultSlowTapTime; // 0x54
+        public float m_DefaultHoldTime; // 0x58
+        public float m_TapRadius; // 0x5C
+        public float m_MultiTapDelayTime; // 0x60
+        public bool m_DisableRedundantEventsMerging; // 0x64
+        public bool m_ShortcutKeysConsumeInputs; // 0x65
+        public System.Collections.Generic.HashSet`1<string> m_FeatureFlags; // 0x68
 
         // ── Methods ──
         public void get_updateMode(){} // RVA: 0x760030
@@ -1757,7 +2582,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputSystem
     {
-        public object length;
+        public string length;
+        public string kDocUrl;
+        public Unity.Profiling.ProfilerMarker k_InputResetMarker;
+        public float scrollWheelDeltaPerTick;
+        public UnityEngine.InputSystem.InputManager s_Manager; // 0x8
+        public UnityEngine.InputSystem.InputRemoting s_Remote; // 0x10
 
         // ── Methods ──
         public void add_onLayoutChange(){} // RVA: 0x6DE2C30
@@ -1854,7 +2684,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputValue
     {
-        public object Count;
+        public System.Nullable`1<CallbackContext> Count; // 0x10
 
         // ── Methods ──
         public void Get(){} // RVA: 0x283FA0 | overloaded x2
@@ -1864,6 +2694,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Joystick
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <trigger>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.StickControl <stick>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.AxisControl <twist>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.Vector2Control <hatswitch>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Joystick <current>k__BackingField;
+        public int s_JoystickCount; // 0x8
+
         // ── Methods ──
         public void get_trigger(){} // RVA: 0xA90180
         public void set_trigger(){} // RVA: 0xD96D90
@@ -1889,6 +2726,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Keyboard
     {
+        public int KeyCount;
+        public int ExtendedKeyCount;
+        public UnityEngine.InputSystem.Controls.AnyKeyControl <anyKey>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.ButtonControl <shiftKey>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.ButtonControl <ctrlKey>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.ButtonControl <altKey>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Controls.ButtonControl <imeSelected>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Keyboard <current>k__BackingField;
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<char>> m_TextInputListeners; // 0x1B8
+        public string m_KeyboardLayoutName; // 0x1D0
+        public UnityEngine.InputSystem.Controls.KeyControl[] m_Keys; // 0x1D8
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.LowLevel.IMECompositionString>> m_ImeCompositionListeners; // 0x1E0
+
         // ── Methods ──
         public void add_onTextInput(){} // RVA: 0x6DFC3E0
         public void remove_onTextInput(){} // RVA: 0x6DFC4D0
@@ -2055,6 +2905,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class LightSensor
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <lightLevel>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.LightSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_lightLevel(){} // RVA: 0xA90180
         public void set_lightLevel(){} // RVA: 0xD96D90
@@ -2068,6 +2921,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class LinearAccelerationSensor
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <acceleration>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.LinearAccelerationSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0xA90180
         public void set_acceleration(){} // RVA: 0xD96D90
@@ -2081,6 +2937,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class MagneticFieldSensor
     {
+        public UnityEngine.InputSystem.Controls.Vector3Control <magneticField>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.MagneticFieldSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_magneticField(){} // RVA: 0xA90180
         public void set_magneticField(){} // RVA: 0xD96D90
@@ -2094,6 +2953,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Mouse
     {
+        public UnityEngine.InputSystem.Controls.DeltaControl <scroll>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <leftButton>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <middleButton>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <rightButton>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <backButton>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <forwardButton>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.IntegerControl <clickCount>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Mouse <current>k__BackingField;
+
         // ── Methods ──
         public void get_scroll(){} // RVA: 0xA57F60
         public void set_scroll(){} // RVA: 0xD94790
@@ -2125,6 +2993,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Pen
     {
+        public UnityEngine.InputSystem.Controls.ButtonControl <tip>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl <eraser>k__BackingField; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl <firstBarrelButton>k__BackingField; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl <secondBarrelButton>k__BackingField; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl <thirdBarrelButton>k__BackingField; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl <fourthBarrelButton>k__BackingField; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl <inRange>k__BackingField; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector2Control <tilt>k__BackingField; // 0x1F8
+        public UnityEngine.InputSystem.Controls.AxisControl <twist>k__BackingField; // 0x200
+        public UnityEngine.InputSystem.Pen <current>k__BackingField;
+
         // ── Methods ──
         public void get_tip(){} // RVA: 0xA57F60
         public void set_tip(){} // RVA: 0xD94790
@@ -2155,6 +3034,29 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PlayerInput
     {
+        public string DeviceLostMessage;
+        public string DeviceRegainedMessage;
+        public string ControlsChangedMessage;
+        public int m_AllMapsHashCode; // 0x20
+        public UnityEngine.InputSystem.InputActionAsset m_Actions; // 0x28
+        public 0x6586A810 m_NotificationBehavior; // 0x30
+        public UnityEngine.InputSystem.UI.InputSystemUIInputModule m_UIInputModule; // 0x38
+        public DeviceLostEvent m_DeviceLostEvent; // 0x40
+        public DeviceRegainedEvent m_DeviceRegainedEvent; // 0x48
+        public ControlsChangedEvent m_ControlsChangedEvent; // 0x50
+        public ActionEvent[] m_ActionEvents; // 0x58
+        public bool m_NeverAutoSwitchControlSchemes; // 0x60
+        public string m_DefaultControlScheme; // 0x68
+        public string m_DefaultActionMap; // 0x70
+        public int m_SplitScreenIndex; // 0x78
+        public UnityEngine.Camera m_Camera; // 0x80
+        public UnityEngine.InputSystem.InputValue m_InputValueObject; // 0x88
+        public UnityEngine.InputSystem.InputActionMap m_CurrentActionMap; // 0x90
+        public int m_PlayerIndex; // 0x98
+        public bool m_InputActive; // 0x9C
+        public bool m_Enabled; // 0x9D
+        public bool m_ActionsInitialized; // 0x9E
+
         // ── Methods ──
         public void get_inputIsActive(){} // RVA: 0x6378F70
         public void get_active(){} // RVA: 0x6378F70
@@ -2241,6 +3143,22 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PlayerInputManager
     {
+        public string PlayerJoinedMessage;
+        public string PlayerLeftMessage;
+        public UnityEngine.InputSystem.PlayerInputManager <instance>k__BackingField;
+        public 0x6586A810 m_NotificationBehavior; // 0x20
+        public int m_MaxPlayerCount; // 0x24
+        public bool m_AllowJoining; // 0x28
+        public 0x6586A7B8 m_JoinBehavior; // 0x2C
+        public PlayerJoinedEvent m_PlayerJoinedEvent; // 0x30
+        public PlayerLeftEvent m_PlayerLeftEvent; // 0x38
+        public UnityEngine.InputSystem.InputActionProperty m_JoinAction; // 0x40
+        public UnityEngine.GameObject m_PlayerPrefab; // 0x58
+        public bool m_SplitScreen; // 0x60
+        public bool m_MaintainAspectRatioInSplitScreen; // 0x61
+        public int m_FixedNumberOfSplitScreens; // 0x64
+        public UnityEngine.Rect m_SplitScreenRect; // 0x68
+
         // ── Methods ──
         public void get_splitScreen(){} // RVA: 0x306020
         public void set_splitScreen(){} // RVA: 0x6E96E90
@@ -2287,6 +3205,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Pointer
     {
+        public UnityEngine.InputSystem.Controls.Vector2Control <position>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.DeltaControl <delta>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector2Control <radius>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.AxisControl <pressure>k__BackingField; // 0x1A8
+        public UnityEngine.InputSystem.Controls.ButtonControl <press>k__BackingField; // 0x1B0
+        public UnityEngine.InputSystem.Controls.IntegerControl <displayIndex>k__BackingField; // 0x1B8
+        public UnityEngine.InputSystem.Pointer <current>k__BackingField;
+
         // ── Methods ──
         public void get_position(){} // RVA: 0xA90180
         public void set_position(){} // RVA: 0xD96D90
@@ -2315,6 +3241,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PressureSensor
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <atmosphericPressure>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.PressureSensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_atmosphericPressure(){} // RVA: 0xA90180
         public void set_atmosphericPressure(){} // RVA: 0xD96D90
@@ -2328,6 +3257,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class ProximitySensor
     {
+        public UnityEngine.InputSystem.Controls.AxisControl <distance>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.ProximitySensor <current>k__BackingField;
+
         // ── Methods ──
         public void get_distance(){} // RVA: 0xA90180
         public void set_distance(){} // RVA: 0xD96D90
@@ -2371,6 +3303,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class StepCounter
     {
+        public UnityEngine.InputSystem.Controls.IntegerControl <stepCounter>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.StepCounter <current>k__BackingField;
+
         // ── Methods ──
         public void get_stepCounter(){} // RVA: 0xA90180
         public void set_stepCounter(){} // RVA: 0xD96D90
@@ -2384,6 +3319,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Touchscreen
     {
+        public UnityEngine.InputSystem.Controls.TouchControl <primaryTouch>k__BackingField; // 0x1C0
+        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Controls.TouchControl> <touches>k__BackingField; // 0x1C8
+        public Unity.Profiling.ProfilerMarker k_TouchscreenUpdateMarker;
+        public Unity.Profiling.ProfilerMarker k_TouchAllocateMarker; // 0x8
+
         // ── Methods ──
         public void get_primaryTouch(){} // RVA: 0xA57F60
         public void set_primaryTouch(){} // RVA: 0xD94790
@@ -2411,6 +3351,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class TrackedDevice
     {
+        public UnityEngine.InputSystem.Controls.IntegerControl <trackingState>k__BackingField; // 0x190
+        public UnityEngine.InputSystem.Controls.ButtonControl <isTracked>k__BackingField; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector3Control <devicePosition>k__BackingField; // 0x1A0
+        public UnityEngine.InputSystem.Controls.QuaternionControl <deviceRotation>k__BackingField; // 0x1A8
+
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0xA90180
         public void set_trackingState(){} // RVA: 0xD96D90

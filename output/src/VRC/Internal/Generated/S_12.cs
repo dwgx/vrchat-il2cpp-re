@@ -169,6 +169,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÍÍÍÎÎÏÍÍÌÌÍÌÏÏÍÏÏÎÌ</summary>
     public class Static11m_F2F8
     {
+        public int <ÎÌÎÌÌÎÏÍÏÎÎÍÏÎÍÎÎÌÏÏÏÍÏ>k__BackingField; // 0x20
+        public bool <ÎÏÌÏÎÍÌÎÏÍÌÎÏÏÏÍÎÌÏÍÏÌÍ>k__BackingField; // 0x24
+
         // ── Methods ──
         public void get_HasDefaultValue(){} // RVA: 0x2F87C0
         public void set_HasDefaultValue(){} // RVA: 0x4D7670
@@ -223,6 +226,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÌÍÌÎÎÍÏÌÏÌÏÍÌÌÎÌÎÍÎ</summary>
     public class Static18m_5B74
     {
+        public System.Action`2<0x65740BB0,float> ÍÌÏÎÌÏÍÌÌÌÎÎÌÌÏÎÎÎÌÎÍÍÏ;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x83DCC0
         public void .ctor(){} // RVA: 0x840B30
@@ -578,6 +583,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÎÎÍÌÌÍÌÏÎÏÍÏÎÍÎÏÌÍÎÎ</summary>
     public class Static2m_6091
     {
+        public ÌÎÍÌÌÏÎÏÌÏÌÍÏÏÍÎÌÏÎÌÏÏÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x201AC00
         public void m_FA2(){} // RVA: 0x201ADD0
@@ -586,6 +593,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÎÌÍÎÏÎÍÌÏÎÌÌÍÌÌÍÎÎÏÏ</summary>
     public class Static38m_09AD
     {
+        public VRC.UI.Elements.MainMenuPlacementData _placementData; // 0x20
+        public ÍÏÌÏÌÎÎÏÎÎÍÍÏÎÍÏÎÎÏÍÎÍÎ ÏÌÎÏÏÌÍÎÎÎÎÎÌÎÎÍÌÍÎÎÍÏÌ; // 0x28
+        public UnityEngine.Vector3 ÍÏÌÎÍÌÍÎÎÏÎÏÌÌÍÏÌÌÏÏÍÎÌ; // 0x30
+        public bool ÍÍÍÍÏÎÎÍÎÏÏÌÏÍÌÍÍÎÌÍÌÌÎ; // 0x3C
+        public System.Action ÌÌÌÍÏÍÏÌÌÌÎÎÏÏÍÎÏÏÌÌÍÌÍ; // 0x40
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x8BACF50
         public void .ctor(){} // RVA: 0x8BADE60

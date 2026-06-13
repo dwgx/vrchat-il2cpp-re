@@ -7,6 +7,8 @@ namespace VRC.Networking
 {
     public class SerializationRecoveryHandler
     {
+        public VRC.Networking.SerializationRecoveryHandler <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x6043E0
         public void Init(){} // RVA: 0x6046F0
@@ -25,6 +27,8 @@ namespace VRC.Networking
 
     public class UdonClientImageDownloader
     {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Equals(){} // RVA: 0x654B60
@@ -41,6 +45,8 @@ namespace VRC.Networking
 
     public class UdonClientStringDownloader
     {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x656340
         public void .cctor(){} // RVA: 0x6563C0

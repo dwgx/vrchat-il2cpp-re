@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class FaceTrackedVisemeData
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -20,7 +22,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class FaceTrackedVisemeDataT
     {
-        public object Contents;
+        public byte[] Contents; // 0x10
 
         // ── Methods ──
         public void get_FaceTrackedVisemeValues(){} // RVA: 0x2F8380
@@ -30,6 +32,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class FloatHalf
     {
+        public Google.FlatBuffers8.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -43,7 +47,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class FloatHalfT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380

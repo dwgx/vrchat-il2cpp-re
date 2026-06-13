@@ -229,6 +229,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÏÏÌÏÌÏÏÍÍÍÎÌÏÏÍÏÏÌÌÌÏ</summary>
     public class Static11m_9BF0
     {
+        public Photon.Client.PhotonHashtable ÏÌÌÌÏÍÌÎÏÍÌÍÍÍÎÎÎÎÏÌÌÌÏ; // 0x10
+
         // ── Methods ──
         public void get_Current(){} // RVA: 0x2F8380
         public void .ctor(){} // RVA: 0x2DEE30
@@ -265,6 +267,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÌÌÍÎÍÏÏÌÍÎÏÌÍÏÍÌÍÍÍÎ</summary>
     public class Static11m_FB9B
     {
+        public ulong <ÍÏÍÏÏÌÍÌÍÍÍÎÎÏÏÏÌÌÏÎÌÍÎ>k__BackingField; // 0x10
+        public ulong <ÎÏÌÏÏÎÍÍÎÍÏÍÎÎÍÍÌÍÌÎÏÍÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void set_Low64(){} // RVA: 0x1B12320
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -417,6 +422,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÍÏÏÌÍÌÏÌÎÎÏÌÌÏÎÏÏÏÌÎ</summary>
     public class Static13m_CA41
     {
+        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ <ÌÌÍÍÏÏÎÎÎÏÎÎÏÍÏÍÌÎÏÎÎÍÍ>k__BackingField; // 0x10
+        public string <ÍÏÍÍÎÎÍÌÍÏÌÎÎÎÎÍÎÌÌÌÍÎÏ>k__BackingField; // 0x18
+        public 0x6588DD30 <ÎÏÏÏÍÏÌÎÎÌÎÌÎÏÎÍÍÍÏÌÏÎÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -457,6 +466,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÏÎÎÌÏÎÍÍÍÌÍÎÏÍÍÌÎÎÏÍÎ</summary>
     public class Static15m_1362
     {
+        public float ÌÍÍÏÏÍÍÏÎÍÍÌÏÌÏÏÌÎÏÌÌÍÍ;
+        public float ÌÎÍÍÎÎÌÎÍÍÍÍÌÌÎÍÏÏÍÏÎÍÏ;
+        public float ÍÎÎÍÏÎÎÌÌÌÏÌÌÎÍÍÎÎÏÍÎÎÍ;
+
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x35A740
         public void get_MoveNext_42075BA54153(){} // RVA: 0x35A740
@@ -511,6 +524,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÍÍÎÍÎÍÏÎÌÏÎÎÏÍÎÌÌÍÌÎ</summary>
     public class Static17m_7128
     {
+        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ[] ÍÌÏÍÌÍÍÌÌÎÍÏÏÏÏÎÎÌÎÍÎÍÌ; // 0x20
+        public ÏÌÍÏÍÌÏÍÎÌÏÍÍÎÏÍÏÌÎÌÎÍÍ[] ÎÌÌÏÏÏÎÏÌÌÍÏÏÌÏÏÏÌÌÍÏÎÏ; // 0x28
+
         // ── Methods ──
         public void get_CallingAssembly(){} // RVA: 0x977430
         public void get_Value(){} // RVA: 0x977410
@@ -535,6 +551,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÎÌÎÏÎÍÍÍÌÏÏÌÎÍÍÍÎÌÏÎ</summary>
     public class Static18m_361D
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÏÌÌÍÎÍÏÏÎÏÍÍÎÎÌÍÎÏÍÍÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÍÍÍÎÎÎÍÌÎÎÎÎÏÏÌÏÎÌÎÌÏÏ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÍÎÍÏÍÎÍÏÍÌÏÎÎÍÎÍÎÎÌÍÌ>k__BackingField; // 0x20
+        public int <ÏÏÏÌÍÍÎÌÎÍÌÌÌÌÏÏÏÍÎÎÎÎÌ>k__BackingField; // 0x28
+        public bool <ÍÍÎÍÌÏÍÌÏÏÍÌÌÏÎÌÌÍÏÏÏÎÍ>k__BackingField; // 0x2C
+        public long <ÏÌÎÌÎÌÏÎÌÍÌÌÌÎÍÏÏÌÎÌÏÏÍ>k__BackingField; // 0x30
+
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x1968950
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
@@ -681,6 +704,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÏÍÏÎÌÏÏÍÎÎÌÏÎÎÌÌÎÍÎÏÌ</summary>
     public class Static2m_7065
     {
+        public ÌÎÍÍÎÍÎÍÌÌÌÍÌÌÎÍÏÍÎÎÍÍÌ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x20A3530
         public void m_FA2(){} // RVA: 0x20A3700
@@ -689,6 +714,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÌÍÍÎÍÍÌÌÎÏÏÌÍÎÎÍÍÌÍÎÍ</summary>
     public class Static2m_7433
     {
+        public ÎÌÌÎÏÏÏÌÍÏÏÎÎÍÌÌÌÎÍÎÍÌÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Methods ──
         public void PresencePresence(){} // RVA: 0x1F7D4A0
         // ── Unresolved (hash) ──
@@ -706,6 +733,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÍÍÌÌÍÏÌÌÌÍÎÌÎÍÏÏÏÎÌÏ</summary>
     public class Static2m_93C7
     {
+        public ÎÎÌÌÎÌÎÌÏÏÍÍÏÎÏÍÌÌÍÌÎÎÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x2073C10
         public void m_FA2(){} // RVA: 0x2073DE0
@@ -714,6 +743,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÌÎÍÍÎÌÎÎÎÏÏÏÎÍÌÌÍÎÌÍÏ</summary>
     public class Static2m_A96E
     {
+        public ÎÏÎÌÌÎÌÌÏÌÏÎÎÌÎÎÌÌÏÎÌÎÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F7E320
         public void m_FA2(){} // RVA: 0x1F7E4F0
@@ -740,6 +771,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÏÎÌÏÍÎÌÎÏÏÎÎÎÌÍÌÎÏÌÏÍ</summary>
     public class Static2m_D539
     {
+        public ÌÎÍÎÌÎÌÍÍÌÌÏÏÎÏÎÏÏÌÎÎÏÎ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x208CC30
         public void m_FA2(){} // RVA: 0x208CE00
@@ -838,6 +871,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÎÌÎÏÌÏÍÍÏÍÏÌÎÌÎÏÎÏÍÏ</summary>
     public class Static5m_1A3F
     {
+        public float ÎÌÍÌÌÍÎÍÍÎÍÍÍÌÍÎÏÎÍÎÎÏÌ; // 0x10
+        public float ÏÌÌÍÎÍÎÏÎÍÌÎÍÌÌÎÏÏÌÏÌÏÌ; // 0x14
+
         // ── Methods ──
         public void GetExpectedContentHeight(){} // RVA: 0x21890
         public void .ctor(){} // RVA: 0xD79210
@@ -1104,6 +1140,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÎÌÏÍÎÌÌÏÎÌÏÍÌÌÎÎÎÌÎÏÎ</summary>
     public class Static9m_116C
     {
+        public bool ÏÌÏÎÍÏÎÍÌÏÏÏÏÌÎÎÍÎÌÍÌÎÏ; // 0x20
+
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
         public void Clear(){} // RVA: 0x24A50
@@ -1295,6 +1333,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÌÎÌÍÌÍÎÍÎÏÏÎÌÍÎÌÏÍÍÌÏ</summary>
     public class Static9m_7D74
     {
+        public ÏÏÎÍÌÎÎÍÌÌÌÎÌÌÍÌÍÍÌÍÌÌÌ <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x10
+        public object <ÌÎÍÎÏÏÍÏÍÍÌÏÏÎÌÎÏÎÎÎÌÍÎ>k__BackingField; // 0x18
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x2DEE30
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0

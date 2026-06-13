@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class WWWForm
     {
+        public byte[] dDash;
+
         // ── Methods ──
         public void get_DefaultEncoding(){} // RVA: 0x74F99E0
         public void .cctor(){} // RVA: 0x74F99F0
@@ -46,6 +48,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitForSecondsRealtime
     {
+        public float <waitTime>k__BackingField; // 0x10
+        public float m_WaitUntilTime; // 0x14
+
         // ── Methods ──
         public void get_waitTime(){} // RVA: 0x407320
         public void set_waitTime(){} // RVA: 0x407330
@@ -56,6 +61,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitUntil
     {
+        public System.Func`1<bool> m_Predicate; // 0x10
+
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x7130B70
         public void .ctor(){} // RVA: 0x2DEE30
@@ -63,6 +70,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitWhile
     {
+        public System.Func`1<bool> m_Predicate; // 0x10
+
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x1281E30
         public void .ctor(){} // RVA: 0x2DEE30
@@ -70,6 +79,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WebCamDevice
     {
+        public string m_Name; // 0x10
+        public string m_DepthCameraName; // 0x18
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x2738C50
         public void get_isFrontFacing(){} // RVA: 0x70B1B50
@@ -158,10 +170,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WheelFrictionCurve
     {
-        public object limit;
-        public object bounciness;
-        public object contactDistance;
-        public object get_spring;
+        public float limit; // 0x10
+        public float bounciness; // 0x14
+        public float contactDistance; // 0x18
+        public float get_spring; // 0x1C
+        public float m_Stiffness; // 0x20
 
         // ── Methods ──
         public void get_extremumSlip(){} // RVA: 0x300D20
@@ -178,6 +191,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WheelHit
     {
+        public UnityEngine.Vector3 m_Point; // 0x10
+        public UnityEngine.Vector3 m_Normal; // 0x1C
+        public UnityEngine.Vector3 m_ForwardDir; // 0x28
+        public UnityEngine.Vector3 m_SidewaysDir; // 0x34
+        public float m_Force; // 0x40
+        public float m_ForwardSlip; // 0x44
+        public float m_SidewaysSlip; // 0x48
+        public UnityEngine.Collider m_Collider; // 0x50
+
         // ── Methods ──
         public void get_collider(){} // RVA: 0x7187E30
         public void set_collider(){} // RVA: 0x305200

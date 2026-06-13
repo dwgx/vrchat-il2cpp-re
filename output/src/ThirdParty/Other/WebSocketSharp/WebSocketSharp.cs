@@ -7,6 +7,11 @@ namespace ThirdParty.Other.WebSocketSharp
 {
     public class CloseEventArgs
     {
+        public bool _clean; // 0x10
+        public ushort _code; // 0x12
+        public WebSocketSharp.PayloadData _payloadData; // 0x18
+        public string _reason; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AC94B0 | overloaded x6
         public void get_PayloadData(){} // RVA: 0x9AC9570
@@ -17,6 +22,9 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class ErrorEventArgs
     {
+        public System.Exception _exception; // 0x10
+        public string _message; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AC9860
         public void get_Exception(){} // RVA: 0x33B6D40
@@ -83,6 +91,10 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class HttpBase
     {
+        public System.Collections.Specialized.NameValueCollection _headers; // 0x10
+        public System.Version _version; // 0x18
+        public byte[] EntityBodyData; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5CCCD00
         public void get_EntityBody(){} // RVA: 0x9AE8BB0
@@ -107,10 +119,8 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class HttpResponse
     {
-        public object CertificateSelectionCallback;
-        public object CertificateValidationCallback;
-        public object CheckCertificateRevocation;
-        public object EnabledSslProtocols;
+        public string CertificateSelectionCallback; // 0x28
+        public string CertificateValidationCallback; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE9490
@@ -127,6 +137,9 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class LogData
     {
+        public System.Diagnostics.StackFrame _caller; // 0x10
+        public System.DateTime _date; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE0C60
         public void get_Level(){} // RVA: 0x43DC7A0
@@ -136,6 +149,8 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class Logger
     {
+        public string _file; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE1390 | overloaded x2
         public void set_Output(){} // RVA: 0x9AE1550
@@ -152,9 +167,9 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class MessageEventArgs
     {
-        public object PayloadData;
-        public object Code;
-        public object Reason;
+        public string PayloadData; // 0x10
+        public bool Code; // 0x18
+        public 0x659C3018 Reason; // 0x19
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AC8E10 | overloaded x2
@@ -165,6 +180,10 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class PayloadData
     {
+        public byte[] _data; // 0x10
+        public long _extDataLength; // 0x18
+        public long _length; // 0x20
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9ADFB30
         public void .ctor(){} // RVA: 0x6BE2550 | overloaded x3
@@ -180,6 +199,13 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class WebSocket
     {
+        public WebSocketSharp.Net.AuthenticationChallenge _authChallenge; // 0x10
+        public string _base64Key; // 0x18
+        public bool _client; // 0x20
+        public System.Action _closeContext; // 0x28
+        public 0x659C3280 _compression; // 0x30
+        public WebSocketSharp.Net.WebSockets.WebSocketContext _context; // 0x38
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9AC9970
         public void .ctor(){} // RVA: 0x9AC9B30
@@ -254,6 +280,8 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class WebSocketException
     {
+        public 0x659C2F10 _code; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE0A10 | overloaded x6
         public void get_Code(){} // RVA: 0x9AE0C50
@@ -261,6 +289,18 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class WebSocketFrame
     {
+        public byte[] _extPayloadLength; // 0x10
+        public 0x659C2F68 _fin; // 0x18
+        public 0x659C2FC0 _mask; // 0x19
+        public byte[] _maskingKey; // 0x20
+        public 0x659C3018 _opcode; // 0x28
+        public WebSocketSharp.PayloadData _payloadData; // 0x30
+        public byte _payloadLength; // 0x38
+        public 0x659C3120 _rsv1; // 0x39
+        public 0x659C3120 _rsv2; // 0x3A
+        public 0x659C3120 _rsv3; // 0x3B
+        public byte[] EmptyPingBytes;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9AE2000
         public void .ctor(){} // RVA: 0x9AE2290 | overloaded x4

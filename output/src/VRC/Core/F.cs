@@ -7,6 +7,12 @@ namespace VRC.Core
 {
     public class FavoriteArea
     {
+        public System.Collections.Generic.Dictionary`2<0x657CFBB0,int> MAX_FAVORITES_PER_LIST;
+        public System.Collections.Generic.Dictionary`2<0x657CFBB0,int> MAX_FAVORITES_LISTS; // 0x8
+        public System.Collections.Generic.Dictionary`2<0x657CFBB0,int> MIN_FAVORITES_LISTS; // 0x10
+        public System.Collections.Generic.Dictionary`2<0x657CFBB0,string> DEFAULT_FAVORITES_LIST_NAME; // 0x18
+        public System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.IReadOnlyDictionary`2<string,string>> DefaultLists; // 0x10
+
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0x990C510
         public void get_Worlds(){} // RVA: 0x30B0C0
@@ -41,6 +47,17 @@ namespace VRC.Core
 
     public class FavoriteListModel
     {
+        public int MAX_GROUP_NAME_LENGTH;
+        public int MAX_PAGE_SIZE;
+        public string <ownerId>k__BackingField; // 0x68
+        public string <ownerDisplayName>k__BackingField; // 0x70
+        public string <name>k__BackingField; // 0x78
+        public string <displayName>k__BackingField; // 0x80
+        public 0x657CFBB0 <type>k__BackingField; // 0x88
+        public 0x657CFB00 <visibility>k__BackingField; // 0x8C
+        public System.Collections.Generic.List`1<string> <tags>k__BackingField; // 0x90
+        public bool <requiresSubscription>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0x9925BE0
         public void get_ownerId(){} // RVA: 0x358D50
@@ -82,6 +99,10 @@ namespace VRC.Core
 
     public class FavoriteModel
     {
+        public 0x657CFBB0 <type>k__BackingField; // 0x68
+        public string <contentId>k__BackingField; // 0x70
+        public System.Collections.Generic.List`1<string> <tags>k__BackingField; // 0x78
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x1C91440
         public void set_type(){} // RVA: 0x1C91450

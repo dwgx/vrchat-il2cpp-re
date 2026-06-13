@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class UnaryExpression
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public 0x65908648 <NodeType>k__BackingField; // 0x18
+        public System.Linq.Expressions.Expression <Operand>k__BackingField; // 0x20
+        public System.Reflection.MethodInfo <Method>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6608DF0 | overloaded x2
         public void get_Type(){} // RVA: 0x2F8380

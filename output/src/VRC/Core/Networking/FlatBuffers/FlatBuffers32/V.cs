@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class Vector2
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -21,6 +23,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector2Array
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -41,6 +45,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector2ArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector2T> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -55,6 +61,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector2T
     {
+        public float <X>k__BackingField; // 0x10
+        public float <Y>k__BackingField; // 0x14
+
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x2EE22E0
         public void op_Implicit(){} // RVA: 0x75DF4B0
@@ -74,6 +83,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -89,6 +100,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3Array
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -109,6 +122,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3ArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -123,6 +138,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3Half
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -136,7 +153,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3HalfT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
@@ -146,6 +163,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3T
     {
+        public float <X>k__BackingField; // 0x10
+        public float <Y>k__BackingField; // 0x14
+        public float <Z>k__BackingField; // 0x18
+
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0xFED180
         public void op_Implicit(){} // RVA: 0x75DF730
@@ -167,6 +188,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3TenBit
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -180,7 +203,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3TenBitT
     {
-        public object ByteBuffer;
+        public byte[] ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x2F8380
@@ -190,6 +213,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector4
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -206,6 +231,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector4Array
     {
+        public Google.FlatBuffers32.Table __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ValidateVersion(){} // RVA: 0x2DD310
@@ -226,6 +253,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector4ArrayT
     {
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector4T> <Value>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
@@ -240,10 +269,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector4T
     {
-        public object ByteBuffer;
-        public object X;
-        public object Y;
-        public object Z;
+        public float ByteBuffer; // 0x10
+        public float X; // 0x14
+        public float Y; // 0x18
+        public float Z; // 0x1C
 
         // ── Methods ──
         public void get_X(){} // RVA: 0x407320

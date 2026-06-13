@@ -23,6 +23,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class CommitmentTypeIndication
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier commitmentTypeId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence commitmentTypeQualifier; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97AA500
         public void .ctor(){} // RVA: 0x97AAAB0 | overloaded x3
@@ -33,6 +36,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class CommitmentTypeQualifier
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier commitmentTypeIdentifier; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object qualifier; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97AAFB0 | overloaded x3
         public void GetInstance(){} // RVA: 0x97AB250
@@ -61,6 +67,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class CrlIdentifier
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name crlIssuer; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerUtcTime crlIssuedTime; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger crlNumber; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97ACA80
         public void .ctor(){} // RVA: 0x97ACEA0 | overloaded x3
@@ -81,6 +91,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class CrlOcspRef
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.CrlListID crlids; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OcspListID ocspids; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OtherRevRefs otherRev; // 0x20
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97AE120
         public void .ctor(){} // RVA: 0x3BCE00 | overloaded x2
@@ -92,6 +106,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class CrlValidatedID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OtherHash crlHash; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.CrlIdentifier crlIdentifier; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97AE980
         public void .ctor(){} // RVA: 0x97AEE60 | overloaded x3
@@ -109,6 +126,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OcspIdentifier
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponderID ocspResponderID; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerGeneralizedTime producedAt; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97AF920
         public void .ctor(){} // RVA: 0x97AFDF0 | overloaded x2
@@ -128,6 +148,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OcspResponsesID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OcspIdentifier ocspIdentifier; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OtherHash ocspRepHash; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B0C90
         public void .ctor(){} // RVA: 0x97B1170 | overloaded x3
@@ -138,6 +161,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OtherCertID
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OtherHash otherCertHash; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.IssuerSerial issuerSerial; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B1490
         public void .ctor(){} // RVA: 0x97B1970 | overloaded x3
@@ -148,6 +174,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OtherHash
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString sha1Hash; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B1C90
         public void .ctor(){} // RVA: 0x97B20F0 | overloaded x3
@@ -158,6 +186,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OtherHashAlgAndValue
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B2320
         public void .ctor(){} // RVA: 0x97B29F0 | overloaded x3
@@ -168,6 +198,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OtherRevRefs
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier otherRevRefType; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object otherRevRefs; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B2C70
         public void .ctor(){} // RVA: 0x97B3140 | overloaded x2
@@ -178,6 +211,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class OtherRevVals
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier otherRevValType; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object otherRevVals; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B33D0
         public void .ctor(){} // RVA: 0x97B38A0 | overloaded x2
@@ -198,6 +234,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class RevocationValues
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence crlVals; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B4AE0
         public void .ctor(){} // RVA: 0x97B5470 | overloaded x3
@@ -209,6 +247,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class SigPolicyQualifierInfo
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier sigPolicyQualifierId; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object sigQualifier; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B8730
         public void .ctor(){} // RVA: 0x97B8C00 | overloaded x2
@@ -219,6 +260,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class SignaturePolicyId
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier sigPolicyIdentifier; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.OtherHashAlgAndValue sigPolicyHash; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B5FF0
         public void .ctor(){} // RVA: 0x97B68B0 | overloaded x4
@@ -230,6 +274,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class SignaturePolicyIdentifier : |e
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf.SignaturePolicyId sigPolicy; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B6F80
         public void .ctor(){} // RVA: 0x97B7260 | overloaded x2
@@ -239,6 +285,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class SignerAttribute
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence claimedAttributes; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AttributeCertificate certifiedAttributes; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x97B73A0
         public void .ctor(){} // RVA: 0x343E80 | overloaded x3
@@ -249,6 +298,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Esf
 
     public class SignerLocation
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString countryName; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500.DirectoryString localityName; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence postalAddress; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x97B7EE0 | overloaded x4
         public void GetInstance(){} // RVA: 0x97B7F50

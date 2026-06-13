@@ -7,6 +7,8 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 {
     public class AuthenticationBase
     {
+        public 0x659C2BF8 _scheme; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1CC5AF0
         public void get_Scheme(){} // RVA: 0x70B92A0
@@ -28,6 +30,8 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class AuthenticationResponse
     {
+        public uint _nonceCount; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE6F00 | overloaded x3
         public void get_NonceCount(){} // RVA: 0x9AE70E0
@@ -43,6 +47,9 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class ClientSslConfiguration
     {
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _certs; // 0x28
+        public string _host; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AEB6A0 | overloaded x2
         public void get_ClientCertificates(){} // RVA: 0x7145590
@@ -54,11 +61,20 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class Cookie
     {
-        public object Sorted;
-        public object Count;
-        public object IsSynchronized;
-        public object SyncRoot;
-        public object .ctor;
+        public string Sorted; // 0x10
+        public System.Uri Count; // 0x18
+        public bool IsSynchronized; // 0x20
+        public string SyncRoot; // 0x28
+        public System.DateTime .ctor; // 0x30
+        public bool _httpOnly; // 0x38
+        public string _name; // 0x40
+        public string _path; // 0x48
+        public string _port; // 0x50
+        public int[] _ports; // 0x58
+        public char[] _reservedCharsForName;
+        public char[] _reservedCharsForValue; // 0x8
+        public bool _secure; // 0x60
+        public System.DateTime _timestamp; // 0x68
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9AD5000
@@ -95,6 +111,9 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class CookieCollection
     {
+        public System.Collections.Generic.List`1<WebSocketSharp.Net.Cookie> _list; // 0x10
+        public object _sync; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AD7360
         public void get_Sorted(){} // RVA: 0x9AD7420
@@ -123,6 +142,9 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class HttpHeaderInfo
     {
+        public string _name; // 0x10
+        public 0x659C31D0 _type; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D66A50
         public void get_IsMultiValueInRequest(){} // RVA: 0x9AE0430
@@ -153,6 +175,10 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class NetworkCredential
     {
+        public string _domain; // 0x10
+        public string _password; // 0x18
+        public string[] _roles; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AE1D40
         public void get_Domain(){} // RVA: 0x9AE1F60
@@ -162,10 +188,10 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class SslConfiguration
     {
-        public object ClientCertificates;
-        public object ClientCertificateSelectionCallback;
-        public object ServerCertificateValidationCallback;
-        public object TargetHost;
+        public System.Net.Security.LocalCertificateSelectionCallback ClientCertificates; // 0x10
+        public System.Net.Security.RemoteCertificateValidationCallback ClientCertificateSelectionCallback; // 0x18
+        public bool ServerCertificateValidationCallback; // 0x20
+        public 0x6584C200 TargetHost; // 0x24
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9AEB2A0
@@ -181,6 +207,9 @@ namespace ThirdParty.Other.WebSocketSharp.Net
 
     public class WebHeaderCollection
     {
+        public System.Collections.Generic.Dictionary`2<string,WebSocketSharp.Net.HttpHeaderInfo> _headers;
+        public bool _internallyUsed; // 0x68
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9ADACD0
         public void .ctor(){} // RVA: 0x9ADD4A0 | overloaded x2

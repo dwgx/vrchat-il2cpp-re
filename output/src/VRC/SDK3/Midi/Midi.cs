@@ -34,6 +34,8 @@ namespace VRC.SDK3.Midi
 
     public class MidiRawDataProcessor
     {
+        public System.Collections.Generic.List`1<MidiBlock> allBlocks; // 0x10
+
         // ── Methods ──
         public void get_Bpm(){} // RVA: 0x6E8A80
         public void set_Bpm(){} // RVA: 0x6E8B80
@@ -48,6 +50,11 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiHandler
     {
+        public int STATUS_NOTE_OFF;
+        public int STATUS_NOTE_ON;
+        public int STATUS_CONTROL_CHANGE;
+        public VRC.SDKBase.Midi.IVRCMidiInput _midiIn; // 0x20
+
         // ── Methods ──
         public void get_MidiIn(){} // RVA: 0x9A07960
         public void add_OnNoteOn(){} // RVA: 0x9A07B10
@@ -83,6 +90,14 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiPlayer
     {
+        public VRC.SDK3.Midi.MidiFile midiFile; // 0x20
+        public UnityEngine.AudioSource audioSource; // 0x28
+        public VRC.SDK3.Components.AbstractUdonBehaviour[] targetBehaviours; // 0x30
+        public System.Collections.Generic.List`1<TrackProgress> activeTracks; // 0x38
+        public float lastAudioSampleTime; // 0x40
+        public UnityEngine.Coroutine _coroutine; // 0x48
+        public System.ValueTuple`2<string,object>[] argsArray; // 0x50
+
         // ── Methods ──
         public void get_MidiData(){} // RVA: 0x9A03ED0
         public void get_Time(){} // RVA: 0x9A03EE0

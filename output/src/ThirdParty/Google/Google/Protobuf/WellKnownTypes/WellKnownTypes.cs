@@ -7,6 +7,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 {
     public class Any
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Any> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string typeUrl_; // 0x18
+        public Google.Protobuf.ByteString value_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A38B20
         public void get_Descriptor(){} // RVA: 0x5A38B80
@@ -36,6 +41,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class AnyReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A38590
         public void .cctor(){} // RVA: 0x5A385F0
@@ -43,6 +50,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Duration
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Duration> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public long seconds_; // 0x18
+        public int nanos_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A3A8D0
         public void get_Descriptor(){} // RVA: 0x5A3A930
@@ -76,6 +88,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class DurationReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A3A310
         public void .cctor(){} // RVA: 0x5A3A370
@@ -83,6 +97,9 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Empty
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Empty> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A3C8E0
         public void get_Descriptor(){} // RVA: 0x5A3C940
@@ -102,6 +119,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class EmptyReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A3C3C0
         public void .cctor(){} // RVA: 0x5A3C420
@@ -109,6 +128,15 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Enum
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Enum> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.EnumValue> _repeated_enumvalue_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.EnumValue> enumvalue_; // 0x20
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x28
+        public Google.Protobuf.WellKnownTypes.SourceContext sourceContext_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A4CFA0
         public void get_Descriptor(){} // RVA: 0x5A4D000
@@ -136,6 +164,13 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class EnumValue
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.EnumValue> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public int number_; // 0x20
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A4E730
         public void get_Descriptor(){} // RVA: 0x5A4E790
@@ -160,6 +195,20 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Field
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Field> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public 0x6594F6B8 kind_; // 0x18
+        public 0x6594F710 cardinality_; // 0x1C
+        public int number_; // 0x20
+        public string name_; // 0x28
+        public string typeUrl_; // 0x30
+        public int oneofIndex_; // 0x38
+        public bool packed_; // 0x3C
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x40
+        public string jsonName_; // 0x48
+        public string defaultValue_; // 0x50
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A4B250
         public void get_Descriptor(){} // RVA: 0x5A4B2B0
@@ -198,6 +247,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class FieldMask
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.FieldMask> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<string> _repeated_paths_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<string> paths_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A3D7F0
         public void get_Descriptor(){} // RVA: 0x5A3D850
@@ -229,7 +283,7 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class FieldMaskReflection
     {
-        public object ReplaceMessageFields;
+        public Google.Protobuf.Reflection.FileDescriptor ReplaceMessageFields;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A3D280
@@ -238,6 +292,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class ListValue
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.ListValue> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Value> _repeated_values_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Value> values_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A44F40
         public void get_Descriptor(){} // RVA: 0x5A44FA0
@@ -258,6 +317,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Option
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Option> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public Google.Protobuf.WellKnownTypes.Any value_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A4F9A0
         public void get_Descriptor(){} // RVA: 0x5A4FA00
@@ -281,6 +345,10 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class SourceContext
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.SourceContext> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string fileName_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A3FE60
         public void get_Descriptor(){} // RVA: 0x5A3FEC0
@@ -302,6 +370,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class SourceContextReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A3F8D0
         public void .cctor(){} // RVA: 0x5A3F930
@@ -309,6 +379,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Struct
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Struct> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public Codec<string,Google.Protobuf.WellKnownTypes.Value> _map_fields_codec; // 0x8
+        public Google.Protobuf.Collections.MapField`2<string,Google.Protobuf.WellKnownTypes.Value> fields_; // 0x18
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A417F0
         public void get_Descriptor(){} // RVA: 0x5A41850
@@ -329,6 +404,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class StructReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A40C60
         public void .cctor(){} // RVA: 0x5A40CC0
@@ -336,6 +413,12 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Timestamp : Google.Protobuf
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Timestamp> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public long seconds_; // 0x18
+        public int nanos_; // 0x20
+        public System.DateTime UnixEpoch; // 0x8
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A463D0
         public void get_Descriptor(){} // RVA: 0x5A46430
@@ -376,6 +459,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class TimestampReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A45E10
         public void .cctor(){} // RVA: 0x5A45E70
@@ -383,6 +468,16 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Type
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Type> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string name_; // 0x18
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Field> _repeated_fields_codec; // 0x8
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Field> fields_; // 0x20
+        public Google.Protobuf.FieldCodec`1<string> _repeated_oneofs_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> oneofs_; // 0x28
+        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x18
+        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A49780
         public void get_Descriptor(){} // RVA: 0x5A497E0
@@ -411,6 +506,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class TypeReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5A48260
         public void .cctor(){} // RVA: 0x5A482C0
@@ -418,6 +515,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Value
     {
+        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Value> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public object kind_; // 0x18
+        public 0x6594F298 kindCase_; // 0x20
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5A427A0
         public void get_Descriptor(){} // RVA: 0x5A42800

@@ -55,6 +55,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerDownLinkTagEvent
     {
+        public string <linkID>k__BackingField; // 0x110
+        public string <linkText>k__BackingField; // 0x118
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7390300
         public void set_linkID(){} // RVA: 0x509930
@@ -67,6 +70,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerMoveLinkTagEvent
     {
+        public string <linkID>k__BackingField; // 0x110
+        public string <linkText>k__BackingField; // 0x118
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x738FC30
         public void set_linkID(){} // RVA: 0x509930
@@ -89,6 +95,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerOverLinkTagEvent
     {
+        public string <linkID>k__BackingField; // 0x110
+        public string <linkText>k__BackingField; // 0x118
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x738F840
         public void set_linkID(){} // RVA: 0x509930
@@ -101,6 +110,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerUpLinkTagEvent
     {
+        public string <linkID>k__BackingField; // 0x110
+        public string <linkText>k__BackingField; // 0x118
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x73906E0
         public void set_linkID(){} // RVA: 0x509930
@@ -113,6 +125,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class StyleValues
     {
+        public UnityEngine.UIElements.StyleValueCollection m_StyleValues; // 0x10
+
         // ── Methods ──
         public void set_top(){} // RVA: 0x7390AC0
         public void set_left(){} // RVA: 0x7390B20
@@ -150,6 +164,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class ValueAnimation`1
     {
+        public long m_StartTimeMs;
+        public int m_DurationMs;
+        public System.Func`2<float,float> <easingCurve>k__BackingField;
+        public bool <isRunning>k__BackingField;
+        public System.Action <onAnimationCompleted>k__BackingField;
+        public bool <autoRecycle>k__BackingField;
+        public bool <recycled>k__BackingField;
+        public UnityEngine.UIElements.ObjectPool`1<UnityEngine.UIElements.Experimental.ValueAnimation`1<T>> sObjectPool;
+        public UnityEngine.UIElements.VisualElement <owner>k__BackingField;
+        public System.Action`2<UnityEngine.UIElements.VisualElement,T> <valueUpdated>k__BackingField;
+        public System.Func`2<UnityEngine.UIElements.VisualElement,T> <initialValue>k__BackingField;
+        public System.Func`4<T,T,float,T> <interpolator>k__BackingField;
+
         // ── Methods ──
         public void get_durationMs(){} // RVA: 0xD840
         public void set_durationMs(){} // RVA: 0x24FA0

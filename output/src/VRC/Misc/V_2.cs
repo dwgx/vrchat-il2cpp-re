@@ -8,6 +8,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÍÍÎÏÍÏÍÏÏÌÌÎÎÏÍÎÍÌÌÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_12FB
     {
+        public ÏÎÎÍÍÎÏÍÏÍÏÏÌÌÎÎÏÍÎÍÌÌÌ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÏÎÎÎÎÎÏÍÌÎÌÌÍÏÎÌÏÏÌÏÍÌ> <ÌÏÏÌÎÏÍÍÎÏÌÍÎÍÏÍÏÎÍÌÏÌÎ>k__BackingField; // 0x20
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÌÌÏÏÎÏÌÎÎÍÏÌÌÍÌÌÎÌÎÍ>k__BackingField; // 0x28
+        public ÌÍÌÏÍÌÎÏÌÌÌÍÏÍÎÍÍÏÍÎÎÏÌ <ÎÌÎÍÏÍÌÍÏÍÏÏÌÎÏÏÍÏÍÍÏÍÌ>k__BackingField; // 0x30
+        public ÏÍÍÍÏÏÍÎÎÏÏÎÏÌÌÏÏÎÎÌÏÎÌ <ÍÎÍÌÌÏÎÏÌÏÌÎÌÌÎÏÌÎÏÌÎÌÌ>k__BackingField; // 0x38
+        public ÎÍÏÎÍÍÏÌÏÎÏÏÎÍÎÎÏÌÏÍÎÍÏ _dronePrefab; // 0x40
+        public System.Collections.Generic.Dictionary`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,ÍÏÎÎÎÎÎÏÍÌÎÌÌÍÏÎÌÏÏÌÏÍÌ> ÌÏÍÍÌÏÌÏÍÍÏÎÎÏÏÍÍÏÏÍÎÌÎ; // 0x48
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xA218A0
         public void Update(){} // RVA: 0xA22480
@@ -35,6 +43,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÏÎÌÌÍÎÎÌÎÍÏÏÎÎÌÌÍÌÍÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_2F3E
     {
+        public bool <ÌÎÏÏÌÎÌÎÌÏÏÌÎÏÎÍÍÎÌÎÎÌÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_IgnoreCase(){} // RVA: 0x3CB9D0
         public void .ctor(){} // RVA: 0x141A8C0
@@ -58,6 +68,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÌÏÍÍÏÌÌÌÌÎÌÎÎÍÍÏÌÏÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_CB07
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<T>> ÌÍÏÎÏÎÏÏÌÎÏÌÏÌÎÌÍÏÏÎÎÍÎ;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x24A50
@@ -85,6 +97,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÌÏÍÍÏÌÌÌÌÎÌÎÎÍÍÏÌÏÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_CB07
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ>> ÌÍÏÎÏÎÏÏÌÎÏÌÏÌÎÌÍÏÏÎÎÍÎ; // 0x10
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x513FF20
@@ -112,6 +126,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÎÌÏÍÍÏÌÌÌÌÎÌÎÎÍÍÏÌÏÍ</summary>
     public class VRC_MainSiblingSiblingSiblingSSibling_CB07
     {
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ>> ÌÍÏÎÏÎÏÏÌÎÏÌÏÌÎÌÍÏÏÎÎÍÎ; // 0x10
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x513FF20

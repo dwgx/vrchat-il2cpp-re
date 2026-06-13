@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class Guid
     {
+        public Google.FlatBuffers32.Struct __p; // 0x10
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void __init(){} // RVA: 0x75E0560
@@ -20,7 +22,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class GuidT
     {
-        public object ViewId;
+        public byte[] ViewId; // 0x10
 
         // ── Methods ──
         public void get_Bytes(){} // RVA: 0x2F8380

@@ -7,6 +7,8 @@ namespace VRC.SDKBase.Validation.Performance
 {
     public class AvatarPerformance
     {
+        public 0x65972C88 AvatarPerformanceRatingMinimumToDisplayDefault;
+
         // ── Methods ──
         public void get_ShouldIgnoreComponent(){} // RVA: 0x9AA82F0
         public void set_ShouldIgnoreComponent(){} // RVA: 0x9AA8350

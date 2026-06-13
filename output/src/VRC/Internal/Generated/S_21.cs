@@ -127,6 +127,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÍÎÍÍÏÏÍÏÏÍÏÎÌÍÌÌÍÍÌÍÏ</summary>
     public class Static10m_A61D
     {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÎÌÎÌÏÏÎÏÎÌÍÏÌÏÏÍÏÍÏÏÌ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
@@ -195,6 +197,33 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÍÍÍÍÏÍÎÌÍÍÎÍÌÍÍÌÌÏÍÌÎ</summary>
     public class Static110m_1487
     {
+        public ÎÎÍÍÍÍÏÍÎÌÍÍÎÍÌÍÍÌÌÏÍÌÎ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
+        public ÍÌÎÌÌÌÎÎÌÎÎÍÍÍÍÌÏÍÏÏÌÏÏ <ÎÎÍÌÏÌÏÎÏÍÍÍÌÏÍÎÍÌÌÌÏÎÏ>k__BackingField; // 0x20
+        public ÌÍÏÍÌÌÎÎÎÍÎÎÎÌÎÎÏÎÎÏÍÍÌ <ÍÎÌÌÎÎÏÏÌÌÌÌÌÌÎÏÏÍÍÏÌÍÏ>k__BackingField; // 0x28
+        public ÍÎÎÌÍÍÎÎÍÍÌÏÍÍÎÌÏÍÍÌÍÍÌ <ÍÎÎÍÏÍÍÍÏÎÍÌÏÌÎÏÌÏÎÏÏÏÍ>k__BackingField; // 0x30
+        public ÎÎÍÎÌÎÌÎÍÍÏÏÎÏÌÍÏÍÎÍÌÌÍ <ÏÎÍÏÍÎÌÌÎÎÍÎÍÏÌÌÌÍÌÍÏÍÏ>k__BackingField; // 0x38
+        public ÍÏÎÏÏÏÏÎÎÍÌÍÏÍÌÌÌÍÌÍÌÏÏ <ÎÌÏÏÏÍÍÎÎÏÌÎÌÌÎÎÍÍÏÎÍÏÍ>k__BackingField; // 0x40
+        public ÌÎÌÍÌÎÌÎÎÌÎÏÏÎÌÎÏÎÏÌÌÏÍ <ÌÌÎÍÌÎÏÎÎÍÎÏÍÌÎÌÎÏÎÌÍÌÌ>k__BackingField; // 0x48
+        public ÎÎÏÌÏÎÎÎÌÎÏÌÎÍÍÌÌÎÏÌÍÍÌ <ÏÍÌÍÎÏÍÎÏÎÎÍÍÎÎÎÍÎÌÎÏÎÌ>k__BackingField; // 0x50
+        public ÎÌÏÍÍÌÌÌÍÍÎÎÏÏÎÌÍÎÍÎÍÌÏ <ÏÌÎÍÍÎÎÎÏÍÏÌÌÌÏÏÍÏÌÏÌÍÏ>k__BackingField; // 0x58
+        public UnityEngine.Transform ÍÏÍÎÏÏÏÍÌÎÎÏÏÍÍÎÏÏÌÌÍÍÎ; // 0x60
+        public VRC.SDKBase.VRC_Pickup ÏÌÌÌÎÎÏÍÌÏÎÌÍÏÍÎÏÍÎÏÍÌÏ; // 0x68
+        public VRC.SDKBase.VRC_Pickup ÏÍÌÍÎÎÍÍÏÌÎÌÎÎÏÎÎÌÌÎÌÌÏ; // 0x70
+        public UnityEngine.GameObject lensUpIndicator; // 0x78
+        public float ÌÍÏÍÎÏÌÏÌÌÍÏÏÎÌÍÏÌÏÍÎÎÍ; // 0x80
+        public UnityEngine.Material ÏÎÌÎÍÏÌÏÍÌÎÎÍÍÎÌÍÎÏÍÎÎÌ; // 0x88
+        public UnityEngine.Material ÌÎÌÌÍÏÍÎÏÌÌÎÎÎÌÍÌÌÎÏÏÏÎ; // 0x90
+        public UnityEngine.Transform ÎÏÎÏÎÍÏÎÎÌÏÍÏÎÌÎÍÎÎÍÌÌÎ; // 0x98
+        public UnityEngine.MeshRenderer lensRenderer; // 0xA0
+        public UnityEngine.MeshRenderer printLensRenderer; // 0xA8
+        public UnityEngine.Material[] ÎÌÌÏÌÎÍÎÏÏÏÌÍÏÏÍÎÍÌÎÌÌÍ; // 0xB0
+        public UnityEngine.Material[] ÍÎÍÏÎÎÎÎÍÎÍÎÎÍÏÌÍÎÏÎÍÍÏ; // 0xB8
+        public UnityEngine.GameObject lensParent; // 0xC0
+        public UnityEngine.Material ÍÏÎÏÏÎÍÎÌÍÏÍÍÏÏÏÍÌÏÌÎÎÍ; // 0xC8
+        public UnityEngine.AudioSource speakerOnViewfinder; // 0xD0
+        public UnityEngine.AudioSource speakerOnLens; // 0xD8
+        public UnityEngine.AudioClip buttonSound; // 0xE0
+
         // ── Methods ──
         public void set_displayName(){} // RVA: 0x49B830
         public void ClearAndRebuildState(){} // RVA: 0x8787E0
@@ -373,6 +402,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÌÎÏÎÎÌÏÌÏÏÎÌÎÌÏÏÍÌÌÍÍ</summary>
     public class Static12m_79D7
     {
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÏÍÏÌÍÏÍÍÍÌÌÌÍÏÍÏÎÏÏÍÍ>k__BackingField; // 0x10
+
         // ── Methods ──
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
         public void System.Collections.ICollection.get_IsSynchronized_73A32342288F(){} // RVA: 0x2DD320
@@ -449,6 +480,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÌÍÌÌÌÌÎÎÌÏÏÍÌÌÎÎÏÎÌÍÏ</summary>
     public class Static13m_6320
     {
+        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
+        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
+        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x1968950
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -527,6 +562,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÌÎÎÍÌÌÍÎÌÏÌÌÏÏÍÎÏÎÎÌÎ</summary>
     public class Static17m_A3DE
     {
+        public int ÏÌÌÍÍÎÌÌÎÍÏÍÌÎÍÎÎÏÌÌÌÎÎ;
+        public string ÍÌÌÍÌÏÍÎÏÎÍÌÌÏÏÍÌÏÎÍÍÎÎ;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void ConvertAll(){} // RVA: 0xCE10
@@ -551,6 +589,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÍÌÌÌÌÍÏÌÏÏÌÎÏÍÍÎÎÏÏÏÏ</summary>
     public class Static17m_D63F
     {
+        public bool ÏÏÌÍÏÎÎÎÏÏÍÏÎÍÎÏÏÏÎÍÎÌÎ; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ> ÍÎÏÍÎÏÏÌÌÌÎÏÍÏÏÍÍÍÌÏÏÎÎ; // 0x40
+        public string ÌÍÎÍÎÎÎÏÏÎÎÎÎÌÏÎÎÌÌÏÌÌÏ;
+        public string ÌÍÎÏÍÎÏÏÍÏÌÎÌÌÎÎÌÎÏÌÌÌÏ;
+        public string ÍÎÎÏÍÎÍÎÍÍÎÍÎÍÏÎÍÍÎÍÏÎÏ;
+
         // ── Methods ──
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void Contains(){} // RVA: 0x14D1290
@@ -591,6 +635,15 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÏÎÏÎÎÏÍÎÏÏÎÌÎÎÌÍÏÌÎÏÍ</summary>
     public class Static19m_37EF
     {
+        public System.Globalization.CultureInfo ÏÍÏÎÍÎÏÍÏÏÎÎÍÎÏÌÌÍÏÎÍÍÌ; // 0x10
+        public string ÍÌÌÍÏÎÌÌÏÏÎÌÏÎÏÎÎÎÎÏÏÎÎ; // 0x18
+        public string ÎÌÏÎÍÍÎÍÏÌÌÏÌÌÍÏÎÎÎÎÍÌÍ; // 0x20
+        public string ÌÍÎÍÍÏÌÍÎÌÎÍÎÌÌÏÏÌÏÍÎÍÌ; // 0x28
+        public string ÌÌÎÎÏÎÍÎÏÍÍÍÍÌÎÎÌÏÎÎÏÍÏ; // 0x30
+        public string ÌÌÏÍÍÏÏÌÎÌÌÍÎÎÎÎÏÎÌÎÌÍÌ; // 0x38
+        public string ÎÌÌÌÎÍÍÌÏÏÎÎÏÏÍÏÌÌÌÎÎÍÍ; // 0x40
+        public bool ÎÍÌÎÍÏÏÎÌÎÎÍÏÎÏÏÌÏÎÏÏÏÍ; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1D5D900 | overloaded x2
         public void Initialize(){} // RVA: 0x1D5D700
@@ -777,6 +830,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÏÍÎÍÏÍÏÎÎÏÍÌÌÏÌÍÌÌÌÎÎ</summary>
     public class Static2m_0798
     {
+        public ÎÏÎÎÌÏÌÎÏÏÌÎÌÍÍÏÏÌÍÏÎÏÏ ÍÍÍÎÌÎÏÍÌÏÎÌÍÎÌÍÎÏÍÌÎÎÌ;
+
         // ── Unresolved (hash) ──
         public void m_B6B(){} // RVA: 0x1F36B40
         public void m_FA2(){} // RVA: 0x1F36D10
@@ -801,6 +856,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÏÏÏÌÏÌÏÌÎÌÌÎÎÏÏÍÍÏÏÍÎ</summary>
     public class Static2m_44F0
     {
+        public ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ ÌÌÍÍÌÍÍÌÎÍÎÍÎÌÍÏÏÎÎÏÌÎÎ; // 0x90
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8FA7490
         public void Initialize(){} // RVA: 0x8FA7560
@@ -898,6 +955,21 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÍÎÌÎÌÎÍÍÏÏÎÏÌÍÏÍÎÍÌÌÍ</summary>
     public class Static67m_C586
     {
+        public float ÎÌÎÎÌÏÎÍÏÍÎÎÎÍÎÎÍÏÍÏÏÍÏ;
+        public float ÌÏÌÎÎÏÌÌÏÍÍÏÎÌÌÌÏÌÎÌÏÏÏ;
+        public float ÌÍÎÏÎÍÌÍÍÍÎÎÎÎÌÏÎÎÌÌÏÍÎ;
+        public float ÏÎÌÌÌÌÎÌÎÍÌÌÍÎÌÏÍÍÍÎÏÎÎ;
+        public float ÏÎÎÎÎÌÌÏÏÏÌÍÌÏÏÍÏÎÍÍÌÌÎ;
+        public float ÍÌÎÎÌÎÌÍÎÏÏÍÍÎÌÎÎÌÎÌÎÌÎ;
+        public float ÎÌÎÍÏÎÍÏÍÏÍÌÍÏÌÏÎÏÌÍÌÌÎ;
+        public float ÌÍÍÍÎÌÌÎÌÎÎÍÍÏÏÎÍÏÏÏÎÎÎ;
+        public float ÏÎÏÍÍÍÎÎÌÌÍÎÏÏÏÍÌÍÎÎÏÍÌ;
+        public float ÍÌÍÏÍÏÌÏÍÏÏÌÌÎÏÏÌÍÍÏÌÌÍ;
+        public float ÌÍÎÍÍÌÎÎÍÍÌÏÏÌÍÏÌÌÌÏÌÍÏ;
+        public float ÏÏÌÎÍÏÏÍÍÏÍÌÍÎÌÏÏÎÏÏÍÌÍ;
+        public float ÎÎÍÍÎÏÎÏÌÎÎÌÌÎÌÌÌÍÏÌÏÌÎ;
+        public float ÏÏÏÏÏÏÏÌÎÎÍÎÍÏÏÎÏÌÌÏÍÏÏ;
+
         // ── Methods ──
         public void OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue(){} // RVA: 0x8DD750
         public void ProcessQuaternion(){} // RVA: 0x348040

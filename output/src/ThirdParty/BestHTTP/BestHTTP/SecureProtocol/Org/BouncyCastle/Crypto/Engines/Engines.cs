@@ -7,6 +7,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 {
     public class AesEngine
     {
+        public byte[] S;
+        public byte[] Si; // 0x8
+
         // ── Methods ──
         public void Shift(){} // RVA: 0x5C98C70
         public void FFmulX(){} // RVA: 0x95E6880
@@ -30,6 +33,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class AesFastEngine
     {
+        public byte[] S;
+        public byte[] Si; // 0x8
+
         // ── Methods ──
         public void Shift(){} // RVA: 0x5C98C70
         public void FFmulX(){} // RVA: 0x95E6880
@@ -53,6 +59,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class AesLightEngine
     {
+        public byte[] S;
+        public byte[] Si; // 0x8
+
         // ── Methods ──
         public void Shift(){} // RVA: 0x5C98C70
         public void FFmulX(){} // RVA: 0x95E6880
@@ -83,6 +92,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class BlowfishEngine
     {
+        public uint[] KP;
+        public uint[] KS0; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95F1800
         public void Init(){} // RVA: 0x95F1AA0
@@ -101,6 +113,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class CamelliaEngine
     {
+        public bool initialised; // 0x10
+        public bool _keyIs128; // 0x11
+
         // ── Methods ──
         public void rightRotate(){} // RVA: 0x95F2F70
         public void leftRotate(){} // RVA: 0x95F2F90
@@ -127,6 +142,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class CamelliaLightEngine
     {
+        public int BLOCK_SIZE;
+        public bool initialised; // 0x10
+
         // ── Methods ──
         public void rightRotate(){} // RVA: 0x95F2F70
         public void leftRotate(){} // RVA: 0x95F2F90
@@ -163,6 +181,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Cast5Engine
     {
+        public uint[] S1;
+        public uint[] S2; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95F9560
         public void Init(){} // RVA: 0x95F96B0
@@ -186,6 +207,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Cast6Engine
     {
+        public int ROUNDS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9600400
         public void get_AlgorithmName(){} // RVA: 0x9600670
@@ -224,6 +247,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class DesEdeEngine
     {
+        public int[] workingKey1; // 0x18
+
         // ── Methods ──
         public void Init(){} // RVA: 0x96031B0
         public void get_AlgorithmName(){} // RVA: 0x9603610
@@ -235,6 +260,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class DesEdeWrapEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x9603930
         public void get_AlgorithmName(){} // RVA: 0x9603F80
@@ -249,6 +276,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class DesEngine
     {
+        public int BLOCK_SIZE;
+        public int[] workingKey; // 0x10
+
         // ── Methods ──
         public void GetWorkingKey(){} // RVA: 0x2F8380
         public void Init(){} // RVA: 0x9604F10
@@ -265,6 +295,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Dstu7624Engine
     {
+        public ulong[] internalState; // 0x10
+        public ulong[] workingKey; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9606820
         public void Init(){} // RVA: 0x9606920
@@ -300,6 +333,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Dstu7624WrapEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter param; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x960A4E0
         public void get_AlgorithmName(){} // RVA: 0x960A600
@@ -310,6 +345,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class ElGamalEngine : get_AlgorithmName
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key; // 0x10
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x960B9E0
         public void Init(){} // RVA: 0x960BA20
@@ -321,6 +358,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Gost28147Engine
     {
+        public int BlockSize;
+        public int[] workingKey; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x960C550
         public void AddSBox(){} // RVA: 0x960CD00
@@ -342,6 +382,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class HC128Engine
     {
+        public uint[] p; // 0x10
+
         // ── Methods ──
         public void F1(){} // RVA: 0x960E040
         public void F2(){} // RVA: 0x960E070
@@ -366,6 +408,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class HC256Engine
     {
+        public uint[] p; // 0x10
+
         // ── Methods ──
         public void Step(){} // RVA: 0x960F040
         public void Init(){} // RVA: 0x960F8C0 | overloaded x2
@@ -380,6 +424,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class IdeaEngine
     {
+        public int BLOCK_SIZE;
+        public int[] workingKey; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Init(){} // RVA: 0x9610110
@@ -413,6 +460,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class IsaacEngine
     {
+        public int sizeL;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x96125F0
         public void ReturnByte(){} // RVA: 0x9612740
@@ -428,6 +477,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class NaccacheSternEngine
     {
+        public bool forEncryption; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyParameters key; // 0x18
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x9613510
         public void Init(){} // RVA: 0x9613550
@@ -444,6 +496,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class NoekeonEngine
     {
+        public int GenericSize;
+        public uint[] nullVector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9614EE0
         public void get_AlgorithmName(){} // RVA: 0x9615050
@@ -465,6 +520,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class NullEngine
     {
+        public bool initialised; // 0x10
+        public int BlockSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Init(){} // RVA: 0x6BD7E0
@@ -477,6 +535,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC2Engine
     {
+        public byte[] piTable;
+        public int BLOCK_SIZE;
+
         // ── Methods ──
         public void GenerateWorkingKey(){} // RVA: 0x9616D50
         public void Init(){} // RVA: 0x9617040
@@ -494,6 +555,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC2WrapEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
+
         // ── Methods ──
         public void Init(){} // RVA: 0x9618070
         public void get_AlgorithmName(){} // RVA: 0x96186C0
@@ -507,6 +570,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC4Engine
     {
+        public int STATE_LENGTH;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x96199F0
         public void get_AlgorithmName(){} // RVA: 0x9619B90
@@ -520,6 +585,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC532Engine
     {
+        public int _noRounds; // 0x10
+        public int[] _S; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x961A1B0
         public void get_AlgorithmName(){} // RVA: 0x961A1C0
@@ -540,6 +608,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC564Engine
     {
+        public int wordSize;
+        public int bytesPerWord; // 0x4
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x961A1B0
         public void get_AlgorithmName(){} // RVA: 0x961ADA0
@@ -560,6 +631,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RC6Engine
     {
+        public int wordSize;
+        public int bytesPerWord; // 0x4
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_AlgorithmName(){} // RVA: 0x961BFB0
@@ -580,6 +654,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Rfc3211WrapEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x961DA60
         public void Init(){} // RVA: 0x961DB20
@@ -590,6 +666,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Rfc3394WrapEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher engine; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x961E660
         public void Init(){} // RVA: 0x961E790
@@ -600,6 +678,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RijndaelEngine
     {
+        public int MAXROUNDS;
+        public int MAXKC; // 0x4
+
         // ── Methods ──
         public void Mul0x2(){} // RVA: 0x961F350
         public void Mul0x3(){} // RVA: 0x961F3F0
@@ -631,6 +712,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RsaBlindedEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9622150
@@ -642,6 +725,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RsaBlindingEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9622AF0
@@ -668,6 +753,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class RsaEngine
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
         public void get_AlgorithmName(){} // RVA: 0x9623B50
@@ -695,6 +782,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class SM4Engine
     {
+        public int BlockSize;
+        public byte[] Sbox;
+
         // ── Methods ──
         public void tau(){} // RVA: 0x962F410
         public void L_ap(){} // RVA: 0x962F4F0
@@ -714,6 +804,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class Salsa20Engine
     {
+        public int DEFAULT_ROUNDS;
+        public int StateSize;
+
         // ── Methods ──
         public void PackTauOrSigma(){} // RVA: 0x9623D40
         public void .ctor(){} // RVA: 0x9623F10 | overloaded x2
@@ -736,6 +829,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class SeedEngine
     {
+        public int BlockSize;
+        public uint[] SS0;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x96259E0
         public void get_AlgorithmName(){} // RVA: 0x9625AF0
@@ -775,6 +871,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class SerpentEngineBase
     {
+        public int BlockSize;
+        public int ROUNDS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Init(){} // RVA: 0x962BFD0
@@ -811,6 +910,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class SkipjackEngine
     {
+        public int BLOCK_SIZE;
+        public short[] ftable;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x962CD40
         public void get_AlgorithmName(){} // RVA: 0x962D1A0
@@ -828,6 +930,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class TeaEngine
     {
+        public int rounds;
+        public int block_size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x629E0D0
         public void get_AlgorithmName(){} // RVA: 0x9630A20
@@ -843,6 +948,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class ThreefishEngine
     {
+        public int BLOCKSIZE_256;
+        public int BLOCKSIZE_512;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9631300
         public void .ctor(){} // RVA: 0x96316D0
@@ -872,6 +980,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class TwofishEngine
     {
+        public byte[,] P;
+        public int P_00;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x963BE20
         public void Init(){} // RVA: 0x963C340
@@ -903,6 +1014,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class VmpcEngine
     {
+        public byte n; // 0x10
+
         // ── Methods ──
         public void get_AlgorithmName(){} // RVA: 0x963EB10
         public void Init(){} // RVA: 0x963EB50
@@ -932,6 +1045,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 
     public class XteaEngine
     {
+        public int rounds;
+        public int block_size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x963FD30
         public void get_AlgorithmName(){} // RVA: 0x963FEA0

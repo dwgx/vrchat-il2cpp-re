@@ -14,6 +14,44 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchema
     {
+        public string <Id>k__BackingField; // 0x10
+        public string <Title>k__BackingField; // 0x18
+        public System.Nullable`1<bool> <Required>k__BackingField; // 0x20
+        public System.Nullable`1<bool> <ReadOnly>k__BackingField; // 0x22
+        public System.Nullable`1<bool> <Hidden>k__BackingField; // 0x24
+        public System.Nullable`1<bool> <Transient>k__BackingField; // 0x26
+        public string <Description>k__BackingField; // 0x28
+        public System.Nullable`1<0x658E6048> <Type>k__BackingField; // 0x30
+        public string <Pattern>k__BackingField; // 0x38
+        public System.Nullable`1<int> <MinimumLength>k__BackingField; // 0x40
+        public System.Nullable`1<int> <MaximumLength>k__BackingField; // 0x48
+        public System.Nullable`1<double> <DivisibleBy>k__BackingField; // 0x50
+        public System.Nullable`1<double> <Minimum>k__BackingField; // 0x60
+        public System.Nullable`1<double> <Maximum>k__BackingField; // 0x70
+        public System.Nullable`1<bool> <ExclusiveMinimum>k__BackingField; // 0x80
+        public System.Nullable`1<bool> <ExclusiveMaximum>k__BackingField; // 0x82
+        public System.Nullable`1<int> <MinimumItems>k__BackingField; // 0x84
+        public System.Nullable`1<int> <MaximumItems>k__BackingField; // 0x8C
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchema> <Items>k__BackingField; // 0x98
+        public bool <PositionalItemsValidation>k__BackingField; // 0xA0
+        public Newtonsoft.Json.Schema.JsonSchema <AdditionalItems>k__BackingField; // 0xA8
+        public bool <AllowAdditionalItems>k__BackingField; // 0xB0
+        public bool <UniqueItems>k__BackingField; // 0xB1
+        public System.Collections.Generic.IDictionary`2<string,Newtonsoft.Json.Schema.JsonSchema> <Properties>k__BackingField; // 0xB8
+        public Newtonsoft.Json.Schema.JsonSchema <AdditionalProperties>k__BackingField; // 0xC0
+        public System.Collections.Generic.IDictionary`2<string,Newtonsoft.Json.Schema.JsonSchema> <PatternProperties>k__BackingField; // 0xC8
+        public bool <AllowAdditionalProperties>k__BackingField; // 0xD0
+        public string <Requires>k__BackingField; // 0xD8
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> <Enum>k__BackingField; // 0xE0
+        public System.Nullable`1<0x658E6048> <Disallow>k__BackingField; // 0xE8
+        public Newtonsoft.Json.Linq.JToken <Default>k__BackingField; // 0xF0
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchema> <Extends>k__BackingField; // 0xF8
+        public string <Format>k__BackingField; // 0x100
+        public string <Location>k__BackingField; // 0x108
+        public string _internalId; // 0x110
+        public string <DeferredReference>k__BackingField; // 0x118
+        public bool <ReferencesResolved>k__BackingField; // 0x120
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x2F8380
         public void set_Id(){} // RVA: 0x2DEE30
@@ -97,6 +135,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaBuilder
     {
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchema> _stack; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6016E50
         public void Push(){} // RVA: 0x6017020
@@ -125,6 +165,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaException
     {
+        public int <LineNumber>k__BackingField; // 0x90
+        public int <LinePosition>k__BackingField; // 0x94
+        public string <Path>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_LineNumber(){} // RVA: 0x6AFD40
         public void get_LinePosition(){} // RVA: 0x6AFD30
@@ -134,6 +178,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaGenerator
     {
+        public 0x658E6150 <UndefinedSchemaIdHandling>k__BackingField; // 0x10
+        public Newtonsoft.Json.Serialization.IContractResolver _contractResolver; // 0x18
+        public Newtonsoft.Json.Schema.JsonSchemaResolver _resolver; // 0x20
+
         // ── Methods ──
         public void get_UndefinedSchemaIdHandling(){} // RVA: 0x32A5C0
         public void set_UndefinedSchemaIdHandling(){} // RVA: 0x2E00C0
@@ -157,6 +205,30 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaModel
     {
+        public bool <Required>k__BackingField; // 0x10
+        public 0x658E6048 <Type>k__BackingField; // 0x14
+        public System.Nullable`1<int> <MinimumLength>k__BackingField; // 0x18
+        public System.Nullable`1<int> <MaximumLength>k__BackingField; // 0x20
+        public System.Nullable`1<double> <DivisibleBy>k__BackingField; // 0x28
+        public System.Nullable`1<double> <Minimum>k__BackingField; // 0x38
+        public System.Nullable`1<double> <Maximum>k__BackingField; // 0x48
+        public bool <ExclusiveMinimum>k__BackingField; // 0x58
+        public bool <ExclusiveMaximum>k__BackingField; // 0x59
+        public System.Nullable`1<int> <MinimumItems>k__BackingField; // 0x5C
+        public System.Nullable`1<int> <MaximumItems>k__BackingField; // 0x64
+        public System.Collections.Generic.IList`1<string> <Patterns>k__BackingField; // 0x70
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> <Items>k__BackingField; // 0x78
+        public System.Collections.Generic.IDictionary`2<string,Newtonsoft.Json.Schema.JsonSchemaModel> <Properties>k__BackingField; // 0x80
+        public System.Collections.Generic.IDictionary`2<string,Newtonsoft.Json.Schema.JsonSchemaModel> <PatternProperties>k__BackingField; // 0x88
+        public Newtonsoft.Json.Schema.JsonSchemaModel <AdditionalProperties>k__BackingField; // 0x90
+        public Newtonsoft.Json.Schema.JsonSchemaModel <AdditionalItems>k__BackingField; // 0x98
+        public bool <PositionalItemsValidation>k__BackingField; // 0xA0
+        public bool <AllowAdditionalProperties>k__BackingField; // 0xA1
+        public bool <AllowAdditionalItems>k__BackingField; // 0xA2
+        public bool <UniqueItems>k__BackingField; // 0xA3
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> <Enum>k__BackingField; // 0xA8
+        public 0x658E6048 <Disallow>k__BackingField; // 0xB0
+
         // ── Methods ──
         public void get_Required(){} // RVA: 0x3A75E0
         public void set_Required(){} // RVA: 0x3A75F0
@@ -225,6 +297,14 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaNode
     {
+        public string <Id>k__BackingField; // 0x10
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<Newtonsoft.Json.Schema.JsonSchema> <Schemas>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Schema.JsonSchemaNode> <Properties>k__BackingField; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Schema.JsonSchemaNode> <PatternProperties>k__BackingField; // 0x28
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Schema.JsonSchemaNode> <Items>k__BackingField; // 0x30
+        public Newtonsoft.Json.Schema.JsonSchemaNode <AdditionalProperties>k__BackingField; // 0x38
+        public Newtonsoft.Json.Schema.JsonSchemaNode <AdditionalItems>k__BackingField; // 0x40
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x2F8380
         public void get_Schemas(){} // RVA: 0x2E07C0
@@ -249,6 +329,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class JsonSchemaResolver
     {
+        public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchema> <LoadedSchemas>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_LoadedSchemas(){} // RVA: 0x2F8380
         public void set_LoadedSchemas(){} // RVA: 0x2DEE30
@@ -270,6 +352,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Schema
 
     public class ValidationEventArgs
     {
+        public Newtonsoft.Json.Schema.JsonSchemaException _ex; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6023920
         public void get_Exception(){} // RVA: 0x2F8380

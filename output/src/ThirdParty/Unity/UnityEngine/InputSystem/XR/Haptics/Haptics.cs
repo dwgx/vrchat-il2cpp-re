@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 {
     public class BufferedRumble
     {
-        public object _capabilities;
-        public object _device;
+        public UnityEngine.InputSystem.XR.Haptics.HapticCapabilities _capabilities; // 0x10
+        public UnityEngine.InputSystem.InputDevice _device; // 0x28
 
         // ── Methods ──
         public void get_capabilities(){} // RVA: 0x6EA27A0
@@ -21,6 +21,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetCurrentHapticStateCommand
     {
+        public int kSize;
+        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+        public uint samplesQueued; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x6EA2B90
         public void get_typeStatic(){} // RVA: 0x6EA2B90
@@ -30,6 +34,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetHapticCapabilitiesCommand
     {
+        public int kSize;
+        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+        public uint numChannels; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x6EA2C30
         public void get_typeStatic(){} // RVA: 0x6EA2C30
@@ -39,6 +47,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class HapticCapabilities
     {
+        public uint <numChannels>k__BackingField; // 0x10
+        public bool <supportsImpulse>k__BackingField; // 0x14
+        public bool <supportsBuffer>k__BackingField; // 0x15
+        public uint <frequencyHz>k__BackingField; // 0x18
+        public uint <maxBufferSize>k__BackingField; // 0x1C
+        public uint <optimalBufferSize>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EA2C10 | overloaded x2
         public void get_numChannels(){} // RVA: 0x19689B0
@@ -51,8 +66,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class HapticState
     {
-        public object numChannels;
-        public object supportsImpulse;
+        public uint numChannels; // 0x10
+        public uint supportsImpulse; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AE010
@@ -64,6 +79,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendBufferedHapticCommand
     {
+        public int kMaxHapticBufferSize;
+        public int kSize;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x6EA2CA0
         public void get_typeStatic(){} // RVA: 0x6EA2CA0
@@ -72,6 +90,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendHapticImpulseCommand
     {
+        public int kSize;
+        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x6EA2E50
         public void get_typeStatic(){} // RVA: 0x6EA2E50

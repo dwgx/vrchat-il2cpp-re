@@ -44,6 +44,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class FakeStore
     {
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_Biller; // 0x48
+
         // ── Methods ──
         public void get_unavailableProductId(){} // RVA: 0x37B370
         public void Initialize(){} // RVA: 0x723E850

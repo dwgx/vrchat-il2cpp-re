@@ -110,6 +110,10 @@ namespace ThirdParty.Unity.UnityEngine.Yoga
 
     public class YogaConfig
     {
+        public UnityEngine.Yoga.YogaConfig Default;
+        public UIntPtr _ygConfig; // 0x10
+        public UnityEngine.Yoga.Logger _logger; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72DF400 | overloaded x2
         public void Finalize(){} // RVA: 0x72DF4A0
@@ -128,6 +132,14 @@ namespace ThirdParty.Unity.UnityEngine.Yoga
 
     public class YogaNode
     {
+        public UIntPtr _ygNode; // 0x10
+        public UnityEngine.Yoga.YogaConfig _config; // 0x18
+        public System.WeakReference _parent; // 0x20
+        public System.Collections.Generic.List`1<UnityEngine.Yoga.YogaNode> _children; // 0x28
+        public UnityEngine.Yoga.MeasureFunction _measureFunction; // 0x30
+        public UnityEngine.Yoga.BaselineFunction _baselineFunction; // 0x38
+        public object _data; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x72E1280
         public void Finalize(){} // RVA: 0x72E13F0
@@ -213,6 +225,9 @@ namespace ThirdParty.Unity.UnityEngine.Yoga
 
     public class YogaValue
     {
+        public float value; // 0x10
+        public 0x6582EE28 unit; // 0x14
+
         // ── Methods ──
         public void get_Unit(){} // RVA: 0x40B7110
         public void get_Value(){} // RVA: 0x300D20

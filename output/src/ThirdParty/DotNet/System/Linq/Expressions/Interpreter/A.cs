@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class AddInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -17,6 +21,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class AddOvfInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -27,6 +35,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class AndInstruction
     {
+        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
+        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3E2CB0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0
@@ -45,6 +57,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class ArrayLengthInstruction
     {
+        public System.Linq.Expressions.Interpreter.ArrayLengthInstruction Instance;
+
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x3CFAF0
         public void get_ProducedStack(){} // RVA: 0x3CFAF0

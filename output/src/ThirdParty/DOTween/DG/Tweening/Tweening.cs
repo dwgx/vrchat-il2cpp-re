@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DOTween.DG.Tweening
-// Classes: 23
-// Methods: 489
+// Classes: 24
+// Methods: 493
 
 namespace ThirdParty.DOTween.DG.Tweening
 {
@@ -16,6 +16,9 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class DOTween
     {
+        public string Version;
+        public bool useSafeMode; // 0x8
+
         // ── Methods ──
         public void get_logBehaviour(){} // RVA: 0x1E60C70
         public void set_logBehaviour(){} // RVA: 0x1E60CD0
@@ -318,6 +321,13 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Tween
     {
+        public float timeScale; // 0x28
+        public bool isBackwards; // 0x2C
+        public object id; // 0x30
+        public string stringId; // 0x38
+        public int intId; // 0x40
+        public object target; // 0x48
+
         // ── Methods ──
         public void get_isRelative(){} // RVA: 0x17323D0
         public void set_isRelative(){} // RVA: 0x1735610
@@ -356,6 +366,15 @@ namespace ThirdParty.DOTween.DG.Tweening
         public void Invoke(){} // RVA: 0x283FA0
         public void BeginInvoke(){} // RVA: 0x283FA0
         public void EndInvoke(){} // RVA: 0x24B10
+    }
+
+    public class TweenCallback`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3CE370
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x44418F0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     public class TweenExtensions

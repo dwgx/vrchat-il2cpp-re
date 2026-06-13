@@ -7,6 +7,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Icao
 {
     public class CscaMasterList
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979DAF0
         public void .ctor(){} // RVA: 0x979DF50 | overloaded x2
@@ -18,6 +20,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Icao
 
     public class DataGroupHash
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger dataGroupNumber; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString dataGroupHashValue; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979E320
         public void .ctor(){} // RVA: 0x979E5A0 | overloaded x2
@@ -35,6 +40,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Icao
 
     public class LdsSecurityObject
     {
+        public int UBDataGroups;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier digestAlgorithmIdentifier; // 0x18
+
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x979EED0
         public void .ctor(){} // RVA: 0x979F7F0 | overloaded x3

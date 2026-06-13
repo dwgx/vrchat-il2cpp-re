@@ -1,12 +1,20 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe
-// Classes: 2
-// Methods: 27
+// Classes: 12
+// Methods: 57
 
 namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class OutputStreamHandlerConfig
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.OutputStreamHandlerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string OutputStreamHandlerDefaultValue; // 0x8
+        public string outputStreamHandler_; // 0x18
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x20
+        public Mediapipe.MediaPipeOptions options_; // 0x28
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B2D1C0
         public void get_Descriptor(){} // RVA: 0x5B2D220
@@ -37,6 +45,86 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void .ctor(){} // RVA: 0x24CC0
         public void DeleteMpPtr(){} // RVA: 0x24A50
         public void Next(){} // RVA: 0xDE40
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
+    }
+
+    public class OutputStreamPoller`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD6EA0
+        public void DeleteMpPtr(){} // RVA: 0x3DD6EB0
+        public void Next(){} // RVA: 0x3DD6F10
     }
 
 }

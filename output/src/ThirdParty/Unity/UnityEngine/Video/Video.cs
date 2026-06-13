@@ -24,6 +24,15 @@ namespace ThirdParty.Unity.UnityEngine.Video
 
     public class VideoPlayer
     {
+        public EventHandler prepareCompleted; // 0x18
+        public EventHandler loopPointReached; // 0x20
+        public EventHandler started; // 0x28
+        public EventHandler frameDropped; // 0x30
+        public ErrorEventHandler errorReceived; // 0x38
+        public EventHandler seekCompleted; // 0x40
+        public TimeEventHandler clockResyncOccurred; // 0x48
+        public FrameReadyEventHandler frameReady; // 0x50
+
         // ── Methods ──
         public void get_source(){} // RVA: 0x75019C0
         public void set_source(){} // RVA: 0x7501A10

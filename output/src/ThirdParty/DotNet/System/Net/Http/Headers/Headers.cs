@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net.Http.Headers
-// Classes: 35
+// Classes: 36
 // Methods: 348
 
 namespace ThirdParty.DotNet.System.Net.Http.Headers
 {
     public class AuthenticationHeaderValue
     {
+        public string <Parameter>k__BackingField; // 0x10
+        public string <Scheme>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Parameter(){} // RVA: 0x2F8380
@@ -23,6 +26,23 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class CacheControlHeaderValue
     {
+        public System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions; // 0x10
+        public System.Collections.Generic.List`1<string> no_cache_headers; // 0x18
+        public System.Collections.Generic.List`1<string> private_headers; // 0x20
+        public System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField; // 0x28
+        public bool <MaxStale>k__BackingField; // 0x38
+        public System.Nullable`1<System.TimeSpan> <MaxStaleLimit>k__BackingField; // 0x40
+        public System.Nullable`1<System.TimeSpan> <MinFresh>k__BackingField; // 0x50
+        public bool <MustRevalidate>k__BackingField; // 0x60
+        public bool <NoCache>k__BackingField; // 0x61
+        public bool <NoStore>k__BackingField; // 0x62
+        public bool <NoTransform>k__BackingField; // 0x63
+        public bool <OnlyIfCached>k__BackingField; // 0x64
+        public bool <Private>k__BackingField; // 0x65
+        public bool <ProxyRevalidate>k__BackingField; // 0x66
+        public bool <Public>k__BackingField; // 0x67
+        public System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField; // 0x68
+
         // ── Methods ──
         public void get_Extensions(){} // RVA: 0x6809790
         public void get_MaxAge(){} // RVA: 0x111F520
@@ -79,6 +99,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class ContentDispositionHeaderValue
     {
+        public string dispositionType; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x680C8D0 | overloaded x2
         public void get_Parameters(){} // RVA: 0x680CC70
@@ -91,6 +113,11 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class ContentRangeHeaderValue
     {
+        public string unit; // 0x10
+        public System.Nullable`1<long> <From>k__BackingField; // 0x18
+        public System.Nullable`1<long> <Length>k__BackingField; // 0x28
+        public System.Nullable`1<long> <To>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x680D3E0
         public void get_From(){} // RVA: 0x994EE0
@@ -116,6 +143,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class EntityTagHeaderValue
     {
+        public System.Net.Http.Headers.EntityTagHeaderValue any;
+        public bool <IsWeak>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_IsWeak(){} // RVA: 0x3A75E0
@@ -139,6 +169,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HeaderInfo
     {
+        public bool AllowsMany; // 0x10
+        public 0x659C7320 HeaderKind; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x680EAD0
         public void CreateSingle(){} // RVA: 0x1EC30
@@ -154,6 +187,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpContentHeaders
     {
+        public System.Net.Http.HttpContent content; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x680EB90
         public void get_ContentEncoding(){} // RVA: 0x680EC40
@@ -164,6 +199,10 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpHeaderValueCollection`1
     {
+        public System.Collections.Generic.List`1<T> list;
+        public System.Net.Http.Headers.HttpHeaders headers;
+        public System.Net.Http.Headers.HeaderInfo headerInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DC60
         public void get_Count(){} // RVA: 0xD840
@@ -209,6 +248,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpRequestHeaders
     {
+        public System.Nullable`1<bool> expectContinue; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6813CD0
         public void get_Connection(){} // RVA: 0x6813D30
@@ -229,6 +270,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class Lexer
     {
+        public bool[] token_chars;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Position(){} // RVA: 0x5BED50
@@ -252,6 +295,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class MediaTypeHeaderValue
     {
+        public System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters; // 0x10
+        public string media_type; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
         public void get_CharSet(){} // RVA: 0x6816760
@@ -278,6 +324,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class NameValueHeaderValue
     {
+        public string value; // 0x10
+        public string <Name>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
         public void get_Name(){} // RVA: 0x2E07C0
@@ -296,6 +345,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class NameValueWithParametersHeaderValue
     {
+        public System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void get_Parameters(){} // RVA: 0x6818E40
@@ -313,6 +364,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class ProductHeaderValue
     {
+        public string <Name>k__BackingField; // 0x10
+        public string <Version>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Name(){} // RVA: 0x2F8380
@@ -329,6 +383,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class ProductInfoHeaderValue
     {
+        public string <Comment>k__BackingField; // 0x10
+        public System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void get_Comment(){} // RVA: 0x2F8380
@@ -345,6 +402,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class RangeConditionHeaderValue
     {
+        public System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField; // 0x10
+        public System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681B630 | overloaded x2
         public void get_Date(){} // RVA: 0x1F90220
@@ -360,6 +420,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class RangeHeaderValue
     {
+        public System.Collections.Generic.List`1<System.Net.Http.Headers.RangeItemHeaderValue> ranges; // 0x10
+        public string unit; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681BF80 | overloaded x2
         public void get_Ranges(){} // RVA: 0x681C1C0
@@ -373,6 +436,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class RangeItemHeaderValue
     {
+        public System.Nullable`1<long> <From>k__BackingField; // 0x10
+        public System.Nullable`1<long> <To>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681CF80
         public void get_From(){} // RVA: 0x196ABE0
@@ -387,6 +453,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class RetryConditionHeaderValue
     {
+        public System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField; // 0x10
+        public System.Nullable`1<System.TimeSpan> <Delta>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681D590 | overloaded x2
         public void get_Date(){} // RVA: 0x1F90220
@@ -402,6 +471,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class StringWithQualityHeaderValue
     {
+        public System.Nullable`1<double> <Quality>k__BackingField; // 0x10
+        public string <Value>k__BackingField; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Quality(){} // RVA: 0x196ABE0
@@ -418,7 +490,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class Token
     {
-        public object Position;
+        public System.Net.Http.Headers.Token Position;
+        public 0x659C75E0 type; // 0x10
+        public int <StartPosition>k__BackingField; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6814C20
@@ -434,6 +508,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class TransferCodingHeaderValue
     {
+        public string value; // 0x10
+        public System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void get_Parameters(){} // RVA: 0x681ECF0
@@ -461,6 +538,10 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
         public void Invoke(){} // RVA: 0x11120
     }
 
+    public class TryParseDelegate`1
+    {
+    }
+
     public class TryParseListDelegate`1
     {
         // ── Methods ──
@@ -470,6 +551,11 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class ViaHeaderValue
     {
+        public string <Comment>k__BackingField; // 0x10
+        public string <ProtocolName>k__BackingField; // 0x18
+        public string <ProtocolVersion>k__BackingField; // 0x20
+        public string <ReceivedBy>k__BackingField; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Comment(){} // RVA: 0x2F8380
@@ -490,6 +576,11 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class WarningHeaderValue
     {
+        public string <Agent>k__BackingField; // 0x10
+        public int <Code>k__BackingField; // 0x18
+        public System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField; // 0x20
+        public string <Text>k__BackingField; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void get_Agent(){} // RVA: 0x2F8380

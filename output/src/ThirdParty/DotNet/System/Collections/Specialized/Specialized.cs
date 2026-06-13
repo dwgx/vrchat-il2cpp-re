@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 {
     public class BitVector32
     {
-        public object Current;
+        public uint Current; // 0x10
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x6CB47B0
@@ -27,6 +27,11 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class CompatibleComparer
     {
+        public System.Collections.IComparer _comparer; // 0x10
+        public System.Collections.IComparer defaultComparer;
+        public System.Collections.IHashCodeProvider _hcp; // 0x18
+        public System.Collections.IHashCodeProvider defaultHashProvider; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF19AE0
         public void Equals(){} // RVA: 0x6CBDD80
@@ -43,6 +48,12 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class ListDictionary
     {
+        public DictionaryNode head; // 0x10
+        public int version; // 0x18
+        public int count; // 0x1C
+        public System.Collections.IComparer comparer; // 0x20
+        public object _syncRoot; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x30B0D0 | overloaded x2
         public void get_Item(){} // RVA: 0x6CB4C10
@@ -65,6 +76,11 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class NameObjectCollectionBase
     {
+        public string ReadOnlyName;
+        public string CountName;
+        public string ComparerName;
+        public string HashCodeProviderName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x305200 | overloaded x6
         public void GetObjectData(){} // RVA: 0x6CBACC0
@@ -88,6 +104,9 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class NameValueCollection
     {
+        public string[] _all; // 0x58
+        public string[] _allKeys; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CB7220 | overloaded x5
         public void InvalidateCachedArrays(){} // RVA: 0x6CB6600
@@ -123,6 +142,14 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class OrderedDictionary
     {
+        public System.Collections.ArrayList _objectsArray; // 0x10
+        public System.Collections.Hashtable _objectsTable; // 0x18
+        public int _initialCapacity; // 0x20
+        public System.Collections.IEqualityComparer _comparer; // 0x28
+        public bool _readOnly; // 0x30
+        public object _syncRoot; // 0x38
+        public System.Runtime.Serialization.SerializationInfo _siInfo; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x305200 | overloaded x4
         public void get_Count(){} // RVA: 0x6CB7330
@@ -151,6 +178,8 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class ReadOnlyList
     {
+        public System.Collections.IList _list; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DEE30
         public void get_Count(){} // RVA: 0x6CBA360
@@ -173,6 +202,8 @@ namespace ThirdParty.DotNet.System.Collections.Specialized
 
     public class StringCollection
     {
+        public System.Collections.ArrayList data; // 0x10
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x6CB9200
         public void set_Item(){} // RVA: 0x6CB9290

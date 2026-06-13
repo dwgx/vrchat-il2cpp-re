@@ -47,6 +47,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÏÌÍÏÎÍÌÍÎÌÌÏÍÍÎÌÌÌÎÍÌÌ</summary>
     public class LightingRendererHandler_7AD2
     {
+        public ÎÍÎÎÎÎÌÎÏÍÎÍÏÌÏÎÎÌÏÍÎÏÌ[] ÍÌÍÍÏÎÎÍÍÎÌÍÌÍÌÎÌÎÌÎÏÏÍ;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x903FD40
         public void Handle(){} // RVA: 0x9043D30
@@ -56,6 +58,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÏÎÎÎÍÎÏÏÍÎÌÎÌÏÍÌÎÌÎÏÌÎ</summary>
     public class LineRenderingRendererHandler_1073
     {
+        public UnityEngine.UI.Button ÌÍÎÎÏÌÌÏÌÌÌÍÎÌÏÏÌÏÏÏÎÎÍ; // 0x20
+
         // ── Methods ──
         public void SetAllowOcclusionWhenDynamic(){} // RVA: 0x8C178A0
         public void Awake(){} // RVA: 0x8C178D0

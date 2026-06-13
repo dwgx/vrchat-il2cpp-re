@@ -20,6 +20,8 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 
     public class SubsystemDescriptorWithProvider
     {
+        public string <id>k__BackingField; // 0x10
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x2F8380
         public void CreateImpl(){} // RVA: 0xCD60
@@ -33,6 +35,9 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 
     public class SubsystemWithProvider
     {
+        public bool <running>k__BackingField; // 0x10
+        public UnityEngine.SubsystemsImplementation.SubsystemProvider <providerBase>k__BackingField; // 0x18
+
         // ── Methods ──
         public void Start(){} // RVA: 0x725B1F0
         public void OnStart(){} // RVA: 0x24A50

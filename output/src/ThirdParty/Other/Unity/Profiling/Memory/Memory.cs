@@ -19,6 +19,9 @@ namespace ThirdParty.Other.Unity.Profiling.Memory
 
     public class MemorySnapshotMetadata
     {
+        public string <Description>k__BackingField; // 0x10
+        public byte[] <Data>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Description(){} // RVA: 0x2F8380
         public void set_Description(){} // RVA: 0x2DEE30

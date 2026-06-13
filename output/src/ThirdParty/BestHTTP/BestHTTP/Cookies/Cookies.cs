@@ -7,6 +7,18 @@ namespace ThirdParty.BestHTTP.BestHTTP.Cookies
 {
     public class Cookie
     {
+        public int Version;
+        public string <Name>k__BackingField; // 0x10
+        public string <Value>k__BackingField; // 0x18
+        public System.DateTime <Date>k__BackingField; // 0x20
+        public System.DateTime <LastAccess>k__BackingField; // 0x28
+        public System.DateTime <Expires>k__BackingField; // 0x30
+        public long <MaxAge>k__BackingField; // 0x38
+        public bool <IsSession>k__BackingField; // 0x40
+        public string <Domain>k__BackingField; // 0x48
+        public string <Path>k__BackingField; // 0x50
+        public bool <IsSecure>k__BackingField; // 0x58
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x2F8380
         public void set_Name(){} // RVA: 0x2DEE30
@@ -46,9 +58,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Cookies
 
     public class CookieJar
     {
-        public object Uri;
-        public object LastAccess;
-        public object BodyLength;
+        public int Uri;
+        public System.TimeSpan LastAccess;
+        public System.Collections.Generic.List`1<BestHTTP.Cookies.Cookie> BodyLength; // 0x8
 
         // ── Methods ──
         public void get_IsSavingSupported(){} // RVA: 0x982D950

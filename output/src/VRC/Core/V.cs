@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class VRCCertificatePolicy
     {
+        public VRC.Core.VRCCertificatePolicy <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
+
         // ── Methods ──
         public void CheckValidationResult_564ED10A9526(){} // RVA: 0xD7CF40
         public void .ctor_C0C3457DE94F(){} // RVA: 0xD7CFE0
@@ -31,6 +33,14 @@ namespace VRC.Core
 
     public class VRCEvent
     {
+        public string <name>k__BackingField; // 0x68
+        public string <description>k__BackingField; // 0x70
+        public string <imageUrl>k__BackingField; // 0x78
+        public string <authorName>k__BackingField; // 0x80
+        public string <authorId>k__BackingField; // 0x88
+        public string <startTime>k__BackingField; // 0x90
+        public string <venueId>k__BackingField; // 0x98
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x358D50
         public void set_name(){} // RVA: 0x358D60
@@ -53,7 +63,10 @@ namespace VRC.Core
 
     public class VRCLogger
     {
-        public object _isPathOverridden;
+        public bool _isPathOverridden;
+        public Microsoft.Extensions.Logging.ILoggerFactory _runtimeLoggerFactory; // 0x8
+        public 0x659F5E70 _currentLoggingMode; // 0x10
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Microsoft.Extensions.Logging.ILogger> LoggerDictionary; // 0x18
 
         // ── Methods ──
         public void get_IsPathOverridden(){} // RVA: 0x76D97D0

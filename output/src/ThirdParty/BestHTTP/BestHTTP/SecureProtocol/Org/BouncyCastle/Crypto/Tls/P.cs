@@ -13,6 +13,13 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class ProtocolVersion
     {
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion SSLv3;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv10; // 0x8
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv11; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv12; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion DTLSv10; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion DTLSv12; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x952FA90
         public void get_FullVersion(){} // RVA: 0x32A5C0

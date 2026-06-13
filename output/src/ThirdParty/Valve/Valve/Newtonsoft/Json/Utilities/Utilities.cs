@@ -49,6 +49,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1
     {
+        public System.Collections.IList _list;
+        public System.Collections.Generic.ICollection`1<T> _genericCollection;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x283FA0
         public void Clear(){} // RVA: 0x24A50
@@ -146,6 +150,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : System.Collections.Generic
     {
+        public System.Collections.IDictionary _dictionary;
+        public System.Collections.Generic.IDictionary`2<U,T> _genericDictionary;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x283FA0 | overloaded x2
         public void ContainsKey(){} // RVA: 0x283FA0
@@ -216,6 +224,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory
     {
+        public Valve.Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory _instance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7538CE0
         public void CreateParameterizedConstructor(){} // RVA: 0x7538D40
@@ -276,6 +286,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ReflectionMember
     {
+        public System.Type <MemberType>k__BackingField; // 0x10
+        public System.Func`2<object,object> <Getter>k__BackingField; // 0x18
+        public System.Action`2<object,object> <Setter>k__BackingField; // 0x20
+
         // ── Methods ──
         public void get_MemberType(){} // RVA: 0x2F8380
         public void set_MemberType(){} // RVA: 0x2DEE30
@@ -287,6 +301,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ReflectionObject
     {
+        public Valve.Newtonsoft.Json.Serialization.ObjectConstructor`1<object> <Creator>k__BackingField; // 0x10
+        public System.Collections.Generic.IDictionary`2<string,Valve.Newtonsoft.Json.Utilities.ReflectionMember> <Members>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Creator(){} // RVA: 0x2F8380
         public void set_Creator(){} // RVA: 0x2DEE30
@@ -342,9 +359,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class StringBuffer
     {
-        public object Item;
-        public object Chars;
-        public object StartIndex;
+        public char[] Item; // 0x10
+        public int Chars; // 0x18
 
         // ── Methods ──
         public void get_Position(){} // RVA: 0x1EA9890
@@ -360,6 +376,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class StringReference
     {
+        public char[] _chars; // 0x10
+        public int _startIndex; // 0x18
+        public int _length; // 0x1C
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x5FDEE40
         public void get_Chars(){} // RVA: 0x1AD4690
@@ -418,6 +438,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class TypeInformation
     {
+        public System.Type <Type>k__BackingField; // 0x10
+        public 0x65965450 <TypeCode>k__BackingField; // 0x18
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x2F8380
         public void set_Type(){} // RVA: 0x2DEE30

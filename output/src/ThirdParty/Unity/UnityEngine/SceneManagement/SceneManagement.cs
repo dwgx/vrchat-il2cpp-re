@@ -13,6 +13,8 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class Scene
     {
+        public int m_Handle; // 0x10
+
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x7148F50
         public void GetNameInternal(){} // RVA: 0x7148FA0
@@ -35,6 +37,9 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class SceneManager
     {
+        public bool s_AllowLoadScene;
+        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,0x6589E848> sceneLoaded; // 0x8
+
         // ── Methods ──
         public void get_sceneCount(){} // RVA: 0x7149C20
         public void get_sceneCountInBuildSettings(){} // RVA: 0x7149C70
@@ -64,6 +69,9 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class SceneManagerAPI
     {
+        public UnityEngine.SceneManagement.SceneManagerAPI s_DefaultAPI;
+        public UnityEngine.SceneManagement.SceneManagerAPI <overrideAPI>k__BackingField; // 0x8
+
         // ── Methods ──
         public void get_ActiveAPI(){} // RVA: 0x7149930
         public void get_overrideAPI(){} // RVA: 0x71499F0

@@ -27,6 +27,11 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3
     {
+        public float x; // 0x10
+        public float y; // 0x14
+        public float z; // 0x18
+        public Unity.Mathematics.float3 zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6822550 | overloaded x2
         public void op_Implicit(){} // RVA: 0x1A6E260 | overloaded x3
@@ -50,6 +55,8 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3x3
     {
+        public Unity.Mathematics.float3 c0; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6F05A20 | overloaded x4
         public void op_Multiply(){} // RVA: 0x6F04F20
@@ -62,6 +69,12 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4
     {
+        public float x; // 0x10
+        public float y; // 0x14
+        public float z; // 0x18
+        public float w; // 0x1C
+        public Unity.Mathematics.float4 zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6F05D80 | overloaded x3
         public void op_Implicit(){} // RVA: 0x1A53750 | overloaded x3

@@ -429,7 +429,7 @@ public class IsolatingRunSequence
 
 public class Item
 {
-    public object Count;
+    public UnityEngine.Vector3 Count; // 0x10
 
     // ── Methods ──
     public void Lerp(){} // RVA: 0x1D2AEA0
@@ -438,4 +438,5 @@ public class Item
 
 public class Item
 {
+    public UnityEngine.Vector3 Pos; // 0x10
 }

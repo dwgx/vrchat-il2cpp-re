@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class CancellationTokenDisposable
     {
+        public System.Threading.CancellationTokenSource cts; // 0x10
+
         // ── Methods ──
         public void get_Token(){} // RVA: 0x575B7E0
         public void Dispose(){} // RVA: 0x575B800

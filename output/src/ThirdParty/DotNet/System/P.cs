@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 12
-// Methods: 48
+// Classes: 100
+// Methods: 60
 
 namespace ThirdParty.DotNet.System
 {
@@ -26,6 +26,9 @@ namespace ThirdParty.DotNet.System
 
     public class ParamsArray
     {
+        public object[] s_oneArgArray;
+        public object[] s_twoArgArray; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5EAE030 | overloaded x4
         public void get_Length(){} // RVA: 0x33B7190
@@ -68,6 +71,10 @@ namespace ThirdParty.DotNet.System
     {
     }
 
+    public class Pinnable`1
+    {
+    }
+
     public class PlatformNotSupportedException
     {
         // ── Methods ──
@@ -87,19 +94,387 @@ namespace ThirdParty.DotNet.System
     {
     }
 
-    public class ProgressStatics
+    public class Predicate`1
     {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x5EAFE90
     }
 
-    public class Progress`1
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10 | overloaded x2
-        public void OnReport(){} // RVA: 0x283FA0
-        public void System.IProgress<T>.Report(){} // RVA: 0x283FA0
-        public void InvokeHandlers(){} // RVA: 0x24B10
+        public void .ctor(){}
+        public void Invoke(){} // RVA: 0x283FA0
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3369790
+        public void Invoke(){} // RVA: 0x3368000
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1B3C7C0
+        public void Invoke(){} // RVA: 0x338C60
+    }
+
+    public class Predicate`1
+    {
     }
 
 }

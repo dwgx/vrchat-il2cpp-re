@@ -7,6 +7,27 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 {
     public class FaceInfo
     {
+        public int m_FaceIndex; // 0x10
+        public string m_FamilyName; // 0x18
+        public string m_StyleName; // 0x20
+        public int m_PointSize; // 0x28
+        public float m_Scale; // 0x2C
+        public int m_UnitsPerEM; // 0x30
+        public float m_LineHeight; // 0x34
+        public float m_AscentLine; // 0x38
+        public float m_CapLine; // 0x3C
+        public float m_MeanLine; // 0x40
+        public float m_Baseline; // 0x44
+        public float m_DescentLine; // 0x48
+        public float m_SuperscriptOffset; // 0x4C
+        public float m_SuperscriptSize; // 0x50
+        public float m_SubscriptOffset; // 0x54
+        public float m_SubscriptSize; // 0x58
+        public float m_UnderlineOffset; // 0x5C
+        public float m_UnderlineThickness; // 0x60
+        public float m_StrikethroughOffset; // 0x64
+        public float m_StrikethroughThickness; // 0x68
+
         // ── Methods ──
         public void get_faceIndex(){} // RVA: 0x67FD0D0
         public void get_familyName(){} // RVA: 0x5F1D510
@@ -50,6 +71,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class Glyph
     {
+        public uint m_Index; // 0x10
+        public UnityEngine.TextCore.GlyphMetrics m_Metrics; // 0x14
+        public UnityEngine.TextCore.GlyphRect m_GlyphRect; // 0x28
+        public float m_Scale; // 0x38
+        public int m_AtlasIndex; // 0x3C
+
         // ── Methods ──
         public void get_index(){} // RVA: 0x70B92A0
         public void set_index(){} // RVA: 0x2E00C0
@@ -66,6 +93,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphMetrics
     {
+        public float m_Width; // 0x10
+        public float m_Height; // 0x14
+        public float m_HorizontalBearingX; // 0x18
+        public float m_HorizontalBearingY; // 0x1C
+        public float m_HorizontalAdvance; // 0x20
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x300D20
         public void get_height(){} // RVA: 0x300D30
@@ -79,6 +112,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphRect
     {
+        public int m_X; // 0x10
+        public int m_Y; // 0x14
+        public int m_Width; // 0x18
+        public int m_Height; // 0x1C
+        public UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x67FD0D0
         public void get_y(){} // RVA: 0x40B7110

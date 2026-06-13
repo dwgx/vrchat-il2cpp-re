@@ -7,6 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Rasterization
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Rasterization> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int IntervalFieldNumber;
+        public Google.Protobuf.FieldCodec`1<Interval> _repeated_interval_codec; // 0x8
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B03EC0
         public void get_Descriptor(){} // RVA: 0x5B03F20
@@ -27,7 +32,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class RasterizationReflection
     {
-        public object Descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B03760
@@ -36,6 +41,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Rect
     {
+        public Google.Protobuf.MessageParser`1<Mediapipe.Rect> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int XCenterDefaultValue; // 0x8
+        public int xCenter_; // 0x1C
+        public int YCenterDefaultValue; // 0xC
+        public int yCenter_; // 0x20
+        public int HeightDefaultValue; // 0x10
+        public int height_; // 0x24
+        public int WidthDefaultValue; // 0x14
+        public int width_; // 0x28
+        public float RotationDefaultValue; // 0x18
+        public float rotation_; // 0x2C
+        public long RectIdDefaultValue; // 0x20
+        public long rectId_; // 0x30
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x5B1F360
         public void get_Descriptor(){} // RVA: 0x5B1F3C0
@@ -79,6 +100,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class RectReflection
     {
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x5B1EB10
         public void .cctor(){} // RVA: 0x5B1EB70

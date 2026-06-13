@@ -23,6 +23,10 @@ namespace ThirdParty.Unity.UnityEngine.Windows.WebCam
 
     public class PhotoCaptureFrame
     {
+        public UIntPtr m_NativePtr; // 0x10
+        public int <dataLength>k__BackingField; // 0x18
+        public bool <hasLocationData>k__BackingField; // 0x1C
+
         // ── Methods ──
         public void get_dataLength(){} // RVA: 0x5BED50
         public void set_dataLength(){} // RVA: 0x6374E0

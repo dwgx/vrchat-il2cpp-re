@@ -8,6 +8,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ</summary>
     public class IgnoreLayout_4F20
     {
+        public System.Action`2<ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ,ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ> ÍÎÏÍÍÍÍÌÍÌÌÌÌÍÎÌÏÌÏÌÌÏÎ; // 0xD0
+        public System.Action`2<ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ,ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ> ÏÏÎÏÌÌÏÎÍÍÌÏÍÍÏÎÍÏÎÍÍÌÌ; // 0xD8
+        public System.Action`2<ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ,ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ> ÌÏÎÏÎÎÍÎÍÏÍÎÌÍÍÏÏÍÌÌÌÌÎ; // 0xE0
+        public System.Action`2<ÍÏÎÍÍÌÍÏÍÌÌÍÎÌÍÎÌÎÍÍÍÏÍ,ÏÎÌÎÏÌÏÏÎÏÍÏÌÌÌÏÎÎÎÏÏÎÌ> ÎÏÍÌÏÌÏÏÍÎÌÌÍÌÍÎÏÏÎÏÍÎÏ; // 0xE8
+
         // ── Methods ──
         public void TryCopyTo_B489AAA28853(){} // RVA: 0x283FA0 | overloaded x2
         public void GetEnumerator(){} // RVA: 0xCD60
@@ -128,6 +133,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,T>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ;
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x283FA0
@@ -146,6 +153,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.GroupEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -164,6 +173,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,VRC.DataModel.Challenges.ChallengeEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -182,6 +193,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.InventoryEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -200,6 +213,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.QueueEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -218,6 +233,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.EconomyEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -236,6 +253,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.TextureEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -254,6 +273,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.UpdateEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -272,6 +293,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.InstanceEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -290,6 +313,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÍÍÏÍÎÌÌÏÍÏÌÏÏÌÌÏÏÌÍ</summary>
     public class InvisibleComponent_2055
     {
+        public System.Collections.Generic.List`1<System.Tuple`2<object,Transmtn.ContentEvent>> ÎÍÎÌÏÍÎÎÎÎÏÍÎÎÏÎÌÏÍÌÎÍÏ; // 0x20
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0xCD60
         public void Awake(){} // RVA: 0x2DC60
@@ -401,6 +426,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÍÏÏÎÏÏÌÏÌÍÏÏÎÍÎÏÍÌÏÎ</summary>
     public class InvisibleComponent_49DF
     {
+        public ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ ÌÎÍÎÍÍÏÌÌÌÎÌÍÍÌÎÎÍÍÏÎÏÌ; // 0x20
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x8D6A380
         public void OnDisable(){} // RVA: 0x8D6A3C0
@@ -430,6 +457,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÍÍÍÌÏÎÌÍÏÍÌÏÌÎÍÏÏÎÏÌ</summary>
     public class InvisibleComponent_4BC5
     {
+        public ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ ÌÎÎÍÎÍÍÌÎÏÏÌÍÌÌÍÌÌÏÍÍÏÏ; // 0x20
+        public ÎÎÏÍÌÌÍÌÏÎÏÏÍÌÎÌÎÌÏÎÌÏÌ ÎÏÏÍÎÍÍÌÎÌÎÌÍÍÍÏÌÎÎÍÍÎÌ; // 0x28
+        public UnityEngine.GameObject PurchaseButtonGameObject; // 0x30
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x8E626D0
         public void OnDisable(){} // RVA: 0x8E62990
@@ -641,6 +672,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÍÍÌÏÏÏÎÏÎÎÌÎÎÏÏÍÍÍÎÍ</summary>
     public class InvisibleComponent_8382
     {
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÎÍÌÎÍÌÍÌÎÏÍÍÏÎÏÌÍÌÏÏÌÍÏ; // 0xB8
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÎÎÍÌÍÍÏÍÍÌÎÌÏÍÏÍÎÍÏÌÎÍÌ; // 0xC0
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x135B2D0
         public void OnEnable(){} // RVA: 0x135B4D0
@@ -1082,6 +1116,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÌÍÌÍÌÍÎÎÏÎÍÌÎÎÌÌÎÍÌÌ</summary>
     public class IsInteractiveInteractSibling_178D
     {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _title; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8EB3420
@@ -1112,6 +1148,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÌÏÌÌÍÍÎÏÍÎÍÌÎÌÎÌÎÏÍÎ</summary>
     public class IsInteractiveInteractSibling_2237
     {
+        public System.Collections.Generic.List`1<ÍÌÌÍÍÎÍÌÏÏÌÎÏÍÏÏÎÌÌÌÎÌÌ> <ÍÎÎÍÌÏÌÍÍÍÏÍÍÎÏÌÌÌÌÌÌÍÌ>k__BackingField; // 0x20
+
         // ── Methods ──
         public void StructuralGetHashCode(){} // RVA: 0xC23070
         public void StructuralGetHashCode_106B76DD5CFC(){} // RVA: 0xC23130
@@ -1277,7 +1315,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÎÍÍÌÍÎÍÍÎÏÍÎÎÍÌÍÍÍÍÍ</summary>
     public class IsInteractiveInteractSibling_7169
     {
-        public object Parser;
+        public float Parser; // 0x20
 
         // ── Methods ──
         public void GetComponentGameObject(){} // RVA: 0x1A25BD0
@@ -1341,6 +1379,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÌÎÍÎÌÎÏÌÏÍÎÍÍÏÎÌÌÍÎÌÏ</summary>
     public class IsInteractiveInteractSibling_9E47
     {
+        public ÏÎÏÍÌÏÎÌÌÍÍÌÍÌÌÎÎÎÍÏÍÎÌ ÍÎÌÌÎÌÍÎÎÎÎÏÎÍÍÏÌÍÎÍÍÏÎ; // 0xA8
+
         // ── Methods ──
         public void Update(){} // RVA: 0x136D380
         public void get_IsMultidimensionalArray(){} // RVA: 0x126AF80
@@ -1527,6 +1567,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÎÏÏÎÍÎÌÌÌÏÍÎÌÍÏÍÏÏÌÏ</summary>
     public class IsInteractiveInteractSibling_CCAF
     {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public string <ÏÎÍÍÍÍÌÏÏÎÎÏÏÏÏÏÍÏÍÎÍÏÌ>k__BackingField; // 0x18
+        public string <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x20
+        public 0x6588BD38 <ÌÍÌÏÌÎÏÍÍÍÌÎÌÌÍÏÏÌÎÌÏÍÍ>k__BackingField; // 0x28
+        public 0x65889348 <ÏÎÍÌÎÍÎÌÌÏÌÌÌÎÏÌÏÍÎÍÌÌÍ>k__BackingField; // 0x29
+        public int <ÍÎÍÎÎÏÌÌÎÎÌÌÏÍÌÎÏÎÏÌÌÏÎ>k__BackingField; // 0x2C
+        public System.Collections.Generic.List`1<string> <ÍÌÏÌÍÎÏÍÎÎÎÌÏÍÌÏÏÏÌÏÍÎÏ>k__BackingField; // 0x30
+        public VRC.Core.ApiInventoryJweToken <ÎÎÏÌÍÌÏÎÌÍÏÎÌÌÌÌÌÌÎÌÍÌÏ>k__BackingField; // 0x38
+        public object <ÍÌÏÍÌÍÏÍÎÍÍÍÏÌÍÎÏÍÍÎÍÎÍ>k__BackingField; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x343E80
         public void set_stateSizeInBytes(){} // RVA: 0x1AFCF60
