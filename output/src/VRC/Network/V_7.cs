@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 534
+// Methods: 572
 
 namespace VRC.Network
 {
@@ -701,11 +701,6 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_BBE9
     {
-    }
-
-    /// <summary>Originally: ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_BBE9
-    {
         // ── Methods ──
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void get_Current(){} // RVA: 0xC770
@@ -1184,6 +1179,57 @@ namespace VRC.Network
         public void m_9CA(){} // RVA: 0x19689C0
         public void m_CB6(){} // RVA: 0x19689C0
         public void m_709(){} // RVA: 0x19689C0
+    }
+
+    /// <summary>Originally: ÍÎÌÏÏÍÎÌÏÍÎÍÎÏÏÌÏÍÌÍÏÍÌ</summary>
+    public class VRCTriggerDataStorageNetworkReadyBinding
+    {
+        public System.Collections.Generic.List`1<string> ÍÎÍÏÎÍÍÍÎÏÌÏÌÏÎÏÍÏÍÍÏÍÍ; // 0x20
+        public System.Collections.Generic.HashSet`1<VRC.SDKBase.VRC_Trigger> ÎÎÎÎÍÍÎÌÎÏÎÌÌÌÏÌÌÌÏÎÌÎÌ;
+        public VRC.SDKBase.VRC_Trigger target; // 0x28
+        public VRC.SDKBase.VRC_DataStorage dataStorage; // 0x30
+        public UnityEngine.Collider _collider; // 0x38
+
+        // ── Methods ──
+        public void ConstructWithCapacityAndComparer(){} // RVA: 0x1752E90
+        public void InitializeBucketsAndEntries(){} // RVA: 0x17532C0
+        public void .cctor(){} // RVA: 0x17532F0
+        public void InitializeDictionaryStorage(){} // RVA: 0x17533D0
+        public void Awake(){} // RVA: 0x1753A80
+        public void CopyKeyValuePairsToArray(){} // RVA: 0x1754500
+        public void CopyEntriesToArray(){} // RVA: 0x1755250
+        public void InitializeDictionaryStorage_8D039D091ACB(){} // RVA: 0x1755490
+        public void InitializeWithCapacityAndComparer(){} // RVA: 0x17556F0
+        public void OnEnable(){} // RVA: 0x17558D0
+        public void InitializeBucketsAndEntries_B950B0C0D65B(){} // RVA: 0x1755A60
+        public void ConstructWithCapacityAndComparer_963D754A821F(){} // RVA: 0x1755F20
+        public void OnDisable(){} // RVA: 0x1756140
+        public void InitializeDictionaryStorage_380F54E17420(){} // RVA: 0x17562D0
+        public void InitializeWithCapacityAndComparer_92E29460AC1A(){} // RVA: 0x1756410
+        public void InitializeDictionaryStorage_36E0129984F8(){} // RVA: 0x17565D0
+        public void ConstructWithCapacityAndComparer_ADE8A132C942(){} // RVA: 0x1756CA0
+        public void Start(){} // RVA: 0x1757160
+        public void GetIntegerString(){} // RVA: 0x1758BE0
+        public void OnDestroy(){} // RVA: 0x1758DA0
+        public void SetOrCacheValueUntilReady(){} // RVA: 0x17597C0
+        public void OnSpawn(){} // RVA: 0x1759840
+        public void SetOrCacheValueUntilReady_6D42FC1D338C(){} // RVA: 0x17599B0
+        public void OnNetworkReady_ADD7760B4EFE(){} // RVA: 0x175A700
+        public void InitializeDictionaryStorage_86A4EF77D29A(){} // RVA: 0x175ACE0
+        public void OnNetworkReady(){} // RVA: 0x175AD10
+        public void CheckNetworkReady(){} // RVA: 0x175B020
+        public void InitializeBucketsAndEntries_9560640BB0AD(){} // RVA: 0x175B5F0
+        public void .ctor(){} // RVA: 0x175B640
+        // ── Unresolved (hash) ──
+        public void m_262(){} // RVA: 0x1754040
+        public void m_32A(){} // RVA: 0x1755350
+        public void m_01E(){} // RVA: 0x1756B30
+        public void m_B88(){} // RVA: 0x1756B60
+        public void m_225(){} // RVA: 0x1757130
+        public void m_A1B(){} // RVA: 0x17595E0
+        public void m_20B(){} // RVA: 0x1759820
+        public void m_1FF(){} // RVA: 0x1759870
+        public void m_1C2(){} // RVA: 0x1759820
     }
 
 }

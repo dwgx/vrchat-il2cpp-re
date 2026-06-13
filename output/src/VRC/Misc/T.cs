@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 516
+// Methods: 531
 
 namespace VRC.Misc
 {
@@ -344,6 +344,31 @@ namespace VRC.Misc
         public void m_5FA(){} // RVA: 0x2F8390
         public void m_F35(){} // RVA: 0x2F83A0
         // ... 13 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÏÎÍÏÌÌÏÏÌÎÌÌÌÎÎÍÎÌÏÍÏ</summary>
+    public class ToggleLabelOptionView
+    {
+        public UnityEngine.UI.Toggle toggle; // 0x20
+        public TMPro.TMP_Text label; // 0x28
+
+        // ── Methods ──
+        public void GetEnabled(){} // RVA: 0x8DBB8A0
+        public void GetEnabled_85BBCCB28EA0(){} // RVA: 0x8DBB8C0
+        public void GetEnabled_86804A1E55FA(){} // RVA: 0x8DBB900
+        public void Start(){} // RVA: 0x8DBC160
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x8DBB8C0
+        public void GetEnabled_34DC3D9D7B78(){} // RVA: 0x8DBB8A0
+        public void GetEnabled_6099C3ED0420(){} // RVA: 0x8DBB8C0
+        // ── Unresolved (hash) ──
+        public void m_97B(){} // RVA: 0x8DBB870
+        public void m_F58(){} // RVA: 0x3A5500
+        public void m_9C3(){} // RVA: 0x11CE800
+        public void m_BE4(){} // RVA: 0x3A5500
+        public void m_8E4(){} // RVA: 0x8DBB870
+        public void m_910(){} // RVA: 0x8DBBD30
+        public void m_537(){} // RVA: 0x8DBB870
     }
 
     /// <summary>Originally: ÌÎÍÎÏÌÍÌÏÍÏÏÏÏÎÍÏÎÌÏÏÎÏ</summary>
@@ -1173,12 +1198,6 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x1E40360
         public void get_FullName_699BFC9133E6(){} // RVA: 0x1E40360
         public void get_FullName_0613E5266243(){} // RVA: 0x1E40360
-    }
-
-    /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
-    public class Type8m1f_5AE9
-    {
-        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>

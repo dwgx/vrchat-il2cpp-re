@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
 // Classes: 100
-// Methods: 1498
+// Methods: 1464
 
 namespace VRC.Core.Transform
 {
@@ -246,32 +246,6 @@ namespace VRC.Core.Transform
         public void m_7C3(){} // RVA: 0xBF3230
         public void m_D65(){} // RVA: 0xBF3230
         public void m_B12(){} // RVA: 0xBF3BF0
-    }
-
-    /// <summary>Originally: ÎÏÌÎÌÌÎÎÏÏÎÌÎÍÍÎÎÏÍÍÏÍÏ</summary>
-    public class TransformComponentHandler_7DD8
-    {
-        public VRC.Core.ApiVRChatProductDetails <ÎÎÎÎÌÎÌÏÏÍÎÏÎÌÏÌÏÏÏÏÎÎÌ>k__BackingField; // 0x10
-        public UnityEngine.Purchasing.Product <ÍÏÍÌÏÎÏÎÎÏÏÍÍÏÏÎÌÎÌÍÌÎÎ>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x2DEE30
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void Equals(){} // RVA: 0x343E80
-        public void get_Current(){} // RVA: 0x2F8380
-        public void GetUnscaledDeltaTime(){} // RVA: 0x1E0C590
-        public void Equals_C6FE5C40988C(){} // RVA: 0x343E80
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x1E0C5C0
-        public void Initialize(){} // RVA: 0x1E0C7B0
-        public void Equals_165AFFEA8769(){} // RVA: 0x343E80
-        public void GetUnscaledDeltaTime_32F3133B087D(){} // RVA: 0x1E0C8A0
-        public void Equals_E28629F8A0DA(){} // RVA: 0x343E80
-        public void set_Value(){} // RVA: 0x2DEE30
-        // ── Unresolved (hash) ──
-        public void m_618(){} // RVA: 0x1E0C4A0
-        public void m_F76(){} // RVA: 0x2F8380
-        public void m_F88(){} // RVA: 0x2F8380
     }
 
     /// <summary>Originally: ÍÏÌÏÍÏÎÌÏÏÍÌÎÍÏÏÎÏÎÎÍÎÌ</summary>
@@ -1017,6 +991,20 @@ namespace VRC.Core.Transform
         public void m_721(){} // RVA: 0xB8C2F0
     }
 
+    /// <summary>Originally: ÏÍÏÌÏÍÎÏÎÏÌÎÎÍÌÏÌÌÎÎÍÌÍ</summary>
+    public class TransformHandler_2D3D
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0xBC0C70
+        public void CompareTo(){} // RVA: 0xBC0D20
+        public void CompareTo_F0AD5DEBF2A5(){} // RVA: 0xBC0DD0
+        // ── Unresolved (hash) ──
+        public void m_CEB(){} // RVA: 0xBC0BC0
+        public void m_D37(){} // RVA: 0xBC0E80
+        public void m_BD9(){} // RVA: 0xBC0F30
+    }
+
     /// <summary>Originally: ÎÌÍÏÌÎÍÏÏÍÎÎÍÏÎÎÎÍÏÎÏÏÌ</summary>
     public class TransformHandler_35AF
     {
@@ -1173,6 +1161,20 @@ namespace VRC.Core.Transform
         public void m_41F(){} // RVA: 0x398C10
         public void m_0E2(){} // RVA: 0x4EC5180
         public void m_19F(){} // RVA: 0x5044150
+    }
+
+    /// <summary>Originally: ÏÍÎÏÍÌÍÍÍÍÏÎÏÌÌÎÏÌÏÏÌÍÎ</summary>
+    public class TransformHandler_55AC
+    {
+        // ── Methods ──
+        public void StartNew(){} // RVA: 0x19CFF30
+        public void StartNew_42DFA56AE3D2(){} // RVA: 0x19D0250
+        public void .ctor(){} // RVA: 0x19D03E0
+        public void Initialize(){} // RVA: 0x19D0430
+        // ── Unresolved (hash) ──
+        public void m_919(){} // RVA: 0x19D00C0
+        public void m_7F4(){} // RVA: 0x19D05C0
+        public void m_935(){} // RVA: 0x19D0750
     }
 
     /// <summary>Originally: ÏÌÍÍÍÏÌÌÎÍÏÎÌÏÏÌÍÌÍÍÏÏÍ</summary>
@@ -1929,52 +1931,6 @@ namespace VRC.Core.Transform
         public void m_143(){} // RVA: 0xC475C0
         public void m_7FA(){} // RVA: 0xC48300
         public void m_285(){} // RVA: 0xC48650
-    }
-
-    /// <summary>Originally: ÎÍÍÌÍÏÏÎÍÍÌÏÎÎÎÍÌÎÎÎÏÍÍ</summary>
-    public class TransformRectServiceComponent_24B4
-    {
-        public ÍÎÍÏÎÍÍÌÌÎÏÍÍÌÎÎÌÌÌÎÎÏÏ ÎÍÏÍÎÍÍÎÌÎÎÍÍÏÏÌÌÌÍÍÌÌÏ; // 0x20
-        public UnityEngine.Texture2D ÌÎÏÎÌÏÍÎÌÏÌÎÍÍÏÌÍÏÎÌÍÌÍ; // 0x28
-        public UnityEngine.Texture2D ÏÎÌÍÌÌÌÎÌÌÎÌÎÎÏÎÍÍÎÎÌÍÍ; // 0x30
-        public UnityEngine.AudioClip ÍÏÍÍÌÏÌÏÏÎÏÍÎÍÏÌÎÍÌÍÏÏÏ; // 0x38
-        public UnityEngine.AudioSource ÎÌÌÌÌÌÏÍÎÏÎÍÍÎÎÍÎÌÎÏÏÌÍ; // 0x40
-        public UnityEngine.Renderer ÎÏÎÍÏÍÌÎÏÏÏÏÎÎÌÌÎÏÎÏÌÍÍ; // 0x48
-        public bool ÎÌÌÏÎÌÎÌÌÌÌÎÏÎÎÏÍÌÌÌÎÍÏ; // 0x50
-
-        // ── Methods ──
-        public void Start(){} // RVA: 0x1B857F0
-        public void .cctor(){} // RVA: 0x1B85D50
-        public void Update(){} // RVA: 0x1B85DF0
-        public void LateUpdate(){} // RVA: 0x1B86250
-        public void OnDisable(){} // RVA: 0x1B864E0
-        public void OnApplicationPause(){} // RVA: 0x1B866C0
-        public void OnApplicationQuit(){} // RVA: 0x1B86850
-        public void OnDestroy(){} // RVA: 0x1B868F0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1B86B10
-        public void StopCoroutineFromEnumeratorManaged_FB50BD9D85F1(){} // RVA: 0x1B86B30
-        public void StopCoroutineFromEnumeratorManaged_128BDF713EB0(){} // RVA: 0x1B86C00
-        public void StopCoroutineFromEnumeratorManaged_EC92DE2F2831(){} // RVA: 0x1B86DB0
-        public void OnCollisionEnter(){} // RVA: 0x1B88A50 | overloaded x2
-        public void StopCoroutineFromEnumeratorManaged_8BB56243B778(){} // RVA: 0x1B86F00
-        public void OnTriggerExit(){} // RVA: 0x3480B0
-        public void OnTriggerEnter(){} // RVA: 0x1B86FA0
-        public void OnTriggerStay(){} // RVA: 0x1B871F0
-        public void get_imageUrl(){} // RVA: 0x3A5590
-        public void ProcessTransform(){} // RVA: 0x348120
-        public void IsNullOrDestroyed(){} // RVA: 0x1B876C0
-        public void .ctor(){} // RVA: 0x1B88300
-        public void Initialize(){} // RVA: 0x1B88400
-        public void get_pointerType(){} // RVA: 0xA1C130
-        // ── Unresolved (hash) ──
-        public void m_4A7(){} // RVA: 0x1B86580
-        public void m_07F(){} // RVA: 0x1B87580
-        public void m_D1F(){} // RVA: 0x1B87620
-        public void m_53C(){} // RVA: 0x1B87800
-        public void m_4F1(){} // RVA: 0x1B87A30
-        public void m_C30(){} // RVA: 0x1B87C60
-        public void m_59A(){} // RVA: 0x1B881C0
-        public void m_865(){} // RVA: 0x1B887C0
     }
 
     /// <summary>Originally: ÎÍÌÍÌÌÌÎÌÏÎÏÌÏÌÌÍÎÎÍÍÏÌ</summary>

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 889
+// Methods: 884
 
 namespace VRC.Network
 {
@@ -379,21 +379,6 @@ namespace VRC.Network
         public void m_4D0(){} // RVA: 0x19689C0
         public void m_CB6(){} // RVA: 0x19689C0
         public void m_CCF(){} // RVA: 0x19689C0
-    }
-
-    /// <summary>Originally: ÏÍÏÍÏÌÌÏÏÏÏÌÏÏÌÍÍÍÍÎÍÎÏ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_3A1F
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B96940
-        public void Initialize(){} // RVA: 0x1B96A10
-        // ── 11 unresolved (hash) ──
-        public void m_61B(){} // RVA: 0x1B96810
-        public void m_5F0(){} // RVA: 0x1B96840
-        public void m_646(){} // RVA: 0x1B96860
-        public void m_239(){} // RVA: 0x1B968D0
-        public void m_BD2(){} // RVA: 0x1B96900
-        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÏÎÌÍÎÌÎÍÏÎÍÏÌÌÌÍÌÍÌÏ</summary>
@@ -855,6 +840,23 @@ namespace VRC.Network
         public void m_2F0(){} // RVA: 0x1F5C2F0
     }
 
+    /// <summary>Originally: ÏÏÏÌÎÎÌÌÍÏÌÎÏÌÍÍÌÎÌÎÌÍÍ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_8C6F
+    {
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x2016630
+        public void Cleanup(){} // RVA: 0x20166A0
+        // ── Unresolved (hash) ──
+        public void m_410(){} // RVA: 0x20161C0
+        public void m_C01(){} // RVA: 0x2016350
+        public void m_6EA(){} // RVA: 0x20164E0
+        public void m_6F8(){} // RVA: 0x2016550
+        public void m_F2B(){} // RVA: 0x20165C0
+        public void m_552(){} // RVA: 0x2016830
+        public void m_EEE(){} // RVA: 0x20168A0
+        public void m_937(){} // RVA: 0x2016A30
+    }
+
     /// <summary>Originally: ÏÎÎÎÏÍÎÏÏÎÍÍÍÍÍÏÎÎÎÏÍÌÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_91D1
     {
@@ -1196,22 +1198,6 @@ namespace VRC.Network
         public void m_937(){} // RVA: 0x1EDD860
     }
 
-    /// <summary>Originally: ÏÍÏÍÎÏÍÌÎÏÎÌÌÍÍÌÏÌÌÍÍÌÎ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_BF1D
-    {
-        // ── Methods ──
-        public void Cleanup(){} // RVA: 0x1EEDA70
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Dispose_2F048217F2F1(){} // RVA: 0x2DD310
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x1EEDA70
-        public void m_EEE(){} // RVA: 0x1EEDA70
-        public void m_937(){} // RVA: 0x1EEDA70
-        public void m_CF3(){} // RVA: 0x1EEDA80
-        public void m_C01(){} // RVA: 0x1EEDA70
-        public void m_95D(){} // RVA: 0x1EEDA80
-    }
-
     /// <summary>Originally: ÏÏÎÏÍÌÏÎÎÍÌÌÏÏÌÏÎÍÎÍÌÎÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C06A
     {
@@ -1357,6 +1343,19 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_6EA(){} // RVA: 0x1FFF0E0
         public void m_EEE(){} // RVA: 0x1FFF150
+    }
+
+    /// <summary>Originally: ÏÏÏÌÎÏÌÎÍÍÍÎÏÍÌÍÍÍÍÍÏÌÎ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_D5CC
+    {
+        // ── Unresolved (hash) ──
+        public void m_96F(){} // RVA: 0x207FF20
+        public void m_AEE(){} // RVA: 0x2080150
+        public void m_55E(){} // RVA: 0x2080380
+        public void m_575(){} // RVA: 0x20805B0
+        public void m_943(){} // RVA: 0x20807E0
+        public void m_77C(){} // RVA: 0x2080A10
+        public void m_45A(){} // RVA: 0x2080C40
     }
 
     /// <summary>Originally: ÏÎÎÍÌÍÏÏÍÎÏÌÎÎÏÍÎÌÍÍÏÎÎ</summary>

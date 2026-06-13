@@ -1,10 +1,35 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 49
-// Methods: 411
+// Classes: 52
+// Methods: 446
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ</summary>
+    public class TMPTextHorizontalLayoutPair
+    {
+        public TMPro.TextMeshProUGUI _d16A; // 0x20
+        public TMPro.TextMeshProUGUI ÍÎÌÌÏÏÏÌÌÎÏÏÍÍÍÎÌÏÌÌÎÏÏ; // 0x28
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x18AC5E0
+        public void Initialize(){} // RVA: 0x18AC6B0
+        public void IndexOf(){} // RVA: 0x18ACAA0
+        public void SetLocalPosition(){} // RVA: 0x18ACCA0
+        public void OnDisable(){} // RVA: 0x18ACCD0
+        public void LastIndexOf(){} // RVA: 0x18ACD10
+        public void SetLocalPosition_7A61E13E1031(){} // RVA: 0x18ACFE0
+        public void IndexOf_3FBAAAC528DA(){} // RVA: 0x18AD0B0
+        public void IndexOf_3FBAAAC528DA_E91C80D384C9(){} // RVA: 0x18AD0B0
+        public void LastIndexOf_01EA8C5FC048(){} // RVA: 0x18ACCD0
+        public void IndexOf_F190A6FAB1FC(){} // RVA: 0x18AD2B0
+        public void Start(){} // RVA: 0x18AD4B0
+        // ── Unresolved (hash) ──
+        public void m_330(){} // RVA: 0x9FC930
+        public void m_ECF(){} // RVA: 0x18ACDE0
+        public void m_1B3(){} // RVA: 0x18ACDE0
+    }
+
     /// <summary>Originally: ÎÌÏÍÌÍÏÌÎÏÎÍÎÏÏÍÏÏÎÎÌÎÌ</summary>
     public class TimeHandler_0751
     {
@@ -423,6 +448,38 @@ namespace VRC.Misc
         public void OnCollisionStay(){} // RVA: 0x4B17E0
     }
 
+    /// <summary>Originally: ÎÏÎÌÌÎÌÏÏÏÍÏÎÍÍÏÍÌÍÍÌÏÎ</summary>
+    public class TouchscreenLocalizationStrings
+    {
+        public VRC.Localization.LocalizableString simulatedTouchscreen;
+        public VRC.Localization.LocalizableString instance; // 0x28
+        public VRC.Localization.LocalizableString ÏÏÏÍÎÌÏÍÍÎÎÌÌÌÏÌÍÍÎÌÍÎÌ; // 0x50
+        public VRC.Localization.LocalizableString ÏÏÌÏÎÍÌÏÌÍÏÏÍÏÏÌÌÎÎÏÌÍÏ; // 0x78
+
+        // ── Methods ──
+        public void GetBreakTorque(){} // RVA: 0x9055AD0
+        public void GetConnectedAnchor(){} // RVA: 0x9055BA0
+        public void GetEnableCollision(){} // RVA: 0x9055E30
+        public void GetEnabled(){} // RVA: 0x9055F30
+        public void GetJointSpeed(){} // RVA: 0x9056320
+        public void GetJointTranslation(){} // RVA: 0x9056420
+        public void GetReactionForce(){} // RVA: 0x9056A30
+        public void .cctor(){} // RVA: 0x9057300
+        public void SetEnableCollision(){} // RVA: 0x9058380
+        public void CopyNullTerminatedString(){} // RVA: 0x9058B70
+        public void WriteStreamElements(){} // RVA: 0x9059230
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x90595A0
+        public void ReadStreamElementsSecure(){} // RVA: 0x90599D0
+        public void ReadStreamElementsSecure_F92B51F883EC(){} // RVA: 0x9059AC0
+        // ── Unresolved (hash) ──
+        public void m_E5C(){} // RVA: 0x9057F80
+        public void m_2EA(){} // RVA: 0x9058C40
+        public void m_274(){} // RVA: 0x9059070
+        public void m_07E(){} // RVA: 0x9059E20
+        public void m_0F6(){} // RVA: 0x9059EF0
+    }
+
     /// <summary>Originally: ÏÏÎÍÌÌÍÍÌÎÎÏÌÌÏÌÌÏÎÍÍÏÎ</summary>
     public class Type14m1f_2B2B
     {
@@ -745,6 +802,12 @@ namespace VRC.Misc
         public void TryCopyTo(){} // RVA: 0x283FA0
         // ── Unresolved (hash) ──
         public void m_9F1(){} // RVA: 0xCD60
+    }
+
+    /// <summary>Originally: ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ</summary>
+    public class Type8m1f_5AE9
+    {
+        public bool <ÏÏÌÏÏÎÌÎÌÍÍÍÌÍÍÍÌÏÎÍÎÎÏ>k__BackingField; // 0x10
     }
 
     /// <summary>Originally: ÏÌÎÌÏÌÌÌÌÌÎÏÍÏÌÏÎÍÏÍÎÏÎ</summary>

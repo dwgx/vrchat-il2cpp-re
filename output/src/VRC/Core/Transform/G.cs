@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
-// Classes: 20
-// Methods: 279
+// Classes: 19
+// Methods: 222
 
 namespace VRC.Core.Transform
 {
@@ -201,60 +201,6 @@ namespace VRC.Core.Transform
         public void m_072(){} // RVA: 0x199F620
         public void m_A2B(){} // RVA: 0x19FC8B0
         public void m_FF7(){} // RVA: 0x19FC960
-    }
-
-    /// <summary>Originally: ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ</summary>
-    public class GameObjectSystem_FD84
-    {
-        public RootMotion.FinalIK.AimIK _fD84; // 0x20
-        public VRC.SDKBase.VRC_Pickup ÌÎÌÌÌÌÍÍÍÏÌÏÍÎÏÎÌÏÎÏÏÎÏ; // 0x28
-        public UnityEngine.Rigidbody ÌÏÎÏÍÎÌÌÎÍÌÏÎÌÏÏÎÌÏÏÏÍÍ; // 0x30
-        public System.Collections.Generic.List`1<VRC.SDKBase.VRC_Interactable> ÏÏÍÍÏÏÍÍÍÌÎÎÎÎÍÍÎÍÏÍÍÌÌ; // 0x38
-
-        // ── Methods ──
-        public void OnDrawGizmos(){} // RVA: 0x165C4D0
-        public void ClearCommandReferences(){} // RVA: 0x165CF50
-        public void ClearReferences(){} // RVA: 0x165CFC0
-        public void InitializeGameObjectReferencePair(){} // RVA: 0x165DCD0
-        public void InitializeObjectReference(){} // RVA: 0x165E510
-        public void InitializeObjectReference_6BAE631D526C(){} // RVA: 0x165E770
-        public void InitializeActiveObjectReference(){} // RVA: 0x165E7C0
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void InitializeGameObjectReferencePair_A9EA057960D9(){} // RVA: 0x165EFD0
-        public void InitializeGameObjectReferencePair_3BB0CF661EAE(){} // RVA: 0x165F4D0
-        public void get_Data(){} // RVA: 0x30B130
-        public void LateUpdate(){} // RVA: 0x165F9D0
-        public void GetGameObjectReferenceState(){} // RVA: 0x165FF50
-        public void GetGameObjectReferenceState_6862E1DF0F44(){} // RVA: 0x1660380
-        public void GetGameObjectReferenceState_C229752C8682(){} // RVA: 0x16607A0
-        public void ThrowNotSupportedException(){} // RVA: 0x1660AF0
-        public void ClearObjectReference(){} // RVA: 0x16616A0
-        public void OnDestroy(){} // RVA: 0x1663F70
-        public void InitializeGameObjectReference(){} // RVA: 0x1664080
-        public void InitializeGameObjectReference_0519F2D6D989(){} // RVA: 0x16640C0
-        public void InitializeGameObjectReference_B03AFA73ED71(){} // RVA: 0x1664380
-        public void Awake(){} // RVA: 0x1665770
-        public void Start(){} // RVA: 0x1665840
-        public void InitializeGameObjectReferencePair_0D4B3DF7C1E7(){} // RVA: 0x1668370
-        public void Update(){} // RVA: 0x16687F0
-        public void ClearObjectReference_56D10A4DE4B4(){} // RVA: 0x1668F40
-        public void InitializeIndexedObjectReference(){} // RVA: 0x16693A0
-        public void .ctor(){} // RVA: 0x16693C0
-        public void Initialize(){} // RVA: 0x16696F0
-        public void ClearObjectReference_BDA903E67AF2(){} // RVA: 0x1669A20
-        public void SetCachedTransformData(){} // RVA: 0x1669A80
-        public void ClearObjectReference_9D16D37871AD(){} // RVA: 0x1669B70
-        public void InitializeGameObjectReference_8E33AD098942(){} // RVA: 0x1664080
-        public void GetGameObjectReferencePair(){} // RVA: 0x1669F70
-        public void GetGameObjectReferencePair_90B6AE09307A(){} // RVA: 0x166A880
-        public void FixedUpdate(){} // RVA: 0x166AA90
-        // ── 21 unresolved (hash) ──
-        public void m_FC8(){} // RVA: 0x165C380
-        public void m_E10(){} // RVA: 0x165C860
-        public void m_A25(){} // RVA: 0x165CC80
-        public void m_31A(){} // RVA: 0x165D340
-        public void m_6E3(){} // RVA: 0x165D450
-        // ... 16 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÏÌÍÍÎÎÌÏÌÎÍÌÏÍÎÎÏÎÎÏÎ</summary>

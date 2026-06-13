@@ -1,10 +1,56 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
 // Classes: 16
-// Methods: 304
+// Methods: 272
 
 namespace VRC.Rendering
 {
+    /// <summary>Originally: ÎÍÍÌÍÏÏÎÍÍÌÏÎÎÎÍÌÎÎÎÏÍÍ</summary>
+    public class TextureAudioRendererPreview
+    {
+        public ÍÎÍÏÎÍÍÌÌÎÏÍÍÌÎÎÌÌÌÎÎÏÏ ÎÍÏÍÎÍÍÎÌÎÎÍÍÏÏÌÌÌÍÍÌÌÏ; // 0x20
+        public UnityEngine.Texture2D ÌÎÏÎÌÏÍÎÌÏÌÎÍÍÏÌÍÏÎÌÍÌÍ; // 0x28
+        public UnityEngine.Texture2D ÏÎÌÍÌÌÌÎÌÌÎÌÎÎÏÎÍÍÎÎÌÍÍ; // 0x30
+        public UnityEngine.AudioClip ÍÏÍÍÌÏÌÏÏÎÏÍÎÍÏÌÎÍÌÍÏÏÏ; // 0x38
+        public UnityEngine.AudioSource ÎÌÌÌÌÌÏÍÎÏÎÍÍÎÎÍÎÌÎÏÏÌÍ; // 0x40
+        public UnityEngine.Renderer ÎÏÎÍÏÍÌÎÏÏÏÏÎÎÌÌÎÏÎÏÌÍÍ; // 0x48
+        public bool ÎÌÌÏÎÌÎÌÌÌÌÎÏÎÎÏÍÌÌÌÎÍÏ; // 0x50
+
+        // ── Methods ──
+        public void Start(){} // RVA: 0x1B857F0
+        public void .cctor(){} // RVA: 0x1B85D50
+        public void Update(){} // RVA: 0x1B85DF0
+        public void LateUpdate(){} // RVA: 0x1B86250
+        public void OnDisable(){} // RVA: 0x1B864E0
+        public void OnApplicationPause(){} // RVA: 0x1B866C0
+        public void OnApplicationQuit(){} // RVA: 0x1B86850
+        public void OnDestroy(){} // RVA: 0x1B868F0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1B86B10
+        public void StopCoroutineFromEnumeratorManaged_FB50BD9D85F1(){} // RVA: 0x1B86B30
+        public void StopCoroutineFromEnumeratorManaged_128BDF713EB0(){} // RVA: 0x1B86C00
+        public void StopCoroutineFromEnumeratorManaged_EC92DE2F2831(){} // RVA: 0x1B86DB0
+        public void OnCollisionEnter(){} // RVA: 0x1B88A50 | overloaded x2
+        public void StopCoroutineFromEnumeratorManaged_8BB56243B778(){} // RVA: 0x1B86F00
+        public void OnTriggerExit(){} // RVA: 0x3480B0
+        public void OnTriggerEnter(){} // RVA: 0x1B86FA0
+        public void OnTriggerStay(){} // RVA: 0x1B871F0
+        public void get_imageUrl(){} // RVA: 0x3A5590
+        public void ProcessTransform(){} // RVA: 0x348120
+        public void IsNullOrDestroyed(){} // RVA: 0x1B876C0
+        public void .ctor(){} // RVA: 0x1B88300
+        public void Initialize(){} // RVA: 0x1B88400
+        public void get_pointerType(){} // RVA: 0xA1C130
+        // ── Unresolved (hash) ──
+        public void m_4A7(){} // RVA: 0x1B86580
+        public void m_07F(){} // RVA: 0x1B87580
+        public void m_D1F(){} // RVA: 0x1B87620
+        public void m_53C(){} // RVA: 0x1B87800
+        public void m_4F1(){} // RVA: 0x1B87A30
+        public void m_C30(){} // RVA: 0x1B87C60
+        public void m_59A(){} // RVA: 0x1B881C0
+        public void m_865(){} // RVA: 0x1B887C0
+    }
+
     /// <summary>Originally: ÍÍÌÏÍÏÍÎÎÌÏÏÍÏÎÏÌÌÍÍÏÏÍ</summary>
     public class TransformCameraHandler_A098
     {
@@ -173,66 +219,6 @@ namespace VRC.Rendering
         public void System.Collections.ICollection.get_IsSynchronized_DF99C139F5EF(){} // RVA: 0x2DD320
         public void Start(){} // RVA: 0x2DD310
         public void Dispose(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÌÏÌÎÎÌÌÎÍÎÏÎÍÎÍÌÌÍÎÏÍÏÌ</summary>
-    public class TransformMaterialSystem_7035
-    {
-        public ÎÏÍÎÏÎÎÎÎÏÎÏÌÎÍÎÍÍÌÌÍÏÌ[] ÎÍÎÏÏÏÍÏÌÍÌÍÎÍÌÌÏÌÌÏÏÎÌ; // 0x20
-        public UnityEngine.Animations.AnimationScriptPlayable <ÍÎÌÌÎÎÌÍÏÌÎÏÏÍÌÏÍÍÍÎÏÍÎ>k__BackingField; // 0x28
-        public UnityEngine.Animations.AnimationScriptPlayable ÎÏÌÍÌÍÏÏÌÌÌÎÍÍÎÌÎÎÌÍÌÎÏ; // 0x38
-        public UnityEngine.Playables.PlayableGraph ÏÌÌÎÍÏÏÍÍÏÍÍÎÍÍÌÍÍÎÌÏÏÍ; // 0x48
-        public UnityEngine.Animations.AnimationLayerMixerPlayable ÍÌÌÌÍÏÎÏÌÏÎÍÍÌÍÌÍÌÌÍÍÍÌ; // 0x58
-
-        // ── Methods ──
-        public void ValidateRigidbodyMassRatio(){} // RVA: 0x1118F40
-        public void ValidateRigidbodyMassRatio_3850BEA75765(){} // RVA: 0x1119030
-        public void set_totalCount(){} // RVA: 0x475080
-        public void Constructor(){} // RVA: 0x1119580
-        public void InitializeDefaults(){} // RVA: 0x11197C0
-        public void OnDestroy(){} // RVA: 0x111A6A0
-        public void GetMaterial(){} // RVA: 0x10E5CF0
-        public void RestoreRigidbodySettingsOverTime(){} // RVA: 0x111A6B0
-        public void InitializeHumanoidMappings(){} // RVA: 0x111AA50
-        public void CheckAnimatorIsHuman(){} // RVA: 0x111ADD0
-        public void RestoreTransformStateFromSnapshot(){} // RVA: 0x111B760
-        public void RestoreTransformStateFromSnapshot_69F987E94DF4(){} // RVA: 0x111B8E0
-        public void RestoreTransformStateFromSnapshot_5FE58BFD7580(){} // RVA: 0x111B980
-        public void get_boundary_42B98C(){} // RVA: 0x59F730
-        public void Update(){} // RVA: 0x111BCA0
-        public void ApplyTransformPoseAtIndex(){} // RVA: 0x111C380
-        public void ApplyTransformPoseAtIndex_56A7FDBCC162(){} // RVA: 0x111C390
-        public void ApplyTransformPoseAtIndex_300BA4B1B5CB(){} // RVA: 0x111C4A0
-        public void CacheColliderSharedMaterials(){} // RVA: 0x111C900
-        public void ValidateTargetTransform(){} // RVA: 0x111D000
-        public void get_boundary_42B98C_25143CF7CD10(){} // RVA: 0x59F730
-        public void ResetLocalTransform(){} // RVA: 0x111D290
-        public void Awake(){} // RVA: 0x111D330
-        public void CacheRigidbodySettings(){} // RVA: 0x111D3C0
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void ApplyMaterialProperties(){} // RVA: 0x111D760
-        public void EnsureRigidbodyConfigured(){} // RVA: 0x111D800
-        public void RestoreRigidbodySettings(){} // RVA: 0x111D920
-        public void UpdateTargetTransformInEditMode(){} // RVA: 0x111DA60
-        public void UpdateTargetTransformInEditMode_988B871A1F65(){} // RVA: 0x111DB00
-        public void SyncTargetTransformInEditor(){} // RVA: 0x111DD80
-        public void SyncTargetTransformInEditor_42AF84655336(){} // RVA: 0x111DE50
-        public void UpdateTargetTransformInEditMode_985A6C9C3BC8(){} // RVA: 0x111DE60
-        public void InitializeMaterialPropertyDefaults(){} // RVA: 0x111E7B0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x111F520
-        public void get_DiscardUnknownFields(){} // RVA: 0x1120170
-        public void UpdateTransformPose_248C8C18EFAD(){} // RVA: 0x1121E00 | overloaded x2
-        public void OnDidApplyAnimationProperties_4282F5B8A4DF(){} // RVA: 0x111F520
-        public void UpdateTransformPose_852E3599EAE7(){} // RVA: 0x1121EA0
-        public void .ctor(){} // RVA: 0x11237B0
-        public void Initialize(){} // RVA: 0x1123930
-        // ── 22 unresolved (hash) ──
-        public void m_C39(){} // RVA: 0x111B9D0
-        public void m_B4F(){} // RVA: 0x111C440
-        public void m_EFD(){} // RVA: 0x111C5D0
-        public void m_D59(){} // RVA: 0x111C6B0
-        public void m_716(){} // RVA: 0x111E9D0
-        // ... 17 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ</summary>

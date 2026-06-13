@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 1287
+// Methods: 1255
 
 namespace VRC.Network
 {
@@ -1952,6 +1952,29 @@ namespace VRC.Network
         public void m_C81(){} // RVA: 0xCD60
     }
 
+    /// <summary>Originally: ÌÎÎÎÍÎÏÍÍÌÎÎÏÌÌÍÍÎÌÏÎÌÌ</summary>
+    public class NetworkSyncableSiblingSibling_AE3B
+    {
+        public ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ screen; // 0x38
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x4EE62E0
+        public void OnCanceled(){} // RVA: 0x4EE6320
+        public void MemSet(){} // RVA: 0x4EE6360
+        public void Clear(){} // RVA: 0x4EE64A0
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x3794430
+        public void Add(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x4EE6830
+        public void Initialize(){} // RVA: 0x303450
+        // ── Unresolved (hash) ──
+        public void m_FB9(){} // RVA: 0x4EE6510
+        public void m_5E9(){} // RVA: 0x4EE6590
+        public void m_6EF(){} // RVA: 0x4EE6630
+        public void m_94E(){} // RVA: 0x4EE6650
+        public void m_F5B(){} // RVA: 0x24A50
+        public void m_C81(){} // RVA: 0xCD60
+    }
+
     /// <summary>Originally: ÌÌÌÎÏÍÍÏÎÌÎÏÍÏÌÏÍÏÌÍÍÍÌ</summary>
     public class NetworkSyncableSibling_3642
     {
@@ -2014,47 +2037,6 @@ namespace VRC.Network
         public void m_FB9(){} // RVA: 0xCD60
         public void m_BF4(){} // RVA: 0xCD60
         public void m_E9A(){} // RVA: 0x196AE00
-    }
-
-    /// <summary>Originally: ÌÌÎÍÎÌÎÌÍÍÎÎÏÏÏÎÎÎÍÎÌÎÏ</summary>
-    public class NetworkSyncable_9834
-    {
-        public bool ÌÍÏÍÌÌÌÏÏÍÏÌÎÎÎÎÏÍÍÌÏÌÌ; // 0x58
-        public VRC.Udon.UdonBehaviour ÍÌÏÍÍÏÍÌÍÎÏÏÍÍÏÎÏÎÎÍÌÌÏ; // 0x60
-        public ÏÎÏÍÎÏÏÍÍÎÏÌÏÌÎÎÌÎÏÍÎÎÎ[] ÏÌÏÍÏÎÏÎÎÌÌÌÌÍÌÏÍÎÏÏÍÎÌ; // 0x68
-        public VRC.Core.Networking.LimitedCapacityList`1<ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ> ÌÌÍÎÌÌÏÍÍÌÍÎÍÏÌÍÌÌÏÍÌÏÌ; // 0x70
-        public ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ ÎÌÍÌÍÌÌÏÎÏÌÏÏÌÎÎÎÍÏÏÎÎÌ; // 0x78
-        public bool ÌÌÌÌÎÎÎÍÏÏÍÎÌÌÏÏÍÏÏÍÏÌÏ; // 0x80
-
-        // ── Methods ──
-        public void OnDestroy_895EBA02F486(){} // RVA: 0x647C90
-        public void GetMaxDampTime(){} // RVA: 0x3CB9E0
-        public void GenerateComponentInfo(){} // RVA: 0x648020
-        public void Start(){} // RVA: 0x648530
-        public void Decode(){} // RVA: 0x649690 | overloaded x2
-        public void .ctor(){} // RVA: 0x6487F0
-        public void Initialize(){} // RVA: 0x6489A0
-        public void Awake(){} // RVA: 0x648D90
-        public void set_UniqueHash(){} // RVA: 0x648E10
-        public void RetryConnection(){} // RVA: 0x59F950
-        public void get_UniqueHash(){} // RVA: 0x649840
-        public void NeedsSync(){} // RVA: 0x649850
-        public void NeedsImportant(){} // RVA: 0x2DD320
-        public void SerializedName(){} // RVA: 0x64AD60
-        public void Encode(){} // RVA: 0x64BC60 | overloaded x2
-        public void set_TypeId(){} // RVA: 0x64BA20
-        public void OnDestroy(){} // RVA: 0x647C90
-        public void get_TypeId(){} // RVA: 0x64BD10
-        public void CanSerialize8Bit(){} // RVA: 0x64C170
-        public void CanSerialize32Bit(){} // RVA: 0x3C2850
-        public void CanUsePersistenceHashes(){} // RVA: 0x64CB80
-        // ── 23 unresolved (hash) ──
-        public void m_42C(){} // RVA: 0x647AF0
-        public void m_367(){} // RVA: 0x647CE0
-        public void m_2FA(){} // RVA: 0x647DD0
-        public void m_851(){} // RVA: 0x647E00
-        public void m_ADD(){} // RVA: 0x648BE0
-        // ... 18 more unresolved methods
     }
 
 }

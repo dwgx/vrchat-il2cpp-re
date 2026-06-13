@@ -1625,6 +1625,40 @@ Stages:
         except Exception as e:
             print(f'    WARN: field-type merge skipped: {e}')
 
+    # ── Stage 2c: Field-type-driven class names (if available) ─────────
+    # output/fieldtype_class_names.json maps {original_obf_name: SemanticName},
+    # derived from runtime-recovered field types (evidence-backed, audited).
+    # Apply to fallback/weak-named classes only — never override a good name.
+    fcn_path = OUTPUT_DIR / 'fieldtype_class_names.json'
+    if 3 in stages and fcn_path.exists():
+        print('\n  [2c] Applying field-type class names ...')
+        try:
+            with open(fcn_path, 'r', encoding='utf-8') as f:
+                fcn = json.load(f)
+            with open(DEOBF_JSON_PATH, 'r', encoding='utf-8') as f:
+                _dump = json.load(f)
+            # A name is "structural fallback" (safe to override with evidence-backed
+            # field-type names) if it's weak-prefixed OR a structural placeholder
+            # (Sibling/Related/Impl/Derived/Static<N>m) or ends in a _HEX4 hash.
+            import re as _re
+            _struct_re = _re.compile(
+                r'(Sibling|Related|Impl|Derived|^Static\d+m|^Major\d+m|_[0-9A-F]{4}($|_))')
+            def _is_structural(_n):
+                return _is_weak_name(_n) or bool(_struct_re.search(_n))
+            applied = 0
+            for _ns, _classes in _dump['namespaces'].items():
+                for _c in _classes:
+                    _orig = _c.get('original_name')
+                    if _orig and _orig in fcn and _is_structural(_c.get('name', '')):
+                        _c['name'] = fcn[_orig]['name']
+                        applied += 1
+            if applied:
+                with open(DEOBF_JSON_PATH, 'w', encoding='utf-8') as f:
+                    json.dump(_dump, f, indent=2, ensure_ascii=False)
+            print(f'    Applied {applied} field-type class names')
+        except Exception as e:
+            print(f'    WARN: field-type class names skipped: {e}')
+
     # ── Stage 3 ───────────────────────────────────────────────────────
     if 3 in stages:
         if check_stage_cache(3, cache, force=args.force):

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
-// Classes: 100
-// Methods: 1238
+// Classes: 98
+// Methods: 1308
 
 namespace VRC.Network
 {
@@ -39,6 +39,66 @@ namespace VRC.Network
         public void m_E36(){} // RVA: 0x10D1EE0
         public void m_EA5(){} // RVA: 0x10D2030
         public void m_ADD(){} // RVA: 0x10D2150
+    }
+
+    /// <summary>Originally: ÏÏÏÎÌÏÍÍÏÌÌÏÍÏÏÎÌÍÌÌÌÎÍ</summary>
+    public class NetworkDeserializeImplementationSerializeImplem_C9A8_04B3
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x518F30
+        public void DeserializeImplementation(){} // RVA: 0x519060
+        public void GetUninitializedObject(){} // RVA: 0x519240
+        public void .ctor(){} // RVA: 0x519250
+        public void SerializeImplementation(){} // RVA: 0x5192B0
+    }
+
+    /// <summary>Originally: ÏÏÏÎÌÏÏÎÎÏÌÎÎÌÌÌÎÏÏÎÎÎÎ</summary>
+    public class NetworkItemSibling_FEF9SiblingSibling_42E9
+    {
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x1AD4690
+        public void MoveNext(){} // RVA: 0x100A2F0
+        // ── Unresolved (hash) ──
+        public void m_D4B(){} // RVA: 0x100A2F0
+        public void m_981(){} // RVA: 0x1AD4690
+        public void m_746(){} // RVA: 0x1AD4690
+        public void m_F89(){} // RVA: 0x1AD4690
+        public void m_4DC(){} // RVA: 0x1AD4690
+        public void m_101(){} // RVA: 0x1AD4690
+        public void m_8D9(){} // RVA: 0x1AD4690
+    }
+
+    /// <summary>Originally: ÏÏÎÏÏÎÍÏÎÍÌÎÏÍÏÎÍÌÍÍÍÎÎ</summary>
+    public class NetworkItemSibling_FEF9SiblingSibling_AD31
+    {
+        public ÌÌÌÏÏÍÏÍÏÎÏÌÎÍÏÍÏÌÌÍÍÏÏ <ÎÌÏÏÎÏÍÌÎÍÍÍÏÌÏÏÎÏÍÏÍÍÍ>k__BackingField; // 0x10
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÌÎÏÌÍÌÏÍÏÌÌÏÏÍÌÌÌÏÎÍÌÌ>k__BackingField; // 0x18
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÍÌÌÏÎÏÌÎÌÎÎÌÌÎÍÍÍÎÍÌÏÎ>k__BackingField; // 0x20
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÏÎÍÍÎÎÍÌÍÍÌÍÌÍÌÌÍÍÍÎÌÏ>k__BackingField; // 0x28
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÎÎÎÏÌÌÎÌÏÎÏÎÌÎÍÎÎÌÍÏÍÎÍ>k__BackingField; // 0x30
+        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÏÍÌÌÌÏÎÏÌÏÎÍÌÎÏÍÎÎÏÏÏÎÍ>k__BackingField; // 0x38
+
+        // ── Methods ──
+        public void get_Data(){} // RVA: 0x30B130
+        public void set_ByteBuffer(){} // RVA: 0x19689C0
+        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
+        public void Cleanup(){} // RVA: 0x30B0C0
+        public void get_Current(){} // RVA: 0x2F8380
+        public void get_Key(){} // RVA: 0x1AD4690
+        public void MoveNext(){} // RVA: 0x1968950
+        public void Equals(){} // RVA: 0x343E80
+        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
+        public void Equals_9BA2A0835A71(){} // RVA: 0x343E80
+        public void get_Data_C68670AB1F0F(){} // RVA: 0x30B130
+        public void get_ByteBuffer(){} // RVA: 0x19689C0
+        // ── Unresolved (hash) ──
+        public void m_9A4(){} // RVA: 0x2DEE30
+        public void m_57F(){} // RVA: 0x1968950
+        public void m_8D9(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ</summary>
@@ -232,62 +292,6 @@ namespace VRC.Network
         public void m_1BC(){} // RVA: 0x1D73340
         public void m_C53(){} // RVA: 0x1D73030
         public void m_07F(){} // RVA: 0x1D73530
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x48
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0xA0
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x30
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x40
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x158
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x38
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public Content ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<Content> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x50
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
@@ -1923,6 +1927,31 @@ namespace VRC.Network
         public void m_9D7(){} // RVA: 0x50FCD40
     }
 
+    /// <summary>Originally: ÏÏÏÎÏÎÏÍÍÍÏÌÌÎÌÎÍÍÏÎÏÍÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_78EF
+    {
+        public System.Collections.Concurrent.ConcurrentQueue`1<ÎÍÎÍÍÏÍÏÍÍÌÌÌÏÍÎÍÏÌÏÍÎÍ> ÎÏÏÍÌÎÍÌÏÏÏÍÍÌÏÍÏÍÎÎÌÎÍ;
+        public System.Action ÍÍÍÍÍÎÌÏÎÍÌÍÏÍÌÎÏÌÌÍÏÎÍ; // 0x10
+        public int ÎÏÍÌÌÎÍÌÍÏÏÍÌÌÎÌÌÎÎÍÌÍÏ; // 0x18
+
+        // ── Methods ──
+        public void get_HasInfo(){} // RVA: 0xF01170
+        public void GetCachedPtr(){} // RVA: 0xF53CE0
+        public void get_IsReadOnly(){} // RVA: 0xDBE0
+        public void GetEnumerator(){} // RVA: 0xCD60
+        public void Add(){} // RVA: 0x24B10
+        public void Clear(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x75B5ED0
+        // ── Unresolved (hash) ──
+        public void m_86C(){} // RVA: 0x75B5850
+        public void m_BC1(){} // RVA: 0x75B5960
+        public void m_7FD(){} // RVA: 0x75B5A50
+        public void m_E9D(){} // RVA: 0x75B5B40
+        public void m_2D4(){} // RVA: 0x75B5C30
+        public void m_8B3(){} // RVA: 0x75B5E20
+    }
+
     /// <summary>Originally: ÏÍÏÏÎÎÌÍÏÌÏÎÎÎÎÌÎÏÏÍÎÍÌ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_9F25
     {
@@ -2016,6 +2045,23 @@ namespace VRC.Network
         public void m_FA9(){} // RVA: 0x93F0F60
     }
 
+    /// <summary>Originally: ÏÏÎÍÎÎÍÎÌÌÍÍÎÍÍÏÏÎÍÌÏÎÌ</summary>
+    public class NetworkSyncableRelated_B4DBSibling_17F5
+    {
+        // ── Methods ──
+        public void GetEnabled(){} // RVA: 0x1B51130
+        public void GetEnabled_E2FA525D13AA(){} // RVA: 0x1B51130
+        public void .ctor(){} // RVA: 0x1B51230
+        public void Initialize(){} // RVA: 0x1B51040
+        public void Equals(){} // RVA: 0x1B512F0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x1B51390
+        public void GetEnabled_D947B9EB63D5(){} // RVA: 0x1B51130
+        // ── Unresolved (hash) ──
+        public void m_81A(){} // RVA: 0x1B51040
+        public void m_015(){} // RVA: 0x1B51040
+        public void m_CA8(){} // RVA: 0x1B51040
+    }
+
     /// <summary>Originally: ÏÍÏÏÍÏÌÎÏÌÍÎÎÎÏÏÌÎÏÏÌÏÌ</summary>
     public class NetworkSyncableSiblingSibRelated_0204
     {
@@ -2069,6 +2115,30 @@ namespace VRC.Network
         public void m_E83(){} // RVA: 0x199D320
         public void m_C81(){} // RVA: 0x19FA7F0
         public void m_F5B(){} // RVA: 0x19FA8D0
+    }
+
+    /// <summary>Originally: ÏÏÎÍÍÎÏÌÏÌÍÎÍÌÍÎÌÌÍÌÌÏÌ</summary>
+    public class NetworkSyncableSiblingSiblingSibling_7E32
+    {
+        public string ÎÌÏÎÌÌÏÍÏÍÎÎÌÏÏÎÎÍÍÎÏÍÎ;
+        public UnityEngine.GameObject _bootstrapPrefab; // 0x20
+
+        // ── Methods ──
+        public void ProcessPlayableOutputHandle(){} // RVA: 0x197D840
+        public void get_Data(){} // RVA: 0x30B130
+        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
+        public void Start(){} // RVA: 0x1981180
+        public void ColorBlack(){} // RVA: 0x6205A0
+        public void ColorRed(){} // RVA: 0x17B5330
+        public void ColorBlack_FB952E181EDD(){} // RVA: 0x6205A0
+        public void ColorRed_5E9B179AFAD8(){} // RVA: 0x17B5330
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x2DDE0
+        public void GetName(){} // RVA: 0x1981220
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void .cctor(){} // RVA: 0x19817F0
+        public void SetColorImplMaterial(){} // RVA: 0x19818A0
+        // ── Unresolved (hash) ──
+        public void m_29B(){} // RVA: 0x1981580
     }
 
     /// <summary>Originally: ÏÍÍÍÌÎÍÍÎÎÏÌÌÍÍÍÌÏÍÎÍÎÌ</summary>

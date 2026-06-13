@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 1307
+// Methods: 1274
 
 namespace VRC.Network
 {
@@ -633,46 +633,6 @@ namespace VRC.Network
         public void m_EEE(){} // RVA: 0x1EDD870
         public void m_6EA(){} // RVA: 0x2DD310
         public void m_C01(){} // RVA: 0x1EDD870
-    }
-
-    /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_97E7
-    {
-        public ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> ÏÌÍÌÎÍÏÎÌÎÎÍÌÍÌÍÌÏÏÏÌÌÏ; // 0x30
-        public ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> ÍÏÎÎÍÏÎÏÏÌÌÍÏÎÎÍÎÍÏÎÎÌÎ; // 0x38
-        public bool ÎÍÌÌÍÌÏÏÍÌÏÌÏÏÏÍÌÌÏÎÏÎÍ; // 0x40
-        public float ÌÍÎÍÎÌÌÏÎÌÍÍÍÌÍÏÌÍÍÎÌÏÌ;
-
-        // ── Methods ──
-        public void MemSet(){} // RVA: 0x4FE6460
-        public void GetPropertyCandidates(){} // RVA: 0x4FE65E0
-        public void GetPropertyCandidates_59C87DEF5A90(){} // RVA: 0x4FE6630
-        public void .ctor(){} // RVA: 0x4FE7C20 | overloaded x5
-        public void Initialize(){} // RVA: 0x4FE6800
-        public void GetConstructorCandidates(){} // RVA: 0x4FE6860
-        public void MakeArrayType_77C4BDDE9616(){} // RVA: 0x4FE70C0 | overloaded x2
-        public void TryCopyTo(){} // RVA: 0x4FE6BF0
-        public void GetMethodCandidates(){} // RVA: 0x4FE6E70
-        public void MakeArrayType_F35C2062EF66(){} // RVA: 0x4FE56E0
-        public void AddFromToForce(){} // RVA: 0x358740
-        public void GetFieldCandidates(){} // RVA: 0x4FE6460
-        public void FormatGenericTypeConstructionFailure(){} // RVA: 0x4FE7410
-        public void GetPropertyCandidates_4668DDDBB5AC(){} // RVA: 0x4FE4B90
-        public void MakeGenericType(){} // RVA: 0x4FE75A0
-        public void GetInterfaces(){} // RVA: 0x4FE7920
-        public void Dispose(){} // RVA: 0x4FE7A60
-        public void Cleanup(){} // RVA: 0x59FF30
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void GetTypeCodeImpl(){} // RVA: 0x4FE7A90
-        public void SerializationCtorParamTypes(){} // RVA: 0x4FE7530
-        // ── Unresolved (hash) ──
-        public void m_103(){} // RVA: 0x4FE64C0
-        public void m_D80(){} // RVA: 0x4FE4B90
-        public void m_107(){} // RVA: 0x59FF30
-        public void m_B3F(){} // RVA: 0x358730
-        public void m_349(){} // RVA: 0x4354D0
-        public void m_B51(){} // RVA: 0x37E0E0
-        public void m_4E0(){} // RVA: 0x4FE7530
     }
 
     /// <summary>Originally: ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ</summary>
@@ -1775,6 +1735,11 @@ namespace VRC.Network
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void get_Current(){} // RVA: 0xC770
         public void Read(){}
+    }
+
+    /// <summary>Originally: ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_BBE9
+    {
     }
 
     /// <summary>Originally: ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ</summary>

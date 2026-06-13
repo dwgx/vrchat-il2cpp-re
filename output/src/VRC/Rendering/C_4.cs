@@ -185,16 +185,6 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
-    /// <summary>Originally: ÎÏÍÍÌÎÌÌÌÎÌÍÍÎÍÌÎÏÎÍÎÏÌ</summary>
-    public class CameraBeginInvokeEndInvoke_3124
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x1FAC840
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
-    }
-
     /// <summary>Originally: ÎÌÏÌÍÏÏÎÍÍÍÍÌÌÌÏÌÏÏÏÏÍÌ</summary>
     public class CameraBeginInvokeEndInvoke_34C3
     {
@@ -343,16 +333,6 @@ namespace VRC.Rendering
         public void Invoke(){} // RVA: 0x439370
         public void BeginInvoke(){} // RVA: 0x1AFE3C0
         public void EndInvoke(){} // RVA: 0x2DECB0
-    }
-
-    /// <summary>Originally: ÎÏÌÏÌÎÏÌÏÏÍÍÌÍÎÎÎÌÏÌÏÏÎ</summary>
-    public class CameraBeginInvokeEndInvoke_650D
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x1FE6380
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÎÍÎÌÏÌÎÍÌÎÏÌÌÎÏÎÎÎÎÏÏÎÌ</summary>
@@ -552,6 +532,16 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x1EDD880
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x20775B0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
+    /// <summary>Originally: ÍÏÏÏÍÌÏÍÎÌÌÌÏÎÌÎÍÍÏÎÏÍÏ</summary>
+    public class CameraBeginInvokeEndInvoke_9620
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE7050
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
@@ -835,6 +825,16 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
+    /// <summary>Originally: ÍÏÏÍÎÍÏÍÏÎÍÌÏÏÎÎÌÏÎÎÌÌÎ</summary>
+    public class CameraBeginInvokeEndInvoke_DFEC
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20A3B50
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
     /// <summary>Originally: ÎÌÌÎÌÍÏÏÎÎÍÌÏÌÍÎÎÍÎÍÎÎÌ</summary>
     public class CameraBeginInvokeEndInvoke_E227
     {
@@ -915,16 +915,6 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
-    /// <summary>Originally: ÎÏÍÎÎÍÎÌÎÏÍÍÎÏÏÎÏÏÏÍÏÏÎ</summary>
-    public class CameraBeginInvokeEndInvoke_FC2D
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xC094B0
-        public void Invoke(){} // RVA: 0xC09580
-        public void BeginInvoke(){} // RVA: 0xC095A0
-        public void EndInvoke(){} // RVA: 0x2DECB0
-    }
-
     /// <summary>Originally: ÎÍÎÌÏÍÍÎÎÏÍÎÎÍÌÎÌÌÍÏÎÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_FDB4
     {
@@ -932,6 +922,16 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x1EDD880
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x2073750
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
+    /// <summary>Originally: ÍÏÏÍÎÎÏÍÌÏÏÎÏÏÏÏÏÍÍÏÌÌÏ</summary>
+    public class CameraBeginInvokeEndInvoke_FDF3
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F8F3F0
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 12
-// Methods: 248
+// Classes: 11
+// Methods: 230
 
 namespace VRC.UI
 {
@@ -210,35 +210,6 @@ namespace VRC.UI
         public void Process(){} // RVA: 0x11A0B00
         public void OnReceive(){} // RVA: 0x11A0B70
         public void OnEvent(){} // RVA: 0x11A0C20
-    }
-
-    /// <summary>Originally: ÍÏÌÏÎÌÍÏÍÌÏÍÍÌÎÎÌÎÌÎÏÎÎ</summary>
-    public class TransformUITransformHandler_A1CF
-    {
-        public UnityEngine.GameObject cursor; // 0x20
-        public UnityEngine.GameObject arrow; // 0x28
-        public UnityEngine.GameObject invalid; // 0x30
-        public UnityEngine.GameObject outline; // 0x38
-        public UnityEngine.LineRenderer lineRenderer; // 0x40
-
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0xC770
-        public void get_minHeight(){} // RVA: 0xAFF380
-        public void get_ErrorCount(){} // RVA: 0x9EAB90
-        public void RandomRangeInt(){} // RVA: 0x11A0EB0
-        public void Start(){} // RVA: 0x11A0FB0
-        public void Update(){} // RVA: 0x11A1720
-        public void get_CleanedUp(){} // RVA: 0x11A2580
-        public void .ctor(){} // RVA: 0x11A2920
-        // ── Unresolved (hash) ──
-        public void m_600(){} // RVA: 0x11A0D80
-        public void m_B60(){} // RVA: 0x11A11E0
-        public void m_6EF(){} // RVA: 0x11A14A0
-        public void m_722(){} // RVA: 0x11A1980
-        public void m_081(){} // RVA: 0x11A22A0
-        public void m_32A(){}
-        public void m_CC2(){} // RVA: 0x11A2560
-        public void m_609(){} // RVA: 0x11A2590
     }
 
 }

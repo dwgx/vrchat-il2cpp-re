@@ -116,14 +116,14 @@ public class MotionSettings
     public float _smoothing; // 0x20
 
     // ── Methods ──
-    public void set_max(){} // RVA: 0x3AA570
-    public void set_strength(){} // RVA: 0x407340
+    public void set_strength(){} // RVA: 0x3AA570
+    public void set_max(){} // RVA: 0x407340
     public void get_strength(){} // RVA: 0x407340
     public void .ctor(){} // RVA: 0x39C7F0
     public void get_max(){} // RVA: 0x3AA570
+    public void set_smoothing(){} // RVA: 0x306080
+    public void set_min(){} // RVA: 0x407340
     public void set_use(){} // RVA: 0x306080
-    public void set_smoothing(){} // RVA: 0x407340
-    public void set_min(){} // RVA: 0x306080
     public void get_smoothing(){} // RVA: 0x306080
     public void get_use(){} // RVA: 0x3A75E0
     public void get_min(){} // RVA: 0x2E1CF0

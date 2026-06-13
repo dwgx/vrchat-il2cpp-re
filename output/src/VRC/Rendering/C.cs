@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
 // Classes: 100
-// Methods: 538
+// Methods: 549
 
 namespace VRC.Rendering
 {
@@ -996,6 +996,44 @@ namespace VRC.Rendering
         public void set_Position_87FA3677F09C(){} // RVA: 0x1A338E0
     }
 
+    /// <summary>Originally: ÌÍÌÎÏÎÌÎÌÍÍÏÍÍÎÌÌÌÍÌÎÏÌ</summary>
+    public class CameraRemoteLaserVisuals
+    {
+        public UnityEngine.GameObject remoteShape; // 0x20
+        public UnityEngine.MeshRenderer lensMesh; // 0x28
+        public UnityEngine.MeshRenderer upIndicatorMesh; // 0x30
+        public UnityEngine.AudioSource Speaker; // 0x38
+        public UnityEngine.AudioClip screenshotSound; // 0x40
+        public UnityEngine.AudioClip timerSound; // 0x48
+        public UnityEngine.LineRenderer lineRender; // 0x50
+        public UnityEngine.LineRenderer lineRenderCone; // 0x58
+
+        // ── Methods ──
+        public void LateUpdate(){} // RVA: 0x88B0E0
+        public void OnDestroy(){} // RVA: 0x88C070
+        public void get_up(){} // RVA: 0x59E660
+        public void get_imageUrl(){} // RVA: 0x3A5590
+        public void get_component(){} // RVA: 0x88E540
+        public void .cctor(){} // RVA: 0x88ED80
+        public void Start(){} // RVA: 0x88EE20
+        public void .ctor(){} // RVA: 0x88F7D0
+        public void Initialize(){} // RVA: 0x88F870
+        public void OnDisable(){} // RVA: 0x88F890
+        public void GetComponentTransform(){} // RVA: 0x88F9C0
+        public void set_up(){} // RVA: 0x59F420
+        public void set_linkText(){} // RVA: 0x50A8C0
+        public void get_useDragThreshold(){} // RVA: 0x88FF40
+        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void get_placeholder(){} // RVA: 0x507D10
+        // ── 17 unresolved (hash) ──
+        public void m_96D(){} // RVA: 0x88A950
+        public void m_90A(){} // RVA: 0x88AFF0
+        public void m_CD9(){} // RVA: 0x88BF80
+        public void m_31C(){} // RVA: 0x88C030
+        public void m_E2E(){} // RVA: 0x88C410
+        // ... 12 more unresolved methods
+    }
+
     /// <summary>Originally: ÌÍÌÌÎÌÍÎÍÍÎÎÏÎÌÌÌÏÎÌÌÍÌ</summary>
     public class CameraSystem_E18D
     {
@@ -1039,33 +1077,6 @@ namespace VRC.Rendering
         public void m_762(){} // RVA: 0x91B67F0
         public void m_18B(){} // RVA: 0x91B68A0
         // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÍÌÏÎÍÏÌÎÎÎÏÌÌÍÎÎÎÍÎÏÏÍ</summary>
-    public class CamerarenderModelNameSibling_6C15
-    {
-        public UnityEngine.GameObject twinStickTooltip1; // 0x20
-        public UnityEngine.GameObject twinStickTooltip2; // 0x28
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ leftStickTextY; // 0x30
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ leftStickTextX; // 0x38
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ rightStickTextY; // 0x40
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ rightStickTextX; // 0x48
-        public UnityEngine.GameObject mouseAndKeyboardTooltip1; // 0x50
-        public UnityEngine.GameObject mouseAndKeyboardTooltip2; // 0x58
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ wsText; // 0x60
-
-        // ── Methods ──
-        public void Start(){} // RVA: 0xA34700
-        public void .ctor(){} // RVA: 0xA34CC0
-        public void Initialize(){} // RVA: 0xA34670
-        public void OnDestroy(){} // RVA: 0xA35520
-        // ── 18 unresolved (hash) ──
-        public void m_588(){} // RVA: 0xA34230
-        public void m_5D7(){} // RVA: 0xA34330
-        public void m_579(){} // RVA: 0xA343C0
-        public void m_AF5(){} // RVA: 0xA34450
-        public void m_6AB(){} // RVA: 0xA345E0
-        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÍÌÌÏÍÎÏÌÏÌÎÌÍÍÍÎÌÌÎÌÌ</summary>

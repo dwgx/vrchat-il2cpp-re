@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
 // Classes: 100
-// Methods: 468
+// Methods: 499
 
 namespace VRC.Rendering
 {
@@ -162,16 +162,6 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x1EDD880
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x2042840
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
-    }
-
-    /// <summary>Originally: ÍÌÍÏÏÍÏÌÍÌÍÌÏÎÌÍÍÏÎÌÍÍÏ</summary>
-    public class CameraBeginInvokeEndInvoke_35E8
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x1FE54F0
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
@@ -1020,6 +1010,46 @@ namespace VRC.Rendering
         public void m_AC5(){} // RVA: 0x10FE330
         public void m_EC7(){} // RVA: 0x10FE530
         public void m_2EF(){} // RVA: 0x10FE610
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÌÏÎÎÎÏÌÌÏÌÍÎÎÎÎÎÌÌÌÎÌ</summary>
+    public class CameraTransformSkyboxBinding
+    {
+        public UnityEngine.Transform ÎÎÍÌÌÎÍÍÎÍÏÎÎÎÌÎÌÍÎÍÍÌÎ; // 0x38
+        public UnityEngine.Transform _cameraTransform; // 0x40
+
+        // ── Methods ──
+        public void Contains(){} // RVA: 0x2DD310
+        public void CopyTo(){} // RVA: 0x15C42A0
+        public void GetSkybox(){} // RVA: 0x15C4480
+        public void Clear(){} // RVA: 0x15C4670
+        public void Add(){} // RVA: 0x15C46C0
+        public void Remove(){} // RVA: 0x15C48D0
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x2DD310
+        public void Awake(){} // RVA: 0x15C49B0
+        public void OnDestroy(){} // RVA: 0x519240
+        public void GetSkybox_C5877C581EB9(){} // RVA: 0x15C4A40
+        public void HasProperty(){} // RVA: 0x15A2670
+        public void Start(){} // RVA: 0x15C4B20
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
+        public void get_ElementType(){} // RVA: 0x519240
+        public void GetIsDone(){} // RVA: 0x15C4E90
+        public void .ctor(){} // RVA: 0x15C4EE0
+        public void Initialize(){} // RVA: 0x15C4F30
+        public void CancelInvoke(){} // RVA: 0x300D80
+        public void Dispose(){} // RVA: 0x2DD310
+        public void CancelInvoke_3EE45E8B9E31(){} // RVA: 0x300D80
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void ProcessTransform(){} // RVA: 0x15C5120
+        public void Update(){} // RVA: 0x15C5540
+        public void GetIsDone_6011F75F8317(){} // RVA: 0x15C5800
+        // ── 11 unresolved (hash) ──
+        public void m_8A0(){} // RVA: 0x15800B0
+        public void m_A40(){} // RVA: 0x15C4CF0
+        public void m_FAC(){} // RVA: 0x15C4D60
+        public void m_5BB(){} // RVA: 0x15C4E40
+        public void m_D97(){} // RVA: 0x1529730
         // ... 6 more unresolved methods
     }
 

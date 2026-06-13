@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
-// Classes: 47
-// Methods: 668
+// Classes: 45
+// Methods: 654
 
 namespace VRC.Core.Transform
 {
@@ -376,20 +376,6 @@ namespace VRC.Core.Transform
         public void m_57E(){} // RVA: 0xC51280
     }
 
-    /// <summary>Originally: ÏÍÏÌÏÍÎÏÎÏÌÎÎÍÌÏÌÌÎÎÍÌÍ</summary>
-    public class TransformHandler_2D3D
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0xBC0C70
-        public void CompareTo(){} // RVA: 0xBC0D20
-        public void CompareTo_F0AD5DEBF2A5(){} // RVA: 0xBC0DD0
-        // ── Unresolved (hash) ──
-        public void m_CEB(){} // RVA: 0xBC0BC0
-        public void m_D37(){} // RVA: 0xBC0E80
-        public void m_BD9(){} // RVA: 0xBC0F30
-    }
-
     /// <summary>Originally: ÏÏÌÎÌÎÍÍÎÌÍÏÍÏÎÎÏÍÍÌÍÍÍ</summary>
     public class TransformHandler_3756
     {
@@ -440,20 +426,6 @@ namespace VRC.Core.Transform
         public void <Send>b__0_E8B0A4021658(){} // RVA: 0xCAF770
         public void <Send>b__0_6F9A767DF864(){} // RVA: 0xCAF770
         public void ComputeXxHash32_665F4E41E860(){} // RVA: 0xF85A40
-    }
-
-    /// <summary>Originally: ÏÍÎÏÍÌÍÍÍÍÏÎÏÌÌÎÏÌÏÏÌÍÎ</summary>
-    public class TransformHandler_55AC
-    {
-        // ── Methods ──
-        public void StartNew(){} // RVA: 0x19CFF30
-        public void StartNew_42DFA56AE3D2(){} // RVA: 0x19D0250
-        public void .ctor(){} // RVA: 0x19D03E0
-        public void Initialize(){} // RVA: 0x19D0430
-        // ── Unresolved (hash) ──
-        public void m_919(){} // RVA: 0x19D00C0
-        public void m_7F4(){} // RVA: 0x19D05C0
-        public void m_935(){} // RVA: 0x19D0750
     }
 
     /// <summary>Originally: ÏÏÏÍÍÍÍÌÎÌÍÎÍÎÎÎÍÏÌÏÍÎÎ</summary>

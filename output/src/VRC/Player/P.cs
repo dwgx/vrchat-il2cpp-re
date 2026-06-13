@@ -13,7 +13,7 @@ namespace VRC.Player
         public void get_Preview(){} // RVA: 0xCD60
         public void get_IsVRCPlus(){} // RVA: 0xDBE0
         public void set_IsVRCPlus(){} // RVA: 0xCD60
-        public void set_BackgroundName(){} // RVA: 0x24A50
+        public void set_Preview(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÌÎÎÍÏÍÏÎÏÎÌÌÍÏÏÌÎÍÎÍÎÍÎ</summary>
@@ -54,6 +54,55 @@ namespace VRC.Player
         public void m_3B9(){} // RVA: 0x19277F0
         public void m_476(){} // RVA: 0x1927C70
         public void m_263(){} // RVA: 0x1928F20
+    }
+
+    /// <summary>Originally: ÌÍÏÍÍÍÏÍÍÎÏÏÏÌÌÍÎÍÌÌÎÏÌ</summary>
+    public class PlayerInputActionsAssetBinding
+    {
+        public UnityEngine.InputSystem.InputActionAsset <ÌÌÌÌÍÎÎÍÌÍÍÎÎÌÏÎÌÍÍÎÏÎÍ>k__BackingField; // 0x10
+        public UnityEngine.InputSystem.InputActionMap ÍÎÏÌÎÌÍÌÍÌÎÌÍÌÍÌÎÍÌÌÍÌÍ; // 0x18
+        public System.Collections.Generic.List`1<ÌÏÏÏÍÍÏÏÍÏÍÏÌÌÏÎÌÌÏÎÎÎÍ> ÎÍÍÎÍÌÏÏÎÏÏÌÏÏÍÏÍÌÌÎÍÍÎ; // 0x20
+        public UnityEngine.InputSystem.InputAction ÏÎÏÎÍÏÍÏÍÏÍÎÌÏÏÏÏÌÌÎÎÏÎ; // 0x28
+        public UnityEngine.InputSystem.InputAction ÎÌÍÌÌÍÎÌÎÍÌÌÍÍÎÏÌÏÌÌÎÌÍ; // 0x30
+        public UnityEngine.InputSystem.InputAction ÌÍÌÌÌÎÌÎÍÎÏÏÎÌÎÏÏÏÍÌÏÏÍ; // 0x38
+        public UnityEngine.InputSystem.InputAction ÌÎÏÍÎÏÏÎÍÍÎÎÍÍÌÏÍÍÎÍÍÌÍ; // 0x40
+        public UnityEngine.InputSystem.InputAction ÎÌÏÍÏÏÌÏÍÏÏÍÎÏÎÍÍÎÎÍÍÍÎ; // 0x48
+        public UnityEngine.InputSystem.InputAction ÌÏÎÎÍÍÌÎÎÍÌÏÏÌÍÎÌÍÌÍÌÌÍ; // 0x50
+        public UnityEngine.InputSystem.InputAction ÌÏÎÌÍÍÌÏÎÏÌÏÎÏÏÌÎÍÍÍÌÍÎ; // 0x58
+        public UnityEngine.InputSystem.InputAction ÍÏÌÌÏÍÎÍÌÌÏÍÍÎÌÎÍÎÌÍÌÍÍ; // 0x60
+        public UnityEngine.InputSystem.InputAction ÍÎÌÎÌÍÍÏÍÏÎÍÌÏÌÏÎÎÎÎÎÍÎ; // 0x68
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1005360
+        public void Initialize(){} // RVA: 0x1007390
+        public void set_controlSchemes(){} // RVA: 0x10073D0
+        public void op_Implicit(){} // RVA: 0x1007430
+        public void get_controlSchemes(){} // RVA: 0x1007390
+        public void Enable(){} // RVA: 0x10075B0
+        public void WaitUntilCanceled(){} // RVA: 0x10075D0
+        public void Contains(){} // RVA: 0x10075D0
+        public void set_devices(){} // RVA: 0x10075F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x1007670
+        public void get_devices(){} // RVA: 0x1007690
+        public void Instantiate(){} // RVA: 0x10073D0
+        public void set_bindingMask(){} // RVA: 0x10076E0
+        public void Dispose_DDE2C253B338(){} // RVA: 0x10073D0
+        public void Cleanup(){} // RVA: 0x1007740
+        public void FindBinding_51FBC0D981AD(){} // RVA: 0x1007760
+        public void System.Collections.IEnumerable.GetEnumerator_ACE7DFD7052E(){} // RVA: 0x10077C0
+        public void set_bindings(){} // RVA: 0x10073D0
+        public void Dispose(){} // RVA: 0x1007940
+        public void GetEnumerator(){} // RVA: 0x1007670
+        public void FindAction(){} // RVA: 0x10079A0
+        public void FindAction_0846C7D5E79B(){} // RVA: 0x10079C0
+        public void FindBinding(){} // RVA: 0x1007B40
+        public void FindObjectsOfType(){} // RVA: 0x10073D0
+        public void Disable(){} // RVA: 0x1007740
+        public void Finalize(){} // RVA: 0x1007BA0
+        public void get_bindingMask(){} // RVA: 0x1007BC0
+        public void get_Player(){} // RVA: 0x1007C10
+        public void Contains_28FFF40E20A9(){} // RVA: 0x2F8380
+        public void get_bindings(){} // RVA: 0x1007D90
     }
 
     /// <summary>Originally: ÌÌÍÍÍÏÍÍÎÍÏÍÎÌÍÌÎÏÌÎÌÌÏ</summary>
@@ -2222,55 +2271,6 @@ namespace VRC.Player
         public void GetAwaiter_61990F1C56DD(){} // RVA: 0x75E7E0
         public void GetAwaiter_4E0F260434F9(){} // RVA: 0x75E7E0
         public void set_name_588435A78E0C(){} // RVA: 0x1F7E940
-    }
-
-    /// <summary>Originally: ÌÍÏÍÍÍÏÍÍÎÏÏÏÌÌÍÎÍÌÌÎÏÌ</summary>
-    public class PlayercontrolSchemesbindingMask_17CC_7B30
-    {
-        public UnityEngine.InputSystem.InputActionAsset <ÌÌÌÌÍÎÎÍÌÍÍÎÎÌÏÎÌÍÍÎÏÎÍ>k__BackingField; // 0x10
-        public UnityEngine.InputSystem.InputActionMap ÍÎÏÌÎÌÍÌÍÌÎÌÍÌÍÌÎÍÌÌÍÌÍ; // 0x18
-        public System.Collections.Generic.List`1<ÌÏÏÏÍÍÏÏÍÏÍÏÌÌÏÎÌÌÏÎÎÎÍ> ÎÍÍÎÍÌÏÏÎÏÏÌÏÏÍÏÍÌÌÎÍÍÎ; // 0x20
-        public UnityEngine.InputSystem.InputAction ÏÎÏÎÍÏÍÏÍÏÍÎÌÏÏÏÏÌÌÎÎÏÎ; // 0x28
-        public UnityEngine.InputSystem.InputAction ÎÌÍÌÌÍÎÌÎÍÌÌÍÍÎÏÌÏÌÌÎÌÍ; // 0x30
-        public UnityEngine.InputSystem.InputAction ÌÍÌÌÌÎÌÎÍÎÏÏÎÌÎÏÏÏÍÌÏÏÍ; // 0x38
-        public UnityEngine.InputSystem.InputAction ÌÎÏÍÎÏÏÎÍÍÎÎÍÍÌÏÍÍÎÍÍÌÍ; // 0x40
-        public UnityEngine.InputSystem.InputAction ÎÌÏÍÏÏÌÏÍÏÏÍÎÏÎÍÍÎÎÍÍÍÎ; // 0x48
-        public UnityEngine.InputSystem.InputAction ÌÏÎÎÍÍÌÎÎÍÌÏÏÌÍÎÌÍÌÍÌÌÍ; // 0x50
-        public UnityEngine.InputSystem.InputAction ÌÏÎÌÍÍÌÏÎÏÌÏÎÏÏÌÎÍÍÍÌÍÎ; // 0x58
-        public UnityEngine.InputSystem.InputAction ÍÏÌÌÏÍÎÍÌÌÏÍÍÎÌÎÍÎÌÍÌÍÍ; // 0x60
-        public UnityEngine.InputSystem.InputAction ÍÎÌÎÌÍÍÏÍÏÎÍÌÏÌÏÎÎÎÎÎÍÎ; // 0x68
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1005360
-        public void Initialize(){} // RVA: 0x1007390
-        public void set_controlSchemes(){} // RVA: 0x10073D0
-        public void op_Implicit(){} // RVA: 0x1007430
-        public void get_controlSchemes(){} // RVA: 0x1007390
-        public void Enable(){} // RVA: 0x10075B0
-        public void WaitUntilCanceled(){} // RVA: 0x10075D0
-        public void Contains(){} // RVA: 0x10075D0
-        public void set_devices(){} // RVA: 0x10075F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x1007670
-        public void get_devices(){} // RVA: 0x1007690
-        public void Instantiate(){} // RVA: 0x10073D0
-        public void set_bindingMask(){} // RVA: 0x10076E0
-        public void Dispose_DDE2C253B338(){} // RVA: 0x10073D0
-        public void Cleanup(){} // RVA: 0x1007740
-        public void FindBinding_51FBC0D981AD(){} // RVA: 0x1007760
-        public void System.Collections.IEnumerable.GetEnumerator_ACE7DFD7052E(){} // RVA: 0x10077C0
-        public void set_bindings(){} // RVA: 0x10073D0
-        public void Dispose(){} // RVA: 0x1007940
-        public void GetEnumerator(){} // RVA: 0x1007670
-        public void FindAction(){} // RVA: 0x10079A0
-        public void FindAction_0846C7D5E79B(){} // RVA: 0x10079C0
-        public void FindBinding(){} // RVA: 0x1007B40
-        public void FindObjectsOfType(){} // RVA: 0x10073D0
-        public void Disable(){} // RVA: 0x1007740
-        public void Finalize(){} // RVA: 0x1007BA0
-        public void get_bindingMask(){} // RVA: 0x1007BC0
-        public void get_Player(){} // RVA: 0x1007C10
-        public void Contains_28FFF40E20A9(){} // RVA: 0x2F8380
-        public void get_bindings(){} // RVA: 0x1007D90
     }
 
 }

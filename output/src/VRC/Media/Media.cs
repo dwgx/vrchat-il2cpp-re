@@ -1,10 +1,33 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Media
-// Classes: 1
-// Methods: 13
+// Classes: 2
+// Methods: 32
 
 namespace VRC.Media
 {
+    /// <summary>Originally: ÏÏÌÎÍÍÏÏÍÏÎÍÍÎÌÎÎÏÎÏÍÎÎ</summary>
+    public class AVProMediaSliderBinding
+    {
+        public UnityEngine.UI.Slider GenericTypeArguments; // 0x20
+        public RenderHeads.Media.AVProVideo.MediaPlayer target; // 0x28
+
+        // ── Methods ──
+        public void ConfigureBehaviour(){} // RVA: 0x8F3C050
+        public void Update(){} // RVA: 0x8F3C340
+        public void Start(){} // RVA: 0x8F3C480
+        public void MemCpy_AAAA43E7A3F1(){} // RVA: 0x17EAD20
+        public void MemSet_25F3DF01548B(){} // RVA: 0xD0E460
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x8F3C9A0
+        // ── 12 unresolved (hash) ──
+        public void m_805(){} // RVA: 0x8F3C210
+        public void m_A96(){} // RVA: 0x8F3C320
+        public void m_098(){} // RVA: 0x8F3C3E0
+        public void m_2E0(){} // RVA: 0x8F3C540
+        public void m_028(){} // RVA: 0x8F3C690
+        // ... 7 more unresolved methods
+    }
+
     /// <summary>Originally: ÌÍÎÏÌÍÌÌÌÎÌÌÍÌÎÍÌÌÌÍÏÏÌ</summary>
     public class VideoCapture_CB34
     {

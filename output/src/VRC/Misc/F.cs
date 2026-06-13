@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 33
-// Methods: 604
+// Classes: 32
+// Methods: 588
 
 namespace VRC.Misc
 {
@@ -258,32 +258,6 @@ namespace VRC.Misc
         public void Start(){} // RVA: 0x8F12470
         // ── Unresolved (hash) ──
         public void m_C9E(){} // RVA: 0x8F11E40
-    }
-
-    /// <summary>Originally: ÏÎÏÌÍÍÌÍÍÌÏÏÍÌÏÏÌÍÏÌÌÎÎ</summary>
-    public class FocusInvisibleComponent_D8AF
-    {
-        public UnityEngine.UI.Image m_RecenteredImage; // 0x20
-        public UnityEngine.Color m_RecenteredOffColor; // 0x28
-        public UnityEngine.Color m_RecenteredColor; // 0x38
-
-        // ── Methods ──
-        public void LateUpdate(){} // RVA: 0x59C0D0
-        public void OnDisable(){} // RVA: 0x59C2B0
-        public void OnDestroy(){} // RVA: 0x59C490
-        public void OnApplicationPause(){} // RVA: 0x59C4F0
-        public void OnApplicationQuit(){} // RVA: 0x59C500
-        public void OnBecameVisible(){} // RVA: 0x59C530
-        public void OnBecameInvisible(){} // RVA: 0x59C540
-        public void OnEnable(){} // RVA: 0x59C550
-        public void Update(){} // RVA: 0x59C730
-        public void OnCollisionExit(){} // RVA: 0x59CC60
-        public void OnTriggerEnter(){} // RVA: 0x59CC80
-        public void OnTriggerStay(){} // RVA: 0x59C540
-        public void .ctor(){} // RVA: 0x59CE50
-        public void Initialize(){} // RVA: 0x59CEC0
-        public void .cctor(){} // RVA: 0x59CED0
-        public void ConstructDelegate(){} // RVA: 0x59CFB0
     }
 
     /// <summary>Originally: ÌÎÎÎÎÎÍÎÏÏÌÍÎÎÏÌÎÍÍÎÌÌÏ</summary>

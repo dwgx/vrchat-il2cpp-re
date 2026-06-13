@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Texture
-// Classes: 20
-// Methods: 452
+// Classes: 26
+// Methods: 568
 
 namespace VRC.Texture
 {
@@ -15,32 +15,348 @@ namespace VRC.Texture
         public void Initialize(){} // RVA: 0x655990
     }
 
-    /// <summary>Originally: ÍÎÎÎÌÏÎÎÌÏÍÌÏÌÎÎÌÏÎÍÍÌÎ</summary>
-    public class SpriteHandler_620E
+    /// <summary>Originally: ÌÌÏÏÎÌÎÏÎÍÏÍÏÎÌÍÌÍÏÌÎÍÎ</summary>
+    public class ImageRectTextComponentView
     {
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _label; // 0x20
-        public UnityEngine.UI.Button _button; // 0x28
-        public ÌÏÍÎÏÏÎÌÍÎÍÌÍÏÏÍÏÌÎÍÎÌÎ _radioButtonSelector; // 0x30
-        public UnityEngine.GameObject _newIndicator; // 0x38
+        public UnityEngine.UI.Image f_23B; // 0x20
+        public UnityEngine.RectTransform f_345; // 0x28
+        public TMPro.TMP_Text ÍÏÏÏÌÏÎÏÍÎÌÍÍÍÎÎÎÌÏÌÏÏÏ; // 0x30
 
         // ── Methods ──
-        public void set_DefaultCreatorNonPublic(){} // RVA: 0x10F2C40
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void InverseTransformPoint(){} // RVA: 0x10F2C40
-        public void set_authorId(){} // RVA: 0x464450
-        public void OnDestroy(){} // RVA: 0x8D30F00
-        public void get_MoveNext(){} // RVA: 0x462D00
-        public void get_Comparer_5027CE3220AD(){} // RVA: 0x6374D0
-        public void GetRect(){} // RVA: 0x1342AB0
-        public void GetRect_296E6D2EAFEC(){} // RVA: 0x1342AB0
+        public void Awake(){} // RVA: 0x1483ED0
+        public void OnDestroy(){} // RVA: 0x1484190
+        public void Start(){} // RVA: 0x14842D0
+        public void Update(){} // RVA: 0x14845F0
+        public void LateUpdate(){} // RVA: 0x1484C80
+        public void OnDisable(){} // RVA: 0x1484DD0
+        public void OnApplicationPause(){} // RVA: 0x14854E0
+        public void OnApplicationQuit(){} // RVA: 0x14856F0
+        public void OnBecameVisible(){} // RVA: 0x1485900
+        public void OnBecameInvisible(){} // RVA: 0x1485F90
+        public void OnCollisionEnter(){} // RVA: 0x2DD310
+        public void OnCollisionStay(){} // RVA: 0x1486480
+        public void OnCollisionExit(){} // RVA: 0x1486750
+        public void OnTriggerEnter(){} // RVA: 0x1486A40
+        public void OnTriggerStay(){} // RVA: 0x1486B80
         public void .ctor(){} // RVA: 0x2DDD50
-        // ── 13 unresolved (hash) ──
-        public void m_0DB(){} // RVA: 0x8D305E0
-        public void m_578(){} // RVA: 0x8D30760
-        public void m_852(){} // RVA: 0x8D308E0
-        public void m_5B8(){} // RVA: 0x8D30D30
-        public void m_87D(){} // RVA: 0x8D30D80
-        // ... 8 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_A90(){} // RVA: 0x1483860
+        public void m_BC3(){} // RVA: 0x1483D90
+        public void m_BB5(){} // RVA: 0x14852D0
+    }
+
+    /// <summary>Originally: ÏÌÌÎÌÌÌÍÏÏÍÏÎÍÎÏÏÎÏÏÍÌÎ</summary>
+    public class LocalizedSpriteAssetBinding
+    {
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÏÍÍÏÌÏÍÍÎÎÏÍÍÌÍÍÌÎÌÍÍÏÍ; // 0x20
+        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> ÏÌÌÏÎÏÎÎÍÏÍÍÎÍÌÌÌÍÍÍÎÎÍ; // 0x28
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x30
+        public VRC.Localization.LocalizableString <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x58
+        public bool <ÎÎÌÎÎÏÍÍÏÏÏÎÏÍÍÌÏÎÎÎÏÍÎ>k__BackingField; // 0x80
+        public string <ÏÌÎÌÍÌÏÌÍÎÎÎÍÍÍÏÍÌÏÏÌÌÏ>k__BackingField; // 0x88
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÏÎÏÏÍÌÍÎÍÎÎÎÌÏÍÎÎÌÏÍÍÍ>k__BackingField; // 0x90
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÏÌÏÌÏÌÏÍÏÍÏÌÎÍÏÎÏÏÎÎÎÎÍ>k__BackingField; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0xA0
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÏÎÏÌÏÌÍÌÌÏÌÍÍÍÏÏÎÎÌÎÍÌ>k__BackingField; // 0xA8
+        public System.Action ÌÏÏÏÌÌÍÏÍÌÍÏÍÍÏÏÍÎÍÌÌÌÏ; // 0xB0
+
+        // ── Methods ──
+        public void Contains(){} // RVA: 0x1B6CF70
+        public void CopyTo(){} // RVA: 0xF4D950
+        public void Clear(){} // RVA: 0x1B6D430
+        public void Add(){} // RVA: 0x1B6D6C0
+        public void ReadCameraState(){} // RVA: 0x7AC2C0
+        public void Remove(){} // RVA: 0x9EACB0
+        public void GetRealtimeSinceStartup(){} // RVA: 0xEB5BA0
+        public void get_Current(){} // RVA: 0x1B6D710
+        public void Cleanup(){} // RVA: 0x30B0C0
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
+        public void get_completePromotionOnPress(){} // RVA: 0x5A8B10
+        public void set_completePromotionOnPress(){} // RVA: 0x5A6190
+        public void get_SameFunc(){} // RVA: 0x31C010
+        public void set_relatedTarget(){} // RVA: 0x463060
+        public void get_description(){} // RVA: 0x796DE0
+        public void set_description(){} // RVA: 0xB54600
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void set_focusController(){} // RVA: 0x9AA650
+        public void InitializeSparseHashTable(){} // RVA: 0x9E9990
+        public void VisitGCHandles(){} // RVA: 0xD0A030
+        public void MarkObjectReferences(){} // RVA: 0xF03830
+        public void GetComponentByName(){} // RVA: 0x1B6D960
+        public void GetComponentByName_3E2EB0500792(){} // RVA: 0x1B6DE60
+        public void GetComponentByName_3500641AEF8F(){} // RVA: 0x1B6E0D0
+        public void GetComponentByName_2421D67722DB(){} // RVA: 0x1B6E1B0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
+        public void GetComponentByName_D9C290E29305(){} // RVA: 0x1B6E240
+        public void GetComponentByName_3BB3CE7FD164(){} // RVA: 0x1B6E260
+        public void get_thumbnailImageUrl(){} // RVA: 0xA085E0
+        public void get_pointerType(){} // RVA: 0xA1C130
+        public void get_EffectBundleID(){} // RVA: 0x9B7650
+        public void CompleteWithCallback(){} // RVA: 0x9E92F0
+        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
+        public void GetComponentByName_CB6D097317B6(){} // RVA: 0x1B6E280
+        public void ReadCameraState_34AA1C0B24D3(){} // RVA: 0x1B6EFA0
+        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x1B6F420
+        public void Initialize(){} // RVA: 0x9E8FF0
+        // ── 26 unresolved (hash) ──
+        public void m_5FD(){} // RVA: 0x1B6D730
+        public void m_20A(){} // RVA: 0x1B6D7A0
+        public void m_CAF(){} // RVA: 0x1B6D7F0
+        public void m_F73(){} // RVA: 0x1B6D810
+        public void m_A0E(){} // RVA: 0x1B6D850
+        // ... 21 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
+    public class LocalizedSpriteItem
+    {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField;
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField;
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField;
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField;
+
+        // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0xC770
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0xCD60
+        public void get_MoveNext(){} // RVA: 0xCD60
+        public void AddFromToForce(){} // RVA: 0x24B10
+        public void get_MoveNext_D973C32578AF(){} // RVA: 0xCD60
+        public void get_Current(){} // RVA: 0xCD60
+        public void set_controlPathInternal(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x24A50
+        public void Initialize(){} // RVA: 0xCD60
+        public void Clear(){} // RVA: 0x24A50
+        public void get_Count(){} // RVA: 0xD840
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0xC770
+        public void set_Value(){} // RVA: 0x24B10
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5_A5759394D3AB(){} // RVA: 0xCD60
+        public void get_Count_BCF21FE1B233(){} // RVA: 0xD840
+        public void set_controlPathInternal_86478B7F2738(){} // RVA: 0x24B10
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0xCD60
+        public void TryCopyTo(){} // RVA: 0x283FA0
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x283FA0
+        public void Add(){} // RVA: 0x24B10
+        public void TryCopyTo_B5E86FCAF222(){} // RVA: 0x283FA0
+        public void get_Item(){} // RVA: 0x24B10
+        // ── Unresolved (hash) ──
+        public void m_609(){} // RVA: 0x24B10
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
+    public class LocalizedSpriteItem
+    {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<T>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
+        // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x5037970
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void AddFromToForce(){} // RVA: 0x358740
+        public void get_MoveNext_D973C32578AF(){} // RVA: 0x35A740
+        public void get_Current(){} // RVA: 0x2F8380
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x358730
+        public void Clear(){} // RVA: 0x50379E0
+        public void get_Count(){} // RVA: 0x5037AC0
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0x7D0800
+        public void set_Value(){} // RVA: 0x2DEE30
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5_A5759394D3AB(){} // RVA: 0x5037970
+        public void get_Count_BCF21FE1B233(){} // RVA: 0x5037AC0
+        public void set_controlPathInternal_86478B7F2738(){} // RVA: 0x305200
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x5037B60
+        public void TryCopyTo(){} // RVA: 0x5037B90
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x5037D20
+        public void Add(){} // RVA: 0x7D0820
+        public void TryCopyTo_B5E86FCAF222(){} // RVA: 0x5037EB0
+        public void get_Item(){} // RVA: 0x2DEE30
+        // ── Unresolved (hash) ──
+        public void m_609(){} // RVA: 0x2DEE30
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
+    public class LocalizedSpriteItem
+    {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
+        // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void AddFromToForce(){} // RVA: 0x358740
+        public void get_MoveNext_D973C32578AF(){} // RVA: 0x35A740
+        public void get_Current(){} // RVA: 0x2F8380
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x358730
+        public void Clear(){} // RVA: 0x50376B0
+        public void get_Count(){} // RVA: 0x5037730
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0x7D0800
+        public void set_Value(){} // RVA: 0x2DEE30
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5_A5759394D3AB(){} // RVA: 0x4EF8380
+        public void get_Count_BCF21FE1B233(){} // RVA: 0x5037730
+        public void set_controlPathInternal_86478B7F2738(){} // RVA: 0x305200
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void TryCopyTo(){} // RVA: 0x5037770
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x5037800
+        public void Add(){} // RVA: 0x7D0820
+        public void TryCopyTo_B5E86FCAF222(){} // RVA: 0x50378D0
+        public void get_Item(){} // RVA: 0x2DEE30
+        // ── Unresolved (hash) ──
+        public void m_609(){} // RVA: 0x2DEE30
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
+    public class LocalizedSpriteItem
+    {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
+        // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void AddFromToForce(){} // RVA: 0x358740
+        public void get_MoveNext_D973C32578AF(){} // RVA: 0x35A740
+        public void get_Current(){} // RVA: 0x2F8380
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x358730
+        public void Clear(){} // RVA: 0x50376B0
+        public void get_Count(){} // RVA: 0x5037730
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0x7D0800
+        public void set_Value(){} // RVA: 0x2DEE30
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5_A5759394D3AB(){} // RVA: 0x4EF8380
+        public void get_Count_BCF21FE1B233(){} // RVA: 0x5037730
+        public void set_controlPathInternal_86478B7F2738(){} // RVA: 0x305200
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void TryCopyTo(){} // RVA: 0x5037770
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x5037800
+        public void Add(){} // RVA: 0x7D0820
+        public void TryCopyTo_B5E86FCAF222(){} // RVA: 0x50378D0
+        public void get_Item(){} // RVA: 0x2DEE30
+        // ── Unresolved (hash) ──
+        public void m_609(){} // RVA: 0x2DEE30
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
+    public class LocalizedSpriteItem
+    {
+        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
+        public UnityEngine.Sprite <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> <ÏÌÎÌÏÌÏÍÍÌÏÎÍÏÏÎÍÏÏÌÎÏÍ>k__BackingField; // 0x48
+
+        // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5(){} // RVA: 0x4EF8380
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void AddFromToForce(){} // RVA: 0x358740
+        public void get_MoveNext_D973C32578AF(){} // RVA: 0x35A740
+        public void get_Current(){} // RVA: 0x2F8380
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x358730
+        public void Clear(){} // RVA: 0x50376B0
+        public void get_Count(){} // RVA: 0x5037730
+        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0x7D0800
+        public void set_Value(){} // RVA: 0x2DEE30
+        public void OnDidApplyAnimationProperties_B91EFDBB32D5_A5759394D3AB(){} // RVA: 0x4EF8380
+        public void get_Count_BCF21FE1B233(){} // RVA: 0x5037730
+        public void set_controlPathInternal_86478B7F2738(){} // RVA: 0x305200
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void TryCopyTo(){} // RVA: 0x5037770
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x5037800
+        public void Add(){} // RVA: 0x7D0820
+        public void TryCopyTo_B5E86FCAF222(){} // RVA: 0x50378D0
+        public void get_Item(){} // RVA: 0x2DEE30
+        // ── Unresolved (hash) ──
+        public void m_609(){} // RVA: 0x2DEE30
+    }
+
+    /// <summary>Originally: ÌÏÏÏÎÏÍÍÎÎÏÏÏÏÍÏÎÏÏÎÍÎÎ</summary>
+    public class LocalizedSpriteOption
+    {
+        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x20
+        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x48
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Sprite> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x50
+        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÌÏÍÍÏÌÌÏÎÏÌÍÏÌÌÍÍÌÍÏÏÍÍ>> <ÍÌÍÎÎÌÍÎÎÎÍÌÎÌÌÎÏÍÍÌÌÏÍ>k__BackingField; // 0x58
+
+        // ── Methods ──
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void Constructor(){} // RVA: 0x3A5510
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
+        public void MaxDatagrams(){} // RVA: 0xC41AB0
+        public void StringType(){} // RVA: 0x37E0E0
+        public void ConfigureParticleEmissionModule(){} // RVA: 0xC42990
+        public void .ctor(){} // RVA: 0xC42B70
+        public void Initialize(){} // RVA: 0xC42F50
+        public void StringType_85A7603AC429(){} // RVA: 0x37E0E0
+        // ── 15 unresolved (hash) ──
+        public void m_AA4(){} // RVA: 0xC414A0
+        public void m_537(){} // RVA: 0xC414C0
+        public void m_2CD(){} // RVA: 0xC41500
+        public void m_A70(){} // RVA: 0xC41700
+        public void m_C0B(){} // RVA: 0xC41B20
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÌÏÏÌÍÏÍÏÏÏÏÎÍÏÌÍÎÌÎÌÏÏ</summary>
+    public class LocalizedTextureOption
+    {
+        public UnityEngine.Texture2D <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x30
+        public UnityEngine.Sprite <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x38
+        public VRC.Localization.LocalizableString <ÏÎÎÍÌÎÏÍÍÏÎÍÌÌÏÌÎÌÎÍÍÍÏ>k__BackingField; // 0x40
+        public VRC.Localization.LocalizableString <ÍÍÏÍÏÎÎÎÎÍÍÏÏÍÎÎÎÏÌÎÍÌÍ>k__BackingField; // 0x68
+
+        // ── Methods ──
+        public void get_Comparer(){} // RVA: 0x6374D0
+        public void set_Options(){} // RVA: 0x30B890
+        public void GetEnumerator(){} // RVA: 0x4976A0
+        public void set_displayName(){} // RVA: 0x49B830
+        public void ArgumentException(){} // RVA: 0x1B6C960
+        public void get_title(){} // RVA: 0x9321690
+        public void set_title(){} // RVA: 0x93216B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
+        public void .ctor(){} // RVA: 0x9321720
+        // ── Unresolved (hash) ──
+        public void m_DB8(){} // RVA: 0x1B6CCD0
+    }
+
+    /// <summary>Originally: ÏÎÏÌÍÍÌÍÍÌÏÏÍÌÏÏÌÍÏÌÌÎÎ</summary>
+    public class RecenteredImageColorState
+    {
+        public UnityEngine.UI.Image m_RecenteredImage; // 0x20
+        public UnityEngine.Color m_RecenteredOffColor; // 0x28
+        public UnityEngine.Color m_RecenteredColor; // 0x38
+
+        // ── Methods ──
+        public void LateUpdate(){} // RVA: 0x59C0D0
+        public void OnDisable(){} // RVA: 0x59C2B0
+        public void OnDestroy(){} // RVA: 0x59C490
+        public void OnApplicationPause(){} // RVA: 0x59C4F0
+        public void OnApplicationQuit(){} // RVA: 0x59C500
+        public void OnBecameVisible(){} // RVA: 0x59C530
+        public void OnBecameInvisible(){} // RVA: 0x59C540
+        public void OnEnable(){} // RVA: 0x59C550
+        public void Update(){} // RVA: 0x59C730
+        public void OnCollisionExit(){} // RVA: 0x59CC60
+        public void OnTriggerEnter(){} // RVA: 0x59CC80
+        public void OnTriggerStay(){} // RVA: 0x59C540
+        public void .ctor(){} // RVA: 0x59CE50
+        public void Initialize(){} // RVA: 0x59CEC0
+        public void .cctor(){} // RVA: 0x59CED0
+        public void ConstructDelegate(){} // RVA: 0x59CFB0
     }
 
     /// <summary>Originally: ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ</summary>
@@ -86,6 +402,29 @@ namespace VRC.Texture
         public void m_BFD(){} // RVA: 0xFD65D0
     }
 
+    /// <summary>Originally: ÌÎÌÍÎÏÏÎÍÎÏÌÏÌÎÎÏÏÌÌÎÌÏ</summary>
+    public class StyledImageSpriteCallback
+    {
+        public System.Action`1<UnityEngine.Sprite> ÍÍÏÍÎÌÌÌÍÌÌÍÏÌÏÎÌÍÌÎÍÌÌ; // 0x10
+        public VRC.UI.ImageEx ÎÎÌÌÌÏÎÌÍÍÎÎÏÍÎÏÌÍÌÎÎÍÌ; // 0x18
+        public VRC.UI.Core.Styles.StyleElement ÌÌÌÌÏÎÍÏÌÏÌÏÏÌÏÌÎÏÏÌÎÍÏ; // 0x20
+
+        // ── Methods ──
+        public void HasRealtimeTimeoutRemaining(){} // RVA: 0x93F7D80
+        public void HasRealtimeTimeoutRemaining_6A835509F5C9(){} // RVA: 0x93F7D90
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x93F9190
+        public void HasRealtimeTimeoutRemaining_6A835509F5C9_A914C0B74F4E(){} // RVA: 0x93F7D90
+        // ── 19 unresolved (hash) ──
+        public void m_97F(){} // RVA: 0x93F7DF0
+        public void m_6A8(){} // RVA: 0x93F7D90
+        public void m_BBA(){} // RVA: 0x93F8100
+        public void m_4A7(){} // RVA: 0x93F8420
+        public void m_6C4(){} // RVA: 0x93F9E30
+        // ... 14 more unresolved methods
+    }
+
     /// <summary>Originally: ÍÏÏÍÎÍÌÎÍÌÌÍÏÍÌÌÏÌÎÏÎÏÌ</summary>
     public class TextureCalculateLayoutInpRelated_7E3D
     {
@@ -127,50 +466,6 @@ namespace VRC.Texture
         public void m_8B7(){} // RVA: 0x1C5A0D0
     }
 
-    /// <summary>Originally: ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ</summary>
-    public class TextureCalculateLayoutInpRelated_81F6
-    {
-        public TMPro.TextMeshProUGUI _placeholder; // 0x40
-        public TMPro.TextMeshProUGUI _displayText; // 0x48
-        public UnityEngine.GameObject _clearDisplay; // 0x50
-
-        // ── Methods ──
-        public void SetListForChannel_0D753C0DA7E4(){} // RVA: 0x8E873C0
-        public void SetListForChannel(){} // RVA: 0x8E873D0
-        public void SetListForChannel_1046975658C7(){} // RVA: 0x8E87490
-        public void ExtractArrayFromList(){} // RVA: 0x8E874E0
-        public void ExtractArrayFromList_C2A884909B84(){} // RVA: 0x8E875E0
-        public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x8E875F0
-        public void DisposeMeshDataArray(){} // RVA: 0x8E877F0
-        public void Awake(){} // RVA: 0x8E87B20
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void Hash128ToStringImpl(){} // RVA: 0x8E87E60
-        public void ToString(){} // RVA: 0x391BC0
-        public void ConstructFromColumns(){} // RVA: 0x8E886F0
-        public void GetMatrixElement(){} // RVA: 0x8E88750
-        public void MultiplyVector(){} // RVA: 0x8E88B80
-        public void MultiplyVector_A0D953A13964(){} // RVA: 0x8E88B90
-        public void ComputeVector3HashCode(){} // RVA: 0x8E88CF0
-        public void Clear(){} // RVA: 0x4F3F630
-        public void .ctor(){} // RVA: 0x8E88D20
-        public void OnDestroy(){} // RVA: 0x8E88DF0
-        public void ToString_F46FDF545570(){} // RVA: 0x391BC0
-        public void OnValueChanged(){} // RVA: 0x17CB190
-        public void ConstructFromColumns_060510AD5F57(){} // RVA: 0x8E886F0
-        public void ToStringFormat(){} // RVA: 0x8E89060
-        public void ClampComponents(){} // RVA: 0x8E893A0
-        // ── Unresolved (hash) ──
-        public void m_8A3(){} // RVA: 0x8E878F0
-        public void m_BC4(){} // RVA: 0x8E876F0
-        public void m_AB8(){} // RVA: 0x8E881A0
-        public void m_0D7(){} // RVA: 0x8E873C0
-        public void m_F62(){} // RVA: 0x8E881E0
-        public void m_CB2(){} // RVA: 0x8E88840
-        public void m_4D7(){} // RVA: 0x8E89020
-        public void m_E3D(){} // RVA: 0x8E89040
-        public void m_728(){} // RVA: 0x8E89050
-    }
-
     /// <summary>Originally: ÌÌÎÏÏÌÌÏÏÍÎÍÍÌÏÎÎÎÎÌÍÌÍ</summary>
     public class TextureCalculateLayoutInpRelated_ABA7
     {
@@ -197,52 +492,6 @@ namespace VRC.Texture
         public void m_695(){} // RVA: 0x92DB110
         public void m_F5C(){} // RVA: 0x92DB200
         public void m_ACF(){} // RVA: 0x4F3F630
-    }
-
-    /// <summary>Originally: ÎÌÏÏÌÍÏÍÏÏÏÏÎÍÏÌÍÎÌÎÌÏÏ</summary>
-    public class TextureCalculateLayoutInpRelated_B3BC
-    {
-        public UnityEngine.Texture2D <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x30
-        public UnityEngine.Sprite <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x38
-        public VRC.Localization.LocalizableString <ÏÎÎÍÌÎÏÍÍÏÎÍÌÌÏÌÎÌÎÍÍÍÏ>k__BackingField; // 0x40
-        public VRC.Localization.LocalizableString <ÍÍÏÍÏÎÎÎÎÍÍÏÏÍÎÎÎÏÌÎÍÌÍ>k__BackingField; // 0x68
-
-        // ── Methods ──
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void set_Options(){} // RVA: 0x30B890
-        public void GetEnumerator(){} // RVA: 0x4976A0
-        public void set_displayName(){} // RVA: 0x49B830
-        public void ArgumentException(){} // RVA: 0x1B6C960
-        public void get_title(){} // RVA: 0x9321690
-        public void set_title(){} // RVA: 0x93216B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void .ctor(){} // RVA: 0x9321720
-        // ── Unresolved (hash) ──
-        public void m_DB8(){} // RVA: 0x1B6CCD0
-    }
-
-    /// <summary>Originally: ÌÏÎÍÏÍÌÌÎÎÍÏÍÍÏÍÏÏÍÌÎÍÌ</summary>
-    public class TextureCalculateLayoutInputHorSibling_94C8
-    {
-        public UnityEngine.UI.Text ÎÌÌÏÎÌÏÍÏÎÏÏÏÎÎÍÎÌÍÏÌÌÌ; // 0x20
-        public UnityEngine.UI.Text ÍÎÌÌÏÏÏÌÌÎÏÏÍÍÍÎÌÏÌÌÎÏÏ; // 0x28
-
-        // ── Methods ──
-        public void IndexOf_3FBAAAC528DA(){} // RVA: 0x18AD0B0
-        public void OnDisable(){} // RVA: 0x18ACCD0
-        public void UpdateLayoutInputHorizontal(){} // RVA: 0x18ACDE0
-        public void IndexOf_F190A6FAB1FC(){} // RVA: 0x18AD2B0
-        public void IndexOf_3FBAAAC528DA_3FBAAAC528DA(){} // RVA: 0x18AD0B0
-        public void .ctor(){} // RVA: 0x18E9510
-        public void Initialize(){} // RVA: 0x18ACCD0
-        public void BinarySearch(){} // RVA: 0x18E95E0
-        public void Start(){} // RVA: 0x18E9610
-        // ── Unresolved (hash) ──
-        public void m_F05(){} // RVA: 0x9FC930
-        public void m_F62(){} // RVA: 0x18E9050
-        public void m_330(){} // RVA: 0x9FC930
-        public void m_6B3(){} // RVA: 0x18E9120
-        public void m_824(){} // RVA: 0x9FC930
     }
 
     /// <summary>Originally: ÎÏÏÎÏÎÌÍÍÎÎÏÌÌÍÏÍÌÌÍÌÎÍ</summary>
@@ -298,59 +547,6 @@ namespace VRC.Texture
         public void m_3FB(){} // RVA: 0x1B12D00
     }
 
-    /// <summary>Originally: ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ</summary>
-    public class TextureCalculateLayoutInputHorSibling_D16A
-    {
-        public TMPro.TextMeshProUGUI _d16A; // 0x20
-        public TMPro.TextMeshProUGUI ÍÎÌÌÏÏÏÌÌÎÏÏÍÍÍÎÌÏÌÌÎÏÏ; // 0x28
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x18AC5E0
-        public void Initialize(){} // RVA: 0x18AC6B0
-        public void IndexOf(){} // RVA: 0x18ACAA0
-        public void SetLocalPosition(){} // RVA: 0x18ACCA0
-        public void OnDisable(){} // RVA: 0x18ACCD0
-        public void LastIndexOf(){} // RVA: 0x18ACD10
-        public void SetLocalPosition_7A61E13E1031(){} // RVA: 0x18ACFE0
-        public void IndexOf_3FBAAAC528DA(){} // RVA: 0x18AD0B0
-        public void IndexOf_3FBAAAC528DA_E91C80D384C9(){} // RVA: 0x18AD0B0
-        public void LastIndexOf_01EA8C5FC048(){} // RVA: 0x18ACCD0
-        public void IndexOf_F190A6FAB1FC(){} // RVA: 0x18AD2B0
-        public void Start(){} // RVA: 0x18AD4B0
-        // ── Unresolved (hash) ──
-        public void m_330(){} // RVA: 0x9FC930
-        public void m_ECF(){} // RVA: 0x18ACDE0
-        public void m_1B3(){} // RVA: 0x18ACDE0
-    }
-
-    /// <summary>Originally: ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ</summary>
-    public class TextureCalculateLayoutInputHorSibling_F9FE
-    {
-        public ÍÏÎÏÏÏÌÍÏÏÍÏÌÎÌÌÏÏÍÌÎÌÌ ÌÍÎÍÎÏÌÎÏÍÎÌÏÏÌÎÍÍÎÍÍÏÏ; // 0xD0
-        public VRC.Localization.LocalizableString ÍÍÎÎÏÌÍÌÍÎÍÏÍÏÍÍÌÌÍÌÏÌÏ; // 0xD8
-        public UnityEngine.Color ÌÏÌÍÍÍÏÌÍÍÌÌÌÎÎÌÍÏÍÏÏÌÎ; // 0x100
-        public float ÏÏÍÍÏÏÎÏÏÏÎÎÎÍÌÍÎÌÌÍÍÎÌ; // 0x110
-        public 0x659891B0 ÏÌÌÍÎÌÍÏÏÎÍÏÎÏÌÏÎÎÏÌÎÎÌ; // 0x114
-        public 0x65989208 ÎÏÍÍÏÎÎÎÎÌÎÍÎÍÏÏÎÎÏÍÏÌÎ; // 0x118
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Awake(){} // RVA: 0x9414F80
-        public void OnDestroy(){} // RVA: 0x9415300
-        public void get_inputType(){} // RVA: 0x7363390
-        public void GetVideoPlayerError_277BDEF81D04(){} // RVA: 0x94160C0 | overloaded x2
-        public void OpenVideoPlayerOverlay(){} // RVA: 0x9415FB0
-        public void CloseVideoPlayerOverlay(){} // RVA: 0x9416040
-        public void RefreshVideoPlayerState(){} // RVA: 0x9416270
-        // ── 20 unresolved (hash) ──
-        public void m_246(){} // RVA: 0x9414E60
-        public void m_F8E(){} // RVA: 0x9414EC0
-        public void m_FF4(){} // RVA: 0x9414F20
-        public void m_9D6(){} // RVA: 0x94153D0
-        public void m_2BC(){} // RVA: 0x94154E0
-        // ... 15 more unresolved methods
-    }
-
     /// <summary>Originally: ÌÏÎÏÎÍÏÍÎÎÏÎÎÍÏÏÎÎÌÏÌÏÍ</summary>
     public class TextureCalculateLayoutInputHorSibling_FF16
     {
@@ -374,48 +570,71 @@ namespace VRC.Texture
         public void m_DEE(){} // RVA: 0x1854D10
     }
 
-    /// <summary>Originally: ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ</summary>
-    public class TextureCalculateLayoutInputHoriztext_B04C
+    /// <summary>Originally: ÍÌÌÏÎÌÎÎÍÏÍÏÌÌÏÏÍÎÎÍÎÏÏ</summary>
+    public class TextureFrameSetWithSize
     {
-        public VRC.Localization.LocalizableString _localizableString; // 0x7A8
-        public UnityEngine.UI.LayoutElement _copyPrefHeightTo; // 0x7D0
-        public bool _copyPrefWidth; // 0x7D8
-        public 0x6594ACD0 _prefSizeMode; // 0x7DC
-        public bool _forceMinWidthToMatchPreferredWidth; // 0x7E0
-        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<VRC.Localization.LocalizableString> ÌÍÏÌÍÍÌÌÍÍÌÌÍÍÍÏÍÎÌÎÏÏÎ; // 0x7E8
-        public bool ÎÎÏÍÎÍÏÏÎÎÏÎÎÌÌÎÌÎÏÏÍÎÍ; // 0x7F0
+        public 0x658861C8 <ÏÍÍÌÌÏÏÎÌÍÏÏÎÏÎÏÌÌÌÍÏÍÎ>k__BackingField; // 0x10
+        public string <ÍÏÌÎÌÌÏÎÎÍÍÏÌÏÌÏÏÌÏÎÏÍÍ>k__BackingField; // 0x18
+        public string <ÍÍÍÏÏÍÎÎÎÌÍÌÌÌÍÍÌÍÍÌÏÌÌ>k__BackingField; // 0x20
+        public string <ÎÎÍÌÌÎÍÍÍÏÏÎÌÍÍÍÌÏÌÏÍÏÏ>k__BackingField; // 0x28
+        public bool <ÎÎÎÌÏÏÍÏÍÌÎÍÏÍÌÌÌÍÌÏÌÏÏ>k__BackingField; // 0x30
+        public int <ÍÍÌÏÌÏÌÍÌÌÎÏÍÎÌÎÌÎÎÌÌÍÎ>k__BackingField; // 0x34
+        public string <ÎÎÍÏÌÍÌÌÎÎÌÌÏÏÍÏÌÎÌÏÌÎÏ>k__BackingField; // 0x38
+        public object <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x40
+        public UnityEngine.Vector2 <ÎÍÎÎÏÎÏÌÍÍÏÏÍÎÍÏÎÎÎÏÍÎÌ>k__BackingField; // 0x48
+        public float <ÏÎÏÏÏÍÏÌÌÎÏÌÎÎÎÏÏÌÌÌÌÍÎ>k__BackingField; // 0x50
+        public bool <ÍÌÌÌÏÎÎÍÌÌÎÍÌÍÌÎÎÏÏÍÏÎÌ>k__BackingField; // 0x54
+        public UnityEngine.Texture2D <ÌÎÌÏÎÎÍÌÏÍÎÌÏÎÍÍÍÍÍÌÏÎÏ>k__BackingField; // 0x58
+        public UnityEngine.Texture2D <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x60
+        public UnityEngine.Texture2D <ÍÎÏÌÎÌÏÏÎÏÏÏÌÎÍÌÎÏÎÍÏÌÎ>k__BackingField; // 0x68
+        public int <ÏÏÏÍÏÎÏÌÎÏÍÍÏÌÎÌÏÏÏÌÎÎÍ>k__BackingField; // 0x70
+        public 0x65886220 ÌÌÎÎÍÎÎÌÍÍÍÌÎÏÌÏÍÎÍÏÍÎÏ; // 0x74
+        public ÍÏÍÍÏÎÎÍÏÌÌÏÎÏÍÎÎÎÎÏÌÎÍ ÌÍÍÌÌÍÍÎÌÌÏÌÎÎÎÎÍÌÌÎÏÌÍ; // 0x78
 
         // ── Methods ──
-        public void get_text(){} // RVA: 0x92FC530
-        public void set_text(){} // RVA: 0x92FC940
-        public void get_state(){} // RVA: 0x33D9C0
-        public void get_state_4D4492A192B5(){} // RVA: 0x33D9C0
-        public void DefaultText(){} // RVA: 0x92FC930
-        public void DecompressStream(){} // RVA: 0x6FCFB00
-        public void DisableFontTextureRebuiltCallback(){} // RVA: 0x6FCFA80
-        public void DecodeDynamicHuffmanBlock(){} // RVA: 0x6FCFF70
-        public void DecodeDynamicHuffmanBlock_98D12D59A6D1(){} // RVA: 0x6FCFF70
-        public void Awake(){} // RVA: 0x92FCC40
-        public void OnDisable(){} // RVA: 0x92FCE60
-        public void SubTextObjects(){} // RVA: 0x92FD450
-        public void PreviousLossyScaleY(){} // RVA: 0x92FD620
-        public void RectTransformCorners(){} // RVA: 0x6FCFB10
-        public void .ctor(){} // RVA: 0x951F90
-        public void Initialize(){} // RVA: 0x92FD650
-        public void CanvasRenderer(){} // RVA: 0x92FD660
-        public void Canvas(){} // RVA: 0x92FD7E0
-        public void IsFirstAllocation(){} // RVA: 0x92FC840
-        public void CalculateLayoutInputHorizontal(){} // RVA: 0x92FDBA0
-        public void MaxCharacters(){} // RVA: 0x92FDD30
-        public void OnEnable(){} // RVA: 0x92FDE30
-        public void BaseMaterial(){} // RVA: 0x92FE190
-        // ── 14 unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x92FC540
-        public void m_F62(){} // RVA: 0x92FC800
-        public void m_330(){} // RVA: 0x92FC840
-        public void m_F9F(){} // RVA: 0x92FC870
-        public void m_864(){} // RVA: 0x92FC930
-        // ... 9 more unresolved methods
+        public void MoveNext(){} // RVA: 0x1D723F0
+        public void set_stepProgress(){} // RVA: 0x345470
+        public void set_MaxAge(){} // RVA: 0x179D760
+        public void .ctor(){} // RVA: 0x10EB4F0
+        public void Initialize(){} // RVA: 0x35A740
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void set_stepProgress_96450D8E2843(){} // RVA: 0x358D60
+        public void StartWithHighestBandwidth(){} // RVA: 0xBDB570
+        public void set_totalCount(){} // RVA: 0x475080
+        public void get_MetadataPropertyHandling(){} // RVA: 0x4C6670
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_MoveNext(){} // RVA: 0x4976A0
+        public void set_Color(){} // RVA: 0x303460
+        public void Constructor(){} // RVA: 0x3A5510
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void GetMaterial(){} // RVA: 0x10E5CF0
+        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
+        public void System.Collections.IEnumerator.get_Current_C7E7A44EF767(){} // RVA: 0x2E07C0
+        public void Constructor_327942AEFB80(){} // RVA: 0x37B380
+        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void get_Current(){} // RVA: 0x30B0C0
+        public void get_stepProgress(){} // RVA: 0x345460
+        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
+        public void set_IterationCount(){} // RVA: 0x4C5F20
+        public void set_stepProgress_96469825B4DD(){} // RVA: 0x345470
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
+        public void Constructor_EE48C800A9D2(){} // RVA: 0x3A5510
+        public void Equals(){} // RVA: 0x343E80
+        public void get_InstantiationKind(){} // RVA: 0x32A5C0
+        public void InvokeActionWithIntArgument(){} // RVA: 0x1D72740
+        public void get_Data(){} // RVA: 0x30B130
+        public void GetMaterial_4E333D97235A(){} // RVA: 0x1AF0B50
+        public void get_IsReadOnly(){} // RVA: 0x303450
+        public void GetMaterial_34DE67108BF7(){} // RVA: 0x10E5CF0
+        public void set_displayName(){} // RVA: 0x49B830
+        public void set_IterationCount_A14AA187FF54(){} // RVA: 0x4C5F20
+        public void InvokeActionWithThreeArguments(){} // RVA: 0x1D72780
+        public void InvokeActionWithBooleanArgument(){} // RVA: 0x1D728D0
+        public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
+        // ── Unresolved (hash) ──
+        public void m_624(){} // RVA: 0x1D72470
+        public void m_011(){} // RVA: 0x1D72490
     }
 
     /// <summary>Originally: ÌÏÌÌÎÎÎÏÎÎÍÌÌÍÏÎÌÌÌÏÏÎÌ</summary>
@@ -440,105 +659,83 @@ namespace VRC.Texture
         public void m_3F5(){} // RVA: 0x14E8D30
     }
 
-    /// <summary>Originally: ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ</summary>
-    public class TextureRefreshCleanupComponent_F63A
+    /// <summary>Originally: ÏÍÌÌÏÎÎÌÎÎÎÎÏÎÎÏÎÌÌÏÎÎÍ</summary>
+    public class TextureSourceSelectionBinding
     {
-        public UnityEngine.Sprite _favoriteIcon; // 0x20
-        public UnityEngine.Sprite _authoredIcon; // 0x28
-        public UnityEngine.Sprite _licensedIcon; // 0x30
-        public UnityEngine.Sprite _recentIcon; // 0x38
-        public UnityEngine.Sprite _vrcPlusFavoriteIcon; // 0x40
-        public ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
-        public string ÍÌÎÌÏÌÎÍÍÏÎÏÏÏÌÎÏÍÎÍÌÏÌ;
-        public string ÎÌÌÌÌÎÏÍÌÎÎÏÎÌÎÍÏÏÎÎÍÎÍ;
-        public int ÌÏÌÏÏÍÍÏÍÏÌÎÏÏÍÌÏÎÍÍÏÍÏ;
-        public ÏÍÍÏÏÏÎÎÌÎÌÏÌÌÎÎÏÏÌÏÏÍÌ ÎÌÌÏÏÏÌÏÌÏÌÎÎÍÎÌÍÍÍÍÏÏÎ; // 0x48
-        public System.Collections.Generic.HashSet`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> ÍÍÌÏÎÏÏÍÌÌÌÍÌÏÏÌÎÌÍÎÍÎÌ; // 0x50
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÎÍÎÌÎÌÎÎÍÍÏÏÌÏÎÌÌÏÏÏÍÌ>k__BackingField; // 0x58
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÎÍÍÏÎÍÍÌÎÎÌÌÌÎÏÏÌÌÌÌÌÎ>k__BackingField; // 0x60
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÏÎÏÏÏÍÍÍÍÏÏÎÏÌÏÍÏÍÏÎÌÍ>k__BackingField; // 0x68
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÎÌÏÌÌÏÍÏÎÌÌÏÌÎÌÎÌÍÌÌÎÌÌ>k__BackingField; // 0x70
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÍÌÎÍÌÏÏÌÏÎÏÌÎÍÍÎÎÎÎÍÍÏ>k__BackingField; // 0x78
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÍÌÏÍÎÎÍÏÌÏÎÌÍÎÎÏÏÌÌÍÏÏ>k__BackingField; // 0x80
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÌÏÌÏÌÌÏÏÌÍÌÎÍÍÎÎÏÌÍÏÎÎÎ>k__BackingField; // 0x88
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÎÎÎÍÏÏÎÌÌÍÏÎÏÌÍÏÌÏÌÍÍÏ>k__BackingField; // 0x90
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÌÌÍÍÍÎÌÍÍÏÍÍÎÏÌÌÎÍÍÍÎÎ>k__BackingField; // 0x98
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÍÎÎÌÍÏÎÏÍÏÌÏÌÏÎÌÍÌÏÏÍÎ>k__BackingField; // 0xA0
-        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÎÏÌÌÎÍÍÍÌÌÍÏÏÌÌÍÎÌÏÌÌÏÎ>k__BackingField; // 0xA8
-        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÍÌÍÏÎÎÍÍÍÎÏÍÎÌÌÌÎÍÍÏÏÏÍ>k__BackingField; // 0xB0
-        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÌÍÍÏÍÏÎÏÌÎÎÎÏÏÎÌÎÌÎÎÏÌÏ>k__BackingField; // 0xB8
-        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÎÎÏÏÌÎÍÏÍÎÌÎÌÎÍÌÏÌÎÏÎÏÏ>k__BackingField; // 0xC0
-        public ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ <ÌÎÍÎÍÌÌÎÍÎÍÍÎÎÌÏÌÍÌÍÌÍÏ>k__BackingField; // 0xC8
+        public UnityEngine.Texture[] _availableSources; // 0x30
+        public ResolutionStruct[] _defaultAvailableResolutions; // 0x38
+        public UnityEngine.Texture2D ÍÍÏÏÍÍÎÏÍÌÌÎÍÎÎÍÎÏÏÎÏÎÎ; // 0x40
+        public UnityEngine.Texture ÎÎÌÌÌÏÎÌÍÍÎÎÏÍÎÏÌÍÌÎÎÍÌ; // 0x48
+        public bool ÌÍÏÎÍÎÍÌÏÏÏÎÌÎÍÍÍÎÌÎÎÎÎ; // 0x50
 
         // ── Methods ──
-        public void GetComponentTransform(){} // RVA: 0x4C7C50
-        public void .ctor(){} // RVA: 0xCF24D0
-        public void Initialize(){} // RVA: 0x3480B0
-        public void Awake(){} // RVA: 0xCF2910
-        public void Start(){} // RVA: 0x435460
-        public void set_ResponseModels(){} // RVA: 0x358D60
-        public void FixedUpdate(){} // RVA: 0xA1C130
-        public void Update(){} // RVA: 0xCF4780
-        public void LateUpdate(){} // RVA: 0xA94E10
-        public void OnDisable(){} // RVA: 0x3A5590
-        public void get_platform(){} // RVA: 0x3FA100
-        public void OnApplicationPause(){} // RVA: 0xCF47E0
-        public void OnApplicationQuit(){} // RVA: 0x3A5510
-        public void OnBecameVisible(){} // RVA: 0x31C010
-        public void OnBecameInvisible(){} // RVA: 0xCF4870
-        public void OnCollisionEnter(){} // RVA: 0x35E970
-        public void OnCollisionStay(){} // RVA: 0xCF4900
-        public void OnCollisionExit(){} // RVA: 0xCF4B80
-        public void OnTriggerEnter(){} // RVA: 0xCF4C00
-        public void OnTriggerStay(){} // RVA: 0x37B370
-        public void OnTriggerExit(){} // RVA: 0xCF4DB0
-        public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void GetDeviceCaps(){} // RVA: 0xCF4F80
-        public void set_imageUrl_9A8C789C8F5F(){} // RVA: 0x3A55A0
-        public void get_ContractResolver(){} // RVA: 0x35E900
-        public void get_OverrideCreator(){} // RVA: 0xA902E0
-        public void Constructor(){} // RVA: 0x37B380
-        public void set_authorId(){} // RVA: 0x464450
-        public void get_releaseStatus(){} // RVA: 0x348040
-        public void get_focusController(){} // RVA: 0xA1C8C0
-        public void get_ReferenceResolverProvider(){} // RVA: 0x3482A0
-        public void GetRealtimeSinceStartup(){} // RVA: 0xCF53B0
-        public void get_thumbnailImageUrl(){} // RVA: 0xA085E0
-        public void set_pointerType(){} // RVA: 0xAE5030
-        public void set_disclaimerText(){} // RVA: 0x435470
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void set_relatedTarget(){} // RVA: 0x463060
-        public void set_focusController(){} // RVA: 0x9AA650
-        public void GetSmoothDeltaTime(){} // RVA: 0xCF6040
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void set_Follow(){} // RVA: 0x348050
-        public void get_MoveNext(){} // RVA: 0x462D00
-        public void GetSmoothDeltaTime_914E7D767F82(){} // RVA: 0xCF60E0
-        public void GetSmoothDeltaTime_B09B22A7DB2B(){} // RVA: 0xCF6170
-        public void set_relatedTarget_8E552FBAE577(){} // RVA: 0x463060
-        public void set_unityPackages(){} // RVA: 0x35E980
-        public void set_search(){} // RVA: 0x3482B0
-        public void set_unityVersion(){} // RVA: 0x348130
-        public void GetTimeSamples(){} // RVA: 0xCF6DE0
-        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0xA96D30
-        public void set_thumbnailImageUrl(){} // RVA: 0x9AA5F0
-        public void get_unityVersion(){} // RVA: 0x348120
-        public void set_unityPackages_5B402DECEFEB(){} // RVA: 0x35E980
-        public void GetQualityLevelQualitySettings(){} // RVA: 0xCF8A60
-        public void OnEnable(){} // RVA: 0xCF8C30
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void ConfigureAudio(){} // RVA: 0xCF8DD0
-        public void get_thumbnailImageUrl_7D91939D7FD8(){} // RVA: 0xA085E0
-        public void set_description(){} // RVA: 0xB54600
-        public void OnDestroy(){} // RVA: 0xCF9670
-        public void ReadColliderState(){} // RVA: 0x796DE0
-        // ── 30 unresolved (hash) ──
-        public void m_7B9(){} // RVA: 0xCF1DE0
-        public void m_068(){} // RVA: 0xCF1F50
-        public void m_D0F(){} // RVA: 0xCF22A0
-        public void m_3B0(){} // RVA: 0xCF5020
-        public void m_2EE(){} // RVA: 0xCF5200
-        // ... 25 more unresolved methods
+        public void AddEntry(){} // RVA: 0x196B070
+        public void RemoveAtSwapBack(){} // RVA: 0x196B110
+        public void .ctor(){} // RVA: 0x196B1B0
+        public void Initialize(){} // RVA: 0x196B3B0
+        public void SetItem(){} // RVA: 0x196B4B0
+        public void ContainsEntry(){} // RVA: 0x196B580
+        public void get_ResultOnSuccess(){} // RVA: 0x3978E0
+        public void AddEntry_92F3A82E38C2(){} // RVA: 0x196B070
+        public void RemoveAtSwapBack_3751C1E87A43(){} // RVA: 0x196B6B0
+        public void InsertItem(){} // RVA: 0x196BA70
+        public void ConstructWithCapacity(){} // RVA: 0x196C000
+        public void GetEnumerator(){} // RVA: 0x196C0A0
+        public void InsertItem_D5C16A906E72(){} // RVA: 0x196C1A0
+        public void ContainsEntry_59D7F4C8B5FB(){} // RVA: 0x196B580
+        public void get_minHeight(){} // RVA: 0xAFF380
+        public void ConstructWithCapacity_404CE80ADE11(){} // RVA: 0x196C5D0
+        public void get_MoveNext(){} // RVA: 0x4976A0
+        public void AddEntry_CF15DBF845D8(){} // RVA: 0x196B070
+        public void AddEntry_544B57A63311(){} // RVA: 0x196B070
+        public void MemSet_25F3DF01548B(){} // RVA: 0x4930B0
+        public void get_MoveNext_BF4E031FFA02(){} // RVA: 0x35A740
+        public void RemoveEntry(){} // RVA: 0x196C7A0
+        // ── Unresolved (hash) ──
+        public void m_DC8(){} // RVA: 0x196B5E0
+        public void m_AB9(){} // RVA: 0x196BE70
+        public void m_953(){} // RVA: 0x196C800
+    }
+
+    /// <summary>Originally: ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ</summary>
+    public class TouchpadLoadingImageView
+    {
+        public UnityEngine.Texture2D _loadingTexture; // 0x20
+        public UnityEngine.UI.RawImage ÎÌÌÌÍÌÎÍÍÎÏÍÏÍÍÏÎÍÎÌÌÏÍ; // 0x28
+        public bool ÍÍÌÏÎÌÍÌÏÎÍÌÍÎÎÏÎÎÏÍÌÏÍ; // 0x30
+        public System.Nullable`1<bool> ÌÎÍÌÍÎÍÌÍÌÌÏÏÏÌÍÌÌÍÎÎÌÎ; // 0x31
+        public UnityEngine.UI.AspectRatioFitter ÌÌÌÏÎÍÍÏÍÍÎÎÎÌÎÍÎÏÏÎÌÍÍ; // 0x38
+        public ÏÏÎÎÎÎÍÌÎÎÌÏÌÎÏÏÏÌÌÏÍÍÌ ÏÏÎÏÌÏÍÌÎÍÍÏÏÌÎÌÎÌÌÍÏÎÌ; // 0x40
+
+        // ── Methods ──
+        public void Update_3CB451386F3C(){} // RVA: 0x92E8800
+        public void RaiseCancellation(){} // RVA: 0x92E8A40
+        public void Start_C9ED83B2DF2E(){} // RVA: 0x92E98D0
+        public void GetShouldUseSystemGestureMaterial(){} // RVA: 0x358D50
+        public void OnTouchpadPressed(){} // RVA: 0x92E9960
+        public void Awake(){} // RVA: 0x92E9BB0
+        public void OnCollisionExit(){} // RVA: 0x92E9DC0
+        public void StartCoroutine_Auto(){} // RVA: 0x92E9E50
+        public void ReadTransformState(){} // RVA: 0x92EA120
+        public void OnTouchpadClick(){} // RVA: 0x92EA1B0
+        public void .ctor(){} // RVA: 0x92DF5C0
+        public void OnTouchpadDoubleClick(){} // RVA: 0x92EA850
+        public void OnTouchpadClick_AF5D26F574E6(){} // RVA: 0x5E08120
+        public void GetNameB917F2E759B3(){} // RVA: 0x92EA8A0
+        public void OnTouchpadSwipeLeft(){} // RVA: 0x92EA8F0
+        public void OnTouchpadSwipeUp(){} // RVA: 0x92EAA80
+        public void OnTouchpadSwipeDown(){} // RVA: 0x92EAAA0
+        public void GetTouchpadPosition(){} // RVA: 0x92EAAC0
+        public void HandleTouchpadInput(){} // RVA: 0x92EAB40
+        public void OnDestroy(){} // RVA: 0x92EAD80
+        public void ResetTouchpadState(){} // RVA: 0x92E8A40
+        // ── Unresolved (hash) ──
+        public void m_5CC(){} // RVA: 0x92E8A70
+        public void m_073(){} // RVA: 0x92E9110
+        public void m_834(){} // RVA: 0x92E9360
+        public void m_1A3(){} // RVA: 0x92E9BA0
+        public void m_44D(){} // RVA: 0x92E9F40
+        public void m_F39(){} // RVA: 0x92EAA60
     }
 
     /// <summary>Originally: ÍÌÍÎÌÌÏÏÌÏÏÌÏÎÏÌÏÎÍÌÏÎÎ</summary>

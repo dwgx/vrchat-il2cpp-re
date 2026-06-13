@@ -1,0 +1,684 @@
+{
+  "ÌÌÍÏÍÍÌÌÌÌÏÍÎÌÍÎÎÏÎÏÌÏÍ": {
+    "name": "VRCUrlInputFieldEventProxy",
+    "reason": "Wraps VRC.SDK3.Components.VRCUrlInputField and exposes pointer/select/submit/cancel/value edit events.",
+    "source": "fieldtype"
+  },
+  "ÍÌÍÏÎÌÌÏÍÍÎÌÏÏÌÎÌÍÍÍÌÍÍ": {
+    "name": "AVProVideoPlayerMediaBinding",
+    "reason": "Holds both VRCAVProVideoPlayer and RenderHeads AVPro MediaPlayer references.",
+    "source": "fieldtype"
+  },
+  "ÎÍÍÎÏÏÎÍÎÌÏÍÎÏÌÎÌÍÌÎÎÏÍ": {
+    "name": "VRCUnityVideoPlayerBinding",
+    "reason": "Single-purpose holder around VRC.SDK3.Video.Components.VRCUnityVideoPlayer with cleanup-style methods.",
+    "source": "fieldtype"
+  },
+  "ÏÌÌÎÎÎÍÎÏÏÌÎÌÍÌÍÏÏÌÍÌÌÍ": {
+    "name": "VideoClipPlayerBinding",
+    "reason": "Coherent video signature: VideoClip array, selected VideoClip, VideoPlayer, and GameObject host.",
+    "source": "fieldtype"
+  },
+  "ÎÎÍÍÍÍÏÍÎÌÍÍÎÍÌÍÍÌÌÏÍÌÎ": {
+    "name": "PrintCameraPickup",
+    "reason": "VRC_Pickup pair with lens renderers/materials, lens parent/up indicator, and viewfinder/lens audio sources.",
+    "source": "fieldtype"
+  },
+  "ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ": {
+    "name": "PhotoPrintPickupPreview",
+    "reason": "Print renderer/collider/canvas groups plus VRCSDK2.VRC_Pickup and streamer-mode texture indicate a pickup print preview object.",
+    "source": "fieldtype"
+  },
+  "ÎÍÏÍÍÏÏÎÎÍÌÏÌÏÎÏÌÎÏÏÍÎÎ": {
+    "name": "VRCInputFieldView",
+    "reason": "Input UI cluster: TMP_InputField, placeholder label/icon, character-limit text, clear/overlay buttons, and RectTransform.",
+    "source": "fieldtype"
+  },
+  "ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ": {
+    "name": "ModerationListsCache",
+    "reason": "Stores dictionaries of ApiModeration, ApiPlayerModeration, and ApiAvatarModeration lists keyed by string.",
+    "source": "fieldtype"
+  },
+  "ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ": {
+    "name": "VRCPlayerApiUserState",
+    "reason": "Player identity/state holder with VRC.Core.APIUser and VRC.SDKBase.VRCPlayerApi fields.",
+    "source": "fieldtype"
+  },
+  "ÎÎÍÏÌÎÎÌÍÎÏÌÌÍÎÏÏÎÌÎÌÍÎ": {
+    "name": "IconTextPointerTooltip",
+    "reason": "Pointer UI object with TextMeshPro text, VRC ImageEx icon, default LocalizableString text, and default Sprite icon.",
+    "source": "fieldtype"
+  },
+  "ÎÏÎÍÍÎÌÍÎÏÌÌÎÎÍÏÏÏÍÎÍÏÌ": {
+    "name": "EmojiCategoryCatalog",
+    "reason": "Maintains two VRC.UI.Client.Emoji.EmojiCategoryList fields plus emoji-category backing collections.",
+    "source": "fieldtype"
+  },
+  "ÍÏÌÏÏÍÌÍÎÍÏÏÏÏÍÍÏÌÍÍÏÎÍ": {
+    "name": "StickerCollectionPrefabPlacement",
+    "reason": "StickerCollectionPrefab combined with layer masks and a GameObject placement reference.",
+    "source": "fieldtype"
+  },
+  "ÎÌÏÏÌÍÏÍÏÏÏÏÎÍÏÌÍÎÌÎÌÏÏ": {
+    "name": "LocalizedTextureOption",
+    "reason": "Texture2D and Sprite paired with two LocalizableString fields for display/title text.",
+    "source": "fieldtype"
+  },
+  "ÎÏÌÌÏÌÎÍÎÌÍÍÌÌÍÌÏÍÌÏÎÎÍ": {
+    "name": "WorldBannerListPanel",
+    "reason": "World-list UI fields: top banner, GridLayoutGroup, world cell prefab, randomize button, and LocalizableString description.",
+    "source": "fieldtype"
+  },
+  "ÏÎÌÎÌÌÌÍÏÌÌÌÌÍÌÍÌÌÌÌÎÏÏ": {
+    "name": "WorldDiscoveryGridPanel",
+    "reason": "Discovery grid UI with banner carousel, description background, world cell prefabs, randomize button, opt-in panel, and content grid panel.",
+    "source": "fieldtype"
+  },
+  "ÎÍÍÍÏÌÏÎÏÎÏÏÍÏÍÌÏÎÎÎÎÌÎ": {
+    "name": "WorldResultsGridPanel",
+    "reason": "World/world-instance cell prefabs, primary/secondary GridLayoutGroups, home label, and VRC+ locked list content indicate a world results grid.",
+    "source": "fieldtype"
+  },
+  "ÍÎÍÎÎÎÌÍÏÌÏÎÎÏÎÎÌÏÌÏÎÎÏ": {
+    "name": "AvatarImageUrlProvider",
+    "reason": "ApiAvatar field plus get/set/GetImageUrl methods identify avatar image URL extraction.",
+    "source": "fieldtype"
+  },
+  "ÌÏÌÍÎÍÍÏÌÎÎÌÎÎÍÌÏÍÍÍÍÏÏ": {
+    "name": "WebCamDeviceSelection",
+    "reason": "WebCamTexture with nullable selected WebCamDevice and WebCamDevice array is a webcam device selection holder.",
+    "source": "fieldtype"
+  },
+  "ÍÏÍÍÎÏÏÍÎÍÌÌÎÌÏÌÏÌÎÎÍÍÍ": {
+    "name": "AVProMovieCaptureBinding",
+    "reason": "Direct RenderHeads.Media.AVProMovieCapture.CaptureBase reference with GameObject host.",
+    "source": "fieldtype"
+  },
+  "ÌÏÎÎÍÍÌÎÎÏÏÎÎÎÎÎÎÌÏÍÏÍÎ": {
+    "name": "LegacyInputFieldEventProxy",
+    "reason": "UnityEngine.UI.InputField wrapper exposing pointer/select/value-change edit events.",
+    "source": "fieldtype"
+  },
+  "ÎÏÏÎÎÎÌÍÏÍÍÍÌÍÌÍÌÍÎÏÏÌÏ": {
+    "name": "TMPInputFieldEventProxy",
+    "reason": "TMPro.TMP_InputField wrapper exposing pointer/select/value-change edit events.",
+    "source": "fieldtype"
+  },
+  "ÌÏÍÎÏÏÎÌÍÎÍÌÍÏÏÍÏÌÎÍÎÌÎ": {
+    "name": "LocalizedToggleObjectSwitcher",
+    "reason": "LocalizableString name, Toggle, and paired target GameObjects to enable/disable indicate a localized toggle object switcher.",
+    "source": "fieldtype"
+  },
+  "ÍÍÏÎÌÍÎÏÎÍÌÏÎÌÌÍÌÌÍÎÎÏÏ": {
+    "name": "MainMenuPlacementOffset",
+    "reason": "Direct VRC.UI.Elements.MainMenuPlacementData plus Vector3 placement offset.",
+    "source": "fieldtype"
+  },
+  "ÎÎÎÏÍÎÌÎÏÏÍÍÏÎÏÌÎÎÌÍÏÍÌ": {
+    "name": "ChallengeEventCallbacks",
+    "reason": "Contains callbacks for VRC.DataModel.Challenges.ChallengeUpdateEvent and ChallengeCompleteEvent.",
+    "source": "fieldtype"
+  },
+  "ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ": {
+    "name": "VideoPlayerOverlayStatusText",
+    "reason": "LocalizableString plus Color and video overlay methods such as OpenVideoPlayerOverlay, CloseVideoPlayerOverlay, and GetVideoPlayerError.",
+    "source": "fieldtype"
+  },
+  "ÏÎÏÎÍÍÌÌÎÍÏÏÏÌÌÌÍÌÏÎÌÌÏ": {
+    "name": "XRInputDeviceSet",
+    "reason": "Three UnityEngine.XR.InputDevice fields identify an XR input-device set/triple.",
+    "source": "fieldtype"
+  },
+  "ÌÌÌÌÏÎÌÎÎÍÎÏÏÌÌÎÍÌÎÌÌÌÌ": {
+    "name": "LegacyAVProSyncVideoStreamBinding",
+    "reason": "AVPro MediaPlayer, VRCSDK2 VRC_SyncVideoStream, UI Text, and RemoteSetVideos/RemoteSetPlaylist methods form a legacy synced video-stream binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÌÌÎÌÌÍÍÍÎÎÌÌÌÌÎÎÎÏÌÏÏÍ": {
+    "name": "WorldInstanceConnectionContext",
+    "reason": "ApiWorld and ApiWorldInstance fields plus OnConnectedToMaster indicate world-instance connection state.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ": {
+    "name": "TMPDisplayClearTextView",
+    "reason": "TMP placeholder/display text fields with a clear-display GameObject and OnValueChanged method identify a clearable text display view.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÌÎÍÎÌÎÌÍÍÎÎÏÏÏÎÎÎÍÎÌÎÏ": {
+    "name": "UdonBehaviourNetworkSyncQueue",
+    "reason": "UdonBehaviour paired with a VRC LimitedCapacityList and Encode/Decode/NeedsSync methods indicates queued Udon network sync data.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÍÌÎÏÎÌÎÌÍÍÏÍÍÎÌÌÌÍÌÎÏÌ": {
+    "name": "CameraRemoteLaserVisuals",
+    "reason": "remoteShape, lens/up-indicator renderers, screenshot/timer audio, and line renderers match camera remote laser/visual feedback.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ": {
+    "name": "LocalizedLayoutTextElement",
+    "reason": "LocalizableString with LayoutElement and get_text/set_text plus CalculateLayoutInputHorizontal identifies a localized layout text element.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÍÏÍÍÍÏÍÍÎÏÏÏÌÌÍÎÍÌÌÎÏÌ": {
+    "name": "PlayerInputActionsAssetBinding",
+    "reason": "InputActionAsset, InputActionMap, many InputAction fields, and bindingMask/controlSchemes/devices methods identify an input actions binding wrapper.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÍÏÏÎÌÍÏÎÏÌÏÎÍÏÍÍÌÏÍÌÎÏ": {
+    "name": "AvatarPreviewRuntimeAnimatorBinding",
+    "reason": "ApiAvatar with preview GameObjects and RuntimeAnimatorController fields points to an avatar preview animator binding.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ": {
+    "name": "VRCPlayerAvatarRuntimeState",
+    "reason": "VRCPlayerApi, ApiAvatar, Animator, Texture2D, and avatar network/animator methods identify player avatar runtime state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÎÌÍÎÏÏÎÍÎÏÌÏÌÎÎÏÏÌÌÎÌÏ": {
+    "name": "StyledImageSpriteCallback",
+    "reason": "Action<Sprite>, VRC ImageEx, and StyleElement indicate a styled image sprite callback binding.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÏÌÎÎÌÌÎÍÎÏÎÍÎÍÌÌÍÎÏÍÏÌ": {
+    "name": "HumanoidTransformRestorePlayable",
+    "reason": "AnimationScriptPlayable, PlayableGraph, AnimationLayerMixerPlayable, and humanoid transform restore/cache methods identify an avatar transform restore playable.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÌÏÏÌÍÌÏÌÎÌÍÍÎÏÎÎÎÍÎÏÏ": {
+    "name": "HumanoidTransformPoseCache",
+    "reason": "Vector3/Quaternion pose fields with HasValidHumanoidTransforms, TryReadHumanoidTransforms, and RestoreLocalTransformState methods identify a humanoid pose cache.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ": {
+    "name": "GroupsStorageCacheContext",
+    "reason": "GroupsStorage and GroupCache fields form a focused groups cache/storage context.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ": {
+    "name": "ContentFilterIconSet",
+    "reason": "favorite/authored/licensed/recent/VRC+ favorite Sprite fields indicate a content filter icon set.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÎÍÏÍÌÌÎÎÍÏÍÍÏÍÏÏÍÌÎÍÌ": {
+    "name": "LegacyTextHorizontalLayoutUpdater",
+    "reason": "Two Unity UI Text fields plus UpdateLayoutInputHorizontal identify a legacy text horizontal layout updater.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ": {
+    "name": "TransformChainNetworkReadySolver",
+    "reason": "GameObject and Animator fields with BuildTransformChainPose, SolveTransformChainPositions, and OnNetworkReady methods indicate a transform-chain network-ready solver.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÏÎÌÌÏÌÏÌÎÍÌÏÎÎÏÏÌÎÌÍÎ": {
+    "name": "LineRendererEndpointPair",
+    "reason": "Two Transform endpoints and two LineRenderer fields with IsDataValid/IsInitialized methods indicate a line-renderer endpoint pair.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ": {
+    "name": "WorldStationInteractableBinding",
+    "reason": "VRCStation variants, UdonBehaviour, VRC_Interactable, VRC_PropController, and UseStation/ExitStation methods identify a world station interactable binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÏÏÏÎÏÍÍÎÎÏÏÏÏÍÏÎÏÏÎÍÎÎ": {
+    "name": "LocalizedSpriteOption",
+    "reason": "LocalizableString paired with a Sprite-typed asset wrapper indicates a localized sprite option.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÌÌÏÎÌÎÎÍÏÍÏÌÌÏÏÍÎÎÍÎÏÏ": {
+    "name": "TextureFrameSetWithSize",
+    "reason": "Vector2 size plus multiple Texture2D fields and frame/color methods indicate a texture frame set with dimensions.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÌÌÏÎÎÎÏÌÌÏÌÍÎÎÎÎÎÌÌÌÎÌ": {
+    "name": "CameraTransformSkyboxBinding",
+    "reason": "Transform and _cameraTransform fields with GetSkybox and ProcessTransform methods identify a camera transform/skybox binding.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ": {
+    "name": "WorldInstanceAnimatedTextureEntry",
+    "reason": "ApiWorldInstance, LocalizableString, Color, Texture2D, and animated texture methods identify a world-instance animated texture entry.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÌÎÌÌÌÎÎÌÎÎÍÍÍÍÌÏÍÏÏÌÏÏ": {
+    "name": "ScrollRectCanvasGroupPointerGate",
+    "reason": "CanvasGroup with ScrollRect and pointer-handler naming indicates a scroll area pointer gate.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÌÎÎÍÎÎÍÏÌÎÎÎÎÍÍÌÌÎÎÌÌÎ": {
+    "name": "HierarchyTitleIndicatorView",
+    "reason": "_titleContainer, _childIndicator, and separator GameObjects identify a hierarchy/title indicator view.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÌÎÎÎÍÌÌÌÏÌÏÏÌÎÍÏÍÏÎÏÍÌ": {
+    "name": "FilteredAvatarShaderMaterialSet",
+    "reason": "Texture2D, Shader, Material, filtered-avatar prefab, and error-avatar prefab fields indicate filtered avatar shader/material assets.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÌÏÎÍÏÌÌÏÏÌÎÌÌÌÎÎÍÎÌÏÍÏ": {
+    "name": "ToggleLabelOptionView",
+    "reason": "Toggle plus TMP_Text label and GetEnabled method identify a labeled toggle option view.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÍÌÌÏÎÌÏÎÍÌÍÏÏÌÌÏÍÎÍÌÎÌ": {
+    "name": "SpawnPlacementPrefabConfig",
+    "reason": "spawnPrefab, loadingVisualizerPrefab, and placementLayerMask fields identify placement/spawn prefab configuration.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÍÌÎÍÌÌÎÏÌÎÏÍÌÎÍÌÌÏÌÎÎÏ": {
+    "name": "CameraRenderTexturePreviewBinding",
+    "reason": "GameObject, RenderTexture, Camera, previewParent Transform, and Vector2 fields indicate a camera preview render-texture binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÍÎÍÎÍÏÍÎÎÍÎÎÎÍÏÌÏÎÏÏÍÎ": {
+    "name": "LocalizedColorStylePalette",
+    "reason": "LocalizableString wrapper plus multiple Color wrapper fields indicate a localized color/style palette.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÍÎÎÎÌÏÍÎÍÏÍÍÏÎÎÎÌÎÎÌÎÎ": {
+    "name": "TriggerRelayColliderCache",
+    "reason": "VRCTriggerRelay with List<Collider> and collection-cache methods indicate a trigger relay collider cache.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÌÌÍÍÍÏÍÌÎÏÎÍÌÏÎÎÎÍÍÌÎ": {
+    "name": "DebugReturnButtonPrefabSet",
+    "reason": "labelPrefab, spacePrefab, buttonPrefab, and DebugReturn methods identify a debug-return button prefab set.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÌÍÏÏÌÍÍÎÍÏÌÍÏÌÌÏÎÍÎÍÌ": {
+    "name": "AnimatedTextureDataDictionary",
+    "reason": "Three Texture2D asset-wrapper fields plus VRC SDK3 DataDictionary and SetItem methods indicate animated texture dictionary data.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÎÌÎÏÎÌÍÏÍÍÍÌÎÌÎÎÏÍÏÎÎÍ": {
+    "name": "VirtualizedScrollLayoutController",
+    "reason": "RectTransform content, scrollbar prefab, StyleEngine, ScrollRect, Scrollbar, Rect lists, and layout methods identify a virtualized scroll layout controller.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÌÏÏÍÎÌÏÍÎÍÎÏÏÌÏÍÌÍÏÍÌ": {
+    "name": "VRCTriggerDataStorageNetworkReadyBinding",
+    "reason": "HashSet<VRC_Trigger>, target VRC_Trigger, VRC_DataStorage, Collider, and OnNetworkReady methods identify a trigger/data-storage network-ready binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ": {
+    "name": "PortalPlaceholderPrefabSettings",
+    "reason": "_portalPrefab and _placeholderPrefab GameObjects plus settings initialization methods identify portal placeholder prefab settings.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ": {
+    "name": "LocalizedSpriteItem",
+    "reason": "Repeated identical entries pair LocalizableString with Sprite, forming a localized sprite item.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÎÎÎÌÏÎÎÌÏÍÌÏÌÎÎÌÏÎÍÍÌÎ": {
+    "name": "NewIndicatorButton",
+    "reason": "_button plus _newIndicator GameObject fields identify a button with a new-item indicator.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ": {
+    "name": "PickupInteractableReferenceSystem",
+    "reason": "VRC_Pickup, Rigidbody, List<VRC_Interactable>, and reference initialization/clear methods indicate a pickup interactable reference system.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÏÍÏÎÎÍÌÎÍÌÍÏÍÏÏÌÌÍÏÎÍ": {
+    "name": "AnimatorAnimationNetworkSyncable",
+    "reason": "Animator and Animation fields with Encode/Decode/NeedsSync methods identify network-synced animation state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÎÏÏÍÌÍÎÏÍÏÏÍÍÍÎÍÍÌÎÌÌÍ": {
+    "name": "AvatarPedestalDragBounds",
+    "reason": "_avatarPedestalObj, _layout, light GameObject, BoxCollider bounds, and pointer/drag methods identify avatar pedestal drag bounds.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÌÌÌÏÎÎÏÍÌÏÎÌÎÍÍÏÌÎÏÌÎ": {
+    "name": "StyledConfigurableJointReferenceSet",
+    "reason": "GameObjects, Transforms, StyleEngine, and ConfigurableJoint/physics methods indicate styled configurable-joint reference data.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÍÏÌÏÎÌÍÏÍÌÏÍÍÌÎÎÌÎÌÎÏÎÎ": {
+    "name": "CursorArrowLineIndicator",
+    "reason": "cursor, arrow, invalid, outline, and lineRenderer fields identify a cursor/arrow line indicator.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÍÌÎÎÍÍÌÎÍÏÎÎÎÏÍÎÏÍÏÌÍ": {
+    "name": "NetworkColorStateSerializer",
+    "reason": "Three Color32 fields plus ForwardInputFlagToSerializer, SerializeNetworkState, DeserializeNetworkState, and SendNetworkEvent methods indicate network color state serialization.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÍÌÎÎÍÍÏÎÎÏÍÍÏÍÌÌÏÍÎÌÌ": {
+    "name": "AvatarDescriptorCleanupContext",
+    "reason": "Animator plus VRC_AvatarDescriptor, VRCAvatarDescriptor, GameObject, and Vector3 fields indicate avatar descriptor cleanup/context state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÎÍÏÍÏÎÌÎÏÍÍÌÌÌÏÌÍÎÎÎÍ": {
+    "name": "PlayerAudioListenerTransformNet",
+    "reason": "audioListener and Transform fields with PlayerNet/network-state methods indicate player audio-listener transform network state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÎÏÍÌÏÍÏÌÎÌÍÍÍÍÍÍÌÍÌÍÏ": {
+    "name": "IMDrawTransformGizmoController",
+    "reason": "Transform, Sprite, GameObjects, IMDraw, Vector3/Quaternion fields and DrawGizmoLine/GetPosition/GetRotation methods identify an IMDraw transform gizmo controller.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÍÏÎÏÏÏÏÎÎÍÌÍÏÍÌÌÌÍÌÍÌÏÏ": {
+    "name": "OVRPluginCameraTrackerState",
+    "reason": "camera/display/tracker/boundary fields with runtimeSettings/profile/HMD/audio/focus/colorGamut and headPoseRelativeOffset accessors identify OVR plugin camera tracker state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÌÌÎÍÎÌÎÏÌÎÌÍÏÎÎÎÍÎÌÍÌÎ": {
+    "name": "OVRTouchpadButtonPanel",
+    "reason": "CanvasGroup, RectTransform, multiple Buttons, and touchpad swipe/click handlers identify an OVR touchpad button panel.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÌÌÏÎÏÌÌÏÎÎÍÍÏÍÏÌÏÌÎÏÌÎ": {
+    "name": "SelectableCanvasGroupPanel",
+    "reason": "Canvas, CanvasGroup, GameObjects, OnSelect, and isActiveAndEnabled methods identify a selectable canvas-group panel.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÎÌÍÎÎÏÎÍÏÎÌÌÍÍÍÍÎÌÍÎÌÌÎ": {
+    "name": "ImagePreviewLoadingErrorPanel",
+    "reason": "Repeated identical entries with previewImage RawImage plus loadingPanel and errorPanel GameObjects identify an image preview loading/error panel.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÌÏÌÎÏÎÌÌÌÍÏÎÏÎÍÎÏÌÍÎÍÌ": {
+    "name": "AnimatorTransformPoseCache",
+    "reason": "RuntimeAnimatorController, Vector3/Quaternion pose fields, and UpdateTransformPose/CreateTransformPoseCache/RestoreCachedTransformPoses methods identify an animator transform pose cache.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÌÏÍÍÌÎÌÍÌÌÏÌÎÍÍÍÎÏÏÎÎÏ": {
+    "name": "AVProLowLatencyVideoPlayerBinding",
+    "reason": "VRCAVProVideoPlayer and AVPro MediaPlayer fields with low-latency/video-height/PlayURL methods identify an AVPro low-latency video player binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÍÌÎÏÎÎÎÌÍÌÍÌÌÌÏÌÍÌÏÏÌÌ": {
+    "name": "FolderStatusRowView",
+    "reason": "innerTransform, folderImage, statusImage, playingObj, and cancelObj fields identify a folder/status row view.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÍÍÌÍÌÌÎÌÌÏÏÍÏÍÍÍÍÏÌÏÍÎ": {
+    "name": "SubmitImageBackgroundButton",
+    "reason": "_image and _background UI Image fields with OnSelect, OnSubmit, and OnPointerClick methods identify an image-backed submit button.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÍÍÌÍÏÏÎÍÍÌÏÎÎÎÍÌÎÎÎÏÍÍ": {
+    "name": "TextureAudioRendererPreview",
+    "reason": "Texture2D pair, AudioClip, AudioSource, Renderer, and imageUrl/pointer methods indicate a texture/audio renderer preview object.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÎÍÎÌÏÏÏÌÏÏÍÌÏÏÎÎÌÍÏÏÎÎÎ": {
+    "name": "StyledButtonObjectView",
+    "reason": "Button, GameObject, and StyleElement fields indicate a styled button/object view.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ": {
+    "name": "TMPTextHorizontalLayoutPair",
+    "reason": "Two TextMeshProUGUI fields in a horizontal-layout named class indicate a TMP text horizontal layout pair.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÎÍÏÎÍÍÏÌÏÎÏÏÎÍÎÎÏÌÏÍÎÍÏ": {
+    "name": "VRCPickupNetworkPhysicsState",
+    "reason": "VRCPickup, TrailRenderer, Transform, Collider/collider arrays, InputActions, visualsParent, and PlayerNet/network methods identify pickup network physics state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÌÎÎÍÏÏÏÎÎÏÏÍÍÏÎÌÏÎÏÎÎ": {
+    "name": "PickupCaptureAnchorModel",
+    "reason": "pointModel and anchorModel Transforms with OnPickup/OnPickupUseDown/Interact and capture-method methods identify pickup capture anchor models.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÌÎÏÏÌÎÏÎÎÍÍÍÌÏÏÍÌÍÌÎÌ": {
+    "name": "AnimatedEmojiTextureDefinition",
+    "reason": "Material, profiler markers, Texture2D wrappers, and animated emoji methods for frames/FPS/effect bundle/display texture identify an animated emoji texture definition.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÌÏÌÍÍÌÌÌÌÌÎÏÍÍÎÍÌÍÍÏÍ": {
+    "name": "XYButtonRectBinding",
+    "reason": "RectTransform y field, Button field, and SetX/SetY methods identify an XY button rect binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÌÏÎÏÏÎÍÎÏÍÎÎÎÍÎÏÏÌÎÎÍ": {
+    "name": "PhotonDisconnectMessageHandler",
+    "reason": "PhotonPeer, AppSettings, ConnectionHandler, EventData/OperationResponse callbacks, and Process/Send/ReceiveDisconnectMessage methods identify a Photon disconnect message handler.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÎÌÍÏÌÎÌÏÏÎÎÌÏÏÏÍÌÏÌÏÏ": {
+    "name": "AnimatedEmojiMaterialSet",
+    "reason": "pausedAnimatedEmojiOverlayMaterial, emojiSpriteMaterial, and maskMaterial fields identify animated emoji materials.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÎÎÏÌÏÏÍÎÍÎÎÏÎÎÎÌÍÎÌÏÌÏ": {
+    "name": "LegacyUnitySyncVideoPlayerBinding",
+    "reason": "Unity VideoPlayer, VRCSDK2 VRC_SyncVideoPlayer, UI Text, and RemoteSetPlaylist/RemoteSetVideos methods identify a legacy Unity sync video player binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÏÌÍÏÏÍÎÎÎÌÍÍÌÍÎÏÌÎÌÎÎÌ": {
+    "name": "DisabledAlertUnityEventButton",
+    "reason": "_disabledAlertMessage LocalizableString plus multiple UnityEvent fields and pointer click/down/up methods identify a button with disabled-alert events.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÏÌÎÌÌÎÎÏÏÎÌÎÍÍÎÎÏÍÍÏÍÏ": {
+    "name": "VRChatProductPurchaseBinding",
+    "reason": "ApiVRChatProductDetails paired with Unity Purchasing Product indicates a VRChat product purchase binding.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ": {
+    "name": "LocalizedHttpStatusErrorInfo",
+    "reason": "Multiple LocalizableString fields plus InitializeDefaultStatusResults and GetHttpStatusErrorInfo methods identify localized HTTP status error info.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÏÎÌÌÎÌÏÏÏÍÏÎÍÍÏÍÌÍÍÌÏÎ": {
+    "name": "TouchscreenLocalizationStrings",
+    "reason": "simulatedTouchscreen and instance LocalizableString fields indicate touchscreen-related localized strings.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÏÏÌÍÎÍÌÌÍÌÎÌÌÎÌÌÏÏÎÌÎÌ": {
+    "name": "StyledPointerTargetButton",
+    "reason": "LocalizableString callback, Graphic, StyleElement, CanvasGroup, and pointer/click target validation methods identify a styled pointer target button.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ": {
+    "name": "PropSpawnPreviewAudioBinding",
+    "reason": "prop instance/follower fields, hidden preview MeshFilter, spawn AudioSource, and spawn AudioClip identify prop spawn preview audio binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÌÌÌÍÏÍÎÎÏÍÎÍÍÏÏÏÎÍÏÍÍÍ": {
+    "name": "IconStatusDescriptionView",
+    "reason": "Icon/IconSecondary GameObjects, TMP text, and SetStatusDescription method identify an icon status description view.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÌÌÎÌÌÌÍÏÏÍÏÎÍÎÏÏÎÏÏÍÌÎ": {
+    "name": "LocalizedSpriteAssetBinding",
+    "reason": "Sprite asset wrapper with LocalizableString fields indicates a localized sprite asset binding.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÏÌÌÎÍÎÎÍÌÌÌÌÎÍÌÍÎÌÎÍÍÍÏ": {
+    "name": "PointerScreenDeltaPosition",
+    "reason": "Vector2 fields plus screenPosition, deltaPosition, and depth methods identify pointer screen/delta position state.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÏÌÍÍÎÎÏÎÍÎÏÎÍÎÎÍÍÍÎÎÏÎÌ": {
+    "name": "AvatarCameraScrollPreview",
+    "reason": "avatarImage RawImage, cameraButton, IMDraw, and OnScroll method identify an avatar camera scroll preview UI.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ": {
+    "name": "TouchpadLoadingImageView",
+    "reason": "_loadingTexture, RawImage, AspectRatioFitter, and touchpad click/swipe handlers identify a touchpad loading image view.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÍÌÌÍÎÎÍÏÍÍÌÏÎÏÌÍÏÍÍÌÌÏ": {
+    "name": "OnOffIconStylePair",
+    "reason": "_onIconStyle and _offIconStyle StyleElement fields identify an on/off icon style pair.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÍÌÌÏÎÎÌÎÎÎÎÏÎÎÏÎÌÌÏÎÎÍ": {
+    "name": "TextureSourceSelectionBinding",
+    "reason": "_availableSources Texture array plus Texture2D and Texture fields identify texture source selection data.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÍÌÎÏÏÎÌÍÍÍÌÌÍÍÏÏÏÌÎÎÌÌ": {
+    "name": "ShowHideScreenButtonHandler",
+    "reason": "Transform fields with HideScreen, CreateUIShowScreenButton, pointer, submit, cancel, and value-change handlers identify a show/hide screen button handler.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÎÎÏÍÌÍÍÍÌÏÍÍÏÍÌÌÌÏÍÍÌÌ": {
+    "name": "ContactSenderReleaseBones",
+    "reason": "VRCContactSender plus ReleaseBones/AddReleaseBone/ClearReleaseBones/UpdateReleaseBones methods identify contact-sender release bone handling.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÎÏÌÍÍÌÍÍÌÏÏÍÌÏÏÌÍÏÌÌÎÎ": {
+    "name": "RecenteredImageColorState",
+    "reason": "m_RecenteredImage plus recentered off/on Color fields indicate recentered image color state.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÌÍÏÌÏÎÏÎÏÌÌÌÌÏÌÏÌÏÏÌÎ": {
+    "name": "LocalizedPointerHoverStringSwitcher",
+    "reason": "_localizableString and _alternateLocalizableString with OnPointerEnter/OnPointerExit methods indicate pointer-hover localized string switching.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÌÎÍÍÏÏÍÏÎÍÍÎÌÎÎÏÎÏÍÎÎ": {
+    "name": "AVProMediaSliderBinding",
+    "reason": "Slider field named GenericTypeArguments paired with AVPro MediaPlayer target and Update/ConfigureBehaviour methods identifies an AVPro media slider binding.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÌÎÍÎÍÌÍÍÌÍÏÎÏÍÏÏÎÎÌÌÎ": {
+    "name": "ProgressConePair",
+    "reason": "innerCone and outerCone GameObjects with SetProgress/get_Progress methods identify a progress cone pair.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÏÏÌÎÍÏÍÎÍÎÎÎÍÎÏÌÍÍÏÍÏÍÎ": {
+    "name": "ONSPConversionAudioSettings",
+    "reason": "AudioMixer, reference ONSP conversion voice/world AudioSources, and near-field AnimationCurves identify ONSP conversion audio settings.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÍÍÌÌÍÌÏÍÍÎÍÎÏÏÏÌÏÎÌÌÌ": {
+    "name": "PointerEventTransformBuffer",
+    "reason": "Quaternion/Vector3 fields with OnPointerEnter/OnPointerExit, GetBufferedTimes, and pointer event processing methods indicate a pointer event transform buffer.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÏÏÍÏÌÏÍÎÌÌÌÎÏÏÎÌÎÌÍÏÌÌÏ": {
+    "name": "LandscapePlacementTransform",
+    "reason": "landscapePos Vector2 and landscapeScale Vector3 fields identify landscape placement transform data.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ": {
+    "name": "PoseAnimatorFlatBufferSerializer",
+    "reason": "PoseEvent concurrent list, Animator, and FlatBuffer serializer Encode/Decode/NeedsSync methods identify a pose animator flatbuffer serializer.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÎÎÎÍÌÏÎÎÎÌÎÎÏÎÌÌÎÎÌÎÌ": {
+    "name": "AsyncLocalizableStringProvider",
+    "reason": "Func<LocalizableString>, Action<LocalizableString>, and Func<UniTask<LocalizableString>> fields identify an async localizable string provider.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÏÍÌÎÎÎÌÏÌÍÎÌÏÌÌÍÍÏÌÌÎ": {
+    "name": "PlatformConfigTextAssets",
+    "reason": "_cpuConfig, _gpuConfig, and _openGlEsConfig TextAsset fields identify platform config text assets.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ": {
+    "name": "ApiModelWebRequestTaskContext",
+    "reason": "ApiModel, UnityWebRequest, nullable LocalizableString, UniTask/CancellationTokenSource tuple, and EncryptionKey indicate an API model web request task context.",
+    "source": "fieldtype",
+    "conf": "high"
+  },
+  "ÌÌÏÏÎÌÎÏÎÍÏÍÏÎÌÍÌÍÏÌÎÍÎ": {
+    "name": "ImageRectTextComponentView",
+    "reason": "UI Image, RectTransform, and TMP_Text fields form a compact image/rect/text component view.",
+    "source": "fieldtype",
+    "conf": "medium"
+  },
+  "ÌÍÌÏÎÍÏÌÎÎÎÏÌÌÍÎÎÎÍÎÏÏÍ": {
+    "name": "InputTooltipPrefabSet",
+    "reason": "twinStickTooltip and mouseAndKeyboardTooltip GameObject pairs identify input tooltip prefab variants.",
+    "source": "fieldtype",
+    "conf": "high"
+  }
+}

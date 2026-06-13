@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
-// Classes: 12
-// Methods: 118
+// Classes: 10
+// Methods: 101
 
 namespace VRC.Network
 {
@@ -35,23 +35,6 @@ namespace VRC.Network
         public void m_410(){} // RVA: 0x2093D00
         public void m_F2B(){} // RVA: 0x2093E30
         public void m_016(){} // RVA: 0x2093EA0
-    }
-
-    /// <summary>Originally: ÏÏÏÌÎÎÌÌÍÏÌÎÏÌÍÍÌÎÌÎÌÍÍ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_8C6F
-    {
-        // ── Methods ──
-        public void Dispose(){} // RVA: 0x2016630
-        public void Cleanup(){} // RVA: 0x20166A0
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x20161C0
-        public void m_C01(){} // RVA: 0x2016350
-        public void m_6EA(){} // RVA: 0x20164E0
-        public void m_6F8(){} // RVA: 0x2016550
-        public void m_F2B(){} // RVA: 0x20165C0
-        public void m_552(){} // RVA: 0x2016830
-        public void m_EEE(){} // RVA: 0x20168A0
-        public void m_937(){} // RVA: 0x2016A30
     }
 
     /// <summary>Originally: ÏÏÏÎÎÍÌÎÎÎÍÍÏÏÎÏÌÎÌÌÌÏÍ</summary>
@@ -136,19 +119,6 @@ namespace VRC.Network
         public void TryGetValue_2F048217F2F1(){} // RVA: 0x1FA7C90
         public void TryGetValue_CF3C4C0F0CAD(){} // RVA: 0x1FA7CE0
         public void TryGetValue_937CF8FBCAA6(){} // RVA: 0x1FA7DA0
-    }
-
-    /// <summary>Originally: ÏÏÏÌÎÏÌÎÍÍÍÎÏÍÌÍÍÍÍÍÏÌÎ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_D5CC
-    {
-        // ── Unresolved (hash) ──
-        public void m_96F(){} // RVA: 0x207FF20
-        public void m_AEE(){} // RVA: 0x2080150
-        public void m_55E(){} // RVA: 0x2080380
-        public void m_575(){} // RVA: 0x20805B0
-        public void m_943(){} // RVA: 0x20807E0
-        public void m_77C(){} // RVA: 0x2080A10
-        public void m_45A(){} // RVA: 0x2080C40
     }
 
     /// <summary>Originally: ÏÏÏÎÍÎÍÍÍÏÌÎÎÎÌÍÌÍÍÏÎÍÍ</summary>

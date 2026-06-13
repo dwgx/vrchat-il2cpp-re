@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 11
-// Methods: 122
+// Classes: 12
+// Methods: 263
 
 namespace VRC.Misc
 {
@@ -200,6 +200,98 @@ namespace VRC.Misc
         public void Unregister(){} // RVA: 0xCD60
         // ── Unresolved (hash) ──
         public void m_EF5(){}
+    }
+
+    /// <summary>Originally: ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ</summary>
+    public class ModerationListsCache
+    {
+        public System.Lazy`1<string> ÌÍÍÌÌÍÎÌÎÏÍÏÌÍÏÏÌÍÏÏÌÍÎ;
+        public ÌÎÎÏÏÎÏÍÎÌÎÍÍÎÎÌÍÌÏÌÌÌÏ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x8
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiModeration>> ÏÎÏÍÏÎÍÎÌÏÌÍÍÏÏÎÏÌÍÏÍÌÍ; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration>> ÌÏÌÎÏÌÎÌÍÏÎÍÍÌÎÎÎÌÏÌÌÌÎ; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> ÏÎÏÍÌÏÏÍÎÏÌÌÎÍÏÌÏÍÎÌÏÌÌ; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> ÏÎÎÏÏÎÍÍÎÎÎÌÌÍÎÌÎÏÎÌÎÏÎ; // 0x28
+        public float ÎÍÏÎÎÌÌÎÍÏÌÏÎÌÍÌÍÎÎÌÏÎÍ;
+        public System.TimeSpan ÌÎÏÍÍÍÏÍÌÎÍÍÎÏÏÍÍÎÎÍÍÌÍ; // 0x30
+        public bool ÎÏÏÎÍÏÌÏÎÏÍÎÏÍÍÏÎÏÍÍÍÎÌ; // 0x38
+        public float ÍÎÍÎÍÎÏÌÌÎÌÍÍÍÎÌÍÏÍÎÌÏÍ; // 0x3C
+        public System.DateTime ÏÍÏÏÌÍÍÌÍÏÎÏÌÎÎÍÎÌÌÏÍÎÌ; // 0x40
+
+        // ── Methods ──
+        public void ProcessTransform(){} // RVA: 0x348040
+        public void MarshalFixedArrayFromNative_7AB79771446E(){} // RVA: 0x67BF30 | overloaded x2
+        public void ContainsItem(){} // RVA: 0x676C00
+        public void MarshalStringAndBoolToNative(){} // RVA: 0x676E10
+        public void Marshal64ByteArrayToNative(){} // RVA: 0x677760
+        public void MarshalFixedByteArrayToNative(){} // RVA: 0x6777F0
+        public void MarshalFixedByteArrayToNative_ED4E9B8CB4CB(){} // RVA: 0x677990
+        public void CopyEmbeddedByteArrayToNative(){} // RVA: 0x677A00
+        public void MarshalNativeToManaged(){} // RVA: 0x677F60
+        public void MarshalManagedStructToNative(){} // RVA: 0x678850
+        public void MarshalNativeToManaged_23B956A8212D(){} // RVA: 0x6789A0
+        public void MarshalPInvokeBack(){} // RVA: 0x678A50
+        public void GetNativeStructSize(){} // RVA: 0x6794F0
+        public void MarshalManagedToNative(){} // RVA: 0x679520
+        public void MarshalToNative(){} // RVA: 0x6795D0
+        public void MarshalPInvokeBack_CF357A268A41(){} // RVA: 0x6799F0
+        public void MarshalNativeToManaged_241D58ED40A5(){} // RVA: 0x679BE0
+        public void MarshalManagedToNative_5528C95A2757(){} // RVA: 0x679FC0
+        public void MarshalManagedToNative_B2955B92B32F(){} // RVA: 0x67A040
+        public void MarshalFixedInt64ArrayToNative(){} // RVA: 0x67BA20
+        public void MarshalNativeToManagedWithFixedArrays(){} // RVA: 0x67BD70
+        public void MarshalPInvokeBack_D106F0B02B5A(){} // RVA: 0x67BE30
+        public void MarshalFromNative(){} // RVA: 0x67BE80
+        public void MarshalFromNative_CF0CF5F986A9(){} // RVA: 0x67C1B0
+        public void GetNativeSize(){} // RVA: 0x67C410
+        public void MarshalNativeToManaged_8852FBCB0B6F(){} // RVA: 0x67C4D0
+        public void MarshalFromNative_CA4C53A874DA(){} // RVA: 0x67C680
+        public void MarshalNativeToManaged_91E3601CEB1F(){} // RVA: 0x67C6E0
+        public void MarshalPInvoke(){} // RVA: 0x67CA50
+        public void GetNativeStructSize_1D96630153E8(){} // RVA: 0x6794F0
+        public void MarshalManagedToNative_5045ECBF47B5(){} // RVA: 0x67CB00
+        public void MarshalFixedInt64ArrayToNative_0808A6BB9FA4(){} // RVA: 0x67CBD0
+        public void MarshalManagedToNative_17D66402CCD4(){} // RVA: 0x67CC70
+        public void MarshalManagedToNative_10FDE0C9C319(){} // RVA: 0x67CD70
+        public void MarshalFixedArrayToNative(){} // RVA: 0x67CE70
+        public void MarshalNativeToManaged_44C71B8A5A0A(){} // RVA: 0x67CF90
+        public void MarshalManagedStructToNative_F2AEF821A706(){} // RVA: 0x67D750
+        public void DiscordActivitySecretsInit(){} // RVA: 0x67D8C0
+        public void MarshalManagedToNative_1F88981225EC(){} // RVA: 0x67DAC0
+        public void MarshalEmbeddedArrayToNative(){} // RVA: 0x67DE90
+        public void MarshalManagedToNative_4F6F30D8D37E(){} // RVA: 0x67E040
+        public void MarshalNativeToManaged_A69BC4F4831A(){} // RVA: 0x67E180
+        public void .ctor(){} // RVA: 0x67E270
+        public void Initialize(){} // RVA: 0x67F5A0
+        public void MarshalNativeToManaged_44D0AE20F84F(){} // RVA: 0x67F650
+        public void MarshalFourByteArrayToManaged(){} // RVA: 0x67F870
+        public void MarshalToNative_C339E0B32021(){} // RVA: 0x67F960
+        public void MarshalNativeToManaged_9266A78BC543(){} // RVA: 0x6803D0
+        public void Marshal128ByteArrayToNative(){} // RVA: 0x680550
+        public void MarshalNativeToManaged_4E8B40AB5BE1(){} // RVA: 0x680680
+        public void GetNativeStructSize_7901F2D3B05D(){} // RVA: 0x6807E0
+        public void MarshalManagedToNative_8C2D3DC80C61(){} // RVA: 0x6808E0
+        public void MarshalNativeToManaged_1EA90F5F8EDE(){} // RVA: 0x680AF0
+        public void MarshalEmbeddedArraysToNative(){} // RVA: 0x680E50
+        public void MarshalManagedToNative_1238871A93D4(){} // RVA: 0x680E70
+        public void MarshalNativeToManaged_A85E3366D41B(){} // RVA: 0x681250
+        public void .cctor(){} // RVA: 0x6812B0
+        public void ContainsItem_A16783C80BC4(){} // RVA: 0x681A60
+        public void InvokeVirtualMethod(){} // RVA: 0x6824A0
+        public void FreeNativeString(){} // RVA: 0x682690
+        public void Finalize(){} // RVA: 0x6862A0
+        public void CopyEmbeddedIntArrayToNative(){} // RVA: 0x6879A0
+        public void InvokeVirtualMethod_6AD9B7C9EA07(){} // RVA: 0x687DC0
+        public void ReadPrimitiveValue(){} // RVA: 0x687FF0
+        public void TryGetNextItem(){} // RVA: 0x6881A0
+        public void TryGetNextItem_7EB9F4BA792F(){} // RVA: 0x6881B0
+        public void TryGetNextItem_1179FE859C2C(){} // RVA: 0x688220
+        // ── 72 unresolved (hash) ──
+        public void m_B8E(){} // RVA: 0x6733C0
+        public void m_193(){} // RVA: 0x673550
+        public void m_6D8(){} // RVA: 0x6735D0
+        public void m_1D8(){} // RVA: 0x6737A0
+        public void m_9F3(){} // RVA: 0x673840
+        // ... 67 more unresolved methods
     }
 
 }

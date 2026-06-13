@@ -1,10 +1,33 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 4
-// Methods: 122
+// Classes: 5
+// Methods: 160
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÍÍÏÎÌÍÎÏÎÍÌÏÎÌÌÍÌÌÍÎÎÏÏ</summary>
+    public class MainMenuPlacementOffset
+    {
+        public VRC.UI.Elements.MainMenuPlacementData _placementData; // 0x20
+        public ÍÏÌÏÌÎÎÏÎÎÍÍÏÎÍÏÎÎÏÍÎÍÎ ÏÌÎÏÏÌÍÎÎÎÎÎÌÎÎÍÌÍÎÎÍÏÌ; // 0x28
+        public UnityEngine.Vector3 ÍÏÌÎÍÌÍÎÎÏÎÏÌÌÍÏÌÌÏÏÍÎÌ; // 0x30
+        public bool ÍÍÍÍÏÎÎÍÎÏÏÌÏÍÌÍÍÎÌÍÌÌÎ; // 0x3C
+        public System.Action ÌÌÌÍÏÍÏÌÌÌÎÎÏÏÍÎÏÏÌÌÍÌÍ; // 0x40
+
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x8BACF50
+        public void .ctor(){} // RVA: 0x8BADE60
+        public void Initialize(){} // RVA: 0x8BADEF0
+        public void Awake(){} // RVA: 0x8BAE250
+        // ── 34 unresolved (hash) ──
+        public void m_7E5(){} // RVA: 0x8BAC7A0
+        public void m_F28(){} // RVA: 0x8BAC840
+        public void m_297(){} // RVA: 0x8BAC8D0
+        public void m_FE1(){} // RVA: 0x8BACB30
+        public void m_76B(){} // RVA: 0x8BAD100
+        // ... 29 more unresolved methods
+    }
+
     /// <summary>Originally: ÏÏÏÌÌÏÍÏÍÎÎÏÌÌÌÌÎÌÌÌÏÎÏ</summary>
     public class MaterialUIHandler_3216
     {

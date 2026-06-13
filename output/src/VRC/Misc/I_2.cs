@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 54
-// Methods: 748
+// Classes: 53
+// Methods: 694
 
 namespace VRC.Misc
 {
@@ -847,43 +847,6 @@ namespace VRC.Misc
         public void m_C46(){} // RVA: 0x90C9940
         public void m_F34(){} // RVA: 0x90C9970
         public void m_71E(){} // RVA: 0x90CA9B0
-    }
-
-    /// <summary>Originally: ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ</summary>
-    public class IsInteractiveInteractSibling_AE11
-    {
-        public UnityEngine.MeshRenderer printRenderer; // 0x58
-        public UnityEngine.Canvas canvas; // 0x60
-        public UnityEngine.CanvasGroup frontCanvasGroup; // 0x68
-        public UnityEngine.CanvasGroup backCanvasGroup; // 0x70
-        public VRCSDK2.VRC_Pickup pickup; // 0x78
-        public ÏÌÎÌÏÌÍÌÎÎÌÌÏÏÍÎÍÎÍÏÏÏÏ preview; // 0x80
-        public UnityEngine.Collider printCollider; // 0x88
-        public UnityEngine.Texture2D streamerModeTexture; // 0x90
-
-        // ── Methods ──
-        public void GetTransform_7A1(){} // RVA: 0xD8E320
-        public void PublishStateAndLoadLiteral(){} // RVA: 0xD8A610
-        public void OnPointerExit(){} // RVA: 0xD87C10
-        public void Update(){} // RVA: 0x1A1C6D0
-        public void GetByteAtIndex(){} // RVA: 0x830040
-        public void FixedUpdate(){} // RVA: 0x1A1D500
-        public void Start(){} // RVA: 0x1A1E3F0
-        public void OnDestroy(){} // RVA: 0x1A1FE50
-        public void .cctor(){} // RVA: 0x1A209C0
-        public void TestUserGetUserId(){} // RVA: 0xDA5BB0
-        public void .ctor(){} // RVA: 0x1A21610
-        public void Initialize(){} // RVA: 0x1A216C0
-        public void Awake(){} // RVA: 0x1A22090
-        public void DontDestroyOnLoad(){} // RVA: 0x82F060
-        public void GetTransform_7A1_64B035A423E8(){} // RVA: 0xD8E320
-        // ── 39 unresolved (hash) ──
-        public void m_517(){} // RVA: 0x1A1B6B0
-        public void m_B4F(){} // RVA: 0x1A1B6C0
-        public void m_4D5(){} // RVA: 0x1A1B740
-        public void m_A17(){} // RVA: 0x1A1B750
-        public void m_1B3(){} // RVA: 0x1A1B930
-        // ... 34 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÌÎÏÏÎÏÎÌÌÎÍÎÏÎÍÍÏÏÍÌÌ</summary>

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 49
-// Methods: 712
+// Classes: 50
+// Methods: 714
 
 namespace VRC.Misc
 {
@@ -149,6 +149,14 @@ namespace VRC.Misc
         public void m_DB8(){} // RVA: 0x923E300
         public void m_E9D(){} // RVA: 0x923E420
         public void m_5B5(){} // RVA: 0x923E540
+    }
+
+    /// <summary>Originally: ÎÏÏÎÌÏÍÏÏÎÍÏÎÏÌÍÎÎÎÎÏÌÎ</summary>
+    public class Select_5B7F_428E
+    {
+        // ── Methods ──
+        public void OnSelect(){} // RVA: 0x185A040
+        public void .ctor(){} // RVA: 0x185A0C0
     }
 
     /// <summary>Originally: ÏÌÍÌÌÎÌÎÏÎÏÏÎÍÌÍÌÏÎÎÏÌÍ</summary>

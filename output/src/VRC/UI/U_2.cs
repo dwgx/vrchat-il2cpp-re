@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 1846
+// Methods: 1761
 
 namespace VRC.UI
 {
@@ -683,6 +683,21 @@ namespace VRC.UI
         // ── Unresolved (hash) ──
         public void m_A57(){} // RVA: 0x93C31C0
         public void m_7E0(){} // RVA: 0x93C32A0
+    }
+
+    /// <summary>Originally: ÏÌÎÌÎÍÌÏÌÌÏÌÏÏÏÏÎÌÌÍÍÎÏ</summary>
+    public class UIRectTransformDimensionsChBefSibling_5CC9
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x93AE8B0
+        public void Initialize(){} // RVA: 0x93AEA40
+        // ── 12 unresolved (hash) ──
+        public void m_06E(){} // RVA: 0x93AE4B0
+        public void m_FD3(){} // RVA: 0x93AE6B0
+        public void m_FFB(){} // RVA: 0x93AEC40
+        public void m_860(){} // RVA: 0x93AF6D0
+        public void m_583(){} // RVA: 0x93AF9C0
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÏÎÏÍÍÎÍÏÍÏÍÌÍÌÌÍÏÏ</summary>
@@ -1685,112 +1700,6 @@ namespace VRC.UI
         public void m_E38(){} // RVA: 0x9366860
         public void m_37D(){} // RVA: 0x93669F0
         // ... 10 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÍÍÎÎÏÎÍÎÏÎÍÎÎÍÍÍÎÎÏÎÌ</summary>
-    public class UIScroll_0704
-    {
-        public UnityEngine.UI.RawImage avatarImage; // 0x20
-        public ÎÏÌÍÌÎÌÌÏÌÎÍÍÌÌÌÎÎÏÎÍÏÍ dragHandler; // 0x28
-        public UnityEngine.UI.Button cameraButton; // 0x30
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ cameraButtonText; // 0x38
-        public VRC.IMDraw imDraw; // 0x40
-
-        // ── Methods ──
-        public void DecodeLiteralBlockSwitch(){} // RVA: 0x8FD0810
-        public void SafeDecodeLiteralBlockSwitch(){} // RVA: 0x8FD0950
-        public void get_position(){} // RVA: 0x3FB590
-        public void LateUpdate(){} // RVA: 0x8FD0980
-        public void DecodeBlockTypeAndLength(){} // RVA: 0x8FD0E70
-        public void DecodeCommandBlockSwitch(){} // RVA: 0x8FD12C0
-        public void SafeDecodeCommandBlockSwitch(){} // RVA: 0x8FD13C0
-        public void DecodeBlockTypeAndLength_DD99A17C1A34(){} // RVA: 0x8FD1450
-        public void .ctor(){} // RVA: 0x8FD1460
-        public void Initialize(){} // RVA: 0x8FD17B0
-        public void CopyUncompressedBlockToRingBuffer(){} // RVA: 0x8FD18E0
-        public void FastDecodeMetaBlock(){} // RVA: 0x8FD1E80
-        public void DecompressMetaBlockFast(){} // RVA: 0x8FD1F80
-        public void DecompressMetaBlockFast_9F471D62C881(){} // RVA: 0x8FD2070
-        public void DecompressMetaBlockFast_99215BDFFE68(){} // RVA: 0x8FD2160
-        public void FastDecodeMetaBlock_553ED38CE8F1(){} // RVA: 0x8FD2200
-        public void SwapEntries_374981787BE4(){} // RVA: 0x8FDE9B0 | overloaded x2
-        public void SafeDecodeMetaBlock(){} // RVA: 0x8FD26F0
-        public void SafeDecodeMetaBlock_439067CAFE8B(){} // RVA: 0x8FD2900
-        public void DecompressMetaBlock(){} // RVA: 0x8FD2EA0
-        public void BrotliDecoderDecompress(){} // RVA: 0x8FD2F00
-        public void BrotliDecoderDecompress_D6FE3928C59B(){} // RVA: 0x8FD2FB0
-        public void BrotliDecoderDecompressStream(){} // RVA: 0x8FD30A0
-        public void BrotliDecoderDecompressStream_A9860A222856(){} // RVA: 0x8FD31A0
-        public void BrotliDecoderDecompressStream_9FD6B251F173(){} // RVA: 0x8FD3D50
-        public void BrotliDecoderDecompressStream_4E7E818B7DA3(){} // RVA: 0x8FD4150
-        public void BrotliDecoderDecompressStream_3A683B784E15(){} // RVA: 0x8FD41A0
-        public void BrotliDecoderDecompressStream_5520E8290C81(){} // RVA: 0x8FD41C0
-        public void BrotliDecoderDecompressStream_F80A1951617F(){} // RVA: 0x8FD4260
-        public void BrotliDecoderDecompressStream_B90D30C82EDF(){} // RVA: 0x8FD4360
-        public void GetClassFromIl2CppType(){} // RVA: 0x8FD45A0
-        public void SafeDecodeLiteralBlockSwitch_3B1E1EE475B2(){} // RVA: 0x8FD0950
-        public void GetClassFromIl2CppType_E71CFCE503F8(){} // RVA: 0x8FD45B0
-        public void SetupInterfaces(){} // RVA: 0x8FD4810
-        public void CloneChildrenIfNeeded(){} // RVA: 0x8FD4880
-        public void GetOrCreateGenericParameterClass(){} // RVA: 0x8FD4BA0
-        public void OnScroll(){} // RVA: 0x8FD4C90
-        public void GetOrCreateGenericParameterClass_DDA80535EA51(){} // RVA: 0x8FD4D80
-        public void ProcessPhysics(){} // RVA: 0x8FD5930
-        public void ProcessPhysics_06FC10AAAFA0(){} // RVA: 0x8FD5990
-        public void ProcessPhysics_C709BEA88C8E(){} // RVA: 0x8FD5AC0
-        public void ProcessPhysics_88AA2CB2DDC9(){} // RVA: 0x8FD5AD0
-        public void ProcessPhysics_BCBBB179E123(){} // RVA: 0x8FD5C00
-        public void ProcessPhysics_9CB8B9803566(){} // RVA: 0x8FD5C70
-        public void ProcessPhysics_B084A6463161(){} // RVA: 0x8FD6000
-        public void ProcessPhysics_FB96A529DCF1(){} // RVA: 0x8FD63A0
-        public void get_contentType(){} // RVA: 0x6FBD4C0
-        public void ProcessPhysics_54EA1BC545A5(){} // RVA: 0x8FD6680
-        public void SetupInterfaceOffsets(){} // RVA: 0x8FD68F0
-        public void ProcessPhysics_92BF2B8EE020(){} // RVA: 0x8FD6CD0
-        public void ProcessPhysics_BDB3B42A912C(){} // RVA: 0x8FD6CF0
-        public void InitializeGenericParameters(){} // RVA: 0x8FD7120
-        public void Awake(){} // RVA: 0x8FD7210
-        public void OnDestroy(){} // RVA: 0x8FD7810
-        public void ProcessPhysics_93B4BE6817F6(){} // RVA: 0x8FD7B20
-        public void CalculateLayoutInternal(){} // RVA: 0x8FD7EE0
-        public void InitializeClass(){} // RVA: 0x8FD7EF0
-        public void ProcessPhysics_F2C22DF21F87(){} // RVA: 0x8FD8080
-        public void GetFixedDeltaTime(){} // RVA: 0x8FD81D0
-        public void GetOrCreatePointerClass(){} // RVA: 0x8FD85D0
-        public void .cctor(){} // RVA: 0x8FD87F0
-        public void InitializeBrotliDecoderState(){} // RVA: 0x8FD9AF0
-        public void InitializeHashTable(){} // RVA: 0x8FD9BE0
-        public void FindStringHashTableEntry(){} // RVA: 0x8FD9CE0
-        public void InsertPointerTypeCacheEntry(){} // RVA: 0x8FDA330
-        public void GetOrCreateGenericMethod(){} // RVA: 0x8FDA670
-        public void RehashTable(){} // RVA: 0x8FDB5A0
-        public void EnumerateActiveValues(){} // RVA: 0x8FDB940
-        public void TryGetGenericInstFromCache(){} // RVA: 0x8FDBF10
-        public void InitializeBrotliDecoderState_E3E95325AAE5(){} // RVA: 0x8FDC0E0
-        public void InitializeHashTable_7F8A297E4222(){} // RVA: 0x8FDC0F0
-        public void FindStringHashTableEntry_34486A0C01DC(){} // RVA: 0x8FDC690
-        public void FindStringHashTableEntry_B2105F8704E3(){} // RVA: 0x8FDC760
-        public void EnsureGenericMethodCacheCapacity(){} // RVA: 0x8FDCE30
-        public void ProcessPhysics_7B0B3869A25D(){} // RVA: 0x8FDCF00
-        public void ProcessPhysics_800066D4DC7B(){} // RVA: 0x8FDD2B0
-        public void Dispose(){} // RVA: 0x2DD310
-        public void ProcessPhysics_9B2EAF336EE2(){} // RVA: 0x8FDD320
-        public void SetDensity(){} // RVA: 0x8FDD890
-        public void EnsureHashTableCapacity(){} // RVA: 0x8FDDC70
-        public void EnsureHashTableCapacity_D97A851E5A9A(){} // RVA: 0x8FDDCE0
-        public void ProcessPhysics_800B61B5187C(){} // RVA: 0x8FDDF90
-        public void RehashStringHashTable(){} // RVA: 0x8FDE290
-        public void SwapEntries_0F167370EBA5(){} // RVA: 0x8FDEBF0
-        public void RehashTable_24312B331CB8(){} // RVA: 0x8FDF0B0
-        public void RehashStringHashTable_587C11994941(){} // RVA: 0x8FDF1B0
-        public void GetInertiaTensor(){} // RVA: 0x8FDF7F0
-        // ── 11 unresolved (hash) ──
-        public void m_D62(){} // RVA: 0x8FD4710
-        public void m_C79(){} // RVA: 0x8FD4720
-        public void m_44E(){} // RVA: 0x8FD5D80
-        public void m_415(){} // RVA: 0x8FD6490
-        public void m_6F9(){} // RVA: 0x8FD8D30
-        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÎÎÍÍÌÌÏÏÍÍÍÌÌÎÎÍÎÎÎÎÍ</summary>

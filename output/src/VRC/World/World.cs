@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.World
-// Classes: 19
-// Methods: 380
+// Classes: 22
+// Methods: 544
 
 namespace VRC.World
 {
@@ -29,6 +29,27 @@ namespace VRC.World
         public void set_useGUILayout(){} // RVA: 0x48EDB0
         public void print(){} // RVA: 0x48EEB0
         public void NotifySelectedCipherSuite(){} // RVA: 0x48EF70
+    }
+
+    /// <summary>Originally: ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ</summary>
+    public class PortalPlaceholderPrefabSettings
+    {
+        public ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public UnityEngine.GameObject _portalPrefab; // 0x20
+        public UnityEngine.GameObject _placeholderPrefab; // 0x28
+
+        // ── Methods ──
+        public void .ctor_23927B099279(){} // RVA: 0xAD70B0
+        public void FindComponentByGameObject(){} // RVA: 0x30B0C0
+        public void set_Instance(){} // RVA: 0x30B0C0
+        public void InitializeONSPSettings(){} // RVA: 0x30B0C0
+        public void set_Instance_217A89CC68BA(){} // RVA: 0x30B130
+        public void get_Instance_25E96967FA1E(){} // RVA: 0xAD7810
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void GetTransform(){} // RVA: 0xAD7BC0
+        public void ResetSettings(){} // RVA: 0x30B130
+        // ── Unresolved (hash) ──
+        public void m_A85(){} // RVA: 0xAD7460
     }
 
     /// <summary>Originally: ÍÎÎÎÎÍÏÌÌÌÍÏÏÍÍÍÍÌÏÌÍÎÏ</summary>
@@ -116,6 +137,67 @@ namespace VRC.World
         public void m_FC3(){} // RVA: 0x12EB820
     }
 
+    /// <summary>Originally: ÍÍÌÌÏÎÌÏÎÍÌÍÏÏÌÌÏÍÎÍÌÎÌ</summary>
+    public class SpawnPlacementPrefabConfig
+    {
+        public UnityEngine.GameObject spawnPrefab; // 0x20
+        public UnityEngine.GameObject loadingVisualizerPrefab; // 0x28
+        public ÍÎÎÌÎÌÎÏÌÏÌÎÏÏÌÍÎÏÏÎÏÎÌ propPlacementCursor; // 0x30
+        public UnityEngine.LayerMask placementLayerMask; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ>> ÏÍÎÏÌÏÎÍÏÎÏÏÎÌÌÏÌÏÏÎÎÎÏ; // 0x40
+
+        // ── Methods ──
+        public void EnumeratorConstructor_7CBE384C9F24(){} // RVA: 0x7A9560 | overloaded x2
+        public void OnEnable(){} // RVA: 0x79D8E0
+        public void FixedUpdate(){} // RVA: 0x79D9D0
+        public void Update(){} // RVA: 0x79DBF0
+        public void LateUpdate(){} // RVA: 0x79DF90
+        public void OnDisable(){} // RVA: 0x79E770
+        public void OnDestroy(){} // RVA: 0x79E840
+        public void OnApplicationPause(){} // RVA: 0x75BB20
+        public void OnApplicationQuit(){} // RVA: 0x79E9F0
+        public void OnBecameVisible(){} // RVA: 0x79EDF0
+        public void OnBecameInvisible(){} // RVA: 0x79EF10
+        public void OnCollisionEnter(){} // RVA: 0x79F000
+        public void OnCollisionStay(){} // RVA: 0x79F550
+        public void Awake(){} // RVA: 0x79FD30
+        public void OnTriggerEnter(){} // RVA: 0x79FF40
+        public void OnTriggerStay(){} // RVA: 0x7A6950 | overloaded x2
+        public void OnTriggerExit(){} // RVA: 0x7A0540
+        public void get_Current(){} // RVA: 0x7A1200
+        public void InitializeDictionaryEnumerator(){} // RVA: 0x7A15E0
+        public void OnCollisionExit(){} // RVA: 0x7A1D40
+        public void get_Current_F9CA960FD595(){} // RVA: 0x7A1E30
+        public void get_Current_7300008A32B1(){} // RVA: 0x7A21E0
+        public void get_Current_51E8F022C8D2(){} // RVA: 0x7A2970
+        public void get_Current_8C0C3E2C3BCD(){} // RVA: 0x7A46A0
+        public void get_Current_6735F381C355(){} // RVA: 0x7A5E10
+        public void get_Current_E4E67C3BF0CE(){} // RVA: 0x7A5EC0
+        public void Start(){} // RVA: 0x7A6110
+        public void GetEnumerator(){} // RVA: 0x7A6890
+        public void ConfigureCameraClearFlags(){} // RVA: 0x7A6DD0
+        public void get_Current_84037C0EFC52(){} // RVA: 0x7A6FD0
+        public void get_Current_5DC1F04CA489(){} // RVA: 0x7A6FE0
+        public void .ctor(){} // RVA: 0x7A72D0
+        public void .cctor(){} // RVA: 0x7A7590
+        public void get_Current_4EAC53039E10(){} // RVA: 0x7A86C0
+        public void InitializeDictionaryEnumerator_056272DAA218(){} // RVA: 0x7A87B0
+        public void get_Current_BDB2881F31BE(){} // RVA: 0x7A89A0
+        public void get_Current_7340E35B1582(){} // RVA: 0x7A8A90
+        public void get_Current_CE4E423AA29F(){} // RVA: 0x7A8E40
+        public void get_Current_84037C0EFC52_E3FA58D2DC7E(){} // RVA: 0x7A6FD0
+        public void get_Current_5E54294042D1(){} // RVA: 0x7A9950
+        public void get_Current_CB38C9EF9E5C(){} // RVA: 0x7A9D20
+        public void ReadCameraState(){} // RVA: 0x7AA0B0
+        // ── 36 unresolved (hash) ──
+        public void m_BB8(){} // RVA: 0x4C7C50
+        public void m_330(){} // RVA: 0x7A0620
+        public void m_07B(){} // RVA: 0x7A0750
+        public void m_C9E(){} // RVA: 0x7A07F0
+        public void m_E3E(){} // RVA: 0x7A9EF0
+        // ... 31 more unresolved methods
+    }
+
     /// <summary>Originally: ÎÎÎÍÏÎÌÌÌÌÎÎÎÎÍÌÌÍÍÎÎÎÌ</summary>
     public class UserRoomRectComponent_CDC4
     {
@@ -178,62 +260,57 @@ namespace VRC.World
         public void m_D1C(){} // RVA: 0x2DD320
     }
 
-    /// <summary>Originally: ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ</summary>
-    public class WorldProximityExitStation_C9A0
+    /// <summary>Originally: ÌÌÌÎÌÌÍÍÍÎÎÌÌÌÌÎÎÎÏÌÏÏÍ</summary>
+    public class WorldInstanceConnectionContext
     {
-        public ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ[] ÏÌÌÌÌÎÎÍÏÎÌÍÌÍÌÎÍÎÌÌÏÎÏ;
-        public System.Collections.Generic.Dictionary`2<uint,ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ> ÌÌÏÏÏÍÌÎÏÌÎÌÏÌÍÎÍÎÍÌÍÎÎ; // 0x8
-        public VRC.SDKBase.VRCStation ÌÍÍÎÍÌÎÌÍÌÎÍÌÌÏÎÏÍÏÏÍÍÎ; // 0x58
-        public VRCSDK2.VRC_Station ÌÌÌÌÌÏÌÍÍÎÏÌÍÍÏÏÏÍÌÎÌÍÍ; // 0x60
-        public VRC.SDK3.Components.VRCStation ÌÍÏÍÏÏÎÎÍÎÎÎÍÎÍÏÎÌÎÌÌÍÍ; // 0x68
-        public VRC.Udon.UdonBehaviour ÎÌÎÎÌÎÏÍÏÎÏÍÍÏÏÍÍÌÎÏÏÍÌ; // 0x70
-        public VRC.SDKBase.VRC_Interactable ÏÌÎÏÍÎÌÎÍÌÌÏÍÏÍÍÍÍÏÏÏÏÌ; // 0x78
-        public VRC.SDKBase.VRC_PropController ÌÏÍÌÏÏÏÍÍÍÍÌÏÍÏÎÍÎÍÌÏÍÏ; // 0x80
-        public CustomTriggerTarget ÏÍÌÌÏÏÌÍÏÏÍÏÌÏÍÌÍÍÏÎÎÍÎ; // 0x88
-        public UnityEngine.Vector3 ÎÎÎÌÎÌÏÎÎÍÌÏÌÎÍÏÏÎÎÌÎÍÏ; // 0x90
-        public UnityEngine.Vector3 ÍÍÌÌÌÍÌÌÎÏÌÎÏÍÎÏÏÏÌÌÏÏÏ; // 0x9C
+        public bool ÎÍÏÌÌÎÍÍÏÌÎÏÌÎÍÎÍÌÎÎÏÎÏ;
+        public VRC.Core.ApiWorld ÎÍÌÍÏÏÌÏÎÏÍÏÎÏÌÌÏÍÍÏÌÌÎ; // 0x8
+        public VRC.Core.ApiWorldInstance ÍÎÌÎÌÍÍÍÏÏÌÎÌÎÏÍÌÎÎÌÏÎÍ; // 0x10
+        public VRC.Core.ApiWorldInstance <ÌÍÏÎÌÌÌÌÍÍÏÎÎÎÎÎÍÍÌÏÌÌÎ>k__BackingField; // 0x18
+        public bool ÍÎÌÍÎÎÏÏÎÏÍÌÌÎÌÎÌÍÌÌÍÎÌ; // 0x20
+        public bool ÎÌÎÎÎÌÌÏÍÏÍÌÎÎÎÎÍÍÌÍÎÎÌ; // 0x21
+        public float ÌÌÍÏÍÍÏÍÏÏÌÍÌÌÍÎÌÍÏÌÍÏÌ; // 0x24
+        public bool ÍÌÍÏÍÍÍÏÎÌÏÏÌÌÌÏÌÍÌÏÎÌÏ; // 0x28
+        public ÌÌÌÎÌÌÍÍÍÎÎÌÌÌÌÎÎÎÏÌÏÏÍ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ; // 0x30
+        public string ÍÏÌÎÌÍÌÍÏÌÌÍÏÍÍÏÌÌÏÌÌÏÏ; // 0x38
+        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ ÏÍÏÏÍÏÍÏÍÍÌÌÏÏÍÌÌÏÏÏÎÍÍ; // 0x40
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÏÌÍÌÍÏÍÎÎÏÎÍÌÌÍÏÏÍÎÍÌÎÏ; // 0x48
+        public System.Collections.Generic.List`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÌÌÏÌÏÏÌÌÌÏÏÌÍÎÍÌÍÍÎÍÏÌÎ; // 0x50
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÌÏÏÎÌÌÌÎÌÌÏÍÍÏÌÌÌÏÏÍÎÍÌ; // 0x58
+        public System.Collections.Generic.List`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÏÌÏÎÍÍÌÍÏÏÌÍÍÎÍÏÍÍÏÌÌÌÍ; // 0x60
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÏÍÏÌÎÌÌÍÏÎÍÍÍÎÏÎÏÎÌÏÌÍÌ; // 0x68
+        public System.Collections.Generic.List`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÎÎÍÎÍÏÌÏÍÌÎÍÏÏÌÎÍÏÌÏÎÍÌ; // 0x70
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÍÏÎÌÌÍÍÍÍÍÍÎÌÍÍÎÌÍÍÎÎÏÎ; // 0x78
+        public System.Collections.Generic.List`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÎÏÌÏÏÍÍÎÍÌÌÍÍÏÍÎÍÏÌÌÎÌÏ; // 0x80
+        public System.Collections.IList ÎÌÍÎÏÌÌÏÍÍÎÌÍÌÍÏÍÌÏÌÌÍÏ; // 0x88
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÍÌÌÌÌÍÏÌÌÏÎÌÌÎÍÎÍÎÏÌÎÍÍ; // 0x90
+        public System.Collections.IList ÏÌÌÍÌÏÍÏÌÌÎÍÎÍÍÌÎÌÌÎÏÌÍ; // 0x98
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÎÏÎÏÎÏÎÏÍÍÎÍÌÎÌÍÏÌÍÎÎÌÌ; // 0xA0
+        public System.Collections.IList ÏÍÌÏÍÍÍÌÍÏÌÏÌÍÏÎÎÎÌÎÍÎÌ; // 0xA8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÍÍÌÏÍÎÏÏÎÏÍÏÎÏÏÎÎÌÏÎÏÏÎ; // 0xB0
+        public System.Collections.IList ÍÌÏÍÎÍÍÏÍÎÎÌÍÏÏÌÎÍÎÏÍÏÍ; // 0xB8
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÍÎÌÍÎÎÍÌÌÎÌÍÎÍÌÍÍÎÍÎÌÏÍ; // 0xC0
+        public System.Collections.Generic.List`1<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÌÌÎÏÎÎÍÌÏÍÌÍÎÏÍÌÍÏÏÍÏÍÎ; // 0x20
 
         // ── Methods ──
-        public void GetLocalPosition(){} // RVA: 0x1701EC0
-        public void set_Item(){} // RVA: 0x17027C0
-        public void ConstructSpanFromArraySegment(){} // RVA: 0x1702AA0
-        public void SetLocalScale(){} // RVA: 0x1702D30
-        public void SetLocalScale_842071BD57EC(){} // RVA: 0x1702D80
-        public void SetLocalScale_6F8930570FFD(){} // RVA: 0x1702E00
-        public void SetLocalScale_080A2E9D9C0E(){} // RVA: 0x1702E10
-        public void GetBounds(){} // RVA: 0x1702E20
-        public void Awake(){} // RVA: 0x1702E30
-        public void Start(){} // RVA: 0x1703390
-        public void Update(){} // RVA: 0x17034D0
-        public void UseStation(){} // RVA: 0x17042C0
-        public void DelegateConstructor(){} // RVA: 0x1704430
-        public void SetLocalRotation(){} // RVA: 0x17045A0
-        public void InitializeDelegate(){} // RVA: 0x1704790
-        public void ExitStation(){} // RVA: 0x1705B70
-        public void set_Proximity(){} // RVA: 0x1705C60
-        public void GetMaterial(){} // RVA: 0x1706060
-        public void GetMaterial_126C5318ED6E(){} // RVA: 0x1706CF0
-        public void GetMaterial_473D25AB7BD9(){} // RVA: 0x17070F0
-        public void get_Proximity(){} // RVA: 0x1707A50
-        public void InternalArraySetItem(){} // RVA: 0x1707B50
-        public void SetGameObjectActive(){} // RVA: 0x1707F60
-        public void InitializeStation(){} // RVA: 0x17082C0
-        public void UseStationInternal(){} // RVA: 0x170ADF0
-        public void SetLocalRotation_928E4994C44C(){} // RVA: 0x170B0B0
-        public void SetLocalRotation_63906A68001F(){} // RVA: 0x170B290
-        public void OnDestroy(){} // RVA: 0x170B330
-        public void OnEnable(){} // RVA: 0x170B530
-        public void OnDisable(){} // RVA: 0x170B620
-        public void .ctor(){} // RVA: 0x170B800
-        public void .cctor(){} // RVA: 0x170BA30
-        public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x170BC40
-        // ── 22 unresolved (hash) ──
-        public void m_695(){} // RVA: 0x1702250
-        public void m_94E(){} // RVA: 0x1702470
-        public void m_F85(){} // RVA: 0x17026B0
-        public void m_1B8(){} // RVA: 0x1702760
-        public void m_56D(){} // RVA: 0x1702BA0
-        // ... 17 more unresolved methods
+        public void OnDestroy(){} // RVA: 0x14428F0
+        public void OnConnectedToMaster(){} // RVA: 0x1443780
+        public void set_controlPathInternal(){} // RVA: 0x305200
+        public void set_displayName(){} // RVA: 0x49B830
+        public void Start(){} // RVA: 0x1443B50
+        public void .cctor(){} // RVA: 0x14444E0
+        public void get_MoveNext(){} // RVA: 0x4976A0
+        public void .ctor(){} // RVA: 0x1447360
+        public void Initialize(){} // RVA: 0x1447540
+        public void get_MoveNext_328FE03EFDD3(){} // RVA: 0x35A740
+        public void Awake(){} // RVA: 0x144A300
+        // ── 58 unresolved (hash) ──
+        public void m_BF6(){} // RVA: 0x1442590
+        public void m_6B1(){} // RVA: 0x1442650
+        public void m_A52(){} // RVA: 0x1442750
+        public void m_A85(){} // RVA: 0x14427F0
+        public void m_64F(){} // RVA: 0x1442890
+        // ... 53 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ</summary>
@@ -447,6 +524,64 @@ namespace VRC.World
         public void m_8FB(){} // RVA: 0x8B6DF00
         public void m_63E(){} // RVA: 0x8B6DFB0
         // ... 21 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ</summary>
+    public class WorldStationInteractableBinding
+    {
+        public ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ[] ÏÌÌÌÌÎÎÍÏÎÌÍÌÍÌÎÍÎÌÌÏÎÏ;
+        public System.Collections.Generic.Dictionary`2<uint,ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ> ÌÌÏÏÏÍÌÎÏÌÎÌÏÌÍÎÍÎÍÌÍÎÎ; // 0x8
+        public VRC.SDKBase.VRCStation ÌÍÍÎÍÌÎÌÍÌÎÍÌÌÏÎÏÍÏÏÍÍÎ; // 0x58
+        public VRCSDK2.VRC_Station ÌÌÌÌÌÏÌÍÍÎÏÌÍÍÏÏÏÍÌÎÌÍÍ; // 0x60
+        public VRC.SDK3.Components.VRCStation ÌÍÏÍÏÏÎÎÍÎÎÎÍÎÍÏÎÌÎÌÌÍÍ; // 0x68
+        public VRC.Udon.UdonBehaviour ÎÌÎÎÌÎÏÍÏÎÏÍÍÏÏÍÍÌÎÏÏÍÌ; // 0x70
+        public VRC.SDKBase.VRC_Interactable ÏÌÎÏÍÎÌÎÍÌÌÏÍÏÍÍÍÍÏÏÏÏÌ; // 0x78
+        public VRC.SDKBase.VRC_PropController ÌÏÍÌÏÏÏÍÍÍÍÌÏÍÏÎÍÎÍÌÏÍÏ; // 0x80
+        public CustomTriggerTarget ÏÍÌÌÏÏÌÍÏÏÍÏÌÏÍÌÍÍÏÎÎÍÎ; // 0x88
+        public UnityEngine.Vector3 ÎÎÎÌÎÌÏÎÎÍÌÏÌÎÍÏÏÎÎÌÎÍÏ; // 0x90
+        public UnityEngine.Vector3 ÍÍÌÌÌÍÌÌÎÏÌÎÏÍÎÏÏÏÌÌÏÏÏ; // 0x9C
+
+        // ── Methods ──
+        public void GetLocalPosition(){} // RVA: 0x1701EC0
+        public void set_Item(){} // RVA: 0x17027C0
+        public void ConstructSpanFromArraySegment(){} // RVA: 0x1702AA0
+        public void SetLocalScale(){} // RVA: 0x1702D30
+        public void SetLocalScale_842071BD57EC(){} // RVA: 0x1702D80
+        public void SetLocalScale_6F8930570FFD(){} // RVA: 0x1702E00
+        public void SetLocalScale_080A2E9D9C0E(){} // RVA: 0x1702E10
+        public void GetBounds(){} // RVA: 0x1702E20
+        public void Awake(){} // RVA: 0x1702E30
+        public void Start(){} // RVA: 0x1703390
+        public void Update(){} // RVA: 0x17034D0
+        public void UseStation(){} // RVA: 0x17042C0
+        public void DelegateConstructor(){} // RVA: 0x1704430
+        public void SetLocalRotation(){} // RVA: 0x17045A0
+        public void InitializeDelegate(){} // RVA: 0x1704790
+        public void ExitStation(){} // RVA: 0x1705B70
+        public void set_Proximity(){} // RVA: 0x1705C60
+        public void GetMaterial(){} // RVA: 0x1706060
+        public void GetMaterial_126C5318ED6E(){} // RVA: 0x1706CF0
+        public void GetMaterial_473D25AB7BD9(){} // RVA: 0x17070F0
+        public void get_Proximity(){} // RVA: 0x1707A50
+        public void InternalArraySetItem(){} // RVA: 0x1707B50
+        public void SetGameObjectActive(){} // RVA: 0x1707F60
+        public void InitializeStation(){} // RVA: 0x17082C0
+        public void UseStationInternal(){} // RVA: 0x170ADF0
+        public void SetLocalRotation_928E4994C44C(){} // RVA: 0x170B0B0
+        public void SetLocalRotation_63906A68001F(){} // RVA: 0x170B290
+        public void OnDestroy(){} // RVA: 0x170B330
+        public void OnEnable(){} // RVA: 0x170B530
+        public void OnDisable(){} // RVA: 0x170B620
+        public void .ctor(){} // RVA: 0x170B800
+        public void .cctor(){} // RVA: 0x170BA30
+        public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x170BC40
+        // ── 22 unresolved (hash) ──
+        public void m_695(){} // RVA: 0x1702250
+        public void m_94E(){} // RVA: 0x1702470
+        public void m_F85(){} // RVA: 0x17026B0
+        public void m_1B8(){} // RVA: 0x1702760
+        public void m_56D(){} // RVA: 0x1702BA0
+        // ... 17 more unresolved methods
     }
 
 }

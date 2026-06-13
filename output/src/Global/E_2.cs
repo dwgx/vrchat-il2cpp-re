@@ -173,8 +173,8 @@ public class EmojiParticleSystem
     public void Initialize(){} // RVA: 0xBDB960
     public void get_PrefabName(){} // RVA: 0x4976A0
     public void set_PrefabName(){} // RVA: 0x1911170
-    public void set_Key(){} // RVA: 0xBDB960
     public void set_DisplayName(){} // RVA: 0xBDB960
+    public void set_Key(){} // RVA: 0xBDB960
     public void get_DisplayName(){} // RVA: 0xBDB960
     public void get_Key(){} // RVA: 0x1911200
     public void set_DisplayName_D959C2DACD98(){} // RVA: 0x4976A0

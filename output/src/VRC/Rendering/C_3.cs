@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
 // Classes: 100
-// Methods: 459
+// Methods: 499
 
 namespace VRC.Rendering
 {
@@ -173,6 +173,16 @@ namespace VRC.Rendering
         public void Invoke(){} // RVA: 0x283FA0
         public void BeginInvoke(){} // RVA: 0x283FA0
         public void EndInvoke(){} // RVA: 0x24B10
+    }
+
+    /// <summary>Originally: ÍÌÍÏÏÍÏÌÍÌÍÌÏÎÌÍÍÏÎÌÍÍÏ</summary>
+    public class CameraBeginInvokeEndInvoke_35E8
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE54F0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÏÍÌÌÌÍÍÌÏÍÍÍÎÍÎÎÍÎÏÎÎ</summary>
@@ -625,16 +635,6 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
-    /// <summary>Originally: ÍÏÏÏÍÌÏÍÎÌÌÌÏÎÌÎÍÍÏÎÏÍÏ</summary>
-    public class CameraBeginInvokeEndInvoke_9620
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x1FE7050
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
-    }
-
     /// <summary>Originally: ÍÎÏÌÏÏÏÏÏÍÍÍÌÏÎÌÍÏÌÏÌÍÍ</summary>
     public class CameraBeginInvokeEndInvoke_A472
     {
@@ -845,16 +845,6 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
-    /// <summary>Originally: ÍÏÏÍÎÍÏÍÏÎÍÌÏÏÎÎÌÏÎÎÌÌÎ</summary>
-    public class CameraBeginInvokeEndInvoke_DFEC
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x20A3B50
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
-    }
-
     /// <summary>Originally: ÍÏÌÍÏÌÎÏÏÎÌÎÌÍÍÏÍÌÏÏÌÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_E015
     {
@@ -945,16 +935,6 @@ namespace VRC.Rendering
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
-    /// <summary>Originally: ÍÏÏÍÎÎÏÍÌÏÏÎÏÏÏÏÏÍÍÏÌÌÏ</summary>
-    public class CameraBeginInvokeEndInvoke_FDF3
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1EDD880
-        public void Invoke(){} // RVA: 0x338C60
-        public void BeginInvoke(){} // RVA: 0x1F8F3F0
-        public void EndInvoke(){} // RVA: 0x1EDD9F0
-    }
-
     /// <summary>Originally: ÍÏÌÎÍÌÌÎÎÍÎÍÌÌÏÌÍÍÌÍÏÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_FE15
     {
@@ -998,6 +978,44 @@ namespace VRC.Rendering
         // ── Unresolved (hash) ──
         public void m_038(){} // RVA: 0x1A383B0
         public void m_A4B(){} // RVA: 0x1A37D40
+    }
+
+    /// <summary>Originally: ÍÍÌÎÍÌÌÎÏÌÎÏÍÌÎÍÌÌÏÌÎÎÏ</summary>
+    public class CameraRenderTexturePreviewBinding
+    {
+        public UnityEngine.GameObject <ÌÌÌÏÎÍÎÎÍÌÍÍÏÎÏÌÍÏÍÏÏÎÎ>k__BackingField; // 0x20
+        public UnityEngine.RenderTexture <ÎÏÎÎÌÎÏÎÎÏÌÍÍÏÍÌÍÌÌÎÌÌÍ>k__BackingField; // 0x28
+        public UnityEngine.Transform <ÏÎÍÍÏÎÌÎÌÏÌÏÌÍÍÏÌÌÌÏÍÍÍ>k__BackingField; // 0x30
+        public float <ÌÍÎÍÎÎÏÏÏÌÌÍÌÎÌÎÎÍÎÎÍÌÎ>k__BackingField; // 0x38
+        public UnityEngine.Camera cam; // 0x40
+        public UnityEngine.Transform previewParent; // 0x48
+        public UnityEngine.Vector2 ÎÍÌÎÌÌÎÍÏÎÎÎÏÌÍÌÍÌÍÏÏÌÍ; // 0x50
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xAF4D00
+        public void Initialize(){} // RVA: 0xAF4D50
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void Dispose_A685ED906A1A(){} // RVA: 0x2DD310
+        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
+        public void Dispose(){} // RVA: 0xAF5070
+        public void Cleanup(){} // RVA: 0xAF5110
+        public void get_Comparer(){} // RVA: 0x6374D0
+        public void OnDestroy(){} // RVA: 0xAF51F0
+        public void get_Data(){} // RVA: 0x30B130
+        public void SetProgress(){} // RVA: 0x4FB970
+        public void Cleanup_34D5D4458E35(){} // RVA: 0x30B0C0
+        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
+        public void AddFromToForce_58CEA1EB071C_20C873978626(){} // RVA: 0x358730
+        public void get_MoveNext(){} // RVA: 0x35A740
+        public void get_Progress(){} // RVA: 0x4FE250
+        public void get_MoveNext_F84331A9532F(){} // RVA: 0x35A740
+        // ── 13 unresolved (hash) ──
+        public void m_052(){} // RVA: 0xAF4A10
+        public void m_A36(){} // RVA: 0xAF4E20
+        public void m_9C6(){} // RVA: 0xAF51B0
+        public void m_24C(){} // RVA: 0xAF51D0
+        public void m_213(){} // RVA: 0xAF5210
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÌÌÌÍÌÍÍÌÌÎÏÏÎÏÌÏÎÎÌÍÌ</summary>
@@ -1052,6 +1070,35 @@ namespace VRC.Rendering
         public void m_0A1(){} // RVA: 0x91B3C60
         public void m_A74(){} // RVA: 0x91B3D80
         // ... 15 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÌÏÎÌÍÏÍÌÏÍÍÌÎÎÌÎÌÎÏÎÎ</summary>
+    public class CursorArrowLineIndicator
+    {
+        public UnityEngine.GameObject cursor; // 0x20
+        public UnityEngine.GameObject arrow; // 0x28
+        public UnityEngine.GameObject invalid; // 0x30
+        public UnityEngine.GameObject outline; // 0x38
+        public UnityEngine.LineRenderer lineRenderer; // 0x40
+
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0xC770
+        public void get_minHeight(){} // RVA: 0xAFF380
+        public void get_ErrorCount(){} // RVA: 0x9EAB90
+        public void RandomRangeInt(){} // RVA: 0x11A0EB0
+        public void Start(){} // RVA: 0x11A0FB0
+        public void Update(){} // RVA: 0x11A1720
+        public void get_CleanedUp(){} // RVA: 0x11A2580
+        public void .ctor(){} // RVA: 0x11A2920
+        // ── Unresolved (hash) ──
+        public void m_600(){} // RVA: 0x11A0D80
+        public void m_B60(){} // RVA: 0x11A11E0
+        public void m_6EF(){} // RVA: 0x11A14A0
+        public void m_722(){} // RVA: 0x11A1980
+        public void m_081(){} // RVA: 0x11A22A0
+        public void m_32A(){}
+        public void m_CC2(){} // RVA: 0x11A2560
+        public void m_609(){} // RVA: 0x11A2590
     }
 
 }

@@ -235,9 +235,16 @@ Start-Process python -ArgumentList "tools/codex_worker.py","--mode","sibling","-
       混淆 VRChat 类现在带真实类型（VRCPlayerApi/PositionEvent/VRCStation…），
       可作为方法/类命名的新上下文。
 
+### 已完成 (v2.5) ✅
+- [x] **字段类型反哺命名**: 用 71K 字段类型给 fallback 混淆类证据支撑的真名。
+      源 `output/fieldtype_class_names.json`（118 唯一名，全部客观证据验证：引用的
+      字段类型必须真在 dump 里），pipeline Stage 2c 自动应用（189 个类实例）。
+      例: VRCPlayer_F618→VRCPlayerAvatarRuntimeState, NetworkSyncable_9834→
+      UdonBehaviourNetworkSyncQueue, WorldProximityExitStation_C9A0→WorldStationInteractableBinding。
+
 ### 未做 ❌（按 ROI 排序）
-- [ ] **用字段类型反哺命名**: 71K 字段类型是新的命名上下文（有 VRCPlayerApi 字段的类=玩家相关），
-      可喂回 LLM/规则给混淆类更准的语义名。
+- [ ] **扩大字段命名**: 当前只覆盖有 ≥2 域字段类型的 fallback 类。可放宽到方法+字段联合证据。
+- [ ] **运行时实时探测**: VM 物理 RAM 快照 + memprocfs 后端（见 vrc-runtime-re 私有项目）。
 - [ ] **IDA 分析深化**【中价值】: 28K 函数已反编译，剩余 hash 方法可继续补伪代码走 mega-batch。
 - [ ] **剩余 ~49K hash 方法**【低价值】: 大部分是 `<>c` 闭包/lambda/编译器生成/极通用方法，
       审计已证明强行命名 = 幻觉。边际收益极低，不建议盲目冲覆盖率。

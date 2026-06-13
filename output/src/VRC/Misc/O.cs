@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 78
-// Methods: 1161
+// Classes: 77
+// Methods: 1117
 
 namespace VRC.Misc
 {
@@ -253,47 +253,6 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x24B10
-    }
-
-    /// <summary>Originally: ÏÌÍÏÌÍÍÍÌÍÌÍÎÌÍÏÌÌÌÎÏÏÎ</summary>
-    public class OVRTouchpadHelperSiblingSiblinSibling_07ED
-    {
-        public UnityEngine.Texture2D _loadingTexture; // 0x20
-        public UnityEngine.UI.RawImage ÎÌÌÌÍÌÎÍÍÎÏÍÏÍÍÏÎÍÎÌÌÏÍ; // 0x28
-        public bool ÍÍÌÏÎÌÍÌÏÎÍÌÍÎÎÏÎÎÏÍÌÏÍ; // 0x30
-        public System.Nullable`1<bool> ÌÎÍÌÍÎÍÌÍÌÌÏÏÏÌÍÌÌÍÎÎÌÎ; // 0x31
-        public UnityEngine.UI.AspectRatioFitter ÌÌÌÏÎÍÍÏÍÍÎÎÎÌÎÍÎÏÏÎÌÍÍ; // 0x38
-        public ÏÏÎÎÎÎÍÌÎÎÌÏÌÎÏÏÏÌÌÏÍÍÌ ÏÏÎÏÌÏÍÌÎÍÍÏÏÌÎÌÎÌÌÍÏÎÌ; // 0x40
-
-        // ── Methods ──
-        public void Update_3CB451386F3C(){} // RVA: 0x92E8800
-        public void RaiseCancellation(){} // RVA: 0x92E8A40
-        public void Start_C9ED83B2DF2E(){} // RVA: 0x92E98D0
-        public void GetShouldUseSystemGestureMaterial(){} // RVA: 0x358D50
-        public void OnTouchpadPressed(){} // RVA: 0x92E9960
-        public void Awake(){} // RVA: 0x92E9BB0
-        public void OnCollisionExit(){} // RVA: 0x92E9DC0
-        public void StartCoroutine_Auto(){} // RVA: 0x92E9E50
-        public void ReadTransformState(){} // RVA: 0x92EA120
-        public void OnTouchpadClick(){} // RVA: 0x92EA1B0
-        public void .ctor(){} // RVA: 0x92DF5C0
-        public void OnTouchpadDoubleClick(){} // RVA: 0x92EA850
-        public void OnTouchpadClick_AF5D26F574E6(){} // RVA: 0x5E08120
-        public void GetNameB917F2E759B3(){} // RVA: 0x92EA8A0
-        public void OnTouchpadSwipeLeft(){} // RVA: 0x92EA8F0
-        public void OnTouchpadSwipeUp(){} // RVA: 0x92EAA80
-        public void OnTouchpadSwipeDown(){} // RVA: 0x92EAAA0
-        public void GetTouchpadPosition(){} // RVA: 0x92EAAC0
-        public void HandleTouchpadInput(){} // RVA: 0x92EAB40
-        public void OnDestroy(){} // RVA: 0x92EAD80
-        public void ResetTouchpadState(){} // RVA: 0x92E8A40
-        // ── Unresolved (hash) ──
-        public void m_5CC(){} // RVA: 0x92E8A70
-        public void m_073(){} // RVA: 0x92E9110
-        public void m_834(){} // RVA: 0x92E9360
-        public void m_1A3(){} // RVA: 0x92E9BA0
-        public void m_44D(){} // RVA: 0x92E9F40
-        public void m_F39(){} // RVA: 0x92EAA60
     }
 
     /// <summary>Originally: ÌÏÍÎÍÎÏÌÎÌÍÏÌÌÍÌÎÏÎÌÎÍÌ</summary>
@@ -770,49 +729,6 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_D5D(){} // RVA: 0x92DD5B0
         public void m_3EA(){} // RVA: 0x92DDE50
-    }
-
-    /// <summary>Originally: ÎÌÌÎÍÎÌÎÏÌÎÌÍÏÎÎÎÍÎÌÍÌÎ</summary>
-    public class OVRTouchpadHelperSiblingSiblinSibling_66B9
-    {
-        public 0x6588D128 _wingType; // 0x20
-        public UnityEngine.CanvasGroup _canvasGroup; // 0x28
-        public UnityEngine.RectTransform ÏÌÍÌÏÏÌÌÏÏÍÏÍÍÌÌÎÎÍÏÌÏÌ; // 0x30
-        public UnityEngine.UI.Button ÏÌÍÌÌÌÎÎÍÍÎÍÏÎÌÎÎÎÎÌÎÌÌ; // 0x38
-        public UnityEngine.UI.Button ÍÍÍÎÏÏÏÏÌÍÍÍÌÏÎÌÎÌÏÌÍÌÎ; // 0x40
-        public UnityEngine.UI.Button ÏÌÎÌÍÌÎÏÌÎÌÍÍÌÎÌÌÌÎÍÍÏÌ; // 0x48
-
-        // ── Methods ──
-        public void Update_3CB451386F3C(){} // RVA: 0x8C4C270
-        public void RaiseCancellation(){} // RVA: 0x8C4C480
-        public void .ctor(){} // RVA: 0x8C4C7C0
-        public void Awake(){} // RVA: 0x8C4C8C0
-        public void OnDestroy(){} // RVA: 0x8C4CDC0
-        public void SavePlayerPreferences(){} // RVA: 0x8C4CDE0
-        public void OnEnable(){} // RVA: 0x8C4CE90
-        public void get_Count(){} // RVA: 0x760030
-        public void OnCollisionExit(){} // RVA: 0x8C4D040
-        public void StartCoroutine_Auto(){} // RVA: 0x8C4D090
-        public void CheckOVRTouchpadHelperSiblin(){} // RVA: 0x8C4D530
-        public void GetPlayerVelocity(){} // RVA: 0x8C4D550
-        public void OnDisable(){} // RVA: 0x8C4D5F0
-        public void ResolveOVRTouchpadHelperSiblin(){} // RVA: 0x8C4D790
-        public void OnTouchpadDoubleClick(){} // RVA: 0x8C4D9A0
-        public void OnTouchpadSwipe(){} // RVA: 0x8C4D9B0
-        public void OnDestroyAA3AC3D8F269(){} // RVA: 0x8C4DA60
-        public void OnTouchpadSwipeRight(){} // RVA: 0x891B50
-        public void StartCoroutineAuto(){} // RVA: 0x8C4DAB0
-        public void DestroyChild(){} // RVA: 0x173F990
-        public void GetTouchpadPosition(){} // RVA: 0x8C4DB50
-        public void HandleTouchpadInput(){} // RVA: 0x8C4D530
-        public void ResetTouchpadState(){} // RVA: 0x8C4DBF0
-        public void OnPointerDownAnalytics(){} // RVA: 0x8C4DD50
-        // ── Unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x8C4C520
-        public void m_F8E(){} // RVA: 0x8C4CE40
-        public void m_B3B(){} // RVA: 0x8C4D270
-        public void m_DD6(){} // RVA: 0x8C4D450
-        public void m_6DE(){} // RVA: 0x8C4D500
     }
 
     /// <summary>Originally: ÏÎÏÏÏÏÍÎÌÏÍÍÎÌÎÍÏÏÍÍÏÏÏ</summary>
@@ -1742,6 +1658,28 @@ namespace VRC.Misc
         public void _DestroyObjects_48A2A8D42D4A(){} // RVA: 0x1725B00
         public void OnTriggerStay(){} // RVA: 0x1725D30
         public void OnTriggerEnter(){} // RVA: 0x1724E10
+    }
+
+    /// <summary>Originally: ÏÍÌÌÍÎÎÍÏÍÍÌÏÎÏÌÍÏÍÍÌÌÏ</summary>
+    public class OnOffIconStylePair
+    {
+        public VRC.UI.Core.Styles.StyleElement _onIconStyle; // 0x20
+        public VRC.UI.Core.Styles.StyleElement _offIconStyle; // 0x28
+
+        // ── Methods ──
+        public void get_Comparer(){} // RVA: 0x6374D0
+        public void get_MoveNext(){} // RVA: 0x4976A0
+        public void get_MoveNext_EBFA1182543C(){} // RVA: 0x4976A0
+        public void get_Comparer_BECCB02569DB(){} // RVA: 0x6374D0
+        public void get_MoveNext_8D494DFF2F4D(){} // RVA: 0x4976A0
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x6374D0
+        public void get_Comparer_90559A0FC2C4(){} // RVA: 0x6374D0
+        public void get_Comparer_DB897AFFCFC9(){} // RVA: 0x6374D0
+        // ── Unresolved (hash) ──
+        public void m_047(){} // RVA: 0x924BE60
+        public void m_4BC(){} // RVA: 0x924BE60
+        public void m_985(){} // RVA: 0x924BE60
     }
 
     /// <summary>Originally: ÎÏÌÍÏÎÍÍÏÏÏÎÎÌÎÍÌÎÍÏÎÌÎ</summary>

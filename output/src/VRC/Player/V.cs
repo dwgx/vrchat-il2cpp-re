@@ -1,10 +1,104 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
-// Classes: 13
-// Methods: 718
+// Classes: 15
+// Methods: 520
 
 namespace VRC.Player
 {
+    /// <summary>Originally: ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ</summary>
+    public class VRCPlayerApiUserState
+    {
+        public VRC.Core.APIUser <ÎÏÏÌÍÎÍÎÍÌÌÎÌÏÌÌÌÌÎÎÎÌÍ>k__BackingField; // 0x20
+        public ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ ÌÌÎÍÎÍÍÌÌÍÎÍÌÌÌÍÌÌÌÌÌÌÎ; // 0x28
+        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ _vrcplayer; // 0x30
+        public ÏÍÏÌÍÎÍÍÏÍÎÍÍÏÍÍÏÏÏÏÎÌÎ _laserSelectRegion; // 0x38
+        public ÍÎÎÌÍÏÎÏÏÎÏÏÌÏÍÍÍÌÍÌÏÌÏ ÏÍÎÍÏÎÎÎÏÌÌÍÌÌÌÎÍÌÍÏÍÍÎ; // 0x40
+        public ÌÍÍÌÏÎÌÍÏÍÌÌÍÏÏÎÏÌÍÌÌÍÌ <ÎÌÎÏÌÌÏÎÍÎÏÍÌÎÍÍÍÏÌÎÍÏÌ>k__BackingField; // 0x48
+        public bool <ÏÍÍÌÎÎÌÌÏÍÌÌÎÏÍÍÍÏÌÌÎÌÏ>k__BackingField; // 0x50
+        public bool <ÍÎÍÌÎÎÌÌÍÏÍÎÎÍÏÍÌÌÏÏÍÎÎ>k__BackingField; // 0x51
+        public bool <ÌÍÍÌÌÎÌÎÏÌÏÌÏÍÍÌÍÎÌÌÍÍÌ>k__BackingField; // 0x52
+        public bool <ÎÏÍÎÌÍÏÏÌÌÍÍÍÍÎÎÌÌÏÍÌÍÌ>k__BackingField; // 0x53
+        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> <ÎÌÏÌÎÏÏÎÏÏÎÎÌÎÌÌÏÍÌÍÏÌÌ>k__BackingField; // 0x58
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÏÏÎÏÎÏÍÎÏÏÍÏÍÎÏÎÍÍÎÍÍÎ>k__BackingField; // 0x60
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÏÎÍÎÍÎÌÎÎÌÎÍÏÌÎÏÏÎÌÍÏÏÎ>k__BackingField; // 0x68
+        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÎÌÎÍÍÍÌÍÍÏÏÎÏÌÌÏÍÍÌÌÏÏ>k__BackingField; // 0x70
+        public string[] <ÍÏÍÏÍÎÏÌÏÏÏÏÌÎÎÎÍÌÌÍÌÏÌ>k__BackingField; // 0x78
+        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ <ÏÎÏÍÍÎÌÎÍÏÌÎÌÏÌÏÌÏÏÎÍÏÎ>k__BackingField; // 0x80
+        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ _USpeaker; // 0x88
+        public bool <ÏÌÍÏÍÍÎÏÍÍÏÎÏÎÌÍÍÎÏÌÏÌÌ>k__BackingField; // 0x90
+        public bool <ÏÏÌÍÏÌÎÍÍÍÎÎÎÏÎÍÎÌÏÎÍÌÏ>k__BackingField; // 0x91
+        public bool ÏÏÍÌÏÌÌÏÍÍÍÏÎÏÎÎÌÎÎÎÏÎÌ; // 0x92
+        public bool ÍÌÏÌÌÏÍÌÏÏÎÌÏÌÎÍÎÌÏÎÎÌÌ; // 0x93
+        public VRC.SDKBase.VRCPlayerApi ÌÍÌÌÏÌÏÌÌÏÍÎÏÎÌÎÎÍÎÌÌÍÌ; // 0x98
+        public ÍÌÏÎÍÏÎÎÍÏÌÏÌÌÍÍÍÌÍÎÏÎÌ ÎÌÍÍÏÌÌÌÏÏÌÏÌÌÍÍÍÌÏÏÎÎÍ; // 0xA0
+        public bool ÌÎÎÌÎÏÍÏÌÏÌÌÏÎÍÏÍÎÏÍÍÍÌ; // 0xA8
+        public bool ÍÏÍÌÎÏÏÌÍÎÍÌÌÎÎÏÎÌÎÎÎÎÌ; // 0xA9
+        public bool ÌÏÍÏÏÍÎÍÎÍÏÎÌÌÏÏÎÌÎÏÌÏÏ; // 0xAA
+        public bool ÌÌÎÌÍÎÏÌÌÏÌÍÌÍÎÎÏÏÌÎÍÍÌ; // 0xAB
+
+        // ── Methods ──
+        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically(){} // RVA: 0x1BE2170
+        public void set_Error(){} // RVA: 0x1BE2180
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally(){} // RVA: 0x3978F0
+        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void get_Comparer(){} // RVA: 0x6374D0
+        public void OnDestroy(){} // RVA: 0x1BE26A0
+        public void set_authorId(){} // RVA: 0x464450
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void get_focusController(){} // RVA: 0xA1C8C0
+        public void get_TokenizedType(){} // RVA: 0x1BE2A10
+        public void get_ignoreNextClick(){} // RVA: 0x1491AA0
+        public void get_SameFunc(){} // RVA: 0x31C010
+        public void ValueTupleConstructor(){} // RVA: 0x1BE2B30
+        public void set_imageUrl(){} // RVA: 0x4C34F0
+        public void get_Comparer_88BEC0B83592(){} // RVA: 0x6374D0
+        public void ToStringEnd(){} // RVA: 0x1BE2CF0
+        public void ValueTupleConstructor_CDCDD22760B4(){} // RVA: 0x1BE2D70
+        public void Awake(){} // RVA: 0x1BE2DE0
+        public void ToStringEnd_CAB7F622661A(){} // RVA: 0x1BE3990
+        public void get_Comparer_2806973DCFF0(){} // RVA: 0x6374D0
+        public void GetStructuralHashCode(){} // RVA: 0x1BE3DC0
+        public void set_imageUrl_5924587A2AED(){} // RVA: 0x4C34F0
+        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically_0B4237E8822A(){} // RVA: 0x1BE2170
+        public void AddFromToForce(){} // RVA: 0x358740
+        public void GetStructuralHashCode_ACA0014D8C09(){} // RVA: 0x1BE3DD0
+        public void Start(){} // RVA: 0x1BE46E0
+        public void GetStructuralHashCode_B5C3AEE57E77(){} // RVA: 0x1BE4780
+        public void set_imageUrl_AA50C62D72BC(){} // RVA: 0x3A55A0
+        public void Constructor(){} // RVA: 0x37B380
+        public void GetStructuralHashCode_26FEB9446F93(){} // RVA: 0x1BE47B0
+        public void GetStructuralHashCode_9F3F7548B777(){} // RVA: 0x1BE4C90
+        public void .ctor(){} // RVA: 0x1BE4CA0
+        public void Initialize(){} // RVA: 0x1BE4FE0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
+        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally_F4B681F3EA3E(){} // RVA: 0x1348E00
+        public void GetStructuralHashCode_A85E3366D41B(){} // RVA: 0x1BE5100
+        public void get_ResultOnSuccess(){} // RVA: 0x3978E0
+        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
+        public void GetStructuralHashCode_C7FA45E6625B(){} // RVA: 0x1BE5230
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void GetStructuralHashCode_0B01E5D3916A(){} // RVA: 0x1BE5260
+        public void get_imageUrl(){} // RVA: 0x3A5590
+        public void get_MoveNext(){} // RVA: 0x462D00
+        public void GetStructuralHashCode_ECAF5E31F428(){} // RVA: 0x1BE5300
+        public void GetStructuralHashCode_D970FEAE9DDF(){} // RVA: 0x1BE5330
+        public void GetStructuralHashCode_F79812DA6F3A(){} // RVA: 0x1BE58D0
+        public void GetComponentTransform(){} // RVA: 0x4C7C50
+        public void ToStringEnd_DCFFACC91435(){} // RVA: 0x1BE6B30
+        public void ToString(){} // RVA: 0x1BE6D40
+        public void Cleanup(){} // RVA: 0x30B0C0
+        public void set_Error_9DB304049B99(){} // RVA: 0x1BE2180
+        public void get_AlertDescription(){} // RVA: 0x134A670
+        // ── 32 unresolved (hash) ──
+        public void m_C56(){} // RVA: 0x1BE2160
+        public void m_7E8(){} // RVA: 0x1BE2190
+        public void m_ACC(){} // RVA: 0x1BE2250
+        public void m_4FE(){} // RVA: 0x1BE2350
+        public void m_290(){} // RVA: 0x1BE2670
+        // ... 27 more unresolved methods
+    }
+
     /// <summary>Originally: ÏÍÍÎÏÌÎÏÌÌÍÍÌÍÍÍÌÌÌÌÎÏÏ</summary>
     public class VRCPlayerSiblingSiblingSibling_6422
     {
@@ -160,100 +254,6 @@ namespace VRC.Player
         public void m_674(){} // RVA: 0x954850
         public void m_895(){} // RVA: 0x954970
         public void m_A7C(){} // RVA: 0x9549C0
-        // ... 27 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ</summary>
-    public class VRCPlayerSiblingSibling_BF8C
-    {
-        public VRC.Core.APIUser <ÎÏÏÌÍÎÍÎÍÌÌÎÌÏÌÌÌÌÎÎÎÌÍ>k__BackingField; // 0x20
-        public ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ ÌÌÎÍÎÍÍÌÌÍÎÍÌÌÌÍÌÌÌÌÌÌÎ; // 0x28
-        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ _vrcplayer; // 0x30
-        public ÏÍÏÌÍÎÍÍÏÍÎÍÍÏÍÍÏÏÏÏÎÌÎ _laserSelectRegion; // 0x38
-        public ÍÎÎÌÍÏÎÏÏÎÏÏÌÏÍÍÍÌÍÌÏÌÏ ÏÍÎÍÏÎÎÎÏÌÌÍÌÌÌÎÍÌÍÏÍÍÎ; // 0x40
-        public ÌÍÍÌÏÎÌÍÏÍÌÌÍÏÏÎÏÌÍÌÌÍÌ <ÎÌÎÏÌÌÏÎÍÎÏÍÌÎÍÍÍÏÌÎÍÏÌ>k__BackingField; // 0x48
-        public bool <ÏÍÍÌÎÎÌÌÏÍÌÌÎÏÍÍÍÏÌÌÎÌÏ>k__BackingField; // 0x50
-        public bool <ÍÎÍÌÎÎÌÌÍÏÍÎÎÍÏÍÌÌÏÏÍÎÎ>k__BackingField; // 0x51
-        public bool <ÌÍÍÌÌÎÌÎÏÌÏÌÏÍÍÌÍÎÌÌÍÍÌ>k__BackingField; // 0x52
-        public bool <ÎÏÍÎÌÍÏÏÌÌÍÍÍÍÎÎÌÌÏÍÌÍÌ>k__BackingField; // 0x53
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> <ÎÌÏÌÎÏÏÎÏÏÎÎÌÎÌÌÏÍÌÍÏÌÌ>k__BackingField; // 0x58
-        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÏÏÎÏÎÏÍÎÏÏÍÏÍÎÏÎÍÍÎÍÍÎ>k__BackingField; // 0x60
-        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÏÎÍÎÍÎÌÎÎÌÎÍÏÌÎÏÏÎÌÍÏÏÎ>k__BackingField; // 0x68
-        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> <ÍÎÌÎÍÍÍÌÍÍÏÏÎÏÌÌÏÍÍÌÌÏÏ>k__BackingField; // 0x70
-        public string[] <ÍÏÍÏÍÎÏÌÏÏÏÏÌÎÎÎÍÌÌÍÌÏÌ>k__BackingField; // 0x78
-        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ <ÏÎÏÍÍÎÌÎÍÏÌÎÌÏÌÏÌÏÏÎÍÏÎ>k__BackingField; // 0x80
-        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ _USpeaker; // 0x88
-        public bool <ÏÌÍÏÍÍÎÏÍÍÏÎÏÎÌÍÍÎÏÌÏÌÌ>k__BackingField; // 0x90
-        public bool <ÏÏÌÍÏÌÎÍÍÍÎÎÎÏÎÍÎÌÏÎÍÌÏ>k__BackingField; // 0x91
-        public bool ÏÏÍÌÏÌÌÏÍÍÍÏÎÏÎÎÌÎÎÎÏÎÌ; // 0x92
-        public bool ÍÌÏÌÌÏÍÌÏÏÎÌÏÌÎÍÎÌÏÎÎÌÌ; // 0x93
-        public VRC.SDKBase.VRCPlayerApi ÌÍÌÌÏÌÏÌÌÏÍÎÏÎÌÎÎÍÎÌÌÍÌ; // 0x98
-        public ÍÌÏÎÍÏÎÎÍÏÌÏÌÌÍÍÍÌÍÎÏÎÌ ÎÌÍÍÏÌÌÌÏÏÌÏÌÌÍÍÍÌÏÏÎÎÍ; // 0xA0
-        public bool ÌÎÎÌÎÏÍÏÌÏÌÌÏÎÍÏÍÎÏÍÍÍÌ; // 0xA8
-        public bool ÍÏÍÌÎÏÏÌÍÎÍÌÌÎÎÏÎÌÎÎÎÎÌ; // 0xA9
-        public bool ÌÏÍÏÏÍÎÍÎÍÏÎÌÌÏÏÎÌÎÏÌÏÏ; // 0xAA
-        public bool ÌÌÎÌÍÎÏÌÌÏÌÍÌÍÎÎÏÏÌÎÍÍÌ; // 0xAB
-
-        // ── Methods ──
-        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically(){} // RVA: 0x1BE2170
-        public void set_Error(){} // RVA: 0x1BE2180
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally(){} // RVA: 0x3978F0
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void OnDestroy(){} // RVA: 0x1BE26A0
-        public void set_authorId(){} // RVA: 0x464450
-        public void set_ResponseModels(){} // RVA: 0x358D60
-        public void get_focusController(){} // RVA: 0xA1C8C0
-        public void get_TokenizedType(){} // RVA: 0x1BE2A10
-        public void get_ignoreNextClick(){} // RVA: 0x1491AA0
-        public void get_SameFunc(){} // RVA: 0x31C010
-        public void ValueTupleConstructor(){} // RVA: 0x1BE2B30
-        public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void get_Comparer_88BEC0B83592(){} // RVA: 0x6374D0
-        public void ToStringEnd(){} // RVA: 0x1BE2CF0
-        public void ValueTupleConstructor_CDCDD22760B4(){} // RVA: 0x1BE2D70
-        public void Awake(){} // RVA: 0x1BE2DE0
-        public void ToStringEnd_CAB7F622661A(){} // RVA: 0x1BE3990
-        public void get_Comparer_2806973DCFF0(){} // RVA: 0x6374D0
-        public void GetStructuralHashCode(){} // RVA: 0x1BE3DC0
-        public void set_imageUrl_5924587A2AED(){} // RVA: 0x4C34F0
-        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically_0B4237E8822A(){} // RVA: 0x1BE2170
-        public void AddFromToForce(){} // RVA: 0x358740
-        public void GetStructuralHashCode_ACA0014D8C09(){} // RVA: 0x1BE3DD0
-        public void Start(){} // RVA: 0x1BE46E0
-        public void GetStructuralHashCode_B5C3AEE57E77(){} // RVA: 0x1BE4780
-        public void set_imageUrl_AA50C62D72BC(){} // RVA: 0x3A55A0
-        public void Constructor(){} // RVA: 0x37B380
-        public void GetStructuralHashCode_26FEB9446F93(){} // RVA: 0x1BE47B0
-        public void GetStructuralHashCode_9F3F7548B777(){} // RVA: 0x1BE4C90
-        public void .ctor(){} // RVA: 0x1BE4CA0
-        public void Initialize(){} // RVA: 0x1BE4FE0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally_F4B681F3EA3E(){} // RVA: 0x1348E00
-        public void GetStructuralHashCode_A85E3366D41B(){} // RVA: 0x1BE5100
-        public void get_ResultOnSuccess(){} // RVA: 0x3978E0
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void GetStructuralHashCode_C7FA45E6625B(){} // RVA: 0x1BE5230
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void GetStructuralHashCode_0B01E5D3916A(){} // RVA: 0x1BE5260
-        public void get_imageUrl(){} // RVA: 0x3A5590
-        public void get_MoveNext(){} // RVA: 0x462D00
-        public void GetStructuralHashCode_ECAF5E31F428(){} // RVA: 0x1BE5300
-        public void GetStructuralHashCode_D970FEAE9DDF(){} // RVA: 0x1BE5330
-        public void GetStructuralHashCode_F79812DA6F3A(){} // RVA: 0x1BE58D0
-        public void GetComponentTransform(){} // RVA: 0x4C7C50
-        public void ToStringEnd_DCFFACC91435(){} // RVA: 0x1BE6B30
-        public void ToString(){} // RVA: 0x1BE6D40
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void set_Error_9DB304049B99(){} // RVA: 0x1BE2180
-        public void get_AlertDescription(){} // RVA: 0x134A670
-        // ── 32 unresolved (hash) ──
-        public void m_C56(){} // RVA: 0x1BE2160
-        public void m_7E8(){} // RVA: 0x1BE2190
-        public void m_ACC(){} // RVA: 0x1BE2250
-        public void m_4FE(){} // RVA: 0x1BE2350
-        public void m_290(){} // RVA: 0x1BE2670
         // ... 27 more unresolved methods
     }
 
@@ -460,333 +460,71 @@ namespace VRC.Player
         public void m_489(){} // RVA: 0xC770
     }
 
-    /// <summary>Originally: ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ</summary>
-    public class VRCPlayer_F618
+    /// <summary>Originally: ÎÍÍÎÏÏÎÍÎÌÏÍÎÏÌÎÌÍÌÎÎÏÍ</summary>
+    public class VRCUnityVideoPlayerBinding
     {
-        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
-        public ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ _player; // 0x58
-        public ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ _serializer; // 0x60
-        public ÏÏÎÌÌÎÍÏÌÍÌÍÍÍÌÌÍÏÎÌÍÎÌ _poseRecorder; // 0x68
-        public ÎÎÏÍÏÏÏÍÎÌÍÎÍÏÎÍÏÍÎÌÏÏÌ _syncPhysics; // 0x70
-        public bool <ÏÏÌÎÎÎÌÍÎÏÍÏÍÏÍÍÎÎÏÏÌÍÌ>k__BackingField; // 0x78
-        public ÎÎÍÏÍÏÌÌÍÎÏÍÏÌÎÌÍÏÌÏÎÌÌ ÎÎÍÏÍÏÌÌÍÎÏÍÏÌÎÌÍÏÌÏÎÌÌ; // 0x80
-        public UnityEngine.GameObject ÌÏÍÏÍÍÌÏÏÏÍÏÌÍÌÍÎÎÎÍÎÍÏ; // 0x88
-        public ÌÏÏÌÏÎÏÌÎÍÏÎÏÍÍÍÌÏÍÌÎÌÌ ÍÎÍÌÏÍÏÍÎÎÌÌÍÍÎÏÏÎÎÌÌÍÌ; // 0x90
-        public ÎÌÌÍÌÍÍÍÌÎÍÌÎÍÌÎÏÌÏÎÏÌÌ ÍÍÏÎÏÍÌÏÏÍÍÏÏÎÏÏÏÌÍÏÌÌÎ; // 0x98
-        public string ÌÏÌÍÌÌÌÏÍÍÎÏÍÍÏÌÌÎÏÍÎÏÎ; // 0xA0
-        public UnityEngine.Texture2D ÎÎÍÎÌÍÎÌÍÏÍÌÌÍÍÎÌÌÍÎÎÏÏ; // 0xA8
-        public bool ÎÏÏÎÌÏÍÏÎÌÏÎÏÍÍÌÎÎÌÎÎÎÍ; // 0xB0
-        public float ÍÍÌÏÌÌÍÌÍÏÍÏÎÏÍÌÍÎÏÍÎÎÌ; // 0xB4
-        public float ÏÏÏÎÎÌÏÌÌÍÍÎÎÎÏÏÏÌÏÏÌÌÏ; // 0xB8
-        public System.Collections.Generic.HashSet`1<string> ÍÌÏÏÎÌÏÏÍÍÍÍÏÍÏÏÏÌÎÌÏÏÌ; // 0xC0
-        public ÏÏÍÏÌÏÏÍÏÎÏÏÌÏÏÎÏÍÍÏÎÍÎ ÍÌÌÌÌÏÏÍÌÎÏÍÏÌÍÎÍÌÍÌÌÌÎ; // 0xC8
-        public ÏÏÎÏÎÌÌÍÎÎÌÎÍÏÏÎÎÌÌÍÌÍÌ ÌÍÎÎÍÍÌÎÌÎÏÎÎÌÍÌÌÍÏÏÍÏÎ; // 0xD0
-        public ÏÏÌÏÏÎÏÏÌÏÍÍÍÏÌÍÎÍÏÍÌÎÎ ÏÌÎÌÎÎÎÌÎÍÌÏÏÌÌÌÏÍÎÏÏÌÌ; // 0xD8
-        public UnityEngine.GameObject[] ÎÌÏÏÏÎÎÏÏÍÌÎÍÍÎÍÍÏÍÌÍÏÍ; // 0xE0
-        public UnityEngine.GameObject[] ÍÍÎÌÌÏÌÌÍÏÏÌÌÌÏÏÎÍÎÌÎÍÏ; // 0xE8
-        public ÏÌÍÏÎÏÍÏÏÌÏÏÍÎÍÌÎÌÎÏÌÍÍ ÎÏÌÏÏÍÌÎÍÏÎÏÍÏÍÎÎÍÏÎÌÏÏ; // 0xF0
-        public ÏÌÍÏÎÏÍÏÏÌÏÏÍÎÍÌÎÌÎÏÌÍÍ ÌÏÌÎÎÎÏÍÍÌÌÏÌÍÌÌÍÌÍÎÎÏÍ; // 0xF8
-        public bool ÏÍÌÏÎÌÌÌÌÍÏÌÍÍÏÌÌÎÏÍÍÏÌ; // 0x100
-        public float <ÏÍÏÏÌÎÎÌÎÎÍÏÎÍÏÌÌÏÏÏÌÍÎ>k__BackingField; // 0x8
-        public UnityEngine.Vector3 ÌÎÎÏÎÎÏÏÍÍÎÏÏÎÏÏÌÏÎÌÎÌÏ; // 0x104
-        public float ÎÎÍÏÎÎÌÍÌÍÏÌÍÎÍÏÎÎÌÎÏÏÍ; // 0x110
-        public float ÌÌÏÍÍÍÎÎÌÏÎÏÌÍÎÏÏÍÌÏÎÏÌ;
-        public string ÌÍÎÏÏÏÎÍÏÏÎÎÍÏÏÍÌÏÎÌÌÌÎ; // 0x118
-        public string ÏÌÍÍÍÏÏÏÍÌÏÎÍÏÎÏÏÌÌÌÍÌÌ; // 0x120
-        public ÏÎÍÏÏÍÏÏÍÏÎÌÏÌÏÎÍÎÎÌÍÌÏ <ÌÎÍÌÎÍÎÎÎÏÏÍÏÎÌÏÌÌÏÌÏÏÏ>k__BackingField; // 0x128
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0x130
-        public bool ÌÌÎÍÍÏÎÌÌÌÏÏÏÌÌÍÎÎÏÌÎÏÌ; // 0x131
-        public ÏÏÎÍÍÏÍÌÌÏÌÍÎÌÌÍÏÏÏÎÍÎÏ ÎÌÍÏÏÎÌÏÎÍÎÏÍÍÍÌÎÌÏÌÌÌÌ; // 0x138
-        public UnityEngine.Transform ÌÏÌÎÍÌÎÌÏÎÌÏÌÏÍÎÎÌÍÍÍÍÍ; // 0x140
-        public bool <ÎÌÎÎÏÍÏÍÎÌÏÎÌÌÎÍÍÎÍÍÌÏÎ>k__BackingField; // 0x148
-        public ÏÌÏÎÌÏÌÎÎÍÎÎÎÍÎÏÏÏÏÍÌÎÎ ÏÌÍÏÎÍÍÍÌÍÎÌÎÌÌÏÌÏÏÌÎÏÍ; // 0x150
-        public UnityEngine.GameObject ÏÎÍÌÎÏÌÌÌÎÍÍÏÎÍÍÍÏÏÍÍÏÏ; // 0x158
-        public UnityEngine.Animator ÍÌÎÏÎÎÏÌÏÏÌÎÌÎÌÎÎÏÌÎÎÎÏ; // 0x160
-        public ÌÌÏÏÏÎÌÌÌÍÍÎÍÌÏÏÎÍÏÏÌÎÏ <ÌÏÎÍÍÍÌÍÏÌÎÏÏÎÌÍÌÎÏÏÏÍÍ>k__BackingField; // 0x168
-        public System.Collections.Generic.Dictionary`2<string,string> ÎÍÎÏÏÌÎÍÏÎÌÎÍÌÎÎÎÎÏÏÌÎÎ; // 0x170
-        public System.Collections.Generic.HashSet`1<int> ÏÏÌÎÌÍÎÍÎÏÏÌÎÎÌÍÍÍÌÌÎÎÍ; // 0x178
-        public System.Collections.Generic.Dictionary`2<int,int> ÍÌÍÎÎÌÌÌÍÏÎÎÏÏÎÍÎÌÍÏÏÏÎ; // 0x180
-        public ÌÏÌÍÎÎÍÎÌÎÌÌÍÍÏÏÌÌÏÍÎÏÎ <ÎÌÎÌÏÌÌÏÌÌÍÏÎÏÌÌÎÏÏÌÍÍÎ>k__BackingField; // 0x188
-        public bool ÍÎÍÍÍÍÍÎÏÎÌÍÌÌÎÏÍÍÏÏÌÌÎ; // 0x190
-        public System.Nullable`1<int> <ÎÏÏÎÏÌÎÎÎÎÍÌÎÏÎÌÏÍÌÍÌÍÎ>k__BackingField; // 0x194
-        public VRC.SDKBase.VRCPlayerApi ÍÌÏÏÌÎÏÌÌÎÏÌÎÌÍÍÎÎÍÌÏÍÎ; // 0x1A0
-        public System.Collections.Generic.List`1<ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ> ÍÌÍÌÌÎÏÍÎÏÎÌÎÌÏÏÎÍÍÏÌÍÏ; // 0x1A8
-        public ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ ÏÎÍÌÎÌÏÏÏÏÍÎÎÌÍÍÌÏÌÎÍÎÏ; // 0x1B0
-        public ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ ÍÏÌÎÍÍÏÏÌÎÏÎÍÎÎÎÎÎÌÌÍÎÎ; // 0x1B8
-        public bool ÍÎÌÍÏÍÌÏÎÌÎÎÍÍÏÌÍÍÏÏÍÌÌ; // 0x1C0
-        public bool ÎÏÍÌÏÌÎÍÍÍÌÎÎÏÌÏÎÎÏÌÎÎÎ; // 0x1C1
-        public bool ÎÍÍÎÌÍÎÎÍÍÌÏÏÎÎÏÌÎÏÎÌÌÍ; // 0x1C2
-        public bool ÎÌÎÌÍÏÏÌÎÌÎÏÍÏÌÎÏÌÎÏÍÍÎ; // 0x1C3
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> <ÏÎÎÍÎÎÍÏÎÏÍÌÎÌÍÎÏÍÌÍÌÎÏ>k__BackingField; // 0x1C8
-        public ÌÏÎÏÌÏÌÍÏÍÌÌÎÏÌÏÎÍÏÎÏÎÎ <ÌÍÍÏÌÍÌÏÏÌÏÍÌÌÎÎÎÌÎÌÎÌÍ>k__BackingField; // 0x1D0
-        public VRC.Core.ApiAvatar <ÏÏÎÌÍÏÎÏÍÌÌÎÎÍÌÌÏÎÍÍÏÌÎ>k__BackingField; // 0x1D8
-        public VRC.Core.ApiAvatar <ÌÏÌÌÌÎÍÎÎÏÎÎÎÌÎÍÌÏÍÍÎÎÌ>k__BackingField; // 0x1E0
-        public ÌÏÍÎÏÍÏÎÌÎÍÏÍÎÍÍÍÌÏÏÌÏÍ <ÎÌÏÏÏÍÎÎÌÎÏÍÌÏÏÍÌÎÍÎÌÎÍ>k__BackingField; // 0x1E8
-        public bool ÏÍÍÏÎÌÍÎÏÎÌÌÎÍÎÏÌÍÎÎÌÎÍ; // 0x1F0
-        public bool ÏÍÎÌÍÌÍÍÏÌÏÍÏÎÍÍÍÏÏÏÏÍÏ; // 0x1F1
-        public string ÎÌÎÍÎÍÎÏÏÎÌÍÏÏÏÏÍÎÍÌÌÍÎ; // 0x1F8
-        public bool ÏÍÍÍÍÏÌÏÏÌÍÎÍÏÏÎÌÌÎÍÌÏÎ; // 0x200
-        public ulong ÎÍÌÏÌÍÍÍÍÏÏÍÍÌÍÏÏÌÍÎÎÎÏ; // 0x208
-        public bool ÎÍÍÌÌÏÏÎÍÏÍÍÎÎÍÌÎÎÍÌÎÏÌ; // 0x210
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÎÎÎÎÎÏÌÏÏÎÍÏÎÌÏÌÎÍÏÍÌÎ; // 0x218
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÌÌÏÏÌÍÌÌÍÎÏÏÌÍÏÏÌÎÍÏÏÏÏ; // 0x220
-        public ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ ÎÍÍÌÌÏÍÏÏÏÍÏÏÎÏÍÏÎÍÎÏÏÍ; // 0x228
+        public VRC.SDK3.Video.Components.VRCUnityVideoPlayer ÏÌÏÏÍÏÏÌÏÍÌÌÌÌÌÍÏÌÎÏÏÌÏ; // 0x20
 
         // ── Methods ──
-        public void get_ValidExpressions(){} // RVA: 0x1679690
-        public void Computetransform(){} // RVA: 0x16797C0
-        public void get_enableAutoSizing(){} // RVA: 0x1679DD0
-        public void set_NetworkSerializerReference(){} // RVA: 0xDB3D70
-        public void get_disclaimerText(){} // RVA: 0x1679FF0
-        public void get_IsStaticInstanceFlagSet(){} // RVA: 0x167A190
-        public void IsPlayerAvatarAndNetworkReady(){} // RVA: 0x167A340
-        public void IsLocalPlayerMaster(){} // RVA: 0x1497900
-        public void SetEnabled_281(){} // RVA: 0x167A550
-        public void GetBufferAsTypeSafe(){} // RVA: 0x2DD320
-        public void get_shouldAddToAuthor(){} // RVA: 0x167A690
-        public void DoGetMaterial_A46(){} // RVA: 0x167A850
-        public void ResolvePlayerAvatarFromNetworkState(){} // RVA: 0x167AAB0
-        public void SetPlayerAnimatorFromNetworkObject(){} // RVA: 0xDB44F0
-        public void Awake_B99D376921B7(){} // RVA: 0x167AFC0
-        public void get_PlayerApiReference(){} // RVA: 0x167B110
-        public void get_IsLocalPlayerDefault(){} // RVA: 0x167B330
-        public void get_IsInvisible(){} // RVA: 0x167B3B0
-        public void PlayEmoteRPC(){} // RVA: 0x167B560
-        public void InitializePlayerNetworkSerialization(){} // RVA: 0x167B700
-        public void GetGameObject_786_1CD176530F1B(){} // RVA: 0x1681A60 | overloaded x2
-        public void Dispose(){} // RVA: 0x167B9E0
-        public void GetGameObject_8A4(){} // RVA: 0x167B9F0
-        public void DoGetMaterial(){} // RVA: 0x167BA50
-        public void get_onEndTextSelection(){} // RVA: 0x167BA60
-        public void GetGameObject_EF0(){} // RVA: 0x167BB50
-        public void GetIKSolver(){} // RVA: 0x167BBA0
-        public void get_IsLocalPlayerFallback(){} // RVA: 0x167BDB0
-        public void OnPlayerDisconnectCleanup(){} // RVA: 0x167C0A0
-        public void InitializePlayer(){} // RVA: 0x167C0B0
-        public void ApplyPlayerVoiceVolume(){} // RVA: 0xD85270
-        public void SetNetworkSerializerFieldNull(){} // RVA: 0x167C130
-        public void get_IsSpeaking(){} // RVA: 0x167C140
-        public void SetNetworkPropertyFromHashtable(){} // RVA: 0x167C330
-        public void GetMaterial(){} // RVA: 0xD9A380
-        public void DoIsValueConsideredPressed(){} // RVA: 0x167C350
-        public void GetGameObject_587(){} // RVA: 0x358D50
-        public void get_BeginFinalFileWritingAction(){} // RVA: 0x167CE40
-        public void GetGameObject_DA1(){} // RVA: 0x8CBA20
-        public void OnDestroy(){} // RVA: 0x167D020
-        public void GetGameObject_011(){} // RVA: 0x167D9A0
-        public void get_rootIMGUIContainer(){} // RVA: 0x167DAF0
-        public void SetPosition(){} // RVA: 0x167DB00
-        public void Start_B936C6EFE40C(){} // RVA: 0x167DB90
-        public void GetGameObject_3C1(){} // RVA: 0xD93DD0
-        public void GetGameObject_B72(){} // RVA: 0x167DBD0
-        public void HasPlayerTagOfType(){} // RVA: 0x167DBE0
-        public void AttachNetworkComponentToPlayer(){} // RVA: 0x167DE30
-        public void InitializeNetworkSyncContainer(){} // RVA: 0x167DE50
-        public void ComputehasVeryNegativeTrustLevel(){} // RVA: 0x167DF50
-        public void ResetNetworkWriteBuffer(){} // RVA: 0x167E0D0
-        public void DoGetFileApiURL(){} // RVA: 0x59F950
-        public void HasPlayerTagByComponent(){} // RVA: 0x167E130
-        public void ClearVoiceAndNotifyVisibility(){} // RVA: 0x167E330
-        public void Awake(){} // RVA: 0x167E950
-        public void DecryptPlayerEncryptionKey(){} // RVA: 0x167F830
-        public void GetTransform_0E5(){} // RVA: 0x37B370
-        public void InitializeNetworkSyncContainer_DA14D2FB1810(){} // RVA: 0x167FAA0
-        public void get_VoiceDistanceFar(){} // RVA: 0x167FC00
-        public void Start(){} // RVA: 0x167FC50
-        public void ComputeisActiveAndE_7EC8A7DB11D8(){} // RVA: 0x16808A0 | overloaded x2
-        public void GetOrCreatePlayerAnimationController(){} // RVA: 0x167FD30
-        public void set_UploadProgressChanged(){} // RVA: 0x167FD40
-        public void get_caretBlinkRate(){} // RVA: 0x167FE20
-        public void GetActiveInHierarchy_0C3(){} // RVA: 0xA96D30
-        public void SyncMuteStateFromNetwork(){} // RVA: 0x167FE70
-        public void set_VoiceGain(){} // RVA: 0x167FF60
-        public void GetGameObject(){} // RVA: 0x3485F0
-        public void GetOrCreateCachedNetworkView(){} // RVA: 0x1680280
-        public void IsLocalPlayerOrNoNetworkRef(){} // RVA: 0x16803D0
-        public void SetPlayerVoiceGainClamped(){} // RVA: 0x3A5590
-        public void GetTransform_FD1(){} // RVA: 0x16803E0
-        public void InitializeVRCPlayer(){} // RVA: 0x167FD40
-        public void GetTransform(){} // RVA: 0xD9F550
-        public void SetActive(){} // RVA: 0x1680440
-        public void TeleportToWithoutForce(){} // RVA: 0x1680560
-        public void BuildPlayerNetworkDataSnapshot(){} // RVA: 0x1680A00
-        public void HideAndDeactivateObject(){} // RVA: 0x1680A70
-        public void SetPlayerTagWithoutNotify_8B6BED8771B7(){} // RVA: 0x1686F20 | overloaded x2
-        public void InitializeVRCPlayerPlayer(){} // RVA: 0x1680F10
-        public void IsLocalPlayerOrInTrustGroup(){} // RVA: 0x167DBD0
-        public void CloneSingle(){} // RVA: 0x1680FC0
-        public void SelectAll(){} // RVA: 0xD86540
-        public void UpdatePlayerVoiceAndAvatar(){} // RVA: 0x1681180
-        public void GetPlayerAvatarIdFromNetworkOwner(){} // RVA: 0x1681430
-        public void SetAvatarObjectActiveFromLookup(){} // RVA: 0x1681480
-        public void GetAvatarObjectFromLookup(){} // RVA: 0x3A5500
-        public void get_AssemblyReader(){} // RVA: 0x16816B0
-        public void get_ComponentIntValueAt192(){} // RVA: 0x16817D0
-        public void InitializeVRCPlayer_829ADC57B90D(){} // RVA: 0xDB4D60
-        public void InitializeTransform(){} // RVA: 0xD182E0
-        public void ComputehasTrustedTrustLevel(){} // RVA: 0x16819A0
-        public void get_TimelineController(){} // RVA: 0x435460
-        public void __set_effectDistance__UnityEngineVector2__SystemVoid(){} // RVA: 0xD971B0
-        public void get_VoiceVolumetricRadius(){} // RVA: 0x1681BB0
-        public void SetCallbackIfStringMatches(){} // RVA: 0x1681E40
-        public void set_membersOnly(){} // RVA: 0x1681FD0
-        public void set_NetworkIDCollection(){} // RVA: 0x1682080
-        public void InitializeTransformPlayer(){} // RVA: 0x1682090
-        public void set_StaticFloatProperty(){} // RVA: 0x16820A0
-        public void SetFloatAndInvokeDelegate(){} // RVA: 0x16822B0
-        public void AttachNetworkComponentToPlayer_3678A6DB45BD(){} // RVA: 0x1682340
-        public void AllocateNetworkEventWithThreeArgs(){} // RVA: 0x1682390
-        public void get_VoiceDistanceNear(){} // RVA: 0x16840F0
-        public void set_ValidExpressions(){} // RVA: 0x16841C0
-        public void IsReadyAndNetworkActive(){} // RVA: 0x1684220
-        public void GetValue(){} // RVA: 0x1684330
-        public void TruncateStringToMaxLength(){} // RVA: 0x1684420
-        public void get_RootTaskCollection(){} // RVA: 0x2DD320
-        public void set_dpad(){} // RVA: 0x1684460
-        public void OnDestroy_impl(){} // RVA: 0x1684590
-        public void .ctor(){} // RVA: 0x1684AF0
-        public void Initialize(){} // RVA: 0x1685210
-        public void GetPosition(){} // RVA: 0x1685890
-        public void ToString_83C4FD7126F5(){} // RVA: 0x1685D50
-        public void get_onValidateInput(){} // RVA: 0x1685E30
-        public void TryFlushPendingVisibilityChange(){} // RVA: 0x1685F00
-        public void OnPlayerDisconnectCleanup_438575C768BF(){} // RVA: 0x1685FF0
-        public void get_destroyCancellationToken(){} // RVA: 0x1686000
-        public void ComputerealtimeSinceStar(){} // RVA: 0x16860D0
-        public void GetTargets(){} // RVA: 0x16862E0
-        public void get_onValueChanged(){} // RVA: 0x3C2850
-        public void get_Playlist(){} // RVA: 0x16863A0
-        public void CheckIsDone_1D0(){} // RVA: 0x1686640
-        public void get_RootTaskCollection_DEF46CB3A7B8(){} // RVA: 0xDA62D0
-        public void ComputeTransformFromBufferPosition(){} // RVA: 0x1686780
-        public void UpdateBipedIK(){} // RVA: 0x1498020
-        public void CreateAndRegisterNetworkCallback(){} // RVA: 0x1686790
-        public void SendBooleanNetworkEvent(){} // RVA: 0x519240
-        public void CheckIsDone_E12(){} // RVA: 0x16867A0
-        public void CheckIsDone_D9D(){} // RVA: 0x1686800
-        public void GetTransform_FD1_AE53917B7605(){} // RVA: 0x167FE20
-        public void set_recentering(){} // RVA: 0x1686930
-        public void GetNetworkCallingMetadata(){} // RVA: 0x1686A60
-        public void ConfiguretriggerPressed(){} // RVA: 0x1686BE0
-        public void IsPlayerNotBlockedByActorId(){} // RVA: 0x16877C0
-        public void get_UploadLength(){} // RVA: 0x16877D0
-        public void get_ActiveBlend(){} // RVA: 0x1687850
-        public void IsPlayerBlockedOrMuted(){} // RVA: 0x16879B0
-        public void SetPlayerNetworkTimestampAtomic(){} // RVA: 0x8A10E0
-        public void IsPlayerBlockedOrMuted_A4767A8AEC66(){} // RVA: 0x1687A00
-        public void ApplyAmountFromDoubledOrCopied(){} // RVA: 0x1687CB0
-        public void SetMuteIfNotLocal_4F14B3991414(){} // RVA: 0x1689F80 | overloaded x2
-        public void get_onValidateInput_21A8E8D40F11(){} // RVA: 0x1688200
-        public void IsPlayerPresentInWorldByNetworkId(){} // RVA: 0x1688230
-        public void ResolveNetworkPlayerReference(){} // RVA: 0x16882B0
-        public void SerializePlayerPositionWithTimestamp(){} // RVA: 0x16882C0
-        public void SetActive_366(){} // RVA: 0x1688340
-        public void ComputeisPlaying(){} // RVA: 0x16884A0
-        public void IsPlayerInCurrentWorldInstanceAlt(){} // RVA: 0x1688880
-        public void InitializeNetworkState(){} // RVA: 0xD8D540
-        public void set_UploadProgressChanged_F2470A50C787(){} // RVA: 0x1688890
-        public void SetForm(){} // RVA: 0x16888A0
-        public void ApplyAnimationStateToPlayer(){} // RVA: 0x1688A20
-        public void ForwardInputFlagToSerializer(){} // RVA: 0x1688B00
-        public void CloneSingle_004394BD6CC2(){} // RVA: 0x1688D30
-        public void PlayEmoteRPC_F511FA89C88E(){} // RVA: 0xD90760
-        public void IsPlayerAvatarAndNetworkReady_1CEF35557A61(){} // RVA: 0x1688F20
-        public void GetPlayerSteamIdFromSingleton(){} // RVA: 0x1688FD0
-        public void InitializePlayerState(){} // RVA: 0x1688FE0
-        public void ToString(){} // RVA: 0x16890C0
-        public void SetVisibilityDirtyFlags(){} // RVA: 0x16892E0
-        public void GetGameObject_CB0(){} // RVA: 0x1689380
-        public void SetEnabled_D26(){} // RVA: 0xD90B00
-        public void SetEnabled_95E(){} // RVA: 0x1689480
-        public void SetEnabled_DE4(){} // RVA: 0x167FD30
-        public void SetEnabled_3F4(){} // RVA: 0x16894C0
-        public void ReloadAvatarNetworkedRPC(){} // RVA: 0x16894D0
-        public void StartCoroutineAuto(){} // RVA: 0x1689600
-        public void InitializePlayerNetworkComponents(){} // RVA: 0x1689750
-        public void Getposition(){} // RVA: 0x1689830
-        public void GetGameObject_187(){} // RVA: 0x1689A50
-        public void GetGameObject_638(){} // RVA: 0xDB44F0
-        public void GetGameObject_197(){} // RVA: 0x1689DD0
-        public void GetSpineMapping(){} // RVA: 0x1689ED0
-        public void OnDestroy_A388ECA13E7B(){} // RVA: 0x1689FB0
-        public void get_CreateHttpMessageHandler(){} // RVA: 0x168A080
-        public void get_statusDescription(){} // RVA: 0x168A0A0
-        public void get_membersOnly(){} // RVA: 0x168A2B0
-        public void get_onTextSelection(){} // RVA: 0x168A650
-        public void get_UploadProgressChanged(){} // RVA: 0x168A6A0
-        public void ShouldSyncPlayerDataThisFrame(){} // RVA: 0x168A860
-        public void GetPlayerAvatarDisplayName(){} // RVA: 0x168AB50
-        public void InitializePlayerStatePlayer(){} // RVA: 0x168ABD0
-        public void set_NetworkIDLookup(){} // RVA: 0x168ABE0
-        public void DoaddOnMessageLogged(){} // RVA: 0x37B370
-        public void GetGameObject_8BA(){} // RVA: 0x168AC40
-        public void GetDeltaTime_C44(){} // RVA: 0x168ACC0
-        public void ReplaceAndNormalizeComponentEntry(){} // RVA: 0x168ADB0
-        public void ValidateComplexState(){} // RVA: 0xA8EE80
-        public void Initialize_F4B681F3EA3E(){} // RVA: 0x3CB9E0
-        public void OpInequality(){} // RVA: 0x168AE20
-        public void IsPlayerBlockedOrRestricted(){} // RVA: 0x168AEB0
-        public void get_Enabled(){} // RVA: 0x168AF60
-        public void set_app(){} // RVA: 0x168AF70
-        public void SetNetworkSyncTarget(){} // RVA: 0x168B110
-        public void InitializePlayerSyncTarget(){} // RVA: 0x168B270
-        public void Doop_Subtraction(){} // RVA: 0x168B340
-        public void CheckVRCPlayer(){} // RVA: 0x168B470
-        public void set_home(){} // RVA: 0xDA82B0
-        public void ApplyTrustLevelToNameplate(){} // RVA: 0x168B7C0
-        public void DoFindRelativeTransformWithPath_65D(){} // RVA: 0x168B980
-        public void get_contentList(){} // RVA: 0xD85A20
-        public void get_PlayerApiReference_58F2CC4866B7(){} // RVA: 0x168BB40
-        public void Decode(){} // RVA: 0x168BB50
-        public void get_disclaimerText_3AEAAD8964A9(){} // RVA: 0x168BC50
-        public void get_SelectedAudioInputDevice(){} // RVA: 0x168BEF0
-        public void GetSyncedParametersDefault(){} // RVA: 0x168C020
-        public void GetActiveAvatarDescriptorComponent(){} // RVA: 0x168C900
-        public void get_gameObject(){} // RVA: 0x168CA40
-        public void IsActiveOrPendingDeactivation(){} // RVA: 0x168CAB0
-        public void InvokeVirtualPropertyGetter(){} // RVA: 0x168CE70
-        public void hash(){} // RVA: 0x168CF90
-        public void SetPlayerAvatarNameplateText(){} // RVA: 0x168CFF0
-        public void AllocateBooleanEventData(){} // RVA: 0x168D450
-        public void InitializeAvatarState(){} // RVA: 0x168D560
-        public void EnsureDictionaryAtOffset368_C6B7AD6B1C1B(){} // RVA: 0x168DCF0 | overloaded x2
-        public void GetBufferAsTypeSafe_5C7E0A67B58E(){} // RVA: 0x168D9C0
-        public void TryGetDictionaryValueByKey(){} // RVA: 0x168DA20
-        public void get_StaticFloatProperty(){} // RVA: 0x168DB50
-        public void OnEnable(){} // RVA: 0x391BE0
-        public void Doop_Subtraction_2A04E0487B69(){} // RVA: 0x168DDE0
-        public void HasStoredDataAndNotStaticFlag(){} // RVA: 0x168DF90
-        public void .cctor_27AACCBF055D(){} // RVA: 0xD93D70
-        public void DoInverse_Injecte(){} // RVA: 0x168E090
-        public void Decode_B7BBB96FB96B(){} // RVA: 0x168E250
-        public void ResetEnumeratorAndFlag(){} // RVA: 0x168E3A0
-        public void IsPlayerActiveInHierarchy(){} // RVA: 0x168E3C0
-        public void get_PlatformOptionsIOS(){} // RVA: 0x168E4A0
-        public void ComputehasKnownTrustLevel(){} // RVA: 0x3A5500
-        public void TryApplyPlayerPickupInteraction(){} // RVA: 0x168E5C0
-        public void DeserializeNetworkState(){} // RVA: 0x168E6A0
-        public void IsLocalPlayerOrStaticFlagSet(){} // RVA: 0x168E750
-        public void CanProcessDataType2(){} // RVA: 0x2DD320
-        public void InitializePhotonConnection(){} // RVA: 0x168E7D0
-        public void set_position(){} // RVA: 0x168E7E0
-        public void InitializePhotonConnectionPlayer(){} // RVA: 0x168E880
-        public void GetTypeCode(){} // RVA: 0xD9ABC0
-        public void ReloadAvatarNetworkedRPC_A1E3D1252921(){} // RVA: 0x168E9C0
-        public void get_fontAsset(){} // RVA: 0x168E9D0
-        public void InitializeNetworkTransform(){} // RVA: 0x168E9E0
-        public void InitializeNetworkTransformPlayer(){} // RVA: 0x168F780
-        public void Computetransform_0A0F04318632(){} // RVA: 0x168FB90
-        public void get_NetworkStatusListener(){} // RVA: 0x1690150
-        public void GetVRCPlayer(){} // RVA: 0x1690230
-        public void UpdateVRCPlayer(){} // RVA: 0x1691050
-        public void .cctor(){} // RVA: 0x1691210
-        public void DoJoinCore(){} // RVA: 0x16914E0
-        public void SetTags(){} // RVA: 0x1691530
-        public void SetAutoSizing(){} // RVA: 0xD83B50
-        public void UpdateAnimator(){} // RVA: 0x1691740
+        public void Cleanup(){} // RVA: 0x30B0C0
+        public void .ctor(){} // RVA: 0x30B0D0
         // ── Unresolved (hash) ──
-        public void m_649(){} // RVA: 0x167B2C0
-        public void m_00F(){} // RVA: 0x1680470
+        public void m_595(){} // RVA: 0x652A40
+        public void m_FD9(){} // RVA: 0x652A40
+        public void m_DF2(){} // RVA: 0x652A40
+        public void m_607(){} // RVA: 0x652A40
+        public void m_503(){} // RVA: 0x652A40
+        public void m_06E(){} // RVA: 0x652A40
+        public void m_C1B(){} // RVA: 0x652A40
+        public void m_804(){} // RVA: 0x652A40
+    }
+
+    /// <summary>Originally: ÏÌÌÎÎÎÍÎÏÏÌÎÌÍÌÍÏÏÌÍÌÌÍ</summary>
+    public class VideoClipPlayerBinding
+    {
+        public UnityEngine.Video.VideoClip[] ÏÌÍÍÏÍÍÍÏÌÎÌÏÍÎÎÌÍÌÏÏÎÏ; // 0x30
+        public UnityEngine.GameObject ÏÌÎÎÌÌÍÍÍÍÎÏÏÌÌÍÌÍÍÏÌÍÏ; // 0x38
+        public UnityEngine.Video.VideoClip ÏÎÌÍÏÏÏÍÌÏÍÌÍÎÍÍÏÏÏÍÎÍÌ; // 0x40
+        public UnityEngine.Video.VideoPlayer ÎÎÌÏÎÎÌÏÌÏÎÏÎÍÍÍÍÍÍÎÍÎÎ; // 0x48
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1972850
+        public void Initialize(){} // RVA: 0x1971F10
+        // ── 19 unresolved (hash) ──
+        public void m_BF4(){} // RVA: 0x1971AE0
+        public void m_404(){} // RVA: 0x1971C10
+        public void m_DC8(){} // RVA: 0x1971DE0
+        public void m_59E(){} // RVA: 0x1971F10
+        public void m_87F(){} // RVA: 0x1971F70
+        // ... 14 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ</summary>
+    public class VideoPlayerOverlayStatusText
+    {
+        public ÍÏÎÏÏÏÌÍÏÏÍÏÌÎÌÌÏÏÍÌÎÌÌ ÌÍÎÍÎÏÌÎÏÍÎÌÏÏÌÎÍÍÎÍÍÏÏ; // 0xD0
+        public VRC.Localization.LocalizableString ÍÍÎÎÏÌÍÌÍÎÍÏÍÏÍÍÌÌÍÌÏÌÏ; // 0xD8
+        public UnityEngine.Color ÌÏÌÍÍÍÏÌÍÍÌÌÌÎÎÌÍÏÍÏÏÌÎ; // 0x100
+        public float ÏÏÍÍÏÏÎÏÏÏÎÎÎÍÌÍÎÌÌÍÍÎÌ; // 0x110
+        public 0x659891B0 ÏÌÌÍÎÌÍÏÏÎÍÏÎÏÌÏÎÎÏÌÎÎÌ; // 0x114
+        public 0x65989208 ÎÏÍÍÏÎÎÎÎÌÎÍÎÍÏÏÎÎÏÍÏÌÎ; // 0x118
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x9414F80
+        public void OnDestroy(){} // RVA: 0x9415300
+        public void get_inputType(){} // RVA: 0x7363390
+        public void GetVideoPlayerError_277BDEF81D04(){} // RVA: 0x94160C0 | overloaded x2
+        public void OpenVideoPlayerOverlay(){} // RVA: 0x9415FB0
+        public void CloseVideoPlayerOverlay(){} // RVA: 0x9416040
+        public void RefreshVideoPlayerState(){} // RVA: 0x9416270
+        // ── 20 unresolved (hash) ──
+        public void m_246(){} // RVA: 0x9414E60
+        public void m_F8E(){} // RVA: 0x9414EC0
+        public void m_FF4(){} // RVA: 0x9414F20
+        public void m_9D6(){} // RVA: 0x94153D0
+        public void m_2BC(){} // RVA: 0x94154E0
+        // ... 15 more unresolved methods
     }
 
 }

@@ -223,3 +223,6 @@ output/_codex_*.md
 
 # === EAC research scratch (lives in private vrc-runtime-re) ===
 output/_eac_*.md
+
+# === Field-type naming raw predictions (merged into fieldtype_class_names.json) ===
+output/fieldtype_name_predictions*.json

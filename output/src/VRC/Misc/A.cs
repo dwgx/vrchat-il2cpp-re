@@ -1,10 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 783
+// Methods: 795
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÍÏÍÍÎÏÏÍÎÍÌÌÎÌÏÌÏÌÎÎÍÍÍ</summary>
+    public class AVProMovieCaptureBinding
+    {
+        public UnityEngine.GameObject ÏÌÎÎÌÌÍÍÍÍÎÏÏÌÌÍÌÍÍÏÌÍÏ; // 0x10
+        public ÍÏÍÍÎÏÏÍÎÍÌÌÎÌÏÌÏÌÎÎÍÍÍ ÏÌÏÎÌÌÏÎÌÍÍÍÍÌÌÎÏÏÏÌÌÏÍ;
+        public RenderHeads.Media.AVProMovieCapture.CaptureBase ÎÌÏÏÌÏÌÎÍÌÎÎÎÌÍÏÌÎÌÌÎÎÏ; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4F8F10
+        public void Initialize(){} // RVA: 0x4F9120
+        public void .ctor_CA72A33FA256(){} // RVA: 0x4FA030
+        // ── 13 unresolved (hash) ──
+        public void m_A85(){} // RVA: 0x4F8E30
+        public void m_B46(){} // RVA: 0x4F9470
+        public void m_046(){} // RVA: 0x4F9760
+        public void m_7ED(){} // RVA: 0x4F9A10
+        public void m_214(){} // RVA: 0x4F9A60
+        // ... 8 more unresolved methods
+    }
+
     /// <summary>Originally: ÍÌÎÎÌÏÎÏÌÍÏÌÍÍÌÎÏÍÎÏÎÍÎ</summary>
     public class Accept_8D22_5814
     {
@@ -503,16 +523,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ</summary>
     public class AddContainsCollection_FA03
     {
-    }
-
-    /// <summary>Originally: ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ</summary>
-    public class AddContainsCollection_FA03
-    {
-        // ── Methods ──
-        public void Contains(){} // RVA: 0xCD60
-        public void CopyTo(){} // RVA: 0x24B10
-        public void Clear(){} // RVA: 0x24B10
-        public void Add(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÏÎÎÏÎÏÍÎÍÍÎÎÎÍÏÏÏÌÎÏÏÎÍ</summary>

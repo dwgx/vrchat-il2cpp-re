@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Animation
-// Classes: 51
-// Methods: 1004
+// Classes: 49
+// Methods: 927
 
 namespace VRC.Animation
 {
@@ -358,25 +358,6 @@ namespace VRC.Animation
         public void get_IsReadOnly_FEE767C95910(){} // RVA: 0xDBE0
     }
 
-    /// <summary>Originally: ÏÌÌÎÏÌÏÌÎÎÌÌÍÌÌÍÎÎÍÌÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_823D
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        // ── Unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_605(){} // RVA: 0xCD60
-        public void m_329(){} // RVA: 0xCD60
-        public void m_0E5(){} // RVA: 0xCD60
-        public void m_1E6(){} // RVA: 0xCD60
-        public void m_885(){} // RVA: 0x1D72330
-        public void m_829(){} // RVA: 0x1D72390
-        public void m_4B9(){} // RVA: 0xCD60
-        public void m_BE2(){} // RVA: 0xCD60
-    }
-
     /// <summary>Originally: ÏÍÍÌÏÍÏÍÌÍÌÌÌÎÏÌÎÌÏÌÏÎÎ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_9D70
     {
@@ -655,70 +636,6 @@ namespace VRC.Animation
         public void m_CB6(){} // RVA: 0xF1D2B0
         public void m_FA0(){} // RVA: 0xF1D460
         // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÌÎÌÌÌÍÏÏÍÏÎÍÎÏÏÎÏÏÍÌÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_E748
-    {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÏÍÍÏÌÏÍÍÎÎÏÍÍÌÍÍÌÎÌÍÍÏÍ; // 0x20
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> ÏÌÌÏÎÏÎÎÍÏÍÍÎÍÌÌÌÍÍÍÎÎÍ; // 0x28
-        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x30
-        public VRC.Localization.LocalizableString <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x58
-        public bool <ÎÎÌÎÎÏÍÍÏÏÏÎÏÍÍÌÏÎÎÎÏÍÎ>k__BackingField; // 0x80
-        public string <ÏÌÎÌÍÌÏÌÍÎÎÎÍÍÍÏÍÌÏÏÌÌÏ>k__BackingField; // 0x88
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÏÎÏÏÍÌÍÎÍÎÎÎÌÏÍÎÎÌÏÍÍÍ>k__BackingField; // 0x90
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÏÌÏÌÏÌÏÍÏÍÏÌÎÍÏÎÏÏÎÎÎÎÍ>k__BackingField; // 0x98
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0xA0
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÏÎÏÌÏÌÍÌÌÏÌÍÍÍÏÏÎÎÌÎÍÌ>k__BackingField; // 0xA8
-        public System.Action ÌÏÏÏÌÌÍÏÍÌÍÏÍÍÏÏÍÎÍÌÌÌÏ; // 0xB0
-
-        // ── Methods ──
-        public void Contains(){} // RVA: 0x1B6CF70
-        public void CopyTo(){} // RVA: 0xF4D950
-        public void Clear(){} // RVA: 0x1B6D430
-        public void Add(){} // RVA: 0x1B6D6C0
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void Remove(){} // RVA: 0x9EACB0
-        public void GetRealtimeSinceStartup(){} // RVA: 0xEB5BA0
-        public void get_Current(){} // RVA: 0x1B6D710
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_Data(){} // RVA: 0x30B130
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void get_completePromotionOnPress(){} // RVA: 0x5A8B10
-        public void set_completePromotionOnPress(){} // RVA: 0x5A6190
-        public void get_SameFunc(){} // RVA: 0x31C010
-        public void set_relatedTarget(){} // RVA: 0x463060
-        public void get_description(){} // RVA: 0x796DE0
-        public void set_description(){} // RVA: 0xB54600
-        public void get_focusController(){} // RVA: 0xA1C8C0
-        public void set_focusController(){} // RVA: 0x9AA650
-        public void InitializeSparseHashTable(){} // RVA: 0x9E9990
-        public void VisitGCHandles(){} // RVA: 0xD0A030
-        public void MarkObjectReferences(){} // RVA: 0xF03830
-        public void GetComponentByName(){} // RVA: 0x1B6D960
-        public void GetComponentByName_3E2EB0500792(){} // RVA: 0x1B6DE60
-        public void GetComponentByName_3500641AEF8F(){} // RVA: 0x1B6E0D0
-        public void GetComponentByName_2421D67722DB(){} // RVA: 0x1B6E1B0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void GetComponentByName_D9C290E29305(){} // RVA: 0x1B6E240
-        public void GetComponentByName_3BB3CE7FD164(){} // RVA: 0x1B6E260
-        public void get_thumbnailImageUrl(){} // RVA: 0xA085E0
-        public void get_pointerType(){} // RVA: 0xA1C130
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void GetComponentByName_CB6D097317B6(){} // RVA: 0x1B6E280
-        public void ReadCameraState_34AA1C0B24D3(){} // RVA: 0x1B6EFA0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x1B6F420
-        public void Initialize(){} // RVA: 0x9E8FF0
-        // ── 26 unresolved (hash) ──
-        public void m_5FD(){} // RVA: 0x1B6D730
-        public void m_20A(){} // RVA: 0x1B6D7A0
-        public void m_CAF(){} // RVA: 0x1B6D7F0
-        public void m_F73(){} // RVA: 0x1B6D810
-        public void m_A0E(){} // RVA: 0x1B6D850
-        // ... 21 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÏÌÍÌÎÍÌÎÌÌÏÏÎÏÎÌÏÏÍÏÏ</summary>

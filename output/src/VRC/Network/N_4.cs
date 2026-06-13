@@ -8,246 +8,6 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
-        public System.Collections.Generic.List`1<ÌÏÎÌÏÏÌÌÍÌÏÍÌÏÏÍÍÎÏÍÌÏÌ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<System.Collections.Generic.List`1<ÌÏÎÌÏÏÌÌÍÌÏÍÌÏÏÍÍÎÏÍÌÏÌ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public System.Collections.Generic.List`1<ÏÏÎÍÌÎÎÍÌÌÌÎÌÌÍÌÍÍÌÍÌÌÌ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<System.Collections.Generic.List`1<ÏÏÎÍÌÎÎÍÌÌÌÎÌÌÍÌÍÍÌÍÌÌÌ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public UnityEngine.Sprite ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<UnityEngine.Sprite> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public System.Collections.Generic.List`1<ÌÏÌÍÏÌÌÍÌÌÍÌÎÍÌÍÎÏÌÌÌÎÏ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<System.Collections.Generic.List`1<ÌÏÌÍÏÌÌÍÌÌÍÌÎÍÌÍÎÏÌÌÌÎÏ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
-        public System.Collections.Generic.List`1<ÎÌÌÌÏÌÍÎÎÌÌÏÌÌÏÎÌÍÌÌÍÎÎ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
-        public System.Action`1<System.Collections.Generic.List`1<ÎÌÌÌÏÌÍÎÎÌÌÏÌÌÏÎÌÍÌÌÍÎÎ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
-
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x2DD310
-        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
-        public void CreateFromToRotation(){} // RVA: 0x50C6930
-        public void Dispose(){} // RVA: 0x2DD310
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void Read(){} // RVA: 0x50C1CB0
-        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
-        public void InitializeCollection(){} // RVA: 0x2DD310
-        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
-        public void Clear(){} // RVA: 0x50C1E90
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void MemSet(){} // RVA: 0x50C6F20
-        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
-        public void Initialize(){} // RVA: 0x2DD310
-        public void set_Item(){} // RVA: 0x50C20D0
-        public void Add(){} // RVA: 0x50C21E0
-        public void ToString(){} // RVA: 0x50C7090
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x2DD310
-        public void m_6EA(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_2821
-    {
         public System.Collections.Generic.List`1<ÍÌÏÏÍÍÎÍÏÌÎÍÍÏÏÌÏÌÏÍÍÎÏ> ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
         public System.Action`1<System.Collections.Generic.List`1<ÍÌÏÏÍÍÎÍÏÌÎÍÍÏÏÌÏÌÏÍÍÎÏ>> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
 
@@ -2980,6 +2740,246 @@ namespace VRC.Network
     {
         public 0x6588B708 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
         public System.Action`1<0x6588B708> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B7B8 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B7B8> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B810 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B810> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<ÍÎÌÏÌÏÍÎÌÏÌÎÎÏÏÌÎÍÏÏÌÍÍ> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C6930
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x30B0C0
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
+        public void Clear(){} // RVA: 0x50C1E90
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C6F20
+        public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C7090
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B868 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B868> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B8C0 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B8C0> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B918 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B918> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588B9C8 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588B9C8> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x2DD310
+        public void Dispose_51FBC0D981AD(){} // RVA: 0x2DD310
+        public void CreateFromToRotation(){} // RVA: 0x50C4A60
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Cleanup(){} // RVA: 0x760030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
+        public void InitializeCollection(){} // RVA: 0x2DD310
+        public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
+        public void Clear(){} // RVA: 0x50C4700
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
+        public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
+        public void Initialize(){} // RVA: 0x2DD310
+        public void set_Item(){} // RVA: 0x50C20D0
+        public void Add(){} // RVA: 0x50C21E0
+        public void ToString(){} // RVA: 0x50C5180
+        // ── Unresolved (hash) ──
+        public void m_6F8(){} // RVA: 0x2DD310
+        public void m_6EA(){} // RVA: 0x2DD310
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_2821
+    {
+        public 0x6588BA20 ÏÎÍÏÍÌÍÍÍÌÌÏÏÌÍÌÍÏÎÎÎÏÎ; // 0x20
+        public System.Action`1<0x6588BA20> ÎÏÏÏÏÎÌÎÏÎÌÍÎÌÏÎÍÍÎÏÍÎÏ; // 0x28
 
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x2DD310

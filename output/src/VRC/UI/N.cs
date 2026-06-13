@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 1
-// Methods: 28
+// Classes: 2
+// Methods: 51
 
 namespace VRC.UI
 {
@@ -39,6 +39,34 @@ namespace VRC.UI
         // ── Unresolved (hash) ──
         public void m_7BB(){} // RVA: 0x18C9C10
         public void m_249(){} // RVA: 0x18CC6F0
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÏÎÎÌÏÍÌÏÌÎÎÌÏÎÍÍÌÎ</summary>
+    public class NewIndicatorButton
+    {
+        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _label; // 0x20
+        public UnityEngine.UI.Button _button; // 0x28
+        public ÌÏÍÎÏÏÎÌÍÎÍÌÍÏÏÍÏÌÎÍÎÌÎ _radioButtonSelector; // 0x30
+        public UnityEngine.GameObject _newIndicator; // 0x38
+
+        // ── Methods ──
+        public void set_DefaultCreatorNonPublic(){} // RVA: 0x10F2C40
+        public void get_Comparer(){} // RVA: 0x6374D0
+        public void InverseTransformPoint(){} // RVA: 0x10F2C40
+        public void set_authorId(){} // RVA: 0x464450
+        public void OnDestroy(){} // RVA: 0x8D30F00
+        public void get_MoveNext(){} // RVA: 0x462D00
+        public void get_Comparer_5027CE3220AD(){} // RVA: 0x6374D0
+        public void GetRect(){} // RVA: 0x1342AB0
+        public void GetRect_296E6D2EAFEC(){} // RVA: 0x1342AB0
+        public void .ctor(){} // RVA: 0x2DDD50
+        // ── 13 unresolved (hash) ──
+        public void m_0DB(){} // RVA: 0x8D305E0
+        public void m_578(){} // RVA: 0x8D30760
+        public void m_852(){} // RVA: 0x8D308E0
+        public void m_5B8(){} // RVA: 0x8D30D30
+        public void m_87D(){} // RVA: 0x8D30D80
+        // ... 8 more unresolved methods
     }
 
 }

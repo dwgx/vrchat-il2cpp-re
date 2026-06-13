@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 908
+// Methods: 918
 
 namespace VRC.Network
 {
@@ -12,6 +12,33 @@ namespace VRC.Network
         public void CreateCollection(){} // RVA: 0x2F090
         public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
+    }
+
+    /// <summary>Originally: ÎÍÏÍÎÌÏÌÎÎÌÎÏÌÍÏÍÎÍÍÌÌÎ</summary>
+    public class VRCNetworkBehaviourSiblinRelated_B113
+    {
+        public UnityEngine.GameObject ÎÏÍÎÌÍÌÌÏÎÌÎÎÌÌÎÏÎÎÍÏÌÌ; // 0x48
+
+        // ── Methods ──
+        public void OverlapCircleArray(){} // RVA: 0xE9EA00
+        public void BoxCastNonAlloc_B8128706856D(){} // RVA: 0xEA0AD0 | overloaded x2
+        public void get_ResponseModels(){} // RVA: 0x358D50
+        public void .ctor(){} // RVA: 0xE9F550
+        public void OverlapCircleArray_9436304ECBFF(){} // RVA: 0xE9F5A0
+        public void get_ResponseModels_8C00BB24E03F(){} // RVA: 0x358D50
+        public void set_ResponseModels(){} // RVA: 0x358D60
+        public void CapsuleCastNonAlloc(){} // RVA: 0xE9FE50
+        public void get_ResponseModels_FA79D652A77A(){} // RVA: 0x358D50
+        public void InternalSphereCastNonAllocInjected(){} // RVA: 0xEA0100
+        public void OverlapSphereNonAlloc(){} // RVA: 0xEA0220
+        public void BoxCastNonAlloc_54A5461007E0(){} // RVA: 0xEA05F0
+        // ── 11 unresolved (hash) ──
+        public void m_125(){} // RVA: 0xE9F2A0
+        public void m_A3E(){} // RVA: 0xE9F640
+        public void m_AC9(){} // RVA: 0xE9F860
+        public void m_B27(){} // RVA: 0xE9FA80
+        public void m_253(){} // RVA: 0xE9FB60
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÏÍÏÏÎÍÏÌÏÎÍÌÌÎÌÎÏÎÏÍÌ</summary>
@@ -341,32 +368,6 @@ namespace VRC.Network
         public void m_F7C(){} // RVA: 0x19689C0
         public void m_77C(){} // RVA: 0x1F5C450
         public void m_96F(){} // RVA: 0x1F5C5A0
-    }
-
-    /// <summary>Originally: ÎÍÎÌÏÏÏÌÏÏÍÌÏÏÎÎÌÍÏÏÎÎÎ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_404C
-    {
-        public UnityEngine.UI.Button f_FE2; // 0x20
-        public UnityEngine.GameObject f_34C; // 0x28
-        public VRC.UI.Core.Styles.StyleElement f_BBE; // 0x30
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x4A6500
-        public void get_CloseOutput(){} // RVA: 0x4A6500
-        public void get_CloseOutput_969577A2EFD6(){} // RVA: 0x4A6500
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void GetTransformChildCount_609445D97B38_65C2A27448FD(){} // RVA: 0x30B0D0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        // ── Unresolved (hash) ──
-        public void m_F10(){} // RVA: 0x92B6860
-        public void m_F6B(){} // RVA: 0x92B6990
-        public void m_4F5(){} // RVA: 0x92B6B60
-        public void m_3B3(){} // RVA: 0x92B6DC0
-        public void m_101(){} // RVA: 0x92B6F90
-        public void m_8E4(){} // RVA: 0x92B7160
-        public void m_35D(){} // RVA: 0x92B72B0
-        public void m_E0D(){} // RVA: 0x92B73E0
     }
 
     /// <summary>Originally: ÎÍÎÏÎÍÌÍÏÌÏÌÍÏÍÍÏÍÏÎÏÎÎ</summary>
@@ -868,22 +869,6 @@ namespace VRC.Network
         // ... 12 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÌÍÌÌÍÍÌÎÌÌÍÌÏÍÎÍÍÌÍÌÌÏ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_73B1
-    {
-        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
-
-        // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void FormatIntegerValue(){} // RVA: 0x204E220
-        public void FormatIntegerArgument(){} // RVA: 0x204E420
-        // ── Unresolved (hash) ──
-        public void m_96F(){} // RVA: 0x204E020
-        public void m_9CA(){} // RVA: 0x19689C0
-        public void m_F7C(){} // RVA: 0x19689C0
-        public void m_AEE(){} // RVA: 0x204E620
-    }
-
     /// <summary>Originally: ÎÌÍÏÏÍÍÍÍÍÌÏÎÏÍÌÎÎÍÌÎÍÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_778F
     {
@@ -1258,6 +1243,19 @@ namespace VRC.Network
         public void m_C31(){} // RVA: 0x1F745A0
         public void m_F2B(){} // RVA: 0x1F745F0
         public void m_C01(){} // RVA: 0x1F74640
+    }
+
+    /// <summary>Originally: ÎÍÏÌÏÍÎÎÍÏÏÍÏÍÏÍÎÎÌÍÎÏÎ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_B913
+    {
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x1F83570
+        public void Cleanup(){} // RVA: 0x1F835C0
+        public void ComputeCrc32(){} // RVA: 0x1F83680
+        public void ComputeCrc32_2F048217F2F1(){} // RVA: 0x1F836D0
+        public void ComputeCrc32_C0175E97133A(){} // RVA: 0x1F83720
+        public void ComputeCrc32_F2B7F5C46C70(){} // RVA: 0x1F837E0
+        public void ComputeCrc32_24F8FB692E5A(){} // RVA: 0x1F83830
     }
 
     /// <summary>Originally: ÎÌÏÏÍÌÍÌÏÌÎÎÏÏÎÏÍÏÍÌÍÏÏ</summary>

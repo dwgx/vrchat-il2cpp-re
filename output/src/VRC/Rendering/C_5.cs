@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
 // Classes: 100
-// Methods: 439
+// Methods: 451
 
 namespace VRC.Rendering
 {
@@ -140,21 +140,6 @@ namespace VRC.Rendering
     {
     }
 
-    /// <summary>Originally: ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ</summary>
-    public class CameraBeginInvokeEndInvoke_1F56
-    {
-    }
-
-    /// <summary>Originally: ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ</summary>
-    public class CameraBeginInvokeEndInvoke_1F56
-    {
-    }
-
-    /// <summary>Originally: ÏÎÍÏÎÍÏÍÏÌÏÌÎÌÌÏÍÎÎÏÌÏÏ</summary>
-    public class CameraBeginInvokeEndInvoke_1F56
-    {
-    }
-
     /// <summary>Originally: ÏÍÍÎÌÌÎÎÏÍÎÌÍÎÏÍÍÍÏÏÌÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_241D
     {
@@ -192,6 +177,16 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x1EDD880
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x20850D0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
+    /// <summary>Originally: ÎÏÍÍÌÎÌÌÌÎÌÍÍÎÍÌÎÏÎÍÎÏÌ</summary>
+    public class CameraBeginInvokeEndInvoke_3124
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FAC840
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
@@ -292,6 +287,16 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x1EDD880
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x1F34630
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
+    /// <summary>Originally: ÎÏÌÏÌÎÏÌÏÏÍÍÌÍÎÎÎÌÏÌÏÏÎ</summary>
+    public class CameraBeginInvokeEndInvoke_650D
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE6380
         public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
@@ -883,6 +888,16 @@ namespace VRC.Rendering
         public void Invoke(){} // RVA: 0x338C60
         public void BeginInvoke(){} // RVA: 0x1F8B6A0
         public void EndInvoke(){} // RVA: 0x1EDD9F0
+    }
+
+    /// <summary>Originally: ÎÏÍÎÎÍÎÌÎÏÍÍÎÏÏÎÏÏÏÍÏÏÎ</summary>
+    public class CameraBeginInvokeEndInvoke_FC2D
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xC094B0
+        public void Invoke(){} // RVA: 0xC09580
+        public void BeginInvoke(){} // RVA: 0xC095A0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÎÌÏÍÍÎÏÎÏÍÎÎÍÍÏÎ</summary>

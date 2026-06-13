@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
-// Classes: 4
-// Methods: 60
+// Classes: 5
+// Methods: 89
 
 namespace VRC.Rendering
 {
@@ -53,6 +53,35 @@ namespace VRC.Rendering
         public void .cctor(){} // RVA: 0x903FD40
         public void Handle(){} // RVA: 0x9043D30
         public void .ctor(){} // RVA: 0x9043D90
+    }
+
+    /// <summary>Originally: ÌÏÏÎÌÌÏÌÏÌÎÍÌÏÎÎÏÏÌÎÌÍÎ</summary>
+    public class LineRendererEndpointPair
+    {
+        public float ÎÏÍÌÌÏÌÍÌÍÏÌÍÍÏÌÍÌÌÎÍÎÎ;
+        public float ÍÍÍÍÎÎÌÍÎÎÏÎÍÌÎÌÍÎÏÌÍÏÎ;
+        public UnityEngine.Transform ÏÎÌÍÍÏÍÌÏÎÎÏÌÏÍÌÏÎÏÎÏÏÎ; // 0x20
+        public UnityEngine.Transform ÎÍÍÏÌÏÏÌÍÏÎÎÌÍÍÍÍÎÍÏÍÏÍ; // 0x28
+        public UnityEngine.LineRenderer ÍÌÏÌÍÍÌÌÌÌÍÍÏÏÎÏÏÌÌÌÍÏÎ; // 0x30
+        public UnityEngine.LineRenderer ÍÌÎÏÏÏÌÎÏÌÌÍÏÌÍÎÎÏÍÎÍÎÎ; // 0x38
+
+        // ── Methods ──
+        public void get_IsDataValid(){} // RVA: 0x86B8D0
+        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
+        public void AddFromToForce_58CEA1EB071C_DF1188AB439D(){} // RVA: 0x358730
+        public void .ctor(){} // RVA: 0x86CFA0
+        public void Initialize(){} // RVA: 0x86D4C0
+        public void get_IsInitialized(){} // RVA: 0x86DB40
+        public void set_IsInitialized(){} // RVA: 0x86DB50
+        public void AddFromToForce_58CEA1EB071C_6E005AEF8278(){} // RVA: 0x358730
+        public void StringType(){} // RVA: 0x37E0E0
+        // ── 20 unresolved (hash) ──
+        public void m_F97(){} // RVA: 0x86B8E0
+        public void m_925(){} // RVA: 0x86BA10
+        public void m_FED(){} // RVA: 0x86BB80
+        public void m_289(){} // RVA: 0x86BCF0
+        public void m_21E(){} // RVA: 0x86BD90
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÎÎÎÍÎÏÏÍÎÌÎÌÏÍÌÎÌÎÏÌÎ</summary>

@@ -1,37 +1,10 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 100
-// Methods: 913
+// Methods: 899
 
 namespace VRC.Network
 {
-    /// <summary>Originally: ÎÍÏÍÎÌÏÌÎÎÌÎÏÌÍÏÍÎÍÍÌÌÎ</summary>
-    public class VRCNetworkBehaviourSiblinRelated_B113
-    {
-        public UnityEngine.GameObject ÎÏÍÎÌÍÌÌÏÎÌÎÎÌÌÎÏÎÎÍÏÌÌ; // 0x48
-
-        // ── Methods ──
-        public void OverlapCircleArray(){} // RVA: 0xE9EA00
-        public void BoxCastNonAlloc_B8128706856D(){} // RVA: 0xEA0AD0 | overloaded x2
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void .ctor(){} // RVA: 0xE9F550
-        public void OverlapCircleArray_9436304ECBFF(){} // RVA: 0xE9F5A0
-        public void get_ResponseModels_8C00BB24E03F(){} // RVA: 0x358D50
-        public void set_ResponseModels(){} // RVA: 0x358D60
-        public void CapsuleCastNonAlloc(){} // RVA: 0xE9FE50
-        public void get_ResponseModels_FA79D652A77A(){} // RVA: 0x358D50
-        public void InternalSphereCastNonAllocInjected(){} // RVA: 0xEA0100
-        public void OverlapSphereNonAlloc(){} // RVA: 0xEA0220
-        public void BoxCastNonAlloc_54A5461007E0(){} // RVA: 0xEA05F0
-        // ── 11 unresolved (hash) ──
-        public void m_125(){} // RVA: 0xE9F2A0
-        public void m_A3E(){} // RVA: 0xE9F640
-        public void m_AC9(){} // RVA: 0xE9F860
-        public void m_B27(){} // RVA: 0xE9FA80
-        public void m_253(){} // RVA: 0xE9FB60
-        // ... 6 more unresolved methods
-    }
-
     /// <summary>Originally: ÎÎÏÍÏÎÎÍÏÍÌÌÌÌÎÎÏÍÌÏÍÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_02F6
     {
@@ -44,6 +17,21 @@ namespace VRC.Network
         public void m_410(){} // RVA: 0x1FA8CD0
         public void m_CF3(){} // RVA: 0x1FA8DF0
         public void m_95D(){} // RVA: 0x1FA8F10
+    }
+
+    /// <summary>Originally: ÎÏÏÏÏÍÍÎÌÌÏÎÏÍÌÎÎÎÍÏÏÏÎ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_03F6
+    {
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x1F44A80
+        public void Cleanup(){} // RVA: 0x1F44AD0
+        // ── Unresolved (hash) ──
+        public void m_410(){} // RVA: 0x1F44870
+        public void m_C31(){} // RVA: 0x1F44990
+        public void m_2F0(){} // RVA: 0x1F449E0
+        public void m_6F8(){} // RVA: 0x1F44A30
+        public void m_24F(){} // RVA: 0x1F44BF0
+        public void m_CF3(){} // RVA: 0x1F44D10
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÌÍÏÍÍÎÏÏÎÌÌÌÍÎÍÏÎ</summary>
@@ -1085,19 +1073,6 @@ namespace VRC.Network
         public void m_9CA(){} // RVA: 0x1AD4690
     }
 
-    /// <summary>Originally: ÎÍÏÌÏÍÎÎÍÏÏÍÏÍÏÍÎÎÌÍÎÏÎ</summary>
-    public class VRCNetworkBehaviourSibling_BF5Sibling_B913
-    {
-        // ── Methods ──
-        public void Dispose(){} // RVA: 0x1F83570
-        public void Cleanup(){} // RVA: 0x1F835C0
-        public void ComputeCrc32(){} // RVA: 0x1F83680
-        public void ComputeCrc32_2F048217F2F1(){} // RVA: 0x1F836D0
-        public void ComputeCrc32_C0175E97133A(){} // RVA: 0x1F83720
-        public void ComputeCrc32_F2B7F5C46C70(){} // RVA: 0x1F837E0
-        public void ComputeCrc32_24F8FB692E5A(){} // RVA: 0x1F83830
-    }
-
     /// <summary>Originally: ÎÎÏÏÍÏÎÏÌÍÏÌÎÌÎÎÏÌÌÌÏÌÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_BBA7
     {
@@ -1328,6 +1303,25 @@ namespace VRC.Network
         public void m_CF3(){} // RVA: 0x1F9D5E0
         public void m_016(){} // RVA: 0x1F9D740
         public void m_6F8(){} // RVA: 0x1F9DA70
+    }
+
+    /// <summary>Originally: ÎÏÏÎÏÏÍÌÌÍÌÌÏÎÎÎÍÏÎÍÌÏÎ</summary>
+    public class VRCNetworkBehaviourSibling_BF5Sibling_CFC5
+    {
+        public 0x65800EE0 ÍÏÍÌÏÎÎÏÏÌÌÏÎÌÏÏÎÌÌÍÏÎÎ; // 0x10
+
+        // ── Methods ──
+        public void SetLocalScale(){} // RVA: 0x1F01B10
+        public void GetIsHuman(){} // RVA: 0x1F02130
+        public void get_ByteBuffer(){} // RVA: 0x19689C0
+        // ── Unresolved (hash) ──
+        public void m_AEE(){} // RVA: 0x1F01E20
+        public void m_DBC(){} // RVA: 0x19689C0
+        public void m_CCF(){} // RVA: 0x19689C0
+        public void m_F7C(){} // RVA: 0x19689C0
+        public void m_CB6(){} // RVA: 0x19689C0
+        public void m_77C(){} // RVA: 0x1F02440
+        public void m_536(){} // RVA: 0x1F02750
     }
 
     /// <summary>Originally: ÎÏÌÏÏÏÏÎÌÎÏÎÏÎÍÎÌÎÌÎÏÏÎ</summary>

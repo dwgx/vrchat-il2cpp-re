@@ -1,73 +1,47 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 1
-// Methods: 43
+// Methods: 31
 
 namespace VRC.Network
 {
-    /// <summary>Originally: ÏÏÌÎÍÏÍÎÍÎÎÎÍÎÏÌÍÍÏÍÏÍÎ</summary>
-    public class AudioPhotonRoomComponent_638E
+    /// <summary>Originally: ÍÎÏÍÏÎÎÍÌÎÍÌÍÏÍÏÏÌÌÍÏÎÍ</summary>
+    public class AnimatorAnimationNetworkSyncable
     {
-        public ÏÏÌÎÍÏÍÎÍÎÎÎÍÎÏÌÍÍÏÍÏÍÎ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
-        public UnityEngine.Audio.AudioMixer _mixer; // 0x20
-        public UnityEngine.AudioSource _referenceONSPConversionVoiceSource; // 0x28
-        public UnityEngine.AudioSource _referenceONSPConversionWorldSource; // 0x30
-        public bool _allowOverrideFromRemoteConfig; // 0x38
-        public float _nearFieldILDNudgeEarRadius; // 0x3C
-        public float _nearFieldILDNudgeEarTranslate; // 0x40
-        public float _nearFieldILDNudgeDistance; // 0x44
-        public float _nearFieldILDNudge; // 0x48
-        public UnityEngine.AnimationCurve _nearFieldILDNudgeOnEarBoost; // 0x50
-        public UnityEngine.AnimationCurve _nearFieldILDNudgeOffEarDuck; // 0x58
-        public UnityEngine.AnimationCurve _nearFieldGlobalBoostGain; // 0x60
-        public float _perEarDirectionalityFadeDistance; // 0x68
-        public float _perEarDirectionalityEarRadius; // 0x6C
+        public UnityEngine.Animator ÎÌÌÌÍÍÌÌÎÌÎÍÏÎÌÎÍÍÍÌÎÎÎ; // 0x58
+        public UnityEngine.Animation ÍÏÎÍÌÌÌÏÎÍÎÍÏÎÏÌÌÍÌÎÎÍÏ; // 0x60
+        public bool ÎÎÍÌÎÎÏÍÍÏÌÎÎÍÏÏÏÍÍÌÎÎÏ; // 0x68
 
         // ── Methods ──
-        public void PauseInjected(){} // RVA: 0x759E020
-        public void PauseInjected_9027A0499247(){} // RVA: 0x759E140
-        public void set_isBulkGift(){} // RVA: 0x3BCCF0
-        public void set_description(){} // RVA: 0xB54600
-        public void get_SameFunc(){} // RVA: 0x31C010
-        public void IsInvoking(){} // RVA: 0x2FE500
-        public void .ctor(){} // RVA: 0x759E2A0
-        public void Initialize(){} // RVA: 0x37B370
-        public void IsNull_Injected(){} // RVA: 0x759E390
-        public void Play_Injected(){} // RVA: 0x759E3D0
-        public void get_forceVignetteValue(){} // RVA: 0x646FE60
-        public void PlayInjected(){} // RVA: 0x759E590
-        public void StringType(){} // RVA: 0x37E0E0
-        public void set_relatedTarget(){} // RVA: 0x463060
-        public void InitializeD74F9E3B7B27(){} // RVA: 0xEBB900
-        public void OnEnable(){} // RVA: 0x759E5A0
-        public void Start(){} // RVA: 0x759E8C0
-        public void Update(){} // RVA: 0x759E960
-        public void GetTime_Injected(){} // RVA: 0x759EA90
-        public void LateUpdate(){} // RVA: 0x31C010
-        public void OnDisable(){} // RVA: 0x759EAC0
-        public void OnDestroy(){} // RVA: 0x759EC20
-        public void OnApplicationPause(){} // RVA: 0x759ED70
-        public void OnApplicationQuit(){} // RVA: 0x759EE20
-        public void OnBecameVisible(){} // RVA: 0x759EFA0
-        public void OnBecameInvisible(){} // RVA: 0x759F020
-        public void OnCollisionEnter(){} // RVA: 0x759F0C0
-        public void OnCollisionStay(){} // RVA: 0x759F400
-        public void Awake(){} // RVA: 0x759F470
-        public void OnTriggerEnter(){} // RVA: 0x3BCCE0
-        public void OnTriggerStay(){} // RVA: 0x759F630
-        public void OnTriggerExit(){} // RVA: 0x759EFA0
-        public void PlayInjected_0023B178F7A1(){} // RVA: 0x759F6D0
-        public void PauseInjected_02BAD44E4D0C(){} // RVA: 0x759F800
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void IsNullInjected(){} // RVA: 0x759FB60
-        public void StringType_3F48B966397F(){} // RVA: 0x37E0E0
-        public void get_description(){} // RVA: 0x796DE0
+        public void OnDestroy_97E061972639(){} // RVA: 0x1729960
+        public void OnDestroy(){} // RVA: 0x1729960
+        public void Encode(){} // RVA: 0x172E640 | overloaded x2
+        public void CanSerialize32Bit(){} // RVA: 0x2DD320
+        public void ConfigureRectTransform(){} // RVA: 0x172A680
+        public void ConfigureRectTransform_E662F03BA68E(){} // RVA: 0x172A6C0
+        public void NeedsSync(){} // RVA: 0x3C2850
+        public void SerializedName(){} // RVA: 0x172A820
+        public void Decode(){} // RVA: 0x172BE80 | overloaded x2
+        public void .ctor(){} // RVA: 0x172A9D0
+        public void Initialize(){} // RVA: 0x1729960
+        public void RetryConnection(){} // RVA: 0x59F950
+        public void CanSerialize8Bit(){} // RVA: 0x3C2850
+        public void OnDestroy_8A373DF3FE68(){} // RVA: 0x1729960
+        public void set_TypeId(){} // RVA: 0x172B020
+        public void CopyTo(){} // RVA: 0x172BAF0
+        public void Start(){} // RVA: 0x172BDE0
+        public void get_TypeId(){} // RVA: 0xA850E0
+        public void NeedsImportant(){} // RVA: 0x2DD320
+        public void Awake(){} // RVA: 0x172DE80
         // ── Unresolved (hash) ──
-        public void m_25E(){} // RVA: 0x759DD10
-        public void m_471(){} // RVA: 0x759DE00
-        public void m_D7F(){} // RVA: 0x759DED0
-        public void m_717(){} // RVA: 0x759DF80
-        public void m_223(){} // RVA: 0x759E120
+        public void m_5A2(){} // RVA: 0x172AB80
+        public void m_B2E(){} // RVA: 0x172AE30
+        public void m_96E(){} // RVA: 0x172AE70
+        public void m_A66(){} // RVA: 0x172BC70
+        public void m_3A8(){} // RVA: 0x172D300
+        public void m_540(){} // RVA: 0x172DDE0
+        public void m_EED(){} // RVA: 0x172F120
+        public void m_ADD(){} // RVA: 0x172F290
     }
 
 }
