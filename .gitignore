@@ -220,3 +220,6 @@ output/ida_logs/
 
 # === Codex task spec scratch files ===
 output/_codex_*.md
+
+# === EAC research scratch (lives in private vrc-runtime-re) ===
+output/_eac_*.md
